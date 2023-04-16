@@ -34,17 +34,12 @@ Based on the described mapping and a combination of the datasets, we arrive to t
 | corpus                 | Hypothesis sentences | Non-hypothesis sentences | total        | 
 |---                     |---                   |---                       |---           |
 | ART/CoreSC             | 656 (1.9%)           | 34024 (98.1%)            | 34680 (100%) |
-|                        |                      |                          |              |
 | Multi-CoreSC CRA       | 152 (1.8%)           | 8349 (98.2%)             | 8501 (100%)  |
-|                        |                      |                          |              |
 | SciARG                 | 48 (1.2%)            | 3938 (98.8)              | 3986 (100%)  |
-|                        |                      |                          |              |
 | PHAEDRA                |                      |                          | 3012 (100%)  |
 |                        |                      |                          |              |
-| Meta-knowledge_GENIA   | 763 (L1) - 2990 (L1+L2)|8609 (L1) - 6382 (L1+L2)| 9372 (100%) |
-|                        |                      |                          |              |
-|---                     |---                   |---                       |---           |
-| aggregated             |                      |                          |              |
+| Meta-knowledge_GENIA   | 763 (L1) - 2990 (L1+L2)|8609 (L1) - 6382 (L1+L2)| 9372 (100%)  |
+| __aggregated__         |                      |                          |              |
 
 The results in a significantly unbalanced corpus, with a minority class represented in less than 2% of the sentences.
 
