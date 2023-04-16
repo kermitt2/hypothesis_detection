@@ -1,0 +1,10 @@
+T9	Adverse_effect 109 119	associated
+T10	Adverse_effect 254 259	after
+T13	Adverse_effect 318 326	recurred
+T16	Adverse_effect 17 27	Associated
+R1	Coreference Arg1:T14 Arg2:T11
+E3	Combination:T12 has_participant:T3 has_participant:T4
+E1	Adverse_effect:T9 has_agent:T2 affects:T6
+E2	Adverse_effect:T10 has_agent:E3 affects:T11
+E4	Adverse_effect:T13 has_agent:T5 affects:T14
+E5	Adverse_effect:T16 has_agent:T1 affects:T15

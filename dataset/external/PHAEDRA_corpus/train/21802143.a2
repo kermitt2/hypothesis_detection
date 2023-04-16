@@ -1,0 +1,18 @@
+T48	DDI 13 24	interaction
+T51	Potential_therapeutic_effect 99 100	c
+T56	DDI 184 195	interaction
+T59	DDI 486 498	interactions
+T60	DDI 622 633	interaction
+T66	Potential_therapeutic_effect 940 951	prophylaxis
+R1	is_equivalent Arg1:T9 Arg2:T10
+R2	is_equivalent Arg1:T19 Arg2:T20
+R3	is_equivalent Arg1:T8 Arg2:T5
+R4	Subject_Disorder Arg1:T64 Arg2:T25
+E1	DDI:T48 has_participant:T1 has_participant:T2
+E3	DDI:T56 has_participant:T8 has_participant:T9
+E4	DDI:T59 has_participant:T15 has_participant:T16 has_subject:T17 has_cue:T83
+E5	DDI:T60 has_participant:T61 has_participant:T62
+E7	Combination:T84 has_participant:T19 has_participant:T62
+E2	Potential_therapeutic_effect:T51 has_agent:T3 has_subject:T49
+E6	Potential_therapeutic_effect:T66 has_agent:T65 affects:T26 has_subject:T64
+A1	Negated E4

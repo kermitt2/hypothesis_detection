@@ -1,0 +1,23 @@
+T50	Potential_therapeutic_effect 262 269	treated
+T51	Adverse_effect 52 62	associated
+T4	Adverse_effect 167 177	associated
+T12	Adverse_effect 286 295	developed
+T33	Adverse_effect 633 638	cause
+T47	Potential_therapeutic_effect 1097 1104	therapy
+T43	Adverse_effect 1076 1082	during
+T10	Adverse_effect 1196 1208	complication
+R2	is_equivalent Arg1:T13 Arg2:T14
+R4	Subject_Disorder Arg1:T29 Arg2:T7
+R8	Subject_Disorder Arg1:T40 Arg2:T38
+R9	Subject_Disorder Arg1:T39 Arg2:T48
+R10	Subject_Disorder Arg1:T42 Arg2:T22
+E7	Potential_therapeutic_effect:T50 has_agent:T8 affects:T7 has_subject:T29
+E8	Adverse_effect:T51 has_agent:T3 affects:T1
+E1	Adverse_effect:T4 has_agent:T6 affects:T2
+E2	Adverse_effect:T12 affects:T9 has_agent:T8 has_subject:T29
+E3	Adverse_effect:T33 has_cue:T44 affects:T17 affects:T18 has_agent:T15 has_agent:T16
+E9	Potential_therapeutic_effect:T47 has_agent:T24 has_subject:T42 has_subject:T39
+E4	Adverse_effect:T43 has_agent:T24 affects:T22 affects:T48 has_subject:T42 has_subject:T39
+E5	Adverse_effect:T10 has_agent:T27 has_cue:T5 affects:T25
+A1	Speculated E5
+A3	Speculated E3

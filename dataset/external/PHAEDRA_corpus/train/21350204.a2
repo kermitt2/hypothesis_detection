@@ -1,0 +1,24 @@
+T5	Potential_therapeutic_effect 94 101	treated
+T9	Adverse_effect 47 56	increased
+T21	Adverse_effect 209 223	increased risk
+T41	Potential_therapeutic_effect 285 294	receiving
+T27	Potential_therapeutic_effect 1126 1133	treated
+T31	Potential_therapeutic_effect 1204 1213	receiving
+T33	Adverse_effect 1322 1332	associated
+T42	Potential_therapeutic_effect 1847 1856	treatment
+T43	Potential_therapeutic_effect 1915 1921	taking
+R1	Subject_Disorder Arg1:T40 Arg2:T8
+R5	Subject_Disorder Arg1:T23 Arg2:T20
+R7	Subject_Disorder Arg1:T35 Arg2:T38
+E1	Potential_therapeutic_effect:T5 has_agent:T4 affects:T3
+E2	Adverse_effect:T9 has_cue:T12 affects:T2 has_agent:T1
+E3	Adverse_effect:T21 has_cue:T36 has_agent:T6 affects:T7 has_subject:T40
+E4	Potential_therapeutic_effect:T41 affects:T8 has_agent:T10
+E5	Potential_therapeutic_effect:T27 has_agent:T22 has_subject:T23
+E6	Potential_therapeutic_effect:T31 has_subject:T29 has_agent:T24
+E7	Adverse_effect:T33 has_cue:T34 has_agent:T25 affects:T26 affects:T28 affects:T30
+E8	Potential_therapeutic_effect:T42 has_agent:T37 has_subject:T35
+E9	Potential_therapeutic_effect:T43 has_agent:T39 has_subject:T35 affects:T38
+A1	Negated E2
+A2	Speculated E3
+A3	Negated E7

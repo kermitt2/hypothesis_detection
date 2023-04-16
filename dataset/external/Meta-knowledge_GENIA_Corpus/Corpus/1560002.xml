@@ -1,0 +1,141 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1560002" created="14/11/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1560002</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The <term id="T1" lex="B_cell-specific_nuclear_factor" sem="Protein_family_or_group">B cell-specific nuclear factor</term> <term id="T2" lex="OTF-2" sem="Protein_molecule">OTF-2</term> positively regulates <term id="T3" lex="transcription" sem="Other">transcription</term> of the <term id="T4" lex="human_class_II_transplantation_gene" sem="DNA_domain_or_region">human class II transplantation gene</term>, <term id="T5" lex="DRA" sem="DNA_domain_or_region">DRA</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="T2"/>
+<clue>The <clueLoc>B cell</clueLoc>-specific nuclear factor OTF-2 <clueType>positively regulates</clueType> transcription of the human class II transplantation gene, DRA.</clue>
+</event>
+<event id="E2">
+<type class="Transcription"/>
+<theme idref="T5"/>
+<clue>The B cell-specific nuclear factor OTF-2 positively regulates <clueType>transcription</clueType> <linkTheme>of</linkTheme> the <corefTheme>human class II transplantation gene</corefTheme>, DRA.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The promoter of the <term id="T6" lex="major_histocompatibility_class_II_gene" sem="DNA_domain_or_region">major histocompatibility class II gene</term> <term id="T7" lex="DRA" sem="DNA_domain_or_region">DRA</term> contains an <term id="T8" lex="octamer_element" sem="DNA_domain_or_region">octamer element</term> (<term id="T9" lex="ATTTGCAT" sem="Polynucleotide">ATTTGCAT</term>) that is required for efficient <term id="T10" lex="DRA_expression" sem="Other"><term id="T11" lex="DRA" sem="DNA_domain_or_region">DRA</term> expression</term> in <term id="T12" lex="B_cell" sem="Cell_natural">B cells</term>.</sentence>
+<event KT="Fact" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="T9"/>
+<clue>The promoter of the major histocompatibility class II gene DRA contains an octamer element (ATTTGCAT) that is <clueType>required</clueType> <linkTheme>for</linkTheme> efficient DRA expression in B cells.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Gene_expression"/>
+<theme idref="T11"/>
+<clue>The promoter of the major histocompatibility class II gene DRA contains an octamer element (ATTTGCAT) that is required for efficient DRA <clueType>expression</clueType> <clueLoc>in B cells</clueLoc>.</clue>
+</event>
+<sentence id="S3">Several <term id="T13" lex="DNA-binding_protein" sem="Protein_family_or_group">DNA-binding proteins</term> are known to bind this sequence.</sentence>
+<event KT="Fact" id="E5">
+<type class="Binding"/>
+<theme idref="T13"/>
+<theme idref="T9"/>
+<clue>Several DNA-binding proteins are <clueKT>known</clueKT> to <clueType>bind</clueType> <corefTheme>this sequence</corefTheme>.</clue>
+<comment>OK</comment></event>
+<sentence id="S4">The best characterized are the <term id="T14" lex="B_cell-specific_OTF-2" sem="Protein_molecule">B cell-specific <term id="T15" lex="OTF-2" sem="Protein_molecule">OTF-2</term></term> and the ubiquitous <term id="T16" lex="OTF-1" sem="Protein_molecule">OTF-1</term>.</sentence>
+<sentence id="S5">This report directly demonstrates that <term id="T17" lex="OTF-2" sem="Protein_molecule">OTF-2</term> but not <term id="T18" lex="OTF-1" sem="Protein_molecule">OTF-1</term> regulates the <term id="T19" lex="DRA_gene" sem="DNA_domain_or_region">DRA gene</term>.</sentence>
+<event KT="Analysis" id="E6">
+<type class="Regulation"/>
+<theme idref="T19"/>
+<cause idref="T17"/>
+<clue>This <clueKT>report</clueKT> directly <clueKT>demonstrates</clueKT> that OTF-2 but not OTF-1 <clueType>regulates</clueType> the DRA gene.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E7">
+<type class="Regulation"/>
+<theme idref="T19"/>
+<cause idref="T18"/>
+<clue>This <clueKT>report</clueKT> directly <clueKT>demonstrates</clueKT> that OTF-2 but <cluePolarity>not</cluePolarity> OTF-1 <clueType>regulates</clueType> the DRA gene.</clue>
+</event>
+<sentence id="S6">In vitro <term id="T20" lex="transcription" sem="Other">transcription</term> analysis using protein fractions enriched for the octamer-binding protein <term id="T21" lex="OTF-2" sem="Protein_molecule">OTF-2</term> demonstrate a positive functional role for <term id="T22" lex="OTF-2" sem="Protein_molecule">OTF-2</term> in <term id="T24" lex="DRA gene transcription" sem="Other"><term id="T23" lex="DRA_gene" sem="DNA_domain_or_region">DRA gene</term> transcription</term>.</sentence>
+<event KT="Analysis" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="T22"/>
+<clue><clueExperiment>In vitro transcription analysis using protein fractions enriched for the octamer-binding protein OTF-2</clueExperiment> <clueKT>demonstrate</clueKT> a <clueType>positive</clueType> functional <clueType>role</clueType> <linkCause>for</linkCause> OTF-2 <linkTheme>in</linkTheme> DRA gene transcription.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Transcription"/>
+<theme idref="T23"/>
+<clue>In vitro transcription analysis using protein fractions enriched for the octamer-binding protein OTF-2 demonstrate a positive functional role for OTF-2 in DRA gene <clueType>transcription</clueType>.</clue>
+<comment>NER: T24 mod &quot;transcription&quot; -&gt;&quot;DRA gene transcription&quot;</comment></event>
+<sentence id="S7">In contrast, <term id="T25" lex="OTF-1-enriched_protein_fraction" sem="Protein_family_or_group"><term id="T26" lex="OTF-1" sem="Protein_molecule">OTF-1</term>-enriched protein fractions</term> did not affect <term id="T27" lex="DRA_gene_transcription" sem="Other"><term id="T28" lex="DRA_gene" sem="DNA_domain_or_region">DRA gene</term> transcription</term> although it functionally enhanced the <term id="T30" lex="transcription" sem="Other">transcription</term> of <term id="A1" sem="DNA_domain_or_region">another gene</term>.</sentence>
+<event Polarity="Negative" assertion="non-exist" id="E11">
+<type class="Regulation"/>
+<theme idref="E12"/>
+<cause idref="T26"/>
+<clue>In contrast, OTF-1-enriched protein fractions did <cluePolarity>not</cluePolarity> <clueType>affect</clueType> DRA gene transcription although it functionally enhanced the transcription of another gene.</clue>
+</event>
+<event id="E12">
+<type class="Transcription"/>
+<theme idref="T28"/>
+<clue>In contrast, OTF-1-enriched protein fractions did not affect DRA gene <clueType>transcription</clueType> although it functionally enhanced the transcription of another gene.</clue>
+<comment>NER: T29 del &quot;transcription&quot;</comment></event>
+<event id="E13">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="T26"/>
+<clue>In contrast, OTF-1-enriched protein fractions did not affect DRA gene transcription although <corefCause>it</corefCause> functionally <clueType>enhanced</clueType> the transcription of another gene.</clue>
+</event>
+<event id="E14">
+<type class="Transcription"/>
+<theme idref="A1"/>
+<clue>In contrast, OTF-1-enriched protein fractions did not affect DRA gene transcription although it functionally enhanced the <clueType>transcription</clueType> <linkTheme>of</linkTheme> another gene.</clue>
+</event>
+<sentence id="S8"><term id="T31" lex="recombinant_OTF-2_protein" sem="Protein_molecule">Recombinant <term id="T32" lex="OTF-2" sem="Protein_molecule">OTF-2</term> protein</term> produced by in vitro <term id="T34" lex="transcription" sem="Other">transcription</term>/<term id="T29" lex="translation" sem="Other">translation</term> could also enhance <term id="T35" lex="DRA_gene_transcription" sem="Other"><term id="T36" lex="DRA_gene" sem="DNA_domain_or_region">DRA gene</term> transcription</term> in vitro.</sentence>
+<event id="E10">
+<type class="Transcription"/>
+<theme idref="T31"/>
+<clue>Recombinant OTF-2 protein produced by in vitro <clueType>transcription</clueType>/translation could also enhance DRA gene transcription in vitro.</clue>
+</event>
+<event id="E22">
+<type class="Translation"/>
+<theme idref="T31"/>
+<clue>Recombinant OTF-2 protein produced by in vitro transcription/<clueType>translation</clueType> could also enhance DRA gene transcription in vitro.</clue>
+<comment>NER: T33 mod &quot;in vitro transcription/translation&quot;-&gt;&quot;translation&quot;</comment></event>
+<event id="E15">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<cause idref="T32"/>
+<clue>Recombinant OTF-2 protein produced by in vitro transcription/translation could also <clueType>enhance</clueType> DRA gene transcription in vitro.</clue>
+</event>
+<event id="E16">
+<type class="Transcription"/>
+<theme idref="T36"/>
+<clue>Recombinant OTF-2 protein produced by in vitro transcription/translation could also enhance DRA gene <clueType>transcription</clueType> in vitro.</clue>
+<comment>NER: T37 del &quot;transcription&quot;</comment></event>
+<sentence id="S9"><term id="T38" lex="in_vivo_transient_transfection_study" sem="Other">In vivo transient transfection studies</term> utilizing an <term id="T39" lex="OTF-2_expression_vector" sem="DNA_molecule"><term id="T40" lex="OTF-2" sem="Protein_molecule">OTF-2</term> expression vector</term> resulted in similar findings: that <term id="T41" lex="OTF-2_protein" sem="Protein_molecule"><term id="T42" lex="OTF-2" sem="Protein_molecule">OTF-2</term> protein</term> enhanced <term id="T43" lex="DRA_gene_transcription" sem="Other"><term id="T44" lex="DRA_gene" sem="DNA_domain_or_region">DRA gene</term> transcription</term>, and that this effect requires an intact <term id="T46" lex="octamer_element" sem="DNA_domain_or_region">octamer element</term>.</sentence>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="T42"/>
+<clue><clueExperiment>In vivo transient transfection studies utilizing an OTF-2 expression vector</clueExperiment> resulted in similar <clueKT>findings</clueKT>: that OTF-2 protein <clueType>enhanced</clueType> DRA gene transcription, and that this effect requires an intact octamer element.</clue>
+</event>
+<event id="E18">
+<type class="Transcription"/>
+<theme idref="T44"/>
+<clue>In vivo transient transfection studies utilizing an OTF-2 expression vector resulted in similar findings: that OTF-2 protein enhanced DRA gene <clueType>transcription</clueType>, and that this effect requires an intact octamer element.</clue>
+<comment>NER: T45 del &quot;transcription&quot;</comment></event>
+<event id="E19">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<cause idref="T46"/>
+<clue><clueExperiment>In vivo transient transfection studies utilizing an OTF-2 expression vector</clueExperiment> resulted in similar <clueKT>findings</clueKT>: that OTF-2 protein enhanced DRA gene transcription, and that <corefTheme>this effect</corefTheme> <clueType>requires</clueType> an intact octamer element.</clue>
+</event>
+<sentence id="S10">Together these results constitute the first direct evidence of a positive role for the <term id="T47" lex="lymphoid-specific_octamer-binding_factor" sem="Protein_family_or_group">lymphoid-specific octamer-binding factor</term> in <term id="T48" lex="DRA_gene_transcription" sem="Other"><term id="A2" sem="DNA_domain_or_region">DRA gene</term> transcription</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="T47"/>
+<clue>Together these results constitute the first direct <clueKT><clueCL>evidence</clueCL></clueKT> of a <clueType>positive role</clueType> <linkCause>for</linkCause> the lymphoid-specific octamer-binding factor <linkTheme>in</linkTheme> DRA gene transcription.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Transcription"/>
+<theme idref="A2"/>
+<clue>Together these results constitute the first direct evidence of a positive role for the lymphoid-specific octamer-binding factor in DRA gene <clueType>transcription</clueType>.</clue>
+<comment>NER: T49 del &quot;transcription&quot;</comment></event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

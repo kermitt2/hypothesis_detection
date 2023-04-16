@@ -1,0 +1,96 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9144338" created="13/11/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9144338</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Quantification of <term id="T1" lex="vitamin_D_receptor_mRNA" sem="RNA_family_or_group"><term id="T2" lex="vitamin_D_receptor" sem="Protein_molecule">vitamin D receptor</term> mRNA</term> by <term id="T3" lex="competitive_polymerase_chain_reaction" sem="Other">competitive polymerase chain reaction</term> in <term id="T4" lex="PBMC" sem="Cell_natural">PBMC</term>: lack of correspondence with <term id="T5" lex="common_allelic_variant" sem="DNA_family_or_group">common allelic variants</term>.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">It has been recently claimed that polymorphism for the <term id="T6" lex="vitamin_D_receptor" sem="Protein_molecule">vitamin D receptor</term> (<term id="T7" lex="VDR" sem="Protein_molecule">VDR</term>) influences several aspects of <term id="T8" lex="calcium" sem="Element">calcium</term> and <term id="T9" lex="bone_metabolism" sem="Other"><term id="T10" lex="bone" sem="Tissue_natural">bone</term> metabolism</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Metabolism"/>
+<theme idref="T8"/>
+<clue>It has been recently claimed that polymorphism for the vitamin D receptor (VDR) influences several aspects of calcium and bone <clueType>metabolism</clueType>.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Physiological_process"/>
+<theme idref="T10"/>
+<clue>It has been recently claimed that polymorphism for the vitamin D receptor (VDR) influences several aspects of calcium and bone <clueType>metabolism</clueType>.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E3" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E1"/>
+<cause idref="T7"/>
+<clue>It has been <clueSource>recently</clueSource> <clueKT>claimed</clueKT> that polymorphism for the vitamin D receptor (VDR) <clueType>influences</clueType> several aspects of calcium and bone metabolism.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E4" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E2"/>
+<cause idref="T7"/>
+<clue>It has been <clueSource>recently</clueSource> <clueKT>claimed</clueKT> that polymorphism for the vitamin D receptor (VDR) <clueType>influences</clueType> several aspects of calcium and bone metabolism.</clue>
+<comment>NER T16 MOD</comment></event>
+<sentence id="S3">To evaluate the physiologic plausibility of these claims, we compared the abundance of the <term id="T11" lex="VDR_mRNA" sem="RNA_molecule">VDR mRNA</term> in <term id="T12" lex="peripheral_blood_mononuclear_cell" sem="Cell_natural">peripheral blood mononuclear cells</term> (<term id="T13" lex="PBMC" sem="Cell_natural">PBMCs</term>) between different <term id="T14" lex="VDR_genotype" sem="Protein_family_or_group"><term id="T15" lex="VDR" sem="Protein_molecule">VDR</term> genotypes</term> using a <term id="T16" lex="polymerase_chain_reaction-based_method" sem="Other">quantitative reverse transcribed polymerase chain reaction-based method</term>.</sentence>
+<event KT="Investigation" id="E5" uncertainty="doubtful">
+<type class="Transcription"/>
+<theme idref="T11"/>
+<clue><clueKT>To evaluate</clueKT> the physiologic plausibility of these claims, we compared the <clueType>abundance</clueType> <linkTheme>of</linkTheme> the VDR mRNA <clueLoc>in peripheral blood mononuclear cells (PBMCs)</clueLoc> between different VDR genotypes <clueExperiment>using a quantitative reverse transcribed polymerase chain reaction-based method</clueExperiment>.</clue>
+<comment>NER T16 MOD</comment></event>
+<sentence id="S4">The method is based on the coamplification of <term id="T17" lex="VDR_cDNA" sem="DNA_molecule">VDR cDNA</term> and an internal standard consisting of known concentrations of a <term id="T18" lex="human_VDR_CDNA" sem="DNA_molecule">human VDR CDNA</term> mutated at a <term id="T19" lex="BglII_restriction_site" sem="DNA_domain_or_region">BglII restriction site</term>; the interassay coefficient of variation is 11%.</sentence>
+<sentence id="S5">To validate the method, we made use of earlier receptor binding studies indicating that <term id="T20" lex="normal_human_monocyte" sem="Cell_natural">normal human monocytes</term> and activated, but not resting, <term id="T21" lex="lymphocyte" sem="Cell_natural">lymphocytes</term> expressed the <term id="T22" lex="VDR" sem="Protein_molecule">VDR</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E6">
+<type class="Gene_expression"/>
+<theme idref="T22"/>
+<clue>To validate the method, we made use of earlier receptor binding studies <clueKT><clueCL>indicating</clueCL></clueKT> that <clueLoc>normal human monocytes</clueLoc> and activated, but not resting, lymphocytes <clueType>expressed</clueType> the VDR.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E106">
+<type class="Gene_expression"/>
+<theme idref="T22"/>
+<clue>To validate the method, we made use of earlier receptor binding studies <clueKT><clueCL>indicating</clueCL></clueKT> that normal human monocytes and <clueLoc>activated</clueLoc>, but not resting, <clueLoc>lymphocytes</clueLoc> <clueType>expressed</clueType> the VDR.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E7">
+<type class="Gene_expression"/>
+<theme idref="T22"/>
+<clue>To validate the method, we made use of earlier receptor binding studies <clueKT><clueCL>indicating</clueCL></clueKT> that normal human monocytes and activated, but <cluePolarity>not</cluePolarity> <clueLoc>resting, lymphocytes</clueLoc> <clueType>expressed</clueType> the VDR.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Physiological_process"/>
+<theme idref="T21"/>
+<clue>To validate the method, we made use of earlier receptor binding studies indicating that normal human monocytes and <clueType>activated</clueType>, but not resting, lymphocytes expressed the VDR.</clue>
+</event>
+<sentence id="S6">The concentration of the <term id="T23" lex="VDR_mRNA" sem="RNA_molecule">VDR mRNA</term> was 10(-8) to 10(-7) g/g of total <term id="T24" lex="RNA" sem="RNA_family_or_group">RNA</term> in <term id="T25" lex="cell-sorted_monocyte" sem="Cell_natural">cell-sorted monocytes</term> and in <term id="T26" lex="in_vitro_activated_lymphocyte" sem="Cell_natural">in vitro activated <term id="T27" lex="lymphocyte" sem="Cell_natural">lymphocytes</term></term>, but only 10(-12) g/g of <term id="T28" lex="total_mRNA" sem="RNA_family_or_group">total mRNA</term> in resting <term id="T29" lex="lymphocyte" sem="Cell_natural">lymphocytes</term>, establishing that the <term id="T30" lex="VDR_mRNA" sem="RNA_molecule">VDR mRNA</term> determined by our method in <term id="T31" lex="PBMC" sem="Cell_natural">PBMCs</term> is due to <term id="T32" lex="constitutive_expression" sem="Other">constitutive expression</term> in <term id="T33" lex="monocyte" sem="Cell_natural">monocytes</term>.</sentence>
+<event KT="Analysis" id="E9">
+<type class="Transcription"/>
+<theme idref="T30"/>
+<clue>The concentration of the VDR mRNA was 10(-8) to 10(-7) g/g of total RNA in cell-sorted monocytes and in in vitro activated lymphocytes, but only 10(-12) g/g of total mRNA in resting lymphocytes, <clueKT>establishing</clueKT> that the VDR mRNA determined by our method in PBMCs is due to constitutive <clueType>expression</clueType> <clueLoc>in monocytes</clueLoc>.</clue>
+<comment>NO COREFTHEME, Ner T24 T28 MOD</comment></event>
+<event id="E109">
+<type class="Physiological_process"/>
+<theme idref="T27"/>
+<clue>The concentration of the VDR mRNA was 10(-8) to 10(-7) g/g of total RNA in cell-sorted monocytes and in in vitro <clueType>activated</clueType> lymphocytes, but only 10(-12) g/g of total mRNA in resting lymphocytes, establishing that the VDR mRNA determined by our method in PBMCs is due to constitutive expression in monocytes.</clue>
+</event>
+<sentence id="S7">Following an initial genotype screening of 85 <term id="T34" lex="normal_volunteer" sem="Multicellular_organism_natural">normal volunteers</term> by <term id="T35" lex="polymerase_chain_reaction" sem="Other">polymerase chain reaction</term> or <term id="T36" lex="restriction_fragment_length_polymorphism_analysis" sem="Other"><term id="T37" lex="restriction_fragment_length_polymorphism" sem="DNA_domain_or_region">restriction fragment length polymorphism</term> analysis</term>, 14 <term id="T38" lex="individual" sem="Multicellular_organism_natural">individuals</term> with the <term id="T39" lex="Bb_genotype" sem="Other">Bb genotype</term>, 12 with the <term id="T40" lex="bb_genotype" sem="Other">bb genotype</term>, and 12 with the <term id="T41" lex="BB_genotype" sem="Other">BB genotype</term> were selected.</sentence>
+<sentence id="S8">The concentration of the <term id="T42" lex="VDR_mRNA" sem="RNA_molecule">VDR mRNA</term>, corrected for the number of <term id="T43" lex="monocyte" sem="Cell_natural">monocytes</term>, was similar among the three genotype groups, as were the other variables examined: <term id="T44" lex="serum_calcitriol" sem="Protein_molecule">serum calcitriol</term>, <term id="T45" lex="serum_osteocalcin" sem="Protein_molecule">serum osteocalcin</term>, and <cons id="T46" lex="(AND vertebral_bone_density hip_bone_density)" sem="(AND Other Other)"><frag id="F1">vertebral</frag> and <frag id="F2">hip</frag> <frag id="F3">bone density</frag></cons>.</sentence>
+<event id="E10">
+<type class="Transcription"/>
+<theme idref="T42"/>
+<clue>The <clueType>concentration</clueType> <linkTheme>of</linkTheme> the VDR mRNA, corrected for <clueLoc>the number of monocytes</clueLoc>, was similar <clueLoc>among the three genotype groups</clueLoc>, as were the other variables examined: serum calcitriol, serum osteocalcin, and vertebral and hip bone density.</clue>
+</event>
+<sentence id="S9">We conclude that <term id="T47" lex="VDR_polymorphism" sem="Other"><term id="T48" lex="VDR" sem="Protein_molecule">VDR</term> polymorphism</term> does not affect the abundance of the <term id="T49" lex="VDR_mRNA" sem="RNA_molecule"><term id="T50" lex="VDR_mRNA" sem="RNA_molecule"><term id="T51" lex="VDR" sem="Protein_molecule">VDR</term></term> mRNA</term>.</sentence>
+<event KT="Other" id="E11">
+<type class="Transcription"/>
+<theme idref="T49"/>
+<clue>We conclude that VDR polymorphism does not affect the <clueType>abundance</clueType> <linkTheme>of</linkTheme> the VDR mRNA.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E12">
+<type class="Regulation"/>
+<theme idref="E11"/>
+<cause idref="E13"/>
+<clue>We <clueKT>conclude</clueKT> that VDR polymorphism does <cluePolarity>not</cluePolarity> <clueType>affect</clueType> the abundance of the VDR mRNA.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Mutagenesis"/>
+<theme idref="T48"/>
+<clue>We conclude that VDR <clueType>polymorphism</clueType> does not affect the abundance of the VDR mRNA.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

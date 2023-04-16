@@ -1,0 +1,24 @@
+T6	DDI 12 23	interaction
+T40	Potential_therapeutic_effect 264 274	prescribed
+T41	Potential_therapeutic_effect 476 487	prophylaxis
+T44	DDI 602 613	interaction
+T54	DDI 2044 2055	interaction
+T56	DDI 1660 1672	interactions
+T62	DDI 2166 2177	interaction
+T63	DDI 2267 2278	interaction
+R2	Subject_Disorder Arg1:T22 Arg2:T26
+E1	DDI:T6 has_cue:T13 has_participant:T1 has_participant:T2
+E5	DDI:T44 has_participant:T12 has_participant:T10
+E4	Combination:T46 has_participant:T15 has_participant:T16
+E6	DDI:T54 has_participant:T33 has_participant:T34 has_cue:T53 has_cue:T55
+E7	DDI:T56 has_participant:T57 has_cue:T58 has_participant:T59
+E9	DDI:T62 has_participant:T35 has_participant:T36 has_cue:T61
+E10	DDI:T63 has_participant:T37 has_participant:T38 has_cue:T64
+E2	Potential_therapeutic_effect:T40 has_subject:T22 has_agent:T5 affects:T7 affects:T28
+E3	Potential_therapeutic_effect:T41 affects:T8 has_agent:T9
+A1	Speculated E1
+A2	Speculated E6
+A3	Negated E6
+A4	Speculated E7
+A5	Speculated E9
+A6	Negated E10

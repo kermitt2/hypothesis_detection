@@ -1,0 +1,20 @@
+T21	DDI 6 17	Interaction
+T48	DDI 491 507	drug interaction
+T47	DDI 1243 1254	interaction
+T7	Potential_therapeutic_effect 634 639	given
+T8	Potential_therapeutic_effect 680 688	followed
+T52	Potential_therapeutic_effect 53 55	in
+R8	Subject_Disorder Arg1:T12 Arg2:T3
+R9	Subject_Disorder Arg1:T12 Arg2:T4
+R3	Subject_Disorder Arg1:T49 Arg2:T24
+R5	Subject_Disorder Arg1:T49 Arg2:T25
+R10	Coreference Arg1:T51 Arg2:T49
+E1	DDI:T21 has_participant:T1 has_participant:T2 has_subject:T12
+E4	DDI:T48 has_participant:T22 has_participant:T23
+E5	Combination:T27 has_participant:T30 has_participant:T28
+E7	Combination:T31 has_participant:T32 has_participant:T33
+E9	DDI:T47 has_participant:T39 has_participant:T40
+E14	Combination:T13 has_participant:T5 has_participant:T9
+E11	Potential_therapeutic_effect:T7 has_agent:T26 has_subject:T51
+E12	Potential_therapeutic_effect:T8 has_agent:E5 has_subject:T51
+E15	Potential_therapeutic_effect:T52 has_subject:T12 affects:T3 affects:T4 has_agent:E1

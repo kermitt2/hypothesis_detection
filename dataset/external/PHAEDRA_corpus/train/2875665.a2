@@ -1,0 +1,9 @@
+T8	Adverse_effect 39 49	associated
+T11	Adverse_effect 101 111	associated
+T13	Adverse_effect 340 353	precipitating
+R1	Subject_Disorder Arg1:T9 Arg2:T5
+R2	Subject_Disorder Arg1:T10 Arg2:T7
+E4	Combination:T15 has_participant:T14 has_participant:T3
+E1	Adverse_effect:T8 affects:T1 has_agent:T2
+E2	Adverse_effect:T11 affects:T4 has_subject:T9 has_agent:E4
+E3	Adverse_effect:T13 has_agent:T12 affects:T6 has_subject:T10

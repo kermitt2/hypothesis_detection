@@ -1,0 +1,283 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10228026" created="22/05/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10228026</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T2" lex="thrombin" sem="Protein_molecule">Thrombin</term>-induced <term id="T1" lex="thrombin-induced_p65_homodimer" sem="Protein_complex"><term id="T3" lex="p65" sem="Protein_molecule">p65</term> homodimer</term> binding to downstream <term id="T4" lex="NF-kappa_B_site" sem="DNA_domain_or_region"><term id="T5" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> site</term> of the promoter mediates <term id="T6" lex="endothelial_ICAM-1_expression" sem="Other">endothelial <term id="T7" lex="ICAM-1" sem="Protein_molecule">ICAM-1</term> expression</term> and <term id="T8" lex="neutrophil_adhesion" sem="Other"><term id="T9" lex="neutrophil" sem="Cell_natural">neutrophil</term> adhesion</term>.</sentence>
+<event id="E1">
+<type class="Binding"/>
+<theme idref="T1"/>
+<theme idref="T4"/>
+<clue>Thrombin-induced p65 homodimer <clueType>binding</clueType> <linkTheme>to</linkTheme> downstream NF-kappa B site of the promoter mediates endothelial ICAM-1 expression and neutrophil adhesion.</clue>
+<comment>NER T1, T2 mod</comment></event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T2"/>
+<clue>Thrombin-<clueType>induced</clueType> p65 homodimer binding to downstream NF-kappa B site of the promoter mediates endothelial ICAM-1 expression and neutrophil adhesion.</clue>
+</event>
+<event id="E3">
+<type class="Gene_expression"/>
+<theme idref="T7"/>
+<clue>Thrombin-induced p65 homodimer binding to downstream NF-kappa B site of the promoter mediates <clueLoc>endothelial</clueLoc> ICAM-1 <clueType>expression</clueType> and neutrophil adhesion.</clue>
+</event>
+<event id="E4">
+<type class="Cell_adhesion"/>
+<theme idref="T9"/>
+<clue>Thrombin-induced p65 homodimer binding to downstream NF-kappa B site of the promoter mediates endothelial ICAM-1 expression and neutrophil <clueType>adhesion</clueType>.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="E2"/>
+<clue>Thrombin-induced p65 homodimer binding to downstream NF-kappa B site of the promoter <clueType>mediates</clueType> endothelial ICAM-1 expression and neutrophil adhesion.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="E2"/>
+<clue>Thrombin-induced p65 homodimer binding to downstream NF-kappa B site of the promoter <clueType>mediates</clueType> endothelial ICAM-1 expression and neutrophil adhesion.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">We investigated the mechanisms by which <term id="T10" lex="proinflammatory_mediator" sem="Protein_family_or_group">proinflammatory mediator</term>, <term id="T11" lex="thrombin" sem="Protein_molecule">thrombin</term>, released during <term id="T12" lex="intravascular_coagulation" sem="Other">intravascular coagulation</term> and <term id="T13" lex="tissue_injury" sem="Other">tissue injury</term>, induces <term id="T14" lex="ICAM-1_(CD54)_expression" sem="Other"><term id="T15" lex="ICAM-1" sem="Protein_molecule">ICAM-1</term> (<term id="T16" lex="CD54" sem="Protein_molecule">CD54</term>) expression</term> in <term id="T17" lex="endothelial_cell" sem="Cell_natural">endothelial cells</term>.</sentence>
+<event KT="Fact" id="E7">
+<type class="Localization"/>
+<theme idref="T11"/>
+<clue>We investigated the mechanisms by which proinflammatory mediator, thrombin, <clueType>released</clueType> <clueTime>during intravascular coagulation and tissue injury</clueTime>, induces ICAM-1 (CD54) expression in endothelial cells.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Correlation"/>
+<theme idref="E7"/>
+<theme idref="T12"/>
+<clue>We investigated the mechanisms by which proinflammatory mediator, thrombin, released <linkTheme>during</linkTheme> intravascular coagulation and tissue injury, induces ICAM-1 (CD54) expression in endothelial cells.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Correlation"/>
+<theme idref="E7"/>
+<theme idref="T13"/>
+<clue>We investigated the mechanisms by which proinflammatory mediator, thrombin, released <linkTheme>during</linkTheme> intravascular coagulation and tissue injury, induces ICAM-1 (CD54) expression in endothelial cells.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Gene_expression"/>
+<theme idref="T15"/>
+<clue>We investigated the mechanisms by which proinflammatory mediator, thrombin, released during intravascular coagulation and tissue injury, induces ICAM-1 (CD54) <clueType>expression</clueType> <clueLoc>in endothelial cells</clueLoc>.</clue>
+</event>
+<event KT="Investigation" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="T11"/>
+<clue>We <clueKT>investigated</clueKT> the mechanisms by which proinflammatory mediator, thrombin, released during intravascular coagulation and tissue injury, <clueType>induces</clueType> ICAM-1 (CD54) expression in endothelial cells.</clue>
+</event>
+<sentence id="S3">Stimulation of <term id="T18" lex="HUVEC" sem="Cell_cultured">HUVEC</term> with <term id="T19" lex="thrombin" sem="Protein_molecule">thrombin</term> resulted in dose- and time-dependent increases in <term id="T20" lex="ICAM-1_mRNA" sem="RNA_molecule">ICAM-1 mRNA</term> and <term id="T21" lex="cell_surface_expression" sem="Other">cell surface expression</term> and in <term id="T22" lex="ICAM-1-dependent_endothelial_adhesivity" sem="Other"><term id="T23" lex="ICAM-1" sem="Protein_molecule">ICAM-1</term>-dependent endothelial adhesivity</term> toward <term id="T24" lex="polymorphonuclear_leukocyte" sem="Cell_natural">polymorphonuclear leukocytes</term>.</sentence>
+<event id="E12">
+<type class="Physiological_process"/>
+<theme idref="T18"/>
+<cause idref="T19"/>
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> HUVEC <linkCause>with</linkCause> thrombin resulted in dose- and time-dependent increases in ICAM-1 mRNA and cell surface expression and in ICAM-1-dependent endothelial adhesivity toward polymorphonuclear leukocytes.</clue>
+</event>
+<event id="E13">
+<type class="Gene_expression"/>
+<theme idref="T20"/>
+<clue>Stimulation of HUVEC with thrombin resulted in dose- and time-dependent increases in ICAM-1 mRNA and <clueLoc>cell surface</clueLoc> <clueType>expression</clueType> and in ICAM-1-dependent endothelial adhesivity toward polymorphonuclear leukocytes.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation"/>
+<theme idref="T20"/>
+<cause idref="E12"/>
+<clue>Stimulation of HUVEC with thrombin <clueType>resulted in</clueType> dose- and time-dependent <clueType>increases</clueType> <linkTheme>in</linkTheme> ICAM-1 mRNA and cell surface expression and in ICAM-1-dependent endothelial adhesivity toward polymorphonuclear leukocytes.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="E12"/>
+<clue>Stimulation of HUVEC with thrombin r<clueType>esulted in</clueType> dose- and time-dependent <clueType>increases</clueType> <linkTheme>in</linkTheme> ICAM-1 mRNA and cell surface expression and in ICAM-1-dependent endothelial adhesivity toward polymorphonuclear leukocytes.</clue>
+</event>
+<event id="E16">
+<type class="Cell_adhesion"/>
+<theme idref="T17"/>
+<theme idref="T24"/>
+<clue>Stimulation of HUVEC with thrombin resulted in dose- and time-dependent increases in ICAM-1 mRNA and cell surface expression and in ICAM-1-dependent <corefTheme>endothelial</corefTheme> <clueType>adhesivity</clueType> <linkTheme>toward</linkTheme> polymorphonuclear leukocytes.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<cause idref="T23"/>
+<clue>Stimulation of HUVEC with thrombin resulted in dose- and time-dependent increases in ICAM-1 mRNA and cell surface expression and in <clueType>ICAM-1</clueType>-<linkCause>dependent</linkCause> endothelial adhesivity toward polymorphonuclear leukocytes.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<cause idref="E12"/>
+<clue>Stimulation of HUVEC with thrombin <clueType>resulted in</clueType> dose- and time-dependent <clueType>increases</clueType> in ICAM-1 mRNA and cell surface expression and <linkTheme>in</linkTheme> ICAM-1-dependent endothelial adhesivity toward polymorphonuclear leukocytes.</clue>
+</event>
+<sentence id="S4">Transient transfection of <term id="T25" lex="endothelial_cell" sem="Cell_natural">endothelial cells</term> with <term id="T26" lex="ICAM-1_promoter_luciferase_reporter_gene_(ICAM-1LUC)_construct" sem="DNA_molecule"><term id="T27" lex="ICAM-1_promoter" sem="DNA_domain_or_region"><term id="T28" lex="ICAM-1" sem="Protein_molecule">ICAM-1</term> promoter</term> luciferase reporter gene (ICAM-1LUC) constructs</term> indicated that deletion of <term id="T29" lex="NF-kappa_B_site" sem="DNA_domain_or_region">upstream <term id="T30" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> site</term> (<term id="T31" lex="-533_bases" sem="DNA_domain_or_region">-533 bases</term> from <term id="T32" lex="translation_start_site" sem="DNA_domain_or_region">translation start site</term>) had no effect on <term id="T33" lex="thrombin_responsiveness" sem="Other"><term id="T34" lex="thrombin" sem="Protein_molecule">thrombin</term> responsiveness</term>, whereas mutation/deletion of <term id="T35" lex="NF-kappa_B_site" sem="DNA_domain_or_region">downstream <term id="T36" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> site</term> (<term id="T37" lex="-223_bases" sem="DNA_domain_or_region">-223 bases</term> from the <term id="T38" lex="translation_start_site" sem="DNA_domain_or_region">translation start site</term>) prevented the activation of <term id="T39" lex="ICAM-1_promoter" sem="DNA_domain_or_region"><term id="T40" lex="ICAM-1" sem="Protein_molecule">ICAM-1</term> promoter</term>, indicating that the <term id="T41" lex="NF-kappa_B_site" sem="DNA_domain_or_region">downstream <term id="T42" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> site</term> is critical for <term id="T43" lex="thrombin_inducibility" sem="Other"><term id="T44" lex="thrombin" sem="Protein_molecule">thrombin</term> inducibility</term>.</sentence>
+<event id="E19">
+<type class="Negative_regulation"/>
+<theme idref="T29"/>
+<clue>Transient transfection of endothelial cells with ICAM-1 promoter luciferase reporter gene (ICAM-1LUC) constructs indicated that <clueType>deletion</clueType> <linkTheme>of</linkTheme> upstream NF-kappa B site (-533 bases from translation start site) had no effect on thrombin responsiveness, whereas mutation/deletion of downstream NF-kappa B site (-223 bases from the translation start site) prevented the activation of ICAM-1 promoter, indicating that the downstream NF-kappa B site is critical for thrombin inducibility.</clue>
+<comment>NER T29 mod</comment></event>
+<event KT="Other" id="E20">
+<type class="Regulation"/>
+<cause idref="T34"/>
+<clue>Transient transfection of endothelial cells with ICAM-1 promoter luciferase reporter gene (ICAM-1LUC) constructs indicated that deletion of upstream NF-kappa B site (-533 bases from translation start site) had no effect on thrombin <clueType>responsiveness</clueType>, whereas mutation/deletion of downstream NF-kappa B site (-223 bases from the translation start site) prevented the activation of ICAM-1 promoter, indicating that the downstream NF-kappa B site is critical for thrombin inducibility.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E21">
+<type class="Regulation"/>
+<theme idref="E20"/>
+<cause idref="E19"/>
+<clue>Transient transfection of endothelial cells with ICAM-1 promoter luciferase reporter gene (ICAM-1LUC) constructs <clueKT><clueCL>indicated</clueCL></clueKT> that deletion of upstream NF-kappa B site (-533 bases from translation start site) <clueType>had</clueType> <cluePolarity>no</cluePolarity> <clueType>effect</clueType> <linkTheme>on</linkTheme> thrombin responsiveness, whereas mutation/deletion of downstream NF-kappa B site (-223 bases from the translation start site) prevented the activation of ICAM-1 promoter, indicating that the downstream NF-kappa B site is critical for thrombin inducibility.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation"/>
+<theme idref="T35"/>
+<clue>Transient transfection of endothelial cells with ICAM-1 promoter luciferase reporter gene (ICAM-1LUC) constructs indicated that deletion of upstream NF-kappa B site (-533 bases from translation start site) had no effect on thrombin responsiveness, whereas <clueType>mutation/deletion</clueType> <linkTheme>of</linkTheme> downstream NF-kappa B site (-223 bases from the translation start site) prevented the activation of ICAM-1 promoter, indicating that the downstream NF-kappa B site is critical for thrombin inducibility.</clue>
+<comment>NER T35 mod</comment></event>
+<event KT="Other" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="T39"/>
+<clue>Transient transfection of endothelial cells with ICAM-1 promoter luciferase reporter gene (ICAM-1LUC) constructs indicated that deletion of upstream NF-kappa B site (-533 bases from translation start site) had no effect on thrombin responsiveness, whereas mutation/deletion of downstream NF-kappa B site (-223 bases from the translation start site) prevented the <clueType>activation</clueType> <linkTheme>of</linkTheme> ICAM-1 promoter, indicating that the downstream NF-kappa B site is critical for thrombin inducibility.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E24">
+<type class="Negative_regulation"/>
+<theme idref="E23"/>
+<cause idref="E22"/>
+<clue>Transient transfection of endothelial cells with ICAM-1 promoter luciferase reporter gene (ICAM-1LUC) constructs <clueKT><clueCL>indicated</clueCL></clueKT> that deletion of upstream NF-kappa B site (-533 bases from translation start site) had no effect on thrombin responsiveness, whereas mutation/deletion of downstream NF-kappa B site (-223 bases from the translation start site) <clueType>prevented</clueType> the activation of ICAM-1 promoter, indicating that the downstream NF-kappa B site is critical for thrombin inducibility.</clue>
+</event>
+<event KT="Other" id="E25">
+<type class="Positive_regulation"/>
+<cause idref="T44"/>
+<clue>Transient transfection of endothelial cells with ICAM-1 promoter luciferase reporter gene (ICAM-1LUC) constructs indicated that deletion of upstream NF-kappa B site (-533 bases from translation start site) had no effect on thrombin responsiveness, whereas mutation/deletion of downstream NF-kappa B site (-223 bases from the translation start site) prevented the activation of ICAM-1 promoter, indicating that the downstream NF-kappa B site is critical for thrombin <clueType>inducibility</clueType>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E26">
+<type class="Correlation"/>
+<theme idref="T41"/>
+<theme idref="E25"/>
+<clue>Transient transfection of endothelial cells with ICAM-1 promoter luciferase reporter gene (ICAM-1LUC) constructs indicated that deletion of upstream NF-kappa B site (-533 bases from translation start site) had no effect on thrombin responsiveness, whereas mutation/deletion of downstream NF-kappa B site (-223 bases from the translation start site) prevented the activation of ICAM-1 promoter, <clueKT><clueCL>indicating</clueCL></clueKT> that the downstream NF-kappa B site is <clueType>critical</clueType> <linkTheme>for</linkTheme> thrombin inducibility.</clue>
+<comment>NER T41 mod</comment></event>
+<sentence id="S5"><term id="T46" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>-directed <term id="T470" sem="Other"><term id="T47" lex="luciferase" sem="Protein_molecule">luciferase</term> activity</term> increased approximately 3-fold when <term id="A101" sem="Cell_natural">cells</term> transfected with <term id="A1" sem="DNA_molecule">the <term id="T48" lex="plasmid_pNF-kappa_BLUC" sem="DNA_molecule">plasmid pNF-kappa BLUC</term> containing five copies of <term id="T49" lex="consensus_NF-kappa_B_site" sem="DNA_domain_or_region">consensus <term id="T50" lex="NF-kappa_B_site" sem="DNA_domain_or_region"><term id="T51" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> site</term></term> linked to a minimal <term id="T52" lex="adenovirus_E1B_promoter-luciferase_gene" sem="DNA_domain_or_region">adenovirus E1B promoter-luciferase gene</term></term> were exposed to <term id="T53" lex="thrombin" sem="Protein_molecule">thrombin</term>, indicating that activation of <term id="T54" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> was essential for <term id="T55" lex="thrombin_response" sem="Other"><term id="T56" lex="thrombin" sem="Protein_molecule">thrombin</term> response</term>.</sentence>
+<event KT="Method" id="E101">
+<type class="Artificial_process"/>
+<theme idref="A1"/>
+<theme idref="A101"/>
+<clue>NF-kappa B-directed luciferase activity increased approximately 3-fold when cells <clueType>transfected</clueType> <linkTheme>with</linkTheme> the plasmid pNF-kappa BLUC containing five copies of consensus NF-kappa B site linked to a minimal adenovirus E1B promoter-luciferase gene were exposed to thrombin, indicating that activation of NF-kappa B was essential for thrombin response.</clue>
+<comment>TPS A1</comment></event>
+<event KT="Method" id="E27">
+<type class="Artificial_process"/>
+<theme idref="A101"/>
+<theme idref="T53"/>
+<clue>NF-kappa B-directed luciferase activity increased approximately 3-fold when cells transfected with the plasmid pNF-kappa BLUC containing five copies of consensus NF-kappa B site linked to a minimal adenovirus E1B promoter-luciferase gene were <clueType>exposed</clueType> <linkTheme>to</linkTheme> thrombin, indicating that activation of NF-kappa B was essential for thrombin response.</clue>
+</event>
+<event id="E28">
+<type class="Regulation"/>
+<theme idref="T47"/>
+<cause idref="T46"/>
+<clue>NF-kappa B-<clueType>directed</clueType> luciferase activity increased approximately 3-fold when cells transfected with the plasmid pNF-kappa BLUC containing five copies of consensus NF-kappa B site linked to a minimal adenovirus E1B promoter-luciferase gene were exposed to thrombin, indicating that activation of NF-kappa B was essential for thrombin response.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event Manner="High" id="E29">
+<type class="Positive_regulation"/>
+<theme idref="E28"/>
+<cause idref="E101"/>
+<clue>NF-kappa B-directed luciferase activity <clueType>increased</clueType> approximately <clueManner>3-fold</clueManner> <linkCause>when</linkCause> cells transfected with the plasmid pNF-kappa BLUC containing five copies of consensus NF-kappa B site linked to a minimal adenovirus E1B promoter-luciferase gene were exposed to thrombin, indicating that activation of NF-kappa B was essential for thrombin response.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation"/>
+<theme idref="T54"/>
+<clue>NF-kappa B-directed luciferase activity increased approximately 3-fold when cells transfected with the plasmid pNF-kappa BLUC containing five copies of consensus NF-kappa B site linked to a minimal adenovirus E1B promoter-luciferase gene were exposed to thrombin, indicating that <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappa B was essential for thrombin response.</clue>
+</event>
+<event KT="Other" id="E31">
+<type class="Regulation"/>
+<cause idref="T56"/>
+<clue>NF-kappa B-directed luciferase activity increased approximately 3-fold when cells transfected with the plasmid pNF-kappa BLUC containing five copies of consensus NF-kappa B site linked to a minimal adenovirus E1B promoter-luciferase gene were exposed to thrombin, indicating that activation of NF-kappa B was essential for thrombin <clueType>response</clueType>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E32">
+<type class="Correlation"/>
+<theme idref="E30"/>
+<theme idref="E31"/>
+<clue>NF-kappa B-directed luciferase activity increased approximately 3-fold when cells transfected with the plasmid pNF-kappa BLUC containing five copies of consensus NF-kappa B site linked to a minimal adenovirus E1B promoter-luciferase gene were exposed to thrombin, <clueKT><clueCL>indicating</clueCL></clueKT> that activation of NF-kappa B was <clueType>essential</clueType> <linkTheme>for</linkTheme> thrombin response.</clue>
+</event>
+<sentence id="S6">Gel supershift assays demonstrated that <term id="T57" lex="thrombin" sem="Protein_molecule">thrombin</term> induced binding of <term id="T58" lex="NF-kappa_Bp65" sem="Protein_molecule">NF-kappa Bp65</term> (<term id="T59" lex="Rel_A" sem="Protein_molecule">Rel A</term>) to <term id="T60" lex="NF-kappa_B_site" sem="DNA_domain_or_region">downstream <term id="T61" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> site</term> of the <term id="T62" lex="ICAM-1_promoter" sem="DNA_domain_or_region"><term id="T63" lex="ICAM-1" sem="Protein_molecule">ICAM-1</term> promoter</term>.</sentence>
+<event KT="Other" id="E33">
+<type class="Binding"/>
+<theme idref="T59"/>
+<theme idref="T60"/>
+<clue>Gel supershift assays demonstrated that thrombin induced <clueType>binding</clueType> <linkTheme>of</linkTheme> NF-kappa Bp65 (Rel A) <linkTheme>to</linkTheme> downstream NF-kappa B site of the ICAM-1 promoter.</clue>
+</event>
+<event KT="Analysis" id="E34">
+<type class="Positive_regulation"/>
+<theme idref="E33"/>
+<cause idref="T57"/>
+<clue><clueExperiment>Gel supershift assays</clueExperiment> <clueKT>demonstrated</clueKT> that thrombin <clueType>induced</clueType> binding of NF-kappa Bp65 (Rel A) to downstream NF-kappa B site of the ICAM-1 promoter.</clue>
+</event>
+<sentence id="S7"><term id="T64" lex="thrombin_receptor_activation_peptide" sem="Peptide"><term id="T65" lex="thrombin" sem="Protein_molecule">Thrombin</term> receptor activation peptide</term>, a <term id="T66" lex="14-amino-acid_peptide" sem="Peptide">14-amino-acid peptide</term> representing the new <term id="T67" lex="NH2_terminus" sem="Protein_domain_or_region">NH2 terminus</term> of <term id="T68" lex="receptor-1" sem="Protein_molecule">proteolytically activated receptor-1</term>, mimicked <term id="T69" lex="thrombin" sem="Protein_molecule">thrombin</term>&apos;s action in inducing <term id="T70" lex="ICAM-1" sem="Protein_molecule">ICAM-1</term> expression.</sentence>
+<event id="E35">
+<type class="Gene_expression"/>
+<theme idref="T70"/>
+<clue>Thrombin receptor activation peptide, a 14-amino-acid peptide representing the new NH2 terminus of proteolytically activated receptor-1, mimicked thrombin&apos;s action in inducing ICAM-1 <clueType>expression</clueType>.</clue>
+</event>
+<event id="E36">
+<type class="Positive_regulation"/>
+<theme idref="E35"/>
+<cause idref="T68"/>
+<clue>Thrombin receptor activation peptide, a 14-amino-acid peptide representing the new NH2 terminus of proteolytically activated receptor-1, mimicked thrombin&apos;s action in <clueType>inducing</clueType> ICAM-1 expression.</clue>
+<comment>NER T68 mod</comment></event>
+<event id="E37">
+<type class="Positive_regulation"/>
+<theme idref="E35"/>
+<cause idref="T64"/>
+<clue>Thrombin receptor activation peptide, a 14-amino-acid peptide representing the new NH2 terminus of proteolytically activated receptor-1, <clueType>mimicked</clueType> thrombin&apos;s action <clueType>in inducing</clueType> ICAM-1 expression.</clue>
+</event>
+<sentence id="S8">These data indicate that <term id="T71" lex="thrombin" sem="Protein_molecule">thrombin</term> activates endothelial <term id="T72" lex="ICAM-1_expression" sem="Other"><term id="T73" lex="ICAM-1" sem="Protein_molecule">ICAM-1</term> expression</term> and <term id="T74" lex="polymorphonuclear_leukocyte_adhesion" sem="Other"><term id="T75" lex="polymorphonuclear_leukocyte" sem="Cell_natural">polymorphonuclear leukocyte</term> adhesion</term> by <term id="T76" lex="NF-kappa_Bp65" sem="Protein_molecule">NF-kappa Bp65</term> binding to the <term id="T77" lex="NF-kappa_B_site" sem="DNA_domain_or_region">downstream <term id="T78" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> site</term> of <term id="T79" lex="ICAM-1_promoter" sem="DNA_domain_or_region"><term id="T80" lex="ICAM-1" sem="Protein_molecule">ICAM-1</term> promoter</term> after <term id="T81" lex="receptor-1_activation" sem="Other"><term id="A2" sem="Protein_molecule">proteolytically activated receptor-1</term> activation</term>.</sentence>
+<event KT="Other" id="E38">
+<type class="Gene_expression"/>
+<theme idref="T73"/>
+<clue>These data indicate that thrombin activates <clueLoc>endothelial</clueLoc> ICAM-1 <clueType>expression</clueType> and polymorphonuclear leukocyte adhesion by NF-kappa Bp65 binding to the downstream NF-kappa B site of ICAM-1 promoter after proteolytically activated receptor-1 activation.</clue>
+</event>
+<event KT="Other" id="E39">
+<type class="Cell_adhesion"/>
+<theme idref="T75"/>
+<clue>These data indicate that thrombin activates endothelial ICAM-1 expression and polymorphonuclear leukocyte <clueType>adhesion</clueType> by NF-kappa Bp65 binding to the downstream NF-kappa B site of ICAM-1 promoter after proteolytically activated receptor-1 activation.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E40">
+<type class="Positive_regulation"/>
+<theme idref="E38"/>
+<cause idref="T71"/>
+<clue>These data <clueKT><clueCL>indicate</clueCL></clueKT> that thrombin <clueType>activates</clueType> endothelial ICAM-1 expression and polymorphonuclear leukocyte adhesion by NF-kappa Bp65 binding to the downstream NF-kappa B site of ICAM-1 promoter after proteolytically activated receptor-1 activation.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E41">
+<type class="Positive_regulation"/>
+<theme idref="E39"/>
+<cause idref="T71"/>
+<clue>These data <clueKT><clueCL>indicate</clueCL></clueKT> that thrombin <clueType>activates</clueType> endothelial ICAM-1 expression and polymorphonuclear leukocyte adhesion by NF-kappa Bp65 binding to the downstream NF-kappa B site of ICAM-1 promoter after proteolytically activated receptor-1 activation.</clue>
+</event>
+<event KT="Other" id="E42">
+<type class="Positive_regulation"/>
+<theme idref="A2"/>
+<clue>These data indicate that thrombin activates endothelial ICAM-1 expression and polymorphonuclear leukocyte adhesion by NF-kappa Bp65 binding to the downstream NF-kappa B site of ICAM-1 promoter after proteolytically activated receptor-1 <clueType>activation</clueType>.</clue>
+</event>
+<event KT="Other" id="E43">
+<type class="Binding"/>
+<theme idref="T76"/>
+<theme idref="T77"/>
+<clue>These data indicate that thrombin activates endothelial ICAM-1 expression and polymorphonuclear leukocyte adhesion by NF-kappa Bp65 <clueType>binding</clueType> <linkTheme>to</linkTheme> the downstream NF-kappa B site of ICAM-1 promoter after proteolytically activated receptor-1 activation.</clue>
+<comment>NER T77 mod</comment></event>
+<event KT="Other" id="E44">
+<type class="Positive_regulation"/>
+<theme idref="E43"/>
+<cause idref="E42"/>
+<clue>These data indicate that thrombin activates endothelial ICAM-1 expression and polymorphonuclear leukocyte adhesion by NF-kappa Bp65 binding to the downstream NF-kappa B site of ICAM-1 promoter <linkCause>after</linkCause> proteolytically activated receptor-1 activation.</clue>
+<comment>No clueType</comment></event>
+<event CL="L2" KT="Analysis" id="E45">
+<type class="Correlation"/>
+<theme idref="E40"/>
+<theme idref="E44"/>
+<clue>These data <clueKT><clueCL>indicate</clueCL></clueKT> that thrombin activates endothelial ICAM-1 expression and polymorphonuclear leukocyte adhesion <linkTheme>by</linkTheme> NF-kappa Bp65 binding to the downstream NF-kappa B site of ICAM-1 promoter after proteolytically activated receptor-1 activation.</clue>
+<comment>No clueType</comment></event>
+<event CL="L2" KT="Analysis" id="E46">
+<type class="Correlation"/>
+<theme idref="E41"/>
+<theme idref="E44"/>
+<clue>These data <clueKT><clueCL>indicate</clueCL></clueKT> that thrombin activates endothelial ICAM-1 expression and polymorphonuclear leukocyte adhesion <linkTheme>by</linkTheme> NF-kappa Bp65 binding to the downstream NF-kappa B site of ICAM-1 promoter after proteolytically activated receptor-1 activation.</clue>
+<comment>No clueType</comment></event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

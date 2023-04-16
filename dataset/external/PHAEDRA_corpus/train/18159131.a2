@@ -1,0 +1,15 @@
+T32	Potential_therapeutic_effect 233 257	treatment or prophylaxis
+T33	DDI 366 378	interactions
+T36	DDI 1055 1066	interaction
+T44	Potential_therapeutic_effect 532 540	received
+R1	is_equivalent Arg1:T4 Arg2:T6
+E2	DDI:T33 has_cue:T40 has_participant:T10 has_participant:T11
+E3	DDI:T36 has_participant:T26 has_participant:T27 has_cue:T37
+E6	Combination:T42 has_participant:T1 has_participant:T2
+E1	Potential_therapeutic_effect:T32 affects:T9 has_subject:T31 has_agent:T4
+E8	Potential_therapeutic_effect:T44 has_subject:T34 has_agent:T14 has_agent:T15 has_agent:T16
+A1	Speculated E3
+A2	Speculated E2
+E4	Combination:T5 has_participant:T28 has_participant2:T30
+T13	Potential_therapeutic_effect 1176 1180	used
+E5	Potential_therapeutic_effect:T13 has_agent:E4 has_subject:T38

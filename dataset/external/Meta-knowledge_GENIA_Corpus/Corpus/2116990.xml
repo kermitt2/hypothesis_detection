@@ -1,0 +1,134 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2116990" created="10/01/2007" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>2116990</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="A20" sem="DNA_domain_or_region"><term id="T1" lex="tandem_AP-1-binding_site" sem="DNA_domain_or_region">Tandem AP-1-binding sites</term> within the <term id="T2" lex="human_beta-globin_dominant_control_region" sem="DNA_domain_or_region">human beta-globin dominant control region</term></term> function as an <term id="T3" lex="inducible_enhancer" sem="DNA_family_or_group">inducible enhancer</term> in <term id="T4" lex="erythroid_cell" sem="Cell_natural">erythroid cells</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation"/>
+<cause idref="A20"/>
+<clue>Tandem AP-1-binding sites within the human beta-globin dominant control region <clueType>function as an inducible enhancer</clueType> <clueLoc>in erythroid cells</clueLoc>.</clue>
+<comment>NO THEME; TPS: A20</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">A powerful <term id="A21" sem="DNA_domain_or_region">enhancer</term> has been mapped to an <term id="T5" lex="18-bp_DNA_segment" sem="DNA_domain_or_region">18-bp DNA segment</term> <term id="A22" sem="DNA_domain_or_region">located 11 kb 5&apos; to the <term id="T6" lex="human_epsilon-globin_gene" sem="DNA_domain_or_region">human epsilon-globin gene</term></term> within the <term id="T7" lex="dominant_control_region" sem="DNA_domain_or_region">dominant control</term> or <term id="T8" lex="locus-activating_region" sem="DNA_domain_or_region">locus-activating region</term>.</sentence>
+<sentence id="S3">This <term id="T9" lex="enhancer" sem="DNA_domain_or_region">enhancer</term> is inducible in <term id="T10" lex="K562_human_erythroleukemia_cell" sem="Cell_cultured">K562 human erythroleukemia cells</term>, increasing <term id="A24" sem="DNA_domain_or_region">linked <term id="T12" lex="gamma-globin_promoter" sem="DNA_domain_or_region">gamma-globin promoter</term><term id="A23" sem="DNA_domain_or_region"><term id="T13" lex="luciferase" sem="Protein_molecule">/luciferase</term> gene</term></term> expression to 170-fold over an <term id="T15" lex="enhancerless_construct" sem="DNA_molecule">enhancerless construct</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="A21" idref1="A22"/>
+<clue><corefTheme>This enhancer</corefTheme> is <clueType>induc<clueKT><clueCL>ible</clueCL></clueKT></clueType> <clueLoc>in K562 human erythroleukemia cells</clueLoc>, increasing linked gamma-globin promoter/luciferase gene expression to 170-fold over an enhancerless construct.</clue>
+</event>
+<event KT="Other" Manner="High" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="E2"/>
+<clue>This enhancer is inducible in K562 human erythroleukemia cells, <clueType>increasing</clueType> linked gamma-globin promoter/luciferase gene expression to <clueManner>170-fold</clueManner> over an enhancerless construct.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Binding"/>
+<theme idref="T12"/>
+<theme idref="A23"/>
+<clue>This enhancer is inducible in K562 human erythroleukemia cells, increasing <clueType>linked</clueType> gamma-globin promoter/luciferase gene expression to 170-fold over an enhancerless construct.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Gene_expression"/>
+<theme idref="A24"/>
+<clue>This enhancer is inducible in K562 human erythroleukemia cells, increasing linked gamma-globin promoter/luciferase gene <clueType>expression</clueType> to 170-fold over an enhancerless construct.</clue>
+<comment>TPS: A24; NER: T11 del &quot;gamma-globin promoter/luciferase gene expression&quot;; NER T14 del &quot;gene expression&quot;</comment></event>
+<event KT="Other" id="E20">
+<type class="Gene_expression"/>
+<theme idref="T15"/>
+<clue>This enhancer is inducible in K562 human erythroleukemia cells, increasing linked gamma-globin promoter/luciferase gene <clueType>expression</clueType> to 170-fold over an enhancerless construct.</clue>
+<comment>CAUTION, SEE</comment></event>
+<sentence id="S4">The <term id="T16" lex="enhancer" sem="DNA_family_or_group">enhancer</term> consists of <term id="T17" lex="tandem_AP-1-binding_site" sem="DNA_domain_or_region">tandem AP-1-binding sites</term>, phased <term id="T18" lex="10_bp" sem="Polynucleotide">10 bp</term> apart, which are both required for full activity.</sentence>
+<event KT="Fact" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="T17"/>
+<clue>The enhancer consists of tandem AP-1-binding sites, phased 10 bp apart, which are both <clueType>required</clueType> <linkTheme>for</linkTheme> full <corefTheme>activity</corefTheme>.</clue>
+</event>
+<sentence id="S5"><term id="T19" lex="DNA-protein_binding_assay" sem="Other">DNA-protein binding assays</term> with <term id="T20" lex="nuclear_extract" sem="Cell_component">nuclear extracts</term> from induced cells demonstrate a <term id="T21" lex="high_molecular_weight_complex" sem="Protein_complex">high molecular weight complex</term> on the <term id="T22" lex="enhancer" sem="DNA_domain_or_region">enhancer</term>.</sentence>
+<event KT="Analysis" Manner="High" id="E21">
+<type class="Binding"/>
+<theme idref="T21"/>
+<theme idref="T22"/>
+<clue><clueExperiment>DNA-protein binding assays with nuclear extracts from induced cells</clueExperiment> <clueKT>demonstrate</clueKT> a <clueManner>high</clueManner> molecular weight complex <linkTheme>on</linkTheme> the enhancer.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S6">The formation of this complex also requires both <term id="T23" lex="AP-1_site" sem="DNA_domain_or_region">AP-1 sites</term> and correlates with <term id="T24" lex="maximal_enhancer_activity" sem="Other">maximal <term id="T25" lex="enhancer" sem="DNA_domain_or_region">enhancer</term> activity</term>.</sentence>
+<event id="E7">
+<type class="Protein_metabolism"/>
+<theme idref="T21"/>
+<clue>The <clueType>formation</clueType> <linkTheme>of</linkTheme> <corefTheme>this complex</corefTheme> also requires both AP-1 sites and correlates with maximal enhancer activity.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="T23"/>
+<clue>The formation of this complex also <clueType>requires</clueType> both AP-1 sites and correlates with maximal enhancer activity.</clue>
+<comment>CAUTION, both</comment></event>
+<event KT="Analysis" id="E9">
+<type class="Correlation"/>
+<theme idref="E7"/>
+<theme idref="T25"/>
+<clue>The formation of this complex also requires both AP-1 sites and <clueType><clueKT>correlates</clueKT></clueType> <linkTheme>with</linkTheme> maximal enhancer activity.</clue>
+</event>
+<sentence id="S7">Induction of the <term id="T26" lex="enhancer" sem="DNA_domain_or_region">enhancer</term> may have a role in the increase in <term id="T27" lex="globin_gene_transcription" sem="Other"><term id="T28" lex="globin_gene" sem="DNA_family_or_group">globin gene</term> transcription</term> that characterizes <term id="T29" lex="erythroid_maturation" sem="Other"><term id="A1" sem="Cell_natural">erythroid</term> maturation</term>.</sentence>
+<event KT="Other" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="T26"/>
+<clue><clueType>Induction</clueType> <linkTheme>of</linkTheme> the enhancer may have a role in the increase in globin gene transcription that characterizes erythroid maturation.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E11" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E12"/>
+<cause idref="E10"/>
+<clue>Induction of the enhancer <clueKT><clueCL>may</clueCL></clueKT> <clueType>have a role</clueType> <linkTheme>in</linkTheme> the increase in globin gene transcription that characterizes erythroid maturation.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<clue>Induction of the enhancer may have a role in the <clueType>increase</clueType> <linkTheme>in</linkTheme> globin gene transcription that characterizes erythroid maturation.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Transcription"/>
+<theme idref="T28"/>
+<clue>Induction of the enhancer may have a role in the increase in globin gene <clueType>transcription</clueType> that characterizes erythroid maturation.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Correlation"/>
+<theme idref="E12"/>
+<theme idref="E15"/>
+<clue>Induction of the enhancer may have a role in the increase in globin gene transcription that <clueType>characterizes</clueType> erythroid maturation.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Cell_differentiation"/>
+<theme idref="A1"/>
+<clue>Induction of the enhancer may have a role in the increase in globin gene transcription that characterizes erythroid <clueType>maturation</clueType>.</clue>
+</event>
+<sentence id="S8"><term id="T30" lex="enhancer_activity" sem="Other"><term id="A5" sem="DNA_domain_or_region">Enhancer</term> activity</term> appears to be mediated by the binding of a <term id="A4" sem="Protein_complex">complex of proteins</term> from the <term id="T31" lex="jun_and_fos_family" sem="DNA_family_or_group"><term id="A2" sem="Protein_complex">jun</term> and <term id="A3" sem="Protein_complex">fos</term> families</term> to <term id="T32" lex="tandem_AP-1_consensus_sequence" sem="DNA_domain_or_region">tandem AP-1 consensus sequences</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E16" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="A5"/>
+<cause idref="E18"/>
+<clue>Enhancer activity <clueKT><clueCL>appears</clueCL></clueKT> to be <clueType>mediated</clueType> <linkCause>by</linkCause> the binding of a complex of proteins from the jun and fos families to tandem AP-1 consensus sequences.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="A5"/>
+<cause idref="E19"/>
+<clue>Enhancer activity <clueKT><clueCL>appears</clueCL></clueKT> to be <clueType>mediated</clueType> <linkCause>by</linkCause> the binding of a complex of proteins from the jun and fos families to tandem AP-1 consensus sequences.</clue>
+</event>
+<event id="E18">
+<type class="Binding"/>
+<theme idref="A4" idref1="A2"/>
+<theme idref="T32"/>
+<clue>Enhancer activity appears to be mediated by the <clueType>binding</clueType> <linkTheme>of</linkTheme> a complex of proteins from the jun and fos families <linkTheme>to</linkTheme> tandem AP-1 consensus sequences.</clue>
+<comment>TPS: A4</comment></event>
+<event id="E19">
+<type class="Binding"/>
+<theme idref="A4" idref1="A3"/>
+<theme idref="T32"/>
+<clue>Enhancer activity appears to be mediated by the <clueType>binding</clueType> <linkTheme>of</linkTheme> a complex of proteins from the jun and fos families <linkTheme>to</linkTheme> tandem AP-1 consensus sequences.</clue>
+<comment>TPS: A4</comment></event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

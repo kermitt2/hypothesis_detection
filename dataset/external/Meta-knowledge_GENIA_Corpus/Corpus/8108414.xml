@@ -1,0 +1,218 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8108414" created="20/03/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8108414</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Autoregulation of the <term id="T1" lex="NF-kappa_B_transactivator" sem="Protein_family_or_group"><term id="T2" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> transactivator</term> <term id="T3" lex="RelA" sem="Protein_molecule">RelA</term> (<term id="T4" lex="p65" sem="Protein_molecule">p65</term>) by multiple <term id="T5" lex="cytoplasmic_inhibitor" sem="Protein_family_or_group">cytoplasmic inhibitors</term> containing <term id="T6" lex="ankyrin_motif" sem="Protein_substructure">ankyrin motifs</term>.</sentence>
+<event id="E50">
+<type class="Regulation"/>
+<theme idref="T4"/>
+<cause idref="T5"/>
+<clue><clueType>Autoregulation</clueType> <linkTheme>of</linkTheme> the NF-kappa B transactivator RelA (p65) <linkCause>by</linkCause> multiple cytoplasmic inhibitors containing ankyrin motifs.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T7" lex="RelA" sem="Protein_molecule">RelA</term> (<term id="T8" lex="p65" sem="Protein_molecule">p65</term>) functions as the critical transactivating component of the <term id="T9" lex="heterodimeric_p50-p65_NF-kappa_B_complex" sem="Protein_complex">heterodimeric p50-<term id="T10" lex="p65" sem="Protein_molecule">p65</term> <term id="T11" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> complex</term> and contains a <term id="T12" lex="high-affinity_binding_site" sem="Protein_domain_or_region">high-affinity binding site</term> for its <term id="T13" lex="cytoplasmic_inhibitor" sem="Protein_family_or_group">cytoplasmic inhibitor</term>, <term id="T14" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term>.</sentence>
+<sentence id="S3">After <term id="A1" sem="Other">cellular activation</term>, <term id="T15" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term> is rapidly degraded in concert with the induced nuclear translocation of <term id="T16" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term>.</sentence>
+<event KT="Fact" Manner="High" id="E1">
+<type class="Protein_catabolism"/>
+<theme idref="T15"/>
+<clue>After cellular activation, I kappa B alpha is <clueManner>rapidly</clueManner> <clueType>degraded</clueType> in concert with the induced nuclear translocation of NF-kappa B.</clue>
+</event>
+<event KT="Fact" id="E51">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="A1"/>
+<clue><linkCause>After</linkCause> cellular activation, I kappa B alpha is rapidly degraded in concert with the induced nuclear translocation of NF-kappa B.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Other" id="E2">
+<type class="Localization"/>
+<theme idref="T16"/>
+<clue>After cellular activation, I kappa B alpha is rapidly degraded in concert with the induced <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> <linkTheme>of</linkTheme> NF-kappa B.</clue>
+</event>
+<event KT="Fact" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="A1"/>
+<clue>After cellular activation, I kappa B alpha is rapidly degraded in concert with the <clueType>induced</clueType> nuclear translocation of NF-kappa B.</clue>
+</event>
+<sentence id="S4">The present study demonstrates that <term id="T17" lex="tumor_necrosis_factor_alpha-induced_degradation" sem="Other"><term id="T18" lex="tumor_necrosis_factor_alpha" sem="Protein_molecule">tumor necrosis factor alpha</term>-induced degradation</term> of <term id="T19" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term> in <term id="T20" lex="human_T_cell" sem="Cell_natural">human T cells</term> is preceded by its rapid phosphorylation in vivo.</sentence>
+<event KT="Other" id="E104">
+<type class="Protein_catabolism"/>
+<theme idref="T19"/>
+<clue>The present study demonstrates that tumor necrosis factor alpha-induced <clueType>degradation</clueType> <linkTheme>of</linkTheme> I kappa B alpha in human T cells is preceded by its rapid phosphorylation in vivo.</clue>
+</event>
+<event KT="Other" id="E105">
+<type class="Positive_regulation"/>
+<theme idref="E104"/>
+<cause idref="T18"/>
+<clue>The present study demonstrates that tumor necrosis factor alpha-<clueType>induced</clueType> degradation of I kappa B alpha <clueLoc>in human T cells</clueLoc> is preceded by its rapid phosphorylation in vivo.</clue>
+</event>
+<event KT="Other" Manner="High" id="E5">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T19"/>
+<clue>The present study demonstrates that tumor necrosis factor alpha-induced degradation of I kappa B alpha in human T cells is preceded by <corefTheme>its</corefTheme> <clueManner>rapid</clueManner> <clueType>phosphorylation</clueType> in vivo.</clue>
+</event>
+<event KT="Analysis" id="E6">
+<type class="Correlation"/>
+<theme idref="E105"/>
+<theme idref="E5"/>
+<clue>The present study <clueKT>demonstrates</clueKT> that tumor necrosis factor alpha-induced degradation of I kappa B alpha in human T cells is <clueType>preceded</clueType> <linkTheme>by</linkTheme> its rapid phosphorylation in vivo.</clue>
+</event>
+<sentence id="S5">However, these effects on <term id="T21" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term> result in nuclear mobilization of only a fraction of the entire <term id="T22" lex="cytoplasmic_pool" sem="Other">cytoplasmic pool</term> of <term id="T23" lex="RelA" sem="Protein_molecule">RelA</term>.</sentence>
+<event id="E7">
+<type class="Localization"/>
+<theme idref="T23"/>
+<clue>However, these effects on I kappa B alpha result in <clueLoc>nuclear</clueLoc> <clueType>mobilization</clueType> <linkTheme>of</linkTheme> only a fraction of the entire cytoplasmic pool of RelA.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="E105"/>
+<clue>However, <corefCause>these effects</corefCause> on I kappa B alpha <clueType>result in</clueType> nuclear mobilization of only a fraction of the entire cytoplasmic pool of RelA.</clue>
+</event>
+<sentence id="S6">Subsequent studies have revealed that (i) <term id="T24" lex="cytoplasmic_RelA" sem="Protein_molecule">cytoplasmic <term id="T25" lex="RelA" sem="Protein_molecule">RelA</term></term> is stably associated not only with <term id="T26" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term> but also with other <term id="T27" lex="ankyrin_motif-rich_protein" sem="Protein_family_or_group">ankyrin motif-rich proteins</term> including the products of the <cons id="T28" lex="(AND NF-kappa_B2_(p100)_genes NF-kappa_B1_(p105)_genes)" sem="(AND DNA_domain_or_region DNA_domain_or_region)"><frag id="F1">NF-kappa B2 (<term id="A20" sem="Protein_molecule">p100</term>)</frag> and <frag id="F2">NF-kappa B1 (<term id="A21" sem="Protein_molecule">p105</term>)</frag> <frag id="F3">genes</frag></cons>; (ii) in contrast to <term id="T29" lex="RelA" sem="Protein_molecule">RelA</term><term id="T30" lex="I_kappa_B_alpha" sem="Protein_molecule">-I kappa B alpha</term>, <term id="T31" lex="RelA-p100_cytoplasmic_complex" sem="Protein_complex"><term id="T32" lex="RelA" sem="Protein_molecule">RelA</term>-<term id="A50" sem="Protein_molecule">p100</term> cytoplasmic complexes</term> are not dissociated following <term id="T33" lex="tumor_necrosis_factor_alpha" sem="Protein_molecule">tumor necrosis factor alpha</term> activation; (iii) <term id="T34" lex="p100" sem="Protein_molecule">p100</term> functions as a potent inhibitor of <term id="T35" lex="RelA-mediated_transcription" sem="Other"><term id="T36" lex="RelA" sem="Protein_molecule">RelA</term>-mediated <term id="A31" sem="Other">transcription</term></term> in vivo; (iv) the interaction of <term id="T37" lex="RelA" sem="Protein_molecule">RelA</term> and <term id="T38" lex="p100" sem="Protein_molecule">p100</term> involves the <term id="T39" lex="conserved_Rel_homology_domain" sem="Protein_domain_or_region">conserved Rel homology domain</term> of both proteins but not the <term id="T40" lex="nuclear_localization_signal" sem="Protein_domain_or_region">nuclear localization signal</term> of <term id="T41" lex="RelA" sem="Protein_molecule">RelA</term>, which is required for <term id="T42" lex="I_kappa_B_alpha_binding" sem="Other"><term id="T43" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term> binding</term>; (v) <term id="T44" lex="p100" sem="Protein_molecule">p100</term> inhibition of <term id="T45" lex="RelA" sem="Protein_molecule">RelA</term> function requires the <term id="T46" lex="C-terminal_ankyrin_motif_domain" sem="Protein_domain_or_region">C-terminal ankyrin motif domain</term>, which mediates cytoplasmic retention of <term id="T47" lex="RelA" sem="Protein_molecule">RelA</term>; and (vi) as observed with <term id="T48" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term>, nuclear <term id="T49" lex="RelA" sem="Protein_molecule">RelA</term> stimulates <term id="T50" lex="p100_mRNA" sem="RNA_molecule"><term id="T51" lex="p100" sem="Protein_molecule">p100</term> mRNA</term> and <term id="T52" lex="protein_expression" sem="Other"><term id="A25" sem="Protein_molecule">protein</term> expression</term>.</sentence>
+<event KT="Analysis" id="E9">
+<type class="Binding"/>
+<theme idref="T25"/>
+<theme idref="T26"/>
+<clue>Subsequent studies have <clueKT>revealed</clueKT> that (i) cytoplasmic RelA is stably <clueType>associated</clueType> not only <linkTheme>with</linkTheme> I kappa B alpha but also with other ankyrin motif-rich proteins including the products of the NF-kappa B2 (p100) and NF-kappa B1 (p105) genes; (ii) in contrast to RelA-I kappa B alpha, RelA-p100 cytoplasmic complexes are not dissociated following tumor necrosis factor alpha activation; (iii) p100 functions as a potent inhibitor of RelA-mediated transcription in vivo; (iv) the interaction of RelA and p100 involves the conserved Rel homology domain of both proteins but not the nuclear localization signal of RelA, which is required for I kappa B alpha binding; (v) p100 inhibition of RelA function requires the C-terminal ankyrin motif domain, which mediates cytoplasmic retention of RelA; and (vi) as observed with I kappa B alpha, nuclear RelA stimulates p100 mRNA and protein expression.</clue>
+</event>
+<event KT="Analysis" id="E19">
+<type class="Binding"/>
+<theme idref="T25"/>
+<theme idref="A20"/>
+<clue>Subsequent studies have <clueKT>revealed</clueKT> that (i) cytoplasmic RelA is stably <clueType>associated</clueType> not only with I kappa B alpha but also <linkTheme>with</linkTheme> other <corefTheme idref1="A20">ankyrin motif-rich proteins</corefTheme> including the products of the NF-kappa B2 (p100) and NF-kappa B1 (p105) genes; (ii) in contrast to RelA-I kappa B alpha, RelA-p100 cytoplasmic complexes are not dissociated following tumor necrosis factor alpha activation; (iii) p100 functions as a potent inhibitor of RelA-mediated transcription in vivo; (iv) the interaction of RelA and p100 involves the conserved Rel homology domain of both proteins but not the nuclear localization signal of RelA, which is required for I kappa B alpha binding; (v) p100 inhibition of RelA function requires the C-terminal ankyrin motif domain, which mediates cytoplasmic retention of RelA; and (vi) as observed with I kappa B alpha, nuclear RelA stimulates p100 mRNA and protein expression.</clue>
+</event>
+<event KT="Analysis" id="E30">
+<type class="Binding"/>
+<theme idref="T25"/>
+<theme idref="A21"/>
+<clue>Subsequent studies have <clueKT>revealed</clueKT> that (i) cytoplasmic RelA is stably <clueType>associated</clueType> not only with I kappa B alpha but also <linkTheme>with</linkTheme> other <corefTheme idref1="A21">ankyrin motif-rich proteins</corefTheme> including the products of the NF-kappa B2 (p100) and NF-kappa B1 (p105) genes; (ii) in contrast to RelA-I kappa B alpha, RelA-p100 cytoplasmic complexes are not dissociated following tumor necrosis factor alpha activation; (iii) p100 functions as a potent inhibitor of RelA-mediated transcription in vivo; (iv) the interaction of RelA and p100 involves the conserved Rel homology domain of both proteins but not the nuclear localization signal of RelA, which is required for I kappa B alpha binding; (v) p100 inhibition of RelA function requires the C-terminal ankyrin motif domain, which mediates cytoplasmic retention of RelA; and (vi) as observed with I kappa B alpha, nuclear RelA stimulates p100 mRNA and protein expression.</clue>
+</event>
+<event KT="Analysis" id="E31">
+<type class="Binding"/>
+<theme idref="T25"/>
+<theme idref="T27"/>
+<clue>Subsequent studies have <clueKT>revealed</clueKT> that (i) cytoplasmic RelA is stably <clueType>associated</clueType> not only with I kappa B alpha but also <linkTheme>with</linkTheme> other ankyrin motif-rich proteins including the products of the NF-kappa B2 (p100) and NF-kappa B1 (p105) genes; (ii) in contrast to RelA-I kappa B alpha, RelA-p100 cytoplasmic complexes are not dissociated following tumor necrosis factor alpha activation; (iii) p100 functions as a potent inhibitor of RelA-mediated transcription in vivo; (iv) the interaction of RelA and p100 involves the conserved Rel homology domain of both proteins but not the nuclear localization signal of RelA, which is required for I kappa B alpha binding; (v) p100 inhibition of RelA function requires the C-terminal ankyrin motif domain, which mediates cytoplasmic retention of RelA; and (vi) as observed with I kappa B alpha, nuclear RelA stimulates p100 mRNA and protein expression.</clue>
+</event>
+<event KT="Other" Polarity="Negative" id="E113">
+<type/>
+<theme idref="T29"/>
+<theme idref="T30"/>
+<clue>Subsequent studies have revealed that (i) cytoplasmic RelA is stably associated not only with I kappa B alpha but also with other ankyrin motif-rich proteins including the products of the NF-kappa B2 (p100) and NF-kappa B1 (p105) genes; (ii) in contrast to RelA-I kappa B alpha, RelA-p100 cytoplasmic complexes are <cluePolarity>not</cluePolarity> <clueType>dissociated</clueType> <linkCause>following</linkCause> tumor necrosis factor alpha activation; (iii) p100 functions as a potent inhibitor of RelA-mediated transcription in vivo; (iv) the interaction of RelA and p100 involves the conserved Rel homology domain of both proteins but not the nuclear localization signal of RelA, which is required for I kappa B alpha binding; (v) p100 inhibition of RelA function requires the C-terminal ankyrin motif domain, which mediates cytoplasmic retention of RelA; and (vi) as observed with I kappa B alpha, nuclear RelA stimulates p100 mRNA and protein expression.</clue>
+<comment>SOO</comment></event>
+<event KT="Other" Polarity="Negative" id="E114">
+<type/>
+<theme idref="T32"/>
+<theme idref="A50"/>
+<clue>Subsequent studies have revealed that (i) cytoplasmic RelA is stably associated not only with I kappa B alpha but also with other ankyrin motif-rich proteins including the products of the NF-kappa B2 (p100) and NF-kappa B1 (p105) genes; (ii) in contrast to RelA-I kappa B alpha, RelA-p100 cytoplasmic complexes are <cluePolarity>not</cluePolarity> <clueType>dissociated</clueType> following tumor necrosis factor alpha activation; (iii) p100 functions as a potent inhibitor of RelA-mediated transcription in vivo; (iv) the interaction of RelA and p100 involves the conserved Rel homology domain of both proteins but not the nuclear localization signal of RelA, which is required for I kappa B alpha binding; (v) p100 inhibition of RelA function requires the C-terminal ankyrin motif domain, which mediates cytoplasmic retention of RelA; and (vi) as observed with I kappa B alpha, nuclear RelA stimulates p100 mRNA and protein expression.</clue>
+<comment>SOO</comment></event>
+<event KT="Other" id="E115">
+<type class="Physiological_process"/>
+<theme idref="T20"/>
+<cause idref="T33"/>
+<clue>Subsequent studies have revealed that (i) cytoplasmic RelA is stably associated not only with I kappa B alpha but also with other ankyrin motif-rich proteins including the products of the NF-kappa B2 (p100) and NF-kappa B1 (p105) genes; (ii) in contrast to RelA-I kappa B alpha, RelA-p100 cytoplasmic complexes are not dissociated following tumor necrosis factor alpha <clueType>activation</clueType>; (iii) p100 functions as a potent inhibitor of RelA-mediated transcription in vivo; (iv) the interaction of RelA and p100 involves the conserved Rel homology domain of both proteins but not the nuclear localization signal of RelA, which is required for I kappa B alpha binding; (v) p100 inhibition of RelA function requires the C-terminal ankyrin motif domain, which mediates cytoplasmic retention of RelA; and (vi) as observed with I kappa B alpha, nuclear RelA stimulates p100 mRNA and protein expression.</clue>
+</event>
+<event KT="Analysis" id="E116">
+<type class="Positive_regulation"/>
+<theme idref="E113"/>
+<cause idref="E115"/>
+<clue>Subsequent studies have <clueKT>revealed</clueKT> that (i) cytoplasmic RelA is stably associated not only with I kappa B alpha but also with other ankyrin motif-rich proteins including the products of the NF-kappa B2 (p100) and NF-kappa B1 (p105) genes; (ii) in contrast to RelA-I kappa B alpha, RelA-p100 cytoplasmic complexes are not dissociated <linkCause>following</linkCause> tumor necrosis factor alpha activation; (iii) p100 functions as a potent inhibitor of RelA-mediated transcription in vivo; (iv) the interaction of RelA and p100 involves the conserved Rel homology domain of both proteins but not the nuclear localization signal of RelA, which is required for I kappa B alpha binding; (v) p100 inhibition of RelA function requires the C-terminal ankyrin motif domain, which mediates cytoplasmic retention of RelA; and (vi) as observed with I kappa B alpha, nuclear RelA stimulates p100 mRNA and protein expression.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E117">
+<type class="Positive_regulation"/>
+<theme idref="E114"/>
+<cause idref="E115"/>
+<clue>Subsequent studies have <clueKT>revealed</clueKT> that (i) cytoplasmic RelA is stably associated not only with I kappa B alpha but also with other ankyrin motif-rich proteins including the products of the NF-kappa B2 (p100) and NF-kappa B1 (p105) genes; (ii) in contrast to RelA-I kappa B alpha, RelA-p100 cytoplasmic complexes are <cluePolarity>not</cluePolarity> dissociated <linkCause>following</linkCause> tumor necrosis factor alpha activation; (iii) p100 functions as a potent inhibitor of RelA-mediated transcription in vivo; (iv) the interaction of RelA and p100 involves the conserved Rel homology domain of both proteins but not the nuclear localization signal of RelA, which is required for I kappa B alpha binding; (v) p100 inhibition of RelA function requires the C-terminal ankyrin motif domain, which mediates cytoplasmic retention of RelA; and (vi) as observed with I kappa B alpha, nuclear RelA stimulates p100 mRNA and protein expression.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Other" id="E71" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="A31"/>
+<cause idref="T36"/>
+<clue>Subsequent studies have revealed that (i) cytoplasmic RelA is stably associated not only with I kappa B alpha but also with other ankyrin motif-rich proteins including the products of the NF-kappa B2 (p100) and NF-kappa B1 (p105) genes; (ii) in contrast to RelA-I kappa B alpha, RelA-p100 cytoplasmic complexes are not dissociated following tumor necrosis factor alpha activation; (iii) p100 functions as a potent inhibitor of RelA-<clueType>mediated</clueType> transcription in vivo; (iv) the interaction of RelA and p100 involves the conserved Rel homology domain of both proteins but not the nuclear localization signal of RelA, which is required for I kappa B alpha binding; (v) p100 inhibition of RelA function requires the C-terminal ankyrin motif domain, which mediates cytoplasmic retention of RelA; and (vi) as observed with I kappa B alpha, nuclear RelA stimulates p100 mRNA and protein expression.</clue>
+</event>
+<event KT="Analysis" Manner="High" id="E15" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="E71"/>
+<cause idref="T34"/>
+<clue>Subsequent studies have <clueKT>revealed</clueKT> that (i) cytoplasmic RelA is stably associated not only with I kappa B alpha but also with other ankyrin motif-rich proteins including the products of the NF-kappa B2 (p100) and NF-kappa B1 (p105) genes; (ii) in contrast to RelA-I kappa B alpha, RelA-p100 cytoplasmic complexes are not dissociated following tumor necrosis factor alpha activation; (iii) p100 functions as a <clueManner>potent</clueManner> <clueType>inhibitor</clueType> <linkTheme>of</linkTheme> RelA-mediated transcription in vivo; (iv) the interaction of RelA and p100 involves the conserved Rel homology domain of both proteins but not the nuclear localization signal of RelA, which is required for I kappa B alpha binding; (v) p100 inhibition of RelA function requires the C-terminal ankyrin motif domain, which mediates cytoplasmic retention of RelA; and (vi) as observed with I kappa B alpha, nuclear RelA stimulates p100 mRNA and protein expression.</clue>
+</event>
+<event id="E16">
+<type class="Binding"/>
+<theme idref="T44"/>
+<theme idref="T45"/>
+<clue>Subsequent studies have revealed that (i) cytoplasmic RelA is stably associated not only with I kappa B alpha but also with other ankyrin motif-rich proteins including the products of the NF-kappa B2 (p100) and NF-kappa B1 (p105) genes; (ii) in contrast to RelA-I kappa B alpha, RelA-p100 cytoplasmic complexes are not dissociated following tumor necrosis factor alpha activation; (iii) p100 functions as a potent inhibitor of RelA-mediated transcription in vivo; (iv) the <clueType>interaction</clueType> <linkTheme>of</linkTheme> RelA and p100 involves the conserved Rel homology domain of both proteins but not the nuclear localization signal of RelA, which is required for I kappa B alpha binding; (v) p100 inhibition of RelA function requires the C-terminal ankyrin motif domain, which mediates cytoplasmic retention of RelA; and (vi) as observed with I kappa B alpha, nuclear RelA stimulates p100 mRNA and protein expression.</clue>
+</event>
+<event KT="Analysis" id="E17">
+<type class="Correlation"/>
+<theme idref="E16"/>
+<theme idref="T39"/>
+<clue>Subsequent studies have <clueKT>revealed</clueKT> that (i) cytoplasmic RelA is stably associated not only with I kappa B alpha but also with other ankyrin motif-rich proteins including the products of the NF-kappa B2 (p100) and NF-kappa B1 (p105) genes; (ii) in contrast to RelA-I kappa B alpha, RelA-p100 cytoplasmic complexes are not dissociated following tumor necrosis factor alpha activation; (iii) p100 functions as a potent inhibitor of RelA-mediated transcription in vivo; (iv) the interaction of RelA and p100 <clueType>involves</clueType> the conserved Rel homology domain of both proteins but not the nuclear localization signal of RelA, which is required for I kappa B alpha binding; (v) p100 inhibition of RelA function requires the C-terminal ankyrin motif domain, which mediates cytoplasmic retention of RelA; and (vi) as observed with I kappa B alpha, nuclear RelA stimulates p100 mRNA and protein expression.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E18">
+<type class="Correlation"/>
+<theme idref="E16"/>
+<theme idref="T40"/>
+<clue>Subsequent studies have <clueKT>revealed</clueKT> that (i) cytoplasmic RelA is stably associated not only with I kappa B alpha but also with other ankyrin motif-rich proteins including the products of the NF-kappa B2 (p100) and NF-kappa B1 (p105) genes; (ii) in contrast to RelA-I kappa B alpha, RelA-p100 cytoplasmic complexes are not dissociated following tumor necrosis factor alpha activation; (iii) p100 functions as a potent inhibitor of RelA-mediated transcription in vivo; (iv) the interaction of RelA and p100 <clueType>involves</clueType> the conserved Rel homology domain of both proteins <cluePolarity>but not</cluePolarity> the nuclear localization signal of RelA, which is required for I kappa B alpha binding; (v) p100 inhibition of RelA function requires the C-terminal ankyrin motif domain, which mediates cytoplasmic retention of RelA; and (vi) as observed with I kappa B alpha, nuclear RelA stimulates p100 mRNA and protein expression.</clue>
+</event>
+<event KT="Other" id="E32">
+<type class="Binding"/>
+<theme idref="T41"/>
+<theme idref="T43"/>
+<clue>Subsequent studies have revealed that (i) cytoplasmic RelA is stably associated not only with I kappa B alpha but also with other ankyrin motif-rich proteins including the products of the NF-kappa B2 (p100) and NF-kappa B1 (p105) genes; (ii) in contrast to RelA-I kappa B alpha, RelA-p100 cytoplasmic complexes are not dissociated following tumor necrosis factor alpha activation; (iii) p100 functions as a potent inhibitor of RelA-mediated transcription in vivo; (iv) the interaction of RelA and p100 involves the conserved Rel homology domain of both proteins but not the nuclear localization signal of RelA, which is required for I kappa B alpha <clueType>binding</clueType>; (v) p100 inhibition of RelA function requires the C-terminal ankyrin motif domain, which mediates cytoplasmic retention of RelA; and (vi) as observed with I kappa B alpha, nuclear RelA stimulates p100 mRNA and protein expression.</clue>
+</event>
+<event KT="Analysis" id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E32"/>
+<cause idref="T40"/>
+<clue>Subsequent studies have <clueKT>revealed</clueKT> that (i) cytoplasmic RelA is stably associated not only with I kappa B alpha but also with other ankyrin motif-rich proteins including the products of the NF-kappa B2 (p100) and NF-kappa B1 (p105) genes; (ii) in contrast to RelA-I kappa B alpha, RelA-p100 cytoplasmic complexes are not dissociated following tumor necrosis factor alpha activation; (iii) p100 functions as a potent inhibitor of RelA-mediated transcription in vivo; (iv) the interaction of RelA and p100 involves the conserved Rel homology domain of both proteins but not the nuclear localization signal of RelA, which is <clueType>required</clueType> <linkTheme>for</linkTheme> I kappa B alpha binding; (v) p100 inhibition of RelA function requires the C-terminal ankyrin motif domain, which mediates cytoplasmic retention of RelA; and (vi) as observed with I kappa B alpha, nuclear RelA stimulates p100 mRNA and protein expression.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Negative_regulation"/>
+<theme idref="T45"/>
+<cause idref="T44"/>
+<clue>Subsequent studies have revealed that (i) cytoplasmic RelA is stably associated not only with I kappa B alpha but also with other ankyrin motif-rich proteins including the products of the NF-kappa B2 (p100) and NF-kappa B1 (p105) genes; (ii) in contrast to RelA-I kappa B alpha, RelA-p100 cytoplasmic complexes are not dissociated following tumor necrosis factor alpha activation; (iii) p100 functions as a potent inhibitor of RelA-mediated transcription in vivo; (iv) the interaction of RelA and p100 involves the conserved Rel homology domain of both proteins but not the nuclear localization signal of RelA, which is required for I kappa B alpha binding; (v) p100 <clueType>inhibition</clueType> <linkTheme>of</linkTheme> RelA function requires the C-terminal ankyrin motif domain, which mediates cytoplasmic retention of RelA; and (vi) as observed with I kappa B alpha, nuclear RelA stimulates p100 mRNA and protein expression.</clue>
+</event>
+<event KT="Analysis" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="T46"/>
+<clue>Subsequent studies have <clueKT>revealed</clueKT> that (i) cytoplasmic RelA is stably associated not only with I kappa B alpha but also with other ankyrin motif-rich proteins including the products of the NF-kappa B2 (p100) and NF-kappa B1 (p105) genes; (ii) in contrast to RelA-I kappa B alpha, RelA-p100 cytoplasmic complexes are not dissociated following tumor necrosis factor alpha activation; (iii) p100 functions as a potent inhibitor of RelA-mediated transcription in vivo; (iv) the interaction of RelA and p100 involves the conserved Rel homology domain of both proteins but not the nuclear localization signal of RelA, which is required for I kappa B alpha binding; (v) p100 inhibition of RelA function <clueType>requires</clueType> the C-terminal ankyrin motif domain, which mediates cytoplasmic retention of RelA; and (vi) as observed with I kappa B alpha, nuclear RelA stimulates p100 mRNA and protein expression.</clue>
+</event>
+<event KT="Other" id="E60">
+<type class="Localization"/>
+<theme idref="T47"/>
+<clue>Subsequent studies have revealed that (i) cytoplasmic RelA is stably associated not only with I kappa B alpha but also with other ankyrin motif-rich proteins including the products of the NF-kappa B2 (p100) and NF-kappa B1 (p105) genes; (ii) in contrast to RelA-I kappa B alpha, RelA-p100 cytoplasmic complexes are not dissociated following tumor necrosis factor alpha activation; (iii) p100 functions as a potent inhibitor of RelA-mediated transcription in vivo; (iv) the interaction of RelA and p100 involves the conserved Rel homology domain of both proteins but not the nuclear localization signal of RelA, which is required for I kappa B alpha binding; (v) p100 inhibition of RelA function requires the C-terminal ankyrin motif domain, which mediates <clueLoc>cytoplasmic</clueLoc> <clueType>retention</clueType> <linkTheme>of</linkTheme> RelA; and (vi) as observed with I kappa B alpha, nuclear RelA stimulates p100 mRNA and protein expression.</clue>
+</event>
+<event KT="Analysis" id="E61">
+<type class="Positive_regulation"/>
+<theme idref="E60"/>
+<cause idref="T46"/>
+<clue>Subsequent studies have <clueKT>revealed</clueKT> that (i) cytoplasmic RelA is stably associated not only with I kappa B alpha but also with other ankyrin motif-rich proteins including the products of the NF-kappa B2 (p100) and NF-kappa B1 (p105) genes; (ii) in contrast to RelA-I kappa B alpha, RelA-p100 cytoplasmic complexes are not dissociated following tumor necrosis factor alpha activation; (iii) p100 functions as a potent inhibitor of RelA-mediated transcription in vivo; (iv) the interaction of RelA and p100 involves the conserved Rel homology domain of both proteins but not the nuclear localization signal of RelA, which is required for I kappa B alpha binding; (v) p100 inhibition of RelA function requires the C-terminal ankyrin motif domain, which <clueType>mediates</clueType> cytoplasmic retention of RelA; and (vi) as observed with I kappa B alpha, nuclear RelA stimulates p100 mRNA and protein expression.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Transcription"/>
+<theme idref="T50"/>
+<clue>Subsequent studies have revealed that (i) cytoplasmic RelA is stably associated not only with I kappa B alpha but also with other ankyrin motif-rich proteins including the products of the NF-kappa B2 (p100) and NF-kappa B1 (p105) genes; (ii) in contrast to RelA-I kappa B alpha, RelA-p100 cytoplasmic complexes are not dissociated following tumor necrosis factor alpha activation; (iii) p100 functions as a potent inhibitor of RelA-mediated transcription in vivo; (iv) the interaction of RelA and p100 involves the conserved Rel homology domain of both proteins but not the nuclear localization signal of RelA, which is required for I kappa B alpha binding; (v) p100 inhibition of RelA function requires the C-terminal ankyrin motif domain, which mediates cytoplasmic retention of RelA; and (vi) as observed with I kappa B alpha, nuclear RelA stimulates p100 mRNA and protein <clueType>expression</clueType>.</clue>
+</event>
+<event KT="Analysis" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="E22"/>
+<cause idref="T49"/>
+<clue>Subsequent studies have <clueKT>revealed</clueKT> that (i) cytoplasmic RelA is stably associated not only with I kappa B alpha but also with other ankyrin motif-rich proteins including the products of the NF-kappa B2 (p100) and NF-kappa B1 (p105) genes; (ii) in contrast to RelA-I kappa B alpha, RelA-p100 cytoplasmic complexes are not dissociated following tumor necrosis factor alpha activation; (iii) p100 functions as a potent inhibitor of RelA-mediated transcription in vivo; (iv) the interaction of RelA and p100 involves the conserved Rel homology domain of both proteins but not the nuclear localization signal of RelA, which is required for I kappa B alpha binding; (v) p100 inhibition of RelA function requires the C-terminal ankyrin motif domain, which mediates cytoplasmic retention of RelA; and (vi) as observed with I kappa B alpha, nuclear RelA <clueType>stimulates</clueType> p100 mRNA and protein expression.</clue>
+</event>
+<event KT="Other" id="E34">
+<type class="Gene_expression"/>
+<theme idref="T51" idref1="A25"/>
+<clue>Subsequent studies have revealed that (i) cytoplasmic RelA is stably associated not only with I kappa B alpha but also with other ankyrin motif-rich proteins including the products of the NF-kappa B2 (p100) and NF-kappa B1 (p105) genes; (ii) in contrast to RelA-I kappa B alpha, RelA-p100 cytoplasmic complexes are not dissociated following tumor necrosis factor alpha activation; (iii) p100 functions as a potent inhibitor of RelA-mediated transcription in vivo; (iv) the interaction of RelA and p100 involves the conserved Rel homology domain of both proteins but not the nuclear localization signal of RelA, which is required for I kappa B alpha binding; (v) p100 inhibition of RelA function requires the C-terminal ankyrin motif domain, which mediates cytoplasmic retention of RelA; and (vi) as observed with I kappa B alpha, nuclear RelA stimulates p100 mRNA and protein <clueType>expression</clueType>.</clue>
+</event>
+<event KT="Analysis" id="E35">
+<type class="Positive_regulation"/>
+<theme idref="E34"/>
+<cause idref="T49"/>
+<clue>Subsequent studies have <clueKT>revealed</clueKT> that (i) cytoplasmic RelA is stably associated not only with I kappa B alpha but also with other ankyrin motif-rich proteins including the products of the NF-kappa B2 (p100) and NF-kappa B1 (p105) genes; (ii) in contrast to RelA-I kappa B alpha, RelA-p100 cytoplasmic complexes are not dissociated following tumor necrosis factor alpha activation; (iii) p100 functions as a potent inhibitor of RelA-mediated transcription in vivo; (iv) the interaction of RelA and p100 involves the conserved Rel homology domain of both proteins but not the nuclear localization signal of RelA, which is required for I kappa B alpha binding; (v) p100 inhibition of RelA function requires the C-terminal ankyrin motif domain, which mediates cytoplasmic retention of RelA; and (vi) as observed with I kappa B alpha, nuclear RelA <clueType>stimulates</clueType> p100 mRNA and protein expression.</clue>
+</event>
+<sentence id="S7">These findings thus reveal the presence of a second <term id="T53" lex="inducible_autoregulated_inhibitory_pathway" sem="Other">inducible autoregulated inhibitory pathway</term> that helps ensure the rapid but transient action of <term id="T54" lex="nuclear_NF-kappa_B" sem="Protein_complex">nuclear <term id="T55" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term></term>.</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

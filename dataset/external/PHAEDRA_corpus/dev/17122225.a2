@@ -1,0 +1,22 @@
+T15	DDI 28 39	interaction
+T16	Adverse_effect 19 23	from
+T27	Adverse_effect 347 354	induced
+T28	Potential_therapeutic_effect 430 439	receiving
+T31	Adverse_effect 595 602	started
+T39	Adverse_effect 902 916	manifestations
+T17	Adverse_effect 784 799	extreme caution
+E2	DDI:T15 has_participant:T2 has_participant:T3
+E1	Combination:T14 has_participant:T12 has_participant:T11
+E10	Combination:T23 has_participant:T8 has_participant:T6
+E12	Combination:T23 has_participant:T9 has_participant:T6
+E3	Adverse_effect:T16 has_agent:E2 affects:T1
+E6	Adverse_effect:T27 affects:T5 has_subject:T25 has_agent:E12
+E7	Potential_therapeutic_effect:T28 has_subject:T25 has_agent:E10
+E8	Adverse_effect:T31 has_agent:T10 affects:T29 affects:T30
+E13	Adverse_effect:T39 has_cue:T40 affects:T13 has_agent:E1
+E5	Potential_therapeutic_effect:T28 has_subject:T25 has_agent:E12
+E14	Adverse_effect:T27 affects:T5 has_subject:T25 has_agent:E10
+E9	Adverse_effect:T17 has_agent:E1
+A5	Speculated E13
+T19	Adverse_effect 135 156	adverse drug reaction
+E11	Adverse_effect:T19 affects:T4 has_cue:T21 has_agent:T18

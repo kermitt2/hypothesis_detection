@@ -1,0 +1,217 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7542591" created="16/01/2007" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7542591</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Distinct signaling properties identify functionally different <term id="T1" lex="CD4_epitope" sem="Protein_family_or_group">CD4 epitopes</term>.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T2" lex="CD4_coreceptor" sem="Protein_molecule">CD4 coreceptor</term> interacts with <term id="A2" sem="Protein_domain_or_region"><term id="T3" lex="non-polymorphic_region" sem="Protein_domain_or_region">non-polymorphic regions</term> of <term id="T4" lex="major_histocompatibility_complex_class_II_molecule" sem="Protein_family_or_group">major histocompatibility complex class II molecules</term></term> on <term id="T5" lex="antigen-presenting_cell" sem="Cell_natural">antigen-presenting cells</term> and contributes to <term id="T6" lex="T_cell_activation" sem="Other"><term id="A1" sem="Cell_natural">T cell</term> activation</term>.</sentence>
+<event KT="Fact" id="E2">
+<type class="Binding"/>
+<theme idref="T2"/>
+<theme idref="A2"/>
+<clue>The CD4 coreceptor <clueType>interacts</clueType> <linkTheme>with</linkTheme> non-polymorphic regions of major histocompatibility complex class II molecules <clueLoc>on antigen-presenting cells</clueLoc> and contributes to T cell activation.</clue>
+<comment>TPS: A2</comment></event>
+<event KT="Fact" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="T2"/>
+<clue>The CD4 coreceptor interacts with non-polymorphic regions of major histocompatibility complex class II molecules on antigen-presenting cells and <clueType>contributes</clueType> <linkTheme>to</linkTheme> T cell activation.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Physiological_process"/>
+<theme idref="A1"/>
+<clue>The CD4 coreceptor interacts with non-polymorphic regions of major histocompatibility complex class II molecules on antigen-presenting cells and contributes to T cell <clueType>activation</clueType>.</clue>
+</event>
+<sentence id="S3">We have investigated the effect of <term id="T7" lex="CD4_triggering" sem="Other"><term id="T8" lex="CD4" sem="Protein_molecule">CD4</term> triggering</term> on <term id="T9" lex="T_cell_activating_signal" sem="Other">T cell activating signals</term> in a <term id="T10" lex="lymphoma_model" sem="Other">lymphoma model</term> using <term id="T11" lex="monoclonal_antibody" sem="Protein_family_or_group">monoclonal antibodies</term> (<term id="T12" lex="mAb" sem="Protein_domain_or_region">mAb</term>) which recognize different <term id="T13" lex="CD4_epitope" sem="Protein_family_or_group">CD4 epitopes</term>.</sentence>
+<event KT="Investigation" id="E5" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="T9"/>
+<cause idref="E6"/>
+<clue>We have <clueKT>investigated</clueKT> the <clueType>effect</clueType> <linkCause>of</linkCause> CD4 triggering <linkTheme>on</linkTheme> T cell activating signals <clueLoc>in a lymphoma model</clueLoc> using monoclonal antibodies (mAb) which recognize different CD4 epitopes.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Positive_regulation"/>
+<cause idref="T8"/>
+<clue>We have investigated the effect of CD4 <clueType>triggering</clueType> on T cell activating signals in a lymphoma model using monoclonal antibodies (mAb) which recognize different CD4 epitopes.</clue>
+<comment>NO THEME</comment></event>
+<event KT="Other" id="E7">
+<type class="Binding"/>
+<theme idref="T12"/>
+<theme idref="T13"/>
+<clue>We have investigated the effect of CD4 triggering on T cell activating signals in a lymphoma model using monoclonal antibodies (mAb) which <clueType>recognize</clueType> different CD4 epitopes.</clue>
+</event>
+<sentence id="S4">We demonstrate that <term id="T14" lex="CD4_triggering" sem="Other"><term id="T15" lex="CD4" sem="Protein_molecule">CD4</term> triggering</term> delivers signals capable of activating the <term id="T16" lex="NF-AT_transcription_factor" sem="Protein_molecule"><term id="A3" sem="Protein_molecule">NF-AT</term> transcription factor</term> which is required for <term id="T17" lex="interleukin-2_gene_expression" sem="Other"><term id="T18" lex="interleukin-2" sem="Protein_molecule">interleukin-2</term> gene expression</term>.</sentence>
+<event id="E8">
+<type class="Positive_regulation"/>
+<cause idref="T15"/>
+<clue>We demonstrate that CD4 <clueType>triggering</clueType> delivers signals capable of activating the NF-AT transcription factor which is required for interleukin-2 gene expression.</clue>
+<comment>NO THEME</comment></event>
+<event KT="Analysis" id="E9">
+<type class="Cell_communication"/>
+<theme idref="E10"/>
+<cause idref="E8"/>
+<clue>We <clueKT>demonstrate</clueKT> that CD4 triggering <clueType>delivers signals</clueType> capable <linkTheme>of</linkTheme> activating the NF-AT transcription factor which is required for interleukin-2 gene expression.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<cause idref="E9"/>
+<clue>We demonstrate that CD4 triggering delivers signals <clueKT><clueCL>capable of</clueCL></clueKT> <clueType>activating</clueType> the NF-AT transcription factor which is required for interleukin-2 gene expression.</clue>
+</event>
+<event KT="Fact" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="A3"/>
+<clue>We demonstrate that CD4 triggering delivers signals capable of activating the NF-AT transcription factor which is <clueType>required</clueType> <linkTheme>for</linkTheme> interleukin-2 gene expression.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Gene_expression"/>
+<theme idref="T18"/>
+<clue>We demonstrate that CD4 triggering delivers signals capable of activating the NF-AT transcription factor which is required for interleukin-2 <clueType>gene expression</clueType>.</clue>
+</event>
+<sentence id="S5">Whereas different <term id="T19" lex="anti-CD4_mAb" sem="Protein_family_or_group">anti-CD4 mAb</term> or <term id="T20" lex="HIV-1_gp120" sem="Protein_molecule"><term id="T21" lex="HIV-1" sem="Virus">HIV-1</term> gp120</term> could all trigger activation of the <term id="T22" lex="protein_tyrosine_kinase" sem="Protein_family_or_group">protein tyrosine kinases</term> <term id="T23" lex="p56lck" sem="Protein_molecule">p56lck</term> and <term id="T24" lex="p59fyn" sem="Protein_molecule">p59fyn</term> and phosphorylation of the <term id="T25" lex="Shc_adaptor_protein" sem="Protein_molecule">Shc adaptor protein</term>, which mediates signals to <term id="T26" lex="Ras" sem="Protein_family_or_group">Ras</term>, they differed significantly in their ability to activate <term id="T27" lex="NF-AT" sem="Protein_molecule">NF-AT</term>.</sentence>
+<event id="E13">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="T19"/>
+<clue>Whereas different anti-CD4 mAb or HIV-1 gp120 could all <clueType>trigger</clueType> activation of the protein tyrosine kinases p56lck and p59fyn and phosphorylation of the Shc adaptor protein, which mediates signals to Ras, they differed significantly in their ability to activate NF-AT.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="T19"/>
+<clue>Whereas different anti-CD4 mAb or HIV-1 gp120 could all <clueType>trigger</clueType> activation of the protein tyrosine kinases p56lck and p59fyn and phosphorylation of the Shc adaptor protein, which mediates signals to Ras, they differed significantly in their ability to activate NF-AT.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="T19"/>
+<clue>Whereas different anti-CD4 mAb or HIV-1 gp120 could all <clueType>trigger</clueType> activation of the protein tyrosine kinases p56lck and p59fyn and phosphorylation of the Shc adaptor protein, which mediates signals to Ras, they differed significantly in their ability to activate NF-AT.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="T20"/>
+<clue>Whereas different anti-CD4 mAb or HIV-1 gp120 could all <clueType>trigger</clueType> activation of the protein tyrosine kinases p56lck and p59fyn and phosphorylation of the Shc adaptor protein, which mediates signals to Ras, they differed significantly in their ability to activate NF-AT.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="T20"/>
+<clue>Whereas different anti-CD4 mAb or HIV-1 gp120 could all <clueType>trigger</clueType> activation of the protein tyrosine kinases p56lck and p59fyn and phosphorylation of the Shc adaptor protein, which mediates signals to Ras, they differed significantly in their ability to activate NF-AT.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="T20"/>
+<clue>Whereas different anti-CD4 mAb or HIV-1 gp120 could all <clueType>trigger</clueType> activation of the protein tyrosine kinases p56lck and p59fyn and phosphorylation of the Shc adaptor protein, which mediates signals to Ras, they differed significantly in their ability to activate NF-AT.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation"/>
+<theme idref="T23"/>
+<clue>Whereas different anti-CD4 mAb or HIV-1 gp120 could all trigger <clueType>activation</clueType> <linkTheme>of</linkTheme> the protein tyrosine kinases p56lck and p59fyn and phosphorylation of the Shc adaptor protein, which mediates signals to Ras, they differed significantly in their ability to activate NF-AT.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation"/>
+<theme idref="T24"/>
+<clue>Whereas different anti-CD4 mAb or HIV-1 gp120 could all trigger <clueType>activation</clueType> <linkTheme>of</linkTheme> the protein tyrosine kinases p56lck and p59fyn and phosphorylation of the Shc adaptor protein, which mediates signals to Ras, they differed significantly in their ability to activate NF-AT.</clue>
+</event>
+<event id="E15">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T25"/>
+<clue>Whereas different anti-CD4 mAb or HIV-1 gp120 could all trigger activation of the protein tyrosine kinases p56lck and p59fyn and <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> the Shc adaptor protein, which mediates signals to Ras, they differed significantly in their ability to activate NF-AT.</clue>
+</event>
+<event KT="Fact" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<cause idref="E15"/>
+<clue>Whereas different anti-CD4 mAb or HIV-1 gp120 could all trigger activation of the protein tyrosine kinases p56lck and p59fyn and phosphorylation of the Shc adaptor protein, which <clueType>mediates</clueType> signals to Ras, they differed significantly in their ability to activate NF-AT.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Cell_communication"/>
+<theme idref="T26"/>
+<clue>Whereas different anti-CD4 mAb or HIV-1 gp120 could all trigger activation of the protein tyrosine kinases p56lck and p59fyn and phosphorylation of the Shc adaptor protein, which mediates <clueType>signals</clueType> <linkTheme>to</linkTheme> Ras, they differed significantly in their ability to activate NF-AT.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="T27"/>
+<cause idref="T19"/>
+<clue>Whereas different anti-CD4 mAb or HIV-1 gp120 could all trigger activation of the protein tyrosine kinases p56lck and p59fyn and phosphorylation of the Shc adaptor protein, which mediates signals to Ras, they differed significantly in <corefCause>their</corefCause> <clueKT><clueCL>ability to</clueCL></clueKT> <clueType>activate</clueType> NF-AT.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="T27"/>
+<cause idref="T20"/>
+<clue>Whereas different anti-CD4 mAb or HIV-1 gp120 could all trigger activation of the protein tyrosine kinases p56lck and p59fyn and phosphorylation of the Shc adaptor protein, which mediates signals to Ras, they differed significantly in <corefCause>their</corefCause> <clueKT><clueCL>ability to</clueCL></clueKT> <clueType>activate</clueType> NF-AT.</clue>
+</event>
+<sentence id="S6">Lack of full activation of <term id="T28" lex="NF-AT" sem="Protein_molecule">NF-AT</term> could be correlated to a dramatically reduced capacity to induce <term id="T29" lex="calcium_flux" sem="Other"><term id="T30" lex="calcium" sem="Element">calcium</term> flux</term> and could be complemented with a <term id="T31" lex="calcium_ionophore" sem="Organic_compound_other">calcium ionophore</term>.</sentence>
+<event KT="Other" id="E18">
+<type class="Negative_regulation"/>
+<theme idref="E28"/>
+<clue><clueType>Lack</clueType> <linkTheme>of</linkTheme> full activation of NF-AT could be correlated to a dramatically reduced capacity to induce calcium flux and could be complemented with a calcium ionophore.</clue>
+</event>
+<event KT="Other" Manner="High" id="E28">
+<type class="Positive_regulation"/>
+<theme idref="T28"/>
+<clue>Lack of <clueManner>full</clueManner> <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-AT could be correlated to a dramatically reduced capacity to induce calcium flux and could be complemented with a calcium ionophore.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E29">
+<type class="Correlation"/>
+<theme idref="E18"/>
+<theme idref="E30"/>
+<clue>Lack of full activation of NF-AT <clueCL>could</clueCL> be <clueType><clueKT>correlated</clueKT></clueType> <linkTheme>to</linkTheme> a dramatically reduced capacity to induce calcium flux and could be complemented with a calcium ionophore.</clue>
+</event>
+<event KT="Other" Manner="High" id="E30">
+<type class="Negative_regulation"/>
+<theme idref="E31"/>
+<clue>Lack of full activation of NF-AT could be correlated to a <clueManner>dramatically</clueManner> <clueType>reduced</clueType> capacity to induce calcium flux and could be complemented with a calcium ionophore.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E31">
+<type class="Positive_regulation"/>
+<theme idref="E33"/>
+<clue>Lack of full activation of NF-AT could be correlated to a dramatically reduced <clueKT><clueCL>capacity to</clueCL></clueKT> <clueType>induce</clueType> calcium flux and could be complemented with a calcium ionophore.</clue>
+</event>
+<event KT="Other" id="E33">
+<type class="Localization"/>
+<theme idref="T30"/>
+<clue>Lack of full activation of NF-AT could be correlated to a dramatically reduced capacity to induce calcium <clueType>flux</clueType> and could be complemented with a calcium ionophore.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E32">
+<type class="Negative_regulation"/>
+<theme idref="E18"/>
+<cause idref="T31"/>
+<clue>Lack of full activation of NF-AT could be correlated to a dramatically reduced capacity to induce calcium flux and <clueKT><clueCL>could</clueCL></clueKT> be <clueType>complemented</clueType> <linkCause>with</linkCause> a calcium ionophore.</clue>
+</event>
+<sentence id="S7">The results identify functionally distinct <term id="T32" lex="epitope" sem="Protein_family_or_group">epitopes</term> on the <term id="T33" lex="CD4_coreceptor" sem="Protein_molecule">CD4 coreceptor</term> involved in activation of the <term id="T35" lex="Ras/protein_kinase_C" sem="Protein_molecule"><term id="T36" lex="Ras/protein_kinase_C_pathway" sem="Other"><term id="T37" lex="Ras" sem="Protein_molecule">Ras</term><term id="T38" lex="protein_kinase_C" sem="Protein_molecule">/protein kinase C</term></term></term> and <term id="T39" lex="calcium_pathway" sem="Other">calcium <term id="A5" sem="Other">pathways</term></term>.</sentence>
+<event KT="Analysis" id="E1">
+<type class="Binding"/>
+<theme idref="T32"/>
+<theme idref="T33"/>
+<clue>The results <clueKT>identify</clueKT> functionally distinct epitopes <linkTheme>on</linkTheme> the CD4 coreceptor involved in activation of the Ras/protein kinase C and calcium pathways.</clue>
+</event>
+<event KT="Other" id="E34">
+<type class="Regulation"/>
+<theme idref="E35"/>
+<cause idref="T32"/>
+<clue>The results identify functionally distinct epitopes on the CD4 coreceptor <clueType>involved</clueType> <linkTheme>in</linkTheme> activation of the Ras/protein kinase C and calcium pathways.</clue>
+</event>
+<event KT="Other" id="E39">
+<type class="Regulation"/>
+<theme idref="E37"/>
+<cause idref="T32"/>
+<clue>The results identify functionally distinct epitopes on the CD4 coreceptor <clueType>involved</clueType> <linkTheme>in</linkTheme> activation of the Ras/protein kinase C and calcium pathways.</clue>
+</event>
+<event KT="Other" id="E35">
+<type class="Positive_regulation"/>
+<theme idref="T36" idref1="A5"/>
+<clue>The results identify functionally distinct epitopes on the CD4 coreceptor involved in <clueType>activation</clueType> <linkTheme>of</linkTheme> the Ras/protein kinase C and calcium pathways.</clue>
+<comment>NER: T34 del &quot;Ras /protein kinase C and calcium pathways&quot;</comment></event>
+<event KT="Other" id="E37">
+<type class="Positive_regulation"/>
+<theme idref="T39"/>
+<clue>The results identify functionally distinct epitopes on the CD4 coreceptor involved in <clueType>activation</clueType> <linkTheme>of</linkTheme> the Ras/protein kinase C and calcium pathways.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

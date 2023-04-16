@@ -1,0 +1,17 @@
+T4	DDI 54 66	interactions
+T77	Adverse_effect 256 293	concentration-related adverse effects
+T5	Potential_therapeutic_effect 713 717	with
+R3	is_equivalent Arg1:T55 Arg2:T53
+E1	DDI:T4 has_participant:T1 has_participant:T2 has_cue:T8 has_subject:T54
+E4	Combination:T46 has_participant:T19 has_participant:T20
+E6	Combination:T57 has_participant:T25 has_participant:T24
+E10	Combination:T62 has_participant:T27 has_participant:T26
+E12	Combination:T68 has_participant:T31 has_participant:T32
+E17	Combination:T75 has_participant:T7 has_participant:T76
+E18	Adverse_effect:T77 has_cue:T79 has_cue:T78 has_agent:E17
+E2	Potential_therapeutic_effect:T5 has_subject:T43 has_agent:T21
+E3	Potential_therapeutic_effect:T5 has_subject:T43 has_agent:E4
+E5	Potential_therapeutic_effect:T5 has_subject:T43 has_agent:T18
+A1	Speculated E1
+A11	Speculated E18
+A12	Manner E18 High

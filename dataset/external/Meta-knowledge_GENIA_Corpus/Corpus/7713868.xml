@@ -1,0 +1,277 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7713868" created="08/06/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7713868</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="platelet-activating_factor" sem="Protein_family_or_group">Platelet-activating factor</term> stimulates transcription of the <term id="T2" lex="heparin-binding_epidermal_growth_factor-like_growth_factor" sem="Protein_molecule">heparin-binding epidermal growth factor-like growth factor</term> in <term id="T3" lex="monocyte" sem="Cell_natural">monocytes</term>.</sentence>
+<event id="E1">
+<type class="Transcription"/>
+<theme idref="T2"/>
+<clue>Platelet-activating factor stimulates <clueType>transcription</clueType> <linkTheme>of</linkTheme> the heparin-binding epidermal growth factor-like growth factor in monocytes.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T1"/>
+<clue>Platelet-activating factor <clueType>stimulates</clueType> transcription of the heparin-binding epidermal growth factor-like growth factor <clueLoc>in monocytes</clueLoc>.</clue>
+</event>
+<sentence id="S2">Correlation with an increased <term id="T4" lex="kappa_B_binding_activity" sem="Other"><term id="A21" sem="DNA_domain_or_region">kappa B</term> binding activity</term>.</sentence>
+<event KT="Other" id="E51">
+<type class="Binding"/>
+<theme idref="A21"/>
+<clue>Correlation with an increased kappa B <clueType>binding activity</clueType>.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="T4"/>
+<clue>Correlation with an <clueType>increased</clueType> kappa B binding activity.</clue>
+</event>
+<event KT="Investigation" id="E4">
+<type class="Correlation"/>
+<theme idref="E3"/>
+<theme idref="E2"/>
+<clue><clueType>Correlation</clueType> <linkTheme>with</linkTheme> an increased kappa B binding activity.</clue>
+<comment>NO COREFTHEME</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">Human peripheral blood <term id="T5" lex="monocyte" sem="Cell_natural">monocytes</term> responded to stimulation of <term id="T6" lex="platelet-activating_factor" sem="Protein_molecule">platelet-activating factor</term> (<term id="T7" lex="PAF" sem="Protein_molecule">PAF</term>) with up-regulation of the <term id="A1" sem="RNA_molecule">transcript for <term id="T8" lex="heparin-binding_epidermal_growth_factor-like_growth_factor" sem="Protein_molecule">heparin-binding epidermal growth factor-like growth factor</term> (<term id="T9" lex="HB-EGF" sem="Protein_molecule">HB-EGF</term>)</term>, a <term id="T10" lex="potent_mitogen" sem="Protein_family_or_group">potent mitogen</term> for <term id="T11" lex="vascular_smooth_muscle_cell" sem="Cell_natural">vascular smooth muscle cells</term>.</sentence>
+<event id="E5">
+<type class="Positive_regulation"/>
+<theme idref="A1"/>
+<cause idref="T7"/>
+<clue><clueLoc>Human peripheral blood monocytes</clueLoc> responded to stimulation of platelet-activating factor (PAF) with <clueType>up-regulation</clueType> <linkTheme>of</linkTheme> the transcript for heparin-binding epidermal growth factor-like growth factor (HB-EGF), a potent mitogen for vascular smooth muscle cells.</clue>
+<comment>TPS: A1</comment></event>
+<event KT="Fact" Manner="High" id="E52">
+<type class="Physiological_process"/>
+<theme idref="T11"/>
+<cause idref="T9"/>
+<clue>Human peripheral blood monocytes responded to stimulation of platelet-activating factor (PAF) with up-regulation of the transcript for heparin-binding epidermal growth factor-like growth factor (HB-EGF), a <clueManner>potent</clueManner> <corefCause>mitogen</corefCause> <linkTheme>for</linkTheme> vascular smooth muscle cells.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S4">This function of <term id="T12" lex="PAF" sem="Protein_molecule">PAF</term> was observed at nanomolar concentrations of the ligand, starting at 30 min after stimulation.</sentence>
+<sentence id="S5">The <term id="T13" lex="PAF" sem="Protein_molecule">PAF</term>-induced up-regulation of <term id="T14" lex="HB-EGF_mRNA" sem="RNA_molecule"><term id="T15" lex="HB-EGF" sem="Protein_molecule">HB-EGF</term> mRNA</term> was accompanied by an increase in <term id="T16" lex="kappa_B_binding_activity" sem="Other"><term id="A23" sem="DNA_domain_or_region">kappa B</term> binding activity</term>.</sentence>
+<event id="E6">
+<type class="Positive_regulation"/>
+<theme idref="T14"/>
+<cause idref="T13"/>
+<clue>The PAF-<linkCause>induced</linkCause> <clueType>up-regulation</clueType> <linkTheme>of</linkTheme> HB-EGF mRNA was accompanied by an increase in kappa B binding activity.</clue>
+</event>
+<event id="E53">
+<type class="Binding"/>
+<theme idref="A23"/>
+<clue>The PAF-induced up-regulation of HB-EGF mRNA was accompanied by an increase in kappa B <clueType>binding activity</clueType>.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation"/>
+<theme idref="E53"/>
+<clue>The PAF-induced up-regulation of HB-EGF mRNA was accompanied by an <clueType>increase</clueType> <linkTheme>in</linkTheme> kappa B binding activity.</clue>
+</event>
+<event id="E8">
+<type class="Correlation"/>
+<theme idref="E6"/>
+<theme idref="E7"/>
+<clue>The PAF-induced up-regulation of HB-EGF mRNA was <clueType>accompanied</clueType> <linkTheme>by</linkTheme> an increase in kappa B binding activity.</clue>
+</event>
+<sentence id="S6">These functions of <term id="T17" lex="PAF" sem="Protein_molecule">PAF</term> appeared to be mediated through the <term id="T18" lex="cell_surface_PAF_receptor" sem="Protein_family_or_group">cell surface <term id="T19" lex="PAF" sem="Protein_molecule">PAF</term> receptors</term>, as two <term id="T20" lex="PAF_receptor_antagonist" sem="Organic_compound_other"><term id="T21" lex="PAF" sem="Protein_molecule">PAF</term> receptor antagonists</term>, <term id="T22" lex="WEB_2086" sem="Organic_compound_other">WEB 2086</term> and <term id="T23" lex="L-659,989" sem="Organic_compound_other">L-659,989</term>, blocked both the up-regulation of <term id="T24" lex="HB-EGF_mRNA" sem="RNA_molecule"><term id="T25" lex="HB-EGF" sem="Protein_molecule">HB-EGF</term> mRNA</term> and <term id="T26" lex="kappa_B_binding_activity" sem="Other"><term id="A24" sem="DNA_domain_or_region">kappa B</term> binding activity</term> induced by <term id="T27" lex="PAF" sem="Protein_molecule">PAF</term>.</sentence>
+<event KT="Other" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="T24"/>
+<cause idref="T27"/>
+<clue>These functions of PAF appeared to be mediated through the cell surface PAF receptors, as two PAF receptor antagonists, WEB 2086 and L-659,989, blocked both the <clueType>up-regulation</clueType> <linkTheme>of</linkTheme> HB-EGF mRNA and kappa B binding activity induced <linkCause>by</linkCause> PAF.</clue>
+</event>
+<event KT="Other" id="E54">
+<type class="Binding"/>
+<theme idref="A24"/>
+<clue>These functions of PAF appeared to be mediated through the cell surface PAF receptors, as two PAF receptor antagonists, WEB 2086 and L-659,989, blocked both the up-regulation of HB-EGF mRNA and kappa B <clueType>binding activity</clueType> induced by PAF.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E54"/>
+<cause idref="T27"/>
+<clue>These functions of PAF appeared to be mediated through the cell surface PAF receptors, as two PAF receptor antagonists, WEB 2086 and L-659,989, blocked both the <clueType>up-regulation</clueType> <linkTheme>of</linkTheme> HB-EGF mRNA and kappa B binding activity induced <linkCause>by</linkCause> PAF.</clue>
+</event>
+<event id="E11">
+<type class="Negative_regulation"/>
+<theme idref="E9"/>
+<cause idref="T22"/>
+<clue>These functions of PAF appeared to be mediated through the cell surface PAF receptors, as two PAF receptor antagonists, WEB 2086 and L-659,989, <clueType>blocked</clueType> both the up-regulation of HB-EGF mRNA and kappa B binding activity induced by PAF.</clue>
+</event>
+<event id="E12">
+<type class="Negative_regulation"/>
+<theme idref="E9"/>
+<cause idref="T23"/>
+<clue>These functions of PAF appeared to be mediated through the cell surface PAF receptors, as two PAF receptor antagonists, WEB 2086 and L-659,989, <clueType>blocked</clueType> both the up-regulation of HB-EGF mRNA and kappa B binding activity induced by PAF.</clue>
+</event>
+<event id="E13">
+<type class="Negative_regulation"/>
+<theme idref="E10"/>
+<cause idref="T22"/>
+<clue>These functions of PAF appeared to be mediated through the cell surface PAF receptors, as two PAF receptor antagonists, WEB 2086 and L-659,989, <clueType>blocked</clueType> both the up-regulation of HB-EGF mRNA and kappa B binding activity induced by PAF.</clue>
+</event>
+<event id="E14">
+<type class="Negative_regulation"/>
+<theme idref="E10"/>
+<cause idref="T23"/>
+<clue>These functions of PAF appeared to be mediated through the cell surface PAF receptors, as two PAF receptor antagonists, WEB 2086 and L-659,989, <clueType>blocked</clueType> both the up-regulation of HB-EGF mRNA and kappa B binding activity induced by PAF.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E15" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="T18"/>
+<clue><corefTheme>These functions of PAF</corefTheme> <clueKT><clueCL>appeared</clueCL></clueKT> to be <clueType>mediated</clueType> <linkCause>through</linkCause> the cell surface PAF receptors, as two PAF receptor antagonists, WEB 2086 and L-659,989, blocked both the up-regulation of HB-EGF mRNA and kappa B binding activity induced by PAF.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E150" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="T18"/>
+<clue><corefTheme>These functions of PAF</corefTheme> <clueKT><clueCL>appeared</clueCL></clueKT> to be <clueType>mediated</clueType> <linkCause>through</linkCause> the cell surface PAF receptors, as two PAF receptor antagonists, WEB 2086 and L-659,989, blocked both the up-regulation of HB-EGF mRNA and kappa B binding activity induced by PAF.</clue>
+</event>
+<sentence id="S7">The antagonists, however, had no effect on <term id="T28" lex="phorbol_ester-induced_up-regulation" sem="Other"><term id="T29" lex="phorbol_ester" sem="Organic_compound_other">phorbol ester</term>-induced up-regulation</term> of <term id="T30" lex="HB-EGF_mRNA" sem="RNA_family_or_group"><term id="T31" lex="HB-EGF" sem="Protein_molecule">HB-EGF</term> mRNA</term> and <term id="T32" lex="kappa_B_binding_activity" sem="Other"><term id="A25" sem="DNA_domain_or_region">kappa B</term> binding activity</term>.</sentence>
+<event id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T30"/>
+<cause idref="T29"/>
+<clue>The antagonists, however, had no effect on phorbol ester-<linkCause>induced</linkCause> <clueType>up-regulation</clueType> <linkTheme>of</linkTheme> HB-EGF mRNA and kappa B binding activity.</clue>
+</event>
+<event id="E56">
+<type class="Binding"/>
+<theme idref="A25"/>
+<clue>The antagonists, however, had no effect on phorbol ester-induced up-regulation of HB-EGF mRNA and kappa B <clueType>binding activity</clueType>.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E56"/>
+<cause idref="T29"/>
+<clue>The antagonists, however, had no effect on phorbol ester-<linkCause>induced</linkCause> <clueType>up-regulation</clueType> <linkTheme>of</linkTheme> HB-EGF mRNA and kappa B binding activity.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E18">
+<type class="Regulation"/>
+<theme idref="E16"/>
+<cause idref="T22"/>
+<clue><corefCause>The antagonists</corefCause>, however, had <cluePolarity>no</cluePolarity> <clueType>effect</clueType> <linkTheme>on</linkTheme> phorbol ester-induced up-regulation of HB-EGF mRNA and kappa B binding activity.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E19">
+<type class="Regulation"/>
+<theme idref="E16"/>
+<cause idref="T23"/>
+<clue><corefCause>The antagonists</corefCause>, however, had <cluePolarity>no</cluePolarity> <clueType>effect</clueType> <linkTheme>on</linkTheme> phorbol ester-induced up-regulation of HB-EGF mRNA and kappa B binding activity.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E20">
+<type class="Regulation"/>
+<theme idref="E17"/>
+<cause idref="T22"/>
+<clue><corefCause>The antagonists</corefCause>, however, had <cluePolarity>no</cluePolarity> <clueType>effect</clueType> <linkTheme>on</linkTheme> phorbol ester-induced up-regulation of HB-EGF mRNA and kappa B binding activity.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E21">
+<type class="Regulation"/>
+<theme idref="E17"/>
+<cause idref="T23"/>
+<clue><corefCause>The antagonists</corefCause>, however, had <cluePolarity>no</cluePolarity> <clueType>effect</clueType> <linkTheme>on</linkTheme> phorbol ester-induced up-regulation of HB-EGF mRNA and kappa B binding activity.</clue>
+</event>
+<sentence id="S8">Pretreatment of <term id="T33" lex="monocyte" sem="Cell_natural">monocytes</term> with <term id="A2" sem="Organic_compound_other">pertussis toxin</term> inhibited these functions of <term id="T34" lex="PAF" sem="Protein_molecule">PAF</term>, whereas <term id="T35" lex="cholera_toxin" sem="Organic_compound_other">cholera toxin</term> had no inhibitory effect.</sentence>
+<event KT="Method" id="E57">
+<type class="Artificial_process"/>
+<theme idref="T33"/>
+<theme idref="A2"/>
+<clue><clueType>Pretreatment</clueType> <linkTheme>of</linkTheme> monocytes <linkTheme>with</linkTheme> pertussis toxin inhibited these functions of PAF, whereas cholera toxin had no inhibitory effect.</clue>
+</event>
+<event KT="Method" id="E58">
+<type class="Artificial_process"/>
+<theme idref="T35"/>
+<theme idref="A2"/>
+<clue><clueType>Pretreatment</clueType> <linkTheme>of</linkTheme> monocytes <linkTheme>with</linkTheme> pertussis toxin inhibited these functions of PAF, whereas cholera toxin had no inhibitory effect.</clue>
+</event>
+<event id="E120">
+<type class="Negative_regulation"/>
+<theme idref="E6"/>
+<cause idref="E57"/>
+<clue>Pretreatment of monocytes with pertussis toxin <clueType>inhibited</clueType> <corefTheme>these functions of PAF</corefTheme>, whereas cholera toxin had no inhibitory effect.</clue>
+</event>
+<event id="E121">
+<type class="Negative_regulation"/>
+<theme idref="E7"/>
+<cause idref="E57"/>
+<clue>Pretreatment of monocytes with pertussis toxin <clueType>inhibited</clueType> <corefTheme>these functions of PAF</corefTheme>, whereas cholera toxin had no inhibitory effect.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E122">
+<type class="Negative_regulation"/>
+<theme idref="E6"/>
+<cause idref="E58"/>
+<clue>Pretreatment of monocytes with pertussis toxin inhibited <corefTheme>these functions of PAF</corefTheme>, whereas cholera toxin had <cluePolarity>no</cluePolarity> <clueType>inhibitory effect</clueType>.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E123">
+<type class="Negative_regulation"/>
+<theme idref="E7"/>
+<cause idref="E58"/>
+<clue>Pretreatment of monocytes with pertussis toxin inhibited <corefTheme>these functions of PAF</corefTheme>, whereas cholera toxin had <cluePolarity>no</cluePolarity> <clueType>inhibitory effect</clueType>.</clue>
+</event>
+<sentence id="S9"><term id="T36" lex="pyrrolidine_dithiocarbamate" sem="Organic_compound_other">Pyrrolidine dithiocarbamate</term>, an inhibitor for <term id="T37" lex="NF-kappa_B_activation" sem="Other"><term id="T38" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> activation</term>, markedly reduced <term id="T39" lex="PAF-stimulated_kappa_B_binding_activity" sem="Other"><term id="T40" lex="PAF" sem="Protein_molecule">PAF</term>-stimulated <term id="T41" lex="kappa_B_binding_activity" sem="Other"><term id="A26" sem="DNA_domain_or_region">kappa B</term> binding activity</term></term> as well as up-regulation of <term id="T42" lex="HB-EGF_mRNA" sem="RNA_molecule"><term id="T43" lex="HB-EGF" sem="Protein_molecule">HB-EGF</term> mRNA</term>.</sentence>
+<event KT="Other" id="E60">
+<type class="Positive_regulation"/>
+<theme idref="T38"/>
+<clue>Pyrrolidine dithiocarbamate, an inhibitor for NF-kappa B <clueType>activation</clueType>, markedly reduced PAF-stimulated kappa B binding activity as well as up-regulation of HB-EGF mRNA.</clue>
+</event>
+<event KT="Fact" id="E61">
+<type class="Negative_regulation"/>
+<theme idref="E60"/>
+<cause idref="T36"/>
+<clue>Pyrrolidine dithiocarbamate, an <clueType>inhibitor</clueType> <linkTheme>for</linkTheme> NF-kappa B activation, markedly reduced PAF-stimulated kappa B binding activity as well as up-regulation of HB-EGF mRNA.</clue>
+</event>
+<event id="E59">
+<type class="Binding"/>
+<theme idref="A26"/>
+<clue>Pyrrolidine dithiocarbamate, an inhibitor for NF-kappa B activation, markedly reduced PAF-stimulated kappa B <clueType>binding activity</clueType> as well as up-regulation of HB-EGF mRNA.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E59"/>
+<cause idref="T40"/>
+<clue>Pyrrolidine dithiocarbamate, an inhibitor for NF-kappa B activation, markedly reduced PAF-<clueType>stimulated</clueType> kappa B binding activity as well as up-regulation of HB-EGF mRNA.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation"/>
+<theme idref="T42"/>
+<cause idref="T40"/>
+<clue>Pyrrolidine dithiocarbamate, an inhibitor for NF-kappa B activation, markedly reduced PAF-<linkCause>stimulated</linkCause> kappa B binding activity as well as <clueType>up-regulation</clueType> <linkTheme>of</linkTheme> HB-EGF mRNA.</clue>
+</event>
+<event Manner="High" id="E26">
+<type class="Negative_regulation"/>
+<theme idref="E24"/>
+<cause idref="T36"/>
+<clue>Pyrrolidine dithiocarbamate, an inhibitor for NF-kappa B activation, <clueManner>markedly</clueManner> <clueType>reduced</clueType> PAF-stimulated kappa B binding activity as well as up-regulation of HB-EGF mRNA.</clue>
+</event>
+<event Manner="High" id="E27">
+<type class="Negative_regulation"/>
+<theme idref="E25"/>
+<cause idref="T36"/>
+<clue>Pyrrolidine dithiocarbamate, an inhibitor for NF-kappa B activation, <clueManner>markedly</clueManner> <clueType>reduced</clueType> PAF-stimulated kappa B binding activity as well as up-regulation of HB-EGF mRNA.</clue>
+</event>
+<sentence id="S10">These results suggest a potential role of <term id="T44" lex="PAF" sem="Protein_molecule"><term id="T45" lex="PAF" sem="Protein_molecule">PAF</term></term> in <term id="T46" lex="HB-EGF_expression" sem="Other"><term id="T47" lex="HB-EGF" sem="Protein_family_or_group"><term id="T48" lex="HB-EGF" sem="Protein_molecule">HB-EGF</term></term> expression</term> and provide evidence that this stimulation may occur through increased <term id="T49" lex="kappa_B_binding_activity" sem="Other"><term id="T50" lex="kappa_B_binding_activity" sem="Other"><term id="A27" sem="DNA_domain_or_region">kappa B</term> binding activity</term></term>.</sentence>
+<event KT="Other" id="E28">
+<type class="Gene_expression"/>
+<theme idref="T48"/>
+<clue>These results suggest a potential role of PAF in HB-EGF <clueType>expression</clueType> and provide evidence that this stimulation may occur through increased kappa B binding activity.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E29" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E28"/>
+<cause idref="T45"/>
+<clue>These results <clueKT><clueCL>suggest</clueCL></clueKT> a <clueType>potential role</clueType> <linkCause>of</linkCause> PAF <linkTheme>in</linkTheme> HB-EGF expression and provide evidence that this stimulation may occur through increased kappa B binding activity.</clue>
+</event>
+<event KT="Other" id="E62">
+<type class="Binding"/>
+<theme idref="A27"/>
+<clue>These results suggest a potential role of PAF in HB-EGF expression and provide evidence that this stimulation may occur through increased kappa B <clueType>binding activity</clueType>.</clue>
+</event>
+<event KT="Other" id="E30">
+<type class="Positive_regulation"/>
+<theme idref="E62"/>
+<clue>These results suggest a potential role of PAF in HB-EGF expression and provide evidence that this stimulation may occur through <clueType>increased</clueType> kappa B binding activity.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E31">
+<type class="Positive_regulation"/>
+<theme idref="E29"/>
+<cause idref="E30"/>
+<clue>These results suggest a potential role of PAF in HB-EGF expression and provide <clueKT>evidence</clueKT> that <corefTheme>this stimulation</corefTheme> <clueCL>may</clueCL> <clueType>occur</clueType> <linkCause>through</linkCause> increased kappa B binding activity.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,177 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7964516" created="25/10/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7964516</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Functional <term id="T1" lex="Myc-Max_heterodimer" sem="Protein_complex"><term id="A1" sem="Protein_molecule">Myc</term>-<term id="A2" sem="Protein_molecule">Max</term> heterodimer</term> is required for <term id="A3" lex="activation" sem="Other">activation</term>-induced <term id="T2" lex="apoptosis" sem="Other">apoptosis</term> in <term id="T3" lex="T_cell_hybridoma" sem="Cell_cultured">T cell hybridomas</term>.</sentence>
+<event id="E1">
+<type class="Cellular_physiological_process"/>
+<theme idref="T3"/>
+<clue>Functional Myc-Max heterodimer is required for activation-induced <clueType>apoptosis</clueType> <linkTheme>in</linkTheme> T cell hybridomas.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="A3"/>
+<clue>Functional Myc-Max heterodimer is required for activation-<clueType>induced</clueType> apoptosis in T cell hybridomas.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="T1"/>
+<clue>Functional Myc-Max heterodimer is <clueType>required</clueType> <linkTheme>for</linkTheme> activation-induced apoptosis in T cell hybridomas.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T4" lex="T_cell_hybridoma" sem="Cell_cultured">T cell hybridomas</term> respond to <term id="T5" lex="activation_signal" sem="Other">activation signals</term> by undergoing <term id="T6" lex="apoptotic_cell_death" sem="Other">apoptotic cell death</term>, and this is likely to represent comparable events related to tolerance induction in <cons id="T7" lex="(AND immature__T_cell mature_T_cell)" sem="(AND Cell_natural Cell_natural)"><frag id="F1">immature</frag> and <frag id="F2">mature</frag> <frag id="F3">T cells</frag></cons> in vivo.</sentence>
+<event KT="Other" id="E4">
+<type class="Cellular_physiological_process"/>
+<theme idref="T4"/>
+<clue>T cell hybridomas respond to activation signals by <linkTheme>undergoing</linkTheme> <clueType>apoptotic cell death</clueType>, and this is likely to represent comparable events related to tolerance induction in immature and mature T cells in vivo.</clue>
+</event>
+<event KT="Fact" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="T5"/>
+<clue>T cell hybridomas <clueType>respond</clueType> <linkCause>to</linkCause> activation signals <linkTheme>by</linkTheme> undergoing apoptotic cell death, and this is likely to represent comparable events related to tolerance induction in immature and mature T cells in vivo.</clue>
+</event>
+<event KT="Other" id="E106">
+<type class="Cellular_physiological_process"/>
+<theme idref="F1" idref1="F3"/>
+<clue>T cell hybridomas respond to activation signals by undergoing apoptotic cell death, and this is likely to represent comparable events related to tolerance induction <linkTheme>in</linkTheme> immature and mature T cells in vivo.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Other" id="E107">
+<type class="Cellular_physiological_process"/>
+<theme idref="F2" idref1="F3"/>
+<clue>T cell hybridomas respond to activation signals by undergoing apoptotic cell death, and this is likely to represent comparable events related to tolerance induction <linkTheme>in</linkTheme> immature and mature T cells in vivo.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Other" id="E6">
+<type class="Negative_regulation"/>
+<theme idref="E106"/>
+<clue>T cell hybridomas respond to activation signals by undergoing apoptotic cell death, and this is likely to represent comparable events related to <clueType>tolerance induction</clueType> in immature and mature T cells in vivo.</clue>
+<comment>TOLERANCE</comment></event>
+<event KT="Other" id="E108">
+<type class="Negative_regulation"/>
+<theme idref="E107"/>
+<clue>T cell hybridomas respond to activation signals by undergoing apoptotic cell death, and this is likely to represent comparable events related to <clueType>tolerance induction</clueType> in immature and mature T cells in vivo.</clue>
+<comment>TOLERANCE</comment></event>
+<event CL="L2" KT="Analysis" id="E109" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="E5"/>
+<theme idref="E6"/>
+<clue>T cell hybridomas respond to activation signals by undergoing apoptotic cell death, and this is <clueKT><clueCL>likely</clueCL></clueKT> to <clueType>represent comparable events related</clueType> <linkTheme>to</linkTheme> tolerance induction in immature and mature T cells in vivo.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E110" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="E5"/>
+<theme idref="E108"/>
+<clue>T cell hybridomas respond to activation signals by undergoing apoptotic cell death, and this is <clueKT><clueCL>likely</clueCL></clueKT> to <clueType>represent comparable events related</clueType> <linkTheme>to</linkTheme> tolerance induction in immature and mature T cells in vivo.</clue>
+</event>
+<sentence id="S3">Previous studies using <term id="T8" lex="antisense_oligonucleotide" sem="Polynucleotide">antisense oligonucleotides</term> implicated the <term id="T9" lex="c-Myc_protein" sem="Protein_molecule">c-Myc protein</term> in the phenomenon of <term id="A4" lex="activation" sem="Other">activation</term>-induced <term id="T10" lex="apoptosis" sem="Other">apoptosis</term>.</sentence>
+<event KT="Other" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T10"/>
+<cause idref="A4"/>
+<clue>Previous studies using antisense oligonucleotides implicated the c-Myc protein in the phenomenon of activation-<clueType>induced</clueType> apoptosis.</clue>
+</event>
+<event CL="L2" KT="Analysis" Source="Other" id="E8">
+<type class="Correlation"/>
+<theme idref="T9"/>
+<theme idref="E7"/>
+<clue><clueExperiment><clueSource>Previous studies</clueSource> using antisense oligonucleotides</clueExperiment> <clueType><clueKT><clueCL>implicated</clueCL></clueKT></clueType> the c-Myc protein <linkTheme>in</linkTheme> the phenomenon of activation-induced apoptosis.</clue>
+</event>
+<sentence id="S4">This role for <term id="T11" lex="c-Myc" sem="Protein_molecule">c-Myc</term> in <term id="T12" lex="apoptosis" sem="Other">apoptosis</term> is now confirmed in studies using a <term id="A5" sem="Protein_molecule">dominant negative form of its heterodimeric binding partner, <term id="T13" lex="Max" sem="Protein_molecule">Max</term></term>, which we show here inhibits <term id="A6" lex="activation" sem="Other">activation</term>-induced <term id="T14" lex="apoptosis" sem="Other">apoptosis</term>.</sentence>
+<event KT="Analysis" id="E9">
+<type class="Regulation"/>
+<theme idref="T12"/>
+<cause idref="T11"/>
+<clue>This <clueType>role</clueType> <linkCause>for</linkCause> c-Myc <linkTheme>in</linkTheme> apoptosis is now <clueKT>confirmed</clueKT> <clueExperiment>in studies using a dominant negative form of its heterodimeric binding partner, Max</clueExperiment>, which we show here inhibits activation-induced apoptosis.</clue>
+<comment>TPS A5</comment></event>
+<event KT="Other" id="E10">
+<type class="Binding"/>
+<theme idref="T11"/>
+<theme idref="T13"/>
+<clue>This role for c-Myc in apoptosis is now confirmed in studies using a dominant negative form of <corefTheme>its</corefTheme> heterodimeric <clueType>binding partner</clueType>, Max, which we show here inhibits activation-induced apoptosis.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="T14"/>
+<cause idref="A6"/>
+<clue>This role for c-Myc in apoptosis is now confirmed in studies using a dominant negative form of its heterodimeric binding partner, Max, which we show here inhibits activation-<clueType>induced</clueType> apoptosis.</clue>
+</event>
+<event KT="Analysis" id="E12">
+<type class="Negative_regulation"/>
+<theme idref="E11"/>
+<cause idref="A5"/>
+<clue>This role for c-Myc in apoptosis is now confirmed in studies using a dominant negative form of its heterodimeric binding partner, Max, which we <clueKT>show</clueKT> here <clueType>inhibits</clueType> activation-induced apoptosis.</clue>
+</event>
+<sentence id="S5">Further, coexpression of a <term id="T15" lex="reciprocally_mutant_Myc_protein" sem="Protein_molecule">reciprocally mutant Myc protein</term> capable of forming functional <term id="T16" lex="heterodimer" sem="Protein_complex">heterodimers</term> with the <term id="T17" lex="Max" sem="Protein_molecule">mutant Max</term> can compensate for the <term id="T18" lex="dominant_negative_activity" sem="Other">dominant negative activity</term> and restore <term id="A7" sem="Other">activation</term>-induced <term id="T19" lex="apoptosis" sem="Other">apoptosis</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E13">
+<type class="Binding"/>
+<theme idref="T15"/>
+<theme idref="T17"/>
+<clue>Further, coexpression of a reciprocally mutant Myc protein <clueType><clueKT><clueCL>capable</clueCL></clueKT> of forming functional heterodimers</clueType> <linkTheme>with</linkTheme> the mutant Max can compensate for the dominant negative activity and restore activation-induced apoptosis.</clue>
+<comment>NER T17 MOD</comment></event>
+<event KT="Other" id="E14">
+<type class="Gene_expression"/>
+<theme idref="T15"/>
+<clue>Further, <clueType>coexpression</clueType> <linkTheme>of</linkTheme> a reciprocally mutant Myc protein capable of forming functional heterodimers with the mutant Max can compensate for the dominant negative activity and restore activation-induced apoptosis.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Gene_expression"/>
+<theme idref="A5"/>
+<clue>Further, <clueType>coexpression</clueType> <linkTheme>of</linkTheme> a reciprocally mutant Myc protein capable of forming functional heterodimers with <corefTheme>the mutant Max</corefTheme> can compensate for the dominant negative activity and restore activation-induced apoptosis.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E16">
+<type class="Negative_regulation"/>
+<theme idref="E12"/>
+<cause idref="E14"/>
+<cause idref="E15"/>
+<clue>Further, <linkCause>co</linkCause>expression of a reciprocally mutant Myc protein capable of forming functional heterodimers <linkCause>with</linkCause> the mutant Max <clueKT><clueCL>can</clueCL></clueKT> <clueType>compensate</clueType> <linkTheme>for</linkTheme> the <corefTheme>dominant negative activity</corefTheme> and restore activation-induced apoptosis.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="T19"/>
+<cause idref="A7"/>
+<clue>Further, coexpression of a reciprocally mutant Myc protein capable of forming functional heterodimers with the mutant Max can compensate for the dominant negative activity and restore activation-<clueType>induced</clueType> apoptosis.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<cause idref="E14"/>
+<cause idref="E15"/>
+<clue>Further, <linkCause>co</linkCause>expression of a reciprocally mutant Myc protein capable of forming functional heterodimers <linkCause>with</linkCause> the mutant Max <clueKT><clueCL>can</clueCL></clueKT> compensate for the dominant negative activity and <clueType>restore</clueType> activation-induced apoptosis.</clue>
+</event>
+<sentence id="S6">These results imply that <term id="T20" lex="Myc" sem="Protein_molecule">Myc</term> promotes <term id="A8" lex="activation" sem="Other">activation</term>-induced <term id="T21" lex="apoptosis" sem="Other">apoptosis</term> by <term id="T22" lex="obligatory_heterodimerization" sem="Other">obligatory heterodimerization</term> with <term id="T23" lex="Max" sem="Protein_molecule">Max</term>, and therefore, by regulating <term id="T24" lex="gene_transcription" sem="Other">gene transcription</term>.</sentence>
+<event KT="Other" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="T21"/>
+<cause idref="A8"/>
+<clue>These results imply that Myc promotes activation-<clueType>induced</clueType> apoptosis by obligatory heterodimerization with Max, and therefore, by regulating gene transcription.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Binding"/>
+<theme idref="T20"/>
+<theme idref="T23"/>
+<clue>These results imply that Myc promotes activation-induced apoptosis by obligatory <clueType>heterodimerization</clueType> <linkTheme>with</linkTheme> Max, and therefore, by regulating gene transcription.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="E20"/>
+<clue>These results <clueKT><clueCL>imply</clueCL></clueKT> that Myc <clueType>promotes</clueType> activation-induced apoptosis <linkCause>by</linkCause> obligatory heterodimerization with Max, and therefore, by regulating gene transcription.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Regulation"/>
+<theme idref="T24"/>
+<cause idref="E20"/>
+<clue>These results imply that Myc promotes activation-induced apoptosis by obligatory heterodimerization with Max, and <linkTheme>therefore</linkTheme>, by <clueType>regulating</clueType> gene transcription.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E121">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="E22"/>
+<clue>These results <clueCL>imply</clueCL> that Myc <clueType>promotes</clueType> activation-induced apoptosis by obligatory heterodimerization with Max, and <clueKT>therefore</clueKT>, <linkCause>by</linkCause> regulating gene transcription.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

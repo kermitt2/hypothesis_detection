@@ -1,0 +1,19 @@
+T11	Potential_therapeutic_effect 35 37	on
+T23	Adverse_effect 78 85	develop
+T25	Potential_therapeutic_effect 182 184	on
+T26	Adverse_effect 231 240	developed
+T30	Potential_therapeutic_effect 429 436	managed
+T31	Adverse_effect 583 587	give
+T34	Adverse_effect 24 26	in
+E5	Combination:T27 has_participant:T5 has_participant:T6 has_participant:T7
+E10	Combination:T32 has_participant:T16 has_participant:T17 has_participant:T18
+E1	Potential_therapeutic_effect:T11 has_agent:T2 has_subject:T21
+E2	Adverse_effect:T23 has_cue:T24 affects:T3 has_agent:T4
+E3	Potential_therapeutic_effect:T25 has_subject:T22 has_agent:E5
+E4	Adverse_effect:T26 affects:T8 affects:T9 has_subject:T22 has_agent:E5
+E8	Potential_therapeutic_effect:T30 has_agent:T15 affects:T14
+E9	Adverse_effect:T31 has_agent:E10 affects:T19 has_cue:T33
+E11	Adverse_effect:T34 has_agent:T2 affects:T1 has_subject:T21
+A1	Manner E2 Low
+A3	Speculated E9
+R1	Subject_Disorder Arg1:T22 Arg2:T10	

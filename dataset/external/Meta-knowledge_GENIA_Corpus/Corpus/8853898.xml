@@ -1,0 +1,328 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8853898" created="23/08/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8853898</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><cons id="T1" lex="(AND transcriptional_regulation posttranscriptional_regulation)" sem="(AND Other Other)"><frag id="F1">Transcriptional</frag> and <frag id="F2">posttranscriptional</frag> <frag id="F3">regulation</frag></cons> of <term id="T2" lex="erythroid_gene_expression" sem="Other"><term id="T3" lex="erythroid_gene" sem="DNA_domain_or_region">erythroid gene</term> expression</term> in <term id="T4" lex="anthracycline-induced_differentiation" sem="Other"><term id="T5" lex="anthracycline" sem="Organic_compound_other">anthracycline</term>-induced differentiation</term> of <term id="T6" lex="human_erythroleukemic_cell" sem="Cell_natural">human erythroleukemic cells</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Gene_expression"/>
+<theme idref="T3"/>
+<clue>Transcriptional and posttranscriptional regulation of erythroid gene <clueType>expression</clueType> in anthracycline-induced differentiation of human erythroleukemic cells.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Regulation"/>
+<theme idref="E1"/>
+<clue>Transcriptional and posttranscriptional <clueType>regulation</clueType> <linkTheme>of</linkTheme> erythroid gene expression in anthracycline-induced differentiation of human erythroleukemic cells.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Cell_differentiation"/>
+<theme idref="T6"/>
+<clue>Transcriptional and posttranscriptional regulation of erythroid gene expression in anthracycline-induced <clueType>differentiation</clueType> <linkTheme>of</linkTheme> human erythroleukemic cells.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="T5"/>
+<clue>Transcriptional and posttranscriptional regulation of erythroid gene expression in anthracycline-<clueType>induced</clueType> differentiation of human erythroleukemic cells.</clue>
+</event>
+<event KT="Investigation" id="E5">
+<type class="Correlation"/>
+<theme idref="E2"/>
+<theme idref="E4"/>
+<clue>Transcriptional and posttranscriptional regulation of erythroid gene expression <linkTheme>in</linkTheme> anthracycline-induced differentiation of human erythroleukemic cells.</clue>
+<comment>NO CLUETYPE</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T7" lex="aclacinomycin" sem="Organic_compound_other">Aclacinomycin</term> (<term id="T8" lex="ACLA" sem="Organic_compound_other">ACLA</term>) and <term id="T9" lex="doxorubicin" sem="Carbohydrate">doxorubicin</term> (<term id="T10" lex="DOX" sem="Carbohydrate">DOX</term>) were used at <term id="T11" lex="subtoxic_concentration" sem="Other">subtoxic concentrations</term> to induce <term id="T12" lex="erythroid_differentiation" sem="Other"><term id="A1" sem="Cell_natural">erythroid</term> differentiation</term> in the <term id="T13" lex="human_leukemic_cell_line_K562" sem="Cell_cultured">human leukemic cell line K562</term>.</sentence>
+<event id="E6">
+<type class="Cell_differentiation"/>
+<theme idref="T13"/>
+<theme idref="A1"/>
+<clue>Aclacinomycin (ACLA) and doxorubicin (DOX) were used at subtoxic concentrations to induce erythroid <clueType>differentiation</clueType> <linkTheme>in</linkTheme> the human leukemic cell line K562.</clue>
+<comment>NER T7,T8,T9,T10 MOD</comment></event>
+<event id="E7">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="T8"/>
+<clue>Aclacinomycin (ACLA) and doxorubicin (DOX) were used at subtoxic concentrations to <clueType>induce</clueType> erythroid differentiation in the human leukemic cell line K562.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="T10"/>
+<clue>Aclacinomycin (ACLA) and doxorubicin (DOX) were used at subtoxic concentrations to <clueType>induce</clueType> erythroid differentiation in the human leukemic cell line K562.</clue>
+</event>
+<sentence id="S3"><term id="T14" lex="cell_hemoglobinization" sem="Other"><term id="A4" sem="Cell_natural">Cell</term> hemoglobinization</term> was accompanied by the increased expression of <term id="T15" lex="gene" sem="DNA_family_or_group">genes</term> <term id="A3" sem="DNA_domain_or_region">encoding</term> <term id="T16" lex="gamma-globin_and_porphobilinogen_deaminase" sem="Protein_molecule">gamma-globin</term> and <term id="A2" sem="Protein_molecule">porphobilinogen deaminase</term> (<term id="T17" lex="PBGD" sem="Protein_molecule">PBGD</term>), an enzyme of <term id="T18" lex="heme_synthesis" sem="Other"><term id="T19" lex="heme" sem="Organic_compound_other">heme</term> synthesis</term>.</sentence>
+<event id="E9">
+<type class="Gene_expression"/>
+<theme idref="T15" idref1="A3" idref2="T16"/>
+<clue>Cell hemoglobinization was accompanied by the increased <clueType>expression</clueType> <linkTheme>of</linkTheme> genes encoding gamma-globin and porphobilinogen deaminase (PBGD), an enzyme of heme synthesis.</clue>
+<comment>NER T16 MOD</comment></event>
+<event id="E10">
+<type class="Gene_expression"/>
+<theme idref="T15" idref1="A3" idref2="A2"/>
+<clue>Cell hemoglobinization was accompanied by the increased <clueType>expression</clueType> <linkTheme>of</linkTheme> genes encoding gamma-globin and porphobilinogen deaminase (PBGD), an enzyme of heme synthesis.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<clue>Cell hemoglobinization was accompanied by the <clueType>increased</clueType> expression of genes encoding gamma-globin and porphobilinogen deaminase (PBGD), an enzyme of heme synthesis.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<clue>Cell hemoglobinization was accompanied by the <clueType>increased</clueType> expression of genes encoding gamma-globin and porphobilinogen deaminase (PBGD), an enzyme of heme synthesis.</clue>
+</event>
+<event id="E13">
+<type class="Cell_differentiation"/>
+<theme idref="A4"/>
+<clue>Cell <clueType>hemoglobinization</clueType> was accompanied by the increased expression of genes encoding gamma-globin and porphobilinogen deaminase (PBGD), an enzyme of heme synthesis.</clue>
+</event>
+<event id="E14">
+<type class="Correlation"/>
+<theme idref="E11"/>
+<theme idref="E13"/>
+<clue>Cell hemoglobinization was <clueType>accompanied</clueType> <linkTheme>by</linkTheme> the increased expression of genes encoding gamma-globin and porphobilinogen deaminase (PBGD), an enzyme of heme synthesis.</clue>
+</event>
+<event id="E15">
+<type class="Correlation"/>
+<theme idref="E12"/>
+<theme idref="E13"/>
+<clue>Cell hemoglobinization was <clueType>accompanied</clueType> <linkTheme>by</linkTheme> the increased expression of genes encoding gamma-globin and porphobilinogen deaminase (PBGD), an enzyme of heme synthesis.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Metabolism"/>
+<theme idref="T19"/>
+<clue>Cell hemoglobinization was accompanied by the increased expression of genes encoding gamma-globin and porphobilinogen deaminase (PBGD), an enzyme of heme <clueType>synthesis</clueType>.</clue>
+</event>
+<event KT="Fact" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<cause idref="T17"/>
+<clue>Cell hemoglobinization was accompanied by the increased expression of genes encoding gamma-globin and porphobilinogen deaminase (PBGD), an <clueType>enzyme</clueType> <linkTheme>of</linkTheme> heme synthesis.</clue>
+</event>
+<sentence id="S4">By using <term id="T20" lex="run-on_assay" sem="Other">run-on assays</term>, <term id="T21" lex="ACLA" sem="Organic_compound_other">ACLA</term> was shown to induce an enhancement of the transcription of <term id="T22" lex="erythroid_gene" sem="DNA_family_or_group">erythroid genes</term>, including <term id="T23" lex="gamma-globin" sem="Protein_family_or_group">gamma-globin</term>, <term id="T24" lex="PBGD" sem="Protein_molecule">PBGD</term>, <term id="T25" lex="erythropoietin_receptor" sem="Protein_family_or_group">erythropoietin receptor</term>, and <term id="T26" lex="GATA-1" sem="Protein_molecule">GATA-1</term> <term id="T27" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term>.</sentence>
+<event KT="Other" id="E18">
+<type class="Transcription"/>
+<theme idref="T22"/>
+<clue>By using run-on assays, ACLA was shown to induce an enhancement of the <clueType>transcription</clueType> <linkTheme>of</linkTheme> erythroid genes, including gamma-globin, PBGD, erythropoietin receptor, and GATA-1 transcription factor.</clue>
+<comment>NER T21 MOD</comment></event>
+<event KT="Other" id="E19">
+<type class="Transcription"/>
+<theme idref="T23"/>
+<clue>By using run-on assays, ACLA was shown to induce an enhancement of the <clueType>transcription</clueType> <linkTheme>of</linkTheme> <corefTheme>erythroid genes</corefTheme>, including gamma-globin, PBGD, erythropoietin receptor, and GATA-1 transcription factor.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Transcription"/>
+<theme idref="T24"/>
+<clue>By using run-on assays, ACLA was shown to induce an enhancement of the <clueType>transcription</clueType> <linkTheme>of</linkTheme> <corefTheme>erythroid genes</corefTheme>, including gamma-globin, PBGD, erythropoietin receptor, and GATA-1 transcription factor.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Transcription"/>
+<theme idref="T25"/>
+<clue>By using run-on assays, ACLA was shown to induce an enhancement of the <clueType>transcription</clueType> <linkTheme>of</linkTheme> <corefTheme>erythroid genes</corefTheme>, including gamma-globin, PBGD, erythropoietin receptor, and GATA-1 transcription factor.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Transcription"/>
+<theme idref="T26"/>
+<clue>By using run-on assays, ACLA was shown to induce an enhancement of the <clueType>transcription</clueType> <linkTheme>of</linkTheme> <corefTheme>erythroid genes</corefTheme>, including gamma-globin, PBGD, erythropoietin receptor, and GATA-1 transcription factor.</clue>
+</event>
+<event KT="Analysis" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="T21"/>
+<clue><clueExperiment>By using run-on assays</clueExperiment>, ACLA was <clueKT>shown</clueKT> to <clueType>induce an enhancement</clueType> <linkTheme>of</linkTheme> the transcription of erythroid genes, including gamma-globin, PBGD, erythropoietin receptor, and GATA-1 transcription factor.</clue>
+</event>
+<event KT="Analysis" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="T21"/>
+<clue><clueExperiment>By using run-on assays</clueExperiment>, ACLA was <clueKT>shown</clueKT> to <clueType>induce an enhancement</clueType> <linkTheme>of</linkTheme> the transcription of erythroid genes, including gamma-globin, PBGD, erythropoietin receptor, and GATA-1 transcription factor.</clue>
+</event>
+<event KT="Analysis" id="E25">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="T21"/>
+<clue><clueExperiment>By using run-on assays</clueExperiment>, ACLA was <clueKT>shown</clueKT> to <clueType>induce an enhancement</clueType> <linkTheme>of</linkTheme> the transcription of erythroid genes, including gamma-globin, PBGD, erythropoietin receptor, and GATA-1 transcription factor.</clue>
+</event>
+<event KT="Analysis" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="T21"/>
+<clue><clueExperiment>By using run-on assays</clueExperiment>, ACLA was <clueKT>shown</clueKT> to <clueType>induce an enhancement</clueType> <linkTheme>of</linkTheme> the transcription of erythroid genes, including gamma-globin, PBGD, erythropoietin receptor, and GATA-1 transcription factor.</clue>
+</event>
+<event KT="Analysis" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="E22"/>
+<cause idref="T21"/>
+<clue><clueExperiment>By using run-on assays</clueExperiment>, ACLA was <clueKT>shown</clueKT> to <clueType>induce an enhancement</clueType> <linkTheme>of</linkTheme> the transcription of erythroid genes, including gamma-globin, PBGD, erythropoietin receptor, and GATA-1 transcription factor.</clue>
+</event>
+<sentence id="S5">In contrast, in <term id="T28" lex="DOX-treated_cell" sem="Cell_cultured"><term id="T29" lex="DOX" sem="Carbohydrate">DOX</term>-treated <term id="A5" sem="Cell_natural">cells</term></term>, the <term id="T30" lex="transcription_rate" sem="Other">transcription rate</term> of these <term id="T31" lex="gene" sem="DNA_family_or_group">genes</term> was unchanged in comparison with <term id="T32" lex="control_cell" sem="Cell_natural">control cells</term>.</sentence>
+<event id="E28">
+<type class="Transcription"/>
+<theme idref="T23"/>
+<clue>In contrast, in DOX-treated cells, the <clueType>transcription rate</clueType> <linkTheme>of</linkTheme> <corefTheme>these genes</corefTheme> was unchanged in comparison with control cells.</clue>
+<comment>NER T29 MOD</comment></event>
+<event id="E128">
+<type class="Transcription"/>
+<theme idref="T24"/>
+<clue>In contrast, in DOX-treated cells, the <clueType>transcription rate</clueType> <linkTheme>of</linkTheme> <corefTheme>these genes</corefTheme> was unchanged in comparison with control cells.</clue>
+</event>
+<event id="E129">
+<type class="Transcription"/>
+<theme idref="T25"/>
+<clue>In contrast, in DOX-treated cells, the <clueType>transcription rate</clueType> <linkTheme>of</linkTheme> <corefTheme>these genes</corefTheme> was unchanged in comparison with control cells.</clue>
+</event>
+<event id="E130">
+<type class="Transcription"/>
+<theme idref="T26"/>
+<clue>In contrast, in DOX-treated cells, the <clueType>transcription rate</clueType> <linkTheme>of</linkTheme> <corefTheme>these genes</corefTheme> was unchanged in comparison with control cells.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E29">
+<type class="Regulation"/>
+<theme idref="E28"/>
+<cause idref="T29"/>
+<clue>In contrast, <clueLoc>in DOX-treated cells</clueLoc>, the transcription rate of these genes was <clueType><cluePolarity>unchanged</cluePolarity></clueType> in comparison with control cells.</clue>
+<comment>NO COREFCAUSE</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E131">
+<type class="Regulation"/>
+<theme idref="E128"/>
+<cause idref="T29"/>
+<clue>In contrast, <clueLoc>in DOX-treated cells</clueLoc>, the transcription rate of these genes was <clueType><cluePolarity>unchanged</cluePolarity></clueType> in comparison with control cells.</clue>
+<comment>NO COREFCAUSE</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E132">
+<type class="Regulation"/>
+<theme idref="E129"/>
+<cause idref="T29"/>
+<clue>In contrast, <clueLoc>in DOX-treated cells</clueLoc>, the transcription rate of these genes was <clueType><cluePolarity>unchanged</cluePolarity></clueType> in comparison with control cells.</clue>
+<comment>NO COREFCAUSE</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E133">
+<type class="Regulation"/>
+<theme idref="E130"/>
+<cause idref="T29"/>
+<clue>In contrast, <clueLoc>in DOX-treated cells</clueLoc>, the transcription rate of these genes was <clueType><cluePolarity>unchanged</cluePolarity></clueType> in comparison with control cells.</clue>
+<comment>NO COREFCAUSE</comment></event>
+<event KT="Method" id="E30">
+<type class="Artificial_process"/>
+<theme idref="T29"/>
+<theme idref="A5"/>
+<clue>In contrast, in DOX-<clueType>treated</clueType> cells, the transcription rate of these genes was unchanged in comparison with control cells.</clue>
+</event>
+<sentence id="S6">In addition, inhibition of <term id="T33" lex="mRNA_synthesis" sem="Other"><term id="T34" lex="mRNA" sem="RNA_family_or_group">mRNA</term> synthesis</term> with <term id="T35" lex="actinomycin_D" sem="Organic_compound_other">actinomycin D</term> indicated that <term id="T36" lex="DOX" sem="Carbohydrate">DOX</term> induced an increased stability of <cons id="T37" lex="(AND PBGD_mRNA GATA-1_mRNA)" sem="(AND RNA_molecule RNA_molecule)"><frag id="F4">PBGD</frag> and <frag id="F5">GATA-1</frag> <frag id="F6">mRNAs</frag></cons>, whereas <term id="T38" lex="ACLA" sem="Organic_compound_other">ACLA</term> did not affect the half-lives of these <term id="T39" lex="mRNA" sem="RNA_family_or_group">mRNAs</term>.</sentence>
+<event KT="Other" id="E31">
+<type class="Transcription"/>
+<theme idref="T34"/>
+<clue>In addition, inhibition of mRNA <clueType>synthesis</clueType> with actinomycin D indicated that DOX induced an increased stability of PBGD and GATA-1 mRNAs, whereas ACLA did not affect the half-lives of these mRNAs.</clue>
+<comment>NER T36,T38 MOD</comment></event>
+<event id="E32">
+<type class="Negative_regulation"/>
+<theme idref="E31"/>
+<cause idref="T35"/>
+<clue>In addition, <clueType>inhibition</clueType> <linkTheme>of</linkTheme> mRNA synthesis <linkCause>with</linkCause> actinomycin D indicated that DOX induced an increased stability of PBGD and GATA-1 mRNAs, whereas ACLA did not affect the half-lives of these mRNAs.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E33">
+<type class="Positive_regulation"/>
+<theme idref="F4" idref1="F6"/>
+<cause idref="T36"/>
+<clue>In addition, inhibition of mRNA synthesis with actinomycin D <clueKT><clueCL>indicated</clueCL></clueKT> that DOX <linkCause>induced</linkCause> an <clueType>increased stability</clueType> <linkTheme>of</linkTheme> PBGD and GATA-1 mRNAs, whereas ACLA did not affect the half-lives of these mRNAs.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E35">
+<type class="Positive_regulation"/>
+<theme idref="F5" idref1="F6"/>
+<cause idref="T36"/>
+<clue>In addition, inhibition of mRNA synthesis with actinomycin D <clueKT><clueCL>indicated</clueCL></clueKT> that DOX <linkCause>induced</linkCause> an <clueType>increased stability</clueType> <linkTheme>of</linkTheme> PBGD and GATA-1 mRNAs, whereas ACLA did not affect the half-lives of these mRNAs.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" id="E37">
+<type class="Regulation"/>
+<theme idref="F4" idref1="F6"/>
+<cause idref="T38"/>
+<clue>In addition, inhibition of mRNA synthesis with actinomycin D <clueKT><clueCL>indicated</clueCL></clueKT> that DOX induced an increased stability of PBGD and GATA-1 mRNAs, whereas ACLA did <cluePolarity>not</cluePolarity> <clueType>affect the half-lives</clueType> <linkTheme>of</linkTheme> <corefTheme>these mRNAs</corefTheme>.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E38">
+<type class="Regulation"/>
+<theme idref="F5" idref1="F6"/>
+<cause idref="T38"/>
+<clue>In addition, inhibition of mRNA synthesis with actinomycin D <clueKT><clueCL>indicated</clueCL></clueKT> that DOX induced an increased stability of PBGD and GATA-1 mRNAs, whereas ACLA did <cluePolarity>not</cluePolarity> <clueType>affect the half-lives</clueType> <linkTheme>of</linkTheme> <corefTheme>these mRNAs</corefTheme>.</clue>
+</event>
+<sentence id="S7">Because the increase in <term id="T40" lex="erythroid_mRNA_steady-state_level" sem="Other"><term id="T41" lex="erythroid_mRNA" sem="RNA_family_or_group">erythroid mRNA</term> steady-state level</term> in <term id="T42" lex="anthracycline-treated_cell" sem="Cell_natural"><term id="T43" lex="anthracycline" sem="Organic_compound_other">anthracycline</term>-treated cells</term> was inhibited by <term id="T44" lex="cycloheximide" sem="Organic_compound_other">cycloheximide</term>, this suggests that <term id="T45" lex="transcriptional_activation" sem="Other">transcriptional activation</term> in <term id="T46" lex="ACLA-treated_cell" sem="Cell_cultured"><term id="T47" lex="ACLA" sem="Organic_compound_other">ACLA</term>-treated cells</term> and <term id="T48" lex="mRNA_stabilization" sem="Other">mRNA stabilization</term> in <term id="T49" lex="DOX-treated_cell" sem="Cell_natural"><term id="T50" lex="DOX" sem="Carbohydrate">DOX</term>-treated cells</term> were dependent on <term id="T51" lex="de_novo_protein_synthesis" sem="Other">de novo protein synthesis</term>.</sentence>
+<event KT="Other" id="E41">
+<type class="Positive_regulation"/>
+<theme idref="T41"/>
+<cause idref="T43"/>
+<clue>Because the <clueType>increase</clueType> <linkTheme>in</linkTheme> erythroid mRNA steady-state level <clueLoc>in anthracycline-treated cells</clueLoc> was inhibited by cycloheximide, this suggests that transcriptional activation in ACLA-treated cells and mRNA stabilization in DOX-treated cells were dependent on de novo protein synthesis.</clue>
+<comment>NER T47,T50 MOD</comment></event>
+<event id="E42">
+<type class="Negative_regulation"/>
+<theme idref="E41"/>
+<cause idref="T44"/>
+<clue>Because the increase in erythroid mRNA steady-state level in anthracycline-treated cells was <clueType>inhibited</clueType> <linkCause>by</linkCause> cycloheximide, this suggests that transcriptional activation in ACLA-treated cells and mRNA stabilization in DOX-treated cells were dependent on de novo protein synthesis.</clue>
+</event>
+<event KT="Other" id="E43">
+<type class="Positive_regulation"/>
+<theme idref="T41"/>
+<cause idref="T47"/>
+<clue>Because the increase in erythroid mRNA steady-state level in anthracycline-treated cells was inhibited by cycloheximide, this suggests that <clueType>transcriptional activation</clueType> <clueLoc>in ACLA-treated cells</clueLoc> and mRNA stabilization in DOX-treated cells were dependent on de novo protein synthesis.</clue>
+</event>
+<event KT="Other" id="E44">
+<type class="RNA_metabolism"/>
+<theme idref="T41"/>
+<clue>Because the increase in erythroid mRNA steady-state level in anthracycline-treated cells was inhibited by cycloheximide, this suggests that transcriptional activation in ACLA-treated cells and <corefTheme>mRNA</corefTheme> <clueType>stabilization</clueType> <clueLoc>in DOX-treated cells</clueLoc> were dependent on de novo protein synthesis.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E45">
+<type class="Positive_regulation"/>
+<theme idref="E43"/>
+<cause idref="T51"/>
+<clue>Because the increase in erythroid mRNA steady-state level in anthracycline-treated cells was inhibited by cycloheximide, this <clueKT><clueCL>suggests</clueCL></clueKT> that transcriptional activation in ACLA-treated cells and mRNA stabilization in DOX-treated cells were <clueType>dependent</clueType> <linkCause>on</linkCause> de novo protein synthesis.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E46">
+<type class="Positive_regulation"/>
+<theme idref="E44"/>
+<cause idref="T51"/>
+<clue>Because the increase in erythroid mRNA steady-state level in anthracycline-treated cells was inhibited by cycloheximide, this <clueKT><clueCL>suggests</clueCL></clueKT> that transcriptional activation in ACLA-treated cells and mRNA stabilization in DOX-treated cells were <clueType>dependent</clueType> <linkCause>on</linkCause> de novo protein synthesis.</clue>
+</event>
+<sentence id="S8">Finally, <term id="T52" lex="GATA-1_protein_level" sem="Other"><term id="T53" lex="GATA-1" sem="Protein_molecule">GATA-1</term> protein level</term> was shown to be increased in <cons id="T54" lex="(BUT_NOT ACLA-treated_cell DOX-treated_cell)" sem="(BUT_NOT Cell_cultured Cell_cultured)"><frag id="F7"><term id="A9" sem="Organic_compound_other">ACLA</term>-treated</frag> but not in <frag id="F8"><term id="A10" sem="Carbohydrate">DOX</term>-treated</frag> <frag id="F9">cells</frag></cons>.</sentence>
+<event KT="Analysis" id="E47">
+<type class="Positive_regulation"/>
+<theme idref="T53"/>
+<cause idref="A9"/>
+<clue>Finally, GATA-1 protein level was <clueKT>shown</clueKT> to be <clueType>increased</clueType> <clueLoc>in ACLA-treated</clueLoc> but not in DOX-treated <clueLoc>cells</clueLoc>.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E48">
+<type class="Positive_regulation"/>
+<theme idref="T53"/>
+<cause idref="A10"/>
+<clue>Finally, GATA-1 protein level was <clueKT>shown</clueKT> to be <clueType>increased</clueType> in ACLA-treated but <cluePolarity>not</cluePolarity> <clueLoc>in DOX-treated cells</clueLoc>.</clue>
+</event>
+<sentence id="S9">These two <term id="T55" lex="anthracycline" sem="Organic_compound_other">anthracyclines</term>, although closely related in their structures, appeared to act as <term id="T56" lex="differentiation_inducer" sem="Other"><term id="A11" sem="Other">differentiation</term> inducers</term> by distinct mechanisms.</sentence>
+<event CL="L2" KT="Analysis" id="E49">
+<type class="Positive_regulation"/>
+<theme idref="A11"/>
+<cause idref="A10"/>
+<clue><corefCause>These two anthracyclines</corefCause>, although closely related in their structures, <clueKT><clueCL>appeared</clueCL></clueKT> to <clueType>act as</clueType> differentiation <clueType>inducers</clueType> by distinct mechanisms.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E50">
+<type class="Positive_regulation"/>
+<theme idref="A11"/>
+<cause idref="A9"/>
+<clue><corefCause>These two anthracyclines</corefCause>, although closely related in their structures, <clueKT><clueCL>appeared</clueCL></clueKT> to <clueType>act as</clueType> differentiation <clueType>inducers</clueType> by distinct mechanisms.</clue>
+</event>
+<sentence id="S10">Indeed, <term id="T57" lex="erythroid_gene_expression" sem="Other"><term id="T58" lex="erythroid_gene" sem="DNA_domain_or_region">erythroid gene</term> expression</term> was demonstrated to be regulated transcriptionally by <term id="T59" lex="ACLA" sem="Organic_compound_other">ACLA</term> and mainly posttranscriptionally by <term id="T60" lex="DOX" sem="Carbohydrate">DOX</term>.</sentence>
+<event KT="Other" id="E51">
+<type class="Gene_expression"/>
+<theme idref="T58"/>
+<clue>Indeed, erythroid gene <clueType>expression</clueType> was demonstrated to be regulated transcriptionally by ACLA and mainly posttranscriptionally by DOX.</clue>
+<comment>NRT T59,T60 MOD</comment></event>
+<event KT="Analysis" id="E52">
+<type class="Regulation"/>
+<theme idref="E51"/>
+<cause idref="T59"/>
+<clue>Indeed, erythroid gene expression was <clueKT>demonstrated</clueKT> to be <clueType>regulated transcriptionally</clueType> <linkCause>by</linkCause> ACLA and mainly posttranscriptionally by DOX.</clue>
+</event>
+<event KT="Analysis" id="E53">
+<type class="Regulation"/>
+<theme idref="E51"/>
+<cause idref="T60"/>
+<clue>Indeed, erythroid gene expression was <clueKT>demonstrated</clueKT> to be <clueType>regulated</clueType> transcriptionally by ACLA and mainly <clueType>posttranscriptionally</clueType> <linkCause>by</linkCause> DOX.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,11 @@
+T2	Potential_therapeutic_effect 9 18	Treatment
+T48	Potential_therapeutic_effect 193 200	treated
+T68	Adverse_effect 54 66	intoxication
+R1	is_equivalent Arg1:T4 Arg2:T5
+R3	Subject_Disorder Arg1:T45 Arg2:T26
+R4	Subject_Disorder Arg1:T47 Arg2:T46
+R2	is_equivalent Arg1:T6 Arg2:T7
+R7	is_equivalent Arg1:T59 Arg2:T14
+E1	Potential_therapeutic_effect:T2 has_agent:T3 affects:T26 has_subject:T45
+E2	Potential_therapeutic_effect:T48 has_agent:T6 affects:T46 has_subject:T47
+E7	Adverse_effect:T68 has_agent:T1 affects:T26

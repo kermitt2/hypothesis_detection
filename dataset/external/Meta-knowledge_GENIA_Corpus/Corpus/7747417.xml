@@ -1,0 +1,148 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7747417" created="03/12/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7747417</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The <term id="T1" lex="retinoblastoma_gene_product" sem="Protein_molecule"><term id="A1" sem="DNA_domain_or_region">retinoblastoma gene</term> product</term> negatively regulates <term id="T2" lex="transcriptional_activation" sem="Other">transcriptional activation</term> mediated by the <term id="T3" lex="human_cytomegalovirus_IE2_protein" sem="Protein_molecule"><term id="T4" lex="human_cytomegalovirus" sem="Virus">human cytomegalovirus</term> IE2 protein</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression"/>
+<theme idref="A1"/>
+<clue>The retinoblastoma gene <clueType>product</clueType> negatively regulates transcriptional activation mediated by the human cytomegalovirus IE2 protein.</clue>
+</event>
+<event id="E2">
+<type class="Regulation"/>
+<theme idref="E3"/>
+<cause idref="T1"/>
+<clue>The retinoblastoma gene product <clueType>negatively regulates</clueType> transcriptional activation mediated by the human cytomegalovirus IE2 protein.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="T2"/>
+<cause idref="T3"/>
+<clue>The retinoblastoma gene product negatively regulates transcriptional activation <clueType>mediated</clueType> <linkCause>by</linkCause> the human cytomegalovirus IE2 protein.</clue>
+<comment>NER: T2 sem mod, Protein_ETC -&gt; Other_name</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T5" lex="IE2_gene_product" sem="Protein_molecule"><term id="A2" sem="DNA_domain_or_region">IE2 gene</term> product</term> of <term id="T6" lex="human_cytomegalovirus" sem="Virus">human cytomegalovirus</term> (<term id="T7" lex="HCMV" sem="Virus">HCMV</term>) is one of a few <term id="T8" lex="viral_regulatory_protein" sem="Protein_family_or_group">viral regulatory proteins</term> expressed immediately upon <term id="T9" lex="infection" sem="Other">infection</term> of the <term id="T10" lex="host_cell" sem="Cell_natural">host cell</term>.</sentence>
+<event KT="Other" id="E4">
+<type class="Gene_expression"/>
+<theme idref="A2"/>
+<clue>The IE2 gene <clueType>product</clueType> of human cytomegalovirus (HCMV) is one of a few viral regulatory proteins expressed immediately upon infection of the host cell.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Gene_expression"/>
+<theme idref="T5"/>
+<clue>The IE2 gene product of human cytomegalovirus (HCMV) is one of a few <corefTheme>viral regulatory proteins</corefTheme> <clueType>expressed</clueType> <clueTime>immediately upon infection of the host cell</clueTime>.</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="E7"/>
+<clue>The IE2 gene product of human cytomegalovirus (HCMV) is one of a few viral regulatory proteins expressed immediately <linkCause>upon</linkCause> infection of the host cell.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T7"/>
+<theme idref="T10"/>
+<clue>The IE2 gene product of human cytomegalovirus (HCMV) is one of a few viral regulatory proteins expressed immediately upon <clueType>infection</clueType> <linkTheme>of</linkTheme> the host cell.</clue>
+</event>
+<sentence id="S3">It is a potent <term id="T11" lex="transcriptional_activator" sem="Protein_family_or_group">transcriptional activator</term> of many <cons id="T12" lex="(AND viral_promoter cellular_promoter)" sem="(AND DNA_family_or_group DNA_family_or_group)"><frag id="F1">viral</frag> and <frag id="F2">cellular</frag> <frag id="F3">promoters</frag></cons>.</sentence>
+<event KT="Fact" Manner="High" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="F1" idref1="F3"/>
+<cause idref="T5"/>
+<clue><corefCause>It</corefCause> is a <clueManner>potent</clueManner> <clueType>transcriptional activator</clueType> <linkTheme>of</linkTheme> many viral and cellular promoters.</clue>
+</event>
+<event KT="Fact" Manner="High" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="F2" idref1="F3"/>
+<cause idref="T5"/>
+<clue><corefCause>It</corefCause> is a <clueManner>potent</clueManner> <clueType>transcriptional activator</clueType> <linkTheme>of</linkTheme> many viral and cellular promoters.</clue>
+</event>
+<sentence id="S4">We found that the <term id="T13" lex="retinoblastoma_susceptibility_gene_product" sem="Protein_molecule"><term id="A6" sem="DNA_domain_or_region">retinoblastoma susceptibility gene</term> product</term> (<term id="T14" lex="Rb" sem="Protein_molecule">Rb</term>) dramatically suppressed this <term id="T15" lex="IE2_transactivation" sem="Other"><term id="T16" lex="IE2" sem="Protein_molecule">IE2</term> transactivation</term> of <term id="T17" lex="various_promoter" sem="DNA_family_or_group">various promoters</term>.</sentence>
+<event id="E10">
+<type class="Gene_expression"/>
+<theme idref="A6"/>
+<clue>We found that the retinoblastoma susceptibility gene <clueType>product</clueType> (Rb) dramatically suppressed this IE2 transactivation of various promoters.</clue>
+</event>
+<event Manner="High" id="E11">
+<type class="Negative_regulation"/>
+<theme idref="E12"/>
+<cause idref="T14"/>
+<clue>We <clueKT>found</clueKT> that the retinoblastoma susceptibility gene product (Rb) <clueManner>dramatically</clueManner> <clueType>suppressed</clueType> this IE2 transactivation of various promoters.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="T17"/>
+<cause idref="T16"/>
+<clue>We found that the retinoblastoma susceptibility gene product (Rb) dramatically suppressed this IE2 <clueType>transactivation</clueType> <linkTheme>of</linkTheme> various promoters.</clue>
+</event>
+<sentence id="S5">However, unlike another <term id="T18" lex="tumor_suppressor_protein" sem="Protein_family_or_group">tumor suppressor protein</term>, <term id="T19" lex="p53" sem="Protein_molecule">p53</term>, <term id="T20" lex="Rb" sem="Protein_molecule">Rb</term> did not have any significant effect on <term id="T21" lex="basal_level" sem="Other">basal levels</term> of <term id="T22" lex="transcription" sem="Other">transcription</term>, suggesting that <term id="T23" lex="Rb" sem="Protein_molecule">Rb</term> specifically interacts with <term id="T24" lex="IE2" sem="Protein_molecule">IE2</term> rather than other <term id="T25" lex="cellular_factor" sem="Protein_family_or_group">cellular factors</term> involved in the general <term id="T26" lex="transcription_machinery" sem="Other">transcription machinery</term>.</sentence>
+<event Manner="High" id="E13">
+<type class="Regulation"/>
+<theme idref="T21" idref1="T22"/>
+<cause idref="T19"/>
+<clue>However, <clueType>unlike</clueType> another tumor suppressor protein, p53, Rb did <clueType>not</clueType> have any <clueManner>significant</clueManner> <clueType>effect</clueType> <linkTheme>on</linkTheme> basal levels of transcription, suggesting that Rb specifically interacts with IE2 rather than other cellular factors involved in the general transcription machinery.</clue>
+<comment>CAUTION: SEE</comment></event>
+<event KT="Other" Manner="Low" assertion="non-exist" id="E14">
+<type class="Regulation"/>
+<theme idref="T21" idref1="T22"/>
+<cause idref="T20"/>
+<clue>However, unlike another tumor suppressor protein, p53, Rb <clueManner>did not have any significant</clueManner> <clueType>effect</clueType> <linkTheme>on</linkTheme> basal levels of transcription, suggesting that Rb specifically interacts with IE2 rather than other cellular factors involved in the general transcription machinery.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E15" uncertainty="probable">
+<type class="Binding"/>
+<theme idref="T20"/>
+<theme idref="T24"/>
+<clue>However, unlike another tumor suppressor protein, p53, Rb did not have any significant effect on basal levels of transcription, <clueKT><clueCL>suggesting</clueCL></clueKT> that Rb specifically <clueType>interacts</clueType> <linkTheme>with</linkTheme> IE2 rather than other cellular factors involved in the general transcription machinery.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E16">
+<type class="Binding"/>
+<theme idref="T20"/>
+<theme idref="T25"/>
+<clue>However, unlike another tumor suppressor protein, p53, Rb did not have any significant effect on basal levels of transcription, <clueKT><clueCL>suggesting</clueCL></clueKT> that Rb specifically <clueType>interacts</clueType> <linkTheme>with</linkTheme> IE2 <clueType><cluePolarity>rather than</cluePolarity></clueType> other cellular factors involved in the general transcription machinery.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Regulation"/>
+<theme idref="T26"/>
+<cause idref="T25"/>
+<clue>However, unlike another tumor suppressor protein, p53, Rb did not have any significant effect on basal levels of transcription, suggesting that Rb specifically interacts with IE2 rather than other cellular factors <clueType>involved</clueType> <linkTheme>in</linkTheme> the general transcription machinery.</clue>
+</event>
+<sentence id="S6">We found by <term id="T27" lex="protein-affinity_chromatography" sem="Other">protein-affinity chromatography</term> that <term id="T28" lex="Rb" sem="Protein_molecule">Rb</term> in <term id="T29" lex="nuclear_extract" sem="Cell_component">nuclear extracts</term> or produced by in vitro translation directly bound to <term id="T30" lex="IE2" sem="Protein_molecule">IE2</term>.</sentence>
+<event id="E18">
+<type class="Binding"/>
+<theme idref="T28"/>
+<theme idref="T30"/>
+<clue>We <clueKT>found</clueKT> <clueExperiment>by protein-affinity chromatography</clueExperiment> that Rb in nuclear extracts or produced by in vitro translation directly <clueType>bound</clueType> <linkTheme>to</linkTheme> IE2.</clue>
+</event>
+<event id="E19">
+<type class="Translation"/>
+<theme idref="T28"/>
+<clue>We found by protein-affinity chromatography that Rb in nuclear extracts or produced by in vitro <clueType>translation</clueType> directly bound to IE2.</clue>
+</event>
+<sentence id="S7">Our results suggest that <term id="T31" lex="Rb" sem="Protein_molecule">Rb</term> may regulate the life cycle of <term id="T32" lex="HCMV" sem="Virus">HCMV</term>, which is endemic in the <term id="T33" lex="human_population" sem="Multicellular_organism_natural">human population</term>.</sentence>
+<event CL="L1" KT="Analysis" id="E20" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E21"/>
+<cause idref="T31"/>
+<clue>Our results <clueKT>suggest</clueKT> that Rb <clueCL>may</clueCL> <clueType>regulate</clueType> the life cycle of HCMV, which is endemic in the human population.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Viral_life_cycle"/>
+<theme idref="T32"/>
+<clue>Our results suggest that Rb may regulate the <clueType>life cycle</clueType> <linkTheme>of</linkTheme> HCMV, which is endemic in the human population.</clue>
+</event>
+<sentence id="S8">Furthermore, these data may provide new insights into the slow rate of <term id="T34" lex="HCMV_DNA_replication" sem="Other"><term id="T35" lex="HCMV" sem="Virus">HCMV</term> DNA replication</term> in cells and the possible involvement of <term id="T36" lex="HCMV" sem="Virus">HCMV</term> in <term id="T37" lex="tumorigenesis" sem="Other">tumorigenesis</term>.</sentence>
+<event CL="L1" KT="Analysis" id="E22">
+<type class="Viral_life_cycle"/>
+<theme idref="T35"/>
+<clue>Furthermore, these data <clueKT><clueCL>may</clueCL></clueKT> provide new insights into the slow rate of HCMV <clueType>DNA replication</clueType> <clueLoc>in cells</clueLoc> and the possible involvement of HCMV in tumorigenesis.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E23">
+<type class="Regulation"/>
+<theme idref="T37"/>
+<cause idref="T36"/>
+<clue>Furthermore, these data <clueKT>may</clueKT> provide new insights into the slow rate of HCMV DNA replication in cells and the <clueCL>possible</clueCL> <clueType>involvement</clueType> <linkCause>of</linkCause> HCMV <linkTheme>in</linkTheme> tumorigenesis.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,184 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8493578" created="02/11/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8493578</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Regulation of the <term id="T1" lex="Ets-related_transcription_factor" sem="Protein_family_or_group">Ets-related transcription factor</term> <term id="T2" lex="Elf-1" sem="Protein_molecule">Elf-1</term> by binding to the <term id="T3" lex="retinoblastoma_protein" sem="Protein_molecule">retinoblastoma protein</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Binding"/>
+<theme idref="T3"/>
+<clue>Regulation of the Ets-related transcription factor Elf-1 by <clueType>binding</clueType> <linkTheme>to</linkTheme> the retinoblastoma protein.</clue>
+</event>
+<event KT="Investigation" id="E2">
+<type class="Regulation"/>
+<theme idref="T2"/>
+<cause idref="E1"/>
+<clue><clueType>Regulation</clueType> <linkTheme>of</linkTheme> the Ets-related transcription factor Elf-1 <linkCause>by</linkCause> binding to the retinoblastoma protein.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T4" lex="retinoblastoma_gene_product" sem="Protein_molecule">retinoblastoma gene product</term> (<term id="T5" lex="Rb" sem="Protein_molecule">Rb</term>) is a <term id="T6" lex="nuclear_phosphoprotein" sem="Protein_family_or_group">nuclear phosphoprotein</term> that regulates <term id="T7" lex="cell_cycle_progression" sem="Other">cell cycle progression</term>.</sentence>
+<event KT="Fact" id="E4">
+<type class="Regulation"/>
+<theme idref="T7"/>
+<cause idref="T5"/>
+<clue>The retinoblastoma gene product (Rb) is a <corefCause>nuclear phosphoprotein</corefCause> that <clueType>regulates</clueType> cell cycle progression.</clue>
+</event>
+<sentence id="S3"><term id="T8" lex="Elf-1" sem="Protein_molecule">Elf-1</term> is a <term id="T9" lex="lymphoid-specific_Ets_transcription_factor" sem="Protein_family_or_group">lymphoid-specific Ets transcription factor</term> that regulates <term id="T10" lex="inducible_gene_expression" sem="Other">inducible gene expression</term> during <term id="T11" lex="T_cell_activation" sem="Other"><term id="T12" lex="T_cell" sem="Cell_natural">T cell</term> activation</term>.</sentence>
+<event KT="Fact" id="E5">
+<type class="Regulation"/>
+<theme idref="T10"/>
+<cause idref="T8"/>
+<clue>Elf-1 is a <clueLoc>lymphoid-specific</clueLoc> <corefCause>Ets transcription factor</corefCause> that <clueType>regulates</clueType> inducible gene expression <clueTime>during T cell activation</clueTime>.</clue>
+</event>
+<sentence id="S4">In this report, it is demonstrated that <term id="T13" lex="Elf-1" sem="Protein_molecule">Elf-1</term> contains a sequence motif that is highly related to the <term id="T14" lex="Rb_binding_site" sem="Protein_domain_or_region">Rb binding sites</term> of several viral <term id="T15" lex="oncoproteins" sem="Protein_family_or_group">oncoproteins</term> and binds to the pocket region of <term id="T16" lex="Rb" sem="Protein_molecule">Rb</term> both in vitro and in vivo.</sentence>
+<event KT="Analysis" id="E6">
+<type class="Binding"/>
+<theme idref="T13"/>
+<theme idref="T16"/>
+<clue>In this report, it is <clueKT>demonstrated</clueKT> that Elf-1 <linkTheme>contains a sequence motif</linkTheme> that is highly related to the Rb binding sites of several viral oncoproteins and <clueType>binds</clueType> <linkTheme>to the pocket region of</linkTheme> Rb both in vitro and in vivo.</clue>
+</event>
+<sentence id="S5"><term id="T17" lex="Elf-1" sem="Protein_molecule">Elf-1</term> binds exclusively to the underphosphorylated form of <term id="T18" lex="Rb" sem="Protein_molecule">Rb</term> and fails to bind to <term id="T19" lex="Rb_mutant" sem="Protein_family_or_group">Rb mutants</term> derived from <term id="T20" lex="patient" sem="Multicellular_organism_natural">patients</term> with <term id="T21" lex="retinoblastoma" sem="Other">retinoblastoma</term>.</sentence>
+<event id="E7">
+<type class="Binding"/>
+<theme idref="T17"/>
+<theme idref="T18"/>
+<clue>Elf-1 <clueType>binds</clueType> exclusively <linkTheme>to</linkTheme> the underphosphorylated form of Rb and fails to bind to Rb mutants derived from patients with retinoblastoma.</clue>
+</event>
+<event id="E8">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T18"/>
+<clue>Elf-1 binds exclusively to the <clueType>underphosphorylated</clueType> form <linkTheme>of</linkTheme> Rb and fails to bind to Rb mutants derived from patients with retinoblastoma.</clue>
+</event>
+<event id="E9">
+<type class="Negative_regulation"/>
+<theme idref="E8"/>
+<clue>Elf-1 binds exclusively to the <clueType>underphosphorylated</clueType> form of Rb and fails to bind to Rb mutants derived from patients with retinoblastoma.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E10">
+<type class="Binding"/>
+<theme idref="T17"/>
+<theme idref="T19"/>
+<clue>Elf-1 binds exclusively to the underphosphorylated form of Rb and <cluePolarity>fails</cluePolarity> to <clueType>bind</clueType> to Rb mutants derived <clueLoc>from patients with retinoblastoma</clueLoc>.</clue>
+</event>
+<sentence id="S6"><term id="T22" lex="Co-immunoprecipitation_experiment" sem="Other">Co-immunoprecipitation experiments</term> demonstrated an association between <term id="T23" lex="Elf-1" sem="Protein_molecule">Elf-1</term> and <term id="T24" lex="Rb" sem="Protein_molecule">Rb</term> in <term id="T25" lex="resting_normal_human_T_cell" sem="Cell_natural">resting normal human T cells</term>.</sentence>
+<event KT="Analysis" id="E11">
+<type class="Binding"/>
+<theme idref="T23"/>
+<theme idref="T24"/>
+<clue><clueExperiment>Co-immunoprecipitation experiments</clueExperiment> <clueKT>demonstrated</clueKT> an <clueType><clueKT>association</clueKT></clueType> <linkTheme>between</linkTheme> Elf-1 and Rb <clueLoc>in resting normal human T cells</clueLoc>.</clue>
+</event>
+<sentence id="S7">After <term id="T26" lex="T_cell_activation" sem="Other"><term id="A3" sem="Cell_natural">T cell</term> activation</term>, the phosphorylation of <term id="T27" lex="Rb" sem="Protein_molecule">Rb</term> results in the release of <term id="T28" lex="Elf-1" sem="Protein_molecule">Elf-1</term>, which is correlated temporally with the activation of <term id="T30" lex="Elf-1" sem="Protein_molecule">Elf-1</term>-mediated <term id="A4" sem="Other">transcription</term>.</sentence>
+<event id="E12">
+<type class="Physiological_process"/>
+<theme idref="A3"/>
+<clue>After T cell <clueType>activation</clueType>, the phosphorylation of Rb results in the release of Elf-1, which is correlated temporally with the activation of Elf-1-mediated transcription.</clue>
+</event>
+<event id="E13">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T27"/>
+<clue>After T cell activation, the <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> Rb results in the release of Elf-1, which is correlated temporally with the activation of Elf-1-mediated transcription.</clue>
+</event>
+<event id="E14">
+<type class="Localization"/>
+<theme idref="T28"/>
+<clue>After T cell activation, the phosphorylation of Rb results in the <clueType>release</clueType> <linkTheme>of</linkTheme> Elf-1, which is correlated temporally with the activation of Elf-1-mediated transcription.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="E13"/>
+<clue><clueTime>After T cell activation</clueTime>, the phosphorylation of Rb <clueType>results</clueType> <linkTheme>in</linkTheme> the release of Elf-1, which is correlated temporally with the activation of Elf-1-mediated transcription.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="A4"/>
+<cause idref="T30"/>
+<clue>After T cell activation, the phosphorylation of Rb results in the release of Elf-1, which is correlated temporally with the activation of Elf-1-<clueType>mediated</clueType> transcription.</clue>
+<comment>NER: T29 del &quot;Elf-1-mediated transcription&quot;</comment></event>
+<event KT="Other" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<clue>After T cell activation, the phosphorylation of Rb results in the release of Elf-1, which is correlated temporally with the <clueType>activation</clueType> <linkTheme>of</linkTheme> Elf-1-mediated transcription.</clue>
+</event>
+<event KT="Analysis" id="E18">
+<type class="Correlation"/>
+<theme idref="E14"/>
+<theme idref="E17"/>
+<clue>After T cell activation, the phosphorylation of Rb results in the release of Elf-1, which is <clueType><clueKT>correlated</clueKT></clueType> temporally <linkTheme>with</linkTheme> the activation of Elf-1-mediated transcription.</clue>
+</event>
+<sentence id="S8">Overexpression of a <term id="A102" sem="Protein_molecule"><term id="A103" sem="Other">phosphorylation</term>-defective form of <term id="T31" lex="Rb" sem="Protein_molecule">Rb</term></term> inhibited <term id="T33" lex="Elf-1" sem="Protein_molecule">Elf-1</term>-dependent <term id="A101" sem="Other">transcription</term> during <term id="T34" lex="T_cell_activation" sem="Other"><term id="T35" lex="T_cell" sem="Cell_natural">T cell</term> activation</term>.</sentence>
+<event id="E19">
+<type class="Gene_expression"/>
+<theme idref="A102"/>
+<clue><clueType>Overexpression</clueType> <linkTheme>of</linkTheme> a phosphorylation-defective form of Rb inhibited Elf-1-dependent transcription during T cell activation.</clue>
+<comment>TPS A102</comment></event>
+<event id="E20">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<clue><clueType>Overexpression</clueType> of a phosphorylation-defective form of Rb inhibited Elf-1-dependent transcription during T cell activation.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E21">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T31"/>
+<clue>Overexpression of a <clueType>phosphorylation-<cluePolarity>defective</cluePolarity> form</clueType> <linkTheme>of</linkTheme> Rb inhibited Elf-1-dependent transcription during T cell activation.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="A101"/>
+<cause idref="T33"/>
+<clue>Overexpression of a phosphorylation-defective form of Rb inhibited Elf-1-<clueType>dependent</clueType> transcription <clueTime>during T cell activation</clueTime>.</clue>
+<comment>NER: T32 del &quot;Elf-1-dependent transcription&quot;</comment></event>
+<event id="E23">
+<type class="Negative_regulation"/>
+<theme idref="E22"/>
+<cause idref="E20"/>
+<clue>Overexpression of a phosphorylation-defective form of Rb <clueType>inhibited</clueType> Elf-1-dependent transcription during T cell activation.</clue>
+</event>
+<event id="E24">
+<type class="Physiological_process"/>
+<theme idref="T35"/>
+<clue>Overexpression of a phosphorylation-defective form of Rb inhibited Elf-1-dependent transcription during T cell <clueType>activation</clueType>.</clue>
+</event>
+<sentence id="S9">These results demonstrate that <term id="T36" lex="Rb" sem="Protein_molecule">Rb</term> interacts specifically with a <term id="T37" lex="lineage-restricted_Ets_transcription_factor" sem="Protein_family_or_group">lineage-restricted Ets transcription factor</term>.</sentence>
+<event KT="Analysis" id="E25">
+<type class="Binding"/>
+<theme idref="T36"/>
+<theme idref="T37"/>
+<clue>These results <clueKT>demonstrate</clueKT> that Rb <clueType>interacts</clueType> specifically <linkTheme>with</linkTheme> a lineage-restricted Ets transcription factor.</clue>
+</event>
+<sentence id="S10">This regulated interaction may be important for the coordination of <term id="A108" sem="Other"><term id="A106" sem="Protein_family_or_group">lineage-specific effector</term> functions</term> such as <term id="T38" lex="lymphokine_production" sem="Other"><term id="T39" lex="lymphokine" sem="Protein_family_or_group">lymphokine</term> production</term> with <term id="A105" sem="Other">cell cycle progression</term> in <term id="T40" lex="activated_T_cell" sem="Cell_natural">activated <term id="A107" sem="Cell_natural">T cells</term></term>.</sentence>
+<event KT="Other" id="E26">
+<type class="Correlation"/>
+<theme idref="A108"/>
+<clue>This regulated interaction may be important for the <clueType>coordination</clueType> <linkTheme>of</linkTheme> lineage-specific effector functions such as lymphokine production with cell cycle progression in activated T cells.</clue>
+</event>
+<event KT="Other" id="E27">
+<type class="Gene_expression"/>
+<theme idref="T39"/>
+<clue>This regulated interaction may be important for the coordination of lineage-specific effector functions such as lymphokine <clueType>production</clueType> with cell cycle progression in activated T cells.</clue>
+</event>
+<event KT="Other" id="E28">
+<type class="Cellular_physiological_process"/>
+<theme idref="T40"/>
+<clue>This regulated interaction may be important for the coordination of lineage-specific effector functions such as lymphokine production with <clueType>cell cycle progression</clueType> <linkTheme>in</linkTheme> activated T cells.</clue>
+</event>
+<event KT="Other" id="E29">
+<type class="Correlation"/>
+<theme idref="E27"/>
+<theme idref="E28"/>
+<clue>This regulated interaction may be important for the <clueType>coordination</clueType> <linkTheme>of</linkTheme> <corefTheme>lineage-specific effector functions</corefTheme> such as lymphokine production <linkTheme>with</linkTheme> cell cycle progression <clueLoc>in activated T cells</clueLoc>.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E30">
+<type class="Regulation"/>
+<theme idref="E29"/>
+<cause idref="E25"/>
+<clue><corefCause>This regulated interaction</corefCause> <clueKT><clueCL>may</clueCL></clueKT> be <clueType>important</clueType> <linkTheme>for</linkTheme> the coordination of lineage-specific effector functions such as lymphokine production with cell cycle progression in activated T cells.</clue>
+</event>
+<event KT="Other" id="E31">
+<type class="Physiological_process"/>
+<theme idref="A107"/>
+<clue>This regulated interaction may be important for the coordination of lineage-specific effector functions such as lymphokine production with cell cycle progression in <clueType>activated</clueType> T cells.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

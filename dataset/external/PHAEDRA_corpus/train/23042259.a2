@@ -1,0 +1,8 @@
+T4	DDI 40 51	interaction
+T13	DDI 223 234	interaction
+T15	Adverse_effect 336 346	occurrence
+R1	Subject_Disorder Arg1:T7 Arg2:T3
+E1	DDI:T4 has_participant:T1 has_participant:T2
+E2	DDI:T13 has_cue:T14 has_participant:T9 has_participant:T10
+E3	Adverse_effect:T15 affects:T12 has_agent:T11
+A1	Speculated E2

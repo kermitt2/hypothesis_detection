@@ -1,0 +1,275 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10072497" created="28/04/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10072497</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="N-acetyl-L-cysteine" sem="Amino_acid_monomer">N-acetyl-L-cysteine</term> inhibits primary <term id="T2" lex="human_T_cell_response" sem="Other"><term id="A1" sem="Cell_natural">human T cell</term> responses</term> at the <term id="A2" sem="Cell_natural">dendritic cell</term> level: association with <term id="T3" lex="NF-kappaB_inhibition" sem="Other"><term id="T4" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> inhibition</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Physiological_process"/>
+<theme idref="A1"/>
+<clue>N-acetyl-L-cysteine inhibits primary human T cell <clueType>responses</clueType> at the dendritic cell level: association with NF-kappaB inhibition.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation"/>
+<theme idref="E1"/>
+<cause idref="T1"/>
+<clue>N-acetyl-L-cysteine <clueType>inhibits</clueType> primary human T cell responses at the dendritic cell level: association with NF-kappaB inhibition.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Negative_regulation"/>
+<theme idref="T4"/>
+<clue>N-acetyl-L-cysteine inhibits primary human T cell responses at the dendritic cell level: association with NF-kappaB <clueType>inhibition</clueType>.</clue>
+</event>
+<event KT="Analysis" id="E4">
+<type class="Correlation"/>
+<theme idref="E3"/>
+<theme idref="E2"/>
+<clue>N-acetyl-L-cysteine inhibits primary human T cell responses at the dendritic cell level: <clueType><clueKT>association</clueKT></clueType> with NF-kappaB inhibition.</clue>
+<comment>no corefTheme</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T5" lex="N-acetyl-L-cysteine" sem="Amino_acid_monomer">N-acetyl-L-cysteine</term> (<term id="T6" lex="NAC" sem="Amino_acid_monomer">NAC</term>) is an antioxidant molecule endowed with <term id="A4" sem="Other">immunomodulatory properties</term>.</sentence>
+<event KT="Fact" id="E5">
+<type class="Correlation"/>
+<theme idref="T6"/>
+<theme idref="A4"/>
+<clue>N-acetyl-L-cysteine (NAC) is <corefTheme>an antioxidant molecule</corefTheme> <clueType>endowed</clueType> <linkTheme>with</linkTheme> immunomodulatory properties.</clue>
+</event>
+<sentence id="S3">To investigate the effect of <term id="T7" lex="NAC" sem="Amino_acid_monomer">NAC</term> on the induction phase of <term id="A5" sem="Cell_natural">T cell</term> responses, we analyzed its action on <term id="A6" sem="Cell_natural">human dendritic cells</term> (<term id="A7" sem="Cell_natural">DC</term>) derived from adherent PBMC cultured with <term id="T8" lex="IL-4" sem="Protein_molecule">IL-4</term> and <term id="T9" lex="granulocyte-macrophage_CSF" sem="Protein_molecule">granulocyte-macrophage CSF</term>.</sentence>
+<event KT="Other" id="E6">
+<type class="Physiological_process"/>
+<theme idref="A5"/>
+<clue>To investigate the effect of NAC on the induction phase of T cell <clueType>responses</clueType>, we analyzed its action on human dendritic cells (DC) derived from adherent PBMC cultured with IL-4 and granulocyte-macrophage CSF.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<clue>To investigate the effect of NAC on the <clueType>induction phase</clueType> <linkTheme>of</linkTheme> T cell responses, we analyzed its action on human dendritic cells (DC) derived from adherent PBMC cultured with IL-4 and granulocyte-macrophage CSF.</clue>
+</event>
+<event KT="Investigation" id="E8" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E7"/>
+<cause idref="T7"/>
+<clue><clueKT>To investigate</clueKT> the <clueType>effect</clueType> <linkCause>of</linkCause> NAC <linkTheme>on</linkTheme> the induction phase of T cell responses, we analyzed its action on human dendritic cells (DC) derived from adherent PBMC cultured with IL-4 and granulocyte-macrophage CSF.</clue>
+</event>
+<event KT="Investigation" id="E9" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="A7"/>
+<cause idref="T7"/>
+<clue>To investigate the effect of NAC on the induction phase of T cell responses, we <clueKT>analyzed</clueKT> <corefCause>its</corefCause> <clueType>action</clueType> <linkTheme>on</linkTheme> human dendritic cells (DC) derived from adherent PBMC cultured with IL-4 and granulocyte-macrophage CSF.</clue>
+</event>
+<event KT="Method" id="E43">
+<type class="Artificial_process"/>
+<theme idref="A7"/>
+<theme idref="T8"/>
+<theme idref="T9"/>
+<clue>To investigate the effect of NAC on the induction phase of T cell responses, we analyzed its action on human dendritic cells (DC) derived from adherent PBMC <clueType>cultured</clueType> <linkTheme>with</linkTheme> IL-4 and granulocyte-macrophage CSF.</clue>
+</event>
+<sentence id="S4">We first found that <term id="T10" lex="NAC" sem="Amino_acid_monomer">NAC</term> inhibited the constitutive as well as the <term id="T12" lex="LPS" sem="Lipid">LPS</term>-induced <term id="T11" sem="Other">activity</term> of the <term id="T14" sem="Protein_complex">transcription factor NF-kappaB</term>.</sentence>
+<event KT="Other" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="T14"/>
+<cause idref="T12"/>
+<clue>We first found that NAC inhibited the constitutive as well as the LPS-<clueType>induced</clueType> activity <linkTheme>of</linkTheme> the transcription factor NF-kappaB.</clue>
+</event>
+<event id="E11">
+<type class="Negative_regulation"/>
+<theme idref="T14"/>
+<cause idref="T10"/>
+<clue>We first <clueKT>found</clueKT> that NAC <clueType>inhibited</clueType> the constitutive as well as the LPS-induced activity of the transcription factor NF-kappaB.</clue>
+</event>
+<event id="E12">
+<type class="Negative_regulation"/>
+<theme idref="E10"/>
+<cause idref="T10"/>
+<clue>We first <clueKT>found</clueKT> that NAC <clueType>inhibited</clueType> the constitutive <linkTheme>as well as</linkTheme> the LPS-induced activity of the transcription factor NF-kappaB.</clue>
+</event>
+<sentence id="S5">In parallel, <term id="T15" lex="NAC" sem="Amino_acid_monomer">NAC</term> was shown to down-regulate the production of <term id="T16" lex="cytokine" sem="Protein_family_or_group">cytokines</term> by <term id="T17" lex="DC" sem="Cell_natural">DC</term> as well as their surface expression of <term id="T18" lex="HLA-DR" sem="Protein_molecule">HLA-DR</term>, <term id="T19" lex="CD86" sem="Protein_molecule">CD86</term> (<term id="T20" lex="B7-2" sem="Protein_molecule">B7-2</term>), and <term id="T21" lex="CD40_molecule" sem="Protein_molecule">CD40 molecules</term> both at the basal state and upon <term id="T22" lex="LPS" sem="Lipid">LPS</term> activation.</sentence>
+<event KT="Other" id="E13">
+<type class="Gene_expression"/>
+<theme idref="T16"/>
+<clue>In parallel, NAC was shown to down-regulate the <clueType>production</clueType> <linkTheme>of</linkTheme> cytokines <clueLoc>by DC</clueLoc> as well as their surface expression of HLA-DR, CD86 (B7-2), and CD40 molecules both at the basal state and upon LPS activation.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Gene_expression"/>
+<theme idref="T18"/>
+<clue>In parallel, NAC was shown to down-regulate the production of cytokines by DC as well as their <clueLoc>surface</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> HLA-DR, CD86 (B7-2), and CD40 molecules both at the basal state and upon LPS activation.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Gene_expression"/>
+<theme idref="T19"/>
+<clue>In parallel, NAC was shown to down-regulate the production of cytokines by DC as well as their <clueLoc>surface</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> HLA-DR, CD86 (B7-2), and CD40 molecules both at the basal state and upon LPS activation.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Gene_expression"/>
+<theme idref="T21"/>
+<clue>In parallel, NAC was shown to down-regulate the production of cytokines by DC as well as their <clueLoc>surface</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> HLA-DR, CD86 (B7-2), and CD40 molecules both at the basal state and upon LPS activation.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="T22"/>
+<clue>In parallel, NAC was shown to down-regulate the production of cytokines by DC as well as their surface expression of HLA-DR, CD86 (B7-2), and CD40 molecules both at the basal state and <linkCause>upon</linkCause> LPS <clueType>activation</clueType>.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="T22"/>
+<clue>In parallel, NAC was shown to down-regulate the production of cytokines by DC as well as their surface expression of HLA-DR, CD86 (B7-2), and CD40 molecules both at the basal state and <linkCause>upon</linkCause> LPS <clueType>activation</clueType>.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<cause idref="T22"/>
+<clue>In parallel, NAC was shown to down-regulate the production of cytokines by DC as well as their surface expression of HLA-DR, CD86 (B7-2), and CD40 molecules both at the basal state and <linkCause>upon</linkCause> LPS <clueType>activation</clueType>.</clue>
+</event>
+<event KT="Analysis" id="E20">
+<type class="Negative_regulation"/>
+<theme idref="E13"/>
+<cause idref="T15"/>
+<clue>In parallel, NAC was <clueKT>shown</clueKT> to <clueType>down-regulate</clueType> the production of cytokines by DC as well as their surface expression of HLA-DR, CD86 (B7-2), and CD40 molecules both at the basal state and upon LPS activation.</clue>
+</event>
+<event KT="Analysis" id="E21">
+<type class="Negative_regulation"/>
+<theme idref="E14"/>
+<cause idref="T15"/>
+<clue>In parallel, NAC was <clueKT>shown</clueKT> to <clueType>down-regulate</clueType> the production of cytokines by DC <linkTheme>as well as</linkTheme> their surface expression of HLA-DR, CD86 (B7-2), and CD40 molecules both at the basal state and upon LPS activation.</clue>
+</event>
+<event KT="Analysis" id="E22">
+<type class="Negative_regulation"/>
+<theme idref="E15"/>
+<cause idref="T15"/>
+<clue>In parallel, NAC was <clueKT>shown</clueKT> to <clueType>down-regulate</clueType> the production of cytokines by DC <linkTheme>as well as</linkTheme> their surface expression of HLA-DR, CD86 (B7-2), and CD40 molecules both at the basal state and upon LPS activation.</clue>
+</event>
+<event KT="Analysis" id="E23">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<cause idref="T15"/>
+<clue>In parallel, NAC was <clueKT>shown</clueKT> to <clueType>down-regulate</clueType> the production of cytokines by DC <linkTheme>as well as</linkTheme> their surface expression of HLA-DR, CD86 (B7-2), and CD40 molecules both at the basal state and upon LPS activation.</clue>
+</event>
+<event KT="Analysis" id="E24">
+<type class="Negative_regulation"/>
+<theme idref="E17"/>
+<cause idref="T15"/>
+<clue>In parallel, NAC was <clueKT>shown</clueKT> to <clueType>down-regulate</clueType> the production of cytokines by DC <linkTheme>as well as</linkTheme> their surface expression of HLA-DR, CD86 (B7-2), and CD40 molecules both at the basal state and upon LPS activation.</clue>
+</event>
+<event KT="Analysis" id="E25">
+<type class="Negative_regulation"/>
+<theme idref="E18"/>
+<cause idref="T15"/>
+<clue>In parallel, NAC was <clueKT>shown</clueKT> to <clueType>down-regulate</clueType> the production of cytokines by DC <linkTheme>as well as</linkTheme> their surface expression of HLA-DR, CD86 (B7-2), and CD40 molecules both at the basal state and upon LPS activation.</clue>
+</event>
+<event KT="Analysis" id="E26">
+<type class="Negative_regulation"/>
+<theme idref="E19"/>
+<cause idref="T15"/>
+<clue>In parallel, NAC was <clueKT>shown</clueKT> to <clueType>down-regulate</clueType> the production of cytokines by DC <linkTheme>as well as</linkTheme> their surface expression of HLA-DR, CD86 (B7-2), and CD40 molecules both at the basal state and upon LPS activation.</clue>
+</event>
+<sentence id="S6"><term id="T23" lex="NAC" sem="Amino_acid_monomer">NAC</term> also inhibited <term id="A8" sem="Cell_natural">DC</term> responses induced by <term id="T24" lex="CD40_engagement" sem="Other"><term id="T25" lex="CD40" sem="Protein_molecule">CD40</term> engagement</term>.</sentence>
+<event KT="Other" id="E27">
+<type class="Binding"/>
+<theme idref="T25"/>
+<clue>NAC also inhibited DC responses induced by CD40 <clueType>engagement</clueType>.</clue>
+</event>
+<event KT="Other" id="E28">
+<type class="Physiological_process"/>
+<theme idref="A8"/>
+<clue>NAC also inhibited DC <clueType>responses</clueType> induced by CD40 engagement.</clue>
+</event>
+<event KT="Other" id="E29">
+<type class="Positive_regulation"/>
+<theme idref="E28"/>
+<cause idref="E27"/>
+<clue>NAC also inhibited DC responses <clueType>induced</clueType> <linkCause>by</linkCause> CD40 engagement.</clue>
+</event>
+<event id="E30">
+<type class="Negative_regulation"/>
+<theme idref="E29"/>
+<cause idref="T23"/>
+<clue>NAC also <clueType>inhibited</clueType> DC responses induced by CD40 engagement.</clue>
+</event>
+<sentence id="S7">The inhibitory effects of <term id="T26" lex="NAC" sem="Amino_acid_monomer">NAC</term> were not due to <term id="T27" lex="nonspecific_toxicity" sem="Other">nonspecific toxicity</term> as neither the <term id="A11" sem="Other">viability of <term id="T28" lex="DC" sem="Cell_natural">DC</term></term> nor their <term id="A9" sem="Protein_molecule">mannose receptor</term>-mediated <term id="A10" sem="Other">endocytosis</term> were modified by <term id="T30" lex="NAC" sem="Amino_acid_monomer">NAC</term>.</sentence>
+<event id="E31">
+<type class="Negative_regulation"/>
+<cause idref="T26"/>
+<clue>The <clueType>inhibitory effects</clueType> <linkCause>of</linkCause> NAC were not due to nonspecific toxicity as neither the viability of DC nor their mannose receptor-mediated endocytosis were modified by NAC.</clue>
+<comment>TPS A11</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E32">
+<type class="Correlation"/>
+<theme idref="T27"/>
+<theme idref="E31"/>
+<clue>The inhibitory effects of NAC were <cluePolarity>not</cluePolarity> <clueType>due</clueType> <linkTheme>to</linkTheme> nonspecific toxicity as neither the viability of DC nor their mannose receptor-mediated endocytosis were modified by NAC.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation"/>
+<theme idref="A10"/>
+<cause idref="A9"/>
+<clue>The inhibitory effects of NAC were not due to nonspecific toxicity as neither the viability of DC nor their mannose receptor-<clueType>mediated</clueType> endocytosis were modified by NAC.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E34">
+<type class="Regulation"/>
+<theme idref="A11"/>
+<cause idref="T30"/>
+<clue>The inhibitory effects of NAC were not due to nonspecific toxicity as <cluePolarity>neither</cluePolarity> the viability of DC nor their mannose receptor-mediated endocytosis were <clueType>modified</clueType> <linkCause>by</linkCause> NAC.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E35">
+<type class="Regulation"/>
+<theme idref="E33"/>
+<cause idref="T30"/>
+<clue>The inhibitory effects of NAC were not due to nonspecific toxicity as neither the viability of DC <cluePolarity>nor</cluePolarity> their mannose receptor-mediated endocytosis were <clueType>modified</clueType> <linkCause>by</linkCause> NAC.</clue>
+</event>
+<sentence id="S8">Finally, we found that the addition of <term id="T31" lex="NAC" sem="Amino_acid_monomer">NAC</term> to <term id="A14" sem="Other">MLR</term> between <term id="T32" lex="naive_T_cell" sem="Cell_natural">naive T cells</term> and allogeneic <term id="T33" lex="DC" sem="Cell_natural">DC</term> resulted in a profound inhibition of <term id="T34" lex="alloreactive_response" sem="Other">alloreactive responses</term>, which could be attributed to a defect of <term id="T35" lex="DC" sem="Cell_natural">DC</term> as <term id="A12" sem="Cell_natural">APC</term>-independent <term id="T13" sem="Other"><term id="A13" sem="Cell_natural">T cell</term> responses</term> were not inhibited by <term id="T37" lex="NAC" sem="Amino_acid_monomer">NAC</term>.</sentence>
+<event Manner="High" id="E36">
+<type class="Negative_regulation"/>
+<theme idref="T34"/>
+<cause idref="T31"/>
+<clue>Finally, we <clueKT>found</clueKT> that the addition of NAC to MLR between naive T cells and allogeneic DC <clueType>resulted in</clueType> a <clueManner>profound</clueManner> <clueType>inhibition</clueType> <linkTheme>of</linkTheme> alloreactive responses, which could be attributed to a defect of DC as APC-independent T cell responses were not inhibited by NAC.</clue>
+</event>
+<event KT="Other" id="E37">
+<type class="Negative_regulation"/>
+<theme idref="T33"/>
+<clue>Finally, we found that the addition of NAC to MLR between naive T cells and allogeneic DC resulted in a profound inhibition of alloreactive responses, which could be attributed to a <clueType>defect</clueType> <linkTheme>of</linkTheme> DC as APC-independent T cell responses were not inhibited by NAC.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E38">
+<type class="Correlation"/>
+<theme idref="E36"/>
+<theme idref="E37"/>
+<clue>Finally, we found that the addition of NAC to MLR between naive T cells and allogeneic DC resulted in a profound inhibition of alloreactive responses, which <clueKT><clueCL>could</clueCL></clueKT> be <clueType>attributed</clueType> <linkCause>to</linkCause> a defect of DC as APC-independent T cell responses were not inhibited by NAC.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E39">
+<type class="Positive_regulation"/>
+<theme idref="E50"/>
+<cause idref="T37"/>
+<clue>Finally, we found that the addition of NAC to MLR between naive T cells and allogeneic DC resulted in a profound inhibition of alloreactive responses, which could be attributed to a defect of DC as APC-independent T cell responses were <cluePolarity>not</cluePolarity> <clueType>inhibited</clueType> <linkCause>by</linkCause> NAC.</clue>
+</event>
+<event id="E50">
+<type class="Physiological_process"/>
+<theme idref="A13"/>
+<clue>Finally, we found that the addition of NAC to MLR between naive T cells and allogeneic DC resulted in a profound inhibition of alloreactive responses, which could be attributed to a defect of DC as APC-independent T cell <clueType>responses</clueType> were not inhibited by NAC.</clue>
+</event>
+<event Polarity="Negative" id="E51">
+<type class="Correlation"/>
+<theme idref="E50"/>
+<theme idref="A12"/>
+<clue>Finally, we found that the addition of NAC to MLR between naive T cells and allogeneic DC resulted in a profound inhibition of alloreactive responses, which could be attributed to a defect of DC as APC-<clueType><cluePolarity>independent</cluePolarity></clueType> T cell responses were not inhibited by NAC.</clue>
+</event>
+<sentence id="S9">Altogether, our results suggest that <term id="T38" lex="NAC" sem="Amino_acid_monomer">NAC</term> might impair the generation of primary <term id="T39" lex="immune_response" sem="Other">immune responses</term> in <term id="T40" lex="human" sem="Multicellular_organism_natural">humans</term> through its inhibitory action on <term id="T41" lex="DC" sem="Cell_natural">DC</term>.</sentence>
+<event KT="Other" id="E40">
+<type class="Positive_regulation"/>
+<theme idref="T39"/>
+<clue>Altogether, our results suggest that NAC might impair the <clueType>generation</clueType> <linkTheme>of</linkTheme> primary immune responses <clueLoc>in humans</clueLoc> through its inhibitory action on DC.</clue>
+</event>
+<event KT="Other" id="E41">
+<type class="Negative_regulation"/>
+<theme idref="T41"/>
+<cause idref="T38"/>
+<clue>Altogether, our results suggest that NAC might impair the generation of primary immune responses in humans through <corefCause>its</corefCause> <clueType>inhibitory action</clueType> <linkTheme>on</linkTheme> DC.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E42" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="E40"/>
+<cause idref="E41"/>
+<clue>Altogether, our results <clueKT>suggest</clueKT> that NAC <clueCL>might</clueCL> <clueType>impair</clueType> the generation of primary immune responses in humans <linkCause>through</linkCause> its inhibitory action on DC.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

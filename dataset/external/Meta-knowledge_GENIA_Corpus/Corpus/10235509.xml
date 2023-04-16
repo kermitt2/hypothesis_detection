@@ -1,0 +1,224 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10235509" created="23/05/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10235509</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="HIV-1_reactivation" sem="Other"><term id="T2" lex="HIV-1" sem="Virus">HIV-1</term> reactivation</term> in <term id="T3" lex="resting_peripheral_blood_mononuclear_cell" sem="Cell_natural">resting peripheral blood mononuclear cells</term> of infected adults upon in vitro <term id="T4" lex="CD4_cross-linking" sem="Other"><term id="T5" lex="CD4" sem="Protein_molecule">CD4</term> cross-linking</term> by <term id="A1" sem="Protein_molecule">ligands of the <term id="T6" lex="CDR2-loop" sem="Protein_domain_or_region">CDR2-loop</term> in <term id="T7" lex="extracellular_domain_1" sem="Protein_domain_or_region">extracellular domain 1</term></term>.</sentence>
+<event KT="Investigation" id="E1">
+<type class="Positive_regulation"/>
+<theme idref="T2"/>
+<cause idref="E2"/>
+<clue>HIV-1 <clueType>reactivation</clueType> <clueLoc>in resting peripheral blood mononuclear cells of infected adults</clueLoc> <linkCause>upon</linkCause> in vitro CD4 cross-linking by ligands of the CDR2-loop in extracellular domain 1.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Binding"/>
+<theme idref="A1"/>
+<theme idref="T5"/>
+<clue>HIV-1 reactivation in resting peripheral blood mononuclear cells of infected adults upon in vitro CD4 <clueType>cross-linking</clueType> <linkTheme>by</linkTheme> ligands of the CDR2-loop in extracellular domain 1.</clue>
+<comment>TPS A1</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T8" lex="HIV-1" sem="Virus">HIV-1</term> infects <term id="T9" lex="resting_peripheral_blood_mononuclear_cell" sem="Cell_natural">resting peripheral blood mononuclear cells</term> (<term id="T10" lex="PBMC" sem="Cell_natural">PBMCs</term>) but remains inactive state until subsequent <term id="T11" lex="cell_activation" sem="Other"><term id="A101" sem="Cell_natural">cell</term> activation</term>.</sentence>
+<event KT="Fact" id="E3">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T8"/>
+<theme idref="T10"/>
+<clue>HIV-1 <clueType>infects</clueType> resting peripheral blood mononuclear cells (PBMCs) but remains inactive state until subsequent cell activation.</clue>
+</event>
+<event KT="Fact" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T8"/>
+<cause idref="E101"/>
+<clue>HIV-1 infects resting peripheral blood mononuclear cells (PBMCs) but <clueType>remains inactive</clueType> state <linkCause>until</linkCause> subsequent cell activation.</clue>
+</event>
+<event KT="Other" id="E101">
+<type class="Physiological_process"/>
+<theme idref="A101"/>
+<clue>HIV-1 infects resting peripheral blood mononuclear cells (PBMCs) but remains inactive state until subsequent cell <clueType>activation</clueType>.</clue>
+</event>
+<sentence id="S3">We have demonstrated that the cross-linking of <term id="T12" lex="cell_surface_CD4" sem="Protein_molecule">cell surface <term id="T13" lex="CD4" sem="Protein_molecule">CD4</term></term> by <term id="T14" lex="gp120-anti-gp120_immune_complex" sem="Protein_complex">gp120-anti-gp120 immune complexes</term> or <term id="T15" lex="heat-inactivated_HIV-1" sem="Virus">heat-inactivated <term id="T16" lex="HIV-1" sem="Virus">HIV-1</term></term> (<term id="T17" lex="iHIV-1" sem="Virus">iHIV-1</term>) is sufficient to trigger activation signals leading to <term id="T18" lex="virus_reactivation" sem="Other"><term id="T61" sem="Virus">virus</term> reactivation</term> (9).</sentence>
+<event id="E5">
+<type class="Binding"/>
+<theme idref="T12"/>
+<theme idref="T14"/>
+<clue>We have demonstrated that the <clueType>cross-linking</clueType> <linkTheme>of</linkTheme> cell surface CD4 <linkTheme>by</linkTheme> gp120-anti-gp120 immune complexes or heat-inactivated HIV-1 (iHIV-1) is sufficient to trigger activation signals leading to virus reactivation (9).</clue>
+</event>
+<event id="E6">
+<type class="Binding"/>
+<theme idref="T12"/>
+<theme idref="T17"/>
+<clue>We have demonstrated that the <clueType>cross-linking</clueType> <linkTheme>of</linkTheme> cell surface CD4 <linkTheme>by</linkTheme> gp120-anti-gp120 immune complexes or heat-inactivated HIV-1 (iHIV-1) is sufficient to trigger activation signals leading to virus reactivation (9).</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="T16"/>
+<clue>We have demonstrated that the cross-linking of cell surface CD4 by gp120-anti-gp120 immune complexes or heat-inactivated HIV-1 (iHIV-1) is sufficient to trigger activation signals leading to <corefTheme>virus</corefTheme> <clueType>reactivation</clueType> (9).</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T18"/>
+<cause idref="E5"/>
+<clue>We <clueSource>have <clueKT>demonstrated</clueKT></clueSource> that the cross-linking of cell surface CD4 by gp120-anti-gp120 immune complexes or heat-inactivated HIV-1 (iHIV-1) is <clueType>sufficient to trigger activation signals</clueType> <linkTheme>leading to</linkTheme> virus reactivation (9).</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T18"/>
+<cause idref="E6"/>
+<clue>We <clueSource>have <clueKT>demonstrated</clueKT></clueSource> that the cross-linking of cell surface CD4 by gp120-anti-gp120 immune complexes or heat-inactivated HIV-1 (iHIV-1) is <clueType>sufficient to trigger activation signals</clueType> <linkTheme>leading to</linkTheme> virus reactivation (9).</clue>
+</event>
+<sentence id="S4">In this study, we demonstrate that <term id="T19" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> <term id="T20" lex="nuclear_translocation" sem="Other"><term id="T62" sem="Cell_component">nuclear</term> translocation</term> and stimulation of virus production by <term id="T21" lex="iHIV-1" sem="Virus">iHIV-1</term> were strictly linked to the concentrations of <term id="T22" lex="viral_protein" sem="Protein_family_or_group">viral proteins</term> used as exogenous stimuli.</sentence>
+<event id="E10">
+<type class="Localization"/>
+<theme idref="T19"/>
+<clue>In this study, we demonstrate that NF-kappaB <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> and stimulation of virus production by iHIV-1 were strictly linked to the concentrations of viral proteins used as exogenous stimuli.</clue>
+</event>
+<event id="E11">
+<type class="Gene_expression"/>
+<theme idref="T8"/>
+<clue>In this study, we demonstrate that NF-kappaB nuclear translocation and stimulation of <corefTheme>virus</corefTheme> <clueType>production</clueType> by iHIV-1 were strictly linked to the concentrations of viral proteins used as exogenous stimuli.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<cause idref="T21"/>
+<clue>In this study, we demonstrate that NF-kappaB nuclear translocation and <clueType>stimulation</clueType> <linkTheme>of</linkTheme> virus production <linkCause>by</linkCause> iHIV-1 were strictly linked to the concentrations of viral proteins used as exogenous stimuli.</clue>
+</event>
+<event KT="Analysis" id="E13">
+<type class="Correlation"/>
+<theme idref="E11"/>
+<theme idref="T22"/>
+<clue>In this study, we <clueKT>demonstrate</clueKT> that NF-kappaB nuclear translocation and stimulation of virus production by iHIV-1 were strictly <clueType>linked</clueType> <linkTheme>to</linkTheme> the concentrations of viral proteins used as exogenous stimuli.</clue>
+</event>
+<event KT="Analysis" id="E14">
+<type class="Correlation"/>
+<theme idref="E12"/>
+<theme idref="T22"/>
+<clue>In this study, we <clueKT>demonstrate</clueKT> that NF-kappaB nuclear translocation and stimulation of virus production by iHIV-1 were strictly <clueType>linked</clueType> <linkTheme>to</linkTheme> the concentrations of viral proteins used as exogenous stimuli.</clue>
+</event>
+<sentence id="S5">Moreover, we further investigated the physiologic relevance of these observations.</sentence>
+<sentence id="S6">When submitted to an in vitro <term id="T23" sem="Other"><term id="T24" lex="CD4" sem="Protein_molecule">CD4</term> cross-linking</term> by <term id="T25" lex="iHIV-1" sem="Virus">iHIV-1</term>, <term id="T26" lex="PBMC" sem="Cell_natural">PBMCs</term> from <term id="T27" lex="HIV-1-infected_patient" sem="Virus"><term id="T28" lex="HIV-1" sem="Virus">HIV-1</term>-infected <term id="T29" lex="patient" sem="Multicellular_organism_natural">patients</term></term> were found to produce virus.</sentence>
+<event id="E15">
+<type class="Binding"/>
+<theme idref="T24"/>
+<theme idref="T25"/>
+<clue>When submitted to an in vitro CD4 <clueType>cross-linking</clueType> <linkTheme>by</linkTheme> iHIV-1, PBMCs from HIV-1-infected patients were found to produce virus.</clue>
+</event>
+<event id="E16">
+<type class="Gene_expression"/>
+<theme idref="T28"/>
+<clue>When submitted to an in vitro CD4 cross-linking by iHIV-1, <clueLoc>PBMCs from HIV-1-infected patients</clueLoc> were found to <clueType>produce</clueType> <corefTheme>virus</corefTheme>.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<cause idref="E15"/>
+<clue><linkCause>When</linkCause> submitted to an in vitro CD4 cross-linking by iHIV-1, PBMCs from HIV-1-infected patients were <clueKT>found</clueKT> to produce virus.</clue>
+<comment>No clueType</comment></event>
+<sentence id="S7">This <term id="T30" lex="viral_reactivation" sem="Other"><term id="T63" sem="Virus">viral</term> reactivation</term> was associated with increased <term id="T32" sem="Other"><term id="T31" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> <term id="T64" sem="Cell_component">nuclear</term> translocation</term> in <term id="T33" lex="patient" sem="Multicellular_organism_natural">patients</term>&apos; <term id="T34" lex="PBMC" sem="Cell_natural">PBMCs</term>.</sentence>
+<event KT="Other" id="E18">
+<type class="Localization"/>
+<theme idref="T31"/>
+<clue>This viral reactivation was associated with increased NF-kappaB <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> in patients&apos; PBMCs.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<clue>This viral reactivation was associated with <clueType>increased</clueType> NF-kappaB nuclear translocation <clueLoc>in patients&apos; PBMCs</clueLoc>.</clue>
+</event>
+<event KT="Analysis" id="E20">
+<type class="Correlation"/>
+<theme idref="E17"/>
+<theme idref="E19"/>
+<clue><corefTheme>This viral reactivation</corefTheme> was <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> increased NF-kappaB nuclear translocation in patients&apos; PBMCs.</clue>
+</event>
+<sentence id="S8">Additionally, virus reactivation in resting <term id="T36" lex="PBMC" sem="Cell_natural">PBMCs</term> infected in vitro with <term id="T37" lex="HIV-1" sem="Virus">HIV-1</term> was found to be specifically induced by <term id="A3" sem="Protein_family_or_group">ligands of the <term id="T38" lex="CDR2-loop" sem="Protein_domain_or_region">CDR2-loop</term> in <term id="T39" lex="domain_1" sem="Protein_domain_or_region">domain 1</term> (<term id="T40" lex="D1" sem="Protein_domain_or_region">D1</term>) of <term id="T41" lex="CD4" sem="Protein_molecule">CD4</term></term> (<term id="A2" sem="Protein_family_or_group">virus envelope</term> and <term id="T42" lex="virus_envelope_and_anti-CD4_monoclonal_antibody" sem="Protein_family_or_group">anti-<term id="T43" lex="CD4" sem="Protein_molecule">CD4</term> monoclonal antibodies</term>).</sentence>
+<event id="E21">
+<type class="Positive_regulation"/>
+<theme idref="T37"/>
+<clue>Additionally, <corefTheme>virus</corefTheme> <clueType>reactivation</clueType> <clueLoc>in resting PBMCs infected in vitro with HIV-1</clueLoc> was found to be specifically induced by ligands of the CDR2-loop in domain 1 (D1) of CD4 (virus envelope and anti-CD4 monoclonal antibodies).</clue>
+<comment>TPS A3</comment></event>
+<event id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="A3"/>
+<clue>Additionally, virus reactivation in resting PBMCs infected in vitro with HIV-1 was <clueKT>found</clueKT> to be specifically <clueType>induced</clueType> <linkCause>by</linkCause> ligands of the CDR2-loop in domain 1 (D1) of CD4 (virus envelope and anti-CD4 monoclonal antibodies).</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="A2"/>
+<clue>Additionally, virus reactivation in resting PBMCs infected in vitro with HIV-1 was <clueKT>found</clueKT> to be specifically <clueType>induced</clueType> <linkCause>by</linkCause> ligands of the CDR2-loop in domain 1 (D1) of CD4 (virus envelope and anti-CD4 monoclonal antibodies).</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="T42"/>
+<clue>Additionally, virus reactivation in resting PBMCs infected in vitro with HIV-1 was <clueKT>found</clueKT> to be specifically <clueType>induced</clueType> <linkCause>by</linkCause> ligands of the CDR2-loop in domain 1 (D1) of CD4 (virus envelope and anti-CD4 monoclonal antibodies).</clue>
+<comment>NER T42 mod</comment></event>
+<sentence id="S9">In contrast, <term id="T44" lex="virus_reactivation" sem="Other"><term id="T35" sem="Virus">virus</term> reactivation</term> was not observed following <term id="T45" lex="CD4_oligomerization" sem="Other"><term id="T46" lex="CD4" sem="Protein_molecule">CD4</term> oligomerization</term> by <term id="A4" sem="Protein_family_or_group"><term id="T47" lex="antibody" sem="Protein_family_or_group">antibodies</term> that bind other epitopes in <term id="T48" lex="D1" sem="Protein_domain_or_region">D1</term>, including the <term id="T49" lex="D1/CDR3-loop" sem="Protein_domain_or_region">D1/CDR3-loop</term></term>.</sentence>
+<event id="E25">
+<type class="Binding"/>
+<theme idref="T46"/>
+<theme idref="A4"/>
+<clue>In contrast, virus reactivation was not observed following CD4 <clueType>oligomerization</clueType> <linkTheme>by</linkTheme> antibodies that bind other epitopes in D1, including the D1/CDR3-loop.</clue>
+<comment>TPS A4</comment></event>
+<event KT="Other" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="T37"/>
+<clue>In contrast, <corefTheme>virus</corefTheme> <clueType>reactivation</clueType> was not observed following CD4 oligomerization by antibodies that bind other epitopes in D1, including the D1/CDR3-loop.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="E26"/>
+<cause idref="E25"/>
+<clue>In contrast, virus reactivation was <cluePolarity>not</cluePolarity> <clueType><clueKT>observed</clueKT></clueType> <linkCause>following</linkCause> CD4 oligomerization by antibodies that bind other epitopes in D1, including the D1/CDR3-loop.</clue>
+</event>
+<event KT="Fact" id="E28">
+<type class="Binding"/>
+<theme idref="T47"/>
+<theme idref="T49"/>
+<clue>In contrast, virus reactivation was not observed following CD4 oligomerization by antibodies that <clueType>bind</clueType> other epitopes in D1, including the D1/CDR3-loop.</clue>
+</event>
+<sentence id="S10">Finally, <term id="T50" lex="soluble_CD4" sem="Protein_molecule">soluble <term id="T51" lex="CD4" sem="Protein_molecule">CD4</term></term> (<term id="T52" lex="sCD4" sem="Protein_molecule">sCD4</term>) prevented <term id="T53" lex="virus_reactivation" sem="Other"><term id="T65" sem="Virus">virus</term> reactivation</term> by <term id="T54" lex="D1/CDR2-loop_ligand" sem="Protein_family_or_group">D1/CDR2-loop ligands</term>.</sentence>
+<event KT="Other" id="E29">
+<type class="Positive_regulation"/>
+<theme idref="T37"/>
+<clue>Finally, soluble CD4 (sCD4) prevented <corefTheme>virus</corefTheme> <clueType>reactivation</clueType> by D1/CDR2-loop ligands.</clue>
+</event>
+<event KT="Other" id="E102">
+<type class="Positive_regulation"/>
+<theme idref="E29"/>
+<cause idref="T54"/>
+<clue>Finally, soluble CD4 (sCD4) prevented virus reactivation <linkCause>by</linkCause> D1/CDR2-loop ligands.</clue>
+<comment>No clueType</comment></event>
+<event id="E30">
+<type class="Negative_regulation"/>
+<theme idref="E29"/>
+<cause idref="T52"/>
+<clue>Finally, soluble CD4 (sCD4) <clueType>prevented</clueType> virus reactivation by D1/CDR2-loop ligands.</clue>
+</event>
+<sentence id="S11">Our results indicate that the <term id="A6" sem="Other">signaling events</term> initiated in <term id="T55" lex="PBMC" sem="Cell_natural">PBMCs</term> by oligomerization of <term id="T56" lex="CD4" sem="Protein_molecule">CD4</term> at the <term id="T57" lex="D1/CDR2-loop" sem="Protein_domain_or_region">D1/<term id="T58" lex="CDR2-loop" sem="Protein_domain_or_region">CDR2-loop</term></term> can trigger <term id="T59" lex="HIV-1_upregulation" sem="Other"><term id="A5" sem="Virus">HIV-1</term> upregulation</term> in <term id="T60" lex="infected_individual" sem="Multicellular_organism_natural">infected individuals</term>.</sentence>
+<event id="E31">
+<type class="Binding"/>
+<theme idref="T56"/>
+<clue>Our results indicate that the signaling events initiated in PBMCs by <clueType>oligomerization</clueType> <linkTheme>of</linkTheme> CD4 <clueLoc>at the D1/CDR2-loop</clueLoc> can trigger HIV-1 upregulation in infected individuals.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation"/>
+<theme idref="A6"/>
+<cause idref="E31"/>
+<clue>Our results indicate that the signaling events <clueType>initiated</clueType> <clueLoc>in PBMCs</clueLoc> <linkCause>by</linkCause> oligomerization of CD4 at the D1/CDR2-loop can trigger HIV-1 upregulation in infected individuals.</clue>
+</event>
+<event KT="Other" id="E33">
+<type class="Positive_regulation"/>
+<theme idref="A5"/>
+<clue>Our results indicate that the signaling events initiated in PBMCs by oligomerization of CD4 at the D1/CDR2-loop can trigger HIV-1 <clueType>upregulation</clueType> in infected individuals.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E34">
+<type class="Positive_regulation"/>
+<theme idref="E33"/>
+<cause idref="E32"/>
+<clue>Our results <clueKT>indicate</clueKT> that the signaling events initiated in PBMCs by oligomerization of CD4 at the D1/CDR2-loop <clueCL>can</clueCL> <clueType>trigger</clueType> HIV-1 upregulation <clueLoc>in infected individuals</clueLoc>.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,236 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10202937" created="22/01/2007" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10202937</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="fludarabine-induced_immunosuppression" sem="Other"><term id="T2" lex="fludarabine" sem="Organic_compound_other">Fludarabine</term>-induced <term id="A1" sem="Other">immunosuppression</term></term> is associated with inhibition of <term id="T3" lex="STAT1_signaling" sem="Other"><term id="T4" lex="STAT1" sem="Protein_molecule">STAT1</term> signaling</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Positive_regulation"/>
+<theme idref="A1"/>
+<cause idref="T2"/>
+<clue>Fludarabine-<clueType>induced</clueType> immunosuppression is associated with inhibition of STAT1 signaling.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Cell_communication"/>
+<theme idref="T4"/>
+<clue>Fludarabine-induced immunosuppression is associated with inhibition of STAT1 <clueType>signaling</clueType>.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Negative_regulation"/>
+<theme idref="E2"/>
+<clue>Fludarabine-induced immunosuppression is associated with <clueType>inhibition</clueType> <linkTheme>of</linkTheme> STAT1 signaling.</clue>
+</event>
+<event KT="Analysis" id="E4">
+<type class="Correlation"/>
+<theme idref="E1"/>
+<theme idref="E3"/>
+<clue>Fludarabine-induced immunosuppression is <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> inhibition of STAT1 signaling.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T5" lex="fludarabine" sem="Organic_compound_other">Fludarabine</term> is a <term id="T6" lex="nucleoside_analog" sem="Organic_compound_other">nucleoside analog</term> used in the treatment of <term id="T7" lex="hematologic_malignancy" sem="Other">hematologic malignancies</term> that can induce severe and <term id="T8" lex="prolonged_immunosuppression" sem="Other">prolonged <term id="A2" sem="Other">immunosuppression</term></term>.</sentence>
+<event CL="L2" KT="Analysis" Manner="High" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="A2"/>
+<cause idref="T7"/>
+<clue>Fludarabine is a nucleoside analog used in the treatment of hematologic malignancies that <clueKT><clueCL>can</clueCL></clueKT> <clueType>induce</clueType> <clueManner>severe and prolonged</clueManner> immunosuppression.</clue>
+</event>
+<sentence id="S3">Although it can be incorporated into the DNA of dividing cells, <term id="T9" lex="fludarabine" sem="Organic_compound_other">fludarabine</term> is also a potent inhibitor of <term id="A3" sem="Cell_natural">cells with a <term id="T10" lex="low_growth_fraction" sem="Other">low growth fraction</term></term>, thus it must have other mechanisms of action.</sentence>
+<event CL="L2" KT="Analysis" id="E6">
+<type class="Localization"/>
+<theme idref="T9"/>
+<clue>Although <corefTheme>it</corefTheme> <clueKT><clueCL>can</clueCL></clueKT> be <clueType>incorporated</clueType> <clueLoc>into the DNA of dividing cells</clueLoc>, fludarabine is also a potent inhibitor of cells with a low growth fraction, thus it must have other mechanisms of action.</clue>
+</event>
+<event KT="Fact" Manner="High" id="E7">
+<type class="Negative_regulation"/>
+<theme idref="A3"/>
+<clue>Although it can be incorporated into the DNA of dividing cells, fludarabine is also a <clueManner>potent</clueManner> <clueType>inhibitor</clueType> <linkTheme>of</linkTheme> cells with a low growth fraction, thus it must have other mechanisms of action.</clue>
+<comment>TPS: A3</comment></event>
+<sentence id="S4"><term id="T11" lex="STAT1" sem="Protein_molecule">STAT1</term>, which is activated in response to many <term id="T12" lex="lymphocyte-activating_cytokine" sem="Protein_family_or_group"><term id="A4" sem="Cell_natural">lymphocyte</term>-activating <term id="A5" sem="Protein_family_or_group">cytokines</term></term> including the <term id="T13" lex="interferon" sem="Protein_family_or_group">interferons</term>, is essential for <term id="T14" lex="cell-mediated_immunity" sem="Other"><term id="A6" sem="Unicellular_organism">cell</term>-mediated <term id="A7" sem="Other">immunity</term></term>, as the absence of this protein is associated with prominent defects in the ability to control <term id="T15" lex="viral_infection" sem="Other"><term id="A8" sem="Virus">viral</term> infections</term>.</sentence>
+<event KT="Fact" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T11"/>
+<cause idref="T12"/>
+<clue>STAT1, which is <clueType>activated</clueType> <linkCause>in response to</linkCause> many lymphocyte-activating cytokines including the interferons, is essential for cell-mediated immunity, as the absence of this protein is associated with prominent defects in the ability to control viral infections.</clue>
+</event>
+<event KT="Fact" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="T11"/>
+<cause idref="T13"/>
+<clue>STAT1, which is <clueType>activated</clueType> <linkCause>in response to</linkCause> many <corefCause>lymphocyte-activating cytokines</corefCause> including the interferons, is essential for cell-mediated immunity, as the absence of this protein is associated with prominent defects in the ability to control viral infections.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Physiological_process"/>
+<theme idref="A4"/>
+<cause idref="A5"/>
+<clue>STAT1, which is activated in response to many lymphocyte-<clueType>activating</clueType> cytokines including the interferons, is essential for cell-mediated immunity, as the absence of this protein is associated with prominent defects in the ability to control viral infections.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Physiological_process"/>
+<theme idref="A4"/>
+<cause idref="T13"/>
+<clue>STAT1, which is activated in response to many lymphocyte-<clueType>activating</clueType> <corefCause>cytokines</corefCause> including the interferons, is essential for cell-mediated immunity, as the absence of this protein is associated with prominent defects in the ability to control viral infections.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="A7"/>
+<cause idref="A6"/>
+<clue>STAT1, which is activated in response to many lymphocyte-activating cytokines including the interferons, is essential for cell-<clueType>mediated</clueType> immunity, as the absence of this protein is associated with prominent defects in the ability to control viral infections.</clue>
+</event>
+<event KT="Analysis" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="T11"/>
+<clue>STAT1, which is activated in response to many lymphocyte-activating cytokines including the interferons, is <clueType><clueKT>essential</clueKT></clueType> <linkTheme>for</linkTheme> cell-mediated immunity, as the absence of this protein is associated with prominent defects in the ability to control viral infections.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Negative_regulation"/>
+<theme idref="T11"/>
+<clue>STAT1, which is activated in response to many lymphocyte-activating cytokines including the interferons, is essential for cell-mediated immunity, as the <clueType>absence</clueType> <linkTheme>of</linkTheme> <corefTheme>this protein</corefTheme> is associated with prominent defects in the ability to control viral infections.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="A8"/>
+<clue>STAT1, which is activated in response to many lymphocyte-activating cytokines including the interferons, is essential for cell-mediated immunity, as the absence of this protein is associated with prominent defects in the ability to control viral <clueType>infections</clueType>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E16">
+<type class="Regulation"/>
+<theme idref="E15"/>
+<clue>STAT1, which is activated in response to many lymphocyte-activating cytokines including the interferons, is essential for cell-mediated immunity, as the absence of this protein is associated with prominent defects in the <clueKT><clueCL>ability</clueCL> to</clueKT> <clueType>control</clueType> viral infections.</clue>
+</event>
+<event KT="Other" Manner="High" id="E17">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<clue>STAT1, which is activated in response to many lymphocyte-activating cytokines including the interferons, is essential for cell-mediated immunity, as the absence of this protein is associated with <clueManner>prominent</clueManner> <clueType>defects</clueType> in the ability to control viral infections.</clue>
+</event>
+<event KT="Analysis" id="E18">
+<type class="Correlation"/>
+<theme idref="E17"/>
+<theme idref="E14"/>
+<clue>STAT1, which is activated in response to many lymphocyte-activating cytokines including the interferons, is essential for cell-mediated immunity, as the absence of this protein is <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> prominent defects in the ability to control viral infections.</clue>
+</event>
+<sentence id="S5">Here we show that <term id="T16" lex="fludarabine" sem="Organic_compound_other">fludarabine</term>, but not the <term id="T17" lex="immunosuppressant" sem="Organic_compound_other">immunosuppressant</term> <term id="T18" lex="cyclosporine_A" sem="Organic_compound_other">cyclosporine A</term>, inhibits the <term id="T19" lex="cytokine-induced_activation" sem="Other"><term id="T20" lex="cytokine" sem="Protein_family_or_group">cytokine</term>-induced activation</term> of <term id="T21" lex="STAT1" sem="Protein_molecule">STAT1</term> and <term id="T22" lex="STAT1-dependent_gene_transcription" sem="Other"><term id="T23" lex="STAT1" sem="Protein_molecule">STAT1</term>-dependent <term id="A9" sem="Other">gene transcription</term></term> in <cons id="T24" lex="(OR normal_resting_lymphocyte activated_lymphocyte)" sem="(OR Cell_natural Cell_natural)"><frag id="F1">normal resting</frag> or <frag id="F2">activated</frag> <frag id="F3">lymphocytes</frag></cons>.</sentence>
+<event KT="Other" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="A9"/>
+<cause idref="T23"/>
+<clue>Here we show that fludarabine, but not the immunosuppressant cyclosporine A, inhibits the cytokine-induced activation of STAT1 and STAT1-<clueType>dependent</clueType> gene transcription in normal resting or activated lymphocytes.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="T21"/>
+<cause idref="T20"/>
+<clue>Here we show that fludarabine, but not the immunosuppressant cyclosporine A, inhibits the cytokine-<linkCause>induced</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> STAT1 and STAT1-dependent gene transcription in normal resting or activated lymphocytes.</clue>
+</event>
+<event KT="Analysis" id="E21">
+<type class="Negative_regulation"/>
+<theme idref="E19"/>
+<cause idref="T16"/>
+<clue>Here we <clueKT>show</clueKT> that fludarabine, but not the immunosuppressant cyclosporine A, <clueType>inhibits</clueType> the cytokine-induced activation of STAT1 and STAT1-dependent gene transcription <clueLoc>in normal resting or activated lymphocytes.</clueLoc></clue>
+</event>
+<event KT="Analysis" id="E22">
+<type class="Negative_regulation"/>
+<theme idref="E20"/>
+<cause idref="T16"/>
+<clue>Here we <clueKT>show</clueKT> that fludarabine, but not the immunosuppressant cyclosporine A, <clueType>inhibits</clueType> the cytokine-induced activation of STAT1 and STAT1-dependent gene transcription <clueLoc>in normal resting or activated lymphocytes.</clueLoc></clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E23">
+<type class="Negative_regulation"/>
+<theme idref="E19"/>
+<cause idref="T18"/>
+<clue>Here we <clueKT>show</clueKT> that fludarabine, but <cluePolarity>not</cluePolarity> the immunosuppressant cyclosporine A, <clueType>inhibits</clueType> the cytokine-induced activation of STAT1 and STAT1-dependent gene transcription <clueLoc>in normal resting or activated lymphocytes.</clueLoc></clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E24">
+<type class="Negative_regulation"/>
+<theme idref="E20"/>
+<cause idref="T18"/>
+<clue>Here we <clueKT>show</clueKT> that fludarabine, but <cluePolarity>not</cluePolarity> the immunosuppressant cyclosporine A, <clueType>inhibits</clueType> the cytokine-induced activation of STAT1 and STAT1-dependent gene transcription <clueLoc>in normal resting or activated lymphocytes.</clueLoc></clue>
+</event>
+<sentence id="S6"><term id="T25" lex="fludarabine" sem="Organic_compound_other">Fludarabine</term> caused a specific depletion of <term id="T26" lex="STAT1_protein" sem="Protein_molecule"><term id="T27" lex="STAT1" sem="Protein_molecule">STAT1</term> protein</term> (and <term id="A11" sem="RNA_molecule">mRNA</term>) but not of other <term id="T28" lex="STAT" sem="Protein_family_or_group">STATs</term>.</sentence>
+<event id="E25">
+<type class="Negative_regulation"/>
+<theme idref="T26"/>
+<clue>Fludarabine caused a specific <clueType>depletion</clueType> <linkTheme>of</linkTheme> STAT1 protein (and mRNA) but not of other STATs.</clue>
+</event>
+<event id="E26">
+<type class="Negative_regulation"/>
+<theme idref="T27" idref1="A11"/>
+<clue>Fludarabine caused a specific <clueType>depletion</clueType> <linkTheme>of</linkTheme> STAT1 protein (and mRNA) but not of other STATs.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation"/>
+<theme idref="E25"/>
+<cause idref="T25"/>
+<clue>Fludarabine <clueType>caused</clueType> a specific depletion of STAT1 protein (and mRNA) but not of other STATs.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation"/>
+<theme idref="E26"/>
+<cause idref="T25"/>
+<clue>Fludarabine <clueType>caused</clueType> a specific depletion of STAT1 protein (and mRNA) but not of other STATs.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation"/>
+<theme idref="T28"/>
+<clue>Fludarabine caused a specific <clueType>depletion</clueType> of STAT1 protein (and mRNA) but not <linkTheme>of</linkTheme> other STATs.</clue>
+</event>
+<event id="E30">
+<type class="Negative_regulation"/>
+<theme idref="T28" idref1="A11"/>
+<clue>Fludarabine caused a specific <clueType>depletion</clueType> of STAT1 protein (and mRNA) but not <linkTheme>of</linkTheme> other STATs.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E31">
+<type class="Positive_regulation"/>
+<theme idref="E29"/>
+<cause idref="T25"/>
+<clue>Fludarabine <clueType>caused</clueType> a specific depletion of STAT1 protein (and mRNA) but <cluePolarity>not</cluePolarity> of other STATs.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E32">
+<type class="Positive_regulation"/>
+<theme idref="E30"/>
+<cause idref="T25"/>
+<clue>Fludarabine <clueType>caused</clueType> a specific depletion of STAT1 protein (and mRNA) but <cluePolarity>not</cluePolarity> of other STATs.</clue>
+</event>
+<sentence id="S7">This loss of <term id="T29" lex="STAT1" sem="Protein_molecule">STAT1</term> was also seen in cells from <term id="T30" lex="patient" sem="Multicellular_organism_natural">patients</term> treated with <term id="T31" lex="fludarabine" sem="Organic_compound_other">fludarabine</term> in vivo.</sentence>
+<event KT="Method" id="E33">
+<type class="Artificial_process"/>
+<theme idref="T30"/>
+<theme idref="T31"/>
+<clue>This loss of STAT1 was also seen in cells from patients <clueType><clueKT>treated</clueKT></clueType> <linkTheme><clueKT>with</clueKT></linkTheme> fludarabine <clueKT>in vivo</clueKT>.</clue>
+</event>
+<event id="E34">
+<type class="Negative_regulation"/>
+<theme idref="T29"/>
+<clue>This <clueType>loss</clueType> <linkTheme>of</linkTheme> STAT1 was also <clueKT>seen</clueKT> <clueLoc>in cells from patients treated with fludarabine in vivo.</clueLoc></clue>
+</event>
+<sentence id="S8">Brief exposure to <term id="T32" lex="fludarabine" sem="Organic_compound_other">fludarabine</term> led to a sustained loss of <term id="T33" lex="STAT1" sem="Protein_molecule">STAT1</term>, analogous to the prolonged period of <term id="T34" lex="immunosuppression" sem="Other">immunosuppression</term> induced by exposure to the <term id="A12" sem="Other">drug</term> in vivo.</sentence>
+<event KT="Method" Manner="Low" id="E35">
+<type class="Artificial_process"/>
+<theme idref="T32"/>
+<clue><clueManner>Brief</clueManner> <clueType><clueKT>exposure</clueKT></clueType> <linkTheme>to</linkTheme> fludarabine led to a sustained loss of STAT1, analogous to the prolonged period of immunosuppression induced by exposure to the drug in vivo.</clue>
+</event>
+<event Manner="High" id="E36">
+<type class="Negative_regulation"/>
+<theme idref="T33"/>
+<clue>Brief exposure to fludarabine led to a <clueManner>sustained</clueManner> <clueType>loss</clueType> <linkTheme>of</linkTheme> STAT1, analogous to the prolonged period of immunosuppression induced by exposure to the drug in vivo.</clue>
+</event>
+<event id="E37">
+<type class="Positive_regulation"/>
+<theme idref="E36"/>
+<cause idref="E35"/>
+<clue>Brief exposure to fludarabine <clueType><clueKT>led</clueKT></clueType> to a sustained loss of STAT1, analogous to the prolonged period of immunosuppression induced by exposure to the drug in vivo.</clue>
+</event>
+<event KT="Method" id="E38">
+<type class="Artificial_process"/>
+<theme idref="A12"/>
+<clue>Brief exposure to fludarabine led to a sustained loss of STAT1, analogous to the prolonged period of immunosuppression induced by <clueType><clueKT>exposure</clueKT></clueType> <linkTheme>to</linkTheme> <clueKT>the drug</clueKT> <clueKT>in vivo</clueKT>.</clue>
+</event>
+<event KT="Other" id="E39">
+<type class="Positive_regulation"/>
+<theme idref="T34"/>
+<cause idref="E38"/>
+<clue>Brief exposure to fludarabine led to a sustained loss of STAT1, analogous to the prolonged period of immunosuppression <clueType>induced</clueType> <linkCause>by</linkCause> exposure to the drug in vivo.</clue>
+</event>
+<sentence id="S9">Thus, <term id="T35" lex="STAT1" sem="Protein_molecule">STAT1</term> may be a useful target in the development of new <cons id="T36" lex="(AND immunosuppressive_agent antineoplastic_agent)" sem="(AND Organic_compound_other Organic_compound_other)"><frag id="F4">immunosuppressive</frag> and <frag id="F5">antineoplastic</frag> <frag id="F6">agents</frag></cons>.</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,19 @@
+T17	DDI 1190 1201	interaction
+T27	DDI 180 191	interaction
+T28	Adverse_effect 228 235	leading
+T29	Adverse_effect 81 87	due to
+T31	Potential_therapeutic_effect 290 296	taking
+T32	Potential_therapeutic_effect 337 347	prescribed
+T34	Adverse_effect 430 441	experienced
+T37	Potential_therapeutic_effect 674 683	treatment
+T43	DDI 123 134	interaction
+R1	Coreference Arg1:T33 Arg2:T30
+E1	DDI:T17 has_participant:T25 has_participant:T26
+E2	DDI:T27 has_participant:T4 has_participant:T5
+E13	DDI:T43 has_participant:T3 has_participant:T1
+E3	Adverse_effect:T28 affects:T7 has_agent:E2
+E4	Adverse_effect:T29 affects:T2 affects:T22 has_agent:E13
+E5	Potential_therapeutic_effect:T31 has_agent:T8 affects:T9 has_subject:T30
+E6	Potential_therapeutic_effect:T32 has_agent:T10 affects:T11 has_subject:T30
+E7	Adverse_effect:T34 has_subject:T33 has_agent:T12 affects:T13 affects:T14 affects:T36 affects:T35
+E8	Potential_therapeutic_effect:T37 affects:T16 has_agent:T15

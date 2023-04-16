@@ -1,0 +1,265 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10352258" created="26/06/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10352258</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">In vivo inhibition of <term id="T1" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> in <term id="T2" lex="T-lineage_cell" sem="Cell_natural">T-lineage cells</term> leads to a dramatic decrease in <term id="T3" lex="cell_proliferation" sem="Other">cell proliferation</term> and <term id="T4" lex="cytokine_production" sem="Other"><term id="T5" lex="cytokine" sem="Protein_family_or_group">cytokine</term> production</term> and to increased cell <term id="T6" lex="apoptosis" sem="Other">apoptosis</term> in response to <term id="T7" lex="mitogenic_stimuli" sem="Other">mitogenic stimuli</term>, but not to <term id="T8" lex="abnormal_thymopoiesis" sem="Other">abnormal thymopoiesis</term>.</sentence>
+<event id="E1">
+<type class="Negative_regulation"/>
+<theme idref="T1"/>
+<clue>In vivo <clueType>inhibition</clueType> <linkTheme>of</linkTheme> NF-kappa B <clueLoc>in T-lineage cells</clueLoc> leads to a dramatic decrease in cell proliferation and cytokine production and to increased cell apoptosis in response to mitogenic stimuli, but not to abnormal thymopoiesis.</clue>
+</event>
+<event Manner="High" id="E2">
+<type class="Negative_regulation"/>
+<theme idref="E4"/>
+<cause idref="E1"/>
+<clue>In vivo inhibition of NF-kappa B in T-lineage cells <clueType>leads to</clueType> a <clueManner>dramatic</clueManner> <clueType>decrease</clueType> <linkTheme>in</linkTheme> cell proliferation and cytokine production and to increased cell apoptosis in response to mitogenic stimuli, but not to abnormal thymopoiesis.</clue>
+</event>
+<event Manner="High" id="E3">
+<type class="Negative_regulation"/>
+<theme idref="E5"/>
+<cause idref="E1"/>
+<clue>In vivo inhibition of NF-kappa B in T-lineage cells <clueType>leads to</clueType> a <clueManner>dramatic</clueManner> <clueType>decrease</clueType> <linkTheme>in</linkTheme> cell proliferation and cytokine production and to increased cell apoptosis in response to mitogenic stimuli, but not to abnormal thymopoiesis.</clue>
+</event>
+<event id="E4">
+<type class="Cellular_physiological_process"/>
+<theme idref="T2"/>
+<clue>In vivo inhibition of NF-kappa B in T-lineage cells leads to a dramatic decrease in cell <clueType>proliferation</clueType> and cytokine production and to increased cell apoptosis in response to mitogenic stimuli, but not to abnormal thymopoiesis.</clue>
+</event>
+<event id="E5">
+<type class="Gene_expression"/>
+<theme idref="T5"/>
+<clue>In vivo inhibition of NF-kappa B in T-lineage cells leads to a dramatic decrease in cell proliferation and cytokine <clueType>production</clueType> and to increased cell apoptosis in response to mitogenic stimuli, but not to abnormal thymopoiesis.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="E1"/>
+<clue>In vivo inhibition of NF-kappa B in T-lineage cells <clueType>leads</clueType> to a dramatic decrease in cell proliferation and cytokine production and <clueType>to increased</clueType> cell apoptosis in response to mitogenic stimuli, but not to abnormal thymopoiesis.</clue>
+</event>
+<event id="E7">
+<type class="Cellular_physiological_process"/>
+<theme idref="T2"/>
+<clue>In vivo inhibition of NF-kappa B in T-lineage cells leads to a dramatic decrease in cell proliferation and cytokine production and to increased <corefTheme>cell</corefTheme> <clueType>apoptosis</clueType> in response to mitogenic stimuli, but not to abnormal thymopoiesis.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="T7"/>
+<clue>In vivo inhibition of NF-kappa B in T-lineage cells leads to a dramatic decrease in cell proliferation and cytokine production and to increased cell apoptosis <linkCause>in response to</linkCause> mitogenic stimuli, but not to abnormal thymopoiesis.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T8"/>
+<cause idref="E1"/>
+<clue>In vivo inhibition of NF-kappa B in T-lineage cells <clueType>leads</clueType> to a dramatic decrease in cell proliferation and cytokine production and to increased cell apoptosis in response to mitogenic stimuli, but <cluePolarity>not</cluePolarity> <linkTheme>to</linkTheme> abnormal thymopoiesis.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">To understand the role of <term id="T9" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> complexes in <cons id="T10" lex="(AND T_cell_development T_cell_activation)" sem="(AND Other Other)"><frag id="F1"><term id="A1" sem="Cell_natural">T cell</term></frag> <frag id="F2">development</frag> and <frag id="F3">activation</frag></cons>, we have generated <term id="T11" lex="transgenic_mouse" sem="Multicellular_organism_genetically_modified">transgenic mice</term> in which <term id="A3" sem="Protein_complex"><term id="T12" lex="RelA" sem="Protein_molecule">RelA</term> and <term id="T13" lex="c-Rel_complex" sem="Protein_complex">c-Rel complexes</term></term> were selectively inhibited in the <term id="T14" lex="T-lineage_cell" sem="Cell_natural">T-lineage cells</term> by specific expression of a <term id="A2" sem="Protein_molecule">trans-dominant form of <term id="T15" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term>.</term></sentence>
+<event KT="Investigation" id="E9" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E11"/>
+<cause idref="T9"/>
+<clue><clueKT>To understand</clueKT> the <clueType>role</clueType> <linkCause>of</linkCause> NF-kappa B complexes <linkTheme>in</linkTheme> T cell development and activation, we have generated transgenic mice in which RelA and c-Rel complexes were selectively inhibited in the T-lineage cells by specific expression of a trans-dominant form of I kappa B alpha.</clue>
+</event>
+<event KT="Investigation" id="E10" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E12"/>
+<cause idref="T9"/>
+<clue><clueKT>To understand</clueKT> the <clueType>role</clueType> <linkCause>of</linkCause> NF-kappa B complexes <linkTheme>in</linkTheme> T cell development and activation, we have generated transgenic mice in which RelA and c-Rel complexes were selectively inhibited in the T-lineage cells by specific expression of a trans-dominant form of I kappa B alpha.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Cell_differentiation"/>
+<theme idref="A1"/>
+<clue>To understand the role of NF-kappa B complexes in T cell <clueType>development</clueType> and activation, we have generated transgenic mice in which RelA and c-Rel complexes were selectively inhibited in the T-lineage cells by specific expression of a trans-dominant form of I kappa B alpha.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Physiological_process"/>
+<theme idref="A1"/>
+<clue>To understand the role of NF-kappa B complexes in T cell development and <clueType>activation</clueType>, we have generated transgenic mice in which RelA and c-Rel complexes were selectively inhibited in the T-lineage cells by specific expression of a trans-dominant form of I kappa B alpha.</clue>
+</event>
+<event id="E13">
+<type class="Negative_regulation"/>
+<theme idref="A3"/>
+<cause idref="E14"/>
+<clue>To understand the role of NF-kappa B complexes in T cell development and activation, we have generated <clueLoc>transgenic mice</clueLoc> in which RelA and c-Rel complexes were selectively <clueType>inhibited</clueType> <clueLoc>in the T-lineage cells</clueLoc> <linkCause>by</linkCause> specific expression of a trans-dominant form of I kappa B alpha.</clue>
+<comment>TPS: A3</comment></event>
+<event id="E14">
+<type class="Gene_expression"/>
+<theme idref="A2"/>
+<clue>To understand the role of NF-kappa B complexes in T cell development and activation, we have generated transgenic mice in which RelA and c-Rel complexes were selectively inhibited in the T-lineage cells by specific <clueType>expression</clueType> <linkTheme>of</linkTheme> a trans-dominant form of I kappa B alpha.</clue>
+<comment>TPS: A2</comment></event>
+<sentence id="S3"><term id="T16" lex="transgene_expression" sem="Other"><term id="A6" sem="DNA_domain_or_region">Transgene</term> expression</term> did not affect the <term id="T17" lex="thymic_development" sem="Other"><term id="A7" sem="Body_region">thymic</term> development</term>, but led to lowered numbers of splenic <term id="T18" lex="T_cell" sem="Cell_natural">T cells</term> and to a dramatic decrease in the <term id="T19" lex="ex_vivo_proliferative_response" sem="Other">ex vivo proliferative response</term> of <term id="T20" lex="splenic_T_lymphocyte" sem="Cell_natural">splenic <term id="T21" lex="T_lymphocyte" sem="Cell_natural">T lymphocytes</term></term>.</sentence>
+<event id="E43">
+<type class="Gene_expression"/>
+<theme idref="A6"/>
+<clue>Transgene <clueType>expression</clueType> did not affect the thymic development, but led to lowered numbers of splenic T cells and to a dramatic decrease in the ex vivo proliferative response of splenic T lymphocytes.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E15">
+<type class="Regulation"/>
+<theme idref="E44"/>
+<cause idref="E43"/>
+<clue>Transgene expression did <cluePolarity>not</cluePolarity> <clueType>affect</clueType> the thymic development, but led to lowered numbers of splenic T cells and to a dramatic decrease in the ex vivo proliferative response of splenic T lymphocytes.</clue>
+</event>
+<event id="E44">
+<type class="Biological_process"/>
+<theme idref="A7"/>
+<clue>Transgene expression did not affect the thymic <clueType>development</clueType>, but led to lowered numbers of splenic T cells and to a dramatic decrease in the ex vivo proliferative response of splenic T lymphocytes.</clue>
+</event>
+<event id="E17">
+<type class="Negative_regulation"/>
+<theme idref="T18"/>
+<cause idref="E43"/>
+<clue>Transgene expression did not affect the thymic development, but <clueType>led to lowered numbers</clueType> <linkTheme>of</linkTheme> <clueLoc>splenic</clueLoc> T cells and to a dramatic decrease in the ex vivo proliferative response of splenic T lymphocytes.</clue>
+</event>
+<event Manner="High" id="E18">
+<type class="Negative_regulation"/>
+<theme idref="E19"/>
+<cause idref="E43"/>
+<clue>Transgene expression did not affect the thymic development, but <clueType>led</clueType> to lowered numbers of splenic T cells and <clueType>to</clueType> a <clueManner>dramatic</clueManner> <clueType>decrease</clueType> <linkTheme>in</linkTheme> the ex vivo proliferative response of splenic T lymphocytes.</clue>
+</event>
+<event id="E19">
+<type class="Cellular_physiological_process"/>
+<theme idref="T21"/>
+<clue>Transgene expression did not affect the thymic development, but led to lowered numbers of splenic T cells and to a dramatic decrease in the ex vivo <clueType>proliferative response</clueType> <linkTheme>of</linkTheme> <clueLoc>splenic</clueLoc> T lymphocytes.</clue>
+</event>
+<sentence id="S4">Analysis of <term id="T22" lex="IL-2" sem="Protein_molecule">IL-2</term> and <term id="T23" lex="IL-2R_alpha_expression" sem="Other"><term id="T24" lex="IL-2R_alpha" sem="Protein_molecule">IL-2R alpha</term> expression</term> demonstrated that the perturbation of the <term id="T25" lex="proliferation_response" sem="Other">proliferation response</term> was not attributable to an abnormal expression of these genes.</sentence>
+<event KT="Investigation" id="E20" uncertainty="doubtful">
+<type class="Gene_expression"/>
+<theme idref="T22"/>
+<clue><clueKT>Analysis</clueKT> of IL-2 and IL-2R alpha <clueType>expression</clueType> demonstrated that the perturbation of the proliferation response was not attributable to an abnormal expression of these genes.</clue>
+</event>
+<event KT="Investigation" id="E21" uncertainty="doubtful">
+<type class="Gene_expression"/>
+<theme idref="T24"/>
+<clue><clueKT>Analysis</clueKT> of IL-2 and IL-2R alpha <clueType>expression</clueType> demonstrated that the perturbation of the proliferation response was not attributable to an abnormal expression of these genes.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation"/>
+<theme idref="T25"/>
+<clue>Analysis of IL-2 and IL-2R alpha expression demonstrated that the <clueType>perturbation</clueType> <linkTheme>of</linkTheme> the proliferation response was not attributable to an abnormal expression of these genes.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="E22"/>
+<cause idref="E25"/>
+<clue>Analysis of IL-2 and IL-2R alpha expression <clueKT>demonstrated</clueKT> that the perturbation of the proliferation response was <cluePolarity>not</cluePolarity> <clueType>attributable</clueType> <linkCause>to</linkCause> an abnormal expression of these genes.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E22"/>
+<cause idref="E26"/>
+<clue>Analysis of IL-2 and IL-2R alpha expression <clueKT>demonstrated</clueKT> that the perturbation of the proliferation response was <cluePolarity>not</cluePolarity> <clueType>attributable</clueType> <linkCause>to</linkCause> an abnormal expression of these genes.</clue>
+</event>
+<event KT="Other" id="E25">
+<type class="Negative_regulation"/>
+<theme idref="E45"/>
+<clue>Analysis of IL-2 and IL-2R alpha expression demonstrated that the perturbation of the proliferation response was not attributable to an <clueType>abnormal</clueType> expression of these genes.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Negative_regulation"/>
+<theme idref="E46"/>
+<clue>Analysis of IL-2 and IL-2R alpha expression demonstrated that the perturbation of the proliferation response was not attributable to an <clueType>abnormal</clueType> expression of these genes.</clue>
+</event>
+<event KT="Other" id="E45">
+<type class="Gene_expression"/>
+<theme idref="T22"/>
+<clue>Analysis of IL-2 and IL-2R alpha expression demonstrated that the perturbation of the proliferation response was not attributable to an abnormal <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>these genes</corefTheme>.</clue>
+</event>
+<event KT="Other" id="E46">
+<type class="Gene_expression"/>
+<theme idref="T24"/>
+<clue>Analysis of IL-2 and IL-2R alpha expression demonstrated that the perturbation of the proliferation response was not attributable to an abnormal <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>these genes</corefTheme>.</clue>
+</event>
+<sentence id="S5">In contrast, expression of <term id="T26" lex="IL-4" sem="Protein_molecule">IL-4</term>, <term id="T27" lex="IL-10" sem="Protein_molecule">IL-10</term>, and <term id="T28" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term> was strongly inhibited in the <term id="T29" lex="transgenic_T_cell" sem="Cell_natural">transgenic <term id="T30" lex="T_cell" sem="Cell_natural">T cells</term></term>.</sentence>
+<event KT="Other" id="E27">
+<type class="Gene_expression"/>
+<theme idref="T26"/>
+<clue>In contrast, <clueType>expression</clueType> <linkTheme>of</linkTheme> IL-4, IL-10, and IFN-gamma was strongly inhibited in the transgenic T cells.</clue>
+</event>
+<event KT="Other" id="E28">
+<type class="Gene_expression"/>
+<theme idref="T27"/>
+<clue>In contrast, <clueType>expression</clueType> <linkTheme>of</linkTheme> IL-4, IL-10, and IFN-gamma was strongly inhibited in the transgenic T cells.</clue>
+</event>
+<event KT="Other" id="E29">
+<type class="Gene_expression"/>
+<theme idref="T28"/>
+<clue>In contrast, <clueType>expression</clueType> <linkTheme>of</linkTheme> IL-4, IL-10, and IFN-gamma was strongly inhibited in the transgenic T cells.</clue>
+</event>
+<event Manner="High" id="E30">
+<type class="Negative_regulation"/>
+<theme idref="E27"/>
+<clue>In contrast, expression of IL-4, IL-10, and IFN-gamma was <clueManner>strongly</clueManner> <clueType>inhibited</clueType> <clueLoc>in the transgenic T cells</clueLoc>.</clue>
+</event>
+<event Manner="High" id="E31">
+<type class="Negative_regulation"/>
+<theme idref="E28"/>
+<clue>In contrast, expression of IL-4, IL-10, and IFN-gamma was <clueManner>strongly</clueManner> <clueType>inhibited</clueType> <clueLoc>in the transgenic T cells</clueLoc>.</clue>
+</event>
+<event Manner="High" id="E32">
+<type class="Negative_regulation"/>
+<theme idref="E27"/>
+<clue>In contrast, expression of IL-4, IL-10, and IFN-gamma was <clueManner>strongly</clueManner> <clueType>inhibited</clueType> <clueLoc>in the transgenic T cells</clueLoc>.</clue>
+</event>
+<sentence id="S6">The proliferative deficiency of the <term id="T31" lex="transgenic_T_cell" sem="Cell_natural">transgenic T cells</term> was associated with an increased <term id="T32" lex="apoptosis" sem="Other">apoptosis</term>.</sentence>
+<event Polarity="Negative" assertion="non-exist" id="E33">
+<type class="Cellular_physiological_process"/>
+<theme idref="T31"/>
+<clue>The <clueType>proliferative <cluePolarity>deficiency</cluePolarity></clueType> <linkTheme>of</linkTheme> the transgenic T cells was associated with an increased apoptosis.</clue>
+</event>
+<event KT="Analysis" id="E34">
+<type class="Correlation"/>
+<theme idref="E33"/>
+<theme idref="E35"/>
+<clue>The proliferative deficiency of the transgenic T cells was <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> an increased apoptosis.</clue>
+</event>
+<event KT="Other" id="E35">
+<type class="Positive_regulation"/>
+<theme idref="T32"/>
+<clue>The proliferative deficiency of the transgenic T cells was associated with an <clueType>increased</clueType> apoptosis.</clue>
+</event>
+<sentence id="S7">These results point out the involvement of <term id="T33" lex="NF-kappa_B/Rel_family_protein" sem="Protein_family_or_group"><term id="T34" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term>/Rel family proteins</term> in <term id="T35" lex="growth_signaling_pathway" sem="Other">growth signaling pathways</term> by either regulating <term id="A4" sem="Protein_family_or_group">proteins</term> involved in the <term id="T37" lex="IL-2_signaling" sem="Other"><term id="T38" lex="IL-2" sem="Protein_molecule">IL-2</term> signaling</term> or by functionally interfering with the <term id="A5" sem="Other">cell cycle</term> <term id="T39" lex="progression" sem="Other">progression</term>.</sentence>
+<event KT="Analysis" id="E36">
+<type class="Regulation"/>
+<theme idref="T35"/>
+<cause idref="E38"/>
+<clue>These results <clueKT>point out</clueKT> the <clueType>involvement</clueType> of NF-kappa B/Rel family proteins <linkTheme>in</linkTheme> growth signaling pathways <linkCause>by</linkCause> either regulating proteins involved in the IL-2 signaling or by functionally interfering with the cell cycle progression.</clue>
+</event>
+<event KT="Analysis" id="E37">
+<type class="Regulation"/>
+<theme idref="T35"/>
+<cause idref="E41"/>
+<clue>These results <clueKT>point out</clueKT> the <clueType>involvement</clueType> of NF-kappa B/Rel family proteins <linkTheme>in</linkTheme> growth signaling pathways by either regulating proteins involved in the IL-2 signaling or <linkCause>by</linkCause> functionally interfering with the cell cycle progression.</clue>
+</event>
+<event KT="Other" id="E38">
+<type class="Regulation"/>
+<theme idref="E39"/>
+<cause idref="T33"/>
+<clue>These results point out the involvement of NF-kappa B/Rel family proteins in growth signaling pathways by either <clueType>regulating</clueType> proteins involved in the IL-2 signaling or by functionally interfering with the cell cycle progression.</clue>
+<comment>NER: T34 del &quot;regulating proteins&quot;</comment></event>
+<event KT="Other" id="E39">
+<type class="Regulation"/>
+<theme idref="E40"/>
+<cause idref="A4"/>
+<clue>These results point out the involvement of NF-kappa B/Rel family proteins in growth signaling pathways by either regulating proteins <clueType>involved</clueType> <linkTheme>in</linkTheme> the IL-2 signaling or by functionally interfering with the cell cycle progression.</clue>
+</event>
+<event KT="Other" id="E40">
+<type class="Cell_communication"/>
+<theme idref="T38"/>
+<clue>These results point out the involvement of NF-kappa B/Rel family proteins in growth signaling pathways by either regulating proteins involved in the IL-2 <clueType>signaling</clueType> or by functionally interfering with the cell cycle progression.</clue>
+</event>
+<event KT="Other" id="E41">
+<type class="Negative_regulation"/>
+<theme idref="E42"/>
+<cause idref="T33"/>
+<clue>These results point out the involvement of NF-kappa B/Rel family proteins in growth signaling pathways by either regulating proteins involved in the IL-2 signaling or by functionally <clueType>interfering</clueType> <linkTheme>with</linkTheme> the cell cycle progression.</clue>
+</event>
+<event KT="Other" id="E42">
+<type class="Positive_regulation"/>
+<theme idref="A5"/>
+<clue>These results point out the involvement of NF-kappa B/Rel family proteins in growth signaling pathways by either regulating proteins involved in the IL-2 signaling or by functionally interfering with the cell cycle <clueType>progression</clueType>.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

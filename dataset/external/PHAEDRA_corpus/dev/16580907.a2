@@ -1,0 +1,31 @@
+T49	DDI 37 48	interaction
+T50	Adverse_effect 23 29	result
+T51	Potential_therapeutic_effect 305 311	taking
+T52	Adverse_effect 341 351	complained
+T66	Adverse_effect 814 821	induced
+T68	DDI 850 861	interaction
+T77	Adverse_effect 1867 1874	causing
+T80	DDI 1920 1939	such an interaction
+T81	Potential_therapeutic_effect 2018 2027	receiving
+T82	Adverse_effect 1950 1960	considered
+R1	Subject_Disorder Arg1:T45 Arg2:T3
+R2	Subject_Disorder Arg1:T43 Arg2:T6
+R10	Subject_Disorder Arg1:T72 Arg2:T40
+E2	Combination:T31 has_participant:T71 has_participant:T21
+E4	DDI:T49 has_participant:T2 has_participant:T44 has_subject:T45
+E10	Combination:T62 has_participant:T12 has_participant:T35
+E14	DDI:T68 has_participant:T35 has_participant:T12
+E18	DDI:T80 has_participant:T37 has_participant:T22
+E5	Adverse_effect:T50 affects:T1 has_agent:E4
+E6	Potential_therapeutic_effect:T51 has_agent:T7 affects:T6 has_subject:T43
+E7	Adverse_effect:T52 affects:T53 has_agent:E1
+E13	Adverse_effect:T66 affects:T14 has_cue:T67 has_agent:E14
+E17	Adverse_effect:T77 has_agent:T37 affects:T38 has_cue:T78 has_cue:T79
+E19	Potential_therapeutic_effect:T81 affects:T40 has_agent:T22 has_subject:T72
+E20	Adverse_effect:T82 has_cue:T83 has_agent:E18
+A6	Speculated E13
+A8	Manner E17 Low
+A9	Speculated E17
+A10	Speculated E20
+E1	Combination:T4 has_participant:T9 has_participant2:T7
+E3	Adverse_effect:T77 has_cue:T79 affects:T38 has_agent:T39

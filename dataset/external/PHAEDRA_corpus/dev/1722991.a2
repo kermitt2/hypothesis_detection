@@ -1,0 +1,22 @@
+T25	Adverse_effect 71 81	associated
+T27	Adverse_effect 124 134	associated
+T30	Potential_therapeutic_effect 457 460	use
+T33	Potential_therapeutic_effect 646 653	inhibit
+T34	Adverse_effect 674 681	induced
+T37	Adverse_effect 1034 1044	associated
+T38	Potential_therapeutic_effect 988 1002	readministered
+T28	Adverse_effect 179 191	complication
+T26	Potential_therapeutic_effect 9 19	Usefulness
+E5	Combination:T13 has_participant:T12 has_participant:T14 has_participant:T15
+E11	Combination:T41 has_participant:T21 has_participant:T36
+E1	Adverse_effect:T25 has_agent:T2 affects:T3 affects:T4
+E3	Adverse_effect:T27 has_agent:T5 affects:T6 affects:T7
+E4	Potential_therapeutic_effect:T30 has_agent:T11 affects:T31 has_subject:T29
+E6	Potential_therapeutic_effect:T33 has_agent:E5 affects:T17
+E7	Adverse_effect:T34 has_agent:T16 affects:T17
+E8	Adverse_effect:T37 has_agent:T22 affects:T23 affects:T24
+E9	Potential_therapeutic_effect:T38 has_agent:T36 affects:T23 affects:T24 has_cue:T35 has_agent:E11
+E10	Adverse_effect:T28 has_cue:T39 has_agent:T8 affects:T6 affects:T7
+E2	Potential_therapeutic_effect:T26 has_agent:T1 affects:T3 affects:T4
+A2	Manner E10 High
+A3	Speculated E9

@@ -1,0 +1,181 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2017258" created="31/03/2006" creator="Hitomi Masuda"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>2017258</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Processing of the <term id="A1" sem="Protein_molecule">precursor of <term id="T1" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term></term> by the <term id="T2" lex="HIV-1_protease" sem="Protein_molecule"><term id="T3" lex="HIV-1" sem="Virus">HIV-1</term> protease</term> during <term id="T4" lex="acute_infection" sem="Other">acute infection</term>.</sentence>
+<event id="E1">
+<type class="Protein_processing"/>
+<theme idref="A1"/>
+<cause idref="T2"/>
+<clue><clueType>Processing</clueType> <linkTheme>of</linkTheme> the precursor of NF-kappa B <linkCause>by</linkCause> the HIV-1 protease <clueTime>during acute infection</clueTime>.</clue>
+<comment>TPS: A1</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Transcription of the <term id="T5" lex="human_immunodeficiency_virus_type-1_(HIV-1)_genome" sem="DNA_family_or_group">human immunodeficiency virus type-1 (<term id="T6" lex="HIV-1" sem="Virus">HIV-1</term>) <term id="A2" sem="DNA_family_or_group">genome</term></term> is regulated in part by <term id="T7" lex="cellular_factor" sem="Protein_family_or_group">cellular factors</term> and is stimulated by activation of <term id="T8" lex="latently_infected_T_cell" sem="Cell_natural">latently infected <term id="T9" lex="T_cell" sem="Cell_natural">T cells</term></term>.</sentence>
+<event KT="Other" id="E2">
+<type class="Transcription"/>
+<theme idref="T6" idref1="A2"/>
+<clue><clueType>Transcription</clueType> <linkTheme>of</linkTheme> the human immunodeficiency virus type-1 (HIV-1) genome is regulated in part by cellular factors and is stimulated by activation of latently infected T cells.</clue>
+</event>
+<event KT="Fact" LT="Propositional" id="E3">
+<type class="Regulation"/>
+<theme idref="E2"/>
+<cause idref="T7"/>
+<clue>Transcription of the human immunodeficiency virus type-1 (HIV-1) genome is <clueType>regulated</clueType> in part <linkCause>by</linkCause> cellular factors and is stimulated by activation of latently infected T cells.</clue>
+</event>
+<event KT="Method" id="E4">
+<type class="Physiological_process"/>
+<theme idref="T8"/>
+<clue>Transcription of the human immunodeficiency virus type-1 (HIV-1) genome is regulated in part by cellular factors and is stimulated by <clueType>activation</clueType> <linkTheme>of</linkTheme> latently infected T cells.</clue>
+</event>
+<event KT="Fact" LT="Propositional" id="E5">
+<type class="Regulation"/>
+<theme idref="E2"/>
+<cause idref="E4"/>
+<clue>Transcription of the human immunodeficiency virus type-1 (HIV-1) genome is regulated in part by cellular factors and is <clueType>stimulated</clueType> <linkCause>by</linkCause> activation of latently infected T cells.</clue>
+</event>
+<sentence id="S3"><term id="T10" lex="T-cell_activation" sem="Other"><term id="A3" sem="Cell_natural">T-cell</term> activation</term> also correlates with the induction of the factor <term id="T11" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> which binds to two <term id="A4" sem="DNA_domain_or_region">adjacent sites</term> in the <term id="T12" lex="HIV-1_long_terminal_repeat" sem="DNA_domain_or_region">HIV-1 long terminal repeat</term>.</sentence>
+<event KT="Other" id="E6">
+<type class="Physiological_process"/>
+<theme idref="A3"/>
+<clue>T-cell <clueType>activation</clueType> also correlates with the induction of the factor NF-kappa B which binds to two adjacent sites in the HIV-1 long terminal repeat.</clue>
+</event>
+<event KT="Fact" LT="Propositional" id="E7">
+<type class="Binding"/>
+<theme idref="T11"/>
+<theme idref="A4"/>
+<clue>T-cell activation also correlates with the induction of the factor NF-kappa B which <clueType>binds</clueType> <linkTheme>to</linkTheme> two adjacent sites in the HIV-1 long terminal repeat.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T11"/>
+<clue>T-cell activation also correlates with the <clueType>induction</clueType> <linkTheme>of</linkTheme> the factor NF-kappa B which binds to two adjacent sites in the HIV-1 long terminal repeat.</clue>
+</event>
+<event KT="Fact" LT="Propositional" id="E9">
+<type class="Correlation"/>
+<theme idref="E6"/>
+<theme idref="E8"/>
+<clue>T-cell activation also <clueType>correlates</clueType> <linkTheme>with</linkTheme> the induction of the factor NF-kappa B which binds to two adjacent sites in the HIV-1 long terminal repeat.</clue>
+</event>
+<sentence id="S4">This factor consists of two <term id="T13" lex="DNA-binding_subunit" sem="Protein_molecule">DNA-binding subunits</term> of relative molecular mass 50,000 (50K) associated with two <term id="T14" lex="65K_subunits" sem="Protein_molecule">65K subunits</term>.</sentence>
+<event KT="Fact" LT="Propositional" id="E10">
+<type class="Binding"/>
+<theme idref="T13"/>
+<theme idref="T13"/>
+<theme idref="T14"/>
+<theme idref="T14"/>
+<clue>This factor consists of two DNA-binding subunits of relative molecular mass 50,000 (50K) <clueType>associated</clueType> <linkTheme>with</linkTheme> two 65K subunits.</clue>
+</event>
+<sentence id="S5">It is located in the nucleus in <term id="T15" lex="mature_B_cell" sem="Cell_natural">mature B cells</term>, but is present in other cell types as an <term id="T16" lex="inactive_cytoplasmic_complex" sem="Protein_complex">inactive cytoplasmic complex</term>.</sentence>
+<event KT="Fact" LT="Propositional" id="E11">
+<type class="Localization"/>
+<theme idref="T11"/>
+<clue><corefTheme>It</corefTheme> is <clueType>located</clueType> <clueLoc>in the nucleus in mature B cells</clueLoc>, but is present in other cell types as an inactive cytoplasmic complex.</clue>
+</event>
+<event KT="Fact" LT="Propositional" id="E12">
+<type class="Localization"/>
+<theme idref="T16"/>
+<clue>It is located in the nucleus in mature B cells, but is <clueType>present</clueType> <clueLoc>in other cell types</clueLoc> <clueLoc>as</clueLoc> an inactive <clueLoc>cytoplasmic complex</clueLoc>.</clue>
+</event>
+<sentence id="S6"><term id="A6" sem="Other">External stimuli</term>, including those that activate <term id="T17" lex="T_cell" sem="Cell_natural">T cells</term>, result in <term id="T18" lex="nuclear_translocation" sem="Other">nuclear translocation</term> of <term id="A8" sem="Protein_molecule">active <term id="T19" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term></term>.</sentence>
+<event KT="Other" id="E13">
+<type class="Localization"/>
+<theme idref="A8"/>
+<clue>External stimuli, including those that activate T cells, <linkCause>result in</linkCause> <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> <linkTheme>of</linkTheme> active NF-kappa B.</clue>
+</event>
+<event KT="Fact" LT="Propositional" id="E113">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="A6"/>
+<clue>External stimuli, including those that activate T cells, <clueType>result</clueType> <linkTheme>in</linkTheme> nuclear translocation of active NF-kappa B.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Physiological_process"/>
+<theme idref="T17"/>
+<cause idref="A6"/>
+<clue>External stimuli, including <corefCause>those</corefCause> that <clueType>activate</clueType> T cells, result in nuclear translocation of active NF-kappa B.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Localization"/>
+<theme idref="A8"/>
+<clue>External stimuli, including those that activate T cells, result in <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> <linkTheme>of</linkTheme> active NF-kappa B.</clue>
+</event>
+<event KT="Fact" LT="Propositional" id="E115">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="E14"/>
+<clue><corefCause>External stimuli</corefCause>, including those that activate T cells, <clueType>result</clueType> <linkTheme>in</linkTheme> nuclear translocation of active NF-kappa B.</clue>
+</event>
+<sentence id="S7">The cloning of the <term id="A9" sem="DNA_family_or_group"><term id="T20" lex="complementary_DNA" sem="DNA_family_or_group">complementary DNA</term> for the <term id="T21" lex="50K_subunit" sem="Protein_molecule">50K subunit</term></term> helped to identify an exclusively <term id="T22" lex="cytoplasmic_105K_precursor" sem="Protein_molecule">cytoplasmic 105K precursor</term> (<term id="T23" lex="p105" sem="Protein_molecule">p105</term>) (V.B., P.K. and A.I., manuscript submitted).</sentence>
+<event LT="Propositional" Source="Other" id="E16">
+<type class="Binding"/>
+<theme idref="A9"/>
+<cause idref="T23"/>
+<clue>The cloning of the complementary DNA for the 50K subunit <corefTheme>helped to</corefTheme> <clueType>identify</clueType> an exclusively cytoplasmic 105K precursor (p105) <clueSource>(V.B., P.K. and A.I., manuscript submitted)</clueSource>.</clue>
+<comment>TPS: A9</comment></event>
+<sentence id="S8">The expression of <term id="A10" sem="Protein_complex">active <term id="T24" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term></term> might therefore also be regulated by the extent of processing of <term id="T25" lex="p105" sem="Protein_molecule">p105</term>.</sentence>
+<event KT="Other" id="E17">
+<type class="Protein_metabolism"/>
+<theme idref="A10"/>
+<clue>The <clueType>expression</clueType> <linkTheme>of</linkTheme> active NF-kappa B might therefore also be regulated by the extent of processing of p105.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Protein_processing"/>
+<theme idref="T25"/>
+<clue>The expression of active NF-kappa B might therefore also be regulated by the extent of <clueType>processing</clueType> <linkTheme>of</linkTheme> p105.</clue>
+</event>
+<event CL="L1" KT="Analysis" LT="Propositional" id="E19" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E17"/>
+<cause idref="E18"/>
+<clue>The expression of active NF-kappa B <clueCL>might</clueCL> <clueKT>therefore</clueKT> also be <clueType>regulated</clueType> <linkCause>by</linkCause> the extent of processing of p105.</clue>
+</event>
+<sentence id="S9">Because <term id="T26" lex="HIV-1" sem="Virus">HIV-1</term> requires <term id="A12" sem="Protein_molecule">active <term id="T27" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term></term> for efficient transcription, we tested the effect of <term id="T28" lex="HIV-1" sem="Virus">HIV-1</term> infection on the processing of the <term id="T29" lex="human_105K_precursor" sem="Protein_molecule">human 105K precursor</term>.</sentence>
+<event KT="Other" id="E20">
+<type class="Transcription"/>
+<theme idref="T26"/>
+<clue>Because HIV-1 requires active NF-kappa B for efficient <clueType>transcription</clueType>, we tested the effect of HIV-1 infection on the processing of the human 105K precursor.</clue>
+</event>
+<event KT="Fact" LT="Propositional" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="A12"/>
+<clue>Because HIV-1 <clueType>requires</clueType> active NF-kappa B <linkTheme>for</linkTheme> efficient transcription, we tested the effect of HIV-1 infection on the processing of the human 105K precursor.</clue>
+</event>
+<event KT="Method" id="E100">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T28"/>
+<clue>Because HIV-1 requires active NF-kappa B for efficient transcription, we tested the effect of HIV-1 <clueType>infection</clueType> on the processing of the human 105K precursor.</clue>
+</event>
+<event KT="Other" id="E101">
+<type class="Protein_processing"/>
+<theme idref="T29"/>
+<clue>Because HIV-1 requires active NF-kappa B for efficient transcription, we tested the effect of HIV-1 infection on the <clueType>processing</clueType> <linkTheme>of</linkTheme> the human 105K precursor.</clue>
+</event>
+<event KT="Investigation" id="E102" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E101"/>
+<cause idref="E100"/>
+<clue>Because HIV-1 requires active NF-kappa B for efficient transcription, we <clueKT>tested</clueKT> the <clueType>effect</clueType> <linkCause>of</linkCause> HIV-1 infection <linkTheme>on</linkTheme> the processing of the human 105K precursor.</clue>
+</event>
+<sentence id="S10">We show here that the <term id="A13" sem="Protein_molecule"><term id="T30" lex="HIV-1" sem="Virus">HIV-1</term> protease</term> can process <term id="T31" lex="p105" sem="Protein_molecule">p105</term> and increases <term id="A14" sem="Protein_complex">levels of active <term id="T32" lex="nuclear_NF-kappa_B_complex" sem="Protein_complex">nuclear NF-kappa B complex</term></term>.</sentence>
+<event CL="L2" KT="Analysis" LT="Propositional" id="E22">
+<type class="Protein_processing"/>
+<theme idref="T31"/>
+<clue>We show here that the HIV-1 protease <clueKT><clueCL>can</clueCL></clueKT> <clueType>process</clueType> p105 and increases levels of active nuclear NF-kappa B complex.</clue>
+</event>
+<event CL="L2" KT="Analysis" LT="Propositional" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E22"/>
+<cause idref="A13"/>
+<clue>We show here that the HIV-1 protease <clueKT><clueCL>can</clueCL></clueKT> <clueType>process</clueType> p105 and increases levels of active nuclear NF-kappa B complex.</clue>
+</event>
+<event CL="L2" KT="Analysis" LT="Propositional" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="A14"/>
+<cause idref="A13"/>
+<clue>We show here that the HIV-1 protease <clueKT><clueCL>can</clueCL></clueKT> process p105 and <clueType>increases</clueType> levels of active nuclear NF-kappa B complex.</clue>
+<comment>TPS: A14</comment></event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

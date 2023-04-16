@@ -1,0 +1,267 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8843413" created="23/11/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8843413</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" sem="Other">Transcriptional control</term> of <term id="A1" sem="Lipid">steroid</term>-regulated <term id="A2" sem="Other">apoptosis</term> in <term id="T2" lex="murine_thymoma_cell" sem="Cell_natural">murine thymoma cells</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Regulation"/>
+<theme idref="A2"/>
+<cause idref="A1"/>
+<clue>Transcriptional control of steroid-<clueType>regulated</clueType> apoptosis in murine thymoma cells.</clue>
+</event>
+<event KT="Investigation" id="E2">
+<type class="Regulation"/>
+<theme idref="E1"/>
+<clue><clueType>Transcriptional control</clueType> <linkTheme>of</linkTheme> steroid-regulated apoptosis <clueLoc>in murine thymoma cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Early studies in murine <term id="T3" lex="T_cell_line" sem="Cell_cultured">T cell lines</term> indicated that <term id="T4" lex="transcriptional_transactivation_function" sem="Other">transcriptional transactivation functions</term> encoded in the <term id="T5" lex="glucocorticoid_receptor_(GR)_N-terminal_domain" sem="Protein_domain_or_region"><term id="T6" lex="glucocorticoid_receptor" sem="Protein_family_or_group"><term id="T7" lex="glucocorticoid" sem="Lipid">glucocorticoid</term> receptor</term> (<term id="T8" lex="GR" sem="Protein_family_or_group">GR</term>) N-terminal domain</term> are required for <term id="T10" lex="glucocorticoid" sem="Lipid">glucocorticoid</term>-mediated <term id="A3" sem="Other">apoptosis</term>.</sentence>
+<event KT="Other" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<cause idref="T10"/>
+<clue>Early studies in murine T cell lines indicated that transcriptional transactivation functions encoded in the glucocorticoid receptor (GR) N-terminal domain are required for glucocorticoid-<clueType>mediated</clueType> apoptosis.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T5"/>
+<clue>Early studies in murine T cell lines indicated that transcriptional <clueType>transactivation</clueType> functions encoded in the glucocorticoid receptor (GR) N-terminal domain are required for glucocorticoid-mediated apoptosis.</clue>
+</event>
+<event CL="L2" KT="Analysis" Source="Other" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="E4"/>
+<clue><clueSource>Early studies</clueSource> <clueLoc>in murine T cell lines</clueLoc> <clueKT><clueCL>indicated</clueCL></clueKT> that transcriptional transactivation functions encoded in the glucocorticoid receptor (GR) N-terminal domain are <clueType>required</clueType> <linkTheme>for</linkTheme> glucocorticoid-mediated apoptosis.</clue>
+</event>
+<sentence id="S3">However, more recent studies in <term id="T11" lex="human_T_cell_line" sem="Cell_cultured"><term id="T9" sem="Multicellular_organism_natural">human</term> T cell lines</term> have suggested that the <term id="T13" lex="N-terminal_domain" sem="Protein_domain_or_region">N-terminal domain</term> is not necessary for <term id="A5" sem="Lipid">steroid</term>-regulated <term id="A6" sem="Other">apoptosis</term> and that <term id="T16" lex="GR" sem="Protein_family_or_group">GR</term>-mediated <term id="T12" sem="Other">transrepression</term> may be the more critical mechanism.</sentence>
+<event KT="Other" id="E6">
+<type class="Regulation"/>
+<theme idref="A6"/>
+<cause idref="A5"/>
+<clue>However, more recent studies in human T cell lines have suggested that the N-terminal domain is not necessary for steroid-<clueType>regulated</clueType> apoptosis and that GR-mediated transrepression may be the more critical mechanism.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" Source="Other" assertion="non-exist" id="E7" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="T13"/>
+<clue>However, <clueSource>more recent studies</clueSource> <clueLoc>in human T cell lines</clueLoc> have <clueKT><clueCL>suggested</clueCL></clueKT> that the N-terminal domain is <cluePolarity>not</cluePolarity> <clueType>necessary</clueType> <linkTheme>for</linkTheme> steroid-regulated apoptosis and that GR-mediated transrepression may be the more critical mechanism.</clue>
+</event>
+<event CL="L1" KT="Analysis" Source="Other" id="E8">
+<type class="Negative_regulation"/>
+<cause idref="T16"/>
+<clue>However, <clueSource>more recent studies</clueSource> in human T cell lines have <clueKT>suggested</clueKT> that the N-terminal domain is not necessary for steroid-regulated apoptosis and that GR-<linkCause>mediated</linkCause> <clueType>transrepression</clueType> <clueCL>may</clueCL> be the more critical mechanism.</clue>
+</event>
+<sentence id="S4">To better understand the contribution of the <term id="T17" lex="GR_N-terminal_transactivation_domain" sem="Protein_domain_or_region"><term id="T18" lex="GR" sem="Protein_family_or_group">GR</term> N-terminal transactivation domain</term> in mediating <term id="A8" sem="Cell_natural">murine thymocyte</term> apoptosis, we stably transfected <term id="T19" lex="GR" sem="Protein_family_or_group">GR</term>, <term id="T20" lex="GR_variant" sem="Protein_family_or_group"><term id="T21" lex="GR" sem="Protein_family_or_group">GR</term> variants</term>, and the <term id="T22" lex="androgen_receptor" sem="Protein_family_or_group">androgen receptor</term> (<term id="T23" lex="AR" sem="Protein_family_or_group">AR</term>) into <term id="T15" sem="Protein_family_or_group">receptor</term>-negative <term id="T140" sem="Cell_cultured">S49 <term id="T14" sem="Multicellular_organism_genetically_modified">murine</term> thymoma cells</term>.</sentence>
+<event KT="Other" id="E9">
+<type class="Cellular_physiological_process"/>
+<theme idref="A8"/>
+<clue>To better understand the contribution of the GR N-terminal transactivation domain in mediating murine thymocyte <clueType>apoptosis</clueType>, we stably transfected GR, GR variants, and the androgen receptor (AR) into receptor-negative S49 murine thymoma cells.</clue>
+</event>
+<event KT="Investigation" id="E10" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="T17"/>
+<clue><clueKT>To better understand</clueKT> the <clueType>contribution</clueType> of the GR N-terminal transactivation domain in mediating murine thymocyte apoptosis, we stably transfected GR, GR variants, and the androgen receptor (AR) into receptor-negative S49 murine thymoma cells.</clue>
+</event>
+<event id="E111">
+<type class="Gene_expression"/>
+<theme idref="T19"/>
+<clue>To better understand the contribution of the GR N-terminal transactivation domain in mediating murine thymocyte apoptosis, we stably <clueType>transfected</clueType> GR, GR variants, and the androgen receptor (AR) into receptor-negative S49 murine thymoma cells.</clue>
+</event>
+<event id="E112">
+<type class="Positive_regulation"/>
+<theme idref="E111"/>
+<clue>To better understand the contribution of the GR N-terminal transactivation domain in mediating murine thymocyte apoptosis, we stably <clueType>transfected</clueType> GR, GR variants, and the androgen receptor (AR) into <clueLoc>receptor-negative S49 murine thymoma cells</clueLoc>.</clue>
+</event>
+<event id="E113">
+<type class="Gene_expression"/>
+<theme idref="T20"/>
+<clue>To better understand the contribution of the GR N-terminal transactivation domain in mediating murine thymocyte apoptosis, we stably <clueType>transfected</clueType> GR, GR variants, and the androgen receptor (AR) into receptor-negative S49 murine thymoma cells.</clue>
+</event>
+<event id="E114">
+<type class="Positive_regulation"/>
+<theme idref="E113"/>
+<clue>To better understand the contribution of the GR N-terminal transactivation domain in mediating murine thymocyte apoptosis, we stably <clueType>transfected</clueType> GR, GR variants, and the androgen receptor (AR) into <clueLoc>receptor-negative S49 murine thymoma cells</clueLoc>.</clue>
+</event>
+<event id="E115">
+<type class="Gene_expression"/>
+<theme idref="T21"/>
+<clue>To better understand the contribution of the GR N-terminal transactivation domain in mediating murine thymocyte apoptosis, we stably <clueType>transfected</clueType> GR, GR variants, and the androgen receptor (AR) into receptor-negative S49 murine thymoma cells.</clue>
+</event>
+<event id="E116">
+<type class="Positive_regulation"/>
+<theme idref="E115"/>
+<clue>To better understand the contribution of the GR N-terminal transactivation domain in mediating murine thymocyte apoptosis, we stably <clueType>transfected</clueType> GR, GR variants, and the androgen receptor (AR) into <clueLoc>receptor-negative S49 murine thymoma cells</clueLoc>.</clue>
+</event>
+<sentence id="S5"><term id="T24" sem="Other"><term id="T27" lex="GR" sem="Protein_family_or_group">GR</term> expression</term> levels were shown to be rate-limiting for initiating the <term id="T28" lex="apoptotic_pathway" sem="Other">apoptotic pathway</term>, and a positive correlation between <term id="T29" lex="steroid_sensitivity" sem="Other">steroid sensitivity</term> and <term id="T31" lex="GR" sem="Protein_family_or_group">GR</term>-mediated <term id="T26" sem="Other">induction</term> of an integrated <term id="T32" lex="mouse_mammary_tumor_virus_(MMTV)_LTR_reporter_gene" sem="DNA_domain_or_region"><term id="T33" lex="mouse_mammary_tumor_virus" sem="Virus"><term id="T30" sem="Multicellular_organism_natural">mouse</term> mammary tumor virus</term> (MMTV) LTR reporter gene</term> was observed.</sentence>
+<event KT="Other" id="E14">
+<type class="Gene_expression"/>
+<theme idref="T27"/>
+<clue>GR <clueType>expression</clueType> levels were shown to be rate-limiting for initiating the apoptotic pathway, and a positive correlation between steroid sensitivity and GR-mediated induction of an integrated mouse mammary tumor virus (MMTV) LTR reporter gene was observed.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="T28"/>
+<clue>GR expression levels were shown to be rate-limiting for <clueType>initiating</clueType> the apoptotic pathway, and a positive correlation between steroid sensitivity and GR-mediated induction of an integrated mouse mammary tumor virus (MMTV) LTR reporter gene was observed.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T32"/>
+<cause idref="T31"/>
+<clue>GR expression levels were shown to be rate-limiting for initiating the apoptotic pathway, and a positive correlation between steroid sensitivity and GR-<linkCause>mediated</linkCause> <clueType>induction</clueType> <linkTheme>of</linkTheme> an integrated mouse mammary tumor virus (MMTV) LTR reporter gene was observed.</clue>
+</event>
+<event KT="Analysis" id="E17">
+<type class="Correlation"/>
+<theme idref="T29"/>
+<theme idref="E16"/>
+<clue>GR expression levels were shown to be rate-limiting for initiating the apoptotic pathway, and a positive <clueType><clueKT>correlation</clueKT></clueType> <linkTheme>between</linkTheme> steroid sensitivity and GR-mediated induction of an integrated mouse mammary tumor virus (MMTV) LTR reporter gene was observed.</clue>
+</event>
+<event KT="Analysis" id="E50">
+<type class="Regulation"/>
+<clue>GR expression levels were <clueKT>shown</clueKT> to be <clueType>rate-limiting</clueType> <linkTheme>for</linkTheme> initiating the apoptotic pathway, and a positive correlation between steroid sensitivity and GR-mediated induction of an integrated mouse mammary tumor virus (MMTV) LTR reporter gene was observed.</clue>
+</event>
+<sentence id="S6">Analysis of <term id="A9" sem="Protein_molecule"><term id="T34" lex="GR_chimeric_receptor" sem="Protein_family_or_group"><term id="T35" lex="GR" sem="Protein_family_or_group">GR</term> chimeric receptors</term> containing the potent</term> <cons id="T36" lex="(AND VP16_viral_transactivation_domain E1A_viral_transactivation_domain)" sem="(AND DNA_domain_or_region DNA_domain_or_region)"><frag id="F1"><term id="A10" sem="Protein_molecule">VP16</term></frag> and <frag id="F2"><term id="A11" sem="Protein_molecule">E1A</term></frag> <frag id="F3"><term id="A12" sem="Protein_molecule">viral transactivation domains</term></frag></cons> <term id="A13" sem="Protein_molecule">in place of the <term id="T37" lex="GR_N_terminus" sem="Protein_domain_or_region"><term id="T38" lex="GR" sem="Protein_family_or_group">GR</term> N terminus</term></term> revealed that even <term id="T39" lex="low_level_expression" sem="Other">low level expression</term> of these receptors resulted in both enhanced <term id="T40" lex="steroid_sensitivity" sem="Other">steroid sensitivity</term> and <term id="T41" lex="MMTV_induction" sem="Other"><term id="T42" lex="MMTV" sem="DNA_domain_or_region">MMTV</term> induction</term>, thus supporting a role for <term id="A14" sem="Other">transactivation</term> in <term id="T43" lex="apoptosis" sem="Other">apoptosis</term>.</sentence>
+<event KT="Other" Manner="Low" id="E18">
+<type class="Gene_expression"/>
+<theme idref="A9" idref1="A10" idref2="A12" idref3="A13"/>
+<clue>Analysis of GR chimeric receptors containing the potent VP16 and E1A viral transactivation domains in place of the GR N terminus revealed that even <clueManner>low level</clueManner> <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>these receptors</corefTheme> resulted in both enhanced steroid sensitivity and MMTV induction, thus supporting a role for transactivation in apoptosis.</clue>
+<comment>TPS: A9, A12, A13</comment></event>
+<event KT="Other" Manner="Low" id="E19">
+<type class="Gene_expression"/>
+<theme idref="A9" idref1="A11" idref2="A12" idref3="A13"/>
+<clue>Analysis of GR chimeric receptors containing the potent VP16 and E1A viral transactivation domains in place of the GR N terminus revealed that even <clueManner>low level</clueManner> <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>these receptors</corefTheme> resulted in both enhanced steroid sensitivity and MMTV induction, thus supporting a role for transactivation in apoptosis.</clue>
+</event>
+<event KT="Analysis" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="T40"/>
+<cause idref="E18"/>
+<clue>Analysis of GR chimeric receptors containing the potent VP16 and E1A viral transactivation domains in place of the GR N terminus <clueKT>revealed</clueKT> that even low level expression of these receptors resulted in both <clueType>enhanced</clueType> steroid sensitivity and MMTV induction, thus supporting a role for transactivation in apoptosis.</clue>
+</event>
+<event KT="Analysis" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="T40"/>
+<cause idref="E19"/>
+<clue>Analysis of GR chimeric receptors containing the potent VP16 and E1A viral transactivation domains in place of the GR N terminus <clueKT>revealed</clueKT> that even low level expression of these receptors resulted in both <clueType>enhanced</clueType> steroid sensitivity and MMTV induction, thus supporting a role for transactivation in apoptosis.</clue>
+</event>
+<event KT="Analysis" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="T42"/>
+<cause idref="E18"/>
+<clue>Analysis of GR chimeric receptors containing the potent VP16 and E1A viral transactivation domains in place of the GR N terminus <clueKT>revealed</clueKT> that even low level expression of these receptors resulted in both enhanced steroid sensitivity and MMTV <clueType>induction</clueType>, thus supporting a role for transactivation in apoptosis.</clue>
+<comment>NER: T42 MOD, MMTV=mouse mammary tumor virus (MMTV) LTR reporter gene</comment></event>
+<event KT="Analysis" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="T42"/>
+<cause idref="E19"/>
+<clue>Analysis of GR chimeric receptors containing the potent VP16 and E1A viral transactivation domains in place of the GR N terminus <clueKT>revealed</clueKT> that even low level expression of these receptors resulted in both enhanced steroid sensitivity and MMTV <clueType>induction</clueType>, thus supporting a role for transactivation in apoptosis.</clue>
+<comment>NER: T42 MOD</comment></event>
+<event KT="Analysis" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="T43"/>
+<cause idref="A14"/>
+<clue>Analysis of GR chimeric receptors containing the potent VP16 and E1A viral transactivation domains in place of the GR N terminus revealed that even low level expression of these receptors resulted in both enhanced steroid sensitivity and MMTV induction, <clueKT>thus</clueKT> supporting a <clueType>role</clueType> <linkCause>for</linkCause> transactivation <linkTheme>in</linkTheme> apoptosis.</clue>
+</event>
+<sentence id="S7">In contrast, we found that <term id="T44" lex="AR" sem="Protein_family_or_group">AR</term> can initiate <term id="T45" lex="apoptosis" sem="Other">apoptosis</term> in <term id="T46" lex="S49_cell" sem="Cell_cultured">S49 cells</term> after treatment with <term id="T47" lex="5_alpha-dihydrotestosterone" sem="Lipid">5 alpha-dihydrotestosterone</term>, despite its relative inability to induce high level expression of <term id="T48" lex="MMTV" sem="DNA_domain_or_region">MMTV</term>.</sentence>
+<event KT="Method" id="E25">
+<type class="Artificial_process"/>
+<theme idref="T47"/>
+<theme idref="T46"/>
+<clue>In contrast, we found that AR can initiate apoptosis in S49 cells after <clueType>treatment</clueType> <linkTheme>with</linkTheme> 5 alpha-dihydrotestosterone, despite its relative inability to induce high level expression of MMTV.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Cellular_physiological_process"/>
+<theme idref="T46"/>
+<clue>In contrast, we found that AR can initiate <clueType>apoptosis</clueType> <linkTheme>in</linkTheme> S49 cells after treatment with 5 alpha-dihydrotestosterone, despite its relative inability to induce high level expression of MMTV.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="E26"/>
+<cause idref="T44"/>
+<cause idref="E25"/>
+<clue>In contrast, we found that AR <clueKT><clueCL>can</clueCL></clueKT> <clueType>initiate</clueType> apoptosis in S49 cells after treatment with 5 alpha-dihydrotestosterone, despite its relative inability to induce high level expression of MMTV.</clue>
+</event>
+<event KT="Other" Manner="High" id="E28">
+<type class="Gene_expression"/>
+<theme idref="T48"/>
+<clue>In contrast, we found that AR can initiate apoptosis in S49 cells after treatment with 5 alpha-dihydrotestosterone, despite its relative inability to induce <clueManner>high level</clueManner> <clueType>expression</clueType> <linkTheme>of</linkTheme> MMTV.</clue>
+<comment>NER: T48 MOD, MMTV=mouse mammary tumor virus (MMTV) LTR reporter gene</comment></event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E29">
+<type class="Positive_regulation"/>
+<theme idref="E27"/>
+<cause idref="T44"/>
+<clue>In contrast, we found that AR can initiate apoptosis in S49 cells after treatment with 5 alpha-dihydrotestosterone, despite its relative <clueType><cluePolarity>in</cluePolarity><clueKT><clueCL>ability</clueCL></clueKT> to induce</clueType> high level expression of MMTV.</clue>
+</event>
+<sentence id="S8">To investigate this further, we examined the <term id="A15" sem="Lipid">steroid</term>-regulated <term id="T64" sem="Other">expression</term> of an endogenous <term id="T50" lex="thymocyte-specific_gene" sem="DNA_domain_or_region">thymocyte-specific gene</term> called <term id="T51" lex="GIG18" sem="DNA_domain_or_region">GIG18</term>.</sentence>
+<event KT="Other" id="E30">
+<type class="Gene_expression"/>
+<theme idref="T50"/>
+<clue>To investigate this further, we examined the steroid-regulated <clueType>expression</clueType> <linkTheme>of</linkTheme> an endogenous thymocyte-specific gene called GIG18.</clue>
+</event>
+<event KT="Other" id="E31">
+<type class="Gene_expression"/>
+<theme idref="T51"/>
+<clue>To investigate this further, we examined the steroid-regulated <clueType>expression</clueType> <linkTheme>of</linkTheme> an endogenous <corefTheme>thymocyte-specific gene</corefTheme> called GIG18.</clue>
+</event>
+<event KT="Investigation" id="E32" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E29"/>
+<cause idref="A15"/>
+<clue>To investigate this further, we <clueKT>examined</clueKT> the steroid-<clueType>regulated</clueType> expression of an endogenous thymocyte-specific gene called GIG18.</clue>
+</event>
+<sentence id="S9">We found that <term id="T52" lex="GIG18" sem="DNA_domain_or_region">GIG18</term> was rapidly induced to comparable levels by both <term id="T53" lex="AR" sem="Protein_family_or_group">AR</term> and <term id="T54" lex="GR" sem="Protein_family_or_group">GR</term>, demonstrating that <term id="T55" lex="AR" sem="Protein_family_or_group">AR</term> can indeed function as a transcriptional activator in <term id="T56" lex="S49_cell" sem="Cell_cultured">S49 cells</term> and, moreover, that <term id="T57" lex="GIG18_induction" sem="Other"><term id="T58" lex="GIG18" sem="DNA_domain_or_region">GIG18</term> induction</term> may be a marker of <term id="T59" lex="early_apoptotic_event" sem="Other">early apoptotic events</term> in <term id="A16" sem="Lipid">steroid</term>-treated <term id="T49">cells</term>.</sentence>
+<event Manner="High" id="E33">
+<type class="Positive_regulation"/>
+<theme idref="T52"/>
+<cause idref="T53"/>
+<clue>We <clueKT>found</clueKT> that GIG18 was <clueManner>rapidly</clueManner> <clueType>induced</clueType> to comparable levels <linkCause>by</linkCause> both AR and GR, demonstrating that AR can indeed function as a transcriptional activator in S49 cells and, moreover, that GIG18 induction may be a marker of early apoptotic events in steroid-treated cells.</clue>
+</event>
+<event Manner="High" id="E34">
+<type class="Positive_regulation"/>
+<theme idref="T52"/>
+<cause idref="T54"/>
+<clue>We <clueKT>found</clueKT> that GIG18 was <clueManner>rapidly</clueManner> <clueType>induced</clueType> to comparable levels <linkCause>by</linkCause> both AR and GR, demonstrating that AR can indeed function as a transcriptional activator in S49 cells and, moreover, that GIG18 induction may be a marker of early apoptotic events in steroid-treated cells.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E35">
+<type class="Positive_regulation"/>
+<cause idref="T55"/>
+<clue>We found that GIG18 was rapidly induced to comparable levels by both AR and GR, <clueKT>demonstrating</clueKT> that AR <clueCL>can</clueCL> indeed function as a <clueType>transcriptional activator</clueType> <clueLoc>in S49 cells</clueLoc> and, moreover, that GIG18 induction may be a marker of early apoptotic events in steroid-treated cells.</clue>
+</event>
+<event KT="Other" id="E36">
+<type class="Positive_regulation"/>
+<theme idref="T58"/>
+<clue>We found that GIG18 was rapidly induced to comparable levels by both AR and GR, demonstrating that AR can indeed function as a transcriptional activator in S49 cells and, moreover, that GIG18 <clueType>induction</clueType> may be a marker of early apoptotic events in steroid-treated cells.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E37">
+<type class="Correlation"/>
+<theme idref="E36"/>
+<theme idref="T59"/>
+<clue>We found that GIG18 was rapidly induced to comparable levels by both AR and GR, <clueKT>demonstrating</clueKT> that AR can indeed function as a transcriptional activator in S49 cells and, moreover, that GIG18 induction <clueCL>may</clueCL> be a <clueType>marker</clueType> <linkTheme>of</linkTheme> early apoptotic events <clueLoc>in steroid-treated cells</clueLoc>.</clue>
+</event>
+<event KT="Method" id="E38">
+<type class="Artificial_process"/>
+<theme idref="A16"/>
+<theme idref="T56"/>
+<clue>We found that GIG18 was rapidly induced to comparable levels by both AR and GR, demonstrating that AR can indeed function as a transcriptional activator in S49 cells and, moreover, that GIG18 induction may be a marker of early apoptotic events in steroid-<clueType>treated</clueType> <corefTheme idref1="T56">cells</corefTheme>.</clue>
+</event>
+<sentence id="S10">Taken together, these results support our conclusion that <term id="T60" lex="transcriptional_transactivation" sem="Other">transcriptional transactivation</term> is a necessary signaling component of <term id="A17" sem="Cell_cultured">S49 cell</term> <term id="T61" lex="apoptosis" sem="Other">apoptosis</term>, although an additional role for <term id="T63" lex="GR" sem="Protein_family_or_group">GR</term>-mediated <term id="A18" sem="Other">transrepression</term> cannot be excluded.</sentence>
+<event KT="Other" id="E39">
+<type class="Cellular_physiological_process"/>
+<theme idref="A17"/>
+<clue>Taken together, these results support our conclusion that transcriptional transactivation is a necessary signaling component of S49 cell <clueType>apoptosis</clueType>, although an additional role for GR-mediated transrepression cannot be excluded.</clue>
+</event>
+<event KT="Analysis" id="E40">
+<type class="Positive_regulation"/>
+<theme idref="E39"/>
+<cause idref="T60"/>
+<clue>Taken together, these results support our <clueKT>conclusion</clueKT> that transcriptional transactivation is a <clueType>necessary</clueType> signaling component <linkTheme>of</linkTheme> S49 cell apoptosis, although an additional role for GR-mediated transrepression cannot be excluded.</clue>
+</event>
+<event KT="Other" id="E41">
+<type class="Positive_regulation"/>
+<theme idref="A18"/>
+<cause idref="T63"/>
+<clue>Taken together, these results support our conclusion that transcriptional transactivation is a necessary signaling component of S49 cell apoptosis, although an additional role for GR-<clueType>mediated</clueType> transrepression cannot be excluded.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,126 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10426995" created="04/07/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10426995</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="A1" sem="Other">Host defense mechanisms</term> triggered by <term id="T1" lex="microbial_lipoprotein" sem="Lipid">microbial lipoproteins</term> through <term id="T2" lex="toll-like_receptor" sem="Protein_family_or_group">toll-like receptors</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Positive_regulation"/>
+<theme idref="A1"/>
+<cause idref="E2"/>
+<clue>Host defense mechanisms <clueType>triggered</clueType> <linkCause>by</linkCause> microbial lipoproteins through toll-like receptors.</clue>
+</event>
+<event KT="Investigation" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T2"/>
+<clue>Host defense mechanisms triggered by microbial lipoproteins <linkCause>through</linkCause> toll-like receptors.</clue>
+<comment>NO CLUETYPE; NER: T1 sem mod, Protein_family_or_group -&gt; Lipid</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The generation of <term id="A2" sem="Other">cell-mediated immunity</term> against many <term id="T3" lex="infectious_pathogen" sem="Unicellular_organism">infectious pathogens</term> involves the production of <term id="T4" lex="interleukin-12" sem="Protein_molecule">interleukin-12</term> (<term id="T5" lex="IL-12" sem="Protein_molecule">IL-12</term>), a key signal of the <term id="T6" lex="innate_immune_system" sem="Body_region">innate immune system</term>.</sentence>
+<event KT="Other" id="E3">
+<type class="Physiological_process"/>
+<theme idref="A2"/>
+<clue>The <clueType>generation</clueType> <linkTheme>of</linkTheme> cell-mediated immunity against many infectious pathogens involves the production of interleukin-12 (IL-12), a key signal of the innate immune system.</clue>
+</event>
+<event KT="Fact" id="E4">
+<type class="Regulation"/>
+<theme idref="E3"/>
+<cause idref="E5"/>
+<clue>The generation of cell-mediated immunity against many infectious pathogens <clueType>involves</clueType> the production of interleukin-12 (IL-12), a key signal of the innate immune system.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Gene_expression"/>
+<theme idref="T5"/>
+<clue>The generation of cell-mediated immunity against many infectious pathogens involves the <clueType>production</clueType> <linkTheme>of</linkTheme> interleukin-12 (IL-12), a key signal of the innate immune system.</clue>
+</event>
+<sentence id="S3">Yet, for many pathogens, the <term id="A3" sem="Other">molecules</term> that induce <term id="T7" lex="IL-12_production" sem="Other"><term id="T8" lex="IL-12" sem="Protein_molecule">IL-12</term> production</term> by <term id="T9" lex="macrophage" sem="Cell_natural">macrophages</term> and the mechanisms by which they do so remain undefined.</sentence>
+<event KT="Other" id="E6">
+<type class="Gene_expression"/>
+<theme idref="T8"/>
+<clue>Yet, for many pathogens, the molecules that induce IL-12 <clueType>production</clueType> <clueLoc>by macrophages</clueLoc> and the mechanisms by which they do so remain undefined.</clue>
+</event>
+<event KT="Fact" id="E7" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="A3"/>
+<clue>Yet, for many pathogens, the molecules that <clueType>induce</clueType> IL-12 production by macrophages and the mechanisms by which they do so remain undefined.</clue>
+</event>
+<sentence id="S4">Here it is shown that <term id="T10" lex="microbial_lipoprotein" sem="Lipid">microbial lipoproteins</term> are potent stimulators of <term id="T11" lex="IL-12_production" sem="Other"><term id="T12" lex="IL-12" sem="Protein_molecule">IL-12</term> production</term> by human <term id="T13" lex="macrophage" sem="Cell_natural">macrophages</term>, and that induction is mediated by <term id="T14" lex="Toll-like_receptor" sem="Protein_family_or_group">Toll-like receptors</term> (<term id="T15" lex="TLR" sem="Protein_family_or_group">TLRs</term>).</sentence>
+<event KT="Analysis" Manner="High" id="E8">
+<type class="Physiological_process"/>
+<theme idref="E9"/>
+<cause idref="T10"/>
+<clue>Here it is <clueKT>shown</clueKT> that microbial lipoproteins are <clueManner>potent</clueManner> <clueType>stimulators</clueType> <linkTheme>of</linkTheme> IL-12 production by human macrophages, and that induction is mediated by Toll-like receptors (TLRs).</clue>
+<comment>NER: T10 sem mod, Protein_family_or_group -&gt; Lipid</comment></event>
+<event KT="Other" id="E9">
+<type class="Gene_expression"/>
+<theme idref="T12"/>
+<clue>Here it is shown that microbial lipoproteins are potent stimulators of IL-12 <clueType>production</clueType> <clueLoc>by human macrophages</clueLoc>, and that induction is mediated by Toll-like receptors (TLRs).</clue>
+</event>
+<event KT="Analysis" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="T15"/>
+<clue>Here it is <clueKT>shown</clueKT> that microbial lipoproteins are potent stimulators of IL-12 production by human macrophages, and that <corefTheme>induction</corefTheme> is <clueType>mediated</clueType> <linkCause>by</linkCause> Toll-like receptors (TLRs).</clue>
+</event>
+<sentence id="S5">Several <term id="A5" sem="Lipid">lipoproteins</term> stimulated <term id="T16" lex="TLR-dependent_transcription" sem="Other"><term id="A6" sem="Protein_family_or_group">TLR</term>-dependent transcription</term> of inducible <term id="T17" lex="nitric_oxide_synthase" sem="Protein_molecule"><term id="A4" sem="DNA_domain_or_region">nitric oxide synthase</term></term> and the production of <term id="T18" lex="nitric_oxide" sem="Inorganic_compound">nitric oxide</term>, a powerful <term id="T19" lex="microbicidal_pathway" sem="Other">microbicidal pathway</term>.</sentence>
+<event id="E11">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="A5"/>
+<clue>Several lipoproteins <clueType>stimulated</clueType> TLR-dependent transcription of inducible nitric oxide synthase and the production of nitric oxide, a powerful microbicidal pathway.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="A5"/>
+<clue>Several lipoproteins <clueType>stimulated</clueType> TLR-dependent transcription of inducible nitric oxide synthase and the production of nitric oxide, a powerful microbicidal pathway.</clue>
+</event>
+<event id="E13">
+<type class="Regulation"/>
+<theme idref="E14"/>
+<cause idref="A6"/>
+<clue>Several lipoproteins stimulated TLR-<clueType>dependent</clueType> transcription of inducible nitric oxide synthase and the production of nitric oxide, a powerful microbicidal pathway.</clue>
+</event>
+<event id="E14">
+<type class="Transcription"/>
+<theme idref="A4"/>
+<clue>Several lipoproteins stimulated TLR-dependent <clueType>transcription</clueType> <linkTheme>of</linkTheme> inducible nitric oxide synthase and the production of nitric oxide, a powerful microbicidal pathway.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation"/>
+<theme idref="T17"/>
+<clue>Several lipoproteins stimulated TLR-dependent transcription of <clueType>inducible</clueType> nitric oxide synthase and the production of nitric oxide, a powerful microbicidal pathway.</clue>
+</event>
+<event id="E15">
+<type class="Metabolism"/>
+<theme idref="T18"/>
+<clue>Several lipoproteins stimulated TLR-dependent transcription of inducible nitric oxide synthase and the <clueType>production</clueType> <linkTheme>of</linkTheme> nitric oxide, a powerful microbicidal pathway.</clue>
+</event>
+<event KT="Fact" Manner="High" id="E18">
+<type class="Physiological_process"/>
+<cause idref="E15"/>
+<clue>Several lipoproteins stimulated TLR-dependent transcription of inducible nitric oxide synthase and the production of nitric oxide, a <clueManner>powerful</clueManner> <clueType>microbicidal</clueType> pathway.</clue>
+</event>
+<sentence id="S6">Activation of <term id="T20" lex="TLR" sem="Protein_family_or_group">TLRs</term> by <term id="T21" lex="microbial_lipoprotein" sem="Lipid">microbial lipoproteins</term> may initiate innate defense mechanisms against <term id="T22" lex="infectious_pathogen" sem="Unicellular_organism">infectious pathogens</term>.</sentence>
+<event KT="Other" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T20"/>
+<cause idref="T21"/>
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> TLRs <linkCause>by</linkCause> microbial lipoproteins may initiate innate defense mechanisms against infectious pathogens.</clue>
+<comment>NER: T21 sem mod, Protein_family_or_group -&gt; Lipid</comment></event>
+<event CL="L1" KT="Analysis" id="E17" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="E16"/>
+<clue>Activation of TLRs by microbial lipoproteins <clueKT><clueCL>may</clueCL></clueKT> <clueType>initiate</clueType> innate defense mechanisms against infectious pathogens.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Physiological_process"/>
+<cause idref="T22"/>
+<clue>Activation of TLRs by microbial lipoproteins may initiate innate <clueType>defense</clueType> mechanisms <linkCause>against</linkCause> infectious pathogens.</clue>
+<comment>NO THEME</comment></event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,501 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10029571" created="10/01/2007" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10029571</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="interleukin-10" sem="Protein_molecule">Interleukin-10</term> inhibits expression of both <cons id="T2" lex="(AND interferon_alpha-_induced_gene interferon_gamma-_induced_gene)" sem="(AND DNA_family_or_group DNA_family_or_group)"><frag id="F1"><term id="A1" sem="Protein_molecule">interferon alpha</term>-</frag> and <frag id="F2"><term id="A2" sem="Protein_molecule">interferon gamma</term>-</frag> <frag id="F3"><term id="A3" sem="DNA_domain_or_region">induced <term id="A6" sem="DNA_domain_or_region">genes</term></term></frag></cons> by suppressing <term id="A9" lex="tyrosine_phosphorylation" sem="Other"><term id="A10" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> phosphorylation</term> of <term id="T3" lex="STAT1" sem="Protein_molecule">STAT1</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Gene_expression"/>
+<theme idref="A1" idref1="A3"/>
+<clue>Interleukin-10 inhibits <clueType>expression</clueType> <linkTheme>of</linkTheme> both interferon alpha- and interferon gamma- induced genes by suppressing tyrosine phosphorylation of STAT1.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Gene_expression"/>
+<theme idref="A2" idref1="A3"/>
+<clue>Interleukin-10 inhibits <clueType>expression</clueType> <linkTheme>of</linkTheme> both interferon alpha- and interferon gamma- induced genes by suppressing tyrosine phosphorylation of STAT1.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T3"/>
+<site idref="A10"/>
+<clue>Interleukin-10 inhibits expression of both interferon alpha- and interferon gamma- induced genes by suppressing tyrosine <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> STAT1.</clue>
+</event>
+<event id="E4">
+<type class="Negative_regulation"/>
+<theme idref="E3"/>
+<cause idref="T1"/>
+<clue>Interleukin-10 inhibits expression of both interferon alpha- and interferon gamma- induced genes by <clueType>suppressing</clueType> tyrosine phosphorylation of STAT1.</clue>
+</event>
+<event id="E5">
+<type class="Negative_regulation"/>
+<theme idref="E1"/>
+<cause idref="E4"/>
+<clue>Interleukin-10 <clueType>inhibits</clueType> expression of both interferon alpha- and interferon gamma- induced genes <linkCause>by</linkCause> suppressing tyrosine phosphorylation of STAT1.</clue>
+</event>
+<event id="E6">
+<type class="Negative_regulation"/>
+<theme idref="E2"/>
+<cause idref="E4"/>
+<clue>Interleukin-10 <clueType>inhibits</clueType> expression of both interferon alpha- and interferon gamma- induced genes <linkCause>by</linkCause> suppressing tyrosine phosphorylation of STAT1.</clue>
+</event>
+<event KT="Other" id="E100">
+<type class="Positive_regulation"/>
+<theme idref="A6"/>
+<cause idref="A1"/>
+<clue>Interleukin-10 inhibits expression of both interferon alpha- and interferon gamma- <clueType>induced</clueType> genes by suppressing tyrosine phosphorylation of STAT1.</clue>
+</event>
+<event KT="Other" id="E101">
+<type class="Positive_regulation"/>
+<theme idref="A6"/>
+<cause idref="A2"/>
+<clue>Interleukin-10 inhibits expression of both interferon alpha- and interferon gamma- <clueType>induced</clueType> genes by suppressing tyrosine phosphorylation of STAT1.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T4" lex="interleukin-10" sem="Protein_molecule">Interleukin-10</term> (<term id="T5" lex="IL-10" sem="Protein_molecule">IL-10</term>) helps maintain <term id="T6" lex="polarized_T-helper_cell" sem="Cell_natural">polarized T-helper cells</term> in a <term id="T7" lex="T-helper_lymphocyte_2_(Th2)_phenotype" sem="Cell_natural">T-helper lymphocyte 2 (Th2) phenotype</term>.</sentence>
+<event KT="Other" id="E7">
+<type class="Physiological_process"/>
+<theme idref="T6"/>
+<clue>Interleukin-10 (IL-10) helps maintain <clueType>polarized</clueType> T-helper cells in a T-helper lymphocyte 2 (Th2) phenotype.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<clue>Interleukin-10 (IL-10) helps <clueType>maintain</clueType> polarized T-helper cells in a T-helper lymphocyte 2 (Th2) phenotype.</clue>
+</event>
+<event KT="Fact" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="T5"/>
+<clue>Interleukin-10 (IL-10) <clueType>helps</clueType> maintain polarized T-helper cells in a T-helper lymphocyte 2 (Th2) phenotype.</clue>
+</event>
+<sentence id="S3">Part of this process involves the prevention of the development of <term id="T8" lex="Th1_cell" sem="Cell_natural">Th1 cells</term>, which are a primary source of <term id="T9" lex="interferon_gamma" sem="Protein_molecule">interferon gamma</term> (<term id="T10" lex="IFNgamma" sem="Protein_molecule">IFNgamma</term>), a potent activator of <term id="T11" lex="monocyte" sem="Cell_natural">monocytes</term> and an inhibitor of <term id="T12" lex="Th2_proliferation" sem="Other"><term id="A4" sem="Cell_natural">Th2</term> proliferation</term>.</sentence>
+<event KT="Other" id="E10">
+<type class="Cellular_physiological_process"/>
+<theme idref="T8"/>
+<clue>Part of this process involves the prevention of the <clueType>development</clueType> <linkTheme>of</linkTheme> Th1 cells, which are a primary source of interferon gamma (IFNgamma), a potent activator of monocytes and an inhibitor of Th2 proliferation.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Negative_regulation"/>
+<theme idref="E10"/>
+<clue>Part of this process involves the <clueType>prevention</clueType> <linkTheme>of</linkTheme> the development of Th1 cells, which are a primary source of interferon gamma (IFNgamma), a potent activator of monocytes and an inhibitor of Th2 proliferation.</clue>
+</event>
+<event KT="Fact" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="E11"/>
+<clue>Part of <linkTheme>this process</linkTheme> <clueType>involves</clueType> the prevention of the development of Th1 cells, which are a primary source of interferon gamma (IFNgamma), a potent activator of monocytes and an inhibitor of Th2 proliferation.</clue>
+</event>
+<event KT="Fact" id="E13">
+<type class="Gene_expression"/>
+<theme idref="T10"/>
+<clue>Part of this process involves the prevention of the development of <clueLoc>Th1 cells</clueLoc>, which are a <clueType>primary source</clueType> <linkTheme>of</linkTheme> interferon gamma (IFNgamma), a potent activator of monocytes and an inhibitor of Th2 proliferation.</clue>
+</event>
+<event KT="Fact" Manner="High" id="E14">
+<type class="Physiological_process"/>
+<theme idref="T11"/>
+<cause idref="T10"/>
+<clue>Part of this process involves the prevention of the development of Th1 cells, which are a primary source of interferon gamma (IFNgamma), a <clueManner>potent</clueManner> <clueType>activator</clueType> <linkTheme>of</linkTheme> monocytes and an inhibitor of Th2 proliferation.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Cellular_physiological_process"/>
+<theme idref="A4"/>
+<clue>Part of this process involves the prevention of the development of Th1 cells, which are a primary source of interferon gamma (IFNgamma), a potent activator of monocytes and an inhibitor of Th2 <clueType>proliferation</clueType>.</clue>
+</event>
+<event KT="Fact" id="E16">
+<type class="Negative_regulation"/>
+<theme idref="E15"/>
+<cause idref="T10"/>
+<clue>Part of this process involves the prevention of the development of Th1 cells, which are a primary source of interferon gamma (IFNgamma), a potent activator of monocytes and an <clueType>inhibitor</clueType> <linkTheme>of</linkTheme> Th2 proliferation.</clue>
+</event>
+<sentence id="S4">Because <term id="T13" lex="monocyte" sem="Cell_natural">monocytes</term> and <term id="A5" sem="Cell_natural">macrophages</term> are important mediators of <term id="T14" lex="Th1-type_response" sem="Other">Th1-type responses</term>, such as <term id="T15" lex="delayed-type_hypersensitivity" sem="Other">delayed-type hypersensitivity</term>, we sought to determine if <term id="T16" lex="IL-10" sem="Protein_molecule">IL-10</term> could directly mediate inhibition of <cons id="T17" lex="(AND IFNgamma-induced_gene_expression IFNalpha-induced_gene_expression)" sem="(AND Other Other)"><frag id="F4"><term id="A7" sem="Protein_molecule">IFNgamma</term>-</frag> and <frag id="F5">I<term id="A8" sem="Protein_molecule">FNalpha</term>-</frag><frag id="F6">induced <term id="A50" sem="Other">gene expression</term></frag></cons> in these cells.</sentence>
+<event KT="Fact" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="T14"/>
+<cause idref="T13"/>
+<clue>Because monocytes and macrophages are important <clueType>mediators</clueType> <linkTheme>of</linkTheme> Th1-type responses, such as delayed-type hypersensitivity, we sought to determine if IL-10 could directly mediate inhibition of IFNgamma- and IFNalpha-induced gene expression in these cells.</clue>
+</event>
+<event KT="Fact" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="T14"/>
+<cause idref="A5"/>
+<clue>Because monocytes and macrophages are important <clueType>mediators</clueType> <linkTheme>of</linkTheme> Th1-type responses, such as delayed-type hypersensitivity, we sought to determine if IL-10 could directly mediate inhibition of IFNgamma- and IFNalpha-induced gene expression in these cells.</clue>
+</event>
+<event KT="Fact" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="T15"/>
+<cause idref="T13"/>
+<clue>Because monocytes and macrophages are important <clueType>mediators</clueType> <linkTheme>of</linkTheme> <corefTheme>Th1-type responses</corefTheme>, such as delayed-type hypersensitivity, we sought to determine if IL-10 could directly mediate inhibition of IFNgamma- and IFNalpha-induced gene expression in these cells.</clue>
+</event>
+<event KT="Fact" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="T15"/>
+<cause idref="A5"/>
+<clue>Because monocytes and macrophages are important <clueType>mediators</clueType> <linkTheme>of</linkTheme> <corefTheme>Th1-type responses</corefTheme>, such as delayed-type hypersensitivity, we sought to determine if IL-10 could directly mediate inhibition of IFNgamma- and IFNalpha-induced gene expression in these cells.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="A50"/>
+<cause idref="A7"/>
+<clue>Because monocytes and macrophages are important mediators of Th1-type responses, such as delayed-type hypersensitivity, we sought to determine if IL-10 could directly mediate inhibition of IFNgamma- and IFNalpha-<clueType>induced</clueType> gene expression in these cells.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="A50"/>
+<cause idref="A8"/>
+<clue>Because monocytes and macrophages are important mediators of Th1-type responses, such as delayed-type hypersensitivity, we sought to determine if IL-10 could directly mediate inhibition of IFNgamma- and IFNalpha-<clueType>induced</clueType> gene expression in these cells.</clue>
+</event>
+<event KT="Investigation" id="E300" uncertainty="doubtful">
+<type class="Negative_regulation"/>
+<theme idref="E21"/>
+<cause idref="T16"/>
+<clue>Because <clueLoc>monocytes</clueLoc> and macrophages are important mediators of Th1-type responses, such as delayed-type hypersensitivity, we sought to <clueKT>determine</clueKT> if IL-10 could directly mediate <clueType>inhibition</clueType> <linkTheme>of</linkTheme> IFNgamma- and IFNalpha-induced gene expression in these cells.</clue>
+</event>
+<event KT="Investigation" id="E301" uncertainty="doubtful">
+<type class="Negative_regulation"/>
+<theme idref="E21"/>
+<cause idref="T16"/>
+<clue>Because monocytes and <clueLoc>macrophages</clueLoc> are important mediators of Th1-type responses, such as delayed-type hypersensitivity, we sought to <clueKT>determine</clueKT> if IL-10 could directly mediate <clueType>inhibition</clueType> <linkTheme>of</linkTheme> IFNgamma- and IFNalpha-induced gene expression in these cells.</clue>
+</event>
+<event KT="Investigation" id="E302" uncertainty="doubtful">
+<type class="Negative_regulation"/>
+<theme idref="E22"/>
+<cause idref="T16"/>
+<clue>Because <clueLoc>monocytes</clueLoc> and macrophages are important mediators of Th1-type responses, such as delayed-type hypersensitivity, we sought to <clueKT>determine</clueKT> if IL-10 could directly mediate <clueType>inhibition</clueType> <linkTheme>of</linkTheme> IFNgamma- and IFNalpha-induced gene expression in these cells.</clue>
+</event>
+<event KT="Investigation" id="E303" uncertainty="doubtful">
+<type class="Negative_regulation"/>
+<theme idref="E22"/>
+<cause idref="T16"/>
+<clue>Because monocytes and <clueLoc>macrophages</clueLoc> are important mediators of Th1-type responses, such as delayed-type hypersensitivity, we sought to <clueKT>determine</clueKT> if IL-10 could directly mediate <clueType>inhibition</clueType> <linkTheme>of</linkTheme> IFNgamma- and IFNalpha-induced gene expression in these cells.</clue>
+</event>
+<sentence id="S5">Highly purified <term id="T18" lex="monocyte" sem="Cell_natural">monocytes</term> were incubated with <term id="T19" lex="IL-10" sem="Protein_molecule">IL-10</term> for 60 to 90 minutes before the addition of <term id="T20" lex="IFNgamma" sem="Protein_molecule">IFNgamma</term> or <term id="T21" lex="IFNalpha" sem="Protein_molecule">IFNalpha</term>.</sentence>
+<event KT="Method" id="E27">
+<type class="Artificial_process"/>
+<theme idref="T18"/>
+<clue>Highly purified monocytes were <clueType><clueKT>incubated</clueKT></clueType> <linkTheme>with</linkTheme> IL-10 <clueTime>for 60 to 90 minutes before the addition of IFNgamma or IFNalpha.</clueTime></clue>
+</event>
+<event KT="Method" id="E28">
+<type class="Artificial_process"/>
+<theme idref="T20"/>
+<theme idref="T18"/>
+<clue>Highly purified monocytes were incubated with IL-10 for 60 to 90 minutes before the <clueType>addition</clueType> <linkTheme>of</linkTheme> IFNgamma or IFNalpha.</clue>
+</event>
+<event KT="Method" id="E29">
+<type class="Artificial_process"/>
+<theme idref="T21"/>
+<theme idref="T18"/>
+<clue>Highly purified monocytes were incubated with IL-10 for 60 to 90 minutes before the <clueType>addition</clueType> <linkTheme>of</linkTheme> IFNgamma or IFNalpha.</clue>
+</event>
+<sentence id="S6"><term id="T22" lex="IL-10" sem="Protein_molecule">IL-10</term> preincubation resulted in the inhibition of <term id="T23" lex="gene_expression" sem="Other">gene expression</term> for several <term id="T24" lex="IFN-induced_gene" sem="DNA_family_or_group"><term id="A11" sem="Protein_molecule">IFN</term>-induced <term id="A12" sem="DNA_domain_or_region">genes</term></term>, such as <term id="T25" lex="IP-10" sem="Protein_molecule">IP-10</term>, <term id="T26" lex="ISG54" sem="Protein_molecule">ISG54</term>, and <term id="T27" lex="intercellular_adhesion_molecule-1" sem="Protein_molecule">intercellular adhesion molecule-1</term>.</sentence>
+<event KT="Method" id="E30">
+<type class="Artificial_process"/>
+<theme idref="T22"/>
+<theme idref="T18"/>
+<clue>IL-10 <clueType><clueKT>preincubation</clueKT></clueType> resulted in the inhibition of gene expression for several IFN-induced genes, such as IP-10, ISG54, and intercellular adhesion molecule-1.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event KT="Other" id="E31">
+<type class="Gene_expression"/>
+<theme idref="T24"/>
+<clue>IL-10 preincubation resulted in the inhibition of gene <clueType>expression</clueType> <linkTheme>for</linkTheme> several IFN-induced genes, such as IP-10, ISG54, and intercellular adhesion molecule-1.</clue>
+</event>
+<event KT="Other" id="E32">
+<type class="Gene_expression"/>
+<theme idref="T25"/>
+<clue>IL-10 preincubation resulted in the inhibition of gene <clueType>expression</clueType> <linkTheme>for</linkTheme> several <corefTheme>IFN-induced genes</corefTheme>, such as IP-10, ISG54, and intercellular adhesion molecule-1.</clue>
+</event>
+<event KT="Other" id="E33">
+<type class="Gene_expression"/>
+<theme idref="T26"/>
+<clue>IL-10 preincubation resulted in the inhibition of gene <clueType>expression</clueType> <linkTheme>for</linkTheme> several IFN-induced genes, such as IP-10, ISG54, and intercellular adhesion molecule-1.</clue>
+</event>
+<event KT="Other" id="E34">
+<type class="Gene_expression"/>
+<theme idref="T27"/>
+<clue>IL-10 preincubation resulted in the inhibition of gene <clueType>expression</clueType> <linkTheme>for</linkTheme> several IFN-induced genes, such as IP-10, ISG54, and intercellular adhesion molecule-1.</clue>
+</event>
+<event id="E35">
+<type class="Negative_regulation"/>
+<theme idref="E31"/>
+<cause idref="E30"/>
+<clue>IL-10 preincubation resulted in the <clueType>inhibition</clueType> <linkTheme>of</linkTheme> gene expression for several IFN-induced genes, such as IP-10, ISG54, and intercellular adhesion molecule-1.</clue>
+</event>
+<event id="E36">
+<type class="Negative_regulation"/>
+<theme idref="E32"/>
+<cause idref="E30"/>
+<clue>IL-10 preincubation resulted in the <clueType>inhibition</clueType> <linkTheme>of</linkTheme> gene expression for several IFN-induced genes, such as IP-10, ISG54, and intercellular adhesion molecule-1.</clue>
+</event>
+<event id="E37">
+<type class="Negative_regulation"/>
+<theme idref="E33"/>
+<cause idref="E30"/>
+<clue>IL-10 preincubation resulted in the <clueType>inhibition</clueType> <linkTheme>of</linkTheme> gene expression for several IFN-induced genes, such as IP-10, ISG54, and intercellular adhesion molecule-1.</clue>
+</event>
+<event id="E38">
+<type class="Negative_regulation"/>
+<theme idref="E34"/>
+<cause idref="E30"/>
+<clue>IL-10 preincubation resulted in the <clueType>inhibition</clueType> <linkTheme>of</linkTheme> gene expression for several IFN-induced genes, such as IP-10, ISG54, and intercellular adhesion molecule-1.</clue>
+</event>
+<event id="E39">
+<type class="Positive_regulation"/>
+<theme idref="A12"/>
+<cause idref="A11"/>
+<clue>IL-10 preincubation resulted in the inhibition of gene expression for several IFN-<clueType>induced</clueType> genes, such as IP-10, ISG54, and intercellular adhesion molecule-1.</clue>
+</event>
+<event id="E40">
+<type class="Positive_regulation"/>
+<theme idref="T25"/>
+<cause idref="A11"/>
+<clue>IL-10 preincubation resulted in the inhibition of gene expression for several IFN-<clueType>induced</clueType> <corefTheme>genes</corefTheme>, such as IP-10, ISG54, and intercellular adhesion molecule-1.</clue>
+</event>
+<event id="E41">
+<type class="Positive_regulation"/>
+<theme idref="T26"/>
+<cause idref="A11"/>
+<clue>IL-10 preincubation resulted in the inhibition of gene expression for several IFN-<clueType>induced</clueType> <corefTheme>genes</corefTheme>, such as IP-10, ISG54, and intercellular adhesion molecule-1.</clue>
+</event>
+<event id="E42">
+<type class="Positive_regulation"/>
+<theme idref="T27"/>
+<cause idref="A11"/>
+<clue>IL-10 preincubation resulted in the inhibition of gene expression for several IFN-<clueType>induced</clueType> <corefTheme>genes</corefTheme>, such as IP-10, ISG54, and intercellular adhesion molecule-1.</clue>
+</event>
+<sentence id="S7">The reduction in <term id="T28" lex="gene_expression" sem="Other">gene expression</term> resulted from the ability of <term id="T29" lex="IL-10" sem="Protein_molecule">IL-10</term> to suppress <term id="T30" lex="IFN-induced_assembly" sem="Other"><term id="T31" lex="IFN" sem="Protein_family_or_group">IFN</term>-induced assembly</term> of <term id="T32" lex="signal_transducer_and_activator_of_transcription_(STAT)_factor" sem="Protein_family_or_group">signal transducer and activator of transcription (STAT) factors</term> to <term id="T33" lex="specific_promoter_motif" sem="DNA_family_or_group">specific promoter motifs</term> on <cons id="T34" lex="(AND IFNalpha-inducible_gene IFNgamma-inducible_gene)" sem="(AND DNA_family_or_group DNA_family_or_group)"><frag id="F7"><term id="A13" sem="Protein_molecule">IFNalpha</term>-</frag> and <frag id="F8"><term id="A14" sem="Protein_molecule">IFNgamma</term>-</frag><frag id="F9">i<term id="A15" sem="DNA_domain_or_region">nducible <term id="A16" sem="DNA_domain_or_region">genes</term></term></frag></cons>.</sentence>
+<event KT="Other" id="E44">
+<type class="Binding"/>
+<theme idref="T32"/>
+<theme idref="A13" idref1="A15"/>
+<clue>The reduction in gene expression resulted from the ability of IL-10 to suppress IFN-induced <clueType>assembly</clueType> <linkTheme>of</linkTheme> signal transducer and activator of transcription (STAT) factors <linkTheme>to</linkTheme> specific promoter motifs on IFNalpha- and IFNgamma-inducible genes.</clue>
+</event>
+<event KT="Other" id="E45">
+<type class="Binding"/>
+<theme idref="T32"/>
+<theme idref="A14" idref1="A15"/>
+<clue>The reduction in gene expression resulted from the ability of IL-10 to suppress IFN-induced <clueType>assembly</clueType> <linkTheme>of</linkTheme> signal transducer and activator of transcription (STAT) factors <linkTheme>to</linkTheme> specific promoter motifs on IFNalpha- and IFNgamma-inducible genes.</clue>
+</event>
+<event KT="Other" id="E46">
+<type class="Positive_regulation"/>
+<theme idref="E44"/>
+<cause idref="T31"/>
+<clue>The reduction in gene expression resulted from the ability of IL-10 to suppress IFN-<clueType>induced</clueType> assembly of signal transducer and activator of transcription (STAT) factors to specific promoter motifs on IFNalpha- and IFNgamma-inducible genes.</clue>
+</event>
+<event KT="Other" id="E47">
+<type class="Positive_regulation"/>
+<theme idref="E45"/>
+<cause idref="T31"/>
+<clue>The reduction in gene expression resulted from the ability of IL-10 to suppress IFN-<clueType>induced</clueType> assembly of signal transducer and activator of transcription (STAT) factors to specific promoter motifs on IFNalpha- and IFNgamma-inducible genes.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E48">
+<type class="Negative_regulation"/>
+<theme idref="E46"/>
+<cause idref="T29"/>
+<clue>The reduction in gene expression resulted from <clueKT>the <clueCL>ability</clueCL></clueKT> of IL-10 <clueKT>to</clueKT> <clueType>suppress</clueType> IFN-induced assembly of signal transducer and activator of transcription (STAT) factors to specific promoter motifs on IFNalpha- and IFNgamma-inducible genes.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E49">
+<type class="Negative_regulation"/>
+<theme idref="E47"/>
+<cause idref="T29"/>
+<clue>The reduction in gene expression resulted from <clueKT>the <clueCL>ability</clueCL></clueKT> of IL-10 <clueKT>to</clueKT> <clueType>suppress</clueType> IFN-induced assembly of signal transducer and activator of transcription (STAT) factors to specific promoter motifs on IFNalpha- and IFNgamma-inducible genes.</clue>
+</event>
+<event id="E50">
+<type class="Positive_regulation"/>
+<theme idref="E35"/>
+<cause idref="E48"/>
+<clue><corefTheme>The reduction in gene expression</corefTheme> <clueType>resulted</clueType> <linkCause>from</linkCause> the ability of IL-10 to suppress IFN-induced assembly of signal transducer and activator of transcription (STAT) factors to specific promoter motifs on IFNalpha- and IFNgamma-inducible genes.</clue>
+</event>
+<event id="E51">
+<type class="Positive_regulation"/>
+<theme idref="E36"/>
+<cause idref="E48"/>
+<clue><corefTheme>The reduction in gene expression</corefTheme> <clueType>resulted</clueType> <linkCause>from</linkCause> the ability of IL-10 to suppress IFN-induced assembly of signal transducer and activator of transcription (STAT) factors to specific promoter motifs on IFNalpha- and IFNgamma-inducible genes.</clue>
+</event>
+<event id="E52">
+<type class="Positive_regulation"/>
+<theme idref="E37"/>
+<cause idref="E48"/>
+<clue><corefTheme>The reduction in gene expression</corefTheme> <clueType>resulted</clueType> <linkCause>from</linkCause> the ability of IL-10 to suppress IFN-induced assembly of signal transducer and activator of transcription (STAT) factors to specific promoter motifs on IFNalpha- and IFNgamma-inducible genes.</clue>
+</event>
+<event id="E53">
+<type class="Positive_regulation"/>
+<theme idref="E38"/>
+<cause idref="E48"/>
+<clue><corefTheme>The reduction in gene expression</corefTheme> <clueType>resulted</clueType> <linkCause>from</linkCause> the ability of IL-10 to suppress IFN-induced assembly of signal transducer and activator of transcription (STAT) factors to specific promoter motifs on IFNalpha- and IFNgamma-inducible genes.</clue>
+</event>
+<event id="E54">
+<type class="Positive_regulation"/>
+<theme idref="E35"/>
+<cause idref="E49"/>
+<clue><corefTheme>The reduction in gene expression</corefTheme> <clueType>resulted</clueType> <linkCause>from</linkCause> the ability of IL-10 to suppress IFN-induced assembly of signal transducer and activator of transcription (STAT) factors to specific promoter motifs on IFNalpha- and IFNgamma-inducible genes.</clue>
+</event>
+<event id="E55">
+<type class="Positive_regulation"/>
+<theme idref="E36"/>
+<cause idref="E49"/>
+<clue><corefTheme>The reduction in gene expression</corefTheme> <clueType>resulted</clueType> <linkCause>from</linkCause> the ability of IL-10 to suppress IFN-induced assembly of signal transducer and activator of transcription (STAT) factors to specific promoter motifs on IFNalpha- and IFNgamma-inducible genes.</clue>
+</event>
+<event id="E56">
+<type class="Positive_regulation"/>
+<theme idref="E37"/>
+<cause idref="E49"/>
+<clue><corefTheme>The reduction in gene expression</corefTheme> <clueType>resulted</clueType> <linkCause>from</linkCause> the ability of IL-10 to suppress IFN-induced assembly of signal transducer and activator of transcription (STAT) factors to specific promoter motifs on IFNalpha- and IFNgamma-inducible genes.</clue>
+</event>
+<event id="E57">
+<type class="Positive_regulation"/>
+<theme idref="E38"/>
+<cause idref="E49"/>
+<clue><corefTheme>The reduction in gene expression</corefTheme> <clueType>resulted</clueType> <linkCause>from</linkCause> the ability of IL-10 to suppress IFN-induced assembly of signal transducer and activator of transcription (STAT) factors to specific promoter motifs on IFNalpha- and IFNgamma-inducible genes.</clue>
+</event>
+<sentence id="S8">This was accomplished by preventing the <term id="T35" lex="IFN-induced_tyrosine_phosphorylation" sem="Other"><term id="A20" sem="Protein_family_or_group">IFN</term>-induced <term id="T36" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> phosphorylation</term> of <term id="T37" lex="STAT1" sem="Protein_molecule">STAT1</term>, a component of both <cons id="T38" lex="(AND IFNalpha-induced_DNA_binding_complex IFNgamma-induced_DNA_binding_complex)" sem="(AND Protein_complex Protein_complex)"><frag id="F10"><term id="A21" sem="Protein_molecule">IFNalpha</term>-</frag> and <frag id="F11"><term id="A22" sem="Protein_molecule">IFNgamma</term>-</frag><frag id="F12">induced <term id="A23" sem="Protein_complex">DNA binding complexes</term></frag></cons>.</sentence>
+<event KT="Other" id="E58">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T37"/>
+<site idref="T36"/>
+<clue>This was accomplished by preventing the IFN-induced tyrosine <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> STAT1, a component of both IFNalpha- and IFNgamma-induced DNA binding complexes.</clue>
+</event>
+<event KT="Other" id="E59">
+<type class="Positive_regulation"/>
+<theme idref="E58"/>
+<cause idref="A20"/>
+<clue>This was accomplished by preventing the IFN-<clueType>induced</clueType> tyrosine phosphorylation of STAT1, a component of both IFNalpha- and IFNgamma-induced DNA binding complexes.</clue>
+</event>
+<event id="E60">
+<type class="Negative_regulation"/>
+<theme idref="E59"/>
+<clue>This was accomplished by <clueType>preventing</clueType> the IFN-induced tyrosine phosphorylation of STAT1, a component of both IFNalpha- and IFNgamma-induced DNA binding complexes.</clue>
+</event>
+<event id="E160">
+<type class="Positive_regulation"/>
+<theme idref="E50"/>
+<cause idref="E60"/>
+<clue><corefTheme>This</corefTheme> was <clueType>accomplished</clueType> <linkCause>by</linkCause> preventing the IFN-induced tyrosine phosphorylation of STAT1, a component of both IFNalpha- and IFNgamma-induced DNA binding complexes.</clue>
+</event>
+<event id="E161">
+<type class="Positive_regulation"/>
+<theme idref="E51"/>
+<cause idref="E60"/>
+<clue><corefTheme>This</corefTheme> was <clueType>accomplished</clueType> <linkCause>by</linkCause> preventing the IFN-induced tyrosine phosphorylation of STAT1, a component of both IFNalpha- and IFNgamma-induced DNA binding complexes.</clue>
+</event>
+<event id="E162">
+<type class="Positive_regulation"/>
+<theme idref="E52"/>
+<cause idref="E60"/>
+<clue><corefTheme>This</corefTheme> was <clueType>accomplished</clueType> <linkCause>by</linkCause> preventing the IFN-induced tyrosine phosphorylation of STAT1, a component of both IFNalpha- and IFNgamma-induced DNA binding complexes.</clue>
+</event>
+<event id="E163">
+<type class="Positive_regulation"/>
+<theme idref="E53"/>
+<cause idref="E60"/>
+<clue><corefTheme>This</corefTheme> was <clueType>accomplished</clueType> <linkCause>by</linkCause> preventing the IFN-induced tyrosine phosphorylation of STAT1, a component of both IFNalpha- and IFNgamma-induced DNA binding complexes.</clue>
+</event>
+<event id="E164">
+<type class="Positive_regulation"/>
+<theme idref="E54"/>
+<cause idref="E60"/>
+<clue><corefTheme>This</corefTheme> was <clueType>accomplished</clueType> <linkCause>by</linkCause> preventing the IFN-induced tyrosine phosphorylation of STAT1, a component of both IFNalpha- and IFNgamma-induced DNA binding complexes.</clue>
+</event>
+<event id="E165">
+<type class="Positive_regulation"/>
+<theme idref="E55"/>
+<cause idref="E60"/>
+<clue><corefTheme>This</corefTheme> was <clueType>accomplished</clueType> <linkCause>by</linkCause> preventing the IFN-induced tyrosine phosphorylation of STAT1, a component of both IFNalpha- and IFNgamma-induced DNA binding complexes.</clue>
+</event>
+<event id="E167">
+<type class="Positive_regulation"/>
+<theme idref="E56"/>
+<cause idref="E60"/>
+<clue><corefTheme>This</corefTheme> was <clueType>accomplished</clueType> <linkCause>by</linkCause> preventing the IFN-induced tyrosine phosphorylation of STAT1, a component of both IFNalpha- and IFNgamma-induced DNA binding complexes.</clue>
+</event>
+<event id="E168">
+<type class="Positive_regulation"/>
+<theme idref="E57"/>
+<cause idref="E60"/>
+<clue><corefTheme>This</corefTheme> was <clueType>accomplished</clueType> <linkCause>by</linkCause> preventing the IFN-induced tyrosine phosphorylation of STAT1, a component of both IFNalpha- and IFNgamma-induced DNA binding complexes.</clue>
+</event>
+<event KT="Other" id="E62">
+<type class="Positive_regulation"/>
+<theme idref="A23"/>
+<cause idref="A21"/>
+<clue>This was accomplished by preventing the IFN-induced tyrosine phosphorylation of STAT1, a component of both IFNalpha- and IFNgamma-<clueType>induced</clueType> DNA binding complexes.</clue>
+</event>
+<event KT="Other" id="E63">
+<type class="Positive_regulation"/>
+<theme idref="A23"/>
+<cause idref="A22"/>
+<clue>This was accomplished by preventing the IFN-induced tyrosine phosphorylation of STAT1, a component of both IFNalpha- and IFNgamma-<clueType>induced</clueType> DNA binding complexes.</clue>
+</event>
+<sentence id="S9">Therefore, <term id="T39" lex="IL-10" sem="Protein_molecule">IL-10</term> can directly inhibit <term id="T40" lex="STAT-dependent_early_response_gene_expression" sem="Other"><term id="T41" lex="STAT-dependent_early_response_gene" sem="DNA_domain_or_region"><term id="A25" sem="Protein_family_or_group">STAT</term>-dependent <term id="A24" sem="DNA_domain_or_region">early response gene</term></term> expression</term> induced by both <term id="T42" lex="IFNalpha" sem="Protein_molecule">IFNalpha</term> and <term id="T43" lex="IFNgamma" sem="Protein_molecule">IFNgamma</term> in <term id="T44" lex="monocyte" sem="Cell_natural">monocytes</term> by suppressing the <term id="A17" lex="tyrosine_phosphorylation" sem="Other"><term id="T45" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> phosphorylation</term> of <term id="T46" lex="STAT1" sem="Protein_molecule">STAT1</term>.</sentence>
+<event KT="Other" id="E64">
+<type class="Gene_expression"/>
+<theme idref="A24"/>
+<clue>Therefore, IL-10 can directly inhibit STAT-dependent early response gene <clueType>expression</clueType> induced by both IFNalpha and IFNgamma in monocytes by suppressing the tyrosine phosphorylation of STAT1.</clue>
+</event>
+<event KT="Other" id="E65">
+<type class="Positive_regulation"/>
+<theme idref="E64"/>
+<cause idref="A25"/>
+<clue>Therefore, IL-10 can directly inhibit STAT-<clueType>dependent</clueType> early response gene expression induced by both IFNalpha and IFNgamma in monocytes by suppressing the tyrosine phosphorylation of STAT1.</clue>
+</event>
+<event KT="Other" id="E66">
+<type class="Positive_regulation"/>
+<theme idref="E65"/>
+<cause idref="T42"/>
+<clue>Therefore, IL-10 can directly inhibit STAT-dependent early response gene expression <clueType>induced</clueType> <linkCause>by</linkCause> both IFNalpha and IFNgamma <clueLoc>in monocytes</clueLoc> by suppressing the tyrosine phosphorylation of STAT1.</clue>
+</event>
+<event KT="Other" id="E67">
+<type class="Positive_regulation"/>
+<theme idref="E65"/>
+<cause idref="T43"/>
+<clue>Therefore, IL-10 can directly inhibit STAT-dependent early response gene expression <clueType>induced</clueType> <linkCause>by</linkCause> both IFNalpha and IFNgamma <clueLoc>in monocytes</clueLoc> by suppressing the tyrosine phosphorylation of STAT1.</clue>
+</event>
+<event KT="Other" id="E68">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T46"/>
+<site idref="T45"/>
+<clue>Therefore, IL-10 can directly inhibit STAT-dependent early response gene expression induced by both IFNalpha and IFNgamma in monocytes by suppressing the tyrosine <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> STAT1.</clue>
+</event>
+<event KT="Other" id="E69">
+<type class="Negative_regulation"/>
+<theme idref="E68"/>
+<cause idref="T39"/>
+<clue>Therefore, IL-10 can directly inhibit STAT-dependent early response gene expression induced by both IFNalpha and IFNgamma in monocytes by <clueType>suppressing</clueType> the tyrosine phosphorylation of STAT1.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E70">
+<type class="Negative_regulation"/>
+<theme idref="E66"/>
+<cause idref="E69"/>
+<clue><clueKT>Therefore</clueKT>, IL-10 <clueCL>can</clueCL> directly <clueType>inhibit</clueType> STAT-dependent early response gene expression induced by both IFNalpha and IFNgamma in monocytes by suppressing the tyrosine phosphorylation of STAT1.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E71">
+<type class="Negative_regulation"/>
+<theme idref="E67"/>
+<cause idref="E69"/>
+<clue><clueKT>Therefore</clueKT>, IL-10 <clueCL>can</clueCL> directly <clueType>inhibit</clueType> STAT-dependent early response gene expression induced by both IFNalpha and IFNgamma in monocytes by suppressing the tyrosine phosphorylation of STAT1.</clue>
+</event>
+<sentence id="S10">This may occur through the ability of <term id="T47" lex="IL-10" sem="Protein_molecule">IL-10</term> to induce expression of the gene, suppressor of <term id="T48" lex="cytokine_signaling_3" sem="Protein_molecule">cytokine signaling 3</term> (<term id="T49" lex="SOCS3" sem="Protein_molecule">SOCS3</term>).</sentence>
+<event KT="Other" id="E72">
+<type class="Gene_expression"/>
+<theme idref="T49"/>
+<clue>This may occur through the ability of IL-10 to induce <clueType>expression</clueType> <linkTheme>of</linkTheme> the gene, suppressor of cytokine signaling 3 (SOCS3).</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E73">
+<type class="Positive_regulation"/>
+<theme idref="E72"/>
+<cause idref="T47"/>
+<clue>This may occur through the <clueKT><clueCL>ability</clueCL></clueKT> of IL-10 <clueKT>to</clueKT> <clueType>induce</clueType> expression of the gene, suppressor of cytokine signaling 3 (SOCS3).</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E74" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E70"/>
+<cause idref="E73"/>
+<clue>This <clueKT><clueCL>may</clueCL></clueKT> <clueType>occur</clueType> <linkCause>through</linkCause> the ability of IL-10 to induce expression of the gene, suppressor of cytokine signaling 3 (SOCS3).</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E75" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E71"/>
+<cause idref="E73"/>
+<clue>This <clueKT><clueCL>may</clueCL></clueKT> <clueType>occur</clueType> <linkCause>through</linkCause> the ability of IL-10 to induce expression of the gene, suppressor of cytokine signaling 3 (SOCS3).</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

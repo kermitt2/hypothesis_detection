@@ -1,0 +1,8 @@
+T17	Adverse_effect 46 55	poisoning
+T18	Adverse_effect 80 89	involving
+T22	DDI 513 524	interaction
+T23	Adverse_effect 502 508	due to
+E3	DDI:T22 has_participant:T13
+E1	Adverse_effect:T17 affects:T1 has_agent:T14
+E2	Adverse_effect:T18 affects:T2 has_agent:T3 has_agent:T4 has_agent:T5 has_agent:T6
+E4	Adverse_effect:T23 has_agent:E3 affects:T12

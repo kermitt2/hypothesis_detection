@@ -1,0 +1,8 @@
+T13	Potential_therapeutic_effect 62 69	therapy
+T14	Adverse_effect 70 79	resulting
+T19	Adverse_effect 510 516	having
+R1	Subject_Disorder Arg1:T7 Arg2:T6
+R4	Subject_Disorder Arg1:T11 Arg2:T10
+E1	Potential_therapeutic_effect:T13 affects:T6 has_agent:T1 has_subject:T7
+E2	Adverse_effect:T14 affects:T2 has_agent:T8
+E5	Adverse_effect:T19 affects:T5 has_agent:T4 has_subject:T11

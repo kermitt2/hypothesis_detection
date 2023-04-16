@@ -1,0 +1,30 @@
+T7	Adverse_effect 540 546	reduce
+T17	Potential_therapeutic_effect 940 947	receive
+T42	Potential_therapeutic_effect 1989 1999	Prevention
+T45	Adverse_effect 102 116	increased-risk
+R1	is_equivalent Arg1:T12 Arg2:T13
+R2	is_equivalent Arg1:T14 Arg2:T15
+R3	Subject_Disorder Arg1:T24 Arg2:T4
+R4	Subject_Disorder Arg1:T24 Arg2:T5
+R5	is_equivalent Arg1:T9 Arg2:T10
+R6	Subject_Disorder Arg1:T18 Arg2:T19
+R7	Subject_Disorder Arg1:T2 Arg2:T20
+R8	Subject_Disorder Arg1:T3 Arg2:T14
+R9	Subject_Disorder Arg1:T6 Arg2:T16
+R11	Subject_Disorder Arg1:T28 Arg2:T31
+R13	Subject_Disorder Arg1:T35 Arg2:T52
+R14	Subject_Disorder Arg1:T38 Arg2:T53
+R12	Subject_Disorder Arg1:T41 Arg2:T32
+E2	Combination:T11 has_participant:T9 has_participant:T12
+E6	Combination:T26 has_participant:T27 has_participant:T29
+E7	Combination:T43 has_participant:T50 has_participant:T51
+E1	Adverse_effect:T7 affects:T60 has_agent:E2 has_subject:T6 has_subject:T3
+E4	Potential_therapeutic_effect:T17 has_agent:T22 has_subject:T2 has_subject:T18
+E5	Potential_therapeutic_effect:T17 has_agent:E6 has_subject:T2 has_subject:T18
+E3	Potential_therapeutic_effect:T42 affects:T23 has_agent:E7 has_subject:T38
+E8	Adverse_effect:T45 has_cue:T46 has_agent:T1 has_subject:T24
+A2	Speculated E8
+T49	Potential_therapeutic_effect 2391 2399	decrease
+E9	Potential_therapeutic_effect:T49 has_agent:E10 affects:T39 has_cue:T54
+E10	Combination:T55 has_participant:T56 has_participant2:T59
+A1	Negated E9

@@ -1,0 +1,323 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1944294" created="18/11/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1944294</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Evaluation of the role of <term id="T1" lex="ligand" sem="DNA_domain_or_region">ligand</term> and <term id="T2" lex="thermal_activation" sem="Other">thermal activation</term> of <term id="T3" lex="specific_DNA_binding" sem="Other">specific <term id="A2" sem="DNA_domain_or_region">DNA</term> binding</term> by in vitro synthesized <term id="A3" sem="Protein_molecule">human glucocorticoid receptor</term>.</sentence>
+<event KT="Investigation" id="E3" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E4"/>
+<cause idref="T1"/>
+<clue><clueKT>Evaluation</clueKT> of the <clueType>role</clueType> <linkCause>of</linkCause> ligand and thermal activation <linkTheme>of</linkTheme> specific DNA binding by in vitro synthesized human glucocorticoid receptor.</clue>
+<comment>NER: T1 sem mod, Other_name -&gt; DNA_domain_or_region</comment></event>
+<event KT="Investigation" id="E2" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E4"/>
+<cause idref="T2"/>
+<clue><clueKT>Evaluation</clueKT> of the <clueType>role</clueType> <linkCause>of</linkCause> ligand and thermal activation <linkTheme>of</linkTheme> specific DNA binding by in vitro synthesized human glucocorticoid receptor.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Binding"/>
+<theme idref="A2"/>
+<theme idref="A3"/>
+<clue>Evaluation of the role of ligand and thermal activation of specific DNA <clueType>binding</clueType> <linkTheme>by</linkTheme> in vitro synthesized human glucocorticoid receptor.</clue>
+<comment>NER: T4 del &quot;in vitro synthesized human glucocorticoid receptor&quot;</comment></event>
+<event id="E51">
+<type class="Gene_expression"/>
+<theme idref="A3"/>
+<clue>Evaluation of the role of ligand and thermal activation of specific DNA binding by in vitro <clueType>synthesized</clueType> human glucocorticoid receptor.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">We have used a <term id="T5" lex="DNA-binding/immunoprecipitation_assay" sem="Other">DNA-binding/immunoprecipitation assay</term> to analyze the capacity of <term id="T6" lex="human_glucocorticoid_receptor" sem="Protein_molecule">human glucocorticoid receptor</term> (<term id="T7" lex="hGR" sem="Protein_molecule">hGR</term>), generated in <term id="T8" lex="rabbit_reticulocyte_lysate" sem="Cell_component">rabbit reticulocyte lysates</term>, to bind <term id="A4" sem="DNA_domain_or_region">DNA</term>.</sentence>
+<event KT="Other" id="E5">
+<type class="Gene_expression"/>
+<theme idref="T7"/>
+<clue>We have used a DNA-binding/immunoprecipitation assay to analyze the capacity of human glucocorticoid receptor (hGR), <clueType>generated</clueType> <clueLoc>in rabbit reticulocyte lysates</clueLoc>, to bind DNA.</clue>
+</event>
+<event KT="Investigation" id="E6" uncertainty="doubtful">
+<type class="Binding"/>
+<theme idref="T7"/>
+<theme idref="A4"/>
+<clue>We have used a <clueExperiment>DNA-binding/immunoprecipitation assay</clueExperiment> <clueKT>to analyze</clueKT> the capacity of human glucocorticoid receptor (hGR), generated in rabbit reticulocyte lysates, to <clueType>bind</clueType> DNA.</clue>
+</event>
+<sentence id="S3"><term id="T9" lex="in_vitro_translated_hG" sem="Protein_molecule">In vitro translated <term id="A6" sem="Protein_molecule">hGR</term></term> was indistinguishable from <term id="T10" lex="native_hGR" sem="Protein_family_or_group">native hGR</term>, as determined by <term id="A24" sem="Other">migration on sodium dodecyl sulfate-polyacrylamide gels</term>, <term id="T12" lex="sedimentation" sem="Other">sedimentation</term> on <term id="T13" lex="sucrose_density_gradient" sem="Other">sucrose density gradients</term>, and reactivity with <term id="A5" sem="Protein_family_or_group"><term id="T14" lex="antipeptide_antibody" sem="Protein_family_or_group">antipeptide antibodies</term> generated against <term id="T15" lex="hGR" sem="Protein_molecule">hGR</term></term>.</sentence>
+<event id="E7" uncertainty="doubtful">
+<type class="Binding"/>
+<theme idref="T9"/>
+<theme idref="A5"/>
+<clue>In vitro translated hGR was indistinguishable from native hGR, as determined by migration on sodium dodecyl sulfate-polyacrylamide gels, sedimentation on sucrose density gradients, and <clueType>reactivity</clueType> <linkTheme>with</linkTheme> antipeptide antibodies generated against hGR.</clue>
+<comment>TPS: A5; NER: T1 del &quot;sodium dodecyl sulfate-polyacrylamide gels&quot;</comment></event>
+<event id="E8" uncertainty="doubtful">
+<type class="Binding"/>
+<theme idref="T10"/>
+<theme idref="T9"/>
+<clue>In vitro translated hGR was indistinguishable from native hGR, as determined by migration on sodium dodecyl sulfate-polyacrylamide gels, sedimentation on sucrose density gradients, and <clueType>reactivity</clueType> <linkTheme>with</linkTheme> antipeptide antibodies generated against hGR.</clue>
+<comment>TPS: A5</comment></event>
+<event KT="Other" id="E9">
+<type class="Translation"/>
+<theme idref="A6"/>
+<clue>In vitro <clueType>translated</clueType> hGR was indistinguishable from native hGR, as determined by migration on sodium dodecyl sulfate-polyacrylamide gels, sedimentation on sucrose density gradients, and reactivity with antipeptide antibodies generated against hGR.</clue>
+</event>
+<sentence id="S4">In addition, <term id="T16" lex="cell-free_synthesized_hGR" sem="Protein_molecule">cell-free synthesized hGR</term> was capable of specific binding to <term id="T17" lex="glucocorticoid_response_element_(GRE)-containing_DNA_fragment" sem="DNA_molecule"><term id="T18" lex="glucocorticoid_response_element" sem="DNA_domain_or_region">glucocorticoid response element</term> (<term id="T19" lex="GRE" sem="DNA_domain_or_region">GRE</term>)-containing DNA fragments</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E10">
+<type class="Binding"/>
+<theme idref="T16"/>
+<theme idref="T17"/>
+<clue>In addition, cell-free synthesized hGR was <clueKT><clueCL>capable of</clueCL></clueKT> specific <clueType>binding</clueType> <linkTheme>to</linkTheme> glucocorticoid response element (GRE)-containing DNA fragments.</clue>
+</event>
+<sentence id="S5">Using this <term id="T20" lex="assay_system" sem="Other">assay system</term>, we have evaluated the contributions of <term id="A7" sem="Protein_domain_or_region">ligand</term> binding and <term id="A9" sem="Other">heat activation</term> to <term id="T21" lex="DNA_binding" sem="Other"><term id="A8" sem="DNA_domain_or_region">DNA</term> binding</term> by these <term id="T22" lex="glucocorticoid_receptor" sem="Protein_family_or_group">glucocorticoid receptors</term>.</sentence>
+<event KT="Investigation" id="E11" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="E13"/>
+<clue>Using <clueExperiment>this assay system</clueExperiment>, we have <clueKT>evaluated</clueKT> the <clueType>contributions</clueType> <linkCause>of</linkCause> ligand binding and heat activation <linkTheme>to</linkTheme> DNA binding by these glucocorticoid receptors.</clue>
+</event>
+<event KT="Investigation" id="E12" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="A9"/>
+<clue>Using <clueExperiment>this assay system</clueExperiment>, we have <clueKT>evaluated</clueKT> the <clueType>contributions</clueType> <linkCause>of</linkCause> ligand binding and heat activation <linkTheme>to</linkTheme> DNA binding by these glucocorticoid receptors.</clue>
+</event>
+<event id="E13">
+<type class="Binding"/>
+<theme idref="A7"/>
+<clue>Using this assay system, we have evaluated the contributions of ligand <clueType>binding</clueType> and heat activation to DNA binding by these glucocorticoid receptors.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Binding"/>
+<theme idref="A8"/>
+<theme idref="T22"/>
+<clue>Using this assay system, we have evaluated the contributions of ligand binding and heat activation to DNA <clueType>binding</clueType> <linkTheme>by</linkTheme> these glucocorticoid receptors.</clue>
+</event>
+<sentence id="S6"><term id="T23" lex="in_vitro_translated_hG" sem="Protein_molecule">In vitro translated hGR</term> was capable of selective <term id="A10" sem="DNA_domain_or_region">DNA</term> binding even in the absence of <term id="T24" lex="glucocorticoid" sem="Lipid">glucocorticoid</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E15">
+<type class="Binding"/>
+<theme idref="T23"/>
+<theme idref="A10"/>
+<clue>In vitro translated hGR was <clueKT><clueCL>capable of</clueCL></clueKT> selective DNA <clueType>binding</clueType> even in the absence of glucocorticoid.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E16">
+<type class="Regulation"/>
+<theme idref="E15"/>
+<cause idref="T24"/>
+<clue>In vitro translated hGR was capable of selective DNA binding even <linkCause>in the <cluePolarity>absence</cluePolarity> of</linkCause> glucocorticoid.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S7">Treatment with <term id="T25" lex="dexamethasone" sem="Lipid">dexamethasone</term> or the <term id="T26" lex="antiglucocorticoid_RU486" sem="Organic_compound_other">antiglucocorticoid <term id="A1" sem="Organic_compound_other">RU486</term></term> had no additional effect on the <term id="T27" lex="DNA-binding_capacity" sem="Other"><term id="A12" sem="DNA_domain_or_region">DNA</term>-binding capacity</term> when <term id="T28" lex="receptor_preparation" sem="Protein_family_or_group">receptor preparations</term> were maintained at 0 C (no <term id="A11" sem="Other">activation</term>).</sentence>
+<event CL="L2" KT="Analysis" id="E17">
+<type class="Binding"/>
+<theme idref="T23"/>
+<theme idref="A12"/>
+<clue>Treatment with dexamethasone or the antiglucocorticoid RU486 had no additional effect on the DNA-<clueType>binding</clueType> <clueKT><clueCL>capacity</clueCL></clueKT> when receptor preparations were maintained at 0 C (no activation).</clue>
+<comment>NO COREFTHEME for T23</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E18">
+<type class="Regulation"/>
+<theme idref="E17"/>
+<cause idref="A11"/>
+<clue>Treatment with dexamethasone or the antiglucocorticoid RU486 had no additional effect on the DNA-binding capacity <linkCause>when</linkCause> receptor preparations were maintained at 0 C (<clueType><cluePolarity>no</cluePolarity></clueType> activation).</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E19">
+<type class="Regulation"/>
+<theme idref="E18"/>
+<cause idref="T25"/>
+<clue>Treatment with dexamethasone or the antiglucocorticoid RU486 had <clueType><cluePolarity>no</cluePolarity> additional effect</clueType> <linkTheme>on</linkTheme> the DNA-binding capacity when receptor preparations were maintained at 0 C (no activation).</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E20">
+<type class="Regulation"/>
+<theme idref="E18"/>
+<cause idref="A1"/>
+<clue>Treatment with dexamethasone or the antiglucocorticoid RU486 had <clueType><cluePolarity>no</cluePolarity> additional effect</clueType> <linkTheme>on</linkTheme> the DNA-binding capacity when receptor preparations were maintained at 0 C (no activation).</clue>
+</event>
+<sentence id="S8">In contrast, addition of either <term id="A15" sem="Protein_molecule">ligand</term> or <term id="A16" sem="Organic_compound_other">antagonist</term> in combination with a <term id="A13" sem="Other">heat activation</term> step promoted <term id="T29" lex="DNA_binding" sem="Other"><term id="A14" sem="DNA_domain_or_region">DNA</term> binding</term> by approximately 3-fold over that of heat-activated <term id="T30" lex="unliganded_receptor" sem="Protein_family_or_group">unliganded receptors</term>.</sentence>
+<event Manner="High" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E23"/>
+<cause idref="A15"/>
+<cause idref="A13"/>
+<clue>In contrast, addition of either ligand or antagonist <linkCause>in combination with</linkCause> a heat activation step <clueType>promoted</clueType> DNA binding by approximately <clueManner>3-fold</clueManner> over that of heat-activated unliganded receptors.</clue>
+</event>
+<event Manner="High" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E23"/>
+<theme idref="A16"/>
+<theme idref="A13"/>
+<clue>In contrast, addition of either ligand or antagonist <linkCause>in combination with</linkCause> a heat activation step <clueType>promoted</clueType> DNA binding by approximately <clueManner>3-fold</clueManner> over that of heat-activated unliganded receptors.</clue>
+</event>
+<event id="E23">
+<type class="Binding"/>
+<theme idref="A14"/>
+<theme idref="T23"/>
+<clue>In contrast, addition of either ligand or antagonist in combination with a heat activation step promoted DNA <clueType>binding</clueType> by approximately 3-fold over that of heat-activated unliganded receptors.</clue>
+<comment>NO COREFTHEME for T23</comment></event>
+<event id="E24">
+<type class="Binding"/>
+<theme idref="A14"/>
+<theme idref="T30"/>
+<clue>In contrast, addition of either ligand or antagonist in combination with a heat activation step promoted DNA <clueType>binding</clueType> by approximately 3-fold over that <linkTheme>of</linkTheme> heat-activated unliganded receptors.</clue>
+<comment>CAUTION: SEE</comment></event>
+<event id="E25">
+<type class="Positive_regulation"/>
+<theme idref="T30"/>
+<clue>In contrast, addition of either ligand or antagonist in combination with a heat activation step promoted DNA binding by approximately 3-fold over that of <clueType>heat-activated</clueType> unliganded receptors.</clue>
+</event>
+<sentence id="S9">Agonist (<term id="T31" lex="dexamethasone" sem="Lipid">dexamethasone</term>) was slightly more effective in supporting <term id="T32" lex="specific_DNA_binding" sem="Other">specific DNA binding</term> than antagonist (<term id="T33" lex="RU486" sem="Organic_compound_other">RU486</term>).</sentence>
+<event id="E26">
+<type class="Positive_regulation"/>
+<theme idref="T32"/>
+<cause idref="T31"/>
+<clue>Agonist (dexamethasone) was slightly more <clueType>effective in supporting</clueType> specific DNA binding than antagonist (RU486).</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation"/>
+<theme idref="T32"/>
+<cause idref="T33"/>
+<clue>Agonist (dexamethasone) was slightly more <clueType>effective in supporting</clueType> specific DNA binding than antagonist (RU486).</clue>
+</event>
+<sentence id="S10"><term id="A17" sem="DNA_domain_or_region">DNA</term> binding by <term id="T34" lex="in_vitro_synthesized_GR" sem="Protein_family_or_group">in vitro synthesized GR</term> was blocked by the addition of <term id="A18" sem="Inorganic_compound">sodium molybdate</term> to the <term id="T35" lex="receptor_preparation" sem="Protein_family_or_group">receptor preparations</term> before <term id="T36" lex="steroid_addition" sem="Other">steroid addition</term> and <term id="T37" lex="thermal_activation" sem="Other">thermal activation</term>.</sentence>
+<event KT="Other" id="E28">
+<type class="Binding"/>
+<theme idref="A17"/>
+<theme idref="T34"/>
+<clue>DNA <clueType>binding</clueType> <linkTheme>by</linkTheme> in vitro synthesized GR was blocked by the addition of sodium molybdate to the receptor preparations before steroid addition and thermal activation.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation"/>
+<theme idref="E28"/>
+<cause idref="A18"/>
+<cause idref="T36"/>
+<clue>DNA binding by in vitro synthesized GR was <clueType>blocked</clueType> <linkCause>by</linkCause> the addition of sodium molybdate to the receptor preparations <linkCause>before</linkCause> steroid addition and thermal activation.</clue>
+</event>
+<event id="E30">
+<type class="Negative_regulation"/>
+<theme idref="E28"/>
+<cause idref="A18"/>
+<cause idref="T37"/>
+<clue>DNA binding by in vitro synthesized GR was <clueType>blocked</clueType> <linkCause>by</linkCause> the addition of sodium molybdate to the receptor preparations <linkCause>before</linkCause> steroid addition and thermal activation.</clue>
+</event>
+<sentence id="S11">Addition of <term id="T38" lex="KCl" sem="Inorganic_compound">KCl</term> resulted in less <term id="T39" lex="DNA_binding" sem="Other">DNA binding</term> either due to blockage of <term id="T40" lex="DNA-receptor_complex_formation" sem="Other"><term id="A19" sem="DNA_domain_or_region">DNA</term>-<term id="T41" lex="receptor_complex" sem="Protein_complex"><term id="A20" sem="Protein_molecule">receptor</term> complex</term> formation</term> or disruption of the complexes.</sentence>
+<event id="E31">
+<type class="Negative_regulation"/>
+<theme idref="E28"/>
+<cause idref="T38"/>
+<clue>Addition of KCl <clueType>resulted in less</clueType> <corefTheme>DNA binding</corefTheme> either due to blockage of DNA-receptor complex formation or disruption of the complexes.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation"/>
+<theme idref="E31"/>
+<cause idref="E34"/>
+<clue>Addition of KCl resulted in less DNA binding either <linkCause>due to</linkCause> blockage of DNA-receptor complex formation or disruption of the complexes.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E31"/>
+<cause idref="E36"/>
+<clue>Addition of KCl resulted in less DNA binding either <linkCause>due to</linkCause> blockage of DNA-receptor complex formation or disruption of the complexes.</clue>
+</event>
+<event id="E34">
+<type class="Negative_regulation"/>
+<theme idref="E35"/>
+<clue>Addition of KCl resulted in less DNA binding either due to <clueType>blockage</clueType> <linkTheme>of</linkTheme> DNA-receptor complex formation or disruption of the complexes.</clue>
+</event>
+<event KT="Other" id="E35">
+<type class="Binding"/>
+<theme idref="A19"/>
+<theme idref="A20"/>
+<clue>Addition of KCl resulted in less DNA binding either due to blockage of DNA-receptor <clueType>complex formation</clueType> or disruption of the complexes.</clue>
+</event>
+<event id="E36">
+<type class="Negative_regulation"/>
+<theme idref="T41"/>
+<clue>Addition of KCl resulted in less DNA binding either due to blockage of DNA-receptor complex formation or <clueType>disruption</clueType> <linkTheme>of</linkTheme> <corefTheme>the complexes</corefTheme>.</clue>
+</event>
+<sentence id="S12">The specificity of <term id="T42" lex="DNA_binding" sem="Other"><term id="A21" sem="DNA_domain_or_region">DNA</term> binding</term> by <term id="T43" lex="cell-free_synthesized_hGR" sem="Protein_family_or_group">cell-free synthesized hGR</term> was analyzed further by examining the abilities of <term id="T44" lex="various_DNA" sem="DNA_family_or_group">various DNAs</term> to compete for binding to a naturally occurring <term id="A30" sem="DNA_domain_or_region"><term id="T45" lex="GRE" sem="DNA_domain_or_region">GRE</term> found in the <term id="T46" lex="mouse_mammary_tumor_virus-long_terminal_repeat" sem="DNA_domain_or_region">mouse mammary tumor virus-long terminal repeat</term></term>.</sentence>
+<event id="E37" uncertainty="doubtful">
+<type class="Binding"/>
+<theme idref="A21"/>
+<theme idref="T43"/>
+<clue>The specificity of DNA <clueType>binding</clueType> <linkTheme>by</linkTheme> cell-free synthesized hGR was analyzed further by examining the abilities of various DNAs to compete for binding to a naturally occurring GRE found in the mouse mammary tumor virus-long terminal repeat.</clue>
+</event>
+<event KT="Other" id="E38">
+<type class="Binding"/>
+<theme idref="A30"/>
+<clue>The specificity of DNA binding by cell-free synthesized hGR was analyzed further by examining the abilities of various DNAs to compete for <clueType>binding</clueType> <linkTheme>to</linkTheme> a naturally occurring GRE found in the mouse mammary tumor virus-long terminal repeat.</clue>
+<comment>TPS: A30, OK</comment></event>
+<event CL="L2" KT="Analysis" id="E1" uncertainty="doubtful">
+<type class="Negative_regulation"/>
+<theme idref="E38"/>
+<cause idref="T44"/>
+<clue>The specificity of DNA binding by cell-free synthesized hGR was analyzed further by examining the <clueKT><clueCL>abilities of</clueCL></clueKT> various DNAs to <clueType>compete</clueType> <linkTheme>for</linkTheme> binding to a naturally occurring GRE found in the mouse mammary tumor virus-long terminal repeat.</clue>
+</event>
+<sentence id="S13"><term id="A22" sem="Polynucleotide">Oligonucleotides containing the <term id="T47" lex="consensus_GRE" sem="DNA_domain_or_region">consensus <term id="T48" lex="GRE" sem="DNA_domain_or_region">GRE</term></term></term> were the most efficient competitors, and fragments containing <term id="A23" sem="DNA_domain_or_region"><term id="T49" lex="regulatory_sequence" sem="DNA_domain_or_region">regulatory sequences</term> from <term id="T50" lex="glucocorticoid-repressible_gene" sem="DNA_family_or_group"><term id="T51" lex="glucocorticoid" sem="Lipid">glucocorticoid</term>-repressible <term id="A27" sem="DNA_domain_or_region">genes</term></term></term> were somewhat competitive, whereas <term id="A25" sem="Polynucleotide">single stranded <term id="T52" lex="oligonucleotide" sem="Polynucleotide">oligonucleotides</term></term> were unable to compete for <term id="T53" lex="mouse_mammary_tumor_virus-long_terminal_repeat" sem="DNA_domain_or_region">mouse mammary tumor virus-long terminal repeat</term> <term id="T54" lex="DNA_binding" sem="Other"><term id="A26" sem="DNA_domain_or_region">DNA</term> binding</term>, except when competitor was present at extremely high concentrations.</sentence>
+<event KT="Other" id="E39">
+<type class="Binding"/>
+<theme idref="T53"/>
+<theme idref="A26"/>
+<clue>Oligonucleotides containing the consensus GRE were the most efficient competitors, and fragments containing regulatory sequences from glucocorticoid-repressible genes were somewhat competitive, whereas single stranded oligonucleotides were unable to compete for mouse mammary tumor virus-long terminal repeat DNA <clueType>binding</clueType>, except when competitor was present at extremely high concentrations.</clue>
+</event>
+<event Manner="High" id="E40">
+<type class="Negative_regulation"/>
+<theme idref="A22"/>
+<cause idref="E39"/>
+<clue>Oligonucleotides containing the consensus GRE were <clueManner>the most</clueManner> <clueType>efficient competitors</clueType>, and fragments containing regulatory sequences from glucocorticoid-repressible genes were somewhat competitive, whereas single stranded oligonucleotides were unable to compete <linkTheme>for</linkTheme> mouse mammary tumor virus-long terminal repeat DNA binding, except when competitor was present at extremely high concentrations.</clue>
+<comment>TPS: A22</comment></event>
+<event Manner="Low" id="E41">
+<type class="Negative_regulation"/>
+<theme idref="A23"/>
+<cause idref="E39"/>
+<clue>Oligonucleotides containing the consensus GRE were the most efficient competitors, and fragments containing regulatory sequences from glucocorticoid-repressible genes were <clueManner>somewhat</clueManner> <clueType>competitive</clueType>, whereas single stranded oligonucleotides were unable to compete <linkTheme>for</linkTheme> mouse mammary tumor virus-long terminal repeat DNA binding, except when competitor was present at extremely high concentrations.</clue>
+<comment>TPS: A23</comment></event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E42">
+<type class="Negative_regulation"/>
+<theme idref="A25"/>
+<cause idref="E39"/>
+<clue>Oligonucleotides containing the consensus GRE were the most efficient competitors, and fragments containing regulatory sequences from glucocorticoid-repressible genes were somewhat competitive, whereas single stranded oligonucleotides were <clueKT><clueCL><cluePolarity>unable</cluePolarity> to</clueCL></clueKT> <clueType>compete</clueType> <linkTheme>for</linkTheme> mouse mammary tumor virus-long terminal repeat DNA binding, except when competitor was present at extremely high concentrations.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E43">
+<type class="Negative_regulation"/>
+<theme idref="A27"/>
+<cause idref="T51"/>
+<clue>Oligonucleotides containing the consensus GRE were the most efficient competitors, and fragments containing regulatory sequences from glucocorticoid-<clueType><cluePolarity>repressible</cluePolarity></clueType> genes were somewhat competitive, whereas single stranded oligonucleotides were unable to compete for mouse mammary tumor virus-long terminal repeat DNA binding, except when competitor was present at extremely high concentrations.</clue>
+</event>
+<sentence id="S14">Together these studies indicate that <term id="T55" lex="hGR" sem="Protein_family_or_group">hGR</term> synthesized in rabbit reticulocyte lysates displays many of the same properties, including <term id="T56" lex="GRE" sem="DNA_domain_or_region">GRE</term>-specific <term id="T58" lex="DNA_binding" sem="Other"><term id="A28" sem="DNA_domain_or_region">DNA</term> binding</term>, observed for <term id="T59" lex="glucocorticoid_receptor" sem="Protein_family_or_group">glucocorticoid receptor</term> present in <term id="T60" lex="cytosolic_extract" sem="Cell_component">cytosolic extracts</term> of <term id="T61" lex="mammalian_cell" sem="Cell_natural">mammalian cells</term> and <term id="T62" lex="mammalian_tissues" sem="Tissue_natural">tissues</term>.</sentence>
+<event KT="Other" id="E44">
+<type class="Gene_expression"/>
+<theme idref="T55"/>
+<clue>Together these studies indicate that hGR <clueType>synthesized</clueType> <clueLoc>in rabbit reticulocyte lysates</clueLoc> displays many of the same properties, including GRE-specific DNA binding, observed for glucocorticoid receptor present in cytosolic extracts of mammalian cells and tissues.</clue>
+</event>
+<event KT="Analysis" id="E45">
+<type class="Binding"/>
+<theme idref="T55"/>
+<theme idref="A28"/>
+<clue>Together these studies indicate that hGR synthesized <clueLoc>in rabbit reticulocyte lysates</clueLoc> <clueKT>displays</clueKT> many of the same properties, including GRE-specific DNA <clueType>binding</clueType>, observed for glucocorticoid receptor present in cytosolic extracts of mammalian cells and tissues.</clue>
+<comment>NER: T57 del &quot;GRE-specific DNA binding&quot;</comment></event>
+<event id="E46">
+<type class="Binding"/>
+<theme idref="T59"/>
+<theme idref="A28"/>
+<clue>Together these studies indicate that hGR synthesized in rabbit reticulocyte lysates displays many of the same properties, including GRE-specific DNA <clueType>binding</clueType>, <clueKT>observed</clueKT> <linkTheme>for</linkTheme> glucocorticoid receptor present <clueLoc>in cytosolic extracts of mammalian cells</clueLoc> and tissues.</clue>
+</event>
+<event id="E50">
+<type class="Binding"/>
+<theme idref="T59"/>
+<theme idref="A28"/>
+<clue>Together these studies indicate that hGR synthesized in rabbit reticulocyte lysates displays many of the same properties, including GRE-specific DNA <clueType>binding</clueType>, <clueKT>observed</clueKT> <linkTheme>for</linkTheme> glucocorticoid receptor present <clueLoc>in cytosolic extracts of mammalian</clueLoc> cells and <clueLoc>tissues</clueLoc>.</clue>
+</event>
+<sentence id="S15">Similarities between the effects of <term id="T63" lex="dexamethasone" sem="Lipid">dexamethasone</term> and <term id="T64" lex="RU486" sem="Organic_compound_other">RU486</term> suggest that the <term id="T65" lex="antiglucocorticoid_property" sem="Other">antiglucocorticoid properties</term> of <term id="T66" lex="RU486" sem="Organic_compound_other">RU486</term> do not occur at the level of specific <term id="T68" lex="DNA_binding" sem="Other">DNA binding</term>.</sentence>
+<event id="E47">
+<type class="Regulation"/>
+<cause idref="T63"/>
+<clue>Similarities between the <clueType>effects</clueType> <linkCause>of</linkCause> dexamethasone and RU486 suggest that the antiglucocorticoid properties of RU486 do not occur at the level of specific DNA binding.</clue>
+<comment>NO THEME</comment></event>
+<event id="E48">
+<type class="Regulation"/>
+<cause idref="T64"/>
+<clue>Similarities between the <clueType>effects</clueType> <linkCause>of</linkCause> dexamethasone and RU486 suggest that the antiglucocorticoid properties of RU486 do not occur at the level of specific DNA binding.</clue>
+<comment>NO THEME</comment></event>
+<event CL="L2" KT="Analysis" Polarity="Negative" id="E49">
+<type class="Negative_regulation"/>
+<theme idref="T68"/>
+<cause idref="T64"/>
+<clue>Similarities between the effects of dexamethasone and RU486 <clueKT><clueCL>suggest</clueCL></clueKT> that the <clueType>antiglucocorticoid properties</clueType> <linkCause>of</linkCause> RU486 do <cluePolarity>not</cluePolarity> occur <linkTheme>at the level of</linkTheme> specific DNA binding.</clue>
+<comment>NER: T67 del &quot;specific DNA binding&quot;</comment></event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

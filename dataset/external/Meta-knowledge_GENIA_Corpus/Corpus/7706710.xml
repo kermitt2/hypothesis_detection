@@ -1,0 +1,333 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7706710" created="06/12/25" creator="Yumiko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7706710</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Functional characterization of novel <term id="T1" lex="IL-2_transcriptional_inhibitor" sem="Organic_compound_other"><term id="T2" lex="IL-2" sem="Protein_molecule">IL-2</term> transcriptional inhibitors</term>.</sentence>
+<event KT="Investigation" id="E1">
+<type class="Negative_regulation"/>
+<theme idref="T2"/>
+<clue>Functional characterization of novel IL-2 <clueType>transcriptional inhibitors</clueType>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T3" lex="IL-2-mediated_T_cell_proliferation" sem="Other"><term id="T4" lex="IL-2" sem="Protein_molecule">IL-2</term>-mediated <term id="T5" lex="T_cell" sem="Cell_natural">T cell</term> proliferation</term> is a critical early event in the <term id="T6" lex="inflammatory_process" sem="Other">inflammatory process</term>.</sentence>
+<event KT="Other" id="E2">
+<type class="Cellular_physiological_process"/>
+<theme idref="T5"/>
+<clue>IL-2-mediated T cell <clueType>proliferation</clueType> is a critical early event in the inflammatory process.</clue>
+</event>
+<event KT="Fact" id="E200">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="T4"/>
+<clue>IL-2-<linkCause>mediated</linkCause> T cell proliferation is a critical early event in the inflammatory process.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S3">Formation of the <term id="T7" lex="NFAT-1_transcriptional_complex" sem="Protein_complex"><term id="A1" sem="Protein_family_or_group">NFAT-1</term> transcriptional complex</term> on the <term id="T9" lex="IL-2_promoter" sem="DNA_domain_or_region"><term id="T10" lex="IL-2" sem="Protein_molecule">IL-2</term> promoter</term> is essential for <term id="T11" lex="IL-2_transcription" sem="Other"><term id="T12" lex="IL-2" sem="Protein_molecule">IL-2</term> transcription</term>.</sentence>
+<event KT="Other" id="E41">
+<type class="Binding"/>
+<theme idref="A1"/>
+<theme idref="T9"/>
+<clue><clueType>Formation</clueType> <linkTheme>of</linkTheme> the NFAT-1 transcriptional <clueType>complex</clueType> <linkTheme>on</linkTheme> the IL-2 promoter is essential for IL-2 transcription.</clue>
+<comment>NER: T8 del &quot;NFAT&quot;</comment></event>
+<event KT="Other" id="E4">
+<type class="Transcription"/>
+<theme idref="T12"/>
+<clue>Formation of the NFAT-1 transcriptional complex on the IL-2 promoter is essential for IL-2 <clueType>transcription</clueType>.</clue>
+</event>
+<event KT="Fact" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="E41"/>
+<clue>Formation of the NFAT-1 transcriptional complex on the IL-2 promoter is <clueType>essential</clueType> <linkTheme>for</linkTheme> IL-2 transcription.</clue>
+</event>
+<sentence id="S4">Using a cell line that is stably transfected with a <term id="A100" sem="DNA_substructure">trimer of the <term id="T13" lex="NFAT-1_regulatory_element" sem="DNA_domain_or_region"><term id="T14" lex="NFAT" sem="Protein_family_or_group">NFAT</term>-1 regulatory element</term> linked to a <term id="T15" lex="lac-Z_reporter_gene" sem="DNA_domain_or_region">lac-Z reporter gene</term></term>, we screened for inhibitors of <term id="T16" lex="NFAT-1-mediated_beta-galactosidase_activity" sem="Other"><term id="A2" sem="Protein_family_or_group">NFAT-1</term>-mediated <term id="T18" lex="beta-galactosidase" sem="Protein_molecule">beta-galactosidase</term> activity</term>.</sentence>
+<event KT="Method" id="E38">
+<type class="Artificial_process"/>
+<theme idref="A100"/>
+<clue>Using a cell line that is stably <clueType>transfected</clueType> <linkTheme>with</linkTheme> a trimer of the NFAT-1 regulatory element linked to a lac-Z reporter gene, we screened for inhibitors of NFAT-1-mediated beta-galactosidase activity.</clue>
+<comment>TPS A100</comment></event>
+<event id="E6">
+<type class="Gene_expression"/>
+<theme idref="A100"/>
+<clue>Using a <clueLoc>cell line</clueLoc> that is stably <clueType>transfected</clueType> <linkTheme>with</linkTheme> a trimer of the NFAT-1 regulatory element linked to a lac-Z reporter gene, we screened for inhibitors of NFAT-1-mediated beta-galactosidase activity.</clue>
+</event>
+<event id="E600">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="E38"/>
+<clue>Using a <clueLoc>cell line</clueLoc> that is stably <clueType>transfected</clueType> <linkTheme>with</linkTheme> a trimer of the NFAT-1 regulatory element linked to a lac-Z reporter gene, we screened for inhibitors of NFAT-1-mediated beta-galactosidase activity.</clue>
+</event>
+<event KT="Investigation" id="E601" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<clue><clueExperiment>Using a cell line that is stably transfected with a trimer of the NFAT-1 regulatory element linked to a lac-Z reporter gene</clueExperiment>, we <clueType><clueKT>screened</clueKT></clueType> <linkTheme>for</linkTheme> inhibitors of NFAT-1-mediated beta-galactosidase activity.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Negative_regulation"/>
+<theme idref="T18"/>
+<clue>Using a cell line that is stably transfected with a trimer of the NFAT-1 regulatory element linked to a lac-Z reporter gene, we screened for <clueType>inhibitors</clueType> <linkTheme>of</linkTheme> NFAT-1-mediated beta-galactosidase activity.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T18"/>
+<cause idref="A2"/>
+<clue>Using a cell line that is stably transfected with a trimer of the NFAT-1 regulatory element linked to a lac-Z reporter gene, we screened for inhibitors of NFAT-1-<clueType>mediated</clueType> beta-galactosidase activity.</clue>
+<comment>NER: T17 del &quot;NFAT&quot;</comment></event>
+<sentence id="S5"><term id="T19" lex="WIN_61058" sem="Organic_compound_other">WIN 61058</term> and <term id="T20" lex="WIN_53071" sem="Organic_compound_other">WIN 53071</term> were identified as <term id="T21" lex="microM_inhibitor" sem="Other">microM inhibitors</term>.</sentence>
+<event KT="Analysis" id="E9">
+<type class="Negative_regulation"/>
+<theme idref="T18"/>
+<cause idref="T19"/>
+<clue>WIN 61058 and WIN 53071 were <clueKT>identified</clueKT> as microM <clueType>inhibitors</clueType>.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event KT="Analysis" id="E10">
+<type class="Negative_regulation"/>
+<theme idref="T18"/>
+<cause idref="T20"/>
+<clue>WIN 61058 and WIN 53071 were <clueKT>identified</clueKT> as microM <clueType>inhibitors</clueType>.</clue>
+<comment>NO COREFTHEME</comment></event>
+<sentence id="S6">These compounds also inhibited <term id="T22" lex="beta-galactosidase_mRNA_level" sem="Other"><term id="T23" lex="beta-galactosidase_mRNA" sem="RNA_molecule"><term id="T24" lex="beta-galactosidase" sem="Protein_molecule">beta-galactosidase</term> mRNA</term> levels</term>.</sentence>
+<event KT="Other" id="E60">
+<type class="Transcription"/>
+<theme idref="T23"/>
+<clue>These compounds also inhibited beta-galactosidase mRNA <clueType>levels</clueType>.</clue>
+</event>
+<event id="E11">
+<type class="Negative_regulation"/>
+<theme idref="E60"/>
+<cause idref="T19"/>
+<clue><corefCause>These compounds</corefCause> also <clueType>inhibited</clueType> beta-galactosidase mRNA levels.</clue>
+</event>
+<event id="E12">
+<type class="Negative_regulation"/>
+<theme idref="E60"/>
+<cause idref="T20"/>
+<clue><corefCause>These compounds</corefCause> also <clueType>inhibited</clueType> beta-galactosidase mRNA levels.</clue>
+</event>
+<sentence id="S7">Similar inhibition of <term id="T26" lex="NFAT-1" sem="Protein_molecule">NFAT-1</term>-mediated <term id="A3" sem="Other">gene expression</term> was observed in a second <term id="T27" lex="cell_line" sem="Cell_cultured">cell line</term>, which is stably transfected with <term id="T28" lex="NFAT-1_regulatory_element" sem="DNA_family_or_group"><term id="T29" lex="NFAT-1" sem="Protein_family_or_group">NFAT-1</term> regulatory elements</term> linked to the <term id="T30" lex="reporter_gene_for_sCD8" sem="DNA_domain_or_region">reporter gene for sCD8</term>.</sentence>
+<event KT="Analysis" id="E37">
+<type class="Correlation"/>
+<theme idref="T28"/>
+<theme idref="T30"/>
+<clue>Similar inhibition of NFAT-1-mediated gene expression was observed in a second cell line, which is stably transfected with NFAT-1 regulatory elements <clueType><clueKT>linked</clueKT></clueType> <linkTheme>to</linkTheme> the reporter gene for sCD8.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<cause idref="T26"/>
+<clue>Similar inhibition of NFAT-1-<clueType>mediated</clueType> gene expression was observed in a second cell line, which is stably transfected with NFAT-1 regulatory elements linked to the reporter gene for sCD8.</clue>
+<comment>NER: T26, T29 mod &quot;NFAT&quot;-&gt;&quot;NFAT-1&quot;; NER: T25 del &quot;NFAT-1-mediated gene expression&quot;</comment></event>
+<event id="E14">
+<type class="Negative_regulation"/>
+<theme idref="E13"/>
+<clue>Similar <clueType>inhibition</clueType> <linkTheme>of</linkTheme> NFAT-1-mediated gene expression was <clueKT>observed</clueKT> <clueLoc>in a second cell line</clueLoc>, which is stably transfected with NFAT-1 regulatory elements linked to the reporter gene for sCD8.</clue>
+</event>
+<event id="E15">
+<type class="Gene_expression"/>
+<theme idref="T28"/>
+<clue>Similar inhibition of NFAT-1-mediated gene expression was observed <clueLoc>in a second cell line</clueLoc>, which is stably <clueType>transfected</clueType> <linkTheme>with</linkTheme> NFAT-1 regulatory elements linked to the reporter gene for sCD8.</clue>
+</event>
+<event id="E150">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<clue>Similar inhibition of NFAT-1-mediated gene expression was observed <clueLoc>in a second cell line</clueLoc>, which is stably <clueType>transfected</clueType> with NFAT-1 regulatory elements linked to the reporter gene for sCD8.</clue>
+</event>
+<event id="E151">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="E150"/>
+<clue>Similar inhibition of NFAT-1-mediated gene expression was observed <clueLoc>in a second cell line</clueLoc>, which is stably transfected with NFAT-1 regulatory elements linked to the reporter gene for sCD8.</clue>
+</event>
+<sentence id="S8">At 10 microM, both compounds inhibited <cons id="T31" lex="(AND IL-2_mRNA_level IL-2_protein_level)" sem="(AND Other Other)"><frag id="F1"><term id="A4" sem="Protein_molecule"><term id="A7" sem="RNA_molecule">IL-2</term></term></frag> <frag id="F2"><term id="A5" sem="RNA_molecule">mRNA</term></frag> and <frag id="F3"><term id="A6" sem="Protein_molecule">protein</term></frag> <frag id="F4">levels</frag></cons> in the <term id="T32" lex="NFAT-1-linked_lac-Z_transfectant" sem="Cell_cultured"><term id="T33" lex="NFAT-1" sem="Protein_family_or_group">NFAT-1</term>-linked lac-Z transfectants</term>, and in <term id="T34" lex="human_lymphocyte" sem="Cell_natural">human lymphocytes</term>.</sentence>
+<event KT="Other" id="E80">
+<type class="Transcription"/>
+<theme idref="A7" idref1="A5"/>
+<clue>At 10 microM, both compounds inhibited IL-2 mRNA and protein <clueType>levels</clueType> <clueLoc>in the NFAT-1-linked lac-Z transfectants</clueLoc>, and in human lymphocytes.</clue>
+<comment>NER: T33 mod &quot;NFAT&quot;-&gt;&quot;NFAT-1&quot;</comment></event>
+<event KT="Other" id="E800">
+<type class="Transcription"/>
+<theme idref="A7" idref1="A5"/>
+<clue>At 10 microM, both compounds inhibited IL-2 mRNA and protein <clueType>levels</clueType> in the NFAT-1-linked lac-Z transfectants, and <clueLoc>in human lymphocytes</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E81">
+<type class="Gene_expression"/>
+<theme idref="A4" idref1="A6"/>
+<clue>At 10 microM, both compounds inhibited IL-2 mRNA and protein <clueType>levels</clueType> <clueLoc>in the NFAT-1-linked lac-Z transfectants</clueLoc>, and in human lymphocytes.</clue>
+</event>
+<event KT="Other" id="E810">
+<type class="Gene_expression"/>
+<theme idref="A4" idref1="A6"/>
+<clue>At 10 microM, both compounds inhibited IL-2 mRNA and protein <clueType>levels</clueType> in the NFAT-1-linked lac-Z transfectants, and <clueLoc>in human lymphocytes</clueLoc>.</clue>
+</event>
+<event id="E16">
+<type class="Negative_regulation"/>
+<theme idref="E80"/>
+<cause idref="T19"/>
+<clue>At 10 microM, <corefCause>both compounds</corefCause> <clueType>inhibited</clueType> IL-2 mRNA and protein levels <clueLoc>in the NFAT-1-linked lac-Z transfectants</clueLoc>, and in human lymphocytes.</clue>
+</event>
+<event id="E160">
+<type class="Negative_regulation"/>
+<theme idref="E800"/>
+<cause idref="T19"/>
+<clue>At 10 microM, <corefCause>both compounds</corefCause> <clueType>inhibited</clueType> IL-2 mRNA and protein levels in the NFAT-1-linked lac-Z transfectants, and <clueLoc>in human lymphocytes</clueLoc>.</clue>
+</event>
+<event id="E17">
+<type class="Negative_regulation"/>
+<theme idref="E80"/>
+<cause idref="T20"/>
+<clue>At 10 microM, <corefCause>both compounds</corefCause> <clueType>inhibited</clueType> IL-2 mRNA and protein levels <clueLoc>in the NFAT-1-linked lac-Z transfectants</clueLoc>, and in human lymphocytes.</clue>
+</event>
+<event id="E170">
+<type class="Negative_regulation"/>
+<theme idref="E800"/>
+<cause idref="T20"/>
+<clue>At 10 microM, <corefCause>both compounds</corefCause> <clueType>inhibited</clueType> IL-2 mRNA and protein levels in the NFAT-1-linked lac-Z transfectants, and <clueLoc>in human lymphocytes</clueLoc>.</clue>
+</event>
+<event id="E18">
+<type class="Negative_regulation"/>
+<theme idref="E81"/>
+<cause idref="T19"/>
+<clue>At 10 microM, <corefCause>both compounds</corefCause> <clueType>inhibited</clueType> IL-2 mRNA and protein levels <clueLoc>in the NFAT-1-linked lac-Z transfectants</clueLoc>, and in human lymphocytes.</clue>
+</event>
+<event id="E180">
+<type class="Negative_regulation"/>
+<theme idref="E810"/>
+<cause idref="T19"/>
+<clue>At 10 microM, <corefCause>both compounds</corefCause> <clueType>inhibited</clueType> IL-2 mRNA and protein levels in the NFAT-1-linked lac-Z transfectants, and <clueLoc>in human lymphocytes</clueLoc>.</clue>
+</event>
+<event id="E19">
+<type class="Negative_regulation"/>
+<theme idref="E81"/>
+<cause idref="T20"/>
+<clue>At 10 microM, <corefCause>both compounds</corefCause> <clueType>inhibited</clueType> IL-2 mRNA and protein levels <clueLoc>in the NFAT-1-linked lac-Z transfectants</clueLoc>, and in human lymphocytes.</clue>
+</event>
+<event id="E190">
+<type class="Negative_regulation"/>
+<theme idref="E810"/>
+<cause idref="T20"/>
+<clue>At 10 microM, <corefCause>both compounds</corefCause> <clueType>inhibited</clueType> IL-2 mRNA and protein levels in the NFAT-1-linked lac-Z transfectants, and <clueLoc>in human lymphocytes</clueLoc>.</clue>
+</event>
+<sentence id="S9">Both compounds inhibited the <term id="T35" lex="mixed_lymphocyte_reaction" sem="Other">mixed lymphocyte reaction</term>, and this inhibition was reversed by exogenous <term id="T36" lex="IL-2" sem="Protein_molecule">IL-2</term>.</sentence>
+<event id="E20">
+<type class="Negative_regulation"/>
+<theme idref="T35"/>
+<cause idref="T19"/>
+<clue><corefCause>Both compounds</corefCause> <clueType>inhibited</clueType> the mixed lymphocyte reaction, and this inhibition was reversed by exogenous IL-2.</clue>
+</event>
+<event id="E21">
+<type class="Negative_regulation"/>
+<theme idref="T35"/>
+<cause idref="T20"/>
+<clue><corefCause>Both compounds</corefCause> <clueType>inhibited</clueType> the mixed lymphocyte reaction, and this inhibition was reversed by exogenous IL-2.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation"/>
+<theme idref="E20"/>
+<cause idref="T36"/>
+<clue>Both compounds inhibited the mixed lymphocyte reaction, and <corefTheme>this inhibition</corefTheme> was <clueType>reversed</clueType> <linkCause>by</linkCause> exogenous IL-2.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation"/>
+<theme idref="E21"/>
+<cause idref="T36"/>
+<clue>Both compounds inhibited the mixed lymphocyte reaction, and <corefTheme>this inhibition</corefTheme> was <clueType>reversed</clueType> <linkCause>by</linkCause> exogenous IL-2.</clue>
+</event>
+<sentence id="S10"><term id="T37" lex="WIN_53071" sem="Organic_compound_other">WIN 53071</term> inhibited <term id="T38" lex="IL-2_production" sem="Other"><term id="T39" lex="IL-2" sem="Protein_molecule">IL-2</term> production</term> induced in the <term id="A13" sem="Inorganic_compound">calcium</term>-dependent <term id="A11" sem="Protein_molecule">PMA</term> and <term id="A12" sem="Other">ionomycin pathway</term>.</sentence>
+<event KT="Other" id="E24">
+<type class="Gene_expression"/>
+<theme idref="T39"/>
+<clue>WIN 53071 inhibited IL-2 <clueType>production</clueType> induced in the calcium-dependent PMA and ionomycin pathway.</clue>
+</event>
+<event id="E25">
+<type class="Negative_regulation"/>
+<theme idref="E24"/>
+<cause idref="T37"/>
+<clue>WIN 53071 <clueType>inhibited</clueType> IL-2 production induced in the calcium-dependent PMA and ionomycin pathway.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="E24"/>
+<cause idref="A11"/>
+<clue>WIN 53071 inhibited IL-2 production <clueType>induced</clueType> <linkTheme>in</linkTheme> the calcium-dependent PMA and ionomycin pathway.</clue>
+<comment>NER: T40 del &quot;calcium-dependent PMA and ionomycin pathway&quot;</comment></event>
+<event KT="Other" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="E24"/>
+<cause idref="A12"/>
+<clue>WIN 53071 inhibited IL-2 production <clueType>induced</clueType> <linkTheme>in</linkTheme> the calcium-dependent PMA and ionomycin pathway.</clue>
+</event>
+<event KT="Other" id="E28">
+<type class="Positive_regulation"/>
+<theme idref="A11"/>
+<cause idref="A13"/>
+<clue>WIN 53071 inhibited IL-2 production induced in the calcium-<clueType>dependent</clueType> PMA and ionomycin pathway.</clue>
+</event>
+<event KT="Other" id="E280">
+<type class="Positive_regulation"/>
+<theme idref="A12"/>
+<cause idref="A13"/>
+<clue>WIN 53071 inhibited IL-2 production induced in the calcium-<clueType>dependent</clueType> PMA and ionomycin pathway.</clue>
+</event>
+<sentence id="S11">Conversely, <term id="T41" lex="calcium-independent_anti-CD28_Ab" sem="Protein_molecule"><term id="A14" sem="Inorganic_compound">calcium</term>-independent <term id="A15" sem="Protein_family_or_group">anti-CD28 Ab</term></term> and <term id="T42" lex="PMA-induced_IL-2_production" sem="Other"><term id="A16" sem="Protein_molecule">PMA</term>-induced <term id="T43" lex="IL-2" sem="Protein_molecule">IL-2</term> production</term> was resistant.</sentence>
+<event Polarity="Negative" assertion="non-exist" id="E29">
+<type class="Positive_regulation"/>
+<theme idref="A15"/>
+<cause idref="A14"/>
+<clue>Conversely, calcium-<clueType><cluePolarity>independent</cluePolarity></clueType> anti-CD28 Ab and PMA-induced IL-2 production was resistant.</clue>
+</event>
+<event id="E30">
+<type class="Gene_expression"/>
+<theme idref="T43"/>
+<clue>Conversely, calcium-independent anti-CD28 Ab and PMA-induced IL-2 <clueType>production</clueType> was resistant.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation"/>
+<theme idref="E30"/>
+<cause idref="A16"/>
+<clue>Conversely, calcium-independent anti-CD28 Ab and PMA-<clueType>induced</clueType> IL-2 production was resistant.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E32">
+<type/>
+<theme idref="E30"/>
+<cause idref="T37"/>
+<clue>Conversely, calcium-independent anti-CD28 Ab and PMA-induced IL-2 production was <clueType><cluePolarity>resistant</cluePolarity></clueType>.</clue>
+<comment>NO COREFCAUSE, RESISTANCE</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E33">
+<type/>
+<theme idref="A15"/>
+<cause idref="T37"/>
+<clue>Conversely, calcium-independent anti-CD28 Ab and PMA-induced IL-2 production was <clueType><cluePolarity>resistant</cluePolarity></clueType>.</clue>
+<comment>NO COREFCAUSE, RESISTANCE</comment></event>
+<sentence id="S12">Both compounds altered the <term id="T44" lex="NFAT-1_transcriptional_complex" sem="Protein_complex"><term id="A17" sem="Protein_family_or_group"><term id="T45" lex="NFAT" sem="Protein_family_or_group">NFAT</term>-1</term> transcriptional complex</term>, causing its <term id="A18" sem="Other">retarded mobility</term> on <term id="T46" lex="gel" sem="Organic_compound_other">gels</term>.</sentence>
+<event id="E34">
+<type class="Regulation"/>
+<theme idref="E35"/>
+<cause idref="T19"/>
+<clue><corefCause>Both compounds</corefCause> <clueType>altered</clueType> the NFAT-1 transcriptional complex, causing its retarded mobility on gels.</clue>
+</event>
+<event id="E35">
+<type class="Binding"/>
+<theme idref="A17"/>
+<clue>Both compounds altered the NFAT-1 <clueType>transcriptional complex</clueType>, causing its retarded mobility on gels.</clue>
+</event>
+<event id="E36">
+<type class="Regulation"/>
+<theme idref="E35"/>
+<cause idref="T20"/>
+<clue><corefCause>Both compounds</corefCause> <clueType>altered</clueType> the NFAT-1 transcriptional complex, causing its retarded mobility on gels.</clue>
+</event>
+<sentence id="S13">By these functional criteria, we believe we have identified two structurally distinct, <term id="T47" lex="novel_inhibitor" sem="Organic_compound_other">novel inhibitors</term> of <term id="A19" sem="Protein_family_or_group">NFAT-1</term>-mediated <term id="A20" sem="Other">transcription</term>.</sentence>
+<event KT="Other" id="E39">
+<type class="Positive_regulation"/>
+<theme idref="A20"/>
+<cause idref="A19"/>
+<clue>By these functional criteria, we believe we have identified two structurally distinct, novel inhibitors of NFAT-1-<clueType>mediated</clueType> transcription.</clue>
+<comment>NER: T49 del &quot;NFAT&quot;; NER: T48 del &quot;NFAT-1-mediated transcription&quot;</comment></event>
+<event KT="Analysis" id="E40">
+<type class="Negative_regulation"/>
+<theme idref="E39"/>
+<clue>By these functional criteria, we believe we have <clueKT>identified</clueKT> two structurally distinct, novel <clueType>inhibitors</clueType> <linkTheme>of</linkTheme> NFAT-1-mediated transcription.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

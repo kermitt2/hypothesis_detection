@@ -1,0 +1,17 @@
+T17	Adverse_effect 26 33	induced
+T24	Adverse_effect 118 128	associated
+T18	Adverse_effect 344 351	induced
+T27	Potential_therapeutic_effect 522 530	resolved
+T19	Potential_therapeutic_effect 375 384	treatment
+T22	Potential_therapeutic_effect 155 162	therapy
+R1	is_equivalent Arg1:T6 Arg2:T7
+R2	is_equivalent Arg1:T14 Arg2:T15
+R5	Subject_Disorder Arg1:T23 Arg2:T3
+R7	Subject_Disorder Arg1:T20 Arg2:T6
+E1	Adverse_effect:T17 has_agent:T2 affects:T1 has_subject:T23
+E2	Adverse_effect:T24 affects:T4 has_agent:T5 has_subject:T20
+E3	Adverse_effect:T18 has_agent:T8 affects:T9
+E4	Potential_therapeutic_effect:T27 has_agent:T14 affects:T12 has_cue:T28
+E5	Potential_therapeutic_effect:T19 affects:T10 affects:T11 has_agent:T8
+E6	Potential_therapeutic_effect:T22 has_agent:T5 affects:T6 has_subject:T20
+A1	Manner E4 High

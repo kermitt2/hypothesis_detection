@@ -1,0 +1,301 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8709191" created="20/11/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8709191</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="oriP" sem="DNA_domain_or_region">oriP</term> is essential for <term id="T2" lex="EBNA_gene_promoter_activity" sem="Other"><term id="T3" lex="EBNA_gene" sem="DNA_domain_or_region">EBNA gene</term> promoter activity</term> in <term id="T4" lex="Epstein-Barr_virus-immortalized_lymphoblastoid_cell_line" sem="Cell_cultured"><term id="A1" sem="Virus">Epstein-Barr virus</term>-immortalized <term id="A2" sem="Cell_cultured">lymphoblastoid cell lines</term></term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation"/>
+<theme idref="T2"/>
+<cause idref="T1"/>
+<clue>oriP is <clueType>essential</clueType> <linkTheme>for</linkTheme> EBNA gene promoter activity <clueLoc>in Epstein-Barr virus-immortalized lymphoblastoid cell lines.</clueLoc></clue>
+</event>
+<event id="E200">
+<type class="Physiological_process"/>
+<theme idref="A2"/>
+<clue>oriP is essential for EBNA gene promoter activity in Epstein-Barr virus-<clueType>immortalized</clueType> lymphoblastoid cell lines.</clue>
+</event>
+<event id="E201">
+<type class="Positive_regulation"/>
+<theme idref="E200"/>
+<cause idref="A1"/>
+<clue>oriP is essential for EBNA gene promoter activity in Epstein-Barr virus-immortalized lymphoblastoid cell lines.</clue>
+<comment>NO CLUETYPE</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">During <term id="T5" lex="Epstein-Barr_virus_latent_infection" sem="Other"><term id="T6" lex="Epstein-Barr_virus" sem="Virus">Epstein-Barr virus</term> latent infection</term> of <term id="T7" lex="B_lymphocyte" sem="Cell_natural">B lymphocytes</term> in vitro, six <term id="T8" lex="viral_nuclear_antigen" sem="Protein_family_or_group">viral nuclear antigens</term> (<term id="T9" lex="EBNA" sem="Protein_family_or_group">EBNAs</term>) are expressed from one of two <term id="T10" lex="promoter" sem="DNA_domain_or_region">promoters</term>, <term id="T11" lex="Cp" sem="DNA_domain_or_region">Cp</term> or <term id="T12" lex="Wp" sem="DNA_domain_or_region">Wp</term>, whose activities are mutually exclusive.</sentence>
+<event KT="Other" id="E3">
+<type class="Viral_life_cycle"/>
+<theme idref="T6"/>
+<theme idref="T7"/>
+<clue>During Epstein-Barr virus <clueType>latent infection</clueType> <linkTheme>of</linkTheme> B lymphocytes in vitro, six viral nuclear antigens (EBNAs) are expressed from one of two promoters, Cp or Wp, whose activities are mutually exclusive.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Gene_expression"/>
+<theme idref="T9"/>
+<clue>During Epstein-Barr virus latent infection of B lymphocytes in vitro, six viral nuclear antigens (EBNAs) are <clueType>expressed</clueType> from one of two promoters, Cp or Wp, whose activities are mutually exclusive.</clue>
+</event>
+<event KT="Fact" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="T11"/>
+<clue><clueTime>During Epstein-Barr virus latent infection of B lymphocytes</clueTime> in vitro, six viral nuclear antigens (EBNAs) are expressed <linkCause>from</linkCause> <corefCause>one of two promoters,</corefCause> Cp or Wp, whose activities are mutually exclusive.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Fact" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="T12"/>
+<clue><clueTime>During Epstein-Barr virus latent infection of B lymphocytes</clueTime> in vitro, six viral nuclear antigens (EBNAs) are expressed <linkCause>from</linkCause> <corefCause>one of two promoters</corefCause>, Cp or Wp, whose activities are mutually exclusive.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S3">Upon infection, <term id="T13" lex="Wp" sem="DNA_domain_or_region">Wp</term> is initially active, followed by a switch to <term id="T14" lex="Cp" sem="DNA_domain_or_region">Cp</term> for the duration of latency.</sentence>
+<event KT="Other" id="E100">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T6"/>
+<theme idref="T7"/>
+<clue>Upon <clueType>infection</clueType>, Wp is initially active, followed by a switch to Cp for the duration of latency.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event KT="Other" id="E101">
+<type class="Viral_life_cycle"/>
+<theme idref="T6"/>
+<clue>Upon infection, Wp is initially active, followed by a switch to Cp for the duration of <clueType>latency</clueType>.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event KT="Fact" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T13"/>
+<cause idref="E100"/>
+<clue><linkCause>Upon</linkCause> infection, Wp is initially <clueType>active</clueType>, followed by a switch to Cp for the duration of latency.</clue>
+</event>
+<event KT="Fact" id="E8">
+<type class="Negative_regulation"/>
+<theme idref="E7"/>
+<cause idref="E101"/>
+<clue>Upon infection, Wp is initially active, followed by a <clueType>switch</clueType> to Cp <linkCause>for the duration of</linkCause> latency.</clue>
+</event>
+<event KT="Fact" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="T14"/>
+<cause idref="E101"/>
+<clue>Upon infection, Wp is initially active, followed by a <clueType>switch</clueType> <linkTheme>to</linkTheme> Cp <linkCause>for the duration of</linkCause> latency.</clue>
+</event>
+<sentence id="S4">In this study, the region upstream of <term id="T16" lex="Cp" sem="DNA_domain_or_region">Cp</term> was analyzed for the presence of <term id="A4" sem="DNA_domain_or_region">cis elements</term> involved in regulating the activities of the <term id="T17" lex="EBNA_gene_promoter" sem="DNA_domain_or_region">EBNA gene <term id="T18" lex="promoter" sem="DNA_domain_or_region">promoters</term></term> in established <term id="T19" lex="in_vitro_immortalized_lymphoblastoid_cell_line" sem="Cell_cultured">in vitro immortalized <term id="A5" sem="Cell_cultured">lymphoblastoid cell lines</term></term> (<term id="T20" lex="LCL" sem="Cell_cultured">LCLs</term>).</sentence>
+<event KT="Investigation" id="E10" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="T17"/>
+<cause idref="A4"/>
+<clue>In this study, the region upstream of Cp was <clueKT>analyzed</clueKT> for the presence of cis elements involved in <clueType>regulating</clueType> the activities of the EBNA gene promoters <clueLoc>in established in vitro immortalized lymphoblastoid cell lines (LCLs).</clueLoc></clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Physiological_process"/>
+<theme idref="A5"/>
+<clue>In this study, the region upstream of Cp was analyzed for the presence of cis elements involved in regulating the activities of the EBNA gene promoters in established in vitro <clueType>immortalized</clueType> lymphoblastoid cell lines (LCLs).</clue>
+</event>
+<sentence id="S5">It was determined that <term id="T21" lex="oriP" sem="DNA_domain_or_region">oriP</term>, the origin for <term id="A7" sem="Other">episomal maintenance</term> during latency, is essential for efficient <term id="T23" lex="transcription_initiation" sem="Other"><term id="A6" sem="Other">transcription</term> initiation</term> from either <term id="T24" lex="Cp" sem="DNA_domain_or_region">Cp</term> or <term id="T25" lex="Wp" sem="DNA_domain_or_region">Wp</term> in <term id="T26" lex="LCL" sem="Cell_cultured">LCLs</term>, as well as in some <term id="T27" lex="Burkitt&apos;s_lymphoma_cell_line" sem="Cell_cultured">Burkitt&apos;s lymphoma cell lines</term>.</sentence>
+<event KT="Other" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="A6"/>
+<cause idref="T24"/>
+<clue>It was determined that oriP, the origin for episomal maintenance during latency, is essential for efficient transcription <clueType>initiation</clueType> <linkCause>from</linkCause> either Cp or Wp in LCLs, as well as in some Burkitt&apos;s lymphoma cell lines.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="A6"/>
+<cause idref="T25"/>
+<clue>It was determined that oriP, the origin for episomal maintenance during latency, is essential for efficient transcription <clueType>initiation</clueType> <linkCause>from</linkCause> either Cp or Wp in LCLs, as well as in some Burkitt&apos;s lymphoma cell lines.</clue>
+</event>
+<event KT="Analysis" id="E300">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="T21"/>
+<clue>It was <clueKT>determined</clueKT> that oriP, the origin for episomal maintenance during latency, is <clueType>essential</clueType> <linkTheme>for</linkTheme> efficient transcription initiation from either Cp or Wp <clueLoc>in LCLs</clueLoc>, as well as in some Burkitt&apos;s lymphoma cell lines.</clue>
+</event>
+<event KT="Analysis" id="E301">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="T21"/>
+<clue>It was <clueKT>determined</clueKT> that oriP, the origin for episomal maintenance during latency, is <clueType>essential</clueType> <linkTheme>for</linkTheme> efficient transcription initiation from either Cp or Wp in LCLs, as well as <clueLoc>in some Burkitt&apos;s lymphoma cell lines</clueLoc>.</clue>
+</event>
+<event KT="Analysis" id="E302">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="T21"/>
+<clue>It was <clueKT>determined</clueKT> that oriP, the origin for episomal maintenance during latency, is <clueType>essential</clueType> <linkTheme>for</linkTheme> efficient transcription initiation from either Cp or Wp <clueLoc>in LCLs</clueLoc>, as well as in some Burkitt&apos;s lymphoma cell lines.</clue>
+</event>
+<event KT="Analysis" id="E303">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="T21"/>
+<clue>It was <clueKT>determined</clueKT> that oriP, the origin for episomal maintenance during latency, is <clueType>essential</clueType> <linkTheme>for</linkTheme> efficient transcription initiation from either Cp or Wp in LCLs, as well as <clueLoc>in some Burkitt&apos;s lymphoma cell lines</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="A7"/>
+<cause idref="T21"/>
+<clue>It was determined that oriP, the <clueType>origin</clueType> <linkTheme>for</linkTheme> episomal maintenance <clueTime>during latency</clueTime>, is essential for efficient transcription initiation from either Cp or Wp in LCLs, as well as in some Burkitt&apos;s lymphoma cell lines.</clue>
+</event>
+<event KT="Other" id="E110">
+<type class="Viral_life_cycle"/>
+<theme idref="T6"/>
+<clue>It was determined that oriP, the origin for episomal maintenance during <clueType>latency</clueType>, is essential for efficient transcription initiation from either Cp or Wp in LCLs, as well as in some Burkitt&apos;s lymphoma cell lines.</clue>
+<comment>NO COREFTHEME</comment></event>
+<sentence id="S6">Deletion of the <term id="T28" lex="EBNA2-dependent_enhancer" sem="DNA_domain_or_region">EBNA2-dependent enhancer</term> located upstream of <term id="T29" lex="Cp" sem="DNA_domain_or_region">Cp</term> resulted in a ca. two- to fivefold reduction in <term id="T30" lex="Cp_activity" sem="Other"><term id="T31" lex="Cp" sem="DNA_domain_or_region">Cp</term> activity</term> in the <term id="T32" lex="LCL" sem="Cell_cultured">LCLs</term> assayed.</sentence>
+<event KT="Method" id="E17">
+<type class="Mutagenesis"/>
+<theme idref="T28"/>
+<clue><clueType>Deletion</clueType> <linkTheme>of</linkTheme> the EBNA2-dependent enhancer located upstream of Cp resulted in a ca. two- to fivefold reduction in Cp activity in the LCLs assayed.</clue>
+<comment>Artificial</comment></event>
+<event Manner="High" id="E18">
+<type class="Negative_regulation"/>
+<theme idref="T31"/>
+<theme idref="E17"/>
+<clue>Deletion of the EBNA2-dependent enhancer located upstream of Cp resulted in a ca. <clueManner>two- to fivefold</clueManner> <clueType>reduction</clueType> <linkTheme>in</linkTheme> Cp activity <clueLoc>in the LCLs</clueLoc> assayed.</clue>
+</event>
+<sentence id="S7">More extensive deletion of sequences upstream of <term id="T33" lex="Cp" sem="DNA_domain_or_region">Cp</term>, including the <term id="T34" lex="EBNA2-dependent_enhancer" sem="DNA_domain_or_region">EBNA2-dependent enhancer</term>, resulted in nearly complete loss of <term id="T35" lex="Cp_activity" sem="Other"><term id="T36" lex="Cp" sem="DNA_domain_or_region">Cp</term> activity</term>.</sentence>
+<event KT="Method" id="E20">
+<type class="Mutagenesis"/>
+<theme idref="T34"/>
+<clue>More extensive <clueType>deletion</clueType> <linkTheme>of</linkTheme> sequences upstream of Cp, including the EBNA2-dependent enhancer, resulted in nearly complete loss of Cp activity.</clue>
+<comment>Artificial, TPS: A50</comment></event>
+<event Manner="High" id="E21">
+<type class="Negative_regulation"/>
+<theme idref="T36"/>
+<cause idref="E20"/>
+<clue>More extensive deletion of sequences upstream of Cp, including the EBNA2-dependent enhancer, resulted in <clueManner>nearly complete</clueManner> <clueType>loss</clueType> <linkTheme>of</linkTheme> Cp activity.</clue>
+</event>
+<sentence id="S8">This loss of activity was shown to correlate with deletion of two <term id="T37" lex="CCAAT_box" sem="DNA_domain_or_region">CCAAT boxes</term>, a <term id="T38" lex="proximal_CCAAT_box" sem="DNA_domain_or_region">proximal CCAAT box</term> located at <term id="T39" lex="bp_-61_to_-65" sem="DNA_domain_or_region">bp -61 to -65</term> and a distal <term id="T40" lex="CCAAT_box" sem="DNA_domain_or_region">CCAAT box</term> located at bp <term id="T41" lex="-253_to_-257" sem="DNA_domain_or_region">-253 to -257</term>, upstream of <term id="T42" lex="Cp" sem="DNA_domain_or_region">Cp</term>.</sentence>
+<event KT="Method" id="E23">
+<type class="Mutagenesis"/>
+<theme idref="T38"/>
+<clue>This loss of activity was shown to correlate with <clueType>deletion</clueType> <linkTheme>of</linkTheme> two CCAAT boxes, a proximal CCAAT box located at bp -61 to -65 and a distal CCAAT box located at bp -253 to -257, upstream of Cp.</clue>
+<comment>Artificial</comment></event>
+<event KT="Method" id="E24">
+<type class="Mutagenesis"/>
+<theme idref="T40"/>
+<clue>This loss of activity was shown to correlate with <clueType>deletion</clueType> <linkTheme>of</linkTheme> two CCAAT boxes, a proximal CCAAT box located at bp -61 to -65 and a distal CCAAT box located at bp -253 to -257, upstream of Cp.</clue>
+<comment>Artificial</comment></event>
+<event KT="Analysis" id="E25">
+<type class="Correlation"/>
+<theme idref="E21"/>
+<theme idref="E23"/>
+<clue><corefTheme idref1="E21">This loss of activity</corefTheme> was <clueKT>shown</clueKT> to <clueType><clueKT>correlate</clueKT></clueType> <linkTheme>with</linkTheme> deletion of two CCAAT boxes, a proximal CCAAT box located at bp -61 to -65 and a distal CCAAT box located at bp -253 to -257, upstream of Cp.</clue>
+</event>
+<event KT="Analysis" id="E26">
+<type class="Correlation"/>
+<theme idref="E21"/>
+<theme idref="E24"/>
+<clue><corefTheme idref1="E21">This loss of activity</corefTheme> was <clueKT>shown</clueKT> to <clueType><clueKT>correlate</clueKT></clueType> <linkTheme>with</linkTheme> deletion of two CCAAT boxes, a proximal CCAAT box located at bp -61 to -65 and a distal CCAAT box located at bp -253 to -257, upstream of Cp.</clue>
+</event>
+<sentence id="S9"><term id="T43" lex="site-directed_mutagenesis" sem="Other">Site-directed mutagenesis</term> of these <term id="T44" lex="cis_element" sem="DNA_family_or_group">cis elements</term> demonstrated that <term id="T45" lex="Cp_activity" sem="Other"><term id="T46" lex="Cp" sem="DNA_domain_or_region">Cp</term> activity</term> is highly dependent on the presence of a properly positioned <term id="T47" lex="CCAAT_box" sem="DNA_domain_or_region">CCAAT box</term>, with the dependence on the <term id="T48" lex="distal_CCAAT_box" sem="DNA_domain_or_region">distal <term id="T49" lex="CCAAT_box" sem="DNA_domain_or_region">CCAAT box</term></term> apparent only when the <term id="T50" lex="proximal_CCAAT_box" sem="DNA_domain_or_region">proximal <term id="T51" lex="CCAAT_box" sem="DNA_domain_or_region">CCAAT box</term></term> was deleted or mutated.</sentence>
+<event KT="Other" id="E210">
+<type class="Mutagenesis"/>
+<theme idref="T40"/>
+<clue><clueType>Site-directed mutagenesis</clueType> <linkTheme>of</linkTheme> <corefTheme>these cis elements</corefTheme> demonstrated that Cp activity is highly dependent on the presence of a properly positioned CCAAT box, with the dependence on the distal CCAAT box apparent only when the proximal CCAAT box was deleted or mutated.</clue>
+</event>
+<event KT="Other" id="E211">
+<type class="Mutagenesis"/>
+<theme idref="T38"/>
+<clue><clueType>Site-directed mutagenesis</clueType> <linkTheme>of</linkTheme> <corefTheme>these cis elements</corefTheme> demonstrated that Cp activity is highly dependent on the presence of a properly positioned CCAAT box, with the dependence on the distal CCAAT box apparent only when the proximal CCAAT box was deleted or mutated.</clue>
+</event>
+<event KT="Method" id="E29">
+<type class="Mutagenesis"/>
+<theme idref="T50"/>
+<clue>Site-directed mutagenesis of these cis elements demonstrated that Cp activity is highly dependent on the presence of a properly positioned CCAAT box, with the dependence on the distal CCAAT box apparent only when the proximal CCAAT box was <clueType>deleted</clueType> or mutated.</clue>
+<comment>Artificial</comment></event>
+<event KT="Method" id="E30">
+<type class="Mutagenesis"/>
+<theme idref="T50"/>
+<clue>Site-directed mutagenesis of these cis elements demonstrated that Cp activity is highly dependent on the presence of a properly positioned CCAAT box, with the dependence on the distal CCAAT box apparent only when the proximal CCAAT box was deleted or <clueType>mutated</clueType>.</clue>
+<comment>Artificial</comment></event>
+<event KT="Analysis" Manner="High" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="T46"/>
+<cause idref="T47"/>
+<clue><clueExperiment>Site-directed mutagenesis of these cis elements</clueExperiment> <clueKT>demonstrated</clueKT> that Cp activity is <clueManner>highly</clueManner> <clueType>dependent</clueType> <linkTheme>on</linkTheme> the presence of a properly positioned CCAAT box, with the dependence on the distal CCAAT box apparent only when the proximal CCAAT box was deleted or mutated.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E28">
+<type class="Positive_regulation"/>
+<theme idref="T46"/>
+<cause idref="T48"/>
+<cause idref="E29"/>
+<clue>Site-directed mutagenesis of these cis elements demonstrated that Cp activity is highly dependent on the presence of a properly positioned CCAAT box, with the <clueType>dependence</clueType> <linkTheme>on</linkTheme> the distal CCAAT box <clueKT><clueCL>apparent</clueCL></clueKT> only when the proximal CCAAT box was deleted or mutated.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E60">
+<type class="Positive_regulation"/>
+<theme idref="T46"/>
+<cause idref="T48"/>
+<cause idref="E30"/>
+<clue>Site-directed mutagenesis of these cis elements demonstrated that Cp activity is highly dependent on the presence of a properly positioned CCAAT box, with the <clueType>dependence</clueType> <linkTheme>on</linkTheme> the distal CCAAT box <clueKT><clueCL>apparent</clueCL></clueKT> only when the proximal CCAAT box was deleted or mutated.</clue>
+</event>
+<sentence id="S10">Deletion of the glucocorticoid response elements located at <term id="T52" lex="ca._bp_-850" sem="DNA_domain_or_region">ca. bp -850</term> upstream of <term id="T53" lex="Cp" sem="DNA_domain_or_region">Cp</term> did not result in a significant loss in activity.</sentence>
+<event KT="Method" id="E31">
+<type class="Mutagenesis"/>
+<theme idref="T52"/>
+<clue><clueType>Deletion</clueType> <linkTheme>of</linkTheme> the glucocorticoid response elements located at ca. bp -850 upstream of Cp did not result in a significant loss in activity.</clue>
+<comment>Artificial</comment></event>
+<event Manner="High" Polarity="Negative" assertion="non-exist" id="E32">
+<type class="Negative_regulation"/>
+<theme idref="T46"/>
+<cause idref="E31"/>
+<clue>Deletion of the glucocorticoid response elements located at ca. bp -850 upstream of Cp did <cluePolarity>not</cluePolarity> result in a <clueManner>significant</clueManner> <clueType>loss</clueType> in activity.</clue>
+<comment>NO COREFTHEME</comment></event>
+<sentence id="S11">In general, <term id="A10" sem="Other">deletions</term> which diminished <term id="T54" lex="Cp" sem="DNA_domain_or_region">Cp</term> activity resulted in induction of <term id="T55" lex="Wp_activity" sem="Other"><term id="T56" lex="Wp" sem="DNA_domain_or_region">Wp</term> activity</term>, consistent with suppression of <term id="T57" lex="Wp" sem="DNA_domain_or_region">Wp</term> activity by transcriptional interference from <term id="T58" lex="Cp" sem="DNA_domain_or_region">Cp</term>.</sentence>
+<event id="E34">
+<type class="Negative_regulation"/>
+<theme idref="T54"/>
+<cause idref="A10"/>
+<clue>In general, deletions which <clueType>diminished</clueType> Cp activity resulted in induction of Wp activity, consistent with suppression of Wp activity by transcriptional interference from Cp.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation"/>
+<theme idref="T56"/>
+<cause idref="E34"/>
+<clue>In general, deletions which diminished Cp activity resulted in <clueType>induction</clueType> <linkTheme>of</linkTheme> Wp activity, consistent with suppression of Wp activity by transcriptional interference from Cp.</clue>
+</event>
+<event KT="Other" id="E37">
+<type class="Negative_regulation"/>
+<cause idref="T58"/>
+<clue>In general, deletions which diminished Cp activity resulted in induction of Wp activity, consistent with suppression of Wp activity by <clueType>transcriptional interference</clueType> <linkCause>from</linkCause> Cp.</clue>
+</event>
+<event KT="Other" id="E38">
+<type class="Negative_regulation"/>
+<theme idref="T57"/>
+<cause idref="E37"/>
+<clue>In general, deletions which diminished Cp activity resulted in induction of Wp activity, consistent with <clueType>suppression</clueType> <linkTheme>of</linkTheme> Wp activity <linkCause>by</linkCause> transcriptional interference from Cp.</clue>
+</event>
+<event KT="Analysis" id="E39">
+<type class="Correlation"/>
+<theme idref="E38"/>
+<theme idref="E35"/>
+<clue>In general, deletions which diminished Cp activity resulted in induction of Wp activity, <clueType><clueKT>consistent</clueKT></clueType> <linkTheme>with</linkTheme> suppression of Wp activity by transcriptional interference from Cp.</clue>
+</event>
+<sentence id="S12">The identification of <term id="T59" lex="oriP" sem="DNA_domain_or_region">oriP</term> and the <term id="T60" lex="EBNA2-dependent_enhancer" sem="DNA_domain_or_region">EBNA2-dependent enhancer</term> as the major positive <term id="T61" lex="cis_element" sem="DNA_family_or_group">cis elements</term> involved in regulating <term id="T62" lex="Cp" sem="DNA_domain_or_region">Cp</term> activity in <term id="T63" lex="LCL" sem="Cell_cultured">LCL</term> suggests that <term id="T64" lex="EBNA_gene_transcription" sem="Other"><term id="T65" lex="EBNA_gene" sem="DNA_domain_or_region">EBNA gene</term> transcription</term> is largely autoregulated by <term id="T66" lex="EBNA_1" sem="Protein_molecule">EBNA 1</term> and <term id="T67" lex="EBNA_2" sem="Protein_molecule">EBNA 2</term>.</sentence>
+<event KT="Analysis" id="E41">
+<type class="Regulation"/>
+<theme idref="T62"/>
+<cause idref="T59"/>
+<clue>The <clueKT>identification</clueKT> of oriP and the EBNA2-dependent enhancer as <corefCause>the major positive cis elements</corefCause> involved in <clueType>regulating</clueType> Cp activity <clueLoc>in LCL</clueLoc> suggests that EBNA gene transcription is largely autoregulated by EBNA 1 and EBNA 2.</clue>
+</event>
+<event KT="Analysis" id="E42">
+<type class="Regulation"/>
+<theme idref="T62"/>
+<cause idref="T60"/>
+<clue>The <clueKT>identification</clueKT> of oriP and the EBNA2-dependent enhancer as <corefCause>the major positive cis elements</corefCause> involved in <clueType>regulating</clueType> Cp activity <clueLoc>in LCL</clueLoc> suggests that EBNA gene transcription is largely autoregulated by EBNA 1 and EBNA 2.</clue>
+</event>
+<event KT="Other" id="E43">
+<type class="Transcription"/>
+<theme idref="T65"/>
+<clue>The identification of oriP and the EBNA2-dependent enhancer as the major positive cis elements involved in regulating Cp activity in LCL suggests that EBNA gene <clueType>transcription</clueType> is largely autoregulated by EBNA 1 and EBNA 2.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E44">
+<type class="Regulation"/>
+<theme idref="E43"/>
+<cause idref="T66"/>
+<clue>The identification of oriP and the EBNA2-dependent enhancer as the major positive cis elements involved in regulating Cp activity in LCL <clueKT><clueCL>suggests</clueCL></clueKT> that EBNA gene transcription is largely <clueType>autoregulated</clueType> <linkCause>by</linkCause> EBNA 1 and EBNA 2.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E45">
+<type class="Regulation"/>
+<theme idref="E43"/>
+<cause idref="T67"/>
+<clue>The identification of oriP and the EBNA2-dependent enhancer as the major positive cis elements involved in regulating Cp activity in LCL <clueKT><clueCL>suggests</clueCL></clueKT> that EBNA gene transcription is largely <clueType>autoregulated</clueType> <linkCause>by</linkCause> EBNA 1 and EBNA 2.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

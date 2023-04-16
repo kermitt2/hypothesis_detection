@@ -1,0 +1,22 @@
+T22	Potential_therapeutic_effect 149 157	treating
+T25	DDI 235 247	interactions
+T28	DDI 360 371	interaction
+T33	DDI 760 771	interaction
+T36	DDI 1027 1033	reacts
+T37	DDI 1185 1196	interaction
+R7	Coreference Arg1:T35 Arg2:T11
+R8	Coreference Arg1:T35 Arg2:T27
+R9	Coreference Arg1:T35 Arg2:T12
+R10	Coreference Arg1:T35 Arg2:T26
+E2	DDI:T25 has_participant:T7 has_participant:T23
+E3	DDI:T28 has_participant:T11 has_participant:T27 has_participant:T12 has_participant:T26 has_participant:T9 has_cue:T24
+E4	Combination:T31 has_participant:T1 has_participant:T2
+E6	DDI:T33 has_participant:T35 has_participant:T14 has_participant:T13
+E7	DDI:T36 has_participant:T17 has_participant:T16 has_participant:T18 has_participant:T29
+E8	DDI:T36 has_participant:T16 has_participant:T17 has_participant:T19
+E9	DDI:T36 has_participant:T16 has_participant:T17 has_participant:T30
+E10	DDI:T37 has_participant:T20 has_participant:T38
+E5	DDI:T28 has_participant:T8 has_participant:T11 has_participant:T27 has_participant:T12 has_participant:T26 has_cue:T24
+E1	Potential_therapeutic_effect:T22 affects:T21 affects:T6 has_agent:T4 has_agent:T3
+A1	Speculated E3
+A2	Speculated E5

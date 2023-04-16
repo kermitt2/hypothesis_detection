@@ -1,0 +1,31 @@
+T22	Adverse_effect 66 68	in
+T26	Potential_therapeutic_effect 393 411	provide protection
+T37	Potential_therapeutic_effect 581 599	survival advantage
+T46	Potential_therapeutic_effect 901 908	receive
+T59	Potential_therapeutic_effect 440 456	improve survival
+T65	Adverse_effect 1812 1821	increased
+T68	Adverse_effect 2158 2172	increased risk
+R1	Subject_Disorder Arg1:T21 Arg2:T1
+R2	Subject_Disorder Arg1:T27 Arg2:T13
+R3	Subject_Disorder Arg1:T27 Arg2:T14
+R4	Subject_Disorder Arg1:T31 Arg2:T15
+R5	Subject_Disorder Arg1:T18 Arg2:T5
+R6	Subject_Disorder Arg1:T18 Arg2:T6
+R7	Subject_Disorder Arg1:T50 Arg2:T48
+R8	Subject_Disorder Arg1:T67 Arg2:T51
+R9	Subject_Disorder Arg1:T67 Arg2:T52
+E7	Combination:T62 has_participant:T40 has_participant:T43
+E11	Combination:T70 has_participant:T54 has_participant:T56
+E1	Adverse_effect:T22 affects:T3 has_agent:T2
+E2	Potential_therapeutic_effect:T26 affects:T4 has_agent:T8 has_cue:T58
+E3	Potential_therapeutic_effect:T37 has_cue:T41 has_agent:T11 has_subject:T27 affects:T13 affects:T14
+E4	Potential_therapeutic_effect:T46 has_subject:T10 has_agent:T16
+E5	Potential_therapeutic_effect:T46 has_subject:T10 has_agent:T12
+E6	Potential_therapeutic_effect:T59 affects:T48 has_agent:T8 has_cue:T58
+E9	Adverse_effect:T65 has_cue:T66 has_agent:E7 affects:T44
+E10	Adverse_effect:T68 has_cue:T69 affects:T55 has_agent:E11
+A1	Speculated E3
+A2	Speculated E2
+A3	Speculated E6
+A4	Manner E9 High
+A5	Speculated E10

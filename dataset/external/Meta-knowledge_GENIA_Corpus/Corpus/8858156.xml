@@ -1,0 +1,81 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8858156" created="23/08/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8858156</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="human_TAFII_105" sem="Protein_molecule">Human TAFII 105</term> is a <term id="T2" lex="cell_type-specific_TFIID_subunit" sem="Protein_molecule">cell type-specific <term id="T3" lex="TFIID" sem="Protein_complex">TFIID</term> subunit</term> related to <term id="T4" lex="hTAFII130" sem="Protein_molecule">hTAFII130</term>.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">We previously characterized <cons id="T5" lex="(AND Drosophila_TAF_subunit human_TAF_subunit)" sem="(AND Protein_molecule Protein_molecule)"><frag id="F1">Drosophila</frag> and <frag id="F2">human</frag> <frag id="F3">TAF subunits</frag></cons> that make up the core <term id="T6" lex="TFIID_complex" sem="Protein_complex"><term id="T7" lex="TFIID" sem="Protein_complex">TFIID</term> complex</term> found in all cells.</sentence>
+<sentence id="S3">Here, we report that <term id="T8" lex="differentiated_B_cell" sem="Cell_natural">differentiated <term id="A1" sem="Cell_natural">B cells</term></term> contain a <term id="A2" sem="Protein_molecule">novel substoichiometric <term id="T9" lex="TAF" sem="Protein_molecule">TAF</term> of 105 kDa</term> not found associated with <term id="T11" lex="TFIID" sem="Protein_complex">TFIID</term> isolated from other cell types.</sentence>
+<event KT="Other" id="E1">
+<type class="Cell_differentiation"/>
+<theme idref="A1"/>
+<clue>Here, we report that <clueType>differentiated</clueType> B cells contain a novel substoichiometric TAF of 105 kDa not found associated with TFIID isolated from other cell types.</clue>
+<comment>TPS A2</comment></event>
+<event KT="Analysis" id="E2">
+<type class="Gene_expression"/>
+<theme idref="A2"/>
+<clue>Here, we <clueKT>report</clueKT> that <clueLoc>differentiated B cells</clueLoc> <clueType>contain</clueType> a novel substoichiometric TAF of 105 kDa not found associated with TFIID isolated from other cell types.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E3">
+<type class="Binding"/>
+<theme idref="A2"/>
+<theme idref="T11"/>
+<clue>Here, we report that differentiated B cells contain a novel substoichiometric TAF of 105 kDa <cluePolarity>not</cluePolarity> found <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> TFIID isolated from other cell types.</clue>
+</event>
+<sentence id="S4">The <term id="T12" lex="cDNA" sem="DNA_domain_or_region">cDNA</term> encoding <term id="T13" lex="hTAFII105" sem="Protein_molecule">hTAFII105</term> reveals a highly conserved <term id="T14" lex="C-terminal_domain" sem="Protein_domain_or_region">C-terminal domain</term> shared by <term id="T15" lex="hTAFII130" sem="Protein_molecule">hTAFII130</term> and <term id="T16" lex="oTAFII110" sem="Protein_molecule">oTAFII110</term>, while the <term id="T17" lex="N-terminal_coactivator_domain" sem="Protein_domain_or_region">N-terminal coactivator domain</term> has diverged significantly.</sentence>
+<sentence id="S5">All cells tested express <term id="T18" lex="TAFII105_mRNA" sem="RNA_molecule"><term id="A3" sem="Protein_molecule">TAFII105</term> mRNA</term>, but only <term id="T19" lex="B_cell" sem="Cell_natural">B cells</term> contain significant levels of protein associated with <term id="T20" lex="TFIID" sem="Protein_complex">TFIID</term>.</sentence>
+<event id="E4">
+<type class="Transcription"/>
+<theme idref="T18"/>
+<clue><clueLoc>All cells tested</clueLoc> <clueType>express</clueType> TAFII105 mRNA, but only B cells contain significant levels of protein associated with TFIID.</clue>
+</event>
+<event Manner="High" id="E5">
+<type class="Translation"/>
+<theme idref="A3"/>
+<clue>All cells tested express TAFII105 mRNA, but only <clueLoc>B cells</clueLoc> <clueType>contain</clueType> <clueManner>significant levels</clueManner> of <corefTheme>protein</corefTheme> associated with TFIID.</clue>
+</event>
+<event KT="Analysis" id="E6">
+<type class="Binding"/>
+<theme idref="A3"/>
+<theme idref="T20"/>
+<clue>All cells tested express TAFII105 mRNA, but only B cells contain significant levels of <corefTheme>protein</corefTheme> <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> TFIID.</clue>
+</event>
+<sentence id="S6">Transient overexpression of <term id="T21" lex="hTAFII105" sem="Protein_molecule">hTAFII105</term> selectively squelches the transcription of <term id="A4" sem="DNA_family_or_group">some genes</term> in <term id="T22" lex="B_cell" sem="Cell_natural">B cells</term>.</sentence>
+<event id="E7">
+<type class="Gene_expression"/>
+<theme idref="T21"/>
+<clue>Transient <clueType>overexpression</clueType> <linkTheme>of</linkTheme> hTAFII105 selectively squelches the transcription of some genes in B cells.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<clue>Transient <clueType>overexpression</clueType> of hTAFII105 selectively squelches the transcription of some genes in B cells.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Transcription"/>
+<theme idref="A4"/>
+<clue>Transient overexpression of hTAFII105 selectively squelches the <clueType>transcription</clueType> <linkTheme>of</linkTheme> some genes <clueLoc>in B cells</clueLoc>.</clue>
+</event>
+<event id="E10">
+<type class="Negative_regulation"/>
+<theme idref="E9"/>
+<cause idref="E8"/>
+<clue>Transient overexpression of hTAFII105 selectively <clueType>squelches</clueType> the transcription of some genes in B cells.</clue>
+</event>
+<sentence id="S7">These properties suggest that <term id="T23" lex="TAFII105" sem="Protein_molecule">TAFII105</term> is a cell type-specific subunit of <term id="T24" lex="TFIID" sem="Protein_complex">TFIID</term> that may be responsible for mediating <term id="T25" lex="transcription" sem="Other">transcription</term> by a <term id="A5" sem="Protein_family_or_group">subset of activators</term> in <term id="T26" lex="B_cell" sem="Cell_natural">B cells</term>.</sentence>
+<event KT="Other" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="T25"/>
+<cause idref="A5"/>
+<clue>These properties suggest that TAFII105 is a cell type-specific subunit of TFIID that may be responsible for mediating transcription <linkCause>by</linkCause> a subset of activators in B cells.</clue>
+<comment>TPS A5, NO CLUETYPE</comment></event>
+<event CL="L1" KT="Analysis" id="E12" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<cause idref="T23"/>
+<clue>These properties <clueKT>suggest</clueKT> that TAFII105 is a cell type-specific subunit of TFIID that <clueCL>may</clueCL> be <clueType>responsible for mediating</clueType> transcription by a subset of activators in B cells.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

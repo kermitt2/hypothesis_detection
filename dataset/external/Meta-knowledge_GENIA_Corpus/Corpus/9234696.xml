@@ -1,0 +1,285 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9234696" created="07/03/18" creator="Yumiko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9234696</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="GABP_factor" sem="Protein_family_or_group">GABP factors</term> bind to a <term id="T2" lex="distal_interleukin_2_(IL-2)_enhancer" sem="DNA_domain_or_region">distal interleukin 2 (IL-2) enhancer</term> and contribute to <term id="T3" lex="c-Raf-mediated_increase" sem="Other"><term id="T4" lex="c-Raf" sem="Protein_molecule">c-Raf</term>-mediated increase</term> in <term id="T5" lex="IL-2_induction" sem="Other"><term id="T6" lex="IL-2" sem="Protein_molecule">IL-2</term> induction</term>.</sentence>
+<event id="E1">
+<type class="Binding"/>
+<theme idref="T1"/>
+<theme idref="T2"/>
+<clue>GABP factors <clueType>bind</clueType> <linkTheme>to</linkTheme> a distal interleukin 2 (IL-2) enhancer and contribute to c-Raf-mediated increase in IL-2 induction.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="T6"/>
+<clue>GABP factors bind to a distal interleukin 2 (IL-2) enhancer and contribute to c-Raf-mediated increase in IL-2 <clueType>induction</clueType>.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="T4"/>
+<clue>GABP factors bind to a distal interleukin 2 (IL-2) enhancer and contribute to c-Raf-<linkCause>mediated</linkCause> <clueType>increase</clueType> <linkTheme>in</linkTheme> IL-2 induction.</clue>
+</event>
+<event id="E4">
+<type class="Regulation"/>
+<theme idref="E3"/>
+<cause idref="T1"/>
+<clue>GABP factors bind to a distal interleukin 2 (IL-2) enhancer and <clueType>contribute</clueType> <linkTheme>to</linkTheme> c-Raf-mediated increase in IL-2 induction.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Triggering of the <term id="T7" lex="T-cell_receptor-CD3_complex" sem="Protein_complex">T-cell receptor-CD3 complex</term> activates two major signal cascades in <term id="T8" lex="T_lymphocyte" sem="Cell_natural">T lymphocytes</term>, (i) <term id="A1" sem="Other"><term id="A2" sem="Inorganic_compound">Ca2+</term>-dependent signal cascades</term> and (ii) <term id="T9" lex="protein_kinase_cascade" sem="Other"><term id="T10" lex="protein_kinase" sem="Protein_family_or_group">protein kinase</term> cascades</term>.</sentence>
+<event KT="Other" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="T7"/>
+<clue><clueType>Triggering</clueType> <linkTheme>of</linkTheme> the T-cell receptor-CD3 complex activates two major signal cascades in T lymphocytes, (i) Ca2+-dependent signal cascades and (ii) protein kinase cascades.</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="A1"/>
+<cause idref="E5"/>
+<clue>Triggering of the T-cell receptor-CD3 complex <clueType>activates</clueType> <corefTheme>two major signal cascades</corefTheme> <clueLoc>in T lymphocytes</clueLoc>, (i) Ca2+-dependent signal cascades and (ii) protein kinase cascades.</clue>
+</event>
+<event KT="Fact" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T9"/>
+<cause idref="E5"/>
+<clue>Triggering of the T-cell receptor-CD3 complex <clueType>activates</clueType> <corefTheme>two major signal cascades</corefTheme> <clueLoc>in T lymphocytes</clueLoc>, (i) Ca2+-dependent signal cascades and (ii) protein kinase cascades.</clue>
+</event>
+<sentence id="S3">Both <term id="T11" lex="signal_cascade" sem="Other">signal cascades</term> contribute to the induction of the <term id="T12" lex="interleukin_2_(IL-2)_gene" sem="DNA_domain_or_region">interleukin 2 (<term id="T13" lex="IL-2" sem="Protein_molecule">IL-2</term>) gene</term> during <term id="T14" lex="T-cell_activation" sem="Other"><term id="A3" sem="Cell_natural">T-cell</term> activation</term>.</sentence>
+<event KT="Other" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="T12"/>
+<clue>Both signal cascades contribute to the <clueType>induction</clueType> <linkTheme>of</linkTheme> the interleukin 2 (IL-2) gene during T-cell activation.</clue>
+</event>
+<event KT="Fact" id="E10">
+<type class="Regulation"/>
+<theme idref="E9"/>
+<cause idref="A1"/>
+<clue><corefCause>Both signal cascades</corefCause> <clueType>contribute</clueType> <linkTheme>to</linkTheme> the induction of the interleukin 2 (IL-2) gene <clueTime>during T-cell activation</clueTime>.</clue>
+</event>
+<event KT="Fact" id="E11">
+<type class="Regulation"/>
+<theme idref="E9"/>
+<cause idref="T9"/>
+<clue><corefCause>Both signal cascades</corefCause> <clueType>contribute</clueType> <linkTheme>to</linkTheme> the induction of the interleukin 2 (IL-2) gene <clueTime>during T-cell activation</clueTime>.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Physiological_process"/>
+<theme idref="A3"/>
+<clue>Both signal cascades contribute to the induction of the interleukin 2 (IL-2) gene during T-cell <clueType>activation</clueType>.</clue>
+</event>
+<sentence id="S4">Prominent <term id="T15" lex="protein_kinase_cascade" sem="Other"><term id="T16" lex="protein_kinase" sem="Protein_family_or_group">protein kinase</term> cascades</term> are those that activate <term id="T17" lex="mitogen-activated_protein_(MAP)_kinase" sem="Protein_family_or_group">mitogen-activated protein (MAP) kinases</term>.</sentence>
+<event KT="Other" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T17"/>
+<cause idref="T15"/>
+<clue>Prominent protein kinase cascades are those that <clueType>activate</clueType> mitogen-activated protein (MAP) kinases.</clue>
+</event>
+<sentence id="S5">We show here that <term id="T18" lex="c-Raf" sem="Protein_molecule">c-Raf</term>, which is at the helm of the classic <term id="T19" lex="MAP-Erk_cascade" sem="Other">MAP-<term id="T20" lex="Erk" sem="Protein_molecule">Erk</term> cascade</term>, contributes to <term id="T21" lex="IL-2_induction" sem="Other"><term id="T22" lex="IL-2" sem="Protein_molecule">IL-2</term> induction</term> through a <term id="A100" sem="DNA_domain_or_region"><term id="T23" lex="distal_enhancer_element" sem="DNA_domain_or_region">distal enhancer element</term> spanning the nucleotides from positions -502 to -413 in front of the transcriptional start site of the <term id="T24" lex="IL-2_gene" sem="DNA_domain_or_region"><term id="T25" lex="IL-2" sem="Protein_molecule">IL-2</term> gene</term></term>.</sentence>
+<event KT="Fact" id="E14">
+<type class="Regulation"/>
+<theme idref="T19"/>
+<cause idref="T18"/>
+<clue>We show here that c-Raf, which is at the <clueType>helm</clueType> <linkTheme>of</linkTheme> the classic MAP-Erk cascade, contributes to IL-2 induction through a distal enhancer element spanning the nucleotides from positions -502 to -413 in front of the transcriptional start site of the IL-2 gene.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Regulation"/>
+<theme idref="A100"/>
+<cause idref="T18"/>
+<clue>We show here that c-Raf, which is at the helm of the classic MAP-Erk cascade, <clueType>contributes</clueType> <linkTheme>to</linkTheme> IL-2 induction through a distal enhancer element spanning the nucleotides from positions -502 to -413 in front of the transcriptional start site of the IL-2 gene.</clue>
+<comment>TPS A100</comment></event>
+<event KT="Analysis" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T22"/>
+<cause idref="E15"/>
+<clue>We <clueKT>show</clueKT> here that c-Raf, which is at the helm of the classic MAP-Erk cascade, contributes to IL-2 <clueType>induction</clueType> <linkCause>through</linkCause> a distal enhancer element spanning the nucleotides from positions -502 to -413 in front of the transcriptional start site of the IL-2 gene.</clue>
+</event>
+<sentence id="S6">Induction of this <term id="T26" lex="distal_IL-2_enhancer" sem="DNA_domain_or_region">distal <term id="T27" lex="IL-2_enhancer" sem="DNA_domain_or_region"><term id="T28" lex="IL-2" sem="Protein_molecule">IL-2</term> enhancer</term></term> differs from induction of the <term id="T29" lex="proximal_IL-2_promoter-enhancer" sem="DNA_domain_or_region">proximal <term id="T30" lex="IL-2" sem="Protein_molecule">IL-2</term> promoter-enhancer</term>, since it is induced by <term id="T31" lex="phorbol_ester" sem="Organic_compound_other">phorbol esters</term> alone and independent from <term id="T32" lex="Ca2+_signal" sem="Other"><term id="T33" lex="Ca2+" sem="Element">Ca2+</term> signals</term>.</sentence>
+<event KT="Other" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="A100"/>
+<clue><clueType>Induction</clueType> <linkTheme>of</linkTheme> <corefTheme>this distal IL-2 enhancer</corefTheme> differs from induction of the proximal IL-2 promoter-enhancer, since it is induced by phorbol esters alone and independent from Ca2+ signals.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="T29"/>
+<clue>Induction of this distal IL-2 enhancer differs from <clueType>induction</clueType> <linkTheme>of</linkTheme> the proximal IL-2 promoter-enhancer, since it is induced by phorbol esters alone and independent from Ca2+ signals.</clue>
+</event>
+<event KT="Fact" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="T29"/>
+<cause idref="T31"/>
+<clue>Induction of this distal IL-2 enhancer differs from induction of the proximal IL-2 promoter-enhancer, since <corefTheme>it</corefTheme> is <clueType>induced</clueType> <linkCause>by</linkCause> phorbol esters alone and independent from Ca2+ signals.</clue>
+</event>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="T29"/>
+<cause idref="T32"/>
+<clue>Induction of this distal IL-2 enhancer differs from induction of the proximal IL-2 promoter-enhancer, since <corefTheme>it</corefTheme> is induced by phorbol esters alone and <clueType><cluePolarity>independent</cluePolarity></clueType> <linkCause>from</linkCause> Ca2+ signals.</clue>
+</event>
+<sentence id="S7">In <term id="T34" lex="DNA-protein_binding_study" sem="Other">DNA-protein binding studies</term>, we detected the binding of <term id="T35" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term> <cons id="T36" lex="(AND GABP_alpha GABP_-beta)" sem="(AND Protein_molecule Protein_molecule)"><frag id="F1"><term id="A6" sem="Protein_family_or_group">GABP</term></frag> <frag id="F2"><term id="A7" sem="Protein_family_or_group">alpha</term></frag> and <frag id="F3"><term id="A8" sem="Protein_family_or_group">-beta</term></frag></cons> to a <term id="T37" lex="dyad_symmetry_element" sem="DNA_domain_or_region">dyad symmetry element</term> (<term id="T38" lex="DSE" sem="DNA_domain_or_region">DSE</term>) of the <term id="T39" lex="distal_enhancer" sem="DNA_domain_or_region">distal enhancer</term>, which is formed by <term id="T40" lex="palindromic_binding_site" sem="DNA_domain_or_region">palindromic binding sites</term> of <term id="T41" lex="Ets-like_factor" sem="Protein_family_or_group">Ets-like factors</term>.</sentence>
+<event id="E21">
+<type class="Binding"/>
+<theme idref="A6" idref1="A7"/>
+<theme idref="T38"/>
+<clue><clueExperiment>In DNA-protein binding studies</clueExperiment>, we <clueKT>detected</clueKT> the <clueType>binding</clueType> <linkTheme>of</linkTheme> transcription factors GABP alpha and -beta <linkTheme>to</linkTheme> a dyad symmetry element (DSE) of the distal enhancer, which is formed by palindromic binding sites of Ets-like factors.</clue>
+</event>
+<event id="E22">
+<type class="Binding"/>
+<theme idref="A6" idref1="A8"/>
+<theme idref="T38"/>
+<clue><clueExperiment>In DNA-protein binding studies</clueExperiment>, we <clueKT>detected</clueKT> the <clueType>binding</clueType> <linkTheme>of</linkTheme> transcription factors GABP alpha and -beta <linkTheme>to</linkTheme> a dyad symmetry element (DSE) of the distal enhancer, which is formed by palindromic binding sites of Ets-like factors.</clue>
+</event>
+<sentence id="S8">Introduction of <term id="T42" lex="point_mutation" sem="Other">point mutations</term> suppressing <term id="A4" sem="Protein_family_or_group">GABP</term> binding to the <term id="T43" lex="DSE" sem="DNA_domain_or_region">DSE</term> interfered with the induction of the <term id="T44" lex="distal_enhancer" sem="DNA_domain_or_region">distal enhancer</term> and the entire <term id="T45" lex="IL-2_promoter-enhancer" sem="DNA_domain_or_region"><term id="T46" lex="IL-2" sem="Protein_molecule">IL-2</term> promoter-enhancer</term>, while overexpression of both <term id="T47" lex="GABP_factor" sem="Protein_family_or_group">GABP factors</term> enhanced the <term id="T48" lex="IL-2_promoter-enhancer_induction" sem="Other"><term id="T49" lex="IL-2_promoter-enhancer" sem="DNA_domain_or_region"><term id="T50" lex="IL-2" sem="Protein_molecule">IL-2</term> promoter-enhancer</term> induction</term>.</sentence>
+<event KT="Other" id="E23">
+<type class="Binding"/>
+<theme idref="A4"/>
+<theme idref="T43"/>
+<clue>Introduction of point mutations suppressing GABP <clueType>binding</clueType> <linkTheme>to</linkTheme> the DSE interfered with the induction of the distal enhancer and the entire IL-2 promoter-enhancer, while overexpression of both GABP factors enhanced the IL-2 promoter-enhancer induction.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation"/>
+<theme idref="E23"/>
+<clue>Introduction of point mutations <clueType>suppressing</clueType> GABP binding to the DSE interfered with the induction of the distal enhancer and the entire IL-2 promoter-enhancer, while overexpression of both GABP factors enhanced the IL-2 promoter-enhancer induction.</clue>
+</event>
+<event KT="Method" id="E25">
+<type class="Regulation"/>
+<theme idref="E24"/>
+<cause idref="T42"/>
+<clue><clueType>Introduction</clueType> <linkCause>of</linkCause> point mutations suppressing GABP binding to the DSE interfered with the induction of the distal enhancer and the entire IL-2 promoter-enhancer, while overexpression of both GABP factors enhanced the IL-2 promoter-enhancer induction.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event KT="Other" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="T44"/>
+<clue>Introduction of point mutations suppressing GABP binding to the DSE interfered with the <clueType>induction</clueType> <linkTheme>of</linkTheme> the distal enhancer and the entire IL-2 promoter-enhancer, while overexpression of both GABP factors enhanced the IL-2 promoter-enhancer induction.</clue>
+</event>
+<event KT="Other" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="T45"/>
+<clue>Introduction of point mutations suppressing GABP binding to the DSE interfered with the <clueType>induction</clueType> <linkTheme>of</linkTheme> the distal enhancer and the entire IL-2 promoter-enhancer, while overexpression of both GABP factors enhanced the IL-2 promoter-enhancer induction.</clue>
+</event>
+<event id="E28">
+<type class="Negative_regulation"/>
+<theme idref="E26"/>
+<cause idref="E25"/>
+<clue>Introduction of point mutations suppressing GABP binding to the DSE <clueType>interfered</clueType> <linkTheme>with</linkTheme> the induction of the distal enhancer and the entire IL-2 promoter-enhancer, while overexpression of both GABP factors enhanced the IL-2 promoter-enhancer induction.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation"/>
+<theme idref="E27"/>
+<cause idref="E25"/>
+<clue>Introduction of point mutations suppressing GABP binding to the DSE <clueType>interfered</clueType> <linkTheme>with</linkTheme> the induction of the distal enhancer and the entire IL-2 promoter-enhancer, while overexpression of both GABP factors enhanced the IL-2 promoter-enhancer induction.</clue>
+</event>
+<event id="E30">
+<type class="Gene_expression"/>
+<theme idref="A6" idref1="A7"/>
+<clue>Introduction of point mutations suppressing GABP binding to the DSE interfered with the induction of the distal enhancer and the entire IL-2 promoter-enhancer, while <clueType>overexpression</clueType> <linkTheme>of</linkTheme> <corefTheme>both GABP factors</corefTheme> enhanced the IL-2 promoter-enhancer induction.</clue>
+</event>
+<event id="E8">
+<type class="Gene_expression"/>
+<theme idref="A6" idref1="A8"/>
+<clue>Introduction of point mutations suppressing GABP binding to the DSE interfered with the induction of the distal enhancer and the entire IL-2 promoter-enhancer, while <clueType>overexpression</clueType> <linkTheme>of</linkTheme> <corefTheme>both GABP factors</corefTheme> enhanced the IL-2 promoter-enhancer induction.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation"/>
+<theme idref="E30"/>
+<clue>Introduction of point mutations suppressing GABP binding to the DSE interfered with the induction of the distal enhancer and the entire IL-2 promoter-enhancer, while <clueType>overexpression</clueType> of both GABP factors enhanced the IL-2 promoter-enhancer induction.</clue>
+</event>
+<event id="E48">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<clue>Introduction of point mutations suppressing GABP binding to the DSE interfered with the induction of the distal enhancer and the entire IL-2 promoter-enhancer, while <clueType>overexpression</clueType> of both GABP factors enhanced the IL-2 promoter-enhancer induction.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation"/>
+<theme idref="T49"/>
+<clue>Introduction of point mutations suppressing GABP binding to the DSE interfered with the induction of the distal enhancer and the entire IL-2 promoter-enhancer, while overexpression of both GABP factors enhanced the IL-2 promoter-enhancer <clueType>induction</clueType>.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E32"/>
+<cause idref="E31"/>
+<clue>Introduction of point mutations suppressing GABP binding to the DSE interfered with the induction of the distal enhancer and the entire IL-2 promoter-enhancer, while overexpression of both GABP factors <clueType>enhanced</clueType> the IL-2 promoter-enhancer induction.</clue>
+</event>
+<sentence id="S9">Overexpression of <term id="T51" lex="BXB" sem="Protein_molecule">BXB</term>, a constitutive active version of <term id="T52" lex="c-Raf" sem="Protein_molecule">c-Raf</term>, and of further <term id="A5" sem="Protein_family_or_group">members of the <term id="T53" lex="Ras-Raf-Erk_signal_cascade" sem="Other"><term id="T54" lex="Ras" sem="Protein_molecule">Ras</term>-<term id="T55" lex="Raf" sem="Protein_molecule">Raf</term>-<term id="T56" lex="Erk" sem="Protein_molecule">Erk</term> signal cascade</term></term> exerted an increase of <term id="T57" lex="GABP-mediated_promoter-enhancer_induction" sem="Other"><term id="T58" lex="GABP" sem="Protein_molecule">GABP</term>-mediated <term id="A9" sem="DNA_domain_or_region">promoter-enhancer</term> induction</term>.</sentence>
+<event id="E34">
+<type class="Gene_expression"/>
+<theme idref="T51"/>
+<clue><clueType>Overexpression</clueType> <linkTheme>of</linkTheme> BXB, a constitutive active version of c-Raf, and of further members of the Ras-Raf-Erk signal cascade exerted an increase of GABP-mediated promoter-enhancer induction.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation"/>
+<theme idref="E34"/>
+<clue><clueType>Overexpression</clueType> of BXB, a constitutive active version of c-Raf, and of further members of the Ras-Raf-Erk signal cascade exerted an increase of GABP-mediated promoter-enhancer induction.</clue>
+</event>
+<event KT="Fact" id="E36">
+<type class="Positive_regulation"/>
+<theme idref="T52"/>
+<clue>Overexpression of BXB, a constitutive <clueType>active version</clueType> <linkTheme>of</linkTheme> c-Raf, and of further members of the Ras-Raf-Erk signal cascade exerted an increase of GABP-mediated promoter-enhancer induction.</clue>
+</event>
+<event id="E37">
+<type class="Gene_expression"/>
+<theme idref="A5"/>
+<clue><clueType>Overexpression</clueType> of BXB, a constitutive active version of c-Raf, and <linkTheme>of</linkTheme> further members of the Ras-Raf-Erk signal cascade exerted an increase of GABP-mediated promoter-enhancer induction.</clue>
+<comment>TPS A5</comment></event>
+<event id="E38">
+<type class="Positive_regulation"/>
+<theme idref="E37"/>
+<clue><clueType>Overexpression</clueType> of BXB, a constitutive active version of c-Raf, and of further members of the Ras-Raf-Erk signal cascade exerted an increase of GABP-mediated promoter-enhancer induction.</clue>
+</event>
+<event id="E39">
+<type class="Positive_regulation"/>
+<theme idref="A9"/>
+<cause idref="T58"/>
+<clue>Overexpression of BXB, a constitutive active version of c-Raf, and of further members of the Ras-Raf-Erk signal cascade exerted an increase of GABP-<linkCause>mediated</linkCause> promoter-enhancer <clueType>induction</clueType>.</clue>
+</event>
+<event id="E40">
+<type class="Positive_regulation"/>
+<theme idref="E39"/>
+<cause idref="E35"/>
+<clue>Overexpression of BXB, a constitutive active version of c-Raf, and of further members of the Ras-Raf-Erk signal cascade exerted an <clueType>increase</clueType> <linkTheme>of</linkTheme> GABP-mediated promoter-enhancer induction.</clue>
+</event>
+<event id="E49">
+<type class="Positive_regulation"/>
+<theme idref="E39"/>
+<cause idref="E38"/>
+<clue>Overexpression of BXB, a constitutive active version of c-Raf, and of further members of the Ras-Raf-Erk signal cascade exerted an <clueType>increase</clueType> <linkTheme>of</linkTheme> GABP-mediated promoter-enhancer induction.</clue>
+</event>
+<sentence id="S10">In conjunction with previously published data on <term id="T59" lex="c-Raf-induced_phosphorylation" sem="Other"><term id="T60" lex="c-Raf" sem="Protein_molecule">c-Raf</term>-induced phosphorylation</term> of <term id="T61" lex="GABP_factor" sem="Protein_family_or_group">GABP factors</term> (E.Flory, A. Hoffmeyer, U.Smola, U.R.Rapp, and J.T.Bruder, J.Virol.70:2260- 2268, 1996), these results indicate a contribution of <term id="T62" lex="GABP_factor" sem="Protein_family_or_group">GABP factors</term> to the <term id="T63" lex="Raf-mediated_enhancement" sem="Other"><term id="T64" lex="Raf" sem="Protein_molecule">Raf</term>-mediated enhancement</term> of <term id="T65" lex="IL-2_induction" sem="Other"><term id="T66" lex="IL-2" sem="Protein_molecule">IL-2</term> induction</term> during <term id="T67" lex="T-cell_activation" sem="Other"><term id="A10" sem="Cell_natural">T-cell</term> activation</term>.</sentence>
+<event KT="Other" id="E43">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T61"/>
+<clue>In conjunction with previously published data on c-Raf-induced <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> GABP factors (E.Flory, A. Hoffmeyer, U.Smola, U.R.Rapp, and J.T.Bruder, J.Virol.70:2260- 2268, 1996), these results indicate a contribution of GABP factors to the Raf-mediated enhancement of IL-2 induction during T-cell activation.</clue>
+</event>
+<event Source="Other" id="E41">
+<type class="Positive_regulation"/>
+<theme idref="E43"/>
+<cause idref="T60"/>
+<clue>In conjunction with <clueSource>previously published</clueSource> data on c-Raf-<clueType>induced</clueType> phosphorylation of GABP factors <clueSource>(E.Flory, A. Hoffmeyer, U.Smola, U.R.Rapp, and J.T.Bruder, J.Virol.70:2260- 2268, 1996)</clueSource>, these results indicate a contribution of GABP factors to the Raf-mediated enhancement of IL-2 induction during T-cell activation.</clue>
+</event>
+<event KT="Other" id="E44">
+<type class="Positive_regulation"/>
+<theme idref="T66"/>
+<clue>In conjunction with previously published data on c-Raf-induced phosphorylation of GABP factors (E.Flory, A. Hoffmeyer, U.Smola, U.R.Rapp, and J.T.Bruder, J.Virol.70:2260- 2268, 1996), these results indicate a contribution of GABP factors to the Raf-mediated enhancement of IL-2 <clueType>induction</clueType> during T-cell activation.</clue>
+</event>
+<event KT="Other" id="E45">
+<type class="Positive_regulation"/>
+<theme idref="E44"/>
+<cause idref="T64"/>
+<clue>In conjunction with previously published data on c-Raf-induced phosphorylation of GABP factors (E.Flory, A. Hoffmeyer, U.Smola, U.R.Rapp, and J.T.Bruder, J.Virol.70:2260- 2268, 1996), these results indicate a contribution of GABP factors to the Raf-<linkCause>mediated</linkCause> <clueType>enhancement</clueType> <linkTheme>of</linkTheme> IL-2 induction <clueTime>during T-cell activation</clueTime>.</clue>
+</event>
+<event KT="Other" id="E46">
+<type class="Physiological_process"/>
+<theme idref="A10"/>
+<clue>In conjunction with previously published data on c-Raf-induced phosphorylation of GABP factors (E.Flory, A. Hoffmeyer, U.Smola, U.R.Rapp, and J.T.Bruder, J.Virol.70:2260- 2268, 1996), these results indicate a contribution of GABP factors to the Raf-mediated enhancement of IL-2 induction during T-cell <clueType>activation</clueType>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E47">
+<type class="Regulation"/>
+<theme idref="E45"/>
+<cause idref="T62"/>
+<clue>In conjunction with previously published data on c-Raf-induced phosphorylation of GABP factors (E.Flory, A. Hoffmeyer, U.Smola, U.R.Rapp, and J.T.Bruder, J.Virol.70:2260- 2268, 1996), these results <clueKT><clueCL>indicate</clueCL></clueKT> a <clueType>contribution</clueType> <linkCause>of</linkCause> GABP factors <linkTheme>to</linkTheme> the Raf-mediated enhancement of IL-2 induction <clueTime>during T-cell activation</clueTime>.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

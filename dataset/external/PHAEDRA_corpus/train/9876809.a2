@@ -1,0 +1,19 @@
+T6	DDI 716 727	interaction
+T19	Adverse_effect 12 19	induced
+T20	Adverse_effect 81 88	induced
+T25	Adverse_effect 142 151	developed
+T27	Potential_therapeutic_effect 478 490	rechallenged
+R1	Coreference Arg1:T28 Arg2:T17
+E2	DDI:T6 has_cue:T31 has_participant:T15 has_participant:T16
+E10	Combination:T30 has_participant:T15 has_participant:T16
+E3	Adverse_effect:T19 has_agent:T1 affects:T2
+E4	Adverse_effect:T20 has_agent:T4 affects:T5
+E6	Adverse_effect:T25 has_subject:T17 affects:T21 affects:T23 has_agent:T7
+E8	Potential_therapeutic_effect:T27 has_agent:T12 has_subject:T28
+A2	Manner E2
+T3	Adverse_effect 691 710	potentially serious
+E1	Adverse_effect:T3 has_agent:E2 has_cue:T9
+A1	Speculated E1
+T14	Adverse_effect 787 794	monitor
+E5	Adverse_effect:T14 has_cue:T24 affects:T18 has_agent:E10
+A3	Speculated E5

@@ -1,0 +1,87 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8621480" created="07/11/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8621480</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">A hydrophobic domain of <term id="T1" lex="Ca2+-modulating_cyclophilin_ligand" sem="Protein_molecule"><term id="T2" lex="Ca2+" sem="Element">Ca2+</term>-modulating cyclophilin ligand</term> modulates <term id="A1" sem="Element">calcium</term> influx signaling in <term id="A2" sem="Cell_natural">T lymphocytes</term>.</sentence>
+<event id="E1">
+<type class="Localization"/>
+<theme idref="A1"/>
+<clue>A hydrophobic domain of Ca2+-modulating cyclophilin ligand modulates calcium <clueType>influx</clueType> signaling in T lymphocytes.</clue>
+</event>
+<event id="E2">
+<type class="Regulation"/>
+<theme idref="E1"/>
+<cause idref="T1"/>
+<clue>A hydrophobic domain of Ca2+-modulating cyclophilin ligand <clueType>modulates</clueType> calcium influx signaling <clueLoc>in T lymphocytes</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T3" lex="Ca2+-modulating_cyclophilin_ligand" sem="Protein_molecule"><term id="T4" lex="Ca2+" sem="Element">Ca2+</term>-modulating cyclophilin ligand</term> (<term id="T5" lex="CAML" sem="Protein_molecule">CAML</term>) was originally described as a <term id="T6" lex="cyclophilin_B-binding_protein" sem="Protein_family_or_group">cyclophilin B-binding protein</term> whose overexpression in <term id="T7" lex="T_cell" sem="Cell_natural">T cells</term> causes a rise in <term id="T8" lex="intracellular_calcium" sem="Element">intracellular <term id="A3" sem="Element">calcium</term></term>, thus activating <term id="T9" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term> responsible for the <term id="T10" lex="early_immune_response" sem="Other">early immune response</term>.</sentence>
+<event KT="Other" id="E3">
+<type class="Gene_expression"/>
+<theme idref="T5"/>
+<clue>Ca2+-modulating cyclophilin ligand (CAML) was originally described as a <corefTheme>cyclophilin B-binding protein whose</corefTheme> <clueType>overexpression</clueType> <clueLoc>in T cells</clueLoc> causes a rise in intracellular calcium, thus activating transcription factors responsible for the early immune response.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<clue>Ca2+-modulating cyclophilin ligand (CAML) was originally described as a cyclophilin B-binding protein whose <clueType>overexpression</clueType> in T cells causes a rise in intracellular calcium, thus activating transcription factors responsible for the early immune response.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<cause idref="E4"/>
+<clue>Ca2+-modulating cyclophilin ligand (CAML) was <clueSource>originally</clueSource> <clueKT>described</clueKT> as a cyclophilin B-binding protein whose overexpression in T cells <clueType>causes a rise</clueType> <linkTheme>in</linkTheme> <clueLoc>intracellular</clueLoc> calcium, thus activating transcription factors responsible for the early immune response.</clue>
+</event>
+<event KT="Analysis" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="T9"/>
+<cause idref="E5"/>
+<clue>Ca2+-modulating cyclophilin ligand (CAML) was originally described as a cyclophilin B-binding protein whose overexpression in T cells causes a rise in intracellular calcium, <linkCause><clueKT>thus</clueKT></linkCause> <clueType>activating</clueType> transcription factors responsible for the early immune response.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T10"/>
+<cause idref="T9"/>
+<clue>Ca2+-modulating cyclophilin ligand (CAML) was originally described as a cyclophilin B-binding protein whose overexpression in T cells causes a rise in intracellular calcium, thus activating transcription factors <clueType>responsible</clueType> <linkTheme>for</linkTheme> the early immune response.</clue>
+</event>
+<sentence id="S3">As reported here, structure-function analysis of the <term id="T11" lex="CAML_gene" sem="DNA_domain_or_region"><term id="T12" lex="CAML" sem="Protein_molecule">CAML</term> gene</term> in <term id="T13" lex="Jurkat_T_cell" sem="Cell_cultured">Jurkat T cells</term> indicates that two of <term id="T14" lex="CAML" sem="Protein_molecule">CAML</term>&apos;s <term id="T15" lex="putative_membrane-spanning_domain" sem="Protein_domain_or_region">putative membrane-spanning domains</term> are necessary and sufficient for the modulation of <term id="T16" lex="intracellular_calcium" sem="Element">intracellular <term id="A4" sem="Element">calcium</term></term>.</sentence>
+<event KT="Other" id="E8">
+<type class="Regulation"/>
+<theme idref="A4"/>
+<clue>As reported here, structure-function analysis of the CAML gene in Jurkat T cells indicates that two of CAML&apos;s putative membrane-spanning domains are necessary and sufficient for the <clueType>modulation</clueType> <linkTheme>of</linkTheme> <clueLoc>intracellular</clueLoc> calcium.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="T15"/>
+<clue>As <clueKT>reported</clueKT> here, <clueExperiment>structure-function analysis of the CAML gene in Jurkat T cells</clueExperiment> <clueCL>indicates</clueCL> that two of CAML&apos;s putative membrane-spanning domains are <clueType>necessary and sufficient</clueType> <linkTheme>for</linkTheme> the modulation of intracellular calcium.</clue>
+</event>
+<sentence id="S4">We propose that the <term id="T17" lex="hydrophobic_C-terminal_tail" sem="Protein_domain_or_region">hydrophobic C-terminal tail</term> of <term id="T18" lex="CAML" sem="Protein_molecule">CAML</term> forms its effector domain, thus implicating the <term id="T19" lex="N-terminal_hydrophilic_domain" sem="Protein_domain_or_region">N-terminal hydrophilic domain</term> in a regulatory role.</sentence>
+<event KT="Analysis" id="E10">
+<type class="Regulation"/>
+<theme idref="A4"/>
+<cause idref="T17"/>
+<clue>We <clueKT>propose</clueKT> that the hydrophobic C-terminal tail of CAML <clueType>forms</clueType> <corefCause>its</corefCause> <clueType>effector</clueType> domain, thus implicating the N-terminal hydrophilic domain in a regulatory role.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event KT="Analysis" id="E11">
+<type class="Regulation"/>
+<theme idref="E10"/>
+<cause idref="T19"/>
+<clue>We propose that the hydrophobic C-terminal tail of CAML forms its effector domain, <clueKT>thus</clueKT> <clueType>implicating</clueType> the N-terminal hydrophilic domain <clueType>in a regulatory role</clueType>.</clue>
+</event>
+<sentence id="S5">These findings define a <term id="T20" lex="novel_protein_motif" sem="Protein_substructure">novel protein motif</term> that functions in <term id="T21" lex="intracellular_calcium_signaling" sem="Other"><term id="T22" lex="intracellular_calcium" sem="Element">intracellular <term id="A5" sem="Element">calcium</term></term> signaling</term>.</sentence>
+<event KT="Other" id="E12">
+<type class="Cell_communication"/>
+<theme idref="A5"/>
+<clue>These findings define a novel protein motif that functions in <clueLoc>intracellular</clueLoc> calcium <clueType>signaling</clueType>.</clue>
+</event>
+<event KT="Analysis" id="E13">
+<type class="Regulation"/>
+<theme idref="E12"/>
+<cause idref="T20"/>
+<clue>These findings <clueKT>define</clueKT> a novel protein motif that <clueType>functions</clueType> <linkTheme>in</linkTheme> intracellular calcium signaling.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

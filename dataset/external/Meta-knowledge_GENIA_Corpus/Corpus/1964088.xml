@@ -1,0 +1,185 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1964088" created="06/03/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1964088</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Suppression of <term id="A1" sem="Protein_domain_or_region">signals</term> required for activation of <term id="T1" lex="transcription_factor_NF-kappa_B" sem="Protein_molecule">transcription factor <term id="T2" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term></term> in cells constitutively expressing the <term id="T3" lex="HTLV-I_Tax_protein" sem="Protein_molecule">HTLV-I Tax protein</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Gene_expression"/>
+<theme idref="T3"/>
+<clue>Suppression of signals required for activation of transcription factor NF-kappa B <clueLoc>in cells</clueLoc> constitutively <clueType>expressing</clueType> the HTLV-I Tax protein.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="T2"/>
+<clue>Suppression of signals required for <clueType>activation</clueType> <linkTheme>of</linkTheme> transcription factor NF-kappa B <clueLoc>in cells constitutively expressing the HTLV-I Tax protein</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="A1"/>
+<clue>Suppression of signals <clueType>required</clueType> <linkTheme>for</linkTheme> activation of transcription factor NF-kappa B in cells constitutively expressing the HTLV-I Tax protein.</clue>
+</event>
+<event KT="Investigation" id="E4">
+<type class="Negative_regulation"/>
+<theme idref="E3"/>
+<clue><clueType>Suppression</clueType> <linkTheme>of</linkTheme> signals required for activation of transcription factor NF-kappa B in cells constitutively expressing the HTLV-I Tax protein.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Transient short-term expression of the <term id="T4" lex="Tax_protein" sem="Protein_molecule">Tax protein</term> of <term id="T5" lex="human_T-cell_leukemia_virus_type-I" sem="Virus">human T-cell leukemia virus type-I</term> (<term id="T6" lex="HTLV-I" sem="Virus">HTLV-I</term>) leads to activation of the pleiotropic <term id="T7" lex="transcription_factor_NF-kappa_B" sem="Protein_molecule">transcription factor <term id="T8" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term></term>.</sentence>
+<event KT="Other" id="E5">
+<type class="Gene_expression"/>
+<theme idref="T4"/>
+<clue>Transient short-term <clueType>expression</clueType> <linkTheme>of</linkTheme> the Tax protein of human T-cell leukemia virus type-I (HTLV-I) leads to activation of the pleiotropic transcription factor NF-kappa B.</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="T8"/>
+<cause idref="E5"/>
+<clue>Transient short-term expression of the Tax protein of human T-cell leukemia virus type-I (HTLV-I) <clueType>leads to activation</clueType> <linkTheme>of</linkTheme> the pleiotropic transcription factor NF-kappa B.</clue>
+</event>
+<sentence id="S3">Consistent with findings obtained with <term id="T9" lex="transient_expression_assay" sem="Other">transient expression assays</term>, we observed marked accumulation of the <term id="T10" lex="transcription_factor_NF-kappa_B" sem="Protein_molecule">transcription factor <term id="T11" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term></term> in the nucleus of <term id="T12" lex="Namalwa_B_lymphoid_cell" sem="Cell_cultured">Namalwa B lymphoid cells</term>, which constitutively express <term id="T13" lex="Tax" sem="Protein_molecule">Tax</term>.</sentence>
+<event Manner="High" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T11"/>
+<clue>Consistent with findings obtained with <clueExperiment>transient expression assays</clueExperiment>, we <clueKT>observed</clueKT> <clueManner>marked</clueManner> <clueType>accumulation</clueType> <linkTheme>of</linkTheme> the transcription factor NF-kappa B <clueLoc>in the nucleus</clueLoc> of Namalwa B lymphoid cells, which constitutively express Tax.</clue>
+</event>
+<event KT="Fact" id="E8">
+<type class="Gene_expression"/>
+<theme idref="T13"/>
+<clue>Consistent with findings obtained with transient expression assays, we observed marked accumulation of the transcription factor NF-kappa B in the nucleus of <clueLoc>Namalwa B lymphoid cells</clueLoc>, which constitutively <clueType>express</clueType> Tax.</clue>
+</event>
+<sentence id="S4">In contrast, <term id="T14" lex="NF-kappa_B_activity" sem="Other"><term id="T15" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> activity</term> was not detected in the nucleus following long-term expression of <term id="T16" lex="Tax" sem="Protein_molecule">Tax</term> in <term id="T17" lex="Jurkat_T_lymphocyte" sem="Cell_cultured">Jurkat T lymphocytes</term>.</sentence>
+<event id="E9">
+<type class="Gene_expression"/>
+<theme idref="T16"/>
+<clue>In contrast, NF-kappa B activity was not detected in the nucleus following long-term <clueType>expression</clueType> <linkTheme>of</linkTheme> Tax <clueLoc>in Jurkat T lymphocytes</clueLoc>.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="T15"/>
+<clue>In contrast, NF-kappa B <clueType>activity</clueType> was <cluePolarity>not</cluePolarity> <clueType><clueKT>detected</clueKT></clueType> <clueLoc>in the nucleus</clueLoc> following long-term expression of Tax in Jurkat T lymphocytes.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="E9"/>
+<clue>In contrast, NF-kappa B activity was not detected in the nucleus <linkCause>following</linkCause> long-term expression of Tax in Jurkat T lymphocytes.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S5">The ability of both <term id="T18" lex="mitogen" sem="Other">mitogens</term> and <term id="T19" lex="cytokine" sem="Protein_molecule">cytokines</term> to activate <term id="T20" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> was also blocked in <term id="T21" lex="Jurkat_cell" sem="Cell_cultured">Jurkat cells</term> constitutively expressing <term id="T22" lex="Tax" sem="Protein_molecule">Tax</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="T20"/>
+<cause idref="T18"/>
+<clue>The <clueKT><clueCL>ability</clueCL></clueKT> <linkCause>of</linkCause> both mitogens and cytokines to <clueType>activate</clueType> NF-kappa B was also blocked in Jurkat cells constitutively expressing Tax.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="T20"/>
+<cause idref="T19"/>
+<clue>The <clueKT><clueCL>ability</clueCL></clueKT> <linkCause>of</linkCause> both mitogens and cytokines to <clueType>activate</clueType> NF-kappa B was also blocked in Jurkat cells constitutively expressing Tax.</clue>
+</event>
+<event id="E13">
+<type class="Gene_expression"/>
+<theme idref="T22"/>
+<clue>The ability of both mitogens and cytokines to activate NF-kappa B was also blocked <clueLoc>in Jurkat cells</clueLoc> constitutively <clueType>expressing</clueType> Tax.</clue>
+</event>
+<event id="E14">
+<type class="Negative_regulation"/>
+<theme idref="E11"/>
+<cause idref="E13"/>
+<clue>The ability of both mitogens and cytokines to activate NF-kappa B was also <clueType>blocked</clueType> in Jurkat cells constitutively expressing Tax.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation"/>
+<theme idref="E12"/>
+<cause idref="E13"/>
+<clue>The ability of both mitogens and cytokines to activate NF-kappa B was also <clueType>blocked</clueType> in Jurkat cells constitutively expressing Tax.</clue>
+</event>
+<sentence id="S6">However, the activation of other <term id="T23" lex="mitogen-inducible_transcription_factor" sem="Protein_family_or_group">mitogen-inducible transcription factors</term>, such as <term id="T24" lex="Fos" sem="Protein_molecule">Fos</term> and <term id="T25" lex="Jun" sem="Protein_molecule">Jun</term>, was unaffected.</sentence>
+<event id="E15">
+<type class="Positive_regulation"/>
+<theme idref="T24"/>
+<clue>However, the <clueType>activation</clueType> <linkTheme>of</linkTheme> <corefTheme>other mitogen-inducible transcription factors</corefTheme>, such as Fos and Jun, was unaffected.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T25"/>
+<clue>However, the <clueType>activation</clueType> <linkTheme>of</linkTheme> <corefTheme>other mitogen-inducible transcription factors</corefTheme>, such as Fos and Jun, was unaffected.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E17">
+<type class="Negative_regulation"/>
+<theme idref="E15"/>
+<cause idref="E13"/>
+<clue>However, the activation of other mitogen-inducible transcription factors, such as Fos and Jun, was <clueType><cluePolarity>unaffected</cluePolarity></clueType>.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E18">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<cause idref="E13"/>
+<clue>However, the activation of other mitogen-inducible transcription factors, such as Fos and Jun, was <clueType><cluePolarity>unaffected</cluePolarity></clueType>.</clue>
+</event>
+<sentence id="S7">Thus, depending on the <term id="T26" lex="cellular_environment" sem="Other">cellular environment</term>, the short- and long-term effects of <term id="T27" lex="Tax_expression" sem="Other"><term id="T28" lex="Tax" sem="Protein_molecule">Tax</term> expression</term> can be quite different.</sentence>
+<event KT="Other" id="E19">
+<type class="Gene_expression"/>
+<theme idref="T28"/>
+<clue>Thus, depending on the cellular environment, the short- and long-term effects of Tax <clueType>expression</clueType> can be quite different.</clue>
+</event>
+<event KT="Other" id="E28">
+<type class="Regulation"/>
+<theme idref="E19"/>
+<cause idref="T26"/>
+<clue>Thus, <clueType>depending</clueType> <linkCause>on</linkCause> the cellular environment, the short- and long-term effects of Tax expression can be quite different.</clue>
+</event>
+<sentence id="S8">Consequently, one function of <term id="T29" lex="Tax" sem="Protein_molecule">Tax</term> in <term id="A2" sem="Cell_cultured">cells</term> infected with <term id="T30" lex="HTLV-I" sem="Virus">HTLV-I</term> might involve <term id="T31" lex="cell-type-specific_suppression" sem="Other">cell-type-specific suppression</term>, as opposed to activation, of <term id="T32" lex="distinct_signal_pathways" sem="Other">distinct signal pathways</term>.</sentence>
+<event KT="Other" id="E20">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="A2"/>
+<theme idref="T30"/>
+<clue>Consequently, one function of Tax in cells <clueType>infected</clueType> <linkTheme>with</linkTheme> HTLV-I might involve cell-type-specific suppression, as opposed to activation, of distinct signal pathways.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E31" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E20"/>
+<cause idref="E21"/>
+<clue><clueKT>Consequently</clueKT>, one function of Tax in cells infected with HTLV-I <clueCL>might</clueCL> <clueType>involve</clueType> cell-type-specific suppression, as opposed to activation, of distinct signal pathways.</clue>
+</event>
+<event KT="Other" id="E21" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="T32"/>
+<cause idref="T29"/>
+<clue>Consequently, one function of Tax <clueLoc>in cells infected with HTLV-I</clueLoc> might involve cell-type-specific <clueType>suppression</clueType>, as opposed to activation, <linkTheme>of</linkTheme> distinct signal pathways.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="T32"/>
+<clue>Consequently, one function of Tax in cells infected with HTLV-I might involve cell-type-specific suppression, as opposed to <clueType>activation</clueType>, <linkTheme>of</linkTheme> distinct signal pathways.</clue>
+</event>
+<event KT="Other" id="E23">
+<type class="Negative_regulation"/>
+<theme idref="E22"/>
+<cause idref="T29"/>
+<clue>Consequently, one function of Tax in cells infected with HTLV-I might involve cell-type-specific suppression, as <clueType>opposed</clueType> <linkTheme>to</linkTheme> activation, of distinct signal pathways.</clue>
+</event>
+<sentence id="S9">The cells lines described here should be useful for the delineation of <term id="A3" sem="Other">signaling pathways</term> utilized in the selective regulation of <term id="T33" lex="gene_expression" sem="Other">gene expression</term>.</sentence>
+<event KT="Investigation" id="E24">
+<type class="Negative_regulation"/>
+<theme idref="E26"/>
+<cause idref="T12"/>
+<clue><corefCause>The cells lines described here</corefCause> should be useful for the <clueType>delineation</clueType> <linkTheme>of</linkTheme> signaling pathways utilized in the selective regulation of gene expression.</clue>
+</event>
+<event KT="Investigation" id="E25">
+<type class="Negative_regulation"/>
+<theme idref="E26"/>
+<cause idref="T17"/>
+<clue><corefCause>The cells lines described here</corefCause> should be useful for the <clueType>delineation</clueType> <linkTheme>of</linkTheme> signaling pathways utilized in the selective regulation of gene expression.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Regulation"/>
+<theme idref="T33"/>
+<cause idref="A3"/>
+<clue>The cells lines described here should be useful for the delineation of signaling pathways utilized in the selective <clueType>regulation</clueType> <linkTheme>of</linkTheme> gene expression.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

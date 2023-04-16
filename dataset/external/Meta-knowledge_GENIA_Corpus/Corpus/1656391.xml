@@ -1,0 +1,60 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1656391" created="11/03/2007" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1656391</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">An <term id="T1" lex="erythroid_specific_enhancer" sem="DNA_domain_or_region">erythroid specific enhancer</term> upstream to the gene encoding the <term id="T2" lex="cell-type_specific_transcription_factor" sem="Protein_domain_or_region">cell-type specific <term id="T3" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term></term> <term id="T4" lex="GATA-1" sem="Protein_molecule">GATA-1</term>.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T5" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> <term id="T6" lex="GATA-1" sem="Protein_molecule">GATA-1</term> is expressed in a subset of <term id="T7" lex="hemopoietic_cell" sem="Cell_natural">hemopoietic cells</term>, where it mediates the <term id="T8" lex="cell-type_specific_expression" sem="Other">cell-type specific expression</term> of <term id="A1" sem="DNA_family_or_group">several genes</term>.</sentence>
+<event KT="Fact" id="E1">
+<type class="Gene_expression"/>
+<theme idref="T6"/>
+<clue>The transcription factor GATA-1 is <clueType>expressed</clueType> <clueLoc>in a subset of hemopoietic cells</clueLoc>, where it mediates the cell-type specific expression of several genes.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Gene_expression"/>
+<theme idref="A1"/>
+<clue>The transcription factor GATA-1 is expressed in a subset of hemopoietic cells, where it mediates the cell-type specific <clueType>expression</clueType> <linkTheme>of</linkTheme> several genes.</clue>
+</event>
+<event KT="Fact" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="T6"/>
+<clue>The transcription factor GATA-1 is expressed in a subset of hemopoietic cells, where it <clueType>mediates</clueType> the cell-type specific expression of several genes.</clue>
+</event>
+<sentence id="S3">We have cloned the mouse and human <term id="T9" lex="GATA-1_gene" sem="DNA_family_or_group">GATA-1 genes</term>.</sentence>
+<sentence id="S4">A <term id="A2" sem="DNA_domain_or_region">region upstream to the first exon</term>, and highly conserved between <term id="T10" lex="mouse" sem="Multicellular_organism_natural">mouse</term> and <term id="T11" lex="man" sem="Multicellular_organism_natural">man</term>, acts as an <term id="T12" lex="erythroid_specific_enhancer" sem="DNA_substructure">erythroid specific enhancer</term> in <term id="T13" lex="transient_assay" sem="Other">transient assays</term>, if linked to the <term id="T14" lex="GATA-1" sem="Protein_molecule">GATA-1</term> or to the <term id="T15" lex="SV40_promoter" sem="DNA_substructure">SV40 <term id="A3" sem="DNA_domain_or_region">promoter</term></term>.</sentence>
+<event KT="Method" id="E4">
+<type class="Artificial_process"/>
+<theme idref="A2"/>
+<theme idref="T14" idref1="A3"/>
+<clue>A region upstream to the first exon, and highly conserved between mouse and man, acts as an erythroid specific enhancer in transient assays, if <clueType>linked</clueType> <linkTheme>to</linkTheme> the GATA-1 or to the SV40 promoter.</clue>
+</event>
+<event KT="Method" id="E5">
+<type class="Artificial_process"/>
+<theme idref="A2"/>
+<theme idref="T15"/>
+<clue>A region upstream to the first exon, and highly conserved between mouse and man, acts as an erythroid specific enhancer in transient assays, if <clueType>linked</clueType> <linkTheme>to</linkTheme> the GATA-1 or to the SV40 promoter.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation"/>
+<cause idref="A2"/>
+<cause idref="E4"/>
+<clue>A region upstream to the first exon, and highly conserved between mouse and man, <clueType>acts as</clueType> an <clueLoc>erythroid</clueLoc> specific <clueType>enhancer</clueType> <clueExperiment>in transient assays</clueExperiment>, if linked to the GATA-1 or to the SV40 promoter.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation"/>
+<cause idref="A2"/>
+<cause idref="E5"/>
+<clue>A region upstream to the first exon, and highly conserved between mouse and man, <clueType>acts as</clueType> an <clueLoc>erythroid</clueLoc> specific <clueType>enhancer</clueType> <clueExperiment>in transient assays</clueExperiment>, if linked to the GATA-1 or to the SV40 promoter.</clue>
+</event>
+<sentence id="S5">The activity of the enhancer is almost completely dependent on the integrity of a <term id="T16" lex="dimeric_GATA-1_binding_site" sem="DNA_domain_or_region">dimeric GATA-1 binding site</term>.</sentence>
+<event id="E8">
+<type class="Positive_regulation"/>
+<theme idref="A2"/>
+<cause idref="T16"/>
+<clue>The activity of <corefTheme>the enhancer</corefTheme> is almost completely <clueType>dependent</clueType> <linkTheme>on</linkTheme> the integrity of a dimeric GATA-1 binding site.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

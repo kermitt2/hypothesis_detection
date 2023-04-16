@@ -1,0 +1,11 @@
+T12	DDI 0 11	Interaction
+T15	Adverse_effect 207 214	induced
+T20	Potential_therapeutic_effect 355 369	anticoagulated
+T21	Adverse_effect 301 303	in
+R1	Subject_Disorder Arg1:T14 Arg2:T3
+R2	Subject_Disorder Arg1:T18 Arg2:T19
+E3	DDI:T12 has_participant:T1 has_participant:T2 has_subject:T13
+E4	DDI:T12 has_participant:T1 has_participant:T2 has_subject:T14
+E5	Adverse_effect:T15 affects:T6 has_agent:T5
+E7	Potential_therapeutic_effect:T20 has_agent:T9 has_subject:T18
+E8	Adverse_effect:T21 affects:T8 has_agent:T4

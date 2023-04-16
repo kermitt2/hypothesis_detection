@@ -1,0 +1,131 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7543076" created="24/04/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7543076</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="lipopolysaccharide-induced_E-selectin_expression" sem="Other"><term id="T2" lex="lipopolysaccharide" sem="Lipid">Lipopolysaccharide</term>-induced <term id="T3" lex="E-selectin" sem="Protein_molecule">E-selectin</term> expression</term> requires continuous presence of <term id="T4" lex="LPS" sem="Lipid">LPS</term> and is inhibited by <term id="T5" lex="bactericidal/permeability-increasing_protein" sem="Protein_family_or_group">bactericidal/permeability-increasing protein</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="T2"/>
+<clue>Lipopolysaccharide-<clueType>induced</clueType> E-selectin expression requires continuous presence of LPS and is inhibited by bactericidal/permeability-increasing protein.</clue>
+</event>
+<event id="E12">
+<type class="Gene_expression"/>
+<theme idref="T3"/>
+<clue>Lipopolysaccharide-induced E-selectin <clueType>expression</clueType> requires continuous presence of LPS and is inhibited by bactericidal/permeability-increasing protein.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T4"/>
+<clue>Lipopolysaccharide-induced E-selectin expression <clueType>requires</clueType> continuous <linkCause>presence of</linkCause> LPS and is inhibited by bactericidal/permeability-increasing protein.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation"/>
+<theme idref="E1"/>
+<cause idref="T5"/>
+<clue>Lipopolysaccharide-induced E-selectin expression requires continuous presence of LPS and is <clueType>inhibited</clueType> <linkCause>by</linkCause> bactericidal/permeability-increasing protein.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T6" lex="endothelial_cell" sem="Cell_natural">Endothelial cells</term> stimulated by <term id="T7" lex="LPS" sem="Lipid">LPS</term> express <term id="T8" lex="E-selectin" sem="Protein_molecule">E-selectin</term>, which plays an important role in mediating <term id="T9" lex="neutrophil_adhesion" sem="Other"><term id="T10" lex="neutrophil" sem="Cell_natural">neutrophil</term> adhesion</term> during <term id="T11" lex="inflammation" sem="Other">inflammation</term>.</sentence>
+<event id="E4">
+<type class="Physiological_process"/>
+<theme idref="T6"/>
+<cause idref="T7"/>
+<clue>Endothelial cells <clueType>stimulated</clueType> <linkCause>by</linkCause> LPS express E-selectin, which plays an important role in mediating neutrophil adhesion during inflammation.</clue>
+</event>
+<event id="E5">
+<type class="Gene_expression"/>
+<theme idref="T8"/>
+<clue><clueLoc>Endothelial cells stimulated by LPS</clueLoc> <clueType>express</clueType> E-selectin, which plays an important role in mediating neutrophil adhesion during inflammation.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Cell_adhesion"/>
+<theme idref="T10"/>
+<clue>Endothelial cells stimulated by LPS express E-selectin, which plays an important role in mediating neutrophil <clueType>adhesion</clueType> <clueTime>during inflammation</clueTime>.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="T8"/>
+<clue>Endothelial cells stimulated by LPS express E-selectin, which plays an important role in <clueType>mediating</clueType> neutrophil adhesion during inflammation.</clue>
+</event>
+<sentence id="S3"><term id="T12" lex="E-selectin" sem="Protein_molecule">E-selectin</term> is induced within 1-2 h, peaks at 4-6 h, and gradually returns to basal level by 24 h.</sentence>
+<event id="E8">
+<type class="Gene_expression"/>
+<theme idref="T12"/>
+<clue>E-selectin is <clueType>induced</clueType> <clueTime>within 1-2 h, peaks at 4-6 h, and gradually returns to basal level by 24 h</clueTime>.</clue>
+<comment>CAUTION: TYPE from the context</comment></event>
+<sentence id="S4"><term id="T13" lex="rBPI21" sem="Protein_molecule">rBPI21</term>, a <term id="T14" lex="recombinant_N-terminal_fragment" sem="Protein_family_or_group">recombinant N-terminal fragment</term> of <term id="T15" lex="human_bactericidal/permeability-increasing_protein" sem="Protein_molecule">human bactericidal/permeability-increasing protein</term> (<term id="T16" lex="BPI" sem="Protein_molecule">BPI</term>), inhibited <term id="T17" lex="LPS-induced_E-selectin_expression" sem="Other"><term id="T18" lex="LPS" sem="Lipid">LPS</term>-induced <term id="T19" lex="E-selectin" sem="Protein_molecule">E-selectin</term> expression</term> when added at the same time as, and up to 6 h after, <term id="T20" lex="LPS" sem="Lipid">LPS</term>.</sentence>
+<event KT="Other" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="T18"/>
+<clue>rBPI21, a recombinant N-terminal fragment of human bactericidal/permeability-increasing protein (BPI), inhibited LPS-<clueType>induced</clueType> E-selectin expression when added at the same time as, and up to 6 h after, LPS.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Gene_expression"/>
+<theme idref="T19"/>
+<clue>rBPI21, a recombinant N-terminal fragment of human bactericidal/permeability-increasing protein (BPI), inhibited LPS-induced E-selectin <clueType>expression</clueType> when added at the same time as, and up to 6 h after, LPS.</clue>
+</event>
+<event id="E10">
+<type class="Negative_regulation"/>
+<theme idref="E9"/>
+<cause idref="T13"/>
+<clue>rBPI21, a recombinant N-terminal fragment of human bactericidal/permeability-increasing protein (BPI), <clueType>inhibited</clueType> LPS-induced E-selectin expression <clueExperiment>when added at the same time as, and up to 6 h after, LPS</clueExperiment>.</clue>
+</event>
+<sentence id="S5">Delayed administration of <term id="T21" lex="rBPI21" sem="Protein_molecule">rBPI21</term> also affected <term id="T22" lex="LPS-mediated_activation" sem="Other"><term id="T23" lex="LPS" sem="Lipid">LPS</term>-mediated activation</term> of the <term id="T24" lex="nuclear_factor" sem="Protein_family_or_group">nuclear factor</term>, <term id="T25" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>.</sentence>
+<event id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T25"/>
+<cause idref="T23"/>
+<clue>Delayed administration of rBPI21 also affected LPS<linkCause>-mediated</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> the nuclear factor, NF-kappa B.</clue>
+</event>
+<event id="E14">
+<type class="Regulation"/>
+<theme idref="T21"/>
+<cause idref="E15"/>
+<clue><clueExperiment>Delayed administration</clueExperiment> of rBPI21 also <clueType>affected</clueType> LPS-mediated activation of the nuclear factor, NF-kappa B.</clue>
+</event>
+<sentence id="S6">Two to 4 h following <term id="T26" lex="LPS" sem="Lipid">LPS</term> addition to <term id="T27" lex="endothelial_cell" sem="Cell_natural">endothelial cells</term>, when <term id="T28" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> was already activated, addition of <term id="T29" lex="rBPI21" sem="Protein_molecule">rBPI21</term> resulted in marked reduction of <term id="T30" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> detectable at 4 or 6 h.</sentence>
+<event Manner="High" id="E15">
+<type class="Negative_regulation"/>
+<theme idref="T30"/>
+<cause idref="T29"/>
+<clue><clueTime>Two to 4 h following LPS addition to endothelial cells</clueTime>, when NF-kappa B was already activated, addition of rBPI21 resulted in <clueManner>marked</clueManner> <clueType>reduction</clueType> <linkTheme>of</linkTheme> NF-kappa B detectable <clueTime>at 4 or 6 h</clueTime>.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T28"/>
+<cause idref="T26"/>
+<clue>Two to 4 h following LPS addition to <clueLoc>endothelial cells</clueLoc>, when NF-kappa B was already <clueType>activated</clueType>, addition of rBPI21 resulted in marked reduction of NF-kappa B detectable at 4 or 6 h.</clue>
+</event>
+<sentence id="S7">These results indicate that <term id="T31" lex="endothelial_activation" sem="Other">endothelial activation</term> requires continuous presence of <term id="T32" lex="LPS" sem="Lipid">LPS</term>, and <term id="T33" lex="rBPI21" sem="Protein_molecule">rBPI21</term> acts to reverse <term id="T34" lex="LPS-mediated_endothelial_activation" sem="Other"><term id="T35" lex="LPS" sem="Lipid">LPS</term>-mediated endothelial activation</term> by interrupting the <term id="T36" lex="on-going_LPS_signal" sem="Other">on-going <term id="T37" lex="LPS" sem="Lipid">LPS</term> signal</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="T31"/>
+<cause idref="T32"/>
+<clue>These results <clueKT><clueCL>indicate</clueCL></clueKT> that endothelial activation <clueType>requires</clueType> continuous <linkCause>presence of</linkCause> LPS, and rBPI21 acts to reverse LPS-mediated endothelial activation by interrupting the on-going LPS signal.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Physiological_process"/>
+<theme idref="T34"/>
+<cause idref="T35"/>
+<clue>These results indicate that endothelial activation requires continuous presence of LPS, and rBPI21 acts to reverse LPS<linkCause>-mediated</linkCause> endothelial <clueType>activation</clueType> by interrupting the on-going LPS signal.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Negative_regulation"/>
+<theme idref="T36"/>
+<cause idref="T33"/>
+<clue>These results indicate that endothelial activation requires continuous presence of LPS, and rBPI21 acts to reverse LPS-mediated endothelial activation by <clueType>interrupting</clueType> the on-going LPS signal.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Negative_regulation"/>
+<theme idref="E18"/>
+<cause idref="E19"/>
+<clue>These results indicate that endothelial activation requires continuous presence of LPS, and rBPI21 acts to <clueType>reverse</clueType> LPS-mediated endothelial activation <linkCause>by</linkCause> interrupting the on-going LPS signal.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

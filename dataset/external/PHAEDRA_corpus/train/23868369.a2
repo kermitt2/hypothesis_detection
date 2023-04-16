@@ -1,0 +1,22 @@
+T22	Adverse_effect 886 895	secondary
+T27	Adverse_effect 1020 1028	the risk
+T34	Adverse_effect 26 36	associated
+T7	Potential_therapeutic_effect 268 275	treated
+T37	Adverse_effect 458 467	presented
+T43	Adverse_effect 788 792	with
+R3	Subject_Disorder Arg1:T1 Arg2:T4
+R4	Subject_Disorder Arg1:T1 Arg2:T5
+R5	Subject_Disorder Arg1:T1 Arg2:T6
+R7	Coreference Arg1:T36 Arg2:T1
+E5	Combination:T33 has_participant:T25 has_participant:T26
+E1	Combination:T19 has_participant:T15 has_participant:T16
+E2	Adverse_effect:T22 has_cue:T29 affects:T23 has_agent:T24 affects:T21 affects:T20
+E3	Adverse_effect:T27 has_cue:T30 affects:T28 has_agent:E5
+E6	Adverse_effect:T34 has_cue:T35 affects:T2 has_agent:T3
+E7	Potential_therapeutic_effect:T7 has_agent:T9 affects:T8 has_subject:T1
+E8	Adverse_effect:T37 affects:T13 affects:T14 has_subject:T36 has_agent:E1
+E12	Adverse_effect:T43 has_agent:T18 has_cue:T44 affects:T45
+A1	Speculated E2
+A2	Speculated E3
+A3	Speculated E6
+A5	Negated E12

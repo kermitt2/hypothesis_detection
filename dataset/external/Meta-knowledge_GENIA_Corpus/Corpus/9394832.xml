@@ -1,0 +1,288 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9394832" created="12/06/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9394832</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="thiol_modulation" sem="Other"><term id="A1" sem="Inorganic_compound">Thiol</term> modulation</term> inhibits the <term id="T3" lex="interleukin_(IL)-1" sem="Protein_molecule">interleukin <term id="A5" sem="Protein_molecule">(IL)-1</term></term>-mediated <term id="T2" sem="Other">activation</term> of an <term id="T4" lex="IL-1_receptor-associated_protein_kinase" sem="Protein_family_or_group">IL-1 receptor-associated protein kinase</term> and <term id="T5" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term>.</sentence>
+<event id="E1">
+<type class="Regulation"/>
+<theme idref="A1"/>
+<clue>Thiol <clueType>modulation</clueType> inhibits the interleukin (IL)-1-mediated activation of an IL-1 receptor-associated protein kinase and NF-kappa B.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation"/>
+<theme idref="E4"/>
+<cause idref="E1"/>
+<clue>Thiol modulation <clueType>inhibits</clueType> the interleukin (IL)-1-mediated activation of an IL-1 receptor-associated protein kinase and NF-kappa B.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation"/>
+<theme idref="E5"/>
+<cause idref="E1"/>
+<clue>Thiol modulation <clueType>inhibits</clueType> the interleukin (IL)-1-mediated activation of an IL-1 receptor-associated protein kinase and NF-kappa B.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T4"/>
+<cause idref="A5"/>
+<clue>Thiol modulation inhibits the interleukin (IL)-1<linkCause>-mediated</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> an IL-1 receptor-associated protein kinase and NF-kappa B.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="T5"/>
+<cause idref="A5"/>
+<clue>Thiol modulation inhibits the interleukin (IL)-1<linkCause>-mediated</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> an IL-1 receptor-associated protein kinase and NF-kappa B.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T6" lex="interleukin-1_receptor_type_I" sem="Protein_molecule">interleukin-1 receptor type I</term> (<term id="T7" lex="IL-1RI" sem="Protein_molecule">IL-1RI</term>) is associated with <term id="A2" sem="Protein_family_or_group">other proteins</term> thus forming a <term id="T8" lex="complex_system" sem="Protein_complex">complex system</term> by which <term id="T9" lex="IL-1" sem="Protein_molecule">IL-1</term> exerts its various signals.</sentence>
+<event KT="Fact" id="E6">
+<type class="Binding"/>
+<theme idref="T7"/>
+<theme idref="A2"/>
+<clue>The interleukin-1 receptor type I (IL-1RI) is <clueType>associated</clueType> <linkTheme>with</linkTheme> other proteins thus forming a complex system by which IL-1 exerts its various signals.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Cell_communication"/>
+<theme idref="T9"/>
+<clue>The interleukin-1 receptor type I (IL-1RI) is associated with other proteins thus forming a complex system by which IL-1 <clueType>exerts</clueType> its various <clueType>signals</clueType>.</clue>
+</event>
+<event KT="Fact" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="E6"/>
+<clue>The interleukin-1 receptor type I (IL-1RI) is associated with other proteins thus <corefCause>forming a complex system</corefCause> <linkCause>by</linkCause> which IL-1 exerts its various signals.</clue>
+</event>
+<sentence id="S3">The <term id="T10" lex="initiating_event" sem="Other">initiating event</term> is still uncertain, but activation of a recently described <term id="T11" lex="receptor-associated_protein_kinase" sem="Protein_family_or_group">receptor-associated protein kinase</term> is one of the earliest events detectable (Martin et al., Eur.J.Immunol.1994.24: 1566).</sentence>
+<event KT="Fact" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="T11"/>
+<clue>The initiating event is still uncertain, but <clueType>activation</clueType> <linkTheme>of</linkTheme> a recently described receptor-associated protein kinase is one of the <clueTime>earliest</clueTime> events detectable (Martin et al., Eur.J.Immunol.1994.24: 1566).</clue>
+</event>
+<sentence id="S4"><term id="T12" lex="IL-1" sem="Protein_molecule">IL-1</term> signaling is commonly accompanied by <term id="T13" lex="oxidative_process" sem="Other">oxidative processes</term> and is thought to be subject to redox regulation.</sentence>
+<event KT="Other" id="E10">
+<type class="Cell_communication"/>
+<theme idref="T12"/>
+<clue>IL-1 <clueType>signaling</clueType> is commonly accompanied by oxidative processes and is thought to be subject to redox regulation.</clue>
+</event>
+<event KT="Analysis" id="E11">
+<type class="Correlation"/>
+<theme idref="E10"/>
+<theme idref="T13"/>
+<clue>IL-1 signaling is <clueKT>commonly</clueKT> <clueType>accompanied</clueType> <linkTheme>by</linkTheme> oxidative processes and is thought to be subject to redox regulation.</clue>
+</event>
+<event KT="Fact" id="E12" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E10"/>
+<clue>IL-1 signaling is commonly accompanied by oxidative processes and is thought to be subject to <clueType>redox regulation</clueType>.</clue>
+</event>
+<sentence id="S5">We therefore investigated whether the activation of the <term id="T14" lex="IL-1RI-associated_protein_kinase" sem="Protein_molecule"><term id="T15" lex="IL-1RI" sem="Protein_molecule">IL-1RI</term>-associated protein kinase</term> could be a target for <term id="T16" lex="redox_regulation" sem="Other"><term id="T31" sem="Other">redox</term> regulation</term> and whether an altered activity of the kinase could influence <term id="T18" lex="IL-1" sem="Protein_molecule">IL-1</term>-mediated <term id="T17" sem="Other"><term id="T19" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> activation</term>.</sentence>
+<event KT="Other" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T14"/>
+<clue>We therefore investigated whether the <clueType>activation</clueType> <linkTheme>of</linkTheme> the IL-1RI-associated protein kinase could be a target for redox regulation and whether an altered activity of the kinase could influence IL-1-mediated NF-kappa B activation.</clue>
+</event>
+<event KT="Investigation" id="E14" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E13"/>
+<cause idref="T16"/>
+<clue>We therefore <clueKT>investigated</clueKT> whether the activation of the IL-1RI-associated protein kinase could be a <clueType>target</clueType> <linkCause>for</linkCause> redox regulation and whether an altered activity of the kinase could influence IL-1-mediated NF-kappa B activation.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Regulation"/>
+<theme idref="T14"/>
+<cause idref="T16"/>
+<clue>We therefore investigated whether the activation of the IL-1RI-associated protein kinase could be a target for redox regulation and whether an <clueType>altered activity</clueType> <linkTheme>of</linkTheme> <corefTheme>the kinase</corefTheme> could influence IL-1-mediated NF-kappa B activation.</clue>
+</event>
+<event KT="Investigation" id="E16" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E17"/>
+<cause idref="E15"/>
+<clue>We therefore <clueKT>investigated</clueKT> whether the activation of the IL-1RI-associated protein kinase could be a target for redox regulation and whether an altered activity of the kinase could <clueType>influence</clueType> IL-1-mediated NF-kappa B activation.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="T19"/>
+<cause idref="T18"/>
+<clue>We therefore investigated whether the activation of the IL-1RI-associated protein kinase could be a target for redox regulation and whether an altered activity of the kinase could influence IL-1<linkCause>-mediated</linkCause> NF-kappa B <clueType>activation</clueType>.</clue>
+</event>
+<sentence id="S6">A <term id="T20" lex="murine_T_cell_line" sem="Cell_cultured">murine T cell line</term>, <term id="T21" lex="EL4" sem="Cell_cultured">EL4</term>, was stimulated with <term id="T22" lex="IL-1" sem="Protein_molecule">IL-1</term> with and without pretreatment with different <term id="A20" sem="Organic_compound_other"><term id="A3" sem="Organic_compound_other">compounds</term> known to influence the <term id="T23" lex="cellular_redox_status" sem="Other">cellular redox status</term></term>.</sentence>
+<event KT="Method" id="E18">
+<type class="Artificial_process"/>
+<theme idref="T21"/>
+<theme idref="A3"/>
+<clue>A murine T cell line, EL4, was stimulated with IL-1 with and without <clueType>pretreatment</clueType> <linkTheme>with</linkTheme> different compounds known to influence the cellular redox status.</clue>
+</event>
+<event KT="Method" Polarity="Negative" assertion="non-exist" id="E19">
+<type class="Artificial_process"/>
+<theme idref="T21"/>
+<theme idref="A3"/>
+<clue>A murine T cell line, EL4, was stimulated with IL-1 with and <cluePolarity>without</cluePolarity> <clueType>pretreatment</clueType> <linkTheme>with</linkTheme> different compounds known to influence the cellular redox status.</clue>
+</event>
+<event id="E20">
+<type class="Physiological_process"/>
+<theme idref="T21"/>
+<cause idref="T22"/>
+<clue>A murine T cell line, EL4, was <clueType>stimulated</clueType> <linkCause>with</linkCause> IL-1 with and without pretreatment with different compounds known to influence the cellular redox status.</clue>
+</event>
+<event id="E21">
+<type class="Physiological_process"/>
+<theme idref="T21"/>
+<cause idref="T22"/>
+<clue>A murine T cell line, EL4, was <clueType>stimulated</clueType> <linkCause>with</linkCause> IL-1 with and without pretreatment with different compounds known to influence the cellular redox status.</clue>
+</event>
+<event KT="Fact" id="E22">
+<type class="Regulation"/>
+<theme idref="T23"/>
+<cause idref="A3"/>
+<clue>A murine T cell line, EL4, was stimulated with IL-1 with and without pretreatment with different compounds <clueKT>known</clueKT> to <clueType>influence</clueType> the cellular redox status.</clue>
+</event>
+<sentence id="S7"><term id="T24" lex="yhiol_modifying_agent" sem="Organic_compound_other">Thiol modifying agents</term> like <term id="T25" lex="diamide" sem="Organic_compound_other">diamide</term>, <term id="T26" lex="menadione" sem="Organic_compound_other">menadione</term>, <term id="T27" lex="pyrrolidine_dithiocarbamate" sem="Organic_compound_other">pyrrolidine dithiocarbamate</term> (<term id="T28" lex="PDTC" sem="Organic_compound_other">PDTC</term>), <term id="T29" lex="diethyl_dithiocarbamate" sem="Organic_compound_other">diethyl dithiocarbamate</term> or <term id="T30" lex="phenylarsine_oxide" sem="Organic_compound_other">phenylarsine oxide</term> inhibited the <term id="T32" lex="IL-1" sem="Protein_molecule">IL-1</term>-induced <term id="T54" sem="Other">activation</term> of the <term id="T33" lex="IL-1RI-associated_protein_kinase" sem="Protein_molecule">IL-1RI-associated protein kinase</term>.</sentence>
+<event KT="Other" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="T33"/>
+<cause idref="T32"/>
+<clue>Thiol modifying agents like diamide, menadione, pyrrolidine dithiocarbamate (PDTC), diethyl dithiocarbamate or phenylarsine oxide inhibited the IL-1<linkCause>-induced</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> the IL-1RI-associated protein kinase.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation"/>
+<theme idref="E23"/>
+<cause idref="T25"/>
+<clue><corefCause>Thiol modifying agents</corefCause> like diamide, menadione, pyrrolidine dithiocarbamate (PDTC), diethyl dithiocarbamate or phenylarsine oxide <clueType>inhibited</clueType> the IL-1-induced activation of the IL-1RI-associated protein kinase.</clue>
+</event>
+<event id="E25">
+<type class="Negative_regulation"/>
+<theme idref="E23"/>
+<cause idref="T26"/>
+<clue><corefCause>Thiol modifying agents</corefCause> like diamide, menadione, pyrrolidine dithiocarbamate (PDTC), diethyl dithiocarbamate or phenylarsine oxide <clueType>inhibited</clueType> the IL-1-induced activation of the IL-1RI-associated protein kinase.</clue>
+</event>
+<event id="E26">
+<type class="Negative_regulation"/>
+<theme idref="E23"/>
+<cause idref="T28"/>
+<clue><corefCause>Thiol modifying agents</corefCause> like diamide, menadione, pyrrolidine dithiocarbamate (PDTC), diethyl dithiocarbamate or phenylarsine oxide <clueType>inhibited</clueType> the IL-1-induced activation of the IL-1RI-associated protein kinase.</clue>
+</event>
+<event id="E27">
+<type class="Negative_regulation"/>
+<theme idref="E23"/>
+<cause idref="T29"/>
+<clue><corefCause>Thiol modifying agents</corefCause> like diamide, menadione, pyrrolidine dithiocarbamate (PDTC), diethyl dithiocarbamate or phenylarsine oxide <clueType>inhibited</clueType> the IL-1-induced activation of the IL-1RI-associated protein kinase.</clue>
+</event>
+<event id="E28">
+<type class="Negative_regulation"/>
+<theme idref="E23"/>
+<cause idref="T30"/>
+<clue><corefCause>Thiol modifying agents</corefCause> like diamide, menadione, pyrrolidine dithiocarbamate (PDTC), diethyl dithiocarbamate or phenylarsine oxide <clueType>inhibited</clueType> the IL-1-induced activation of the IL-1RI-associated protein kinase.</clue>
+</event>
+<sentence id="S8"><term id="T34" lex="N-Acetylcysteine" sem="Amino_acid_monomer">N-Acetylcysteine</term>, <term id="T35" lex="alpha,alpha&apos;-dipyridyl" sem="Organic_compound_other">alpha,alpha&apos;-dipyridyl</term>, <term id="T36" lex="aminotriazole" sem="Organic_compound_other">aminotriazole</term> or <term id="T37" lex="nitrofurantoin" sem="Organic_compound_other">nitrofurantoin</term> did not show any effect.</sentence>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E29">
+<type class="Regulation"/>
+<theme idref="E23"/>
+<cause idref="T34"/>
+<clue>N-Acetylcysteine, alpha,alpha&apos;-dipyridyl, aminotriazole or nitrofurantoin did <cluePolarity>not</cluePolarity> <clueKT>show</clueKT> any <clueType>effect</clueType>.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E30">
+<type class="Regulation"/>
+<theme idref="E23"/>
+<cause idref="T35"/>
+<clue>N-Acetylcysteine, alpha,alpha&apos;-dipyridyl, aminotriazole or nitrofurantoin did <cluePolarity>not</cluePolarity> <clueKT>show</clueKT> any <clueType>effect</clueType>.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E31">
+<type class="Regulation"/>
+<theme idref="E23"/>
+<cause idref="T36"/>
+<clue>N-Acetylcysteine, alpha,alpha&apos;-dipyridyl, aminotriazole or nitrofurantoin did <cluePolarity>not</cluePolarity> <clueKT>show</clueKT> any <clueType>effect</clueType>.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E32">
+<type class="Regulation"/>
+<theme idref="E23"/>
+<cause idref="T37"/>
+<clue>N-Acetylcysteine, alpha,alpha&apos;-dipyridyl, aminotriazole or nitrofurantoin did <cluePolarity>not</cluePolarity> <clueKT>show</clueKT> any <clueType>effect</clueType>.</clue>
+<comment>NO COREFTHEME</comment></event>
+<sentence id="S9">The inhibition by <term id="T38" lex="PDTC" sem="Organic_compound_other">PDTC</term> was reversible unless <term id="T39" lex="glutathione_synthesis" sem="Other"><term id="T40" lex="glutathione" sem="Peptide">glutathione</term> synthesis</term> was blocked by <term id="T41" lex="buthionine_sulfoximine" sem="Organic_compound_other">buthionine sulfoximine</term>.</sentence>
+<event id="E48">
+<type class="Negative_regulation"/>
+<cause idref="T38"/>
+<clue>The <clueType>inhibition</clueType> <linkCause>by</linkCause> PDTC was reversible unless glutathione synthesis was blocked by buthionine sulfoximine.</clue>
+<comment>NO THEME</comment></event>
+<event id="E33" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="E26"/>
+<clue>The inhibition by PDTC was <clueType>reversible</clueType> unless glutathione synthesis was blocked by buthionine sulfoximine.</clue>
+</event>
+<event KT="Other" id="E34">
+<type class="Metabolism"/>
+<theme idref="T40"/>
+<clue>The inhibition by PDTC was reversible unless glutathione <clueType>synthesis</clueType> was blocked by buthionine sulfoximine.</clue>
+</event>
+<event id="E46">
+<type class="Negative_regulation"/>
+<theme idref="E33"/>
+<cause idref="E35"/>
+<clue>The inhibition by PDTC was reversible <linkCause>unless</linkCause> glutathione synthesis was blocked by buthionine sulfoximine.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E35">
+<type class="Negative_regulation"/>
+<theme idref="E34"/>
+<cause idref="T41"/>
+<clue>The inhibition by PDTC was reversible unless glutathione synthesis was <clueType>blocked</clueType> <linkCause>by</linkCause> buthionine sulfoximine.</clue>
+</event>
+<sentence id="S10">The described conditions which inhibited or prevented the activation of the <term id="T42" lex="IL-1RI-associated_kinase" sem="Protein_molecule"><term id="T43" lex="IL-1RI" sem="Protein_molecule">IL-1RI</term>-associated kinase</term> similarly impaired the activation of <term id="T44" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> in <term id="T45" lex="EL4_cell" sem="Cell_cultured">EL4 cells</term>.</sentence>
+<event id="E36">
+<type class="Negative_regulation"/>
+<theme idref="E37"/>
+<cause idref="S7"/>
+<clue>The <corefCause>described conditions</corefCause> which <clueType>inhibited or prevented</clueType> the activation of the IL-1RI-associated kinase similarly impaired the activation of NF-kappa B in EL4 cells.</clue>
+</event>
+<event KT="Other" id="E37">
+<type class="Positive_regulation"/>
+<theme idref="T42"/>
+<clue>The described conditions which inhibited or prevented the <clueType>activation</clueType> <linkTheme>of</linkTheme> the IL-1RI-associated kinase similarly impaired the activation of NF-kappa B in EL4 cells.</clue>
+</event>
+<event id="E38">
+<type class="Negative_regulation"/>
+<theme idref="E39"/>
+<cause idref="S7"/>
+<clue>The <corefCause>described conditions</corefCause> which inhibited or prevented the activation of the IL-1RI-associated kinase similarly <clueType>impaired</clueType> the activation of NF-kappa B in EL4 cells.</clue>
+</event>
+<event KT="Other" id="E39">
+<type class="Positive_regulation"/>
+<theme idref="T44"/>
+<clue>The described conditions which inhibited or prevented the activation of the IL-1RI-associated kinase similarly impaired the <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappa B <clueLoc>in EL4 cells</clueLoc>.</clue>
+</event>
+<sentence id="S11">From these observations we conclude that <term id="A4" sem="Inorganic_compound">free thiols in the <term id="T46" lex="IL-1RI_complex" sem="Protein_complex"><term id="T47" lex="IL-1RI" sem="Protein_molecule">IL-1RI</term> complex</term></term> are essential for the activation of the <term id="T48" lex="IL-1RI-associated_protein_kinase" sem="Protein_molecule"><term id="T49" lex="IL-1RI" sem="Protein_molecule">IL-1RI</term>-associated protein kinase</term> and that this process is mandatory for <term id="T50" lex="IL-1_signaling" sem="Other"><term id="T51" lex="IL-1" sem="Protein_molecule">IL-1</term> signaling</term> leading to <term id="T52" lex="NF-kappa_B_activation" sem="Other"><term id="T53" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> activation</term>.</sentence>
+<event KT="Analysis" id="E40">
+<type class="Positive_regulation"/>
+<theme idref="E41"/>
+<cause idref="A4"/>
+<clue>From these observations we <clueKT>conclude</clueKT> that free thiols in the IL-1RI complex are <clueType>essential</clueType> <linkTheme>for</linkTheme> the activation of the IL-1RI-associated protein kinase and that this process is mandatory for IL-1 signaling leading to NF-kappa B activation.</clue>
+<comment>TPS: A4</comment></event>
+<event KT="Other" id="E41">
+<type class="Positive_regulation"/>
+<theme idref="T48"/>
+<clue>From these observations we conclude that free thiols in the IL-1RI complex are essential for the <clueType>activation</clueType> <linkTheme>of</linkTheme> the IL-1RI-associated protein kinase and that this process is mandatory for IL-1 signaling leading to NF-kappa B activation.</clue>
+</event>
+<event KT="Analysis" id="E42">
+<type class="Positive_regulation"/>
+<theme idref="E43"/>
+<cause idref="E41"/>
+<clue>From these observations we <clueKT>conclude</clueKT> that free thiols in the IL-1RI complex are essential for the activation of the IL-1RI-associated protein kinase and that <corefTheme>this process</corefTheme> is <clueType>mandatory</clueType> <linkTheme>for</linkTheme> IL-1 signaling leading to NF-kappa B activation.</clue>
+</event>
+<event KT="Other" id="E43">
+<type class="Cell_communication"/>
+<theme idref="T51"/>
+<clue>From these observations we conclude that free thiols in the IL-1RI complex are essential for the activation of the IL-1RI-associated protein kinase and that this process is mandatory for IL-1 <clueType>signaling</clueType> leading to NF-kappa B activation.</clue>
+</event>
+<event KT="Other" id="E44">
+<type class="Positive_regulation"/>
+<theme idref="E45"/>
+<cause idref="E43"/>
+<clue>From these observations we conclude that free thiols in the IL-1RI complex are essential for the activation of the IL-1RI-associated protein kinase and that this process is mandatory for IL-1 signaling <clueType>leading</clueType> <linkTheme>to</linkTheme> NF-kappa B activation.</clue>
+</event>
+<event KT="Other" id="E45">
+<type class="Positive_regulation"/>
+<theme idref="T53"/>
+<clue>From these observations we conclude that free thiols in the IL-1RI complex are essential for the activation of the IL-1RI-associated protein kinase and that this process is mandatory for IL-1 signaling leading to NF-kappa B <clueType>activation</clueType>.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

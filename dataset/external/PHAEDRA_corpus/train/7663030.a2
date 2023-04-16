@@ -1,0 +1,22 @@
+T22	Adverse_effect 30 37	induced
+T38	Adverse_effect 132 138	caused
+T23	Adverse_effect 1118 1132	adverse effect
+T47	Adverse_effect 1925 1939	adverse effect
+T49	Adverse_effect 1738 1753	adverse effects
+T51	Adverse_effect 1515 1545	central nervous system effects
+T56	Potential_therapeutic_effect 488 494	taking
+R1	Subject_Disorder Arg1:T39 Arg2:T5
+R2	Subject_Disorder Arg1:T39 Arg2:T6
+R3	Subject_Disorder Arg1:T39 Arg2:T7
+R5	Coreference Arg1:T46 Arg2:T18
+E1	Adverse_effect:T22 affects:T2 has_agent:T1 has_cue:T40
+E2	Adverse_effect:T38 affects:T3 has_agent:T4 has_cue:T42
+E4	Adverse_effect:T23 has_cue:T24 has_agent:T46
+E5	Adverse_effect:T47 has_agent:T37 has_cue:T48
+E6	Adverse_effect:T49 affects:T34 affects:T35 has_agent:T36
+E8	Adverse_effect:T51 has_agent:T41
+E10	Potential_therapeutic_effect:T56 has_agent:T10 affects:T11 affects:T12
+A2	Manner E4 High
+A4	Speculated E5
+A5	Speculated E1
+A6	Speculated E2

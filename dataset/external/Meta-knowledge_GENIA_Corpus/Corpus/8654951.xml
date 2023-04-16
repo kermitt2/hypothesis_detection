@@ -1,0 +1,157 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8654951" created="06/11/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8654951</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">An <term id="A1" sem="DNA_domain_or_region"><term id="T1" lex="element" sem="DNA_domain_or_region">element</term> upstream from the <term id="T2" lex="human_delta-globin-encoding_gene" sem="DNA_domain_or_region">human delta-globin-encoding gene</term></term> specifically enhances <term id="T3" lex="beta-globin_reporter_gene_expression" sem="Other"><term id="T4" lex="beta-globin_reporter_gene" sem="DNA_domain_or_region">beta-globin reporter gene</term> expression</term> in <term id="T5" lex="murine_erythroleukemia_cell" sem="Cell_natural">murine erythroleukemia cells</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression"/>
+<theme idref="T4"/>
+<clue>An element upstream from the human delta-globin-encoding gene specifically enhances beta-globin reporter gene <clueType>expression</clueType> <clueLoc>in murine erythroleukemia cells</clueLoc>.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="A1"/>
+<clue>An element upstream from the human delta-globin-encoding gene specifically <clueType>enhances</clueType> beta-globin reporter gene expression in murine erythroleukemia cells.</clue>
+<comment>TPS: A1</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">We have previously shown that a <term id="T6" lex="DNA-binding_factor" sem="Protein_family_or_group">DNA-binding factor</term> specific to <term id="T7" lex="adult_hematopoietic_cell" sem="Cell_natural">adult hematopoietic cells</term> (<term id="T8" lex="polypryrimidine-binding_factor" sem="Protein_molecule">polypryrimidine-binding factor</term>, <term id="T9" lex="PYBF" sem="Protein_molecule">PYBF</term>) binds to a <term id="A3" sem="DNA_domain_or_region"><term id="T10" lex="pyrimidine-rich_region" sem="DNA_domain_or_region">pyrimidine-rich region</term> <term id="T11" lex="1_kb_upstream" sem="DNA_domain_or_region">1 kb upstream</term> from the <term id="T12" lex="human_delta-globin-encoding_gene" sem="DNA_domain_or_region">human delta-globin-encoding gene</term></term> (<term id="T13" lex="HBD" sem="DNA_domain_or_region">HBD</term>).</sentence>
+<event KT="Analysis" Source="Other" id="E3">
+<type class="Binding"/>
+<theme idref="T9"/>
+<theme idref="A3"/>
+<clue>We have <clueSource>previously</clueSource> <clueKT>shown</clueKT> that a DNA-binding factor specific to <clueLoc>adult hematopoietic cells</clueLoc> (polypryrimidine-binding factor, PYBF) <clueType>binds</clueType> <linkTheme>to</linkTheme> a pyrimidine-rich region 1 kb upstream from the human delta-globin-encoding gene (HBD).</clue>
+<comment>TPS: A3</comment></event>
+<sentence id="S3">The developmental stage-specificity of <term id="T14" lex="PYBF" sem="Protein_molecule">PYBF</term> and the location of its binding site between the <term id="T15" lex="fetal_and_adult_beta-globin_(HBB)-like_gene" sem="DNA_family_or_group">fetal and adult <term id="A2" sem="DNA_domain_or_region">beta-globin (HBB)-like genes</term></term> suggest that <term id="T16" lex="PBYF" sem="Protein_molecule">PBYF</term> and its <term id="A4" sem="DNA_domain_or_region">binding site</term> may function in <term id="T17" lex="fetal-to-adult_globin_gene_switching" sem="Other">fetal-to-adult <term id="T18" lex="globin_gene" sem="DNA_family_or_group">globin gene</term> switching</term>.</sentence>
+<event KT="Other" id="E4">
+<type class="Binding"/>
+<theme idref="A2"/>
+<theme idref="T14"/>
+<clue>The developmental stage-specificity of PYBF and the location of <corefTheme idref1="T14">its</corefTheme> <clueType>binding</clueType> site between the fetal and adult beta-globin (HBB)-like genes suggest that PBYF and its binding site may function in fetal-to-adult globin gene switching.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E5" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="T17"/>
+<cause idref="T16"/>
+<clue>The developmental stage-specificity of PYBF and the location of its binding site between the fetal and adult beta-globin (HBB)-like genes <clueKT>suggest</clueKT> that PBYF and its binding site <clueCL>may</clueCL> <clueType>function</clueType> <linkTheme>in</linkTheme> fetal-to-adult globin gene switching.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E6" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="T17"/>
+<cause idref="T16" idref1="A4"/>
+<clue>The developmental stage-specificity of PYBF and the location of <corefCause>its</corefCause> binding site between the fetal and adult beta-globin (HBB)-like genes <clueKT>suggest</clueKT> that PBYF and its binding site <clueCL>may</clueCL> <clueType>function</clueType> <linkTheme>in</linkTheme> fetal-to-adult globin gene switching.</clue>
+</event>
+<sentence id="S4">Here, we describe the effect of <cons id="T19" lex="(AND 383-bp_(delta383)_sequence 99-bp_(delta99)_sequence)" sem="(AND DNA_domain_or_region DNA_domain_or_region)"><frag id="F1"><term id="A5" sem="DNA_domain_or_region">383-bp (delta383)</term></frag> and <frag id="F2"><term id="A6" sem="DNA_domain_or_region">99-bp (delta99)</term></frag> <frag id="F3"><term id="A7" sem="DNA_domain_or_region">sequences</term></frag></cons> <term id="A8" sem="DNA_domain_or_region">containing the <term id="T20" lex="PYBF-binding_site" sem="DNA_domain_or_region"><term id="T21" lex="PYBF" sem="Protein_molecule">PYBF</term>-binding site</term></term> on transcription from various <term id="A9" sem="DNA_domain_or_region">globin</term> and <term id="A10" sem="DNA_domain_or_region">non-globin</term> <term id="A11" sem="DNA_domain_or_region">promoters</term>, using a <term id="T22" lex="transient_assay" sem="Other">transient assay</term> with the <term id="T23" lex="cat_reporter_gene" sem="DNA_domain_or_region">cat reporter gene</term> in <term id="T24" lex="murine_erythroleukemia_(MEL)_cell" sem="Cell_cultured">murine erythroleukemia (MEL) cells</term>, a cell line with abundant <term id="T25" lex="PYBF_activity" sem="Other"><term id="T26" lex="PYBF" sem="Protein_molecule">PYBF</term> activity</term>.</sentence>
+<event KT="Other" id="E7">
+<type class="Transcription"/>
+<theme idref="A9" idref1="A11"/>
+<clue>Here, we describe the effect of 383-bp (delta383) and 99-bp (delta99) sequences containing the PYBF-binding site on <clueType>transcription</clueType> <linkTheme>from</linkTheme> various globin and non-globin promoters, using a transient assay with the cat reporter gene in murine erythroleukemia (MEL) cells, a cell line with abundant PYBF activity.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Transcription"/>
+<theme idref="A10" idref1="A11"/>
+<clue>Here, we describe the effect of 383-bp (delta383) and 99-bp (delta99) sequences containing the PYBF-binding site on <clueType>transcription</clueType> <linkTheme>from</linkTheme> various globin and non-globin promoters, using a transient assay with the cat reporter gene in murine erythroleukemia (MEL) cells, a cell line with abundant PYBF activity.</clue>
+</event>
+<event KT="Analysis" id="E9">
+<type class="Regulation"/>
+<theme idref="E7"/>
+<cause idref="A5" idref1="A7" idref2="A8"/>
+<clue>Here, we <clueKT>describe</clueKT> the <clueType>effect</clueType> <linkCause>of</linkCause> 383-bp (delta383) and 99-bp (delta99) sequences containing the PYBF-binding site <linkTheme>on</linkTheme> transcription from various globin and non-globin promoters, <clueExperiment>using a transient assay with the cat reporter gene</clueExperiment> <clueLoc>in murine erythroleukemia (MEL) cells,</clueLoc> a cell line with abundant PYBF activity.</clue>
+</event>
+<event KT="Analysis" id="E10">
+<type class="Regulation"/>
+<theme idref="E8"/>
+<cause idref="A5" idref1="A7" idref2="A8"/>
+<clue>Here, we <clueKT>describe</clueKT> the <clueType>effect</clueType> <linkCause>of</linkCause> 383-bp (delta383) and 99-bp (delta99) sequences containing the PYBF-binding site <linkTheme>on</linkTheme> transcription from various globin and non-globin promoters, <clueExperiment>using a transient assay with the cat reporter gene</clueExperiment> <clueLoc>in murine erythroleukemia (MEL) cells,</clueLoc> a cell line with abundant PYBF activity.</clue>
+</event>
+<event KT="Analysis" id="E11">
+<type class="Regulation"/>
+<theme idref="E7"/>
+<cause idref="A6" idref1="A7" idref2="A8"/>
+<clue>Here, we <clueKT>describe</clueKT> the <clueType>effect</clueType> <linkCause>of</linkCause> 383-bp (delta383) and 99-bp (delta99) sequences containing the PYBF-binding site <linkTheme>on</linkTheme> transcription from various globin and non-globin promoters, <clueExperiment>using a transient assay with the cat reporter gene</clueExperiment> <clueLoc>in murine erythroleukemia (MEL) cells,</clueLoc> a cell line with abundant PYBF activity.</clue>
+</event>
+<event KT="Analysis" id="E12">
+<type class="Regulation"/>
+<theme idref="E8"/>
+<cause idref="A6" idref1="A7" idref2="A8"/>
+<clue>Here, we <clueKT>describe</clueKT> the <clueType>effect</clueType> <linkCause>of</linkCause> 383-bp (delta383) and 99-bp (delta99) sequences containing the PYBF-binding site <linkTheme>on</linkTheme> transcription from various globin and non-globin promoters, <clueExperiment>using a transient assay with the cat reporter gene</clueExperiment> <clueLoc>in murine erythroleukemia (MEL) cells,</clueLoc> a cell line with abundant PYBF activity.</clue>
+</event>
+<event KT="Fact" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T26"/>
+<clue>Here, we describe the effect of 383-bp (delta383) and 99-bp (delta99) sequences containing the PYBF-binding site on transcription from various globin and non-globin promoters, using a transient assay with the cat reporter gene <clueLoc>in murine erythroleukemia (MEL) cells</clueLoc>, a cell line with <clueType>abundant</clueType> PYBF activity.</clue>
+</event>
+<sentence id="S5">We show that both <term id="T27" lex="delta383" sem="DNA_domain_or_region">delta383</term> and <term id="T28" lex="delta99" sem="DNA_domain_or_region">delta99</term> specifically enhance expression of <term id="A13" sem="DNA_domain_or_region"><term id="T29" lex="cat" sem="Protein_molecule">cat</term> for <term id="T30" lex="plasmid" sem="DNA_family_or_group">plasmids</term> containing</term> a <term id="T31" lex="human_adult_globin_(HBB)_promoter" sem="DNA_domain_or_region">human adult globin (HBB) promoter</term>, whereas expression of similar constructs using <cons id="T32" lex="(OR human_fetal_(A_gamma-)_globin_(HBG1)_promoter simian_virus_40_(SV40)_promoter)" sem="(OR DNA_domain_or_region DNA_domain_or_region)"><frag id="F4"><term id="A14" sem="DNA_domain_or_region">human fetal (A gamma-) globin (HBG1)</term></frag> or <frag id="F5"><term id="A15" sem="DNA_domain_or_region">simian virus 40 (SV40)</term></frag> <frag id="F6"><term id="A16" sem="DNA_domain_or_region">promoters</term></frag></cons> is not enhanced.</sentence>
+<event KT="Other" id="E14">
+<type class="Gene_expression"/>
+<theme idref="A13" idref1="T31"/>
+<clue>We show that both delta383 and delta99 specifically enhance <clueType>expression</clueType> <linkTheme>of</linkTheme> cat for plasmids containing a human adult globin (HBB) promoter, whereas expression of similar constructs using human fetal (A gamma-) globin (HBG1) or simian virus 40 (SV40) promoters is not enhanced.</clue>
+<comment>TPS: A13</comment></event>
+<event KT="Analysis" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="T27"/>
+<clue>We <clueKT>show</clueKT> that both delta383 and delta99 specifically <clueType>enhance</clueType> expression of cat for plasmids containing a human adult globin (HBB) promoter, whereas expression of similar constructs using human fetal (A gamma-) globin (HBG1) or simian virus 40 (SV40) promoters is not enhanced.</clue>
+</event>
+<event KT="Analysis" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="T28"/>
+<clue>We <clueKT>show</clueKT> that both delta383 and delta99 specifically <clueType>enhance</clueType> expression of cat for plasmids containing a human adult globin (HBB) promoter, whereas expression of similar constructs using human fetal (A gamma-) globin (HBG1) or simian virus 40 (SV40) promoters is not enhanced.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Gene_expression"/>
+<theme idref="A13" idref1="A14" idref2="A16"/>
+<clue>We show that both delta383 and delta99 specifically enhance expression of cat for plasmids containing a human adult globin (HBB) promoter, whereas <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>similar constructs</corefTheme> using human fetal (A gamma-) globin (HBG1) or simian virus 40 (SV40) promoters is not enhanced.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Gene_expression"/>
+<theme idref="A13" idref1="A15" idref2="A16"/>
+<clue>We show that both delta383 and delta99 specifically enhance expression of cat for plasmids containing a human adult globin (HBB) promoter, whereas <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>similar constructs</corefTheme> using human fetal (A gamma-) globin (HBG1) or simian virus 40 (SV40) promoters is not enhanced.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<cause idref="T27"/>
+<clue>We <clueKT>show</clueKT> that both delta383 and delta99 specifically enhance expression of cat for plasmids containing a human adult globin (HBB) promoter, whereas expression of similar constructs using human fetal (A gamma-) globin (HBG1) or simian virus 40 (SV40) promoters is <cluePolarity>not</cluePolarity> <clueType>enhanced</clueType>.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="T27"/>
+<clue>We <clueKT>show</clueKT> that both delta383 and delta99 specifically enhance expression of cat for plasmids containing a human adult globin (HBB) promoter, whereas expression of similar constructs using human fetal (A gamma-) globin (HBG1) or simian virus 40 (SV40) promoters is <cluePolarity>not</cluePolarity> <clueType>enhanced</clueType>.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<cause idref="T28"/>
+<clue>We <clueKT>show</clueKT> that both delta383 and delta99 specifically enhance expression of cat for plasmids containing a human adult globin (HBB) promoter, whereas expression of similar constructs using human fetal (A gamma-) globin (HBG1) or simian virus 40 (SV40) promoters is <cluePolarity>not</cluePolarity> <clueType>enhanced</clueType>.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="T28"/>
+<clue>We <clueKT>show</clueKT> that both delta383 and delta99 specifically enhance expression of cat for plasmids containing a human adult globin (HBB) promoter, whereas expression of similar constructs using human fetal (A gamma-) globin (HBG1) or simian virus 40 (SV40) promoters is <cluePolarity>not</cluePolarity> <clueType>enhanced</clueType>.</clue>
+</event>
+<sentence id="S6">The results suggest that <term id="T33" lex="PYBF" sem="Protein_molecule">PYBF</term> and the <term id="A17" sem="DNA_domain_or_region"><term id="T34" lex="pyrimidine-rich_region" sem="DNA_domain_or_region">pyrimidine-rich region</term> upstream from <term id="T35" lex="HBD" sem="DNA_domain_or_region">HBD</term></term> can specifically enhance <term id="T36" lex="HBB_transcription" sem="Other"><term id="T37" lex="HBB" sem="DNA_domain_or_region">HBB</term> transcription</term> in <term id="T38" lex="adult_erythroid_cell" sem="Cell_natural">adult erythroid cells</term>.</sentence>
+<event KT="Other" id="E23">
+<type class="Transcription"/>
+<theme idref="T37"/>
+<clue>The results suggest that PYBF and the pyrimidine-rich region upstream from HBD can specifically enhance HBB <clueType>transcription</clueType> <clueLoc>in adult erythroid cells</clueLoc>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E23"/>
+<cause idref="T33"/>
+<clue>The results <clueKT>suggest</clueKT> that PYBF and the pyrimidine-rich region upstream from HBD <clueCL>can</clueCL> specifically <clueType>enhance</clueType> HBB transcription in adult erythroid cells.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E25">
+<type class="Positive_regulation"/>
+<theme idref="E23"/>
+<cause idref="A17"/>
+<clue>The results <clueKT>suggest</clueKT> that PYBF and the pyrimidine-rich region upstream from HBD <clueCL>can</clueCL> specifically <clueType>enhance</clueType> HBB transcription in adult erythroid cells.</clue>
+<comment>TPS: A17</comment></event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

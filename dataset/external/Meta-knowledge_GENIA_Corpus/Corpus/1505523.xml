@@ -1,0 +1,177 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1505523" created="23/02/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1505523</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="TAR-independent_transactivation" sem="Other"><term id="T2" lex="TAR" sem="DNA_domain_or_region">TAR</term>-independent transactivation</term> by <term id="T3" lex="Tat" sem="Protein_molecule">Tat</term> in cells derived from the CNS: a novel mechanism of <term id="T4" lex="HIV-1_gene_regulation" sem="Other"><term id="A4" sem="DNA_domain_or_region"><term id="T5" lex="HIV-1" sem="Virus">HIV-1</term> gene</term> regulation</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Positive_regulation"/>
+<cause idref="T3"/>
+<clue>TAR-independent <clueType>transactivation</clueType> <linkCause>by</linkCause> Tat <clueLoc>in cells derived from the CNS</clueLoc>: a novel mechanism of HIV-1 gene regulation.</clue>
+</event>
+<event KT="Investigation" Polarity="Negative" assertion="non-exist" id="E2">
+<type class="Regulation"/>
+<theme idref="E1"/>
+<cause idref="T2"/>
+<clue>TAR-<clueType><cluePolarity>independent</cluePolarity></clueType> transactivation by Tat in cells derived from the CNS: a novel mechanism of HIV-1 gene regulation.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Regulation"/>
+<theme idref="A4"/>
+<clue>TAR-independent transactivation by Tat in cells derived from the CNS: a novel mechanism of HIV-1 gene <clueType>regulation</clueType>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T6" lex="Tat_protein" sem="Protein_molecule">Tat protein</term> of <term id="T7" lex="human_immunodeficiency_virus_type_1" sem="Virus">human immunodeficiency virus type 1</term> (<term id="T8" lex="HIV-1" sem="Virus">HIV-1</term>) is essential for <term id="A1" sem="Other">productive infection</term> and is a potential target for <term id="T9" lex="antiviral_therapy" sem="Other">antiviral therapy</term>.</sentence>
+<event KT="Fact" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="A1"/>
+<cause idref="T6"/>
+<clue>The Tat protein of human immunodeficiency virus type 1 (HIV-1) is <clueType>essential</clueType> <linkTheme>for</linkTheme> productive infection and is a potential target for antiviral therapy.</clue>
+</event>
+<sentence id="S3"><term id="T10" lex="Tat" sem="Protein_molecule">Tat</term>, a potent activator of <term id="T11" lex="HIV-1_gene_expression" sem="Other"><term id="T12" lex="HIV-1" sem="Virus">HIV-1</term> gene expression</term>, serves to greatly increase the rate of <term id="T13" lex="transcription" sem="Other">transcription</term> directed by the <term id="T14" lex="viral_promoter" sem="DNA_domain_or_region">viral promoter</term>.</sentence>
+<event KT="Other" id="E4">
+<type class="Gene_expression"/>
+<theme idref="T12"/>
+<clue>Tat, a potent activator of HIV-1 gene <clueType>expression</clueType>, serves to greatly increase the rate of transcription directed by the viral promoter.</clue>
+</event>
+<event KT="Fact" Manner="High" id="E5" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="T10"/>
+<clue>Tat, a <clueManner>potent</clueManner> <clueType>activator</clueType> <linkTheme>of</linkTheme> HIV-1 gene expression, serves to greatly increase the rate of transcription directed by the viral promoter.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Regulation"/>
+<theme idref="T13"/>
+<cause idref="T14"/>
+<clue>Tat, a potent activator of HIV-1 gene expression, serves to greatly increase the rate of transcription <clueType>directed</clueType> <linkCause>by</linkCause> the viral promoter.</clue>
+</event>
+<event KT="Fact" Manner="High" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="T10"/>
+<clue>Tat, a potent activator of HIV-1 gene expression, <clueType>serves to</clueType> <clueManner>greatly</clueManner> <clueType>increase</clueType> the <clueType>rate</clueType> <linkTheme>of</linkTheme> transcription directed by the viral promoter.</clue>
+</event>
+<sentence id="S4">This induction, which seems to be an important component in the progression of <term id="T15" lex="acquired_immune_deficiency_syndrome" sem="Other">acquired immune deficiency syndrome</term> (<term id="T16" lex="AIDS" sem="Other">AIDS</term>), may be due to increased <term id="T17" lex="increased_transcriptional_initiation" sem="Other">transcriptional initiation</term>, increased <term id="T18" lex="transcriptional_elongation" sem="Other">transcriptional elongation</term>, or a combination of these processes.</sentence>
+<event KT="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T16"/>
+<clue>This induction, which seems to be an important component in the <clueType>progression</clueType> <linkTheme>of</linkTheme> acquired immune deficiency syndrome (AIDS), may be due to increased transcriptional initiation, increased transcriptional elongation, or a combination of these processes.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E9" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="E7"/>
+<clue><corefTheme>This induction, which</corefTheme> <clueKT><clueCL>seems</clueCL></clueKT> to <clueType>be</clueType> an important <clueType>component</clueType> <linkTheme>in</linkTheme> the progression of acquired immune deficiency syndrome (AIDS), may be due to increased transcriptional initiation, increased transcriptional elongation, or a combination of these processes.</clue>
+</event>
+<event KT="Other" id="E101">
+<type class="Positive_regulation"/>
+<theme idref="T17"/>
+<clue>This induction, which seems to be an important component in the progression of acquired immune deficiency syndrome (AIDS), may be due to <clueType>increased</clueType> transcriptional initiation, increased transcriptional elongation, or a combination of these processes.</clue>
+<comment>NER T17 MOD</comment></event>
+<event KT="Other" id="E102">
+<type class="Positive_regulation"/>
+<theme idref="T18"/>
+<clue>This induction, which seems to be an important component in the progression of acquired immune deficiency syndrome (AIDS), may be due to increased transcriptional initiation, <clueType>increased</clueType> transcriptional elongation, or a combination of these processes.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E103" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="E101"/>
+<clue>This induction, which seems to be an important component in the progression of acquired immune deficiency syndrome (AIDS), <clueKT><clueCL>may</clueCL></clueKT> be <clueType>due</clueType> <linkCause>to</linkCause> increased transcriptional initiation, increased transcriptional elongation, or a combination of these processes.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E104" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="E102"/>
+<clue>This induction, which seems to be an important component in the progression of acquired immune deficiency syndrome (AIDS), <clueKT><clueCL>may</clueCL></clueKT> be <clueType>due</clueType> <linkCause>to</linkCause> increased transcriptional initiation, increased transcriptional elongation, or a combination of these processes.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E105" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="E101"/>
+<cause idref="E102"/>
+<clue>This induction, which seems to be an important component in the progression of acquired immune deficiency syndrome (AIDS), <clueKT><clueCL>may</clueCL></clueKT> be <clueType>due</clueType> <linkCause>to</linkCause> increased transcriptional initiation, increased transcriptional elongation, or a <linkCause>combination of</linkCause> these processes.</clue>
+</event>
+<sentence id="S5">Much attention has been focused on the interaction of <term id="T19" lex="Tat" sem="Protein_molecule">Tat</term> with a specific <term id="T20" lex="RNA_target" sem="RNA_domain_or_region">RNA target</term> termed <term id="T21" lex="TAR" sem="RNA_domain_or_region">TAR</term> (<term id="T22" lex="transactivation_responsive" sem="RNA_domain_or_region">transactivation responsive</term>) which is present in the leader sequence of all <term id="T23" lex="HIV-1_mRNA" sem="RNA_family_or_group">HIV-1 mRNAs</term>.</sentence>
+<event KT="Investigation" Source="Other" id="E10">
+<type class="Binding"/>
+<theme idref="T19"/>
+<theme idref="T21"/>
+<clue>Much attention <clueSource>has been</clueSource> <clueKT>focused</clueKT> on the <clueType>interaction</clueType> <linkTheme>of</linkTheme> Tat <linkTheme>with</linkTheme> a specific RNA target termed TAR (transactivation responsive) which is present in the leader sequence of all HIV-1 mRNAs.</clue>
+<comment>NER: T20 mod</comment></event>
+<sentence id="S6">This interaction is believed to be an important component of the mechanism of <term id="T24" lex="mechanism_of_transactivation" sem="Other">transactivation</term>.</sentence>
+<event KT="Fact" id="E11" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T24"/>
+<cause idref="E10"/>
+<clue><corefCause>This interaction</corefCause> is believed to <clueType>be</clueType> an important <clueType>component</clueType> <linkTheme>of</linkTheme> the mechanism of transactivation.</clue>
+<comment>NER: T24 mod</comment></event>
+<sentence id="S7">In this report we demonstrate that in certain <term id="T25" lex="CNS-derived_cell" sem="Cell_cultured">CNS-derived cells</term> <term id="T26" lex="Tat" sem="Protein_molecule">Tat</term> is capable of activating <term id="T27" lex="HIV-1" sem="Virus">HIV-1</term> through a <term id="T28" lex="TAR-independent_pathway" sem="Other"><term id="T29" lex="TAR" sem="RNA_domain_or_region">TAR</term>-independent pathway</term>.</sentence>
+<event KT="Other" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="T27"/>
+<cause idref="T26"/>
+<clue>In this report we demonstrate that <clueLoc>in certain CNS-derived cells</clueLoc> Tat is capable of <clueType>activating</clueType> HIV-1 through a TAR-independent pathway.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E13">
+<type class="Correlation"/>
+<theme idref="E12"/>
+<theme idref="T29"/>
+<clue>In this report we <clueKT>demonstrate</clueKT> that <clueLoc>in certain CNS-derived cells</clueLoc> Tat is <clueCL>capable</clueCL> of activating HIV-1 <linkTheme>through</linkTheme> a TAR-<clueType><cluePolarity>independent</cluePolarity></clueType> pathway.</clue>
+<comment>NER: T29 mod</comment></event>
+<sentence id="S8">A <term id="T30" lex="Tat-responsive_element" sem="DNA_domain_or_region"><term id="T31" lex="Tat" sem="Protein_molecule">Tat</term>-responsive element</term> is found upstream within the <term id="T32" lex="viral_promoter" sem="DNA_domain_or_region">viral promoter</term> that in <term id="T33" lex="glial-derived_cell_line" sem="Cell_cultured">glial-derived cell lines</term> allows <term id="A101" sem="Other">transactivation</term> in the absence of <term id="T34" lex="TAR" sem="RNA_domain_or_region">TAR</term>.</sentence>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E14">
+<type class="Correlation"/>
+<theme idref="T34"/>
+<theme idref="E15"/>
+<clue>A Tat-responsive element is found upstream within the viral promoter that in glial-derived cell lines allows transactivation <clueType>in the <cluePolarity>absence</cluePolarity></clueType> <linkTheme>of</linkTheme> TAR.</clue>
+</event>
+<event KT="Fact" id="E15">
+<type class="Positive_regulation"/>
+<cause idref="T30"/>
+<clue>A Tat-responsive element is found upstream within the viral promoter that <clueLoc>in glial-derived cell lines</clueLoc> <clueType>allows</clueType> transactivation in the absence of TAR.</clue>
+</event>
+<sentence id="S9">Deletion mapping and <term id="T35" lex="hybrid_promoter_construct" sem="DNA_family_or_group">hybrid promoter constructs</term> demonstrate that the newly identified <term id="T36" lex="Tat-responsive_element" sem="DNA_domain_or_region"><term id="T37" lex="Tat" sem="Protein_molecule">Tat</term>-responsive element</term> corresponds to a sequence within the <term id="T38" lex="viral_long_terminal_repeat" sem="DNA_domain_or_region">viral long terminal repeat</term> (<term id="T39" lex="LTR" sem="DNA_domain_or_region">LTR</term>) previously identified as the <term id="T40" lex="HIV-1_enhancer" sem="DNA_domain_or_region"><term id="T41" lex="HIV-1" sem="Virus">HIV-1</term> enhancer</term>, or <term id="T42" lex="NF-kappa_B_domain" sem="DNA_domain_or_region">NF-kappa B domain</term>.</sentence>
+<sentence id="S10"><term id="T43" lex="DNA_band-shift_analysis" sem="Other">DNA band-shift analysis</term> reveals <term id="T44" lex="NF-kappa_B_binding_activity" sem="Other"><term id="T45" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> binding activity</term> in glial cells that differs from that present in <term id="T46" lex="T_lymphoid_cell" sem="Cell_natural">T lymphoid cells</term>.</sentence>
+<event KT="Analysis" id="E106">
+<type class="Binding"/>
+<theme idref="T45"/>
+<clue><clueExperiment>DNA band-shift analysis</clueExperiment> <clueKT>reveals</clueKT> NF-kappa B <clueType>binding activity</clueType> <clueLoc>in glial cells</clueLoc> that differs from that present in T lymphoid cells.</clue>
+</event>
+<event KT="Analysis" id="E107">
+<type class="Binding"/>
+<theme idref="T45"/>
+<clue><clueExperiment>DNA band-shift analysis</clueExperiment> <clueKT>reveals</clueKT> NF-kappa B <clueType>binding activity</clueType> in glial cells that differs from that present <clueLoc>in T lymphoid cells</clueLoc>.</clue>
+<comment>CAUTION: that = NF-kappa B binding activity</comment></event>
+<sentence id="S11">Further, we observe that <term id="T47" lex="TAR-deleted_mutant" sem="Virus"><term id="A2" sem="DNA_domain_or_region">TAR</term>-deleted mutants</term> of <term id="T48" lex="HIV-1" sem="Virus">HIV-1</term> demonstrate <term id="T49" lex="normal_late_gene_expression" sem="Other">normal <term id="A3" sem="DNA_domain_or_region">late gene</term> expression</term> in <term id="T50" lex="glial_cell" sem="Cell_natural">glial cells</term> as evidenced by <term id="T51" lex="syncytia_formation" sem="Other"><term id="A102" sem="Cell_natural">syncytia</term> formation</term> and production of <term id="T52" lex="viral_p24_antigen" sem="Protein_molecule">viral p24 antigen</term>.</sentence>
+<event KT="Other" id="E16">
+<type class="Negative_regulation"/>
+<theme idref="A2"/>
+<clue>Further, we observe that TAR-<clueType>deleted</clueType> mutants of HIV-1 demonstrate normal late gene expression in glial cells as evidenced by syncytia formation and production of viral p24 antigen.</clue>
+<comment>NER T47 mod</comment></event>
+<event KT="Other" id="E17">
+<type class="Gene_expression"/>
+<theme idref="A3"/>
+<clue>Further, we observe that TAR-deleted mutants of HIV-1 demonstrate normal late gene <clueType>expression</clueType> in glial cells as evidenced by syncytia formation and production of viral p24 antigen.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E18">
+<type class="Negative_regulation"/>
+<theme idref="E17"/>
+<cause idref="E16"/>
+<clue>Further, we observe that TAR-deleted mutants of HIV-1 <clueType><clueKT>demonstrate</clueKT> <clueKT><cluePolarity>normal</cluePolarity></clueKT></clueType> late gene expression <clueLoc>in glial cells</clueLoc> as <clueCL>evidenced</clueCL> by syncytia formation and production of viral p24 antigen.</clue>
+</event>
+<event KT="Other" id="E108">
+<type class="Viral_life_cycle"/>
+<theme idref="A102"/>
+<clue>Further, we observe that TAR-deleted mutants of HIV-1 demonstrate normal late gene expression in glial cells as evidenced by syncytia <clueType>formation</clueType> and production of viral p24 antigen.</clue>
+</event>
+<event KT="Other" id="E109">
+<type class="Gene_expression"/>
+<theme idref="T52"/>
+<clue>Further, we observe that TAR-deleted mutants of HIV-1 demonstrate normal late gene expression in glial cells as evidenced by syncytia formation and <clueType>production</clueType> of viral p24 antigen.</clue>
+</event>
+<sentence id="S12">(ABSTRACT TRUNCATED AT 250 WORDS)</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

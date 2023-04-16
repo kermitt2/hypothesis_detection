@@ -1,0 +1,89 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9052839" created="10/04/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9052839</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="TRAMP" sem="Protein_molecule">TRAMP</term>, a novel <term id="T2" lex="apoptosis-mediating_receptor" sem="Protein_molecule"><term id="A1" sem="Other">apoptosis</term>-mediating receptor</term> with <term id="T3" lex="sequence_homology" sem="Other">sequence homology</term> to <term id="T4" lex="tumor_necrosis_factor_receptor_1" sem="Protein_molecule">tumor necrosis factor receptor 1</term> and <term id="T5" lex="Fas" sem="Protein_molecule">Fas</term>(<term id="T6" lex="Apo-1/CD95" sem="Protein_molecule">Apo-1/CD95</term>).</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">A novel member of the <term id="T7" lex="tumor_necrosis_factor_(TNF)_receptor_family" sem="Protein_family_or_group">tumor necrosis factor (TNF) receptor family</term>, designated <term id="T8" lex="TRAMP" sem="Protein_molecule">TRAMP</term>, has been identified.</sentence>
+<sentence id="S3">The structural organization of the <term id="T9" lex="393_amino_acid_long_human_TRAMP" sem="Protein_molecule">393 amino acid long human <term id="T10" lex="TRAMP" sem="Protein_molecule">TRAMP</term></term> is most homologous to <term id="T11" lex="TNF_receptor_1" sem="Protein_molecule">TNF receptor 1</term>.</sentence>
+<sentence id="S4"><term id="T12" lex="TRAMP" sem="Protein_molecule">TRAMP</term> is abundantly expressed on <term id="T13" lex="thymocyte" sem="Cell_natural">thymocytes</term> and <term id="T14" lex="lymphocyte" sem="Cell_natural">lymphocytes</term>.</sentence>
+<event Manner="High" id="E2">
+<type class="Gene_expression"/>
+<theme idref="T12"/>
+<clue>TRAMP is <clueManner>abundantly</clueManner> <clueType>expressed</clueType> <clueLoc>on thymocytes</clueLoc> and lymphocytes.</clue>
+</event>
+<event Manner="High" id="E102">
+<type class="Gene_expression"/>
+<theme idref="T12"/>
+<clue>TRAMP is <clueManner>abundantly</clueManner> <clueType>expressed</clueType> <clueLoc>on</clueLoc> thymocytes and <clueLoc>lymphocytes</clueLoc>.</clue>
+</event>
+<sentence id="S5">Its extracellular domain is composed of four <term id="T15" lex="cysteine-rich_domains" sem="Protein_domain_or_region">cysteine-rich domains</term>, and the <term id="T16" lex="cytoplasmic_region" sem="Protein_domain_or_region">cytoplasmic region</term> contains a <term id="T17" lex="death_domain" sem="Protein_domain_or_region">death domain</term> known to signal <term id="T18" lex="signal_apoptosis" sem="Other">apoptosis</term>.</sentence>
+<event KT="Fact" id="E3">
+<type class="Cell_communication"/>
+<theme idref="T17"/>
+<clue>Its extracellular domain is composed of four cysteine-rich domains, and the cytoplasmic region contains a death domain <clueKT>known</clueKT> to <clueType>signal</clueType> apoptosis.</clue>
+</event>
+<event KT="Fact" id="E103">
+<type class="Positive_regulation"/>
+<theme idref="T18"/>
+<cause idref="E3"/>
+<clue>Its extracellular domain is composed of four cysteine-rich domains, and the cytoplasmic region contains a death domain <clueKT>known</clueKT> to <clueType>signal</clueType> apoptosis.</clue>
+<comment>NER T18 mod</comment></event>
+<sentence id="S6">Overexpression of <term id="T19" lex="TRAMP" sem="Protein_molecule">TRAMP</term> leads to two major responses, <term id="T20" lex="NF-kappaB_activation" sem="Other"><term id="T21" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activation</term> and <term id="T22" lex="apoptosis" sem="Other">apoptosis</term>.</sentence>
+<event id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T19"/>
+<clue><clueType>Overexpression</clueType> <linkTheme>of</linkTheme> TRAMP leads to two major responses, NF-kappaB activation and apoptosis.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation"/>
+<theme idref="T21"/>
+<clue>Overexpression of TRAMP leads to two major responses, NF-kappaB <clueType>activation</clueType> and apoptosis.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="E4"/>
+<clue>Overexpression of TRAMP <clueType>leads</clueType> <linkTheme>to</linkTheme> two major responses, NF-kappaB activation and apoptosis.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T22"/>
+<cause idref="E4"/>
+<clue>Overexpression of TRAMP <clueType>leads</clueType> <linkTheme>to</linkTheme> two major responses, NF-kappaB activation and apoptosis.</clue>
+</event>
+<sentence id="S7"><term id="T23" lex="TRAMP-induced_cell_death" sem="Other"><term id="T24" lex="TRAMP" sem="Protein_molecule">TRAMP</term>-induced <term id="A2" sem="Cell_natural">cell</term> death</term> is inhibited by an <term id="A3" sem="Other">inhibitor of <term id="T25" lex="ICE-like_protease" sem="Protein_family_or_group">ICE-like proteases</term></term>, but not by <term id="T26" lex="Bcl-2" sem="Protein_molecule">Bcl-2</term>.</sentence>
+<event KT="Other" id="E12">
+<type class="Cellular_physiological_process"/>
+<theme idref="A2"/>
+<clue>TRAMP-induced cell <clueType>death</clueType> is inhibited by an inhibitor of ICE-like proteases, but not by Bcl-2.</clue>
+<comment>TPS A3</comment></event>
+<event KT="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="T24"/>
+<clue>TRAMP-<clueType>induced</clueType> cell death is inhibited by an inhibitor of ICE-like proteases, but not by Bcl-2.</clue>
+</event>
+<event id="E9">
+<type class="Negative_regulation"/>
+<theme idref="E8"/>
+<cause idref="A3"/>
+<clue>TRAMP-induced cell death is <clueType>inhibited</clueType> <linkCause>by</linkCause> an inhibitor of ICE-like proteases, but not by Bcl-2.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E10">
+<type class="Negative_regulation"/>
+<theme idref="E8"/>
+<cause idref="T26"/>
+<clue>TRAMP-induced cell death is <clueType>inhibited</clueType> by an inhibitor of ICE-like proteases, but <cluePolarity>not</cluePolarity> <linkCause>by</linkCause> Bcl-2.</clue>
+</event>
+<sentence id="S8">In addition, <term id="T27" lex="TRAMP" sem="Protein_molecule">TRAMP</term> does not appear to interact with any of the known <term id="A4" sem="Protein_family_or_group"><term id="T28" lex="apoptosis-inducing_ligand" sem="Protein_family_or_group"><term id="T29" lex="apoptosis" sem="Other">apoptosis</term>-inducing ligands</term> of the <term id="T30" lex="TNF_family" sem="Protein_family_or_group">TNF family</term></term>.</sentence>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E11" uncertainty="probable">
+<type class="Binding"/>
+<theme idref="T27"/>
+<theme idref="A4"/>
+<clue>In addition, TRAMP does <cluePolarity>not</cluePolarity> <clueKT><clueCL>appear</clueCL></clueKT> to <clueType>interact</clueType> <linkTheme>with</linkTheme> any of the known apoptosis-inducing ligands of the TNF family.</clue>
+<comment>TPS A4</comment></event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

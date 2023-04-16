@@ -1,0 +1,15 @@
+T15	Potential_therapeutic_effect 122 129	treated
+T18	Adverse_effect 253 262	developed
+T22	Potential_therapeutic_effect 378 386	overcome
+T27	Adverse_effect 945 951	due to
+T33	Potential_therapeutic_effect 978 988	controlled
+R1	is_equivalent Arg1:T2 Arg2:T13
+R2	Subject_Disorder Arg1:T16 Arg2:T1
+E13	Combination:T40 has_participant:T21 has_participant:T20
+E1	Potential_therapeutic_effect:T15 has_agent:T2 affects:T1 has_subject:T16
+E2	Adverse_effect:T18 has_subject:T17 affects:T3 has_agent:E13
+E3	Potential_therapeutic_effect:T22 has_agent:T5 affects:T4
+E6	Adverse_effect:T27 has_cue:T19 has_agent:T9 affects:T10
+E10	Potential_therapeutic_effect:T33 has_agent:T34 has_cue:T35 affects:T10
+A1	Speculated E6
+A4	Speculated E10

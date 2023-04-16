@@ -1,0 +1,176 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7882168" creator="Hitomi MASUDA"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7882168</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="HIV-1_Nef" sem="Protein_molecule"><term id="T2" lex="HIV-1" sem="Virus">HIV-1</term> Nef</term> leads to inhibition or activation of <term id="T3" lex="T_cell" sem="Cell_natural">T cells</term> depending on its <term id="T4" lex="intracellular_localization" sem="Other">intracellular localization</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Localization"/>
+<theme idref="T1"/>
+<clue>HIV-1 Nef leads to inhibition or activation of T cells depending on <corefTheme>its</corefTheme> <clueLoc>intracellular</clueLoc> <clueType>localization</clueType>.</clue>
+</event>
+<event id="E2">
+<type class="Physiological_process"/>
+<theme idref="T3"/>
+<clue>HIV-1 Nef leads to inhibition or <clueType>activation</clueType> <linkTheme>of</linkTheme> T cells depending on its intracellular localization.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation"/>
+<theme idref="T3"/>
+<clue>HIV-1 Nef leads to <clueType>inhibition</clueType> or activation <linkTheme>of</linkTheme> T cells depending on its intracellular localization.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="T1"/>
+<clue>HIV-1 Nef <clueType>leads</clueType> <linkTheme>to</linkTheme> inhibition or activation of T cells depending on its intracellular localization.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="T1"/>
+<clue>HIV-1 Nef <clueType>leads</clueType> <linkTheme>to</linkTheme> inhibition or activation of T cells depending on its intracellular localization.</clue>
+</event>
+<event KT="Analysis" id="E6">
+<type class="Correlation"/>
+<theme idref="E1"/>
+<theme idref="E4"/>
+<clue>HIV-1 Nef leads to inhibition or activation of T cells <clueType><clueKT>depending</clueKT></clueType> <linkTheme>on</linkTheme> its intracellular localization.</clue>
+</event>
+<event KT="Analysis" id="E7">
+<type class="Correlation"/>
+<theme idref="E1"/>
+<theme idref="E5"/>
+<clue>HIV-1 Nef leads to inhibition or activation of T cells <clueType><clueKT>depending</clueKT></clueType> <linkTheme>on</linkTheme> its intracellular localization.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="A1" sem="Protein_molecule"><term id="T5" lex="Nef" sem="Protein_molecule">Nef</term> of <term id="T6" lex="primate_lentivirus" sem="Virus">primate lentiviruses</term></term> is required for <term id="A2" sem="Other">viremia</term> and progression to <term id="T7" lex="AIDS" sem="Other">AIDS</term> in <term id="T8" lex="monkey" sem="Multicellular_organism_natural">monkeys</term>.</sentence>
+<event KT="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T7"/>
+<clue>Nef of primate lentiviruses is required for viremia and <clueType>progression</clueType> <linkTheme>to</linkTheme> AIDS in monkeys.</clue>
+</event>
+<event KT="Fact" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="A2"/>
+<cause idref="A1"/>
+<clue>Nef of primate lentiviruses is <clueType>required</clueType> <linkTheme>for</linkTheme> viremia and progression to AIDS <clueLoc>in monkeys</clueLoc>.</clue>
+<comment>TPS: A1</comment></event>
+<event KT="Fact" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="A1"/>
+<clue>Nef of primate lentiviruses is <clueType>required</clueType> <linkTheme>for</linkTheme> viremia and progression to AIDS <clueLoc>in monkeys</clueLoc>.</clue>
+</event>
+<sentence id="S3">Negative, positive, and no effects of <term id="T9" lex="Nef" sem="Protein_molecule">Nef</term> have also been reported on <term id="T10" lex="viral_replication" sem="Other">viral replication</term> in cells.</sentence>
+<sentence id="S4">To reconcile these observations, we expressed a <term id="T11" lex="hybrid_CD8-Nef_protein" sem="Protein_molecule">hybrid CD8-<term id="T12" lex="Nef" sem="Protein_molecule">Nef</term> protein</term> in <term id="T13" lex="Jurkat_cell" sem="Cell_cultured">Jurkat cells</term>.</sentence>
+<event id="E11">
+<type class="Gene_expression"/>
+<theme idref="T11"/>
+<clue>To reconcile these observations, we <clueType>expressed</clueType> a hybrid CD8-Nef protein <clueLoc>in Jurkat cells</clueLoc>.</clue>
+</event>
+<sentence id="S5">Two opposite <term id="T14" lex="phenotype" sem="Other">phenotypes</term> were found, which depended on the <term id="T15" lex="intracellular_localization" sem="Other">intracellular localization</term> of <term id="T16" lex="Nef" sem="Protein_molecule">Nef</term>.</sentence>
+<event KT="Other" id="E12">
+<type class="Localization"/>
+<theme idref="T16"/>
+<clue>Two opposite phenotypes were found, which depended on the <clueLoc>intracellular</clueLoc> <clueType>localization</clueType> <linkTheme>of</linkTheme> Nef.</clue>
+</event>
+<event KT="Analysis" id="E13">
+<type class="Correlation"/>
+<theme idref="E12"/>
+<theme idref="T14"/>
+<clue>Two opposite phenotypes were found, which <clueType><clueKT>depended</clueKT></clueType> <linkTheme>on</linkTheme> the intracellular localization of Nef.</clue>
+</event>
+<sentence id="S6">Expressed in the <term id="T17" lex="cytoplasm" sem="Cell_component">cytoplasm</term> or on the <term id="T18" lex="cell_surface" sem="Cell_component">cell surface</term>, the <term id="T19" lex="chimera" sem="Protein_family_or_group">chimera</term> inhibited or activated <term id="A3" sem="Other">early signaling events from the <term id="T20" lex="T_cell_antigen_receptor" sem="Protein_family_or_group">T cell antigen receptor</term></term>.</sentence>
+<event id="E14">
+<type class="Gene_expression"/>
+<theme idref="T11"/>
+<clue><clueType>Expressed</clueType> <clueLoc>in the cytoplasm</clueLoc> or on the cell surface, <corefTheme>the chimera</corefTheme> inhibited or activated early signaling events from the T cell antigen receptor.</clue>
+</event>
+<event id="E15">
+<type class="Gene_expression"/>
+<theme idref="T11"/>
+<clue><clueType>Expressed</clueType> in the cytoplasm or <clueLoc>on the cell surface</clueLoc>, <corefTheme>the chimera</corefTheme> inhibited or activated early signaling events from the T cell antigen receptor.</clue>
+</event>
+<event id="E16">
+<type class="Negative_regulation"/>
+<theme idref="A3"/>
+<cause idref="E14"/>
+<clue>Expressed in the cytoplasm or on the cell surface, the chimera <clueType>inhibited</clueType> or activated early signaling events from the T cell antigen receptor.</clue>
+<comment>TPS: A3</comment></event>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<cause idref="E15"/>
+<clue>Expressed in the cytoplasm or on the cell surface, the chimera inhibited or <clueType>activated</clueType> early signaling events from the T cell antigen receptor.</clue>
+</event>
+<sentence id="S7"><term id="A400" sem="Cell_natural">Activated <term id="T21" lex="Jurkat_cell" sem="Cell_cultured">Jurkat cells</term></term> died by <term id="T22" lex="apoptosis" sem="Other">apoptosis</term>, and only <term id="A23" sem="Cell_natural">cells with mutated <term id="T23" lex="nef_gene" sem="DNA_family_or_group">nef genes</term> expressing <term id="A5" sem="Protein_molecule">truncated <term id="T24" lex="Nef" sem="Protein_molecule">Nefs</term></term></term> survived, which rendered <term id="T25" lex="Nef" sem="Protein_molecule">Nef</term> nonfunctional.</sentence>
+<event id="E300">
+<type class="Physiological_process"/>
+<theme idref="T21"/>
+<clue><clueType>Activated</clueType> Jurkat cells died by apoptosis, and only cells with mutated nef genes expressing truncated Nefs survived, which rendered Nef nonfunctional.</clue>
+</event>
+<event id="E18">
+<type class="Cellular_physiological_process"/>
+<theme idref="A400"/>
+<clue>Activated Jurkat cells <clueType>died by apoptosis</clueType>, and only cells with mutated nef genes expressing truncated Nefs survived, which rendered Nef nonfunctional.</clue>
+<comment>TPS: A400</comment></event>
+<event id="E19">
+<type class="Mutagenesis"/>
+<theme idref="T23"/>
+<clue><clueLoc>Activated Jurkat cells</clueLoc> died by apoptosis, and only cells with <clueType>mutated</clueType> nef genes expressing truncated Nefs survived, which rendered Nef nonfunctional.</clue>
+</event>
+<event id="E20">
+<type class="Gene_expression"/>
+<theme idref="A5"/>
+<clue>Activated Jurkat cells died by apoptosis, and only <clueLoc>cells with mutated nef genes</clueLoc> <clueType>expressing</clueType> truncated Nefs survived, which rendered Nef nonfunctional.</clue>
+<comment>TPS: A5</comment></event>
+<event id="E21">
+<type class="Cellular_physiological_process"/>
+<theme idref="A23"/>
+<clue>Activated Jurkat cells died by apoptosis, and only cells with mutated nef genes expressing truncated Nefs <clueType>survived</clueType>, which rendered Nef nonfunctional.</clue>
+<comment>TPS A23</comment></event>
+<sentence id="S8">These mutations paralleled those in other viral strains passaged in vitro.</sentence>
+<sentence id="S9">Not only do these positional effects of <term id="T26" lex="Nef" sem="Protein_molecule">Nef</term> reconcile diverse phenotypes of <term id="T27" lex="Nef" sem="Protein_molecule">Nef</term> and suggest a role for its <term id="T28" lex="N-terminal_myristylation" sem="Other">N-terminal myristylation</term>, but they also explain effects of <term id="T29" lex="Nef" sem="Protein_molecule">Nef</term> in <term id="T30" lex="HIV_infection" sem="Other"><term id="A7" sem="Virus">HIV</term> infection</term> and progression to <term id="T31" lex="AIDS" sem="Other">AIDS</term>.</sentence>
+<event KT="Other" id="E22">
+<type class="Protein_modification"/>
+<theme idref="T27"/>
+<clue>Not only do these positional effects of Nef reconcile diverse phenotypes of Nef and suggest a role for <corefTheme>its</corefTheme> <clueType>N-terminal myristylation</clueType>, but they also explain effects of Nef in HIV infection and progression to AIDS.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E23" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="E16"/>
+<theme idref="E22"/>
+<clue>Not only do <corefTheme>these positional effects of Nef</corefTheme> reconcile diverse phenotypes of Nef and <clueKT><clueCL>suggest</clueCL></clueKT> a <clueType>role</clueType> <linkTheme>for</linkTheme> its N-terminal myristylation, but they also explain effects of Nef in HIV infection and progression to AIDS.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E301" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="E17"/>
+<theme idref="E22"/>
+<clue>Not only do <corefTheme>these positional effects of Nef</corefTheme> reconcile diverse phenotypes of Nef and <clueKT><clueCL>suggest</clueCL></clueKT> a <clueType>role</clueType> <linkTheme>for</linkTheme> its N-terminal myristylation, but they also explain effects of Nef in HIV infection and progression to AIDS.</clue>
+</event>
+<event KT="Other" id="E24">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="A7"/>
+<clue>Not only do these positional effects of Nef reconcile diverse phenotypes of Nef and suggest a role for its N-terminal myristylation, but they also explain effects of Nef in HIV <clueType>infection</clueType> and progression to AIDS.</clue>
+</event>
+<event KT="Other" id="E25">
+<type class="Positive_regulation"/>
+<theme idref="T31"/>
+<clue>Not only do these positional effects of Nef reconcile diverse phenotypes of Nef and suggest a role for its N-terminal myristylation, but they also explain effects of Nef in HIV infection and <clueType>progression</clueType> <linkTheme>to</linkTheme> AIDS.</clue>
+</event>
+<event KT="Analysis" id="E26">
+<type class="Correlation"/>
+<theme idref="T29"/>
+<theme idref="E24"/>
+<clue>Not only do these positional effects of Nef reconcile diverse phenotypes of Nef and suggest a role for its N-terminal myristylation, but they also <clueKT>explain</clueKT> <clueType>effects</clueType> <linkTheme>of</linkTheme> Nef <linkTheme>in</linkTheme> HIV infection and progression to AIDS.</clue>
+</event>
+<event KT="Analysis" id="E27">
+<type class="Correlation"/>
+<theme idref="T29"/>
+<theme idref="E25"/>
+<clue>Not only do these positional effects of Nef reconcile diverse phenotypes of Nef and suggest a role for its N-terminal myristylation, but they also <clueKT>explain</clueKT> <clueType>effects</clueType> <linkTheme>of</linkTheme> Nef <linkTheme>in</linkTheme> HIV infection and progression to AIDS.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

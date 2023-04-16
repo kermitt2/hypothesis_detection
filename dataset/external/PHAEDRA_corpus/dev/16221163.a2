@@ -1,0 +1,9 @@
+T19	Adverse_effect 20 30	associated
+T22	Adverse_effect 130 132	of
+T23	Potential_therapeutic_effect 249 256	treated
+T28	Adverse_effect 735 747	complication
+R1	is_equivalent Arg1:T4 Arg2:T16
+E1	Adverse_effect:T19 has_agent:T1 affects:T2 has_subject:T20
+E2	Adverse_effect:T22 has_agent:T4 affects:T3 has_subject:T18
+E3	Potential_therapeutic_effect:T23 has_agent:T5 has_agent:T6 has_agent:T7 has_subject:T15 affects:T24
+E4	Adverse_effect:T28 has_agent:T13 affects:T12

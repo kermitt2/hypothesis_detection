@@ -1,0 +1,14 @@
+T13	Potential_therapeutic_effect 93 100	therapy
+T14	Adverse_effect 76 82	during
+T15	Potential_therapeutic_effect 163 170	therapy
+T16	Adverse_effect 190 201	experienced
+T17	Adverse_effect 529 534	arise
+T18	Adverse_effect 317 329	demonstrated
+R1	is_equivalent Arg1:T1 Arg2:T2
+R2	Subject_Disorder Arg1:T21 Arg2:T6
+E1	Potential_therapeutic_effect:T13 affects:T4 has_agent:T3
+E2	Adverse_effect:T14 has_agent:T3 affects:T1
+E3	Potential_therapeutic_effect:T15 has_agent:T5 affects:T6 has_subject:T21
+E4	Adverse_effect:T16 affects:T7 has_agent:T5 has_subject:T21
+E5	Adverse_effect:T17 has_agent:T11 affects:T12
+E6	Adverse_effect:T18 has_agent:T8 affects:T9

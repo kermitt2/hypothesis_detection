@@ -1,0 +1,19 @@
+T23	Adverse_effect 10 20	associated
+T24	Potential_therapeutic_effect 145 154	indicated
+T32	Adverse_effect 471 476	after
+T33	Adverse_effect 544 549	after
+T34	Adverse_effect 603 608	after
+T39	Adverse_effect 977 989	experiencing
+T42	Adverse_effect 1074 1083	monitored
+R6	Coreference Arg1:T38 Arg2:T18
+R7	Coreference Arg1:T38 Arg2:T17
+R8	Coreference Arg1:T38 Arg2:T15
+R9	Coreference Arg1:T38 Arg2:T16
+E1	Adverse_effect:T23 has_agent:T1 affects:T22 affects:T2 affects:T3 affects:T4
+E2	Potential_therapeutic_effect:T24 has_agent:T5 affects:T7
+E5	Adverse_effect:T32 affects:T31 affects:T30 has_agent:T11
+E6	Adverse_effect:T33 has_agent:T11 affects:T12
+E7	Adverse_effect:T34 has_agent:T11 affects:T13
+E9	Adverse_effect:T39 affects:T38 has_agent:T19
+E11	Adverse_effect:T42 has_cue:T43 affects:T35 affects:T21 has_agent:T20
+A2	Speculated E11

@@ -1,0 +1,115 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10480426" created="30/01/2007" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10480426</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="neutrophil_maturation" sem="Other"><term id="T2" lex="neutrophil" sem="Cell_natural">Neutrophil</term> maturation</term> and the role of <term id="A1" sem="Organic_compound_other">retinoic acid</term>.</sentence>
+<event KT="Investigation" id="E1">
+<type class="Cellular_physiological_process"/>
+<theme idref="T2"/>
+<clue>Neutrophil <clueType>maturation</clueType> and the role of retinoic acid.</clue>
+</event>
+<event KT="Investigation" id="E2" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E1"/>
+<cause idref="A1"/>
+<clue>Neutrophil maturation and the <clueType>role</clueType> <linkCause>of</linkCause> retinoic acid.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T3" lex="neutrophil_maturation" sem="Other"><term id="T4" lex="neutrophil" sem="Cell_natural">Neutrophil</term> maturation</term> occurs in well defined morphological stages that correlate with the acquisition of <term id="A2" sem="Protein_family_or_group"><term id="T5" lex="molecular_marker" sem="Protein_family_or_group">molecular markers</term> associated with <term id="T6" lex="neutrophil_function" sem="Other">neutrophil function</term></term>.</sentence>
+<event KT="Fact" id="E3">
+<type class="Cellular_physiological_process"/>
+<theme idref="T4"/>
+<clue>Neutrophil <clueType>maturation</clueType> occurs in well defined morphological stages that correlate with the acquisition of molecular markers associated with neutrophil function.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="A2"/>
+<clue>Neutrophil maturation occurs in well defined morphological stages that correlate with the <clueType>acquisition</clueType> <linkTheme>of</linkTheme> molecular markers associated with neutrophil function.</clue>
+</event>
+<event KT="Fact" id="E5">
+<type class="Correlation"/>
+<theme idref="E3"/>
+<theme idref="E4"/>
+<clue>Neutrophil maturation occurs in well defined morphological stages that <clueType>correlate</clueType> <linkTheme>with</linkTheme> the acquisition of molecular markers associated with neutrophil function.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Correlation"/>
+<theme idref="T5"/>
+<theme idref="T6"/>
+<clue>Neutrophil maturation occurs in well defined morphological stages that correlate with the acquisition of molecular markers <clueType>associated</clueType> <linkTheme>with</linkTheme> neutrophil function.</clue>
+</event>
+<sentence id="S3">A variety of factors are known to play a role in terminal <term id="T7" lex="neutrophil_maturation" sem="Other"><term id="T8" lex="neutrophil" sem="Cell_natural">neutrophil</term> maturation</term>, including the <term id="A3" sem="Organic_compound_other"><term id="T9" lex="vitamin_A" sem="Lipid">vitamin A</term> derivative</term>, <term id="T10" lex="retinoic_acid" sem="Organic_compound_other">retinoic acid</term>.</sentence>
+<event KT="Other" id="E7">
+<type class="Cellular_physiological_process"/>
+<theme idref="T8"/>
+<clue>A variety of factors are known to play a role in terminal neutrophil <clueType>maturation</clueType>, including the vitamin A derivative, retinoic acid.</clue>
+</event>
+<event KT="Fact" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="A3"/>
+<clue>A <corefTheme>variety of factors</corefTheme> are <clueKT>known</clueKT> to <clueType>play a role</clueType> <clueType>in</clueType> terminal neutrophil maturation, including the vitamin A derivative, retinoic acid.</clue>
+</event>
+<event KT="Fact" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="T10"/>
+<clue>A <corefTheme>variety of factors</corefTheme> are <clueKT>known</clueKT> to <clueType>play a role</clueType> <clueType>in</clueType> terminal neutrophil maturation, including the vitamin A derivative, retinoic acid.</clue>
+</event>
+<sentence id="S4"><term id="A4" sem="Organic_compound_other">Retinoic acid</term> can directly modulate <term id="T11" lex="gene_expression" sem="Other">gene expression</term> via binding to its <term id="T12" lex="nuclear_receptor" sem="Protein_family_or_group">nuclear receptors</term>, which can, in turn, activate transcription of <term id="T13" lex="target_gene" sem="DNA_family_or_group">target genes</term>.</sentence>
+<event KT="Other" id="E10">
+<type class="Binding"/>
+<theme idref="A4"/>
+<theme idref="T12"/>
+<clue>Retinoic acid can directly modulate gene expression via <clueType>binding</clueType> <linkTheme>to</linkTheme> its nuclear receptors, which can, in turn, activate transcription of target genes.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Transcription"/>
+<theme idref="T13"/>
+<clue>Retinoic acid can directly modulate gene expression via binding to its nuclear receptors, which can, in turn, activate <clueType>transcription</clueType> <linkTheme>of</linkTheme> target genes.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<cause idref="E10"/>
+<clue>Retinoic acid can directly modulate gene expression via binding to its nuclear receptors, which <clueKT><clueCL>can</clueCL></clueKT>, in turn, <clueType>activate</clueType> transcription of target genes.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E13">
+<type class="Regulation"/>
+<theme idref="T11"/>
+<cause idref="E12"/>
+<clue>Retinoic acid <clueKT><clueCL>can</clueCL></clueKT> directly <clueType>modulate</clueType> gene expression <linkCause>via</linkCause> binding to its nuclear receptors, which can, in turn, activate transcription of target genes.</clue>
+</event>
+<sentence id="S5">A role for <term id="T14" lex="retinoic_acid" sem="Organic_compound_other">retinoic acid</term> during <term id="T15" lex="neutrophil_maturation" sem="Other"><term id="T16" lex="neutrophil" sem="Cell_natural">neutrophil</term> maturation</term> has been suggested from a variety of sources.</sentence>
+<event KT="Other" id="E14">
+<type class="Cell_differentiation"/>
+<theme idref="T16"/>
+<clue>A role for retinoic acid during neutrophil <clueType>maturation</clueType> has been suggested from a variety of sources.</clue>
+</event>
+<event CL="L2" KT="Analysis" Source="Other" id="E15" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="T14"/>
+<clue>A <clueType>role</clueType> <linkCause>for</linkCause> retinoic acid <linkTheme>during</linkTheme> neutrophil maturation has been <clueKT><clueCL>suggested</clueCL></clueKT> <clueSource>from a variety of sources</clueSource>.</clue>
+</event>
+<sentence id="S6">Here we present a review of the mechanism of <term id="T17" lex="retinoic_acid_receptor" sem="Protein_family_or_group"><term id="T18" lex="retinoic_acid" sem="Organic_compound_other">retinoic acid</term> receptor</term> action and the major evidence showing that normal <term id="T19" lex="retinoid_signaling" sem="Other"><term id="A5" sem="Organic_compound_other">retinoid</term> signaling</term> is required for <term id="T20" lex="neutrophil_maturation" sem="Other"><term id="T21" lex="neutrophil" sem="Cell_natural">neutrophil</term> maturation</term>.</sentence>
+<event KT="Other" id="E16">
+<type class="Cell_communication"/>
+<theme idref="A5"/>
+<clue>Here we present a review of the mechanism of retinoic acid receptor action and the major evidence showing that normal retinoid <clueType>signaling</clueType> is required for neutrophil maturation.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Cellular_physiological_process"/>
+<theme idref="T21"/>
+<clue>Here we present a review of the mechanism of retinoic acid receptor action and the major evidence showing that normal retinoid signaling is required for neutrophil <clueType>maturation</clueType>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<cause idref="E16"/>
+<clue>Here we present a review of the mechanism of retinoic acid receptor action and the major <clueCL>evidence</clueCL> <clueKT>showing</clueKT> that normal retinoid signaling is <clueType>required</clueType> <linkTheme>for</linkTheme> neutrophil maturation.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

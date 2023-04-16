@@ -1,0 +1,133 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8122364" created="21/07/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8122364</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">trans-activation of the <term id="T1" lex="HIV_promoter" sem="DNA_domain_or_region">HIV promoter</term> by a <term id="A1" sem="DNA_molecule">cDNA</term> and <term id="A2" sem="DNA_domain_or_region">its genomic clones</term> <term id="A3" sem="DNA_molecule">of</term> <term id="T2" lex="human_herpesvirus-6" sem="Virus">human herpesvirus-6</term>.</sentence>
+<event KT="Investigation" id="E1">
+<type class="Positive_regulation"/>
+<theme idref="T1"/>
+<cause idref="A1" idref1="A3" idref2="T2"/>
+<clue><clueType>trans-activation</clueType> <linkTheme>of</linkTheme> the HIV promoter <linkCause>by</linkCause> a cDNA and its genomic clones of human herpesvirus-6.</clue>
+</event>
+<event KT="Investigation" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="T1"/>
+<cause idref="A2" idref1="A3" idref2="T2"/>
+<clue><clueType>trans-activation</clueType> <linkTheme>of</linkTheme> the HIV promoter <linkCause>by</linkCause> a cDNA and its genomic clones of human herpesvirus-6.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T3" lex="human_herpesvirus_6" sem="Virus">Human herpesvirus 6</term> (<term id="T4" lex="HHV-6" sem="Virus">HHV-6</term>) is a <term id="T5" lex="lymphotropic_herpesvirus" sem="Virus">lymphotropic herpesvirus</term>, and in vitro, it can productively infect human <term id="T6" lex="CD4+_T_cell" sem="Cell_cultured">CD4+ T cells</term> as <term id="T7" lex="HIV-1" sem="Virus">HIV-1</term>.</sentence>
+<event KT="Fact" id="E3">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T4"/>
+<theme idref="T6"/>
+<clue>Human herpesvirus 6 (HHV-6) is a lymphotropic herpesvirus, and in vitro, <corefTheme>it</corefTheme> can productively <clueType>infect</clueType> human CD4+ T cells as HIV-1.</clue>
+</event>
+<event KT="Fact" id="E4">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T7"/>
+<theme idref="T6"/>
+<clue>Human herpesvirus 6 (HHV-6) is a lymphotropic herpesvirus, and in vitro, it can productively <clueType>infect</clueType> human CD4+ T cells <linkTheme>as</linkTheme> HIV-1.</clue>
+<comment>CAUTION: as</comment></event>
+<sentence id="S3">Co-infection of <term id="T8" lex="T_cell" sem="Cell_natural">T cells</term> by <term id="T9" lex="HIV-1" sem="Virus">HIV-1</term> and <term id="T10" lex="HHV-6" sem="Virus">HHV-6</term> can lead to both activation of the <term id="T11" lex="HIV-1_promoter" sem="DNA_domain_or_region"><term id="T12" lex="HIV-1" sem="Virus">HIV-1</term> promoter</term> and acceleration of the <term id="A4" sem="Other">cytopathic effects</term>.</sentence>
+<event KT="Other" id="E5">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T8"/>
+<theme idref="T9"/>
+<clue><clueType>Co-infection</clueType> <linkTheme>of</linkTheme> T cells <linkTheme>by</linkTheme> HIV-1 and HHV-6 can lead to both activation of the HIV-1 promoter and acceleration of the cytopathic effects.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T8"/>
+<theme idref="T10"/>
+<clue><clueType>Co-infection</clueType> <linkTheme>of</linkTheme> T cells <linkTheme>by</linkTheme> HIV-1 and HHV-6 can lead to both activation of the HIV-1 promoter and acceleration of the cytopathic effects.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T11"/>
+<clue>Co-infection of T cells by HIV-1 and HHV-6 can lead to both <clueType>activation</clueType> <linkTheme>of</linkTheme> the HIV-1 promoter and acceleration of the cytopathic effects.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="A4"/>
+<clue>Co-infection of T cells by HIV-1 and HHV-6 can lead to both activation of the HIV-1 promoter and <clueType>acceleration</clueType> <linkTheme>of</linkTheme> the cytopathic effects.</clue>
+</event>
+<event KT="Fact" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="E5"/>
+<cause idref="E6"/>
+<clue>Co-infection of T cells by HIV-1 and HHV-6 can <clueType>lead</clueType> <linkTheme>to</linkTheme> both activation of the HIV-1 promoter and acceleration of the cytopathic effects.</clue>
+</event>
+<event KT="Fact" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="E5"/>
+<cause idref="E6"/>
+<clue>Co-infection of T cells by HIV-1 and HHV-6 can <clueType>lead</clueType> <linkTheme>to</linkTheme> both activation of the HIV-1 promoter and acceleration of the cytopathic effects.</clue>
+</event>
+<sentence id="S4">An <term id="T13" lex="HHV-6_(GS)_cDNA_clone" sem="DNA_molecule"><term id="T14" lex="HHV-6" sem="Virus">HHV-6</term> (GS) cDNA clone</term>, <term id="T15" lex="pCD41" sem="DNA_molecule">pCD41</term>, encoding for a <term id="T16" lex="41-kDa_nuclear_protein" sem="Protein_molecule">41-kDa nuclear protein</term> was identified and characterized previously (Chang and Balachandran, J. Virol. 65, 2884-2894 and 7085, 1991).</sentence>
+<sentence id="S5">Sequence analyses show that this protein has significant homology with the <term id="T17" lex="human_cytomegalovirus_UL44_gene" sem="DNA_domain_or_region"><term id="A7" sem="Virus">human cytomegalovirus</term> UL44 gene</term> coding for the <term id="T18" lex="ICP36_family" sem="Protein_family_or_group">ICP36 family</term> of <term id="T19" lex="early-late-class_phosphoprotein" sem="Protein_family_or_group">early-late-class phosphoprotein</term>.</sentence>
+<sentence id="S6">Using this <term id="T20" lex="cDNA" sem="DNA_family_or_group">cDNA</term> as the probe, a <term id="T21" lex="3.8-kb_EcoRI_genomic_fragment" sem="DNA_molecule">3.8-kb EcoRI genomic fragment</term> encoding the <term id="T22" lex="HHV-6(GS)P41" sem="Protein_molecule"><term id="T23" lex="HHV-6" sem="Virus">HHV-6</term>(GS)P41</term> was cloned and designated as <term id="T24" lex="pGD41" sem="DNA_molecule">pGD41</term>.</sentence>
+<sentence id="S7">When cotransfected with the <term id="T25" lex="HIV_LTR_CAT" sem="DNA_domain_or_region"><term id="A5" sem="Virus">HIV</term> LTR CAT</term> into <term id="T26" lex="CV-1_cell" sem="Cell_cultured">CV-1 cells</term>, both the <term id="T27" lex="pCD41" sem="DNA_molecule">pCD41</term> and <term id="T28" lex="pGD41" sem="DNA_molecule">pGD41</term> clones trans-activated the <term id="T29" lex="HIV_LTR" sem="DNA_domain_or_region"><term id="A6" sem="Virus">HIV</term> LTR</term>.</sentence>
+<event KT="Method" id="E11">
+<type class="Artificial_process"/>
+<theme idref="T25"/>
+<theme idref="T26"/>
+<clue>When <clueType>cotransfected</clueType> <linkTheme>with</linkTheme> the HIV LTR CAT <linkTheme>into</linkTheme> CV-1 cells, both the pCD41 and pGD41 clones trans-activated the HIV LTR.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation"/>
+<theme idref="T29"/>
+<cause idref="E11"/>
+<cause idref="T27"/>
+<clue><linkCause>When</linkCause> cotransfected with the HIV LTR CAT into CV-1 cells, both the pCD41 and pGD41 clones <clueType>trans-activated</clueType> the HIV LTR.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T29"/>
+<cause idref="E11"/>
+<cause idref="T28"/>
+<clue><linkCause>When</linkCause> cotransfected with the HIV LTR CAT into CV-1 cells, both the pCD41 and pGD41 clones <clueType>trans-activated</clueType> the HIV LTR.</clue>
+</event>
+<sentence id="S8">Sequence analyses of <term id="T30" lex="pCD41" sem="DNA_molecule">pCD41</term> indicate that there are two potential <term id="T31" lex="open_reading_frame" sem="DNA_domain_or_region">open reading frames</term> (<term id="T32" lex="ORF" sem="DNA_domain_or_region">ORFs</term>), <term id="T33" lex="A" sem="DNA_domain_or_region">A</term> and <term id="T34" lex="B" sem="DNA_domain_or_region">B</term>, which are homologous to the <term id="T35" lex="ORF" sem="DNA_domain_or_region">ORFs</term> found in the genomic clone <term id="T36" lex="pGD41" sem="DNA_molecule">pGD41</term>.</sentence>
+<sentence id="S9">Deletion constructs of the <term id="T37" lex="pCD41_clone" sem="DNA_molecule"><term id="T38" lex="pCD41" sem="DNA_molecule">pCD41</term> clone</term> demonstrated that <term id="T39" lex="ORF-A" sem="Protein_molecule">ORF-A</term> was critical for the <term id="T40" lex="HIV_LTR" sem="DNA_domain_or_region"><term id="A8" sem="Virus">HIV</term> LTR</term> activation.</sentence>
+<event KT="Other" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="T40"/>
+<clue>Deletion constructs of the pCD41 clone demonstrated that ORF-A was critical for the HIV LTR <clueType>activation</clueType>.</clue>
+</event>
+<event KT="Analysis" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="T39"/>
+<clue><clueExperiment>Deletion constructs of the pCD41 clone</clueExperiment> <clueKT>demonstrated</clueKT> that ORF-A was <clueType>critical</clueType> <linkTheme>for</linkTheme> the HIV LTR activation.</clue>
+</event>
+<sentence id="S10">Deletion analyses of the <term id="T41" lex="pCD41" sem="DNA_molecule">pCD41</term> <term id="T42" lex="ORF-A" sem="DNA_domain_or_region">ORF-A</term> and the use of <term id="T43" lex="promoter_construct" sem="DNA_family_or_group">promoter constructs</term> further mapped an <term id="A10" sem="DNA_domain_or_region">internal functional promoter</term> within the <term id="T44" lex="pCD41" sem="DNA_molecule">pCD41</term> sequence that can direct the synthesis of the <term id="T45" lex="trans-activating_protein" sem="Protein_family_or_group">trans-activating protein</term>.</sentence>
+<event KT="Other" id="E16">
+<type class="Gene_expression"/>
+<theme idref="T45"/>
+<clue>Deletion analyses of the pCD41 ORF-A and the use of promoter constructs further mapped an internal functional promoter within the pCD41 sequence that can direct the <clueType>synthesis</clueType> <linkTheme>of</linkTheme> the trans-activating protein.</clue>
+<comment>NER T42 MOD</comment></event>
+<event CL="L2" KT="Analysis" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<cause idref="A10"/>
+<clue><clueExperiment>Deletion analyses of the pCD41 ORF-A and the use of promoter constructs</clueExperiment> further mapped an internal functional promoter within the pCD41 sequence that <clueKT><clueCL>can</clueCL></clueKT> <clueType>direct</clueType> the synthesis of the trans-activating protein.</clue>
+</event>
+<sentence id="S11">By using <term id="T46" lex="HIV_LTR_deletion_mutant" sem="DNA_family_or_group"><term id="T47" lex="HIV_LTR" sem="DNA_domain_or_region"><term id="A9" sem="Virus">HIV</term> LTR</term> deletion mutants</term>, the <term id="T49" lex="binding_site" sem="DNA_domain_or_region"><term id="T48" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> binding sites</term> were found to be critical for response to the <term id="T50" lex="pCD41_trans-activation" sem="Other"><term id="T51" lex="pCD41" sem="DNA_molecule">pCD41</term> trans-activation</term>.</sentence>
+<event id="E18">
+<type class="Positive_regulation"/>
+<cause idref="T51"/>
+<clue>By using HIV LTR deletion mutants, the NF-kappa B binding sites were found to be critical for response to the pCD41 <clueType>trans-activation</clueType>.</clue>
+<comment>NER T49 MOD</comment></event>
+<event id="E19">
+<type class="Positive_regulation"/>
+<theme idref="T49"/>
+<cause idref="E18"/>
+<clue><clueExperiment>By using HIV LTR deletion mutants</clueExperiment>, the NF-kappa B binding sites were <clueKT>found</clueKT> to be <linkTheme>critical for</linkTheme> <clueType>response</clueType> <linkCause>to</linkCause> the pCD41 trans-activation.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,244 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9356494" created="26/03/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9356494</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The <term id="T1" lex="Epstein-Barr_virus_oncogene_product" sem="Protein_family_or_group"><term id="A1" sem="DNA_domain_or_region"><term id="T2" lex="Epstein-Barr_virus" sem="Virus">Epstein-Barr virus</term> oncogene</term> product</term> <term id="T3" lex="latent_membrane_protein_1" sem="Protein_molecule">latent membrane protein 1</term> engages the <term id="A2" sem="Protein_molecule">tumor necrosis factor receptor-associated death domain protein</term> to mediate <term id="A3" sem="Cell_natural">B lymphocyte</term> growth transformation and activate <term id="A4" sem="Protein_complex">NF-kappaB</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Gene_expression"/>
+<theme idref="A1"/>
+<clue>The Epstein-Barr virus oncogene <clueType>product</clueType> latent membrane protein 1 engages the tumor necrosis factor receptor-associated death domain protein to mediate <clueLoc>B lymphocyte</clueLoc> growth transformation and activate NF-kappaB.</clue>
+</event>
+<event KT="Fact" id="E2">
+<type class="Binding"/>
+<theme idref="T3"/>
+<theme idref="A2"/>
+<clue>The Epstein-Barr virus oncogene product latent membrane protein 1 <clueType>engages</clueType> the tumor necrosis factor receptor-associated death domain protein to mediate B lymphocyte growth transformation and activate NF-kappaB.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="E2"/>
+<clue>The Epstein-Barr virus oncogene product latent membrane protein 1 engages the tumor necrosis factor receptor-associated death domain protein to <clueType>mediate</clueType> B lymphocyte growth transformation and activate NF-kappaB.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Biological_process"/>
+<theme idref="A3"/>
+<clue>The Epstein-Barr virus oncogene product latent membrane protein 1 engages the tumor necrosis factor receptor-associated death domain protein to mediate B lymphocyte <clueType>growth transformation</clueType> and activate NF-kappaB.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="A4"/>
+<cause idref="E2"/>
+<clue>The Epstein-Barr virus oncogene product latent membrane protein 1 engages the tumor necrosis factor receptor-associated death domain protein to mediate B lymphocyte growth transformation and <clueType>activate</clueType> NF-kappaB.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T4" lex="Epstein-Barr_virus" sem="Virus">Epstein-Barr virus</term> <term id="T5" lex="latent_membrane_protein_1" sem="Protein_molecule">latent membrane protein 1</term> (<term id="T6" lex="LMP1" sem="Protein_molecule">LMP1</term>) is essential for the transformation of <term id="T7" lex="B_lymphocyte" sem="Cell_natural">B <term id="T8" lex="lymphocyte" sem="Cell_natural">lymphocytes</term></term> into <term id="T9" lex="lymphoblastoid_cell_line" sem="Cell_cultured">lymphoblastoid cell lines</term>.</sentence>
+<event KT="Other" id="E7">
+<type class="Biological_process"/>
+<theme idref="T7"/>
+<theme idref="T9"/>
+<clue>The Epstein-Barr virus latent membrane protein 1 (LMP1) is essential for the <clueType>transformation</clueType> <linkTheme>of</linkTheme> B lymphocytes <linkTheme>into</linkTheme> lymphoblastoid cell lines.</clue>
+</event>
+<event KT="Fact" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="T6"/>
+<clue>The Epstein-Barr virus latent membrane protein 1 (LMP1) is <clueType>essential</clueType> <linkTheme>for</linkTheme> the transformation of B lymphocytes into lymphoblastoid cell lines.</clue>
+</event>
+<sentence id="S3">Previous data are consistent with a model that <term id="A20" sem="Protein_domain_or_region"><term id="T10" lex="LMP1" sem="Protein_molecule">LMP1</term></term> is a <term id="T11" lex="constitutively_activated_receptor" sem="Protein_family_or_group">constitutively activated receptor</term> that transduces <term id="A5" sem="Protein_family_or_group">signals for transformation</term> through its <term id="T12" lex="carboxyl-terminal_cytoplasmic_tail" sem="Protein_domain_or_region">carboxyl-terminal cytoplasmic tail</term>.</sentence>
+<event KT="Other" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="T10"/>
+<clue>Previous data are consistent with a model that LMP1 is a constitutively <clueType>activated</clueType> receptor that transduces signals for transformation through its carboxyl-terminal cytoplasmic tail.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E10">
+<type class="Cell_communication"/>
+<theme idref="A5"/>
+<theme idref="A20" idref1="T12"/>
+<clue><clueSource>Previous data</clueSource> are consistent with a <clueKT>model</clueKT> that LMP1 is a constitutively activated receptor that <clueType>transduces</clueType> signals for transformation <linkTheme>through</linkTheme> its carboxyl-terminal cytoplasmic tail.</clue>
+<comment>TPS: A5</comment></event>
+<sentence id="S4">One <term id="T13" lex="transformation_effector_site" sem="Protein_domain_or_region">transformation effector site</term> (<term id="T14" lex="TES1" sem="Protein_domain_or_region">TES1</term>), located within the <term id="T15" lex="membrane_proximal_45_residues" sem="Protein_domain_or_region">membrane proximal 45 residues</term> of the cytoplasmic tail, constitutively engages <term id="T16" lex="tumor_necrosis_factor_receptor-associated_factor" sem="Protein_family_or_group">tumor necrosis factor receptor-associated factors</term>.</sentence>
+<event KT="Fact" id="E11">
+<type class="Binding"/>
+<theme idref="T16"/>
+<theme idref="T14"/>
+<clue>One transformation effector site (TES1), located within the membrane proximal 45 residues of the cytoplasmic tail, constitutively <clueType>engages</clueType> tumor necrosis factor receptor-associated factors.</clue>
+</event>
+<sentence id="S5"><term id="A13" sem="Other">Signals</term> from <term id="T17" lex="TES1" sem="Protein_domain_or_region">TES1</term> are sufficient to drive initial proliferation of <term id="A21" sem="Cell_cultured">infected <term id="A6" sem="Cell_natural">resting B <term id="T18" lex="lymphocyte" sem="Cell_natural">lymphocytes</term>,</term></term> but most <term id="A22" sem="Cell_cultured"><term id="T19" lex="lymphoblastoid_cell" sem="Cell_natural">lymphoblastoid cells</term> infected with a virus</term> that does not express the <term id="A8" sem="Protein_domain_or_region"><term id="T20" lex="155_residue" sem="Protein_domain_or_region">155 residues</term> beyond <term id="T21" lex="TES1" sem="Protein_domain_or_region">TES1</term></term> fail to grow as <term id="T22" lex="long-term_cell_line" sem="Cell_cultured">long-term cell lines</term>.</sentence>
+<event KT="Other" id="E12">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="A6"/>
+<clue>Signals from TES1 are sufficient to drive initial proliferation of <clueType>infected</clueType> resting B lymphocytes, but most lymphoblastoid cells infected with a virus that does not express the 155 residues beyond TES1 fail to grow as long-term cell lines.</clue>
+<comment>NO CAUSE</comment></event>
+<event KT="Other" id="E13">
+<type class="Cellular_physiological_process"/>
+<theme idref="A21"/>
+<clue>Signals from TES1 are sufficient to drive initial <clueType>proliferation</clueType> <linkTheme>of</linkTheme> infected resting B lymphocytes, but most lymphoblastoid cells infected with a virus that does not express the 155 residues beyond TES1 fail to grow as long-term cell lines.</clue>
+</event>
+<event KT="Fact" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="E6"/>
+<clue>Signals from TES1 are sufficient to <clueType>drive</clueType> initial proliferation of infected resting B lymphocytes, but most lymphoblastoid cells infected with a virus that does not express the 155 residues beyond TES1 fail to grow as long-term cell lines.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Cell_communication"/>
+<theme idref="T17"/>
+<clue><clueType>Signals</clueType> <linkTheme>from</linkTheme> TES1 are sufficient to drive initial proliferation of infected resting B lymphocytes, but most lymphoblastoid cells infected with a virus that does not express the 155 residues beyond TES1 fail to grow as long-term cell lines.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T19"/>
+<theme idref="T4"/>
+<clue>Signals from TES1 are sufficient to drive initial proliferation of infected resting B lymphocytes, but most lymphoblastoid cells <clueType>infected</clueType> <linkTheme>with</linkTheme> a <corefTheme>virus</corefTheme> that does not express the 155 residues beyond TES1 fail to grow as long-term cell lines.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E16">
+<type class="Gene_expression"/>
+<theme idref="A8"/>
+<clue>Signals from TES1 are sufficient to drive initial proliferation of infected resting B lymphocytes, but most <clueLoc>lymphoblastoid cells infected with a virus</clueLoc> that does <cluePolarity>not</cluePolarity> <clueType>express</clueType> the 155 residues beyond TES1 fail to grow as long-term cell lines.</clue>
+<comment>TPS: A8</comment></event>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E17">
+<type class="Cellular_physiological_process"/>
+<theme idref="A22"/>
+<clue>Signals from TES1 are sufficient to drive initial proliferation of infected resting B lymphocytes, but most lymphoblastoid cells infected with a virus that does not express the 155 residues beyond TES1 <cluePolarity>fail</cluePolarity> to <clueType>grow</clueType> as long-term cell lines.</clue>
+</event>
+<sentence id="S6">We now find that mutating two <term id="T23" lex="tyrosine" sem="Amino_acid_monomer">tyrosines</term> to an <term id="T24" lex="isoleucine" sem="Amino_acid_monomer">isoleucine</term> at the <term id="A30" sem="Amino_acid_monomer"><term id="T25" lex="carboxyl_end" sem="Protein_domain_or_region">carboxyl end</term> of the <term id="T26" lex="cytoplasmic_tail" sem="Protein_domain_or_region">cytoplasmic tail</term></term> cripples the ability of <term id="T27" lex="EBV" sem="Virus">EBV</term> to cause <term id="T28" lex="lymphoblastoid_cell_outgrowth" sem="Other"><term id="A14" sem="Cell_cultured">lymphoblastoid cell</term> outgrowth</term>, thereby marking a second <term id="T29" lex="transformation_effector_site" sem="Protein_domain_or_region">transformation effector site</term>, <term id="T30" lex="TES2" sem="Protein_domain_or_region">TES2</term>.</sentence>
+<event KT="Method" id="E18">
+<type class="Mutagenesis"/>
+<theme idref="T23" idref1="A30"/>
+<theme idref="T24" idref1="A30"/>
+<clue>We now find that <clueType>mutating</clueType> two tyrosines <linkTheme>to</linkTheme> an isoleucine at the carboxyl end of the cytoplasmic tail cripples the ability of EBV to cause lymphoblastoid cell outgrowth, thereby marking a second transformation effector site, TES2.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event KT="Other" id="E36">
+<type class="Cellular_physiological_process"/>
+<theme idref="A14"/>
+<clue>We now find that mutating two tyrosines to an isoleucine at the carboxyl end of the cytoplasmic tail cripples the ability of EBV to cause lymphoblastoid cell <clueType>outgrowth</clueType>, thereby marking a second transformation effector site, TES2.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="E36"/>
+<cause idref="T27"/>
+<clue>We now find that mutating two tyrosines to an isoleucine at the carboxyl end of the cytoplasmic tail cripples the <clueKT><clueCL>ability</clueCL></clueKT> of EBV to <clueType>cause</clueType> lymphoblastoid cell outgrowth, thereby marking a second transformation effector site, TES2.</clue>
+</event>
+<event id="E20">
+<type class="Negative_regulation"/>
+<theme idref="E19"/>
+<cause idref="E18"/>
+<clue>We now <clueKT>find</clueKT> that mutating two tyrosines to an isoleucine at the carboxyl end of the cytoplasmic tail <clueType>cripples</clueType> the ability <linkTheme>of</linkTheme> EBV to cause lymphoblastoid cell outgrowth, thereby marking a second transformation effector site, TES2.</clue>
+</event>
+<sentence id="S7">A <term id="T31" lex="yeast_two-hybrid_screen" sem="Other"><term id="T32" lex="yeast" sem="Unicellular_organism">yeast</term> two-hybrid screen</term> identified <term id="T33" lex="TES2_interacting_protein" sem="Protein_family_or_group"><term id="T34" lex="TES2" sem="Protein_domain_or_region">TES2</term> interacting proteins</term>, including the <term id="T35" lex="tumor_necrosis_factor_receptor-associated_death_domain_protein" sem="Protein_molecule">tumor necrosis factor receptor-associated death domain protein</term> (<term id="T36" lex="TRADD" sem="Protein_molecule">TRADD</term>).</sentence>
+<event KT="Analysis" id="E22">
+<type class="Binding"/>
+<theme idref="T34"/>
+<theme idref="T36"/>
+<clue><clueExperiment>A yeast two-hybrid screen</clueExperiment> <clueKT>identified</clueKT> TES2 <clueType>interacting</clueType> <corefTheme>proteins</corefTheme>, including the tumor necrosis factor receptor-associated death domain protein (TRADD).</clue>
+</event>
+<sentence id="S8"><term id="T37" lex="TRADD" sem="Protein_molecule">TRADD</term> was the only protein that interacted with <term id="T38" lex="wild-type_TES2" sem="Protein_domain_or_region"><term id="A9" sem="Other">wild-type</term> <term id="T39" lex="TES2" sem="Protein_domain_or_region">TES2</term></term> and not with <term id="T40" lex="isoleucine-mutated_TES2" sem="Protein_domain_or_region"><term id="A10" sem="Other"><term id="T41" lex="isoleucine" sem="Amino_acid_monomer">isoleucine</term>-mutated</term> <term id="T42" lex="TES2" sem="Protein_domain_or_region">TES2</term></term>.</sentence>
+<event id="E23">
+<type class="Binding"/>
+<theme idref="T37"/>
+<theme idref="A9" idref1="T39"/>
+<clue>TRADD was the only protein that <clueType>interacted</clueType> <linkTheme>with</linkTheme> wild-type TES2 and not with isoleucine-mutated TES2.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E24">
+<type class="Binding"/>
+<theme idref="T37"/>
+<theme idref="T40"/>
+<clue>TRADD was the only protein that <clueType>interacted</clueType> with wild-type TES2 and <cluePolarity>not</cluePolarity> <linkTheme>with</linkTheme> isoleucine-mutated TES2.</clue>
+</event>
+<event KT="Method" id="E37">
+<type class="Mutagenesis"/>
+<theme idref="T41"/>
+<theme idref="T42"/>
+<clue>TRADD was the only protein that interacted with wild-type TES2 and not with isoleucine-<clueType>mutated</clueType> TES2.</clue>
+<comment>ARTIFICIAL</comment></event>
+<sentence id="S9"><term id="T43" lex="TRADD" sem="Protein_molecule">TRADD</term> associated with <term id="T44" lex="wild-type_LMP1" sem="Protein_molecule">wild-type <term id="T45" lex="LMP1" sem="Protein_molecule">LMP1</term></term> but not with <term id="A11" sem="Protein_molecule"><term id="T46" lex="isoleucine" sem="Amino_acid_monomer">isoleucine</term>-mutated <term id="T47" lex="LMP1" sem="Protein_molecule">LMP1</term></term> in mammalian cells, and <term id="T48" lex="TRADD" sem="Protein_molecule">TRADD</term> constitutively associated with <term id="T49" lex="LMP1" sem="Protein_molecule">LMP1</term> in <term id="T50" lex="EBV-transformed_cell" sem="Cell_cultured"><term id="T51" lex="EBV" sem="Virus">EBV</term>-transformed <term id="A15" sem="Cell_cultured">cells</term></term>.</sentence>
+<event KT="Analysis" id="E25">
+<type class="Binding"/>
+<theme idref="T43"/>
+<theme idref="T44"/>
+<clue>TRADD <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> wild-type LMP1 but not with isoleucine-mutated LMP1 <clueLoc>in mammalian cells</clueLoc>, and TRADD constitutively associated with LMP1 in EBV-transformed cells.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E26">
+<type class="Binding"/>
+<theme idref="T43"/>
+<theme idref="A11"/>
+<clue>TRADD <clueType><clueKT>associated</clueKT></clueType> with wild-type LMP1 but <cluePolarity>not</cluePolarity> <linkTheme>with</linkTheme> isoleucine-mutated LMP1 <clueLoc>in mammalian cells</clueLoc>, and TRADD constitutively associated with LMP1 in EBV-transformed cells.</clue>
+</event>
+<event KT="Analysis" id="E27">
+<type class="Binding"/>
+<theme idref="T48"/>
+<theme idref="T49"/>
+<clue>TRADD associated with wild-type LMP1 but not with isoleucine-mutated LMP1 in mammalian cells, and TRADD constitutively <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> LMP1 <clueLoc>in EBV-transformed cells</clueLoc>.</clue>
+</event>
+<event KT="Method" id="E38">
+<type class="Mutagenesis"/>
+<theme idref="T46"/>
+<theme idref="T47"/>
+<clue>TRADD associated with wild-type LMP1 but not with isoleucine-<clueType>mutated</clueType> LMP1 in mammalian cells, and TRADD constitutively associated with LMP1 in EBV-transformed cells.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event KT="Other" id="E39">
+<type class="Biological_process"/>
+<theme idref="A15"/>
+<cause idref="T51"/>
+<clue>TRADD associated with wild-type LMP1 but not with isoleucine-mutated LMP1 in mammalian cells, and TRADD constitutively associated with LMP1 in EBV-<clueType>transformed</clueType> cells.</clue>
+</event>
+<event KT="Other" id="E30">
+<type class="Positive_regulation"/>
+<theme idref="E39"/>
+<cause idref="T51"/>
+<clue>TRADD associated with wild-type LMP1 but not with isoleucine-mutated LMP1 in mammalian cells, and TRADD constitutively associated with LMP1 in EBV-<clueType>transformed</clueType> cells.</clue>
+</event>
+<sentence id="S10">In transfection assays, <term id="T52" lex="TRADD" sem="Protein_molecule">TRADD</term> and <term id="T53" lex="TES2" sem="Protein_domain_or_region">TES2</term> synergistically mediated high-level <term id="T54" lex="NF-kappaB_activation." sem="Other"><term id="T55" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activation</term>.</sentence>
+<event Manner="High" id="E28">
+<type class="Positive_regulation"/>
+<theme idref="T55"/>
+<clue>In transfection assays, TRADD and TES2 synergistically mediated <clueManner>high-level</clueManner> NF-kappaB <clueType>activation</clueType>.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation"/>
+<theme idref="E28"/>
+<cause idref="T52"/>
+<cause idref="T53"/>
+<clue><clueExperiment>In transfection assays</clueExperiment>, TRADD and TES2 <clueType>synergistically mediated</clueType> high-level NF-kappaB activation.</clue>
+</event>
+<event id="E40">
+<type class="Positive_regulation"/>
+<theme idref="E28"/>
+<cause idref="E29"/>
+<clue>In transfection assays, TRADD and TES2 synergistically mediated <clueType>high-level</clueType> NF-kappaB activation.</clue>
+</event>
+<sentence id="S11">These results indicate that <term id="T56" lex="LMP1" sem="Protein_molecule">LMP1</term> appropriates <term id="T57" lex="TRADD" sem="Protein_molecule">TRADD</term> to enable efficient long-term <term id="T58" lex="lymphoblastoid_cell_outgrowth" sem="Other"><term id="A12" sem="Cell_cultured">lymphoblastoid cell</term> outgrowth</term>.</sentence>
+<event KT="Other" id="E32">
+<type class="Cellular_physiological_process"/>
+<theme idref="A12"/>
+<clue>These results indicate that LMP1 appropriates TRADD to enable efficient long-term lymphoblastoid cell <clueType>outgrowth</clueType>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E32"/>
+<cause idref="T57"/>
+<clue>These results indicate that LMP1 appropriates TRADD to <clueType><clueKT><clueCL>enable</clueCL></clueKT></clueType> efficient long-term lymphoblastoid cell outgrowth.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="T56"/>
+<clue>These results <clueKT><clueCL>indicate</clueCL></clueKT> that LMP1 <clueType>appropriates</clueType> TRADD to enable efficient long-term lymphoblastoid cell outgrowth.</clue>
+</event>
+<sentence id="S12">High-level <term id="T59" lex="NF-kappaB_activatio" sem="Other"><term id="T60" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activation</term> also appears to be a critical component of <term id="T61" lex="long-term_outgrowth" sem="Other">long-term outgrowth</term>.</sentence>
+<event KT="Other" Manner="High" id="E34">
+<type class="Positive_regulation"/>
+<theme idref="T60"/>
+<clue><clueManner>High-level</clueManner> NF-kappaB <clueType>activation</clueType> also appears to be a critical component of long-term outgrowth.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E35" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T61"/>
+<cause idref="E34"/>
+<clue>High-level NF-kappaB activation also <clueKT><clueCL>appears</clueCL></clueKT> to be a <clueType>critical</clueType> component <linkTheme>of</linkTheme> long-term outgrowth.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

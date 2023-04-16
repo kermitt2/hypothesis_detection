@@ -1,0 +1,478 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9808586" created="09/05/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9808586</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Interaction of <term id="T1" lex="sickle_erythrocyte" sem="Cell_natural">sickle erythrocytes</term> with <term id="T2" lex="endothelial_cell" sem="Cell_natural">endothelial cells</term> in the presence of <term id="T3" lex="endothelial_cell_conditioned_medium" sem="Organic_compound_other">endothelial cell conditioned medium</term> induces <term id="A1" sem="Other">oxidant stress</term> leading to <term id="T4" lex="transendothelial_migration" sem="Other">transendothelial migration</term> of <term id="T5" lex="monocyte" sem="Cell_natural">monocytes</term>.</sentence>
+<event id="E1">
+<type class="Cell_adhesion"/>
+<theme idref="T1"/>
+<theme idref="T2"/>
+<clue><clueType>Interaction</clueType> <linkTheme>of</linkTheme> sickle erythrocytes <linkTheme>with</linkTheme> endothelial cells in the presence of endothelial cell conditioned medium induces oxidant stress leading to transendothelial migration of monocytes.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="A1"/>
+<cause idref="E1"/>
+<clue>Interaction of sickle erythrocytes with endothelial cells in the presence of endothelial cell conditioned medium <clueType>induces</clueType> oxidant stress leading to transendothelial migration of monocytes.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E78"/>
+<cause idref="E2"/>
+<clue>Interaction of sickle erythrocytes with endothelial cells in the presence of endothelial cell conditioned medium induces oxidant stress <clueType>leading</clueType> <linkTheme>to</linkTheme> transendothelial migration of monocytes.</clue>
+</event>
+<event id="E78">
+<type class="Cellular_physiological_process"/>
+<theme idref="T5"/>
+<clue>Interaction of sickle erythrocytes with endothelial cells in the presence of endothelial cell conditioned medium induces oxidant stress leading to <clueLoc>transendothelial</clueLoc> <clueType>migration</clueType> <linkTheme>of</linkTheme> monocytes.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The abnormal adherence of <term id="T6" lex="sickle_red_blood_cell" sem="Cell_natural">sickle red blood cells</term> (<term id="T7" lex="SS_RBC" sem="Cell_natural">SS RBC</term>) to <term id="T8" lex="endothelial_cell" sem="Cell_natural">endothelial cells</term> has been thought to contribute to <term id="T9" lex="vascular_occlusion" sem="Other">vascular occlusion</term>, a major cause of morbidity in <term id="T10" lex="sickle_cell_disease" sem="Other">sickle cell disease</term> (<term id="T11" lex="SCD" sem="Other">SCD</term>).</sentence>
+<event KT="Other" id="E4">
+<type class="Cell_adhesion"/>
+<theme idref="T7"/>
+<theme idref="T8"/>
+<clue>The abnormal <clueType>adherence</clueType> <linkTheme>of</linkTheme> sickle red blood cells (SS RBC) <linkTheme>to</linkTheme> endothelial cells has been thought to contribute to vascular occlusion, a major cause of morbidity in sickle cell disease (SCD).</clue>
+</event>
+<event KT="Analysis" id="E24">
+<type class="Negative_regulation"/>
+<theme idref="E4"/>
+<clue>The <clueType><clueKT>abnormal</clueKT></clueType> adherence of sickle red blood cells (SS RBC) to endothelial cells has been thought to contribute to vascular occlusion, a major cause of morbidity in sickle cell disease (SCD).</clue>
+</event>
+<event CL="L2" KT="Analysis" Source="Other" id="E25">
+<type class="Positive_regulation"/>
+<theme idref="T9"/>
+<clue>The abnormal adherence of sickle red blood cells (SS RBC) to endothelial cells <clueSource>has been</clueSource> <clueKT><clueCL>thought</clueCL></clueKT> to <clueType>contribute</clueType> <linkTheme>to</linkTheme> vascular occlusion, a major cause of morbidity in sickle cell disease (SCD).</clue>
+</event>
+<sentence id="S3">We determined whether the interaction of <term id="T12" lex="SS_RBC" sem="Cell_natural">SS RBC</term> with cultured <term id="T13" lex="endothelial_cell" sem="Cell_natural">endothelial cells</term> induced <term id="T14" lex="cellular_oxidant_stress" sem="Other">cellular oxidant stress</term> that would culminate in expression of <term id="T15" lex="cell_adhesion_molecule" sem="Protein_family_or_group">cell adhesion molecules</term> (<term id="T16" lex="CAM" sem="Protein_family_or_group">CAMs</term>) involved in the adhesion and diapedesis of <term id="T17" lex="monocyte" sem="Cell_natural">monocytes</term> and the adherence of <term id="T18" lex="SS_reticulocyte" sem="Cell_natural">SS reticulocytes</term>.</sentence>
+<event KT="Other" id="E5">
+<type class="Cell_adhesion"/>
+<theme idref="T12"/>
+<theme idref="T13"/>
+<clue>We determined whether the <clueType>interaction</clueType> <linkTheme>of</linkTheme> SS RBC <linkTheme>with</linkTheme> cultured endothelial cells induced cellular oxidant stress that would culminate in expression of cell adhesion molecules (CAMs) involved in the adhesion and diapedesis of monocytes and the adherence of SS reticulocytes.</clue>
+</event>
+<event KT="Investigation" id="E6" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="T14"/>
+<cause idref="E5"/>
+<clue>We <clueKT>determined whether</clueKT> the interaction of SS RBC with cultured endothelial cells <clueType>induced</clueType> cellular oxidant stress that would culminate in expression of cell adhesion molecules (CAMs) involved in the adhesion and diapedesis of monocytes and the adherence of SS reticulocytes.</clue>
+</event>
+<event KT="Other" id="E7" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="E6"/>
+<clue>We determined whether the interaction of SS RBC with cultured endothelial cells induced cellular oxidant stress that would <clueType>culminate</clueType> <linkTheme>in</linkTheme> expression of cell adhesion molecules (CAMs) involved in the adhesion and diapedesis of monocytes and the adherence of SS reticulocytes.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Gene_expression"/>
+<theme idref="T16"/>
+<clue>We determined whether the interaction of SS RBC with cultured endothelial cells induced cellular oxidant stress that would culminate in <clueType>expression</clueType> <linkTheme>of</linkTheme> cell adhesion molecules (CAMs) involved in the adhesion and diapedesis of <clueLoc>monocytes</clueLoc> and the adherence of SS reticulocytes.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Gene_expression"/>
+<theme idref="T16"/>
+<clue>We determined whether the interaction of SS RBC with cultured endothelial cells induced cellular oxidant stress that would culminate in <clueType>expression</clueType> <linkTheme>of</linkTheme> cell adhesion molecules (CAMs) involved in the adhesion and diapedesis of monocytes and the adherence of <clueLoc>SS reticulocytes</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Regulation"/>
+<theme idref="E14"/>
+<cause idref="T16"/>
+<clue>We determined whether the interaction of SS RBC with cultured endothelial cells induced cellular oxidant stress that would culminate in expression of cell adhesion molecules (CAMs) <clueType>involved</clueType> <linkTheme>in</linkTheme> the adhesion and diapedesis of monocytes and the adherence of SS reticulocytes.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Regulation"/>
+<theme idref="E15"/>
+<cause idref="T16"/>
+<clue>We determined whether the interaction of SS RBC with cultured endothelial cells induced cellular oxidant stress that would culminate in expression of cell adhesion molecules (CAMs) <clueType>involved</clueType> <linkTheme>in</linkTheme> the adhesion and diapedesis of monocytes and the adherence of SS reticulocytes.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Regulation"/>
+<theme idref="E16"/>
+<cause idref="T16"/>
+<clue>We determined whether the interaction of SS RBC with cultured endothelial cells induced cellular oxidant stress that would culminate in expression of cell adhesion molecules (CAMs) <clueType>involved</clueType> <linkTheme>in</linkTheme> the adhesion and diapedesis of monocytes and the adherence of SS reticulocytes.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Cell_adhesion"/>
+<theme idref="T17"/>
+<clue>We determined whether the interaction of SS RBC with cultured endothelial cells induced cellular oxidant stress that would culminate in expression of cell adhesion molecules (CAMs) involved in the <clueType>adhesion</clueType> and diapedesis <linkTheme>of</linkTheme> monocytes and the adherence of SS reticulocytes.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Cellular_physiological_process"/>
+<theme idref="T17"/>
+<clue>We determined whether the interaction of SS RBC with cultured endothelial cells induced cellular oxidant stress that would culminate in expression of cell adhesion molecules (CAMs) involved in the adhesion and <clueType>diapedesis</clueType> <linkTheme>of</linkTheme> monocytes and the adherence of SS reticulocytes.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Cell_adhesion"/>
+<theme idref="T18"/>
+<clue>We determined whether the interaction of SS RBC with cultured endothelial cells induced cellular oxidant stress that would culminate in expression of cell adhesion molecules (CAMs) involved in the adhesion and diapedesis of monocytes and the <clueType>adherence</clueType> <linkTheme>of</linkTheme> SS reticulocytes.</clue>
+</event>
+<sentence id="S4">We showed that the interaction of <term id="T19" lex="SS_RBC" sem="Cell_natural">SS RBC</term> at 2% concentration in the presence of multimers of <term id="T20" lex="von_Willebrand_factor" sem="Protein_molecule">von Willebrand factor</term> (<term id="T21" lex="vWf" sem="Protein_molecule">vWf</term>), derived from <term id="T22" lex="endothelial_cell-derived_conditioned_medium" sem="Organic_compound_other">endothelial cell-derived conditioned medium</term> (<term id="T23" lex="E-CM" sem="Organic_compound_other">E-CM</term>) with <term id="T24" lex="cultured_human_umbilical_vein_endothelial_cell" sem="Cell_cultured">cultured human umbilical vein <term id="T25" lex="endothelial_cell" sem="Cell_natural">endothelial cells</term></term> (<term id="T26" lex="HUVEC" sem="Cell_cultured">HUVEC</term>), resulted in a fivefold increased formation of <term id="T27" lex="thiobarbituric_acid-reactive_substance" sem="Organic_compound_other">thiobarbituric acid-reactive substances</term> (<term id="T28" lex="TBARS" sem="Organic_compound_other">TBARS</term>) and activation of the <term id="T29" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> <term id="T30" lex="NF-kB" sem="Protein_complex">NF-kB</term>, both indicators of <term id="T31" lex="cellular_oxidant_stress" sem="Other">cellular oxidant stress</term>.</sentence>
+<event KT="Other" id="E17">
+<type class="Binding"/>
+<theme idref="T21"/>
+<clue>We showed that the interaction of SS RBC at 2% concentration in the presence of <clueType>multimers</clueType> <linkTheme>of</linkTheme> von Willebrand factor (vWf), derived from endothelial cell-derived conditioned medium (E-CM) with cultured human umbilical vein endothelial cells (HUVEC), resulted in a fivefold increased formation of thiobarbituric acid-reactive substances (TBARS) and activation of the transcription factor NF-kB, both indicators of cellular oxidant stress.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Cell_adhesion"/>
+<theme idref="T19"/>
+<theme idref="T26"/>
+<clue>We showed that the <clueType>interaction</clueType> <linkTheme>of</linkTheme> SS RBC at 2% concentration in the presence of multimers of von Willebrand factor (vWf), derived from endothelial cell-derived conditioned medium (E-CM) <linkTheme>with</linkTheme> cultured human umbilical vein endothelial cells (HUVEC), resulted in a fivefold increased formation of thiobarbituric acid-reactive substances (TBARS) and activation of the transcription factor NF-kB, both indicators of cellular oxidant stress.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="E17"/>
+<clue>We showed that the interaction of SS RBC at 2% concentration <linkCause>in the presence of</linkCause> multimers of von Willebrand factor (vWf), derived from endothelial cell-derived conditioned medium (E-CM) with cultured human umbilical vein endothelial cells (HUVEC), resulted in a fivefold increased formation of thiobarbituric acid-reactive substances (TBARS) and activation of the transcription factor NF-kB, both indicators of cellular oxidant stress.</clue>
+</event>
+<event KT="Analysis" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="E79"/>
+<cause idref="E18"/>
+<clue>We <clueKT>showed</clueKT> that the interaction of SS RBC at 2% concentration in the presence of multimers of von Willebrand factor (vWf), derived from endothelial cell-derived conditioned medium (E-CM) with cultured human umbilical vein endothelial cells (HUVEC), <clueType>resulted in</clueType> a fivefold <clueType>increased</clueType> formation of thiobarbituric acid-reactive substances (TBARS) and activation of the transcription factor NF-kB, both indicators of cellular oxidant stress.</clue>
+</event>
+<event KT="Other" Manner="High" id="E79">
+<type class="Metabolism"/>
+<theme idref="T28"/>
+<clue>We showed that the interaction of SS RBC at 2% concentration in the presence of multimers of von Willebrand factor (vWf), derived from endothelial cell-derived conditioned medium (E-CM) with cultured human umbilical vein endothelial cells (HUVEC), resulted in a <clueManner>fivefold</clueManner> increased <clueType>formation</clueType> <linkTheme>of</linkTheme> thiobarbituric acid-reactive substances (TBARS) and activation of the transcription factor NF-kB, both indicators of cellular oxidant stress.</clue>
+</event>
+<event KT="Analysis" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="T30"/>
+<cause idref="E18"/>
+<clue>We <clueKT>showed</clueKT> that the interaction of SS RBC at 2% concentration in the presence of multimers of von Willebrand factor (vWf), derived from endothelial cell-derived conditioned medium (E-CM) with cultured human umbilical vein endothelial cells (HUVEC), <clueType>resulted in</clueType> a fivefold increased formation of thiobarbituric acid-reactive substances (TBARS) and <clueType>activation</clueType> <linkTheme>of</linkTheme> the transcription factor NF-kB, both indicators of cellular oxidant stress.</clue>
+</event>
+<event KT="Fact" id="E21">
+<type class="Correlation"/>
+<theme idref="E19"/>
+<theme idref="T31"/>
+<clue>We showed that the interaction of SS RBC at 2% concentration in the presence of multimers of von Willebrand factor (vWf), derived from endothelial cell-derived conditioned medium (E-CM) with cultured human umbilical vein endothelial cells (HUVEC), resulted in a fivefold increased formation of thiobarbituric acid-reactive substances (TBARS) and activation of the transcription factor NF-kB, both <clueType>indicators</clueType> <linkTheme>of</linkTheme> cellular oxidant stress.</clue>
+</event>
+<event KT="Fact" id="E80">
+<type class="Correlation"/>
+<theme idref="E20"/>
+<theme idref="T31"/>
+<clue>We showed that the interaction of SS RBC at 2% concentration in the presence of multimers of von Willebrand factor (vWf), derived from endothelial cell-derived conditioned medium (E-CM) with cultured human umbilical vein endothelial cells (HUVEC), resulted in a fivefold increased formation of thiobarbituric acid-reactive substances (TBARS) and activation of the transcription factor NF-kB, both <clueType>indicators</clueType> <linkTheme>of</linkTheme> cellular oxidant stress.</clue>
+</event>
+<sentence id="S5"><term id="T32" lex="normal_RBC" sem="Cell_natural">Normal RBC</term> show none of these phenomena.</sentence>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<clue><clueLoc>Normal RBC</clueLoc> <clueType>show <cluePolarity>none</cluePolarity></clueType> <linkTheme>of</linkTheme> <corefTheme>these phenomena</corefTheme>.</clue>
+</event>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<clue><clueLoc>Normal RBC</clueLoc> <clueType>show <cluePolarity>none</cluePolarity></clueType> <linkTheme>of</linkTheme> <corefTheme>these phenomena</corefTheme>.</clue>
+</event>
+<sentence id="S6">The <term id="T33" lex="oxidant_stress-induced_signaling" sem="Other">oxidant stress-induced signaling</term> resulted in an increased <term id="T34" lex="surface_expression" sem="Other">surface expression</term> of a subset of <term id="T35" lex="CAM" sem="Protein_family_or_group">CAMs</term>, <term id="T36" lex="ICAM-1" sem="Protein_molecule">ICAM-1</term>, <term id="T37" lex="E-selectin" sem="Protein_molecule">E-selectin</term>, and <term id="T38" lex="VCAM-1" sem="Protein_molecule">VCAM-1</term> in <term id="T39" lex="HUVEC" sem="Cell_cultured">HUVEC</term>.</sentence>
+<event id="E26">
+<type class="Localization"/>
+<theme idref="T35"/>
+<clue>The oxidant stress-induced signaling resulted in an increased <clueLoc>surface</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> a subset of CAMs, ICAM-1, E-selectin, and VCAM-1 <clueLoc>in HUVEC</clueLoc>.</clue>
+</event>
+<event id="E27">
+<type class="Localization"/>
+<theme idref="T36"/>
+<clue>The oxidant stress-induced signaling resulted in an increased <clueLoc>surface</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> a subset of CAMs, ICAM-1, E-selectin, and VCAM-1 <clueLoc>in HUVEC</clueLoc>.</clue>
+</event>
+<event id="E28">
+<type class="Localization"/>
+<theme idref="T37"/>
+<clue>The oxidant stress-induced signaling resulted in an increased <clueLoc>surface</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> a subset of CAMs, ICAM-1, E-selectin, and VCAM-1 <clueLoc>in HUVEC</clueLoc>.</clue>
+</event>
+<event id="E29">
+<type class="Localization"/>
+<theme idref="T38"/>
+<clue>The oxidant stress-induced signaling resulted in an increased <clueLoc>surface</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> a subset of CAMs, ICAM-1, E-selectin, and VCAM-1 <clueLoc>in HUVEC</clueLoc>.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation"/>
+<theme idref="E26"/>
+<cause idref="T33"/>
+<clue>The oxidant stress-induced signaling <clueType>resulted in an increased</clueType> surface expression of a subset of CAMs, ICAM-1, E-selectin, and VCAM-1 in HUVEC.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation"/>
+<theme idref="E27"/>
+<cause idref="T33"/>
+<clue>The oxidant stress-induced signaling <clueType>resulted in an increased</clueType> surface expression of a subset of CAMs, ICAM-1, E-selectin, and VCAM-1 in HUVEC.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation"/>
+<theme idref="E28"/>
+<cause idref="T33"/>
+<clue>The oxidant stress-induced signaling <clueType>resulted in an increased</clueType> surface expression of a subset of CAMs, ICAM-1, E-selectin, and VCAM-1 in HUVEC.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E29"/>
+<cause idref="T33"/>
+<clue>The oxidant stress-induced signaling <clueType>resulted in an increased</clueType> surface expression of a subset of CAMs, ICAM-1, E-selectin, and VCAM-1 in HUVEC.</clue>
+</event>
+<sentence id="S7">The addition of <term id="T40" lex="oxygen_radical_scavenger_enzyme" sem="Protein_family_or_group">oxygen radical scavenger enzymes</term> (<term id="T41" lex="catalase" sem="Protein_molecule">catalase</term>, <term id="T42" lex="superoxide_dismutase" sem="Protein_molecule">superoxide dismutase</term>) and <term id="T43" lex="antioxidant" sem="Organic_compound_other">antioxidant</term> (<term id="T44" lex="probucol" sem="Organic_compound_other">probucol</term>) inhibited these events.</sentence>
+<event id="E34">
+<type class="Negative_regulation"/>
+<theme idref="E30"/>
+<cause idref="T41"/>
+<clue>The addition of oxygen radical scavenger enzymes (catalase, superoxide dismutase) and antioxidant (probucol) <clueType>inhibited</clueType> <corefTheme>these events</corefTheme>.</clue>
+</event>
+<event id="E35">
+<type class="Negative_regulation"/>
+<theme idref="E31"/>
+<cause idref="T41"/>
+<clue>The addition of oxygen radical scavenger enzymes (catalase, superoxide dismutase) and antioxidant (probucol) <clueType>inhibited</clueType> <corefTheme>these events</corefTheme>.</clue>
+</event>
+<event id="E36">
+<type class="Negative_regulation"/>
+<theme idref="E32"/>
+<cause idref="T41"/>
+<clue>The addition of oxygen radical scavenger enzymes (catalase, superoxide dismutase) and antioxidant (probucol) <clueType>inhibited</clueType> <corefTheme>these events</corefTheme>.</clue>
+</event>
+<event id="E37">
+<type class="Negative_regulation"/>
+<theme idref="E33"/>
+<cause idref="T41"/>
+<clue>The addition of oxygen radical scavenger enzymes (catalase, superoxide dismutase) and antioxidant (probucol) <clueType>inhibited</clueType> <corefTheme>these events</corefTheme>.</clue>
+</event>
+<event id="E38">
+<type class="Negative_regulation"/>
+<theme idref="E30"/>
+<cause idref="T42"/>
+<clue>The addition of oxygen radical scavenger enzymes (catalase, superoxide dismutase) and antioxidant (probucol) <clueType>inhibited</clueType> <corefTheme>these events</corefTheme>.</clue>
+</event>
+<event id="E39">
+<type class="Negative_regulation"/>
+<theme idref="E31"/>
+<cause idref="T42"/>
+<clue>The addition of oxygen radical scavenger enzymes (catalase, superoxide dismutase) and antioxidant (probucol) <clueType>inhibited</clueType> <corefTheme>these events</corefTheme>.</clue>
+</event>
+<event id="E40">
+<type class="Negative_regulation"/>
+<theme idref="E32"/>
+<cause idref="T42"/>
+<clue>The addition of oxygen radical scavenger enzymes (catalase, superoxide dismutase) and antioxidant (probucol) <clueType>inhibited</clueType> <corefTheme>these events</corefTheme>.</clue>
+</event>
+<event id="E41">
+<type class="Negative_regulation"/>
+<theme idref="E33"/>
+<cause idref="T42"/>
+<clue>The addition of oxygen radical scavenger enzymes (catalase, superoxide dismutase) and antioxidant (probucol) <clueType>inhibited</clueType> <corefTheme>these events</corefTheme>.</clue>
+</event>
+<event id="E42">
+<type class="Negative_regulation"/>
+<theme idref="E30"/>
+<cause idref="T44"/>
+<clue>The addition of oxygen radical scavenger enzymes (catalase, superoxide dismutase) and antioxidant (probucol) <clueType>inhibited</clueType> <corefTheme>these events</corefTheme>.</clue>
+</event>
+<event id="E43">
+<type class="Negative_regulation"/>
+<theme idref="E31"/>
+<cause idref="T44"/>
+<clue>The addition of oxygen radical scavenger enzymes (catalase, superoxide dismutase) and antioxidant (probucol) <clueType>inhibited</clueType> <corefTheme>these events</corefTheme>.</clue>
+</event>
+<event id="E44">
+<type class="Negative_regulation"/>
+<theme idref="E32"/>
+<cause idref="T44"/>
+<clue>The addition of oxygen radical scavenger enzymes (catalase, superoxide dismutase) and antioxidant (probucol) <clueType>inhibited</clueType> <corefTheme>these events</corefTheme>.</clue>
+</event>
+<event id="E45">
+<type class="Negative_regulation"/>
+<theme idref="E33"/>
+<cause idref="T44"/>
+<clue>The addition of oxygen radical scavenger enzymes (catalase, superoxide dismutase) and antioxidant (probucol) <clueType>inhibited</clueType> <corefTheme>these events</corefTheme>.</clue>
+</event>
+<sentence id="S8">Additionally, preincubation of <term id="T45" lex="HUVEC" sem="Cell_cultured">HUVEC</term> with a <term id="T46" lex="synthetic_peptide" sem="Peptide">synthetic peptide</term> <term id="T47" lex="Arg-Gly-Asp" sem="Peptide">Arg-Gly-Asp</term> (<term id="T48" lex="RGD" sem="Peptide">RGD</term>) that prevents <term id="T49" lex="vWf-mediated_adhesion" sem="Other"><term id="T50" lex="vWf" sem="Protein_molecule">vWf</term>-mediated adhesion</term> of <term id="T51" lex="SS_RBC" sem="Cell_natural">SS RBC</term> reduced the <term id="T52" lex="surface_expression" sem="Other">surface expression</term> of <term id="T53" lex="VCAM-1" sem="Protein_molecule">VCAM-1</term> and <term id="T54" lex="NF-kB_activation" sem="Other"><term id="T55" lex="NF-kB" sem="Protein_complex">NF-kB</term> activation</term>.</sentence>
+<event id="E46">
+<type class="Physiological_process"/>
+<theme idref="T45"/>
+<cause idref="E47"/>
+<clue>Additionally, <clueType>preincubation</clueType> <linkTheme>of</linkTheme> HUVEC <linkCause>with</linkCause> a synthetic peptide Arg-Gly-Asp (RGD) that prevents vWf-mediated adhesion of SS RBC reduced the surface expression of VCAM-1 and NF-kB activation.</clue>
+<comment>CAUTION: preincubation -&gt; stimulation</comment></event>
+<event KT="Fact" id="E47">
+<type class="Negative_regulation"/>
+<theme idref="E48"/>
+<cause idref="T48"/>
+<clue>Additionally, preincubation of HUVEC with a synthetic peptide Arg-Gly-Asp (RGD) that <clueType>prevents</clueType> vWf-mediated adhesion of SS RBC reduced the surface expression of VCAM-1 and NF-kB activation.</clue>
+</event>
+<event KT="Other" id="E48">
+<type class="Cell_adhesion"/>
+<theme idref="T51"/>
+<clue>Additionally, preincubation of HUVEC with a synthetic peptide Arg-Gly-Asp (RGD) that prevents vWf-mediated <clueType>adhesion</clueType> <linkTheme>of</linkTheme> SS RBC reduced the surface expression of VCAM-1 and NF-kB activation.</clue>
+</event>
+<event KT="Other" id="E81">
+<type class="Positive_regulation"/>
+<theme idref="E48"/>
+<cause idref="T50"/>
+<clue>Additionally, preincubation of HUVEC with a synthetic peptide Arg-Gly-Asp (RGD) that prevents vWf-<clueType>mediated</clueType> adhesion of SS RBC reduced the surface expression of VCAM-1 and NF-kB activation.</clue>
+</event>
+<event id="E49">
+<type class="Negative_regulation"/>
+<theme idref="E51"/>
+<cause idref="E46"/>
+<clue>Additionally, preincubation of HUVEC with a synthetic peptide Arg-Gly-Asp (RGD) that prevents vWf-mediated adhesion of SS RBC <clueType>reduced</clueType> the surface expression of VCAM-1 and NF-kB activation.</clue>
+</event>
+<event id="E50">
+<type class="Negative_regulation"/>
+<theme idref="E52"/>
+<cause idref="E46"/>
+<clue>Additionally, preincubation of HUVEC with a synthetic peptide Arg-Gly-Asp (RGD) that prevents vWf-mediated adhesion of SS RBC <clueType>reduced</clueType> the surface expression of VCAM-1 and NF-kB activation.</clue>
+</event>
+<event id="E51">
+<type class="Gene_expression"/>
+<theme idref="T53"/>
+<clue>Additionally, preincubation of <clueLoc>HUVEC</clueLoc> with a synthetic peptide Arg-Gly-Asp (RGD) that prevents vWf-mediated adhesion of SS RBC reduced the <clueLoc>surface</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> VCAM-1 and NF-kB activation.</clue>
+</event>
+<event id="E52">
+<type class="Positive_regulation"/>
+<theme idref="T55"/>
+<clue>Additionally, preincubation of <clueLoc>HUVEC</clueLoc> with a synthetic peptide Arg-Gly-Asp (RGD) that prevents vWf-mediated adhesion of SS RBC reduced the surface expression of VCAM-1 and NF-kB <clueType>activation</clueType>.</clue>
+</event>
+<sentence id="S9">Furthermore, <term id="T57" lex="SS_RBC" sem="Cell_natural">SS RBC</term>-induced <term id="A3" sem="Other">oxidant stress</term> resulted in a twofold increase in the <term id="T58" lex="transendothelial_migration" sem="Other">transendothelial migration</term> of both <term id="T59" lex="monocyte-like_HL-60_cell" sem="Cell_cultured">monocyte-like HL-60 cells</term> and <term id="T60" lex="human_peripheral_blood_monocyte" sem="Cell_natural">human peripheral blood <term id="T61" lex="monocyte" sem="Cell_natural">monocytes</term></term>, and approximately a sixfold increase in <term id="T62" lex="platelet-endothelial_cell_adhesion_molecule-1_(PECAM-1)_phosphorylation" sem="Other"><term id="T63" lex="platelet-endothelial_cell_adhesion_molecule-1" sem="Protein_molecule">platelet-endothelial cell adhesion molecule-1</term> (<term id="T64" lex="PECAM-1" sem="Protein_molecule">PECAM-1</term>) phosphorylation</term>, each of which was blocked by <term id="T65" lex="protein_kinase_C_inhibitor" sem="Organic_compound_other"><term id="T66" lex="protein_kinase_C" sem="Protein_molecule">protein kinase C</term> inhibitor</term> and <term id="T67" lex="antioxidant" sem="Organic_compound_other">antioxidants</term>.</sentence>
+<event id="E53">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<cause idref="T57"/>
+<clue>Furthermore, SS RBC-<clueType>induced</clueType> oxidant stress resulted in a twofold increase in the transendothelial migration of both monocyte-like HL-60 cells and human peripheral blood monocytes, and approximately a sixfold increase in platelet-endothelial cell adhesion molecule-1 (PECAM-1) phosphorylation, each of which was blocked by protein kinase C inhibitor and antioxidants.</clue>
+<comment>NER: T56 del &quot;SS RBC-induced oxidant stress&quot;</comment></event>
+<event Manner="High" id="E54">
+<type class="Positive_regulation"/>
+<theme idref="E56"/>
+<cause idref="E53"/>
+<clue>Furthermore, SS RBC-induced oxidant stress <clueType>resulted in</clueType> a <clueManner>twofold</clueManner> <clueType>increase</clueType> <linkTheme>in</linkTheme> the transendothelial migration of both monocyte-like HL-60 cells and human peripheral blood monocytes, and approximately a sixfold increase in platelet-endothelial cell adhesion molecule-1 (PECAM-1) phosphorylation, each of which was blocked by protein kinase C inhibitor and antioxidants.</clue>
+</event>
+<event Manner="High" id="E55">
+<type class="Positive_regulation"/>
+<theme idref="E57"/>
+<cause idref="E53"/>
+<clue>Furthermore, SS RBC-induced oxidant stress <clueType>resulted in</clueType> a <clueManner>twofold</clueManner> <clueType>increase</clueType> <linkTheme>in</linkTheme> the transendothelial migration of both monocyte-like HL-60 cells and human peripheral blood monocytes, and approximately a sixfold increase in platelet-endothelial cell adhesion molecule-1 (PECAM-1) phosphorylation, each of which was blocked by protein kinase C inhibitor and antioxidants.</clue>
+</event>
+<event id="E56">
+<type class="Cellular_physiological_process"/>
+<theme idref="T59"/>
+<clue>Furthermore, SS RBC-induced oxidant stress resulted in a twofold increase in the <clueLoc>transendothelial</clueLoc> <clueType>migration</clueType> <linkTheme>of</linkTheme> both monocyte-like HL-60 cells and human peripheral blood monocytes, and approximately a sixfold increase in platelet-endothelial cell adhesion molecule-1 (PECAM-1) phosphorylation, each of which was blocked by protein kinase C inhibitor and antioxidants.</clue>
+</event>
+<event id="E57">
+<type class="Cellular_physiological_process"/>
+<theme idref="T60"/>
+<clue>Furthermore, SS RBC-induced oxidant stress resulted in a twofold increase in the <clueLoc>transendothelial</clueLoc> <clueType>migration</clueType> <linkTheme>of</linkTheme> both monocyte-like HL-60 cells and human peripheral blood monocytes, and approximately a sixfold increase in platelet-endothelial cell adhesion molecule-1 (PECAM-1) phosphorylation, each of which was blocked by protein kinase C inhibitor and antioxidants.</clue>
+</event>
+<event Manner="High" id="E58">
+<type class="Positive_regulation"/>
+<theme idref="E59"/>
+<cause idref="E53"/>
+<clue>Furthermore, SS RBC-induced oxidant stress <clueType>resulted in</clueType> a twofold increase in the transendothelial migration of both monocyte-like HL-60 cells and human peripheral blood monocytes, and approximately a <clueManner>sixfold</clueManner> <clueType>increase</clueType> <linkTheme>in</linkTheme> platelet-endothelial cell adhesion molecule-1 (PECAM-1) phosphorylation, each of which was blocked by protein kinase C inhibitor and antioxidants.</clue>
+</event>
+<event id="E59">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T64"/>
+<clue>Furthermore, SS RBC-induced oxidant stress resulted in a twofold increase in the transendothelial migration of both monocyte-like HL-60 cells and human peripheral blood monocytes, and approximately a sixfold increase in platelet-endothelial cell adhesion molecule-1 (PECAM-1) <clueType>phosphorylation</clueType>, each of which was blocked by protein kinase C inhibitor and antioxidants.</clue>
+</event>
+<event id="E60">
+<type class="Negative_regulation"/>
+<theme idref="E54"/>
+<cause idref="T65"/>
+<clue>Furthermore, SS RBC-induced oxidant stress resulted in a twofold increase in the transendothelial migration of both monocyte-like HL-60 cells and human peripheral blood monocytes, and approximately a sixfold increase in platelet-endothelial cell adhesion molecule-1 (PECAM-1) phosphorylation, <corefTheme>each of which</corefTheme> was <clueType>blocked</clueType> <linkCause>by</linkCause> protein kinase C inhibitor and antioxidants.</clue>
+</event>
+<event id="E61">
+<type class="Negative_regulation"/>
+<theme idref="E55"/>
+<cause idref="T65"/>
+<clue>Furthermore, SS RBC-induced oxidant stress resulted in a twofold increase in the transendothelial migration of both monocyte-like HL-60 cells and human peripheral blood monocytes, and approximately a sixfold increase in platelet-endothelial cell adhesion molecule-1 (PECAM-1) phosphorylation, <corefTheme>each of which</corefTheme> was <clueType>blocked</clueType> <linkCause>by</linkCause> protein kinase C inhibitor and antioxidants.</clue>
+</event>
+<event id="E62">
+<type class="Negative_regulation"/>
+<theme idref="E58"/>
+<cause idref="T65"/>
+<clue>Furthermore, SS RBC-induced oxidant stress resulted in a twofold increase in the transendothelial migration of both monocyte-like HL-60 cells and human peripheral blood monocytes, and approximately a sixfold increase in platelet-endothelial cell adhesion molecule-1 (PECAM-1) phosphorylation, <corefTheme>each of which</corefTheme> was <clueType>blocked</clueType> <linkCause>by</linkCause> protein kinase C inhibitor and antioxidants.</clue>
+</event>
+<event id="E63">
+<type class="Negative_regulation"/>
+<theme idref="E54"/>
+<cause idref="T67"/>
+<clue>Furthermore, SS RBC-induced oxidant stress resulted in a twofold increase in the transendothelial migration of both monocyte-like HL-60 cells and human peripheral blood monocytes, and approximately a sixfold increase in platelet-endothelial cell adhesion molecule-1 (PECAM-1) phosphorylation, <corefTheme>each of which</corefTheme> was <clueType>blocked</clueType> <linkCause>by</linkCause> protein kinase C inhibitor and antioxidants.</clue>
+</event>
+<event id="E64">
+<type class="Negative_regulation"/>
+<theme idref="E55"/>
+<cause idref="T67"/>
+<clue>Furthermore, SS RBC-induced oxidant stress resulted in a twofold increase in the transendothelial migration of both monocyte-like HL-60 cells and human peripheral blood monocytes, and approximately a sixfold increase in platelet-endothelial cell adhesion molecule-1 (PECAM-1) phosphorylation, <corefTheme>each of which</corefTheme> was <clueType>blocked</clueType> <linkCause>by</linkCause> protein kinase C inhibitor and antioxidants.</clue>
+</event>
+<event id="E65">
+<type class="Negative_regulation"/>
+<theme idref="E58"/>
+<cause idref="T67"/>
+<clue>Furthermore, SS RBC-induced oxidant stress resulted in a twofold increase in the transendothelial migration of both monocyte-like HL-60 cells and human peripheral blood monocytes, and approximately a sixfold increase in platelet-endothelial cell adhesion molecule-1 (PECAM-1) phosphorylation, <corefTheme>each of which</corefTheme> was <clueType>blocked</clueType> <linkCause>by</linkCause> protein kinase C inhibitor and antioxidants.</clue>
+</event>
+<sentence id="S10">These results suggest that the adherence/contact of <term id="T68" lex="SS_RBC" sem="Cell_natural">SS RBC</term> to <term id="T69" lex="endothelial_cell" sem="Cell_natural">endothelial cells</term> in large vessel can generate enhanced <term id="A4" sem="Other">oxidant stress</term> leading to increased adhesion and diapedesis of <term id="T70" lex="monocyte" sem="Cell_natural">monocytes</term>, as well as heightened adherence of <term id="T71" lex="SS_reticulocyte" sem="Cell_natural">SS reticulocytes</term>, indicating that injury/activation of <term id="T72" lex="endothelium" sem="Tissue_natural">endothelium</term> can contribute to <term id="T73" lex="vaso-occlusion" sem="Other">vaso-occlusion</term> in <term id="T74" lex="SCD" sem="Other">SCD</term>.</sentence>
+<event KT="Other" id="E66">
+<type class="Cell_adhesion"/>
+<theme idref="T68"/>
+<theme idref="T69"/>
+<clue>These results suggest that the <clueType>adherence/contact</clueType> <linkTheme>of</linkTheme> SS RBC <linkTheme>to</linkTheme> endothelial cells <clueLoc>in large vessel</clueLoc> can generate enhanced oxidant stress leading to increased adhesion and diapedesis of monocytes, as well as heightened adherence of SS reticulocytes, indicating that injury/activation of endothelium can contribute to vaso-occlusion in SCD.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E67" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="A4"/>
+<cause idref="E66"/>
+<clue>These results <clueKT>suggest</clueKT> that the adherence/contact of SS RBC to endothelial cells in large vessel <clueCL>can</clueCL> <clueType>generate enhanced</clueType> oxidant stress leading to increased adhesion and diapedesis of monocytes, as well as heightened adherence of SS reticulocytes, indicating that injury/activation of endothelium can contribute to vaso-occlusion in SCD.</clue>
+</event>
+<event KT="Other" id="E68">
+<type class="Positive_regulation"/>
+<theme idref="E70"/>
+<cause idref="E67"/>
+<clue>These results suggest that the adherence/contact of SS RBC to endothelial cells in large vessel can generate enhanced oxidant stress <clueType>leading to increased</clueType> adhesion and diapedesis of monocytes, as well as heightened adherence of SS reticulocytes, indicating that injury/activation of endothelium can contribute to vaso-occlusion in SCD.</clue>
+</event>
+<event KT="Other" id="E69">
+<type class="Positive_regulation"/>
+<theme idref="E71"/>
+<cause idref="E67"/>
+<clue>These results suggest that the adherence/contact of SS RBC to endothelial cells in large vessel can generate enhanced oxidant stress <clueType>leading to increased</clueType> adhesion and diapedesis of monocytes, as well as heightened adherence of SS reticulocytes, indicating that injury/activation of endothelium can contribute to vaso-occlusion in SCD.</clue>
+</event>
+<event KT="Other" id="E70">
+<type class="Cell_adhesion"/>
+<theme idref="T70"/>
+<clue>These results suggest that the adherence/contact of SS RBC to endothelial cells in large vessel can generate enhanced oxidant stress leading to increased <clueType>adhesion</clueType> and diapedesis <linkTheme>of</linkTheme> monocytes, as well as heightened adherence of SS reticulocytes, indicating that injury/activation of endothelium can contribute to vaso-occlusion in SCD.</clue>
+</event>
+<event KT="Other" id="E71">
+<type class="Cellular_physiological_process"/>
+<theme idref="T70"/>
+<clue>These results suggest that the adherence/contact of SS RBC to endothelial cells in large vessel can generate enhanced oxidant stress leading to increased adhesion and <clueType>diapedesis</clueType> <linkTheme>of</linkTheme> monocytes, as well as heightened adherence of SS reticulocytes, indicating that injury/activation of endothelium can contribute to vaso-occlusion in SCD.</clue>
+</event>
+<event KT="Other" id="E72">
+<type class="Positive_regulation"/>
+<theme idref="E73"/>
+<cause idref="E67"/>
+<clue>These results suggest that the adherence/contact of SS RBC to endothelial cells in large vessel can generate enhanced oxidant stress <clueType>leading to</clueType> increased adhesion and diapedesis of monocytes, as well as <clueType>heightened</clueType> adherence of SS reticulocytes, indicating that injury/activation of endothelium can contribute to vaso-occlusion in SCD.</clue>
+</event>
+<event KT="Other" id="E73">
+<type class="Cell_adhesion"/>
+<theme idref="T71"/>
+<clue>These results suggest that the adherence/contact of SS RBC to endothelial cells in large vessel can generate enhanced oxidant stress leading to increased adhesion and diapedesis of monocytes, as well as heightened <clueType>adherence</clueType> <linkTheme>of</linkTheme> SS reticulocytes, indicating that injury/activation of endothelium can contribute to vaso-occlusion in SCD.</clue>
+</event>
+<event KT="Other" id="E74">
+<type class="Negative_regulation"/>
+<theme idref="T72"/>
+<clue>These results suggest that the adherence/contact of SS RBC to endothelial cells in large vessel can generate enhanced oxidant stress leading to increased adhesion and diapedesis of monocytes, as well as heightened adherence of SS reticulocytes, indicating that <clueType>injury</clueType>/activation <linkTheme>of</linkTheme> endothelium can contribute to vaso-occlusion in SCD.</clue>
+</event>
+<event KT="Other" id="E75">
+<type class="Positive_regulation"/>
+<theme idref="T72"/>
+<clue>These results suggest that the adherence/contact of SS RBC to endothelial cells in large vessel can generate enhanced oxidant stress leading to increased adhesion and diapedesis of monocytes, as well as heightened adherence of SS reticulocytes, indicating that injury/<clueType>activation</clueType> <linkTheme>of</linkTheme> endothelium can contribute to vaso-occlusion in SCD.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E76">
+<type class="Positive_regulation"/>
+<theme idref="T73"/>
+<cause idref="E74"/>
+<clue>These results suggest that the adherence/contact of SS RBC to endothelial cells in large vessel can generate enhanced oxidant stress leading to increased adhesion and diapedesis of monocytes, as well as heightened adherence of SS reticulocytes, <clueKT>indicating</clueKT> that injury/activation of endothelium <clueCL>can</clueCL> <clueType>contribute</clueType> <linkTheme>to</linkTheme> vaso-occlusion in SCD.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E77" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T73"/>
+<cause idref="E75"/>
+<clue>These results suggest that the adherence/contact of SS RBC to endothelial cells in large vessel can generate enhanced oxidant stress leading to increased adhesion and diapedesis of monocytes, as well as heightened adherence of SS reticulocytes, <clueKT>indicating</clueKT> that injury/activation of endothelium <clueCL>can</clueCL> <clueType>contribute</clueType> <linkTheme>to</linkTheme> vaso-occlusion in SCD.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

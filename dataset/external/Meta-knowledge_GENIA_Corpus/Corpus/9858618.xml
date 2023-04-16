@@ -1,0 +1,131 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9858618" created="23/11/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9858618</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Interactions between the <term id="T1" lex="class_II_transactivator" sem="Protein_molecule">class II transactivator</term> and <term id="T2" lex="CREB_binding_protein" sem="Protein_molecule">CREB binding protein</term> increase transcription of <term id="T3" lex="major_histocompatibility_complex_class_II_gene" sem="DNA_family_or_group">major histocompatibility complex class II genes</term>.</sentence>
+<event id="E1">
+<type class="Binding"/>
+<theme idref="T1"/>
+<theme idref="T2"/>
+<clue><clueType>Interactions</clueType> <linkTheme>between</linkTheme> the class II transactivator and CREB binding protein increase transcription of major histocompatibility complex class II genes.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="E1"/>
+<clue>Interactions between the class II transactivator and CREB binding protein <clueType>increase</clueType> transcription of major histocompatibility complex class II genes.</clue>
+</event>
+<event id="E3">
+<type class="Transcription"/>
+<theme idref="T3"/>
+<clue>Interactions between the class II transactivator and CREB binding protein increase <clueType>transcription</clueType> <linkTheme>of</linkTheme> major histocompatibility complex class II genes.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T4" lex="class_II_major_histocompatibility_(class_II)_gene" sem="DNA_family_or_group">Class II major histocompatibility (class II) genes</term> are regulated in a <cons id="T5" lex="(AND B-cell-specific_fashion gamma_interferon-inducible_fashion)" sem="(AND Other Other)"><frag id="F1">B-cell-specific</frag> and <frag id="F2"><term id="A1" sem="Protein_molecule">gamma interferon</term>-inducible</frag> <frag id="F3">fashion</frag></cons>.</sentence>
+<event KT="Other" id="E4">
+<type class="Regulation"/>
+<theme idref="T4"/>
+<clue>Class II major histocompatibility (class II) genes are <clueType>regulated</clueType> in a <clueLoc>B-cell</clueLoc>-specific and gamma interferon-inducible fashion.</clue>
+</event>
+<event KT="Fact" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="A1"/>
+<clue>Class II major histocompatibility (class II) genes are regulated in a B-cell-specific and gamma interferon-<clueType>inducible</clueType> fashion.</clue>
+</event>
+<sentence id="S3">The master switch for the expression of these genes is the <term id="T6" lex="class_II_transactivator" sem="Protein_molecule">class II transactivator</term> (<term id="T7" lex="CIITA" sem="Protein_molecule">CIITA</term>).</sentence>
+<event KT="Fact" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="T7"/>
+<clue>The master <clueType>switch</clueType> <linkTheme>for</linkTheme> the expression of these genes is the class II transactivator (CIITA).</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Gene_expression"/>
+<theme idref="T4"/>
+<clue>The master switch for the <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>these genes</corefTheme> is the class II transactivator (CIITA).</clue>
+</event>
+<sentence id="S4">In this report, we demonstrate that one of the functions of <term id="T8" lex="CIITA" sem="Protein_molecule">CIITA</term> is to recruit the <term id="T9" lex="CREB_binding_protein" sem="Protein_molecule">CREB binding protein</term> (<term id="T10" lex="CBP" sem="Protein_molecule">CBP</term>) to <term id="T11" lex="class_II_promoter" sem="DNA_family_or_group">class II promoters</term>.</sentence>
+<event KT="Other" id="E8">
+<type class="Binding"/>
+<theme idref="T10"/>
+<theme idref="T11"/>
+<clue>In this report, we demonstrate that one of the functions of CIITA is to <clueType>recruit</clueType> the CREB binding protein (CBP) <linkTheme>to</linkTheme> class II promoters.</clue>
+</event>
+<event KT="Analysis" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="T8"/>
+<clue><clueKT>In this report</clueKT>, we <clueKT>demonstrate</clueKT> that one of the <clueType>functions</clueType> <linkCause>of</linkCause> CIITA is to recruit the CREB binding protein (CBP) to class II promoters.</clue>
+</event>
+<sentence id="S5">Not only functional but also specific binding interactions between <term id="T12" lex="CIITA" sem="Protein_molecule">CIITA</term> and <term id="T13" lex="CBP" sem="Protein_molecule">CBP</term> were demonstrated.</sentence>
+<event KT="Analysis" id="E10">
+<type class="Correlation"/>
+<theme idref="T12"/>
+<theme idref="T13"/>
+<clue>Not only <clueType>functional</clueType> but also specific binding <clueType>interactions</clueType> <linkTheme>between</linkTheme> CIITA and CBP were <clueKT>demonstrated</clueKT>.</clue>
+</event>
+<event KT="Analysis" id="E11">
+<type class="Binding"/>
+<theme idref="T12"/>
+<theme idref="T13"/>
+<clue>Not only functional but also specific <clueType>binding interactions</clueType> <linkTheme>between</linkTheme> CIITA and CBP were <clueKT>demonstrated</clueKT>.</clue>
+</event>
+<sentence id="S6">Moreover, a <term id="A2" sem="Protein_molecule">dominant negative form of <term id="T14" lex="CBP" sem="Protein_molecule">CBP</term></term> decreased the activity of <term id="T15" lex="class_II_promoter" sem="DNA_family_or_group">class II promoters</term> and levels of <term id="T16" lex="class_II_determinant" sem="Protein_family_or_group">class II determinants</term> on the <term id="T17" lex="surface_of_cell" sem="Cell_component">surface of cells</term>.</sentence>
+<event id="E12">
+<type class="Negative_regulation"/>
+<theme idref="T15"/>
+<cause idref="A2"/>
+<clue>Moreover, a dominant negative form of CBP <clueType>decreased</clueType> the activity of class II promoters and levels of class II determinants on the surface of cells.</clue>
+<comment>TPS: A2</comment></event>
+<event id="E13">
+<type class="Negative_regulation"/>
+<theme idref="E20"/>
+<cause idref="A2"/>
+<clue>Moreover, a dominant negative form of CBP <clueType>decreased</clueType> the activity of class II promoters and levels of class II determinants on the surface of cells.</clue>
+<comment>TPS: A2</comment></event>
+<event id="E20">
+<type class="Gene_expression"/>
+<theme idref="T16"/>
+<clue>Moreover, a dominant negative form of CBP decreased the activity of class II promoters and <clueType>levels</clueType> <linkTheme>of</linkTheme> class II determinants <clueLoc>on the surface of cells</clueLoc>.</clue>
+</event>
+<sentence id="S7">Finally, the inhibition of <term id="T18" lex="class_II_gene_expression" sem="Other"><term id="T19" lex="class_II_gene" sem="DNA_family_or_group">class II gene</term> expression</term> by the <term id="A3" sem="Organic_compound_other">glucocorticoid hormone</term> could be attributed to the squelching of <term id="T20" lex="CBP" sem="Protein_molecule">CBP</term> by the <term id="T21" lex="glucocorticoid_receptor" sem="Protein_family_or_group">glucocorticoid receptor</term>.</sentence>
+<event KT="Other" id="E14">
+<type class="Negative_regulation"/>
+<theme idref="E15"/>
+<cause idref="A3"/>
+<clue>Finally, the <clueType>inhibition</clueType> <linkTheme>of</linkTheme> class II gene expression <linkCause>by</linkCause> the glucocorticoid hormone could be attributed to the squelching of CBP by the glucocorticoid receptor.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Gene_expression"/>
+<theme idref="T19"/>
+<clue>Finally, the inhibition of class II gene <clueType>expression</clueType> by the glucocorticoid hormone could be attributed to the squelching of CBP by the glucocorticoid receptor.</clue>
+</event>
+<event KT="Analysis" id="E16" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="E17"/>
+<clue>Finally, the inhibition of class II gene expression by the glucocorticoid hormone could be <clueType><clueKT>attributed</clueKT></clueType> <linkCause>to</linkCause> the squelching of CBP by the glucocorticoid receptor.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Negative_regulation"/>
+<theme idref="T20"/>
+<cause idref="T21"/>
+<clue>Finally, the inhibition of class II gene expression by the glucocorticoid hormone could be attributed to the <clueType>squelching</clueType> <linkTheme>of</linkTheme> CBP <linkCause>by</linkCause> the glucocorticoid receptor.</clue>
+</event>
+<sentence id="S8">We conclude that <term id="T22" lex="CBP" sem="Protein_molecule">CBP</term>, a <term id="T23" lex="histone_acetyltransferase" sem="Protein_family_or_group">histone acetyltransferase</term>, plays an important role in the transcription of <term id="T24" lex="class_II_gene" sem="DNA_family_or_group">class II genes</term>.</sentence>
+<event KT="Analysis" id="E18">
+<type class="Regulation"/>
+<theme idref="E19"/>
+<cause idref="T22"/>
+<clue>We <clueKT>conclude</clueKT> that CBP, a histone acetyltransferase, <clueType>plays</clueType> an important <clueType>role</clueType> <linkTheme>in</linkTheme> the transcription of class II genes.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Transcription"/>
+<theme idref="T24"/>
+<clue>We conclude that CBP, a histone acetyltransferase, plays an important role in the <clueType>transcription</clueType> <linkTheme>of</linkTheme> class II genes.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

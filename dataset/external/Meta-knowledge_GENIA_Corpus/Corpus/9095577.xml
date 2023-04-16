@@ -1,0 +1,248 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9095577" created="11/04/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9095577</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="oxidant-regulation" sem="Other"><term id="A101" sem="Organic_compound_other">Oxidant</term>-regulation</term> of <term id="T2" lex="gene_expression" sem="Other">gene expression</term> in the <term id="T3" lex="chronically_inflamed_intestine" sem="Body_region">chronically inflamed intestine</term>.</sentence>
+<event id="E42">
+<type class="Regulation"/>
+<theme idref="T2"/>
+<cause idref="A101"/>
+<clue>Oxidant-<clueType>regulation</clueType> <linkTheme>of</linkTheme> gene expression <clueLoc>in the chronically inflamed intestine</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">It is becoming increasingly apparent that the <term id="T4" lex="chronic_gut_inflammation" sem="Other">chronic gut inflammation</term> observed in the <term id="T5" lex="idiopathic_inflammatory_bowel_disease" sem="Other">idiopathic inflammatory bowel diseases</term> (e.g. <term id="T6" lex="ulcerative_colitis" sem="Other">ulcerative colitis</term>, <term id="T7" lex="Crohn&apos;s_disease" sem="Other">Crohn&apos;s disease</term>) is associated with enhanced production of <term id="T8" lex="leukocyte-derived_oxidant" sem="Organic_compound_other">leukocyte-derived oxidants</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Metabolism"/>
+<theme idref="T8"/>
+<clue>It is becoming increasingly apparent that the chronic gut inflammation observed in the idiopathic inflammatory bowel diseases (e.g. ulcerative colitis, Crohn&apos;s disease) is associated with enhanced <clueType>production</clueType> <linkTheme>of</linkTheme> leukocyte-derived oxidants.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<clue>It is becoming increasingly apparent that the chronic gut inflammation observed in the idiopathic inflammatory bowel diseases (e.g. ulcerative colitis, Crohn&apos;s disease) is associated with <clueType>enhanced</clueType> production of leukocyte-derived oxidants.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E3" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="E1"/>
+<theme idref="T4"/>
+<clue>It is becoming <clueKT><clueCL>increasingly apparent</clueCL></clueKT> that the chronic gut inflammation observed in the idiopathic inflammatory bowel diseases (e.g. ulcerative colitis, Crohn&apos;s disease) is <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> enhanced production of leukocyte-derived oxidants.</clue>
+</event>
+<sentence id="S3"><term id="T9" lex="oxidant" sem="Organic_compound_other">Oxidants</term> such as <term id="T10" lex="hydrogen_peroxide" sem="Organic_compound_other">hydrogen peroxide</term> are known to activate certain <term id="T11" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term> such as <term id="T12" lex="nuclear_transcription_factor_kappa_beta" sem="Protein_complex">nuclear transcription factor kappa beta</term>.</sentence>
+<event KT="Fact" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T12"/>
+<cause idref="T10"/>
+<clue><corefCause>Oxidants</corefCause> such as hydrogen peroxide are <clueKT>known</clueKT> to <clueType>activate</clueType> certain <corefTheme>transcription factors</corefTheme> such as nuclear transcription factor kappa beta.</clue>
+</event>
+<sentence id="S4"><term id="T13" lex="nuclear_transcription_factor_kB" sem="Protein_complex">Nuclear transcription factor kB</term> (<term id="T14" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term>) is a <term id="T15" lex="ubiquitous_transcription_factor" sem="Protein_family_or_group">ubiquitous transcription factor</term> and <term id="T16" lex="pleiotropic_regulator" sem="Protein_family_or_group">pleiotropic regulator</term> of <term id="A1" sem="DNA_domain_or_region">numerous genes</term> involved in the <cons id="T17" lex="(AND immune_response inflammatory_response)" sem="(AND Other Other)"><frag id="F1">immune</frag> and <frag id="F2">inflammatory</frag> <frag id="F3">responses</frag></cons>.</sentence>
+<event id="E5">
+<type class="Regulation"/>
+<theme idref="F1" idref1="F3"/>
+<cause idref="A1"/>
+<clue>Nuclear transcription factor kB (NF-kappa B) is a ubiquitous transcription factor and pleiotropic regulator of numerous genes <clueType>involved</clueType> <linkTheme>in</linkTheme> the immune and inflammatory responses.</clue>
+</event>
+<event id="E41">
+<type class="Regulation"/>
+<theme idref="F2" idref1="F3"/>
+<cause idref="A1"/>
+<clue>Nuclear transcription factor kB (NF-kappa B) is a ubiquitous transcription factor and pleiotropic regulator of numerous genes <clueType>involved</clueType> <linkTheme>in</linkTheme> the immune and inflammatory responses.</clue>
+</event>
+<event id="E6">
+<type class="Regulation"/>
+<theme idref="A1"/>
+<cause idref="T14"/>
+<clue>Nuclear transcription factor kB (NF-kappa B) is a ubiquitous transcription factor and pleiotropic <clueType>regulator</clueType> <linkTheme>of</linkTheme> numerous genes involved in the immune and inflammatory responses.</clue>
+</event>
+<sentence id="S5">This <term id="T18" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> is activated via the selective <term id="T19" lex="phosphorylation" sem="Other">phosphorylation</term>, <term id="T20" lex="ubiquination" sem="Other">ubiquination</term> and <term id="T21" lex="degradation" sem="Other">degradation</term> of its <term id="T22" lex="inhibitor_protein_I-kB" sem="Protein_molecule">inhibitor protein I-kB</term> thereby allowing translocation of <term id="T23" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> into the <term id="T24" lex="nucleus" sem="Cell_component">nucleus</term> where it upregulates the transcription of a variety of <term id="T25" lex="adhesion_molecule" sem="Protein_family_or_group">adhesion molecules</term> (e.g. <term id="T26" lex="ICAM-1" sem="Protein_molecule">ICAM-1</term>, <term id="T27" lex="VCAM-1" sem="Protein_molecule">VCAM-1</term>), <term id="T28" lex="cytokine" sem="Protein_family_or_group">cytokines</term> (<term id="T29" lex="TNF" sem="Protein_family_or_group">TNF</term>, <term id="T30" lex="IL-1" sem="Protein_molecule">IL-1</term>, <term id="T31" lex="IL-6" sem="Protein_molecule">IL-6</term>) and <term id="T32" lex="enzyme" sem="Protein_family_or_group">enzymes</term> (<term id="T33" lex="iNOS" sem="Protein_molecule">iNOS</term>).</sentence>
+<event id="E7">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T22"/>
+<clue>This transcription factor is activated via the selective <clueType>phosphorylation</clueType>, ubiquination and degradation <linkTheme>of</linkTheme> its inhibitor protein I-kB thereby allowing translocation of NF-kappa B into the nucleus where it upregulates the transcription of a variety of adhesion molecules (e.g. ICAM-1, VCAM-1), cytokines (TNF, IL-1, IL-6) and enzymes (iNOS).</clue>
+</event>
+<event id="E8">
+<type class="Protein_ubiquitination"/>
+<theme idref="T22"/>
+<clue>This transcription factor is activated via the selective phosphorylation, <clueType>ubiquination</clueType> and degradation <linkTheme>of</linkTheme> its inhibitor protein I-kB thereby allowing translocation of NF-kappa B into the nucleus where it upregulates the transcription of a variety of adhesion molecules (e.g. ICAM-1, VCAM-1), cytokines (TNF, IL-1, IL-6) and enzymes (iNOS).</clue>
+</event>
+<event id="E9">
+<type class="Protein_catabolism"/>
+<theme idref="T22"/>
+<clue>This transcription factor is activated via the selective phosphorylation, ubiquination and <clueType>degradation</clueType> <linkTheme>of</linkTheme> its inhibitor protein I-kB thereby allowing translocation of NF-kappa B into the nucleus where it upregulates the transcription of a variety of adhesion molecules (e.g. ICAM-1, VCAM-1), cytokines (TNF, IL-1, IL-6) and enzymes (iNOS).</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation"/>
+<theme idref="T14"/>
+<cause idref="E7"/>
+<clue><corefTheme>This transcription factor</corefTheme> is <clueType>activated</clueType> <linkTheme>via</linkTheme> the selective phosphorylation, ubiquination and degradation of its inhibitor protein I-kB thereby allowing translocation of NF-kappa B into the nucleus where it upregulates the transcription of a variety of adhesion molecules (e.g. ICAM-1, VCAM-1), cytokines (TNF, IL-1, IL-6) and enzymes (iNOS).</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation"/>
+<theme idref="T14"/>
+<cause idref="E8"/>
+<clue><corefTheme>This transcription factor</corefTheme> is <clueType>activated</clueType> <linkTheme>via</linkTheme> the selective phosphorylation, ubiquination and degradation of its inhibitor protein I-kB thereby allowing translocation of NF-kappa B into the nucleus where it upregulates the transcription of a variety of adhesion molecules (e.g. ICAM-1, VCAM-1), cytokines (TNF, IL-1, IL-6) and enzymes (iNOS).</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation"/>
+<theme idref="T14"/>
+<cause idref="E9"/>
+<clue><corefTheme>This transcription factor</corefTheme> is <clueType>activated</clueType> <linkTheme>via</linkTheme> the selective phosphorylation, ubiquination and degradation of its inhibitor protein I-kB thereby allowing translocation of NF-kappa B into the nucleus where it upregulates the transcription of a variety of adhesion molecules (e.g. ICAM-1, VCAM-1), cytokines (TNF, IL-1, IL-6) and enzymes (iNOS).</clue>
+</event>
+<event id="E13">
+<type class="Localization"/>
+<theme idref="T23"/>
+<clue>This transcription factor is activated via the selective phosphorylation, ubiquination and degradation of its inhibitor protein I-kB thereby allowing <clueType>translocation</clueType> <linkTheme>of</linkTheme> NF-kappa B <clueLoc>into the nucleus</clueLoc> where it upregulates the transcription of a variety of adhesion molecules (e.g. ICAM-1, VCAM-1), cytokines (TNF, IL-1, IL-6) and enzymes (iNOS).</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="E10"/>
+<clue>This transcription factor is activated via the selective phosphorylation, ubiquination and degradation of its inhibitor protein I-kB thereby <clueType>allowing</clueType> translocation of NF-kappa B into the nucleus where it upregulates the transcription of a variety of adhesion molecules (e.g. ICAM-1, VCAM-1), cytokines (TNF, IL-1, IL-6) and enzymes (iNOS).</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="E11"/>
+<clue>This transcription factor is activated via the selective phosphorylation, ubiquination and degradation of its inhibitor protein I-kB thereby <clueType>allowing</clueType> translocation of NF-kappa B into the nucleus where it upregulates the transcription of a variety of adhesion molecules (e.g. ICAM-1, VCAM-1), cytokines (TNF, IL-1, IL-6) and enzymes (iNOS).</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="E12"/>
+<clue>This transcription factor is activated via the selective phosphorylation, ubiquination and degradation of its inhibitor protein I-kB thereby <clueType>allowing</clueType> translocation of NF-kappa B into the nucleus where it upregulates the transcription of a variety of adhesion molecules (e.g. ICAM-1, VCAM-1), cytokines (TNF, IL-1, IL-6) and enzymes (iNOS).</clue>
+</event>
+<event id="E17">
+<type class="Transcription"/>
+<theme idref="T26"/>
+<clue>This transcription factor is activated via the selective phosphorylation, ubiquination and degradation of its inhibitor protein I-kB thereby allowing translocation of NF-kappa B into the nucleus where it upregulates the <clueType>transcription</clueType> <linkTheme>of</linkTheme> a variety of <corefTheme>adhesion molecules</corefTheme> (e.g. ICAM-1, VCAM-1), cytokines (TNF, IL-1, IL-6) and enzymes (iNOS).</clue>
+</event>
+<event id="E18">
+<type class="Transcription"/>
+<theme idref="T27"/>
+<clue>This transcription factor is activated via the selective phosphorylation, ubiquination and degradation of its inhibitor protein I-kB thereby allowing translocation of NF-kappa B into the nucleus where it upregulates the <clueType>transcription</clueType> <linkTheme>of</linkTheme> a variety of <corefTheme>adhesion molecules</corefTheme> (e.g. ICAM-1, VCAM-1), cytokines (TNF, IL-1, IL-6) and enzymes (iNOS).</clue>
+</event>
+<event id="E19">
+<type class="Transcription"/>
+<theme idref="T29"/>
+<clue>This transcription factor is activated via the selective phosphorylation, ubiquination and degradation of its inhibitor protein I-kB thereby allowing translocation of NF-kappa B into the nucleus where it upregulates the <clueType>transcription</clueType> <linkTheme>of</linkTheme> a variety of adhesion molecules (e.g. ICAM-1, VCAM-1), <corefTheme>cytokines</corefTheme> (TNF, IL-1, IL-6) and enzymes (iNOS).</clue>
+</event>
+<event id="E20">
+<type class="Transcription"/>
+<theme idref="T30"/>
+<clue>This transcription factor is activated via the selective phosphorylation, ubiquination and degradation of its inhibitor protein I-kB thereby allowing translocation of NF-kappa B into the nucleus where it upregulates the <clueType>transcription</clueType> <linkTheme>of</linkTheme> a variety of adhesion molecules (e.g. ICAM-1, VCAM-1), <corefTheme>cytokines</corefTheme> (TNF, IL-1, IL-6) and enzymes (iNOS).</clue>
+</event>
+<event id="E21">
+<type class="Transcription"/>
+<theme idref="T31"/>
+<clue>This transcription factor is activated via the selective phosphorylation, ubiquination and degradation of its inhibitor protein I-kB thereby allowing translocation of NF-kappa B into the nucleus where it upregulates the <clueType>transcription</clueType> <linkTheme>of</linkTheme> a variety of adhesion molecules (e.g. ICAM-1, VCAM-1), <corefTheme>cytokines</corefTheme> (TNF, IL-1, IL-6) and enzymes (iNOS).</clue>
+</event>
+<event id="E22">
+<type class="Transcription"/>
+<theme idref="T33"/>
+<clue>This transcription factor is activated via the selective phosphorylation, ubiquination and degradation of its inhibitor protein I-kB thereby allowing translocation of NF-kappa B into the nucleus where it upregulates the <clueType>transcription</clueType> <linkTheme>of</linkTheme> a variety of adhesion molecules (e.g. ICAM-1, VCAM-1), cytokines (TNF, IL-1, IL-6) and <corefTheme>enzymes</corefTheme> (iNOS).</clue>
+</event>
+<event id="E23">
+<type class="Regulation"/>
+<theme idref="E17"/>
+<cause idref="T23"/>
+<clue>This transcription factor is activated via the selective phosphorylation, ubiquination and degradation of its inhibitor protein I-kB thereby allowing translocation of NF-kappa B into <clueLoc>the nucleus where</clueLoc> <corefCause>it</corefCause> <clueType>upregulates</clueType> the transcription of a variety of adhesion molecules (e.g. ICAM-1, VCAM-1), cytokines (TNF, IL-1, IL-6) and enzymes (iNOS).</clue>
+</event>
+<event id="E24">
+<type class="Regulation"/>
+<theme idref="E18"/>
+<cause idref="T23"/>
+<clue>This transcription factor is activated via the selective phosphorylation, ubiquination and degradation of its inhibitor protein I-kB thereby allowing translocation of NF-kappa B into <clueLoc>the nucleus where</clueLoc> <corefCause>it</corefCause> <clueType>upregulates</clueType> the transcription of a variety of adhesion molecules (e.g. ICAM-1, VCAM-1), cytokines (TNF, IL-1, IL-6) and enzymes (iNOS).</clue>
+</event>
+<event id="E25">
+<type class="Regulation"/>
+<theme idref="E19"/>
+<cause idref="T23"/>
+<clue>This transcription factor is activated via the selective phosphorylation, ubiquination and degradation of its inhibitor protein I-kB thereby allowing translocation of NF-kappa B into <clueLoc>the nucleus where</clueLoc> <corefCause>it</corefCause> <clueType>upregulates</clueType> the transcription of a variety of adhesion molecules (e.g. ICAM-1, VCAM-1), cytokines (TNF, IL-1, IL-6) and enzymes (iNOS).</clue>
+</event>
+<event id="E26">
+<type class="Regulation"/>
+<theme idref="E20"/>
+<cause idref="T23"/>
+<clue>This transcription factor is activated via the selective phosphorylation, ubiquination and degradation of its inhibitor protein I-kB thereby allowing translocation of NF-kappa B into <clueLoc>the nucleus where</clueLoc> <corefCause>it</corefCause> <clueType>upregulates</clueType> the transcription of a variety of adhesion molecules (e.g. ICAM-1, VCAM-1), cytokines (TNF, IL-1, IL-6) and enzymes (iNOS).</clue>
+</event>
+<event id="E27">
+<type class="Regulation"/>
+<theme idref="E21"/>
+<cause idref="T23"/>
+<clue>This transcription factor is activated via the selective phosphorylation, ubiquination and degradation of its inhibitor protein I-kB thereby allowing translocation of NF-kappa B into <clueLoc>the nucleus where</clueLoc> <corefCause>it</corefCause> <clueType>upregulates</clueType> the transcription of a variety of adhesion molecules (e.g. ICAM-1, VCAM-1), cytokines (TNF, IL-1, IL-6) and enzymes (iNOS).</clue>
+</event>
+<event id="E28">
+<type class="Regulation"/>
+<theme idref="E22"/>
+<cause idref="T23"/>
+<clue>This transcription factor is activated via the selective phosphorylation, ubiquination and degradation of its inhibitor protein I-kB thereby allowing translocation of NF-kappa B into <clueLoc>the nucleus where</clueLoc> <corefCause>it</corefCause> <clueType>upregulates</clueType> the transcription of a variety of adhesion molecules (e.g. ICAM-1, VCAM-1), cytokines (TNF, IL-1, IL-6) and enzymes (iNOS).</clue>
+</event>
+<sentence id="S6">The proteolytic <term id="T34" lex="degradation" sem="Other">degradation</term> of the post-translationally modified <term id="T36" lex="I-kappa_B" sem="Protein_molecule">I-kappa B</term> is known to be mediated by the <term id="T37" lex="26S_proteasome_complex" sem="Protein_complex">26S proteasome complex</term>.</sentence>
+<event KT="Other" id="E29">
+<type class="Protein_modification"/>
+<theme idref="T36"/>
+<clue>The proteolytic degradation of the <clueType>post-translationally modified</clueType> I-kappa B is known to be mediated by the 26S proteasome complex.</clue>
+</event>
+<event KT="Other" id="E30">
+<type class="Protein_catabolism"/>
+<theme idref="T36"/>
+<clue>The proteolytic <clueType>degradation</clueType> <linkTheme>of</linkTheme> the post-translationally modified I-kappa B is known to be mediated by the 26S proteasome complex.</clue>
+</event>
+<event KT="Fact" id="E31">
+<type class="Positive_regulation"/>
+<theme idref="E30"/>
+<cause idref="T37"/>
+<clue>The proteolytic degradation of the post-translationally modified I-kappa B is <clueKT>known</clueKT> to be <clueType>mediated</clueType> <linkTheme>by</linkTheme> the 26S proteasome complex.</clue>
+</event>
+<sentence id="S7">Based upon work from our laboratory, we propose that inhibition of <term id="T38" lex="NF-kappa_B_activation" sem="Other"><term id="T39" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> activation</term> produces significant <term id="T40" lex="anti_inflammatory_activity" sem="Other">anti inflammatory activity</term> which may be mediated by the inhibition of transcription of certain <term id="T41" lex="pro-inflammatory_mediator" sem="Protein_family_or_group">pro-inflammatory mediators</term> and <term id="T42" lex="adhesion_molecule" sem="Protein_family_or_group">adhesion molecules</term>.</sentence>
+<event KT="Other" id="E32">
+<type class="Positive_regulation"/>
+<theme idref="T39"/>
+<clue>Based upon work from our laboratory, we propose that inhibition of NF-kappa B <clueType>activation</clueType> produces significant anti inflammatory activity which may be mediated by the inhibition of transcription of certain pro-inflammatory mediators and adhesion molecules.</clue>
+</event>
+<event KT="Other" id="E33">
+<type class="Negative_regulation"/>
+<theme idref="E32"/>
+<clue>Based upon work from our laboratory, we propose that <clueType>inhibition</clueType> <linkTheme>of</linkTheme> NF-kappa B activation produces significant anti inflammatory activity which may be mediated by the inhibition of transcription of certain pro-inflammatory mediators and adhesion molecules.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E34">
+<type class="Positive_regulation"/>
+<theme idref="T40"/>
+<cause idref="E33"/>
+<clue>Based upon work from our laboratory, we <clueKT><clueCL>propose</clueCL></clueKT> that inhibition of NF-kappa B activation <clueType>produces</clueType> significant anti inflammatory activity which may be mediated by the inhibition of transcription of certain pro-inflammatory mediators and adhesion molecules.</clue>
+</event>
+<event KT="Other" id="E35">
+<type class="Transcription"/>
+<theme idref="T41"/>
+<clue>Based upon work from our laboratory, we propose that inhibition of NF-kappa B activation produces significant anti inflammatory activity which may be mediated by the inhibition of <clueType>transcription</clueType> <linkTheme>of</linkTheme> certain pro-inflammatory mediators and adhesion molecules.</clue>
+</event>
+<event KT="Other" id="E36">
+<type class="Transcription"/>
+<theme idref="T42"/>
+<clue>Based upon work from our laboratory, we propose that inhibition of NF-kappa B activation produces significant anti inflammatory activity which may be mediated by the inhibition of <clueType>transcription</clueType> <linkTheme>of</linkTheme> certain pro-inflammatory mediators and adhesion molecules.</clue>
+</event>
+<event KT="Other" id="E37">
+<type class="Negative_regulation"/>
+<theme idref="E35"/>
+<clue>Based upon work from our laboratory, we propose that inhibition of NF-kappa B activation produces significant anti inflammatory activity which may be mediated by the <clueType>inhibition</clueType> <linkTheme>of</linkTheme> transcription of certain pro-inflammatory mediators and adhesion molecules.</clue>
+</event>
+<event KT="Other" id="E38">
+<type class="Negative_regulation"/>
+<theme idref="E36"/>
+<clue>Based upon work from our laboratory, we propose that inhibition of NF-kappa B activation produces significant anti inflammatory activity which may be mediated by the <clueType>inhibition</clueType> <linkTheme>of</linkTheme> transcription of certain pro-inflammatory mediators and adhesion molecules.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E39">
+<type class="Positive_regulation"/>
+<theme idref="T40"/>
+<cause idref="E37"/>
+<clue>Based upon work from our laboratory, we <clueKT><clueCL>propose</clueCL></clueKT> that inhibition of NF-kappa B activation produces significant anti inflammatory activity which <clueKT><clueCL>may</clueCL></clueKT> be <clueType>mediated</clueType> <linkCause>by</linkCause> the inhibition of transcription of certain pro-inflammatory mediators and adhesion molecules.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E40">
+<type class="Positive_regulation"/>
+<theme idref="T40"/>
+<cause idref="E38"/>
+<clue>Based upon work from our laboratory, we <clueKT><clueCL>propose</clueCL></clueKT> that inhibition of NF-kappa B activation produces significant anti inflammatory activity which <clueKT><clueCL>may</clueCL></clueKT> be <clueType>mediated</clueType> <linkCause>by</linkCause> the inhibition of transcription of certain pro-inflammatory mediators and adhesion molecules.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,8 @@
+T20	Adverse_effect 308 314	result
+T28	Adverse_effect 1098 1108	manifested
+T35	DDI 463 474	interaction
+R1	is_equivalent Arg1:T4 Arg2:T5
+E10	DDI:T35 has_participant:T3 has_participant:T22
+E5	Adverse_effect:T20 affects:T21 has_agent:T11
+E7	Adverse_effect:T28 affects:T26 affects:T27 has_agent:T10 has_cue:T29
+A2	Manner E7 High

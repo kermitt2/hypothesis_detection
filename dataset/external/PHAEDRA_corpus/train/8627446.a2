@@ -1,0 +1,15 @@
+T11	Potential_therapeutic_effect 59 61	fo
+T12	Adverse_effect 31 37	during
+T15	Adverse_effect 233 242	developed
+T17	Adverse_effect 378 383	after
+R1	Subject_Disorder Arg1:T14 Arg2:T4
+E1	Potential_therapeutic_effect:T11 affects:T2 has_agent:T1
+E2	Adverse_effect:T12 affects:T13 has_agent:T1
+E3	Adverse_effect:T15 has_agent:T5 affects:T16
+E4	Adverse_effect:T17 has_agent:T6 affects:T18
+T3	Potential_therapeutic_effect 597 605	treating
+E5	Potential_therapeutic_effect:T3 has_agent:T9 affects:T10
+T19	Adverse_effect 704 715	side effect
+E6	Adverse_effect:T19 has_agent:T9
+T21	Potential_therapeutic_effect 523 531	arrested
+E7	Potential_therapeutic_effect:T21 has_agent:T8 affects:T20

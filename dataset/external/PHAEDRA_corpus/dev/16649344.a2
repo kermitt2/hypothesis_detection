@@ -1,0 +1,10 @@
+T18	Adverse_effect 141 151	associated
+T20	Adverse_effect 403 413	associated
+T24	Potential_therapeutic_effect 631 637	reduce
+E5	Combination:T23 has_participant:T8 has_participant:T9
+E6	Combination:T23 has_participant:T8 has_participant:T10
+E2	Adverse_effect:T18 has_cue:T19 has_agent:T13 affects:T14
+E3	Adverse_effect:T20 has_agent:T6 has_agent:T7
+E7	Potential_therapeutic_effect:T24 has_cue:T25 has_agent:E6 has_agent:E5 affects:T17
+A1	Speculated E2
+A3	Speculated E7

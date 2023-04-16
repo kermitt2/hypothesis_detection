@@ -1,0 +1,24 @@
+T30	Adverse_effect 11 18	induced
+T31	Potential_therapeutic_effect 54 61	treated
+T32	Adverse_effect 111 125	adverse effect
+T33	Adverse_effect 259 264	cause
+T34	Adverse_effect 313 320	induced
+T36	Potential_therapeutic_effect 356 363	treated
+T38	Potential_therapeutic_effect 410 417	treated
+T39	Potential_therapeutic_effect 545 554	treatment
+T43	Potential_therapeutic_effect 810 817	treated
+T46	Adverse_effect 1043 1050	induced
+E9	Combination:T42 has_participant:T28 has_participant:T26
+E1	Adverse_effect:T30 has_agent:T1 affects:T2
+E2	Potential_therapeutic_effect:T31 has_agent:T3 has_subject:T29
+E3	Adverse_effect:T32 has_agent:T5 affects:T4
+E4	Adverse_effect:T33 has_agent:T6 affects:T7
+E5	Adverse_effect:T34 affects:T9 has_agent:T8 has_subject:T35
+E6	Potential_therapeutic_effect:T36 has_agent:T10 has_subject:T35
+E7	Potential_therapeutic_effect:T38 has_agent:T11 has_subject:T37 affects:T12 affects:T13 affects:T14
+E8	Potential_therapeutic_effect:T39 has_agent:T15 has_subject:T37
+E10	Potential_therapeutic_effect:T43 has_agent:T21 has_agent:T22 affects:T18
+E12	Adverse_effect:T46 affects:T27 has_agent:T26 has_cue:T47
+E11	Adverse_effect:T46 has_cue:T47 affects:T27 has_agent:E9
+A2	Speculated E12
+A1	Speculated E11

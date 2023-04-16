@@ -1,0 +1,26 @@
+T36	Potential_therapeutic_effect 46 49	use
+T39	Potential_therapeutic_effect 312 315	use
+T43	Adverse_effect 606 615	dependent
+T45	Potential_therapeutic_effect 652 659	receive
+T54	Potential_therapeutic_effect 1505 1509	need
+T59	Adverse_effect 134 144	associated
+T60	Potential_therapeutic_effect 194 201	reduced
+T37	Potential_therapeutic_effect 1568 1579	maintaining
+R1	is_equivalent Arg1:T4 Arg2:T21
+R2	is_equivalent Arg1:T6 Arg2:T23
+R4	Subject_Disorder Arg1:T15 Arg2:T3
+R5	Subject_Disorder Arg1:T19 Arg2:T9
+R6	Subject_Disorder Arg1:T30 Arg2:T32
+R9	Subject_Disorder Arg1:T24 Arg2:T13
+R7	is_equivalent Arg1:T38 Arg2:T5
+R3	Coreference Arg1:T40 Arg2:T24
+E1	Potential_therapeutic_effect:T36 has_subject:T15 affects:T3 has_agent:T1
+E3	Potential_therapeutic_effect:T39 has_subject:T19 affects:T9 has_agent:T7
+E5	Adverse_effect:T43 has_agent:T11
+E6	Potential_therapeutic_effect:T45 has_agent:T14 has_subject:T40
+E10	Potential_therapeutic_effect:T54 has_agent:T29 has_subject:T30 affects:T32
+E14	Adverse_effect:T59 has_agent:T4 affects:T38
+E15	Potential_therapeutic_effect:T60 has_cue:T61 has_agent:T6 affects:T38
+E2	Potential_therapeutic_effect:T37 affects:T33 has_agent:T31
+E4	Potential_therapeutic_effect:T45 has_subject:T40 has_agent:T25
+A4	Speculated E15

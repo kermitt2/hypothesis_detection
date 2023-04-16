@@ -1,0 +1,10 @@
+T24	Potential_therapeutic_effect 86 93	therapy
+T25	Adverse_effect 33 42	following
+T26	Adverse_effect 169 176	induced
+T27	Potential_therapeutic_effect 290 297	treated
+R1	is_equivalent Arg1:T6 Arg2:T23
+R2	Subject_Disorder Arg1:T22 Arg2:T7
+E1	Potential_therapeutic_effect:T24 affects:T4 has_agent:T3
+E2	Adverse_effect:T25 affects:T1 affects:T2 has_agent:T3
+E3	Adverse_effect:T26 has_agent:T6 affects:T5
+E4	Potential_therapeutic_effect:T27 has_agent:T8 affects:T7 has_subject:T22

@@ -1,0 +1,110 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10229275" created="22/05/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10229275</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="high_molecular_weight_dextran_sulfate" sem="Carbohydrate">High molecular weight <term id="T2" lex="dextran_sulfate" sem="Carbohydrate">dextran sulfate</term></term> increases the activity of <term id="T3" lex="NF-kappaB-regulated_promoter" sem="DNA_domain_or_region"><term id="T4" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>-regulated <term id="A1" sem="DNA_domain_or_region">promoter</term></term> in <term id="T5" lex="monocyte-derived_macrophage" sem="Cell_natural">monocyte-derived macrophages</term>.</sentence>
+<event id="E1">
+<type class="Regulation"/>
+<theme idref="A1"/>
+<cause idref="T4"/>
+<clue>High molecular weight dextran sulfate increases the activity of NF-kappaB-<clueType>regulated</clueType> promoter in monocyte-derived macrophages.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T1"/>
+<clue>High molecular weight dextran sulfate <clueType>increases</clueType> the activity of NF-kappaB-regulated promoter <clueLoc>in monocyte-derived macrophages</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">It is known that <term id="T6" lex="sulfated_polysaccharide" sem="Carbohydrate">sulfated polysaccharides</term> can mimic the action of <term id="T7" lex="common_T-cell_mitogen" sem="Protein_family_or_group">common T-cell mitogens</term>.</sentence>
+<sentence id="S3">To investigate the molecular basis of the <term id="T8" lex="mitogenic_effect" sem="Other">mitogenic effect</term> of <term id="T9" lex="high_molecular_weight_dextran_sulfate" sem="Carbohydrate">high molecular weight dextran sulfate</term> (<term id="T10" lex="HMDS" sem="Carbohydrate">HMDS</term>), <term id="T11" lex="monocyte-derived_macrophage" sem="Cell_natural">monocyte-derived macrophages</term> were transfected with <term id="T12" lex="recombinant_plasmid" sem="DNA_molecule">recombinant plasmid</term> containing <term id="T13" lex="chloramphenicol_acetyl_transferase_(CAT)_reporter_gene" sem="DNA_domain_or_region"><term id="T14" lex="chloramphenicol_acetyl_transferase" sem="Protein_molecule">chloramphenicol acetyl transferase</term> (CAT) reporter gene</term> under the control of the <term id="T15" lex="HIV-1_long_terminal_repeat_(LTR)_promoter" sem="DNA_domain_or_region"><term id="T16" lex="HIV-1" sem="Virus">HIV-1</term> long terminal repeat (LTR) promoter</term>, which is regulated by <term id="T17" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> <term id="T18" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>.</sentence>
+<event KT="Investigation" id="E3" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<cause idref="T10"/>
+<clue>To <clueKT>investigate</clueKT> the molecular basis of the mitogenic <clueType>effect</clueType> <linkCause>of</linkCause> high molecular weight dextran sulfate (HMDS), monocyte-derived macrophages were transfected with recombinant plasmid containing chloramphenicol acetyl transferase (CAT) reporter gene under the control of the HIV-1 long terminal repeat (LTR) promoter, which is regulated by transcription factor NF-kappaB.</clue>
+</event>
+<sentence id="S4">We observed that <term id="T19" lex="HMDS" sem="Carbohydrate">HMDS</term>, similar to bacterial <term id="T20" lex="lipopolysaccharide" sem="Lipid">lipopolysaccharide</term> (<term id="T21" lex="LPS" sem="Lipid">LPS</term>), increases the expression of <term id="T22" lex="CAT_reporter_gene" sem="DNA_domain_or_region">CAT reporter gene</term> suggesting increased activity of <term id="T23" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>.</sentence>
+<event id="E101">
+<type class="Gene_expression"/>
+<theme idref="T22"/>
+<clue>We observed that HMDS, similar to bacterial lipopolysaccharide (LPS), increases the <clueType>expression</clueType> of CAT reporter gene suggesting increased activity of NF-kappaB.</clue>
+</event>
+<event id="E102">
+<type class="Positive_regulation"/>
+<theme idref="E101"/>
+<cause idref="T19"/>
+<clue>We <clueKT>observed</clueKT> that HMDS, similar to bacterial lipopolysaccharide (LPS), <clueType>increases</clueType> the expression of CAT reporter gene suggesting increased activity of NF-kappaB.</clue>
+</event>
+<event id="E103">
+<type class="Positive_regulation"/>
+<theme idref="E101"/>
+<cause idref="T21"/>
+<clue>We <clueKT>observed</clueKT> that HMDS, <linkCause>similar to</linkCause> bacterial lipopolysaccharide (LPS), <clueType>increases</clueType> the expression of CAT reporter gene suggesting increased activity of NF-kappaB.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E4" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T23"/>
+<cause idref="T19"/>
+<clue>We observed that HMDS, similar to bacterial lipopolysaccharide (LPS), increases the expression of CAT reporter gene <clueKT><clueCL>suggesting</clueCL></clueKT> <clueType>increased</clueType> activity of NF-kappaB.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E5" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T23"/>
+<cause idref="T21"/>
+<clue>We observed that HMDS, similar to bacterial lipopolysaccharide (LPS), increases the expression of CAT reporter gene <clueKT><clueCL>suggesting</clueCL></clueKT> <clueType>increased</clueType> activity <linkTheme>of</linkTheme> NF-kappaB.</clue>
+</event>
+<sentence id="S5">The activation of <term id="T24" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> correlated with the increased expression of <term id="T25" lex="B7.1_molecule" sem="Protein_molecule">B7.1 molecules</term>.</sentence>
+<event id="E6">
+<type class="Positive_regulation"/>
+<theme idref="T24"/>
+<clue>The <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappaB correlated with the increased expression of B7.1 molecules.</clue>
+</event>
+<event id="E7">
+<type class="Gene_expression"/>
+<theme idref="T25"/>
+<clue>The activation of NF-kappaB correlated with the increased <clueType>expression</clueType> <linkTheme>of</linkTheme> B7.1 molecules.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<clue>The activation of NF-kappaB correlated with the <clueType>increased</clueType> expression of B7.1 molecules.</clue>
+</event>
+<event id="E9">
+<type class="Correlation"/>
+<theme idref="E6"/>
+<theme idref="E8"/>
+<clue>The activation of NF-kappaB <clueType>correlated</clueType> <linkTheme>with</linkTheme> the increased expression of B7.1 molecules.</clue>
+</event>
+<sentence id="S6">It was postulated that this <term id="T26" lex="NF-kappaB-regulated_promoter" sem="DNA_domain_or_region"><term id="T27" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>-regulated <term id="A3" sem="DNA_domain_or_region">promoter</term></term> might play a role in the activation of the <term id="A2" sem="Cell_natural">accessory cells</term> as well as the rate of replication of <term id="T28" lex="HIV-1" sem="Virus">HIV-1</term> in <term id="T29" lex="monocyte-derived_macrophage" sem="Cell_natural">monocyte-derived macrophages</term>.</sentence>
+<event id="E10">
+<type class="Regulation"/>
+<theme idref="A3"/>
+<cause idref="T27"/>
+<clue>It was postulated that this NF-kappaB-<clueType>regulated</clueType> promoter might play a role in the activation of the accessory cells as well as the rate of replication of HIV-1 in monocyte-derived macrophages.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Physiological_process"/>
+<theme idref="A2"/>
+<clue>It was postulated that this NF-kappaB-regulated promoter might play a role in the <clueType>activation</clueType> <linkTheme>of</linkTheme> the accessory cells as well as the rate of replication of HIV-1 in monocyte-derived macrophages.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E12" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<cause idref="T26"/>
+<clue>It was <clueKT>postulated</clueKT> that this NF-kappaB-regulated promoter <clueCL>might</clueCL> <clueType>play a role</clueType> <linkTheme>in</linkTheme> the activation of the accessory cells as well as the rate of replication of HIV-1 in monocyte-derived macrophages.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Viral_life_cycle"/>
+<theme idref="T28"/>
+<clue>It was postulated that this NF-kappaB-regulated promoter might play a role in the activation of the accessory cells as well as the rate of <clueType>replication</clueType> <linkTheme>of</linkTheme> HIV-1 <clueLoc>in monocyte-derived macrophages</clueLoc>.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E14">
+<type class="Regulation"/>
+<theme idref="E13"/>
+<cause idref="T26"/>
+<clue>It was <clueKT>postulated</clueKT> that this NF-kappaB-regulated promoter <clueCL>might</clueCL> <clueType>play a role</clueType> in the activation of the accessory cells <linkTheme>as well as</linkTheme> the rate of replication of HIV-1 in monocyte-derived macrophages.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,27 @@
+T14	Potential_therapeutic_effect 34 41	induces
+T18	Adverse_effect 100 110	accelerate
+T22	Adverse_effect 1211 1221	accelerate
+T24	Potential_therapeutic_effect 1081 1087	induce
+T25	Adverse_effect 829 835	causes
+T30	Potential_therapeutic_effect 472 475	use
+T33	Adverse_effect 974 983	emergence
+R1	is_equivalent Arg1:T4 Arg2:T5
+R2	is_equivalent Arg1:T6 Arg2:T7
+R3	is_equivalent Arg1:T9 Arg2:T10
+R6	Subject_Disorder Arg1:T28 Arg2:T8
+R9	Subject_Disorder Arg1:T29 Arg2:T13
+R10	Subject_Disorder Arg1:T40 Arg2:T16
+E1	Potential_therapeutic_effect:T14 has_agent:T1 affects:T2 has_cue:T36
+E2	Adverse_effect:T18 has_agent:T1 affects:T3 has_cue:T35
+E3	Adverse_effect:T22 has_agent:T17 affects:T19 affects:T20 has_cue:T31
+E4	Potential_therapeutic_effect:T24 has_agent:T23 affects:T16 has_cue:T38 has_cue:T39 has_cue:T41
+E5	Adverse_effect:T25 has_agent:T12 affects:T26 affects:T32
+E6	Potential_therapeutic_effect:T30 has_agent:T6 affects:T8 affects:T13 has_subject:T28 has_subject:T29
+E7	Adverse_effect:T33 affects:T15 has_cue:T34 has_agent:T12
+A1	Speculated E3
+A3	Speculated E7
+A5	Manner E1 High
+A6	Speculated E4
+A7	Manner E4 High
+A8	Negated E4
+A9	Speculated E2

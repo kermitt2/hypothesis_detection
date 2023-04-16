@@ -1,0 +1,102 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7730624" created="06/12/27" creator="Yumiko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7730624</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Activation of <term id="A1" sem="Other">transcription</term> by binding of <term id="T2" lex="NF-E1" sem="Protein_molecule">NF-E1</term> (<term id="T3" lex="YY1" sem="Protein_molecule">YY1</term>) to a newly identified <term id="A2" sem="DNA_domain_or_region">element in the first exon of the <term id="T4" lex="human_DR_alpha_gene" sem="DNA_domain_or_region">human DR alpha gene</term></term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Binding"/>
+<theme idref="T3"/>
+<theme idref="A2"/>
+<clue>Activation of transcription by <clueType>binding</clueType> <linkTheme>of</linkTheme> NF-E1 (YY1) <linkTheme>to</linkTheme> a newly identified element in the first exon of the human DR alpha gene.</clue>
+<comment>TPS A2; NER: T1 del &quot;Activation of transcription&quot;</comment></event>
+<event KT="Investigation" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="A1"/>
+<cause idref="E1"/>
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> transcription <linkCause>by</linkCause> binding of NF-E1 (YY1) to a newly identified element in the first exon of the human DR alpha gene.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">A previously unrecognized element, located downstream of the <term id="A3" sem="DNA_domain_or_region"><term id="T5" lex="start_site_of_transcription" sem="DNA_domain_or_region">start site of transcription</term> in the first <term id="T6" lex="exon" sem="DNA_domain_or_region">exon</term> of the <term id="T7" lex="DR_alpha_gene" sem="DNA_domain_or_region">DR alpha gene</term></term>, has been defined that enhances <term id="T8" lex="promoter_activity" sem="Other">promoter activity</term> up to eightfold in a <term id="T9" lex="position-dependent_manner" sem="Other">position-dependent manner</term>.</sentence>
+<event KT="Analysis" Manner="High" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="T8"/>
+<cause idref="A3"/>
+<clue>A previously unrecognized element, located downstream of the start site of transcription in the first exon of the DR alpha gene, has been <clueKT>defined</clueKT> that <clueType>enhances</clueType> promoter activity <clueManner>up to eightfold</clueManner> in a position-dependent manner.</clue>
+<comment>TPS A3</comment></event>
+<sentence id="S3">Mutations in this <term id="T10" lex="DNA-binding_site" sem="DNA_domain_or_region">DNA-binding site</term> abolished binding of a <term id="T11" lex="nuclear_factor" sem="Protein_family_or_group">nuclear factor</term> in <term id="T12" lex="human_B_cell_nuclear_extract" sem="Cell_component">human B cell nuclear extract</term> and decreased the activity of the <term id="T13" lex="DR_alpha_promoter" sem="DNA_domain_or_region">DR alpha promoter</term> to a <term id="T14" lex="basal_level" sem="Other">basal level</term>.</sentence>
+<event id="E4">
+<type class="Mutagenesis"/>
+<theme idref="A3"/>
+<clue><clueType>Mutations</clueType> <linkTheme>in</linkTheme> <corefTheme>this DNA-binding site</corefTheme> abolished binding of a nuclear factor in human B cell nuclear extract and decreased the activity of the DR alpha promoter to a basal level.</clue>
+</event>
+<event id="E5">
+<type class="Negative_regulation"/>
+<theme idref="E6"/>
+<cause idref="E4"/>
+<clue>Mutations in this DNA-binding site <clueType>abolished</clueType> binding of a nuclear factor in human B cell nuclear extract and decreased the activity of the DR alpha promoter to a basal level.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Binding"/>
+<theme idref="T11"/>
+<clue>Mutations in this DNA-binding site abolished <clueType>binding</clueType> <linkTheme>of</linkTheme> a nuclear factor <clueLoc>in human B cell nuclear extract</clueLoc> and decreased the activity of the DR alpha promoter to a basal level.</clue>
+</event>
+<event id="E7">
+<type class="Negative_regulation"/>
+<theme idref="T13"/>
+<cause idref="E4"/>
+<clue>Mutations in this DNA-binding site abolished binding of a nuclear factor in human B cell nuclear extract and <clueType>decreased</clueType> the activity <linkTheme>of</linkTheme> the DR alpha promoter to a basal level.</clue>
+</event>
+<sentence id="S4">Significant sequence homology of this <term id="T15" lex="element" sem="DNA_domain_or_region">element</term> was found in the DNA of the <cons id="T16" lex="(AND DR_beta_gene DP_alpha_gene DP-beta_gene DQ_alpha_gene)" sem="(AND DNA_domain_or_region DNA_domain_or_region DNA_domain_or_region DNA_domain_or_region)"><frag id="F1">DR beta</frag>, <cons id="T17" lex="(AND DP_alpha* DP-beta*)" sem="(AND DNA_domain_or_region DNA_domain_or_region)"><frag id="F2">DP</frag> <frag id="F3">alpha</frag> and <frag id="F4">-beta</frag></cons>, and <frag id="F5">DQ alpha</frag> <frag id="F6">genes</frag></cons>, always located downstream of the <term id="T18" lex="transcriptional_start_site" sem="DNA_domain_or_region">transcriptional start site</term>.</sentence>
+<sentence id="S5">The <term id="A7" sem="Protein_family_or_group">nuclear factor</term> binds to the <cons id="T19" lex="(AND DR_alpha_element DP_alpha_element)" sem="(AND DNA_domain_or_region DNA_domain_or_region)"><frag id="F7"><term id="A4" sem="DNA_domain_or_region">DR alpha</term></frag> and <frag id="F8"><term id="A5" sem="DNA_domain_or_region">DP alpha</term></frag> <frag id="F9"><term id="A6" sem="DNA_domain_or_region">element</term></frag></cons> but not to the <term id="A8" sem="DNA_domain_or_region">element in the <term id="T20" lex="DQ_alpha_gene" sem="DNA_domain_or_region">DQ alpha gene</term></term>.</sentence>
+<event id="E8">
+<type class="Binding"/>
+<theme idref="A7"/>
+<theme idref="A4" idref1="A6"/>
+<clue>The nuclear factor <clueType>binds</clueType> <linkTheme>to</linkTheme> the DR alpha and DP alpha element but not to the element in the DQ alpha gene.</clue>
+</event>
+<event id="E9">
+<type class="Binding"/>
+<theme idref="A7"/>
+<theme idref="A5" idref1="A6"/>
+<clue>The nuclear factor <clueType>binds</clueType> <linkTheme>to</linkTheme> the DR alpha and DP alpha element but not to the element in the DQ alpha gene.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E10">
+<type class="Binding"/>
+<theme idref="A7"/>
+<theme idref="A8"/>
+<clue>The nuclear factor <clueType>binds</clueType> to the DR alpha and DP alpha element but <cluePolarity>not</cluePolarity> <linkTheme>to</linkTheme> the element in the DQ alpha gene.</clue>
+<comment>TPS A8</comment></event>
+<sentence id="S6">It was identified as <term id="T21" lex="NF-E1" sem="Protein_molecule">NF-E1</term> (<term id="T22" lex="YY1" sem="Protein_molecule">YY1</term>).</sentence>
+<sentence id="S7">This protein, previously identified by its binding to the <term id="T23" lex="Ig_kappa_3&apos;_enhancer" sem="DNA_domain_or_region">Ig kappa 3&apos; enhancer</term> and the <term id="T24" lex="Ig_heavy_chain_mu_E1_site" sem="DNA_domain_or_region"><term id="T25" lex="Ig_heavy_chain" sem="Protein_complex">Ig heavy chain</term> mu E1 site</term>, thus also appears to be quite important in the regulation of <term id="T26" lex="MHC_class_II_gene_expression" sem="Other"><term id="T27" lex="MHC_class_II_gene" sem="DNA_family_or_group">MHC class II gene</term> expression</term>.</sentence>
+<event Source="Other" id="E11">
+<type class="Binding"/>
+<theme idref="T22"/>
+<theme idref="T23"/>
+<clue>This protein, <clueSource>previously</clueSource> identified by <corefTheme idref1="T22">its</corefTheme> <clueType>binding</clueType> <linkTheme>to</linkTheme> the Ig kappa 3&apos; enhancer and the Ig heavy chain mu E1 site, thus also appears to be quite important in the regulation of MHC class II gene expression.</clue>
+</event>
+<event Source="Other" id="E12">
+<type class="Binding"/>
+<theme idref="T22"/>
+<theme idref="T24"/>
+<clue>This protein, <clueSource>previously</clueSource> identified by <corefTheme idref1="T22">its</corefTheme> <clueType>binding</clueType> <linkTheme>to</linkTheme> the Ig kappa 3&apos; enhancer and the Ig heavy chain mu E1 site, thus also appears to be quite important in the regulation of MHC class II gene expression.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Gene_expression"/>
+<theme idref="T27"/>
+<clue>This protein, previously identified by its binding to the Ig kappa 3&apos; enhancer and the Ig heavy chain mu E1 site, thus also appears to be quite important in the regulation of MHC class II gene <clueType>expression</clueType>.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Regulation"/>
+<theme idref="E13"/>
+<clue>This protein, previously identified by its binding to the Ig kappa 3&apos; enhancer and the Ig heavy chain mu E1 site, thus also appears to be quite important in the <clueType>regulation</clueType> <linkTheme>of</linkTheme> MHC class II gene expression.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E15" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E14"/>
+<cause idref="T22"/>
+<clue><corefCause>This protein</corefCause>, previously identified by its binding to the Ig kappa 3&apos; enhancer and the Ig heavy chain mu E1 site, <clueKT>thus</clueKT> also <clueCL>appears</clueCL> to be quite <clueType>important</clueType> <linkTheme>in</linkTheme> the regulation of MHC class II gene expression.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

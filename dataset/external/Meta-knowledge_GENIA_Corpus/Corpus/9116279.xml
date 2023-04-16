@@ -1,0 +1,76 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9116279" created="07/02/24" creator="Yumiko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9116279</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><cons id="T1" lex="(AND Lineage-specific_expression stage-specific_expression)" sem="(AND Other Other)"><frag id="F1">Lineage-</frag> and <frag id="F2">stage-</frag><frag id="F3">specific expression</frag></cons> of <term id="T2" lex="runt_box_polypeptide" sem="Peptide">runt box polypeptides</term> in <cons id="T3" lex="(AND primitive_hematopoiesis definitive_hematopoiesis)" sem="(AND Other Other)"><frag id="F4">primitive</frag> and <frag id="F5">definitive</frag> <frag id="F6">hematopoiesis</frag></cons>.</sentence>
+<event KT="Investigation" id="E1">
+<type class="Gene_expression"/>
+<theme idref="T2"/>
+<clue><clueLoc>Lineage</clueLoc>- and <clueTime>stage</clueTime>-specific <clueType>expression</clueType> <linkTheme>of</linkTheme> runt box polypeptides <clueTime>in primitive and definitive hematopoiesis</clueTime>.</clue>
+<comment>NER T2 MOD</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Translocations involving the <term id="T4" lex="human_CBFA2_locus" sem="DNA_domain_or_region">human CBFA2 locus</term> have been associated with <term id="T5" lex="leukemia" sem="Other">leukemia</term>.</sentence>
+<event KT="Other" id="E2">
+<type class="Localization"/>
+<theme idref="T4"/>
+<clue><clueType>Translocations</clueType> <linkTheme>involving</linkTheme> the human CBFA2 locus have been associated with leukemia.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E3">
+<type class="Correlation"/>
+<theme idref="E2"/>
+<theme idref="T5"/>
+<clue>Translocations involving the human CBFA2 locus <clueSource>have been</clueSource> <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> leukemia.</clue>
+</event>
+<sentence id="S3">This gene, originally named <term id="T6" lex="AML1" sem="DNA_domain_or_region">AML1</term>, is a human homologue of the <term id="T7" lex="Drosophila_gene_runt" sem="DNA_domain_or_region"><term id="T8" lex="Drosophila" sem="Multicellular_organism_natural">Drosophila</term> gene runt</term> that controls <term id="A1" sem="Other">early events</term> in <term id="T9" lex="fly_embryogenesis" sem="Other">fly embryogenesis</term>.</sentence>
+<event KT="Fact" id="E4">
+<type class="Regulation"/>
+<theme idref="A1"/>
+<cause idref="T6"/>
+<clue>This gene, originally named AML1, is a human homologue of the Drosophila gene runt that <clueType>controls</clueType> early events <clueTime>in fly embryogenesis</clueTime>.</clue>
+</event>
+<sentence id="S4">To clarify the role of <term id="T10" lex="mammalian_runt_product" sem="Protein_family_or_group">mammalian runt products</term> in <cons id="T11" lex="(AND normal_hematopoiesis leukemic_hematopoiesis)" sem="(AND Other Other)"><frag id="F7"><term id="A101" sem="Other">normal</term></frag> and <frag id="F8"><term id="A102" sem="Other">leukemic</term></frag> <frag id="F9"><term id="A10" sem="Other">hematopoiesis</term><term id="T26"/></frag></cons>, we have studied their pattern of expression in <term id="T12" lex="mouse_hematopoietic_tissue" sem="Tissue_natural">mouse hematopoietic tissues</term> in the adult and during ontogeny using an <term id="T13" lex="anti-runt_box_antiserum" sem="Organic_compound_other">anti-runt box antiserum</term>.</sentence>
+<event KT="Investigation" id="E6">
+<type class="Regulation"/>
+<theme idref="A101" idref1="A10"/>
+<cause idref="T10"/>
+<clue><clueKT>To clarify</clueKT> the <clueType>role</clueType> <linkCause>of</linkCause> mammalian runt products <linkTheme>in</linkTheme> normal and leukemic hematopoiesis, we have studied their pattern of expression in mouse hematopoietic tissues in the adult and during ontogeny using an anti-runt box antiserum.</clue>
+</event>
+<event KT="Investigation" id="E9">
+<type class="Regulation"/>
+<theme idref="A102" idref1="A10"/>
+<cause idref="T10"/>
+<clue><clueKT>To clarify</clueKT> the <clueType>role</clueType> <linkCause>of</linkCause> mammalian runt products <linkTheme>in</linkTheme> normal and leukemic hematopoiesis, we have studied their pattern of expression in mouse hematopoietic tissues in the adult and during ontogeny using an anti-runt box antiserum.</clue>
+</event>
+<sentence id="S5">In the <term id="T14" lex="adult_bone_marrow" sem="Tissue_natural">adult <term id="T15" lex="bone_marrow" sem="Tissue_natural">bone marrow</term></term>, we found expression of <term id="T16" lex="runt_polypeptide" sem="Peptide">runt polypeptides</term> in <term id="T17" lex="differentiating_myeloid_cell" sem="Cell_natural">differentiating myeloid cells</term> and in <term id="T18" lex="B_lymphocyte" sem="Cell_natural">B lymphocytes</term>.</sentence>
+<event id="E5">
+<type class="Gene_expression"/>
+<theme idref="T16"/>
+<clue><clueLoc>In the adult bone marrow</clueLoc>, we <clueKT>found</clueKT> <clueType>expression</clueType> <linkTheme>of</linkTheme> runt polypeptides <clueLoc>in differentiating myeloid cells</clueLoc> and in B lymphocytes.</clue>
+</event>
+<event id="E501">
+<type class="Gene_expression"/>
+<theme idref="T16"/>
+<clue><clueLoc>In the adult bone marrow</clueLoc>, we <clueKT>found</clueKT> <clueType>expression</clueType> <linkTheme>of</linkTheme> runt polypeptides in differentiating myeloid cells and <clueLoc>in B lymphocytes</clueLoc>.</clue>
+</event>
+<sentence id="S6">Within the <term id="T19" lex="erythroid_lineage" sem="Cell_natural">erythroid lineage</term>, <term id="T20" lex="runt_expression" sem="Other">runt expression</term> is biphasic, clearly present in the <term id="T21" lex="erythroblast" sem="Cell_natural">erythroblasts</term> of early blood islands and of the <term id="T22" lex="fetal_liver" sem="Body_region">fetal liver</term>, but absent in the adult.</sentence>
+<event id="E7">
+<type class="Gene_expression"/>
+<theme idref="T16"/>
+<clue><clueLoc>Within the erythroid lineage</clueLoc>, <corefTheme>runt</corefTheme> <clueType>expression</clueType> is biphasic, clearly present <clueLoc>in the erythroblasts of early blood islands</clueLoc> and of the fetal liver, but absent in the adult.</clue>
+</event>
+<event id="E701">
+<type class="Gene_expression"/>
+<theme idref="T16"/>
+<clue><clueLoc>Within the erythroid lineage</clueLoc>, <corefTheme>runt</corefTheme> <clueType>expression</clueType> is biphasic, clearly present <clueLoc>in the erythroblasts</clueLoc> of early blood islands and <clueLoc>of the fetal liver</clueLoc>, but absent in the adult.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E8">
+<type class="Gene_expression"/>
+<theme idref="T16"/>
+<clue><clueLoc>Within the erythroid lineage</clueLoc>, <corefTheme>runt</corefTheme> <clueType>expression</clueType> is biphasic, clearly present in the erythroblasts of early blood islands and of the fetal liver, but <clueType><cluePolarity>absent</cluePolarity></clueType> <clueLoc>in the adult</clueLoc>.</clue>
+</event>
+<sentence id="S7">Biochemical analysis by <term id="T23" lex="Western_blotting" sem="Other">Western blotting</term> of <cons id="T24" lex="(AND fetal_hematopoietic_population adult_hematopoietic_population)" sem="(AND Cell_natural Cell_natural)">fetal and adult hematopoietic populations</cons> shows several <term id="T25" lex="runt_isoform" sem="Protein_family_or_group">runt isoforms</term>.</sentence>
+<sentence id="S8">At least one of them appears to be myeloid specific.</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

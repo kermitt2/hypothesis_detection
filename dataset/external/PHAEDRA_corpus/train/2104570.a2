@@ -1,0 +1,11 @@
+T10	Adverse_effect 40 45	after
+T14	Adverse_effect 147 156	developed
+T16	Adverse_effect 565 575	associated
+T19	Potential_therapeutic_effect 72 75	for
+T20	Potential_therapeutic_effect 258 262	with
+E1	Adverse_effect:T10 affects:T1 has_agent:T11
+E4	Adverse_effect:T14 affects:T2 has_agent:T12 has_agent:T4 has_agent:T5
+E5	Adverse_effect:T16 affects:T17 has_cue:T18 has_agent:T15
+E2	Potential_therapeutic_effect:T19 has_agent:T11 affects:T9
+E3	Potential_therapeutic_effect:T20 affects:T3 has_agent:T12 has_agent:T4 has_agent:T5
+A1	Speculated E5

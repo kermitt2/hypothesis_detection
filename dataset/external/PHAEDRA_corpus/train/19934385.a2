@@ -1,0 +1,9 @@
+T15	DDI 10 21	interaction
+T6	Potential_therapeutic_effect 231 238	treated
+T54	DDI 536 548	interactions
+T55	Potential_therapeutic_effect 307 316	initiated
+R2	Subject_Disorder Arg1:T4 Arg2:T8
+E1	DDI:T15 has_participant:T1 has_participant:T3
+E3	DDI:T54 has_participant:T18 has_participant:T17
+E2	Potential_therapeutic_effect:T6 has_subject:T4 affects:T9 has_agent:T5 has_agent:T7
+E4	Potential_therapeutic_effect:T55 has_subject:T21 has_agent:T10 affects:T12

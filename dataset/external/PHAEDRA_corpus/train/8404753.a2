@@ -1,0 +1,19 @@
+T22	Adverse_effect 23 30	induced
+T23	Adverse_effect 83 88	occur
+T25	Adverse_effect 165 176	development
+T28	Adverse_effect 370 375	after
+T29	Potential_therapeutic_effect 394 397	for
+T32	Adverse_effect 954 960	induce
+T30	Potential_therapeutic_effect 816 822	ceased
+R1	is_equivalent Arg1:T4 Arg2:T5
+R2	Subject_Disorder Arg1:T26 Arg2:T7
+R3	Subject_Disorder Arg1:T26 Arg2:T8
+R4	Subject_Disorder Arg1:T27 Arg2:T9
+E1	Adverse_effect:T22 has_agent:T1 affects:T2
+E2	Adverse_effect:T23 affects:T3 has_agent:T4 has_subject:T24
+E3	Adverse_effect:T25 affects:T6 has_subject:T26 has_agent:T4
+E4	Adverse_effect:T28 has_agent:T11 affects:T10
+E5	Potential_therapeutic_effect:T29 has_agent:T11 affects:T12
+E7	Adverse_effect:T32 affects:T21 has_cue:T34 has_agent:T20 has_subject:T33
+E6	Potential_therapeutic_effect:T30 affects:T17 has_agent:T16 has_subject:T35
+A1	Speculated E7

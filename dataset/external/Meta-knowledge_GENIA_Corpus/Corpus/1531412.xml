@@ -1,0 +1,85 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1531412" created="13/11/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1531412</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="transcriptional_regulation" sem="Other">Transcriptional regulation</term> during <term id="T2" lex="T-cell_development" sem="Other"><term id="T3" lex="T-cell" sem="Cell_natural">T-cell</term> development</term>: the <term id="T4" lex="alpha_TCR_gene" sem="DNA_domain_or_region">alpha TCR gene</term> as a <term id="T5" lex="molecular_model" sem="Other">molecular model</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Regulation"/>
+<theme idref="E4"/>
+<clue>Transcriptional <clueType>regulation</clueType> during T-cell development: the alpha TCR gene as a molecular model.</clue>
+</event>
+<event KT="Investigation" id="E2">
+<type class="Correlation"/>
+<theme idref="E1"/>
+<theme idref="E3"/>
+<clue>Transcriptional regulation <linkTheme>during</linkTheme> T-cell development: the alpha TCR gene as a molecular model.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Cell_differentiation"/>
+<theme idref="T3"/>
+<clue>Transcriptional regulation during T-cell <clueType>development</clueType>: the alpha TCR gene as a molecular model.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Transcription"/>
+<theme idref="T4"/>
+<clue><clueType>Transcriptional</clueType> regulation during T-cell development: the alpha TCR gene as a molecular model.</clue>
+<comment>CAUTION: THEME from the context</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The regulation of <term id="T6" lex="gene_expression" sem="Other">gene expression</term> during <term id="T7" lex="lymphocyte_differentiation" sem="Other"><term id="T8" lex="lymphocyte" sem="Cell_natural">lymphocyte</term> differentiation</term> is a complex process involving interactions between <cons id="T9" lex="(AND multiple_positive_transcriptional_regulatory_element multiple_negative_transcriptional_regulatory_element)" sem="(AND DNA_domain_or_region DNA_domain_or_region)"><frag id="F1">multiple</frag> <frag id="F2">positive</frag> and <frag id="F3">negative</frag> <frag id="F4">transcriptional regulatory elements</frag></cons>.</sentence>
+<event KT="Other" id="E6">
+<type class="Regulation"/>
+<theme idref="T6"/>
+<cause idref="E10"/>
+<clue>The <clueType>regulation</clueType> <linkTheme>of</linkTheme> gene expression <clueTime>during lymphocyte differentiation</clueTime> is a complex process <linkCause>involving</linkCause> interactions between multiple positive and negative transcriptional regulatory elements.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Cell_differentiation"/>
+<theme idref="T8"/>
+<clue>The regulation of gene expression during lymphocyte <clueType>differentiation</clueType> is a complex process involving interactions between multiple positive and negative transcriptional regulatory elements.</clue>
+</event>
+<event KT="Fact" id="E9">
+<type class="Regulation"/>
+<theme idref="E6"/>
+<cause idref="E10"/>
+<clue>The regulation of gene expression during lymphocyte differentiation is a complex process <clueType>involving</clueType> interactions between multiple positive and negative transcriptional regulatory elements.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Correlation"/>
+<theme idref="F2" idref1="F4"/>
+<theme idref="F3" idref1="F4"/>
+<clue>The regulation of gene expression during lymphocyte differentiation is a complex process involving <clueType>interactions</clueType> <linkTheme>between</linkTheme> multiple positive and negative transcriptional regulatory elements.</clue>
+</event>
+<sentence id="S3">In this article, <term id="T10" lex="transcriptional_regulation" sem="Other">transcriptional regulation</term> of the <term id="T11" lex="archetypal_T-cell-specific_gene" sem="DNA_domain_or_region">archetypal <term id="T12" lex="T-cell" sem="Cell_natural">T-cell</term>-specific gene</term>, <term id="T13" lex="alpha_TCR" sem="DNA_domain_or_region">alpha TCR</term>, is discussed.</sentence>
+<event KT="Investigation" id="E13">
+<type class="Regulation"/>
+<theme idref="T13"/>
+<clue>In this article, <clueType>transcriptional regulation</clueType> <linkTheme>of</linkTheme> the archetypal T-cell-specific gene, alpha TCR, is <clueKT>discussed</clueKT>.</clue>
+</event>
+<sentence id="S4">Major recent developments, including the identification of novel families of <term id="T14" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term> that regulate multiple <term id="T15" lex="T-cell_gene" sem="DNA_family_or_group"><term id="T16" lex="T-cell" sem="Cell_natural">T-cell</term> genes</term> during <term id="T17" lex="thymocyte_ontogeny" sem="Other">thymocyte ontogeny</term> and <term id="T18" lex="T-cell_activation" sem="Other"><term id="T19" lex="T-cell" sem="Cell_natural">T-cell</term> activation</term>, are described.</sentence>
+<event KT="Analysis" id="E15">
+<type class="Regulation"/>
+<theme idref="T15"/>
+<cause idref="T14"/>
+<clue>Major recent developments, including the <clueKT>identification</clueKT> of novel families of transcription factors that <clueType>regulate</clueType> multiple <clueLoc>T-cell</clueLoc> genes during thymocyte ontogeny and T-cell activation, are described.</clue>
+<comment>NER: T14 sem mod, DNA_domain_or_region -&gt; Protein_family_or_group</comment></event>
+<event KT="Analysis" id="E16">
+<type class="Correlation"/>
+<theme idref="E15"/>
+<theme idref="T17"/>
+<clue>Major recent developments, including the identification of novel families of transcription factors that regulate multiple T-cell genes <linkTheme>during</linkTheme> thymocyte ontogeny and T-cell activation, are <clueKT>described</clueKT>.</clue>
+</event>
+<event KT="Analysis" id="E17">
+<type class="Correlation"/>
+<theme idref="E15"/>
+<theme idref="E18"/>
+<clue>Major recent developments, including the identification of novel families of transcription factors that regulate multiple T-cell genes <linkTheme>during</linkTheme> thymocyte ontogeny and T-cell activation, are <clueKT>described</clueKT>.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Physiological_process"/>
+<theme idref="T19"/>
+<clue>Major recent developments, including the identification of novel families of transcription factors that regulate multiple T-cell genes during thymocyte ontogeny and T-cell <clueType>activation</clueType>, are described.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

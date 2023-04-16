@@ -1,0 +1,13 @@
+T11	Adverse_effect 20 27	induced
+T7	Adverse_effect 273 282	developed
+T16	Potential_therapeutic_effect 38 40	in
+T17	Adverse_effect 145 152	noticed
+T18	Potential_therapeutic_effect 227 235	received
+T19	Adverse_effect 93 100	free of
+E1	Adverse_effect:T11 has_agent:T1 affects:T2
+E3	Adverse_effect:T7 affects:T8 has_agent:T6
+E4	Potential_therapeutic_effect:T16 affects:T3 has_agent:T1
+E5	Adverse_effect:T17 has_agent:T5 affects:T13 has_agent:T12
+E6	Potential_therapeutic_effect:T18 has_agent:T6 affects:T10
+E2	Adverse_effect:T19 has_agent:T4 affects:T13 has_cue:T20
+A3	Negated E2

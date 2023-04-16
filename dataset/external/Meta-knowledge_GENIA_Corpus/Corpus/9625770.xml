@@ -1,0 +1,116 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9625770" created="19/06/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9625770</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The <term id="T1" lex="human_toll_signaling_pathway" sem="Other"><term id="A1" sem="Protein_molecule">human toll</term> signaling pathway</term>: divergence of <term id="T2" lex="nuclear_factor_kappaB" sem="Protein_complex">nuclear factor kappaB</term> and <term id="T3" lex="JNK/SAPK_activation" sem="Other"><term id="A3" sem="Protein_family_or_group"><term id="T4" lex="JNK" sem="Protein_family_or_group">JNK</term><term id="T5" lex="SAPK" sem="Protein_molecule">/SAPK</term></term> activation</term> upstream of <term id="T6" lex="tumor_necrosis_factor_receptor-associated_factor_6" sem="Protein_molecule">tumor necrosis factor receptor-associated factor 6</term> (<term id="T7" lex="TRAF6" sem="Protein_molecule">TRAF6</term>).</sentence>
+<event KT="Investigation" id="E1">
+<type class="Cell_communication"/>
+<theme idref="A1"/>
+<clue>The human toll <clueType>signaling pathway</clueType>: divergence of nuclear factor kappaB and JNK/SAPK activation upstream of tumor necrosis factor receptor-associated factor 6 (TRAF6).</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="T2"/>
+<clue>The human toll signaling pathway: divergence of nuclear factor kappaB and JNK/SAPK <clueType>activation</clueType> upstream of tumor necrosis factor receptor-associated factor 6 (TRAF6).</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<clue>The human toll signaling pathway: divergence of nuclear factor kappaB and JNK/SAPK <clueType>activation</clueType> upstream of tumor necrosis factor receptor-associated factor 6 (TRAF6).</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Correlation"/>
+<theme idref="E1"/>
+<theme idref="T7"/>
+<clue>The human toll signaling pathway: divergence of nuclear factor kappaB and JNK/SAPK activation <clueType>upstream</clueType> <linkTheme>of</linkTheme> tumor necrosis factor receptor-associated factor 6 (TRAF6).</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Correlation"/>
+<theme idref="E2"/>
+<theme idref="T7"/>
+<clue>The human toll signaling pathway: divergence of nuclear factor kappaB and JNK/SAPK activation <clueType>upstream</clueType> <linkTheme>of</linkTheme> tumor necrosis factor receptor-associated factor 6 (TRAF6).</clue>
+</event>
+<event KT="Investigation" Polarity="Negative" assertion="non-exist" id="E30">
+<type class="Correlation"/>
+<theme idref="E2"/>
+<theme idref="E3"/>
+<clue>The human toll signaling pathway: <clueType><cluePolarity>divergence</cluePolarity></clueType> <linkTheme>of</linkTheme> nuclear factor kappaB and JNK/SAPK activation upstream of tumor necrosis factor receptor-associated factor 6 (TRAF6).</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="A2" sem="Protein_molecule">human homologue</term> of <term id="T8" lex="Drosophila_Toll" sem="Protein_molecule">Drosophila Toll</term> (<term id="T9" lex="hToll" sem="Protein_molecule">hToll</term>) is a recently cloned receptor of the <term id="T10" lex="interleukin_1_receptor_(IL-1R)_superfamily" sem="Protein_family_or_group"><term id="T11" lex="interleukin_1_receptor" sem="Protein_family_or_group">interleukin 1 receptor</term> (<term id="T12" lex="IL-1R" sem="Protein_molecule">IL-1R</term>) superfamily</term>, and has been implicated in the activation of <term id="T13" lex="adaptive_immunity" sem="Other">adaptive immunity</term>.</sentence>
+<event CL="L2" KT="Analysis" Source="Other" id="E7">
+<type class="Regulation"/>
+<theme idref="E8"/>
+<cause idref="T9"/>
+<clue>The human homologue of Drosophila Toll (hToll) is a <clueSource>recently</clueSource> cloned receptor of the interleukin 1 receptor (IL-1R) superfamily, and has been <clueType><clueKT><clueCL>implicated</clueCL></clueKT></clueType> <linkTheme>in</linkTheme> the activation of adaptive immunity.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T13"/>
+<clue>The human homologue of Drosophila Toll (hToll) is a recently cloned receptor of the interleukin 1 receptor (IL-1R) superfamily, and has been implicated in the <clueType>activation</clueType> <linkTheme>of</linkTheme> adaptive immunity.</clue>
+</event>
+<sentence id="S3">Signaling by <term id="T14" lex="hToll" sem="Protein_molecule">hToll</term> is shown to occur through sequential recruitment of the <term id="T15" lex="adapter_molecule" sem="Protein_family_or_group">adapter molecule</term> <term id="T16" lex="MyD88" sem="Protein_molecule">MyD88</term> and the <term id="T17" lex="IL-1R-associated_kinase" sem="Protein_molecule">IL-1R-associated kinase</term>.</sentence>
+<event KT="Other" id="E9">
+<type class="Cell_communication"/>
+<theme idref="T14"/>
+<clue><clueType>Signaling</clueType> <linkTheme>by</linkTheme> hToll is shown to occur through sequential recruitment of the adapter molecule MyD88 and the IL-1R-associated kinase.</clue>
+</event>
+<event KT="Analysis" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="E12"/>
+<clue>Signaling by hToll is <clueKT>shown</clueKT> to <clueType>occur</clueType> <linkCause>through</linkCause> sequential recruitment of the adapter molecule MyD88 and the IL-1R-associated kinase.</clue>
+</event>
+<event KT="Analysis" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="E13"/>
+<clue>Signaling by hToll is <clueKT>shown</clueKT> to <clueType>occur</clueType> <linkCause>through</linkCause> sequential recruitment of the adapter molecule MyD88 and the IL-1R-associated kinase.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Binding"/>
+<theme idref="T14"/>
+<theme idref="T16"/>
+<clue>Signaling by hToll is shown to occur through <clueTime>sequential</clueTime> <clueType>recruitment</clueType> <linkTheme>of</linkTheme> the adapter molecule MyD88 and the IL-1R-associated kinase.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Binding"/>
+<theme idref="T14"/>
+<theme idref="T17"/>
+<clue>Signaling by hToll is shown to occur through <clueTime>sequential</clueTime> <clueType>recruitment</clueType> <linkTheme>of</linkTheme> the adapter molecule MyD88 and the IL-1R-associated kinase.</clue>
+</event>
+<sentence id="S4"><term id="T18" lex="tumor_necrosis_factor_receptor-activated_factor_6" sem="Protein_molecule">Tumor necrosis factor receptor-activated factor 6</term> (<term id="T19" lex="TRAF6" sem="Protein_molecule">TRAF6</term>) and the <term id="T20" lex="nuclear_factor_kappaB_(NF-kappaB)-inducing_kinase" sem="Protein_molecule"><term id="T21" lex="nuclear_factor_kappaB" sem="Protein_complex">nuclear factor kappaB</term> (<term id="T22" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>)-inducing kinase</term> (<term id="T23" lex="NIK" sem="Protein_molecule">NIK</term>) are both involved in subsequent steps of <term id="T24" lex="NF-kappaB_activation" sem="Other"><term id="T25" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activation</term>.</sentence>
+<event id="E14">
+<type class="Regulation"/>
+<theme idref="E17"/>
+<cause idref="T19"/>
+<clue>Tumor necrosis factor receptor-activated factor 6 (TRAF6) and the nuclear factor kappaB (NF-kappaB)-inducing kinase (NIK) are both <clueType>involved</clueType> <linkTheme>in</linkTheme> subsequent steps of NF-kappaB activation.</clue>
+</event>
+<event id="E15">
+<type class="Regulation"/>
+<theme idref="E17"/>
+<cause idref="T23"/>
+<clue>Tumor necrosis factor receptor-activated factor 6 (TRAF6) and the nuclear factor kappaB (NF-kappaB)-inducing kinase (NIK) are both <clueType>involved</clueType> <linkTheme>in</linkTheme> subsequent steps of NF-kappaB activation.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="T25"/>
+<clue>Tumor necrosis factor receptor-activated factor 6 (TRAF6) and the nuclear factor kappaB (NF-kappaB)-inducing kinase (NIK) are both involved in <clueTime>subsequent</clueTime> steps of NF-kappaB <clueType>activation</clueType>.</clue>
+</event>
+<sentence id="S5">Conversely, a <term id="A5" sem="Protein_molecule">dominant negative version of <term id="T26" lex="TRAF6" sem="Protein_molecule">TRAF6</term></term> failed to block <term id="T28" lex="hToll" sem="Protein_molecule">hToll</term>-induced <term id="T27" sem="Other">activation</term> of <term id="T29" lex="stress-activated_protein_kinase/c-Jun_NH2-terminal_kinase" sem="Protein_family_or_group">stress-activated protein kinase/c-Jun NH2-terminal kinases</term>, thus suggesting an early divergence of the two pathways.</sentence>
+<event Polarity="Negative" assertion="non-exist" id="E18">
+<type class="Negative_regulation"/>
+<theme idref="E19"/>
+<cause idref="A5"/>
+<clue>Conversely, a dominant negative version of TRAF6 <cluePolarity>failed</cluePolarity> to <clueType>block</clueType> hToll-induced activation of stress-activated protein kinase/c-Jun NH2-terminal kinases, thus suggesting an early divergence of the two pathways.</clue>
+<comment>TPS: A5</comment></event>
+<event id="E19">
+<type class="Positive_regulation"/>
+<theme idref="T29"/>
+<cause idref="T28"/>
+<clue>Conversely, a dominant negative version of TRAF6 failed to block hToll<linkCause>-induced</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> stress-activated protein kinase/c-Jun NH2-terminal kinases, thus suggesting an early divergence of the two pathways.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

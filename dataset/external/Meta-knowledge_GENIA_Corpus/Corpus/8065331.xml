@@ -1,0 +1,229 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8065331" created="26/10/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8065331</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="A1" sem="DNA_domain_or_region">DNA</term>-binding and <term id="T1" lex="transcriptional_regulatory_property" sem="Other">transcriptional regulatory properties</term> of <term id="T2" lex="hepatic_leukemia_factor" sem="Protein_molecule">hepatic leukemia factor</term> (<term id="T3" lex="HLF" sem="Protein_molecule">HLF</term>) and the <term id="T4" lex="acute_lymphoblastic_leukemia_chimera_E2A-HLF" sem="Protein_molecule"><term id="A3" sem="DNA_domain_or_region">t(17;19)</term> <term id="A2" sem="Other">acute lymphoblastic leukemia</term> chimera <term id="T5" lex="E2A-HLF" sem="Protein_molecule"><term id="A4" sem="Protein_molecule">E2A</term>-<term id="T6" lex="HLF" sem="Protein_molecule">HLF</term></term></term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Binding"/>
+<theme idref="A1"/>
+<theme idref="T3"/>
+<clue>DNA-<clueType>binding</clueType> and transcriptional regulatory properties of hepatic leukemia factor (HLF) and the t(17;19) acute lymphoblastic leukemia chimera E2A-HLF.</clue>
+<comment>NER T4 MOD</comment></event>
+<event KT="Investigation" id="E2">
+<type class="Regulation"/>
+<cause idref="T3"/>
+<clue>DNA-binding and <clueType>transcriptional regulatory properties</clueType> <linkCause>of</linkCause> hepatic leukemia factor (HLF) and the t(17;19) acute lymphoblastic leukemia chimera E2A-HLF.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Binding"/>
+<theme idref="A1"/>
+<theme idref="T5"/>
+<clue>DNA-<clueType>binding</clueType> and transcriptional regulatory properties of hepatic leukemia factor (HLF) and the t(17;19) acute lymphoblastic leukemia chimera E2A-HLF.</clue>
+</event>
+<event KT="Investigation" id="E4">
+<type class="Regulation"/>
+<cause idref="T5"/>
+<clue>DNA-binding and <clueType>transcriptional regulatory properties</clueType> <linkCause>of</linkCause> hepatic leukemia factor (HLF) and the t(17;19) acute lymphoblastic leukemia chimera E2A-HLF.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T7" lex="t(17;19)_translocation" sem="Other"><term id="T8" lex="t(17;19)" sem="DNA_domain_or_region">t(17;19)</term> translocation</term> in <term id="T9" lex="acute_lymphoblastic_leukemias" sem="Other">acute lymphoblastic leukemias</term> results in creation of <term id="T10" lex="E2A-hepatic_leukemia_factor" sem="Protein_molecule"><term id="A6" sem="Protein_molecule">E2A</term>-<term id="T11" lex="hepatic_leukemia_factor" sem="Protein_molecule">hepatic leukemia factor</term></term> (<term id="T12" lex="HLF" sem="Protein_molecule">HLF</term>) <term id="T13" lex="chimeric_protein" sem="Protein_family_or_group">chimeric proteins</term> that contain the <term id="A13" sem="Protein_domain_or_region"><term id="T14" lex="DNA-binding_and_protein_dimerization_domain" sem="Protein_domain_or_region">DNA-binding and protein dimerization domains</term> of the <term id="T15" lex="basic_leucine_zipper_(bZIP)_protein" sem="Protein_family_or_group">basic leucine zipper (bZIP) protein</term> <term id="T16" lex="HLF" sem="Protein_molecule">HLF</term></term> fused to a <term id="A14" sem="Protein_domain_or_region"><term id="A117" sem="Protein_domain_or_region">portion of <term id="T17" lex="E2A_protein" sem="Protein_family_or_group">E2A proteins</term></term> with <term id="T18" lex="transcriptional_activation_property" sem="Other">transcriptional activation properties</term></term>.</sentence>
+<event KT="Other" id="E5">
+<type class="DNA_recombination"/>
+<theme idref="T8"/>
+<clue>The t(17;19) <clueType>translocation</clueType> <clueLoc>in acute lymphoblastic leukemias</clueLoc> results in creation of E2A-hepatic leukemia factor (HLF) chimeric proteins that contain the DNA-binding and protein dimerization domains of the basic leucine zipper (bZIP) protein HLF fused to a portion of E2A proteins with transcriptional activation properties.</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="A6" idref1="T12" idref2="T13"/>
+<cause idref="E5"/>
+<clue>The t(17;19) translocation in acute lymphoblastic leukemias <clueType>results in creation</clueType> <linkTheme>of</linkTheme> E2A-hepatic leukemia factor (HLF) chimeric proteins that contain the DNA-binding and protein dimerization domains of the basic leucine zipper (bZIP) protein HLF fused to a portion of E2A proteins with transcriptional activation properties.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="DNA_recombination"/>
+<theme idref="A13"/>
+<theme idref="A14"/>
+<clue>The t(17;19) translocation in acute lymphoblastic leukemias results in creation of E2A-hepatic leukemia factor (HLF) chimeric proteins that contain the DNA-binding and protein dimerization domains of the basic leucine zipper (bZIP) protein HLF <clueType>fused</clueType> <linkTheme>to</linkTheme> a portion of E2A proteins with transcriptional activation properties.</clue>
+<comment>TPS A13,A14</comment></event>
+<event KT="Other" id="E8">
+<type class="Positive_regulation"/>
+<cause idref="A117"/>
+<clue>The t(17;19) translocation in acute lymphoblastic leukemias results in creation of E2A-hepatic leukemia factor (HLF) chimeric proteins that contain the DNA-binding and protein dimerization domains of the basic leucine zipper (bZIP) protein HLF fused to a portion of E2A proteins <linkCause>with</linkCause> <clueType>transcriptional activation properties</clueType>.</clue>
+</event>
+<sentence id="S3">An <term id="T19" lex="in_vitro_binding_site_selection_procedure" sem="Other">in vitro binding site selection procedure</term> was used to determine <term id="A15" sem="DNA_domain_or_region">DNA sequences</term> preferentially bound by <term id="T20" lex="wild-type_HLF" sem="Protein_molecule">wild-type <term id="T21" lex="HLF" sem="Protein_molecule">HLF</term></term> and <term id="T22" lex="chimeric_E2A-HLF" sem="Protein_molecule">chimeric <term id="T23" lex="E2A-HLF" sem="Protein_molecule"><term id="A16" sem="Protein_molecule">E2A</term>-<term id="T24" lex="HLF" sem="Protein_molecule">HLF</term></term></term> proteins isolated from various <term id="T25" lex="t(17;19)-bearing_leukemia" sem="Cell_cultured">t(17;19)-bearing leukemias</term>.</sentence>
+<event KT="Investigation" id="E9" uncertainty="doubtful">
+<type class="Binding"/>
+<theme idref="T20"/>
+<theme idref="A15"/>
+<clue>An <clueExperiment>in vitro binding site selection procedure</clueExperiment> was used <clueKT>to determine</clueKT> DNA sequences preferentially <clueType>bound</clueType> <linkTheme>by</linkTheme> wild-type HLF and chimeric E2A-HLF proteins isolated from various t(17;19)-bearing leukemias.</clue>
+</event>
+<event KT="Investigation" id="E10" uncertainty="doubtful">
+<type class="Binding"/>
+<theme idref="T22"/>
+<theme idref="A15"/>
+<clue>An <clueExperiment>in vitro binding site selection procedure</clueExperiment> was used <clueKT>to determine</clueKT> DNA sequences preferentially <clueType>bound</clueType> <linkTheme>by</linkTheme> wild-type HLF and chimeric E2A-HLF proteins isolated from various t(17;19)-bearing leukemias.</clue>
+</event>
+<sentence id="S4">All were found to selectively bind the <term id="T26" lex="consensus_sequence" sem="DNA_domain_or_region">consensus sequence</term> <term id="T27" lex="5&apos;-GTTACGTAAT-3&apos;" sem="Polynucleotide">5&apos;-GTTACGTAAT-3&apos;</term> with high affinity.</sentence>
+<event Manner="High" id="E11">
+<type class="Binding"/>
+<theme idref="T20"/>
+<theme idref="T27"/>
+<clue><corefTheme>All</corefTheme> were <clueKT>found</clueKT> to selectively <clueType>bind</clueType> the consensus sequence 5&apos;-GTTACGTAAT-3&apos; <clueManner>with high affinity</clueManner>.</clue>
+<comment>OK</comment></event>
+<event Manner="High" id="E12">
+<type class="Binding"/>
+<theme idref="T22"/>
+<theme idref="T27"/>
+<clue><corefTheme>All</corefTheme> were <clueKT>found</clueKT> to selectively <clueType>bind</clueType> the consensus sequence 5&apos;-GTTACGTAAT-3&apos; <clueManner>with high affinity</clueManner>.</clue>
+<comment>OK</comment></event>
+<sentence id="S5"><term id="A19" sem="Protein_molecule">Wild-type</term> and <term id="T28" lex="chimeric_HLF_protein" sem="Protein_family_or_group">chimeric <term id="T29" lex="HLF" sem="Protein_molecule">HLF proteins</term></term> also bound <term id="A18" sem="DNA_domain_or_region">closely related sites</term> identified previously for <term id="T30" lex="bZIP_protein" sem="Protein_family_or_group">bZIP proteins</term> <term id="A20" sem="Protein_family_or_group">of</term> both the <term id="T31" lex="proline-subfamily" sem="Protein_family_or_group"><term id="T32" lex="proline" sem="Amino_acid_monomer">proline</term>- and <term id="T33" lex="acidic_amino_acid-rich_subfamily" sem="Amino_acid_monomer">acidic amino acid</term>-rich</term> (<term id="T34" lex="PAR" sem="Protein_family_or_group">PAR</term>) and <term id="T35" lex="C/EBP_subfamily" sem="Protein_family_or_group">C/EBP</term> <term id="A17" sem="Protein_family_or_group">subfamilies</term>; however, <term id="T36" lex="E2A-HLF" sem="Protein_molecule"><term id="A21" sem="Protein_molecule">E2A</term>-<term id="T37" lex="HLF" sem="Protein_molecule">HLF</term> proteins</term> were significantly less tolerant of certain deviations from the <term id="T38" lex="HLF_consensus_binding_site" sem="DNA_domain_or_region"><term id="T39" lex="HLF" sem="Protein_molecule">HLF</term> consensus binding site</term>.</sentence>
+<event id="E13">
+<type class="Binding"/>
+<theme idref="A19" idref1="T29"/>
+<theme idref="A18"/>
+<clue>Wild-type and chimeric HLF proteins also <clueType>bound</clueType> closely related sites identified previously for bZIP proteins of both the proline- and acidic amino acid-rich (PAR) and C/EBP subfamilies; however, E2A-HLF proteins were significantly less tolerant of certain deviations from the HLF consensus binding site.</clue>
+<comment>NER T29,T31,T33,T35,T36 MOD</comment></event>
+<event id="E14">
+<type class="Binding"/>
+<theme idref="T28"/>
+<theme idref="A18"/>
+<clue>Wild-type and chimeric HLF proteins also <clueType>bound</clueType> closely related sites identified previously for bZIP proteins of both the proline- and acidic amino acid-rich (PAR) and C/EBP subfamilies; however, E2A-HLF proteins were significantly less tolerant of certain deviations from the HLF consensus binding site.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E15">
+<type class="Binding"/>
+<theme idref="A18"/>
+<theme idref="T30" idref1="A20" idref2="T34" idref3="A17"/>
+<clue>Wild-type and chimeric HLF proteins also bound closely related sites <clueType><clueKT>identified</clueKT></clueType> <clueSource>previously</clueSource> <linkTheme>for</linkTheme> bZIP proteins of both the proline- and acidic amino acid-rich (PAR) and C/EBP subfamilies; however, E2A-HLF proteins were significantly less tolerant of certain deviations from the HLF consensus binding site.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E16">
+<type class="Binding"/>
+<theme idref="A18"/>
+<theme idref="T30" idref1="A20" idref2="T35" idref3="A17"/>
+<clue>Wild-type and chimeric HLF proteins also bound closely related sites <clueType><clueKT>identified</clueKT></clueType> <clueSource>previously</clueSource> <linkTheme>for</linkTheme> bZIP proteins of both the proline- and acidic amino acid-rich (PAR) and C/EBP subfamilies; however, E2A-HLF proteins were significantly less tolerant of certain deviations from the HLF consensus binding site.</clue>
+</event>
+<event id="E17">
+<type class="Mutagenesis"/>
+<theme idref="T38"/>
+<clue>Wild-type and chimeric HLF proteins also bound closely related sites identified previously for bZIP proteins of both the proline- and acidic amino acid-rich (PAR) and C/EBP subfamilies; however, E2A-HLF proteins were significantly less tolerant of certain <clueType>deviations</clueType> <linkTheme>from</linkTheme> the HLF consensus binding site.</clue>
+</event>
+<event Manner="High" id="E18">
+<type class="Negative_regulation"/>
+<theme idref="T36"/>
+<cause idref="E17"/>
+<clue>Wild-type and chimeric HLF proteins also bound closely related sites identified previously for bZIP proteins of both the proline- and acidic amino acid-rich (PAR) and C/EBP subfamilies; however, E2A-HLF proteins were <clueManner>significantly</clueManner> <clueType>less tolerant</clueType> <linkCause>of</linkCause> certain deviations from the HLF consensus binding site.</clue>
+<comment>TOLERANCE</comment></event>
+<sentence id="S6">These differences were directly attributable to loss of an <term id="T40" lex="HLF_ancillary_DNA-binding_domain" sem="Protein_domain_or_region"><term id="T41" lex="HLF" sem="Protein_molecule">HLF</term> ancillary <term id="A23" sem="DNA_domain_or_region">DNA</term>-binding domain</term> in all <term id="T42" lex="E2A-HLF_chimera" sem="Protein_family_or_group"><term id="T43" lex="E2A-HLF" sem="Protein_molecule">E2A</term>-<term id="T44" lex="HLF" sem="Protein_molecule">HLF</term> chimeras</term> and were further exacerbated by a <term id="A22" sem="Protein_domain_or_region">zipper</term> mutation in one isolate.</sentence>
+<event KT="Other" id="E19">
+<type class="Negative_regulation"/>
+<theme idref="T40"/>
+<clue>These differences were directly attributable to <clueType>loss</clueType> <linkTheme>of</linkTheme> an HLF ancillary DNA-binding domain <clueLoc>in all E2A-HLF chimeras</clueLoc> and were further exacerbated by a zipper mutation in one isolate.</clue>
+<comment>NER T40,T43 MOD</comment></event>
+<event KT="Analysis" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="E19"/>
+<clue><corefTheme>These differences</corefTheme> were directly <clueType><clueKT>attributable</clueKT></clueType> <linkTheme>to</linkTheme> loss of an HLF ancillary DNA-binding domain in all E2A-HLF chimeras and were further exacerbated by a zipper mutation in one isolate.</clue>
+</event>
+<event id="E21">
+<type class="Mutagenesis"/>
+<theme idref="A22"/>
+<clue>These differences were directly attributable to loss of an HLF ancillary DNA-binding domain in all E2A-HLF chimeras and were further exacerbated by a zipper <clueType>mutation</clueType> in one isolate.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="E21"/>
+<clue><corefTheme>These differences</corefTheme> were directly attributable to loss of an HLF ancillary DNA-binding domain in all E2A-HLF chimeras and were further <clueType>exacerbated</clueType> <linkCause>by</linkCause> a zipper mutation <clueLoc>in one isolate</clueLoc>.</clue>
+</event>
+<sentence id="S7">Both <term id="T45" lex="wild-type_HLF" sem="Protein_molecule">wild-type</term> and <term id="T46" lex="chimeric_HLF_protein" sem="Protein_family_or_group">chimeric</term> <term id="T47" lex="HLF" sem="Protein_molecule">HLF proteins</term> displayed <term id="T48" lex="transcriptional_activator_property" sem="Other"><term id="T49" lex="transcriptional_activator" sem="Protein_family_or_group">transcriptional activator</term> properties</term> in <cons id="T50" lex="(AND lymphoid_cell nonlymphoid_cell)" sem="(AND Cell_natural Cell_natural)">lymphoid and nonlymphoid cells</cons> on <term id="A55" sem="DNA_domain_or_region"><term id="T54" lex="reporter_gene" sem="DNA_family_or_group">reporter genes</term> containing <term id="T56" lex="HLF" sem="Protein_molecule">HLF</term> or <term id="T57" lex="C/EBP" sem="Protein_molecule">C/EBP</term> <term id="A24" sem="DNA_domain_or_region">consensus binding sites</term></term>.</sentence>
+<event KT="Analysis" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="A55"/>
+<cause idref="T45" idref1="T47"/>
+<clue>Both wild-type and chimeric HLF proteins <clueType><clueKT>displayed</clueKT> transcriptional activator properties</clueType> <clueLoc>in lymphoid</clueLoc> and nonlymphoid <clueLoc>cells</clueLoc> <linkTheme>on</linkTheme> reporter genes containing HLF or C/EBP consensus binding sites.</clue>
+<comment>NER T46,T47,T51,T52,T53,MOD, T55, tag(frag?) at T56,T57,T55 DEL, TPS A55</comment></event>
+<event KT="Analysis" id="E123">
+<type class="Positive_regulation"/>
+<theme idref="A55"/>
+<cause idref="T45" idref1="T47"/>
+<clue>Both wild-type and chimeric HLF proteins <clueType><clueKT>displayed</clueKT> transcriptional activator properties</clueType> <clueLoc>in</clueLoc> lymphoid and <clueLoc>nonlymphoid cells</clueLoc> <linkTheme>on</linkTheme> reporter genes containing HLF or C/EBP consensus binding sites.</clue>
+<comment>NER T46,T47,T51,T52,T53,MOD, T55, tag(frag?) at T56,T57,T55 DEL, TPS A55</comment></event>
+<event KT="Analysis" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="A55"/>
+<cause idref="T46" idref1="T47"/>
+<clue>Both wild-type and chimeric HLF proteins <clueType><clueKT>displayed</clueKT> transcriptional activator properties</clueType> <clueLoc>in lymphoid</clueLoc> and nonlymphoid <clueLoc>cells</clueLoc> <linkTheme>on</linkTheme> reporter genes containing HLF or C/EBP consensus binding sites.</clue>
+</event>
+<event KT="Analysis" id="E124">
+<type class="Positive_regulation"/>
+<theme idref="A55"/>
+<cause idref="T46" idref1="T47"/>
+<clue>Both wild-type and chimeric HLF proteins <clueType><clueKT>displayed</clueKT> transcriptional activator properties</clueType> <clueLoc>in</clueLoc> lymphoid and <clueLoc>nonlymphoid cells</clueLoc> <linkTheme>on</linkTheme> reporter genes containing HLF or C/EBP consensus binding sites.</clue>
+</event>
+<sentence id="S8">But on <term id="A56" sem="DNA_domain_or_region"><term id="T58" lex="reporter_gene" sem="DNA_family_or_group">reporter genes</term> with <term id="T59" lex="nonoptimal_binding_site" sem="DNA_domain_or_region">nonoptimal binding sites</term></term>, their transcriptional properties diverged and <term id="T60" lex="E2A-HLF" sem="Protein_molecule">E2A-<term id="T61" lex="HLF" sem="Protein_molecule">HLF</term></term> competitively inhibited activation by <term id="T62" lex="wild-type_PAR_protein" sem="Protein_family_or_group">wild-type PAR proteins</term>.</sentence>
+<event Polarity="Negative" assertion="non-exist" id="E25">
+<type class="Positive_regulation"/>
+<theme idref="A56"/>
+<cause idref="T45" idref1="T47"/>
+<clue>But <linkTheme>on</linkTheme> reporter genes with nonoptimal binding sites, <corefCause>their</corefCause> <clueType><cluePolarity>transcriptional properties diverged</cluePolarity></clueType> and E2A-HLF competitively inhibited activation by wild-type PAR proteins.</clue>
+<comment>TPS A56</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="A56"/>
+<cause idref="T46" idref1="T47"/>
+<clue>But <linkTheme>on</linkTheme> reporter genes with nonoptimal binding sites, <corefCause>their</corefCause> <clueType>t<cluePolarity>ranscriptional properties diverged</cluePolarity></clueType> and E2A-HLF competitively inhibited activation by wild-type PAR proteins.</clue>
+</event>
+<event KT="Other" id="E27">
+<type class="Negative_regulation"/>
+<cause idref="T62"/>
+<clue>But on reporter genes with nonoptimal binding sites, their transcriptional properties diverged and E2A-HLF competitively inhibited <clueType>activation</clueType> <linkCause>by</linkCause> wild-type PAR proteins.</clue>
+</event>
+<event Manner="High" id="E128">
+<type class="Negative_regulation"/>
+<theme idref="E27"/>
+<cause idref="T60"/>
+<clue>But on reporter genes with nonoptimal binding sites, their transcriptional properties diverged and E2A-HLF <clueManner>competitively</clueManner> <clueType>inhibited</clueType> activation by wild-type PAR proteins.</clue>
+</event>
+<sentence id="S9">These findings establish a spectrum of <term id="T63" lex="binding_site-specific_transcriptional_property" sem="Other"><term id="A58" sem="DNA_domain_or_region">binding site</term>-specific transcriptional properties</term> for <term id="T64" lex="E2A-HLF" sem="Protein_molecule">E2A-<term id="T65" lex="HLF" sem="Protein_molecule">HLF</term></term> which may preferentially activate expression of <term id="A57" sem="DNA_family_or_group">select subordinate genes</term> as a homodimer and potentially antagonize expression of <term id="A59" sem="DNA_family_or_group">others</term> through <term id="T66" lex="heteromeric_interaction" sem="Other">heteromeric interactions</term>.</sentence>
+<event KT="Analysis" id="E28">
+<type class="Positive_regulation"/>
+<theme idref="A58"/>
+<cause idref="T64"/>
+<clue>These findings <clueKT>establish</clueKT> a spectrum of binding site-<linkTheme>specific</linkTheme> <clueType>transcriptional properties</clueType> <linkCause>for</linkCause> E2A-HLF which may preferentially activate expression of select subordinate genes as a homodimer and potentially antagonize expression of others through heteromeric interactions.</clue>
+</event>
+<event KT="Other" id="E29">
+<type class="Gene_expression"/>
+<theme idref="A57"/>
+<clue>These findings establish a spectrum of binding site-specific transcriptional properties for E2A-HLF which may preferentially activate <clueType>expression</clueType> <linkTheme>of</linkTheme> select subordinate genes as a homodimer and potentially antagonize expression of others through heteromeric interactions.</clue>
+</event>
+<event KT="Other" id="E30" uncertainty="probable">
+<type class="Binding"/>
+<theme idref="T64"/>
+<theme idref="T64"/>
+<clue>These findings establish a spectrum of binding site-specific transcriptional properties for E2A-HLF which may preferentially activate expression of select subordinate genes <clueType>as a homodimer</clueType> and potentially antagonize expression of others through heteromeric interactions.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E31" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E29"/>
+<cause idref="E30"/>
+<clue>These findings establish a spectrum of binding site-specific transcriptional properties for E2A-HLF which <clueKT><clueCL>may</clueCL></clueKT> preferentially <clueType>activate</clueType> expression of select subordinate genes as a homodimer and potentially antagonize expression of others through heteromeric interactions.</clue>
+</event>
+<event KT="Other" id="E32">
+<type class="Gene_expression"/>
+<theme idref="A59"/>
+<clue>These findings establish a spectrum of binding site-specific transcriptional properties for E2A-HLF which may preferentially activate expression of select subordinate genes as a homodimer and potentially antagonize <clueType>expression</clueType> <linkTheme>of</linkTheme> others through heteromeric interactions.</clue>
+</event>
+<event KT="Other" id="E33" uncertainty="probable">
+<type class="Binding"/>
+<theme idref="T64"/>
+<clue>These findings establish a spectrum of binding site-specific transcriptional properties for E2A-HLF which may preferentially activate expression of select subordinate genes as a homodimer and potentially antagonize expression of others through <clueType>heteromeric interactions</clueType>.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E34" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="E32"/>
+<cause idref="E33"/>
+<clue>These findings establish a spectrum of binding site-specific transcriptional properties for E2A-HLF which <clueCL>may</clueCL> preferentially activate expression of select subordinate genes as a homodimer and <clueKT>potentially</clueKT> <clueType>antagonize</clueType> expression of others <linkCause>through</linkCause> heteromeric interactions.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

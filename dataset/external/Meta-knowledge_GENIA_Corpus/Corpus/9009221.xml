@@ -1,0 +1,184 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9009221" created="07/04/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9009221</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="nuclear_factor-kappaB_activation" sem="Other"><term id="T2" lex="nuclear_factor-kappaB" sem="Protein_complex">Nuclear factor-kappaB</term> activation</term> in <term id="T3" lex="human_monocyte" sem="Cell_natural">human monocytes</term> stimulated with <term id="T4" lex="lipopolysaccharide" sem="Lipid">lipopolysaccharide</term> is inhibited by <term id="A1" sem="Organic_compound_other">fibroblast conditioned medium</term> and <term id="T5" lex="exogenous_PGE2" sem="Organic_compound_other">exogenous PGE2</term>.</sentence>
+<event id="E1">
+<type class="Physiological_process"/>
+<theme idref="T3"/>
+<cause idref="T4"/>
+<clue>Nuclear factor-kappaB activation in human monocytes <clueType>stimulated</clueType> <linkCause>with</linkCause> lipopolysaccharide is inhibited by fibroblast conditioned medium and exogenous PGE2.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="T2"/>
+<clue>Nuclear factor-kappaB <clueType>activation</clueType> <clueLoc>in human monocytes stimulated with lipopolysaccharide</clueLoc> is inhibited by fibroblast conditioned medium and exogenous PGE2.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation"/>
+<theme idref="E2"/>
+<cause idref="A1"/>
+<clue>Nuclear factor-kappaB activation in human monocytes stimulated with lipopolysaccharide is <clueType>inhibited</clueType> <linkCause>by</linkCause> fibroblast conditioned medium and exogenous PGE2.</clue>
+</event>
+<event id="E4">
+<type class="Negative_regulation"/>
+<theme idref="E2"/>
+<cause idref="T5"/>
+<clue>Nuclear factor-kappaB activation in human monocytes stimulated with lipopolysaccharide is <clueType>inhibited</clueType> <linkCause>by</linkCause> fibroblast conditioned medium and exogenous PGE2.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T6" lex="nuclear_factor_kappaB" sem="Protein_complex">nuclear factor kappaB</term> (<term id="T7" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>) is thought to be crucially involved in the gene activation of several <term id="T8" lex="cytokine" sem="Protein_family_or_group">cytokines</term>, including <term id="T9" lex="tumor_necrosis_factor_alpha" sem="Protein_molecule">tumor necrosis factor alpha</term> (<term id="T10" lex="TNF" sem="Protein_molecule">TNF</term>).</sentence>
+<event KT="Fact" id="E5" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T10"/>
+<cause idref="T7"/>
+<clue>The nuclear factor kappaB (NF-kappaB) is thought to be crucially <clueType>involved in</clueType> the <clueType>gene activation</clueType> <linkTheme>of</linkTheme> several <corefTheme>cytokines</corefTheme>, including tumor necrosis factor alpha (TNF).</clue>
+</event>
+<sentence id="S3">Previously, we showed that <term id="T11" lex="fibroblast_conditioned_medium" sem="Organic_compound_other">fibroblast conditioned medium</term> (<term id="T12" lex="FCM" sem="Organic_compound_other">FCM</term>) is able to inhibit both <term id="T13" lex="TNF_mRNA_accumulation" sem="Other"><term id="T14" lex="TNF_mRNA" sem="RNA_family_or_group"><term id="A20" sem="Protein_family_or_group">TNF</term> mRNA</term> accumulation</term> and <term id="A21" sem="Protein_family_or_group">protein</term> release in <term id="T15" lex="peripheral_blood-derived_human_monocyte" sem="Cell_cultured">peripheral blood-derived <term id="T16" lex="human_monocyte" sem="Cell_natural">human monocytes</term></term> (<term id="T17" lex="PBM" sem="Cell_cultured">PBM</term>) stimulated with <term id="T18" lex="lipopolysaccharide" sem="Lipid">lipopolysaccharide</term> (<term id="T19" lex="LPS" sem="Lipid">LPS</term>).</sentence>
+<event KT="Other" id="E6">
+<type class="RNA_metabolism"/>
+<theme idref="T14"/>
+<clue>Previously, we showed that fibroblast conditioned medium (FCM) is able to inhibit both TNF mRNA <clueType>accumulation</clueType> and protein release <clueLoc>in peripheral blood-derived human monocytes (PBM) stimulated with lipopolysaccharide (LPS</clueLoc>).</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Localization"/>
+<theme idref="A20" idref1="A21"/>
+<clue>Previously, we showed that fibroblast conditioned medium (FCM) is able to inhibit both TNF mRNA accumulation and protein <clueType>release</clueType> <clueLoc>in peripheral blood-derived human monocytes (PBM) stimulated with lipopolysaccharide (LPS)</clueLoc>.</clue>
+</event>
+<event CL="L2" KT="Analysis" Source="Other" id="E8">
+<type class="Negative_regulation"/>
+<theme idref="E6"/>
+<cause idref="T12"/>
+<clue><clueSource>Previously</clueSource>, we <clueKT>showed</clueKT> that fibroblast conditioned medium (FCM) is <clueCL>able</clueCL> to <clueType>inhibit</clueType> both TNF mRNA accumulation and protein release in peripheral blood-derived human monocytes (PBM) stimulated with lipopolysaccharide (LPS).</clue>
+</event>
+<event CL="L2" KT="Analysis" Source="Other" id="E9">
+<type class="Negative_regulation"/>
+<theme idref="E7"/>
+<cause idref="T12"/>
+<clue><clueSource>Previously</clueSource>, we <clueKT>showed</clueKT> that fibroblast conditioned medium (FCM) is <clueCL>able</clueCL> to <clueType>inhibit</clueType> both TNF mRNA accumulation and protein release in peripheral blood-derived human monocytes (PBM) stimulated with lipopolysaccharide (LPS).</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Physiological_process"/>
+<theme idref="T17"/>
+<cause idref="T19"/>
+<clue>Previously, we showed that fibroblast conditioned medium (FCM) is able to inhibit both TNF mRNA accumulation and protein release in peripheral blood-derived human monocytes (PBM) <clueType>stimulated</clueType> <linkCause>with</linkCause> lipopolysaccharide (LPS).</clue>
+</event>
+<sentence id="S4">In this study we have investigated the effect of <term id="T20" lex="FCM" sem="Organic_compound_other">FCM</term> on the <term id="T21" lex="LPS-induced_DNA-binding_activity" sem="Other"><term id="T22" lex="LPS" sem="Lipid">LPS</term>-induced <term id="A2" sem="DNA_domain_or_region">DNA</term>-binding activity</term> of <term id="T23" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>, by means of <term id="T24" lex="electrophoretic_shift_assay" sem="Other">electrophoretic shift assay</term> (<term id="T25" lex="EMSA" sem="Other">EMSA</term>).</sentence>
+<event KT="Other" id="E11">
+<type class="Binding"/>
+<theme idref="T23"/>
+<theme idref="A2"/>
+<clue>In this study we have investigated the effect of FCM on the LPS-induced DNA-<clueType>binding</clueType> activity <linkTheme>of</linkTheme> NF-kappaB, by means of electrophoretic shift assay (EMSA).</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<cause idref="T22"/>
+<clue>In this study we have investigated the effect of FCM on the LPS-<clueType>induced</clueType> DNA-binding activity of NF-kappaB, by means of electrophoretic shift assay (EMSA).</clue>
+</event>
+<event KT="Investigation" id="E13" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E12"/>
+<cause idref="T20"/>
+<clue>In this study we have <clueKT>investigated</clueKT> the <clueType>effect</clueType> <linkCause>of</linkCause> FCM <linkTheme>on</linkTheme> the LPS-induced DNA-binding activity of NF-kappaB, <clueExperiment>by means of electrophoretic shift assay (EMSA)</clueExperiment>.</clue>
+</event>
+<sentence id="S5">We provide evidence that <term id="T26" lex="FCM" sem="Organic_compound_other">FCM</term> strongly inhibits the <term id="T27" lex="LPS-induced_NF-kappaB_activation" sem="Other"><term id="T28" lex="LPS" sem="Lipid">LPS</term>-induced <term id="T29" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activation</term> in <term id="T30" lex="PBM" sem="Cell_cultured">PBM</term>.</sentence>
+<event KT="Other" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="T29"/>
+<clue>We provide evidence that FCM strongly inhibits the LPS-induced NF-kappaB <clueType>activation</clueType> in PBM.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="T28"/>
+<clue>We provide evidence that FCM strongly inhibits the LPS-<clueType>induced</clueType> NF-kappaB activation in PBM.</clue>
+</event>
+<event CL="L2" KT="Analysis" Manner="High" id="E16">
+<type class="Negative_regulation"/>
+<theme idref="E15"/>
+<cause idref="T26"/>
+<clue>We provide <clueKT><clueCL>evidence</clueCL></clueKT> that FCM <clueManner>strongly</clueManner> <clueType>inhibits</clueType> the LPS-induced NF-kappaB activation <clueLoc>in PBM</clueLoc>.</clue>
+</event>
+<sentence id="S6">Furthermore, we show that <term id="T31" lex="exogenous_PGE2" sem="Organic_compound_other">exogenous PGE2</term> mimics the <term id="T32" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> inhibitory effect of <term id="T33" lex="FCM" sem="Organic_compound_other">FCM</term>.</sentence>
+<event KT="Other" id="E18">
+<type class="Negative_regulation"/>
+<theme idref="T32"/>
+<cause idref="T33"/>
+<clue>Furthermore, we show that exogenous PGE2 mimics the NF-kappaB <clueType>inhibitory effect</clueType> <linkCause>of</linkCause> FCM.</clue>
+</event>
+<event KT="Analysis" id="E19">
+<type class="Negative_regulation"/>
+<theme idref="T32"/>
+<cause idref="T31"/>
+<clue>Furthermore, we <clueKT>show</clueKT> that exogenous PGE2 <clueType>mimics</clueType> the NF-kappaB <clueType>inhibitory effect</clueType> of FCM.</clue>
+</event>
+<sentence id="S7">On the other hand, <term id="T34" lex="FCM" sem="Organic_compound_other">FCM</term> produced in the presence of <term id="T35" lex="indomethacin" sem="Organic_compound_other">indomethacin</term> does not inhibit <term id="T36" lex="NF-kappaB_activation" sem="Other"><term id="T37" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activation</term> by <term id="T38" lex="LPS" sem="Lipid">LPS</term>.</sentence>
+<event id="E20">
+<type class="Positive_regulation"/>
+<theme idref="T37"/>
+<cause idref="T38"/>
+<clue>On the other hand, FCM produced in the presence of indomethacin does not inhibit NF-kappaB <clueType>activation</clueType> <linkCause>by</linkCause> LPS.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E21">
+<type class="Negative_regulation"/>
+<theme idref="E20"/>
+<cause idref="T34"/>
+<cause idref="T35"/>
+<clue>On the other hand, FCM produced <linkCause>in the presence of</linkCause> indomethacin does <cluePolarity>not</cluePolarity> <clueType>inhibit</clueType> NF-kappaB activation by LPS.</clue>
+</event>
+<sentence id="S8">Our results lend further support to the hypothesis that <cons id="T39" lex="(AND inflammatory_response immune_response)" sem="(AND Other Other)"><frag id="F1">inflammatory</frag> and <frag id="F2">immune</frag> <frag id="F3">responses</frag></cons> of <term id="T40" lex="monocytes/macrophage" sem="Cell_natural"><term id="A30" sem="Cell_natural">monocytes</term>/<term id="A31" sem="Cell_natural">macrophages</term></term> may be modulated at the molecular level by <term id="A3" sem="Other">signals</term> originating from <term id="T41" lex="tissue_structural_cell" sem="Cell_natural">tissue structural cells</term> such as <term id="T42" lex="fibroblast" sem="Cell_natural">fibroblasts</term>.</sentence>
+<event KT="Other" id="E22">
+<type class="Physiological_process"/>
+<theme idref="A30"/>
+<clue>Our results lend further support to the hypothesis that <clueType>inflammatory</clueType> and immune <clueType>responses</clueType> <linkCause>of</linkCause> monocytes/macrophages may be modulated at the molecular level by signals originating from tissue structural cells such as fibroblasts.</clue>
+</event>
+<event KT="Other" id="E27">
+<type class="Physiological_process"/>
+<theme idref="A31"/>
+<clue>Our results lend further support to the hypothesis that <clueType>inflammatory</clueType> and immune <clueType>responses</clueType> <linkCause>of</linkCause> monocytes/macrophages may be modulated at the molecular level by signals originating from tissue structural cells such as fibroblasts.</clue>
+</event>
+<event KT="Other" id="E25">
+<type class="Physiological_process"/>
+<theme idref="A30"/>
+<clue>Our results lend further support to the hypothesis that inflammatory and <clueType>immune responses</clueType> <linkCause>of</linkCause> monocytes/macrophages may be modulated at the molecular level by signals originating from tissue structural cells such as fibroblasts.</clue>
+</event>
+<event KT="Other" id="E28">
+<type class="Physiological_process"/>
+<theme idref="A31"/>
+<clue>Our results lend further support to the hypothesis that inflammatory and <clueType>immune responses</clueType> <linkCause>of</linkCause> monocytes/macrophages may be modulated at the molecular level by signals originating from tissue structural cells such as fibroblasts.</clue>
+</event>
+<event KT="Other" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<cause idref="T42"/>
+<clue>Our results lend further support to the hypothesis that inflammatory and immune responses of monocytes/macrophages may be modulated at the molecular level by signals <clueType>originating</clueType> <linkCause>from</linkCause> <corefCause>tissue structural cells</corefCause> such as fibroblasts.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E24" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E22"/>
+<cause idref="E23"/>
+<clue>Our results lend further support to the <clueKT>hypothesis</clueKT> that inflammatory and immune responses of monocytes/macrophages <clueCL>may</clueCL> be <clueType>modulated</clueType> at the molecular level <linkCause>by</linkCause> signals originating from tissue structural cells such as fibroblasts.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E26" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E25"/>
+<cause idref="E23"/>
+<clue>Our results lend further support to the <clueKT>hypothesis</clueKT> that inflammatory and immune responses of monocytes/macrophages <clueCL>may</clueCL> be <clueType>modulated</clueType> at the molecular level <linkCause>by</linkCause> signals originating from tissue structural cells such as fibroblasts.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E29" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E27"/>
+<cause idref="E23"/>
+<clue>Our results lend further support to the <clueKT>hypothesis</clueKT> that inflammatory and immune responses of monocytes/macrophages <clueCL>may</clueCL> be <clueType>modulated</clueType> at the molecular level <linkCause>by</linkCause> signals originating from tissue structural cells such as fibroblasts.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E30" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E28"/>
+<cause idref="E23"/>
+<clue>Our results lend further support to the <clueKT>hypothesis</clueKT> that inflammatory and immune responses of monocytes/macrophages <clueCL>may</clueCL> be <clueType>modulated</clueType> at the molecular level <linkCause>by</linkCause> signals originating from tissue structural cells such as fibroblasts.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

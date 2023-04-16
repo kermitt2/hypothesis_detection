@@ -1,0 +1,360 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10352279" created="30/10/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10352279</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="CD28" sem="Protein_molecule">CD28</term> costimulation augments <term id="T2" lex="IL-2" sem="Protein_molecule">IL-2</term> secretion of activated <term id="A11" sem="Cell_natural">lamina propria T cells</term> by increasing <term id="A2" sem="Other">mRNA stability</term> without enhancing <term id="A1" sem="DNA_domain_or_region"><term id="T3" lex="IL-2" sem="Protein_molecule">IL-2</term> gene</term> transactivation.</sentence>
+<event id="E1">
+<type class="Positive_regulation"/>
+<theme idref="T1"/>
+<clue>CD28 <clueType>costimulation</clueType> augments IL-2 secretion of activated lamina propria T cells by increasing mRNA stability without enhancing IL-2 gene transactivation.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="E4"/>
+<clue>CD28 costimulation <clueType>augments</clueType> IL-2 secretion of activated lamina propria T cells <linkCause>by</linkCause> increasing mRNA stability without enhancing IL-2 gene transactivation.</clue>
+</event>
+<event id="E3">
+<type class="Localization"/>
+<theme idref="T2"/>
+<clue>CD28 costimulation augments IL-2 <clueType>secretion</clueType> <clueLoc>of activated lamina propria T cells</clueLoc> by increasing mRNA stability without enhancing IL-2 gene transactivation.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation"/>
+<theme idref="A2"/>
+<cause idref="E1"/>
+<clue>CD28 costimulation augments IL-2 secretion of activated lamina propria T cells by <clueType>increasing</clueType> mRNA stability without enhancing IL-2 gene transactivation.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="E1"/>
+<clue>CD28 costimulation augments IL-2 secretion of activated lamina propria T cells by increasing mRNA stability <cluePolarity>without</cluePolarity> <clueType>enhancing</clueType> IL-2 gene transactivation.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="A1"/>
+<clue>CD28 costimulation augments IL-2 secretion of activated lamina propria T cells by increasing mRNA stability without enhancing IL-2 gene <clueType>transactivation</clueType>.</clue>
+</event>
+<event id="E18">
+<type class="Physiological_process"/>
+<theme idref="A11"/>
+<clue>CD28 costimulation augments IL-2 secretion of <clueType>activated</clueType> lamina propria T cells by increasing mRNA stability without enhancing IL-2 gene transactivation.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="A3" sem="Other">pathways</term> leading to activation in <term id="T4" lex="lamina_propria_(LP)_T_cell" sem="Cell_natural">lamina propria (<term id="A4" sem="Cell_natural">LP) T cells</term></term> are different from <term id="T5" lex="peripheral_T_cell" sem="Cell_natural">peripheral T cells</term>.</sentence>
+<event KT="Fact" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="A3"/>
+<clue>The pathways <clueType>leading</clueType> <linkTheme>to</linkTheme> activation in lamina propria (LP) T cells are different from peripheral T cells.</clue>
+</event>
+<event KT="Fact" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="A3"/>
+<clue>The pathways <clueType>leading</clueType> <linkTheme>to</linkTheme> activation in lamina propria (LP) T cells are different from peripheral T cells.</clue>
+<comment>CAUTION: SEE</comment></event>
+<event KT="Other" id="E9">
+<type class="Physiological_process"/>
+<theme idref="A4"/>
+<clue>The pathways leading to <clueType>activation</clueType> <linkTheme>in</linkTheme> lamina propria (LP) T cells are different from peripheral T cells.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Physiological_process"/>
+<theme idref="T5"/>
+<clue>The pathways leading to <clueType>activation</clueType> <linkTheme>in</linkTheme> lamina propria (LP) T cells are different from peripheral T cells.</clue>
+<comment>CAUTION: SEE</comment></event>
+<sentence id="S3"><term id="T6" lex="LP_T_cell" sem="Cell_natural">LP T cells</term> exhibit enhanced <term id="T7" lex="IL-2_secretion" sem="Other"><term id="T8" lex="IL-2" sem="Protein_molecule">IL-2</term> secretion</term> when activated through the <term id="T9" lex="CD2_pathway" sem="Other"><term id="T10" lex="CD2" sem="Protein_molecule">CD2</term> pathway</term>.</sentence>
+<event KT="Other" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="E13"/>
+<clue><clueLoc>LP T cells</clueLoc> exhibit <clueType>enhanced</clueType> IL-2 secretion <linkCause>when</linkCause> activated through the CD2 pathway.</clue>
+</event>
+<event KT="Fact" id="E12">
+<type class="Localization"/>
+<theme idref="T8"/>
+<clue><clueLoc>LP T cells</clueLoc> exhibit enhanced IL-2 <clueType>secretion</clueType> when activated through the CD2 pathway.</clue>
+</event>
+<event id="E13">
+<type class="Physiological_process"/>
+<theme idref="T6"/>
+<clue>LP T cells exhibit enhanced IL-2 secretion when <clueType>activated</clueType> through the CD2 pathway.</clue>
+</event>
+<event id="E61">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="T9"/>
+<clue>LP T cells exhibit enhanced IL-2 secretion when activated <linkCause>through</linkCause> the CD2 pathway.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S4">Coligation of <term id="T11" lex="CD28" sem="Protein_molecule">CD28</term> leads to synergistic enhancement of <term id="T12" lex="IL-2_secretion" sem="Other"><term id="T13" lex="IL-2" sem="Protein_molecule">IL-2</term> secretion</term>.</sentence>
+<event id="E14">
+<type class="Binding"/>
+<theme idref="T11"/>
+<clue><clueType>Coligation</clueType> <linkTheme>of</linkTheme> CD28 leads to synergistic enhancement of IL-2 secretion.</clue>
+</event>
+<event KT="Fact" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<cause idref="E14"/>
+<cause idref="T9"/>
+<clue>Coligation of CD28 <clueType>leads to synergistic enhancement</clueType> <linkTheme>of</linkTheme> IL-2 secretion.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Localization"/>
+<theme idref="T13"/>
+<clue>Coligation of CD28 leads to synergistic enhancement of IL-2 <clueType>secretion</clueType>.</clue>
+</event>
+<sentence id="S5">Previous studies have characterized the <term id="T14" lex="CD28" sem="Protein_molecule">CD28</term> augmentation of <term id="T16" lex="TCR" sem="Protein_family_or_group">TCR</term>-mediated <term id="A6" sem="Other">signaling</term> in <term id="T17" lex="peripheral_blood_T_cell" sem="Cell_natural">peripheral blood T cells</term> through <term id="T18" lex="transcriptional_activation" sem="Other">transcriptional activation</term> of an <term id="A10" sem="RNA_molecule"><term id="T19" lex="IL-2" sem="Protein_molecule">IL-2</term></term> promoter <term id="T20" lex="CD28_response_element" sem="DNA_domain_or_region"><term id="T21" lex="CD28" sem="Protein_molecule">CD28</term> response element</term> (<term id="T22" lex="CD28RE" sem="DNA_domain_or_region">CD28RE</term>), along with enhanced <term id="A5" sem="RNA_molecule">mRNA</term> stability.</sentence>
+<event KT="Analysis" Source="Other" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="E20"/>
+<clue><clueSource>Previous studies</clueSource> have <clueKT>characterized</clueKT> the CD28 <clueType>augmentation</clueType> <linkTheme>of</linkTheme> TCR-mediated signaling in peripheral blood T cells <linkCause>through</linkCause> transcriptional activation of an IL-2 promoter CD28 response element (CD28RE), along with enhanced mRNA stability.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E57">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="E21"/>
+<clue><clueSource>Previous studies</clueSource> have <clueKT>characterized</clueKT> the CD28 <clueType>augmentation</clueType> <linkTheme>of</linkTheme> TCR-mediated signaling in peripheral blood T cells through transcriptional activation of an IL-2 promoter CD28 response element (CD28RE), <linkCause>along with</linkCause> enhanced mRNA stability.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation"/>
+<theme idref="A6"/>
+<cause idref="T16"/>
+<clue>Previous studies have characterized the CD28 augmentation of TCR-<clueType>mediated</clueType> signaling <clueLoc>in peripheral blood T cells</clueLoc> through transcriptional activation of an IL-2 promoter CD28 response element (CD28RE), along with enhanced mRNA stability.</clue>
+<comment>NER: T15 del &quot;TCR-mediated signaling&quot;</comment></event>
+<event KT="Other" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="T22"/>
+<cause idref="T14"/>
+<clue>Previous studies have characterized the CD28 augmentation of TCR-mediated signaling in peripheral blood T cells through <clueType>transcriptional activation</clueType> <linkTheme>of</linkTheme> an <corefTheme>IL-2 promoter</corefTheme> CD28 response element (CD28RE), along with enhanced mRNA stability.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="A10" idref1="A5"/>
+<clue>Previous studies have characterized the CD28 augmentation of TCR-mediated signaling in peripheral blood T cells through transcriptional activation of an IL-2 promoter CD28 response element (CD28RE), along with <clueType>enhanced</clueType> mRNA <clueType>stability</clueType>.</clue>
+</event>
+<sentence id="S6">This study characterized <term id="A7" sem="Other">molecular events</term> involved in <term id="T23" lex="CD28" sem="Protein_molecule">CD28</term> costimulation of <term id="T24" lex="IL-2" sem="Protein_molecule">IL-2</term> production in <term id="T25" lex="LP_mononuclear_cell_(LPMC)" sem="Cell_natural">LP mononuclear cells (<term id="T26" lex="LPMC" sem="Cell_natural">LPMC</term>)</term>.</sentence>
+<event KT="Analysis" id="E22">
+<type class="Regulation"/>
+<theme idref="E23"/>
+<cause idref="A7"/>
+<clue>This study <clueKT>characterized</clueKT> molecular events <clueType>involved</clueType> <linkTheme>in</linkTheme> CD28 costimulation of IL-2 production in LP mononuclear cells (LPMC).</clue>
+</event>
+<event KT="Other" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="E24"/>
+<cause idref="T23"/>
+<clue>This study characterized molecular events involved in CD28 <clueType>costimulation</clueType> <linkTheme>of</linkTheme> IL-2 production in LP mononuclear cells (LPMC).</clue>
+</event>
+<event KT="Other" id="E24">
+<type class="Gene_expression"/>
+<theme idref="T24"/>
+<clue>This study characterized molecular events involved in CD28 costimulation of IL-2 <clueType>production</clueType> <clueLoc>in LP mononuclear cells (LPMC)</clueLoc>.</clue>
+</event>
+<sentence id="S7"><term id="T27" lex="LPMC" sem="Cell_natural">LPMC</term> exhibited increased <term id="T28" lex="IL-2" sem="Protein_molecule">IL-2</term> production in response to <term id="T29" lex="CD28" sem="Protein_molecule">CD28</term> costimulation, compared with cells activated through <term id="T30" lex="CD2" sem="Protein_molecule">CD2</term> alone.</sentence>
+<event KT="Other" id="E25">
+<type class="Gene_expression"/>
+<theme idref="T28"/>
+<clue><clueLoc>LPMC</clueLoc> exhibited increased IL-2 <clueType>production</clueType> in response to CD28 costimulation, compared with cells activated through CD2 alone.</clue>
+</event>
+<event KT="Analysis" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="E25"/>
+<cause idref="E27"/>
+<clue>LPMC <clueKT>exhibited</clueKT> increased IL-2 production <linkCause>in response to</linkCause> CD28 costimulation, compared with cells activated through CD2 alone.</clue>
+</event>
+<event id="E27">
+<type class="Physiological_process"/>
+<theme idref="T27"/>
+<cause idref="T29"/>
+<cause idref="T30"/>
+<clue>LPMC exhibited increased IL-2 production in response to CD28 <clueType>costimulation</clueType>, compared with cells activated through CD2 alone.</clue>
+</event>
+<event KT="Other" id="E28">
+<type class="Gene_expression"/>
+<theme idref="T28"/>
+<clue>LPMC exhibited increased IL-2 <clueType>production</clueType> in response to CD28 costimulation, compared with <clueLoc>cells activated through CD2 alone</clueLoc>.</clue>
+</event>
+<event id="E29">
+<type class="Physiological_process"/>
+<theme idref="T27"/>
+<clue>LPMC exhibited increased IL-2 production in response to CD28 costimulation, compared with <corefTheme>cells</corefTheme> <clueType>activated</clueType> through CD2 alone.</clue>
+</event>
+<event id="E63">
+<type class="Positive_regulation"/>
+<theme idref="E29"/>
+<cause idref="T30"/>
+<clue>LPMC exhibited increased IL-2 production in response to CD28 costimulation, compared with cells activated <linkCause>through</linkCause> CD2 alone.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S8"><term id="T31" lex="IL-2" sem="Protein_molecule">IL-2</term> secretion was paralleled by increased expression of <term id="T32" lex="IL-2_mRNA" sem="RNA_molecule"><term id="T33" lex="IL-2" sem="Protein_molecule">IL-2</term> mRNA</term>, resulting from enhanced <term id="T34" lex="IL-2_mRNA" sem="RNA_molecule"><term id="T35" lex="IL-2" sem="Protein_molecule">IL-2</term> mRNA</term> stability.</sentence>
+<event id="E30">
+<type class="Localization"/>
+<theme idref="T31"/>
+<clue>IL-2 <clueType>secretion</clueType> was paralleled by increased expression of IL-2 mRNA, resulting from enhanced IL-2 mRNA stability.</clue>
+</event>
+<event KT="Analysis" id="E31">
+<type class="Correlation"/>
+<theme idref="E30"/>
+<theme idref="E33"/>
+<clue>IL-2 secretion was <clueType><clueKT>paralleled</clueKT></clueType> <linkTheme>by</linkTheme> increased expression of IL-2 mRNA, resulting from enhanced IL-2 mRNA stability.</clue>
+</event>
+<event KT="Other" id="E32">
+<type class="Transcription"/>
+<theme idref="T32"/>
+<clue>IL-2 secretion was paralleled by increased <clueType>expression</clueType> <linkTheme>of</linkTheme> IL-2 mRNA, resulting from enhanced IL-2 mRNA stability.</clue>
+</event>
+<event KT="Other" id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E32"/>
+<clue>IL-2 secretion was paralleled by <clueType>increased</clueType> expression of IL-2 mRNA, resulting from enhanced IL-2 mRNA stability.</clue>
+</event>
+<event KT="Fact" id="E34">
+<type class="Positive_regulation"/>
+<theme idref="E33"/>
+<cause idref="E35"/>
+<clue>IL-2 secretion was paralleled by increased expression of IL-2 mRNA, <clueType>resulting</clueType> <linkCause>from</linkCause> enhanced IL-2 mRNA stability.</clue>
+</event>
+<event KT="Other" id="E35">
+<type class="Positive_regulation"/>
+<theme idref="T34"/>
+<clue>IL-2 secretion was paralleled by increased expression of IL-2 mRNA, resulting from <clueType>enhanced</clueType> IL-2 mRNA <clueType>stability</clueType>.</clue>
+</event>
+<sentence id="S9">In contrast to transcriptional activation in <term id="T36" lex="PBMC" sem="Cell_natural">PBMC</term>, <term id="T37" lex="EMSA" sem="Other">EMSA</term> revealed that <term id="T38" lex="CD28" sem="Protein_molecule">CD28</term> coligation of <term id="T39" lex="CD2-activated_LPMC" sem="Cell_natural"><term id="T40" lex="CD2" sem="Protein_molecule">CD2</term>-activated <term id="T41" lex="LPMC" sem="Cell_natural">LPMC</term></term> does not result in increased binding of <term id="A8" sem="Protein_family_or_group">trans-factors</term> to the <term id="T42" lex="CD28RE" sem="DNA_domain_or_region">CD28RE</term>, nor did <term id="T43" lex="Western_blot" sem="Other">Western blots</term> detect changes in <term id="T44" lex="I-kappaBalpha" sem="Protein_molecule">I-kappaBalpha</term> or <term id="T45" lex="I-kappaBbeta" sem="Protein_molecule">I-kappaBbeta</term> levels following <term id="T46" lex="CD28" sem="Protein_molecule">CD28</term> coligation.</sentence>
+<event id="E36">
+<type class="Positive_regulation"/>
+<theme idref="A8"/>
+<clue>In contrast to <clueType>transcriptional activation</clueType> <clueLoc>in PBMC</clueLoc>, EMSA revealed that CD28 coligation of CD2-activated LPMC does not result in increased binding of trans-factors to the CD28RE, nor did Western blots detect changes in I-kappaBalpha or I-kappaBbeta levels following CD28 coligation.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event id="E37">
+<type class="Binding"/>
+<theme idref="T38"/>
+<clue>In contrast to transcriptional activation in PBMC, <clueExperiment>EMSA</clueExperiment> revealed that CD28 <clueType>coligation</clueType> <clueLoc>of CD2-activated LPMC</clueLoc> does not result in increased binding of trans-factors to the CD28RE, nor did Western blots detect changes in I-kappaBalpha or I-kappaBbeta levels following CD28 coligation.</clue>
+</event>
+<event id="E38">
+<type class="Physiological_process"/>
+<theme idref="T41"/>
+<cause idref="T40"/>
+<clue>In contrast to transcriptional activation in PBMC, EMSA revealed that CD28 coligation of CD2-<clueType>activated</clueType> LPMC does not result in increased binding of trans-factors to the CD28RE, nor did Western blots detect changes in I-kappaBalpha or I-kappaBbeta levels following CD28 coligation.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E39">
+<type class="Positive_regulation"/>
+<theme idref="E40"/>
+<cause idref="E37"/>
+<clue>In contrast to transcriptional activation in PBMC, EMSA <clueKT>revealed</clueKT> that CD28 coligation of CD2-activated LPMC does <cluePolarity>not</cluePolarity> result in <clueType>increased</clueType> binding of trans-factors to the CD28RE, nor did Western blots detect changes in I-kappaBalpha or I-kappaBbeta levels following CD28 coligation.</clue>
+</event>
+<event KT="Other" id="E40">
+<type class="Binding"/>
+<theme idref="A8"/>
+<theme idref="T42"/>
+<clue>In contrast to transcriptional activation in PBMC, EMSA revealed that CD28 coligation of CD2-activated LPMC does not result in increased <clueType>binding</clueType> <linkTheme>of</linkTheme> trans-factors <linkTheme>to</linkTheme> the CD28RE, nor did Western blots detect changes in I-kappaBalpha or I-kappaBbeta levels following CD28 coligation.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E41">
+<type class="Regulation"/>
+<theme idref="E43"/>
+<cause idref="E45"/>
+<clue>In contrast to transcriptional activation in PBMC, EMSA revealed that CD28 coligation of CD2-activated LPMC does not result in increased binding of trans-factors to the CD28RE, <cluePolarity>nor</cluePolarity> did <clueExperiment>Western blots</clueExperiment> <clueKT>detect</clueKT> <clueType>changes</clueType> <linkTheme>in</linkTheme> I-kappaBalpha or I-kappaBbeta levels <linkCause>following</linkCause> CD28 coligation.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E42">
+<type class="Regulation"/>
+<theme idref="E44"/>
+<cause idref="E45"/>
+<clue>In contrast to transcriptional activation in PBMC, EMSA revealed that CD28 coligation of CD2-activated LPMC does not result in increased binding of trans-factors to the CD28RE, <cluePolarity>nor</cluePolarity> did <clueExperiment>Western blots</clueExperiment> <clueKT>detect</clueKT> <clueType>changes</clueType> <linkTheme>in</linkTheme> I-kappaBalpha or I-kappaBbeta levels <linkCause>following</linkCause> CD28 coligation.</clue>
+</event>
+<event id="E43">
+<type class="Gene_expression"/>
+<theme idref="T44"/>
+<clue>In contrast to transcriptional activation in PBMC, EMSA revealed that CD28 coligation of CD2-activated LPMC does not result in increased binding of trans-factors to the CD28RE, nor did Western blots detect changes in I-kappaBalpha or I-kappaBbeta <clueType>levels</clueType> following CD28 coligation.</clue>
+</event>
+<event id="E44">
+<type class="Gene_expression"/>
+<theme idref="T45"/>
+<clue>In contrast to transcriptional activation in PBMC, EMSA revealed that CD28 coligation of CD2-activated LPMC does not result in increased binding of trans-factors to the CD28RE, nor did Western blots detect changes in I-kappaBalpha or I-kappaBbeta <clueType>levels</clueType> following CD28 coligation.</clue>
+</event>
+<event id="E45">
+<type class="Binding"/>
+<theme idref="T46"/>
+<clue>In contrast to transcriptional activation in PBMC, EMSA revealed that CD28 coligation of CD2-activated LPMC does not result in increased binding of trans-factors to the CD28RE, nor did Western blots detect changes in I-kappaBalpha or I-kappaBbeta levels following CD28 <clueType>coligation</clueType>.</clue>
+<comment>ERROR fixed</comment></event>
+<sentence id="S10">Furthermore, <term id="T47" lex="CD28" sem="Protein_molecule">CD28</term> coligation fails to enhance <term id="T48" lex="IL-2_promoter-reporter" sem="DNA_domain_or_region"><term id="T49" lex="IL-2" sem="Protein_molecule">IL-2</term> promoter-reporter</term> or <term id="T50" lex="RE/AP_construct_expression" sem="Other"><term id="A9" sem="DNA_domain_or_region"><term id="T51" lex="RE/AP" sem="Protein_molecule">RE/AP</term> construct</term> expression</term> in <term id="T52" lex="CD2-activated_LPMC" sem="Cell_natural"><term id="T53" lex="CD2" sem="Protein_molecule">CD2</term>-activated <term id="T54" lex="LPMC" sem="Cell_natural">LPMC</term></term>.</sentence>
+<event id="E46">
+<type class="Binding"/>
+<theme idref="T47"/>
+<clue>Furthermore, CD28 <clueType>coligation</clueType> fails to enhance IL-2 promoter-reporter or RE/AP construct expression in CD2-activated LPMC.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E47">
+<type class="Positive_regulation"/>
+<theme idref="E49"/>
+<cause idref="E46"/>
+<clue>Furthermore, CD28 coligation <cluePolarity>fails</cluePolarity> to <clueType>enhance</clueType> IL-2 promoter-reporter or RE/AP construct expression in CD2-activated LPMC.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E48">
+<type class="Positive_regulation"/>
+<theme idref="E50"/>
+<cause idref="E46"/>
+<clue>Furthermore, CD28 coligation <cluePolarity>fails</cluePolarity> to <clueType>enhance</clueType> IL-2 promoter-reporter or RE/AP construct expression in CD2-activated LPMC.</clue>
+</event>
+<event id="E49">
+<type class="Gene_expression"/>
+<theme idref="T48"/>
+<clue>Furthermore, CD28 coligation fails to enhance IL-2 promoter-reporter or RE/AP construct <clueType>expression</clueType> <clueLoc>in CD2-activated LPMC</clueLoc>.</clue>
+</event>
+<event id="E50">
+<type class="Gene_expression"/>
+<theme idref="A9"/>
+<clue>Furthermore, CD28 coligation fails to enhance IL-2 promoter-reporter or RE/AP construct <clueType>expression</clueType> <clueLoc>in CD2-activated LPMC</clueLoc>.</clue>
+</event>
+<event id="E51">
+<type class="Physiological_process"/>
+<theme idref="T54"/>
+<cause idref="T53"/>
+<clue>Furthermore, CD28 coligation fails to enhance IL-2 promoter-reporter or RE/AP construct expression in CD2-<clueType>activated</clueType> LPMC.</clue>
+</event>
+<sentence id="S11">The results reported herein indicate that the molecular mechanisms involved in <term id="T56" lex="CD28" sem="Protein_molecule">CD28</term> cosignaling and regulation of <term id="T57" lex="IL-2_secretion" sem="Other"><term id="T58" lex="IL-2" sem="Protein_molecule">IL-2</term> secretion</term> in <term id="T59" lex="LP_T_cell" sem="Cell_natural">LP T cells</term> are unique to that compartment and differ from those seen in <term id="T60" lex="peripheral_blood_T_cell" sem="Cell_natural">peripheral blood T cells</term>.</sentence>
+<event KT="Fact" id="E52">
+<type class="Regulation"/>
+<theme idref="E53"/>
+<clue>The results reported herein indicate that the molecular mechanisms <clueType>involved</clueType> <linkTheme>in</linkTheme> CD28 cosignaling and regulation of IL-2 secretion in LP T cells are unique to that compartment and differ from those seen in peripheral blood T cells.</clue>
+<comment>NER: T55 del &quot;molecular mechanisms&quot;</comment></event>
+<event KT="Fact" id="E62">
+<type class="Regulation"/>
+<theme idref="E54"/>
+<clue>The results reported herein indicate that the molecular mechanisms <clueType>involved</clueType> <linkTheme>in</linkTheme> CD28 cosignaling and regulation of IL-2 secretion in LP T cells are unique to that compartment and differ from those seen in peripheral blood T cells.</clue>
+</event>
+<event KT="Other" id="E53">
+<type class="Cell_communication"/>
+<theme idref="T56"/>
+<clue>The results reported herein indicate that the molecular mechanisms involved in CD28 <clueType>cosignaling</clueType> and regulation of IL-2 secretion in LP T cells are unique to that compartment and differ from those seen in peripheral blood T cells.</clue>
+</event>
+<event KT="Other" id="E54">
+<type class="Regulation"/>
+<theme idref="E55"/>
+<clue>The results reported herein indicate that the molecular mechanisms involved in CD28 cosignaling and <clueType>regulation</clueType> <linkTheme>of</linkTheme> IL-2 secretion in LP T cells are unique to that compartment and differ from those seen in peripheral blood T cells.</clue>
+</event>
+<event KT="Other" id="E55">
+<type class="Localization"/>
+<theme idref="T58"/>
+<clue>The results reported herein indicate that the molecular mechanisms involved in CD28 cosignaling and regulation of IL-2 <clueType>secretion</clueType> <clueLoc>in LP T cells</clueLoc> are unique to that compartment and differ from those seen in peripheral blood T cells.</clue>
+</event>
+<sentence id="S12">These observations suggest a biological significance for different mechanisms of <term id="T61" lex="IL-2" sem="Protein_molecule">IL-2</term> activation in initiation and maintenance of the <term id="T62" lex="cytokine_repertoire" sem="Protein_family_or_group">cytokine repertoire</term> found in the <term id="T63" lex="mucosa" sem="Tissue_natural">mucosa</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E58">
+<type class="Positive_regulation"/>
+<theme idref="T61"/>
+<clue>These observations <clueKT><clueCL>suggest</clueCL></clueKT> a biological significance for different mechanisms of IL-2 <clueType>activation</clueType> in initiation and maintenance of the cytokine repertoire found in the mucosa.</clue>
+</event>
+<event KT="Other" id="E59">
+<type class="Positive_regulation"/>
+<theme idref="T62"/>
+<clue>These observations suggest a biological significance for different mechanisms of IL-2 activation in <clueType>initiation</clueType> and maintenance <linkTheme>of</linkTheme> the cytokine repertoire found <clueLoc>in the mucosa</clueLoc>.</clue>
+</event>
+<event KT="Other" assertion="non-exist" id="E60">
+<type class="Protein_catabolism"/>
+<theme idref="T62"/>
+<clue>These observations suggest a biological significance for different mechanisms of IL-2 activation in initiation and <clueType>maintenance</clueType> <linkTheme>of</linkTheme> the cytokine repertoire found <clueLoc>in the mucosa</clueLoc>.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,474 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10203577" created="18/05/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10203577</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Suppressive effects of <term id="T1" lex="anti-inflammatory_agent" sem="Organic_compound_other">anti-inflammatory agents</term> on <term id="T2" lex="human_endothelial_cell_activation" sem="Other"><term id="T3" lex="human_endothelial_cell" sem="Cell_natural">human endothelial cell</term> activation</term> and induction of <term id="T4" lex="heat_shock_protein" sem="Protein_family_or_group">heat shock proteins</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Physiological_process"/>
+<theme idref="T3"/>
+<clue>Suppressive effects of anti-inflammatory agents on human endothelial cell <clueType>activation</clueType> and induction of heat shock proteins.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="T4"/>
+<clue>Suppressive effects of anti-inflammatory agents on human endothelial cell activation and <clueType>induction</clueType> <linkTheme>of</linkTheme> heat shock proteins.</clue>
+</event>
+<event KT="Investigation" id="E3">
+<type class="Negative_regulation"/>
+<theme idref="E1"/>
+<cause idref="T1"/>
+<clue><clueType>Suppressive effects</clueType> <linkCause>of</linkCause> anti-inflammatory agents <linkTheme>on</linkTheme> human endothelial cell activation and induction of heat shock proteins.</clue>
+</event>
+<event KT="Investigation" id="E4">
+<type class="Negative_regulation"/>
+<theme idref="E2"/>
+<cause idref="T1"/>
+<clue><clueType>Suppressive effects</clueType> <linkCause>of</linkCause> anti-inflammatory agents <linkTheme>on</linkTheme> human endothelial cell activation and induction of heat shock proteins.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">BACKGROUND: Studies from our laboratory have shown that the <term id="A2" sem="Other">earliest stages of <term id="A1" sem="Other">atherosclerosis</term></term> may be mediated by an <term id="T5" lex="autoimmune_reaction" sem="Other">autoimmune reaction</term> against <term id="T6" lex="heat_shock_protein_60" sem="Protein_molecule">heat shock protein 60</term> (<term id="T7" lex="Hsp60" sem="Protein_molecule">Hsp60</term>).</sentence>
+<event KT="Other" id="E5">
+<type class="Physiological_process"/>
+<cause idref="T7"/>
+<clue>BACKGROUND: Studies from our laboratory have shown that the earliest stages of atherosclerosis may be mediated by an <clueType>autoimmune reaction</clueType> <linkCause>against</linkCause> heat shock protein 60 (Hsp60).</clue>
+<comment>TPS A2</comment></event>
+<event CL="L1" KT="Analysis" Source="Other" id="E6" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="A2"/>
+<cause idref="E5"/>
+<clue><clueSource>BACKGROUND</clueSource>: <clueSource>Studies</clueSource> from our laboratory <clueSource>have <clueKT>shown</clueKT></clueSource> that the earliest stages of atherosclerosis <clueCL>may</clueCL> be <clueType>mediated</clueType> <linkCause>by</linkCause> an autoimmune reaction against heat shock protein 60 (Hsp60).</clue>
+</event>
+<sentence id="S3">The interactions of <term id="T8" lex="Hsp60-specific_T_cell" sem="Cell_cultured"><term id="T9" lex="Hsp60" sem="Protein_molecule">Hsp60</term>-specific T cells</term> with <term id="T10" lex="endothelial_cell" sem="Cell_natural">arterial endothelial cells</term> (<term id="T11" lex="EC" sem="Cell_natural">EC</term>) require expression of both <term id="T12" lex="Hsp60" sem="Protein_molecule">Hsp60</term> and certain <term id="T13" lex="adhesion_molecule" sem="Protein_family_or_group">adhesion molecules</term> shown to be induced simultaneously in <term id="T14" lex="EC" sem="Cell_natural">EC</term> by <term id="A3" sem="Other">mechanical</term> and <term id="A4" sem="Other">other types of</term> <term id="A5" sem="Other">stress</term>.</sentence>
+<event KT="Other" id="E7">
+<type class="Cell_communication"/>
+<theme idref="T8"/>
+<theme idref="T10"/>
+<clue>The <clueType>interactions</clueType> <linkTheme>of</linkTheme> Hsp60-specific T cells <linkTheme>with</linkTheme> arterial endothelial cells (EC) require expression of both Hsp60 and certain adhesion molecules shown to be induced simultaneously in EC by mechanical and other types of stress.</clue>
+<comment>NER T10 mod</comment></event>
+<event KT="Other" id="E8">
+<type class="Gene_expression"/>
+<theme idref="T12"/>
+<clue>The interactions of Hsp60-specific T cells with arterial endothelial cells (EC) require <clueType>expression</clueType> <linkTheme>of</linkTheme> both Hsp60 and certain adhesion molecules shown to be induced simultaneously in EC by mechanical and other types of stress.</clue>
+</event>
+<event KT="Analysis" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="T13"/>
+<cause idref="A3" idref1="A5"/>
+<clue>The interactions of Hsp60-specific T cells with arterial endothelial cells (EC) require expression of both Hsp60 and certain adhesion molecules <clueKT>shown to be</clueKT> <clueType>induced</clueType> simultaneously <clueLoc>in EC</clueLoc> <linkCause>by</linkCause> mechanical and other types of stress.</clue>
+</event>
+<event KT="Analysis" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="T13"/>
+<cause idref="A4" idref1="A5"/>
+<clue>The interactions of Hsp60-specific T cells with arterial endothelial cells (EC) require expression of both Hsp60 and certain adhesion molecules <clueKT>shown to be</clueKT> <clueType>induced</clueType> simultaneously <clueLoc>in EC</clueLoc> <linkCause>by</linkCause> mechanical and other types of stress.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Gene_expression"/>
+<theme idref="T13"/>
+<clue>The interactions of Hsp60-specific T cells with arterial endothelial cells (EC) require <clueType>expression</clueType> <linkTheme>of</linkTheme> both Hsp60 and certain adhesion molecules shown to be induced simultaneously in EC by mechanical and other types of stress.</clue>
+</event>
+<event KT="Fact" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="E8"/>
+<clue>The interactions of Hsp60-specific T cells with arterial endothelial cells (EC) <clueType>require</clueType> expression of both Hsp60 and certain adhesion molecules shown to be induced simultaneously in EC by mechanical and other types of stress.</clue>
+</event>
+<event KT="Fact" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="E11"/>
+<clue>The interactions of Hsp60-specific T cells with arterial endothelial cells (EC) <clueType>require</clueType> expression of both Hsp60 and certain adhesion molecules shown to be induced simultaneously in EC by mechanical and other types of stress.</clue>
+</event>
+<sentence id="S4">Recently, it was shown that suppression of <term id="A6" sem="Cell_natural">T cell</term>-mediated <term id="A7" sem="Other">immune responses</term> by <term id="T16" lex="cyclosporin_A" sem="Organic_compound_other">cyclosporin A</term> (<term id="T17" lex="CyA" sem="Organic_compound_other">CyA</term>) enhanced <term id="T18" lex="atherosclerotic_lesion_formation" sem="Other"><term id="A8" sem="Other">atherosclerotic lesion</term> formation</term> in <term id="T19" lex="mouse" sem="Multicellular_organism_natural">mice</term>.</sentence>
+<event KT="Other" id="E14">
+<type class="Physiological_process"/>
+<theme idref="A6"/>
+<clue>Recently, it was shown that suppression of T cell-<linkTheme>mediated</linkTheme> <clueType>immune responses</clueType> by cyclosporin A (CyA) enhanced atherosclerotic lesion formation in mice.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="T17"/>
+<clue>Recently, it was shown that <clueType>suppression</clueType> <linkTheme>of</linkTheme> T cell-mediated immune responses <linkCause>by</linkCause> cyclosporin A (CyA) enhanced atherosclerotic lesion formation in mice.</clue>
+</event>
+<event KT="Other" id="E16">
+<type/>
+<theme idref="A8"/>
+<clue>Recently, it was shown that suppression of T cell-mediated immune responses by cyclosporin A (CyA) enhanced atherosclerotic lesion <clueType>formation</clueType> in mice.</clue>
+<comment>SOO</comment></event>
+<event KT="Analysis" Source="Other" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<cause idref="E15"/>
+<clue><clueSource>Recently</clueSource>, <clueKT>it was shown that</clueKT> suppression of T cell-mediated immune responses by cyclosporin A (CyA) <clueType>enhanced</clueType> atherosclerotic lesion formation <clueLoc>in mice</clueLoc>.</clue>
+</event>
+<sentence id="S5">In contrast, <term id="T20" lex="aspirin" sem="Organic_compound_other">aspirin</term> was found to lower the risk of <term id="T21" lex="myocardial_infarction" sem="Other">myocardial infarction</term> in <term id="T22" lex="man" sem="Multicellular_organism_natural">men</term>.</sentence>
+<event id="E18">
+<type class="Negative_regulation"/>
+<theme idref="T21"/>
+<cause idref="T20"/>
+<clue>In contrast, aspirin <clueKT>was found to</clueKT> <clueType>lower</clueType> the <clueType>risk</clueType> <linkTheme>of</linkTheme> myocardial infarction <clueLoc>in men</clueLoc>.</clue>
+</event>
+<sentence id="S6">These conflicting observations may be due to different effects of <term id="T23" lex="anti-inflammatory_agent" sem="Organic_compound_other">anti-inflammatory agents</term> on <cons id="T24" lex="(AND adhesion_molecule_expression Hsp_expression)" sem="(AND Other Other)"><frag id="F1">adhesion molecule</frag> and <frag id="F2">Hsp</frag> <frag id="F3">expression</frag></cons> in <term id="T25" lex="EC" sem="Cell_natural">EC</term>, respectively.</sentence>
+<event KT="Other" id="E19">
+<type class="Gene_expression"/>
+<theme idref="F1"/>
+<clue>These conflicting observations may be due to different effects of anti-inflammatory agents on adhesion molecule and Hsp <clueType>expression</clueType> <clueLoc>in EC</clueLoc>, respectively.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Gene_expression"/>
+<theme idref="F2"/>
+<clue>These conflicting observations may be due to different effects of anti-inflammatory agents on adhesion molecule and Hsp <clueType>expression</clueType> <clueLoc>in EC</clueLoc>, respectively.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Regulation"/>
+<theme idref="E19"/>
+<cause idref="T23"/>
+<clue>These conflicting observations may be due to different <clueType>effects</clueType> <linkCause>of</linkCause> anti-inflammatory agents <linkTheme>on</linkTheme> adhesion molecule and Hsp expression in EC, respectively.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Regulation"/>
+<theme idref="E20"/>
+<cause idref="T23"/>
+<clue>These conflicting observations may be due to different <clueType>effects</clueType> <linkCause>of</linkCause> anti-inflammatory agents <linkTheme>on</linkTheme> adhesion molecule and Hsp expression in EC, respectively.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E80">
+<type class="Regulation"/>
+<theme idref="E17"/>
+<theme idref="E18"/>
+<cause idref="E21"/>
+<cause idref="E22"/>
+<clue><corefTheme>These conflicting observations</corefTheme> <clueKT><clueCL>may</clueCL> be</clueKT> <clueType>due</clueType> <linkCause>to</linkCause> different effects of anti-inflammatory agents on adhesion molecule and Hsp expression in EC, respectively.</clue>
+</event>
+<sentence id="S7">MATERIAL AND METHODS: In the present study, we analyzed the effects of <term id="T26" lex="CyA" sem="Organic_compound_other">CyA</term>, <term id="T27" lex="aspirin" sem="Organic_compound_other">aspirin</term>, and <term id="T28" lex="indomethacin" sem="Organic_compound_other">indomethacin</term> on <term id="T29" lex="T_cell_proliferation" sem="Other"><term id="A11" sem="Cell_natural">T cell</term> proliferation</term> using a <term id="T15" sem="Other">proliferation assay</term>.</sentence>
+<event KT="Other" id="E23">
+<type class="Cellular_physiological_process"/>
+<theme idref="A11"/>
+<clue>MATERIAL AND METHODS: In the present study, we analyzed the effects of CyA, aspirin, and indomethacin on T cell <clueType>proliferation</clueType> using a proliferation assay.</clue>
+</event>
+<event KT="Analysis" id="E24" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E23"/>
+<cause idref="T26"/>
+<clue>MATERIAL AND METHODS: In the present study, we <clueKT>analyzed</clueKT> the <clueType>effects</clueType> <linkCause>of</linkCause> CyA, aspirin, and indomethacin <linkTheme>on</linkTheme> T cell proliferation <clueExperiment>using a proliferation assay</clueExperiment>.</clue>
+</event>
+<event KT="Analysis" id="E25" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E23"/>
+<cause idref="T27"/>
+<clue>MATERIAL AND METHODS: In the present study, we <clueKT>analyzed</clueKT> the <clueType>effects</clueType> <linkCause>of</linkCause> CyA, aspirin, and indomethacin <linkTheme>on</linkTheme> T cell proliferation <clueExperiment>using a proliferation assay</clueExperiment>.</clue>
+</event>
+<sentence id="S8">To explore the expression of <term id="T30" lex="adhesion_molecule" sem="Protein_family_or_group">adhesion molecules</term>, <term id="T31" lex="monocyte_chemoattractant_protein-1" sem="Protein_molecule">monocyte chemoattractant protein-1</term> (<term id="T32" lex="MCP-1" sem="Protein_molecule">MCP-1</term>), and <term id="T33" lex="Hsp60" sem="Protein_molecule">Hsp60</term> in <term id="T34" lex="human_umbilical_vein_endothelial_cell" sem="Cell_natural">human umbilical vein <term id="T35" lex="endothelial_cell" sem="Cell_natural">endothelial cells</term></term> (<term id="T36" lex="HUVEC" sem="Cell_natural">HUVECs</term>), <term id="T37" lex="Northern_blot_analysis" sem="Other">Northern blot analyses</term> were used.</sentence>
+<event KT="Investigation" id="E26" uncertainty="doubtful">
+<type class="Gene_expression"/>
+<theme idref="T32"/>
+<clue><clueKT>To explore</clueKT> the <clueType>expression</clueType> <linkTheme>of</linkTheme> adhesion molecules, monocyte chemoattractant protein-1 (MCP-1), and Hsp60 <clueLoc>in human umbilical vein endothelial cells (HUVECs)</clueLoc>, <clueExperiment>Northern blot analyses</clueExperiment> were used.</clue>
+</event>
+<event KT="Investigation" id="E27" uncertainty="doubtful">
+<type class="Gene_expression"/>
+<theme idref="T33"/>
+<clue><clueKT>To explore</clueKT> the <clueType>expression</clueType> <linkTheme>of</linkTheme> adhesion molecules, monocyte chemoattractant protein-1 (MCP-1), and Hsp60 <clueLoc>in human umbilical vein endothelial cells (HUVECs)</clueLoc>, <clueExperiment>Northern blot analyses</clueExperiment> were used.</clue>
+</event>
+<sentence id="S9">To examine the activation status of the <term id="T38" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term> <term id="T39" lex="nuclear_factor_kappaB" sem="Protein_complex">nuclear factor kappaB</term> (<term id="T40" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>) and <term id="T41" lex="heat_shock_factor-1" sem="Protein_molecule">heat shock factor-1</term> (<term id="T42" lex="HSF-1" sem="Protein_molecule">HSF-1</term>), <term id="T43" lex="electrophoretic_mobility_shift_assay" sem="Other">electrophoretic mobility shift assays</term> were performed.</sentence>
+<event KT="Investigation" id="E28" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="T40"/>
+<clue><clueKT>To examine</clueKT> the <clueType>activation</clueType> status <linkTheme>of</linkTheme> the transcription factors nuclear factor kappaB (NF-kappaB) and heat shock factor-1 (HSF-1), <clueExperiment>electrophoretic mobility shift assays</clueExperiment> were performed.</clue>
+</event>
+<event KT="Investigation" id="E29" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="T42"/>
+<clue><clueKT>To examine</clueKT> the <clueType>activation</clueType> status <linkTheme>of</linkTheme> the transcription factors nuclear factor kappaB (NF-kappaB) and heat shock factor-1 (HSF-1), <clueExperiment>electrophoretic mobility shift assays</clueExperiment> were performed.</clue>
+</event>
+<sentence id="S10">RESULTS: With the exception of <term id="T44" lex="indomethacin" sem="Organic_compound_other">indomethacin</term>, the used <cons id="C1" lex="(AND immunosuppressive_agent anti-inflammatory_agent)" sem="(AND Organic_compound_other Organic_compound_other)"><frag id="F4">immunosuppressive</frag> and <frag id="F5">anti-inflammatory</frag> <frag id="F6">agents</frag></cons> significantly inhibited <term id="T47" lex="T_cell_proliferation" sem="Other"><term id="A13" sem="Cell_natural">T cell</term> proliferation</term> in response to <term id="T48" lex="influenza_virus_antigen" sem="Protein_family_or_group">influenza virus antigen</term> in a <term id="T49" lex="dose-dependent_manner" sem="Other">dose-dependent manner</term>.</sentence>
+<event id="E30">
+<type class="Cellular_physiological_process"/>
+<theme idref="A13"/>
+<clue>RESULTS: With the exception of indomethacin, the used immunosuppressive and anti-inflammatory agents significantly inhibited T cell <clueType>proliferation</clueType> in response to influenza virus antigen in a dose-dependent manner.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation"/>
+<theme idref="E30"/>
+<cause idref="T48"/>
+<clue>RESULTS: With the exception of indomethacin, the used immunosuppressive and anti-inflammatory agents significantly inhibited T cell proliferation in <clueType>response</clueType> <linkCause>to</linkCause> influenza virus antigen in a dose-dependent manner.</clue>
+</event>
+<event Manner="High" id="E32">
+<type class="Negative_regulation"/>
+<theme idref="E31"/>
+<cause idref="F4" idref1="F6"/>
+<clue>RESULTS: With the exception of indomethacin, the used immunosuppressive and anti-inflammatory agents <clueManner>significantly</clueManner> <clueType>inhibited</clueType> T cell proliferation in response to influenza virus antigen in a dose-dependent manner.</clue>
+</event>
+<event Manner="High" id="E75">
+<type class="Negative_regulation"/>
+<theme idref="E31"/>
+<cause idref="F5" idref1="F6"/>
+<clue>RESULTS: With the exception of indomethacin, the used immunosuppressive and anti-inflammatory agents <clueManner>significantly</clueManner> <clueType>inhibited</clueType> T cell proliferation in response to influenza virus antigen in a dose-dependent manner.</clue>
+</event>
+<event Manner="High" Polarity="Negative" assertion="non-exist" id="E33">
+<type class="Negative_regulation"/>
+<theme idref="E31"/>
+<cause idref="T44"/>
+<clue>RESULTS: <cluePolarity>With the exception of</cluePolarity> indomethacin, the used immunosuppressive and anti-inflammatory agents <clueManner>significantly</clueManner> <clueType>inhibited</clueType> T cell proliferation in response to influenza virus antigen in a dose-dependent manner.</clue>
+</event>
+<sentence id="S11">Interestingly, <term id="T50" lex="CyA" sem="Organic_compound_other">CyA</term> and <term id="T51" lex="indomethacin" sem="Organic_compound_other">indomethacin</term> did not suppress <term id="T52" lex="tumor_necrosis_factor-alpha" sem="Protein_molecule">tumor necrosis factor-alpha</term> (<term id="T53" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term>)-induced <term id="A14" sem="Protein_family_or_group">adhesion molecule</term> expression on <term id="T54" lex="HUVEC" sem="Cell_natural">HUVECs</term>, whereas <term id="T55" lex="aspirin" sem="Organic_compound_other">aspirin</term> had an <term id="T56" lex="inhibitory_effect" sem="Other">inhibitory effect</term>.</sentence>
+<event KT="Other" id="E34">
+<type class="Gene_expression"/>
+<theme idref="A14"/>
+<clue>Interestingly, CyA and indomethacin did not suppress tumor necrosis factor-alpha (TNF-alpha)-induced adhesion molecule <clueType>expression</clueType> <clueLoc>on HUVECs</clueLoc>, whereas aspirin had an inhibitory effect.</clue>
+</event>
+<event KT="Other" id="E35">
+<type class="Positive_regulation"/>
+<theme idref="E34"/>
+<cause idref="T52"/>
+<clue>Interestingly, CyA and indomethacin did not suppress tumor necrosis factor-alpha (TNF-alpha)-<clueType>induced</clueType> adhesion molecule expression on HUVECs, whereas aspirin had an inhibitory effect.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E36">
+<type class="Negative_regulation"/>
+<theme idref="E35"/>
+<cause idref="T50"/>
+<clue><clueKT>Interestingly</clueKT>, CyA and indomethacin did <cluePolarity>not</cluePolarity> <clueType>suppress</clueType> tumor necrosis factor-alpha (TNF-alpha)-induced adhesion molecule expression on HUVECs, whereas aspirin had an inhibitory effect.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E37">
+<type class="Negative_regulation"/>
+<theme idref="E35"/>
+<cause idref="T51"/>
+<clue><clueKT>Interestingly</clueKT>, CyA and indomethacin did <cluePolarity>not</cluePolarity> <clueType>suppress</clueType> tumor necrosis factor-alpha (TNF-alpha)-induced adhesion molecule expression on HUVECs, whereas aspirin had an inhibitory effect.</clue>
+</event>
+<event id="E38">
+<type class="Negative_regulation"/>
+<theme idref="E35"/>
+<cause idref="T55"/>
+<clue>Interestingly, CyA and indomethacin did not suppress tumor necrosis factor-alpha (TNF-alpha)-induced adhesion molecule expression on HUVECs, whereas aspirin <clueType>had an inhibitory effect</clueType>.</clue>
+<comment>No corefTheme</comment></event>
+<sentence id="S12">These observations correlated with the modulation of <term id="T57" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activity in <term id="T58" lex="EC" sem="Cell_natural">EC</term>.</sentence>
+<event KT="Other" id="E39">
+<type class="Regulation"/>
+<cause idref="T57"/>
+<clue>These observations correlated with the <clueType>modulation</clueType> <linkCause>of</linkCause> NF-kappaB activity <clueLoc>in EC</clueLoc>.</clue>
+</event>
+<event KT="Analysis" id="E40">
+<type class="Correlation"/>
+<theme idref="E37"/>
+<theme idref="E39"/>
+<clue><corefTheme>These observations</corefTheme> <clueType><clueKT>correlated</clueKT></clueType> <linkTheme>with</linkTheme> the modulation of NF-kappaB activity in EC.</clue>
+</event>
+<event KT="Analysis" id="E140">
+<type class="Correlation"/>
+<theme idref="E38"/>
+<theme idref="E39"/>
+<clue><corefTheme>These observations</corefTheme> <clueType><clueKT>correlated</clueKT></clueType> <linkTheme>with</linkTheme> the modulation of NF-kappaB activity in EC.</clue>
+</event>
+<sentence id="S13">All agents tested induced expression of <term id="T59" lex="Hsp60" sem="Protein_molecule">Hsp60</term> 6 hr after application.</sentence>
+<event id="E41">
+<type class="Gene_expression"/>
+<theme idref="T59"/>
+<clue>All agents tested induced <clueType>expression</clueType> <linkTheme>of</linkTheme> Hsp60 6 hr after application.</clue>
+</event>
+<event Manner="Low" id="E42">
+<type class="Positive_regulation"/>
+<theme idref="E41"/>
+<cause idref="T26"/>
+<clue><corefCause>All agents</corefCause> tested <clueType>induced</clueType> expression of Hsp60 <clueTime><clueManner>6 hr after application</clueManner></clueTime>.</clue>
+</event>
+<event Manner="Low" id="E43">
+<type class="Positive_regulation"/>
+<theme idref="E41"/>
+<cause idref="T27"/>
+<clue><corefCause>All agents</corefCause> tested <clueType>induced</clueType> expression of Hsp60 <clueTime><clueManner>6 hr after application</clueManner></clueTime>.</clue>
+</event>
+<event Manner="Low" id="E44">
+<type class="Positive_regulation"/>
+<theme idref="E41"/>
+<cause idref="T28"/>
+<clue><corefCause>All agents</corefCause> tested <clueType>induced</clueType> expression of Hsp60 <clueTime><clueManner>6 hr after application</clueManner></clueTime>.</clue>
+</event>
+<sentence id="S14">In addition, <term id="T60" lex="aspirin" sem="Organic_compound_other">aspirin</term> and <term id="T61" lex="indomethacin" sem="Organic_compound_other">indomethacin</term>, but not <term id="T62" lex="CyA" sem="Organic_compound_other">CyA</term>, induced <term id="T63" lex="Hsp70_expression" sem="Other"><term id="T64" lex="Hsp70" sem="Protein_molecule">Hsp70</term> expression</term> in <term id="T65" lex="HUVEC" sem="Cell_natural">HUVECs</term> that correlated with <term id="T45" sem="Other">induction</term> of <term id="T66" lex="HSF-1_activity" sem="Other"><term id="T67" lex="HSF-1" sem="Protein_molecule">HSF-1</term> activity</term>.</sentence>
+<event id="E45">
+<type class="Gene_expression"/>
+<theme idref="T64"/>
+<clue>In addition, aspirin and indomethacin, but not CyA, induced Hsp70 <clueType>expression</clueType> <clueLoc>in HUVECs</clueLoc> that correlated with induction of HSF-1 activity.</clue>
+</event>
+<event id="E46">
+<type class="Positive_regulation"/>
+<theme idref="E45"/>
+<cause idref="T60"/>
+<clue>In addition, aspirin and indomethacin, but not CyA, <clueType>induced</clueType> Hsp70 expression in HUVECs that correlated with induction of HSF-1 activity.</clue>
+</event>
+<event id="E47">
+<type class="Positive_regulation"/>
+<theme idref="E45"/>
+<cause idref="T61"/>
+<clue>In addition, aspirin and indomethacin, but not CyA, <clueType>induced</clueType> Hsp70 expression in HUVECs that correlated with induction of HSF-1 activity.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E48">
+<type class="Positive_regulation"/>
+<theme idref="E45"/>
+<cause idref="T62"/>
+<clue>In addition, aspirin and indomethacin, but <cluePolarity>not</cluePolarity> CyA, <clueType>induced</clueType> Hsp70 expression in HUVECs that correlated with induction of HSF-1 activity.</clue>
+</event>
+<event KT="Other" id="E49">
+<type class="Positive_regulation"/>
+<theme idref="T67"/>
+<clue>In addition, aspirin and indomethacin, but not CyA, induced Hsp70 expression in HUVECs that correlated with <clueType>induction</clueType> <linkTheme>of</linkTheme> HSF-1 activity.</clue>
+</event>
+<event KT="Analysis" id="E50">
+<type class="Correlation"/>
+<theme idref="E45"/>
+<theme idref="E49"/>
+<clue>In addition, aspirin and indomethacin, but not CyA, induced Hsp70 expression in HUVECs that <clueType><clueKT>correlated</clueKT></clueType> <linkTheme>with</linkTheme> induction of HSF-1 activity.</clue>
+</event>
+<sentence id="S15">CONCLUSION: Our results show that the tested agents (except <term id="T68" lex="indomethacin" sem="Organic_compound_other">indomethacin</term>) are inhibitors of the <term id="A15" sem="Cell_natural">T cell</term>-mediated <term id="A16" sem="Other">immune response</term>, as expected, that <term id="T70" lex="aspirin" sem="Organic_compound_other">aspirin</term> is an <term id="T46" sem="Organic_compound_other">effective suppressor</term> of <term id="T71" lex="adhesion_molecule_expression" sem="Other"><term id="T72" lex="adhesion_molecule" sem="Protein_family_or_group">adhesion molecule</term> expression</term>, and that all three agents can induce <term id="T73" lex="Hsp60" sem="Protein_molecule">Hsp60</term> in <term id="T74" lex="HUVEC" sem="Cell_natural">HUVECs</term>.</sentence>
+<event KT="Other" id="E51">
+<type class="Positive_regulation"/>
+<theme idref="A16"/>
+<cause idref="A15"/>
+<clue>CONCLUSION: Our results show that the tested agents (except indomethacin) are inhibitors of the T cell-<clueType>mediated</clueType> immune response, as expected, that aspirin is an effective suppressor of adhesion molecule expression, and that all three agents can induce Hsp60 in HUVECs.</clue>
+</event>
+<event KT="Analysis" id="E52">
+<type class="Negative_regulation"/>
+<theme idref="E51"/>
+<cause idref="T60"/>
+<clue>CONCLUSION: Our results <clueKT>show</clueKT> that <corefCause>the tested agents (except indomethacin)</corefCause> are <clueType>inhibitors</clueType> <linkTheme>of</linkTheme> the T cell-mediated immune response, as expected, that aspirin is an effective suppressor of adhesion molecule expression, and that all three agents can induce Hsp60 in HUVECs.</clue>
+</event>
+<event KT="Analysis" id="E53">
+<type class="Negative_regulation"/>
+<theme idref="E51"/>
+<cause idref="T62"/>
+<clue>CONCLUSION: Our results <clueKT>show</clueKT> that <corefCause>the tested agents (except indomethacin)</corefCause> are <clueType>inhibitors</clueType> <linkTheme>of</linkTheme> the T cell-mediated immune response, as expected, that aspirin is an effective suppressor of adhesion molecule expression, and that all three agents can induce Hsp60 in HUVECs.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E54">
+<type class="Negative_regulation"/>
+<theme idref="E51"/>
+<cause idref="T61"/>
+<clue>CONCLUSION: Our results <clueKT>show</clueKT> that the tested agents (<cluePolarity>except</cluePolarity> indomethacin) are <clueType>inhibitors</clueType> <linkTheme>of</linkTheme> the T cell-mediated immune response, as expected, that aspirin is an effective suppressor of adhesion molecule expression, and that all three agents can induce Hsp60 in HUVECs.</clue>
+</event>
+<event KT="Other" id="E55">
+<type class="Gene_expression"/>
+<theme idref="T72"/>
+<clue>CONCLUSION: Our results show that the tested agents (except indomethacin) are inhibitors of the T cell-mediated immune response, as expected, that aspirin is an effective suppressor of adhesion molecule <clueType>expression</clueType>, and that all three agents can induce Hsp60 in HUVECs.</clue>
+</event>
+<event KT="Analysis" id="E56">
+<type class="Negative_regulation"/>
+<theme idref="E55"/>
+<cause idref="T70"/>
+<clue>CONCLUSION: Our results <clueKT>show</clueKT> that the tested agents (except indomethacin) are inhibitors of the T cell-mediated immune response, as expected, that aspirin is an effective <clueType>suppressor</clueType> <linkTheme>of</linkTheme> adhesion molecule expression, and that all three agents can induce Hsp60 in HUVECs.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E57">
+<type class="Positive_regulation"/>
+<theme idref="T73"/>
+<cause idref="T60"/>
+<clue>CONCLUSION: Our results <clueKT>show</clueKT> that the tested agents (except indomethacin) are inhibitors of the T cell-mediated immune response, as expected, that aspirin is an effective suppressor of adhesion molecule expression, and that <corefCause>all three agents</corefCause> <clueCL>can</clueCL> <clueType>induce</clueType> Hsp60 <clueLoc>in HUVECs</clueLoc>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E58">
+<type class="Positive_regulation"/>
+<theme idref="T73"/>
+<cause idref="T61"/>
+<clue>CONCLUSION: Our results <clueKT>show</clueKT> that the tested agents (except indomethacin) are inhibitors of the T cell-mediated immune response, as expected, that aspirin is an effective suppressor of adhesion molecule expression, and that <corefCause>all three agents</corefCause> <clueCL>can</clueCL> <clueType>induce</clueType> Hsp60 <clueLoc>in HUVECs</clueLoc>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E59">
+<type class="Positive_regulation"/>
+<theme idref="T73"/>
+<cause idref="T62"/>
+<clue>CONCLUSION: Our results <clueKT>show</clueKT> that the tested agents (except indomethacin) are inhibitors of the T cell-mediated immune response, as expected, that aspirin is an effective suppressor of adhesion molecule expression, and that <corefCause>all three agents</corefCause> <clueCL>can</clueCL> <clueType>induce</clueType> Hsp60 <clueLoc>in HUVECs</clueLoc>.</clue>
+</event>
+<sentence id="S16">These data provide the molecular basis for the notion that (1) part of the <term id="T75" lex="anti-atherogenic_effect" sem="Other">anti-<term id="A102" sem="Other">atherogenic</term> effect</term> of <term id="T76" lex="aspirin" sem="Organic_compound_other">aspirin</term> may be due to the prevention of the adhesion of sensitized <term id="A101" sem="Cell_natural">T cells</term> to stressed <term id="T78" lex="EC" sem="Cell_natural">EC</term>; (2) that part of the <term id="T79" lex="atherosclerosis-promoting_effect" sem="Other"><term id="A17" sem="Other">atherosclerosis</term>-promoting effect</term> of <term id="T80" lex="CyA" sem="Organic_compound_other">CyA</term> may be due to its potential as an inducer of <term id="T81" lex="Hsp60_expression" sem="Other"><term id="T82" lex="Hsp60" sem="Protein_molecule">Hsp60</term> expression</term> and its inability to down-regulate <term id="T83" lex="adhesion_molecule_expression" sem="Other"><term id="T84" lex="adhesion_molecule" sem="Protein_family_or_group">adhesion molecule</term> expression</term> on <term id="T85" lex="EC" sem="Cell_natural">EC</term>; and (3) that down-regulation of <term id="T86" lex="MCP-1_expression" sem="Other"><term id="T87" lex="MCP-1" sem="Protein_molecule">MCP-1</term> expression</term> by <term id="T88" lex="aspirin" sem="Organic_compound_other">aspirin</term> may result in decreased recruitment of <term id="T89" lex="monocyte" sem="Cell_natural">monocytes</term> into the <term id="T90" lex="arterial_intima" sem="Tissue_natural">arterial intima</term> beneath stressed <term id="T91" lex="EC" sem="Cell_natural">EC</term>.</sentence>
+<event KT="Other" id="E60">
+<type class="Cell_adhesion"/>
+<theme idref="A101"/>
+<theme idref="T78"/>
+<clue>These data provide the molecular basis for the notion that (1) part of the anti-atherogenic effect of aspirin may be due to the prevention of the <clueType>adhesion</clueType> <linkTheme>of</linkTheme> sensitized T cells <linkTheme>to</linkTheme> stressed EC; (2) that part of the atherosclerosis-promoting effect of CyA may be due to its potential as an inducer of Hsp60 expression and its inability to down-regulate adhesion molecule expression on EC; and (3) that down-regulation of MCP-1 expression by aspirin may result in decreased recruitment of monocytes into the arterial intima beneath stressed EC.</clue>
+</event>
+<event KT="Other" id="E81">
+<type class="Physiological_process"/>
+<theme idref="A101"/>
+<clue>These data provide the molecular basis for the notion that (1) part of the anti-atherogenic effect of aspirin may be due to the prevention of the adhesion of <clueType>sensitized</clueType> T cells to stressed EC; (2) that part of the atherosclerosis-promoting effect of CyA may be due to its potential as an inducer of Hsp60 expression and its inability to down-regulate adhesion molecule expression on EC; and (3) that down-regulation of MCP-1 expression by aspirin may result in decreased recruitment of monocytes into the arterial intima beneath stressed EC.</clue>
+</event>
+<event KT="Other" id="E82">
+<type class="Biological_process"/>
+<theme idref="T78"/>
+<clue>These data provide the molecular basis for the notion that (1) part of the anti-atherogenic effect of aspirin may be due to the prevention of the adhesion of sensitized T cells to <clueType>stressed</clueType> EC; (2) that part of the atherosclerosis-promoting effect of CyA may be due to its potential as an inducer of Hsp60 expression and its inability to down-regulate adhesion molecule expression on EC; and (3) that down-regulation of MCP-1 expression by aspirin may result in decreased recruitment of monocytes into the arterial intima beneath stressed EC.</clue>
+</event>
+<event KT="Other" id="E61">
+<type class="Negative_regulation"/>
+<theme idref="E60"/>
+<cause idref="T76"/>
+<clue>These data provide the molecular basis for the notion that (1) part of the anti-atherogenic effect of aspirin may be due to the <clueType>prevention</clueType> <linkTheme>of</linkTheme> the adhesion of sensitized T cells to stressed EC; (2) that part of the atherosclerosis-promoting effect of CyA may be due to its potential as an inducer of Hsp60 expression and its inability to down-regulate adhesion molecule expression on EC; and (3) that down-regulation of MCP-1 expression by aspirin may result in decreased recruitment of monocytes into the arterial intima beneath stressed EC.</clue>
+<comment>No corefCuase</comment></event>
+<event id="E62">
+<type class="Negative_regulation"/>
+<theme idref="A102"/>
+<cause idref="T76"/>
+<clue>These data provide the molecular basis for the notion that (1) part of the <clueType>anti</clueType>-atherogenic <clueType>effect</clueType> <linkCause>of</linkCause> aspirin may be due to the prevention of the adhesion of sensitized T cells to stressed EC; (2) that part of the atherosclerosis-promoting effect of CyA may be due to its potential as an inducer of Hsp60 expression and its inability to down-regulate adhesion molecule expression on EC; and (3) that down-regulation of MCP-1 expression by aspirin may result in decreased recruitment of monocytes into the arterial intima beneath stressed EC.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E63" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E62"/>
+<cause idref="E61"/>
+<clue>These data provide the molecular basis for <clueKT>the notion that</clueKT> (1) part of the anti-atherogenic effect of aspirin <clueCL>may</clueCL> be <clueType>due</clueType> <linkCause>to</linkCause> the prevention of the adhesion of sensitized T cells to stressed EC; (2) that part of the atherosclerosis-promoting effect of CyA may be due to its potential as an inducer of Hsp60 expression and its inability to down-regulate adhesion molecule expression on EC; and (3) that down-regulation of MCP-1 expression by aspirin may result in decreased recruitment of monocytes into the arterial intima beneath stressed EC.</clue>
+</event>
+<event id="E64">
+<type class="Positive_regulation"/>
+<theme idref="A17"/>
+<cause idref="T80"/>
+<clue>These data provide the molecular basis for the notion that (1) part of the anti-atherogenic effect of aspirin may be due to the prevention of the adhesion of sensitized T cells to stressed EC; (2) that part of the atherosclerosis-<clueType>promoting effect</clueType> <linkCause>of</linkCause> CyA may be due to its potential as an inducer of Hsp60 expression and its inability to down-regulate adhesion molecule expression on EC; and (3) that down-regulation of MCP-1 expression by aspirin may result in decreased recruitment of monocytes into the arterial intima beneath stressed EC.</clue>
+</event>
+<event KT="Other" id="E65">
+<type class="Gene_expression"/>
+<theme idref="T82"/>
+<clue>These data provide the molecular basis for the notion that (1) part of the anti-atherogenic effect of aspirin may be due to the prevention of the adhesion of sensitized T cells to stressed EC; (2) that part of the atherosclerosis-promoting effect of CyA may be due to its potential as an inducer of Hsp60 <clueType>expression</clueType> and its inability to down-regulate adhesion molecule expression on EC; and (3) that down-regulation of MCP-1 expression by aspirin may result in decreased recruitment of monocytes into the arterial intima beneath stressed EC.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E66">
+<type class="Positive_regulation"/>
+<theme idref="E65"/>
+<cause idref="T80"/>
+<clue>These data provide the molecular basis for the notion that (1) part of the anti-atherogenic effect of aspirin may be due to the prevention of the adhesion of sensitized T cells to stressed EC; (2) that part of the atherosclerosis-promoting effect of CyA may be due to <corefCause>its</corefCause> <clueKT><clueCL>potential</clueCL></clueKT> as an <clueType>inducer</clueType> <linkTheme>of</linkTheme> Hsp60 expression and its inability to down-regulate adhesion molecule expression on EC; and (3) that down-regulation of MCP-1 expression by aspirin may result in decreased recruitment of monocytes into the arterial intima beneath stressed EC.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E67" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E64"/>
+<cause idref="E66"/>
+<clue>These data provide the molecular basis for <clueKT>the notion that</clueKT> (1) part of the anti-atherogenic effect of aspirin may be due to the prevention of the adhesion of sensitized T cells to stressed EC; (2) that part of the atherosclerosis-promoting effect of CyA <clueCL>may</clueCL> be <clueType>due</clueType> <linkCause>to</linkCause> its potential as an inducer of Hsp60 expression and its inability to down-regulate adhesion molecule expression on EC; and (3) that down-regulation of MCP-1 expression by aspirin may result in decreased recruitment of monocytes into the arterial intima beneath stressed EC.</clue>
+</event>
+<event KT="Other" id="E68">
+<type class="Gene_expression"/>
+<theme idref="T84"/>
+<clue>These data provide the molecular basis for the notion that (1) part of the anti-atherogenic effect of aspirin may be due to the prevention of the adhesion of sensitized T cells to stressed EC; (2) that part of the atherosclerosis-promoting effect of CyA may be due to its potential as an inducer of Hsp60 expression and its inability to down-regulate adhesion molecule <clueType>expression</clueType> <clueLoc>on EC</clueLoc>; and (3) that down-regulation of MCP-1 expression by aspirin may result in decreased recruitment of monocytes into the arterial intima beneath stressed EC.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E69">
+<type class="Negative_regulation"/>
+<theme idref="E68"/>
+<cause idref="T80"/>
+<clue>These data provide the molecular basis for the notion that (1) part of the anti-atherogenic effect of aspirin may be due to the prevention of the adhesion of sensitized T cells to stressed EC; (2) that part of the atherosclerosis-promoting effect of CyA may be due to its potential as an inducer of Hsp60 expression and <corefCause>its</corefCause> <clueType><cluePolarity>inability</cluePolarity> to down-regulate</clueType> adhesion molecule expression on EC; and (3) that down-regulation of MCP-1 expression by aspirin may result in decreased recruitment of monocytes into the arterial intima beneath stressed EC.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E70" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E64"/>
+<cause idref="E69"/>
+<clue>These data provide the molecular basis for <clueKT>the notion that</clueKT> (1) part of the anti-atherogenic effect of aspirin may be due to the prevention of the adhesion of sensitized T cells to stressed EC; (2) that part of the atherosclerosis-promoting effect of CyA <clueCL>may</clueCL> be <clueType>due</clueType> <linkCause>to</linkCause> its potential as an inducer of Hsp60 expression and its inability to down-regulate adhesion molecule expression on EC; and (3) that down-regulation of MCP-1 expression by aspirin may result in decreased recruitment of monocytes into the arterial intima beneath stressed EC.</clue>
+</event>
+<event id="E71">
+<type class="Gene_expression"/>
+<theme idref="T87"/>
+<clue>These data provide the molecular basis for the notion that (1) part of the anti-atherogenic effect of aspirin may be due to the prevention of the adhesion of sensitized T cells to stressed EC; (2) that part of the atherosclerosis-promoting effect of CyA may be due to its potential as an inducer of Hsp60 expression and its inability to down-regulate adhesion molecule expression on EC; and (3) that down-regulation of MCP-1 <clueType>expression</clueType> by aspirin may result in decreased recruitment of monocytes into the arterial intima beneath stressed EC.</clue>
+</event>
+<event id="E72">
+<type class="Negative_regulation"/>
+<theme idref="E71"/>
+<cause idref="T88"/>
+<clue>These data provide the molecular basis for the notion that (1) part of the anti-atherogenic effect of aspirin may be due to the prevention of the adhesion of sensitized T cells to stressed EC; (2) that part of the atherosclerosis-promoting effect of CyA may be due to its potential as an inducer of Hsp60 expression and its inability to down-regulate adhesion molecule expression on EC; and (3) that <clueType>down-regulation</clueType> <linkTheme>of</linkTheme> MCP-1 expression <linkCause>by</linkCause> aspirin may result in decreased recruitment of monocytes into the arterial intima beneath stressed EC.</clue>
+</event>
+<event KT="Other" id="E73">
+<type class="Cellular_physiological_process"/>
+<theme idref="T89"/>
+<clue>These data provide the molecular basis for the notion that (1) part of the anti-atherogenic effect of aspirin may be due to the prevention of the adhesion of sensitized T cells to stressed EC; (2) that part of the atherosclerosis-promoting effect of CyA may be due to its potential as an inducer of Hsp60 expression and its inability to down-regulate adhesion molecule expression on EC; and (3) that down-regulation of MCP-1 expression by aspirin may result in decreased <clueType>recruitment</clueType> <linkTheme>of</linkTheme> monocytes <clueLoc>into the arterial intima beneath stressed EC</clueLoc>.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E74">
+<type class="Negative_regulation"/>
+<theme idref="E73"/>
+<cause idref="E72"/>
+<clue>These data provide the molecular basis for <clueKT>the notion that</clueKT> (1) part of the anti-atherogenic effect of aspirin may be due to the prevention of the adhesion of sensitized T cells to stressed EC; (2) that part of the atherosclerosis-promoting effect of CyA may be due to its potential as an inducer of Hsp60 expression and its inability to down-regulate adhesion molecule expression on EC; and (3) that down-regulation of MCP-1 expression by aspirin <clueCL>may</clueCL> <clueType>result in decreased</clueType> recruitment of monocytes into the arterial intima beneath stressed EC.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

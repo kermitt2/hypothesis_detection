@@ -1,0 +1,248 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1682217" created="12/03/2007" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1682217</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="v-erbA_overexpression" sem="Other"><term id="T2" lex="v-erbA" sem="Protein_molecule">v-erbA</term> overexpression</term> is required to extinguish <term id="T3" lex="c-erbA_function" sem="Other"><term id="T4" lex="c-erbA" sem="Protein_molecule">c-erbA</term> function</term> in <term id="T5" lex="erythroid_cell_differentiation" sem="Other"><term id="T6" lex="erythroid_cell" sem="Cell_natural">erythroid cell</term> differentiation</term> and regulation of the <term id="T7" lex="erbA_target_gene" sem="DNA_domain_or_region">erbA target gene</term> <term id="T8" lex="CAII" sem="DNA_domain_or_region">CAII</term>.</sentence>
+<event Manner="High" id="E1">
+<type class="Gene_expression"/>
+<theme idref="T2"/>
+<clue>v-erbA <clueType><clueManner>overexpression</clueManner></clueType> is required to extinguish c-erbA function in erythroid cell differentiation and regulation of the erbA target gene CAII.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<clue>v-erbA overexpression is required to extinguish c-erbA function in erythroid cell differentiation and regulation of the erbA target gene CAII.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Cell_differentiation"/>
+<theme idref="T6"/>
+<clue>v-erbA overexpression is required to extinguish c-erbA function in erythroid cell <clueType>differentiation</clueType> and regulation of the erbA target gene CAII.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Regulation"/>
+<theme idref="E3"/>
+<cause idref="T4"/>
+<clue>v-erbA overexpression is required to extinguish c-erbA <clueType>function</clueType> in erythroid cell differentiation and regulation of the erbA target gene CAII.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Regulation"/>
+<theme idref="T8"/>
+<cause idref="T4"/>
+<clue>v-erbA overexpression is required to extinguish c-erbA function in erythroid cell differentiation and <clueType>regulation</clueType> <linkTheme>of</linkTheme> the erbA target gene CAII.</clue>
+</event>
+<event id="E6">
+<type class="Negative_regulation"/>
+<theme idref="E4"/>
+<cause idref="E1"/>
+<clue>v-erbA overexpression is required to <clueType>extinguish</clueType> c-erbA function in erythroid cell differentiation and regulation of the erbA target gene CAII.</clue>
+</event>
+<event id="E7">
+<type class="Negative_regulation"/>
+<theme idref="E5"/>
+<cause idref="E1"/>
+<clue>v-erbA overexpression is required to <clueType>extinguish</clueType> c-erbA function in erythroid cell differentiation and regulation of the erbA target gene CAII.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T9" lex="v-erbA_oncoprotein" sem="Protein_molecule"><term id="T10" lex="v-erbA" sem="Protein_molecule">v-erbA</term> oncoprotein</term> represents a retrovirus-transduced oncogenic version of the <term id="T11" lex="thyroid_hormone_(T3/T4)_receptor" sem="Protein_family_or_group">thyroid hormone (T3/T4) receptor</term> <term id="T12" lex="c-erbA_(type_alpha)" sem="Protein_molecule"><term id="T13" lex="c-erbA" sem="Protein_molecule">c-erbA</term> (type alpha)</term>.</sentence>
+<sentence id="S3">It contributes to <term id="T14" lex="virus-induced_erythroleukemia" sem="Other"><term id="A1" sem="Virus">virus</term>-induced <term id="A2" sem="Other">erythroleukemia</term></term> by efficiently arresting differentiation of <term id="T15" lex="red_cell_progenitor" sem="Cell_natural">red cell progenitors</term> and by suppressing <term id="T16" lex="transcription" sem="Other">transcription</term> of <term id="T17" lex="erythrocyte-specific_gene" sem="DNA_family_or_group">erythrocyte-specific genes</term>.</sentence>
+<event KT="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="A2"/>
+<cause idref="A1"/>
+<clue>It contributes to virus-<clueType>induced</clueType> erythroleukemia by efficiently arresting differentiation of red cell progenitors and by suppressing transcription of erythrocyte-specific genes.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Cell_differentiation"/>
+<theme idref="T15"/>
+<clue>It contributes to virus-induced erythroleukemia by efficiently arresting <clueType>differentiation</clueType> <linkTheme>of</linkTheme> red cell progenitors and by suppressing transcription of erythrocyte-specific genes.</clue>
+</event>
+<event KT="Fact" id="E10">
+<type class="Negative_regulation"/>
+<theme idref="E9"/>
+<cause idref="T10"/>
+<clue><corefCause>It</corefCause> contributes to virus-induced erythroleukemia by efficiently <clueType>arresting</clueType> differentiation of red cell progenitors and by suppressing transcription of erythrocyte-specific genes.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Transcription"/>
+<theme idref="T17"/>
+<clue>It contributes to virus-induced erythroleukemia by efficiently arresting differentiation of red cell progenitors and by suppressing <clueType>transcription</clueType> <linkTheme>of</linkTheme> erythrocyte-specific genes.</clue>
+</event>
+<event KT="Fact" id="E12">
+<type class="Negative_regulation"/>
+<theme idref="E11"/>
+<cause idref="T10"/>
+<clue><corefCause>It</corefCause> contributes to virus-induced erythroleukemia by efficiently arresting differentiation of red cell progenitors and by <clueType>suppressing</clueType> transcription of erythrocyte-specific genes.</clue>
+</event>
+<event KT="Fact" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="E10"/>
+<clue>It <clueType>contributes</clueType> to virus-induced erythroleukemia <linkCause>by</linkCause> efficiently arresting differentiation of red cell progenitors and by suppressing transcription of erythrocyte-specific genes.</clue>
+</event>
+<event KT="Fact" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="E12"/>
+<clue>It <clueType>contributes</clueType> to virus-induced erythroleukemia <linkCause>by</linkCause> efficiently arresting differentiation of red cell progenitors and by suppressing transcription of erythrocyte-specific genes.</clue>
+</event>
+<sentence id="S4">Here, we show that <term id="T18" lex="v-erbA" sem="Protein_molecule">v-erbA</term> and <term id="T19" lex="c-erbA" sem="Protein_molecule">c-erbA</term> bind directly to sequences within the <term id="A3" sem="DNA_domain_or_region"><term id="T20" lex="promoter" sem="DNA_domain_or_region">promoter</term> of the <term id="T21" lex="erythrocyte-specific_carbonic_anhydrase_II" sem="Protein_molecule">erythrocyte-specific carbonic anhydrase II</term> (<term id="T22" lex="CAII" sem="DNA_domain_or_region">CAII</term>)</term>, a gene whose <term id="T23" lex="transcription" sem="Other">transcription</term> is efficiently suppressed by <term id="T24" lex="v-erbA" sem="Protein_molecule"><term id="T25" lex="v-erbA" sem="Protein_molecule">v-erbA</term></term>.</sentence>
+<event KT="Analysis" id="E15">
+<type class="Binding"/>
+<theme idref="T18"/>
+<theme idref="A3"/>
+<clue>Here, we <clueKT>show</clueKT> that v-erbA and c-erbA <clueType>bind</clueType> directly <linkTheme>to</linkTheme> sequences within the promoter of the erythrocyte-specific carbonic anhydrase II (CAII), a gene whose transcription is efficiently suppressed by v-erbA.</clue>
+<comment>TPS: A3</comment></event>
+<event KT="Analysis" id="E16">
+<type class="Binding"/>
+<theme idref="T19"/>
+<theme idref="A3"/>
+<clue>Here, we <clueKT>show</clueKT> that v-erbA and c-erbA <clueType>bind</clueType> directly <linkTheme>to</linkTheme> sequences within the promoter of the erythrocyte-specific carbonic anhydrase II (CAII), a gene whose transcription is efficiently suppressed by v-erbA.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Transcription"/>
+<theme idref="T22"/>
+<clue>Here, we show that v-erbA and c-erbA bind directly to sequences within the promoter of the erythrocyte-specific carbonic anhydrase II (CAII), a gene whose <clueType>transcription</clueType> is efficiently suppressed by v-erbA.</clue>
+</event>
+<event KT="Fact" id="E18">
+<type class="Negative_regulation"/>
+<theme idref="E17"/>
+<cause idref="T25"/>
+<clue>Here, we show that v-erbA and c-erbA bind directly to sequences within the promoter of the erythrocyte-specific carbonic anhydrase II (CAII), a gene whose transcription is efficiently <clueType>suppressed</clueType> <linkCause>by</linkCause> v-erbA.</clue>
+</event>
+<sentence id="S5">This <term id="T26" lex="erbA-binding_site" sem="DNA_domain_or_region">erbA-binding site</term> confers <term id="T27" lex="thyroid_hormone_responsiveness" sem="Other"><term id="A4" sem="Protein_family_or_group">thyroid hormone</term> responsiveness</term> to a <term id="T28" lex="heterologous_promoter" sem="DNA_family_or_group">heterologous promoter</term> in <term id="T29" lex="transient_expression_experiment" sem="Other">transient expression experiments</term> and is a target for efficient down-regulation of <term id="T30" lex="CAII" sem="DNA_domain_or_region">CAII</term> <term id="T31" lex="transcription" sem="Other">transcription</term> by the <term id="T32" lex="v-erbA_oncoprotein" sem="Protein_molecule"><term id="T33" lex="v-erbA" sem="Protein_molecule"><term id="T34" lex="v-erbA" sem="Protein_molecule">v-erbA</term></term> oncoprotein</term>.</sentence>
+<event KT="Other" id="E19">
+<type class="Regulation"/>
+<theme idref="T28"/>
+<cause idref="A4"/>
+<clue>This erbA-binding site confers thyroid hormone <clueType>responsiveness</clueType> to a heterologous promoter in transient expression experiments and is a target for efficient down-regulation of CAII transcription by the v-erbA oncoprotein.</clue>
+</event>
+<event KT="Fact" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="T26"/>
+<clue>This erbA-binding site <clueType>confers</clueType> thyroid hormone responsiveness to a heterologous promoter <clueExperiment>in transient expression experiments</clueExperiment> and is a target for efficient down-regulation of CAII transcription by the v-erbA oncoprotein.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Transcription"/>
+<theme idref="T30"/>
+<clue>This erbA-binding site confers thyroid hormone responsiveness to a heterologous promoter in transient expression experiments and is a target for efficient down-regulation of CAII <clueType>transcription</clueType> by the v-erbA oncoprotein.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Negative_regulation"/>
+<theme idref="E21"/>
+<clue>This erbA-binding site confers thyroid hormone responsiveness to a heterologous promoter in transient expression experiments and is a target for efficient <clueType>down-regulation</clueType> <linkTheme>of</linkTheme> CAII transcription by the v-erbA oncoprotein.</clue>
+</event>
+<event KT="Fact" id="E23">
+<type class="Regulation"/>
+<theme idref="T26"/>
+<cause idref="T34"/>
+<clue>This erbA-binding site confers thyroid hormone responsiveness to a heterologous promoter in transient expression experiments and is a <clueType>target</clueType> for efficient down-regulation of CAII transcription <linkCause>by</linkCause> the v-erbA oncoprotein.</clue>
+</event>
+<event KT="Other" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E22"/>
+<cause idref="E23"/>
+<clue>This erbA-binding site confers thyroid hormone responsiveness to a heterologous promoter in transient expression experiments and is a target <linkTheme>for</linkTheme> efficient down-regulation of CAII transcription by the v-erbA oncoprotein.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S6">In <term id="T35" lex="stably_transformed_erythroblast" sem="Cell_cultured">stably transformed <term id="A20" sem="Cell_natural">erythroblasts</term></term> coexpressing the <term id="T36" lex="v-erbA_oncoprotein" sem="Protein_molecule"><term id="T37" lex="v-erbA" sem="Protein_molecule"><term id="T38" lex="v-erbA" sem="Protein_molecule">v-erbA</term></term> oncoprotein</term> and the <term id="T39" lex="c-erbA/T3_receptor" sem="Protein_molecule">c-erbA/T3 receptor</term> at an approximately equimolar ratio, <term id="T40" lex="c-erbA_activity" sem="Other"><term id="T41" lex="c-erbA" sem="Protein_molecule">c-erbA</term> activity</term> is dominant over <term id="T42" lex="v-erbA" sem="Protein_molecule">v-erbA</term>.</sentence>
+<event id="E25">
+<type class="Gene_expression"/>
+<theme idref="T38"/>
+<clue><clueLoc>In stably transformed erythroblasts</clueLoc> <clueType>coexpressing</clueType> the v-erbA oncoprotein and the c-erbA/T3 receptor at an approximately equimolar ratio, c-erbA activity is dominant over v-erbA.</clue>
+</event>
+<event id="E26">
+<type class="Gene_expression"/>
+<theme idref="T39"/>
+<clue><clueLoc>In stably transformed erythroblasts</clueLoc> <clueType>coexpressing</clueType> the v-erbA oncoprotein and the c-erbA/T3 receptor at an approximately equimolar ratio, c-erbA activity is dominant over v-erbA.</clue>
+</event>
+<event id="E101">
+<type class="Physiological_process"/>
+<theme idref="A20"/>
+<clue>In stably <clueType>transformed</clueType> erythroblasts coexpressing the v-erbA oncoprotein and the c-erbA/T3 receptor at an approximately equimolar ratio, c-erbA activity is dominant over v-erbA.</clue>
+</event>
+<sentence id="S7"><term id="T43" lex="T3" sem="Organic_compound_other">T3</term> efficiently induced <term id="T44" lex="erythroid_differentiation" sem="Other"><term id="A5" sem="Cell_natural">erythroid</term> differentiation</term> in these cells, thus overcoming the <term id="T45" lex="v-erbA-mediated_differentiation_arrest" sem="Other"><term id="T46" lex="v-erbA" sem="Protein_molecule"><term id="T47" lex="v-erbA" sem="Protein_molecule">v-erbA</term></term>-mediated <term id="A6" sem="Other">differentiation</term> arrest</term>.</sentence>
+<event id="E27">
+<type class="Cell_differentiation"/>
+<theme idref="A5"/>
+<clue>T3 efficiently induced erythroid <clueType>differentiation</clueType> in these cells, thus overcoming the v-erbA-mediated differentiation arrest.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation"/>
+<theme idref="E27"/>
+<cause idref="T43"/>
+<clue>T3 efficiently <clueType>induced</clueType> erythroid differentiation in these cells, thus overcoming the v-erbA-mediated differentiation arrest.</clue>
+</event>
+<event KT="Other" id="E29">
+<type class="Negative_regulation"/>
+<theme idref="A6"/>
+<cause idref="T47"/>
+<clue>T3 efficiently induced erythroid differentiation in these cells, thus overcoming the v-erbA-<linkCause>mediated</linkCause> differentiation <clueType>arrest</clueType>.</clue>
+</event>
+<event KT="Analysis" id="E30">
+<type class="Negative_regulation"/>
+<theme idref="E29"/>
+<cause idref="T43"/>
+<clue>T3 efficiently induced erythroid differentiation in these cells, <clueKT>thus</clueKT> <clueType>overcoming</clueType> the v-erbA-mediated differentiation arrest.</clue>
+</event>
+<sentence id="S8">Likewise, <term id="T48" lex="T3" sem="Organic_compound_other">T3</term> activated <term id="T50" lex="CAII_transcription" sem="Other"><term id="T49" lex="CAII" sem="DNA_domain_or_region">CAII</term> transcription</term> as well as transient expression of a <term id="A7" sem="DNA_domain_or_region"><term id="T51" lex="T3-responsive_reporter_gene" sem="DNA_molecule"><term id="T52" lex="T3" sem="Organic_compound_other">T3</term>-responsive reporter gene</term> containing the <term id="T53" lex="CAII-specific_erbA-binding_site" sem="DNA_domain_or_region"><term id="T54" lex="CAII" sem="DNA_domain_or_region">CAII</term>-specific <term id="T55" lex="erbA-binding_site" sem="DNA_domain_or_region">erbA-binding site</term></term>.</term></sentence>
+<event id="E31">
+<type class="Transcription"/>
+<theme idref="T49"/>
+<clue>Likewise, T3 activated CAII <clueType>transcription</clueType> as well as transient expression of a T3-responsive reporter gene containing the CAII-specific erbA-binding site.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation"/>
+<theme idref="E31"/>
+<cause idref="T48"/>
+<clue>Likewise, T3 <clueType>activated</clueType> CAII transcription as well as transient expression of a T3-responsive reporter gene containing the CAII-specific erbA-binding site.</clue>
+</event>
+<event id="E33">
+<type class="Gene_expression"/>
+<theme idref="A7"/>
+<clue>Likewise, T3 activated CAII transcription as well as transient <clueType>expression</clueType> <linkTheme>of</linkTheme> a T3-responsive reporter gene containing the CAII-specific erbA-binding site.</clue>
+<comment>TPS: A7</comment></event>
+<event id="E34">
+<type class="Positive_regulation"/>
+<theme idref="E33"/>
+<cause idref="T48"/>
+<clue>Likewise, T3 <clueType>activated</clueType> CAII transcription as well as transient expression of a T3-responsive reporter gene containing the CAII-specific erbA-binding site.</clue>
+</event>
+<sentence id="S9">The <term id="T56" lex="c-erbA-dependent_activation" sem="Other"><term id="T57" lex="c-erbA" sem="Protein_molecule">c-erbA</term>-dependent activation</term> of this <term id="T58" lex="CAII_reporter_construct" sem="DNA_molecule"><term id="T59" lex="CAII" sem="DNA_domain_or_region">CAII</term> reporter construct</term> could only be suppressed by very high amounts of <term id="T60" lex="v-erbA" sem="Protein_molecule"><term id="T61" lex="v-erbA" sem="Protein_molecule">v-erbA</term></term>.</sentence>
+<event KT="Other" id="E35">
+<type class="Positive_regulation"/>
+<theme idref="A7"/>
+<cause idref="T57"/>
+<clue>The c-erbA-<linkCause>dependent</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> <corefTheme>this CAII reporter construct</corefTheme> could only be suppressed by very high amounts of v-erbA.</clue>
+</event>
+<event id="E36">
+<type class="Negative_regulation"/>
+<theme idref="E35"/>
+<cause idref="T61"/>
+<clue>The c-erbA-dependent activation of this CAII reporter construct could only be <clueType>suppressed</clueType> <linkCause>by</linkCause> very high amounts of v-erbA.</clue>
+</event>
+<sentence id="S10">Our results suggest that <term id="T62" lex="overexpression" sem="Other">overexpression</term> of <term id="T63" lex="v-erbA" sem="Protein_molecule"><term id="T64" lex="v-erbA" sem="Protein_molecule">v-erbA</term></term> is required for its function as an <term id="T65" lex="oncoprotein" sem="Protein_family_or_group">oncoprotein</term>.</sentence>
+<event Manner="High" id="E37">
+<type class="Gene_expression"/>
+<theme idref="T64"/>
+<clue>Our results suggest that <clueType><clueManner>overexpression</clueManner></clueType> <linkTheme>of</linkTheme> v-erbA is required for its function as an oncoprotein.</clue>
+</event>
+<event Manner="High" id="E38">
+<type class="Positive_regulation"/>
+<theme idref="E37"/>
+<clue>Our results suggest that <clueType><clueManner>overexpression</clueManner></clueType> of v-erbA is required for its function as an oncoprotein.</clue>
+</event>
+<event KT="Other" id="E39">
+<type/>
+<theme idref="T64"/>
+<clue>Our results suggest that overexpression of v-erbA is required for <corefTheme>its</corefTheme> <clueType>function as</clueType> an <clueType>oncoprotein</clueType>.</clue>
+<comment>SOO</comment></event>
+<event CL="L2" KT="Analysis" id="E40" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E39"/>
+<cause idref="E38"/>
+<clue>Our results <clueKT><clueCL>suggest</clueCL></clueKT> that overexpression of v-erbA is <clueType>required</clueType> <linkTheme>for</linkTheme> its function as an oncoprotein.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

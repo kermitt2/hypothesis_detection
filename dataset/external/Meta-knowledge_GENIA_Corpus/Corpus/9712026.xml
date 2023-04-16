@@ -1,0 +1,323 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9712026" created="21/11/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9712026</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">A <term id="T2" lex="CD28" sem="Protein_molecule">CD28</term>-associated <term id="A2" sem="Other">signaling pathway</term> leading to <term id="T3" lex="cytokine_gene_transcription" sem="Other"><term id="T4" lex="cytokine_gene" sem="DNA_family_or_group">cytokine gene</term> transcription</term> and <term id="T5" lex="T_cell_proliferation" sem="Other"><term id="A1" sem="Cell_natural">T cell</term> proliferation</term> without <term id="T6" lex="TCR_engagement" sem="Other"><term id="T7" lex="TCR" sem="Protein_family_or_group">TCR</term> engagement</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Transcription"/>
+<theme idref="T4"/>
+<clue>A CD28-associated signaling pathway leading to cytokine gene <clueType>transcription</clueType> and T cell proliferation without TCR engagement.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Cellular_physiological_process"/>
+<theme idref="A1"/>
+<clue>A CD28-associated signaling pathway leading to cytokine gene transcription and T cell <clueType>proliferation</clueType> without TCR engagement.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="A2"/>
+<clue>A CD28-associated signaling pathway <clueType>leading</clueType> <linkTheme>to</linkTheme> cytokine gene transcription and T cell proliferation without TCR engagement.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="A2"/>
+<clue>A CD28-associated signaling pathway <clueType>leading</clueType> <linkTheme>to</linkTheme> cytokine gene transcription and T cell proliferation without TCR engagement.</clue>
+</event>
+<event KT="Analysis" id="E5">
+<type class="Correlation"/>
+<theme idref="T2"/>
+<theme idref="E3"/>
+<clue>A CD28-<clueType><clueKT>associated</clueKT></clueType> signaling pathway leading to cytokine gene transcription and T cell proliferation without TCR engagement.</clue>
+<comment>NER: T1 del &quot;CD28-associated signaling pathway&quot;</comment></event>
+<event KT="Analysis" id="E6">
+<type class="Correlation"/>
+<theme idref="T2"/>
+<theme idref="E4"/>
+<clue>A CD28-<clueType><clueKT>associated</clueKT></clueType> signaling pathway leading to cytokine gene transcription and T cell proliferation without TCR engagement.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Binding"/>
+<theme idref="T7"/>
+<clue>A CD28-associated signaling pathway leading to cytokine gene transcription and T cell proliferation without TCR <clueType>engagement</clueType>.</clue>
+</event>
+<event KT="Investigation" Polarity="Negative" assertion="non-exist" id="E8">
+<type class="Correlation"/>
+<theme idref="E5"/>
+<theme idref="E7"/>
+<clue>A CD28-associated signaling pathway leading to cytokine gene transcription and T cell proliferation <clueType><cluePolarity>without</cluePolarity></clueType> TCR engagement.</clue>
+</event>
+<event KT="Investigation" Polarity="Negative" assertion="non-exist" id="E9">
+<type class="Correlation"/>
+<theme idref="E6"/>
+<theme idref="E7"/>
+<clue>A CD28-associated signaling pathway leading to cytokine gene transcription and T cell proliferation <clueType><cluePolarity>without</cluePolarity></clueType> TCR engagement.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Stimulation of <term id="T8" lex="resting_human_T_cell" sem="Cell_natural">resting human T cells</term> with the <term id="T9" lex="CD28-specific_mAb_BW_828" sem="Protein_molecule"><term id="T10" lex="CD28" sem="Protein_molecule">CD28</term>-specific mAb BW 828</term> induces proliferation and <term id="T11" lex="cytokine_synthesis" sem="Other"><term id="T12" lex="cytokine" sem="Protein_family_or_group">cytokine</term> synthesis</term> without further requirement for <term id="T13" lex="TCR_coengagement" sem="Other"><term id="T14" lex="TCR" sem="Protein_family_or_group">TCR</term> coengagement</term>.</sentence>
+<event KT="Other" id="E10">
+<type class="Physiological_process"/>
+<theme idref="T8"/>
+<cause idref="T9"/>
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> resting human T cells <linkCause>with</linkCause> the CD28-specific mAb BW 828 induces proliferation and cytokine synthesis without further requirement for TCR coengagement.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Cellular_physiological_process"/>
+<theme idref="T8"/>
+<clue>Stimulation of resting human T cells with the CD28-specific mAb BW 828 induces <clueType>proliferation</clueType> and cytokine synthesis without further requirement for TCR coengagement.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Gene_expression"/>
+<theme idref="T12"/>
+<clue>Stimulation of resting human T cells with the CD28-specific mAb BW 828 induces proliferation and cytokine <clueType>synthesis</clueType> without further requirement for TCR coengagement.</clue>
+</event>
+<event KT="Fact" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<cause idref="E10"/>
+<clue>Stimulation of resting human T cells with the CD28-specific mAb BW 828 <clueType>induces</clueType> proliferation and cytokine synthesis without further requirement for TCR coengagement.</clue>
+</event>
+<event KT="Fact" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="E10"/>
+<clue>Stimulation of resting human T cells with the CD28-specific mAb BW 828 <clueType>induces</clueType> proliferation and cytokine synthesis without further requirement for TCR coengagement.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Binding"/>
+<theme idref="T14"/>
+<clue>Stimulation of resting human T cells with the CD28-specific mAb BW 828 induces proliferation and cytokine synthesis without further requirement for TCR <clueType>coengagement</clueType>.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E16">
+<type class="Correlation"/>
+<theme idref="E13"/>
+<theme idref="E15"/>
+<clue>Stimulation of resting human T cells with the CD28-specific mAb BW 828 induces proliferation and cytokine synthesis <clueType><cluePolarity>without</cluePolarity> further requirement</clueType> <linkTheme>for</linkTheme> TCR coengagement.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E17">
+<type class="Correlation"/>
+<theme idref="E14"/>
+<theme idref="E15"/>
+<clue>Stimulation of resting human T cells with the CD28-specific mAb BW 828 induces proliferation and cytokine synthesis <clueType><cluePolarity>without</cluePolarity> further requirement</clueType> <linkTheme>for</linkTheme> TCR coengagement.</clue>
+</event>
+<sentence id="S3">This observation prompted us to postulate that <term id="T15" lex="signal_2" sem="Other">signal 2</term> (<term id="T16" lex="costimulatory_signal" sem="Other">costimulatory signal</term>) alone without <term id="T17" lex="signal_1" sem="Other">signal 1</term> (<term id="T18" lex="TCR_signal" sem="Other"><term id="T19" lex="TCR" sem="Protein_family_or_group">TCR</term> signal</term>) can activate <term id="T20" lex="T_cell" sem="Cell_natural">T cells</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E18">
+<type class="Physiological_process"/>
+<theme idref="T20"/>
+<cause idref="T16"/>
+<clue>This observation prompted us to <clueKT>postulate</clueKT> that signal 2 (costimulatory signal) alone without signal 1 (TCR signal) <clueCL>can</clueCL> <clueType>activate</clueType> T cells.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E19" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="E18"/>
+<theme idref="T19"/>
+<clue>This observation prompted us to postulate that signal 2 (costimulatory signal) alone <clueType><cluePolarity>without</cluePolarity></clueType> signal 1 (TCR signal) can activate T cells.</clue>
+</event>
+<sentence id="S4">To test whether this putative function of <term id="T21" lex="CD28" sem="Protein_molecule">CD28</term> is mediated via <term id="A3" sem="Other">a particular signaling pathway</term>, we compared <term id="T22" lex="early_signaling_event" sem="Other">early signaling events</term> initiated in resting <term id="T23" lex="T_cell" sem="Cell_natural">T cells</term> by the <term id="T24" lex="stimulatory_mAb_BW_828" sem="Protein_molecule">stimulatory mAb BW 828</term> with <term id="A4" sem="Other">signals</term> triggered by the <term id="T25" lex="nonstimulating_CD28_mAb_9.3" sem="Protein_molecule">nonstimulating <term id="T26" lex="CD28" sem="Protein_molecule">CD28</term> mAb 9.3</term>.</sentence>
+<event KT="Investigation" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="T21"/>
+<cause idref="A3"/>
+<clue><clueKT>To test</clueKT> whether this putative function of CD28 is <clueType>mediated</clueType> <linkCause>via</linkCause> a particular signaling pathway, we compared early signaling events initiated in resting T cells by the stimulatory mAb BW 828 with signals triggered by the nonstimulating CD28 mAb 9.3.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation"/>
+<theme idref="T22"/>
+<cause idref="T24"/>
+<clue>To test whether this putative function of CD28 is mediated via a particular signaling pathway, we compared early signaling events <clueType>initiated</clueType> <clueLoc>in resting T cells</clueLoc> <linkCause>by</linkCause> the stimulatory mAb BW 828 with signals triggered by the nonstimulating CD28 mAb 9.3.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation"/>
+<theme idref="A4"/>
+<cause idref="T25"/>
+<clue>To test whether this putative function of CD28 is mediated via a particular signaling pathway, we compared early signaling events initiated in resting T cells by the stimulatory mAb BW 828 with signals <clueType>triggered</clueType> <linkCause>by</linkCause> the nonstimulating CD28 mAb 9.3.</clue>
+</event>
+<sentence id="S5">Stimulation of <term id="T27" lex="T_cell" sem="Cell_natural">T cells</term> with <term id="T28" lex="BW_828" sem="Protein_molecule">BW 828</term> induced an increase in intracellular <term id="T29" lex="Ca2+" sem="Element">Ca2+</term>, but did not lead to detectable activation of the <term id="T30" lex="protein_kinase" sem="Protein_family_or_group">protein kinases</term> <term id="T31" lex="p56(lck)" sem="Protein_molecule">p56(lck)</term> and <term id="T32" lex="c-Raf-1" sem="Protein_molecule">c-Raf-1</term>.</sentence>
+<event id="E23">
+<type class="Physiological_process"/>
+<theme idref="T27"/>
+<cause idref="T28"/>
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> T cells <linkCause>with</linkCause> BW 828 induced an increase in intracellular Ca2+, but did not lead to detectable activation of the protein kinases p56(lck) and c-Raf-1.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation"/>
+<theme idref="T29"/>
+<cause idref="E23"/>
+<clue>Stimulation of T cells with BW 828 <clueType>induced an increase</clueType> <linkTheme>in</linkTheme> <clueLoc>intracellular</clueLoc> Ca2+, but did not lead to detectable activation of the protein kinases p56(lck) and c-Raf-1.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E25">
+<type class="Positive_regulation"/>
+<theme idref="T31"/>
+<cause idref="E23"/>
+<clue>Stimulation of T cells with BW 828 induced an increase in intracellular Ca2+, but did <clueType><cluePolarity>not</cluePolarity> lead to <clueKT>detectable</clueKT> activation</clueType> <linkTheme>of</linkTheme> the protein kinases p56(lck) and c-Raf-1.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="T32"/>
+<cause idref="E23"/>
+<clue>Stimulation of T cells with BW 828 induced an increase in intracellular Ca2+, but did <clueType><cluePolarity>not</cluePolarity> lead to <clueKT>detectable</clueKT> activation</clueType> <linkTheme>of</linkTheme> the protein kinases p56(lck) and c-Raf-1.</clue>
+</event>
+<sentence id="S6">This pathway resulted in the induction of the <term id="T33" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term> <term id="T34" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>, <term id="T35" lex="NF-AT" sem="Protein_molecule">NF-AT</term>, and <term id="A7" sem="Protein_family_or_group"><term id="A6" sem="Protein_family_or_group">proteins</term> binding to the <term id="A5" sem="DNA_domain_or_region"><term id="T36" lex="CD28" sem="Protein_molecule">CD28</term> response element</term> of the <term id="T37" lex="IL-2_promoter" sem="DNA_domain_or_region"><term id="T38" lex="IL-2" sem="Protein_molecule">IL-2</term> promoter</term></term>.</sentence>
+<event id="E27">
+<type class="Positive_regulation"/>
+<theme idref="T34"/>
+<cause idref="E24"/>
+<clue><corefCause>This pathway</corefCause> <clueType>resulted in the induction</clueType> <linkTheme>of</linkTheme> the transcription factors NF-kappa B, NF-AT, and proteins binding to the CD28 response element of the IL-2 promoter.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation"/>
+<theme idref="T35"/>
+<cause idref="E24"/>
+<clue><corefCause>This pathway</corefCause> <clueType>resulted in the induction</clueType> <linkTheme>of</linkTheme> the transcription factors NF-kappa B, NF-AT, and proteins binding to the CD28 response element of the IL-2 promoter.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation"/>
+<theme idref="A7"/>
+<cause idref="E24"/>
+<clue><corefCause>This pathway</corefCause> <clueType>resulted in the induction</clueType> <linkTheme>of</linkTheme> the transcription factors NF-kappa B, NF-AT, and proteins binding to the CD28 response element of the IL-2 promoter.</clue>
+<comment>TPS A7</comment></event>
+<event id="E30">
+<type class="Binding"/>
+<theme idref="A6"/>
+<theme idref="A5"/>
+<clue>This pathway resulted in the induction of the transcription factors NF-kappa B, NF-AT, and proteins <clueType>binding</clueType> <linkTheme>to</linkTheme> the CD28 response element of the IL-2 promoter.</clue>
+</event>
+<sentence id="S7">On the other hand, stimulation of <term id="T39" lex="T_cell" sem="Cell_natural">T cells</term> with <term id="T40" lex="mAb_9.3" sem="Protein_molecule">mAb 9.3</term> increased the level of intracellular <term id="T41" lex="Ca2+" sem="Element">Ca2+</term> and triggered the activation of <term id="T42" lex="p56(lck)" sem="Protein_molecule">p56(lck)</term> and <term id="T43" lex="c-Raf-1" sem="Protein_molecule">c-Raf-1</term>, but was unable to induce the binding of <term id="T44" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term> to the <term id="T45" lex="IL-2_promoter" sem="DNA_domain_or_region"><term id="T46" lex="IL-2" sem="Protein_molecule">IL-2</term> promoter</term>.</sentence>
+<event id="E31">
+<type class="Physiological_process"/>
+<theme idref="T39"/>
+<cause idref="T40"/>
+<clue>On the other hand, <clueType>stimulation</clueType> <linkTheme>of</linkTheme> T cells <linkCause>with</linkCause> mAb 9.3 increased the level of intracellular Ca2+ and triggered the activation of p56(lck) and c-Raf-1, but was unable to induce the binding of transcription factors to the IL-2 promoter.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation"/>
+<theme idref="T41"/>
+<cause idref="E31"/>
+<clue>On the other hand, stimulation of T cells with mAb 9.3 <clueType>increased the level</clueType> <linkTheme>of</linkTheme> <clueLoc>intracellular</clueLoc> Ca2+ and triggered the activation of p56(lck) and c-Raf-1, but was unable to induce the binding of transcription factors to the IL-2 promoter.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation"/>
+<theme idref="T42"/>
+<cause idref="E31"/>
+<clue>On the other hand, stimulation of T cells with mAb 9.3 increased the level of intracellular Ca2+ and <clueType>triggered the activation</clueType> <linkTheme>of</linkTheme> p56(lck) and c-Raf-1, but was unable to induce the binding of transcription factors to the IL-2 promoter.</clue>
+</event>
+<event id="E34">
+<type class="Positive_regulation"/>
+<theme idref="T42"/>
+<cause idref="E31"/>
+<clue>On the other hand, stimulation of T cells with mAb 9.3 increased the level of intracellular Ca2+ and <clueType>triggered the activation</clueType> <linkTheme>of</linkTheme> p56(lck) and c-Raf-1, but was unable to induce the binding of transcription factors to the IL-2 promoter.</clue>
+</event>
+<event KT="Other" id="E35">
+<type class="Binding"/>
+<theme idref="T44"/>
+<theme idref="T45"/>
+<clue>On the other hand, stimulation of T cells with mAb 9.3 increased the level of intracellular Ca2+ and triggered the activation of p56(lck) and c-Raf-1, but was unable to induce the <clueType>binding</clueType> <linkTheme>of</linkTheme> transcription factors <linkTheme>to</linkTheme> the IL-2 promoter.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E36">
+<type class="Positive_regulation"/>
+<theme idref="E35"/>
+<cause idref="E31"/>
+<clue>On the other hand, stimulation of T cells with mAb 9.3 increased the level of intracellular Ca2+ and triggered the activation of p56(lck) and c-Raf-1, but was <clueType><cluePolarity>un</cluePolarity><clueKT><clueCL>able</clueCL></clueKT> to induce</clueType> the binding of transcription factors to the IL-2 promoter.</clue>
+</event>
+<sentence id="S8">In contrast to the differential signaling of <term id="T47" lex="BW_828" sem="Protein_molecule">BW 828</term> and <term id="T48" lex="9.3" sem="Protein_molecule">9.3</term> in <term id="A101" sem="Cell_natural">resting T cells</term>, the two mAbs exhibited a similar pattern of <term id="T49" lex="early_signaling_event" sem="Other">early signaling events</term> in <term id="T50" lex="activated_T_cell" sem="Cell_natural">activated <term id="A103" sem="Cell_natural">T cells</term></term> and <term id="T52" lex="Jurkat_cell" sem="Cell_natural">Jurkat cells</term> (<term id="T51" lex="p56(lck)_activation" sem="Other"><term id="T53" lex="p56(lck)" sem="Protein_molecule">p56(lck)</term> activation</term>, association of <term id="T54" lex="phosphatidylinositol_3-kinase" sem="Protein_molecule">phosphatidylinositol 3-kinase</term> with <term id="T55" lex="CD28" sem="Protein_molecule">CD28</term>), indicating that the signaling capacity of <term id="T56" lex="CD28" sem="Protein_molecule">CD28</term> changes with activation.</sentence>
+<event id="E37">
+<type class="Cell_communication"/>
+<theme idref="T47"/>
+<clue>In contrast to the differential <clueType>signaling</clueType> <linkTheme>of</linkTheme> BW 828 and 9.3 <clueLoc>in resting T cells</clueLoc>, the two mAbs exhibited a similar pattern of early signaling events in activated T cells and Jurkat cells (p56(lck) activation, association of phosphatidylinositol 3-kinase with CD28), indicating that the signaling capacity of CD28 changes with activation.</clue>
+</event>
+<event id="E38">
+<type class="Cell_communication"/>
+<theme idref="T48"/>
+<clue>In contrast to the differential <clueType>signaling</clueType> <linkTheme>of</linkTheme> BW 828 and 9.3 <clueLoc>in resting T cells</clueLoc>, the two mAbs exhibited a similar pattern of early signaling events in activated T cells and Jurkat cells (p56(lck) activation, association of phosphatidylinositol 3-kinase with CD28), indicating that the signaling capacity of CD28 changes with activation.</clue>
+</event>
+<event KT="Analysis" id="E39">
+<type class="Positive_regulation"/>
+<theme idref="E41"/>
+<cause idref="T47"/>
+<clue>In contrast to the differential signaling of BW 828 and 9.3 in resting T cells, the <corefCause>two mAbs</corefCause> <clueType><clueKT>exhibited</clueKT></clueType> <corefTheme>a similar pattern of early signaling events</corefTheme> <clueLoc>in activated T cells</clueLoc> and Jurkat cells (p56(lck) activation, association of phosphatidylinositol 3-kinase with CD28), indicating that the signaling capacity of CD28 changes with activation.</clue>
+</event>
+<event KT="Analysis" id="E139">
+<type class="Positive_regulation"/>
+<theme idref="E42"/>
+<cause idref="T47"/>
+<clue>In contrast to the differential signaling of BW 828 and 9.3 in resting T cells, the <corefCause>two mAbs</corefCause> <clueType><clueKT>exhibited</clueKT></clueType> <corefTheme>a similar pattern of early signaling events</corefTheme> <clueLoc>in activated</clueLoc> T cells and <clueLoc>Jurkat cells</clueLoc> (p56(lck) activation, association of phosphatidylinositol 3-kinase with CD28), indicating that the signaling capacity of CD28 changes with activation.</clue>
+</event>
+<event KT="Analysis" id="E40">
+<type class="Positive_regulation"/>
+<theme idref="E41"/>
+<cause idref="T48"/>
+<clue>In contrast to the differential signaling of BW 828 and 9.3 in resting T cells, the <corefCause>two mAbs</corefCause> <clueType><clueKT>exhibited</clueKT></clueType> <corefTheme>a similar pattern of early signaling events</corefTheme> <clueLoc>in activated T cells</clueLoc> and Jurkat cells (p56(lck) activation, association of phosphatidylinositol 3-kinase with CD28), indicating that the signaling capacity of CD28 changes with activation.</clue>
+</event>
+<event KT="Analysis" id="E240">
+<type class="Positive_regulation"/>
+<theme idref="E41"/>
+<cause idref="T48"/>
+<clue>In contrast to the differential signaling of BW 828 and 9.3 in resting T cells, the <corefCause>two mAbs</corefCause> <clueType><clueKT>exhibited</clueKT></clueType> <corefTheme>a similar pattern of early signaling events</corefTheme> <clueLoc>in activated</clueLoc> T cells and <clueLoc>Jurkat cells</clueLoc> (p56(lck) activation, association of phosphatidylinositol 3-kinase with CD28), indicating that the signaling capacity of CD28 changes with activation.</clue>
+</event>
+<event KT="Analysis" id="E140">
+<type class="Positive_regulation"/>
+<theme idref="E42"/>
+<cause idref="T48"/>
+<clue>In contrast to the differential signaling of BW 828 and 9.3 in resting T cells, the <corefCause>two mAbs</corefCause> <clueType><clueKT>exhibited</clueKT></clueType> <corefTheme>a similar pattern of early signaling events</corefTheme> <clueLoc>in activated T cells</clueLoc> and Jurkat cells (p56(lck) activation, association of phosphatidylinositol 3-kinase with CD28), indicating that the signaling capacity of CD28 changes with activation.</clue>
+</event>
+<event KT="Analysis" id="E340">
+<type class="Positive_regulation"/>
+<theme idref="E42"/>
+<cause idref="T48"/>
+<clue>In contrast to the differential signaling of BW 828 and 9.3 in resting T cells, the <corefCause>two mAbs</corefCause> <clueType><clueKT>exhibited</clueKT></clueType> <corefTheme>a similar pattern of early signaling events</corefTheme> <clueLoc>in activated</clueLoc> T cells and <clueLoc>Jurkat cells</clueLoc> (p56(lck) activation, association of phosphatidylinositol 3-kinase with CD28), indicating that the signaling capacity of CD28 changes with activation.</clue>
+</event>
+<event KT="Other" id="E41">
+<type class="Positive_regulation"/>
+<theme idref="T53"/>
+<clue>In contrast to the differential signaling of BW 828 and 9.3 in resting T cells, the two mAbs exhibited a similar pattern of early signaling events in activated T cells and Jurkat cells (p56(lck) <clueType>activation</clueType>, association of phosphatidylinositol 3-kinase with CD28), indicating that the signaling capacity of CD28 changes with activation.</clue>
+<comment>NER: T51 mod &quot;Jurkat cells (p56(lck) activation&quot;-&gt;&quot;p56(lck) activation&quot;</comment></event>
+<event KT="Analysis" id="E42">
+<type class="Correlation"/>
+<theme idref="T54"/>
+<theme idref="T55"/>
+<clue>In contrast to the differential signaling of BW 828 and 9.3 in resting T cells, the two mAbs exhibited a similar pattern of early signaling events in activated T cells and Jurkat cells (p56(lck) activation, <clueType><clueKT>association</clueKT></clueType> <linkTheme>of</linkTheme> phosphatidylinositol 3-kinase <linkTheme>with</linkTheme> CD28), indicating that the signaling capacity of CD28 changes with activation.</clue>
+</event>
+<event KT="Other" id="E43">
+<type class="Cell_communication"/>
+<theme idref="T56"/>
+<clue>In contrast to the differential signaling of BW 828 and 9.3 in resting T cells, the two mAbs exhibited a similar pattern of early signaling events in activated T cells and Jurkat cells (p56(lck) activation, association of phosphatidylinositol 3-kinase with CD28), indicating that the <clueType>signaling capacity</clueType> <linkTheme>of</linkTheme> CD28 changes with activation.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E44">
+<type class="Regulation"/>
+<theme idref="E43"/>
+<cause idref="E144"/>
+<clue>In contrast to the differential signaling of BW 828 and 9.3 in resting T cells, the two mAbs exhibited a similar pattern of early signaling events in activated T cells and Jurkat cells (p56(lck) activation, association of phosphatidylinositol 3-kinase with CD28), <clueKT><clueCL>indicating</clueCL></clueKT> that the signaling capacity of CD28 <clueType>changes</clueType> <linkCause>with</linkCause> activation.</clue>
+</event>
+<event KT="Other" id="E144">
+<type class="Physiological_process"/>
+<theme idref="A103"/>
+<clue>In contrast to the differential signaling of BW 828 and 9.3 in resting T cells, the two mAbs exhibited a similar pattern of early signaling events in activated T cells and Jurkat cells (p56(lck) activation, association of phosphatidylinositol 3-kinase with CD28), indicating that the signaling capacity of CD28 changes with <clueType>activation</clueType>.</clue>
+<comment>NO COREFETHEME</comment></event>
+<event KT="Other" id="E145">
+<type class="Physiological_process"/>
+<theme idref="A103"/>
+<clue>In contrast to the differential signaling of BW 828 and 9.3 in resting T cells, the two mAbs exhibited a similar pattern of early signaling events in <clueType>activated</clueType> T cells and Jurkat cells (p56(lck) activation, association of phosphatidylinositol 3-kinase with CD28), indicating that the signaling capacity of CD28 changes with activation.</clue>
+</event>
+<sentence id="S9">These data support the view that stimulation through <term id="T57" lex="CD28" sem="Protein_molecule">CD28</term> can induce some <term id="T58" lex="effector_function" sem="Other">effector functions</term> in <term id="T59" lex="T_cell" sem="Cell_natural">T cells</term> and suggest that this capacity is associated with a particular pattern of <term id="T60" lex="early_signaling_event" sem="Other">early signaling events</term>.</sentence>
+<event KT="Other" id="E45">
+<type class="Positive_regulation"/>
+<theme idref="T57"/>
+<clue>These data support the view that <clueType>stimulation</clueType> <linkTheme>through</linkTheme> CD28 can induce some effector functions in T cells and suggest that this capacity is associated with a particular pattern of early signaling events.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E46">
+<type class="Positive_regulation"/>
+<theme idref="T58"/>
+<cause idref="E45"/>
+<clue>These data support the <clueKT>view</clueKT> that stimulation through CD28 <clueCL>can</clueCL> <clueType>induce</clueType> some effector functions <clueLoc>in T cells</clueLoc> and suggest that this capacity is associated with a particular pattern of early signaling events.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E47">
+<type class="Correlation"/>
+<theme idref="E46"/>
+<theme idref="T60"/>
+<clue>These data support the view that stimulation through CD28 can induce some effector functions in T cells and <clueCL>suggest</clueCL> that <corefTheme>this capacity</corefTheme> is <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> a particular pattern of early signaling events.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

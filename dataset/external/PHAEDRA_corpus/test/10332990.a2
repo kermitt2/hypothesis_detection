@@ -1,0 +1,19 @@
+T15	Adverse_effect 26 32	during
+T16	Potential_therapeutic_effect 185 194	treatment
+T20	Adverse_effect 522 533	side effect
+T22	Adverse_effect 329 341	Side effects
+T25	Potential_therapeutic_effect 186 194	reatment
+R1	Subject_Disorder Arg1:T14 Arg2:T3
+R2	Subject_Disorder Arg1:T14 Arg2:T4
+R3	Subject_Disorder Arg1:T19 Arg2:T11
+R4	Subject_Disorder Arg1:T19 Arg2:T12
+R5	Coreference Arg1:T21 Arg2:T5
+R6	is_equivalent Arg1:T5 Arg2:T6
+E1	Adverse_effect:T15 has_agent:T2 has_subject:T14 affects:T1
+E2	Potential_therapeutic_effect:T16 affects:T7 has_agent:T5
+E4	Adverse_effect:T20 has_subject:T19 has_agent:T9 affects:T10 has_cue:T27
+E5	Adverse_effect:T22 has_agent:T21 has_cue:T26
+E3	Potential_therapeutic_effect:T25 has_cue:T18 has_agent:T5 affects:T8 affects:T17
+A1	Speculated E3
+A2	Manner E5 Low
+A3	Manner E4 High

@@ -1,0 +1,143 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9374467" created="17/11/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9374467</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Nuclear accumulation of <term id="T1" lex="NFAT4" sem="Protein_molecule">NFAT4</term> opposed by the <term id="T2" lex="JNK_signal_transduction_pathway" sem="Other"><term id="T3" lex="JNK" sem="Protein_molecule">JNK</term> signal transduction pathway</term>.</sentence>
+<event KT="Investigation" id="E1">
+<type class="Localization"/>
+<theme idref="T1"/>
+<clue><clueLoc>Nuclear</clueLoc> <clueType>accumulation</clueType> <linkTheme>of</linkTheme> NFAT4 opposed by the JNK signal transduction pathway.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Negative_regulation"/>
+<theme idref="E1"/>
+<cause idref="E102"/>
+<clue>Nuclear accumulation of NFAT4 <clueType>opposed</clueType> <linkCause>by</linkCause> the JNK signal transduction pathway.</clue>
+</event>
+<event KT="Other" id="E102">
+<type class="Cell_communication"/>
+<theme idref="T3"/>
+<clue>Nuclear accumulation of NFAT4 opposed by the JNK <clueType>signal transduction pathway</clueType>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T4" lex="nuclear_factor_of_activated_T_cells_(NFAT)_group" sem="Protein_family_or_group">nuclear factor of activated T cells (NFAT) group</term> of <term id="T5" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term> is retained in the <term id="T6" lex="cytoplasm" sem="Cell_component">cytoplasm</term> of <term id="T7" lex="quiescent_cell" sem="Cell_natural">quiescent cells</term>.</sentence>
+<event KT="Fact" id="E3">
+<type class="Localization"/>
+<theme idref="T4"/>
+<clue>The nuclear factor of activated T cells (NFAT) group of transcription factors is <clueType>retained</clueType> <clueLoc>in the cytoplasm of quiescent cells</clueLoc>.</clue>
+</event>
+<sentence id="S3"><term id="T8" lex="NFAT_activation" sem="Other"><term id="T9" lex="NFAT" sem="Protein_family_or_group">NFAT</term> activation</term> is mediated in part by induced <term id="T10" lex="nuclear_import" sem="Other">nuclear import</term>.</sentence>
+<event KT="Other" id="E4">
+<type class="Localization"/>
+<theme idref="T9"/>
+<clue>NFAT activation is mediated in part by induced <clueLoc>nuclear</clueLoc> <clueType>import</clueType>.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event KT="Other" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<clue>NFAT activation is mediated in part by <clueType>induced</clueType> nuclear import.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="T9"/>
+<clue>NFAT <clueType>activation</clueType> is mediated in part by induced nuclear import.</clue>
+</event>
+<event KT="Fact" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="E5"/>
+<clue>NFAT activation is <clueType>mediated</clueType> in part <linkCause>by</linkCause> induced nuclear import.</clue>
+</event>
+<sentence id="S4">This process requires <term id="T11" lex="calcium-dependent_dephosphorylation" sem="Other"><term id="T12" lex="calcium" sem="Element">calcium</term>-dependent dephosphorylation</term> of <term id="T13" lex="NFAT" sem="Protein_family_or_group">NFAT</term> caused by the <term id="T14" lex="phosphatase" sem="Protein_family_or_group">phosphatase</term> <term id="T15" lex="calcineurin" sem="Protein_molecule">calcineurin</term>.</sentence>
+<event KT="Other" id="E8">
+<type class="Protein_amino_acid_dephosphorylation"/>
+<theme idref="T13"/>
+<cause idref="T15"/>
+<clue>This process requires calcium-dependent <clueType>dephosphorylation</clueType> <linkTheme>of</linkTheme> NFAT <linkCause>caused by</linkCause> the phosphatase calcineurin.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="T12"/>
+<clue>This process requires calcium-<clueType>dependent</clueType> dephosphorylation of NFAT caused by the phosphatase calcineurin.</clue>
+</event>
+<event KT="Fact" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="E9"/>
+<clue><corefTheme>This process</corefTheme> <clueType>requires</clueType> calcium-dependent dephosphorylation of NFAT caused by the phosphatase calcineurin.</clue>
+</event>
+<sentence id="S5">The <term id="T16" lex="c-Jun_amino-terminal_kinase" sem="Protein_family_or_group">c-Jun amino-terminal kinase</term> (<term id="T17" lex="JNK" sem="Protein_family_or_group">JNK</term>) phosphorylates <term id="T18" lex="NFAT4" sem="Protein_molecule">NFAT4</term> on two sites.</sentence>
+<event KT="Fact" id="E11">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T18"/>
+<cause idref="T17"/>
+<clue>The c-Jun amino-terminal kinase (JNK) <clueType>phosphorylates</clueType> NFAT4 <clueLoc>on two sites</clueLoc>.</clue>
+</event>
+<sentence id="S6">Mutational removal of the <term id="T19" lex="JNK_phosphorylation_site" sem="Protein_domain_or_region">JNK phosphorylation sites</term> caused constitutive nuclear localization of <term id="T20" lex="NFAT4" sem="Protein_molecule">NFAT4</term>.</sentence>
+<event KT="Method" id="E12">
+<type class="Mutagenesis"/>
+<theme idref="T19"/>
+<clue><clueType>Mutational removal</clueType> <linkTheme>of</linkTheme> the JNK phosphorylation sites caused constitutive nuclear localization of NFAT4.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event id="E13">
+<type class="Localization"/>
+<theme idref="T20"/>
+<clue>Mutational removal of the JNK phosphorylation sites caused constitutive <clueLoc>nuclear</clueLoc> <clueType>localization</clueType> <linkTheme>of</linkTheme> NFAT4.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="E12"/>
+<clue>Mutational removal of the JNK phosphorylation sites <clueType>caused</clueType> constitutive nuclear localization of NFAT4.</clue>
+</event>
+<sentence id="S7">In contrast, <term id="T21" lex="JNK_activation" sem="Other"><term id="T22" lex="JNK" sem="Protein_molecule">JNK</term> activation</term> in <term id="T23" lex="calcineurin-stimulated_cell" sem="Cell_cultured"><term id="T24" lex="calcineurin" sem="Protein_molecule">calcineurin</term>-stimulated <term id="A1" sem="Cell_natural">cells</term></term> caused nuclear exclusion of <term id="T25" lex="NFAT4" sem="Protein_molecule">NFAT4</term>.</sentence>
+<event id="E15">
+<type class="Positive_regulation"/>
+<theme idref="T21"/>
+<clue>In contrast, JNK <clueType>activation</clueType> <clueLoc>in calcineurin-stimulated cells</clueLoc> caused nuclear exclusion of NFAT4.</clue>
+</event>
+<event id="E16">
+<type class="Physiological_process"/>
+<theme idref="A1"/>
+<cause idref="T24"/>
+<clue>In contrast, JNK activation in calcineurin-<clueType>stimulated</clueType> cells caused nuclear exclusion of NFAT4.</clue>
+</event>
+<event id="E17">
+<type class="Localization"/>
+<theme idref="T25"/>
+<clue>In contrast, JNK activation in calcineurin-stimulated cells caused <clueLoc>nuclear</clueLoc> <clueType>exclusion</clueType> <linkTheme>of</linkTheme> NFAT4.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<cause idref="E15"/>
+<clue>In contrast, JNK activation in calcineurin-stimulated cells <clueType>caused</clueType> nuclear exclusion of NFAT4.</clue>
+</event>
+<sentence id="S8">These findings show that the nuclear accumulation of <term id="T26" lex="NFAT4" sem="Protein_molecule">NFAT4</term> promoted by <term id="T27" lex="calcineurin" sem="Protein_molecule">calcineurin</term> is opposed by the <term id="T28" lex="JNK_signal_transduction_pathway" sem="Other"><term id="T29" lex="JNK" sem="Protein_molecule">JNK</term> signal transduction pathway</term>.</sentence>
+<event KT="Other" id="E19">
+<type class="Localization"/>
+<theme idref="T26"/>
+<clue>These findings show that the <clueLoc>nuclear</clueLoc> <clueType>accumulation</clueType> <linkTheme>of</linkTheme> NFAT4 promoted by calcineurin is opposed by the JNK signal transduction pathway.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="T27"/>
+<clue>These findings show that the nuclear accumulation of NFAT4 <clueType>promoted</clueType> <linkCause>by</linkCause> calcineurin is opposed by the JNK signal transduction pathway.</clue>
+</event>
+<event KT="Analysis" id="E21">
+<type class="Negative_regulation"/>
+<theme idref="E20"/>
+<cause idref="E121"/>
+<clue>These findings <clueKT>show</clueKT> that the nuclear accumulation of NFAT4 promoted by calcineurin is <clueType>opposed</clueType> <linkCause>by</linkCause> the JNK signal transduction pathway.</clue>
+</event>
+<event KT="Other" id="E121">
+<type class="Cell_communication"/>
+<theme idref="T29"/>
+<clue>These findings show that the nuclear accumulation of NFAT4 promoted by calcineurin is opposed by the JNK <clueType>signal transduction pathway</clueType>.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

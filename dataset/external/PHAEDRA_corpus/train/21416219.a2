@@ -1,0 +1,18 @@
+T51	Potential_therapeutic_effect 69 76	therapy
+T52	Potential_therapeutic_effect 246 253	therapy
+T58	Potential_therapeutic_effect 449 456	treated
+R1	Subject_Disorder Arg1:T10 Arg2:T8
+R7	Subject_Disorder Arg1:T14 Arg2:T6
+E1	Combination:T48 has_participant:T40 has_participant:T20
+E2	Combination:T49 has_participant:T5 has_participant:T1
+E3	Combination:T50 has_participant:T12 has_participant:T2
+E6	Combination:T57 has_participant:T41 has_participant:T38
+E8	Combination:T59 has_participant:T16 has_participant:T7
+E11	Combination:T59 has_participant:T16 has_participant:T11
+E12	Combination:T59 has_participant:T16 has_participant:T9
+E4	Potential_therapeutic_effect:T51 has_agent:E2 affects:T8
+E5	Potential_therapeutic_effect:T52 has_agent:E3 has_cue:T54 affects:T4
+E7	Potential_therapeutic_effect:T58 has_subject:T14 has_agent:E12
+E9	Potential_therapeutic_effect:T58 has_subject:T14 has_agent:T9 has_agent:E11
+E10	Potential_therapeutic_effect:T58 has_subject:T14 has_agent:E8
+A1	Speculated E5

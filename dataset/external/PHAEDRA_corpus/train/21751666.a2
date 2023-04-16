@@ -1,0 +1,21 @@
+T12	Potential_therapeutic_effect 14 25	prophylaxis
+T17	DDI 135 146	interaction
+T19	Potential_therapeutic_effect 82 100	safe and effective
+T22	Potential_therapeutic_effect 401 412	prophylaxis
+T23	DDI 616 627	interaction
+T26	Potential_therapeutic_effect 569 578	receiving
+T30	Potential_therapeutic_effect 269 279	Prevention
+T31	Potential_therapeutic_effect 681 706	post-exposure prophylaxis
+T6	Potential_therapeutic_effect 480 487	prevent
+E2	DDI:T17 has_participant:T2 has_cue:T18 has_participant:T1
+E7	DDI:T23 has_participant:T8 has_cue:T24 has_participant:T25
+E9	Combination:T28 has_participant:T29 has_participant:T27
+E1	Potential_therapeutic_effect:T12 affects:T10 has_agent:T1 has_subject:T11
+E3	Potential_therapeutic_effect:T19 has_agent:E2 has_agent:T1 has_subject:T11
+E5	Potential_therapeutic_effect:T22 affects:T14 has_agent:T5
+E8	Potential_therapeutic_effect:T26 has_agent:T25 has_subject:T15
+E10	Potential_therapeutic_effect:T30 affects:T4 has_agent:E9
+E11	Potential_therapeutic_effect:T31 affects:T16 has_agent:T9
+E4	Potential_therapeutic_effect:T6 affects:T7 has_agent:T5 has_subject:T15
+A1	Negated E2
+A3	Negated E7

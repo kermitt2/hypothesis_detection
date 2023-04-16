@@ -1,0 +1,15 @@
+T10	DDI 23 34	interaction
+T11	Adverse_effect 35 44	resulting
+T17	DDI 181 192	interaction
+T37	DDI 1526 1537	interaction
+T51	Adverse_effect 1489 1496	related
+R1	Subject_Disorder Arg1:T22 Arg2:T12
+R2	Subject_Disorder Arg1:T22 Arg2:T13
+R3	Subject_Disorder Arg1:T22 Arg2:T14
+R4	Subject_Disorder Arg1:T22 Arg2:T15
+E1	DDI:T10 has_participant:T1 has_participant:T3
+E3	DDI:T17 has_participant:T7 has_participant:T8
+E8	DDI:T37 has_participant:T46 has_participant:T47
+E2	Adverse_effect:T11 has_agent:E1 affects:T4 affects:T5 affects:T6
+E9	Adverse_effect:T51 has_cue:T54 has_agent:E8 affects:T43 affects:T44 affects:T45
+A5	Speculated E9

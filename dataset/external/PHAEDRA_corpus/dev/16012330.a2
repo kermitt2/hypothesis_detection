@@ -1,0 +1,22 @@
+T27	Potential_therapeutic_effect 157 168	prophylaxis
+T28	Potential_therapeutic_effect 308 318	preventing
+T30	Potential_therapeutic_effect 430 438	received
+T32	Adverse_effect 572 581	developed
+T36	Adverse_effect 907 915	enhanced
+T38	DDI 1249 1260	interaction
+T39	Adverse_effect 1291 1298	leading
+T40	Adverse_effect 53 66	neurotoxicity
+T44	Adverse_effect 928 941	neurotoxicity
+R1	Subject_Disorder Arg1:T22 Arg2:T5
+R4	Subject_Disorder Arg1:T29 Arg2:T7
+R6	Coreference Arg1:T42 Arg2:T4
+E7	DDI:T38 has_participant:T19 has_participant:T20
+E1	Potential_therapeutic_effect:T27 has_agent:T4 affects:T26 has_subject:T22 affects:T24 affects:T25
+E2	Potential_therapeutic_effect:T28 affects:T6 has_agent:T42 has_cue:T9
+E3	Potential_therapeutic_effect:T30 affects:T7 has_agent:T43
+E4	Adverse_effect:T32 affects:T11 affects:T12 affects:T33 affects:T34 affects:T13 has_agent:T10
+E5	Adverse_effect:T36 affects:T16 has_agent:T17 has_subject:T35
+E8	Adverse_effect:T39 affects:T21 has_agent:E7
+E9	Adverse_effect:T40 affects:T3 has_agent:T2
+E11	Adverse_effect:T44 affects:T16 has_agent:T15
+A4	Speculated E2

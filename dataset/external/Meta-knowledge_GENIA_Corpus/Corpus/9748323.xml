@@ -1,0 +1,179 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9748323" created="04/05/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9748323</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Activation of distinct <term id="T1" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term> in <term id="T2" lex="neutrophil" sem="Cell_natural">neutrophils</term> by <term id="T3" lex="bacterial_LPS" sem="Lipid">bacterial LPS</term>, <term id="T4" lex="interferon-gamma" sem="Protein_molecule">interferon-gamma</term>, and <term id="T5" lex="GM-CSF" sem="Protein_molecule">GM-CSF</term> and the necessity to overcome the action of <term id="T6" lex="endogenous_protease" sem="Protein_family_or_group">endogenous proteases</term>.</sentence>
+<event KT="Investigation" id="E1">
+<type class="Positive_regulation"/>
+<theme idref="T1"/>
+<cause idref="T3"/>
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> distinct transcription factors <clueLoc>in neutrophils</clueLoc> <linkCause>by</linkCause> bacterial LPS, interferon-gamma, and GM-CSF and the necessity to overcome the action of endogenous proteases.</clue>
+<comment>NER: sem T3 mod, Carbohydrate -&gt; Lipid</comment></event>
+<event KT="Investigation" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="T1"/>
+<cause idref="T4"/>
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> distinct transcription factors <clueLoc>in neutrophils</clueLoc> <linkCause>by</linkCause> bacterial LPS, interferon-gamma, and GM-CSF and the necessity to overcome the action of endogenous proteases.</clue>
+</event>
+<event KT="Investigation" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="T1"/>
+<cause idref="T5"/>
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> distinct transcription factors <clueLoc>in neutrophils</clueLoc> <linkCause>by</linkCause> bacterial LPS, interferon-gamma, and GM-CSF and the necessity to overcome the action of endogenous proteases.</clue>
+</event>
+<event KT="Investigation" id="E2">
+<type class="Negative_regulation"/>
+<theme idref="T6"/>
+<clue>Activation of distinct transcription factors in neutrophils by bacterial LPS, interferon-gamma, and GM-CSF and the necessity to <clueType>overcome</clueType> the action <linkTheme>of</linkTheme> endogenous proteases.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Human <term id="T7" lex="neutrophil" sem="Cell_natural">neutrophils</term> can be induced to actively transcribe a number of <term id="T8" lex="early-response_gene" sem="DNA_family_or_group">early-response genes</term>, in particular those <term id="A5" sem="DNA_family_or_group">encoding</term> <term id="A6" sem="DNA_domain_or_region"><term id="T9" lex="cytokine" sem="Protein_family_or_group">cytokines</term></term>, <term id="A7" sem="DNA_domain_or_region"><term id="T10" lex="chemokine" sem="Protein_family_or_group">chemokines</term></term>, and the high-affinity surface receptor for <term id="T11" lex="IgG" sem="Protein_family_or_group">IgG</term>, <term id="A8" sem="DNA_domain_or_region"><term id="T12" lex="FcgammaRI" sem="Protein_molecule">FcgammaRI</term></term>.</sentence>
+<event CL="L2" KT="Analysis" id="E3">
+<type class="Physiological_process"/>
+<theme idref="T7"/>
+<clue>Human neutrophils <clueKT><clueCL>can</clueCL></clueKT> be <clueType>induced</clueType> to actively transcribe a number of early-response genes, in particular those encoding cytokines, chemokines, and the high-affinity surface receptor for IgG, FcgammaRI.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Transcription"/>
+<theme idref="T8"/>
+<clue><clueLoc>Human neutrophils</clueLoc> can be induced to actively <clueType>transcribe</clueType> a number of early-response genes, in particular those encoding cytokines, chemokines, and the high-affinity surface receptor for IgG, FcgammaRI.</clue>
+<comment>NER: T8 sem mod, DNA_family_or_group -&gt; DNA_domain_or_region</comment></event>
+<event KT="Other" id="E24">
+<type class="Transcription"/>
+<theme idref="T8" idref1="A5" idref2="A6"/>
+<clue><clueLoc>Human neutrophils</clueLoc> can be induced to actively <clueType>transcribe</clueType> a number of early-response genes, in particular <corefTheme>those</corefTheme> encoding cytokines, chemokines, and the high-affinity surface receptor for IgG, FcgammaRI.</clue>
+<comment>NER: T8 sem mod, DNA_family_or_group -&gt; DNA_domain_or_region</comment></event>
+<event KT="Other" id="E25">
+<type class="Transcription"/>
+<theme idref="T8" idref1="A5" idref2="A7"/>
+<clue><clueLoc>Human neutrophils</clueLoc> can be induced to actively <clueType>transcribe</clueType> a number of early-response genes, in particular <corefTheme>those</corefTheme> encoding cytokines, chemokines, and the high-affinity surface receptor for IgG, FcgammaRI.</clue>
+<comment>NER: T8 sem mod, DNA_family_or_group -&gt; DNA_domain_or_region</comment></event>
+<event KT="Other" id="E26">
+<type class="Transcription"/>
+<theme idref="T8" idref1="A5" idref2="A8"/>
+<clue><clueLoc>Human neutrophils</clueLoc> can be induced to actively <clueType>transcribe</clueType> a number of early-response genes, in particular <corefTheme>those</corefTheme> encoding cytokines, chemokines, and the high-affinity surface receptor for IgG, FcgammaRI.</clue>
+<comment>NER: T8 sem mod, DNA_family_or_group -&gt; DNA_domain_or_region</comment></event>
+<sentence id="S3">Although little is known to date about the regulation of <term id="T13" lex="gene_transcription" sem="Other">gene transcription</term> in <term id="T14" lex="neutrophil" sem="Cell_natural">neutrophils</term>, several indications point to a role for distinct <term id="T15" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term>, such as members of the <term id="T16" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> and <term id="T17" lex="STAT_familiy" sem="Protein_family_or_group">STAT families</term>.</sentence>
+<event KT="Investigation" Polarity="Negative" id="E5" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="T13"/>
+<clue>Although <clueKT>little is known</clueKT> to date about the <clueType>regulation</clueType> <linkTheme>of</linkTheme> gene transcription <clueLoc>in neutrophils</clueLoc>, several indications point to a role for distinct transcription factors, such as members of the NF-kappaB and STAT families.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E6" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="T13"/>
+<cause idref="T16"/>
+<clue>Although little is known to date about the regulation of gene transcription <clueLoc>in neutrophils</clueLoc>, several <clueKT><clueCL>indications</clueCL></clueKT> point to a <clueType>role</clueType> <linkCause>for</linkCause> <corefTheme>distinct transcription factors</corefTheme>, such as members of the NF-kappaB and STAT families.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E7" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="T13"/>
+<cause idref="T17"/>
+<clue>Although little is known to date about the regulation of gene transcription <clueLoc>in neutrophils</clueLoc>, several <clueKT><clueCL>indications</clueCL></clueKT> point to a <clueType>role</clueType> <linkCause>for</linkCause> <corefTheme>distinct transcription factors</corefTheme>, such as members of the NF-kappaB and STAT families.</clue>
+</event>
+<sentence id="S4">In this study, we investigated whether these <term id="T18" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term> become activated under <term id="T19" lex="stimulatory_condition" sem="Other">stimulatory conditions</term> which are known to induce <term id="T20" lex="gene_transcription" sem="Other">gene transcription</term> in <term id="T21" lex="neutrophil" sem="Cell_natural">neutrophils</term>.</sentence>
+<event KT="Investigation" id="E8" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="T16"/>
+<cause idref="E10"/>
+<clue>In this study, we <clueKT>investigated</clueKT> whether <corefTheme>these transcription factors</corefTheme> <clueType>become activated</clueType> <linkCause>under</linkCause> stimulatory conditions which are known to induce gene transcription in neutrophils.</clue>
+</event>
+<event KT="Investigation" id="E9" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="T17"/>
+<cause idref="E10"/>
+<clue>In this study, we <clueKT>investigated</clueKT> whether <corefTheme>these transcription factors</corefTheme> <clueType>become activated</clueType> <linkCause>under</linkCause> stimulatory conditions which are known to induce gene transcription in neutrophils.</clue>
+</event>
+<event KT="Fact" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="T20"/>
+<cause idref="T19"/>
+<clue>In this study, we investigated whether these transcription factors become activated under stimulatory conditions which are <clueKT>known</clueKT> to <clueType>induce</clueType> gene transcription <clueLoc>in neutrophils</clueLoc>.</clue>
+</event>
+<sentence id="S5">Unexpectedly, we found that conventional procedures employed to prepare cellular extracts cause the release of <term id="A2" sem="Protein_family_or_group">proteolytic activities</term> that are normally stored in <term id="T22" lex="intracellular_granule" sem="Cell_component">intracellular granules</term>, resulting in the degradation of various <term id="T23" lex="NF-kappaB/Rel" sem="Protein_complex"><term id="T24" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>/Rel</term> and <term id="T25" lex="STAT_protein" sem="Protein_family_or_group">STAT proteins</term>.</sentence>
+<event id="E11">
+<type class="Localization"/>
+<theme idref="A2"/>
+<clue>Unexpectedly, we <clueKT>found</clueKT> that <clueExperiment>conventional procedures employed to prepare cellular extracts</clueExperiment> cause the <clueType>release</clueType> <linkTheme>of</linkTheme> proteolytic activities that are normally stored in intracellular granules, resulting in the degradation of various NF-kappaB/Rel and STAT proteins.</clue>
+<comment>CAUTION: proteolytic activities = proteases</comment></event>
+<event KT="Analysis" id="E29">
+<type class="Localization"/>
+<theme idref="A2"/>
+<clue>Unexpectedly, we found that conventional procedures employed to prepare cellular extracts cause the release of proteolytic activities that are <clueKT>normally</clueKT> <clueType>stored</clueType> <clueLoc>in intracellular granules</clueLoc>, resulting in the degradation of various NF-kappaB/Rel and STAT proteins.</clue>
+<comment>CAUTION: proteolytic activities = proteases</comment></event>
+<event id="E27">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="E11"/>
+<clue>Unexpectedly, we found that conventional procedures employed to prepare cellular extracts cause the release of proteolytic activities that are normally stored in intracellular granules, <clueType>resulting</clueType> <linkTheme>in</linkTheme> the degradation of various NF-kappaB/Rel and STAT proteins.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="E11"/>
+<clue>Unexpectedly, we found that conventional procedures employed to prepare cellular extracts cause the release of proteolytic activities that are normally stored in intracellular granules, <clueType>resulting</clueType> <linkTheme>in</linkTheme> the degradation of various NF-kappaB/Rel and STAT proteins.</clue>
+</event>
+<event id="E12">
+<type class="Protein_catabolism"/>
+<theme idref="T23"/>
+<clue>Unexpectedly, we found that conventional procedures employed to prepare cellular extracts cause the release of proteolytic activities that are normally stored in intracellular granules, resulting in the <clueType>degradation</clueType> <linkTheme>of</linkTheme> various NF-kappaB/Rel and STAT proteins.</clue>
+</event>
+<event id="E13">
+<type class="Protein_catabolism"/>
+<theme idref="T25"/>
+<clue>Unexpectedly, we found that conventional procedures employed to prepare cellular extracts cause the release of proteolytic activities that are normally stored in intracellular granules, resulting in the <clueType>degradation</clueType> <linkTheme>of</linkTheme> various NF-kappaB/Rel and STAT proteins.</clue>
+</event>
+<sentence id="S6">To circumvent this problem, we developed an alternative procedure which allowed us to show that in <term id="T26" lex="neutrophil" sem="Cell_natural">neutrophils</term>, <term id="T27" lex="LPS" sem="Carbohydrate">LPS</term> and <term id="T28" lex="TNFalpha" sem="Protein_molecule">TNFalpha</term> induce a <term id="T29" lex="NF-kappaB_DNA-binding_activity" sem="Other"><term id="T30" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> DNA-binding activity</term> which essentially consists of <term id="T31" lex="p50/RelA_dimer" sem="Protein_complex">p50/RelA dimers</term>, and that <term id="T32" lex="IFNgamma" sem="Protein_molecule">IFNgamma</term> promotes the binding of <term id="T33" lex="STAT1_homodimer" sem="Protein_complex">STAT1 homodimers</term> to the <term id="A1" sem="DNA_domain_or_region"><term id="T34" lex="IFNgamma_response_region" sem="DNA_domain_or_region"><term id="T35" lex="IFNgamma" sem="Protein_molecule">IFNgamma</term> response region</term> of the <term id="T36" lex="FcgammaRI_promoter" sem="DNA_domain_or_region"><term id="T37" lex="FcgammaRI" sem="Protein_molecule">FcgammaRI</term> promoter</term></term>.</sentence>
+<event KT="Analysis" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="T29"/>
+<cause idref="T27"/>
+<clue>To circumvent this problem, we developed an <clueExperiment>alternative procedure</clueExperiment> which allowed us to <clueKT>show</clueKT> that <clueLoc>in neutrophils</clueLoc>, LPS and TNFalpha <clueType>induce</clueType> a NF-kappaB DNA-binding activity which essentially consists of p50/RelA dimers, and that IFNgamma promotes the binding of STAT1 homodimers to the IFNgamma response region of the FcgammaRI promoter.</clue>
+</event>
+<event KT="Analysis" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="T29"/>
+<cause idref="T28"/>
+<clue>To circumvent this problem, we developed an <clueExperiment>alternative procedure</clueExperiment> which allowed us to <clueKT>show</clueKT> that <clueLoc>in neutrophils</clueLoc>, LPS and TNFalpha <clueType>induce</clueType> a NF-kappaB DNA-binding activity which essentially consists of p50/RelA dimers, and that IFNgamma promotes the binding of STAT1 homodimers to the IFNgamma response region of the FcgammaRI promoter.</clue>
+</event>
+<event KT="Analysis" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<cause idref="T32"/>
+<clue>To circumvent this problem, we developed an <clueExperiment>alternative procedure</clueExperiment> which allowed us to <clueKT>show</clueKT> that <clueLoc>in neutrophils</clueLoc>, LPS and TNFalpha induce a NF-kappaB DNA-binding activity which essentially consists of p50/RelA dimers, and that IFNgamma <clueType>promotes</clueType> the binding of STAT1 homodimers to the IFNgamma response region of the FcgammaRI promoter.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Binding"/>
+<theme idref="T33"/>
+<theme idref="A1"/>
+<clue>To circumvent this problem, we developed an alternative procedure which allowed us to show that in neutrophils, LPS and TNFalpha induce a NF-kappaB DNA-binding activity which essentially consists of p50/RelA dimers, and that IFNgamma promotes the <clueType>binding</clueType> <linkTheme>of</linkTheme> STAT1 homodimers <linkTheme>to</linkTheme> the IFNgamma response region of the FcgammaRI promoter.</clue>
+<comment>TPS: A1</comment></event>
+<sentence id="S7">Moreover, we report that <term id="T38" lex="neutrophil_stimulation" sem="Other"><term id="A3" sem="Cell_natural">neutrophil</term> stimulation</term> with <term id="T39" lex="GM-CSF" sem="Protein_molecule">GM-CSF</term> results in the formation of a <term id="T40" lex="STAT5-containing_DNA-binding_activity" sem="Other"><term id="T41" lex="STAT5" sem="Protein_molecule">STAT5</term>-containing DNA-binding activity</term>.</sentence>
+<event KT="Other" id="E18">
+<type class="Physiological_process"/>
+<theme idref="A3"/>
+<cause idref="T39"/>
+<clue>Moreover, we report that neutrophil <clueType>stimulation</clueType> <linkCause>with</linkCause> GM-CSF results in the formation of a STAT5-containing DNA-binding activity.</clue>
+</event>
+<event KT="Analysis" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="T40"/>
+<cause idref="E18"/>
+<clue>Moreover, we <clueKT>report</clueKT> that neutrophil stimulation with GM-CSF results in the <clueType>formation</clueType> <linkTheme>of</linkTheme> a STAT5-containing DNA-binding activity.</clue>
+</event>
+<sentence id="S8">Collectively, the current findings open new perspectives about mechanisms that are likely to regulate <term id="T42" lex="gene_transcription" sem="Other">gene transcription</term> in <term id="T43" lex="neutrophil" sem="Cell_natural">neutrophils</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E20" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="T42"/>
+<clue>Collectively, the current findings open new perspectives about mechanisms that are <clueKT><clueCL>likely</clueCL></clueKT> to <clueType>regulate</clueType> gene transcription <clueLoc>in neutrophils</clueLoc>.</clue>
+</event>
+<sentence id="S9">In addition, the procedure described herein could prove useful in other <term id="A4" sem="Cell_natural">cell types</term> that express high levels of <term id="T44" lex="endogenous_protease" sem="Protein_family_or_group">endogenous proteases</term>.</sentence>
+<event KT="Other" id="E23">
+<type class="Gene_expression"/>
+<theme idref="T44"/>
+<clue>In addition, the procedure described herein could prove useful in <clueLoc>other cell types</clueLoc> that <clueType>express</clueType> high levels <linkTheme>of</linkTheme> endogenous proteases.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

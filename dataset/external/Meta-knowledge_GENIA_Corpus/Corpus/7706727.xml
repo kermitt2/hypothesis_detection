@@ -1,0 +1,61 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7706727" created="24/01/2007" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7706727</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="cDNA_cloning" sem="Other"><term id="T2" lex="cDNA" sem="DNA_family_or_group">cDNA</term> cloning</term> of a <term id="T3" lex="NGFI-B/nur77-related_transcription_factor" sem="Protein_family_or_group">NGFI-B/nur77-related transcription factor</term> from an <term id="T4" lex="apoptotic_human_T_cell_line" sem="Cell_cultured">apoptotic human T cell line</term>.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">A <term id="T5" lex="human_T_lymphoid_cell_line" sem="Cell_cultured">human T lymphoid cell line</term>, <term id="T6" lex="PEER" sem="Cell_cultured">PEER</term>, dies by <term id="T7" lex="apoptosis" sem="Other">apoptosis</term> in the presence of <term id="T8" lex="PMA" sem="Organic_compound_other">PMA</term> and <term id="T9" lex="calcium_ionophore" sem="Organic_compound_other">calcium ionophore</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Cellular_physiological_process"/>
+<theme idref="T6"/>
+<clue>A human T lymphoid cell line, PEER, <clueType>dies by apoptosis</clueType> in the presence of PMA and calcium ionophore.</clue>
+</event>
+<event KT="Fact" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T8"/>
+<clue>A human T lymphoid cell line, PEER, dies by apoptosis <linkCause>in the presence of</linkCause> PMA and calcium ionophore.</clue>
+</event>
+<event KT="Fact" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T9"/>
+<clue>A human T lymphoid cell line, PEER, dies by apoptosis <linkCause>in the presence of</linkCause> PMA and calcium ionophore.</clue>
+</event>
+<sentence id="S3">A new <term id="T10" lex="gene" sem="DNA_domain_or_region">gene</term>, <term id="T11" lex="TINUR" sem="DNA_domain_or_region">TINUR</term>, was cloned from <term id="T12" lex="apoptotic_PEER_cell" sem="Cell_cultured">apoptotic PEER cells</term>.</sentence>
+<sentence id="S4">The expression of the <term id="T13" lex="TINUR_gene" sem="DNA_domain_or_region">TINUR gene</term> is induced within 1 h after the cross-linking of the <term id="T14" lex="T_cell_Ag_receptor_complex" sem="Protein_molecule">T cell Ag receptor complex</term>.</sentence>
+<event id="E4">
+<type class="Gene_expression"/>
+<theme idref="T13"/>
+<clue>The <clueType>expression</clueType> of the TINUR gene is induced within 1 h after the cross-linking of the T cell Ag receptor complex.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="E6"/>
+<clue>The expression of the TINUR gene is <clueType>induced</clueType> <clueTime>within 1 h</clueTime> <linkCause>after</linkCause> the cross-linking of the T cell Ag receptor complex.</clue>
+</event>
+<event id="E6">
+<type class="Binding"/>
+<theme idref="T14"/>
+<clue>The expression of the TINUR gene is induced within 1 h after the <clueType>cross-linking</clueType> <linkTheme>of</linkTheme> the T cell Ag receptor complex.</clue>
+</event>
+<sentence id="S5"><term id="T15" lex="TINUR" sem="Protein_molecule">TINUR</term> belongs to the <term id="T16" lex="NGFI-B/nur77_family" sem="Protein_family_or_group">NGFI-B/nur77 family</term> of the <term id="T17" lex="steroid_receptor_superfamily" sem="Protein_family_or_group">steroid receptor superfamily</term> and is an <term id="T18" lex="orphan_receptor" sem="Protein_family_or_group">orphan receptor</term>.</sentence>
+<sentence id="S6"><term id="T19" lex="TINUR" sem="Protein_molecule">TINUR</term> binds to the same <term id="T20" lex="DNA_sequence" sem="DNA_domain_or_region">DNA sequence</term> as <term id="T21" lex="NGFI-B/nur77" sem="Protein_molecule">NGFI-B/nur77</term>.</sentence>
+<event id="E7">
+<type class="Binding"/>
+<theme idref="T19"/>
+<theme idref="T20"/>
+<clue>TINUR <clueType>binds</clueType> <linkTheme>to</linkTheme> the same DNA sequence as NGFI-B/nur77.</clue>
+<comment>NER: T15 &amp; T19 sem mod, DNA_domain_or_region -&gt; Protein_molecule</comment></event>
+<event id="E8">
+<type class="Binding"/>
+<theme idref="T21"/>
+<theme idref="T20"/>
+<clue>TINUR <clueType>binds</clueType> <linkTheme>to</linkTheme> the same DNA sequence as NGFI-B/nur77.</clue>
+<comment>CAUTION: SEE</comment></event>
+<sentence id="S7">We also propose that the <term id="T22" lex="NGFI-B/nur77_family" sem="Protein_family_or_group">NGFI-B/nur77 family</term> can be classified into two subtypes.</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

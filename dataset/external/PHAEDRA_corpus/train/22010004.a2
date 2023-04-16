@@ -1,0 +1,36 @@
+T36	DDI 128 139	interaction
+T44	Adverse_effect 49 54	after
+T50	DDI 1125 1136	interaction
+T9	Adverse_effect 1207 1214	induced
+T11	DDI 1847 1858	interaction
+T20	Adverse_effect 199 217	led to synergistic
+T59	DDI 1488 1500	interactions
+T61	Adverse_effect 1527 1538	synergistic
+T14	Potential_therapeutic_effect 441 450	treatment
+T19	Adverse_effect 521 530	presented
+T39	Adverse_effect 1894 1902	elevated
+R1	is_equivalent Arg1:T10 Arg2:T7
+E1	DDI:T36 has_cue:T41 has_participant:T3 has_participant:T4
+E4	DDI:T50 has_participant:T21 has_participant:T22 has_cue:T34
+E5	Combination:T52 has_participant:T3 has_participant:T4
+E9	DDI:T11 has_participant:T29 has_participant:T30
+E17	DDI:T59 has_cue:T60 has_participant:T26 has_participant:T28
+E19	Combination:T63 has_participant:T28 has_participant:T26
+E3	Combination:T13 has_participant:T2 has_participant:T1
+E10	Combination:T31 has_participant:T10 has_participant:T6
+E2	Adverse_effect:T44 affects:T42 has_agent:E3 has_cue:T8
+E8	Adverse_effect:T9 affects:T24 has_agent:T23
+E13	Adverse_effect:T20 has_cue:T54 affects:T5 has_agent:E1
+E18	Adverse_effect:T61 has_cue:T62 has_agent:E19 affects:T27
+E6	Potential_therapeutic_effect:T14 has_subject:T37 has_agent:T6
+E7	Adverse_effect:T19 has_agent:E10 affects:T43 has_cue:T17
+E11	Adverse_effect:T9 affects:T24 has_agent:T25 has_cue:T35
+E12	Adverse_effect:T39 has_agent:E9 affects:T38
+A1	Speculated E1
+A3	Speculated E13
+A6	Speculated E17
+A7	Speculated E18
+A2	Manner E2 High
+A4	Manner E7 High
+A5	Speculated E4
+A8	Manner E11 High

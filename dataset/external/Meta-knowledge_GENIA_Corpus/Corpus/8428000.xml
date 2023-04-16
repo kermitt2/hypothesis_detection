@@ -1,0 +1,137 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8428000" created="19/10/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8428000</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="Interleukin-3_expression" sem="Other"><term id="T2" lex="interleukin-3" sem="Protein_molecule">Interleukin-3</term> expression</term> by <term id="T3" lex="activated_T_cell" sem="Cell_natural">activated <term id="A1" sem="Cell_natural">T cells</term></term> involves an inducible, <term id="T4" lex="T-cell-specific_factor" sem="Protein_family_or_group">T-cell-specific factor</term> and an <term id="T5" lex="octamer_binding_protein" sem="Protein_domain_or_region">octamer binding protein</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression"/>
+<theme idref="T2"/>
+<clue>Interleukin-3 <clueType>expression</clueType> <clueLoc>by activated T cells</clueLoc> involves an inducible, T-cell-specific factor and an octamer binding protein.</clue>
+</event>
+<event id="E2">
+<type class="Correlation"/>
+<theme idref="E1"/>
+<theme idref="T4"/>
+<clue>Interleukin-3 expression by activated T cells <clueType>involves</clueType> an inducible, T-cell-specific factor and an octamer binding protein.</clue>
+</event>
+<event id="E3">
+<type class="Correlation"/>
+<theme idref="E1"/>
+<theme idref="T5"/>
+<clue>Interleukin-3 expression by activated T cells <clueType>involves</clueType> an inducible, T-cell-specific factor and an octamer binding protein.</clue>
+</event>
+<event id="E4">
+<type class="Physiological_process"/>
+<theme idref="A1"/>
+<clue>Interleukin-3 expression by <clueType>activated</clueType> T cells involves an inducible, T-cell-specific factor and an octamer binding protein.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T6" lex="Interleukin-3" sem="Protein_molecule">Interleukin-3</term> (<term id="T7" lex="IL-3" sem="Protein_molecule">IL-3</term>) is exclusively expressed by <term id="T8" lex="activated_T_cell" sem="Cell_natural">activated <term id="A2" sem="Cell_natural">T</term></term> and <term id="T9" lex="natural_killer_cell" sem="Cell_natural">natural killer <term id="A3" sem="Cell_natural">cells</term></term>, a function that is tightly controlled both in a lineage-specific and in a stimulation-dependent manner.</sentence>
+<event KT="Fact" id="E300">
+<type class="Gene_expression"/>
+<theme idref="T7"/>
+<clue>Interleukin-3 (IL-3) is exclusively <clueType>expressed</clueType> <clueLoc>by activated T</clueLoc> and natural killer <clueLoc>cells</clueLoc>, a function that is tightly controlled both in a lineage-specific and in a stimulation-dependent manner.</clue>
+</event>
+<event KT="Fact" id="E301">
+<type class="Gene_expression"/>
+<theme idref="T7"/>
+<clue>Interleukin-3 (IL-3) is exclusively <clueType>expressed</clueType> <clueLoc>by</clueLoc> activated T and <clueLoc>natural killer cells</clueLoc>, a function that is tightly controlled both in a lineage-specific and in a stimulation-dependent manner.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Physiological_process"/>
+<theme idref="A2" idref1="A3"/>
+<clue>Interleukin-3 (IL-3) is exclusively expressed by <clueType>activated</clueType> T and natural killer cells, a function that is tightly controlled both in a lineage-specific and in a stimulation-dependent manner.</clue>
+</event>
+<event KT="Fact" id="E7">
+<type class="Regulation"/>
+<theme idref="T7"/>
+<clue>Interleukin-3 (IL-3) is exclusively expressed by activated T and natural killer cells, a function that is tightly <clueType>controlled</clueType> both in a lineage-specific and in a stimulation-dependent manner.</clue>
+</event>
+<sentence id="S3">We have investigated the protein binding characteristics and functional importance of the <term id="T10" lex="ACT-1-activating_region" sem="DNA_domain_or_region">ACT-1-activating region</term> of the <term id="T11" lex="IL-3" sem="Protein_molecule">IL-3</term> promoter.</sentence>
+<sentence id="S4">This region binds an inducible, <term id="T12" lex="T-cell-specific_factor" sem="Protein_family_or_group">T-cell-specific factor</term> over its <term id="T13" lex="5&apos;_end" sem="DNA_domain_or_region">5&apos; end</term>, a site that is necessary for the expression of <term id="T14" lex="IL-3" sem="Protein_molecule">IL-3</term> in the absence of other <term id="A5" sem="DNA_domain_or_region">upstream elements</term>.</sentence>
+<event id="E8">
+<type class="Binding"/>
+<theme idref="T10"/>
+<theme idref="T12"/>
+<clue>This region <clueType>binds</clueType> an inducible, T-cell-specific factor over its 5&apos; end, a site that is necessary for the expression of IL-3 in the absence of other upstream elements.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Gene_expression"/>
+<theme idref="T14"/>
+<clue>This region binds an inducible, T-cell-specific factor over its 5&apos; end, a site that is necessary for the <clueType>expression</clueType> <linkTheme>of</linkTheme> IL-3 in the absence of other upstream elements.</clue>
+</event>
+<event KT="Fact" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="T10" idref1="T13"/>
+<clue>This region binds an inducible, T-cell-specific factor over <corefCause>its</corefCause> 5&apos; end, a site that is <clueType>necessary</clueType> <linkTheme>for</linkTheme> the expression of IL-3 in the absence of other upstream elements.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E11">
+<type class="Correlation"/>
+<theme idref="E10"/>
+<theme idref="A5"/>
+<clue>This region binds an inducible, T-cell-specific factor over its 5&apos; end, a site that is necessary <linkTheme>for</linkTheme> the expression of IL-3 <clueType>in the <cluePolarity>absence</cluePolarity> of</clueType> other upstream elements.</clue>
+</event>
+<sentence id="S5">Over its <term id="T15" lex="3&apos;_end" sem="DNA_domain_or_region">3&apos; end</term>, it binds a <term id="A6" sem="Protein_molecule">factor</term> that is ubiquitously and constitutively expressed.</sentence>
+<event id="E12">
+<type class="Binding"/>
+<theme idref="T10"/>
+<theme idref="A6"/>
+<clue>Over its 3&apos; end, <corefTheme idref1="T10">it</corefTheme> <clueType>binds</clueType> a factor that is ubiquitously and constitutively expressed.</clue>
+</event>
+<event id="E13">
+<type class="Gene_expression"/>
+<theme idref="A6"/>
+<clue>Over its 3&apos; end, it binds a factor that is ubiquitously and constitutively <clueType>expressed</clueType>.</clue>
+</event>
+<sentence id="S6">This factor is <term id="T16" lex="Oct-1" sem="Protein_molecule">Oct-1</term> or an <term id="T17" lex="immunologically_related_octamer-binding_protein" sem="Protein_family_or_group">immunologically related octamer-binding protein</term>, and it plays a role in coordinating the activity of several <term id="T18" lex="regulatory_element" sem="DNA_domain_or_region">regulatory elements</term>.</sentence>
+<event id="E14">
+<type class="Regulation"/>
+<theme idref="T18"/>
+<clue>This factor is Oct-1 or an immunologically related octamer-binding protein, and it plays a role in <clueType>coordinating</clueType> the activity of several regulatory elements.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="T16"/>
+<clue>This factor is Oct-1 or an immunologically related octamer-binding protein, and it <clueType>plays a role</clueType> <linkTheme>in</linkTheme> coordinating the activity of several regulatory elements.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="T17"/>
+<clue>This factor is Oct-1 or an immunologically related octamer-binding protein, and it <clueType>plays a role</clueType> <linkTheme>in</linkTheme> coordinating the activity of several regulatory elements.</clue>
+</event>
+<sentence id="S7">These characteristics make the <term id="T19" lex="ACT-1_site" sem="DNA_domain_or_region">ACT-1 site</term> analogous to the activating <term id="T20" lex="ARRE-1_site" sem="DNA_domain_or_region">ARRE-1 site</term> in the <term id="T21" lex="IL-2_promoter" sem="DNA_domain_or_region">IL-2 promoter</term>.</sentence>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="T20"/>
+<clue>These characteristics make the ACT-1 site analogous to the <clueType>activating</clueType> ARRE-1 site in the IL-2 promoter.</clue>
+</event>
+<sentence id="S8">Furthermore, and despite a lack of sequence homology, the promoters of <term id="T22" lex="IL-3" sem="Protein_molecule">IL-3</term> and <term id="T23" lex="IL-2" sem="Protein_molecule">IL-2</term> share an <term id="A7" sem="Other">organizational pattern of regulatory elements</term> that is likely to be important for the <term id="T24" lex="T-cell-specific_expression" sem="Other">T-cell-specific expression</term> of these genes.</sentence>
+<event KT="Other" id="E18">
+<type class="Gene_expression"/>
+<theme idref="T22"/>
+<clue>Furthermore, and despite a lack of sequence homology, the promoters of IL-3 and IL-2 share an organizational pattern of regulatory elements that is likely to be important for the <clueLoc>T-cell-specific</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>these genes</corefTheme>.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Gene_expression"/>
+<theme idref="T23"/>
+<clue>Furthermore, and despite a lack of sequence homology, the promoters of IL-3 and IL-2 share an organizational pattern of regulatory elements that is likely to be important for the <clueLoc>T-cell-specific</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>these genes</corefTheme>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E20" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="A7"/>
+<clue>Furthermore, and despite a lack of sequence homology, the promoters of IL-3 and IL-2 share an organizational pattern of regulatory elements that is <clueKT><clueCL>likely</clueCL></clueKT> to be <clueType>important</clueType> <linkTheme>for</linkTheme> the T-cell-specific expression of these genes.</clue>
+<comment>TPS: A7</comment></event>
+<event CL="L2" KT="Analysis" id="E21" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="A7"/>
+<clue>Furthermore, and despite a lack of sequence homology, the promoters of IL-3 and IL-2 share an organizational pattern of regulatory elements that is <clueKT><clueCL>likely</clueCL></clueKT> to be <clueType>important</clueType> <linkTheme>for</linkTheme> the T-cell-specific expression of these genes.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

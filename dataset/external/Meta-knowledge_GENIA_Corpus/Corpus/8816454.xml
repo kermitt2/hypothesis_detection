@@ -1,0 +1,212 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8816454" created="23/11/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8816454</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Cloning and characterization of the <term id="A4" sem="Protein_molecule"><term id="T1" lex="beta_subunit" sem="Protein_molecule">beta subunit</term> of <term id="T2" lex="human_proximal_sequence_element-binding_transcription_factor" sem="Protein_complex"><term id="T3" lex="human_proximal_sequence_element" sem="DNA_domain_or_region">human proximal sequence element</term>-binding transcription factor</term></term> and its involvement in transcription of <term id="T4" lex="small_nuclear_RNA_gene" sem="DNA_family_or_group">small nuclear RNA genes</term> by <cons id="T5" lex="(AND RNA_polymerase_II RNA_polymerase_III)" sem="(AND Protein_molecule Protein_molecule)"><frag id="F1"><term id="A1" sem="Protein_molecule">RNA polymerases</term></frag> <frag id="F2"><term id="A2" sem="Protein_molecule">II</term></frag> and <frag id="F3"><term id="A3" sem="Protein_molecule">III</term></frag></cons>.</sentence>
+<event KT="Other" id="E1">
+<type class="Transcription"/>
+<theme idref="T4"/>
+<cause idref="A1" idref1="A2"/>
+<clue>Cloning and characterization of the beta subunit of human proximal sequence element-binding transcription factor and its involvement in <clueType>transcription</clueType> <linkTheme>of</linkTheme> small nuclear RNA genes by RNA polymerases II and III.</clue>
+<comment>CAUTION: cause</comment></event>
+<event KT="Other" id="E2">
+<type class="Transcription"/>
+<theme idref="T4"/>
+<cause idref="A1" idref1="A3"/>
+<clue>Cloning and characterization of the beta subunit of human proximal sequence element-binding transcription factor and its involvement in <clueType>transcription</clueType> <linkTheme>of</linkTheme> small nuclear RNA genes by RNA polymerases II and III.</clue>
+<comment>CAUTION: cause</comment></event>
+<event KT="Investigation" id="E3">
+<type class="Correlation"/>
+<theme idref="A4"/>
+<theme idref="E1"/>
+<clue>Cloning and characterization of the beta subunit of human proximal sequence element-binding transcription factor and <corefTheme idref1="A4">its</corefTheme> <clueType>involvement</clueType> <linkTheme>in</linkTheme> transcription of small nuclear RNA genes by RNA polymerases II and III.</clue>
+<comment>TPS: A4</comment></event>
+<event KT="Investigation" id="E4">
+<type class="Correlation"/>
+<theme idref="A4"/>
+<theme idref="E2"/>
+<clue>Cloning and characterization of the beta subunit of human proximal sequence element-binding transcription factor and <corefTheme idref1="A4">its</corefTheme> <clueType>involvement</clueType> <linkTheme>in</linkTheme> transcription of small nuclear RNA genes by RNA polymerases II and III.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T6" lex="proximal_sequence_element_(PSE)-binding_transcription_factor" sem="Protein_complex">proximal sequence element (PSE)-binding transcription factor</term> (<term id="T7" lex="PTF" sem="Protein_complex">PTF</term>), which binds the <term id="T8" lex="PSE" sem="DNA_domain_or_region">PSE</term> of both <term id="T9" lex="RNA_polymerase_II-_and_RNA_polymerase_III-transcribed_mammalian_small_nuclear_RNA_(snRNA)_gene" sem="DNA_family_or_group"><term id="T10" lex="RNA_polymerase_II" sem="Protein_molecule">RNA polymerase II</term>- and <term id="T11" lex="RNA_polymerase_III" sem="Protein_molecule">RNA polymerase III</term>-<term id="A5" sem="DNA_family_or_group">transcribed</term> <term id="T12" lex="mammalian_small_nuclear_RNA_(snRNA)_gene" sem="DNA_family_or_group">mammalian small nuclear RNA (snRNA) genes</term></term>, is essential for their transcription.</sentence>
+<event KT="Fact" id="E5">
+<type class="Binding"/>
+<theme idref="T7"/>
+<theme idref="T12"/>
+<clue>The proximal sequence element (PSE)-binding transcription factor (PTF), which <clueType>binds</clueType> the PSE of both RNA polymerase II- and RNA polymerase III-transcribed mammalian small nuclear RNA (snRNA) genes, is essential for their transcription.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Transcription"/>
+<theme idref="T10" idref1="A5" idref2="T12"/>
+<clue>The proximal sequence element (PSE)-binding transcription factor (PTF), which binds the PSE of both RNA polymerase II- and RNA polymerase III-transcribed mammalian small nuclear RNA (snRNA) genes, is essential for their <clueType>transcription</clueType>.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Transcription"/>
+<theme idref="T11" idref1="A5" idref2="T12"/>
+<clue>The proximal sequence element (PSE)-binding transcription factor (PTF), which binds the PSE of both RNA polymerase II- and RNA polymerase III-transcribed mammalian small nuclear RNA (snRNA) genes, is essential for their <clueType>transcription</clueType>.</clue>
+</event>
+<event KT="Fact" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="E5"/>
+<clue>The proximal sequence element (PSE)-binding transcription factor (PTF), which binds the PSE of both RNA polymerase II- and RNA polymerase III-transcribed mammalian small nuclear RNA (snRNA) genes, is <clueType>essential</clueType> <linkTheme>for</linkTheme> their transcription.</clue>
+</event>
+<event KT="Fact" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="E5"/>
+<clue>The proximal sequence element (PSE)-binding transcription factor (PTF), which binds the PSE of both RNA polymerase II- and RNA polymerase III-transcribed mammalian small nuclear RNA (snRNA) genes, is <clueType>essential</clueType> <linkTheme>for</linkTheme> their transcription.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Transcription"/>
+<theme idref="T12"/>
+<cause idref="T10"/>
+<clue>The proximal sequence element (PSE)-binding transcription factor (PTF), which binds the PSE of both RNA polymerase II- and RNA polymerase III-<clueType>transcribed</clueType> mammalian small nuclear RNA (snRNA) genes, is essential for their transcription.</clue>
+<comment>CAUTION : cause</comment></event>
+<event KT="Other" id="E11">
+<type class="Transcription"/>
+<theme idref="T12"/>
+<cause idref="T11"/>
+<clue>The proximal sequence element (PSE)-binding transcription factor (PTF), which binds the PSE of both RNA polymerase II- and RNA polymerase III-<clueType>transcribed</clueType> mammalian small nuclear RNA (snRNA) genes, is essential for their transcription.</clue>
+<comment>CAUTION: cause</comment></event>
+<sentence id="S3">We previously reported the <term id="T13" lex="purification" sem="Other">purification</term> of <term id="T14" lex="human_PTF" sem="Protein_complex">human PTF</term>, a complex of <term id="T15" lex="four_subunit" sem="Protein_molecule">four subunits</term>, and the <term id="T16" lex="molecular_cloning" sem="Other">molecular cloning</term> and characterization of <cons id="T17" lex="(AND PTF_gamma_subunit PTF_delta_subunit)" sem="(AND Protein_molecule Protein_molecule)"><frag id="F4">PTF</frag> <frag id="F5">gamma</frag> and <frag id="F6">delta</frag> <frag id="F7">subunits</frag></cons>.</sentence>
+<sentence id="S4">Here we describe the isolation and expression of a <term id="T18" lex="cDNA" sem="DNA_family_or_group">cDNA</term> encoding <term id="T19" lex="PTF_beta" sem="Protein_molecule">PTF beta</term>, as well as functional studies using <term id="T20" lex="anti-PTF_beta_antibody" sem="Protein_family_or_group">anti-<term id="T21" lex="PTF_beta" sem="Protein_molecule">PTF beta</term> antibodies</term>.</sentence>
+<event KT="Analysis" id="E12">
+<type class="Gene_expression"/>
+<theme idref="T19"/>
+<clue>Here we <clueKT>describe</clueKT> the isolation and <clueType>expression</clueType> <linkTheme>of</linkTheme> a cDNA encoding PTF beta, as well as functional studies using anti-PTF beta antibodies.</clue>
+</event>
+<sentence id="S5">Native <term id="T22" lex="PTF_beta" sem="Protein_molecule">PTF beta</term>, in either protein fractions or a <term id="T23" lex="PTF-Oct-1-DNA_complex" sem="Protein_complex">PTF-Oct-1-DNA complex</term>, can be recognized by <term id="A6" sem="Protein_family_or_group"><term id="T24" lex="polyclonal_antibody" sem="Protein_family_or_group">polyclonal antibodies</term> raised against <term id="T25" lex="recombinant_PTF_beta" sem="Protein_molecule">recombinant <term id="T26" lex="PTF_beta" sem="Protein_molecule">PTF beta</term></term></term>.</sentence>
+<event CL="L2" KT="Analysis" id="E13">
+<type class="Binding"/>
+<theme idref="T22"/>
+<theme idref="A6"/>
+<clue>Native PTF beta, in either protein fractions or a PTF-Oct-1-DNA complex, <clueCL>can</clueCL> be <clueType><clueKT>recognized</clueKT></clueType> <linkTheme>by</linkTheme> polyclonal antibodies raised against recombinant PTF beta.</clue>
+<comment>TPS: A6</comment></event>
+<sentence id="S6">Immunodepletion studies show that <term id="T27" lex="PTF_beta" sem="Protein_molecule">PTF beta</term> is required for transcription of both classes of <term id="T28" lex="snRNA_gene" sem="DNA_family_or_group">snRNA genes</term> in vitro.</sentence>
+<event KT="Other" id="E14">
+<type class="Transcription"/>
+<theme idref="T10" idref1="A5" idref2="T12"/>
+<clue>Immunodepletion studies show that PTF beta is required for <clueType>transcription</clueType> <linkTheme>of</linkTheme> <corefTheme>both classes of snRNA genes</corefTheme> in vitro.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Transcription"/>
+<theme idref="T11" idref1="A5" idref2="T12"/>
+<clue>Immunodepletion studies show that PTF beta is required for <clueType>transcription</clueType> <linkTheme>of</linkTheme> <corefTheme>both classes of snRNA genes</corefTheme> in vitro.</clue>
+</event>
+<event KT="Analysis" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="T27"/>
+<clue>Immunodepletion studies <clueKT>show</clueKT> that PTF beta is <clueType>required</clueType> <linkTheme>for</linkTheme> transcription of both classes of snRNA genes in vitro.</clue>
+</event>
+<event KT="Analysis" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="T27"/>
+<clue>Immunodepletion studies <clueKT>show</clueKT> that PTF beta is <clueType>required</clueType> <linkTheme>for</linkTheme> transcription of both classes of snRNA genes in vitro.</clue>
+</event>
+<sentence id="S7">In addition, <term id="T29" lex="immunoprecipitation_analysis" sem="Other">immunoprecipitation analyses</term> demonstrate that substantial and similar molar amounts of <term id="T30" lex="TATA-binding_protein" sem="Protein_molecule">TATA-binding protein</term> (<term id="T31" lex="TBP" sem="Protein_molecule">TBP</term>) and <term id="T32" lex="TFIIIB90" sem="Protein_molecule">TFIIIB90</term> can weakly associate with <term id="T33" lex="PTF" sem="Protein_complex">PTF</term> at low <term id="T34" sem="Inorganic_compound">salt</term> conditions, but this association is dramatically reduced at high <term id="T35" sem="Inorganic_compound">salt</term> concentrations.</sentence>
+<event CL="L2" KT="Analysis" Manner="Low" id="E18">
+<type class="Binding"/>
+<theme idref="T31"/>
+<theme idref="T33"/>
+<clue>In addition, <clueExperiment>immunoprecipitation analyses</clueExperiment> demonstrate that substantial and similar molar amounts of TATA-binding protein (TBP) and TFIIIB90 <clueCL>can</clueCL> <clueManner>weakly</clueManner> <clueType><clueKT>associate</clueKT></clueType> <linkTheme>with</linkTheme> PTF <clueLoc>at low salt conditions</clueLoc>, but this association is dramatically reduced at high salt concentrations.</clue>
+</event>
+<event CL="L2" KT="Analysis" Manner="Low" id="E19">
+<type class="Binding"/>
+<theme idref="T32"/>
+<theme idref="T33"/>
+<clue>In addition, <clueExperiment>immunoprecipitation analyses</clueExperiment> demonstrate that substantial and similar molar amounts of TATA-binding protein (TBP) and TFIIIB90 <clueCL>can</clueCL> <clueManner>weakly</clueManner> <clueType><clueKT>associate</clueKT></clueType> <linkTheme>with</linkTheme> PTF <clueLoc>at low salt conditions</clueLoc>, but this association is dramatically reduced at high salt concentrations.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Binding"/>
+<theme idref="T31"/>
+<theme idref="T33"/>
+<clue>In addition, immunoprecipitation analyses demonstrate that substantial and similar molar amounts of TATA-binding protein (TBP) and TFIIIB90 can weakly <clueType>associate</clueType> <linkTheme>with</linkTheme> PTF at low salt conditions, but this association is dramatically reduced at high salt concentrations.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Binding"/>
+<theme idref="T32"/>
+<theme idref="T33"/>
+<clue>In addition, immunoprecipitation analyses demonstrate that substantial and similar molar amounts of TATA-binding protein (TBP) and TFIIIB90 can weakly <clueType>associate</clueType> <linkTheme>with</linkTheme> PTF at low salt conditions, but this association is dramatically reduced at high salt concentrations.</clue>
+</event>
+<event KT="Analysis" Manner="High" id="E22">
+<type class="Negative_regulation"/>
+<theme idref="E20"/>
+<clue>In addition, <clueExperiment>immunoprecipitation analyses</clueExperiment> <clueKT>demonstrate</clueKT> that substantial and similar molar amounts of TATA-binding protein (TBP) and TFIIIB90 can weakly associate with PTF at low salt conditions, but <corefTheme>this association</corefTheme> is <clueManner>dramatically</clueManner> <clueType>reduced</clueType> <clueLoc>at high salt concentrations.</clueLoc></clue>
+</event>
+<event KT="Analysis" Manner="High" id="E23">
+<type class="Negative_regulation"/>
+<theme idref="E21"/>
+<clue>In addition, <clueExperiment>immunoprecipitation analyses</clueExperiment> <clueKT>demonstrate</clueKT> that substantial and similar molar amounts of TATA-binding protein (TBP) and TFIIIB90 can weakly associate with PTF at low salt conditions, but <corefTheme>this association</corefTheme> is <clueManner>dramatically</clueManner> <clueType>reduced</clueType> <clueLoc>at high salt concentrations.</clueLoc></clue>
+</event>
+<sentence id="S8">Along with our previous demonstration of both physical interactions between <term id="T36" lex="PTF_gamma/PTF_delta" sem="Protein_complex"><term id="A8" sem="Protein_molecule"><term id="T37" lex="PTF" sem="Protein_complex">PTF</term> gamma</term>/<term id="A9" sem="Protein_molecule">PTF delta</term></term> and <term id="T38" lex="TBP" sem="Protein_molecule">TBP</term> and the involvement of <term id="T39" lex="TFIIIB90" sem="Protein_molecule">TFIIIB90</term> in the transcription of <term id="T40" lex="class_III_snRNA_gene" sem="DNA_family_or_group">class III <term id="T41" lex="snRNA_gene" sem="DNA_family_or_group">snRNA genes</term></term>, these results are consistent with the notion that a <term id="T42" lex="TBP-containing_complex" sem="Protein_complex"><term id="T43" lex="TBP" sem="Protein_molecule">TBP</term>-containing complex</term> related to <term id="T44" lex="TFIIIB" sem="Protein_complex">TFIIIB</term> is required for the transcription of <term id="T45" lex="class_III_snRNA_gene" sem="DNA_family_or_group">class III <term id="T46" lex="snRNA_gene" sem="DNA_family_or_group">snRNA genes</term></term>, and acts through weak interaction with the <term id="T47" lex="four-subunit_PTF" sem="Protein_complex">four-subunit PTF</term>.</sentence>
+<event KT="Analysis" Source="Other" id="E24">
+<type class="Binding"/>
+<theme idref="A8"/>
+<theme idref="T38"/>
+<clue>Along with our <clueSource>previous</clueSource> <clueKT>demonstration</clueKT> of both <clueType>physical interactions</clueType> <linkTheme>between</linkTheme> PTF gamma/PTF delta and TBP and the involvement of TFIIIB90 in the transcription of class III snRNA genes, these results are consistent with the notion that a TBP-containing complex related to TFIIIB is required for the transcription of class III snRNA genes, and acts through weak interaction with the four-subunit PTF.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E25">
+<type class="Binding"/>
+<theme idref="A9"/>
+<theme idref="T38"/>
+<clue>Along with our <clueSource>previous</clueSource> <clueKT>demonstration</clueKT> of both <clueType>physical interactions</clueType> <linkTheme>between</linkTheme> PTF gamma/PTF delta and TBP and the involvement of TFIIIB90 in the transcription of class III snRNA genes, these results are consistent with the notion that a TBP-containing complex related to TFIIIB is required for the transcription of class III snRNA genes, and acts through weak interaction with the four-subunit PTF.</clue>
+</event>
+<event id="E26">
+<type class="Transcription"/>
+<theme idref="T40"/>
+<clue>Along with our previous demonstration of both physical interactions between PTF gamma/PTF delta and TBP and the involvement of TFIIIB90 in the <clueType>transcription</clueType> <linkTheme>of</linkTheme> class III snRNA genes, these results are consistent with the notion that a TBP-containing complex related to TFIIIB is required for the transcription of class III snRNA genes, and acts through weak interaction with the four-subunit PTF.</clue>
+</event>
+<event id="E27">
+<type class="Correlation"/>
+<theme idref="E26"/>
+<theme idref="T39"/>
+<clue>Along with our previous demonstration of both physical interactions between PTF gamma/PTF delta and TBP and the <clueType>involvement</clueType> <linkTheme>of</linkTheme> TFIIIB90 <linkTheme>in</linkTheme> the transcription of class III snRNA genes, these results are consistent with the notion that a TBP-containing complex related to TFIIIB is required for the transcription of class III snRNA genes, and acts through weak interaction with the four-subunit PTF.</clue>
+</event>
+<event KT="Other" id="E28">
+<type class="Transcription"/>
+<theme idref="T45"/>
+<clue>Along with our previous demonstration of both physical interactions between PTF gamma/PTF delta and TBP and the involvement of TFIIIB90 in the transcription of class III snRNA genes, these results are consistent with the notion that a TBP-containing complex related to TFIIIB is required for the <clueType>transcription</clueType> <linkTheme>of</linkTheme> class III snRNA genes, and acts through weak interaction with the four-subunit PTF.</clue>
+</event>
+<event KT="Other" id="E29">
+<type class="Correlation"/>
+<theme idref="T42"/>
+<theme idref="T44"/>
+<clue>Along with our previous demonstration of both physical interactions between PTF gamma/PTF delta and TBP and the involvement of TFIIIB90 in the transcription of class III snRNA genes, these results are consistent with the notion that a TBP-containing complex <clueType>related</clueType> <linkTheme>to</linkTheme> TFIIIB is required for the transcription of class III snRNA genes, and acts through weak interaction with the four-subunit PTF.</clue>
+</event>
+<event KT="Analysis" id="E30">
+<type class="Positive_regulation"/>
+<theme idref="E28"/>
+<cause idref="E29"/>
+<clue>Along with our previous demonstration of both physical interactions between PTF gamma/PTF delta and TBP and the involvement of TFIIIB90 in the transcription of class III snRNA genes, these results are consistent with the <clueKT>notion</clueKT> that a TBP-containing complex related to TFIIIB is <clueType>required</clueType> <linkTheme>for</linkTheme> the transcription of class III snRNA genes, and acts through weak interaction with the four-subunit PTF.</clue>
+</event>
+<event KT="Other" Manner="Low" id="E31">
+<type class="Binding"/>
+<theme idref="T47"/>
+<theme idref="T42"/>
+<clue>Along with our previous demonstration of both physical interactions between PTF gamma/PTF delta and TBP and the involvement of TFIIIB90 in the transcription of class III snRNA genes, these results are consistent with the notion that a TBP-containing complex related to TFIIIB is required for the transcription of class III snRNA genes, and acts through <clueManner>weak</clueManner> <clueType>interaction</clueType> <linkTheme>with</linkTheme> the four-subunit PTF.</clue>
+</event>
+<event KT="Other" Manner="Low" id="E32">
+<type class="Binding"/>
+<theme idref="T47"/>
+<theme idref="T44"/>
+<clue>Along with our previous demonstration of both physical interactions between PTF gamma/PTF delta and TBP and the involvement of TFIIIB90 in the transcription of class III snRNA genes, these results are consistent with the notion that a TBP-containing complex related to TFIIIB is required for the transcription of class III snRNA genes, and acts through <clueManner>weak</clueManner> <clueType>interaction</clueType> <linkTheme>with</linkTheme> the four-subunit PTF.</clue>
+</event>
+<event KT="Analysis" id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E30"/>
+<cause idref="E31"/>
+<clue>Along with our previous demonstration of both physical interactions between PTF gamma/PTF delta and TBP and the involvement of TFIIIB90 in the transcription of class III snRNA genes, these results are consistent with the <clueKT>notion</clueKT> that a TBP-containing complex related to TFIIIB is required for the transcription of class III snRNA genes, and <clueType>acts</clueType> <linkCause>through</linkCause> weak interaction with the four-subunit PTF.</clue>
+</event>
+<event KT="Analysis" id="E34">
+<type class="Positive_regulation"/>
+<theme idref="E30"/>
+<cause idref="E32"/>
+<clue>Along with our previous demonstration of both physical interactions between PTF gamma/PTF delta and TBP and the involvement of TFIIIB90 in the transcription of class III snRNA genes, these results are consistent with the <clueKT>notion</clueKT> that a TBP-containing complex related to TFIIIB is required for the transcription of class III snRNA genes, and <clueType>acts</clueType> <linkCause>through</linkCause> weak interaction with the four-subunit PTF.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

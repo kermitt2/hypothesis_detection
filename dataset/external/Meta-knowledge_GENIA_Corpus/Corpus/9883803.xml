@@ -1,0 +1,196 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9883803" created="25/11/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9883803</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Binding of <term id="T1" lex="HMG-I(Y)" sem="Protein_molecule">HMG-I(Y)</term> elicits structural changes in a <term id="A1" sem="DNA_domain_or_region">silencer of the <term id="T2" lex="human_beta-globin_gene" sem="DNA_domain_or_region">human beta-globin gene</term></term>.</sentence>
+<event id="E1">
+<type class="Binding"/>
+<theme idref="T1"/>
+<clue><clueType>Binding</clueType> <linkTheme>of</linkTheme> HMG-I(Y) elicits structural changes in a silencer of the human beta-globin gene.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="E1"/>
+<clue>Binding of HMG-I(Y) <clueType>elicits</clueType> structural changes in a silencer of the human beta-globin gene.</clue>
+</event>
+<event id="E2">
+<type class="Mutagenesis"/>
+<theme idref="A1"/>
+<clue>Binding of HMG-I(Y) elicits <clueType>structural changes</clueType> <linkTheme>in</linkTheme> a silencer of the human beta-globin gene.</clue>
+<comment>TPS: A1</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="A2" sem="Protein_family_or_group">Proteins</term> involved in repression of the <term id="T3" lex="human_beta-globin_gene" sem="DNA_domain_or_region">human beta-globin gene</term> may be useful in the treatment of <term id="T4" lex="sickle_cell_anemia" sem="Other">sickle cell anemia</term>, in conjunction with therapy to reactivate <term id="T5" lex="fetal_globin_gene" sem="DNA_family_or_group">fetal globin genes</term>.</sentence>
+<event CL="L1" KT="Analysis" id="E3">
+<type class="Regulation"/>
+<theme idref="E4"/>
+<cause idref="A2"/>
+<clue>Proteins <clueType>involved</clueType> <linkTheme>in</linkTheme> repression of the human beta-globin gene <clueKT><clueCL>may</clueCL></clueKT> be useful in the treatment of sickle cell anemia, in conjunction with therapy to reactivate fetal globin genes.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Negative_regulation"/>
+<theme idref="T3"/>
+<clue>Proteins involved in <clueType>repression</clueType> <linkTheme>of</linkTheme> the human beta-globin gene may be useful in the treatment of sickle cell anemia, in conjunction with therapy to reactivate fetal globin genes.</clue>
+</event>
+<sentence id="S3">If there is a reciprocal elevation of <term id="T6" lex="gamma-globin_expression" sem="Other"><term id="T7" lex="gamma-globin" sem="Protein_family_or_group">gamma-globin</term> expression</term> upon repression, this approach could be useful in additional <term id="T8" lex="hemoglobinopathy" sem="Other">hemoglobinopathies</term>.</sentence>
+<event KT="Other" id="E6" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<clue>If there is a reciprocal <clueType>elevation</clueType> <linkTheme>of</linkTheme> gamma-globin expression upon repression, this approach could be useful in additional hemoglobinopathies.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Negative_regulation"/>
+<theme idref="E7"/>
+<clue>If there is a reciprocal elevation <linkTheme>of</linkTheme> gamma-globin expression upon <clueType>repression</clueType>, this approach could be useful in additional hemoglobinopathies.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Gene_expression"/>
+<theme idref="T7"/>
+<clue>If there is a reciprocal elevation of gamma-globin <clueType>expression</clueType> upon repression, this approach could be useful in additional hemoglobinopathies.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E9" uncertainty="doubtful">
+<type class="Correlation"/>
+<theme idref="E6"/>
+<theme idref="E8"/>
+<clue>If there is a <clueType>reciprocal</clueType> elevation of gamma-globin expression <linkTheme>upon</linkTheme> repression, this approach <clueKT><clueCL>could</clueCL></clueKT> be useful in additional hemoglobinopathies.</clue>
+</event>
+<sentence id="S4">We previously showed that repression of the <term id="A6" sem="DNA_domain_or_region">beta-globin gene</term> appears to be mediated through two <term id="T9" lex="DNA_sequence" sem="DNA_domain_or_region">DNA sequences</term>, <cons id="T10" lex="(AND silencer_I silencer_II)" sem="(AND DNA_domain_or_region DNA_domain_or_region)"><frag id="F1">silencers</frag> <frag id="F2">I</frag> and <frag id="F3">II</frag></cons>, and identified a protein termed <term id="T11" lex="BP1" sem="Protein_molecule">BP1</term> which binds to both silencer sequences.</sentence>
+<event KT="Other" id="E10">
+<type class="Negative_regulation"/>
+<theme idref="A6"/>
+<clue>We previously showed that <clueType>repression</clueType> <linkTheme>of</linkTheme> the beta-globin gene appears to be mediated through two DNA sequences, silencers I and II, and identified a protein termed BP1 which binds to both silencer sequences.</clue>
+</event>
+<event CL="L2" KT="Analysis" Source="Other" id="E11" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="F1" idref1="F2"/>
+<clue>We <clueSource>previously</clueSource> <clueKT>showed</clueKT> that repression of the beta-globin gene <clueCL>appears</clueCL> to be <clueType>mediated</clueType> <linkCause>through</linkCause> two DNA sequences, silencers I and II, and identified a protein termed BP1 which binds to both silencer sequences.</clue>
+</event>
+<event CL="L2" KT="Analysis" Source="Other" id="E12" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="F1" idref1="F3"/>
+<clue>We <clueSource>previously</clueSource> <clueKT>showed</clueKT> that repression of the beta-globin gene <clueCL>appears</clueCL> to be <clueType>mediated</clueType> <linkCause>through</linkCause> two DNA sequences, silencers I and II, and identified a protein termed BP1 which binds to both silencer sequences.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E13">
+<type class="Binding"/>
+<theme idref="T11"/>
+<theme idref="F1" idref1="F2"/>
+<clue>We <clueSource>previously</clueSource> showed that repression of the beta-globin gene appears to be mediated through two DNA sequences, silencers I and II, and <clueKT>identified</clueKT> a protein termed BP1 which <clueType>binds</clueType> <linkTheme>to</linkTheme> <corefTheme idref1="F1" idref2="F2">both silencer sequences</corefTheme>.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E14">
+<type class="Binding"/>
+<theme idref="T11"/>
+<theme idref="F1" idref1="F3"/>
+<clue>We <clueSource>previously</clueSource> showed that repression of the beta-globin gene appears to be mediated through two DNA sequences, silencers I and II, and <clueKT>identified</clueKT> a protein termed BP1 which <clueType>binds</clueType> <linkTheme>to</linkTheme> <corefTheme idref1="F1" idref2="F3">both silencer sequences</corefTheme>.</clue>
+</event>
+<sentence id="S5">In this study, we cloned two <term id="T12" lex="cDNA" sem="DNA_family_or_group">cDNAs</term> encoding <term id="A7" sem="Protein_family_or_group">proteins</term> which bind to an <term id="T13" lex="oligonucleotide" sem="Polynucleotide">oligonucleotide</term> in <term id="T14" lex="silencer_I" sem="DNA_domain_or_region">silencer I</term> containing a <term id="A11" lex="BP1_binding_site" sem="DNA_domain_or_region"><term id="T15" lex="BP1" sem="Protein_molecule">BP1</term> binding site</term>.</sentence>
+<event KT="Other" id="E15">
+<type class="Binding"/>
+<theme idref="A7"/>
+<theme idref="T13"/>
+<clue>In this study, we cloned two cDNAs encoding proteins which <clueType>bind</clueType> <linkTheme>to</linkTheme> an oligonucleotide <clueLoc>in silencer I</clueLoc> containing a BP1 binding site.</clue>
+<comment>OK</comment></event>
+<sentence id="S6">These <term id="T16" lex="cDNA" sem="DNA_family_or_group">cDNAs</term> correspond to <term id="T17" lex="HMG-I" sem="Protein_molecule">HMG-I</term> and <term id="T18" lex="HMG-Y" sem="Protein_molecule">HMG-Y</term>, isoforms regarded as <term id="T19" lex="architectural_protein" sem="Protein_family_or_group">architectural proteins</term>.</sentence>
+<sentence id="S7">We demonstrate that binding of <term id="T20" lex="HMG-I(Y)" sem="Protein_molecule">HMG-I(Y)</term> to this <term id="T21" lex="oligonucleotide" sem="Polynucleotide">oligonucleotide</term> causes bending/flexure of the DNA.</sentence>
+<event KT="Other" id="E16">
+<type class="Binding"/>
+<theme idref="T20"/>
+<theme idref="T21"/>
+<clue>We demonstrate that <clueType>binding</clueType> <linkTheme>of</linkTheme> HMG-I(Y) <linkTheme>to</linkTheme> this oligonucleotide causes bending/flexure of the DNA.</clue>
+<comment>OK</comment></event>
+<event KT="Analysis" id="E32">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<cause idref="E16"/>
+<clue>We <clueKT>demonstrate</clueKT> that binding of HMG-I(Y) to this oligonucleotide <clueType>causes</clueType> bending/flexure of the DNA.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="DNA_metabolism"/>
+<theme idref="T14"/>
+<clue>We demonstrate that binding of HMG-I(Y) to this oligonucleotide causes <clueType>bending/flexure</clueType> <linkTheme>of</linkTheme> <corefTheme>the DNA</corefTheme>.</clue>
+</event>
+<sentence id="S8"><term id="T22" lex="HMG-I(Y)" sem="Protein_molecule">HMG-I(Y)</term> also binds to a second <term id="A30" sem="Polynucleotide"><term id="T23" lex="oligonucleotide" sem="Polynucleotide">oligonucleotide</term> containing a <term id="T24" lex="BP1_binding_site" sem="DNA_domain_or_region"><term id="T25" lex="BP1" sem="Protein_molecule">BP1</term> binding site</term> located in a <term id="T26" lex="negative_control_region" sem="DNA_domain_or_region">negative control region</term> upstream of the <term id="T27" lex="delta-globin_gene" sem="DNA_domain_or_region">delta-globin gene</term></term>, suggesting a role for <term id="T28" lex="HMG-I(Y)" sem="Protein_molecule">HMG-I(Y)</term> in repression of <term id="A9" sem="DNA_domain_or_region">adult globin genes</term>.</sentence>
+<event id="E18">
+<type class="Binding"/>
+<theme idref="T22"/>
+<theme idref="T23"/>
+<clue>HMG-I(Y) also <clueType>binds</clueType> <linkTheme>to</linkTheme> a second oligonucleotide containing a BP1 binding site located in a negative control region upstream of the delta-globin gene, suggesting a role for HMG-I(Y) in repression of adult globin genes.</clue>
+<comment>TPS: A30, OK</comment></event>
+<event CL="L2" KT="Analysis" id="E19" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E20"/>
+<cause idref="T28"/>
+<clue>HMG-I(Y) also binds to a second oligonucleotide containing a BP1 binding site located in a negative control region upstream of the delta-globin gene, <clueKT><clueCL>suggesting</clueCL></clueKT> a <clueType>role</clueType> <linkCause>for</linkCause> HMG-I(Y) <linkTheme>in</linkTheme> repression of adult globin genes.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Negative_regulation"/>
+<theme idref="A9"/>
+<clue>HMG-I(Y) also binds to a second oligonucleotide containing a BP1 binding site located in a negative control region upstream of the delta-globin gene, suggesting a role for HMG-I(Y) in <clueType>repression</clueType> <linkTheme>of</linkTheme> adult globin genes.</clue>
+</event>
+<sentence id="S9">Expression studies revealed that <term id="T29" lex="HMG-I(Y)" sem="Protein_molecule">HMG-I(Y)</term> is ubiquitously expressed in human tissues that do not express <term id="T30" lex="beta-globin" sem="Protein_molecule">beta-globin</term>, being present in 48 of 50 tissues and six <term id="T31" lex="hematopoietic_cell_line" sem="Cell_cultured">hematopoietic cell lines</term> examined.</sentence>
+<event KT="Analysis" id="E21">
+<type class="Gene_expression"/>
+<theme idref="T29"/>
+<clue><clueExperiment>Expression studies</clueExperiment> <clueKT>revealed</clueKT> that HMG-I(Y) is ubiquitously <clueType>expressed</clueType> <clueLoc>in human tissues that do not express beta-globin</clueLoc>, being present in 48 of 50 tissues and six hematopoietic cell lines examined.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E22">
+<type class="Gene_expression"/>
+<theme idref="T30"/>
+<clue>Expression studies revealed that HMG-I(Y) is ubiquitously expressed <clueLoc>in human tissues</clueLoc> that do <cluePolarity>not</cluePolarity> <clueType>express</clueType> beta-globin, being present in 48 of 50 tissues and six hematopoietic cell lines examined.</clue>
+</event>
+<sentence id="S10">Furthermore, <term id="T32" lex="HMG-I(Y)" sem="Protein_molecule">HMG-I(Y)</term> expression is down-regulated during differentiation of <term id="T33" lex="primary_erythroid_cell" sem="Cell_natural">primary erythroid cells</term>.</sentence>
+<event id="E23">
+<type class="Gene_expression"/>
+<theme idref="T32"/>
+<clue>Furthermore, HMG-I(Y) <clueType>expression</clueType> is down-regulated during differentiation of primary erythroid cells.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation"/>
+<theme idref="E23"/>
+<clue>Furthermore, HMG-I(Y) expression is <clueType>down-regulated</clueType> during differentiation of primary erythroid cells.</clue>
+</event>
+<event id="E25">
+<type class="Correlation"/>
+<theme idref="E24"/>
+<theme idref="E26"/>
+<clue>Furthermore, HMG-I(Y) expression is down-regulated <linkTheme>during</linkTheme> differentiation of primary erythroid cells.</clue>
+</event>
+<event id="E26">
+<type class="Cell_differentiation"/>
+<theme idref="T33"/>
+<clue>Furthermore, HMG-I(Y) expression is down-regulated during <clueType>differentiation</clueType> <linkTheme>of</linkTheme> primary erythroid cells.</clue>
+</event>
+<sentence id="S11">We present a model in which <term id="T34" lex="HMG-I(Y)" sem="Protein_molecule">HMG-I(Y)</term> alters <term id="T35" lex="DNA_conformation" sem="Other"><term id="A8" sem="DNA_domain_or_region">DNA</term> conformation</term> to allow binding of <term id="T36" lex="repressor_protein" sem="Protein_family_or_group">repressor proteins</term>, and in which the relative amount of <term id="A10" sem="Protein_molecule">HMG-I(Y)</term> helps to determine the <term id="T37" lex="repressive_state" sem="Other">repressive state</term> of the <term id="T38" lex="beta-globin_gene" sem="DNA_domain_or_region">beta-globin gene</term>.</sentence>
+<event KT="Analysis" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="E33"/>
+<cause idref="T34"/>
+<clue>We <clueKT>present</clueKT> a <clueKT>model</clueKT> in which HMG-I(Y) alters DNA conformation to allow binding of repressor proteins, and in which the relative amount of HMG-I(Y) helps to determine the repressive state of the beta-globin gene.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Other" id="E33">
+<type class="DNA_metabolism"/>
+<theme idref="A8"/>
+<clue>We present a model in which HMG-I(Y) <clueType>alters</clueType> DNA <clueType>conformation</clueType> to allow binding of repressor proteins, and in which the relative amount of HMG-I(Y) helps to determine the repressive state of the beta-globin gene.</clue>
+</event>
+<event KT="Other" id="E28" uncertainty="probable">
+<type class="Binding"/>
+<theme idref="A8"/>
+<theme idref="T36"/>
+<clue>We present a model in which HMG-I(Y) alters DNA conformation to allow <clueType>binding</clueType> <linkTheme>of</linkTheme> repressor proteins, and in which the relative amount of HMG-I(Y) helps to determine the repressive state of the beta-globin gene.</clue>
+</event>
+<event KT="Analysis" id="E29" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E30"/>
+<cause idref="A10"/>
+<clue>We <clueKT>present</clueKT> a <clueKT>model</clueKT> in which HMG-I(Y) alters DNA conformation to allow binding of repressor proteins, and in which the relative amount of HMG-I(Y) <clueType>helps to <clueKT>determine</clueKT></clueType> the repressive state of the beta-globin gene.</clue>
+<comment>CAUTION, CLUETYPE</comment></event>
+<event KT="Other" id="E30">
+<type class="Negative_regulation"/>
+<theme idref="T38"/>
+<clue>We present a model in which HMG-I(Y) alters DNA conformation to allow binding of repressor proteins, and in which the relative amount of HMG-I(Y) helps to determine the <clueType>repressive</clueType> state <linkTheme>of</linkTheme> the beta-globin gene.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

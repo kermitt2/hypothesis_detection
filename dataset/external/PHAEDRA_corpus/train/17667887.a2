@@ -1,0 +1,31 @@
+T33	Potential_therapeutic_effect 39 46	treated
+T37	Potential_therapeutic_effect 209 218	treatment
+T40	Potential_therapeutic_effect 380 387	treated
+T44	Potential_therapeutic_effect 735 742	been on
+T52	Adverse_effect 913 921	produced
+T55	Adverse_effect 1050 1054	from
+T57	Potential_therapeutic_effect 1143 1151	treating
+T59	Adverse_effect 1280 1291	be aware of
+R1	Subject_Disorder Arg1:T39 Arg2:T9
+R2	Subject_Disorder Arg1:T39 Arg2:T10
+R5	Coreference Arg1:T45 Arg2:T41
+E2	Combination:T34 has_participant:T3 has_participant:T4
+E4	Combination:T38 has_participant:T7 has_participant:T8
+E7	Combination:T47 has_participant:T11 has_participant:T12 has_participant:T13
+E10	Combination:T51 has_participant:T24 has_participant:T25
+E12	Combination:T54 has_participant:T27 has_participant:T35
+E14	Combination:T56 has_participant:T28 has_participant:T29
+E1	Potential_therapeutic_effect:T33 affects:T2 has_agent:E2 has_subject:T32
+E3	Potential_therapeutic_effect:T37 affects:T6 has_agent:E4 has_subject:T36
+E5	Potential_therapeutic_effect:T40 has_agent:E7 has_subject:T39 affects:T9 affects:T10
+E6	Potential_therapeutic_effect:T44 has_subject:T45 has_agent:T20 has_agent:T21
+E11	Adverse_effect:T52 affects:T23 has_agent:E10 has_cue:T53
+E13	Adverse_effect:T55 has_agent:E12 affects:T26
+E15	Potential_therapeutic_effect:T57 has_agent:E14 affects:T30 has_subject:T58
+E16	Adverse_effect:T59 affects:T31 has_cue:T60 has_agent:E14
+A2	Speculated E11
+A3	Speculated E16
+T48	Adverse_effect 19 21	in
+E8	Adverse_effect:T48 affects:T1 has_agent:E2
+T49	Adverse_effect 182 184	in
+E9	Adverse_effect:T49 affects:T5 has_agent:E4

@@ -1,0 +1,204 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9834081" created="12/05/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9834081</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="signaling_pathway" sem="Other">Signaling pathways</term> mediated by the <cons id="C1" lex="(AND TNF-receptor_family cytokine-receptor_family)" sem="(AND Protein_family_or_group Protein_family_or_group)"><frag id="F1">TNF-</frag> and <frag id="F2">cytokine-</frag><frag id="F3">receptor families</frag></cons> target a common <term id="A4" sem="DNA_domain_or_region"><term id="T3" lex="cis-element" sem="DNA_domain_or_region">cis-element</term> of the <term id="T4" lex="IFN_regulatory_factor_1_promoter" sem="DNA_domain_or_region">IFN regulatory factor 1 promoter</term></term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation"/>
+<theme idref="T1"/>
+<cause idref="F1" idref1="F3"/>
+<clue>Signaling pathways <clueType>mediated</clueType> <linkCause>by</linkCause> the TNF- and cytokine-receptor families target a common cis-element of the IFN regulatory factor 1 promoter.</clue>
+<comment>NER: T2 mod</comment></event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="T1"/>
+<cause idref="F2" idref1="S3"/>
+<cause idref="F2" idref1="S3"/>
+<clue>Signaling pathways <clueType>mediated</clueType> <linkCause>by</linkCause> the TNF- and cytokine-receptor families target a common cis-element of the IFN regulatory factor 1 promoter.</clue>
+</event>
+<event id="E3">
+<type class="Regulation"/>
+<theme idref="A4"/>
+<cause idref="E1"/>
+<clue>Signaling pathways mediated by the TNF- and cytokine-receptor families <clueType>target</clueType> a common cis-element of the IFN regulatory factor 1 promoter.</clue>
+<comment>TPS: A4</comment></event>
+<event id="E4">
+<type class="Regulation"/>
+<theme idref="A4"/>
+<cause idref="E2"/>
+<clue>Signaling pathways mediated by the TNF- and cytokine-receptor families <clueType>target</clueType> a common cis-element of the IFN regulatory factor 1 promoter.</clue>
+<comment>TPS: A4</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T5" lex="CD40" sem="Protein_molecule">CD40</term> activation of <term id="T6" lex="B_cell" sem="Cell_natural">B cells</term> is strongly influenced by the presence of <term id="T7" lex="cytokine" sem="Protein_family_or_group">cytokines</term>.</sentence>
+<event KT="Other" id="E5">
+<type class="Physiological_process"/>
+<theme idref="T6"/>
+<cause idref="T5"/>
+<clue>CD40 <clueType>activation</clueType> <linkTheme>of</linkTheme> B cells is strongly influenced by the presence of cytokines.</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Regulation"/>
+<theme idref="E5"/>
+<cause idref="T7"/>
+<clue>CD40 activation of B cells is strongly <clueType>influenced</clueType> <linkCause>by</linkCause> the presence of cytokines.</clue>
+</event>
+<sentence id="S3">However, the molecular basis for the interplay between these distinct stimuli is not clearly delineated.</sentence>
+<event KT="Analysis" id="E7">
+<type class="Correlation"/>
+<theme idref="T5"/>
+<theme idref="T7"/>
+<clue>However, the molecular basis for the <clueType><clueKT>interplay</clueKT></clueType> <linkTheme>between</linkTheme> <corefTheme>these distinct stimuli</corefTheme> is not clearly delineated.</clue>
+</event>
+<sentence id="S4"><term id="T8" lex="IFN_regulatory_factor_1" sem="Protein_molecule">IFN regulatory factor 1</term> (<term id="T9" lex="IRF-1" sem="Protein_molecule">IRF-1</term>) is a <term id="T10" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> activated by either <term id="T11" lex="CD40" sem="Protein_molecule">CD40</term> or <term id="T12" lex="cytokine" sem="Protein_family_or_group">cytokines</term>.</sentence>
+<event KT="Fact" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T9"/>
+<cause idref="T11"/>
+<clue>IFN regulatory factor 1 (IRF-1) is a transcription factor <clueType>activated</clueType> <linkCause>by</linkCause> either CD40 or cytokines.</clue>
+</event>
+<event KT="Fact" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="T9"/>
+<cause idref="T12"/>
+<clue>IFN regulatory factor 1 (IRF-1) is a transcription factor <clueType>activated</clueType> <linkCause>by</linkCause> either CD40 or cytokines.</clue>
+</event>
+<sentence id="S5">We have found that these different sets of signals target a common cis-acting element in the promoter of this gene, the <term id="T13" lex="IRF-1_gamma-activated_site" sem="DNA_domain_or_region"><term id="T14" lex="IRF-1_gamma" sem="Protein_molecule"><term id="A6" sem="DNA_domain_or_region"><term id="T15" lex="IRF-1" sem="Protein_molecule">IRF-1</term></term> gamma</term>-activated site</term> (<term id="T16" lex="GAS" sem="DNA_domain_or_region">GAS</term>).</sentence>
+<event id="E10">
+<type class="Regulation"/>
+<theme idref="A6" idref1="T16"/>
+<cause idref="E8"/>
+<clue>We have <clueKT>found</clueKT> that <corefCause>these different sets of signals</corefCause> <clueType>target</clueType> a common <corefTheme>cis-acting element in the promoter of this gene</corefTheme>, the IRF-1 gamma-activated site (GAS).</clue>
+</event>
+<event id="E11">
+<type class="Regulation"/>
+<theme idref="A6" idref1="T16"/>
+<cause idref="E9"/>
+<clue>We have <clueKT>found</clueKT> that <corefCause>these different sets of signals</corefCause> <clueType>target</clueType> a common <corefTheme>cis-acting element in the promoter of this gene</corefTheme>, the IRF-1 gamma-activated site (GAS).</clue>
+</event>
+<sentence id="S6">Targeting of the <term id="T17" lex="IRF-1_GAS" sem="DNA_domain_or_region">IRF-1 GAS</term> is not confined to activation via <term id="T18" lex="CD40" sem="Protein_molecule">CD40</term> but extends to other stimuli that mimic the <term id="T19" lex="CD40_signaling_cascade" sem="Other"><term id="T20" lex="CD40" sem="Protein_molecule">CD40</term> signaling cascade</term>, like <term id="T21" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term> and <term id="T22" lex="EBV" sem="Virus">EBV</term>.</sentence>
+<event id="E12">
+<type class="Regulation"/>
+<theme idref="T17"/>
+<cause idref="E13"/>
+<clue><clueType>Targeting</clueType> <linkTheme>of</linkTheme> the IRF-1 GAS is not confined to activation via CD40 but extends to other stimuli that mimic the CD40 signaling cascade, like TNF-alpha and EBV.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T9"/>
+<cause idref="T18"/>
+<clue>Targeting of the IRF-1 GAS is not confined to <clueType>activation</clueType> <linkCause>via</linkCause> CD40 but extends to other stimuli that mimic the CD40 signaling cascade, like TNF-alpha and EBV.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event id="E14">
+<type class="Positive_regulation"/>
+<theme idref="T9"/>
+<cause idref="T21"/>
+<clue>Targeting of the IRF-1 GAS is not confined to <clueType>activation</clueType> <linkCause>via</linkCause> CD40 but extends to <corefCause>other stimuli that mimic the CD40 signaling cascade</corefCause>, like TNF-alpha and EBV.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event id="E15">
+<type class="Positive_regulation"/>
+<theme idref="T9"/>
+<cause idref="T22"/>
+<clue>Targeting of the IRF-1 GAS is not confined to <clueType>activation</clueType> <linkCause>via</linkCause> CD40 but extends to <corefCause>other stimuli that mimic the CD40 signaling cascade</corefCause>, like TNF-alpha and EBV.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T17"/>
+<cause idref="E14"/>
+<clue><clueType>Targeting</clueType> <linkTheme>of</linkTheme> the IRF-1 GAS is not confined to activation via CD40 but extends to other stimuli that mimic the CD40 signaling cascade, like TNF-alpha and EBV.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="T17"/>
+<cause idref="E15"/>
+<clue><clueType>Targeting</clueType> <linkTheme>of</linkTheme> the IRF-1 GAS is not confined to activation via CD40 but extends to other stimuli that mimic the CD40 signaling cascade, like TNF-alpha and EBV.</clue>
+</event>
+<sentence id="S7">In contrast to induction of <term id="T23" lex="STAT" sem="Protein_family_or_group">STATs</term> by <term id="T24" lex="cytokine" sem="Protein_family_or_group">cytokines</term>, the <term id="A20" sem="Protein_complex"><term id="T25" lex="IRF-1_GAS" sem="DNA_domain_or_region">IRF-1 GAS</term>-binding complex</term> activated by <term id="T26" lex="CD40" sem="Protein_molecule">CD40</term>, <term id="T27" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term>, or <term id="T28" lex="EBV" sem="Virus">EBV</term> contains <term id="T29" lex="Rel_protein" sem="Protein_family_or_group">Rel proteins</term>, specifically <term id="T30" lex="p50" sem="Protein_molecule">p50</term> and <term id="T31" lex="p65" sem="Protein_molecule">p65</term>.</sentence>
+<event KT="Fact" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="T23"/>
+<cause idref="T24"/>
+<clue>In contrast to <clueType>induction</clueType> <linkTheme>of</linkTheme> STATs <linkCause>by</linkCause> cytokines, the IRF-1 GAS-binding complex activated by CD40, TNF-alpha, or EBV contains Rel proteins, specifically p50 and p65.</clue>
+</event>
+<event id="E19">
+<type class="Binding"/>
+<theme idref="T25"/>
+<theme idref="T29" idref1="T30"/>
+<clue>In contrast to induction of STATs by cytokines, the IRF-1 GAS-<clueType>binding complex</clueType> activated by CD40, TNF-alpha, or EBV <clueType>contains</clueType> Rel proteins, specifically p50 and p65.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation"/>
+<theme idref="A20"/>
+<cause idref="T26"/>
+<clue>In contrast to induction of STATs by cytokines, the IRF-1 GAS-binding complex <clueType>activated</clueType> <linkCause>by</linkCause> CD40, TNF-alpha, or EBV contains Rel proteins, specifically p50 and p65.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation"/>
+<theme idref="A20"/>
+<cause idref="T27"/>
+<clue>In contrast to induction of STATs by cytokines, the IRF-1 GAS-binding complex <clueType>activated</clueType> <linkCause>by</linkCause> CD40, TNF-alpha, or EBV contains Rel proteins, specifically p50 and p65.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation"/>
+<theme idref="A20"/>
+<cause idref="T28"/>
+<clue>In contrast to induction of STATs by cytokines, the IRF-1 GAS-binding complex <clueType>activated</clueType> <linkCause>by</linkCause> CD40, TNF-alpha, or EBV contains Rel proteins, specifically p50 and p65.</clue>
+</event>
+<event id="E23">
+<type class="Binding"/>
+<theme idref="T25"/>
+<theme idref="T29" idref1="T31"/>
+<clue>In contrast to induction of STATs by cytokines, the IRF-1 GAS-<clueType>binding complex</clueType> activated by CD40, TNF-alpha, or EBV <clueType>contains</clueType> Rel proteins, specifically p50 and p65.</clue>
+</event>
+<sentence id="S8">In this system, simultaneous exposure to <term id="T32" lex="CD40L" sem="Protein_molecule">CD40L</term> together with either <term id="T33" lex="IL-4" sem="Protein_molecule">IL-4</term> or <term id="T34" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term> does not lead to the activation of novel <term id="T35" lex="Rel/STAT_complex" sem="Protein_complex">Rel/STAT complexes</term>.</sentence>
+<event KT="Method" id="E27">
+<type class="Artificial_process"/>
+<theme idref="T32"/>
+<theme idref="T33"/>
+<theme idref="T35"/>
+<clue>In this system, <clueType>simultaneous exposure</clueType> <linkTheme>to</linkTheme> CD40L <linkTheme>together with</linkTheme> either IL-4 or IFN-gamma does not lead to the activation of novel Rel/STAT complexes.</clue>
+</event>
+<event KT="Method" id="E28">
+<type class="Artificial_process"/>
+<theme idref="T32"/>
+<theme idref="T34"/>
+<theme idref="T35"/>
+<clue>In this system, <clueType>simultaneous exposure</clueType> <linkTheme>to</linkTheme> CD40L <linkTheme>together with</linkTheme> either IL-4 or IFN-gamma does not lead to the activation of novel Rel/STAT complexes.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E29">
+<type class="Positive_regulation"/>
+<theme idref="E24"/>
+<cause idref="E27"/>
+<clue>In this system, simultaneous exposure to CD40L together with either IL-4 or IFN-gamma does <cluePolarity>not</cluePolarity> <clueType>lead</clueType> <linkTheme>to</linkTheme> the activation of novel Rel/STAT complexes.</clue>
+</event>
+<event KT="Other" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="T35"/>
+<clue>In this system, simultaneous exposure to CD40L together with either IL-4 or IFN-gamma does not lead to the <clueType>activation</clueType> <linkTheme>of</linkTheme> novel Rel/STAT complexes.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E30">
+<type class="Positive_regulation"/>
+<theme idref="E24"/>
+<cause idref="E28"/>
+<clue>In this system, simultaneous exposure to CD40L together with either IL-4 or IFN-gamma does <cluePolarity>not</cluePolarity> <clueType>lead</clueType> <linkTheme>to</linkTheme> the activation of novel Rel/STAT complexes.</clue>
+</event>
+<sentence id="S9">Given the importance of <term id="T36" lex="IRF-1" sem="Protein_molecule">IRF-1</term> in a variety of biologic functions from proliferation to apoptosis, our findings support the notion that modulation of <term id="T37" lex="IRF-1_level" sem="Other"><term id="T38" lex="IRF-1" sem="Protein_molecule">IRF-1</term> levels</term> may be a critical control point in <term id="T39" lex="B_cell_activation" sem="Other"><term id="A5" sem="Cell_natural">B cell</term> activation</term>.</sentence>
+<event KT="Other" id="E31">
+<type class="Physiological_process"/>
+<theme idref="A5"/>
+<clue>Given the importance of IRF-1 in a variety of biologic functions from proliferation to apoptosis, our findings support the notion that modulation of IRF-1 levels may be a critical control point in B cell <clueType>activation</clueType>.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E32" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E31"/>
+<cause idref="E33"/>
+<clue>Given the importance of IRF-1 in a variety of biologic functions from proliferation to apoptosis, our findings support the <clueKT>notion</clueKT> that modulation of IRF-1 levels <clueCL>may</clueCL> be a <clueType>critical control point</clueType> <linkTheme>in</linkTheme> B cell activation.</clue>
+</event>
+<event KT="Other" id="E33">
+<type class="Regulation"/>
+<theme idref="T38"/>
+<clue>Given the importance of IRF-1 in a variety of biologic functions from proliferation to apoptosis, our findings support the notion that <clueType>modulation</clueType> <linkTheme>of</linkTheme> IRF-1 <clueType>levels</clueType> may be a critical control point in B cell activation.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

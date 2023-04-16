@@ -1,0 +1,156 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10102628" created="15/05/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10102628</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Expression of <term id="T1" lex="IkappaBalpha" sem="Protein_molecule">IkappaBalpha</term> in the <term id="T2" lex="nucleus" sem="Cell_component">nucleus</term> of <term id="T3" lex="human_peripheral_blood_T_lymphocyte" sem="Cell_natural">human peripheral blood T lymphocytes</term>.</sentence>
+<event KT="Investigation" id="E1">
+<type class="Gene_expression"/>
+<theme idref="T1"/>
+<clue><clueType>Expression</clueType> <linkTheme>of</linkTheme> IkappaBalpha <clueLoc>in the nucleus of human peripheral blood T lymphocytes</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">According to current models the inhibitory capacity of <term id="T4" lex="I(kappa)B(alpha)" sem="Protein_molecule">I(kappa)B(alpha)</term> would be mediated through the retention of <term id="T5" lex="Rel/NF-kappaB_protein" sem="Protein_family_or_group">Rel/NF-kappaB proteins</term> in the <term id="T6" lex="cytosol" sem="Cell_natural">cytosol</term>.</sentence>
+<event KT="Other" id="E2">
+<type class="Negative_regulation"/>
+<theme idref="T4"/>
+<clue>According to current models the <clueType>inhibitory capacity</clueType> <linkTheme>of</linkTheme> I(kappa)B(alpha) would be mediated through the retention of Rel/NF-kappaB proteins in the cytosol.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Localization"/>
+<theme idref="T5"/>
+<clue>According to current models the inhibitory capacity of I(kappa)B(alpha) would be mediated through the <clueType>retention</clueType> <linkTheme>of</linkTheme> Rel/NF-kappaB proteins <clueLoc>in the cytosol</clueLoc>.</clue>
+</event>
+<event CL="L1" KT="Analysis" Source="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="E3"/>
+<clue><clueSource>According to current models</clueSource> the inhibitory capacity of I(kappa)B(alpha) <clueKT><clueCL>would</clueCL></clueKT> be <clueType>mediated</clueType> <linkCause>through</linkCause> the retention of Rel/NF-kappaB proteins in the cytosol.</clue>
+</event>
+<sentence id="S3">However, <term id="T7" lex="I(kappa)B(alpha)" sem="Protein_molecule">I(kappa)B(alpha)</term> has also been detected in the <term id="T8" lex="nucleus" sem="Cell_component">nucleus</term> of cell lines and when overexpressed by <term id="A1" sem="Other">transient transfection</term>.</sentence>
+<event id="E5">
+<type class="Gene_expression"/>
+<theme idref="T7"/>
+<clue>However, I(kappa)B(alpha) has also been <clueType>detected</clueType> <clueLoc>in the nucleus of cell lines</clueLoc> and when overexpressed by transient transfection.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation"/>
+<theme idref="T7"/>
+<cause idref="A1"/>
+<clue>However, I(kappa)B(alpha) has also been detected in the nucleus of cell lines and when <clueType>overexpressed</clueType> <linkCause>by</linkCause> transient transfection.</clue>
+</event>
+<event Source="Other" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="E6"/>
+<clue>However, I(kappa)B(alpha) <clueSource>has also been</clueSource> <clueType><clueKT>detected</clueKT></clueType> in the nucleus of cell lines and <linkCause>when</linkCause> overexpressed by transient transfection.</clue>
+</event>
+<sentence id="S4">To gain better insight into the potential role of <term id="T9" lex="nuclear_I(kappa)B(alpha)" sem="Protein_molecule">nuclear <term id="T10" lex="I(kappa)B(alpha)" sem="Protein_molecule">I(kappa)B(alpha)</term></term> in a physiological context we have analysed its presence in the <term id="T11" lex="nucleus" sem="Cell_component">nucleus</term> of <term id="T12" lex="human_peripheral_blood_T_lymphocyte" sem="Cell_natural">human peripheral blood T lymphocytes</term> (<term id="T13" lex="PBL" sem="Cell_natural">PBL</term>).</sentence>
+<sentence id="S5">We demonstrate the nuclear localization of <term id="T14" lex="I(kappa)B(alpha)" sem="Protein_molecule">I(kappa)B(alpha)</term> in <term id="T15" lex="PBL" sem="Cell_natural">PBL</term> by different techniques: <term id="T16" lex="Western_blot" sem="Other">Western blot</term>, <term id="T17" lex="indirect_immunofluorescence" sem="Other">indirect immunofluorescence</term> and <term id="T18" lex="electron_microscopy" sem="Other">electron microscopy</term>.</sentence>
+<event KT="Analysis" id="E8">
+<type class="Localization"/>
+<theme idref="T14"/>
+<clue>We <clueKT>demonstrate</clueKT> the <clueLoc>nuclear</clueLoc> <clueType>localization</clueType> <linkTheme>of</linkTheme> I(kappa)B(alpha) <clueLoc>in PBL</clueLoc> <clueExperiment>by different techniques: Western blot, indirect immunofluorescence and electron microscopy</clueExperiment>.</clue>
+</event>
+<sentence id="S6">Low levels of nuclear <term id="T19" lex="I(kappa)B(alpha)" sem="Protein_molecule">I(kappa)B(alpha)</term> were detected in resting cells whereas a <term id="T20" lex="superinduction" sem="Other">superinduction</term> was obtained after <term id="T21" lex="PMA_activation" sem="Other"><term id="A2" sem="Organic_compound_other">PMA</term> activation</term>.</sentence>
+<event Manner="Low" assertion="non-exist" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="T19"/>
+<clue><clueManner>Low levels</clueManner> of <clueLoc>nuclear</clueLoc> I(kappa)B(alpha) were <clueType><clueKT>detected</clueKT></clueType> <clueLoc>in resting cells</clueLoc> whereas a superinduction was obtained after PMA activation.</clue>
+</event>
+<event id="E10">
+<type class="Physiological_process"/>
+<cause idref="A2"/>
+<clue>Low levels of nuclear I(kappa)B(alpha) were detected in resting cells whereas a superinduction was obtained after PMA <clueType>activation</clueType>.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation"/>
+<theme idref="T19"/>
+<cause idref="E10"/>
+<clue>Low levels of nuclear I(kappa)B(alpha) were detected in resting cells whereas a <clueType>superinduction</clueType> was obtained <linkCause>after</linkCause> PMA activation.</clue>
+</event>
+<sentence id="S7">The nuclear pool of <term id="T22" lex="I(kappa)B(alpha)" sem="Protein_molecule">I(kappa)B(alpha)</term> showed a higher stability than cytosolic <term id="T23" lex="I(kappa)B(alpha)" sem="Protein_molecule">I(kappa)B(alpha)</term> and was partially independent of the resynthesis of the protein.</sentence>
+<event KT="Analysis" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T22"/>
+<clue>The <clueLoc>nuclear pool</clueLoc> of I(kappa)B(alpha) <clueKT>showed</clueKT> a <clueType>higher stability</clueType> than cytosolic I(kappa)B(alpha) and was partially independent of the resynthesis of the protein.</clue>
+</event>
+<event id="E14">
+<type class="Gene_expression"/>
+<theme idref="T22"/>
+<clue>The nuclear pool of I(kappa)B(alpha) showed a higher stability than cytosolic I(kappa)B(alpha) and was partially independent of the <clueType>resynthesis</clueType> <linkTheme>of</linkTheme> <corefTheme>the protein</corefTheme>.</clue>
+</event>
+<event Manner="Low" Polarity="Negative" assertion="non-exist" id="E15">
+<type class="Correlation"/>
+<theme idref="E13"/>
+<theme idref="E14"/>
+<clue>The nuclear pool of I(kappa)B(alpha) showed a higher stability than cytosolic I(kappa)B(alpha) and was <clueManner>partially</clueManner> <clueType><cluePolarity>independent</cluePolarity></clueType> <linkTheme>of</linkTheme> the resynthesis of the protein.</clue>
+</event>
+<sentence id="S8">Unexpectedly, the presence of <term id="T24" lex="nuclear_I(kappa)B(alpha)" sem="Protein_molecule">nuclear <term id="T25" lex="I(kappa)B(alpha)" sem="Protein_molecule">I(kappa)B(alpha)</term></term> did not inhibit <term id="T26" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> binding to <term id="A3" sem="DNA_domain_or_region">DNA</term> and this phenomenon was not due to the presence of <term id="T27" lex="IkappaBbeta" sem="Protein_molecule">IkappaBbeta</term> at the nuclear level.</sentence>
+<event id="E16">
+<type class="Binding"/>
+<theme idref="T26"/>
+<theme idref="A3"/>
+<clue>Unexpectedly, the presence of nuclear I(kappa)B(alpha) did not inhibit NF-kappaB <clueType>binding</clueType> <linkTheme>to</linkTheme> DNA and this phenomenon was not due to the presence of IkappaBbeta at the nuclear level.</clue>
+</event>
+<event id="E20">
+<type class="Gene_expression"/>
+<theme idref="T25"/>
+<clue>Unexpectedly, the <clueType>presence</clueType> <linkTheme>of</linkTheme> <clueLoc>nuclear</clueLoc> I(kappa)B(alpha) did not inhibit NF-kappaB binding to DNA and this phenomenon was not due to the presence of IkappaBbeta at the nuclear level.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E17">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<cause idref="E20"/>
+<clue>Unexpectedly, the presence of nuclear I(kappa)B(alpha) did <cluePolarity>not</cluePolarity> <clueType>inhibit</clueType> NF-kappaB binding to DNA and this phenomenon was not due to the presence of IkappaBbeta at the nuclear level.</clue>
+</event>
+<event id="E18">
+<type class="Regulation"/>
+<theme idref="T27"/>
+<clue>Unexpectedly, the presence of nuclear I(kappa)B(alpha) did not inhibit NF-kappaB binding to DNA and this phenomenon was not due to the <clueType>presence</clueType> <linkTheme>of</linkTheme> IkappaBbeta <clueLoc>at the nuclear level</clueLoc>.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E19">
+<type class="Regulation"/>
+<theme idref="E17"/>
+<cause idref="E18"/>
+<clue>Unexpectedly, the presence of nuclear I(kappa)B(alpha) did not inhibit NF-kappaB binding to DNA and <corefTheme>this phenomenon</corefTheme> was <cluePolarity>not</cluePolarity> <clueType>due</clueType> <linkTheme>to</linkTheme> the presence of IkappaBbeta at the nuclear level.</clue>
+</event>
+<sentence id="S9">Immunoprecipitation experiments failed to demonstrate an association between nuclear <term id="T28" lex="I(kappa)B(alpha)" sem="Protein_molecule">I(kappa)B(alpha)</term> and <term id="T29" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> proteins.</sentence>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E21">
+<type class="Correlation"/>
+<theme idref="T28"/>
+<theme idref="T29"/>
+<clue><clueExperiment>Immunoprecipitation experiments</clueExperiment> <cluePolarity>failed</cluePolarity> to <clueKT>demonstrate</clueKT> an <clueType><clueKT>association</clueKT></clueType> <linkTheme>between</linkTheme> nuclear I(kappa)B(alpha) and NF-kappaB proteins.</clue>
+</event>
+<sentence id="S10">Our results demonstrate that in resting and <term id="T30" lex="PMA-activated_human_PBL" sem="Cell_natural"><term id="A36" sem="Organic_compound_other">PMA</term>-activated human <term id="T31" lex="PBL" sem="Cell_natural">PBL</term></term>, <term id="T32" lex="I(kappa)B(alpha)" sem="Protein_molecule">I(kappa)B(alpha)</term> is present in the <term id="T33" lex="nucleus" sem="Cell_component">nucleus</term> in an apparently inactive form unable to disrupt <term id="T34" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> binding from <term id="T35" lex="DNA" sem="Other">DNA</term>.</sentence>
+<event KT="Analysis" id="E22">
+<type class="Localization"/>
+<theme idref="T32"/>
+<clue>Our results <clueKT>demonstrate</clueKT> that <clueLoc>in resting</clueLoc> and PMA-activated <clueLoc>human PBL</clueLoc>, I(kappa)B(alpha) is <clueType>present</clueType> <clueLoc>in the nucleus</clueLoc> in an apparently inactive form unable to disrupt NF-kappaB binding from DNA.</clue>
+</event>
+<event KT="Analysis" id="E122">
+<type class="Localization"/>
+<theme idref="T32"/>
+<clue>Our results <clueKT>demonstrate</clueKT> that <clueLoc>in</clueLoc> resting and <clueLoc>PMA-activated human PBL</clueLoc>, I(kappa)B(alpha) is <clueType>present</clueType> <clueLoc>in the nucleus</clueLoc> in an apparently inactive form unable to disrupt NF-kappaB binding from DNA.</clue>
+</event>
+<event KT="Other" id="E23">
+<type class="Binding"/>
+<theme idref="T34"/>
+<theme idref="T35"/>
+<clue>Our results demonstrate that in resting and PMA-activated human PBL, I(kappa)B(alpha) is present in the nucleus in an apparently inactive form unable to disrupt NF-kappaB <clueType>binding</clueType> <linkTheme>from</linkTheme> DNA.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E24">
+<type class="Negative_regulation"/>
+<theme idref="E23"/>
+<cause idref="T32"/>
+<clue>Our results demonstrate that in resting and PMA-activated human PBL, I(kappa)B(alpha) is present in the nucleus in an apparently <corefCause>inactive form</corefCause> <clueKT><clueCL><cluePolarity>unable</cluePolarity></clueCL></clueKT> to <clueType>disrupt</clueType> NF-kappaB binding from DNA.</clue>
+</event>
+<event KT="Other" id="E124">
+<type class="Physiological_process"/>
+<theme idref="T31"/>
+<cause idref="A36"/>
+<clue>Our results demonstrate that in resting and PMA-<clueType>activated</clueType> human PBL, I(kappa)B(alpha) is present in the nucleus in an apparently inactive form unable to disrupt NF-kappaB binding from DNA.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

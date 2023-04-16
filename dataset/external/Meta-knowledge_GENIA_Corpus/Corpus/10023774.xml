@@ -1,0 +1,102 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10023774" created="10/01/2007" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10023774</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="RFLAT-1" sem="Protein_molecule">RFLAT-1</term>: a new <term id="T2" lex="zinc_finger_transcription_factor" sem="Protein_family_or_group">zinc finger transcription factor</term> that activates <term id="T3" lex="RANTES_gene_expression" sem="Other"><term id="T4" lex="RANTES_gene" sem="DNA_domain_or_region"><term id="T5" lex="RANTES" sem="Protein_molecule">RANTES</term> gene</term> expression</term> in <term id="T6" lex="T_lymphocyte" sem="Cell_natural">T lymphocytes</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression"/>
+<theme idref="T4"/>
+<clue>RFLAT-1: a new zinc finger transcription factor that activates RANTES gene <clueType>expression</clueType> <clueLoc>in T lymphocytes.</clueLoc></clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T1"/>
+<clue>RFLAT-1: a new zinc finger transcription factor that <clueType>activates</clueType> RANTES gene expression in T lymphocytes.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T7" lex="RANTES" sem="Protein_molecule">RANTES</term> (<term id="T8" lex="Regulated_upon_Activation,_Normal_T_cell_Expressed_and_Secreted" sem="Protein_molecule">Regulated upon Activation, Normal T cell Expressed and Secreted</term>) is a <term id="T9" lex="chemoattractant_cytokine" sem="Protein_family_or_group">chemoattractant cytokine</term> (<term id="T10" lex="chemokine" sem="Protein_family_or_group">chemokine</term>) important in the generation of <term id="T11" lex="inflammatory_infiltrate" sem="Other">inflammatory infiltrate</term> and <term id="T112" lex="human_immunodeficiency_virus_entry" sem="Other"><term id="T12" lex="human_immunodeficiency_virus_entry" sem="Other">human immunodeficiency virus</term> entry</term> into <term id="T13" lex="immune_cell" sem="Cell_natural">immune cells</term>.</sentence>
+<event KT="Other" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="T11"/>
+<clue>RANTES (Regulated upon Activation, Normal T cell Expressed and Secreted) is a chemoattractant cytokine (chemokine) important in the <clueType>generation</clueType> <linkTheme>of</linkTheme> inflammatory infiltrate and human immunodeficiency virus entry into immune cells.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T12"/>
+<theme idref="T13"/>
+<clue>RANTES (Regulated upon Activation, Normal T cell Expressed and Secreted) is a chemoattractant cytokine (chemokine) important in the generation of inflammatory infiltrate and human immunodeficiency virus <clueType>entry</clueType> <linkTheme>into</linkTheme> immune cells.</clue>
+</event>
+<event KT="Fact" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="T7"/>
+<clue>RANTES (Regulated upon Activation, Normal T cell Expressed and Secreted) is a chemoattractant cytokine (chemokine) <clueType>important</clueType> <linkTheme>in</linkTheme> the generation of inflammatory infiltrate and human immunodeficiency virus entry into immune cells.</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="T7"/>
+<clue>RANTES (Regulated upon Activation, Normal T cell Expressed and Secreted) is a chemoattractant cytokine (chemokine) <clueType>important</clueType> <linkTheme>in</linkTheme> the generation of inflammatory infiltrate and human immunodeficiency virus entry into immune cells.</clue>
+</event>
+<sentence id="S3"><term id="T14" lex="RANTES" sem="Protein_molecule">RANTES</term> is expressed late (3-5 days) after activation in <term id="T15" lex="T_lymphocyte" sem="Cell_natural">T lymphocytes</term>.</sentence>
+<event id="E7">
+<type class="Gene_expression"/>
+<theme idref="T14"/>
+<clue>RANTES is <clueType>expressed</clueType> <clueTime>late (3-5 days) after activation</clueTime> <clueLoc>in T lymphocytes.</clueLoc></clue>
+</event>
+<event id="E8">
+<type class="Physiological_process"/>
+<theme idref="T15"/>
+<clue>RANTES is expressed late (3-5 days) after <clueType>activation</clueType> <linkTheme>in</linkTheme> T lymphocytes.</clue>
+</event>
+<sentence id="S4">Using expression cloning, we identified the first &quot;late&quot; <term id="T16" lex="T_lymphocyte_associated_transcription_factor" sem="Protein_family_or_group">T lymphocyte associated transcription factor</term> and named it &quot;<term id="T17" lex="RANTES_Factor_of_Late_Activated_T_Lymphocytes-1" sem="Protein_molecule"><term id="T18" lex="RANTES" sem="Protein_molecule">RANTES</term> Factor of Late Activated T Lymphocytes-1</term>&quot; (<term id="T19" lex="RFLAT-1" sem="Protein_molecule">RFLAT-1</term>).</sentence>
+<sentence id="S5"><term id="T20" lex="RFLAT-1" sem="Protein_molecule">RFLAT-1</term> is a novel, phosphorylated, <term id="T21" lex="zinc_finger_transcription_factor" sem="Protein_family_or_group">zinc finger transcription factor</term> that is expressed in <term id="T22" lex="T_cell" sem="Cell_natural">T cells</term> 3 days after activation, coincident with <term id="T23" lex="RANTES_expression" sem="Other"><term id="T24" lex="RANTES" sem="Protein_molecule">RANTES</term> expression</term>.</sentence>
+<event id="E9">
+<type class="Gene_expression"/>
+<theme idref="T20"/>
+<clue>RFLAT-1 is a novel, phosphorylated, zinc finger transcription factor that is <clueType>expressed</clueType> <clueLoc>in T cells</clueLoc> <clueTime>3 days after activation</clueTime>, coincident with RANTES expression.</clue>
+</event>
+<event id="E10">
+<type class="Gene_expression"/>
+<theme idref="T24"/>
+<clue>RFLAT-1 is a novel, phosphorylated, zinc finger transcription factor that is expressed in T cells 3 days after activation, coincident with RANTES <clueType>expression</clueType>.</clue>
+</event>
+<event id="E11">
+<type class="Correlation"/>
+<theme idref="E9"/>
+<theme idref="E10"/>
+<clue>RFLAT-1 is a novel, phosphorylated, zinc finger transcription factor that is expressed in T cells 3 days after activation, <clueType>coincident</clueType> <linkTheme>with</linkTheme> RANTES expression.</clue>
+</event>
+<event id="E12">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T20"/>
+<clue>RFLAT-1 is a novel, <clueType>phosphorylated</clueType>, zinc finger transcription factor that is expressed in T cells 3 days after activation, coincident with RANTES expression.</clue>
+</event>
+<event id="E13">
+<type class="Physiological_process"/>
+<theme idref="T22"/>
+<clue>RFLAT-1 is a novel, phosphorylated, zinc finger transcription factor that is expressed in T cells 3 days after <clueType>activation</clueType>, coincident with RANTES expression.</clue>
+</event>
+<sentence id="S6">While <term id="T25" lex="Rel_protein" sem="Protein_family_or_group">Rel proteins</term> play the dominant role in <term id="T26" lex="RANTES_gene_expression" sem="Other"><term id="T27" lex="RANTES_gene" sem="DNA_domain_or_region"><term id="T28" lex="RANTES" sem="Protein_molecule">RANTES</term> gene</term> expression</term> in fibroblasts, <term id="T29" lex="RFLAT-1" sem="Protein_molecule">RFLAT-1</term> is a strong transactivator for <term id="T30" lex="RANTES" sem="Protein_molecule">RANTES</term> in <term id="T31" lex="T_cell" sem="Cell_natural">T cells</term>.</sentence>
+<event KT="Other" id="E14">
+<type class="Gene_expression"/>
+<theme idref="T27"/>
+<clue>While Rel proteins play the dominant role in RANTES gene <clueType>expression</clueType> <clueLoc>in fibroblasts</clueLoc>, RFLAT-1 is a strong transactivator for RANTES in T cells.</clue>
+</event>
+<event KT="Fact" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="T25"/>
+<clue>While Rel proteins <clueType>play</clueType> the <clueType>dominant role</clueType> <linkTheme>in</linkTheme> RANTES gene expression in fibroblasts, RFLAT-1 is a strong transactivator for RANTES in T cells.</clue>
+</event>
+<event Manner="High" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T30"/>
+<cause idref="T29"/>
+<clue>While Rel proteins play the dominant role in RANTES gene expression in fibroblasts, RFLAT-1 is a <clueManner>strong</clueManner> <clueType>transactivator</clueType> <linkTheme>for</linkTheme> RANTES <clueLoc>in T cells</clueLoc>.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

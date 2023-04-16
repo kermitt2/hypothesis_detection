@@ -1,0 +1,356 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8617979" created="07/07/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8617979</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Modulation of endogenous <term id="T1" lex="IL-1_beta" sem="Protein_molecule">IL-1 beta</term> and <term id="T2" lex="IL-1_receptor_antagonist" sem="Other"><term id="T3" lex="IL-1_receptor" sem="Protein_molecule">IL-1 receptor</term> antagonist</term> results in opposing effects on <term id="T4" lex="HIV_expression" sem="Other"><term id="T5" lex="HIV" sem="Virus">HIV</term> expression</term> in <term id="T6" lex="chronically_infected_monocytic_cell" sem="Cell_cultured">chronically infected <term id="A21" sem="Cell_natural">monocytic cells</term></term>.</sentence>
+<event id="E1">
+<type class="Gene_expression"/>
+<theme idref="T5"/>
+<clue>Modulation of endogenous IL-1 beta and IL-1 receptor antagonist results in opposing effects on HIV <clueType>expression</clueType> <clueLoc>in chronically infected monocytic cells</clueLoc>.</clue>
+<comment>NER: T2 MOD</comment></event>
+<event KT="Method" id="E2">
+<type class="Artificial_process"/>
+<theme idref="T1"/>
+<clue><clueType>Modulation</clueType> <linkTheme>of</linkTheme> endogenous IL-1 beta and IL-1 receptor antagonist results in opposing effects on HIV expression in chronically infected monocytic cells.</clue>
+</event>
+<event KT="Method" id="E3">
+<type class="Artificial_process"/>
+<theme idref="T2"/>
+<clue><clueType>Modulation</clueType> <linkTheme>of</linkTheme> endogenous IL-1 beta and IL-1 receptor antagonist results in opposing effects on HIV expression in chronically infected monocytic cells.</clue>
+</event>
+<event id="E4">
+<type class="Regulation"/>
+<theme idref="E1"/>
+<cause idref="E2"/>
+<clue>Modulation of endogenous IL-1 beta and IL-1 receptor antagonist results in opposing <clueType>effects</clueType> <linkTheme>on</linkTheme> HIV expression in chronically infected monocytic cells.</clue>
+</event>
+<event id="E5">
+<type class="Regulation"/>
+<theme idref="E1"/>
+<cause idref="E3"/>
+<clue>Modulation of endogenous IL-1 beta and IL-1 receptor antagonist results in opposing <clueType>effects</clueType> <linkTheme>on</linkTheme> HIV expression in chronically infected monocytic cells.</clue>
+</event>
+<event id="E6">
+<type class="Viral_life_cycle"/>
+<theme idref="T5"/>
+<theme idref="A21"/>
+<clue>Modulation of endogenous IL-1 beta and IL-1 receptor antagonist results in opposing effects on HIV expression in <clueType>chronically infected</clueType> monocytic cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">A proportion of <term id="T7" lex="HIV-infected_individual" sem="Multicellular_organism_natural"><term id="T8" lex="HIV" sem="Virus">HIV</term>-infected individuals</term> experience episodes of localized or systemic <term id="T9" lex="bacterial_infection" sem="Other">bacterial infections</term> caused by <term id="T10" lex="Gram-negative_bacteria" sem="Unicellular_organism">Gram-negative bacteria</term>.</sentence>
+<event KT="Other" id="E7">
+<type/>
+<theme idref="T10"/>
+<theme idref="T7"/>
+<clue>A proportion of HIV-infected individuals experience episodes of localized or systemic <clueType>bacterial infections</clueType> caused <linkCause>by</linkCause> Gram-negative bacteria.</clue>
+<comment>SOO : bacterial infection</comment></event>
+<event KT="Other" id="E8">
+<type class="Viral_life_cycle"/>
+<theme idref="T8"/>
+<clue>A proportion of HIV-<clueType>infected</clueType> individuals experience episodes of localized or systemic bacterial infections caused by Gram-negative bacteria.</clue>
+</event>
+<sentence id="S3">Many of the <term id="T11" lex="clinical_side_effect" sem="Other">clinical side effects</term> of these infections are associated with the production of <term id="T12" lex="proinflammatory_cytokine" sem="Protein_family_or_group">proinflammatory cytokines</term>, which are induced primarily by <term id="T13" lex="LPS" sem="Lipid">LPS</term>, a constituent of the <term id="T14" lex="bacterial_cell_wall" sem="Cell_component">bacterial cell wall</term> of <term id="T15" lex="Gram-negative_bacteria" sem="Unicellular_organism">Gram-negative bacteria</term>.</sentence>
+<event KT="Other" id="E9">
+<type class="Gene_expression"/>
+<theme idref="T12"/>
+<clue>Many of the clinical side effects of these infections are associated with the <clueType>production</clueType> <linkTheme>of</linkTheme> proinflammatory cytokines, which are induced primarily by LPS, a constituent of the bacterial cell wall of Gram-negative bacteria.</clue>
+</event>
+<event KT="Fact" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="T13"/>
+<clue>Many of the clinical side effects of these infections are associated with the production of proinflammatory cytokines, which are <clueType>induced</clueType> primarily <linkCause>by</linkCause> LPS, a constituent of the bacterial cell wall of Gram-negative bacteria.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="T11"/>
+<cause idref="E7"/>
+<clue>Many of the clinical side effects <linkCause>of</linkCause> <corefCause>these infections</corefCause> are associated with the production of proinflammatory cytokines, which are induced primarily by LPS, a constituent of the bacterial cell wall of Gram-negative bacteria.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Analysis" id="E12">
+<type class="Correlation"/>
+<theme idref="E9"/>
+<theme idref="E11"/>
+<clue>Many of the clinical side effects of these infections are <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> the production of proinflammatory cytokines, which are induced primarily by LPS, a constituent of the bacterial cell wall of Gram-negative bacteria.</clue>
+</event>
+<sentence id="S4">The present study examines the mechanisms involved in <term id="T16" lex="LPS" sem="Lipid">LPS</term>-mediated induction of <term id="T17" lex="HIV_expression" sem="Other"><term id="T18" lex="HIV" sem="Virus">HIV</term> expression</term> in <term id="T19" lex="U1_cell" sem="Cell_cultured">U1 cells</term>, a <term id="T20" lex="promonocytic_cell_line" sem="Cell_cultured">promonocytic cell line</term> chronically infected with <term id="T21" lex="HIV" sem="Virus">HIV</term>.</sentence>
+<event KT="Other" id="E13">
+<type class="Gene_expression"/>
+<theme idref="T18"/>
+<clue>The present study examines the mechanisms involved in LPS-mediated induction of HIV <clueType>expression</clueType> in U1 cells, a promonocytic cell line chronically infected with HIV.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="T16"/>
+<clue>The present study examines the mechanisms involved in LPS-<linkCause>mediated</linkCause> <clueType>induction</clueType> <linkTheme>of</linkTheme> HIV expression <clueLoc>in U1 cells, a promonocytic cell line chronically infected with HIV.</clueLoc></clue>
+</event>
+<event KT="Fact" id="E15">
+<type class="Viral_life_cycle"/>
+<theme idref="T19"/>
+<theme idref="T21"/>
+<clue>The present study examines the mechanisms involved in LPS-mediated induction of HIV expression in U1 cells, a promonocytic cell line <clueType>chronically infected</clueType> <linkTheme>with</linkTheme> HIV.</clue>
+</event>
+<sentence id="S5">Stimulation of <term id="T22" lex="U1_cell" sem="Cell_cultured">U1 cells</term> by <term id="T23" lex="LPS" sem="Lipid">LPS</term> alone induced minimal levels of <term id="T24" lex="HIV_expression" sem="Other"><term id="T25" lex="HIV" sem="Virus">HIV</term> expression</term>, which was significantly enhanced by <term id="T26" lex="granulocyte-macrophage_colony-stimulating_factor" sem="Protein_molecule">granulocyte-macrophage colony-stimulating factor</term> (<term id="T27" lex="GM-CSF" sem="Protein_molecule">GM-CSF</term>).</sentence>
+<event Manner="Low" id="E16">
+<type class="Gene_expression"/>
+<theme idref="T25"/>
+<clue>Stimulation of U1 cells by LPS alone induced <clueManner>minimal levels</clueManner> of HIV <clueType>expression</clueType>, which was significantly enhanced by granulocyte-macrophage colony-stimulating factor (GM-CSF).</clue>
+</event>
+<event id="E61">
+<type class="Physiological_process"/>
+<theme idref="T22"/>
+<cause idref="T23"/>
+<clue><clueType>Stimulation</clueType> of U1 cells <linkCause>by</linkCause> LPS alone induced minimal levels of HIV expression, which was significantly enhanced by granulocyte-macrophage colony-stimulating factor (GM-CSF).</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<cause idref="E61"/>
+<clue>Stimulation of U1 cells by LPS alone <clueType>induced</clueType> minimal levels of HIV expression, which was significantly enhanced by granulocyte-macrophage colony-stimulating factor (GM-CSF).</clue>
+</event>
+<event Manner="High" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<cause idref="T27"/>
+<clue>Stimulation of U1 cells by LPS alone induced minimal levels of HIV expression, which was <clueManner>significantly</clueManner> <clueType>enhanced</clueType> <linkCause>by</linkCause> granulocyte-macrophage colony-stimulating factor (GM-CSF).</clue>
+</event>
+<sentence id="S6">Costimulation of <term id="T28" lex="U1_cell" sem="Cell_cultured">U1 cells</term> with <term id="T29" lex="LPS" sem="Lipid">LPS</term> plus <term id="T30" lex="GM-CSF" sem="Protein_molecule">GM-CSF</term> resulted in the accumulation of steady-state levels of <term id="T31" lex="HIV_RNA" sem="RNA_family_or_group"><term id="T32" lex="HIV" sem="Virus">HIV</term> RNA</term>; however, only a weak induction of <term id="T34" lex="HIV_long_terminal_repeat" sem="DNA_domain_or_region"><term id="T35" lex="HIV" sem="Virus">HIV</term> long terminal repeat</term>-driven <term id="A1" sem="Other">transcription</term>, which was not associated with the activation of the <term id="T36" lex="cellular_transcription_factor" sem="Protein_family_or_group">cellular transcription factor</term> <term id="T37" lex="nuclear_factor-kappa_B" sem="Protein_complex">nuclear factor-kappa B</term>, was noted.</sentence>
+<event id="E19">
+<type class="Positive_regulation"/>
+<theme idref="T31"/>
+<clue>Costimulation of U1 cells with LPS plus GM-CSF resulted in the <clueType>accumulation</clueType> <linkTheme>of</linkTheme> steady-state levels of HIV RNA; however, only a weak induction of HIV long terminal repeat-driven transcription, which was not associated with the activation of the cellular transcription factor nuclear factor-kappa B, was noted.</clue>
+</event>
+<event id="E62">
+<type class="Physiological_process"/>
+<theme idref="T28"/>
+<cause idref="T29"/>
+<cause idref="T30"/>
+<clue><clueType>Costimulation</clueType> <linkTheme>of</linkTheme> U1 cells <linkCause>with</linkCause> LPS plus GM-CSF resulted in the accumulation of steady-state levels of HIV RNA; however, only a weak induction of HIV long terminal repeat-driven transcription, which was not associated with the activation of the cellular transcription factor nuclear factor-kappa B, was noted.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="E62"/>
+<clue>Costimulation of U1 cells with LPS plus GM-CSF <clueType>resulted</clueType> <linkTheme>in</linkTheme> the accumulation of steady-state levels of HIV RNA; however, only a weak induction of HIV long terminal repeat-driven transcription, which was not associated with the activation of the cellular transcription factor nuclear factor-kappa B, was noted.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation"/>
+<theme idref="A1"/>
+<cause idref="T34"/>
+<clue>Costimulation of U1 cells with LPS plus GM-CSF resulted in the accumulation of steady-state levels of HIV RNA; however, only a weak induction of HIV long terminal repeat-<clueType>driven</clueType> transcription, which was not associated with the activation of the cellular transcription factor nuclear factor-kappa B, was noted.</clue>
+<comment>NER: T33 del &quot;HIV long terminal repeat-driven transcription&quot;</comment></event>
+<event Manner="Low" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="E62"/>
+<clue>Costimulation of U1 cells with LPS plus GM-CSF resulted in the accumulation of steady-state levels of HIV RNA; however, only a <clueManner>weak</clueManner> <clueType>induction</clueType> <linkTheme>of</linkTheme> HIV long terminal repeat-driven transcription, which was not associated with the activation of the cellular transcription factor nuclear factor-kappa B, was <clueKT>noted</clueKT>.</clue>
+</event>
+<event KT="Other" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="T37"/>
+<clue>Costimulation of U1 cells with LPS plus GM-CSF resulted in the accumulation of steady-state levels of HIV RNA; however, only a weak induction of HIV long terminal repeat-driven transcription, which was not associated with the <clueType>activation</clueType> <linkTheme>of</linkTheme> the cellular transcription factor nuclear factor-kappa B, was noted.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E24">
+<type class="Correlation"/>
+<theme idref="E21"/>
+<theme idref="E23"/>
+<clue>Costimulation of U1 cells with LPS plus GM-CSF resulted in the accumulation of steady-state levels of HIV RNA; however, only a weak induction of HIV long terminal repeat-driven transcription, which was <cluePolarity>not</cluePolarity> <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> the activation of the cellular transcription factor nuclear factor-kappa B, was noted.</clue>
+</event>
+<sentence id="S7">Costimulation of cells with <term id="T38" lex="LPS" sem="Lipid">LPS</term> plus <term id="T39" lex="GM-CSF" sem="Protein_molecule">GM-CSF</term> induced the production of <term id="T40" lex="proinflammatory_cytokine" sem="Protein_family_or_group">proinflammatory cytokines</term>, <term id="T41" lex="IL-8" sem="Protein_molecule">IL-8</term>, <term id="T42" lex="IL-1_beta" sem="Protein_molecule">IL-1 beta</term> and <term id="T43" lex="IL-6" sem="Protein_molecule">IL-6</term>, but not <term id="T44" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term>.</sentence>
+<event id="E25">
+<type class="Gene_expression"/>
+<theme idref="T40"/>
+<clue>Costimulation of cells with LPS plus GM-CSF induced the <clueType>production</clueType> <linkTheme>of</linkTheme> proinflammatory cytokines, IL-8, IL-1 beta and IL-6, but not TNF-alpha.</clue>
+</event>
+<event id="E26">
+<type class="Gene_expression"/>
+<theme idref="T41"/>
+<clue>Costimulation of cells with LPS plus GM-CSF induced the <clueType>production</clueType> <linkTheme>of</linkTheme> <corefTheme>proinflammatory cytokines</corefTheme>, IL-8, IL-1 beta and IL-6, but not TNF-alpha.</clue>
+</event>
+<event id="E27">
+<type class="Gene_expression"/>
+<theme idref="T42"/>
+<clue>Costimulation of cells with LPS plus GM-CSF induced the <clueType>production</clueType> <linkTheme>of</linkTheme> <corefTheme>proinflammatory cytokines</corefTheme>, IL-8, IL-1 beta and IL-6, but not TNF-alpha.</clue>
+</event>
+<event id="E28">
+<type class="Gene_expression"/>
+<theme idref="T43"/>
+<clue>Costimulation of cells with LPS plus GM-CSF induced the <clueType>production</clueType> <linkTheme>of</linkTheme> <corefTheme>proinflammatory cytokines</corefTheme>, IL-8, IL-1 beta and IL-6, but not TNF-alpha.</clue>
+</event>
+<event KT="Other" id="E29">
+<type class="Gene_expression"/>
+<theme idref="T44"/>
+<clue>Costimulation of cells with LPS plus GM-CSF induced the <clueType>production</clueType> <linkTheme>of</linkTheme> <corefTheme>proinflammatory cytokines</corefTheme>, IL-8, IL-1 beta and IL-6, but not TNF-alpha.</clue>
+</event>
+<event id="E63">
+<type class="Positive_regulation"/>
+<theme idref="T28"/>
+<cause idref="T38"/>
+<cause idref="T39"/>
+<clue><clueType>Costimulation</clueType> <linkTheme>of</linkTheme> <corefTheme>cells</corefTheme> <linkCause>with</linkCause> LPS plus GM-CSF induced the production of proinflammatory cytokines, IL-8, IL-1 beta and IL-6, but not TNF-alpha.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation"/>
+<theme idref="E25"/>
+<cause idref="E63"/>
+<clue>Costimulation of cells with LPS plus GM-CSF <clueType>induced</clueType> the production of proinflammatory cytokines, IL-8, IL-1 beta and IL-6, but not TNF-alpha.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation"/>
+<theme idref="E26"/>
+<cause idref="E63"/>
+<clue>Costimulation of cells with LPS plus GM-CSF <clueType>induced</clueType> the production of proinflammatory cytokines, IL-8, IL-1 beta and IL-6, but not TNF-alpha.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation"/>
+<theme idref="E27"/>
+<cause idref="E63"/>
+<clue>Costimulation of cells with LPS plus GM-CSF <clueType>induced</clueType> the production of proinflammatory cytokines, IL-8, IL-1 beta and IL-6, but not TNF-alpha.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E28"/>
+<cause idref="E63"/>
+<clue>Costimulation of cells with LPS plus GM-CSF <clueType>induced</clueType> the production of proinflammatory cytokines, IL-8, IL-1 beta and IL-6, but not TNF-alpha.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E34">
+<type class="Positive_regulation"/>
+<theme idref="E29"/>
+<cause idref="E63"/>
+<clue>Costimulation of cells with LPS plus GM-CSF <clueType>induced</clueType> the production of proinflammatory cytokines, IL-8, IL-1 beta and IL-6, but <cluePolarity>not</cluePolarity> TNF-alpha.</clue>
+</event>
+<sentence id="S8"><term id="T45" lex="IL-1_receptor_antagonist" sem="Other"><term id="T46" lex="IL-1_receptor" sem="Protein_molecule">IL-1 receptor</term> antagonist</term> (ra) inhibited <term id="T47" lex="LPS" sem="Lipid">LPS</term> enhancement of <term id="T48" lex="HIV_expression" sem="Other"><term id="T49" lex="HIV" sem="Virus">HIV</term> expression</term> in <term id="T50" lex="GM-CSF-stimulated_cell" sem="Cell_cultured"><term id="T51" lex="GM-CSF" sem="Protein_molecule">GM-CSF</term>-stimulated cells</term>, suggesting that <term id="T52" lex="endogenous_IL-1" sem="Protein_molecule">endogenous IL-1</term> was involved in <term id="T53" lex="LPS-mediated_viral_production" sem="Other"><term id="T54" lex="LPS" sem="Lipid">LPS</term>-mediated <term id="A2" sem="Virus">viral</term> production</term>.</sentence>
+<event KT="Other" id="E35">
+<type class="Gene_expression"/>
+<theme idref="T49"/>
+<clue>IL-1 receptor antagonist (ra) inhibited LPS enhancement of HIV <clueType>expression</clueType> in GM-CSF-stimulated cells, suggesting that endogenous IL-1 was involved in LPS-mediated viral production.</clue>
+</event>
+<event KT="Other" id="E36">
+<type class="Positive_regulation"/>
+<theme idref="E35"/>
+<cause idref="T47"/>
+<clue>IL-1 receptor antagonist (ra) inhibited LPS <clueType>enhancement</clueType> <linkTheme>of</linkTheme> HIV expression <clueLoc>in GM-CSF-stimulated cells</clueLoc>, suggesting that endogenous IL-1 was involved in LPS-mediated viral production.</clue>
+</event>
+<event id="E37">
+<type class="Negative_regulation"/>
+<theme idref="E36"/>
+<cause idref="T45"/>
+<clue>IL-1 receptor antagonist (ra) <clueType>inhibited</clueType> LPS enhancement of HIV expression in GM-CSF-stimulated cells, suggesting that endogenous IL-1 was involved in LPS-mediated viral production.</clue>
+</event>
+<event KT="Other" id="E38">
+<type class="Viral_life_cycle"/>
+<theme idref="A2"/>
+<clue>IL-1 receptor antagonist (ra) inhibited LPS enhancement of HIV expression in GM-CSF-stimulated cells, suggesting that endogenous IL-1 was involved in LPS-mediated viral <clueType>production</clueType>.</clue>
+</event>
+<event KT="Other" id="E39">
+<type class="Positive_regulation"/>
+<theme idref="E38"/>
+<cause idref="T54"/>
+<clue>IL-1 receptor antagonist (ra) inhibited LPS enhancement of HIV expression in GM-CSF-stimulated cells, suggesting that endogenous IL-1 was involved in LPS-<clueType>mediated</clueType> viral production.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E40" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="T52"/>
+<theme idref="E39"/>
+<clue>IL-1 receptor antagonist (ra) inhibited LPS enhancement of HIV expression in GM-CSF-stimulated cells, <clueKT><clueCL>suggesting</clueCL></clueKT> that endogenous IL-1 was <clueType>involved</clueType> <linkTheme>in</linkTheme> LPS-mediated viral production.</clue>
+</event>
+<event id="E64" uncertainty="probable">
+<type class="Physiological_process"/>
+<cause idref="T51"/>
+<clue>IL-1 receptor antagonist (ra) inhibited LPS enhancement of HIV expression in GM-CSF-<clueType>stimulated</clueType> cells, suggesting that endogenous IL-1 was involved in LPS-mediated viral production.</clue>
+</event>
+<sentence id="S9">In this regard, <term id="T55" lex="anti-inflammatory_cytokine" sem="Protein_family_or_group">anti-inflammatory cytokines</term> inhibited <term id="T56" lex="LPS" sem="Lipid">LPS</term> plus <term id="T57" lex="GM-CSF-stimulated_HIV_expression" sem="Other"><term id="T58" lex="GM-CSF" sem="Protein_molecule">GM-CSF</term>-stimulated <term id="T59" lex="HIV_expression" sem="Other"><term id="T60" lex="HIV" sem="Virus">HIV</term> expression</term></term>, and this effect closely correlated with inhibition of <term id="T61" lex="IL-1_beta" sem="Protein_molecule">IL-1 beta</term> release and, in particular, with up-regulation of endogenous <term id="T62" lex="IL-1ra_production" sem="Other"><term id="T63" lex="IL-1ra" sem="Protein_molecule">IL-1ra</term> production</term>.</sentence>
+<event KT="Other" id="E41">
+<type class="Gene_expression"/>
+<theme idref="T60"/>
+<clue>In this regard, anti-inflammatory cytokines inhibited LPS plus GM-CSF-stimulated HIV <clueType>expression</clueType>, and this effect closely correlated with inhibition of IL-1 beta release and, in particular, with up-regulation of endogenous IL-1ra production.</clue>
+</event>
+<event KT="Other" id="E42">
+<type class="Positive_regulation"/>
+<theme idref="E41"/>
+<cause idref="T56"/>
+<cause idref="T58"/>
+<clue>In this regard, anti-inflammatory cytokines inhibited LPS plus GM-CSF-<clueType>stimulated</clueType> HIV expression, and this effect closely correlated with inhibition of IL-1 beta release and, in particular, with up-regulation of endogenous IL-1ra production.</clue>
+</event>
+<event id="E43">
+<type class="Negative_regulation"/>
+<theme idref="E42"/>
+<cause idref="T55"/>
+<clue>In this regard, anti-inflammatory cytokines <clueType>inhibited</clueType> LPS plus GM-CSF-stimulated HIV expression, and this effect closely correlated with inhibition of IL-1 beta release and, in particular, with up-regulation of endogenous IL-1ra production.</clue>
+</event>
+<event KT="Other" id="E44">
+<type class="Localization"/>
+<theme idref="T61"/>
+<clue>In this regard, anti-inflammatory cytokines inhibited LPS plus GM-CSF-stimulated HIV expression, and this effect closely correlated with inhibition of IL-1 beta <clueType>release</clueType> and, in particular, with up-regulation of endogenous IL-1ra production.</clue>
+</event>
+<event KT="Other" id="E45">
+<type class="Negative_regulation"/>
+<theme idref="E44"/>
+<clue>In this regard, anti-inflammatory cytokines inhibited LPS plus GM-CSF-stimulated HIV expression, and this effect closely correlated with <clueType>inhibition</clueType> <linkTheme>of</linkTheme> IL-1 beta release and, in particular, with up-regulation of endogenous IL-1ra production.</clue>
+</event>
+<event KT="Other" id="E46">
+<type class="Gene_expression"/>
+<theme idref="T63"/>
+<clue>In this regard, anti-inflammatory cytokines inhibited LPS plus GM-CSF-stimulated HIV expression, and this effect closely correlated with inhibition of IL-1 beta release and, in particular, with up-regulation of endogenous IL-1ra <clueType>production</clueType>.</clue>
+<comment>NER: A63 MOD</comment></event>
+<event KT="Other" id="E47">
+<type class="Positive_regulation"/>
+<theme idref="E46"/>
+<clue>In this regard, anti-inflammatory cytokines inhibited LPS plus GM-CSF-stimulated HIV expression, and this effect closely correlated with inhibition of IL-1 beta release and, in particular, with <clueType>up-regulation</clueType> <linkTheme>of</linkTheme> endogenous IL-1ra production.</clue>
+</event>
+<event KT="Analysis" id="E48">
+<type class="Correlation"/>
+<theme idref="E43"/>
+<theme idref="E45"/>
+<clue>In this regard, anti-inflammatory cytokines inhibited LPS plus GM-CSF-stimulated HIV expression, and this effect closely <clueType><clueKT>correlated</clueKT></clueType> <linkTheme>with</linkTheme> inhibition of IL-1 beta release and, in particular, with up-regulation of endogenous IL-1ra production.</clue>
+</event>
+<event KT="Analysis" id="E49">
+<type class="Correlation"/>
+<theme idref="E43"/>
+<theme idref="E47"/>
+<clue>In this regard, anti-inflammatory cytokines inhibited LPS plus GM-CSF-stimulated HIV expression, and this effect closely <clueType><clueKT>correlated</clueKT></clueType> <linkTheme>with</linkTheme> inhibition of IL-1 beta release and, in particular, with up-regulation of endogenous IL-1ra production.</clue>
+</event>
+<sentence id="S10">Thus, the <term id="A22" sem="Other">balance between</term> an <term id="T64" lex="endogenously_produced_viral_inducer" sem="Protein_family_or_group">endogenously produced <term id="A3" sem="Virus">viral</term> inducer</term> (<term id="T65" lex="IL-1_beta" sem="Protein_molecule">IL-1 beta</term> ) <term id="A23" sem="Other">and</term> an inhibitor (<term id="T66" lex="IL-1ra" sem="Protein_molecule">IL-1ra</term>) may represent an important pathway leading to modulation of <term id="T67" lex="HIV_expression" sem="Other"><term id="T68" lex="HIV" sem="Virus">HIV</term> expression</term> from <term id="T69" lex="monocytic_cell" sem="Cell_natural">monocytic cells</term>.</sentence>
+<event KT="Other" id="E50">
+<type class="Gene_expression"/>
+<theme idref="T65"/>
+<clue>Thus, the balance between an endogenously <clueType>produced</clueType> viral inducer (IL-1 beta ) and an inhibitor (IL-1ra) may represent an important pathway leading to modulation of HIV expression from monocytic cells.</clue>
+</event>
+<event KT="Other" id="E51">
+<type class="Gene_expression"/>
+<theme idref="T66"/>
+<clue>Thus, the balance between an endogenously <clueType>produced</clueType> viral inducer (IL-1 beta ) and an inhibitor (IL-1ra) may represent an important pathway leading to modulation of HIV expression from monocytic cells.</clue>
+</event>
+<event KT="Other" id="E52">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<cause idref="T65"/>
+<clue>Thus, the balance between an endogenously produced viral <clueType>inducer</clueType> (IL-1 beta ) and an inhibitor (IL-1ra) may represent an important pathway leading to modulation of HIV expression from monocytic cells.</clue>
+</event>
+<event KT="Other" id="E53">
+<type class="Negative_regulation"/>
+<theme idref="A3"/>
+<cause idref="T66"/>
+<clue>Thus, the balance between an endogenously produced viral inducer (IL-1 beta ) and an <clueType>inhibitor</clueType> (IL-1ra) may represent an important pathway leading to modulation of HIV expression from monocytic cells.</clue>
+</event>
+<event KT="Other" id="E54">
+<type class="Gene_expression"/>
+<theme idref="T68"/>
+<clue>Thus, the balance between an endogenously produced viral inducer (IL-1 beta ) and an inhibitor (IL-1ra) may represent an important pathway leading to modulation of HIV <clueType>expression</clueType> <clueLoc>from monocytic cells.</clueLoc></clue>
+</event>
+<event KT="Other" id="E55">
+<type class="Regulation"/>
+<theme idref="E54"/>
+<clue>Thus, the balance between an endogenously produced viral inducer (IL-1 beta ) and an inhibitor (IL-1ra) may represent an important pathway leading to <clueType>modulation</clueType> <linkTheme>of</linkTheme> HIV expression from monocytic cells.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E56" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="E54"/>
+<theme idref="A22" idref1="T65" idref2="A23" idref3="T66"/>
+<clue>Thus, the balance between an endogenously produced viral inducer (IL-1 beta ) and an inhibitor (IL-1ra) <clueCL>may</clueCL> <clueType><clueKT>represent</clueKT> an important pathway leading to</clueType> modulation of HIV expression from monocytic cells.</clue>
+<comment>TPS: A23</comment></event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

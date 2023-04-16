@@ -1,0 +1,107 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9819151" created="11/05/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9819151</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="transcription_factor_NF-kappaB_regulation" sem="Other">Transcription factor <term id="T2" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> regulation</term> of <term id="A1" sem="Other">renal fibrosis</term> during <term id="T3" lex="ureteral_obstruction" sem="Other">ureteral obstruction</term>.</sentence>
+<event KT="Investigation" id="E1">
+<type class="Regulation"/>
+<theme idref="A1"/>
+<cause idref="T2"/>
+<clue>Transcription factor NF-kappaB <clueType>regulation</clueType> <linkTheme>of</linkTheme> renal fibrosis <clueTime>during ureteral obstruction</clueTime>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Irrespective of the etiology, many <term id="T4" lex="kidney_disease" sem="Other"><term id="T5" lex="kidney" sem="Body_region">kidney</term> diseases</term> result in <term id="T6" lex="inflammation" sem="Other">inflammation</term> and <term id="T7" lex="fibrosis" sem="Other">fibrosis</term> of the <term id="T8" lex="tubulointerstitium" sem="Tissue_natural">tubulointerstitium</term>, with the subsequent loss of <term id="T9" lex="renal_function" sem="Other">renal function</term>.</sentence>
+<event KT="Fact" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="T4"/>
+<cause idref="T6"/>
+<clue>Irrespective of the etiology, many kidney diseases <clueType>result</clueType> <linkCause>in</linkCause> inflammation and fibrosis of the tubulointerstitium, with the subsequent loss of renal function.</clue>
+</event>
+<event KT="Fact" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="T4"/>
+<cause idref="T7"/>
+<clue>Irrespective of the etiology, many kidney diseases <clueType>result</clueType> <linkCause>in</linkCause> inflammation and fibrosis of the tubulointerstitium, with the subsequent loss of renal function.</clue>
+</event>
+<event KT="Fact" id="E4">
+<type class="Negative_regulation"/>
+<theme idref="T9"/>
+<cause idref="E2"/>
+<clue>Irrespective of the etiology, many <clueLoc>kidney</clueLoc> diseases result in inflammation and fibrosis of the tubulointerstitium, with the <clueTime>subsequent</clueTime> <clueType>loss</clueType> <linkTheme>of</linkTheme> renal function.</clue>
+</event>
+<event KT="Fact" id="E5">
+<type class="Negative_regulation"/>
+<theme idref="T9"/>
+<cause idref="E3"/>
+<clue>Irrespective of the etiology, many <clueLoc>kidney</clueLoc> diseases result in inflammation and fibrosis of the tubulointerstitium, with the <clueTime>subsequent</clueTime> <clueType>loss</clueType> <linkTheme>of</linkTheme> renal function.</clue>
+</event>
+<sentence id="S3">To initiate any disease process or for any disease process to progress, there must be changes in the transcription of <term id="A2" sem="DNA_domain_or_region">genes</term> within the affected tissue.</sentence>
+<event KT="Fact" id="E6" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<clue>To initiate any disease process or for any disease process to progress, there must be <clueType>changes</clueType> <linkTheme>in</linkTheme> the transcription of genes within the affected tissue.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Transcription"/>
+<theme idref="A2"/>
+<clue>To initiate any disease process or for any disease process to progress, there must be changes in the <clueType>transcription</clueType> <linkTheme>of</linkTheme> genes <clueLoc>within the affected tissue</clueLoc>.</clue>
+</event>
+<sentence id="S4">The <term id="T10" lex="nuclear_factor-kappa_B_(NF-kappaB)_family" sem="Protein_family_or_group"><term id="T11" lex="nuclear_factor-kappa_B" sem="Protein_complex">nuclear factor-kappa B</term> (<term id="T12" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>) family</term> of <term id="T13" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term> regulates <term id="A3" sem="DNA_domain_or_region">genes</term> involved in <term id="T14" lex="inflammation" sem="Other">inflammation</term>, <term id="T15" lex="cell_proliferation" sem="Other">cell proliferation</term>, and <term id="T16" lex="cell_differentiation" sem="Other">cell differentiation</term>.</sentence>
+<event KT="Other" id="E7">
+<type class="Regulation"/>
+<theme idref="T14"/>
+<cause idref="A3"/>
+<clue>The nuclear factor-kappa B (NF-kappaB) family of transcription factors regulates genes <clueType>involved</clueType> <linkTheme>in</linkTheme> inflammation, cell proliferation, and cell differentiation.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Regulation"/>
+<theme idref="T15"/>
+<cause idref="A3"/>
+<clue>The nuclear factor-kappa B (NF-kappaB) family of transcription factors regulates genes <clueType>involved</clueType> <linkTheme>in</linkTheme> inflammation, cell proliferation, and cell differentiation.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Regulation"/>
+<theme idref="T16"/>
+<cause idref="A3"/>
+<clue>The nuclear factor-kappa B (NF-kappaB) family of transcription factors regulates genes <clueType>involved</clueType> <linkTheme>in</linkTheme> inflammation, cell proliferation, and cell differentiation.</clue>
+</event>
+<event KT="Fact" id="E10">
+<type class="Regulation"/>
+<theme idref="E7"/>
+<cause idref="T12"/>
+<clue>The nuclear factor-kappa B (NF-kappaB) family of transcription factors <clueType>regulates</clueType> genes involved in inflammation, cell proliferation, and cell differentiation.</clue>
+</event>
+<event KT="Fact" id="E11">
+<type class="Regulation"/>
+<theme idref="E8"/>
+<cause idref="T12"/>
+<clue>The nuclear factor-kappa B (NF-kappaB) family of transcription factors <clueType>regulates</clueType> genes involved in inflammation, cell proliferation, and cell differentiation.</clue>
+</event>
+<event KT="Fact" id="E12">
+<type class="Regulation"/>
+<theme idref="E9"/>
+<cause idref="T12"/>
+<clue>The nuclear factor-kappa B (NF-kappaB) family of transcription factors <clueType>regulates</clueType> genes involved in inflammation, cell proliferation, and cell differentiation.</clue>
+</event>
+<sentence id="S5">This review discusses the <term id="T17" lex="NF-kappaB_transcription_factor_family" sem="Protein_family_or_group"><term id="T18" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> <term id="T19" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> family</term> in general and the association of <term id="T20" lex="NF-kappaB_activation" sem="Other"><term id="T21" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activation</term> with <term id="T22" lex="cellular/molecular_event" sem="Other">cellular/molecular events</term> of <term id="T23" lex="renal_inflammation" sem="Other">renal <term id="T24" lex="inflammation" sem="Other">inflammation</term></term> and <term id="T25" lex="fibrosis" sem="Other">fibrosis</term>.</sentence>
+<event KT="Other" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T21"/>
+<clue>This review discusses the NF-kappaB transcription factor family in general and the association of NF-kappaB <clueType>activation</clueType> with cellular/molecular events of renal inflammation and fibrosis.</clue>
+</event>
+<event KT="Analysis" id="E14">
+<type class="Correlation"/>
+<theme idref="E13"/>
+<theme idref="T24"/>
+<clue>This review <clueKT>discusses</clueKT> the NF-kappaB transcription factor family in general and the <clueType><clueKT>association</clueKT></clueType> <linkTheme>of</linkTheme> NF-kappaB activation <linkTheme>with</linkTheme> <corefTheme>cellular/molecular events</corefTheme> of <clueLoc>renal</clueLoc> inflammation and fibrosis.</clue>
+</event>
+<event KT="Analysis" id="E15">
+<type class="Correlation"/>
+<theme idref="E13"/>
+<theme idref="T25"/>
+<clue>This review <clueKT>discusses</clueKT> the NF-kappaB transcription factor family in general and the <clueType><clueKT>association</clueKT></clueType> <linkTheme>of</linkTheme> NF-kappaB activation <linkTheme>with</linkTheme> <corefTheme>cellular/molecular events</corefTheme> of <clueLoc>renal</clueLoc> inflammation and fibrosis.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

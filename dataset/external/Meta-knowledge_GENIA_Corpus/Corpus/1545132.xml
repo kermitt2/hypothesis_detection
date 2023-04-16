@@ -1,0 +1,269 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1545132" created="13/11/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1545132</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="Human_T_cell_activation" sem="Other">Human <term id="A1" sem="Cell_natural">T cell</term> activation</term> through the <term id="T2" lex="activation-inducer_molecule/CD69" sem="Protein_molecule">activation-inducer molecule/<term id="A2" sem="Protein_molecule">CD69</term></term> enhances the activity of <term id="T3" lex="transcription_factor_AP-1" sem="Protein_molecule">transcription factor <term id="A3" sem="Protein_molecule">AP-1</term></term>.</sentence>
+<event id="E1">
+<type class="Physiological_process"/>
+<theme idref="A1"/>
+<clue>Human T cell <clueType>activation</clueType> through the activation-inducer molecule/CD69 enhances the activity of transcription factor AP-1.</clue>
+</event>
+<event id="E43">
+<type class="Physiological_process"/>
+<theme idref="E1"/>
+<cause idref="A2"/>
+<clue>Human T cell activation <linkCause>through</linkCause> the activation-inducer molecule/CD69 enhances the activity of transcription factor AP-1.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<cause idref="E1"/>
+<clue>Human T cell activation through the activation-inducer molecule/CD69 <clueType>enhances</clueType> the activity <linkTheme>of</linkTheme> transcription factor AP-1.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The induction of the <term id="T4" lex="AP-1_transcription_factor" sem="Protein_molecule">AP-1 transcription factor</term> has been ascribed to the early <term id="A6" sem="Other">events</term> leading to <cons id="C1" lex="(AND T_cell_differentiation T_cell_activation)" sem="(AND Other Other)"><frag id="F1"><term id="T5" lex="T_cell" sem="Cell_natural">T cell</term></frag> <frag id="F2">differentiation</frag> and <frag id="F3">activation</frag></cons>.</sentence>
+<event KT="Other" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="T4"/>
+<clue>The <clueType>induction</clueType> <linkTheme>of</linkTheme> the AP-1 transcription factor has been ascribed to the early events leading to T cell differentiation and activation.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="E5"/>
+<clue>The induction of the AP-1 transcription factor <clueSource>has been</clueSource> <clueType><clueKT>ascribed</clueKT></clueType> <linkCause>to</linkCause> the <corefCause>early events</corefCause> leading to T cell differentiation and activation.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E45">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="E8"/>
+<clue>The induction of the AP-1 transcription factor <clueSource>has been</clueSource> <clueType><clueKT>ascribed</clueKT></clueType> <linkCause>to</linkCause> the <corefCause>early events</corefCause> leading to T cell differentiation and activation.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<clue>The induction of the AP-1 transcription factor has been ascribed to the early events <clueType>leading</clueType> <linkTheme>to</linkTheme> T cell differentiation and activation.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<clue>The induction of the AP-1 transcription factor has been ascribed to the early events <clueType>leading</clueType> <linkTheme>to</linkTheme> T cell differentiation and activation.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Cell_differentiation"/>
+<theme idref="T5"/>
+<clue>The induction of the AP-1 transcription factor has been ascribed to the early events leading to T cell <clueType>differentiation</clueType> and activation.</clue>
+<comment>NER: T15, T16, T17 del &quot;T cell differentiation and activation&quot;&quot;T cell differentiation&quot;&quot;activation&quot;</comment></event>
+<event KT="Other" id="E7">
+<type class="Physiological_process"/>
+<theme idref="F1"/>
+<clue>The induction of the AP-1 transcription factor has been ascribed to the early events leading to T cell differentiation and <clueType>activation</clueType>.</clue>
+</event>
+<sentence id="S3">We have studied the regulation of <term id="T8" lex="AP-1_activity" sem="Other"><term id="T9" lex="AP-1" sem="Protein_molecule">AP-1</term> activity</term> in <term id="T10" lex="human_peripheral_blood_T_lymphocyte" sem="Cell_natural"><term id="T11" lex="human" sem="Multicellular_organism_natural">human</term> peripheral blood T lymphocytes</term> stimulated through the <term id="T12" lex="activation_inducer_molecule_(AIM)/CD69_activation_pathway" sem="Other">activation inducer molecule (AIM)/<term id="T13" lex="CD69" sem="Protein_molecule">CD69</term> activation pathway</term>.</sentence>
+<event KT="Investigation" id="E9" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="T9"/>
+<clue>We have <clueKT>studied</clueKT> the <clueType>regulation</clueType> <linkTheme>of</linkTheme> AP-1 activity <clueLoc>in human peripheral blood T lymphocytes</clueLoc> stimulated through the activation inducer molecule (AIM)/CD69 activation pathway.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Physiological_process"/>
+<theme idref="T10"/>
+<cause idref="E42"/>
+<clue>We have studied the regulation of AP-1 activity in human peripheral blood T lymphocytes <clueType>stimulated</clueType> <linkCause>through</linkCause> the activation inducer molecule (AIM)/CD69 activation pathway.</clue>
+</event>
+<event KT="Other" id="E42">
+<type class="Positive_regulation"/>
+<cause idref="T13"/>
+<clue>We have studied the regulation of AP-1 activity in human peripheral blood T lymphocytes stimulated through the activation inducer molecule (AIM)/CD69 <clueType>activation</clueType> pathway.</clue>
+<comment>NO THEME</comment></event>
+<sentence id="S4"><term id="T14" lex="phorbol_ester" sem="Organic_compound_other">Phorbol esters</term> are required to induce <term id="T15" lex="AIM/CD69_cell-surface_expression" sem="Other"><term id="T16" lex="AIM/CD69" sem="Protein_molecule">AIM/CD69</term> cell-surface expression</term> as well as for triggering the proliferation of <term id="T17" lex="T_cell" sem="Cell_natural">T cells</term> in conjunction with <term id="T18" lex="anti-AIM_mAb" sem="Protein_molecule">anti-AIM mAb</term>.</sentence>
+<event KT="Fact" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="T14"/>
+<clue>Phorbol esters are <clueType>required to induce</clueType> AIM/CD69 cell-surface expression as well as for triggering the proliferation of T cells in conjunction with anti-AIM mAb.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Localization"/>
+<theme idref="T16"/>
+<clue>Phorbol esters are required to induce AIM/CD69 <clueLoc>cell-surface</clueLoc> <clueType>expression</clueType> as well as for triggering the proliferation of T cells in conjunction with anti-AIM mAb.</clue>
+<comment>CAUTION</comment></event>
+<event KT="Fact" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="T14"/>
+<cause idref="T18"/>
+<clue>Phorbol esters are <clueType>required</clueType> to induce AIM/CD69 cell-surface expression as well as <clueType>for triggering</clueType> the proliferation of T cells <linkCause>in conjunction with</linkCause> anti-AIM mAb.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Cellular_physiological_process"/>
+<theme idref="T17"/>
+<clue>Phorbol esters are required to induce AIM/CD69 cell-surface expression as well as for triggering the <clueType>proliferation</clueType> <linkTheme>of</linkTheme> T cells in conjunction with anti-AIM mAb.</clue>
+</event>
+<sentence id="S5">Mobility shift assays showed that addition of <term id="T19" lex="anti-AIM_mAb" sem="Protein_molecule">anti-AIM mAb</term> to <term id="T20" lex="PMA-treated_T_lymphocyte" sem="Cell_natural"><term id="T21" lex="PMA" sem="Protein_molecule">PMA</term>-treated <term id="T22" lex="T_lymphocyte" sem="Cell_natural">T lymphocytes</term></term> markedly enhanced the binding activity of <term id="T23" lex="AP-1" sem="Protein_molecule">AP-1</term> to its cognate sequence, the <term id="T24" lex="phorbol_ester_response_element" sem="DNA_domain_or_region"><term id="T25" lex="phorbol_ester" sem="Organic_compound_other">phorbol ester</term> response element</term>.</sentence>
+<event KT="Analysis" Manner="High" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<cause idref="T19"/>
+<clue><clueExperiment>Mobility shift assays</clueExperiment> <clueKT>showed</clueKT> that addition of anti-AIM mAb to <clueLoc>PMA-treated T lymphocytes</clueLoc> <clueManner>markedly</clueManner> <clueType>enhanced</clueType> the binding activity of AP-1 to its cognate sequence, the phorbol ester response element.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Binding"/>
+<theme idref="T23"/>
+<theme idref="T24"/>
+<clue>Mobility shift assays showed that addition of anti-AIM mAb to PMA-treated T lymphocytes markedly enhanced the <clueType>binding</clueType> activity <linkTheme>of</linkTheme> AP-1 <linkTheme>to</linkTheme> <corefTheme>its cognate sequence</corefTheme>, the phorbol ester response element.</clue>
+</event>
+<event KT="Method" id="E18">
+<type class="Artificial_process"/>
+<theme idref="T21"/>
+<theme idref="T22"/>
+<clue>Mobility shift assays showed that addition of anti-AIM mAb to PMA-<clueType>treated</clueType> T lymphocytes markedly enhanced the binding activity of AP-1 to its cognate sequence, the phorbol ester response element.</clue>
+</event>
+<sentence id="S6">In contrast, <term id="T26" lex="anti-AIM_mAb" sem="Protein_molecule">anti-AIM mAb</term> did not induce any change in the binding activity of <term id="T27" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>, a <term id="T28" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> whose activity is also regulated by <term id="T29" lex="protein_kinase_C" sem="Protein_molecule">protein kinase C</term>.</sentence>
+<event Polarity="Negative" assertion="non-exist" id="E19">
+<type class="Regulation"/>
+<theme idref="E20"/>
+<cause idref="T26"/>
+<clue>In contrast, anti-AIM mAb did <cluePolarity>not</cluePolarity> induce any <clueType>change</clueType> <linkTheme>in</linkTheme> the binding activity of NF-kappa B, a transcription factor whose activity is also regulated by protein kinase C.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Binding"/>
+<theme idref="T27"/>
+<clue>In contrast, anti-AIM mAb did not induce any change in the <clueType>binding</clueType> activity <linkTheme>of</linkTheme> NF-kappa B, a transcription factor whose activity is also regulated by protein kinase C.</clue>
+</event>
+<event KT="Fact" id="E21">
+<type class="Regulation"/>
+<theme idref="T27"/>
+<cause idref="T29"/>
+<clue>In contrast, anti-AIM mAb did not induce any change in the binding activity of NF-kappa B, a transcription factor whose activity is also <clueType>regulated</clueType> <linkCause>by</linkCause> protein kinase C.</clue>
+</event>
+<sentence id="S7">The increase in <term id="T30" lex="AP-1-binding_activity" sem="Other"><term id="T31" lex="AP-1" sem="Protein_molecule">AP-1</term>-binding activity</term> was accompanied by the marked stimulation of the transcription of <term id="A7" sem="DNA_domain_or_region"><term id="T32" lex="c-fos" sem="Protein_molecule">c-fos</term></term> but not that of <term id="A8" sem="DNA_domain_or_region"><term id="T33" lex="c-jun" sem="Protein_molecule">c-jun</term></term>.</sentence>
+<event id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E23"/>
+<clue>The <clueType>increase</clueType> <linkTheme>in</linkTheme> AP-1-binding activity was accompanied by the marked stimulation of the transcription of c-fos but not that of c-jun.</clue>
+</event>
+<event id="E23">
+<type class="Binding"/>
+<theme idref="T31"/>
+<clue>The increase in AP-1-<clueType>binding</clueType> activity was accompanied by the marked stimulation of the transcription of c-fos but not that of c-jun.</clue>
+</event>
+<event id="E24">
+<type class="Correlation"/>
+<theme idref="E22"/>
+<theme idref="E26"/>
+<clue>The increase in AP-1-binding activity was <clueType>accompanied</clueType> <linkTheme>by</linkTheme> the marked stimulation of the transcription of c-fos but not that of c-jun.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E25">
+<type class="Correlation"/>
+<theme idref="E22"/>
+<theme idref="E27"/>
+<clue>The increase in AP-1-binding activity was <clueType>accompanied</clueType> <linkTheme>by</linkTheme> the marked stimulation of the transcription of c-fos but <cluePolarity>not</cluePolarity> that of c-jun.</clue>
+</event>
+<event Manner="High" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="E28"/>
+<clue>The increase in AP-1-binding activity was accompanied by the <clueManner>marked</clueManner> <clueType>stimulation</clueType> <linkTheme>of</linkTheme> the transcription of c-fos but not that of c-jun.</clue>
+</event>
+<event KT="Other" Manner="High" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="E29"/>
+<clue>The increase in AP-1-binding activity was accompanied by the <clueManner>marked</clueManner> <clueType>stimulation</clueType> <linkTheme>of</linkTheme> the transcription of c-fos but not that of c-jun.</clue>
+</event>
+<event id="E28">
+<type class="Transcription"/>
+<theme idref="A7"/>
+<clue>The increase in AP-1-binding activity was accompanied by the marked stimulation of the <clueType>transcription</clueType> <linkTheme>of</linkTheme> c-fos but not that of c-jun.</clue>
+</event>
+<event KT="Other" id="E29">
+<type class="Transcription"/>
+<theme idref="A8"/>
+<clue>The increase in AP-1-binding activity was accompanied by the marked stimulation of the <clueType>transcription</clueType> <linkTheme>of</linkTheme> c-fos but not that of c-jun.</clue>
+</event>
+<sentence id="S8">Blockade of the <term id="T34" lex="DNA-binding_complex" sem="Protein_complex">DNA-binding complexes</term> with an <term id="T35" lex="anti-Fos_mAb" sem="Protein_molecule">anti-Fos mAb</term> demonstrated a direct participation of <term id="T36" lex="c-Fos" sem="Protein_molecule">c-Fos</term> in the <term id="T37" lex="AP-1_complex" sem="Protein_complex"><term id="T38" lex="AP-1" sem="Protein_molecule">AP-1</term> complexes</term> induced by <term id="T39" lex="anti-AIM_mAb" sem="Protein_molecule">anti-AIM mAb</term>.</sentence>
+<event KT="Other" id="E30">
+<type class="Negative_regulation"/>
+<theme idref="T34"/>
+<cause idref="T35"/>
+<clue><clueType>Blockade</clueType> <linkTheme>of</linkTheme> the DNA-binding complexes <linkCause>with</linkCause> an anti-Fos mAb demonstrated a direct participation of c-Fos in the AP-1 complexes induced by anti-AIM mAb.</clue>
+</event>
+<event KT="Other" id="E31">
+<type class="Binding"/>
+<theme idref="T36"/>
+<theme idref="T37"/>
+<clue><clueExperiment>Blockade of the DNA-binding complexes with an anti-Fos mAb</clueExperiment> demonstrated a direct <clueType>participation</clueType> <linkTheme>of</linkTheme> c-Fos <linkTheme>in</linkTheme> the AP-1 complexes induced by anti-AIM mAb.</clue>
+</event>
+<event KT="Analysis" id="E32">
+<type class="Positive_regulation"/>
+<theme idref="E31"/>
+<cause idref="T39"/>
+<clue>Blockade of the DNA-binding complexes with an anti-Fos mAb <clueKT>demonstrated</clueKT> a direct participation of c-Fos in the AP-1 complexes <clueType>induced</clueType> <linkCause>by</linkCause> anti-AIM mAb.</clue>
+</event>
+<sentence id="S9">Most of the <term id="T40" lex="AP-1_activity" sem="Other"><term id="T41" lex="AP-1" sem="Protein_molecule">AP-1</term> activity</term> could be eliminated when the <term id="T42" lex="anti-AIM_mAb" sem="Protein_molecule">anti-AIM mAb</term> was added to the <term id="T43" lex="culture_medium" sem="Inorganic_compound">culture medium</term> in the presence of <term id="T44" lex="cycloheximide" sem="Organic_compound_other">cycloheximide</term>, suggesting that de novo <term id="T45" lex="protein_synthesis" sem="Other">protein synthesis</term> is crucial for the induction of <term id="T46" lex="AP-1-binding_activity" sem="Other"><term id="T47" lex="AP-1" sem="Protein_molecule">AP-1</term>-binding activity</term>.</sentence>
+<event id="E33">
+<type class="Negative_regulation"/>
+<theme idref="T41"/>
+<cause idref="T42"/>
+<cause idref="T44"/>
+<clue>Most of the AP-1 activity could be <clueType>eliminated</clueType> <linkCause>when</linkCause> the anti-AIM mAb was added to the culture medium <linkCause>in the presence of</linkCause> cycloheximide, suggesting that de novo protein synthesis is crucial for the induction of AP-1-binding activity.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E34" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E35"/>
+<cause idref="T45"/>
+<clue>Most of the AP-1 activity could be eliminated when the anti-AIM mAb was added to the culture medium in the presence of cycloheximide, <clueKT><clueCL>suggesting</clueCL></clueKT> that de novo protein synthesis is <clueType>crucial</clueType> <linkTheme>for</linkTheme> the induction of AP-1-binding activity.</clue>
+</event>
+<event KT="Other" id="E35">
+<type class="Positive_regulation"/>
+<theme idref="E36"/>
+<clue>Most of the AP-1 activity could be eliminated when the anti-AIM mAb was added to the culture medium in the presence of cycloheximide, suggesting that de novo protein synthesis is crucial for the <clueType>induction</clueType> of AP-1-binding activity.</clue>
+</event>
+<event KT="Other" id="E36">
+<type class="Binding"/>
+<theme idref="T47"/>
+<clue>Most of the AP-1 activity could be eliminated when the anti-AIM mAb was added to the culture medium in the presence of cycloheximide, suggesting that de novo protein synthesis is crucial for the induction of AP-1-<clueType>binding</clueType> activity.</clue>
+</event>
+<sentence id="S10">These data provide the evidence that activation of <term id="T48" lex="human_peripheral_blood_T_cell" sem="Cell_natural"><term id="T49" lex="human" sem="Multicellular_organism_natural">human</term> peripheral blood <term id="T50" lex="T_cell" sem="Cell_natural">T cells</term></term> through the <term id="T51" lex="AIM_activation_pathway" sem="Other"><term id="A10" sem="Protein_molecule">AIM</term> activation pathway</term> regulate the activity of <term id="T52" lex="AP-1" sem="Protein_molecule">AP-1</term>.</sentence>
+<event KT="Other" id="E37">
+<type class="Physiological_process"/>
+<theme idref="T50"/>
+<clue>These data provide the evidence that <clueType>activation</clueType> <linkTheme>of</linkTheme> human <clueLoc>peripheral blood</clueLoc> T cells through the AIM activation pathway regulate the activity of AP-1.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E44">
+<type class="Positive_regulation"/>
+<theme idref="E37"/>
+<cause idref="T51"/>
+<clue>These data provide the <clueKT><clueCL>evidence</clueCL></clueKT> that activation of human peripheral blood T cells <linkCause>through</linkCause> the AIM activation pathway regulate the activity of AP-1.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Other" id="E13">
+<type class="Positive_regulation"/>
+<cause idref="A10"/>
+<clue>These data provide the evidence that activation of human peripheral blood T cells through the AIM <clueType>activation</clueType> pathway regulate the activity of AP-1.</clue>
+<comment>NO THEME</comment></event>
+<event KT="Other" id="E38">
+<type class="Regulation"/>
+<theme idref="T52"/>
+<cause idref="E37"/>
+<clue>These data provide the evidence that activation of human peripheral blood T cells through the AIM activation pathway <clueType>regulate</clueType> the activity of AP-1.</clue>
+</event>
+<sentence id="S11">Therefore, this pathway appears as a crucial step in the initiation of <term id="T53" lex="early_T_cell_activation_event" sem="Other">early <term id="A9" sem="Cell_natural">T cell</term> activation events</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E39" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E40"/>
+<cause idref="T51"/>
+<clue><clueKT>Therefore</clueKT>, <corefCause>this pathway</corefCause> <clueCL>appears</clueCL> as a <clueType>crucial</clueType> step <linkTheme>in</linkTheme> the initiation of early T cell activation events.</clue>
+</event>
+<event KT="Other" id="E40">
+<type class="Positive_regulation"/>
+<theme idref="E41"/>
+<clue>Therefore, this pathway appears as a crucial step in the <clueType>initiation</clueType> <linkTheme>of</linkTheme> early T cell activation events.</clue>
+</event>
+<event KT="Other" id="E41">
+<type class="Physiological_process"/>
+<theme idref="A9"/>
+<clue>Therefore, this pathway appears as a crucial step in the initiation of <clueTime>early</clueTime> T cell <clueType>activation</clueType> events.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

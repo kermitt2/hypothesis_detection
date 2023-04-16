@@ -1,0 +1,9 @@
+T9	Potential_therapeutic_effect 328 334	relief
+T10	Potential_therapeutic_effect 128 134	taking
+T11	Adverse_effect 154 163	developed
+T13	Adverse_effect 292 297	after
+R1	Subject_Disorder Arg1:T6 Arg2:T3
+E1	Potential_therapeutic_effect:T9 affects:T8 has_agent:T7
+E2	Potential_therapeutic_effect:T10 affects:T3 has_agent:T4 has_subject:T6
+E3	Adverse_effect:T11 affects:T5 has_subject:T6 has_agent:T4
+E4	Adverse_effect:T13 has_agent:T7 affects:T12

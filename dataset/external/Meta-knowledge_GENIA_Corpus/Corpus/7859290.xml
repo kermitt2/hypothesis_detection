@@ -1,0 +1,116 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7859290" created="27/01/2007" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7859290</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="OBF-1" sem="Protein_molecule">OBF-1</term>, a <term id="T2" lex="novel_B_cell-specific_coactivator" sem="Protein_family_or_group">novel B cell-specific coactivator</term> that stimulates <term id="T3" lex="immunoglobulin_promoter_activity" sem="Other"><term id="T4" lex="immunoglobulin_promoter" sem="DNA_domain_or_region">immunoglobulin promoter</term> activity</term> through association with <term id="T5" lex="octamer-binding_protein" sem="Protein_family_or_group">octamer-binding proteins</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation"/>
+<theme idref="T4"/>
+<cause idref="E2"/>
+<clue>OBF-1, a novel <clueLoc>B cell</clueLoc>-specific coactivator that <clueType>stimulates</clueType> immunoglobulin promoter activity <linkCause>through</linkCause> association with octamer-binding proteins.</clue>
+</event>
+<event id="E2">
+<type class="Binding"/>
+<theme idref="T1"/>
+<theme idref="T5"/>
+<clue>OBF-1, a novel B cell-specific coactivator that stimulates immunoglobulin promoter activity through <clueType>association</clueType> <linkTheme>with</linkTheme> octamer-binding proteins.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Recent biochemical and genetic studies indicate that in addition to the <term id="T6" lex="octamer-binding_protein" sem="Protein_family_or_group">octamer-binding proteins</term> <term id="T7" lex="Oct-1" sem="Protein_molecule">Oct-1</term> and <term id="T8" lex="Oct-2" sem="Protein_molecule">Oct-2</term>, other <term id="T9" lex="B_cell_component" sem="Protein_family_or_group">B cell components</term> are required for <term id="T10" lex="lymphoid-restricted,_octamer_site-mediated_immunoglobulin_gene_promoter_activity" sem="Other">lymphoid-restricted, <term id="A1" sem="DNA_domain_or_region">octamer site</term>-mediated <term id="T11" lex="immunoglobulin_gene_promoter" sem="DNA_domain_or_region">immunoglobulin gene promoter</term> activity</term>.</sentence>
+<event CL="L2" KT="Analysis" Source="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T11"/>
+<cause idref="T7"/>
+<cause idref="T8"/>
+<cause idref="T9"/>
+<clue><clueSource>Recent</clueSource> biochemical and genetic studies <clueKT><clueCL>indicate</clueCL></clueKT> that <linkCause>in addition to</linkCause> the <corefCause>octamer-binding proteins</corefCause> Oct-1 and Oct-2, other B cell components are <clueType>required</clueType> <linkTheme>for</linkTheme> lymphoid-restricted, octamer site-mediated immunoglobulin gene promoter activity.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Regulation"/>
+<theme idref="T11"/>
+<cause idref="A1"/>
+<clue>Recent biochemical and genetic studies indicate that in addition to the octamer-binding proteins Oct-1 and Oct-2, other B cell components are required for <clueLoc>lymphoid</clueLoc>-restricted, octamer site-<clueType>mediated</clueType> immunoglobulin gene promoter activity.</clue>
+</event>
+<sentence id="S3">Using a genetic screen in yeast, we have isolated <term id="T12" lex="B_cell-derived_cDNA" sem="DNA_family_or_group">B cell-derived cDNAs</term> encoding <term id="T13" lex="Oct-binding_factor_1" sem="Protein_molecule">Oct-binding factor 1</term> (<term id="T14" lex="OBF-1" sem="Protein_molecule">OBF-1</term>), a novel protein that specifically associates with <term id="T15" lex="Oct-1" sem="Protein_molecule">Oct-1</term> and <term id="T16" lex="Oct-2" sem="Protein_molecule">Oct-2</term>.</sentence>
+<event KT="Analysis" id="E3">
+<type class="Binding"/>
+<theme idref="T14"/>
+<theme idref="T15"/>
+<clue>Using a genetic screen in yeast, we have isolated B cell-derived cDNAs encoding Oct-binding factor 1 (OBF-1), a novel protein that specifically <clueType><clueKT>associates</clueKT></clueType> <linkTheme>with</linkTheme> Oct-1 and Oct-2.</clue>
+</event>
+<event KT="Analysis" id="E6">
+<type class="Binding"/>
+<theme idref="T14"/>
+<theme idref="T16"/>
+<clue>Using a genetic screen in yeast, we have isolated B cell-derived cDNAs encoding Oct-binding factor 1 (OBF-1), a novel protein that specifically <clueType><clueKT>associates</clueKT></clueType> <linkTheme>with</linkTheme> Oct-1 and Oct-2.</clue>
+</event>
+<sentence id="S4">Biochemical studies demonstrate that <term id="T17" lex="OBF-1" sem="Protein_molecule">OBF-1</term> has no intrinsic <term id="A2" sem="DNA_domain_or_region">DNA</term>-binding activity and recognizes the <term id="T18" lex="POU_domain" sem="Protein_domain_or_region">POU domains</term> of <term id="T19" lex="Oct-1" sem="Protein_domain_or_region">Oct-1</term> and <term id="T20" lex="Oct-2" sem="Protein_domain_or_region">Oct-2</term>, but not those of <term id="T21" lex="Oct-4" sem="Protein_domain_or_region">Oct-4</term> and <term id="T22" lex="Oct-6" sem="Protein_domain_or_region">Oct-6</term>.</sentence>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E7">
+<type class="Binding"/>
+<theme idref="T17"/>
+<theme idref="A2"/>
+<clue>Biochemical studies <clueKT>demonstrate</clueKT> that OBF-1 has <cluePolarity>no</cluePolarity> intrinsic DNA-<clueType>binding</clueType> activity and recognizes the POU domains of Oct-1 and Oct-2, but not those of Oct-4 and Oct-6.</clue>
+</event>
+<event KT="Analysis" id="E8">
+<type class="Binding"/>
+<theme idref="T17"/>
+<theme idref="T18" idref1="T19"/>
+<clue>Biochemical studies <clueKT>demonstrate</clueKT> that OBF-1 has no intrinsic DNA-binding activity and <clueType>recognizes</clueType> the POU domains of Oct-1 and Oct-2, but not those of Oct-4 and Oct-6.</clue>
+<comment>NER: T19 sem mod, Protein_molecule -&gt; Protein_domain_or_region</comment></event>
+<event KT="Analysis" id="E9">
+<type class="Binding"/>
+<theme idref="T17"/>
+<theme idref="T18" idref1="T20"/>
+<clue>Biochemical studies <clueKT>demonstrate</clueKT> that OBF-1 has no intrinsic DNA-binding activity and <clueType>recognizes</clueType> the POU domains of Oct-1 and Oct-2, but not those of Oct-4 and Oct-6.</clue>
+<comment>NER: T20 sem mod, Protein_molecule -&gt; Protein_domain_or_region</comment></event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E10">
+<type class="Binding"/>
+<theme idref="T17"/>
+<theme idref="T18" idref1="T21"/>
+<clue>Biochemical studies <clueKT>demonstrate</clueKT> that OBF-1 has no intrinsic DNA-binding activity and <clueType>recognizes</clueType> the POU domains of Oct-1 and Oct-2, but <cluePolarity>not</cluePolarity> <corefTheme>those</corefTheme> of Oct-4 and Oct-6.</clue>
+<comment>NER: T21 sem mod, Protein_molecule -&gt; Protein_domain_or_region</comment></event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E11">
+<type class="Binding"/>
+<theme idref="T17"/>
+<theme idref="T18" idref1="T22"/>
+<clue>Biochemical studies <clueKT>demonstrate</clueKT> that OBF-1 has no intrinsic DNA-binding activity and <clueType>recognizes</clueType> the POU domains of Oct-1 and Oct-2, but <cluePolarity>not</cluePolarity> <corefTheme>those</corefTheme> of Oct-4 and Oct-6.</clue>
+<comment>NER: T22 sem mod, Protein_molecule -&gt; Protein_domain_or_region</comment></event>
+<sentence id="S5">The <term id="T23" lex="OBF-1_mRNA" sem="RNA_molecule"><term id="T24" lex="OBF-1" sem="Protein_molecule">OBF-1</term> mRNA</term> is expressed in a highly cell-specific manner, being most abundant in <term id="T25" lex="B_cell" sem="Cell_natural">B cells</term> and essentially absent in most of the other cells or tissues tested.</sentence>
+<event Manner="High" id="E12">
+<type class="Transcription"/>
+<theme idref="T23"/>
+<clue>The OBF-1 mRNA is <clueType>expressed</clueType> in a highly cell-specific manner, being <clueManner>most abundant</clueManner> <clueLoc>in B cells</clueLoc> and essentially absent in most of the other cells or tissues tested.</clue>
+</event>
+<event Manner="Low" assertion="non-exist" id="E13">
+<type class="Transcription"/>
+<theme idref="T23"/>
+<clue>The OBF-1 mRNA is <clueType>expressed</clueType> in a highly cell-specific manner, being most abundant in B cells and <clueManner>essentially absent</clueManner> <clueLoc>in most of the other cells</clueLoc> or tissues tested.</clue>
+</event>
+<event Manner="Low" assertion="non-exist" id="E17">
+<type class="Transcription"/>
+<theme idref="T23"/>
+<clue>The OBF-1 mRNA is <clueType>expressed</clueType> in a highly cell-specific manner, being most abundant in B cells and <clueManner>essentially absent</clueManner> <clueLoc>in most of</clueLoc> the other cells or <clueLoc>tissues tested</clueLoc>.</clue>
+</event>
+<sentence id="S6">Furthermore, expression of <term id="T26" lex="OBF-1" sem="Protein_molecule">OBF-1</term> in <term id="T27" lex="HeLa_cell" sem="Cell_cultured">HeLa cells</term> selectively stimulates the activity of a natural <term id="T28" lex="immunoglobulin_promoter" sem="DNA_domain_or_region">immunoglobulin promoter</term> in an <term id="T29" lex="octamer_site-dependent_manner" sem="Other"><term id="T30" lex="octamer_site" sem="DNA_domain_or_region">octamer site</term>-dependent manner</term>.</sentence>
+<event id="E14">
+<type class="Gene_expression"/>
+<theme idref="T26"/>
+<clue>Furthermore, <clueType>expression</clueType> <linkTheme>of</linkTheme> OBF-1 <clueLoc>in HeLa cells</clueLoc> selectively stimulates the activity of a natural immunoglobulin promoter in an octamer site-dependent manner.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation"/>
+<theme idref="T28"/>
+<cause idref="E14"/>
+<clue>Furthermore, expression of OBF-1 in HeLa cells selectively <clueType>stimulates</clueType> the activity of a natural immunoglobulin promoter in an octamer site-dependent manner.</clue>
+</event>
+<event id="E16">
+<type class="Regulation"/>
+<theme idref="E15"/>
+<cause idref="T30"/>
+<clue>Furthermore, expression of OBF-1 in HeLa cells selectively stimulates the activity of a natural immunoglobulin promoter in an octamer site-<clueType>dependent</clueType> manner.</clue>
+</event>
+<sentence id="S7">Thus, <term id="T31" lex="OBF-1" sem="Protein_molecule">OBF-1</term> has all the properties expected for a <term id="T32" lex="B_cell-specific_transcriptional_coactivator_protein" sem="Protein_family_or_group">B cell-specific transcriptional coactivator protein</term>.</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,9 @@
+T10	DDI 34 45	interaction
+T13	Adverse_effect 15 21	due to
+T14	DDI 130 141	interaction
+T16	Adverse_effect 228 239	development
+E1	DDI:T10 has_participant:T2 has_participant:T3
+E3	DDI:T14 has_participant:T4 has_participant:T5
+E4	Combination:T15 has_participant:T7 has_participant:T6
+E2	Adverse_effect:T13 has_agent:E1 affects:T1
+E5	Adverse_effect:T16 affects:T8 has_agent:E4

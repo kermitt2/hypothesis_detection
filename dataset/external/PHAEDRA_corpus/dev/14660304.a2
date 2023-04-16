@@ -1,0 +1,11 @@
+T9	Adverse_effect 21 29	toxicity
+T18	Potential_therapeutic_effect 194 201	receive
+T19	Adverse_effect 457 464	treated
+T23	Adverse_effect 648 665	an increased risk
+R1	Subject_Disorder Arg1:T15 Arg2:T3
+E4	Combination:T21 has_participant:T4 has_participant:T22
+E1	Adverse_effect:T9 has_agent:T2 affects:T1
+E2	Potential_therapeutic_effect:T18 affects:T3 has_agent:T4
+E3	Adverse_effect:T19 has_agent:T8 affects:T7 has_subject:T20
+E5	Adverse_effect:T23 has_cue:T24 affects:T11 has_agent:T12
+A1	Speculated E5

@@ -1,0 +1,16 @@
+T13	DDI 474 485	interaction
+T33	Adverse_effect 73 79	effect
+T63	Adverse_effect 1888 1899	potentiates
+E1	DDI:T13 has_participant:T14 has_participant:T15 has_cue:T68
+E10	Combination:T53 has_participant:T50 has_participant:T51
+E2	Adverse_effect:T33 has_agent:T3 affects:T2 has_agent:T1
+E15	Adverse_effect:T63 affects:T43 has_agent:T41 affects:T72 has_cue:T80 has_agent2:E7
+A6	Manner E15 High
+A9	Speculated E1
+T4	Adverse_effect 2138 2162	Care should be exercised
+E3	Adverse_effect:T4 has_cue:T7 has_agent:E10
+T9	Potential_therapeutic_effect 599 607	ingested
+E4	Potential_therapeutic_effect:T9 has_subject:T8 has_agent:T17
+E5	Potential_therapeutic_effect:T9 has_subject:T8 has_agent:T76
+E6	Combination:T12 has_participant:T19 has_participant2:T20
+E7	Combination:T16 has_participant:T46 has_participant2:T41

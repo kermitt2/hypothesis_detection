@@ -1,0 +1,11 @@
+T16	Adverse_effect 25 37	precipitated
+T23	Potential_therapeutic_effect 166 170	used
+T27	Adverse_effect 610 622	precipitated
+T28	Adverse_effect 872 880	reported
+R2	Coreference Arg1:T25 Arg2:T4
+E3	Combination:T18 has_participant:T3 has_participant:T2
+E6	Combination:T26 has_participant:T11 has_participant:T25
+E2	Adverse_effect:T16 affects:T1 has_agent:E3
+E5	Potential_therapeutic_effect:T23 affects:T7 has_agent:T4
+E7	Adverse_effect:T27 affects:T10 has_agent:E6
+E8	Adverse_effect:T28 affects:T12 has_agent:T13

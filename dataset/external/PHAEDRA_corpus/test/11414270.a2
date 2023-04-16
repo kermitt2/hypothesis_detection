@@ -1,0 +1,35 @@
+T35	Adverse_effect 26 33	induced
+T31	Potential_therapeutic_effect 178 192	administration
+T32	Adverse_effect 153 158	owing
+T15	Adverse_effect 1537 1542	after
+T17	Adverse_effect 775 781	result
+T38	Adverse_effect 1413 1425	complication
+T39	Potential_therapeutic_effect 1436 1448	chemotherapy
+T44	Adverse_effect 221 230	secondary
+T46	Adverse_effect 75 84	secondary
+T52	Potential_therapeutic_effect 1689 1693	used
+T37	Adverse_effect 1817 1832	contraindicated
+T43	Adverse_effect 386 395	secondary
+T54	Potential_therapeutic_effect 1070 1075	given
+R1	Subject_Disorder Arg1:T29 Arg2:T3
+R2	Subject_Disorder Arg1:T30 Arg2:T6
+R3	Subject_Disorder Arg1:T33 Arg2:T7
+R4	Subject_Disorder Arg1:T13 Arg2:T8
+R5	Coreference Arg1:T50 Arg2:T13
+R6	Subject_Disorder Arg1:T36 Arg2:T26
+R7	Coreference Arg1:T51 Arg2:T13
+E1	Adverse_effect:T35 has_agent:T1 affects:T2 has_subject:T29
+E2	Potential_therapeutic_effect:T31 has_agent:T5 affects:T6 has_subject:T30
+E3	Adverse_effect:T32 has_agent:T5 has_subject:T30 affects:T4
+E4	Adverse_effect:T15 has_agent:T23 affects:T22 affects:T21
+E5	Adverse_effect:T17 has_cue:T34 affects:T10 affects:T11 affects:T12 has_agent:T49 has_subject:T50
+E7	Adverse_effect:T38 affects:T20 has_agent:T40
+E8	Potential_therapeutic_effect:T39 has_agent:T40 affects:T41
+E10	Adverse_effect:T44 has_agent:T45 affects:T6 has_subject:T30
+E11	Adverse_effect:T46 has_agent:T47 affects:T3
+E12	Potential_therapeutic_effect:T52 has_cue:T53 has_agent:T25 has_subject:T36
+E6	Adverse_effect:T37 has_agent:T28 affects:T27
+E9	Adverse_effect:T43 affects:T7 has_agent:T42
+E13	Potential_therapeutic_effect:T54 has_subject:T51 has_agent:T16 has_agent:T18
+A1	Speculated E5
+A3	Speculated E12

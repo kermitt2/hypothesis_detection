@@ -1,0 +1,29 @@
+T27	Potential_therapeutic_effect 45 54	treatment
+T24	Adverse_effect 494 503	worsening
+T25	Potential_therapeutic_effect 614 623	switching
+T32	Potential_therapeutic_effect 242 249	treated
+T33	Adverse_effect 161 167	report
+T35	Potential_therapeutic_effect 396 403	therapy
+T36	Adverse_effect 710 719	developed
+T37	Potential_therapeutic_effect 784 792	resolved
+T39	Potential_therapeutic_effect 881 889	did well
+T40	Potential_therapeutic_effect 991 999	treating
+T43	Adverse_effect 1049 1066	used with caution
+R1	Subject_Disorder Arg1:T26 Arg2:T4
+R2	Subject_Disorder Arg1:T26 Arg2:T5
+R3	Subject_Disorder Arg1:T31 Arg2:T7
+R4	Subject_Disorder Arg1:T41 Arg2:T23
+E1	Potential_therapeutic_effect:T27 affects:T3 has_agent:T1 has_agent:T2 has_subject:T26
+E2	Adverse_effect:T24 affects:T11 has_agent:T12 has_subject:T29
+E3	Potential_therapeutic_effect:T25 has_agent:T14 affects:T11
+E4	Potential_therapeutic_effect:T32 has_agent:T8 affects:T7 has_subject:T31
+E5	Adverse_effect:T33 has_agent:T8 affects:T6 has_subject:T31
+E6	Potential_therapeutic_effect:T35 has_agent:T10 has_subject:T34 affects:T9
+E7	Adverse_effect:T36 has_subject:T28 affects:T15 has_agent:T16
+E8	Potential_therapeutic_effect:T37 has_agent:T18 affects:T17
+E9	Potential_therapeutic_effect:T39 has_agent:T19 has_subject:T38
+E10	Potential_therapeutic_effect:T40 affects:T22 has_subject:T41 has_agent:T20 has_cue:T42
+E11	Potential_therapeutic_effect:T40 affects:T22 has_subject:T41 has_agent:T21
+E12	Adverse_effect:T43 has_agent:T20 has_cue:T44 has_subject:T41
+A1	Speculated E12
+A2	Negated E10

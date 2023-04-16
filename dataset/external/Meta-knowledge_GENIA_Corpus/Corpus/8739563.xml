@@ -1,0 +1,171 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8739563" created="24/05/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8739563</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Involvement of <term id="T1" lex="tyrosine_phosphorylation" sem="Other"><term id="T2" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> phosphorylation</term> in <term id="T3" lex="endothelial_adhesion_molecule_induction" sem="Other"><term id="T4" lex="endothelial_adhesion_molecule" sem="Protein_family_or_group">endothelial adhesion molecule</term> induction</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T4"/>
+<site idref="T2"/>
+<clue>Involvement of tyrosine <clueType>phosphorylation</clueType> in endothelial adhesion molecule induction.</clue>
+</event>
+<event KT="Investigation" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="T4"/>
+<cause idref="E1"/>
+<clue><linkCause>Involvement of</linkCause> tyrosine phosphorylation <linkTheme>in</linkTheme> endothelial adhesion molecule <clueType>induction</clueType>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Induction of <term id="T5" lex="endothelial_adhesion_molecule" sem="Protein_family_or_group">endothelial adhesion molecules</term> by the <term id="T6" lex="cytokine" sem="Protein_family_or_group">cytokine</term> <term id="T7" lex="tumor_necrosis_factor-alpha" sem="Protein_molecule">tumor necrosis factor-alpha</term> (<term id="T8" lex="TNF" sem="Protein_molecule">TNF</term>) can occur independently of <term id="T9" lex="protein_kinase_C" sem="Protein_molecule">protein kinase C</term> and activation of a <term id="T10" lex="protein_tyrosine_kinase" sem="Protein_family_or_group">protein <term id="T11" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> kinase</term> (<term id="T12" lex="PTK" sem="Protein_family_or_group">PTK</term>) has recently been implicated in the upregulation of <term id="T13" lex="vascular_cell_adhesion_molecule_1" sem="Protein_molecule">vascular cell adhesion molecule 1</term> (<term id="T14" lex="VCAM-1" sem="Protein_molecule">VCAM-1</term>) by <term id="T15" lex="interleukin-4" sem="Protein_molecule">interleukin-4</term> (<term id="T16" lex="IL-4" sem="Protein_molecule">IL-4</term>) on <term id="T17" lex="endothelial_cell" sem="Cell_natural">endothelial cells</term>.</sentence>
+<event KT="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T5"/>
+<cause idref="T8"/>
+<clue><clueType>Induction</clueType> <linkTheme>of</linkTheme> endothelial adhesion molecules <linkCause>by</linkCause> the cytokine tumor necrosis factor-alpha (TNF) can occur independently of protein kinase C and activation of a protein tyrosine kinase (PTK) has recently been implicated in the upregulation of vascular cell adhesion molecule 1 (VCAM-1) by interleukin-4 (IL-4) on endothelial cells.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E5">
+<type class="Correlation"/>
+<theme idref="T9"/>
+<theme idref="E4"/>
+<clue>Induction of endothelial adhesion molecules by the cytokine tumor necrosis factor-alpha (TNF) <clueKT><clueCL>can</clueCL></clueKT> <clueType>occur <cluePolarity>independently</cluePolarity></clueType> <linkTheme>of</linkTheme> protein kinase C and activation of a protein tyrosine kinase (PTK) has recently been implicated in the upregulation of vascular cell adhesion molecule 1 (VCAM-1) by interleukin-4 (IL-4) on endothelial cells.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="T12"/>
+<clue>Induction of endothelial adhesion molecules by the cytokine tumor necrosis factor-alpha (TNF) can occur independently of protein kinase C and <clueType>activation</clueType> <linkTheme>of</linkTheme> a protein tyrosine kinase (PTK) has recently been implicated in the upregulation of vascular cell adhesion molecule 1 (VCAM-1) by interleukin-4 (IL-4) on endothelial cells.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T14"/>
+<cause idref="T16"/>
+<clue>Induction of endothelial adhesion molecules by the cytokine tumor necrosis factor-alpha (TNF) can occur independently of protein kinase C and activation of a protein tyrosine kinase (PTK) has recently been implicated in the <clueType>upregulation</clueType> <linkTheme>of</linkTheme> vascular cell adhesion molecule 1 (VCAM-1) <linkCause>by</linkCause> interleukin-4 (IL-4) <clueLoc>on endothelial cells</clueLoc>.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E8">
+<type class="Correlation"/>
+<theme idref="E6"/>
+<theme idref="E7"/>
+<clue>Induction of endothelial adhesion molecules by the cytokine tumor necrosis factor-alpha (TNF) can occur independently of protein kinase C and activation of a protein tyrosine kinase (PTK) has <clueSource>recently</clueSource> been <clueType><clueKT>implicated</clueKT></clueType> <linkTheme>in</linkTheme> the upregulation of vascular cell adhesion molecule 1 (VCAM-1) by interleukin-4 (IL-4) on endothelial cells.</clue>
+</event>
+<sentence id="S3">We demonstrate that the <term id="T18" lex="PTK_inhibitor" sem="Organic_compound_other"><term id="T19" lex="PTK" sem="Protein_family_or_group">PTK</term> inhibitors</term> <term id="T20" lex="herbimycin_A" sem="Organic_compound_other">herbimycin A</term> or <term id="T21" lex="genistein" sem="Organic_compound_other">genistein</term> suppress induction of endothelial <term id="T22" lex="VCAM-1" sem="Protein_molecule">VCAM-1</term> and <term id="T23" lex="E-selectin" sem="Protein_molecule">E-selectin</term>, as well as subsequent <term id="T24" lex="monocytic_cell_adhesion" sem="Other"><term id="A1" sem="Cell_natural">monocytic cell</term> adhesion</term> to <term id="T25" lex="endothelial_cell" sem="Cell_natural">endothelial cells</term> stimulated by <term id="T26" lex="TNF" sem="Protein_molecule">TNF</term>.</sentence>
+<event KT="Other" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="T22"/>
+<cause idref="T26"/>
+<clue>We demonstrate that the PTK inhibitors herbimycin A or genistein suppress <clueType>induction</clueType> <linkTheme>of</linkTheme> endothelial VCAM-1 and E-selectin, as well as subsequent monocytic cell adhesion to endothelial cells stimulated <linkCause>by</linkCause> TNF.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="T23"/>
+<cause idref="T26"/>
+<clue>We demonstrate that the PTK inhibitors herbimycin A or genistein suppress <clueType>induction</clueType> <linkTheme>of</linkTheme> endothelial VCAM-1 and E-selectin, as well as subsequent monocytic cell adhesion to endothelial cells stimulated <linkCause>by</linkCause> TNF.</clue>
+</event>
+<event KT="Analysis" id="E11">
+<type class="Negative_regulation"/>
+<theme idref="E9"/>
+<cause idref="T20"/>
+<clue>We <clueKT>demonstrate</clueKT> that the PTK inhibitors herbimycin A or genistein <clueType>suppress</clueType> induction of endothelial VCAM-1 and E-selectin, as well as subsequent monocytic cell adhesion to endothelial cells stimulated by TNF.</clue>
+</event>
+<event KT="Analysis" id="E12">
+<type class="Negative_regulation"/>
+<theme idref="E10"/>
+<cause idref="T20"/>
+<clue>We <clueKT>demonstrate</clueKT> that the PTK inhibitors herbimycin A or genistein <clueType>suppress</clueType> induction of endothelial VCAM-1 and E-selectin, as well as subsequent monocytic cell adhesion to endothelial cells stimulated by TNF.</clue>
+</event>
+<event KT="Analysis" id="E13">
+<type class="Negative_regulation"/>
+<theme idref="E9"/>
+<cause idref="T21"/>
+<clue>We <clueKT>demonstrate</clueKT> that the PTK inhibitors herbimycin A or genistein <clueType>suppress</clueType> induction of endothelial VCAM-1 and E-selectin, as well as subsequent monocytic cell adhesion to endothelial cells stimulated by TNF.</clue>
+</event>
+<event KT="Analysis" id="E14">
+<type class="Negative_regulation"/>
+<theme idref="E10"/>
+<cause idref="T21"/>
+<clue>We <clueKT>demonstrate</clueKT> that the PTK inhibitors herbimycin A or genistein <clueType>suppress</clueType> induction of endothelial VCAM-1 and E-selectin, as well as subsequent monocytic cell adhesion to endothelial cells stimulated by TNF.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Cell_adhesion"/>
+<theme idref="A1"/>
+<theme idref="T25"/>
+<clue>We demonstrate that the PTK inhibitors herbimycin A or genistein suppress induction of endothelial VCAM-1 and E-selectin, as well as subsequent monocytic cell <clueType>adhesion</clueType> <linkTheme>to</linkTheme> endothelial cells stimulated by TNF.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="T26"/>
+<clue>We demonstrate that the PTK inhibitors herbimycin A or genistein suppress induction of endothelial VCAM-1 and E-selectin, as well as subsequent monocytic cell adhesion to endothelial cells <clueType>stimulated</clueType> <linkCause>by</linkCause> TNF.</clue>
+</event>
+<event KT="Analysis" id="E17">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<cause idref="T20"/>
+<clue>We <clueKT>demonstrate</clueKT> that the PTK inhibitors herbimycin A or genistein <clueType>suppress</clueType> induction of endothelial VCAM-1 and E-selectin, as well as subsequent monocytic cell adhesion to endothelial cells stimulated by TNF.</clue>
+</event>
+<event KT="Analysis" id="E18">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<cause idref="T21"/>
+<clue>We <clueKT>demonstrate</clueKT> that the PTK inhibitors herbimycin A or genistein <clueType>suppress</clueType> induction of endothelial VCAM-1 and E-selectin, as well as subsequent monocytic cell adhesion to endothelial cells stimulated by TNF.</clue>
+</event>
+<sentence id="S4">Inhibition studies indicate that specific <term id="T27" lex="tyrosine_phosphorylation" sem="Other"><term id="T28" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> phosphorylation</term> following <term id="T29" lex="PTK" sem="Protein_family_or_group">PTK</term> activation is involved in the mobilization of the <term id="T30" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term>, <term id="T31" lex="nuclear_factor_kappa_B" sem="Protein_complex">nuclear factor kappa B</term>, and <term id="T32" lex="VCAM-1_mRNA_expression" sem="Other"><term id="T33" lex="VCAM-1_mRNA" sem="RNA_molecule"><term id="T34" lex="VCAM-1" sem="Protein_molecule">VCAM-1</term> mRNA</term> expression</term>.</sentence>
+<event KT="Other" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="T29"/>
+<clue>Inhibition studies indicate that specific tyrosine phosphorylation following PTK <clueType>activation</clueType> is involved in the mobilization of the transcription factor, nuclear factor kappa B, and VCAM-1 mRNA expression.</clue>
+</event>
+<event KT="Other" id="E120">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T29"/>
+<site idref="T28"/>
+<clue>Inhibition studies indicate that specific tyrosine <clueType>phosphorylation</clueType> following PTK activation is involved in the mobilization of the transcription factor, nuclear factor kappa B, and VCAM-1 mRNA expression.</clue>
+</event>
+<event KT="Other" id="E121">
+<type class="Positive_regulation"/>
+<theme idref="E120"/>
+<cause idref="E19"/>
+<clue>Inhibition studies indicate that specific tyrosine phosphorylation <linkCause>following</linkCause> PTK activation is involved in the mobilization of the transcription factor, nuclear factor kappa B, and VCAM-1 mRNA expression.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Other" id="E21">
+<type class="Localization"/>
+<theme idref="T31"/>
+<clue>Inhibition studies indicate that specific tyrosine phosphorylation following PTK activation is involved in the <clueType>mobilization</clueType> <linkTheme>of</linkTheme> the transcription factor, nuclear factor kappa B, and VCAM-1 mRNA expression.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Transcription"/>
+<theme idref="T33"/>
+<clue>Inhibition studies indicate that specific tyrosine phosphorylation following PTK activation is involved in the mobilization of the transcription factor, nuclear factor kappa B, and VCAM-1 mRNA <clueType>expression</clueType>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E23">
+<type class="Correlation"/>
+<theme idref="E121"/>
+<theme idref="E21"/>
+<clue><clueExperiment>Inhibition studies</clueExperiment> <clueKT><clueCL>indicate</clueCL></clueKT> that specific tyrosine phosphorylation following PTK activation is <clueType>involved</clueType> <linkTheme>in</linkTheme> the mobilization of the transcription factor, nuclear factor kappa B, and VCAM-1 mRNA expression.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E24">
+<type class="Correlation"/>
+<theme idref="E121"/>
+<theme idref="E22"/>
+<clue><clueExperiment>Inhibition studies</clueExperiment> <clueKT><clueCL>indicate</clueCL></clueKT> that specific tyrosine phosphorylation following PTK activation is <clueType>involved</clueType> <linkTheme>in</linkTheme> the mobilization of the transcription factor, nuclear factor kappa B, and VCAM-1 mRNA expression.</clue>
+</event>
+<sentence id="S5">This may have implications for <term id="T35" lex="pathophysiological_condition" sem="Other">pathophysiological conditions</term> that involve the upregulation of these molecules (e.g. <term id="T36" lex="inflammation" sem="Other">inflammation</term> and <term id="T37" lex="atherosclerosis" sem="Other">atherosclerosis</term>).</sentence>
+<event KT="Other" id="E25">
+<type class="Positive_regulation"/>
+<theme idref="T29"/>
+<clue>This may have implications for pathophysiological conditions that involve the <clueType>upregulation</clueType> <linkTheme>of</linkTheme> <corefTheme>these molecules</corefTheme> (e.g. inflammation and atherosclerosis).</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E26" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="T36"/>
+<theme idref="E25"/>
+<clue>This <clueCL>may</clueCL> have <clueKT>implications</clueKT> for <corefTheme idref1="T36">pathophysiological conditions</corefTheme> that <clueType>involve</clueType> the upregulation of these molecules (e.g. inflammation and atherosclerosis).</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E27" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="T37"/>
+<theme idref="E25"/>
+<clue>This <clueCL>may</clueCL> have <clueKT>implications</clueKT> for <corefTheme idref1="T37">pathophysiological conditions</corefTheme> that <clueType>involve</clueType> the upregulation of these molecules (e.g. inflammation and atherosclerosis).</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

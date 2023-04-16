@@ -1,0 +1,253 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10229841" created="22/05/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10229841</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Signaling through the <term id="T1" lex="lymphotoxin-beta_receptor" sem="Protein_molecule">lymphotoxin-beta receptor</term> stimulates <term id="T2" lex="HIV-1_replication" sem="Other"><term id="T3" lex="HIV-1" sem="Virus">HIV-1</term> replication</term> alone and in cooperation with <term id="A1" sem="Protein_molecule">soluble</term> or <term id="T4" lex="membrane-bound_TNF-alpha" sem="Protein_molecule">membrane-bound <term id="A2" sem="Protein_molecule">TNF-alpha</term></term>.</sentence>
+<event id="E1">
+<type class="Viral_life_cycle"/>
+<theme idref="T3"/>
+<clue>Signaling through the lymphotoxin-beta receptor stimulates HIV-1 <clueType>replication</clueType> alone and in cooperation with soluble or membrane-bound TNF-alpha.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T1"/>
+<clue>Signaling through the lymphotoxin-beta receptor <clueType>stimulates</clueType> HIV-1 replication alone and in cooperation with soluble or membrane-bound TNF-alpha.</clue>
+</event>
+<event id="E3">
+<type class="Correlation"/>
+<theme idref="T1"/>
+<theme idref="A1" idref1="A2"/>
+<clue>Signaling through the lymphotoxin-beta receptor stimulates HIV-1 replication alone and in <clueType>cooperation</clueType> <linkTheme>with</linkTheme> soluble or membrane-bound TNF-alpha.</clue>
+</event>
+<event id="E4">
+<type class="Correlation"/>
+<theme idref="T1"/>
+<theme idref="T4"/>
+<clue>Signaling through the lymphotoxin-beta receptor stimulates HIV-1 replication alone and in <clueType>cooperation</clueType> <linkTheme>with</linkTheme> soluble or membrane-bound TNF-alpha.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="E3"/>
+<clue>Signaling through the lymphotoxin-beta receptor <clueType>stimulates</clueType> HIV-1 replication alone and <linkCause>in</linkCause> cooperation with soluble or membrane-bound TNF-alpha.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="E4"/>
+<clue>Signaling through the lymphotoxin-beta receptor <clueType>stimulates</clueType> HIV-1 replication alone and <linkCause>in</linkCause> cooperation with soluble or membrane-bound TNF-alpha.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The level of ongoing <term id="T5" lex="HIV-1" sem="Virus">HIV-1</term> replication within an individual is critical to <term id="T6" lex="HIV-1_pathogenesis" sem="Other"><term id="T7" lex="HIV-1" sem="Virus">HIV-1</term> pathogenesis</term>.</sentence>
+<event KT="Other" id="E7">
+<type class="Viral_life_cycle"/>
+<theme idref="T5"/>
+<clue>The level of ongoing HIV-1 <clueType>replication</clueType> <clueLoc>within an individual</clueLoc> is critical to HIV-1 pathogenesis.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Viral_life_cycle"/>
+<theme idref="T7"/>
+<clue>The level of ongoing HIV-1 replication within an individual is critical to HIV-1 <clueType>pathogenesis</clueType>.</clue>
+</event>
+<event KT="Fact" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="E7"/>
+<clue>The level of ongoing HIV-1 replication within an individual is <clueType>critical</clueType> <linkTheme>to</linkTheme> HIV-1 pathogenesis.</clue>
+</event>
+<sentence id="S3">Among host immune factors, the <term id="T8" lex="cytokine" sem="Protein_family_or_group">cytokine</term> <term id="T9" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term> has previously been shown to increase <term id="T109" sem="Other"><term id="T10" lex="HIV-1" sem="Virus">HIV-1</term> replication</term> in various <cons id="C1" lex="(AND monocyte_model_system T_cell_model_system)" sem="(AND Other Other)"><frag id="F4">monocyte</frag> and <frag id="F5">T cell</frag> <frag id="F6">model systems</frag></cons>.</sentence>
+<event KT="Other" id="E10">
+<type class="Viral_life_cycle"/>
+<theme idref="T10"/>
+<clue>Among host immune factors, the cytokine TNF-alpha has previously been shown to increase HIV-1 <clueType>replication</clueType> in various monocyte and T cell model systems.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="T9"/>
+<clue>Among host immune factors, the cytokine TNF-alpha has <clueSource>previously</clueSource> been <clueKT>shown</clueKT> to <clueType>increase</clueType> HIV-1 replication <clueLoc>in various monocyte</clueLoc> and T cell <clueLoc>model systems</clueLoc>.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E111">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="T9"/>
+<clue>Among host immune factors, the cytokine TNF-alpha has <clueSource>previously</clueSource> been <clueKT>shown</clueKT> to <clueType>increase</clueType> HIV-1 replication <clueLoc>in various</clueLoc> monocyte and <clueLoc>T cell model systems</clueLoc>.</clue>
+</event>
+<sentence id="S4">Here, we demonstrate that signaling through the <term id="T13" lex="TNF_receptor_family_member" sem="Protein_family_or_group"><term id="T14" lex="TNF" sem="Protein_family_or_group">TNF</term> receptor family member</term>, the <term id="T15" lex="lymphotoxin-beta_(LT-beta)_receptor" sem="Protein_molecule">lymphotoxin-beta (LT-beta) receptor</term> (<term id="T16" lex="LT-betaR" sem="Protein_molecule">LT-betaR</term>), also regulates <term id="T17" lex="HIV-1_replication" sem="Other"><term id="T18" lex="HIV-1" sem="Virus">HIV-1</term> replication</term>.</sentence>
+<event id="E101">
+<type class="Cell_communication"/>
+<theme idref="T16"/>
+<clue>Here, we demonstrate that <clueType>signaling</clueType> <linkTheme>through</linkTheme> the TNF receptor family member, the lymphotoxin-beta (LT-beta) receptor (LT-betaR), also regulates HIV-1 replication.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Viral_life_cycle"/>
+<theme idref="T18"/>
+<clue>Here, we demonstrate that signaling through the TNF receptor family member, the lymphotoxin-beta (LT-beta) receptor (LT-betaR), also regulates HIV-1 <clueType>replication</clueType>.</clue>
+</event>
+<event KT="Analysis" id="E13">
+<type class="Regulation"/>
+<theme idref="E12"/>
+<cause idref="E101"/>
+<clue>Here, we <clueKT>demonstrate</clueKT> that signaling through the TNF receptor family member, the lymphotoxin-beta (LT-beta) receptor (LT-betaR), also <clueType>regulates</clueType> HIV-1 replication.</clue>
+</event>
+<sentence id="S5">Furthermore, <term id="T19" lex="HIV-1_replication" sem="Other"><term id="T20" lex="HIV-1" sem="Virus">HIV-1</term> replication</term> is cooperatively stimulated when the distinct <term id="T21" lex="LT-betaR" sem="Protein_molecule">LT-betaR</term> and <term id="T22" lex="TNF_receptor_system" sem="Protein_family_or_group">TNF receptor systems</term> are simultaneously engaged by <term id="A3" sem="Protein_family_or_group">their specific ligands</term>.</sentence>
+<event id="E14">
+<type class="Binding"/>
+<theme idref="T21"/>
+<theme idref="A3"/>
+<clue>Furthermore, HIV-1 replication is cooperatively stimulated when the distinct LT-betaR and TNF receptor systems are <clueType>simultaneously engaged</clueType> <linkTheme>by</linkTheme> their specific ligands.</clue>
+</event>
+<event id="E15">
+<type class="Binding"/>
+<theme idref="T22"/>
+<theme idref="A3"/>
+<clue>Furthermore, HIV-1 replication is cooperatively stimulated when the distinct LT-betaR and TNF receptor systems are <clueType>simultaneously engaged</clueType> <linkTheme>by</linkTheme> their specific ligands.</clue>
+</event>
+<event id="E16">
+<type class="Viral_life_cycle"/>
+<theme idref="T20"/>
+<clue>Furthermore, HIV-1 <clueType>replication</clueType> is cooperatively stimulated when the distinct LT-betaR and TNF receptor systems are simultaneously engaged by their specific ligands.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<cause idref="E14"/>
+<cause idref="E15"/>
+<clue>Furthermore, HIV-1 replication is <clueType>cooperatively stimulated</clueType> <linkCause>when</linkCause> the distinct LT-betaR and TNF receptor systems are simultaneously engaged by their specific ligands.</clue>
+</event>
+<sentence id="S6">Moreover, in a physiological <term id="T23" lex="coculture_cellular_assay_system" sem="Other">coculture cellular assay system</term>, we show that <term id="T24" lex="membrane-bound_TNF-alpha" sem="Protein_molecule">membrane-bound TNF-alpha</term> and <term id="T25" lex="LT-alpha1beta2" sem="Protein_molecule">LT-alpha1beta2</term> act virtually identically to their soluble forms in the regulation of <term id="T26" lex="HIV-1_replication" sem="Other"><term id="T27" lex="HIV-1" sem="Virus">HIV-1</term> replication</term>.</sentence>
+<event KT="Other" id="E18">
+<type class="Viral_life_cycle"/>
+<theme idref="T27"/>
+<clue>Moreover, in a physiological coculture cellular assay system, we show that membrane-bound TNF-alpha and LT-alpha1beta2 act virtually identically to their soluble forms in the regulation of HIV-1 <clueType>replication</clueType>.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Regulation"/>
+<theme idref="E18"/>
+<clue>Moreover, in a physiological coculture cellular assay system, we show that membrane-bound TNF-alpha and LT-alpha1beta2 act virtually identically to their soluble forms in the <clueType>regulation</clueType> <linkTheme>of</linkTheme> HIV-1 replication.</clue>
+</event>
+<event KT="Analysis" id="E20">
+<type class="Regulation"/>
+<theme idref="E19"/>
+<cause idref="T24"/>
+<clue>Moreover, <clueExperiment>in a physiological coculture cellular assay system</clueExperiment>, we <clueKT>show</clueKT> that membrane-bound TNF-alpha and LT-alpha1beta2 <clueType>act</clueType> virtually identically to their soluble forms <linkTheme>in</linkTheme> the regulation of HIV-1 replication.</clue>
+</event>
+<event KT="Analysis" id="E21">
+<type class="Regulation"/>
+<theme idref="E19"/>
+<cause idref="T25"/>
+<clue>Moreover, <clueExperiment>in a physiological coculture cellular assay system</clueExperiment>, we <clueKT>show</clueKT> that membrane-bound TNF-alpha and LT-alpha1beta2 <clueType>act</clueType> virtually identically to their soluble forms <linkTheme>in</linkTheme> the regulation of HIV-1 replication.</clue>
+</event>
+<sentence id="S7">Thus, cosignaling via the <cons id="T28" lex="(AND LT-beta_receptor TNF-alpha_receptor)" sem="(AND Protein_molecule Protein_molecule)"><frag id="F1"><term id="A4" sem="Protein_molecule">LT-beta</term></frag> and <frag id="F2"><term id="A5" sem="Protein_molecule">TNF-alpha</term></frag> <frag id="F3"><term id="A6" sem="Protein_molecule">receptors</term></frag></cons> is probably involved in the modulation of <term id="T29" lex="HIV-1_replication" sem="Other"><term id="T30" lex="HIV-1" sem="Virus">HIV-1</term> replication</term> and the subsequent determination of <term id="T31" lex="HIV-1" sem="Virus"><term id="T32" lex="HIV-1" sem="Virus">HIV-1</term></term> viral burden in <term id="T33" lex="monocyte" sem="Cell_natural">monocytes</term>.</sentence>
+<event id="E22">
+<type class="Cell_communication"/>
+<theme idref="A4" idref1="A6"/>
+<clue>Thus, <clueType>cosignaling</clueType> <linkTheme>via</linkTheme> the LT-beta and TNF-alpha receptors is probably involved in the modulation of HIV-1 replication and the subsequent determination of HIV-1 viral burden in monocytes.</clue>
+</event>
+<event id="E122">
+<type class="Cell_communication"/>
+<theme idref="A5" idref1="A6"/>
+<clue>Thus, <clueType>cosignaling</clueType> <linkTheme>via</linkTheme> the LT-beta and TNF-alpha receptors is probably involved in the modulation of HIV-1 replication and the subsequent determination of HIV-1 viral burden in monocytes.</clue>
+</event>
+<event KT="Other" id="E23">
+<type class="Viral_life_cycle"/>
+<theme idref="T30"/>
+<clue>Thus, cosignaling via the LT-beta and TNF-alpha receptors is probably involved in the modulation of HIV-1 <clueType>replication</clueType> and the subsequent determination of HIV-1 viral burden in monocytes.</clue>
+</event>
+<event KT="Other" id="E24">
+<type class="Regulation"/>
+<theme idref="E23"/>
+<clue>Thus, cosignaling via the LT-beta and TNF-alpha receptors is probably involved in the <clueType>modulation</clueType> <linkTheme>of</linkTheme> HIV-1 replication and the subsequent determination of HIV-1 viral burden in monocytes.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E25" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="E122"/>
+<theme idref="E22"/>
+<theme idref="E24"/>
+<clue><clueKT>Thus</clueKT>, cosignaling via the LT-beta and TNF-alpha receptors is <clueCL>probably</clueCL> <clueType>involved</clueType> <linkTheme>in</linkTheme> the modulation of HIV-1 replication and the subsequent determination of HIV-1 viral burden in monocytes.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Regulation"/>
+<theme idref="T32"/>
+<clue>Thus, cosignaling via the LT-beta and TNF-alpha receptors is probably involved in the modulation of HIV-1 replication and the subsequent <clueType>determination</clueType> <linkTheme>of</linkTheme> HIV-1 viral burden <clueLoc>in monocytes</clueLoc>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E27">
+<type class="Correlation"/>
+<theme idref="E22"/>
+<theme idref="E26"/>
+<clue><clueKT>Thus</clueKT>, cosignaling via the LT-beta and TNF-alpha receptors is <clueCL>probably</clueCL> <clueType>involved</clueType> <linkTheme>in</linkTheme> the modulation of HIV-1 replication and the subsequent determination of HIV-1 viral burden in monocytes.</clue>
+</event>
+<sentence id="S8">Intriguingly, surface expression of <term id="T34" lex="LT-alpha1beta2" sem="Protein_molecule">LT-alpha1beta2</term> is up-regulated on a <term id="T35" lex="T_cell_line" sem="Cell_cultured">T cell line</term> acutely infected with <term id="T36" lex="HIV-1" sem="Virus">HIV-1</term>, suggesting a positive feedback loop between <term id="T37" lex="HIV-1_infection" sem="Other"><term id="T38" lex="HIV-1" sem="Virus">HIV-1</term> infection</term>, <term id="T39" lex="LT-alpha1beta2_expressio" sem="Other"><term id="T40" lex="LT-alpha1beta2" sem="Protein_molecule">LT-alpha1beta2</term> expression</term>, and <term id="T41" lex="HIV-1_replication" sem="Other"><term id="A8" sem="Virus">HIV-1</term> replication</term>.</sentence>
+<event id="E28">
+<type class="Gene_expression"/>
+<theme idref="T34"/>
+<clue>Intriguingly, <clueLoc>surface</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> LT-alpha1beta2 is up-regulated on a T cell line acutely infected with HIV-1, suggesting a positive feedback loop between HIV-1 infection, LT-alpha1beta2 expression, and HIV-1 replication.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation"/>
+<theme idref="E28"/>
+<clue>Intriguingly, surface expression of LT-alpha1beta2 is <clueType>up-regulated</clueType> <clueLoc>on a T cell line acutely infected with HIV-1</clueLoc>, suggesting a positive feedback loop between HIV-1 infection, LT-alpha1beta2 expression, and HIV-1 replication.</clue>
+</event>
+<event Manner="High" id="E30">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T35"/>
+<theme idref="T36"/>
+<clue>Intriguingly, surface expression of LT-alpha1beta2 is up-regulated on a T cell line <clueManner>acutely</clueManner> <clueType>infected</clueType> <linkTheme>with</linkTheme> HIV-1, suggesting a positive feedback loop between HIV-1 infection, LT-alpha1beta2 expression, and HIV-1 replication.</clue>
+</event>
+<event KT="Other" id="E31">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T38"/>
+<clue>Intriguingly, surface expression of LT-alpha1beta2 is up-regulated on a T cell line acutely infected with HIV-1, suggesting a positive feedback loop between HIV-1 <clueType>infection</clueType>, LT-alpha1beta2 expression, and HIV-1 replication.</clue>
+</event>
+<event KT="Other" id="E32">
+<type class="Gene_expression"/>
+<theme idref="T40"/>
+<clue>Intriguingly, surface expression of LT-alpha1beta2 is up-regulated on a T cell line acutely infected with HIV-1, suggesting a positive feedback loop between HIV-1 infection, LT-alpha1beta2 <clueType>expression</clueType>, and HIV-1 replication.</clue>
+</event>
+<event KT="Other" id="E33">
+<type class="Viral_life_cycle"/>
+<theme idref="A8"/>
+<clue>Intriguingly, surface expression of LT-alpha1beta2 is up-regulated on a T cell line acutely infected with HIV-1, suggesting a positive feedback loop between HIV-1 infection, LT-alpha1beta2 expression, and HIV-1 <clueType>replication</clueType>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E34">
+<type class="Positive_regulation"/>
+<theme idref="E32"/>
+<cause idref="E31"/>
+<clue>Intriguingly, surface expression of LT-alpha1beta2 is up-regulated on a T cell line acutely infected with HIV-1, <clueKT><clueCL>suggesting</clueCL></clueKT> a <clueType>positive feedback loop</clueType> <linkTheme>between</linkTheme> HIV-1 infection, LT-alpha1beta2 expression, and HIV-1 replication.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E35">
+<type class="Positive_regulation"/>
+<theme idref="E33"/>
+<cause idref="E32"/>
+<clue>Intriguingly, surface expression of LT-alpha1beta2 is up-regulated on a T cell line acutely infected with HIV-1, <clueKT><clueCL>suggesting</clueCL></clueKT> a <clueType>positive feedback loop</clueType> <linkTheme>between</linkTheme> HIV-1 infection, LT-alpha1beta2 expression, and HIV-1 replication.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E36">
+<type class="Positive_regulation"/>
+<theme idref="E31"/>
+<cause idref="E33"/>
+<clue>Intriguingly, surface expression of LT-alpha1beta2 is up-regulated on a T cell line acutely infected with HIV-1, <clueKT><clueCL>suggesting</clueCL></clueKT> a <clueType>positive feedback loop</clueType> <linkTheme>between</linkTheme> HIV-1 infection, LT-alpha1beta2 expression, and HIV-1 replication.</clue>
+</event>
+<sentence id="S9">Given the critical role that <term id="T42" lex="LT-alpha1beta2" sem="Protein_molecule">LT-alpha1beta2</term> plays in <term id="A9" sem="Other">lymphoid architecture</term>, we speculate that <term id="T43" lex="LT-alpha1beta2" sem="Protein_molecule">LT-alpha1beta2</term> may be involved in <term id="T45" lex="HIV" sem="Virus">HIV</term>-associated <term id="A10" sem="Other"><term id="T44" lex="HIV-associated_abnormality" sem="Other">abnormalities</term> of the <term id="T46" lex="lymphoid_organ" sem="Body_region">lymphoid organs</term>.</term></sentence>
+<event KT="Fact" id="E37">
+<type class="Regulation"/>
+<theme idref="A9"/>
+<cause idref="T42"/>
+<clue><clueKT>Given</clueKT> the critical <clueType>role</clueType> that LT-alpha1beta2 <clueType>plays</clueType> <linkTheme>in</linkTheme> lymphoid architecture, we speculate that LT-alpha1beta2 may be involved in HIV-associated abnormalities of the lymphoid organs.</clue>
+</event>
+<event KT="Other" id="E38">
+<type class="Regulation"/>
+<theme idref="A10"/>
+<cause idref="T45"/>
+<clue>Given the critical role that LT-alpha1beta2 plays in lymphoid architecture, we speculate that LT-alpha1beta2 may be involved in HIV-<clueType>associated</clueType> abnormalities of the lymphoid organs.</clue>
+<comment>TPS A10</comment></event>
+<event CL="L1" KT="Analysis" id="E39" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="E38"/>
+<theme idref="T43"/>
+<clue>Given the critical role that LT-alpha1beta2 plays in lymphoid architecture, we <clueKT><clueCL>speculate</clueCL></clueKT> that LT-alpha1beta2 may be <clueType>involved</clueType> <linkTheme>in</linkTheme> HIV-associated abnormalities of the lymphoid organs.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

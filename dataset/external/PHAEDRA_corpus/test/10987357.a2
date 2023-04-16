@@ -1,0 +1,19 @@
+T12	Adverse_effect 32 38	due to
+T31	Potential_therapeutic_effect 57 59	of
+T32	Potential_therapeutic_effect 93 101	received
+T33	Adverse_effect 260 269	developed
+T36	Potential_therapeutic_effect 746 756	prescribed
+T37	Adverse_effect 826 835	attention
+T50	Adverse_effect 987 989	of
+R4	Subject_Disorder Arg1:T35 Arg2:T6
+R5	Subject_Disorder Arg1:T35 Arg2:T7
+R1	Coreference Arg1:T49 Arg2:T25
+E3	Adverse_effect:T12 has_agent:T14 affects:T16
+E4	Potential_therapeutic_effect:T31 affects:T15 has_agent:T14
+E5	Potential_therapeutic_effect:T32 has_subject:T29 has_agent:T1 affects:T3
+E6	Adverse_effect:T33 affects:T5 has_subject:T29 has_agent:T1
+E7	Potential_therapeutic_effect:T36 has_agent:T25 affects:T6 has_subject:T35
+E8	Adverse_effect:T37 has_agent:T25 affects:T26 has_subject:T35 has_cue:T46
+E12	Adverse_effect:T50 affects:T27 has_agent:T49 affects:T28
+E1	Adverse_effect:T50 has_agent:T49 has_cue:T2 affects:T8 affects:T9 affects:T10
+A1	Speculated E8

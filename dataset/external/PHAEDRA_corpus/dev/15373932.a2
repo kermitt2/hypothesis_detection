@@ -1,0 +1,11 @@
+T53	Potential_therapeutic_effect 548 555	treated
+T61	Potential_therapeutic_effect 1528 1536	increase
+T63	Adverse_effect 1528 1536	increase
+R10	Subject_Disorder Arg1:T46 Arg2:T4
+E9	Potential_therapeutic_effect:T53 has_subject:T36 has_agent:T16
+E15	Potential_therapeutic_effect:T61 affects:T62 has_agent:E2
+E16	Adverse_effect:T63 affects:T62 has_agent:E2
+T6	Potential_therapeutic_effect 208 213	agent
+E1	Potential_therapeutic_effect:T6 has_agent:T5 affects:T3
+T9	DDI 1364 1372	affected
+E2	DDI:T9 has_participant:T31 has_participant2:T32 has_subject:T55

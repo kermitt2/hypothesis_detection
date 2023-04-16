@@ -1,0 +1,18 @@
+T31	Adverse_effect 60 66	due to
+T38	DDI 1240 1251	interaction
+T40	Potential_therapeutic_effect 451 460	treatment
+T41	Potential_therapeutic_effect 629 639	prescribed
+T44	Adverse_effect 292 298	caused
+R1	is_equivalent Arg1:T4 Arg2:T32
+R2	Subject_Disorder Arg1:T33 Arg2:T3
+R6	is_equivalent Arg1:T23 Arg2:T39
+R7	Coreference Arg1:T42 Arg2:T37
+E1	Combination:T30 has_participant:T2 has_participant:T27
+E3	Combination:T35 has_participant:T4 has_participant:T5
+E4	DDI:T38 has_participant:T20 has_participant:T21
+E5	Combination:T22 has_participant:T25 has_participant:T26
+E2	Adverse_effect:T31 has_agent:E1 affects:T1
+E6	Potential_therapeutic_effect:T40 affects:T11 has_agent:T8 has_subject:T37
+E7	Potential_therapeutic_effect:T41 has_subject:T42 has_agent:T10 affects:T15
+E9	Adverse_effect:T44 affects:T6 has_cue:T45 has_agent:T7
+A2	Speculated E9

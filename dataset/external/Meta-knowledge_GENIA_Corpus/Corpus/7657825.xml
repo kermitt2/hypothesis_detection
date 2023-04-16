@@ -1,0 +1,230 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7657825" created="26/04/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7657825</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Constitutive activation of different <term id="T1" lex="Jak_tyrosine_kinase" sem="Protein_family_or_group">Jak <term id="T2" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> kinases</term> in <term id="T3" lex="human_T_cell_leukemia_virus_type_1_(HTLV-1)_tax_protein" sem="Protein_molecule"><term id="T4" lex="human_T_cell_leukemia_virus_type_1" sem="Virus">human T cell leukemia virus type 1</term> (<term id="T5" lex="HTLV-1" sem="Virus">HTLV-1</term>) tax protein</term> or <term id="T6" lex="virus-transformed_cell" sem="Cell_cultured">virus-transformed cells</term>.</sentence>
+<event KT="Investigation" id="E1">
+<type class="Positive_regulation"/>
+<theme idref="T1"/>
+<clue>Constitutive <clueType>activation</clueType> <linkTheme>of</linkTheme> different Jak tyrosine kinases <clueLoc>in human T cell leukemia virus type 1 (HTLV-1) tax protein</clueLoc> or virus<clueLoc>-transformed cells</clueLoc>.</clue>
+</event>
+<event KT="Investigation" id="E30">
+<type class="Positive_regulation"/>
+<theme idref="T1"/>
+<clue>Constitutive <clueType>activation</clueType> <linkTheme>of</linkTheme> different Jak tyrosine kinases <clueLoc>in</clueLoc> human T cell leukemia virus type 1 (HTLV-1) tax protein or <clueLoc>virus-transformed cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T7" lex="HTLV-1_infection" sem="Other"><term id="T8" lex="HTLV-1" sem="Virus">HTLV-1</term> infection</term> causes an <term id="T9" lex="adult_T_cell_leukemia" sem="Other">adult T cell leukemia</term> in <term id="T10" lex="human" sem="Multicellular_organism_natural">humans</term>.</sentence>
+<event KT="Other" id="E2">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T8"/>
+<clue>HTLV-1 <clueType>infection</clueType> causes an adult T cell leukemia in humans.</clue>
+</event>
+<event KT="Fact" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="T9"/>
+<cause idref="E2"/>
+<clue>HTLV-1 infection <clueType>causes</clueType> an adult T cell leukemia <clueLoc>in humans</clueLoc>.</clue>
+</event>
+<sentence id="S3">The <term id="T11" lex="viral_encoded_protein" sem="Protein_family_or_group">viral encoded protein</term> <term id="T12" lex="tax" sem="Protein_molecule">tax</term>, is thought to play an important role in <term id="T13" lex="oncogenesis" sem="Other">oncogenesis</term>.</sentence>
+<event KT="Fact" id="E4" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="T13"/>
+<cause idref="T12"/>
+<clue>The viral encoded protein tax, is thought to <clueType>play</clueType> an important <clueType>role</clueType> <linkTheme>in</linkTheme> oncogenesis.</clue>
+</event>
+<sentence id="S4">Our previous data obtained from a <term id="T14" lex="tax_transgenic_mouse_model" sem="Multicellular_organism_genetically_modified"><term id="T15" lex="tax" sem="Protein_molecule">tax</term> transgenic mouse model</term> revealed that <term id="T16" lex="tax" sem="Protein_molecule">tax</term> transforms <term id="T17" lex="mouse_fibroblast" sem="Cell_natural">mouse fibroblasts</term> but not <term id="T18" lex="thymocyte" sem="Cell_natural">thymocytes</term>, despite comparable levels of <term id="T19" lex="tax_expression" sem="Other"><term id="T20" lex="tax" sem="Protein_molecule">tax</term> expression</term> in both tissues.</sentence>
+<event KT="Other" id="E5">
+<type class="Biological_process"/>
+<theme idref="T17"/>
+<clue>Our previous data obtained <clueLoc>from a tax transgenic mouse model</clueLoc> revealed that tax <clueType>transforms</clueType> mouse fibroblasts but not thymocytes, despite comparable levels of tax expression in both tissues.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Biological_process"/>
+<theme idref="T18"/>
+<clue>Our previous data obtained <clueLoc>from a tax transgenic mouse model</clueLoc> revealed that tax <clueType>transforms</clueType> mouse fibroblasts but not thymocytes, despite comparable levels of tax expression in both tissues.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E32">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="T15"/>
+<clue>Our <clueSource>previous data</clueSource> obtained from a tax transgenic mouse model <clueKT>revealed</clueKT> that tax <clueType>transforms</clueType> mouse fibroblasts but not thymocytes, despite comparable levels of tax expression in both tissues.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" Source="Other" assertion="non-exist" id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="T15"/>
+<clue>Our <clueSource>previous data</clueSource> obtained from a tax transgenic mouse model <clueKT>revealed</clueKT> that tax <clueType>transforms</clueType> mouse fibroblasts but <cluePolarity>not</cluePolarity> thymocytes, despite comparable levels of tax expression in both tissues.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Gene_expression"/>
+<theme idref="T20"/>
+<clue>Our previous data obtained from a tax transgenic mouse model revealed that tax transforms mouse fibroblasts but not thymocytes, despite comparable levels of tax <clueType>expression</clueType> <clueLoc>in both tissues</clueLoc>.</clue>
+</event>
+<sentence id="S5">Constitutive <term id="T21" lex="tyrosine_phosphorylation" sem="Other"><term id="T22" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> phosphorylation</term> of a <term id="T23" lex="130-kD_protein" sem="Protein_family_or_group">130-kD protein</term>(s) was observed in the <term id="T24" lex="tax" sem="Protein_molecule">tax</term> <term id="T25" lex="transformed_fibroblast_B_line" sem="Cell_cultured">transformed <term id="A1" sem="Cell_cultured">fibroblast B line</term></term> and in <term id="T26" lex="HTLV-1_transformed_human_lymphoid_line" sem="Cell_cultured"><term id="T27" lex="HTLV-1" sem="Virus">HTLV-1</term> transformed <term id="A2" sem="Cell_cultured">human lymphoid lines</term></term>, but not in <term id="T28" lex="thymocyte" sem="Cell_natural">thymocytes</term> from <term id="T29" lex="Thy-tax_transgenic_mice" sem="Multicellular_organism_genetically_modified">Thy-tax transgenic mice</term>.</sentence>
+<event id="E8">
+<type class="Biological_process"/>
+<theme idref="A1"/>
+<clue>Constitutive tyrosine phosphorylation of a 130-kD protein(s) was observed in the tax <clueType>transformed</clueType> fibroblast B line and in HTLV-1 transformed human lymphoid lines, but not in thymocytes from Thy-tax transgenic mice.</clue>
+</event>
+<event id="E34">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="T24"/>
+<clue>Constitutive tyrosine phosphorylation of a 130-kD protein(s) was observed in the tax <clueType>transformed</clueType> fibroblast B line and in HTLV-1 transformed human lymphoid lines, but not in thymocytes from Thy-tax transgenic mice.</clue>
+</event>
+<event id="E9">
+<type class="Biological_process"/>
+<theme idref="A2"/>
+<clue>Constitutive tyrosine phosphorylation of a 130-kD protein(s) was observed in the tax transformed fibroblast B line and in HTLV-1 <clueType>transformed</clueType> human lymphoid lines, but not in thymocytes from Thy-tax transgenic mice.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="T27"/>
+<clue>Constitutive tyrosine phosphorylation of a 130-kD protein(s) was observed in the tax transformed fibroblast B line and in HTLV-1 <clueType>transformed</clueType> human lymphoid lines, but not in thymocytes from Thy-tax transgenic mice.</clue>
+</event>
+<event id="E10">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T23"/>
+<site idref="T22"/>
+<clue>Constitutive tyrosine <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> a 130-kD protein(s) was <clueKT>observed</clueKT> <clueLoc>in the tax transformed fibroblast B line</clueLoc> and in HTLV-1 transformed human lymphoid lines, but not in thymocytes from Thy-tax transgenic mice.</clue>
+</event>
+<event id="E24">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T23"/>
+<site idref="T22"/>
+<clue>Constitutive tyrosine <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> a 130-kD protein(s) was <clueKT>observed</clueKT> in the tax transformed fibroblast B line and <clueLoc>in HTLV-1 transformed human lymphoid lines</clueLoc>, but not in thymocytes from Thy-tax transgenic mice.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E11">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T23"/>
+<site idref="T22"/>
+<clue>Constitutive tyrosine <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> a 130-kD protein(s) was <clueKT>observed</clueKT> in the tax transformed fibroblast B line and in HTLV-1 transformed human lymphoid lines, but <cluePolarity>not</cluePolarity> <clueLoc>in thymocytes from Thy-tax transgenic mice</clueLoc>.</clue>
+</event>
+<sentence id="S6"><term id="T30" lex="Phosphotyrosine_immunoprecipitation" sem="Other">Phosphotyrosine immunoprecipitation</term> followed by <term id="T31" lex="Western_blot_analysis" sem="Other">Western blot analysis</term> with a set of <term id="T32" lex="Jak_kinase_specific_antibody" sem="Protein_family_or_group"><term id="T33" lex="Jak_kinase" sem="Protein_family_or_group">Jak kinase</term> specific antibodies</term>, identified p130 as <term id="T34" lex="Jak2" sem="Protein_molecule">Jak2</term> in the <term id="T35" lex="tax" sem="Protein_molecule">tax</term> transformed <term id="T36" lex="mouse_fibroblastic_cell_line" sem="Cell_cultured">mouse fibroblastic cell line</term> and <term id="T37" lex="Jak3" sem="Protein_molecule">Jak3</term> in <term id="T38" lex="HTLV-1_transformed_human_T_cell_line" sem="Cell_cultured"><term id="T39" lex="HTLV-1" sem="Virus">HTLV-1</term> transformed <term id="A3" sem="Cell_cultured">human T cell lines</term></term>.</sentence>
+<event KT="Other" id="E12">
+<type class="Biological_process"/>
+<theme idref="T36"/>
+<clue>Phosphotyrosine immunoprecipitation followed by Western blot analysis with a set of Jak kinase specific antibodies, identified p130 as Jak2 in the tax <clueType>transformed</clueType> mouse fibroblastic cell line and Jak3 in HTLV-1 transformed human T cell lines.</clue>
+</event>
+<event KT="Other" id="E36">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<theme idref="T35"/>
+<clue>Phosphotyrosine immunoprecipitation followed by Western blot analysis with a set of Jak kinase specific antibodies, identified p130 as Jak2 in the tax <clueType>transformed</clueType> mouse fibroblastic cell line and Jak3 in HTLV-1 transformed human T cell lines.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Biological_process"/>
+<theme idref="A3"/>
+<clue>Phosphotyrosine immunoprecipitation followed by Western blot analysis with a set of Jak kinase specific antibodies, identified p130 as Jak2 in the tax transformed mouse fibroblastic cell line and Jak3 in HTLV-1 <clueType>transformed</clueType> human T cell lines.</clue>
+</event>
+<event KT="Other" id="E37">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<theme idref="T39"/>
+<clue>Phosphotyrosine immunoprecipitation followed by Western blot analysis with a set of Jak kinase specific antibodies, identified p130 as Jak2 in the tax transformed mouse fibroblastic cell line and Jak3 in HTLV-1 <clueType>transformed</clueType> human T cell lines.</clue>
+</event>
+<sentence id="S7">Phosphorylation of <term id="T40" lex="Jak2" sem="Protein_molecule">Jak2</term> in <term id="T41" lex="tax_transformed_cell" sem="Cell_cultured"><term id="T42" lex="tax" sem="Protein_molecule">tax</term> transformed <term id="A4" sem="Cell_cultured">cells</term></term> resulted from high expression of <term id="T43" lex="IL-6" sem="Protein_molecule">IL-6</term>.</sentence>
+<event id="E14">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T40"/>
+<clue><clueType>Phosphorylation</clueType> <linkTheme>of</linkTheme> Jak2 <clueLoc>in tax transformed cells</clueLoc> resulted from high expression of IL-6.</clue>
+</event>
+<event id="E15">
+<type class="Gene_expression"/>
+<theme idref="T43"/>
+<clue>Phosphorylation of Jak2 in tax transformed cells resulted from high <clueType>expression</clueType> <linkTheme>of</linkTheme> IL-6.</clue>
+</event>
+<event Manner="High" id="E29">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<clue>Phosphorylation of Jak2 in tax transformed cells resulted from <clueType><clueManner>high</clueManner></clueType> expression of IL-6.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="E29"/>
+<clue>Phosphorylation of Jak2 in tax transformed cells <clueType>resulted</clueType> <linkCause>from</linkCause> high expression of IL-6.</clue>
+</event>
+<event id="E17">
+<type class="Biological_process"/>
+<theme idref="A4"/>
+<clue>Phosphorylation of Jak2 in tax <clueType>transformed</clueType> cells resulted from high expression of IL-6.</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<theme idref="T42"/>
+<clue>Phosphorylation of Jak2 in tax <clueType>transformed</clueType> cells resulted from high expression of IL-6.</clue>
+</event>
+<sentence id="S8"><term id="T44" lex="tyrosine" sem="Amino_acid_monomer">Tyrosine</term> phosphorylation of this protein could also be induced in <term id="T45" lex="Balb/c3T3_cell" sem="Cell_cultured">Balb/c3T3 cells</term> using a <term id="A5" sem="Multicellular_organism_genetically_modified">supernatant from the <term id="T46" lex="B_line" sem="Cell_cultured">B line</term></term>, which was associated with induction of <term id="T47" lex="cell_proliferation" sem="Other">cell proliferation</term>.</sentence>
+<event id="E18">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T40"/>
+<site idref="T44"/>
+<clue>Tyrosine <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> <corefTheme>this protein</corefTheme> could also be induced in Balb/c3T3 cells using a supernatant from the B line, which was associated with induction of cell proliferation.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="A5"/>
+<clue>Tyrosine phosphorylation of this protein could also be <clueType>induced</clueType> <clueLoc>in Balb/c3T3 cells</clueLoc> <linkCause>using</linkCause> a supernatant from the B line, which was associated with induction of cell proliferation.</clue>
+<comment>TPS: A5</comment></event>
+<event KT="Analysis" id="E20">
+<type class="Correlation"/>
+<theme idref="E19"/>
+<theme idref="E21"/>
+<clue>Tyrosine phosphorylation of this protein could also be induced in Balb/c3T3 cells using a supernatant from the B line, which was <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> induction of cell proliferation.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="T47"/>
+<clue>Tyrosine phosphorylation of this protein could also be induced in Balb/c3T3 cells using a supernatant from the B line, which was associated with <clueType>induction</clueType> <linkTheme>of</linkTheme> cell proliferation.</clue>
+</event>
+<event KT="Other" id="E28">
+<type class="Cellular_physiological_process"/>
+<theme idref="T45"/>
+<clue>Tyrosine phosphorylation of this protein could also be induced in Balb/c3T3 cells using a supernatant from the B line, which was associated with induction of <corefTheme>cell</corefTheme> <clueType>proliferation</clueType>.</clue>
+</event>
+<sentence id="S9">Both <term id="T48" lex="phosphorylation" sem="Other">phosphorylation</term> and <term id="T49" lex="proliferation" sem="Other">proliferation</term> were inhibited by <term id="T50" lex="IL-6_neutralizing_antibody" sem="Protein_family_or_group"><term id="T51" lex="IL-6" sem="Protein_molecule">IL-6</term> neutralizing antibodies</term>.</sentence>
+<event id="E22">
+<type class="Negative_regulation"/>
+<theme idref="E18"/>
+<cause idref="T50"/>
+<clue>Both <corefTheme>phosphorylation</corefTheme> and proliferation were <clueType>inhibited</clueType> <linkCause>by</linkCause> IL-6 neutralizing antibodies.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation"/>
+<theme idref="E28"/>
+<cause idref="T50"/>
+<clue>Both phosphorylation and <corefTheme>proliferation</corefTheme> were <clueType>inhibited</clueType> <linkCause>by</linkCause> IL-6 neutralizing antibodies.</clue>
+</event>
+<sentence id="S10">Constitutive phosphorylation of <term id="T52" lex="Jak_kinase" sem="Protein_family_or_group">Jak kinases</term> may facilitate <term id="T53" lex="tumor_growth" sem="Other">tumor growth</term> in both <term id="T54" lex="HTLV-1_infected_human_T_cell" sem="Cell_natural"><term id="T55" lex="HTLV-1" sem="Virus">HTLV-1</term> infected human <term id="T56" lex="T_cell" sem="Cell_natural">T cells</term></term> and the <term id="T57" lex="transgenic_mouse_model" sem="Multicellular_organism_genetically_modified">transgenic mouse model</term>.</sentence>
+<event KT="Other" id="E25">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T52"/>
+<clue>Constitutive <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> Jak kinases may facilitate tumor growth in both HTLV-1 infected human T cells and the transgenic mouse model.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E26" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T53"/>
+<cause idref="E25"/>
+<clue>Constitutive phosphorylation of Jak kinases <clueKT><clueCL>may</clueCL></clueKT> <clueType>facilitate</clueType> tumor growth <clueLoc>in</clueLoc> both <clueLoc>HTLV-1 infected human T cells</clueLoc> and the transgenic mouse model.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E31">
+<type class="Positive_regulation"/>
+<theme idref="T53"/>
+<cause idref="E25"/>
+<clue>Constitutive phosphorylation of Jak kinases <clueKT><clueCL>may</clueCL></clueKT> <clueType>facilitate</clueType> tumor growth <clueLoc>in</clueLoc> both HTLV-1 infected human T cells and the <clueLoc>transgenic mouse model</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E27">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T56"/>
+<theme idref="T55"/>
+<clue>Constitutive phosphorylation of Jak kinases may facilitate tumor growth in both HTLV-1 <clueType>infected</clueType> human T cells and the transgenic mouse model.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

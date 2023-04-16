@@ -1,0 +1,336 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9741337" created="02/05/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9741337</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Low <term id="T1" lex="CD3+CD28-induced_interleukin-2_production" sem="Other"><term id="A1" sem="Protein_molecule">CD3</term>+<term id="A2" sem="Protein_molecule">CD28</term>-induced <term id="T2" lex="interleukin-2" sem="Protein_molecule">interleukin-2</term> production</term> correlates with decreased <term id="T3" lex="reactive_oxygen_intermediate_formation" sem="Other"><term id="A3" lex="reactive oxygen intermediate" sem="Inorganic_compound">reactive oxygen intermediate</term> formation</term> in <term id="T4" lex="neonatal_T_cell" sem="Cell_natural">neonatal T cells</term>.</sentence>
+<event KT="Other" Manner="Low" id="E1">
+<type class="Positive_regulation"/>
+<theme idref="E55"/>
+<cause idref="A1"/>
+<cause idref="A2"/>
+<clue><clueManner>Low</clueManner> CD3+CD28-<clueType>induced</clueType> interleukin-2 production correlates with decreased reactive oxygen intermediate formation in neonatal T cells.</clue>
+</event>
+<event KT="Other" id="E55">
+<type class="Gene_expression"/>
+<theme idref="T2"/>
+<clue>Low CD3+CD28-induced interleukin-2 <clueType>production</clueType> correlates with decreased reactive oxygen intermediate formation <clueLoc>in neonatal T cells</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Negative_regulation"/>
+<theme idref="E4"/>
+<clue>Low CD3+CD28-induced interleukin-2 production correlates with <clueType>decreased</clueType> reactive oxygen intermediate formation <clueLoc>in neonatal T cells</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<clue>Low CD3+CD28-induced interleukin-2 production correlates with decreased reactive oxygen intermediate <clueType>formation</clueType> in neonatal T cells.</clue>
+</event>
+<event KT="Analysis" id="E5">
+<type class="Correlation"/>
+<theme idref="E1"/>
+<theme idref="E3"/>
+<clue>Low CD3+CD28-induced interleukin-2 production <clueType><clueKT>correlates</clueKT></clueType> <linkTheme>with</linkTheme> decreased reactive oxygen intermediate formation in neonatal T cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The capacity of <term id="T5" lex="neonatal_T_cell" sem="Cell_natural">neonatal T cells</term> to secrete <term id="T6" lex="interleukin-2" sem="Protein_molecule">interleukin-2</term> (<term id="T7" lex="IL-2" sem="Protein_molecule">IL-2</term>) has been reported to be variable.</sentence>
+<event CL="L2" KT="Analysis" id="E6">
+<type class="Localization"/>
+<theme idref="T7"/>
+<clue>The <clueCL>capacity</clueCL> of <clueLoc>neonatal T cells</clueLoc> to <clueType>secrete</clueType> interleukin-2 (IL-2) has been <clueKT>reported</clueKT> to be variable.</clue>
+</event>
+<sentence id="S3">We analysed <term id="T8" lex="IL-2_production" sem="Other"><term id="T9" lex="IL-2" sem="Protein_molecule">IL-2</term> production</term> in purified <cons id="T10" lex="(AND neonatal_T_cell adult_T_cell)" sem="(AND Cell_natural Cell_natural)"><frag id="F1">neonatal</frag> and <frag id="F2">adult</frag> <frag id="F3">T cells</frag></cons> using polyclonal activator <term id="T11" lex="phorbol_ester_+_calcium_ionophore" sem="Organic_compound_other"><term id="T12" lex="phorbol_ester" sem="Organic_compound_other">phorbol ester</term> + <term id="T13" lex="calcium_ionophore" sem="Organic_compound_other">calcium ionophore</term></term> (<term id="T14" lex="PDBu" sem="Organic_compound_other">PDBu</term> + <term id="T15" lex="iono" sem="Organic_compound_other">iono</term>) or <term id="T16" lex="receptor-mediated_anti-CD3/anti-CD3+_anti-CD28_stimulation" sem="Other"><term id="A11" sem="Protein_domain_or_region">receptor</term>-mediated <term id="T17" lex="anti-CD3" sem="Protein_molecule">anti-<term id="A7" sem="Protein_molecule">CD3</term></term>/<term id="A8" sem="Protein_molecule">anti-CD3</term>+ <term id="T18" lex="anti-CD28" sem="Protein_family_or_group">anti-CD28</term> stimulation</term>.</sentence>
+<event KT="Investigation" id="E7" uncertainty="doubtful">
+<type class="Gene_expression"/>
+<theme idref="T9"/>
+<clue>We <clueKT>analysed</clueKT> IL-2 <clueType>production</clueType> <clueLoc>in purified neonatal</clueLoc> and adult <clueLoc>T cells</clueLoc> <clueExperiment>using polyclonal activator phorbol ester + calcium ionophore (PDBu + iono) or receptor-mediated anti-CD3/anti-CD3+ anti-CD28 stimulation</clueExperiment>.</clue>
+</event>
+<event KT="Investigation" id="E2" uncertainty="doubtful">
+<type class="Gene_expression"/>
+<theme idref="T9"/>
+<clue>We <clueKT>analysed</clueKT> IL-2 <clueType>production</clueType> <clueLoc>in purified</clueLoc> neonatal and <clueLoc>adult T cells</clueLoc> <clueExperiment>using polyclonal activator phorbol ester + calcium ionophore (PDBu + iono) or receptor-mediated anti-CD3/anti-CD3+ anti-CD28 stimulation</clueExperiment>.</clue>
+</event>
+<event KT="Other" id="E50" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E7"/>
+<cause idref="T14"/>
+<cause idref="T15"/>
+<clue>We analysed IL-2 production in purified neonatal and adult T cells <linkCause>using</linkCause> <corefCause>polyclonal activator</corefCause> phorbol ester + calcium ionophore (PDBu + iono) or receptor-mediated anti-CD3/anti-CD3+ anti-CD28 stimulation.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Other" id="E51" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E7"/>
+<cause idref="E53"/>
+<clue>We analysed IL-2 production in purified neonatal and adult T cells <linkCause>using</linkCause> polyclonal activator phorbol ester + calcium ionophore (PDBu + iono) or receptor-mediated anti-CD3/anti-CD3+ anti-CD28 stimulation.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Other" id="E56" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E7"/>
+<cause idref="E54"/>
+<clue>We analysed IL-2 production in purified neonatal and adult T cells <linkCause>using</linkCause> polyclonal activator phorbol ester + calcium ionophore (PDBu + iono) or receptor-mediated anti-CD3/anti-CD3+ anti-CD28 stimulation.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Other" id="E8">
+<type class="Physiological_process"/>
+<theme idref="T10"/>
+<cause idref="T17"/>
+<clue>We analysed IL-2 production in purified neonatal and adult T cells using polyclonal activator phorbol ester + calcium ionophore (PDBu + iono) or receptor-mediated anti-CD3/anti-CD3+ anti-CD28 <clueType>stimulation</clueType>.</clue>
+</event>
+<event KT="Other" id="E52">
+<type class="Physiological_process"/>
+<theme idref="T10"/>
+<cause idref="A8"/>
+<cause idref="T18"/>
+<clue>We analysed IL-2 production in purified neonatal and adult T cells using polyclonal activator phorbol ester + calcium ionophore (PDBu + iono) or receptor-mediated anti-CD3/anti-CD3+ anti-CD28 <clueType>stimulation</clueType>.</clue>
+</event>
+<event KT="Other" id="E53">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="A11"/>
+<clue>We analysed IL-2 production in purified neonatal and adult T cells using polyclonal activator phorbol ester + calcium ionophore (PDBu + iono) or receptor-<clueType>mediated</clueType> anti-CD3/anti-CD3+ anti-CD28 stimulation.</clue>
+</event>
+<event KT="Other" id="E54">
+<type class="Positive_regulation"/>
+<theme idref="E52"/>
+<cause idref="A11"/>
+<clue>We analysed IL-2 production in purified neonatal and adult T cells using polyclonal activator phorbol ester + calcium ionophore (PDBu + iono) or receptor-<clueType>mediated</clueType> anti-CD3/anti-CD3+ anti-CD28 stimulation.</clue>
+</event>
+<sentence id="S4"><term id="T19" lex="PDBu" sem="Organic_compound_other">PDBu</term> + <term id="T20" lex="iono" sem="Organic_compound_other">iono</term> induced equally high <term id="T21" lex="IL-2_level" sem="Other"><term id="T22" lex="IL-2" sem="Protein_molecule">IL-2</term> levels</term> in both groups and, when stimulated with plate-bound <term id="T23" lex="anti-CD3_monoclonal_antibody" sem="Protein_molecule"><term id="A9" sem="Protein_molecule">anti-CD3</term> monoclonal antibody</term> (<term id="T24" lex="mAb" sem="Protein_family_or_group">mAb</term>), the <term id="T25" lex="IL-2" sem="Protein_molecule">IL-2</term> secretion by <term id="T26" lex="neonatal_cell" sem="Cell_natural">neonatal cells</term> was undetectable and <term id="T27" lex="adult_cell" sem="Cell_natural">adult cells</term> produced low amounts of <term id="T28" lex="IL-2" sem="Protein_molecule">IL-2</term> (mean 331 +/- 86 pg/ml).</sentence>
+<event id="E9">
+<type class="Positive_regulation"/>
+<theme idref="T22"/>
+<cause idref="T19"/>
+<cause idref="T20"/>
+<clue>PDBu + iono <clueType>induced</clueType> equally high IL-2 levels <clueLoc>in both groups</clueLoc> and, when stimulated with plate-bound anti-CD3 monoclonal antibody (mAb), the IL-2 secretion by neonatal cells was undetectable and adult cells produced low amounts of IL-2 (mean 331 +/- 86 pg/ml).</clue>
+</event>
+<event Manner="High" id="E57">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="T19"/>
+<cause idref="T20"/>
+<clue>PDBu + iono induced <clueManner>equally</clueManner> <clueType><clueManner>high</clueManner></clueType> IL-2 <clueType>levels</clueType> <clueLoc>in both groups</clueLoc> and, when stimulated with plate-bound anti-CD3 monoclonal antibody (mAb), the IL-2 secretion by neonatal cells was undetectable and adult cells produced low amounts of IL-2 (mean 331 +/- 86 pg/ml).</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation"/>
+<cause idref="A9"/>
+<clue>PDBu + iono induced equally high IL-2 levels in both groups and, when <clueType>stimulated</clueType> <linkCause>with</linkCause> plate-bound anti-CD3 monoclonal antibody (mAb), the IL-2 secretion by neonatal cells was undetectable and adult cells produced low amounts of IL-2 (mean 331 +/- 86 pg/ml).</clue>
+<comment>NO THEME</comment></event>
+<event KT="Other" id="E11">
+<type class="Localization"/>
+<theme idref="T25"/>
+<clue>PDBu + iono induced equally high IL-2 levels in both groups and, when stimulated with plate-bound anti-CD3 monoclonal antibody (mAb), the IL-2 <clueType>secretion</clueType> by <clueLoc>neonatal cells</clueLoc> was undetectable and adult cells produced low amounts of IL-2 (mean 331 +/- 86 pg/ml).</clue>
+</event>
+<event id="E12">
+<type class="Gene_expression"/>
+<theme idref="T25"/>
+<clue>PDBu + iono induced equally high IL-2 levels in both groups and, when stimulated with plate-bound anti-CD3 monoclonal antibody (mAb), the IL-2 secretion by neonatal cells was undetectable and <clueLoc>adult cells</clueLoc> <clueType>produced</clueType> low amounts <linkTheme>of</linkTheme> IL-2 (mean 331 +/- 86 pg/ml).</clue>
+</event>
+<event Polarity="Negative" id="E13">
+<type class="Negative_regulation"/>
+<theme idref="E11"/>
+<cause idref="E10"/>
+<clue>PDBu + iono induced equally high IL-2 levels in both groups and, <linkCause>when</linkCause> stimulated with plate-bound anti-CD3 monoclonal antibody (mAb), the IL-2 secretion by neonatal cells <clueType>was <cluePolarity>un</cluePolarity><clueKT>detectable</clueKT></clueType> and adult cells produced low amounts of IL-2 (mean 331 +/- 86 pg/ml).</clue>
+</event>
+<event Manner="Low" id="E14">
+<type class="Negative_regulation"/>
+<theme idref="E12"/>
+<cause idref="E10"/>
+<clue>PDBu + iono induced equally high IL-2 levels in both groups and, <linkCause>when</linkCause> stimulated with plate-bound anti-CD3 monoclonal antibody (mAb), the IL-2 secretion by neonatal cells was undetectable and adult cells produced <clueType><clueManner>low amounts</clueManner></clueType> of IL-2 (mean 331 +/- 86 pg/ml).</clue>
+</event>
+<sentence id="S5">The addition of <term id="T29" lex="anti-CD28_mAb" sem="Protein_molecule">anti-CD28 mAb</term> to <term id="T30" lex="anti-CD3-stimulated_cell" sem="Cell_cultured"><term id="A10" sem="Protein_molecule">anti-CD3</term>-stimulated cells</term> markedly increased <term id="T31" lex="IL-2_production" sem="Other"><term id="T32" lex="IL-2" sem="Protein_molecule">IL-2</term> production</term> in both cell types, but levels of <term id="T33" lex="IL-2" sem="Protein_molecule">IL-2</term> in <term id="T34" lex="neonatal_T_cell" sem="Cell_natural">neonatal T cells</term> remained clearly lower than those of <term id="T35" lex="adult_T_cell" sem="Cell_natural">adult T cells</term> (respective mean values: 385 +/- 109 pg/ml and 4494 +/- 1199 pg/ml).</sentence>
+<event id="E15">
+<type class="Physiological_process"/>
+<theme idref="T34"/>
+<cause idref="A10"/>
+<clue>The addition of anti-CD28 mAb to anti-CD3-<clueType>stimulated</clueType> <corefTheme>cells</corefTheme> markedly increased IL-2 production in both cell types, but levels of IL-2 in neonatal T cells remained clearly lower than those of adult T cells (respective mean values: 385 +/- 109 pg/ml and 4494 +/- 1199 pg/ml).</clue>
+</event>
+<event id="E16">
+<type class="Physiological_process"/>
+<theme idref="T35"/>
+<cause idref="A10"/>
+<clue>The addition of anti-CD28 mAb to anti-CD3-<clueType>stimulated</clueType> <corefTheme>cells</corefTheme> markedly increased IL-2 production in both cell types, but levels of IL-2 in neonatal T cells remained clearly lower than those of adult T cells (respective mean values: 385 +/- 109 pg/ml and 4494 +/- 1199 pg/ml).</clue>
+</event>
+<event id="E17">
+<type class="Gene_expression"/>
+<theme idref="T32"/>
+<clue>The addition of anti-CD28 mAb to <clueLoc>anti-CD3-stimulated cells</clueLoc> markedly increased IL-2 <clueType>production</clueType> in both cell types, but levels of IL-2 in neonatal T cells remained clearly lower than those of adult T cells (respective mean values: 385 +/- 109 pg/ml and 4494 +/- 1199 pg/ml).</clue>
+</event>
+<event Manner="High" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<cause idref="T29"/>
+<clue>The addition of anti-CD28 mAb to anti-CD3-stimulated cells <clueManner>markedly</clueManner> <clueType>increased</clueType> IL-2 production <clueLoc>in both cell types</clueLoc>, but levels of IL-2 in neonatal T cells remained clearly lower than those of adult T cells (respective mean values: 385 +/- 109 pg/ml and 4494 +/- 1199 pg/ml).</clue>
+</event>
+<sentence id="S6">As <term id="T36" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> is a critical <term id="T37" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> in the control of <term id="T38" lex="IL-2_expression" sem="Other"><term id="T39" lex="IL-2" sem="Protein_molecule">IL-2</term> expression</term>, we next analysed its <term id="T40" lex="nuclear_translocation" sem="Other">nuclear translocation</term> in <cons id="T41" lex="(AND neonatal_T_cell adult_T_cell)" sem="(AND Cell_natural Cell_natural)"><frag id="F4">neonatal</frag> and <frag id="F5">adult</frag> <frag id="F6">T cells</frag></cons> using the <term id="T80" lex="electrophoretic_mobility_shift_assay" sem="Other">electrophoretic mobility shift assay</term> and, because induction of <term id="T42" lex="reactive_oxygen_intermediate" sem="Inorganic_compound">reactive oxygen intermediates</term> (<term id="T43" lex="ROI" sem="Inorganic_compound">ROI</term>) is required for the activation of <term id="T44" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term>, we also analysed levels of intracellular <term id="T45" lex="ROI" sem="Inorganic_compound">ROI</term> in these cells using the <term id="T46" lex="ROI-reactive_fluorochrome" sem="Organic_compound_other"><term id="T47" lex="ROI" sem="Inorganic_compound">ROI</term>-reactive fluorochrome</term> <term id="T48" lex="DCFH-DA" sem="Organic_compound_other">DCFH-DA</term> and <term id="T49" lex="flow_cytometry" sem="Other">flow cytometry</term>.</sentence>
+<event KT="Other" id="E21">
+<type class="Gene_expression"/>
+<theme idref="T39"/>
+<clue>As NF-kappa B is a critical transcription factor in the control of IL-2 <clueType>expression</clueType>, we next analysed its nuclear translocation in neonatal and adult T cells using the electrophoretic mobility shift assay and, because induction of reactive oxygen intermediates (ROI) is required for the activation of NF-kappa B, we also analysed levels of intracellular ROI in these cells using the ROI-reactive fluorochrome DCFH-DA and flow cytometry.</clue>
+</event>
+<event KT="Fact" id="E22">
+<type class="Regulation"/>
+<theme idref="E21"/>
+<cause idref="T36"/>
+<clue>As NF-kappa B is a <clueType>critical</clueType> transcription factor <clueType>in the control</clueType> <linkTheme>of</linkTheme> IL-2 expression, we next analysed its nuclear translocation in neonatal and adult T cells using the electrophoretic mobility shift assay and, because induction of reactive oxygen intermediates (ROI) is required for the activation of NF-kappa B, we also analysed levels of intracellular ROI in these cells using the ROI-reactive fluorochrome DCFH-DA and flow cytometry.</clue>
+</event>
+<event KT="Investigation" id="E23" uncertainty="doubtful">
+<type class="Localization"/>
+<theme idref="T36"/>
+<clue>As NF-kappa B is a critical transcription factor in the control of IL-2 expression, we next <clueKT>analysed</clueKT> <corefTheme>its</corefTheme> <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> <clueLoc>in neonatal</clueLoc> and adult <clueLoc>T cells</clueLoc> <clueExperiment>using the electrophoretic mobility shift assay</clueExperiment> and, because induction of reactive oxygen intermediates (ROI) is required for the activation of NF-kappa B, we also analysed levels of intracellular ROI in these cells using the ROI-reactive fluorochrome DCFH-DA and flow cytometry.</clue>
+</event>
+<event KT="Investigation" id="E18" uncertainty="doubtful">
+<type class="Localization"/>
+<theme idref="T36"/>
+<clue>As NF-kappa B is a critical transcription factor in the control of IL-2 expression, we next <clueKT>analysed</clueKT> <corefTheme>its</corefTheme> <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> <clueLoc>in</clueLoc> neonatal and <clueLoc>adult T cells</clueLoc> <clueExperiment>using the electrophoretic mobility shift assay</clueExperiment> and, because induction of reactive oxygen intermediates (ROI) is required for the activation of NF-kappa B, we also analysed levels of intracellular ROI in these cells using the ROI-reactive fluorochrome DCFH-DA and flow cytometry.</clue>
+</event>
+<event KT="Other" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="T43"/>
+<clue>As NF-kappa B is a critical transcription factor in the control of IL-2 expression, we next analysed its nuclear translocation in neonatal and adult T cells using the electrophoretic mobility shift assay and, because <clueType>induction</clueType> <linkTheme>of</linkTheme> reactive oxygen intermediates (ROI) is required for the activation of NF-kappa B, we also analysed levels of intracellular ROI in these cells using the ROI-reactive fluorochrome DCFH-DA and flow cytometry.</clue>
+</event>
+<event KT="Fact" id="E25">
+<type class="Positive_regulation"/>
+<theme idref="E26"/>
+<cause idref="E24"/>
+<clue>As NF-kappa B is a critical transcription factor in the control of IL-2 expression, we next analysed its nuclear translocation in neonatal and adult T cells using the electrophoretic mobility shift assay and, because induction of reactive oxygen intermediates (ROI) is <clueType>required</clueType> <linkTheme>for</linkTheme> the activation of NF-kappa B, we also analysed levels of intracellular ROI in these cells using the ROI-reactive fluorochrome DCFH-DA and flow cytometry.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="T44"/>
+<clue>As NF-kappa B is a critical transcription factor in the control of IL-2 expression, we next analysed its nuclear translocation in neonatal and adult T cells using the electrophoretic mobility shift assay and, because induction of reactive oxygen intermediates (ROI) is required for the <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappa B, we also analysed levels of intracellular ROI in these cells using the ROI-reactive fluorochrome DCFH-DA and flow cytometry.</clue>
+</event>
+<event KT="Investigation" id="E27" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="T45"/>
+<clue>As NF-kappa B is a critical transcription factor in the control of IL-2 expression, we next analysed its nuclear translocation in neonatal and adult T cells using the electrophoretic mobility shift assay and, because induction of reactive oxygen intermediates (ROI) is required for the activation of NF-kappa B, we also <clueKT>analysed</clueKT> <clueType>levels</clueType> <linkTheme>of</linkTheme> <clueLoc>intracellular</clueLoc> ROI <clueLoc>in these cells</clueLoc> <clueExperiment>using the ROI-reactive fluorochrome DCFH-DA and flow cytometry</clueExperiment>.</clue>
+<comment>CAUTION: clueType</comment></event>
+<sentence id="S7">In <term id="T50" lex="neonatal_T_cell" sem="Cell_natural">neonatal T cells</term> <term id="T51" lex="NF-kappa_B_activation" sem="Other"><term id="T52" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> activation</term> and <term id="T53" lex="ROI" sem="Inorganic_compound">ROI</term> formation after <term id="T54" lex="anti-CD3_stimulation" sem="Other"><term id="T55" lex="anti-CD3" sem="Protein_molecule">anti-CD3</term> stimulation</term> were low compared with <term id="T56" lex="adult_T_cell" sem="Cell_natural">adult T cells</term> and, although addition of <term id="T57" lex="anti-CD28_mAb" sem="Protein_molecule">anti-CD28 mAb</term> increased induction of <term id="T58" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> and <term id="T59" lex="ROI_formation" sem="Other"><term id="T60" lex="ROI" sem="Inorganic_compound">ROI</term> formation</term>, levels similar to those of <term id="T61" lex="adult" sem="Multicellular_organism_natural">adults</term> were not achieved.</sentence>
+<event Manner="Low" id="E28">
+<type class="Positive_regulation"/>
+<theme idref="T52"/>
+<clue><clueLoc>In neonatal T cells</clueLoc> NF-kappa B <clueType>activation</clueType> and ROI formation after anti-CD3 stimulation were <clueManner>low</clueManner> compared with adult T cells and, although addition of anti-CD28 mAb increased induction of NF-kappa B and ROI formation, levels similar to those of adults were not achieved.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation"/>
+<theme idref="T52"/>
+<clue>In neonatal T cells NF-kappa B <clueType>activation</clueType> and ROI formation after anti-CD3 stimulation were low compared with <clueLoc>adult T cells</clueLoc> and, although addition of anti-CD28 mAb increased induction of NF-kappa B and ROI formation, levels similar to those of adults were not achieved.</clue>
+</event>
+<event Manner="Low" id="E30">
+<type class="Positive_regulation"/>
+<theme idref="T53"/>
+<clue><clueLoc>In neonatal T cells</clueLoc> NF-kappa B activation and ROI <clueType>formation</clueType> after anti-CD3 stimulation were <clueManner>low</clueManner> compared with adult T cells and, although addition of anti-CD28 mAb increased induction of NF-kappa B and ROI formation, levels similar to those of adults were not achieved.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation"/>
+<theme idref="T53"/>
+<clue>In neonatal T cells NF-kappa B activation and ROI <clueType>formation</clueType> after anti-CD3 stimulation were low compared with <clueLoc>adult T cells</clueLoc> and, although addition of anti-CD28 mAb increased induction of NF-kappa B and ROI formation, levels similar to those of adults were not achieved.</clue>
+</event>
+<event id="E32">
+<type class="Physiological_process"/>
+<theme idref="T50"/>
+<cause idref="T55"/>
+<clue>In neonatal T cells NF-kappa B activation and ROI formation after anti-CD3 <clueType>stimulation</clueType> were low compared with adult T cells and, although addition of anti-CD28 mAb increased induction of NF-kappa B and ROI formation, levels similar to those of adults were not achieved.</clue>
+</event>
+<event id="E33">
+<type class="Physiological_process"/>
+<theme idref="T56"/>
+<cause idref="T55"/>
+<clue>In neonatal T cells NF-kappa B activation and ROI formation after anti-CD3 <clueType>stimulation</clueType> were low compared with adult T cells and, although addition of anti-CD28 mAb increased induction of NF-kappa B and ROI formation, levels similar to those of adults were not achieved.</clue>
+</event>
+<event id="E34">
+<type class="Positive_regulation"/>
+<theme idref="E36"/>
+<cause idref="T57"/>
+<clue>In neonatal T cells NF-kappa B activation and ROI formation after anti-CD3 stimulation were low compared with adult T cells and, although addition of anti-CD28 mAb <clueType>increased</clueType> induction of NF-kappa B and ROI formation, levels similar to those of adults were not achieved.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation"/>
+<theme idref="E37"/>
+<cause idref="T57"/>
+<clue>In neonatal T cells NF-kappa B activation and ROI formation after anti-CD3 stimulation were low compared with adult T cells and, although addition of anti-CD28 mAb <clueType>increased</clueType> induction of NF-kappa B and ROI formation, levels similar to those of adults were not achieved.</clue>
+</event>
+<event id="E36">
+<type class="Gene_expression"/>
+<theme idref="T58"/>
+<clue><clueLoc>In neonatal T cells</clueLoc> NF-kappa B activation and ROI formation after anti-CD3 stimulation were low compared with adult T cells and, although addition of anti-CD28 mAb increased <clueType>induction</clueType> of NF-kappa B and ROI formation, levels similar to those of adults were not achieved.</clue>
+</event>
+<event id="E37">
+<type class="Metabolism"/>
+<theme idref="T60"/>
+<clue><clueLoc>In neonatal T cells</clueLoc> NF-kappa B activation and ROI formation after anti-CD3 stimulation were low compared with adult T cells and, although addition of anti-CD28 mAb increased induction of NF-kappa B and ROI <clueType>formation</clueType>, levels similar to those of adults were not achieved.</clue>
+</event>
+<sentence id="S8">After <term id="T62" lex="PDBu_+_iono_stimulation" sem="Other"><term id="T63" lex="PDBu" sem="Organic_compound_other">PDBu</term> + <term id="T64" lex="iono" sem="Organic_compound_other">iono</term> stimulation</term>, the cells showed similar <term id="T65" lex="ROI_formation" sem="Other"><term id="T66" lex="ROI" sem="Inorganic_compound">ROI</term> formation</term> and <term id="T67" lex="IL-2_secretion" sem="Other"><term id="T68" lex="IL-2" sem="Protein_molecule">IL-2</term> secretion</term>.</sentence>
+<event id="E38">
+<type class="Physiological_process"/>
+<theme idref="T50"/>
+<cause idref="T63"/>
+<cause idref="T64"/>
+<clue>After PDBu + iono <clueType>stimulation</clueType>, <corefTheme>the cells</corefTheme> showed similar ROI formation and IL-2 secretion.</clue>
+</event>
+<event id="E39">
+<type class="Physiological_process"/>
+<theme idref="T56"/>
+<cause idref="T63"/>
+<cause idref="T64"/>
+<clue>After PDBu + iono <clueType>stimulation</clueType>, <corefTheme>the cells</corefTheme> showed similar ROI formation and IL-2 secretion.</clue>
+</event>
+<event KT="Analysis" id="E40">
+<type class="Metabolism"/>
+<theme idref="T66"/>
+<clue>After PDBu + iono stimulation, the <clueLoc>cells</clueLoc> <clueKT>showed</clueKT> similar ROI <clueType>formation</clueType> and IL-2 secretion.</clue>
+</event>
+<event KT="Analysis" id="E41">
+<type class="Localization"/>
+<theme idref="T68"/>
+<clue>After PDBu + iono stimulation, the <clueLoc>cells</clueLoc> <clueKT>showed</clueKT> similar ROI formation and IL-2 <clueType>secretion</clueType>.</clue>
+</event>
+<sentence id="S9">Our results suggest that reduced <term id="T69" lex="IL-2_production" sem="Other"><term id="T70" lex="IL-2" sem="Protein_molecule">IL-2</term> production</term> by <term id="T71" lex="neonatal_T_cell" sem="Cell_natural">neonatal T cells</term> is specific for <term id="T72" lex="anti-CD3" sem="Protein_molecule">anti-CD3</term> and <term id="T73" lex="anti-CD3+_anti-CD28-mediated_stimulation" sem="Other"><term id="T74" lex="anti-CD3" sem="Protein_molecule">anti-CD3</term>+ <term id="T75" lex="anti-CD28" sem="Protein_molecule">anti-CD28</term>-mediated stimulation</term> and that these activators cannot effectively activate the <term id="T76" lex="ROI-NF-kappa_B_signalling_pathway" sem="Other"><term id="T77" lex="ROI" sem="Inorganic_compound">ROI</term><term id="T78" lex="NF-kappa_B" sem="Protein_complex">-NF-kappa B</term> signalling pathway</term> in <term id="T79" lex="neonatal_T_cell" sem="Cell_natural">neonatal T cells</term>.</sentence>
+<event KT="Other" id="E42">
+<type class="Gene_expression"/>
+<theme idref="T70"/>
+<clue>Our results suggest that reduced IL-2 <clueType>production</clueType> by <clueLoc>neonatal T cells</clueLoc> is specific for anti-CD3 and anti-CD3+ anti-CD28-mediated stimulation and that these activators cannot effectively activate the ROI-NF-kappa B signalling pathway in neonatal T cells.</clue>
+</event>
+<event KT="Other" id="E43">
+<type class="Negative_regulation"/>
+<theme idref="E42"/>
+<clue>Our results suggest that <clueType>reduced</clueType> IL-2 production by neonatal T cells is specific for anti-CD3 and anti-CD3+ anti-CD28-mediated stimulation and that these activators cannot effectively activate the ROI-NF-kappa B signalling pathway in neonatal T cells.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E44" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E43"/>
+<cause idref="E46"/>
+<clue>Our results <clueKT><clueCL>suggest</clueCL></clueKT> that reduced IL-2 production by <clueLoc>neonatal T cells</clueLoc> is <clueType>specific</clueType> <linkCause>for</linkCause> anti-CD3 and anti-CD3+ anti-CD28-mediated stimulation and that these activators cannot effectively activate the ROI-NF-kappa B signalling pathway in neonatal T cells.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E45">
+<type class="Regulation"/>
+<theme idref="E43"/>
+<cause idref="E47"/>
+<clue>Our results <clueKT><clueCL>suggest</clueCL></clueKT> that reduced IL-2 production by <clueLoc>neonatal T cells</clueLoc> is <clueType>specific</clueType> <linkCause>for</linkCause> anti-CD3 and anti-CD3+ anti-CD28-mediated stimulation and that these activators cannot effectively activate the ROI-NF-kappa B signalling pathway in neonatal T cells.</clue>
+</event>
+<event KT="Other" id="E46">
+<type class="Physiological_process"/>
+<theme idref="T71"/>
+<cause idref="T72"/>
+<clue>Our results suggest that reduced IL-2 production by neonatal T cells is specific for anti-CD3 and anti-CD3+ anti-CD28<linkCause>-mediated</linkCause> <clueType>stimulation</clueType> and that these activators cannot effectively activate the ROI-NF-kappa B signalling pathway in neonatal T cells.</clue>
+</event>
+<event KT="Other" id="E47">
+<type class="Physiological_process"/>
+<theme idref="T71"/>
+<cause idref="T74"/>
+<cause idref="T75"/>
+<clue>Our results suggest that reduced IL-2 production by neonatal T cells is specific for anti-CD3 and anti-CD3<linkCause>+</linkCause> anti-CD28<linkCause>-mediated</linkCause> <clueType>stimulation</clueType> and that these activators cannot effectively activate the ROI-NF-kappa B signalling pathway in neonatal T cells.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" id="E48" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T76"/>
+<cause idref="T72"/>
+<clue>Our results <clueKT>suggest</clueKT> that reduced IL-2 production by neonatal T cells is specific for anti-CD3 and anti-CD3+ anti-CD28-mediated stimulation and that <corefCause>these activators</corefCause> <clueType><clueCL>can</clueCL><cluePolarity>not</cluePolarity></clueType> effectively <clueType>activate</clueType> the ROI-NF-kappa B signalling pathway <clueLoc>in neonatal T cells</clueLoc>.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" id="E49" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T76"/>
+<cause idref="T75"/>
+<clue>Our results <clueKT>suggest</clueKT> that reduced IL-2 production by neonatal T cells is specific for anti-CD3 and anti-CD3+ anti-CD28-mediated stimulation and that <corefCause>these activators</corefCause> <clueType><clueCL>can</clueCL><cluePolarity>not</cluePolarity></clueType> effectively <clueType>activate</clueType> the ROI-NF-kappa B signalling pathway <clueLoc>in neonatal T cells</clueLoc>.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,22 @@
+T42	Adverse_effect 322 326	have
+T45	Adverse_effect 895 903	returned
+T51	Adverse_effect 717 724	induced
+R1	is_equivalent Arg1:T13 Arg2:T33
+E5	Combination:T44 has_participant:T16 has_participant:T17
+E7	Combination:T46 has_participant:T2 has_participant:T3
+E4	Adverse_effect:T42 affects:T30 has_agent:T27
+E6	Adverse_effect:T45 has_agent:T19 affects:T18
+E9	Adverse_effect:T51 has_agent:T14 affects:T13 has_cue:T52
+A3	Speculated E9
+T4	Adverse_effect 44 50	during
+E1	Adverse_effect:T4 affects:T1 affects2:T26 has_agent:E7
+R2	Subject_Disorder Arg1:T31 Arg2:T7	
+T24	Potential_therapeutic_effect 809 820	disappeared
+E2	Potential_therapeutic_effect:T24 affects:T11 has_agent:E5
+R3	Coreference Arg1:T11 Arg2:T12	
+T25	Adverse_effect 998 1003	noted
+E3	Adverse_effect:T25 has_agent:T20 affects:T21
+T28	Potential_therapeutic_effect 1148 1155	treated
+E8	Potential_therapeutic_effect:T28 has_agent:T22 affects:T40
+T29	Adverse_effect 1622 1631	reactions
+E10	Adverse_effect:T29 affects:T49 has_agent:T35

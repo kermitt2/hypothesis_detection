@@ -1,0 +1,8 @@
+T40	Potential_therapeutic_effect 86 95	receiving
+T48	Potential_therapeutic_effect 341 348	therapy
+T53	Adverse_effect 904 915	experienced
+R2	is_equivalent Arg1:T50 Arg2:T6
+R9	Subject_Disorder Arg1:T49 Arg2:T2
+E9	Potential_therapeutic_effect:T40 has_agent:T3 affects:T2 has_subject:T49
+E11	Potential_therapeutic_effect:T48 has_agent:T7 has_subject:T9
+E12	Adverse_effect:T53 affects:T16 has_subject:T51 has_agent:T15

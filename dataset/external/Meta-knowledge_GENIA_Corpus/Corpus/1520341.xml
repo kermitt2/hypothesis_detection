@@ -1,0 +1,143 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1520341" created="03/04/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1520341</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="okadaic_acid" sem="Organic_compound_other">Okadaic acid</term> is a potent inducer of <term id="T2" lex="AP-1" sem="Protein_complex">AP-1</term>, <term id="T3" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term>, and <term id="T4" lex="tumor_necrosis_factor-alpha" sem="Protein_molecule">tumor necrosis factor-alpha</term> in <term id="T5" lex="human_B_lymphocyte" sem="Cell_natural">human B lymphocytes</term>.</sentence>
+<event Manner="High" id="E1" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T2"/>
+<cause idref="T1"/>
+<clue>Okadaic acid <clueType>is</clueType> a <clueManner>potent</clueManner> <clueType>inducer</clueType> <linkTheme>of</linkTheme> AP-1, NF-kappa B, and tumor necrosis factor-alpha <clueLoc>in human B lymphocytes</clueLoc>.</clue>
+<comment>NER T2 mod</comment></event>
+<event Manner="High" id="E2" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T3"/>
+<cause idref="T1"/>
+<clue>Okadaic acid <clueType>is</clueType> a <clueManner>potent</clueManner> <clueType>inducer</clueType> <linkTheme>of</linkTheme> AP-1, NF-kappa B, and tumor necrosis factor-alpha <clueLoc>in human B lymphocytes</clueLoc>.</clue>
+<comment>NER T3 mod</comment></event>
+<event Manner="High" id="E3" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T4"/>
+<cause idref="T1"/>
+<clue>Okadaic acid <clueType>is</clueType> a <clueManner>potent</clueManner> <clueType>inducer</clueType> <linkTheme>of</linkTheme> AP-1, NF-kappa B, and tumor necrosis factor-alpha <clueLoc>in human B lymphocytes</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Treatment of <term id="T6" lex="human_B_lymphocyte" sem="Cell_natural">human B lymphocytes</term> with an optimal concentration of <term id="T7" lex="okadaic_acid" sem="Organic_compound_other">okadaic acid</term>, an inhibitor of <cons id="T8" lex="(AND phosphatase_1 phosphatase_2A)" sem="(AND Protein_molecule Protein_molecule)"><frag id="F1"><term id="A1" sem="Protein_molecule">phosphatases</term></frag> <frag id="F2"><term id="A2" sem="Protein_molecule">1</term></frag> and <frag id="F3"><term id="A3" sem="Protein_molecule">2A</term></frag></cons>, resulted in the induction of the <term id="T9" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term>, <term id="T10" lex="AP-1" sem="Protein_complex">AP-1</term> and a marked increase in <term id="T11" lex="NF-kappa_B_level" sem="Other"><term id="T12" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> levels</term>.</sentence>
+<event KT="Fact" id="E4">
+<type class="Negative_regulation"/>
+<theme idref="A1" idref1="A2"/>
+<cause idref="T7"/>
+<clue>Treatment of human B lymphocytes with an optimal concentration of okadaic acid, an <clueType>inhibitor</clueType> of phosphatases 1 and 2A, resulted in the induction of the transcription factor, AP-1 and a marked increase in NF-kappa B levels.</clue>
+</event>
+<event KT="Fact" id="E5">
+<type class="Negative_regulation"/>
+<theme idref="A1" idref1="A3"/>
+<cause idref="T7"/>
+<clue>Treatment of human B lymphocytes with an optimal concentration of okadaic acid, an <clueType>inhibitor</clueType> of phosphatases 1 and 2A, resulted in the induction of the transcription factor, AP-1 and a marked increase in NF-kappa B levels.</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T10"/>
+<cause idref="T7"/>
+<clue><linkCause>Treatment</linkCause> of <clueLoc>human B lymphocytes</clueLoc> <linkCause>with</linkCause> an optimal concentration of okadaic acid, an inhibitor of phosphatases 1 and 2A, <clueType>resulted in</clueType> the <clueType>induction</clueType> <linkTheme>of</linkTheme> the transcription factor, AP-1 and a marked increase in NF-kappa B levels.</clue>
+<comment>NER T10 mod</comment></event>
+<event Manner="High" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T11"/>
+<cause idref="T7"/>
+<clue><linkCause>Treatment</linkCause> of <clueLoc>human B lymphocytes</clueLoc> <linkCause>with</linkCause> an optimal concentration of okadaic acid, an inhibitor of phosphatases 1 and 2A, <clueType>resulted in</clueType> the induction of the transcription factor, AP-1 and a <clueManner>marked</clueManner> <clueType>increase</clueType> <linkTheme>in</linkTheme> NF-kappa B levels.</clue>
+<comment>NER T12 mod</comment></event>
+<sentence id="S3">In contrast, no effect on the levels of the <term id="T13" lex="octamer_binding_protein" sem="Protein_family_or_group">octamer binding proteins</term>, <term id="T14" lex="Oct-1" sem="Protein_molecule">Oct-1</term> or <term id="T15" lex="Oct-2" sem="Protein_molecule">Oct-2</term>, were found.</sentence>
+<event Polarity="Negative" assertion="non-exist" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="T14"/>
+<cause idref="T7"/>
+<clue>In contrast, <cluePolarity>no</cluePolarity> <clueType>effect</clueType> <linkTheme>on</linkTheme> the levels of the octamer binding proteins, Oct-1 or Oct-2, were <clueKT>found</clueKT>.</clue>
+<comment>No corefCause</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="T15"/>
+<cause idref="T7"/>
+<clue>In contrast, <cluePolarity>no</cluePolarity> <clueType>effect</clueType> <linkTheme>on</linkTheme> the levels of the octamer binding proteins, Oct-1 or Oct-2, were <clueKT>found</clueKT>.</clue>
+<comment>No corefCause</comment></event>
+<sentence id="S4">Since both <term id="T16" lex="AP-1" sem="Protein_complex">AP-1</term> and <term id="T17" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> have been reported to be important in the induction of the <term id="T18" lex="tumor_necrosis_factor-alpha_(TNF-alpha)_gene" sem="DNA_domain_or_region"><term id="T19" lex="tumor_necrosis_factor-alpha" sem="Protein_molecule">tumor necrosis factor-alpha</term> (<term id="A101" sem="Protein_molecule">TNF-alpha</term>) gene</term> we examined the effects of <term id="T20" lex="okadaic_acid" sem="Organic_compound_other">okadaic acid</term> on <term id="T21" lex="TNF-alpha_mRNA_level" sem="Other"><term id="T22" lex="TNF-alpha_mRNA" sem="RNA_molecule">TNF-alpha mRNA</term> levels</term>.</sentence>
+<event KT="Other" id="E11">
+<type class="Gene_expression"/>
+<theme idref="T18"/>
+<clue>Since both AP-1 and NF-kappa B have been reported to be important in the <clueType>induction</clueType> <linkTheme>of</linkTheme> the tumor necrosis factor-alpha (TNF-alpha) gene we examined the effects of okadaic acid on TNF-alpha mRNA levels.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<cause idref="T16"/>
+<clue>Since both AP-1 and NF-kappa B <clueSource>have</clueSource> <clueType><clueSource>been</clueSource></clueType> <clueKT>reported</clueKT> to be <clueType>important</clueType> <linkTheme>in</linkTheme> the induction of the tumor necrosis factor-alpha (TNF-alpha) gene we examined the effects of okadaic acid on TNF-alpha mRNA levels.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E13">
+<type class="Regulation"/>
+<theme idref="E11"/>
+<cause idref="T17"/>
+<clue>Since both AP-1 and NF-kappa B <clueSource>have</clueSource> <clueType><clueSource>been</clueSource></clueType> <clueKT>reported</clueKT> to be <clueType>important</clueType> <linkTheme>in</linkTheme> the induction of the tumor necrosis factor-alpha (TNF-alpha) gene we examined the effects of okadaic acid on TNF-alpha mRNA levels.</clue>
+</event>
+<event KT="Investigation" id="E14" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="T21"/>
+<cause idref="T20"/>
+<clue>Since both AP-1 and NF-kappa B have been reported to be important in the induction of the tumor necrosis factor-alpha (TNF-alpha) gene we <clueKT>examined</clueKT> the <clueType>effects</clueType> <linkCause>of</linkCause> okadaic acid <linkTheme>on</linkTheme> TNF-alpha mRNA levels.</clue>
+</event>
+<sentence id="S5">Treatment with <term id="T23" lex="okadaic_acid" sem="Organic_compound_other">okadaic acid</term> resulted in a striking increase in <term id="T25" lex="TNF-alpha_mRNA" sem="RNA_molecule">TNF-alpha mRNA transcripts</term> within 1 h of stimulation and large amounts of <term id="T26" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term> were released into the <term id="T27" lex="culture_media" sem="Other">culture media</term>.</sentence>
+<event Manner="High" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T25"/>
+<cause idref="T23"/>
+<clue><linkCause>Treatment with</linkCause> okadaic acid <clueType>resulted in</clueType> a <clueManner>striking</clueManner> <clueType>increase</clueType> <linkTheme>in</linkTheme> TNF-alpha mRNA transcripts <clueTime>within 1 h of stimulation</clueTime> and large amounts of TNF-alpha were released into the culture media.</clue>
+<comment>NER T24 del, T25 mod</comment></event>
+<event id="E22">
+<type class="Localization"/>
+<theme idref="T26"/>
+<clue>Treatment with okadaic acid resulted in a striking increase in TNF-alpha mRNA transcripts within 1 h of stimulation and large amounts of TNF-alpha were <clueType>released</clueType> <clueLoc>into the culture media</clueLoc>.</clue>
+</event>
+<event Manner="High" id="E122">
+<type class="Positive_regulation"/>
+<theme idref="E22"/>
+<cause idref="E16"/>
+<clue>Treatment with okadaic acid resulted in a striking increase in TNF-alpha mRNA transcripts within 1 h of stimulation and <clueType><clueManner>large amounts</clueManner></clueType> <linkTheme>of</linkTheme> TNF-alpha were released into the culture media.</clue>
+<comment>NO COREFCAUSE</comment></event>
+<sentence id="S6">Although <term id="T28" lex="okadaic_acid" sem="Organic_compound_other">okadaic acid</term> provides a potent inductive signal for <term id="T29" lex="AP-1" sem="Protein_complex">AP-1</term> and <term id="T30" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> it did not induce either <term id="T31" lex="B_cell_proliferation" sem="Other"><term id="A4" sem="Cell_natural">B cell</term> proliferation</term> or <term id="T32" lex="immunoglobulin_secretion" sem="Other"><term id="T33" lex="immunoglobulin" sem="Protein_family_or_group">immunoglobulin</term> secretion</term>.</sentence>
+<event KT="Fact" Manner="High" id="E17" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T29"/>
+<cause idref="T28"/>
+<clue>Although okadaic acid <clueType>provides</clueType> a <clueManner>potent</clueManner> <clueType>inductive signal</clueType> <linkTheme>for</linkTheme> AP-1 and NF-kappa B it did not induce either B cell proliferation or immunoglobulin secretion.</clue>
+<comment>NER T29 mod</comment></event>
+<event KT="Fact" Manner="High" id="E18" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T30"/>
+<cause idref="T28"/>
+<clue>Although okadaic acid <clueType>provides</clueType> a <clueManner>potent</clueManner> <clueType>inductive signal</clueType> <linkTheme>for</linkTheme> AP-1 and NF-kappa B it did not induce either B cell proliferation or immunoglobulin secretion.</clue>
+<comment>NER T30 mod</comment></event>
+<event KT="Other" id="E23">
+<type class="Cellular_physiological_process"/>
+<theme idref="A4"/>
+<clue>Although okadaic acid provides a potent inductive signal for AP-1 and NF-kappa B it did not induce either B cell <clueType>proliferation</clueType> or immunoglobulin secretion.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="E23"/>
+<cause idref="T28"/>
+<clue>Although okadaic acid provides a potent inductive signal for AP-1 and NF-kappa B <corefCause>it</corefCause> did <cluePolarity>not</cluePolarity> <clueType>induce</clueType> either B cell proliferation or immunoglobulin secretion.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Localization"/>
+<theme idref="T33"/>
+<clue>Although okadaic acid provides a potent inductive signal for AP-1 and NF-kappa B it did not induce either B cell proliferation or immunoglobulin <clueType>secretion</clueType>.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="T28"/>
+<clue>Although okadaic acid provides a potent inductive signal for AP-1 and NF-kappa B <corefCause>it</corefCause> did <clueType><cluePolarity>not</cluePolarity> induce</clueType> either B cell proliferation or immunoglobulin secretion.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

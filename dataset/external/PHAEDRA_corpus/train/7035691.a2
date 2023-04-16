@@ -1,0 +1,15 @@
+T16	Adverse_effect 26 35	following
+T17	Adverse_effect 363 368	after
+T4	Potential_therapeutic_effect 36 50	administration
+T19	Potential_therapeutic_effect 489 498	treatment
+T21	Adverse_effect 555 575	care should be taken
+R1	Subject_Disorder Arg1:T15 Arg2:T5
+R3	Subject_Disorder Arg1:T18 Arg2:T6
+R4	Subject_Disorder Arg1:T18 Arg2:T7
+R5	Subject_Disorder Arg1:T22 Arg2:T23
+E1	Adverse_effect:T16 affects:T1 has_agent:T2 has_subject:T15
+E2	Adverse_effect:T17 has_agent:T9 affects:T8 has_subject:T18
+E3	Potential_therapeutic_effect:T4 affects:T5 has_agent:T2
+E4	Potential_therapeutic_effect:T19 affects:T11 affects:T12 has_agent:T13
+E6	Adverse_effect:T21 has_agent:T13 has_cue:T24 has_subject:T22
+A3	Speculated E6

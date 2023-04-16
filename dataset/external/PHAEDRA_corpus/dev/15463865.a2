@@ -1,0 +1,13 @@
+T12	Adverse_effect 24 31	induced
+T13	Adverse_effect 111 116	occur
+T14	Adverse_effect 468 475	induced
+T20	Adverse_effect 280 285	after
+T21	Potential_therapeutic_effect 318 325	therapy
+R2	Subject_Disorder Arg1:T19 Arg2:T6
+R3	Subject_Disorder Arg1:T18 Arg2:T9
+E1	Adverse_effect:T12 affects:T2 has_agent:T1
+E2	Adverse_effect:T13 has_agent:T5 affects:T4 has_subject:T15 has_cue:T22
+E3	Adverse_effect:T14 affects:T11 has_agent:T10
+E5	Adverse_effect:T20 has_agent:T8 affects:T7
+E6	Potential_therapeutic_effect:T21 has_agent:T8 affects:T6
+A1	Speculated E2

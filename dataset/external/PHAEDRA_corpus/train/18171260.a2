@@ -1,0 +1,15 @@
+T17	Adverse_effect 19 24	after
+T15	Adverse_effect 106 114	reported
+T24	Adverse_effect 362 367	after
+T25	Potential_therapeutic_effect 380 383	use
+T27	Adverse_effect 256 261	after
+R1	Subject_Disorder Arg1:T22 Arg2:T14
+E1	Combination:T16 has_participant:T2 has_participant:T3
+E4	Combination:T18 has_participant:T5 has_participant:T6
+E7	Combination:T23 has_participant:T12 has_participant:T13
+E10	Combination:T26 has_participant:T9 has_participant:T10
+E2	Adverse_effect:T17 has_agent:E1 affects:T1
+E3	Adverse_effect:T15 affects:T4 has_agent:E4
+E8	Adverse_effect:T24 has_agent:E7 affects:T11 has_subject:T22
+E9	Potential_therapeutic_effect:T25 has_agent:E7 affects:T14 has_subject:T22
+E11	Adverse_effect:T27 affects:T8 has_agent:E10

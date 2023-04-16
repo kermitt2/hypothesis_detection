@@ -1,0 +1,200 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1987353" created="14/03/2006" creator="Hitomi MASUDA"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1987353</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The <term id="T1" lex="NF_kappa_B_independent_cis-acting_sequence" sem="DNA_domain_or_region">NF kappa B independent cis-acting sequences</term> in <term id="T2" lex="HIV-1_LTR" sem="DNA_domain_or_region"><term id="T3" lex="HIV-1" sem="Virus">HIV-1</term> LTR</term> responsive to <term id="T4" lex="T-cell_activation" sem="Other"><term id="A1" sem="Cell_natural">T-cell</term> activation</term>.</sentence>
+<event id="E1">
+<type class="Physiological_process"/>
+<theme idref="A1"/>
+<clue>The NF kappa B independent cis-acting sequences in HIV-1 LTR responsive to T-cell <clueType>activation</clueType>.</clue>
+</event>
+<event id="E2">
+<type class="Regulation"/>
+<theme idref="T1"/>
+<cause idref="E1"/>
+<clue>The NF kappa B independent cis-acting sequences in HIV-1 LTR <clueType>responsive</clueType> <linkCause>to</linkCause> T-cell activation.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The rate of <term id="T5" lex="transcription_initiation" sem="Other">transcription initiation</term> directed by the <term id="T6" lex="long_terminal_repeat" sem="DNA_domain_or_region">long terminal repeat</term> (<term id="A2" sem="DNA_domain_or_region">LTR</term>) of <term id="T7" lex="HIV-1" sem="Virus">HIV-1</term> increases in response to <term id="T8" lex="mitogenic_stimuli" sem="Other">mitogenic stimuli</term> of <term id="T9" lex="T_cell" sem="Cell_natural">T cells</term>.</sentence>
+<event KT="Other" id="E3">
+<type class="Regulation"/>
+<theme idref="T5"/>
+<cause idref="A2"/>
+<clue>The rate of transcription initiation <clueType>directed</clueType> <linkCause>by</linkCause> the long terminal repeat (LTR) of HIV-1 increases in response to mitogenic stimuli of T cells.</clue>
+</event>
+<event KT="Fact" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="T8"/>
+<clue>The rate of transcription initiation directed by the long terminal repeat (LTR) of HIV-1 <clueType>increases</clueType> <linkCause>in response to</linkCause> mitogenic stimuli of <clueLoc>T cells</clueLoc>.</clue>
+</event>
+<sentence id="S3">Here we show that the response of the <term id="T10" lex="HIV-1_LTR" sem="DNA_domain_or_region">HIV-1 LTR</term> may be governed by two independent <term id="A100" sem="DNA_domain_or_region">sequences located 5&apos; to the site of <term id="T11" lex="transcription_initiation_sequences" sem="DNA_substructure">transcription initiation sequences</term></term> that bind either <term id="T12" lex="NFAT-1" sem="Protein_molecule">NFAT-1</term> or <term id="T13" lex="NF_kappa_B" sem="Protein_molecule">NF kappa B</term>.</sentence>
+<event KT="Other" id="E5">
+<type class="Binding"/>
+<theme idref="A100"/>
+<theme idref="T12"/>
+<clue>Here we show that the response of the HIV-1 LTR may be governed by two independent sequences located 5&apos; to the site of transcription initiation sequences that <clueType>bind</clueType> either NFAT-1 or NF kappa B.</clue>
+<comment>TPS: A100</comment></event>
+<event KT="Other" id="E6">
+<type class="Binding"/>
+<theme idref="A100"/>
+<theme idref="T13"/>
+<clue>Here we show that the response of the HIV-1 LTR may be governed by two independent sequences located 5&apos; to the site of transcription initiation sequences that <clueType>bind</clueType> either NFAT-1 or NF kappa B.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E7" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E4"/>
+<cause idref="A100"/>
+<clue>Here we <clueKT>show</clueKT> that <corefTheme>the response of the HIV-1 LTR</corefTheme> <clueCL>may</clueCL> be <clueType>governed</clueType> <linkCause>by</linkCause> two independent sequences located 5&apos; to the site of transcription initiation sequences that bind either NFAT-1 or NF kappa B.</clue>
+</event>
+<sentence id="S4">The rate of <term id="T14" lex="LTR-directed_gene_expression" sem="Other"><term id="T15" lex="LTR" sem="DNA_domain_or_region">LTR</term>-directed gene expression</term> increased in response to treatment with either a <term id="T16" lex="phorbol_ester" sem="Organic_compound_other">phorbol ester</term> or <term id="T17" lex="tumor_necrosis_factor_alpha" sem="Protein_molecule">tumor necrosis factor alpha</term> if either the <term id="T18" lex="NFAT-1" sem="Protein_molecule"><term id="T19" lex="NFAT-1_binding_site" sem="DNA_domain_or_region">NFAT-1</term></term> or <term id="T20" lex="NF_kappa_B_binding_site" sem="DNA_domain_or_region"><term id="T21" lex="NF_kappa_B" sem="Protein_molecule">NF kappa B</term> binding sites</term> were deleted, but failed to respond to these mitogenic stimuli if both sequences were absent.</sentence>
+<event id="E9">
+<type class="Gene_expression"/>
+<theme idref="T7"/>
+<clue>The rate of LTR-directed <corefTheme>gene</corefTheme> <clueType>expression</clueType> increased in response to treatment with either a phorbol ester or tumor necrosis factor alpha if either the NFAT-1 or NF kappa B binding sites were deleted, but failed to respond to these mitogenic stimuli if both sequences were absent.</clue>
+</event>
+<event id="E10">
+<type class="Regulation"/>
+<theme idref="E9"/>
+<cause idref="T15"/>
+<clue>The rate of LTR-<clueType>directed</clueType> gene expression increased in response to treatment with either a phorbol ester or tumor necrosis factor alpha if either the NFAT-1 or NF kappa B binding sites were deleted, but failed to respond to these mitogenic stimuli if both sequences were absent.</clue>
+</event>
+<event KT="Method" id="E11">
+<type class="Mutagenesis"/>
+<theme idref="T19"/>
+<clue>The rate of LTR-directed gene expression increased in response to treatment with either a phorbol ester or tumor necrosis factor alpha if either the NFAT-1 or NF kappa B binding sites were <clueType>deleted</clueType>, but failed to respond to these mitogenic stimuli if both sequences were absent.</clue>
+<comment>ARTFICIAL</comment></event>
+<event KT="Method" id="E12">
+<type class="Mutagenesis"/>
+<theme idref="T20"/>
+<clue>The rate of LTR-directed gene expression increased in response to treatment with either a phorbol ester or tumor necrosis factor alpha if either the NFAT-1 or NF kappa B binding sites were <clueType>deleted</clueType>, but failed to respond to these mitogenic stimuli if both sequences were absent.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event KT="Method" id="E13">
+<type class="Mutagenesis"/>
+<theme idref="T20"/>
+<clue>The rate of LTR-directed gene expression increased in response to treatment with either a phorbol ester or tumor necrosis factor alpha if either the NFAT-1 or NF kappa B binding sites were <clueType>deleted</clueType>, but failed to respond to these mitogenic stimuli if both sequences were absent.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event KT="Method" id="E14">
+<type class="Mutagenesis"/>
+<theme idref="T19"/>
+<clue>The rate of LTR-directed gene expression increased in response to treatment with either a phorbol ester or tumor necrosis factor alpha if either the NFAT-1 or NF kappa B binding sites were <clueType>deleted</clueType>, but failed to respond to these mitogenic stimuli if both sequences were absent.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event id="E15">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="T16"/>
+<cause idref="E11"/>
+<cause idref="E12"/>
+<clue>The rate of LTR-directed gene expression <clueType>increased</clueType> <linkCause>in response to</linkCause> treatment with either a phorbol ester or tumor necrosis factor alpha <linkCause>if</linkCause> either the NFAT-1 or NF kappa B binding sites were deleted, but failed to respond to these mitogenic stimuli if both sequences were absent.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="T17"/>
+<cause idref="E11"/>
+<cause idref="E12"/>
+<clue>The rate of LTR-directed gene expression <clueType>increased</clueType> <linkCause>in response to</linkCause> treatment with either a phorbol ester or tumor necrosis factor alpha <linkCause>if</linkCause> either the NFAT-1 or NF kappa B binding sites were deleted, but failed to respond to these mitogenic stimuli if both sequences were absent.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="T16"/>
+<cause idref="E13"/>
+<cause idref="E14"/>
+<clue>The rate of LTR-directed gene expression <clueType>increased</clueType> <linkCause>in response to</linkCause> treatment with either a phorbol ester or tumor necrosis factor alpha <linkCause>if</linkCause> either the NFAT-1 or NF kappa B binding sites were deleted, but failed to respond to these mitogenic stimuli if both sequences were absent.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="T17"/>
+<cause idref="E13"/>
+<cause idref="E14"/>
+<clue>The rate of LTR-directed gene expression <clueType>increased</clueType> <linkCause>in response to</linkCause> treatment with either a phorbol ester or tumor necrosis factor alpha <linkCause>if</linkCause> either the NFAT-1 or NF kappa B binding sites were deleted, but failed to respond to these mitogenic stimuli if both sequences were absent.</clue>
+</event>
+<event KT="Method" id="E19">
+<type class="Mutagenesis"/>
+<theme idref="T19"/>
+<theme idref="T20"/>
+<clue>The rate of LTR-directed gene expression increased in response to treatment with either a phorbol ester or tumor necrosis factor alpha if either the NFAT-1 or NF kappa B binding sites were deleted, but failed to respond to these mitogenic stimuli if <corefTheme>both sequences</corefTheme> were <clueType>absent</clueType>.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="T16"/>
+<cause idref="E19"/>
+<clue>The rate of LTR-directed gene expression increased in response to treatment with either a phorbol ester or tumor necrosis factor alpha if either the NFAT-1 or NF kappa B binding sites were deleted, but <clueType><cluePolarity>failed</cluePolarity> to respond</clueType> <linkCause>to</linkCause> <corefCause>these mitogenic stimuli</corefCause> <linkCause>if</linkCause> both sequences were absent.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="T17"/>
+<cause idref="E19"/>
+<clue>The rate of LTR-directed gene expression increased in response to treatment with either a phorbol ester or tumor necrosis factor alpha if either the NFAT-1 or NF kappa B binding sites were deleted, but <cluePolarity>failed</cluePolarity> to <clueType>respond</clueType> <linkCause>to</linkCause> <corefCause>these mitogenic stimuli</corefCause> <linkCause>if</linkCause> both sequences were absent.</clue>
+</event>
+<sentence id="S5">The <term id="A3" sem="Virus"><term id="T22" lex="HIV-1_mutant_virus" sem="Virus"><term id="T23" lex="HIV-1" sem="Virus">HIV-1</term> mutant virus</term> containing both <term id="T24" lex="NF_kappa_B_and_NFAT-1_deletion" sem="Other"><term id="T25" lex="NF_kappa_B" sem="Protein_molecule"><term id="T26" lex="NF_kappa_B_deletion" sem="Other">NF kappa B</term></term> and <term id="T27" lex="NFAT-1_deletion" sem="Other"><term id="T28" lex="NFAT-1" sem="Protein_molecule">NFAT-1</term> deletion</term></term></term> was able to replicate although at a much <term id="T29" lex="decreased_growth_rate" sem="Other">decreased <term id="A4" sem="Other">growth rate</term></term>, while the deletion of <term id="T30" lex="NFAT-1" sem="Protein_molecule">NFAT-1</term> alone increased the <term id="T31" lex="viral_growth_rate" sem="Other">viral growth rate</term> in <term id="T32" lex="Jurkat_cell" sem="Cell_cultured">Jurkat cells</term>.</sentence>
+<event id="E22">
+<type class="Viral_life_cycle"/>
+<theme idref="A3"/>
+<clue>The HIV-1 mutant virus containing both NF kappa B and NFAT-1 deletion was able to <clueType>replicate</clueType> although at a much decreased growth rate, while the deletion of NFAT-1 alone increased the viral growth rate <clueLoc>in Jurkat cells</clueLoc>.</clue>
+<comment>TPS: A3</comment></event>
+<event KT="Method" id="E23">
+<type class="Mutagenesis"/>
+<theme idref="T25"/>
+<theme idref="T28"/>
+<clue>The <clueLoc>HIV-1 mutant virus</clueLoc> containing both NF kappa B and NFAT-1 <clueType>deletion</clueType> was able to replicate although at a much decreased growth rate, while the deletion of NFAT-1 alone increased the viral growth rate in Jurkat cells.</clue>
+<comment>NER: T25&amp;T27&amp;T24 MOD, ARTIFICIAL</comment></event>
+<event Manner="High" id="E24">
+<type class="Negative_regulation"/>
+<theme idref="A4"/>
+<cause idref="E23"/>
+<clue>The HIV-1 mutant virus containing both NF kappa B and NFAT-1 deletion was able to replicate although at a <clueManner>much</clueManner> <clueType>decreased</clueType> growth rate, while the deletion of NFAT-1 alone increased the viral growth rate <clueLoc>in Jurkat cells</clueLoc>.</clue>
+</event>
+<event KT="Method" id="E25">
+<type class="Mutagenesis"/>
+<theme idref="T30"/>
+<clue>The HIV-1 mutant virus containing both NF kappa B and NFAT-1 deletion was able to replicate although at a much decreased growth rate, while the <clueType>deletion</clueType> <linkTheme>of</linkTheme> NFAT-1 alone increased the viral growth rate in Jurkat cells.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event id="E27">
+<type class="Positive_regulation"/>
+<theme idref="T31"/>
+<cause idref="E25"/>
+<clue>The HIV-1 mutant virus containing both NF kappa B and NFAT-1 deletion was able to replicate although at a much decreased growth rate, while the deletion of NFAT-1 alone <clueType>increased</clueType> the viral growth rate <clueLoc>in Jurkat cells</clueLoc>.</clue>
+</event>
+<sentence id="S6">Neither deletion of <term id="T33" lex="NF_kappa_B" sem="Protein_molecule">NF kappa B</term> nor deletion of <term id="T34" lex="NFAT-1" sem="Protein_molecule">NFAT-1</term> decreased <term id="T35" lex="activation" sem="Other">activation</term> of <term id="T36" lex="viral_replication" sem="Other">viral replication</term> by <term id="T37" lex="phorbol_ester" sem="Organic_compound_other">phorbol ester</term>.</sentence>
+<event KT="Method" id="E28">
+<type class="Mutagenesis"/>
+<theme idref="T33"/>
+<clue>Neither <clueType>deletion</clueType> <linkTheme>of</linkTheme> NF kappa B nor deletion of NFAT-1 decreased activation of viral replication by phorbol ester.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event KT="Method" id="E29">
+<type class="Mutagenesis"/>
+<theme idref="T34"/>
+<clue>Neither deletion of NF kappa B nor <clueType>deletion</clueType> <linkTheme>of</linkTheme> NFAT-1 decreased activation of viral replication by phorbol ester.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event id="E101">
+<type class="Viral_life_cycle"/>
+<theme idref="T7"/>
+<clue>Neither deletion of NF kappa B nor deletion of NFAT-1 decreased activation of <corefTheme>viral</corefTheme> <clueType>replication</clueType> by phorbol ester.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation"/>
+<theme idref="E101"/>
+<cause idref="T37"/>
+<clue>Neither deletion of NF kappa B nor deletion of NFAT-1 decreased <clueType>activation</clueType> <linkTheme>of</linkTheme> viral replication <linkCause>by</linkCause> phorbol ester.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E31">
+<type class="Negative_regulation"/>
+<theme idref="E30"/>
+<cause idref="E28"/>
+<clue><cluePolarity>Neither</cluePolarity> deletion of NF kappa B nor deletion of NFAT-1 <clueType>decreased</clueType> activation of viral replication by phorbol ester.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E100">
+<type class="Negative_regulation"/>
+<theme idref="E30"/>
+<cause idref="E29"/>
+<clue><cluePolarity>Neither</cluePolarity> deletion of NF kappa B nor deletion of NFAT-1 <clueType>decreased</clueType> activation of viral replication by phorbol ester.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

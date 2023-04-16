@@ -1,0 +1,168 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9234727" created="14/11/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9234727</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The <term id="A1" sem="Protein_molecule">product of the <term id="T1" lex="murine_homolog" sem="DNA_family_or_group">murine homolog</term> of the <term id="T2" lex="Drosophila_extra_sex_combs_gene" sem="DNA_domain_or_region">Drosophila extra sex combs gene</term></term> displays <term id="T3" lex="transcriptional_repressor_activity" sem="Other"><term id="T4" lex="transcriptional_repressor" sem="Protein_family_or_group">transcriptional repressor</term> activity</term>.</sentence>
+<event KT="Analysis" id="E1">
+<type class="Negative_regulation"/>
+<cause idref="A1"/>
+<clue>The product of the murine homolog of the Drosophila extra sex combs gene <clueType><clueKT>displays</clueKT> transcriptional repressor activity</clueType>.</clue>
+<comment>TPS A1</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T5" lex="heterogeneous_nuclear_ribonucleoprotein_K_protein" sem="Protein_molecule">heterogeneous nuclear ribonucleoprotein K protein</term> represents a novel class of proteins that may act as docking platforms that orchestrate cross-talk among <term id="A2" sem="Other">molecules</term> involved in <term id="T6" lex="signal_transduction" sem="Other">signal transduction</term> and <term id="T7" lex="gene_expression" sem="Other">gene expression</term>.</sentence>
+<event KT="Other" id="E2">
+<type class="Regulation"/>
+<theme idref="T6"/>
+<cause idref="A2"/>
+<clue>The heterogeneous nuclear ribonucleoprotein K protein represents a novel class of proteins that may act as docking platforms that orchestrate cross-talk among molecules <clueType>involved</clueType> <linkTheme>in</linkTheme> signal transduction and gene expression.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Regulation"/>
+<theme idref="T7"/>
+<cause idref="A2"/>
+<clue>The heterogeneous nuclear ribonucleoprotein K protein represents a novel class of proteins that may act as docking platforms that orchestrate cross-talk among molecules <clueType>involved</clueType> <linkTheme>in</linkTheme> signal transduction and gene expression.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Correlation"/>
+<theme idref="A2"/>
+<theme idref="A2"/>
+<clue>The heterogeneous nuclear ribonucleoprotein K protein represents a novel class of proteins that may act as docking platforms that orchestrate <clueType>cross-talk</clueType> <linkTheme>among</linkTheme> molecules involved in signal transduction and gene expression.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E5" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E4"/>
+<cause idref="T5"/>
+<clue>The heterogeneous nuclear ribonucleoprotein K protein represents a novel class of proteins that <clueKT><clueCL>may</clueCL></clueKT> <clueType>act as docking platforms that orchestrate</clueType> cross-talk among molecules involved in signal transduction and gene expression.</clue>
+</event>
+<sentence id="S3">Using a fragment of <term id="T8" lex="K_protein" sem="Protein_molecule">K protein</term> as bait in the <term id="T9" lex="yeast_two-hybrid_screen" sem="Other">yeast two-hybrid screen</term>, we isolated a <term id="T10" lex="cDNA" sem="DNA_family_or_group">cDNA</term> that encodes a protein whose primary structure has extensive similarity to the <term id="T11" lex="Drosophila_melanogaster_extra_sex_combs_(esc)_gene_product" sem="Protein_molecule"><term id="T12" lex="Drosophila_melanogaster" sem="Multicellular_organism_natural">Drosophila melanogaster</term> extra sex combs (esc) gene product</term>, <term id="T13" lex="Esc" sem="Protein_molecule">Esc</term>, a putative silencer of <term id="T14" lex="homeotic_gene" sem="DNA_family_or_group">homeotic genes</term>.</sentence>
+<event KT="Fact" id="E6" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="T14"/>
+<cause idref="T13"/>
+<clue>Using a fragment of K protein as bait in the yeast two-hybrid screen, we isolated a cDNA that encodes a protein whose primary structure has extensive similarity to the Drosophila melanogaster extra sex combs (esc) gene product, Esc, a putative <clueType>silencer</clueType> <linkTheme>of</linkTheme> homeotic genes.</clue>
+</event>
+<sentence id="S4">The <term id="T15" lex="cDNA" sem="DNA_family_or_group">cDNA</term> that we isolated is identical to the <term id="T16" lex="cDNA" sem="DNA_family_or_group">cDNA</term> of the recently positionally cloned <term id="T17" lex="mouse_embryonic_ectoderm_development_gene" sem="DNA_domain_or_region">mouse embryonic ectoderm development gene</term>, <term id="A4" sem="DNA_domain_or_region">eed</term>.</sentence>
+<sentence id="S5">Like <term id="T18" lex="Esc" sem="Protein_molecule">Esc</term>, <term id="T19" lex="Eed" sem="Protein_molecule">Eed</term> contains six <term id="T20" lex="WD-40_repeat" sem="Protein_substructure">WD-40 repeats</term> in the <term id="T21" lex="C-terminal_half" sem="Protein_domain_or_region">C-terminal half</term> of the protein and is thought to repress <term id="T22" lex="homeotic_gene_expression" sem="Other"><term id="T23" lex="gene_expression" sem="DNA_family_or_group">homeotic gene</term> expression</term> during <term id="T24" lex="mouse_embryogenesis" sem="Other"><term id="A5" sem="Multicellular_organism_natural">mouse</term> embryogenesis</term>.</sentence>
+<event KT="Other" id="E7">
+<type class="Gene_expression"/>
+<theme idref="T23"/>
+<clue>Like Esc, Eed contains six WD-40 repeats in the C-terminal half of the protein and is thought to repress homeotic gene <clueType>expression</clueType> during mouse embryogenesis.</clue>
+<comment>NER T23 MOD</comment></event>
+<event KT="Analysis" id="E8">
+<type class="Negative_regulation"/>
+<theme idref="E7"/>
+<cause idref="T19"/>
+<clue>Like Esc, Eed contains six WD-40 repeats in the C-terminal half of the protein and is <clueKT>thought</clueKT> to <clueType>repress</clueType> homeotic gene expression <clueTime>during mouse embryogenesis</clueTime>.</clue>
+</event>
+<sentence id="S6"><term id="T25" lex="Eed" sem="Protein_molecule">Eed</term> binds to <term id="T26" lex="K_protein" sem="Protein_molecule">K protein</term> through <term id="A6" sem="Protein_domain_or_region">a domain in its <term id="T27" lex="N_terminus" sem="Protein_domain_or_region">N terminus</term></term>, but interestingly, this domain is not found in the <term id="T28" lex="Drosophila" sem="Multicellular_organism_natural">Drosophila</term> <term id="T29" lex="Esc" sem="Protein_molecule">Esc</term>.</sentence>
+<event id="E9">
+<type class="Binding"/>
+<theme idref="T25"/>
+<theme idref="T26"/>
+<clue>Eed <clueType>binds</clueType> <linkTheme>to</linkTheme> K protein through a domain in its N terminus, but interestingly, this domain is not found in the Drosophila Esc.</clue>
+<comment>TPS A6</comment></event>
+<event id="E10">
+<type class="Correlation"/>
+<theme idref="E9"/>
+<theme idref="A6"/>
+<clue>Eed binds to K protein <linkTheme>through</linkTheme> a domain in its N terminus, but interestingly, this domain is not found in the Drosophila Esc.</clue>
+<comment>NO CLUETYPE, type</comment></event>
+<sentence id="S7"><term id="T30" lex="Gal4-Eed_fusion_protein" sem="Protein_molecule">Gal4-<term id="T31" lex="Eed" sem="Protein_molecule">Eed</term> fusion protein</term> represses transcription of a <term id="A7" sem="DNA_domain_or_region">reporter gene</term> driven by a <term id="A8" sem="DNA_domain_or_region">promoter that contains <term id="T32" lex="Gal4-binding_DNA_element" sem="DNA_family_or_group">Gal4-binding DNA elements</term></term>.</sentence>
+<event KT="Other" id="E11">
+<type class="Transcription"/>
+<theme idref="A7"/>
+<clue>Gal4-Eed fusion protein represses <clueType>transcription</clueType> <linkTheme>of</linkTheme> a reporter gene driven by a promoter that contains Gal4-binding DNA elements.</clue>
+<comment>TPS A8</comment></event>
+<event id="E12">
+<type class="Regulation"/>
+<theme idref="E11"/>
+<cause idref="A8"/>
+<clue>Gal4-Eed fusion protein represses transcription of a reporter gene <clueType>driven</clueType> <linkCause>by</linkCause> a promoter that contains Gal4-binding DNA elements.</clue>
+</event>
+<event id="E13">
+<type class="Negative_regulation"/>
+<theme idref="E12"/>
+<cause idref="T30"/>
+<clue>Gal4-Eed fusion protein <clueType>represses</clueType> transcription of a reporter gene driven by a promoter that contains Gal4-binding DNA elements.</clue>
+</event>
+<sentence id="S8"><term id="T33" lex="Eed" sem="Protein_molecule">Eed</term> also represses <term id="A10" sem="Other">transcription</term> when recruited to a <term id="A11" sem="DNA_domain_or_region">target promoter</term> by <term id="T34" lex="Gal4-K_protein" sem="Protein_molecule">Gal4-<term id="T35" lex="K_protein" sem="Protein_molecule">K protein</term></term>.</sentence>
+<event id="E14">
+<type class="Negative_regulation"/>
+<theme idref="E114"/>
+<cause idref="T33"/>
+<clue>Eed also <clueType>represses</clueType> transcription <linkTheme>when recruited to</linkTheme> a target promoter by Gal4-K protein.</clue>
+</event>
+<event id="E114">
+<type class="Regulation"/>
+<theme idref="E115"/>
+<cause idref="T34"/>
+<clue>Eed also represses transcription when recruited to a target promoter <linkCause>by</linkCause> Gal4-K protein.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Other" id="E115">
+<type class="Transcription"/>
+<theme idref="A11"/>
+<clue>Eed also represses <clueType>transcription</clueType> when recruited to a target promoter by Gal4-K protein.</clue>
+</event>
+<sentence id="S9">Point mutations within the <term id="A9" sem="DNA_domain_or_region">eed gene</term> that are responsible for severe <term id="T36" lex="embryonic_development_abnormality" sem="Other">embryonic development abnormalities</term> abolished the <term id="T37" lex="transcriptional_repressor_activity" sem="Other"><term id="T38" lex="transcriptional_repressor" sem="Protein_family_or_group">transcriptional repressor</term> activity</term> of <term id="T39" lex="Eed" sem="Protein_molecule">Eed</term>.</sentence>
+<event KT="Method" id="E15">
+<type class="Mutagenesis"/>
+<theme idref="A9"/>
+<clue>Point <clueType>mutations</clueType> <linkTheme>within</linkTheme> the eed gene that are responsible for severe embryonic development abnormalities abolished the transcriptional repressor activity of Eed.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event KT="Fact" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T36"/>
+<cause idref="E15"/>
+<clue>Point mutations within the eed gene that are <clueType>responsible</clueType> <linkTheme>for</linkTheme> severe embryonic development abnormalities abolished the transcriptional repressor activity of Eed.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Negative_regulation"/>
+<cause idref="T39"/>
+<clue>Point mutations within the eed gene that are responsible for severe embryonic development abnormalities abolished the <clueType>transcriptional repressor activity</clueType> <linkCause>of</linkCause> Eed.</clue>
+</event>
+<event id="E18">
+<type class="Negative_regulation"/>
+<theme idref="E17"/>
+<cause idref="E15"/>
+<clue>Point mutations within the eed gene that are responsible for severe embryonic development abnormalities <clueType>abolished</clueType> the transcriptional repressor activity of Eed.</clue>
+</event>
+<sentence id="S10">Results of this study suggest that <term id="T41" lex="Eed" sem="Protein_molecule">Eed</term>-restricted <term id="T40" lex="homeotic_gene_expression" sem="Other"><term id="A13" sem="DNA_family_or_group">homeotic gene</term> expression</term> during <term id="T42" lex="embryogenesis" sem="Other">embryogenesis</term> reflects the action of <term id="T43" lex="Eed" sem="Protein_molecule">Eed</term> as a <term id="T44" lex="transcriptional_repressor" sem="Protein_family_or_group">transcriptional repressor</term>.</sentence>
+<event KT="Other" id="E19">
+<type class="Gene_expression"/>
+<theme idref="A13"/>
+<clue>Results of this study suggest that Eed-restricted homeotic gene <clueType>expression</clueType> during embryogenesis reflects the action of Eed as a transcriptional repressor.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E20">
+<type class="Regulation"/>
+<theme idref="E19"/>
+<cause idref="T41"/>
+<clue>Results of this study <clueKT><clueCL>suggest</clueCL></clueKT> that Eed-<clueType>restricted</clueType> homeotic gene expression <clueTime>during embryogenesis</clueTime> reflects the action of Eed as a transcriptional repressor.</clue>
+<comment>NER: T40 mod &quot;Eed-restricted homeotic gene expression&quot;-&gt;&quot;homeotic gene expression&quot;</comment></event>
+<event KT="Other" id="E21">
+<type class="Negative_regulation"/>
+<cause idref="T43"/>
+<clue>Results of this study suggest that Eed-restricted homeotic gene expression during embryogenesis reflects the <clueType>action</clueType> <linkCause>of</linkCause> Eed <clueType>as a transcriptional repressor</clueType>.</clue>
+</event>
+<sentence id="S11">The <term id="T46" lex="Eed" sem="Protein_molecule">Eed</term>-mediated <term id="A14" sem="Other">transcriptional effects</term> are likely to reflect the interaction of <term id="T47" lex="Eed" sem="Protein_molecule">Eed</term> with <term id="A15" sem="Other">multiple molecular partners</term>, including <term id="T48" lex="K_protein" sem="Protein_molecule">K protein</term>.</sentence>
+<event KT="Other" id="E22">
+<type class="Regulation"/>
+<theme idref="A14"/>
+<cause idref="T46"/>
+<clue>The Eed-<clueType>mediated</clueType> transcriptional effects are likely to reflect the interaction of Eed with multiple molecular partners, including K protein.</clue>
+<comment>NER: T45 del &quot;Eed-mediated transcriptional effects&quot;</comment></event>
+<event CL="L2" KT="Analysis" id="E23">
+<type class="Binding"/>
+<theme idref="T47"/>
+<theme idref="A15"/>
+<clue>The Eed-mediated transcriptional effects are <clueKT><clueCL>likely</clueCL></clueKT> to reflect the <clueType>interaction</clueType> <linkTheme>of</linkTheme> Eed <linkTheme>with</linkTheme> multiple molecular partners, including K protein.</clue>
+<comment>OK</comment></event>
+<event CL="L2" KT="Analysis" id="E24">
+<type class="Binding"/>
+<theme idref="T47"/>
+<theme idref="T48"/>
+<clue>The Eed-mediated transcriptional effects are <clueKT><clueCL>likely</clueCL></clueKT> to reflect the <clueType>interaction</clueType> <linkTheme>of</linkTheme> Eed <linkTheme>with</linkTheme> <corefTheme>multiple molecular partners</corefTheme>, including K protein.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

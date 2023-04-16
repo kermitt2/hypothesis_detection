@@ -1,0 +1,34 @@
+T27	Adverse_effect 89 96	induced
+T30	Potential_therapeutic_effect 49 60	ameliorated
+T33	Adverse_effect 412 420	worsened
+T34	Potential_therapeutic_effect 518 528	ameliorate
+T16	Adverse_effect 595 598	led
+T19	Potential_therapeutic_effect 652 663	ameliorated
+T29	Potential_therapeutic_effect 955 963	reducing
+T38	Adverse_effect 982 992	associated
+T3	Potential_therapeutic_effect 166 178	administered
+T5	Adverse_effect 290 299	treatment
+T26	Adverse_effect 840 845	after
+T39	Potential_therapeutic_effect 745 759	administration
+R1	Subject_Disorder Arg1:T31 Arg2:T4
+R2	Coreference Arg1:T41 Arg2:T31
+R3	Coreference Arg1:T42 Arg2:T31
+R4	Coreference Arg1:T43 Arg2:T31
+R5	Coreference Arg1:T44 Arg2:T31
+R6	Coreference Arg1:T45 Arg2:T31
+R7	Coreference Arg1:T46 Arg2:T31
+E1	Adverse_effect:T27 affects:T2 has_agent:T28
+E2	Potential_therapeutic_effect:T30 has_agent:T1 affects:T2
+E3	Adverse_effect:T33 affects:T8 has_agent:T32 has_subject:T42
+E4	Potential_therapeutic_effect:T34 has_cue:T35 has_agent:T9 has_agent:T10 has_agent:T11 has_agent:T12 has_agent:T13 affects:T14 has_subject:T43
+E5	Adverse_effect:T16 has_agent:T15 affects:T17 has_subject:T46
+E6	Potential_therapeutic_effect:T19 has_agent:T18 affects:T20 has_cue:T36 has_subject:T44
+E7	Potential_therapeutic_effect:T29 affects:T25 has_agent:T24
+E8	Adverse_effect:T38 has_agent:T37 affects:T25
+E9	Potential_therapeutic_effect:T3 has_agent:T6 affects:T4 has_subject:T31
+E10	Adverse_effect:T5 has_agent:T32 affects:T7 has_subject:T41
+E11	Adverse_effect:T26 has_agent:T23 affects:T22 has_cue:T40
+E12	Potential_therapeutic_effect:T39 has_agent:T21 has_subject:T45
+A3	Negated E4
+A4	Manner E6 High
+A7	Manner E11 Low

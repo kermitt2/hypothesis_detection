@@ -1,0 +1,7 @@
+T9	Adverse_effect 22 29	induced
+T10	Potential_therapeutic_effect 323 330	treated
+R1	Subject_Disorder Arg1:T14 Arg2:T8
+E1	Adverse_effect:T9 has_agent:T1 affects:T2
+E2	Potential_therapeutic_effect:T10 affects:T8 has_agent:T7 has_subject:T14
+T11	Adverse_effect 284 288	case
+E3	Adverse_effect:T11 affects:T6 has_agent:T7

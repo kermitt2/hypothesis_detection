@@ -1,0 +1,106 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9180266" created="14/11/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9180266</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="transcriptional_activity" sem="Other">Transcriptional activity</term> and <term id="T2" lex="constitutive_nuclear_localization" sem="Other">constitutive nuclear localization</term> of the <term id="T3" lex="ETS_protein" sem="Protein_family_or_group">ETS protein</term> <term id="T4" lex="Elf-1" sem="Protein_molecule">Elf-1</term>.</sentence>
+<event KT="Investigation" id="E1">
+<type class="Positive_regulation"/>
+<cause idref="T4"/>
+<clue><clueType>Transcriptional activity</clueType> and constitutive nuclear localization <linkCause>of</linkCause> the ETS protein Elf-1.</clue>
+</event>
+<event KT="Investigation" id="E2">
+<type class="Localization"/>
+<theme idref="T4"/>
+<clue>Transcriptional activity and constitutive <clueLoc>nuclear</clueLoc> <clueType>localization</clueType> <linkTheme>of</linkTheme> the ETS protein Elf-1.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T5" lex="Elf-1" sem="Protein_molecule">Elf-1</term> is a <term id="T6" lex="lymphoid-specific_transcription_factor" sem="Protein_family_or_group">lymphoid-specific transcription factor</term> that belongs to the <term id="T7" lex="ETS_protein_family" sem="Protein_family_or_group"><term id="T8" lex="ETS_protein" sem="Protein_family_or_group">ETS protein</term> family</term>.</sentence>
+<sentence id="S3">It can bind to <term id="A2" sem="DNA_domain_or_region"><term id="A1" sem="DNA_domain_or_region">DNA target sequences</term> within a variety of <term id="T9" lex="cytokine_gene" sem="DNA_family_or_group">cytokine genes</term></term>.</sentence>
+<event KT="Fact" id="E3">
+<type class="Binding"/>
+<theme idref="T5"/>
+<theme idref="A2"/>
+<clue><corefTheme>It</corefTheme> can <clueType>bind</clueType> <linkTheme>to</linkTheme> DNA target sequences within a variety of cytokine genes.</clue>
+<comment>TPS A2</comment></event>
+<sentence id="S4">We demonstrate that <term id="T10" lex="Elf-1" sem="Protein_molecule">Elf-1</term> is constitutively localized in the <term id="T11" lex="nucleus" sem="Cell_component">nucleus</term> which is dependent on the presence of <term id="T12" lex="amino_acids_86-265" sem="Protein_domain_or_region">amino acids 86-265</term>.</sentence>
+<event KT="Other" id="E4">
+<type class="Localization"/>
+<theme idref="T10"/>
+<clue>We demonstrate that Elf-1 is constitutively <clueType>localized</clueType> <clueLoc>in the nucleus</clueLoc> which is dependent on the presence of amino acids 86-265.</clue>
+</event>
+<event KT="Analysis" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="T12"/>
+<clue>We <clueKT>demonstrate</clueKT> that Elf-1 is constitutively localized in the nucleus which is <clueType>dependent</clueType> <linkCause>on</linkCause> the presence of amino acids 86-265.</clue>
+</event>
+<sentence id="S5">Analysis of <term id="T13" lex="Gal4-Elf-1_fusion_protein" sem="Protein_molecule">Gal4-Elf-1 fusion proteins</term> revealed that the N-terminal 86 amino acids of <term id="T14" lex="Elf-1" sem="Protein_molecule">Elf-1</term> contain a <term id="T15" lex="transcriptional_activation_domain" sem="Protein_domain_or_region">transcriptional activation domain</term>, the activity of which is attenuated by an <term id="T16" lex="internal_repression_domain" sem="Protein_domain_or_region">internal repression domain</term>.</sentence>
+<event KT="Analysis" id="E6">
+<type class="Negative_regulation"/>
+<theme idref="T15"/>
+<cause idref="T16"/>
+<clue>Analysis of Gal4-Elf-1 fusion proteins <clueKT>revealed</clueKT> that the N-terminal 86 amino acids of Elf-1 contain a transcriptional activation domain, <corefTheme>the activity of which</corefTheme> is <clueType>attenuated</clueType> <linkCause>by</linkCause> an internal repression domain.</clue>
+</event>
+<sentence id="S6">Furthermore, <term id="T17" lex="Elf-1" sem="Protein_molecule">Elf-1</term> interacts specifically with the <term id="T18" lex="E74_target_sequence" sem="DNA_domain_or_region">E74 target sequence</term> and can stimulate <term id="A4" sem="Other">transcription</term> driven by the <term id="T19" lex="E74_site" sem="DNA_domain_or_region">E74 site</term> independent of <term id="T20" lex="mitogenic_signaling" sem="Other"><term id="A3" sem="Protein_family_or_group">mitogenic</term> signaling</term>.</sentence>
+<event id="E7">
+<type class="Binding"/>
+<theme idref="T17"/>
+<theme idref="T18"/>
+<clue>Furthermore, Elf-1 <clueType>interacts</clueType> specifically <linkTheme>with</linkTheme> the E74 target sequence and can stimulate transcription driven by the E74 site independent of mitogenic signaling.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="A4"/>
+<cause idref="T19"/>
+<clue>Furthermore, Elf-1 interacts specifically with the E74 target sequence and can stimulate transcription <clueType>driven</clueType> <linkCause>by</linkCause> the E74 site independent of mitogenic signaling.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="E7"/>
+<clue>Furthermore, Elf-1 interacts specifically with the E74 target sequence and <clueKT><clueCL>can</clueCL></clueKT> <clueType>stimulate</clueType> transcription driven by the E74 site independent of mitogenic signaling.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Cell_communication"/>
+<theme idref="A3"/>
+<clue>Furthermore, Elf-1 interacts specifically with the E74 target sequence and can stimulate transcription driven by the E74 site independent of mitogenic <clueType>signaling</clueType>.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E11">
+<type class="Correlation"/>
+<theme idref="E9"/>
+<theme idref="E10"/>
+<clue>Furthermore, Elf-1 interacts specifically with the E74 target sequence and can stimulate transcription driven by the E74 site <clueType><cluePolarity>independent</cluePolarity></clueType> <linkTheme>of</linkTheme> mitogenic signaling.</clue>
+</event>
+<sentence id="S7">Thus, <term id="T21" lex="Elf-1" sem="Protein_molecule">Elf-1</term> is able to stimulate <term id="T22" lex="gene_transcription" sem="Other">gene transcription</term> which may be required for the development and activity of <term id="T23" lex="lymphocyte" sem="Cell_natural">lymphocytes</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="T22"/>
+<cause idref="T21"/>
+<clue>Thus, Elf-1 is <clueKT><clueCL>able</clueCL></clueKT> to <clueType>stimulate</clueType> gene transcription which may be required for the development and activity of lymphocytes.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Cell_differentiation"/>
+<theme idref="T23"/>
+<clue>Thus, Elf-1 is able to stimulate gene transcription which may be required for the <clueType>development</clueType> and activity <linkTheme>of</linkTheme> lymphocytes.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Physiological_process"/>
+<theme idref="T23"/>
+<clue>Thus, Elf-1 is able to stimulate gene transcription which may be required for the development and <clueType>activity</clueType> <linkCause>of</linkCause> lymphocytes.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="T22"/>
+<clue>Thus, Elf-1 is able to stimulate gene transcription which <clueKT><clueCL>may</clueCL></clueKT> be <clueType>required</clueType> <linkTheme>for</linkTheme> the development and activity of lymphocytes.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="T22"/>
+<clue>Thus, Elf-1 is able to stimulate gene transcription which <clueKT><clueCL>may</clueCL></clueKT> be <clueType>required</clueType> <linkTheme>for</linkTheme> the development and activity of lymphocytes.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

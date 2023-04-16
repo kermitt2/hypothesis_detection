@@ -1,0 +1,25 @@
+T30	DDI 62 73	interaction
+T69	Potential_therapeutic_effect 695 702	treated
+T71	Potential_therapeutic_effect 758 765	subside
+T72	Adverse_effect 826 833	induced
+T75	Potential_therapeutic_effect 995 1003	subsided
+T80	Potential_therapeutic_effect 1026 1031	recur
+T82	Potential_therapeutic_effect 1131 1140	effective
+T84	Potential_therapeutic_effect 2041 2046	given
+R1	is_equivalent Arg1:T5 Arg2:T6
+R22	Coreference Arg1:T70 Arg2:T60
+R24	Coreference Arg1:T79 Arg2:T11
+R25	Coreference Arg1:T66 Arg2:T60
+E1	DDI:T30 has_participant:T3 has_participant:T1 has_subject:T25
+E2	DDI:T30 has_participant:T3 has_participant:T2 has_subject:T25
+E5	Potential_therapeutic_effect:T69 has_subject:T70 has_agent:T61 has_agent:T62 has_agent:T12 has_agent:T13
+E6	Potential_therapeutic_effect:T71 has_agent:T63 affects:T14
+E7	Adverse_effect:T72 has_agent:T64 affects:T15
+E9	Potential_therapeutic_effect:T75 affects:T74 has_agent:T18
+E11	Potential_therapeutic_effect:T80 has_agent:T19 has_cue:T81 has_subject:T79
+E12	Potential_therapeutic_effect:T82 affects:T21 has_agent:T20
+E14	Potential_therapeutic_effect:T84 has_subject:T66 has_agent:T40
+A3	Negated E11
+T17	Potential_therapeutic_effect 209 228	under the diagnosis
+E3	Potential_therapeutic_effect:T17 has_agent:T5 affects:T7
+R2	Subject_Disorder Arg1:T25 Arg2:T4	

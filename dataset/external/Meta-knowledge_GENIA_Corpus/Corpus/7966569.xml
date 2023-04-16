@@ -1,0 +1,215 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7966569" created="27/06/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7966569</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Enhanced responsiveness to <term id="T1" lex="nuclear_factor_kappa_B" sem="Protein_molecule">nuclear factor kappa B</term> contributes to the <term id="A2" sem="Other">unique phenotype of</term> <term id="T2" lex="simian_immunodeficiency_virus_variant" sem="Virus">simian immunodeficiency virus variant</term> <term id="T3" lex="SIVsmmPBj14" sem="Virus">SIVsmmPBj14</term>.</sentence>
+<event id="E61">
+<type class="Regulation"/>
+<cause idref="T1"/>
+<clue>Enhanced <clueType>responsiveness</clueType> <linkCause>to</linkCause> nuclear factor kappa B contributes to the unique phenotype of simian immunodeficiency virus variant SIVsmmPBj14.</clue>
+</event>
+<event id="E1">
+<type class="Positive_regulation"/>
+<theme idref="E61"/>
+<clue><clueType>Enhanced</clueType> responsiveness to nuclear factor kappa B contributes to the unique phenotype of simian immunodeficiency virus variant SIVsmmPBj14.</clue>
+</event>
+<event id="E2">
+<type class="Regulation"/>
+<theme idref="A2" idref1="T3"/>
+<cause idref="E1"/>
+<clue>Enhanced responsiveness to nuclear factor kappa B <clueType>contributes</clueType> <linkTheme>to</linkTheme> the unique phenotype of simian immunodeficiency virus variant SIVsmmPBj14.</clue>
+<comment>TPS: A2</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Infection with a variant of <term id="T4" lex="simian_immunodeficiency_virus" sem="Virus">simian immunodeficiency virus</term>, <term id="T5" lex="SIVsmmPBj14" sem="Virus">SIVsmmPBj14</term>, leads to severe <term id="A3" sem="Other">acute disease</term> in <term id="T6" lex="macaque" sem="Multicellular_organism_natural">macaques</term>.</sentence>
+<event KT="Other" id="E3">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T5"/>
+<clue><clueType>Infection</clueType> <linkTheme>with</linkTheme> a variant of simian immunodeficiency virus, SIVsmmPBj14, leads to severe acute disease in macaques.</clue>
+</event>
+<event KT="Fact" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<cause idref="E3"/>
+<clue>Infection with a variant of simian immunodeficiency virus, SIVsmmPBj14, <clueType>leads</clueType> <linkTheme>to</linkTheme> severe acute disease <clueLoc>in macaques</clueLoc>.</clue>
+</event>
+<sentence id="S3">This study was designed to investigate the functional significance of previously described mutations in the <term id="T7" lex="viral_long_terminal_repeat" sem="DNA_domain_or_region">viral long terminal repeat</term> (<term id="T8" lex="LTR" sem="DNA_domain_or_region">LTR</term>) and to elucidate their contribution to the unique <term id="A5" sem="Other">phenotype of <term id="T9" lex="SIVsmmPBj14" sem="Virus">SIVsmmPBj14</term></term>.</sentence>
+<event KT="Analysis" Source="Other" id="E5">
+<type class="Mutagenesis"/>
+<theme idref="T8"/>
+<clue>This study was designed to investigate the functional significance of <clueSource>previously</clueSource> <clueKT>described</clueKT> <clueType>mutations</clueType> <linkTheme>in</linkTheme> the viral long terminal repeat (LTR) and to elucidate their contribution to the unique phenotype of SIVsmmPBj14.</clue>
+</event>
+<event KT="Investigation" id="E6" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="A5"/>
+<cause idref="E5"/>
+<clue>This study was designed to investigate the functional significance of previously described mutations in the viral long terminal repeat (LTR) and <clueKT>to elucidate</clueKT> <corefCause>their</corefCause> <clueType>contribution</clueType> <linkTheme>to</linkTheme> the unique phenotype of SIVsmmPBj14.</clue>
+<comment>TPS: A5</comment></event>
+<sentence id="S4"><term id="T11" lex="LTR" sem="DNA_domain_or_region">LTR</term>-directed <term id="A6" sem="Other">transcription</term> was measured by using <term id="T12" lex="luciferase_reporter_construct" sem="DNA_family_or_group">luciferase reporter constructs</term> that were transiently transfected into <term id="T13" lex="cultured_cell" sem="Cell_cultured">cultured cells</term>.</sentence>
+<event KT="Investigation" id="E7" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="A6"/>
+<cause idref="T11"/>
+<clue>LTR-<clueType>directed</clueType> transcription was <clueKT>measured</clueKT> <clueExperiment>by using luciferase reporter constructs that were transiently transfected into cultured cells</clueExperiment>.</clue>
+<comment>NER: T10 del &quot;LTR-directed transcription&quot;</comment></event>
+<sentence id="S5">In a wide range of cell types, the basal <term id="A50" sem="Other">transcriptional activity</term> of the <term id="A7" sem="DNA_domain_or_region"><term id="T14" lex="LTR" sem="DNA_domain_or_region">LTR</term> from <term id="T15" lex="SIVsmmPBj14" sem="Virus">SIVsmmPBj14</term></term> was found to be 2- to 4.5-fold higher than that of an <term id="A8" sem="DNA_domain_or_region"><term id="T16" lex="LTR" sem="DNA_domain_or_region">LTR</term> from a non-acutely pathogenic strain</term>.</sentence>
+<event Manner="High" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="A50"/>
+<cause idref="A7"/>
+<clue>In a wide range of cell types, the basal transcriptional activity <linkCause>of</linkCause> the LTR from SIVsmmPBj14 was <clueKT>found</clueKT> to be <clueManner>2- to 4.5-fold higher</clueManner> than that of an LTR from a non-acutely pathogenic strain.</clue>
+<comment>TPS: A7, NO CLUETYPE</comment></event>
+<event Manner="High" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="A50"/>
+<cause idref="A8"/>
+<clue>In a wide range of cell types, the basal transcriptional activity <linkCause>of</linkCause> the LTR from SIVsmmPBj14 was <clueKT>found</clueKT> to be <clueManner>2- to 4.5-fold higher</clueManner> than that of an LTR from a non-acutely pathogenic strain.</clue>
+<comment>TPS: A8, NO CLUETYPE</comment></event>
+<sentence id="S6">These <term id="T17" lex="LTR" sem="DNA_domain_or_region">LTRs</term> differ by <term id="T18" lex="five_point_mutation" sem="Other">five point mutations</term> and a <term id="T19" lex="22-bp_duplication" sem="DNA_domain_or_region">22-bp duplication</term> in <term id="T20" lex="SIVsmmPBj14" sem="Virus">SIVsmmPBj14</term>, which includes a <term id="T21" lex="nuclear_factor_kappa_B_(NF_kappa_B)_site" sem="DNA_domain_or_region"><term id="T22" lex="nuclear_factor_kappa_B" sem="Protein_molecule">nuclear factor kappa B</term> (<term id="T23" lex="NF_kappa_B" sem="Protein_molecule">NF kappa B</term>) site</term>.</sentence>
+<sentence id="S7">Transcriptional differences between these <term id="T24" lex="LTR" sem="DNA_domain_or_region">LTRs</term> were further enhanced by two- to threefold upon treatment of cells with <term id="T25" lex="phorbol_ester" sem="Organic_compound_other">phorbol ester</term> or <term id="T26" lex="tumor_necrosis_factor_alpha" sem="Protein_molecule">tumor necrosis factor alpha</term> or by cotransfection with <term id="A9" sem="DNA_domain_or_region"><term id="T27" lex="plasmid" sem="DNA_molecule">plasmids</term> expressing <term id="T28" lex="NF_kappa_B" sem="Protein_molecule">NF kappa B</term> subunits</term>.</sentence>
+<event KT="Method" id="E10">
+<type class="Artificial_process"/>
+<theme idref="A9"/>
+<clue>Transcriptional differences between these LTRs were further enhanced by two- to threefold upon treatment of cells with phorbol ester or tumor necrosis factor alpha or by <clueType>cotransfection</clueType> <linkTheme>with</linkTheme> plasmids expressing NF kappa B subunits.</clue>
+<comment>TPS: A9</comment></event>
+<event Manner="High" id="E51">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="T25"/>
+<clue><corefTheme>Transcriptional differences between these LTRs</corefTheme> were further <clueType>enhanced</clueType> by <clueManner>two- to threefold</clueManner> <linkCause>upon</linkCause> treatment of cells with phorbol ester or tumor necrosis factor alpha or by cotransfection with plasmids expressing NF kappa B subunits.</clue>
+</event>
+<event Manner="High" id="E52">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="T25"/>
+<clue><corefTheme>Transcriptional differences between these LTRs</corefTheme> were further <clueType>enhanced</clueType> by <clueManner>two- to threefold</clueManner> <linkCause>upon</linkCause> treatment of cells with phorbol ester or tumor necrosis factor alpha or by cotransfection with plasmids expressing NF kappa B subunits.</clue>
+</event>
+<event Manner="High" id="E53">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="T26"/>
+<clue><corefTheme>Transcriptional differences between these LTRs</corefTheme> were further <clueType>enhanced</clueType> by <clueManner>two- to threefold</clueManner> <linkCause>upon</linkCause> treatment of cells with phorbol ester or tumor necrosis factor alpha or by cotransfection with plasmids expressing NF kappa B subunits.</clue>
+</event>
+<event Manner="High" id="E54">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="T26"/>
+<clue><corefTheme>Transcriptional differences between these LTRs</corefTheme> were further <clueType>enhanced</clueType> by <clueManner>two- to threefold</clueManner> <linkCause>upon</linkCause> treatment of cells with phorbol ester or tumor necrosis factor alpha or by cotransfection with plasmids expressing NF kappa B subunits.</clue>
+</event>
+<event Manner="High" id="E55">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="E10"/>
+<clue><corefTheme>Transcriptional differences between these LTRs</corefTheme> were further <clueType>enhanced</clueType> by <clueManner>two- to threefold</clueManner> upon treatment of cells with phorbol ester or tumor necrosis factor alpha or <linkCause>by</linkCause> cotransfection with plasmids expressing NF kappa B subunits.</clue>
+</event>
+<event Manner="High" id="E56">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="E10"/>
+<clue><corefTheme>Transcriptional differences between these LTRs</corefTheme> were further <clueType>enhanced</clueType> by <clueManner>two- to threefold</clueManner> upon treatment of cells with phorbol ester or tumor necrosis factor alpha or <linkCause>by</linkCause> cotransfection with plasmids expressing NF kappa B subunits.</clue>
+</event>
+<sentence id="S8">Mutagenesis studies, and the use of a reporter construct containing an enhancerless promoter, indicate that these transcriptional effects are due principally to the <term id="T29" lex="22-bp_sequence_duplication" sem="DNA_domain_or_region">22-bp sequence duplication</term> and the <term id="T30" lex="NF_kappa_B_site" sem="DNA_domain_or_region"><term id="T31" lex="NF_kappa_B" sem="Protein_molecule">NF kappa B</term> site</term> contained within it.</sentence>
+<event CL="L2" KT="Analysis" id="E110">
+<type class="Positive_regulation"/>
+<theme idref="E51"/>
+<cause idref="T29"/>
+<clue><clueExperiment>Mutagenesis studies, and the use of a reporter construct containing an enhancerless promoter,</clueExperiment> <clueKT><clueCL>indicate</clueCL></clueKT> that <corefTheme>these transcriptional effects</corefTheme> are <clueType>due</clueType> principally <linkCause>to</linkCause> the 22-bp sequence duplication and the NF kappa B site contained within it.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E111">
+<type class="Positive_regulation"/>
+<theme idref="E52"/>
+<cause idref="T29"/>
+<clue><clueExperiment>Mutagenesis studies, and the use of a reporter construct containing an enhancerless promoter,</clueExperiment> <clueKT><clueCL>indicate</clueCL></clueKT> that <corefTheme>these transcriptional effects</corefTheme> are <clueType>due</clueType> principally <linkCause>to</linkCause> the 22-bp sequence duplication and the NF kappa B site contained within it.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E112">
+<type class="Positive_regulation"/>
+<theme idref="E53"/>
+<cause idref="T29"/>
+<clue><clueExperiment>Mutagenesis studies, and the use of a reporter construct containing an enhancerless promoter,</clueExperiment> <clueKT><clueCL>indicate</clueCL></clueKT> that <corefTheme>these transcriptional effects</corefTheme> are <clueType>due</clueType> principally <linkCause>to</linkCause> the 22-bp sequence duplication and the NF kappa B site contained within it.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E113">
+<type class="Positive_regulation"/>
+<theme idref="E51"/>
+<cause idref="T30"/>
+<clue><clueExperiment>Mutagenesis studies, and the use of a reporter construct containing an enhancerless promoter,</clueExperiment> <clueKT><clueCL>indicate</clueCL></clueKT> that <corefTheme>these transcriptional effects</corefTheme> are <clueType>due</clueType> principally <linkCause>to</linkCause> the 22-bp sequence duplication and the NF kappa B site contained within it.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E114">
+<type class="Positive_regulation"/>
+<theme idref="E52"/>
+<cause idref="T30"/>
+<clue><clueExperiment>Mutagenesis studies, and the use of a reporter construct containing an enhancerless promoter,</clueExperiment> <clueKT><clueCL>indicate</clueCL></clueKT> that <corefTheme>these transcriptional effects</corefTheme> are <clueType>due</clueType> principally <linkCause>to</linkCause> the 22-bp sequence duplication and the NF kappa B site contained within it.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E115">
+<type class="Positive_regulation"/>
+<theme idref="E53"/>
+<cause idref="T30"/>
+<clue><clueExperiment>Mutagenesis studies, and the use of a reporter construct containing an enhancerless promoter,</clueExperiment> <clueKT><clueCL>indicate</clueCL></clueKT> that <corefTheme>these transcriptional effects</corefTheme> are <clueType>due</clueType> principally <linkCause>to</linkCause> the 22-bp sequence duplication and the NF kappa B site contained within it.</clue>
+</event>
+<sentence id="S9">Finally, infectious virus stocks that were isogenic except for the <term id="T32" lex="LTR" sem="DNA_domain_or_region">LTR</term> were generated.</sentence>
+<sentence id="S10">The <term id="A11" sem="DNA_domain_or_region"><term id="T33" lex="LTR" sem="DNA_domain_or_region">LTR</term> from <term id="T34" lex="SIVsmmPBj14" sem="Virus">SIVsmmPBj14</term></term> was found to confer an increase in the kinetics of <term id="T35" lex="virus_replication" sem="Other">virus replication</term> in <term id="T36" lex="cultured_cell" sem="Cell_cultured">cultured cells</term>.</sentence>
+<event id="E13">
+<type class="Viral_life_cycle"/>
+<theme idref="T34"/>
+<clue>The LTR from SIVsmmPBj14 was found to confer an increase in the kinetics of <corefTheme>virus</corefTheme> <clueType>replication</clueType> in cultured cells.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="A11"/>
+<clue>The LTR from SIVsmmPBj14 was <clueKT>found</clueKT> to confer an <clueType>increase</clueType> <linkTheme>in</linkTheme> the kinetics of virus replication <clueLoc>in cultured cells</clueLoc>.</clue>
+<comment>TPS: A11</comment></event>
+<sentence id="S11">Inclusion of this <term id="T37" lex="LTR" sem="DNA_domain_or_region">LTR</term> in <term id="T38" lex="recombinant_SIV" sem="Virus">recombinant SIVs</term> also resulted in a two- to threefold rise in the extent of <term id="T39" lex="cellular_proliferation" sem="Other">cellular proliferation</term> that was induced in <term id="T40" lex="quiescent_simian_peripheral_blood_mononuclear_cell" sem="Cell_cultured">quiescent simian peripheral blood mononuclear cells</term>.</sentence>
+<event KT="Method" id="E15">
+<type class="Mutagenesis"/>
+<theme idref="T38"/>
+<theme idref="A11"/>
+<clue><clueType>Inclusion</clueType> <linkTheme>of</linkTheme> <corefTheme idref1="A11">this LTR</corefTheme> <linkTheme>in</linkTheme> recombinant SIVs also resulted in a two- to threefold rise in the extent of cellular proliferation that was induced in quiescent simian peripheral blood mononuclear cells.</clue>
+<comment>Artificial</comment></event>
+<event id="E16">
+<type class="Cellular_physiological_process"/>
+<theme idref="T40"/>
+<clue>Inclusion of this LTR in recombinant SIVs also resulted in a two- to threefold rise in the extent of cellular <clueType>proliferation</clueType> that was induced in quiescent simian peripheral blood mononuclear cells.</clue>
+</event>
+<event Manner="High" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<cause idref="E15"/>
+<clue>Inclusion of this LTR in recombinant SIVs also resulted in a <clueManner>two- to threefold</clueManner> <clueType>rise</clueType> <linkTheme>in</linkTheme> the extent of cellular proliferation that was induced in quiescent simian peripheral blood mononuclear cells.</clue>
+</event>
+<sentence id="S12">These studies are consistent with the hypothesis that <term id="T41" lex="LTR_mutation" sem="Other"><term id="T42" lex="LTR" sem="DNA_domain_or_region">LTR</term> mutations</term> assist <term id="T43" lex="SIVsmmPBj14" sem="Virus">SIVsmmPBj14</term> in responding efficiently to <term id="A13" sem="Other">cellular stimulation</term> and allow it to replicate to high titers during the acute phase of <term id="T44" lex="viral_infection" sem="Other">viral infection</term>.</sentence>
+<event KT="Other" id="E65">
+<type class="Mutagenesis"/>
+<theme idref="T42"/>
+<clue>These studies are consistent with the hypothesis that LTR <clueType>mutations</clueType> assist SIVsmmPBj14 in responding efficiently to cellular stimulation and allow it to replicate to high titers during the acute phase of viral infection.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Regulation"/>
+<theme idref="T43"/>
+<cause idref="A13"/>
+<clue>These studies are consistent with the hypothesis that LTR mutations assist SIVsmmPBj14 in <clueType>responding</clueType> efficiently <linkCause>to</linkCause> cellular stimulation and allow it to replicate to high titers during the acute phase of viral infection.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E19" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="E65"/>
+<clue>These studies are consistent with the <clueKT><clueCL>hypothesis</clueCL></clueKT> that LTR mutations <clueType>assist</clueType> SIVsmmPBj14 in responding efficiently to cellular stimulation and allow it to replicate to high titers during the acute phase of viral infection.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T43"/>
+<clue>These studies are consistent with the hypothesis that LTR mutations assist SIVsmmPBj14 in responding efficiently to cellular stimulation and allow it to replicate to high titers during the acute phase of viral <clueType>infection</clueType>.</clue>
+<comment>NER: T44 mod</comment></event>
+<event KT="Other" id="E21">
+<type class="Viral_life_cycle"/>
+<theme idref="T43"/>
+<clue>These studies are consistent with the hypothesis that LTR mutations assist SIVsmmPBj14 in responding efficiently to cellular stimulation and allow it to <clueType>replicate</clueType> to high titers during the acute phase of viral infection.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="E65"/>
+<clue>These studies are consistent with the <clueKT><clueCL>hypothesis</clueCL></clueKT> that LTR mutations assist SIVsmmPBj14 in responding efficiently to cellular stimulation and <clueType>allow</clueType> it to replicate to <clueType>high titers</clueType> <clueLoc>during the acute phase of viral infection.</clueLoc></clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,11 @@
+T8	Adverse_effect 28 38	associated
+T9	Potential_therapeutic_effect 142 153	prophylaxis
+T10	Adverse_effect 83 92	developed
+T18	Adverse_effect 339 342	use
+R1	Coreference Arg1:T11 Arg2:T6
+E1	Adverse_effect:T8 has_agent:T2 affects:T1
+E2	Potential_therapeutic_effect:T9 affects:T5 has_agent:T4
+E3	Adverse_effect:T10 has_agent:T4 affects:T3 has_cue:T13
+E6	Adverse_effect:T18 has_cue:T19 has_agent:T11 affects:T7
+A1	Speculated E3
+A3	Speculated E6

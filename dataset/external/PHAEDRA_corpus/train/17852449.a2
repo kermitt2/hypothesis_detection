@@ -1,0 +1,17 @@
+T5	Potential_therapeutic_effect 175 194	effective treatment
+T10	Adverse_effect 378 396	teratogenic effect
+T16	Adverse_effect 607 615	revealed
+T23	Potential_therapeutic_effect 281 290	Treatment
+T25	Potential_therapeutic_effect 40 47	treated
+T13	Potential_therapeutic_effect 452 459	exposed
+R1	is_equivalent Arg1:T2 Arg2:T3
+R2	is_equivalent Arg1:T4 Arg2:T11
+R4	Subject_Disorder Arg1:T28 Arg2:T19
+E1	Potential_therapeutic_effect:T5 affects:T4 has_agent:T2
+E2	Adverse_effect:T10 has_agent:T7 has_cue:T27
+E4	Adverse_effect:T16 has_cue:T18 has_agent:T9 affects:T15 affects:T14
+E6	Potential_therapeutic_effect:T23 affects:T22 has_agent:T6
+E7	Potential_therapeutic_effect:T25 has_agent:T1 has_subject:T24
+E3	Potential_therapeutic_effect:T13 has_subject:T12 has_agent:T8
+A2	Speculated E2
+A1	Manner E4 Low

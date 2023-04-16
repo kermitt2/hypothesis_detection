@@ -1,0 +1,24 @@
+T52	Adverse_effect 513 517	risk
+T24	Adverse_effect 171 185	increased risk
+T49	Potential_therapeutic_effect 257 264	receive
+R1	is_equivalent Arg1:T9 Arg2:T10
+R2	is_equivalent Arg1:T7 Arg2:T8
+E3	Combination:T51 has_participant:T13 has_participant:T12
+E7	Combination:T23 has_participant:T1 has_participant:T2
+E10	Combination:T23 has_participant:T1 has_participant:T3
+E1	Combination:T51 has_participant:T12 has_participant:T14
+E6	Adverse_effect:T52 affects:T11 has_agent:T12 has_cue:T17
+E8	Adverse_effect:T24 has_cue:T26 affects:T4 has_cue:T30 has_agent:E10 has_agent:E7
+E13	Potential_therapeutic_effect:T49 has_agent:T5 affects:T6
+E2	Adverse_effect:T52 affects:T11 has_agent:E3 has_cue:T17
+E4	Adverse_effect:T52 affects:T11 has_agent:E1 has_cue:T17
+A2	Speculated E8
+A3	Negated E8
+A1	Speculated E4
+A4	Speculated E2
+A5	Speculated E6
+T21	Adverse_effect 1897 1901	risk
+E5	Adverse_effect:T21 has_agent:E11 has_agent2:E9 affects:T43 has_cue:T16
+E9	Combination:T28 has_participant:T44 has_participant2:T45
+E11	Combination:T28 has_participant:T44 has_participant2:T46
+A6	Negated E5

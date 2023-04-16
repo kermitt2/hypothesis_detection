@@ -1,0 +1,31 @@
+T16	Adverse_effect 24 32	toxicity
+T31	Potential_therapeutic_effect 451 458	treated
+T32	Adverse_effect 146 154	toxicity
+T40	Adverse_effect 740 752	intoxication
+T46	Adverse_effect 965 971	caused
+T54	DDI 1140 1151	interaction
+T56	Potential_therapeutic_effect 1241 1251	medication
+T26	Adverse_effect 571 576	After
+T36	Adverse_effect 1196 1209	borne in mind
+R1	Subject_Disorder Arg1:T35 Arg2:T10
+R2	Coreference Arg1:T38 Arg2:T35
+R3	Coreference Arg1:T39 Arg2:T35
+R4	Coreference Arg1:T44 Arg2:T21
+R5	Coreference Arg1:T44 Arg2:T20
+R6	Coreference Arg1:T44 Arg2:T19
+R8	Subject_Disorder Arg1:T55 Arg2:T53
+E10	Combination:T43 has_participant:T44
+E15	DDI:T54 has_participant:T27 has_participant:T28 has_cue:T57
+E17	Combination:T58 has_participant:T15 has_participant:T17
+E1	Combination:T8 has_participant:T3 has_participant:T4
+E5	Combination:T12 has_participant:T9 has_participant:T7
+E7	Combination:T33 has_participant:T23 has_participant:T24
+E2	Adverse_effect:T16 has_agent:T1 affects:T2 has_agent:E1
+E3	Potential_therapeutic_effect:T31 has_agent:T11 affects:T13 has_subject:T38
+E4	Adverse_effect:T32 affects:T6 has_agent:T5 has_agent:E5
+E8	Adverse_effect:T40 has_subject:T39 affects:T30 has_agent:T18
+E11	Adverse_effect:T46 affects:T22 has_agent:E10
+E16	Potential_therapeutic_effect:T56 has_agent:T29 affects:T53 has_subject:T55
+E6	Adverse_effect:T26 has_agent:E17
+E9	Adverse_effect:T36 has_subject:T55 has_agent:E15
+A4	Speculated E15

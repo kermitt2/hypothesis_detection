@@ -1,0 +1,12 @@
+T36	Adverse_effect 486 489	but
+T37	Potential_therapeutic_effect 522 534	substitution
+R2	Subject_Disorder Arg1:T34 Arg2:T2
+E2	Adverse_effect:T36 has_agent:T4 affects:T5
+E3	Potential_therapeutic_effect:T37 has_agent:T6 affects:T5
+T3	Adverse_effect 847 854	induced
+E1	Adverse_effect:T3 affects:T16 has_agent:T17
+T10	Adverse_effect 899 904	after
+E4	Adverse_effect:T10 has_agent:T19 affects:T18
+T15	Potential_therapeutic_effect 586 595	treatment
+E5	Potential_therapeutic_effect:T15 has_agent:T8 affects:T7 has_cue:T13
+A1	Negated E5

@@ -1,0 +1,24 @@
+T16	DDI 969 980	interaction
+T17	DDI 15 26	interaction
+T24	Adverse_effect 59 66	causing
+T27	Adverse_effect 273 283	associated
+T30	Adverse_effect 366 376	associated
+T33	Adverse_effect 674 682	myotoxic
+T39	Adverse_effect 567 572	occur
+T42	Adverse_effect 952 961	secondary
+R1	Coreference Arg1:T29 Arg2:T7
+E2	DDI:T16 has_participant:T21 has_participant:T22
+E3	DDI:T17 has_cue:T23 has_participant:T1 has_participant:T2
+E10	Combination:T37 has_participant:T38 has_participant:T36
+E12	Combination:T37 has_participant:T41 has_participant:T32
+E4	Adverse_effect:T24 affects:T3 has_agent:E3
+E6	Adverse_effect:T27 has_agent:T7 affects:T8 affects:T9
+E7	Adverse_effect:T30 has_cue:T31 has_agent:T29 affects:T10
+E8	Adverse_effect:T33 has_agent:T32
+E11	Adverse_effect:T39 has_cue:T40 affects:T12 has_agent:T13 has_agent:T38 has_agent:T41
+E13	Adverse_effect:T42 has_agent:E2 affects:T19 affects:T20
+A1	Speculated E3
+A3	Manner E7 Low
+A4	Speculated E11
+T5	Potential_therapeutic_effect 419 422	use
+E1	Potential_therapeutic_effect:T5 has_agent:T29 affects:T11

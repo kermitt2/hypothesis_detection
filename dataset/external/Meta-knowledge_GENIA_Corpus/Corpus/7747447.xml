@@ -1,0 +1,165 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7747447" created="07/05/2006" creator="Hitomi MASUDA"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7747447</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Induction of <term id="T1" lex="Sp1_phosphorylation" sem="Other"><term id="T2" lex="Sp1" sem="Protein_molecule">Sp1</term> <term id="T3" lex="phosphorylation" sem="Other">phosphorylation</term></term> and <term id="T4" lex="NF-kappa_B-independent_HIV_promoter_domain_activity" sem="Other"><term id="T5" lex="NF-kappa_B-independent_HIV_promoter" sem="DNA_domain_or_region"><term id="T6" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>-independent <term id="T7" lex="HIV" sem="Virus">HIV</term> promoter</term> domain activity</term> in <term id="T8" lex="T_lymphocyte" sem="Cell_natural">T lymphocytes</term> stimulated by <term id="T9" lex="okadaic_acid" sem="Organic_compound_other">okadaic acid</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T2"/>
+<clue>Induction of Sp1 <clueType>phosphorylation</clueType> and NF-kappa B-independent HIV promoter domain activity in T lymphocytes stimulated by okadaic acid.</clue>
+</event>
+<event KT="Investigation" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T9"/>
+<clue><clueType>Induction</clueType> <linkTheme>of</linkTheme> Sp1 phosphorylation and NF-kappa B-independent HIV promoter domain activity <clueLoc>in T lymphocytes</clueLoc> stimulated <linkCause>by</linkCause> okadaic acid.</clue>
+</event>
+<event KT="Investigation" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="T4"/>
+<cause idref="T9"/>
+<clue><clueType>Induction</clueType> <linkTheme>of</linkTheme> Sp1 phosphorylation and NF-kappa B-independent HIV promoter domain activity <clueLoc>in T lymphocytes</clueLoc> stimulated <linkCause>by</linkCause> okadaic acid.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">In contrast to the purely <term id="T10" lex="enhancer-dependent_effect" sem="Other">enhancer-dependent effect</term> of <term id="T11" lex="cytokine" sem="Protein_family_or_group">cytokines</term> such as <term id="T12" lex="TNF" sem="Protein_family_or_group">TNF</term> on the activity of the <term id="T13" lex="HIV_regulatory_region" sem="DNA_domain_or_region"><term id="T14" lex="HIV" sem="Virus">HIV</term> regulatory region</term> (<term id="T15" lex="LTR" sem="DNA_domain_or_region">LTR</term>), we observed that <term id="T16" lex="okadaic_acid" sem="Organic_compound_other">okadaic acid</term> (<term id="T17" lex="OKA" sem="Organic_compound_other">OKA</term>) activates <term id="T18" lex="HIV_transcription" sem="Other"><term id="T19" lex="HIV" sem="Virus">HIV</term> transcription</term> through both the enhancer, <term id="A1" sem="DNA_domain_or_region">responding to the factor <term id="T20" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term></term>, and the <term id="A2" sem="DNA_domain_or_region"><term id="T21" lex="promoter_domain" sem="DNA_domain_or_region">promoter domain</term> of the <term id="T22" lex="LTR" sem="DNA_domain_or_region">LTR</term></term>.</sentence>
+<event id="E4">
+<type class="Transcription"/>
+<theme idref="T19"/>
+<clue>In contrast to the purely enhancer-dependent effect of cytokines such as TNF on the activity of the HIV regulatory region (LTR), we observed that okadaic acid (OKA) activates HIV <clueType>transcription</clueType> through both the enhancer, responding to the factor NF-kappa B, and the promoter domain of the LTR.</clue>
+</event>
+<event id="E5">
+<type class="Correlation"/>
+<theme idref="E7"/>
+<theme idref="A1"/>
+<clue>In contrast to the purely enhancer-dependent effect of cytokines such as TNF on the activity of the HIV regulatory region (LTR), we observed that okadaic acid (OKA) activates HIV transcription <clueType>through</clueType> <corefCause>both the enhancer</corefCause>, responding to the factor NF-kappa B, and the promoter domain of the LTR.</clue>
+<comment>TPS: A1</comment></event>
+<event id="E6">
+<type class="Correlation"/>
+<theme idref="E7"/>
+<theme idref="A2"/>
+<clue>In contrast to the purely enhancer-dependent effect of cytokines such as TNF on the activity of the HIV regulatory region (LTR), we observed that okadaic acid (OKA) activates HIV transcription <clueType>through</clueType> <corefCause>both the enhancer</corefCause>, responding to the factor NF-kappa B, and the promoter domain of the LTR.</clue>
+<comment>TPS: A2</comment></event>
+<event id="E7">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="T17"/>
+<clue>In contrast to the purely enhancer-dependent effect of cytokines such as TNF on the activity of the HIV regulatory region (LTR), we <clueKT>observed</clueKT> that okadaic acid (OKA) <clueType>activates</clueType> HIV transcription through both the enhancer, responding to the factor NF-kappa B, and the promoter domain of the LTR.</clue>
+</event>
+<sentence id="S3">The inducibility of <term id="T23" lex="HIV_LTR-driven_luciferase_expression_construct" sem="DNA_family_or_group"><term id="T24" lex="HIV_LTR" sem="DNA_domain_or_region"><term id="T25" lex="HIV" sem="Virus">HIV</term> LTR</term>-driven <term id="T26" lex="luciferase" sem="Protein_molecule">luciferase</term> expression constructs</term> in <term id="T27" lex="lymphoblastoid_cell" sem="Cell_natural">lymphoblastoid cells</term> stimulated by <term id="T28" lex="OKA" sem="Organic_compound_other">OKA</term> depended on both <term id="T29" lex="functional_Sp1_binding_element" sem="DNA_domain_or_region">functional <term id="T30" lex="Sp1" sem="Protein_molecule">Sp1</term> binding elements</term> and the ability of the <term id="T31" lex="TATA_box" sem="DNA_domain_or_region">TATA box</term> to bind the protein <term id="T32" lex="TBP" sem="Protein_molecule">TBP</term>.</sentence>
+<event id="E9">
+<type class="Positive_regulation"/>
+<theme idref="T23"/>
+<cause idref="T28"/>
+<clue>The <clueType>inducibility</clueType> <linkTheme>of</linkTheme> HIV LTR-driven luciferase expression constructs <clueLoc>in lymphoblastoid cells</clueLoc> stimulated <linkCause>by</linkCause> OKA depended on both functional Sp1 binding elements and the ability of the TATA box to bind the protein TBP.</clue>
+</event>
+<event id="E10">
+<type class="Correlation"/>
+<theme idref="E9"/>
+<theme idref="T29"/>
+<clue>The inducibility of HIV LTR-driven luciferase expression constructs in lymphoblastoid cells stimulated by OKA <clueType>depended</clueType> <linkTheme>on</linkTheme> both functional Sp1 binding elements and the ability of the TATA box to bind the protein TBP.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E11">
+<type class="Binding"/>
+<theme idref="T31"/>
+<theme idref="T32"/>
+<clue>The inducibility of HIV LTR-driven luciferase expression constructs in lymphoblastoid cells stimulated by OKA depended on both functional Sp1 binding elements and the <clueKT><clueCL>ability</clueCL></clueKT> of the TATA box <linkTheme>to</linkTheme> <clueType>bind</clueType> the protein TBP.</clue>
+</event>
+<event id="E12">
+<type class="Correlation"/>
+<theme idref="E9"/>
+<theme idref="E11"/>
+<clue>The inducibility of HIV LTR-driven luciferase expression constructs in lymphoblastoid cells stimulated by OKA <clueType>depended</clueType> <linkTheme>on</linkTheme> both functional Sp1 binding elements and the ability of the TATA box to bind the protein TBP.</clue>
+</event>
+<sentence id="S4">In both <cons id="T33" lex="(AND transformed_lymphocyte normal_lymphocyte)" sem="(AND Cell_natural Cell_natural)"><frag id="F1">transformed</frag> and <frag id="F2">normal</frag> <frag id="F3"><term id="A65" sem="Cell_natural">lymphocytes</term></frag></cons>, <term id="T34" lex="OKA_stimulation" sem="Other"><term id="T35" lex="OKA" sem="Organic_compound_other">OKA</term> stimulation</term> induced intense <term id="T36" lex="phosphorylation" sem="Other">phosphorylation</term> of the constitutively expressed <term id="T37" lex="Sp1_protein" sem="Protein_molecule"><term id="T38" lex="Sp1" sem="Protein_molecule">Sp1</term> protein</term> in the <term id="T39" lex="nucleus" sem="Cell_component">nucleus</term>, a property of <term id="T40" lex="OKA" sem="Organic_compound_other">OKA</term> not shared by <term id="T41" lex="TNF" sem="Protein_family_or_group">TNF</term>, <term id="T42" lex="phorbol_ester" sem="Organic_compound_other">phorbol ester</term>, or <term id="T43" lex="PHA" sem="Protein_molecule">PHA</term> and <term id="T44" lex="interleukin_2" sem="Protein_molecule">interleukin 2</term>.</sentence>
+<event Manner="High" id="E13">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T37"/>
+<clue>In both transformed and normal lymphocytes, OKA stimulation induced <clueManner>intense</clueManner> <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> the constitutively expressed Sp1 protein <clueLoc>in the nucleus</clueLoc>, a property of OKA not shared by TNF, phorbol ester, or PHA and interleukin 2.</clue>
+</event>
+<event id="E102">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="T35"/>
+<clue><clueLoc>In</clueLoc> both <clueLoc>transformed</clueLoc> and normal <clueLoc>lymphocytes</clueLoc>, OKA stimulation <clueType>induced</clueType> intense phosphorylation of the constitutively expressed Sp1 protein in the nucleus, a property of OKA not shared by TNF, phorbol ester, or PHA and interleukin 2.</clue>
+</event>
+<event id="E202">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="T35"/>
+<clue><clueLoc>In</clueLoc> both transformed and <clueLoc>normal lymphocytes</clueLoc>, OKA stimulation <clueType>induced</clueType> intense phosphorylation of the constitutively expressed Sp1 protein in the nucleus, a property of OKA not shared by TNF, phorbol ester, or PHA and interleukin 2.</clue>
+</event>
+<event id="E302">
+<type class="Biological_process"/>
+<theme idref="A65"/>
+<clue>In both <clueType>transformed</clueType> and normal lymphocytes, OKA stimulation induced intense phosphorylation of the constitutively expressed Sp1 protein in the nucleus, a property of OKA not shared by TNF, phorbol ester, or PHA and interleukin 2.</clue>
+</event>
+<sentence id="S5">Responsiveness of <term id="A300" sem="DNA_domain_or_region"><term id="T45" lex="LTR_construct" sem="DNA_family_or_group">LTR constructs</term> deleted of <term id="T46" lex="kappa_B_element" sem="DNA_family_or_group">kappa B elements</term></term> to <term id="T47" lex="HIV_Tat_expression" sem="Other"><term id="T48" lex="HIV_Tat" sem="Protein_molecule"><term id="T49" lex="HIV" sem="Virus">HIV</term> Tat</term> expression</term> was increased upon <cons id="T50" lex="(BUT_NOT OKA_stimulation TNF_stimulation)" sem="(BUT_NOT Other Other)"><term id="T51" lex="OKA" sem="Organic_compound_other"><frag id="F4">OKA</frag></term> but not <term id="T52" lex="TNF" sem="Protein_family_or_group"><frag id="F5">TNF</frag></term> <frag id="F6">stimulation</frag></cons>.</sentence>
+<event KT="Method" id="E15">
+<type class="Mutagenesis"/>
+<theme idref="T46"/>
+<clue>Responsiveness of <clueLoc>LTR constructs</clueLoc> <clueType>deleted</clueType> <linkTheme>of</linkTheme> kappa B elements to HIV Tat expression was increased upon OKA but not TNF stimulation.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event id="E16">
+<type class="Gene_expression"/>
+<theme idref="T48"/>
+<clue>Responsiveness of LTR constructs deleted of kappa B elements to HIV Tat <clueType>expression</clueType> was increased upon OKA but not TNF stimulation.</clue>
+</event>
+<event id="E17">
+<type class="Regulation"/>
+<theme idref="A300"/>
+<cause idref="E16"/>
+<clue><clueType>Responsiveness</clueType> <linkTheme>of</linkTheme> LTR constructs deleted of kappa B elements <linkCause>to</linkCause> HIV Tat expression was increased upon OKA but not TNF stimulation.</clue>
+<comment>TPS: A300</comment></event>
+<event id="E18">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<cause idref="T51"/>
+<clue>Responsiveness of LTR constructs deleted of kappa B elements to HIV Tat expression was <clueType>increased</clueType> <linkCause>upon</linkCause> OKA but not TNF stimulation.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E201">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<cause idref="T52"/>
+<clue>Responsiveness of LTR constructs deleted of kappa B elements to HIV Tat expression was <clueType>increased</clueType> <linkCause>upon</linkCause> OKA but <cluePolarity>not</cluePolarity> TNF stimulation.</clue>
+</event>
+<sentence id="S6">Our results suggest that <term id="T53" lex="SP1" sem="Protein_molecule">SP1</term> <term id="T54" lex="phosphorylation" sem="Other">phosphorylation</term> induced by <term id="T55" lex="OKA" sem="Organic_compound_other">OKA</term>, a selective inhibitor of the <term id="T56" lex="serine-threonine_phosphatase" sem="Protein_family_or_group">serine-threonine phosphatase</term> <term id="T57" lex="PP2A" sem="Protein_molecule">PP2A</term>, facilitates the formation of a <term id="T58" lex="transcription_complex" sem="Protein_complex">transcription complex</term> involving general <term id="T59" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term>, <term id="T60" lex="HIV_Tat" sem="Protein_molecule"><term id="T61" lex="HIV" sem="Virus">HIV</term> Tat</term>, and <term id="T62" lex="Sp1_protein" sem="Protein_family_or_group"><term id="T63" lex="Sp1" sem="Protein_molecule">Sp1</term> proteins</term>.</sentence>
+<event KT="Other" id="E19">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T53"/>
+<clue>Our results suggest that SP1 <clueType>phosphorylation</clueType> induced by OKA, a selective inhibitor of the serine-threonine phosphatase PP2A, facilitates the formation of a transcription complex involving general transcription factors, HIV Tat, and Sp1 proteins.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="T55"/>
+<clue>Our results suggest that SP1 phosphorylation <clueType>induced</clueType> <linkCause>by</linkCause> OKA, a selective inhibitor of the serine-threonine phosphatase PP2A, facilitates the formation of a transcription complex involving general transcription factors, HIV Tat, and Sp1 proteins.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Binding"/>
+<theme idref="T60"/>
+<theme idref="T62"/>
+<clue>Our results suggest that SP1 phosphorylation induced by OKA, a selective inhibitor of the serine-threonine phosphatase PP2A, facilitates the <clueType>formation</clueType> of a transcription <clueType>complex</clueType> <linkTheme>involving</linkTheme> <corefTheme>general transcription factors</corefTheme>, HIV Tat, and Sp1 proteins.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E22" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="E20"/>
+<clue>Our results <clueKT><clueCL>suggest</clueCL></clueKT> that SP1 phosphorylation induced by OKA, a selective inhibitor of the serine-threonine phosphatase PP2A, <clueType>facilitates</clueType> the formation of a transcription complex involving general transcription factors, HIV Tat, and Sp1 proteins.</clue>
+</event>
+<sentence id="S7">The formation of this complex would increase, independently of an in synergy with <term id="T64" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>, the low basal <term id="A3" sem="Other">activity of the <term id="T66" lex="HIV_LTR" sem="DNA_domain_or_region"><term id="T67" lex="HIV" sem="Virus">HIV</term> LTR</term></term> observed in <term id="T68" lex="normal_T_lymphocyte" sem="Cell_natural">normal <term id="T69" lex="T_lymphocyte" sem="Cell_natural">T lymphocytes</term></term>.</sentence>
+<event id="E23" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<cause idref="E21"/>
+<clue><corefTheme>The formation of this complex</corefTheme> would <clueType>increase</clueType>, independently of an in synergy with NF-kappa B, the low basal activity of the HIV LTR observed <clueLoc>in normal T lymphocytes</clueLoc>.</clue>
+<comment>NER: T65 del, TPS: A3</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E24">
+<type class="Correlation"/>
+<theme idref="E23"/>
+<theme idref="T64"/>
+<clue>The formation of this complex would increase, <clueType><cluePolarity>independently</cluePolarity></clueType> <linkTheme>of</linkTheme> an in synergy with NF-kappa B, the low basal activity of the HIV LTR observed in normal T lymphocytes.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

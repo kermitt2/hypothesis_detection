@@ -1,0 +1,18 @@
+T17	Potential_therapeutic_effect 94 101	treated
+T26	Adverse_effect 539 544	after
+T9	Adverse_effect 602 607	cause
+T12	Adverse_effect 21 33	intoxication
+T21	Adverse_effect 322 336	symptomatology
+T28	Potential_therapeutic_effect 553 569	herapeutic usage
+T33	Adverse_effect 743 766	prescribed with caution
+R1	Subject_Disorder Arg1:T14 Arg2:T13
+R3	Coreference Arg1:T29 Arg2:T24
+E2	Potential_therapeutic_effect:T17 affects:T13 has_subject:T14 has_agent:T2
+E5	Adverse_effect:T26 has_agent:T24 affects:T25 has_subject:T23
+E6	Adverse_effect:T9 affects:T10 has_subject:T27 has_agent:T29 has_cue:T30
+E7	Adverse_effect:T12 has_agent:T11 has_subject:T16 affects:T15
+E1	Adverse_effect:T21 has_subject:T19 affects:T20 has_agent:T8
+E4	Potential_therapeutic_effect:T28 has_subject:T23 has_agent:T24
+E8	Adverse_effect:T33 has_subject:T34 has_agent:T31 has_cue:T35
+A1	Speculated E6
+A2	Speculated E8

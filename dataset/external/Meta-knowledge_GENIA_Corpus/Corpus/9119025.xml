@@ -1,0 +1,148 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9119025" created="11/04/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9119025</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="cell-to-cell_contact" sem="Other"><term id="A1" sem="Cell_natural">Cell</term>-to-<term id="A2" sem="Cell_natural">cell</term> contact</term> activates the <term id="T2" lex="long_terminal_repeat" sem="DNA_domain_or_region">long terminal repeat</term> of <term id="T3" lex="human_immunodeficiency_virus_1" sem="Virus">human immunodeficiency virus 1</term> through its <term id="T4" lex="kappaB_motif" sem="DNA_domain_or_region">kappaB motif</term>.</sentence>
+<event id="E1">
+<type class="Cell_communication"/>
+<theme idref="A1"/>
+<theme idref="A2"/>
+<clue>Cell-<linkTheme>to</linkTheme>-cell <clueType>contact</clueType> activates the long terminal repeat of human immunodeficiency virus 1 through its kappaB motif.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="T4"/>
+<cause idref="E1"/>
+<clue>Cell-to-cell contact <clueType>activates</clueType> the long terminal repeat of human immunodeficiency virus 1 <linkTheme>through</linkTheme> its kappaB motif.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation"/>
+<theme idref="T2"/>
+<cause idref="E2"/>
+<clue>Cell-to-cell contact <clueType>activates</clueType> the long terminal repeat of human immunodeficiency virus 1 <linkCause>through</linkCause> its kappaB motif.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T5" lex="cell-to-cell_contact" sem="Other">Cell-to-cell contact</term> between <term id="T6" lex="peripheral_blood_lymphocyte" sem="Cell_natural">peripheral blood lymphocytes</term> and <term id="T7" lex="transfected_human_colonic_carcinoma_cell_line_HT29" sem="Cell_cultured">transfected human colonic carcinoma cell line HT29</term> activates transcription of the <term id="A3" sem="DNA_domain_or_region"><term id="T8" lex="long_terminal_repeat" sem="DNA_domain_or_region">long terminal repeats</term> (<term id="T9" lex="LTR" sem="DNA_domain_or_region">LTR</term>) of <term id="T10" lex="human_immunodeficiency_virus" sem="Virus">human immunodeficiency virus</term></term>.</sentence>
+<event KT="Other" id="E4">
+<type class="Cell_communication"/>
+<theme idref="T6"/>
+<theme idref="T7"/>
+<clue><clueType>Cell-to-cell contact</clueType> <linkTheme>between</linkTheme> peripheral blood lymphocytes <linkTheme>and</linkTheme> transfected human colonic carcinoma cell line HT29 activates transcription of the long terminal repeats (LTR) of human immunodeficiency virus.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Transcription"/>
+<theme idref="A3"/>
+<clue>Cell-to-cell contact between peripheral blood lymphocytes and transfected human colonic carcinoma cell line HT29 activates <clueType>transcription</clueType> <linkTheme>of</linkTheme> the long terminal repeats (LTR) of human immunodeficiency virus.</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="E4"/>
+<clue>Cell-to-cell contact between peripheral blood lymphocytes and transfected human colonic carcinoma cell line HT29 <clueType>activates</clueType> transcription of the long terminal repeats (LTR) of human immunodeficiency virus.</clue>
+</event>
+<sentence id="S3"><term id="T11" lex="HIV-1_LTR_transcription" sem="Other"><term id="T12" lex="HIV-1_LTR" sem="DNA_domain_or_region">HIV-1 LTR</term> transcription</term> is controlled by a complex array of <cons id="T13" lex="(AND virus-encoded_protein cellular_protein)" sem="(AND Protein_family_or_group Protein_family_or_group)"><frag id="F1"><term id="A4" sem="Protein_family_or_group">virus-encoded</term></frag> and <frag id="F2"><term id="A5" sem="Protein_family_or_group">cellular</term></frag> <frag id="F3"><term id="A6" sem="Protein_family_or_group">proteins</term></frag></cons>.</sentence>
+<event KT="Other" id="E7">
+<type class="Transcription"/>
+<theme idref="T12"/>
+<clue>HIV-1 LTR <clueType>transcription</clueType> is controlled by a complex array of virus-encoded and cellular proteins.</clue>
+</event>
+<event KT="Fact" id="E8">
+<type class="Regulation"/>
+<theme idref="E7"/>
+<cause idref="A4" idref1="A6"/>
+<clue>HIV-1 LTR transcription is <clueType>controlled</clueType> <linkTheme>by a complex array of</linkTheme> virus-encoded and cellular proteins.</clue>
+</event>
+<event KT="Fact" id="E9">
+<type class="Regulation"/>
+<theme idref="E7"/>
+<cause idref="A5" idref1="A6"/>
+<clue>HIV-1 LTR transcription is <clueType>controlled</clueType> <linkTheme>by a complex array of</linkTheme> virus-encoded and cellular proteins.</clue>
+</event>
+<sentence id="S4">Using various constructs expressing a <term id="T14" lex="lacZ_reporter_gene" sem="DNA_domain_or_region">lacZ reporter gene</term> under the control of the intact or three deleted forms of <term id="T15" lex="HIV-1_LTR" sem="DNA_domain_or_region">HIV-1 LTR</term>, we obtained evidence that the <term id="T16" lex="kappaB_regulatory_element" sem="DNA_domain_or_region">kappaB regulatory elements</term> located in the <term id="T17" lex="U3_region" sem="DNA_domain_or_region">U3 region</term> are involved in <term id="T18" lex="cell-to-cell_activation" sem="Other">cell-to-cell activation</term> of <term id="T19" lex="HIV-1_LTR" sem="DNA_domain_or_region">HIV-1 LTR</term>.</sentence>
+<event KT="Other" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="T19"/>
+<clue>Using various constructs expressing a lacZ reporter gene under the control of the intact or three deleted forms of HIV-1 LTR, we obtained evidence that the kappaB regulatory elements located in the U3 region are involved in <clueType>cell-to-cell activation</clueType> <linkTheme>of</linkTheme> HIV-1 LTR.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="T16"/>
+<clue><clueExperiment>Using various constructs expressing a lacZ reporter gene under the control of the intact or three deleted forms of HIV-1 LTR</clueExperiment>, we obtained <clueKT><clueCL>evidence</clueCL></clueKT> that the kappaB regulatory elements located in the U3 region are <clueType>involved</clueType> <linkTheme>in</linkTheme> cell-to-cell activation of HIV-1 LTR.</clue>
+</event>
+<sentence id="S5"><term id="T20" lex="cell-to-cell_contact" sem="Other"><term id="A7" sem="Cell_natural">Cell</term>-to-<term id="A8" sem="Cell_natural">cell</term> contact</term> activates in vitro binding of the <term id="T21" lex="nuclear_factor_kappaB_(NF-kappaB)_p50/p65_heterodimer" sem="Protein_complex"><term id="T22" lex="nuclear_factor_kappaB" sem="Protein_complex">nuclear factor kappaB</term> (<term id="T23" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>) p50/p65 heterodimer</term> to an <term id="T24" lex="HIV-1_kappaB_oligonucleotide" sem="Polynucleotide">HIV-1 kappaB oligonucleotide</term>.</sentence>
+<event id="E12">
+<type class="Binding"/>
+<theme idref="T21"/>
+<theme idref="T24"/>
+<clue>Cell-to-cell contact activates in vitro <clueType>binding</clueType> <linkTheme>of</linkTheme> the nuclear factor kappaB (NF-kappaB) p50/p65 heterodimer <linkTheme>to</linkTheme> an HIV-1 kappaB oligonucleotide.</clue>
+</event>
+<event id="E13">
+<type class="Cell_communication"/>
+<theme idref="A7"/>
+<theme idref="A8"/>
+<clue>Cell-<linkTheme>to</linkTheme>-cell <clueType>contact</clueType> activates in vitro binding of the nuclear factor kappaB (NF-kappaB) p50/p65 heterodimer to an HIV-1 kappaB oligonucleotide.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="E13"/>
+<clue>Cell-to-cell contact <clueType>activates</clueType> in vitro binding of the nuclear factor kappaB (NF-kappaB) p50/p65 heterodimer to an HIV-1 kappaB oligonucleotide.</clue>
+</event>
+<sentence id="S6"><term id="T25" lex="cell-to-cell_contact" sem="Other"><term id="A9" sem="Cell_natural">Cell</term>-to-<term id="A10" sem="Cell_natural">cell</term> contact</term> activation of <term id="T26" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> was only partially inhibited by 100 microM <term id="T27" lex="pyrrolidine_dithiocarbamate" sem="Organic_compound_other">pyrrolidine dithiocarbamate</term> and was not correlated with a significant decrease of <term id="T28" lex="cellular_inhibitor_kappaB_alpha" sem="Protein_molecule">cellular inhibitor kappaB alpha</term>.</sentence>
+<event id="E15">
+<type class="Cell_communication"/>
+<theme idref="A9"/>
+<theme idref="A10"/>
+<clue>Cell-<linkTheme>to</linkTheme>-cell <clueType>contact</clueType> activation of NF-kappaB was only partially inhibited by 100 microM pyrrolidine dithiocarbamate and was not correlated with a significant decrease of cellular inhibitor kappaB alpha.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T26"/>
+<cause idref="E15"/>
+<clue>Cell-to-cell contact <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappaB was only partially inhibited by 100 microM pyrrolidine dithiocarbamate and was not correlated with a significant decrease of cellular inhibitor kappaB alpha.</clue>
+</event>
+<event Manner="Low" assertion="non-exist" id="E17">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<cause idref="T27"/>
+<clue>Cell-to-cell contact activation of NF-kappaB was only <clueManner>partially</clueManner> <clueType>inhibited</clueType> <linkTheme>by</linkTheme> 100 microM pyrrolidine dithiocarbamate and was not correlated with a significant decrease of cellular inhibitor kappaB alpha.</clue>
+</event>
+<event Manner="High" id="E18">
+<type class="Negative_regulation"/>
+<theme idref="T28"/>
+<clue>Cell-to-cell contact activation of NF-kappaB was only partially inhibited by 100 microM pyrrolidine dithiocarbamate and was not correlated with a <clueManner>significant</clueManner> <clueType>decrease</clueType> <linkTheme>of</linkTheme> cellular inhibitor kappaB alpha.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E19">
+<type class="Correlation"/>
+<theme idref="E16"/>
+<theme idref="E18"/>
+<clue>Cell-to-cell contact activation of NF-kappaB was only partially inhibited by 100 microM pyrrolidine dithiocarbamate and was <cluePolarity>not</cluePolarity> <clueType><clueKT>correlated</clueKT></clueType> <linkTheme>with</linkTheme> a significant decrease of cellular inhibitor kappaB alpha.</clue>
+</event>
+<sentence id="S7"><term id="T29" lex="NF-kappaB_nuclear_activation" sem="Other"><term id="T30" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> nuclear activation</term> was not detectable before 1 h after <term id="A11" sem="Cell_natural">cell</term> contact and was dependent on <term id="T31" lex="protein_synthesis" sem="Other">protein synthesis</term>.</sentence>
+<event id="E20">
+<type class="Cell_communication"/>
+<theme idref="A11"/>
+<clue>NF-kappaB nuclear activation was not detectable before 1 h after cell <clueType>contact</clueType> and was dependent on protein synthesis.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation"/>
+<theme idref="T30"/>
+<clue>NF-kappaB <clueLoc>nuclear</clueLoc> <clueType>activation</clueType> was not detectable before 1 h after cell contact and was dependent on protein synthesis.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="E20"/>
+<clue>NF-kappaB nuclear activation was <cluePolarity>not</cluePolarity> <clueType>detectable</clueType> <clueTime>before 1 h</clueTime> <linkCause>after</linkCause> cell contact and was dependent on protein synthesis.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="T31"/>
+<clue>NF-kappaB nuclear activation was not detectable before 1 h after cell contact and was <clueType>dependent</clueType> <linkCause>on</linkCause> protein synthesis.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

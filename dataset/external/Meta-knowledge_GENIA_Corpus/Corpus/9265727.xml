@@ -1,0 +1,94 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9265727" created="20/03/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9265727</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="transcription_factor" sem="Protein_family_or_group">Transcription factors</term> in <term id="T2" lex="immune-mediated_disease" sem="Other">immune-mediated disease</term>.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">A large amount of detailed information about the <term id="T3" lex="intracellular_protein" sem="Protein_family_or_group">intracellular proteins</term> regulating <term id="T4" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> activation and the <term id="A1" sem="Cell_natural">cellular</term> response to <term id="T5" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> activation has emerged recently.</sentence>
+<event KT="Other" id="E1">
+<type class="Positive_regulation"/>
+<theme idref="T4"/>
+<clue>A large amount of detailed information about the intracellular proteins regulating NF-kappa B <clueType>activation</clueType> and the cellular response to NF-kappa B activation has emerged recently.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E2">
+<type class="Regulation"/>
+<theme idref="E1"/>
+<cause idref="T3"/>
+<clue>A large amount of detailed <clueKT>information</clueKT> about the intracellular proteins <clueType>regulating</clueType> NF-kappa B activation and the cellular response to NF-kappa B activation has emerged <clueSource>recently</clueSource>.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="T5"/>
+<clue>A large amount of detailed information about the intracellular proteins regulating NF-kappa B activation and the cellular response to NF-kappa B <clueType>activation</clueType> has emerged recently.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Physiological_process"/>
+<theme idref="A1"/>
+<cause idref="E3"/>
+<clue>A large amount of detailed information about the intracellular proteins regulating NF-kappa B activation and the cellular <clueType>response</clueType> <linkCause>to</linkCause> NF-kappa B activation has emerged recently.</clue>
+</event>
+<sentence id="S3">Several <term id="A6" sem="Inorganic_compound">small molecules</term>, an <term id="T6" lex="antisense_oligonucleotide" sem="Polynucleotide">antisense oligonucleotide</term>, and <term id="A2" sem="Organic_compound_other">gene therapeutic agents</term> that inhibit <term id="T7" lex="NF-kappa_b_activation" sem="Other"><term id="T8" lex="NF-kappa_b" sem="Protein_complex">NF-kappa b</term> activation</term> have been described.</sentence>
+<event KT="Other" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="T8"/>
+<clue>Several small molecules, an antisense oligonucleotide, and gene therapeutic agents that inhibit NF-kappa b <clueType>activation</clueType> have been described.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E6">
+<type class="Negative_regulation"/>
+<theme idref="E5"/>
+<cause idref="A6"/>
+<clue>Several small molecules, an antisense oligonucleotide, and gene therapeutic agents that <clueType>inhibit</clueType> NF-kappa b activation <clueSource>have been</clueSource> <clueKT>described</clueKT>.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E14">
+<type class="Negative_regulation"/>
+<theme idref="E5"/>
+<cause idref="T6"/>
+<clue>Several small molecules, an antisense oligonucleotide, and gene therapeutic agents that <clueType>inhibit</clueType> NF-kappa b activation <clueSource>have been</clueSource> <clueKT>described</clueKT>.</clue>
+<comment>NER: T6 sem mod, DNA_family_or_group -&gt; Polynucleotide</comment></event>
+<event KT="Analysis" Source="Other" id="E15">
+<type class="Negative_regulation"/>
+<theme idref="E5"/>
+<cause idref="A2"/>
+<clue>Several small molecules, an antisense oligonucleotide, and gene therapeutic agents that <clueType>inhibit</clueType> NF-kappa b activation <clueSource>have been</clueSource> <clueKT>described</clueKT>.</clue>
+</event>
+<sentence id="S4">Despite this, there are still significant gaps in our understanding of this process and its consequences.</sentence>
+<sentence id="S5">In contrast, the characterization of <term id="T9" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term> selectively regulating <term id="A3" sem="Protein_family_or_group">cytokine</term> production by <term id="T10" lex="CD4+_T_cell_subset" sem="Cell_natural">CD4+ T cell subsets</term> is at a very early stage.</sentence>
+<event KT="Other" id="E7">
+<type class="Gene_expression"/>
+<theme idref="A3"/>
+<clue>In contrast, the characterization of transcription factors selectively regulating cytokine <clueType>production</clueType> <clueLoc>by CD4+ T cell subsets</clueLoc> is at a very early stage.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Regulation"/>
+<theme idref="E7"/>
+<cause idref="T9"/>
+<clue>In contrast, the characterization of transcription factors selectively <clueType>regulating</clueType> cytokine production by CD4+ T cell subsets is at a very early stage.</clue>
+</event>
+<sentence id="S6">Three <term id="T11" lex="interacting_protein" sem="Protein_family_or_group">interacting proteins</term> have recently been shown to contribute to subset-restricted expression of the <term id="T12" lex="IL-4_gene" sem="DNA_domain_or_region">IL-4 gene</term>.</sentence>
+<event KT="Other" id="E10">
+<type class="Gene_expression"/>
+<theme idref="T12"/>
+<clue>Three interacting proteins have recently been shown to contribute to subset-restricted <clueType>expression</clueType> <linkTheme>of</linkTheme> the IL-4 gene.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E11">
+<type class="Regulation"/>
+<theme idref="E10"/>
+<cause idref="T11"/>
+<clue>Three interacting proteins have <clueSource>recently</clueSource> been <clueKT>shown</clueKT> to <clueType>contribute</clueType> <linkTheme>to</linkTheme> subset-restricted expression of the IL-4 gene.</clue>
+</event>
+<sentence id="S7">There are other <term id="A4" sem="Protein_family_or_group">elements</term> regulating <term id="T13" lex="IL-4_gene_expression" sem="Other"><term id="T14" lex="IL-4_gene" sem="DNA_domain_or_region">IL-4 gene</term> expression</term>, however, and the relative importance of these recently identified proteins has yet to be determined.</sentence>
+<event KT="Other" id="E12">
+<type class="Gene_expression"/>
+<theme idref="T14"/>
+<clue>There are other elements regulating IL-4 gene <clueType>expression</clueType>, however, and the relative importance of these recently identified proteins has yet to be determined.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Regulation"/>
+<theme idref="E12"/>
+<cause idref="A4"/>
+<clue>There are other elements <clueType>regulating</clueType> IL-4 gene expression, however, and the relative importance of these recently identified proteins has yet to be determined.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

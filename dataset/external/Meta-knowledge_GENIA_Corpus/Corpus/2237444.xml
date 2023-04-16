@@ -1,0 +1,139 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2237444" created="11/04/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>2237444</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Regulation of <term id="T1" lex="gene_expression" sem="Other">gene expression</term> with <term id="T2" lex="double-stranded_phosphorothioate_oligonucleotide" sem="Polynucleotide">double-stranded phosphorothioate oligonucleotides</term>.</sentence>
+<event KT="Investigation" id="E1">
+<type class="Regulation"/>
+<theme idref="T1"/>
+<cause idref="T2"/>
+<clue><clueType>Regulation</clueType> <linkTheme>of</linkTheme> gene expression <linkCause>with</linkCause> double-stranded phosphorothioate oligonucleotides.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Alteration of <term id="T3" lex="gene_transcription" sem="Other">gene transcription</term> by inhibition of specific <term id="T4" lex="transcriptional_regulatory_protein" sem="Protein_family_or_group">transcriptional regulatory proteins</term> is necessary for determining how these factors participate in <term id="T5" lex="cellular_differentiation" sem="Other">cellular differentiation</term>.</sentence>
+<event KT="Other" id="E2">
+<type class="Negative_regulation"/>
+<theme idref="T4"/>
+<clue>Alteration of gene transcription by <clueType>inhibition</clueType> <linkTheme>of</linkTheme> specific transcriptional regulatory proteins is necessary for determining how these factors participate in cellular differentiation.</clue>
+</event>
+<event KT="Fact" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="T3"/>
+<cause idref="E2"/>
+<clue><clueType>Alteration</clueType> <linkTheme>of</linkTheme> gene transcription <linkCause>by</linkCause> inhibition of specific transcriptional regulatory proteins is necessary for determining how these factors participate in cellular differentiation.</clue>
+</event>
+<event KT="Investigation" id="E4" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="T5"/>
+<cause idref="T4"/>
+<clue>Alteration of gene transcription by inhibition of specific transcriptional regulatory proteins is necessary for <clueKT>determining</clueKT> how <corefCause>these factors</corefCause> <clueType>participate</clueType> <linkTheme>in</linkTheme> cellular differentiation.</clue>
+</event>
+<sentence id="S3">The functions of these proteins can be antagonized by several methods, each with specific limitations.</sentence>
+<sentence id="S4">Inhibition of <term id="T6" lex="sequence-specific_DNA-binding_protein" sem="Protein_family_or_group">sequence-specific DNA-binding proteins</term> was achieved with <term id="T7" lex="double-stranded_(ds)_phosphorothioate_oligonucleotide" sem="Polynucleotide">double-stranded (ds) phosphorothioate oligonucleotides</term> that contained <cons id="T8" lex="(OR octamer_consensus_sequence kappa_B_consensus_sequence)" sem="(OR DNA_family_or_group DNA_family_or_group)"><frag id="F1">octamer</frag> or <frag id="F2">kappa B</frag> <frag id="F3">consensus sequences</frag></cons>.</sentence>
+<event id="E5">
+<type class="Negative_regulation"/>
+<theme idref="T6"/>
+<cause idref="T7"/>
+<clue><clueType>Inhibition</clueType> <linkTheme>of</linkTheme> sequence-specific DNA-binding proteins was achieved <linkCause>with</linkCause> double-stranded (ds) phosphorothioate oligonucleotides that contained octamer or kappa B consensus sequences.</clue>
+</event>
+<sentence id="S5">The <term id="T9" lex="phosphorothioate_oligonucleotide" sem="Polynucleotide">phosphorothioate oligonucleotides</term> specifically bound either <term id="T10" lex="octamer_transcription_factor" sem="Protein_family_or_group">octamer transcription factor</term> or <term id="T11" lex="nuclear_factor_(NF)-kappa_B" sem="Protein_molecule">nuclear factor (NF)-kappa B</term>.</sentence>
+<event id="E6">
+<type class="Binding"/>
+<theme idref="T9"/>
+<theme idref="T10"/>
+<clue>The phosphorothioate oligonucleotides specifically <clueType>bound</clueType> either octamer transcription factor or nuclear factor (NF)-kappa B.</clue>
+</event>
+<event id="E7">
+<type class="Binding"/>
+<theme idref="T9"/>
+<theme idref="T11"/>
+<clue>The phosphorothioate oligonucleotides specifically <clueType>bound</clueType> either octamer transcription factor or nuclear factor (NF)-kappa B.</clue>
+</event>
+<sentence id="S6">The <term id="T12" lex="modified_oligonucleotide" sem="Polynucleotide">modified oligonucleotides</term> accumulated in cells more effectively than <term id="T13" lex="standard_ds_oligonucleotide" sem="Polynucleotide">standard ds oligonucleotides</term> and modulated <term id="T14" lex="gene_expression" sem="Other">gene expression</term> in a specific manner.</sentence>
+<event id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T12"/>
+<clue>The modified oligonucleotides <clueType>accumulated</clueType> <clueLoc>in cells</clueLoc> more effectively than standard ds oligonucleotides and modulated gene expression in a specific manner.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation"/>
+<theme idref="T13"/>
+<clue>The modified oligonucleotides <clueType>accumulated</clueType> <clueLoc>in cells</clueLoc> more effectively than standard ds oligonucleotides and modulated gene expression in a specific manner.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation"/>
+<theme idref="T14"/>
+<cause idref="E8"/>
+<clue>The modified oligonucleotides accumulated in cells more effectively than standard ds oligonucleotides and <clueType>modulated</clueType> gene expression in a specific manner.</clue>
+</event>
+<sentence id="S7"><term id="T15" lex="octamer-dependent_activation" sem="Other"><term id="A1" sem="Protein_molecule">Octamer</term>-dependent activation</term> of a <term id="T16" lex="reporter_plasmid" sem="DNA_molecule">reporter plasmid</term> or <term id="T17" lex="NF-kappa_B-dependent_activation" sem="Other"><term id="T18" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>-dependent activation</term> of the <term id="T19" lex="human_immunodeficiency_virus_(HIV)_enhancer" sem="DNA_domain_or_region"><term id="T20" lex="human_immunodeficiency_virus" sem="Virus">human immunodeficiency virus</term> (<term id="T21" lex="HIV" sem="Virus">HIV</term>) enhancer</term> was inhibited when the appropriate <term id="T22" lex="phosphorothioate_oligonucleotide" sem="Polynucleotide">phosphorothioate oligonucleotide</term> was added to a <term id="T23" lex="transiently_transfected_B_cell_line" sem="Cell_cultured">transiently transfected <term id="A2" sem="Cell_cultured">B cell line</term></term>.</sentence>
+<event KT="Other" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="T16"/>
+<cause idref="A1"/>
+<clue>Octamer<linkCause>-dependent</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> a reporter plasmid or NF-kappa B-dependent activation of the human immunodeficiency virus (HIV) enhancer was inhibited when the appropriate phosphorothioate oligonucleotide was added to a transiently transfected B cell line.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T19"/>
+<cause idref="T18"/>
+<clue>Octamer-dependent activation of a reporter plasmid or NF-kappa B<linkCause>-dependent</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> the human immunodeficiency virus (HIV) enhancer was inhibited when the appropriate phosphorothioate oligonucleotide was added to a transiently transfected B cell line.</clue>
+</event>
+<event KT="Method" id="E16">
+<type class="Artificial_process"/>
+<theme idref="T16"/>
+<theme idref="A2"/>
+<clue>Octamer-dependent activation of a reporter plasmid or NF-kappa B-dependent activation of the human immunodeficiency virus (HIV) enhancer was inhibited when the appropriate phosphorothioate oligonucleotide was added to a <clueType>transiently transfected</clueType> B cell line.</clue>
+</event>
+<event KT="Method" id="E12">
+<type class="Artificial_process"/>
+<theme idref="T19"/>
+<theme idref="A2"/>
+<clue>Octamer-dependent activation of a reporter plasmid or NF-kappa B-dependent activation of the human immunodeficiency virus (HIV) enhancer was inhibited when the appropriate phosphorothioate oligonucleotide was added to a <clueType>transiently transfected</clueType> B cell line.</clue>
+</event>
+<event id="E17">
+<type class="Negative_regulation"/>
+<theme idref="E11"/>
+<cause idref="T22"/>
+<clue>Octamer-dependent activation of a reporter plasmid or NF-kappa B-dependent activation of the human immunodeficiency virus (HIV) enhancer was <clueType>inhibited</clueType> <linkCause>when</linkCause> the appropriate phosphorothioate oligonucleotide was added to a <clueLoc>transiently transfected B cell line</clueLoc>.</clue>
+</event>
+<event id="E18">
+<type class="Negative_regulation"/>
+<theme idref="E13"/>
+<cause idref="T22"/>
+<clue>Octamer-dependent activation of a reporter plasmid or NF-kappa B-dependent activation of the human immunodeficiency virus (HIV) enhancer was <clueType>inhibited</clueType> <linkCause>when</linkCause> the appropriate phosphorothioate oligonucleotide was added to a <clueLoc>transiently transfected B cell line</clueLoc>.</clue>
+</event>
+<sentence id="S8">Addition of <term id="A5" sem="Polynucleotide"><term id="T24" lex="phosphorothioate_oligonucleotide" sem="Polynucleotide">phosphorothioate oligonucleotides</term> that contained the <term id="T25" lex="octamer_consensus" sem="DNA_domain_or_region">octamer consensus</term></term> to <term id="T26" lex="Jurkat_T_leukemia_cell" sem="Cell_cultured">Jurkat T leukemia cells</term> inhibited <term id="T27" lex="interleukin-2_(IL-2)_secretion" sem="Other"><term id="T28" lex="interleukin-2" sem="Protein_molecule">interleukin-2</term> (<term id="T29" lex="IL-2" sem="Protein_molecule">IL-2</term>) secretion</term> to a degree similar to that observed with a <term id="A3" sem="DNA_domain_or_region"><term id="T30" lex="mutated_octamer_site" sem="DNA_domain_or_region">mutated octamer site</term> in the <term id="T31" lex="IL-2_enhancer" sem="DNA_domain_or_region">IL-2 enhancer</term></term>.</sentence>
+<event KT="Other" id="E20">
+<type class="Localization"/>
+<theme idref="T29"/>
+<clue>Addition of phosphorothioate oligonucleotides that contained the octamer consensus to Jurkat T leukemia cells inhibited interleukin-2 (IL-2) <clueType>secretion</clueType> to a degree similar to that observed with a mutated octamer site in the IL-2 enhancer.</clue>
+</event>
+<event id="E21">
+<type class="Negative_regulation"/>
+<theme idref="E20"/>
+<cause idref="A5"/>
+<clue>Addition of phosphorothioate oligonucleotides that contained the octamer consensus to <clueLoc>Jurkat T leukemia cells</clueLoc> <clueType>inhibited</clueType> interleukin-2 (IL-2) secretion to a degree similar to that observed with a mutated octamer site in the IL-2 enhancer.</clue>
+<comment>TPS: A5</comment></event>
+<event id="E22">
+<type class="Negative_regulation"/>
+<theme idref="E20"/>
+<cause idref="A3"/>
+<clue>Addition of phosphorothioate oligonucleotides that contained the octamer consensus to Jurkat T leukemia cells <clueType>inhibited</clueType> interleukin-2 (IL-2) secretion to a degree similar to that <clueKT>observed</clueKT> <linkCause>with</linkCause> a mutated octamer site in the IL-2 enhancer.</clue>
+<comment>TPS: A3</comment></event>
+<sentence id="S9">The ds <term id="T32" lex="phosphorothioate_oligonucleotide" sem="Polynucleotide">phosphorothioate oligonucleotides</term> probably compete for binding of specific <term id="A4" sem="Protein_family_or_group">transcription factors</term> and may provide <term id="T33" lex="anti-viral_effect" sem="Other">anti-viral</term>, <term id="T34" lex="immunosuppressive_efect" sem="Other">immunosuppressive</term>, or other <term id="T35" lex="therapeutic_effect" sem="Other">therapeutic effects</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E23" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="T32"/>
+<theme idref="E24"/>
+<clue>The ds phosphorothioate oligonucleotides <clueKT><clueCL>probably</clueCL></clueKT> <clueType>compete</clueType> <linkTheme>for</linkTheme> binding of specific transcription factors and may provide anti-viral, immunosuppressive, or other therapeutic effects.</clue>
+</event>
+<event KT="Other" id="E24">
+<type class="Binding"/>
+<theme idref="A4"/>
+<clue>The ds phosphorothioate oligonucleotides probably compete for <clueType>binding</clueType> <linkTheme>of</linkTheme> specific transcription factors and may provide anti-viral, immunosuppressive, or other therapeutic effects.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

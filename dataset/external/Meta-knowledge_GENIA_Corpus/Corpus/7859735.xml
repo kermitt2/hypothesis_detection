@@ -1,0 +1,228 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7859735" created="26/01/2007" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7859735</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="glucocorticoid-induced_apoptosis" sem="Other"><term id="T2" lex="glucocorticoid" sem="Lipid">Glucocorticoid</term>-induced apoptosis</term> of <term id="T3" lex="human_leukemic_cell" sem="Cell_natural">human leukemic cells</term> is caused by the repressive function of the <term id="T4" lex="glucocorticoid_receptor" sem="Protein_family_or_group">glucocorticoid receptor</term>.</sentence>
+<event id="E1">
+<type class="Cellular_physiological_process"/>
+<theme idref="T3"/>
+<clue>Glucocorticoid-induced <clueType>apoptosis</clueType> <linkTheme>of</linkTheme> human leukemic cells is caused by the repressive function of the glucocorticoid receptor.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T2"/>
+<clue>Glucocorticoid-<clueType>induced</clueType> apoptosis of human leukemic cells is caused by the repressive function of the glucocorticoid receptor.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="E4"/>
+<clue>Glucocorticoid-induced apoptosis of human leukemic cells is <clueType>caused</clueType> <linkCause>by</linkCause> the repressive function of the glucocorticoid receptor.</clue>
+</event>
+<event id="E4">
+<type class="Negative_regulation"/>
+<cause idref="T4"/>
+<clue>Glucocorticoid-induced apoptosis of human leukemic cells is caused by the <clueType>repressive function</clueType> <linkCause>of</linkCause> the glucocorticoid receptor.</clue>
+<comment>NO THEME</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Induction of <term id="T5" lex="apoptosis" sem="Other">apoptosis</term> in <term id="T6" lex="lymphocyte" sem="Cell_natural">lymphocytes</term>, which may account for the therapeutic effects of <term id="T7" lex="glucocorticoid" sem="Lipid">glucocorticoids</term> in various diseases including <term id="T8" lex="leukemia" sem="Other">leukemia</term>, depends on the <term id="T9" lex="glucocorticoid_receptor" sem="Protein_family_or_group">glucocorticoid receptor</term>.</sentence>
+<event id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<clue><clueType>Induction</clueType> <linkTheme>of</linkTheme> apoptosis in lymphocytes, which may account for the therapeutic effects of glucocorticoids in various diseases including leukemia, depends on the glucocorticoid receptor.</clue>
+</event>
+<event id="E6">
+<type class="Cellular_physiological_process"/>
+<theme idref="T6"/>
+<clue>Induction of <clueType>apoptosis</clueType> <linkTheme>in</linkTheme> lymphocytes, which may account for the therapeutic effects of glucocorticoids in various diseases including leukemia, depends on the glucocorticoid receptor.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Regulation"/>
+<theme idref="T8"/>
+<cause idref="T7"/>
+<clue>Induction of apoptosis in lymphocytes, which may account for the therapeutic <clueType>effects</clueType> <linkCause>of</linkCause> glucocorticoids <linkTheme>in</linkTheme> <corefTheme>various diseases</corefTheme> including leukemia, depends on the glucocorticoid receptor.</clue>
+</event>
+<event id="E8">
+<type class="Regulation"/>
+<theme idref="E5"/>
+<cause idref="T9"/>
+<clue>Induction of apoptosis in lymphocytes, which may account for the therapeutic effects of glucocorticoids in various diseases including leukemia, <clueType>depends</clueType> <linkCause>on</linkCause> the glucocorticoid receptor.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E9" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="E5"/>
+<clue>Induction of apoptosis in lymphocytes, which <clueKT><clueCL>may</clueCL></clueKT> <clueType>account</clueType> <linkTheme>for</linkTheme> the therapeutic effects of glucocorticoids in various diseases including leukemia, depends on the glucocorticoid receptor.</clue>
+</event>
+<sentence id="S3">However, the events leading from the activated receptor to <term id="T10" lex="cell_lysis" sem="Other">cell lysis</term> are not understood.</sentence>
+<event KT="Other" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="T9"/>
+<clue>However, the events leading from the <clueType>activated</clueType> <corefTheme>receptor</corefTheme> to cell lysis are not understood.</clue>
+</event>
+<event KT="Other" id="E37" uncertainty="doubtful">
+<type class="Cell_communication"/>
+<theme idref="E10"/>
+<clue>However, the events <clueType>leading</clueType> <linkTheme>from</linkTheme> the activated receptor to cell lysis are not understood.</clue>
+</event>
+<event KT="Other" id="E38" uncertainty="doubtful">
+<type class="Cell_communication"/>
+<theme idref="E11"/>
+<clue>However, the events <clueType>leading</clueType> from the activated receptor <linkTheme>to</linkTheme> cell lysis are not understood.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Cellular_physiological_process"/>
+<theme idref="T6"/>
+<clue>However, the events leading from the activated receptor to <corefTheme>cell</corefTheme> <clueType>lysis</clueType> are not understood.</clue>
+</event>
+<sentence id="S4">A prevailing hypothesis postulates induction of so-called &apos;<term id="T11" lex="lysis_gene" sem="DNA_family_or_group">lysis genes</term>&apos; by the <term id="T12" lex="activated_receptor" sem="Protein_family_or_group">activated receptor</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="T11"/>
+<cause idref="E13"/>
+<clue>A prevailing <clueCL>hypothesis</clueCL> <clueKT>postulates</clueKT> <clueType>induction</clueType> <linkTheme>of</linkTheme> so-called &apos;lysis genes&apos; <linkCause>by</linkCause> the activated receptor.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T9"/>
+<clue>A prevailing hypothesis postulates induction of so-called &apos;lysis genes&apos; by the <clueType>activated</clueType> <corefTheme>receptor</corefTheme>.</clue>
+</event>
+<sentence id="S5">In this study, we show that an <term id="T13" lex="activation-deficient_glucocorticoid_receptor_mutant" sem="Protein_molecule">activation-deficient <term id="T14" lex="glucocorticoid_receptor" sem="Protein_family_or_group">glucocorticoid receptor</term> mutant</term> is as effective as the <term id="T15" lex="wild-type_receptor" sem="Protein_family_or_group"><term id="A3" sem="Protein_family_or_group">wild-type</term> receptor</term> in repression of <term id="T16" lex="AP-1_activity" sem="Other"><term id="T17" lex="AP-1" sem="Protein_molecule">AP-1</term> activity</term>, inhibition of <term id="T18" lex="interleukin-2_production" sem="Other"><term id="T19" lex="interleukin-2" sem="Protein_molecule">interleukin-2</term> production</term>, inhibition of <term id="T20" lex="c-myc_expression" sem="Other"><term id="T21" lex="c-myc" sem="DNA_domain_or_region">c-myc</term> expression</term> and induction of <term id="T22" lex="apoptosis" sem="Other">apoptosis</term>.</sentence>
+<event KT="Other" id="E14">
+<type class="Negative_regulation"/>
+<theme idref="T17"/>
+<cause idref="T13"/>
+<clue>In this study, we show that an activation-deficient glucocorticoid receptor mutant is as effective as the wild-type receptor in <clueType>repression</clueType> <linkTheme>of</linkTheme> AP-1 activity, inhibition of interleukin-2 production, inhibition of c-myc expression and induction of apoptosis.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Negative_regulation"/>
+<theme idref="T17"/>
+<cause idref="A3" idref1="T14"/>
+<clue>In this study, we show that an activation-deficient glucocorticoid receptor mutant is as effective as the wild-type <corefCause>receptor</corefCause> in <clueType>repression</clueType> <linkTheme>of</linkTheme> AP-1 activity, inhibition of interleukin-2 production, inhibition of c-myc expression and induction of apoptosis.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<cause idref="T13"/>
+<clue>In this study, we show that an activation-deficient glucocorticoid receptor mutant is as effective as the wild-type receptor in repression of AP-1 activity, <clueType>inhibition</clueType> <linkTheme>of</linkTheme> interleukin-2 production, inhibition of c-myc expression and induction of apoptosis.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<cause idref="A3" idref1="T14"/>
+<clue>In this study, we show that an activation-deficient glucocorticoid receptor mutant is as effective as the wild-type receptor in repression of AP-1 activity, <clueType>inhibition</clueType> <linkTheme>of</linkTheme> interleukin-2 production, inhibition of c-myc expression and induction of apoptosis.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Gene_expression"/>
+<theme idref="T19"/>
+<clue>In this study, we show that an activation-deficient glucocorticoid receptor mutant is as effective as the wild-type receptor in repression of AP-1 activity, inhibition of interleukin-2 <clueType>production</clueType>, inhibition of c-myc expression and induction of apoptosis.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Negative_regulation"/>
+<theme idref="E18"/>
+<cause idref="T13"/>
+<clue>In this study, we show that an activation-deficient glucocorticoid receptor mutant is as effective as the wild-type receptor in repression of AP-1 activity, inhibition of interleukin-2 production, <clueType>inhibition</clueType> <linkTheme>of</linkTheme> c-myc expression and induction of apoptosis.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Negative_regulation"/>
+<theme idref="E18"/>
+<cause idref="A3" idref1="T14"/>
+<clue>In this study, we show that an activation-deficient glucocorticoid receptor mutant is as effective as the wild-type receptor in repression of AP-1 activity, inhibition of interleukin-2 production, <clueType>inhibition</clueType> <linkTheme>of</linkTheme> c-myc expression and induction of apoptosis.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Gene_expression"/>
+<theme idref="T21"/>
+<clue>In this study, we show that an activation-deficient glucocorticoid receptor mutant is as effective as the wild-type receptor in repression of AP-1 activity, inhibition of interleukin-2 production, inhibition of c-myc <clueType>expression</clueType> and induction of apoptosis.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="T22"/>
+<cause idref="T13"/>
+<clue>In this study, we show that an activation-deficient glucocorticoid receptor mutant is as effective as the wild-type receptor in repression of AP-1 activity, inhibition of interleukin-2 production, inhibition of c-myc expression and <clueType>induction</clueType> <linkTheme>of</linkTheme> apoptosis.</clue>
+</event>
+<event KT="Other" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="T22"/>
+<cause idref="A3" idref1="T14"/>
+<clue>In this study, we show that an activation-deficient glucocorticoid receptor mutant is as effective as the wild-type receptor in repression of AP-1 activity, inhibition of interleukin-2 production, inhibition of c-myc expression and <clueType>induction</clueType> <linkTheme>of</linkTheme> apoptosis.</clue>
+</event>
+<sentence id="S6">Furthermore, we show that <term id="A1" sem="Organic_compound_other">retinoic acid</term> can also induce <term id="T23" lex="apoptosis" sem="Other">apoptosis</term> in these cells through the <term id="T24" lex="retinoic_acid_receptor" sem="Protein_family_or_group">retinoic acid receptor</term>, whose repressive functions but not target site specificity, are similar to those of the <term id="T25" lex="glucocorticoid_receptor" sem="Protein_family_or_group">glucocorticoid receptor</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E25"/>
+<cause idref="E26"/>
+<clue>Furthermore, we <clueKT>show</clueKT> that retinoic acid <clueCL>can</clueCL> also <clueType>induce</clueType> apoptosis in these cells through the retinoic acid receptor, whose repressive functions but not target site specificity, are similar to those of the glucocorticoid receptor.</clue>
+</event>
+<event KT="Other" id="E25">
+<type class="Cellular_physiological_process"/>
+<theme idref="T6"/>
+<clue>Furthermore, we show that retinoic acid can also induce <clueType>apoptosis</clueType> <linkTheme>in</linkTheme> <corefTheme>these cells</corefTheme> through the retinoic acid receptor, whose repressive functions but not target site specificity, are similar to those of the glucocorticoid receptor.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Binding"/>
+<theme idref="A1"/>
+<theme idref="T24"/>
+<clue>Furthermore, we show that retinoic acid can also induce apoptosis in these cells <linkTheme>through</linkTheme> the retinoic acid receptor, whose repressive functions but not target site specificity, are similar to those of the glucocorticoid receptor.</clue>
+</event>
+<event KT="Other" id="E27">
+<type class="Negative_regulation"/>
+<cause idref="T24"/>
+<clue>Furthermore, we show that retinoic acid can also induce apoptosis in these cells through the retinoic acid receptor, <corefCause>whose</corefCause> <clueType>repressive functions</clueType> but not target site specificity, are similar to those of the glucocorticoid receptor.</clue>
+<comment>NO THEME</comment></event>
+<sentence id="S7">Therefore, the primary effect of the receptor in <term id="T26" lex="glucocorticoid-mediated_apoptosis" sem="Other"><term id="T27" lex="glucocorticoid" sem="Lipid">glucocorticoid</term>-mediated <term id="T28" lex="apoptosis" sem="Other">apoptosis</term></term> correlates with <term id="A2" sem="Other">transcriptional</term> repression rather than activation and could be mediated by interference with other <term id="T29" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term> required for <term id="T30" lex="cell_survival" sem="Other">cell survival</term>.</sentence>
+<event KT="Other" id="E28">
+<type class="Regulation"/>
+<theme idref="E29"/>
+<cause idref="T25"/>
+<clue>Therefore, the primary <clueType>effect</clueType> <linkCause>of</linkCause> <corefCause>the receptor</corefCause> <linkTheme>in</linkTheme> glucocorticoid-mediated apoptosis correlates with transcriptional repression rather than activation and could be mediated by interference with other transcription factors required for cell survival.</clue>
+</event>
+<event KT="Other" id="E29">
+<type class="Positive_regulation"/>
+<theme idref="T28"/>
+<cause idref="T27"/>
+<clue>Therefore, the primary effect of the receptor in glucocorticoid-<clueType>mediated</clueType> apoptosis correlates with transcriptional repression rather than activation and could be mediated by interference with other transcription factors required for cell survival.</clue>
+</event>
+<event KT="Analysis" id="E30">
+<type class="Correlation"/>
+<theme idref="E28"/>
+<theme idref="E31"/>
+<clue><clueKT>Therefore</clueKT>, the primary effect of the receptor in glucocorticoid-mediated apoptosis <clueType><clueKT>correlates</clueKT></clueType> <linkTheme>with</linkTheme> transcriptional repression rather than activation and could be mediated by interference with other transcription factors required for cell survival.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E36">
+<type class="Correlation"/>
+<theme idref="E28"/>
+<theme idref="E32"/>
+<clue><clueKT>Therefore</clueKT>, the primary effect of the receptor in glucocorticoid-mediated apoptosis <clueType><clueKT>correlates</clueKT></clueType> <linkTheme>with</linkTheme> transcriptional repression <clueType><cluePolarity>rather than</cluePolarity></clueType> activation and could be mediated by interference with other transcription factors required for cell survival.</clue>
+</event>
+<event KT="Other" id="E31">
+<type class="Negative_regulation"/>
+<theme idref="A2"/>
+<clue>Therefore, the primary effect of the receptor in glucocorticoid-mediated apoptosis correlates with transcriptional <clueType>repression</clueType> rather than activation and could be mediated by interference with other transcription factors required for cell survival.</clue>
+</event>
+<event KT="Other" id="E32">
+<type class="Positive_regulation"/>
+<theme idref="A2"/>
+<clue>Therefore, the primary effect of the receptor in glucocorticoid-mediated apoptosis correlates with transcriptional repression rather than <clueType>activation</clueType> and could be mediated by interference with other transcription factors required for cell survival.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E28"/>
+<cause idref="E34"/>
+<clue><clueKT>Therefore</clueKT>, the primary effect of the receptor in glucocorticoid-mediated apoptosis correlates with transcriptional repression rather than activation and <clueCL>could</clueCL> be <clueType>mediated</clueType> <linkCause>by</linkCause> interference with other transcription factors required for cell survival.</clue>
+</event>
+<event KT="Other" id="E34">
+<type class="Negative_regulation"/>
+<theme idref="T29"/>
+<clue>Therefore, the primary effect of the receptor in glucocorticoid-mediated apoptosis correlates with transcriptional repression rather than activation and could be mediated by <clueType>interference</clueType> <linkTheme>with</linkTheme> other transcription factors required for cell survival.</clue>
+</event>
+<event KT="Other" id="E35">
+<type class="Positive_regulation"/>
+<theme idref="T30"/>
+<cause idref="T29"/>
+<clue>Therefore, the primary effect of the receptor in glucocorticoid-mediated apoptosis correlates with transcriptional repression rather than activation and could be mediated by interference with other transcription factors <clueType>required</clueType> <linkTheme>for</linkTheme> cell survival.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

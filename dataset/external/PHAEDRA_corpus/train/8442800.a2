@@ -1,0 +1,11 @@
+T11	Potential_therapeutic_effect 88 92	used
+T20	Potential_therapeutic_effect 388 395	treated
+T21	Adverse_effect 354 363	described
+R1	Subject_Disorder Arg1:T5 Arg2:T4
+E1	Potential_therapeutic_effect:T11 affects:T4 has_agent:T2
+E4	Potential_therapeutic_effect:T20 has_agent:T6 has_subject:T19
+E5	Adverse_effect:T21 has_subject:T19 has_agent:T6 affects:T3
+T14	Adverse_effect 913 927	poor prognosis
+E2	Adverse_effect:T14 has_subject:T26 has_agent:T10 has_cue:T15 has_cue2:T16
+A1	Speculated E2
+A2	Negated E2

@@ -1,0 +1,12 @@
+T15	DDI 9 20	interaction
+T25	Adverse_effect 831 840	resulting
+T29	Potential_therapeutic_effect 267 276	commenced
+T32	Adverse_effect 369 378	presented
+R1	is_equivalent Arg1:T16 Arg2:T4
+R3	Coreference Arg1:T30 Arg2:T17
+E1	DDI:T15 has_participant:T1 has_participant:T2 has_cue:T19
+E7	Combination:T31 has_participant:T5 has_participant:T20
+E5	Adverse_effect:T25 affects:T10 has_agent:T11
+E6	Potential_therapeutic_effect:T29 has_subject:T30 has_agent:E7
+E8	Adverse_effect:T32 affects:T6 has_agent:E7
+A1	Speculated E1

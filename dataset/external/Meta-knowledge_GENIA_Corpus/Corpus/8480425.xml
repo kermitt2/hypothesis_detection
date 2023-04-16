@@ -1,0 +1,171 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8480425" created="02/11/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8480425</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="HIV-1_Nef_protein" sem="Protein_molecule"><term id="A1" sem="Virus">HIV-1</term> Nef protein</term> inhibits the recruitment of <term id="T2" lex="AP-1_DNA-binding_activity" sem="Other"><term id="T3" lex="AP-1" sem="Protein_molecule">AP-1</term> <term id="A2" sem="DNA_domain_or_region">DNA</term>-binding activity</term> in <term id="T4" lex="human_T-cell" sem="Cell_natural">human T-cells</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Binding"/>
+<theme idref="T3"/>
+<theme idref="A2"/>
+<clue>HIV-1 Nef protein inhibits the recruitment of AP-1 DNA-<clueType>binding activity</clueType> in human T-cells.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<clue>HIV-1 Nef protein inhibits the <clueType>recruitment</clueType> <linkTheme>of</linkTheme> AP-1 DNA-binding activity in human T-cells.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation"/>
+<theme idref="E2"/>
+<cause idref="T1"/>
+<clue>HIV-1 Nef protein <clueType>inhibits</clueType> the recruitment of AP-1 DNA-binding activity <clueLoc>in human T-cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T5" lex="human_immunodeficiency_virus_type_1_long_terminal_repeat" sem="DNA_domain_or_region"><term id="T6" lex="human_immunodeficiency_virus_type_1" sem="Virus">human immunodeficiency virus type 1</term> long terminal repeat</term>, <term id="T7" lex="HIV-1-LTR" sem="DNA_domain_or_region">HIV-1-LTR</term>, contains <term id="A4" sem="DNA_domain_or_region">binding sites for several <term id="A3" sem="Protein_family_or_group">cellular transcription factors</term></term> which contribute to <term id="T8" lex="HIV-1_gene_expression" sem="Other"><term id="T9" lex="HIV-1_gene" sem="DNA_molecule">HIV-1 gene</term> expression</term>.</sentence>
+<event KT="Other" id="E4">
+<type class="Gene_expression"/>
+<theme idref="T9"/>
+<clue>The human immunodeficiency virus type 1 long terminal repeat, HIV-1-LTR, contains binding sites for several cellular transcription factors which contribute to HIV-1 gene <clueType>expression</clueType>.</clue>
+<comment>TPS A4</comment></event>
+<event KT="Other" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="A3"/>
+<clue>The human immunodeficiency virus type 1 long terminal repeat, HIV-1-LTR, contains binding sites for several cellular transcription factors which <clueType>contribute</clueType> <linkTheme>to</linkTheme> HIV-1 gene expression.</clue>
+</event>
+<sentence id="S3">Our previous studies on the function of the <term id="T10" lex="HIV-1-encoded_Nef_protein" sem="Protein_molecule"><term id="A6" sem="Virus">HIV-1</term>-encoded Nef protein</term> suggested that <term id="T11" lex="Nef" sem="Protein_family_or_group">Nef</term> may be an inhibitor <term id="T12" lex="HIV-1_transcription" sem="Other"><term id="A7" sem="Virus">HIV-1</term> transcription</term>.</sentence>
+<event KT="Other" id="E6">
+<type class="Transcription"/>
+<theme idref="A7"/>
+<clue>Our previous studies on the function of the HIV-1-encoded Nef protein suggested that Nef may be an inhibitor HIV-1 <clueType>transcription</clueType>.</clue>
+</event>
+<event CL="L1" KT="Analysis" Source="Other" id="E7" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="E6"/>
+<cause idref="T11"/>
+<clue><clueSource>Our previous studies</clueSource> on the function of the HIV-1-encoded Nef protein <clueKT>suggested</clueKT> that Nef <clueCL>may</clueCL> be an <clueType>inhibitor</clueType> HIV-1 transcription.</clue>
+</event>
+<sentence id="S4">To determine whether <term id="T13" lex="Nef" sem="Protein_family_or_group">Nef</term> affects the binding of <term id="T14" lex="cellular_factor" sem="Protein_family_or_group">cellular factors</term> implicated in <term id="T15" lex="HIV-1_regulation" sem="Other"><term id="A8" sem="Virus">HIV-1</term> regulation</term>, <term id="T16" lex="32P-labeled_oligonucleotide" sem="Polynucleotide">32P-labeled oligonucleotides</term> corresponding to the binding sites were incubated with <term id="T17" lex="nuclear_extract" sem="Cell_component">nuclear extracts</term> prepared from <term id="T18" lex="Nef-expressing_T-cell_line" sem="Cell_cultured"><term id="A9" sem="Protein_molecule">Nef</term>-expressing <term id="A10" sem="Cell_cultured">T-cell lines</term></term> that were not stimulated or were stimulated with <term id="T19" lex="T-cell_mitogen" sem="Protein_family_or_group"><term id="A11" sem="Cell_natural">T-cell</term> mitogens</term>.</sentence>
+<event KT="Other" id="E8">
+<type class="Binding"/>
+<theme idref="T14"/>
+<clue>To determine whether Nef affects the <clueType>binding</clueType> <linkTheme>of</linkTheme> cellular factors implicated in HIV-1 regulation, 32P-labeled oligonucleotides corresponding to the binding sites were incubated with nuclear extracts prepared from Nef-expressing T-cell lines that were not stimulated or were stimulated with T-cell mitogens.</clue>
+</event>
+<event KT="Investigation" id="E9" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E8"/>
+<cause idref="T13"/>
+<clue><clueKT>To determine</clueKT> whether Nef <clueType>affects</clueType> the binding of cellular factors implicated in HIV-1 regulation, 32P-labeled oligonucleotides corresponding to the binding sites were incubated with nuclear extracts prepared from Nef-expressing T-cell lines that were not stimulated or were stimulated with T-cell mitogens.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Regulation"/>
+<theme idref="A8"/>
+<clue>To determine whether Nef affects the binding of cellular factors implicated in HIV-1 <clueType>regulation</clueType>, 32P-labeled oligonucleotides corresponding to the binding sites were incubated with nuclear extracts prepared from Nef-expressing T-cell lines that were not stimulated or were stimulated with T-cell mitogens.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E11">
+<type class="Regulation"/>
+<theme idref="E10"/>
+<cause idref="T14"/>
+<clue>To determine whether Nef affects the binding of cellular factors <clueType><clueKT><clueCL>implicated</clueCL></clueKT></clueType> <linkTheme>in</linkTheme> HIV-1 regulation, 32P-labeled oligonucleotides corresponding to the binding sites were incubated with nuclear extracts prepared from Nef-expressing T-cell lines that were not stimulated or were stimulated with T-cell mitogens.</clue>
+</event>
+<event id="E12">
+<type class="Gene_expression"/>
+<theme idref="A9"/>
+<clue>To determine whether Nef affects the binding of cellular factors implicated in HIV-1 regulation, 32P-labeled oligonucleotides corresponding to the binding sites were incubated with nuclear extracts prepared from Nef-<clueType>expressing</clueType> <clueLoc>T-cell lines</clueLoc> that were not stimulated or were stimulated with T-cell mitogens.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E13">
+<type class="Physiological_process"/>
+<theme idref="A10"/>
+<cause idref="T19"/>
+<clue>To determine whether Nef affects the binding of cellular factors implicated in HIV-1 regulation, 32P-labeled oligonucleotides corresponding to the binding sites were incubated with nuclear extracts prepared from Nef-expressing T-cell lines that were <cluePolarity>not</cluePolarity> <clueType>stimulated</clueType> or were stimulated <linkCause>with</linkCause> T-cell mitogens.</clue>
+</event>
+<event id="E14">
+<type class="Physiological_process"/>
+<theme idref="A10"/>
+<cause idref="T19"/>
+<clue>To determine whether Nef affects the binding of cellular factors implicated in HIV-1 regulation, 32P-labeled oligonucleotides corresponding to the binding sites were incubated with nuclear extracts prepared from Nef-expressing T-cell lines that were not stimulated or were <clueType>stimulated</clueType> <linkCause>with</linkCause> T-cell mitogens.</clue>
+</event>
+<sentence id="S5">We found that <term id="T20" lex="Nef" sem="Protein_family_or_group">Nef</term> inhibited the recruitment of <term id="T21" lex="AP-1_DNA-binding_activity" sem="Other"><term id="T22" lex="AP-1" sem="Protein_molecule">AP-1</term> <term id="A13" sem="DNA_domain_or_region">DNA</term>-binding activity</term> in <term id="A12" sem="Protein_family_or_group">mitogen</term>-stimulated <term id="T23" lex="human_T-cell" sem="Cell_natural">human T-cells</term>.</sentence>
+<event KT="Other" id="E15">
+<type class="Binding"/>
+<theme idref="T22"/>
+<theme idref="A13"/>
+<clue>We found that Nef inhibited the recruitment of AP-1 DNA-<clueType>binding activity</clueType> in mitogen-stimulated human T-cells.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<clue>We found that Nef inhibited the <clueType>recruitment</clueType> <linkTheme>of</linkTheme> AP-1 DNA-binding activity in mitogen-stimulated human T-cells.</clue>
+</event>
+<event id="E17">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<cause idref="T20"/>
+<clue>We <clueKT>found</clueKT> that Nef <clueType>inhibited</clueType> the recruitment of AP-1 DNA-binding activity <clueLoc>in mitogen-stimulated human T-cells</clueLoc>.</clue>
+</event>
+<event id="E18">
+<type class="Physiological_process"/>
+<theme idref="T23"/>
+<cause idref="A12"/>
+<clue>We found that Nef inhibited the recruitment of AP-1 DNA-binding activity in mitogen-<clueType>stimulated</clueType> human T-cells.</clue>
+</event>
+<sentence id="S6">Additionally, <term id="T24" lex="Nef_expressing_cell" sem="Cell_cultured"><term id="T25" lex="Nef" sem="Protein_family_or_group">Nef</term> expressing cells</term> were transiently transfected with a plasmid in which <term id="T26" lex="HIV-1_AP-1_DNA_recognition_sequence" sem="DNA_domain_or_region"><term id="A14" sem="Virus">HIV-1</term> AP-1 DNA recognition sequences</term> were cloned downstream of the <term id="T27" lex="chloramphenicol_acetyltransferase_(CAT)_gene" sem="DNA_substructure"><term id="T28" lex="chloramphenicol_acetyltransferase" sem="Protein_molecule">chloramphenicol acetyltransferase</term> (<term id="T29" lex="CAT" sem="Protein_molecule">CAT</term>) gene</term>.</sentence>
+<event id="E19">
+<type class="Gene_expression"/>
+<theme idref="T25"/>
+<clue>Additionally, Nef <clueType>expressing</clueType> <clueLoc>cells</clueLoc> were transiently transfected with a plasmid in which HIV-1 AP-1 DNA recognition sequences were cloned downstream of the chloramphenicol acetyltransferase (CAT) gene.</clue>
+</event>
+<sentence id="S7"><term id="A15" sem="Protein_family_or_group">Mitogen</term>-mediated transcriptional activation of the <term id="A101" sem="DNA_domain_or_region"><term id="T30" lex="CAT_gene" sem="DNA_domain_or_region">CAT gene</term> in this construct</term> was inhibited in <term id="T31" lex="Nef-expressing_cell" sem="Cell_cultured"><term id="T32" lex="Nef" sem="Protein_family_or_group">Nef</term>-expressing cells</term> but not in control cells.</sentence>
+<event KT="Other" id="E20">
+<type class="Transcription"/>
+<theme idref="A101"/>
+<clue>Mitogen-mediated <clueType>transcriptional</clueType> activation <linkTheme>of</linkTheme> the CAT gene in this construct was inhibited in Nef-expressing cells but not in control cells.</clue>
+<comment>TPS A101</comment></event>
+<event KT="Other" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="A15"/>
+<clue>Mitogen-<linkCause>mediated</linkCause> transcriptional <clueType>activation</clueType> <linkTheme>of</linkTheme> the CAT gene in this construct was inhibited in Nef-expressing cells but not in control cells.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation"/>
+<theme idref="E21"/>
+<clue>Mitogen-mediated transcriptional activation of the CAT gene in this construct was <clueType>inhibited</clueType> <clueLoc>in Nef-expressing cells</clueLoc> but not in control cells.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E23">
+<type class="Negative_regulation"/>
+<theme idref="E21"/>
+<clue>Mitogen-mediated transcriptional activation of the CAT gene in this construct was <clueType>inhibited</clueType> in Nef-expressing cells but <cluePolarity>not</cluePolarity> <clueLoc>in control cells</clueLoc>.</clue>
+</event>
+<event id="E24">
+<type class="Gene_expression"/>
+<theme idref="T32"/>
+<clue>Mitogen-mediated transcriptional activation of the CAT gene in this construct was inhibited in Nef-<clueType>expressing</clueType> <clueLoc>cells</clueLoc> but not in control cells.</clue>
+</event>
+<sentence id="S8">These studies suggest that, by inhibiting <term id="T33" lex="AP-1_activation" sem="Other"><term id="T34" lex="AP-1" sem="Protein_molecule">AP-1</term> activation</term>, <term id="T35" lex="Nef" sem="Protein_family_or_group">Nef</term> may play a role in regulating <term id="T36" lex="HIV-1_gene_expression" sem="Other"><term id="T37" lex="HIV-1_gene" sem="DNA_molecule">HIV-1 gene</term> expression</term> in <term id="T38" lex="infected_T-cell" sem="Cell_natural">infected T-cells</term>.</sentence>
+<event KT="Other" id="E25">
+<type class="Positive_regulation"/>
+<theme idref="T34"/>
+<clue>These studies suggest that, by inhibiting AP-1 <clueType>activation</clueType>, Nef may play a role in regulating HIV-1 gene expression in infected T-cells.</clue>
+</event>
+<event KT="Other" id="E26" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="E25"/>
+<cause idref="T35"/>
+<clue>These studies suggest that, by <clueType>inhibiting</clueType> AP-1 activation, Nef may play a role in regulating HIV-1 gene expression in infected T-cells.</clue>
+<comment>NO COREFCAUSE</comment></event>
+<event KT="Other" id="E27">
+<type class="Gene_expression"/>
+<theme idref="T37"/>
+<clue>These studies suggest that, by inhibiting AP-1 activation, Nef may play a role in regulating HIV-1 gene <clueType>expression</clueType> in infected T-cells.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E28" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E27"/>
+<cause idref="E26"/>
+<clue>These studies <clueKT>suggest</clueKT> that, <linkCause>by</linkCause> inhibiting AP-1 activation, Nef <clueCL>may</clueCL> <clueType>play a role in regulating</clueType> HIV-1 gene expression in infected T-cells.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

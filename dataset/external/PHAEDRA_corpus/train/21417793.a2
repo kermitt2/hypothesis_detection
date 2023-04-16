@@ -1,0 +1,32 @@
+T14	DDI 10 21	interaction
+T22	Potential_therapeutic_effect 240 249	receiving
+T24	Adverse_effect 182 191	following
+T34	Potential_therapeutic_effect 1015 1023	received
+T36	Potential_therapeutic_effect 1119 1126	treated
+T37	Adverse_effect 1143 1146	met
+T42	Adverse_effect 1409 1414	shown
+E1	DDI:T14 has_participant:T1 has_participant:T2
+E6	Combination:T10 has_participant:T6 has_participant:T7
+E7	Combination:T10 has_participant:T6 has_participant:T8
+E9	Combination:T33 has_participant:T11 has_participant:T12
+E10	Combination:T33 has_participant:T11 has_participant:T13
+E14	Combination:T39 has_participant:T18 has_participant:T19
+E2	Potential_therapeutic_effect:T22 has_subject:T23 has_agent:T4
+E3	Adverse_effect:T24 has_subject:T23 affects:T21 has_agent:E4
+E11	Potential_therapeutic_effect:T34 has_subject:T30 has_agent:E10 has_agent:E9
+E12	Potential_therapeutic_effect:T36 has_subject:T35 has_agent:T15
+E13	Adverse_effect:T37 affects:T16 has_agent:T15
+E16	Adverse_effect:T42 has_agent:E14 has_cue:T25 affects:T17
+A1	Manner E16 Low
+E4	Combination:T26 has_participant:T3 has_participant2:T4
+T29	Adverse_effect 357 366	incidence
+E5	Adverse_effect:T29 has_cue:T28 affects:T5 has_subject:T32
+T38	Potential_therapeutic_effect 468 477	treatment
+E8	Potential_therapeutic_effect:T38 has_subject:T32 has_agent:E15
+E15	Combination:T40 has_participant:T3 has_participant2:T4
+A2	Speculated E5
+R1	Coreference Arg1:T41 Arg2:T18	
+R2	Coreference Arg1:T41 Arg2:T19	
+E17	Combination:T43 has_participant:T41
+T44	Adverse_effect 1694 1709	contraindicated
+E18	Adverse_effect:T44 has_agent:E17

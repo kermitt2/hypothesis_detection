@@ -1,0 +1,320 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10454636" created="07/07/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10454636</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="dopamine" sem="Organic_compound_other">Dopamine</term> stimulates expression of the <term id="A20" sem="DNA_domain_or_region"><term id="T2" lex="human_immunodeficiency_virus_type_1" sem="Virus">human immunodeficiency virus type 1</term></term> via <term id="T3" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> in cells of the <term id="T4" lex="immune_system" sem="Body_region">immune system</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="T1"/>
+<clue>Dopamine <clueType>stimulates</clueType> expression of the human immunodeficiency virus type 1 via NF-kappaB in cells of the immune system.</clue>
+</event>
+<event id="E2">
+<type class="Gene_expression"/>
+<theme idref="A20"/>
+<clue>Dopamine stimulates <clueType>expression</clueType> <linkTheme>of</linkTheme> the human immunodeficiency virus type 1 via NF-kappaB in cells of the immune system.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="T3"/>
+<clue>Dopamine stimulates expression of the human immunodeficiency virus type 1 <linkCause>via</linkCause> NF-kappaB <clueLoc>in cells of the immune system</clueLoc>.</clue>
+<comment>NO CLUETYPE</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Recent studies have reported that <term id="T5" lex="lymphocyte" sem="Cell_natural">lymphocytes</term> produce, transport and bind <term id="T6" lex="dopamine" sem="Organic_compound_other">dopamine</term> present in <term id="T7" lex="plasma" sem="Tissue_natural">plasma</term>.</sentence>
+<event KT="Analysis" Source="Other" id="E4">
+<type class="Metabolism"/>
+<theme idref="T6"/>
+<clue><clueSource>Recent</clueSource> studies have <clueKT>reported</clueKT> that <clueLoc>lymphocytes</clueLoc> <clueType>produce</clueType>, transport and bind dopamine present in plasma.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E5">
+<type class="Localization"/>
+<theme idref="T6"/>
+<clue><clueSource>Recent</clueSource> studies have <clueKT>reported</clueKT> that <clueLoc>lymphocytes</clueLoc> produce, <clueType>transport</clueType> and bind dopamine present in plasma.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E6">
+<type class="Cell_adhesion"/>
+<theme idref="T5"/>
+<theme idref="T6"/>
+<clue><clueSource>Recent</clueSource> studies have <clueKT>reported</clueKT> that lymphocytes produce, transport and <clueType>bind</clueType> dopamine present <clueLoc>in plasma</clueLoc>.</clue>
+</event>
+<sentence id="S3">However, the action of <term id="T8" lex="dopamine" sem="Organic_compound_other">dopamine</term> on <term id="A1" sem="DNA_domain_or_region"><term id="T9" lex="HIV-1" sem="Virus">HIV-1</term> gene</term> expression in cells of the <term id="T11" lex="immune_system" sem="Body_region">immune system</term> has not yet been examined.</sentence>
+<event KT="Other" id="E7" uncertainty="doubtful">
+<type class="Gene_expression"/>
+<theme idref="A1"/>
+<clue>However, the action of dopamine on HIV-1 gene <clueType>expression</clueType> <clueLoc>in cells of the immune system</clueLoc> has not yet been examined.</clue>
+<comment>NER: T10 del &quot;gene expression&quot;</comment></event>
+<event KT="Other" id="E8" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E7"/>
+<cause idref="T8"/>
+<clue>However, the <clueType>action</clueType> <linkCause>of</linkCause> dopamine <linkTheme>on</linkTheme> HIV-1 gene expression in cells of the immune system has not yet been examined.</clue>
+</event>
+<sentence id="S4">Here, we have investigated the regulation of <term id="T12" lex="HIV-1_expression" sem="Other"><term id="A22" sem="DNA_domain_or_region"><term id="T13" lex="HIV-1" sem="Virus">HIV-1</term></term> expression</term> by <term id="T14" lex="dopamine" sem="Organic_compound_other">dopamine</term> in <term id="T15" lex="Jurkat_T_cell" sem="Cell_cultured">Jurkat T cells</term> and in <term id="T16" lex="primary_blood_mononuclear_cell" sem="Cell_natural">primary blood mononuclear cells</term> (<term id="T17" lex="PBMC" sem="Cell_natural">PBMC</term>).</sentence>
+<event KT="Other" id="E9" uncertainty="doubtful">
+<type class="Gene_expression"/>
+<theme idref="A22"/>
+<clue>Here, we have investigated the regulation of HIV-1 <clueType>expression</clueType> by dopamine in Jurkat T cells and in primary blood mononuclear cells (PBMC).</clue>
+</event>
+<event KT="Investigation" id="E10" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E9"/>
+<cause idref="T14"/>
+<clue>Here, we have <clueKT>investigated</clueKT> the <clueType>regulation</clueType> <linkTheme>of</linkTheme> HIV-1 expression <linkCause>by</linkCause> dopamine <clueLoc>in Jurkat T cells</clueLoc> and in primary blood mononuclear cells (PBMC).</clue>
+</event>
+<event KT="Investigation" id="E49">
+<type class="Regulation"/>
+<theme idref="E9"/>
+<cause idref="T14"/>
+<clue>Here, we have <clueKT>investigated</clueKT> the <clueType>regulation</clueType> <linkTheme>of</linkTheme> HIV-1 expression <linkCause>by</linkCause> dopamine in Jurkat T cells and <clueLoc>in primary blood mononuclear cells (PBMC)</clueLoc>.</clue>
+</event>
+<sentence id="S5"><term id="T18" lex="HIV-1" sem="Virus">HIV-1</term> replication was increased by <term id="T19" lex="dopamine" sem="Organic_compound_other">dopamine</term>, which correlated with the increased levels of <term id="T20" lex="HIV-1_transactivation" sem="Other"><term id="T21" lex="HIV-1" sem="Virus">HIV-1</term> transactivation</term>.</sentence>
+<event id="E11">
+<type class="Viral_life_cycle"/>
+<theme idref="T18"/>
+<clue>HIV-1 <clueType>replication</clueType> was increased by dopamine, which correlated with the increased levels of HIV-1 transactivation.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<cause idref="T19"/>
+<clue>HIV-1 replication was <clueType>increased</clueType> <linkTheme>by</linkTheme> dopamine, which correlated with the increased levels of HIV-1 transactivation.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T21"/>
+<clue>HIV-1 replication was increased by dopamine, which correlated with the increased levels of HIV-1 <clueType>transactivation</clueType>.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<clue>HIV-1 replication was increased by dopamine, which correlated with the <clueType>increased levels</clueType> <linkTheme>of</linkTheme> HIV-1 transactivation.</clue>
+</event>
+<event KT="Analysis" id="E15">
+<type class="Correlation"/>
+<theme idref="E12"/>
+<theme idref="E14"/>
+<clue>HIV-1 replication was increased by dopamine, which <clueType><clueKT>correlated</clueKT></clueType> <linkTheme>with</linkTheme> the increased levels of HIV-1 transactivation.</clue>
+</event>
+<sentence id="S6">Our transient expression data revealed that <term id="T22" lex="dopamine" sem="Organic_compound_other">dopamine</term> stimulated transcription through the <term id="T23" lex="NF-kappaB_element" sem="DNA_domain_or_region"><term id="T24" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> element</term> present in the <term id="T25" lex="long_terminal_repeat" sem="DNA_domain_or_region">long terminal repeat</term>.</sentence>
+<event KT="Analysis" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T23"/>
+<cause idref="T22"/>
+<clue>Our <clueExperiment>transient expression</clueExperiment> data <clueKT>revealed</clueKT> that dopamine <clueType>stimulated</clueType> transcription through the NF-kappaB element present in the long terminal repeat.</clue>
+</event>
+<event KT="Other" id="E43">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="E16"/>
+<clue>Our transient expression data revealed that dopamine stimulated <corefTheme>transcription</corefTheme> <linkCause>through</linkCause> the NF-kappaB element present in the long terminal repeat.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S7">The importance of <term id="T26" lex="NF-kappaB_site" sem="DNA_domain_or_region"><term id="T27" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> sites</term> was confirmed by using vectors containing <cons id="T28" lex="(OR wild-type_kappaB_site mutant_kappaB_site)" sem="(OR DNA_domain_or_region DNA_domain_or_region)"><frag id="F1">wild-type</frag> or <frag id="F2">mutant</frag> <frag id="F3">kappaB sites</frag></cons> in a <term id="T29" lex="heterologous_promoter" sem="DNA_domain_or_region">heterologous promoter</term>.</sentence>
+<sentence id="S8">Consistent with the role of <term id="T30" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> in mediating <term id="T31" lex="dopamine_responsiveness" sem="Other"><term id="T32" lex="dopamine" sem="Organic_compound_other">dopamine</term> responsiveness</term>, the <term id="T33" lex="proteasome_inhibitor" sem="Organic_compound_other">proteasome inhibitor</term> <term id="T34" lex="MG132" sem="Organic_compound_other">MG132</term> abolished <term id="T36" lex="dopamine" sem="Organic_compound_other">dopamine</term>-induced <term id="A2" sem="Other">transcriptional activation</term>.</sentence>
+<event KT="Fact" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="T31"/>
+<cause idref="T30"/>
+<clue>Consistent with the <clueType>role</clueType> <linkCause>of</linkCause> NF-kappaB <clueType>in mediating</clueType> dopamine responsiveness, the proteasome inhibitor MG132 abolished dopamine-induced transcriptional activation.</clue>
+</event>
+<event id="E18">
+<type class="Negative_regulation"/>
+<theme idref="E19"/>
+<cause idref="T34"/>
+<clue>Consistent with the role of NF-kappaB in mediating dopamine responsiveness, the proteasome inhibitor MG132 <clueType>abolished</clueType> dopamine-induced transcriptional activation.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="A2"/>
+<cause idref="T36"/>
+<clue>Consistent with the role of NF-kappaB in mediating dopamine responsiveness, the proteasome inhibitor MG132 abolished dopamine-<clueType>induced</clueType> transcriptional activation.</clue>
+<comment>NER: T35 del &quot;dopamine-induced transcriptional activation&quot;</comment></event>
+<sentence id="S9">We further explored the effect of <term id="T37" lex="dopamine" sem="Organic_compound_other">dopamine</term> in the presence of <term id="T38" lex="phorbol_ester" sem="Organic_compound_other">phorbol esters</term> or <term id="T39" lex="tumor_necrosis_factor-alpha" sem="Protein_molecule">tumor necrosis factor-alpha</term> (<term id="T40" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term>) known to activate <term id="T41" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>.</sentence>
+<event KT="Investigation" id="E20" uncertainty="doubtful">
+<type class="Regulation"/>
+<cause idref="T37"/>
+<cause idref="T38"/>
+<clue>We further <clueKT>explored</clueKT> the <clueType>effect</clueType> <linkCause>of</linkCause> dopamine <linkCause>in the presence of</linkCause> phorbol esters or tumor necrosis factor-alpha (TNF-alpha) known to activate NF-kappaB.</clue>
+<comment>NO THEME</comment></event>
+<event KT="Investigation" id="E21">
+<type class="Regulation"/>
+<cause idref="T37"/>
+<cause idref="T40"/>
+<clue>We further <clueKT>explored</clueKT> the <clueType>effect</clueType> <linkCause>of</linkCause> dopamine <linkCause>in the presence of</linkCause> phorbol esters or tumor necrosis factor-alpha (TNF-alpha) known to activate NF-kappaB.</clue>
+<comment>NO THEME</comment></event>
+<event KT="Fact" id="E44">
+<type class="Positive_regulation"/>
+<theme idref="T41"/>
+<cause idref="T38"/>
+<clue>We further explored the effect of dopamine in the presence of phorbol esters or tumor necrosis factor-alpha (TNF-alpha) <clueKT>known</clueKT> to <clueType>activate</clueType> NF-kappaB.</clue>
+</event>
+<event KT="Fact" id="E45">
+<type class="Positive_regulation"/>
+<theme idref="T41"/>
+<cause idref="T40"/>
+<clue>We further explored the effect of dopamine in the presence of phorbol esters or tumor necrosis factor-alpha (TNF-alpha) <clueKT>known</clueKT> to <clueType>activate</clueType> NF-kappaB.</clue>
+</event>
+<sentence id="S10">The combination of <term id="T42" lex="dopamine" sem="Organic_compound_other">dopamine</term> and <term id="T43" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term> led to a stimulation of <term id="A21" sem="DNA_domain_or_region"><term id="T44" lex="HIV-1" sem="Virus">HIV-1</term></term> transcription and replication.</sentence>
+<event id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E24"/>
+<cause idref="T42"/>
+<cause idref="T43"/>
+<clue>The <linkCause>combination of</linkCause> dopamine and TNF-alpha <clueType>led</clueType> <linkTheme>to</linkTheme> a stimulation of HIV-1 transcription and replication.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation"/>
+<theme idref="E25"/>
+<cause idref="T42"/>
+<cause idref="T43"/>
+<clue>The <linkCause>combination of</linkCause> dopamine and TNF-alpha <clueType>led</clueType> <linkTheme>to</linkTheme> a stimulation of HIV-1 transcription and replication.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E26"/>
+<clue>The combination of dopamine and TNF-alpha led to a <clueType>stimulation</clueType> <linkTheme>of</linkTheme> HIV-1 transcription and replication.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation"/>
+<theme idref="E27"/>
+<clue>The combination of dopamine and TNF-alpha led to a <clueType>stimulation</clueType> <linkTheme>of</linkTheme> HIV-1 transcription and replication.</clue>
+</event>
+<event id="E26">
+<type class="Transcription"/>
+<theme idref="A21"/>
+<clue>The combination of dopamine and TNF-alpha led to a stimulation of HIV-1 <clueType>transcription</clueType> and replication.</clue>
+</event>
+<event id="E27">
+<type class="Viral_life_cycle"/>
+<theme idref="T44"/>
+<clue>The combination of dopamine and TNF-alpha led to a stimulation of HIV-1 transcription and <clueType>replication</clueType>.</clue>
+</event>
+<sentence id="S11">However, in contrast with <term id="T45" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term>, <term id="T46" lex="dopamine_treatment" sem="Other"><term id="T47" lex="dopamine" sem="Organic_compound_other">dopamine</term> treatment</term> did not affect <term id="T48" lex="NF-kappaB_DNA_binding_activity" sem="Other"><term id="T49" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> <term id="A4" sem="DNA_domain_or_region">DNA</term> binding activity</term> nor the <term id="A3" sem="Other">concentrations</term> of <term id="T50" lex="p50" sem="Protein_molecule">p50</term>, <term id="T51" lex="p65" sem="Protein_molecule">p65</term> and <term id="T52" lex="IkappaB-alpha_protein" sem="Protein_family_or_group">IkappaB-alpha proteins</term>, which suggests a distinct <term id="T53" lex="NF-kappaB_activation_mechanism" sem="Other"><term id="T10" lex="NF-kappaB_activation" sem="Other"><term id="T54" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activation</term> mechanism</term>.</sentence>
+<event Polarity="Negative" assertion="non-exist" id="E28">
+<type class="Regulation"/>
+<theme idref="E29"/>
+<cause idref="T47"/>
+<clue>However, in contrast with TNF-alpha, dopamine treatment did <cluePolarity>not</cluePolarity> <clueType>affect</clueType> NF-kappaB DNA binding activity nor the concentrations of p50, p65 and IkappaB-alpha proteins, which suggests a distinct NF-kappaB activation mechanism.</clue>
+</event>
+<event id="E29">
+<type class="Binding"/>
+<theme idref="T49"/>
+<theme idref="A4"/>
+<clue>However, in contrast with TNF-alpha, dopamine treatment did not affect NF-kappaB DNA <clueType>binding</clueType> activity nor the concentrations of p50, p65 and IkappaB-alpha proteins, which suggests a distinct NF-kappaB activation mechanism.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E30">
+<type class="Regulation"/>
+<theme idref="A3" idref1="T50"/>
+<cause idref="T47"/>
+<clue>However, in contrast with TNF-alpha, dopamine treatment did <cluePolarity>not</cluePolarity> <clueType>affect</clueType> NF-kappaB DNA binding activity nor the concentrations of p50, p65 and IkappaB-alpha proteins, which suggests a distinct NF-kappaB activation mechanism.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E31">
+<type class="Regulation"/>
+<theme idref="A3" idref1="T51"/>
+<cause idref="T47"/>
+<clue>However, in contrast with TNF-alpha, dopamine treatment did <cluePolarity>not</cluePolarity> <clueType>affect</clueType> NF-kappaB DNA binding activity nor the concentrations of p50, p65 and IkappaB-alpha proteins, which suggests a distinct NF-kappaB activation mechanism.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E32">
+<type class="Regulation"/>
+<theme idref="A3" idref1="T52"/>
+<cause idref="T47"/>
+<clue>However, in contrast with TNF-alpha, dopamine treatment did <cluePolarity>not</cluePolarity> <clueType>affect</clueType> NF-kappaB DNA binding activity nor the concentrations of p50, p65 and IkappaB-alpha proteins, which suggests a distinct NF-kappaB activation mechanism.</clue>
+</event>
+<event id="E33">
+<type class="Regulation"/>
+<theme idref="E29"/>
+<cause idref="T45"/>
+<clue>However, in contrast with TNF-alpha, dopamine treatment did not <clueType>affect</clueType> NF-kappaB DNA binding activity nor the concentrations of p50, p65 and IkappaB-alpha proteins, which suggests a distinct NF-kappaB activation mechanism.</clue>
+<comment>CAUTION: SEE, in contrast</comment></event>
+<event id="E34">
+<type class="Regulation"/>
+<theme idref="A3" idref1="T50"/>
+<cause idref="T45"/>
+<clue>However, in contrast with TNF-alpha, dopamine treatment did not <clueType>affect</clueType> NF-kappaB DNA binding activity nor the concentrations of p50, p65 and IkappaB-alpha proteins, which suggests a distinct NF-kappaB activation mechanism.</clue>
+<comment>CAUTION: SEE, in contrast</comment></event>
+<event id="E35">
+<type class="Regulation"/>
+<theme idref="A3" idref1="T51"/>
+<cause idref="T45"/>
+<clue>However, in contrast with TNF-alpha, dopamine treatment did not <clueType>affect</clueType> NF-kappaB DNA binding activity nor the concentrations of p50, p65 and IkappaB-alpha proteins, which suggests a distinct NF-kappaB activation mechanism.</clue>
+<comment>CAUTION: SEE, in contrast</comment></event>
+<event id="E36">
+<type class="Regulation"/>
+<theme idref="A3" idref1="T52"/>
+<cause idref="T45"/>
+<clue>However, in contrast with TNF-alpha, dopamine treatment did not <clueType>affect</clueType> NF-kappaB DNA binding activity nor the concentrations of p50, p65 and IkappaB-alpha proteins, which suggests a distinct NF-kappaB activation mechanism.</clue>
+<comment>CAUTION: SEE, in contrast</comment></event>
+<event CL="L2" KT="Analysis" id="E37" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T54"/>
+<clue>However, in contrast with TNF-alpha, dopamine treatment did not affect NF-kappaB DNA binding activity nor the concentrations of p50, p65 and IkappaB-alpha proteins, which <clueKT><clueCL>suggests</clueCL></clueKT> a distinct NF-kappaB <clueType>activation</clueType> mechanism.</clue>
+</event>
+<sentence id="S12">These results reveal a new link between the <term id="T55" lex="dopamine_system" sem="Other"><term id="T56" lex="dopamine" sem="Organic_compound_other">dopamine</term> system</term>, <term id="T57" lex="cytokine_signaling_pathway" sem="Other"><term id="T58" lex="cytokine" sem="Protein_family_or_group">cytokine</term> signaling pathway</term> and regulation of <term id="T59" lex="gene_expression" sem="Other">gene expression</term> via the involvement of <term id="T60" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> in <term id="T61" lex="T_cell" sem="Cell_natural">T cells</term> and <term id="T62" lex="PBMC" sem="Cell_natural">PBMC</term>.</sentence>
+<event KT="Analysis" id="E38">
+<type class="Correlation"/>
+<theme idref="T55"/>
+<theme idref="E41"/>
+<clue>These results <clueKT>reveal</clueKT> a new <clueType><clueKT>link</clueKT></clueType> <linkTheme>between</linkTheme> the dopamine system, cytokine signaling pathway and regulation of gene expression via the involvement of NF-kappaB <clueLoc>in T cells</clueLoc> and PBMC.</clue>
+</event>
+<event KT="Analysis" id="E50">
+<type class="Correlation"/>
+<theme idref="T55"/>
+<theme idref="E41"/>
+<clue>These results <clueKT>reveal</clueKT> a new <clueType><clueKT>link</clueKT></clueType> <linkTheme>between</linkTheme> the dopamine system, cytokine signaling pathway and regulation of gene expression via the involvement of NF-kappaB <clueLoc>in</clueLoc> T cells and <clueLoc>PBMC</clueLoc>.</clue>
+</event>
+<event KT="Analysis" id="E39">
+<type class="Correlation"/>
+<theme idref="T55"/>
+<theme idref="E42"/>
+<clue>These results <clueKT>reveal</clueKT> a new <clueType><clueKT>link</clueKT></clueType> <linkTheme>between</linkTheme> the dopamine system, cytokine signaling pathway and regulation of gene expression via the involvement of NF-kappaB <clueLoc>in T cells</clueLoc> and PBMC.</clue>
+</event>
+<event KT="Analysis" id="E51">
+<type class="Correlation"/>
+<theme idref="T55"/>
+<theme idref="E42"/>
+<clue>These results <clueKT>reveal</clueKT> a new <clueType><clueKT>link</clueKT></clueType> <linkTheme>between</linkTheme> the dopamine system, cytokine signaling pathway and regulation of gene expression via the involvement of NF-kappaB <clueLoc>in</clueLoc> T cells and <clueLoc>PBMC</clueLoc>.</clue>
+</event>
+<event KT="Analysis" id="E40">
+<type class="Correlation"/>
+<theme idref="E41"/>
+<theme idref="E42"/>
+<clue>These results <clueKT>reveal</clueKT> a new <clueType><clueKT>link</clueKT></clueType> <linkTheme>between</linkTheme> the dopamine system, cytokine signaling pathway and regulation of gene expression via the involvement of NF-kappaB <clueLoc>in T cells</clueLoc> and PBMC.</clue>
+</event>
+<event KT="Analysis" id="E52">
+<type class="Correlation"/>
+<theme idref="E41"/>
+<theme idref="E42"/>
+<clue>These results <clueKT>reveal</clueKT> a new <clueType><clueKT>link</clueKT></clueType> <linkTheme>between</linkTheme> the dopamine system, cytokine signaling pathway and regulation of gene expression via the involvement of NF-kappaB <clueLoc>in</clueLoc> T cells and <clueLoc>PBMC</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E41">
+<type class="Cell_communication"/>
+<theme idref="T58"/>
+<clue>These results reveal a new link between the dopamine system, cytokine <clueType>signaling</clueType> pathway and regulation of gene expression via the involvement of NF-kappaB in T cells and PBMC.</clue>
+</event>
+<event KT="Other" id="E42">
+<type class="Regulation"/>
+<theme idref="T59"/>
+<clue>These results reveal a new link between the dopamine system, cytokine signaling pathway and <clueType>regulation</clueType> <linkTheme>of</linkTheme> gene expression via the involvement of NF-kappaB in T cells and PBMC.</clue>
+</event>
+<event KT="Other" id="E46">
+<type class="Regulation"/>
+<theme idref="E40"/>
+<cause idref="T60"/>
+<clue>These results reveal a new link between the dopamine system, cytokine signaling pathway and regulation of gene expression <linkCause>via the involvement of</linkCause> NF-kappaB in T cells and PBMC.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Other" id="E47">
+<type class="Regulation"/>
+<theme idref="E41"/>
+<cause idref="T60"/>
+<clue>These results reveal a new link between the dopamine system, cytokine signaling pathway and regulation of gene expression <linkCause>via the involvement of</linkCause> NF-kappaB in T cells and PBMC.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Other" id="E48">
+<type class="Regulation"/>
+<theme idref="E42"/>
+<cause idref="T60"/>
+<clue>These results reveal a new link between the dopamine system, cytokine signaling pathway and regulation of gene expression <linkCause>via the involvement of</linkCause> NF-kappaB in T cells and PBMC.</clue>
+<comment>NO CLUETYPE</comment></event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,291 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1315834" created="05/02/2007" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1315834</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="interferon-gamma" sem="Protein_molecule">Interferon-gamma</term> potentiates the <term id="T2" lex="antiviral_activity" sem="Other">antiviral activity</term> and the expression of <term id="T3" lex="interferon-stimulated_gene" sem="DNA_family_or_group">interferon-stimulated genes</term> induced by <term id="T4" lex="interferon-alpha_in_U937_cell" sem="Cell_cultured"><term id="A1" sem="Protein_molecule">interferon-alpha</term> in U937 cells</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression"/>
+<theme idref="T3"/>
+<clue>Interferon-gamma potentiates the antiviral activity and the <clueType>expression</clueType> <linkTheme>of</linkTheme> interferon-stimulated genes induced by interferon-alpha in U937 cells.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="T2"/>
+<cause idref="A1"/>
+<clue>Interferon-gamma potentiates the antiviral activity and the expression of interferon-stimulated genes <clueType>induced</clueType> <linkCause>by</linkCause> interferon-alpha in U937 cells.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="A1"/>
+<clue>Interferon-gamma potentiates the antiviral activity and the expression of interferon-stimulated genes <clueType>induced</clueType> <linkCause>by</linkCause> interferon-alpha in U937 cells.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="T1"/>
+<clue>Interferon-gamma <clueType>potentiates</clueType> the antiviral activity and the expression of interferon-stimulated genes induced by interferon-alpha <clueLoc>in U937 cells</clueLoc>.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="T1"/>
+<clue>Interferon-gamma <clueType>potentiates</clueType> the antiviral activity and the expression of interferon-stimulated genes induced by interferon-alpha <clueLoc>in U937 cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Binding of <term id="T5" lex="type_I_interferon_(IFN-alpha/beta)_to_specific_receptor" sem="Protein_family_or_group">type I interferon (<term id="T6" lex="IFN-alpha/beta" sem="Protein_molecule"><term id="A3" sem="Protein_molecule"><term id="A2" sem="Protein_molecule">IFN-</term>alpha</term>/<term id="A4" sem="Protein_molecule">beta</term></term>) to specific <term id="A5" sem="Protein_molecule">receptors</term></term> results in the <term id="T7" lex="rapid_transcriptional_activation" sem="Other">rapid transcriptional activation</term>, independent of <term id="T8" lex="protein_synthesis" sem="Other">protein synthesis</term>, of <term id="T9" lex="IFN-alpha-stimulated_gene" sem="DNA_family_or_group">IFN-alpha-stimulated genes</term> (<term id="T10" lex="ISG" sem="DNA_family_or_group">ISGs</term>) in <term id="T11" lex="human_fibroblast" sem="Cell_natural">human fibroblasts</term> and <term id="T12" lex="HeLa" sem="Cell_cultured">HeLa</term> and <term id="T13" lex="Daudi_cell_line" sem="Cell_cultured">Daudi cell lines</term>.</sentence>
+<event KT="Other" id="E6">
+<type class="Binding"/>
+<theme idref="A2" idref1="A3"/>
+<theme idref="A2" idref1="A3" idref2="A5"/>
+<clue><clueType>Binding</clueType> <linkTheme>of</linkTheme> type I interferon (IFN-alpha/beta) <linkTheme>to</linkTheme> specific receptors results in the rapid transcriptional activation, independent of protein synthesis, of IFN-alpha-stimulated genes (ISGs) in human fibroblasts and HeLa and Daudi cell lines.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Binding"/>
+<theme idref="A2" idref1="A4"/>
+<theme idref="A2" idref1="A4" idref2="A5"/>
+<clue><clueType>Binding</clueType> <linkTheme>of</linkTheme> type I interferon (IFN-alpha/beta) <linkTheme>to</linkTheme> specific receptors results in the rapid transcriptional activation, independent of protein synthesis, of IFN-alpha-stimulated genes (ISGs) in human fibroblasts and HeLa and Daudi cell lines.</clue>
+</event>
+<event KT="Other" Manner="High" id="E300">
+<type class="Positive_regulation"/>
+<theme idref="T10"/>
+<cause idref="E6"/>
+<clue>Binding of type I interferon (IFN-alpha/beta) to specific receptors results in the <clueManner>rapid</clueManner> <clueType>transcriptional activation</clueType>, independent of protein synthesis, <linkTheme>of</linkTheme> IFN-alpha-stimulated genes (ISGs) in human fibroblasts and HeLa and Daudi cell lines.</clue>
+</event>
+<event KT="Other" Manner="High" id="E301">
+<type class="Positive_regulation"/>
+<theme idref="T10"/>
+<cause idref="E7"/>
+<clue>Binding of type I interferon (IFN-alpha/beta) to specific receptors results in the <clueManner>rapid</clueManner> <clueType>transcriptional activation</clueType>, independent of protein synthesis, <linkTheme>of</linkTheme> IFN-alpha-stimulated genes (ISGs) in human fibroblasts and HeLa and Daudi cell lines.</clue>
+</event>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E303">
+<type class="Correlation"/>
+<theme idref="E300"/>
+<theme idref="T8"/>
+<clue>Binding of type I interferon (IFN-alpha/beta) to specific receptors results in the rapid transcriptional activation, <clueType><cluePolarity>independent</cluePolarity></clueType> <linkTheme>of</linkTheme> protein synthesis, of IFN-alpha-stimulated genes (ISGs) <clueLoc>in human fibroblasts</clueLoc> and HeLa and Daudi cell lines.</clue>
+</event>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E304">
+<type class="Correlation"/>
+<theme idref="E300"/>
+<theme idref="T8"/>
+<clue>Binding of type I interferon (IFN-alpha/beta) to specific receptors results in the rapid transcriptional activation, <clueType><cluePolarity>independent</cluePolarity></clueType> <linkTheme>of</linkTheme> protein synthesis, of IFN-alpha-stimulated genes (ISGs) <clueLoc>in</clueLoc> human fibroblasts and <clueLoc>HeLa</clueLoc> and Daudi <clueLoc>cell lines</clueLoc>.</clue>
+</event>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E305">
+<type class="Correlation"/>
+<theme idref="E300"/>
+<theme idref="T8"/>
+<clue>Binding of type I interferon (IFN-alpha/beta) to specific receptors results in the rapid transcriptional activation, <clueType><cluePolarity>independent</cluePolarity></clueType> <linkTheme>of</linkTheme> protein synthesis, of IFN-alpha-stimulated genes (ISGs) <clueLoc>in</clueLoc> human fibroblasts and HeLa and <clueLoc>Daudi cell lines</clueLoc>.</clue>
+</event>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E306">
+<type class="Correlation"/>
+<theme idref="E300"/>
+<theme idref="T8"/>
+<clue>Binding of type I interferon (IFN-alpha/beta) to specific receptors results in the rapid transcriptional activation, <clueType><cluePolarity>independent</cluePolarity></clueType> <linkTheme>of</linkTheme> protein synthesis, of IFN-alpha-stimulated genes (ISGs) <clueLoc>in human fibroblasts</clueLoc> and HeLa and Daudi cell lines.</clue>
+</event>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E307">
+<type class="Correlation"/>
+<theme idref="E300"/>
+<theme idref="T8"/>
+<clue>Binding of type I interferon (IFN-alpha/beta) to specific receptors results in the rapid transcriptional activation, <clueType><cluePolarity>independent</cluePolarity></clueType> <linkTheme>of</linkTheme> protein synthesis, of IFN-alpha-stimulated genes (ISGs) <clueLoc>in</clueLoc> human fibroblasts and <clueLoc>HeLa</clueLoc> and Daudi <clueLoc>cell lines</clueLoc>.</clue>
+</event>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E308">
+<type class="Correlation"/>
+<theme idref="E300"/>
+<theme idref="T8"/>
+<clue>Binding of type I interferon (IFN-alpha/beta) to specific receptors results in the rapid transcriptional activation, <clueType><cluePolarity>independent</cluePolarity></clueType> <linkTheme>of</linkTheme> protein synthesis, of IFN-alpha-stimulated genes (ISGs) <clueLoc>in</clueLoc> human fibroblasts and HeLa and <clueLoc>Daudi cell lines</clueLoc>.</clue>
+</event>
+<sentence id="S3">The binding of <term id="T14" lex="ISGF3" sem="Protein_molecule">ISGF3</term> (<term id="T15" lex="IFN-stimulated_gene_factor_3" sem="Protein_molecule">IFN-stimulated gene factor 3</term>) to the conserved <term id="T16" lex="IFN-stimulated_response_element" sem="DNA_domain_or_region">IFN-stimulated response element</term> (<term id="T17" lex="ISRE" sem="DNA_domain_or_region">ISRE</term>) results in <term id="T18" lex="transcriptional_activation" sem="Other">transcriptional activation</term>.</sentence>
+<event KT="Other" id="E13">
+<type class="Binding"/>
+<theme idref="T14"/>
+<theme idref="T17"/>
+<clue>The <clueType>binding</clueType> <linkTheme>of</linkTheme> ISGF3 (IFN-stimulated gene factor 3) <linkTheme>to</linkTheme> the conserved IFN-stimulated response element (ISRE) results in transcriptional activation.</clue>
+</event>
+<event KT="Fact" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="T18"/>
+<cause idref="E13"/>
+<clue>The binding of ISGF3 (IFN-stimulated gene factor 3) to the conserved IFN-stimulated response element (ISRE) <clueType>results</clueType> <linkTheme>in</linkTheme> transcriptional activation.</clue>
+</event>
+<sentence id="S4">This factor is composed of a <term id="T19" lex="DNA-binding_protein" sem="Protein_family_or_group">DNA-binding protein</term> (<term id="T20" lex="ISGF3_gamma" sem="Protein_family_or_group">ISGF3 gamma</term>), which normally is present in the <term id="T21" lex="cytoplasm" sem="Cell_component">cytoplasm</term>, and other <term id="T22" lex="IFN-alpha-activated_protein" sem="Protein_family_or_group"><term id="A6" sem="Protein_molecule">IFN-alpha</term>-activated proteins</term> which preexist as <term id="T23" lex="latent_cytoplasmic_precursor" sem="Protein_molecule">latent cytoplasmic precursors</term> (<term id="T24" lex="ISGF3_alpha" sem="Protein_molecule">ISGF3 alpha</term>).</sentence>
+<event KT="Analysis" id="E15">
+<type class="Localization"/>
+<theme idref="T20"/>
+<clue>This factor is composed of a DNA-binding protein (ISGF3 gamma), which <clueKT>normally</clueKT> is <clueType>present</clueType> <clueLoc>in the cytoplasm</clueLoc>, and other IFN-alpha-activated proteins which preexist as latent cytoplasmic precursors (ISGF3 alpha).</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T24"/>
+<cause idref="A6"/>
+<clue>This factor is composed of a DNA-binding protein (ISGF3 gamma), which normally is present in the cytoplasm, and other IFN-alpha-<clueType>activated</clueType> <corefTheme>proteins</corefTheme> which preexist as latent cytoplasmic precursors (ISGF3 alpha).</clue>
+</event>
+<sentence id="S5">We have found that <term id="A7" sem="DNA_family_or_group">ISG</term> expression in the <term id="T25" lex="monocytic_U937_cell_line" sem="Cell_cultured">monocytic U937 cell line</term> differs from most <term id="T26" lex="cell_line" sem="Cell_cultured">cell lines</term> previously examined.</sentence>
+<event id="E17">
+<type class="Gene_expression"/>
+<theme idref="A7"/>
+<clue>We have <clueKT>found</clueKT> that ISG <clueType>expression</clueType> <clueLoc>in the monocytic U937 cell line</clueLoc> differs from most cell lines previously examined.</clue>
+</event>
+<sentence id="S6"><term id="T27" lex="U937_cell" sem="Cell_cultured">U937 cells</term> express both <term id="T28" lex="type_I_and_type_II_IFN_receptor" sem="Protein_family_or_group"><term id="T29" lex="type_I_IFN_receptor" sem="Protein_family_or_group">type I</term> and <term id="T30" lex="type_II_IFN_receptor" sem="Protein_family_or_group">type II <term id="A8" sem="Protein_molecule">IFN receptors</term></term></term>, but only <term id="T31" lex="IFN-alpha" sem="Protein_molecule">IFN-alpha</term> is capable of inducing <term id="T32" lex="antiviral_protection" sem="Other">antiviral protection</term> in these cells.</sentence>
+<event id="E18">
+<type class="Gene_expression"/>
+<theme idref="T29" idref1="A8"/>
+<clue><clueLoc>U937 cells</clueLoc> <clueType>express</clueType> both type I and type II IFN receptors, but only IFN-alpha is capable of inducing antiviral protection in these cells.</clue>
+</event>
+<event id="E19">
+<type class="Gene_expression"/>
+<theme idref="T30"/>
+<clue><clueLoc>U937 cells</clueLoc> <clueType>express</clueType> both type I and type II IFN receptors, but only IFN-alpha is capable of inducing antiviral protection in these cells.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="T32"/>
+<cause idref="T31"/>
+<clue><clueLoc>U937 cells</clueLoc> express both type I and type II IFN receptors, but only IFN-alpha is <clueKT><clueCL>capable</clueCL></clueKT> of <clueType>inducing</clueType> antiviral protection in these cells.</clue>
+</event>
+<sentence id="S7">Pretreatment with <term id="T33" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term> potentiates the <term id="T34" lex="IFN-alpha-induced_protection" sem="Other"><term id="T35" lex="IFN-alpha" sem="Protein_molecule">IFN-alpha</term>-induced <term id="A9" sem="Other">protection</term></term>, but <term id="T36" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term> alone does not have any <term id="T37" lex="antiviral_activity" sem="Other">antiviral activity</term>.</sentence>
+<event KT="Method" id="E21">
+<type class="Artificial_process"/>
+<theme idref="T33"/>
+<clue><clueType>Pretreatment</clueType> <linkTheme>with</linkTheme> IFN-gamma potentiates the IFN-alpha-induced protection, but IFN-gamma alone does not have any antiviral activity.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation"/>
+<theme idref="A9"/>
+<cause idref="T35"/>
+<clue>Pretreatment with IFN-gamma potentiates the IFN-alpha-<clueType>induced</clueType> protection, but IFN-gamma alone does not have any antiviral activity.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation"/>
+<theme idref="E22"/>
+<cause idref="T33"/>
+<clue>Pretreatment with IFN-gamma <clueType>potentiates</clueType> the IFN-alpha-induced protection, but IFN-gamma alone does not have any antiviral activity.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="T37"/>
+<cause idref="T36"/>
+<clue>Pretreatment with IFN-gamma potentiates the IFN-alpha-induced protection, but IFN-gamma alone does <cluePolarity>not</cluePolarity> <clueType>have</clueType> any antiviral activity.</clue>
+</event>
+<sentence id="S8"><term id="T38" lex="ISG15_mRNA_accumulation" sem="Other"><term id="T39" lex="ISG15_mRNA" sem="RNA_molecule">ISG15 mRNA</term> accumulation</term> in <term id="T40" lex="U937_cell" sem="Cell_cultured">U937 cells</term> is not detectable before 6 h of <term id="T41" lex="IFN-alpha_treatment" sem="Other"><term id="T42" lex="IFN-alpha" sem="Protein_molecule">IFN-alpha</term> treatment</term>, peaks at 24 h, and requires <term id="T43" lex="protein_synthesis" sem="Other">protein synthesis</term>.</sentence>
+<event KT="Other" id="E25">
+<type class="Positive_regulation"/>
+<theme idref="T39"/>
+<clue>ISG15 mRNA <clueType>accumulation</clueType> <clueLoc>in U937 cells</clueLoc> is not detectable before 6 h of IFN-alpha treatment, peaks at 24 h, and requires protein synthesis.</clue>
+</event>
+<event KT="Method" id="E26">
+<type class="Artificial_process"/>
+<theme idref="T42"/>
+<clue>ISG15 mRNA accumulation in U937 cells is not detectable before 6 h of IFN-alpha <clueType>treatment</clueType>, peaks at 24 h, and requires protein synthesis.</clue>
+</event>
+<event KT="Analysis" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="E25"/>
+<cause idref="E26"/>
+<clue>ISG15 mRNA accumulation in U937 cells is not <clueType><clueKT>detectable</clueKT></clueType> before 6 h of IFN-alpha treatment, <clueTime>peaks at 24 h</clueTime>, and requires protein synthesis.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation"/>
+<theme idref="E27"/>
+<cause idref="T43"/>
+<clue>ISG15 mRNA accumulation in U937 cells is not detectable before 6 h of IFN-alpha treatment, peaks at 24 h, and <clueType>requires</clueType> protein synthesis.</clue>
+</event>
+<sentence id="S9">Although <term id="T44" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term> alone does not induce <term id="T45" lex="ISG_expression" sem="Other"><term id="A10" sem="DNA_family_or_group">ISG</term> expression</term>, <term id="T46" lex="IFN-gamma_pretreatment" sem="Other"><term id="T47" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term> pretreatment</term> markedly increases and hastens <term id="T48" lex="ISG_expression" sem="Other"><term id="A11" sem="DNA_family_or_group">ISG</term> expression</term> and <term id="T49" lex="transcriptional_induction" sem="Other">transcriptional induction</term>.</sentence>
+<event KT="Other" id="E29">
+<type class="Gene_expression"/>
+<theme idref="A10"/>
+<clue>Although IFN-gamma alone does not induce ISG <clueType>expression</clueType>, IFN-gamma pretreatment markedly increases and hastens ISG expression and transcriptional induction.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E30">
+<type class="Positive_regulation"/>
+<theme idref="E29"/>
+<cause idref="T44"/>
+<clue>Although IFN-gamma alone does <cluePolarity>not</cluePolarity> <clueType>induce</clueType> ISG expression, IFN-gamma pretreatment markedly increases and hastens ISG expression and transcriptional induction.</clue>
+</event>
+<event KT="Method" id="E31">
+<type class="Artificial_process"/>
+<theme idref="T47"/>
+<clue>Although IFN-gamma alone does not induce ISG expression, IFN-gamma <clueType>pretreatment</clueType> markedly increases and hastens ISG expression and transcriptional induction.</clue>
+</event>
+<event id="E32">
+<type class="Gene_expression"/>
+<theme idref="A11"/>
+<clue>Although IFN-gamma alone does not induce ISG expression, IFN-gamma pretreatment markedly increases and hastens ISG <clueType>expression</clueType> and transcriptional induction.</clue>
+</event>
+<event Manner="High" id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E32"/>
+<clue>Although IFN-gamma alone does not induce ISG expression, IFN-gamma pretreatment <clueManner>markedly</clueManner> <clueType>increases</clueType> and hastens ISG expression and transcriptional induction.</clue>
+</event>
+<event Manner="High" id="E34">
+<type class="Positive_regulation"/>
+<theme idref="E32"/>
+<clue>Although IFN-gamma alone does not induce ISG expression, IFN-gamma pretreatment <clueManner>markedly</clueManner> increases and <clueType>hastens</clueType> ISG expression and transcriptional induction.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation"/>
+<theme idref="A11"/>
+<clue>Although IFN-gamma alone does not induce ISG expression, IFN-gamma pretreatment markedly increases and hastens ISG expression and <clueType>transcriptional induction</clueType>.</clue>
+</event>
+<event Manner="High" id="E36">
+<type class="Positive_regulation"/>
+<theme idref="E35"/>
+<clue>Although IFN-gamma alone does not induce ISG expression, IFN-gamma pretreatment <clueManner>markedly</clueManner> <clueType>increases</clueType> and hastens ISG expression and transcriptional induction.</clue>
+</event>
+<event Manner="High" id="E37">
+<type class="Positive_regulation"/>
+<theme idref="E35"/>
+<clue>Although IFN-gamma alone does not induce ISG expression, IFN-gamma pretreatment <clueManner>markedly</clueManner> increases and <clueType>hastens</clueType> ISG expression and transcriptional induction.</clue>
+</event>
+<sentence id="S10"><term id="T50" lex="nuclear_extract" sem="Cell_component">Nuclear extracts</term> assayed for the presence of <term id="T51" lex="ISRE_binding_factor" sem="Protein_family_or_group"><term id="T52" lex="ISRE" sem="DNA_domain_or_region">ISRE</term> binding factors</term> by <term id="T53" lex="electrophoretic_mobility_shift_assay" sem="Other">electrophoretic mobility shift assays</term> show that <term id="T54" lex="ISGF3" sem="Protein_molecule">ISGF3</term> is induced by <term id="T55" lex="IFN-alpha" sem="Protein_molecule">IFN-alpha</term> within 6 h from undetectable basal levels in untreated <term id="T56" lex="U937_cell" sem="Cell_cultured">U937 cells</term>.</sentence>
+<event KT="Other" id="E38" uncertainty="doubtful">
+<type class="Gene_expression"/>
+<theme idref="T51"/>
+<clue><clueLoc>Nuclear extracts</clueLoc> assayed for the <clueType>presence</clueType> <linkTheme>of</linkTheme> ISRE binding factors <clueExperiment>by electrophoretic mobility shift assays</clueExperiment> show that ISGF3 is induced by IFN-alpha within 6 h from undetectable basal levels in untreated U937 cells.</clue>
+</event>
+<event KT="Analysis" id="E39">
+<type class="Positive_regulation"/>
+<theme idref="T54"/>
+<cause idref="T55"/>
+<clue>Nuclear extracts assayed for the presence of ISRE binding factors by electrophoretic mobility shift assays <clueKT>show</clueKT> that ISGF3 is <clueType>induced</clueType> <linkCause>by</linkCause> IFN-alpha <clueTime>within 6 h</clueTime> from undetectable basal levels <clueLoc>in untreated U937 cells.</clueLoc></clue>
+</event>
+<sentence id="S11">Activation of <term id="T57" lex="ISGF3_alpha" sem="Protein_molecule">ISGF3 alpha</term>, the latent component of <term id="T58" lex="ISGF3" sem="Protein_molecule">ISGF3</term>, occurs rapidly.</sentence>
+<event Manner="High" id="E40">
+<type class="Positive_regulation"/>
+<theme idref="T57"/>
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> ISGF3 alpha, the latent component of ISGF3, occurs <clueManner>rapidly</clueManner>.</clue>
+</event>
+<sentence id="S12">However, the increase in <term id="T59" lex="ISGF3" sem="Protein_molecule">ISGF3</term> activity ultimately correlates with the accumulation of <term id="T60" lex="ISGF3_gamma" sem="Protein_molecule">ISGF3 gamma</term> induced by <term id="T61" lex="IFN-alpha" sem="Protein_molecule">IFN-alpha</term> or <term id="T62" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term>.</sentence>
+<event KT="Other" id="E41">
+<type class="Positive_regulation"/>
+<theme idref="T59"/>
+<clue>However, the <clueType>increase</clueType> <linkTheme>in</linkTheme> ISGF3 activity ultimately correlates with the accumulation of ISGF3 gamma induced by IFN-alpha or IFN-gamma.</clue>
+</event>
+<event KT="Other" id="E42">
+<type class="Positive_regulation"/>
+<theme idref="T60"/>
+<cause idref="T61"/>
+<clue>However, the increase in ISGF3 activity ultimately correlates with the <clueType>accumulation</clueType> <linkTheme>of</linkTheme> ISGF3 gamma induced <linkCause>by</linkCause> IFN-alpha or IFN-gamma.</clue>
+</event>
+<event KT="Other" id="E43">
+<type class="Positive_regulation"/>
+<theme idref="T60"/>
+<cause idref="T62"/>
+<clue>However, the increase in ISGF3 activity ultimately correlates with the <clueType>accumulation</clueType> <linkTheme>of</linkTheme> ISGF3 gamma induced <linkCause>by</linkCause> IFN-alpha or IFN-gamma.</clue>
+</event>
+<event KT="Analysis" id="E44">
+<type class="Correlation"/>
+<theme idref="E41"/>
+<theme idref="E42"/>
+<clue>However, the increase in ISGF3 activity ultimately <clueType><clueKT>correlates</clueKT></clueType> <linkTheme>with</linkTheme> the accumulation of ISGF3 gamma induced by IFN-alpha or IFN-gamma.</clue>
+</event>
+<event KT="Analysis" id="E45">
+<type class="Correlation"/>
+<theme idref="E41"/>
+<theme idref="E43"/>
+<clue>However, the increase in ISGF3 activity ultimately <clueType><clueKT>correlates</clueKT></clueType> <linkTheme>with</linkTheme> the accumulation of ISGF3 gamma induced by IFN-alpha or IFN-gamma.</clue>
+</event>
+<sentence id="S13">(ABSTRACT TRUNCATED AT 250 WORDS)</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

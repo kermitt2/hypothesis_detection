@@ -1,0 +1,12 @@
+T17	Adverse_effect 47 51	with
+T19	Adverse_effect 306 315	developed
+T20	Potential_therapeutic_effect 435 444	treatment
+T22	Potential_therapeutic_effect 562 569	inhibit
+T15	Potential_therapeutic_effect 236 241	treat
+T23	Adverse_effect 174 183	resulting
+E1	Adverse_effect:T17 has_agent:T3 affects:T1
+E2	Adverse_effect:T19 has_agent:T8 affects:T6 has_subject:T18
+E3	Potential_therapeutic_effect:T20 affects:T9 has_agent:T8 has_subject:T18
+E6	Potential_therapeutic_effect:T22 has_agent:T10 affects:T21
+E7	Potential_therapeutic_effect:T15 affects:T5 has_agent:T14
+E8	Adverse_effect:T23 has_agent:T14 affects:T4

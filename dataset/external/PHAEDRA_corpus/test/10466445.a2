@@ -1,0 +1,13 @@
+T15	Potential_therapeutic_effect 202 207	treat
+T2	Potential_therapeutic_effect 21 30	treatment
+T17	Potential_therapeutic_effect 1113 1130	therapeutic value
+T33	Potential_therapeutic_effect 298 303	given
+R1	is_equivalent Arg1:T5 Arg2:T12
+R2	Subject_Disorder Arg1:T20 Arg2:T3
+R3	Subject_Disorder Arg1:T18 Arg2:T19
+R4	Subject_Disorder Arg1:T18 Arg2:T29
+R5	Subject_Disorder Arg1:T18 Arg2:T25
+E1	Potential_therapeutic_effect:T15 affects:T5 has_agent:T4
+E2	Potential_therapeutic_effect:T2 has_agent:T1 affects:T3 has_subject:T20
+E4	Potential_therapeutic_effect:T17 has_agent:T13 affects:T7
+E7	Potential_therapeutic_effect:T33 has_agent:T6 has_subject:T18

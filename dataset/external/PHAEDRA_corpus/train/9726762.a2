@@ -1,0 +1,10 @@
+T14	DDI 26 37	interaction
+T15	Adverse_effect 38 47	resulting
+T16	Adverse_effect 151 160	developed
+T18	Adverse_effect 410 416	result
+E3	DDI:T14 has_participant:T1 has_participant:T2
+E1	Combination:T10 has_participant:T7 has_participant:T4
+E4	Adverse_effect:T15 has_agent:E3 affects:T3
+E5	Adverse_effect:T16 affects:T5 affects:T6 has_agent:E1
+E6	Adverse_effect:T18 affects:T8 has_cue:T17 has_agent:T9
+A1	Speculated E6

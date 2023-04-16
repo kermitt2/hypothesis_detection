@@ -1,0 +1,32 @@
+T29	Adverse_effect 39 41	in
+T47	Adverse_effect 196 213	decrease the risk
+T50	Potential_therapeutic_effect 292 301	receiving
+T57	DDI 2038 2049	interaction
+T60	Adverse_effect 1127 1130	had
+T61	Adverse_effect 1381 1388	reduced
+T63	Adverse_effect 1509 1512	had
+T64	Adverse_effect 1845 1854	increased
+T68	Adverse_effect 1948 1955	reduced
+T70	Adverse_effect 2007 2010	was
+T74	Adverse_effect 2178 2184	due to
+R1	is_equivalent Arg1:T5 Arg2:T7
+R2	Coreference Arg1:T49 Arg2:T4
+E1	Combination:T40 has_participant:T9 has_participant:T10 has_participant:T11
+E3	Combination:T46 has_participant:T1 has_participant:T2
+E6	DDI:T57 has_participant:T35 has_participant:T36
+E7	Combination:T40 has_participant:T9 has_participant:T39 has_participant:T11
+E13	Combination:T65 has_participant:T32 has_participant:T33 has_participant:T21
+E2	Adverse_effect:T29 has_agent:T1 affects:T3 has_agent:E3
+E4	Adverse_effect:T47 has_cue:T48 has_agent:T5 affects:T49
+E5	Potential_therapeutic_effect:T50 has_agent:T19
+E9	Adverse_effect:T60 has_subject:T43 affects:T59 has_agent:T18
+E10	Adverse_effect:T61 affects:T22 has_agent:T23
+E11	Adverse_effect:T63 has_subject:T55 affects:T62 has_agent:T26
+E12	Adverse_effect:T64 affects:T30 has_cue:T66 has_agent:T31
+E15	Adverse_effect:T68 has_agent:E13 affects:T34
+E16	Adverse_effect:T70 affects:T69 has_agent:E6 has_cue:T73
+E17	Adverse_effect:T74 has_agent:T24 affects:T72 has_cue:T6
+A1	Speculated E4
+A4	Speculated E12
+A7	Negated E16
+A2	Speculated E17

@@ -1,0 +1,17 @@
+T19	DDI 22 33	interaction
+T23	DDI 337 348	interaction
+T35	DDI 1509 1520	interaction
+T55	Potential_therapeutic_effect 874 882	starting
+R2	Subject_Disorder Arg1:T10 Arg2:T3
+R3	Subject_Disorder Arg1:T10 Arg2:T16
+R4	Subject_Disorder Arg1:T47 Arg2:T15
+R5	Subject_Disorder Arg1:T26 Arg2:T17
+R6	Subject_Disorder Arg1:T26 Arg2:T29
+R10	Coreference Arg1:T61 Arg2:T26
+E2	DDI:T19 has_participant:T1 has_participant:T2 has_subject:T10
+E3	DDI:T23 has_cue:T40 has_participant:T13 has_participant:T14 has_subject:T47
+E4	DDI:T35 has_cue:T37 has_participant:T43 has_participant:T44
+E5	Combination:T48 has_participant:T21 has_participant:T22 has_participant:T28
+E8	Potential_therapeutic_effect:T55 has_agent:T25 has_subject:T61
+A1	Speculated E4
+A2	Speculated E3

@@ -1,0 +1,397 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8383677" created="30/10/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8383677</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Stimulation of <term id="T1" lex="interleukin-1_alpha" sem="Protein_molecule">interleukin-1 alpha</term> and <term id="T2" lex="interleukin-1_beta_production" sem="Other"><term id="T3" lex="interleukin-1_beta" sem="Protein_molecule">interleukin-1 beta</term> production</term> in <term id="T4" lex="human_monocyte" sem="Cell_natural">human monocytes</term> by <cons id="T5" lex="(AND protein_phosphatase_1 protein_phosphatase_2A_inhibitor)" sem="(AND Organic_compound_other Organic_compound_other)"><frag id="F1">protein phosphatase</frag> <frag id="F2">1</frag> and <frag id="F3">2A</frag> <frag id="F4">inhibitors</frag></cons>.</sentence>
+<event KT="Other" id="E1">
+<type class="Gene_expression"/>
+<theme idref="T1"/>
+<clue>Stimulation of interleukin-1 alpha and interleukin-1 beta <clueType>production</clueType> <clueLoc>in human monocytes</clueLoc> by protein phosphatase 1 and 2A inhibitors.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Gene_expression"/>
+<theme idref="T3"/>
+<clue>Stimulation of interleukin-1 alpha and interleukin-1 beta <clueType>production</clueType> <clueLoc>in human monocytes</clueLoc> by protein phosphatase 1 and 2A inhibitors.</clue>
+</event>
+<event KT="Investigation" id="E3">
+<type class="Negative_regulation"/>
+<theme idref="E1"/>
+<cause idref="F2" idref1="F2" idref2="F4"/>
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> interleukin-1 alpha and interleukin-1 beta production in human monocytes <linkCause>by</linkCause> protein phosphatase 1 and 2A inhibitors.</clue>
+</event>
+<event KT="Investigation" id="E4">
+<type class="Negative_regulation"/>
+<theme idref="E2"/>
+<cause idref="F1" idref1="F2" idref2="F4"/>
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> interleukin-1 alpha and interleukin-1 beta production in human monocytes <linkCause>by</linkCause> protein phosphatase 1 and 2A inhibitors.</clue>
+</event>
+<event KT="Investigation" id="E5">
+<type class="Negative_regulation"/>
+<theme idref="E1"/>
+<cause idref="F1" idref1="F3" idref2="F4"/>
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> interleukin-1 alpha and interleukin-1 beta production in human monocytes <linkCause>by</linkCause> protein phosphatase 1 and 2A inhibitors.</clue>
+</event>
+<event KT="Investigation" id="E6">
+<type class="Negative_regulation"/>
+<theme idref="E2"/>
+<cause idref="F1" idref1="F3" idref2="F4"/>
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> interleukin-1 alpha and interleukin-1 beta production in human monocytes <linkCause>by</linkCause> protein phosphatase 1 and 2A inhibitors.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Negative_regulation"/>
+<theme idref="F1" idref1="F2"/>
+<clue>Stimulation of interleukin-1 alpha and interleukin-1 beta production in human monocytes by protein phosphatase 1 and 2A <clueType>inhibitors</clueType>.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Negative_regulation"/>
+<theme idref="F1" idref1="F3"/>
+<clue>Stimulation of interleukin-1 alpha and interleukin-1 beta production in human monocytes by protein phosphatase 1 and 2A <clueType>inhibitors</clueType>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><cons id="T6" lex="(AND protein_phosphatase_1 protein_phosphatase_2A)" sem="(AND Protein_molecule Protein_molecule)"><frag id="F5"><term id="A5" sem="Protein_molecule">Protein phosphatases</term></frag> <frag id="F6"><term id="A6" sem="Protein_molecule">1</term></frag> and <frag id="F7"><term id="A7" sem="Protein_molecule">2A</term></frag></cons> are important in regulating <term id="A8" sem="Other">cellular functions</term> by controlling the phosphorylation state of <term id="A9" sem="Protein_family_or_group">their substrates</term>.</sentence>
+<event KT="Other" id="E9">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="A9"/>
+<clue>Protein phosphatases 1 and 2A are important in regulating cellular functions by controlling the <clueType>phosphorylation state</clueType> <linkTheme>of</linkTheme> their substrates.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Regulation"/>
+<theme idref="E9"/>
+<cause idref="A5" idref1="A6"/>
+<clue>Protein phosphatases 1 and 2A are important in regulating cellular functions by <clueType>controlling</clueType> the phosphorylation state of their substrates.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Regulation"/>
+<theme idref="E9"/>
+<cause idref="A5" idref1="A7"/>
+<clue>Protein phosphatases 1 and 2A are important in regulating cellular functions by <clueType>controlling</clueType> the phosphorylation state of their substrates.</clue>
+</event>
+<event KT="Fact" id="E12">
+<type class="Regulation"/>
+<theme idref="A8"/>
+<cause idref="E10"/>
+<clue>Protein phosphatases 1 and 2A are <clueType>important in regulating</clueType> cellular functions <linkCause>by</linkCause> controlling the phosphorylation state of their substrates.</clue>
+</event>
+<event KT="Fact" id="E13">
+<type class="Regulation"/>
+<theme idref="A8"/>
+<cause idref="E11"/>
+<clue>Protein phosphatases 1 and 2A are <clueType>important in regulating</clueType> cellular functions <linkCause>by</linkCause> controlling the phosphorylation state of their substrates.</clue>
+</event>
+<sentence id="S3">In <term id="T7" lex="human_monocyte" sem="Cell_natural">human monocytes</term>, the inhibitors of these <term id="T8" lex="phosphatase" sem="Protein_family_or_group">phosphatases</term>, <term id="A11" sem="Organic_compound_other">okadaic acid</term> and <term id="A12" sem="Organic_compound_other">calyculin A</term>, were found to increase the <term id="A101" sem="RNA_molecule">mRNA</term> accumulation and cytokine production of <term id="T9" lex="interleukin-1_beta" sem="Protein_molecule">interleukin-1 beta</term> and <term id="T10" lex="interleukin-1_alpha" sem="Protein_molecule">interleukin-1 alpha</term>.</sentence>
+<event id="E14">
+<type class="Negative_regulation"/>
+<theme idref="A5" idref1="A6"/>
+<cause idref="A11"/>
+<clue>In human monocytes, the <clueType>inhibitors</clueType> <linkTheme>of</linkTheme> <corefTheme>these phosphatases</corefTheme>, okadaic acid and calyculin A, were found to increase the mRNA accumulation and cytokine production of interleukin-1 beta and interleukin-1 alpha.</clue>
+</event>
+<event id="E15">
+<type class="Negative_regulation"/>
+<theme idref="A5" idref1="A7"/>
+<cause idref="A11"/>
+<clue>In human monocytes, the <clueType>inhibitors</clueType> <linkTheme>of</linkTheme> <corefTheme>these phosphatases</corefTheme>, okadaic acid and calyculin A, were found to increase the mRNA accumulation and cytokine production of interleukin-1 beta and interleukin-1 alpha.</clue>
+</event>
+<event id="E16">
+<type class="Negative_regulation"/>
+<theme idref="A5" idref1="A6"/>
+<cause idref="A12"/>
+<clue>In human monocytes, the <clueType>inhibitors</clueType> <linkTheme>of</linkTheme> <corefTheme>these phosphatases</corefTheme>, okadaic acid and calyculin A, were found to increase the mRNA accumulation and cytokine production of interleukin-1 beta and interleukin-1 alpha.</clue>
+</event>
+<event id="E17">
+<type class="Negative_regulation"/>
+<theme idref="A5" idref1="A7"/>
+<cause idref="A12"/>
+<clue>In human monocytes, the <clueType>inhibitors</clueType> <linkTheme>of</linkTheme> <corefTheme>these phosphatases</corefTheme>, okadaic acid and calyculin A, were found to increase the mRNA accumulation and cytokine production of interleukin-1 beta and interleukin-1 alpha.</clue>
+</event>
+<event id="E118">
+<type class="Positive_regulation"/>
+<theme idref="T9" idref1="A101"/>
+<clue>In human monocytes, the inhibitors of these phosphatases, okadaic acid and calyculin A, were found to increase the mRNA <clueType>accumulation</clueType> and cytokine production <linkTheme>of</linkTheme> interleukin-1 beta and interleukin-1 alpha.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation"/>
+<theme idref="T10" idref1="A101"/>
+<clue>In human monocytes, the inhibitors of these phosphatases, okadaic acid and calyculin A, were found to increase the mRNA <clueType>accumulation</clueType> and cytokine production <linkTheme>of</linkTheme> interleukin-1 beta and interleukin-1 alpha.</clue>
+</event>
+<event id="E19">
+<type class="Gene_expression"/>
+<theme idref="T9"/>
+<clue>In human monocytes, the inhibitors of these phosphatases, okadaic acid and calyculin A, were found to increase the mRNA accumulation and <clueType>cytokine production</clueType> <linkTheme>of</linkTheme> interleukin-1 beta and interleukin-1 alpha.</clue>
+</event>
+<event id="E20">
+<type class="Gene_expression"/>
+<theme idref="T10"/>
+<clue>In human monocytes, the inhibitors of these phosphatases, okadaic acid and calyculin A, were found to increase the mRNA accumulation and <clueType>cytokine production</clueType> <linkTheme>of</linkTheme> interleukin-1 beta and interleukin-1 alpha.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E118"/>
+<cause idref="A11"/>
+<clue><clueLoc>In human monocytes</clueLoc>, the inhibitors of these phosphatases, okadaic acid and calyculin A, were <clueKT>found</clueKT> to <clueType>increase</clueType> the mRNA accumulation and cytokine production of interleukin-1 beta and interleukin-1 alpha.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="A11"/>
+<clue><clueLoc>In human monocytes</clueLoc>, the inhibitors of these phosphatases, okadaic acid and calyculin A, were <clueKT>found</clueKT> to <clueType>increase</clueType> the mRNA accumulation and cytokine production of interleukin-1 beta and interleukin-1 alpha.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="A11"/>
+<clue><clueLoc>In human monocytes</clueLoc>, the inhibitors of these phosphatases, okadaic acid and calyculin A, were <clueKT>found</clueKT> to <clueType>increase</clueType> the mRNA accumulation and cytokine production of interleukin-1 beta and interleukin-1 alpha.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="A11"/>
+<clue><clueLoc>In human monocytes</clueLoc>, the inhibitors of these phosphatases, okadaic acid and calyculin A, were <clueKT>found</clueKT> to <clueType>increase</clueType> the mRNA accumulation and cytokine production of interleukin-1 beta and interleukin-1 alpha.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation"/>
+<theme idref="E118"/>
+<cause idref="A12"/>
+<clue><clueLoc>In human monocytes</clueLoc>, the inhibitors of these phosphatases, okadaic acid and calyculin A, were <clueKT>found</clueKT> to <clueType>increase</clueType> the mRNA accumulation and cytokine production of interleukin-1 beta and interleukin-1 alpha.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="A12"/>
+<clue><clueLoc>In human monocytes</clueLoc>, the inhibitors of these phosphatases, okadaic acid and calyculin A, were <clueKT>found</clueKT> to <clueType>increase</clueType> the mRNA accumulation and cytokine production of interleukin-1 beta and interleukin-1 alpha.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="A12"/>
+<clue><clueLoc>In human monocytes</clueLoc>, the inhibitors of these phosphatases, okadaic acid and calyculin A, were <clueKT>found</clueKT> to <clueType>increase</clueType> the mRNA accumulation and cytokine production of interleukin-1 beta and interleukin-1 alpha.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="A12"/>
+<clue><clueLoc>In human monocytes</clueLoc>, the inhibitors of these phosphatases, okadaic acid and calyculin A, were <clueKT>found</clueKT> to <clueType>increase</clueType> the mRNA accumulation and cytokine production of interleukin-1 beta and interleukin-1 alpha.</clue>
+</event>
+<sentence id="S4">The increased <term id="T11" sem="Other"><term id="T12" lex="mRNA" sem="RNA_family_or_group">mRNA</term> accumulation</term> was found to be primarily because of the increase in the <term id="T13" lex="transcription_rate" sem="Other">transcription rate</term> of the <term id="T14" lex="interleukin-1_gene" sem="DNA_family_or_group">interleukin-1 genes</term>.</sentence>
+<event id="E29">
+<type class="Transcription"/>
+<theme idref="T14"/>
+<clue>The increased mRNA accumulation was found to be primarily because of the increase in the <clueType>transcription rate</clueType> <linkTheme>of</linkTheme> the interleukin-1 genes.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation"/>
+<theme idref="E29"/>
+<clue>The increased mRNA accumulation was found to be primarily because of the <clueType>increase</clueType> <linkTheme>in</linkTheme> the transcription rate of the interleukin-1 genes.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="E30"/>
+<clue><corefTheme>The increased mRNA accumulation</corefTheme> was <clueKT>found</clueKT> to be primarily <linkCause>because of</linkCause> the increase in the transcription rate of the interleukin-1 genes.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E32">
+<type class="Positive_regulation"/>
+<theme idref="E22"/>
+<cause idref="E30"/>
+<clue><corefTheme>The increased mRNA accumulation</corefTheme> was <clueKT>found</clueKT> to be primarily <linkCause>because of</linkCause> the increase in the transcription rate of the interleukin-1 genes.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E25"/>
+<cause idref="E30"/>
+<clue><corefTheme>The increased mRNA accumulation</corefTheme> was <clueKT>found</clueKT> to be primarily <linkCause>because of</linkCause> the increase in the transcription rate of the interleukin-1 genes.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E34">
+<type class="Positive_regulation"/>
+<theme idref="E26"/>
+<cause idref="E30"/>
+<clue><corefTheme>The increased mRNA accumulation</corefTheme> was <clueKT>found</clueKT> to be primarily <linkCause>because of</linkCause> the increase in the transcription rate of the interleukin-1 genes.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S5">Stimulation of <term id="T15" lex="interleukin-1_gene_transcription" sem="Other"><term id="T16" lex="interleukin-1_gene" sem="DNA_molecule">interleukin-1 gene</term> transcription</term> may be caused by the stimulation of <term id="T17" lex="transcription_factor_activity" sem="Other"><term id="T18" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> activities</term>, including those of <term id="T19" lex="AP-1" sem="Protein_molecule">AP-1</term>, by these <term id="T20" lex="protein_phosphatase_inhibitor" sem="Organic_compound_other"><term id="T21" lex="protein_phosphatase" sem="Protein_family_or_group">protein phosphatase</term> inhibitors</term>.</sentence>
+<event KT="Other" id="E35">
+<type class="Transcription"/>
+<theme idref="T16"/>
+<clue>Stimulation of interleukin-1 gene <clueType>transcription</clueType> may be caused by the stimulation of transcription factor activities, including those of AP-1, by these protein phosphatase inhibitors.</clue>
+<comment>NER T20 MOD</comment></event>
+<event KT="Other" id="E36">
+<type class="Positive_regulation"/>
+<theme idref="T18"/>
+<cause idref="A11"/>
+<clue>Stimulation of interleukin-1 gene transcription may be caused by the <clueType>stimulation</clueType> <linkTheme>of</linkTheme> transcription factor activities, including those of AP-1, <linkCause>by</linkCause> <corefCause>these protein phosphatase inhibitors</corefCause>.</clue>
+</event>
+<event KT="Other" id="E37">
+<type class="Positive_regulation"/>
+<theme idref="T18"/>
+<cause idref="A12"/>
+<clue>Stimulation of interleukin-1 gene transcription may be caused by the <clueType>stimulation</clueType> <linkTheme>of</linkTheme> transcription factor activities, including those of AP-1, <linkCause>by</linkCause> <corefCause>these protein phosphatase inhibitors</corefCause>.</clue>
+</event>
+<event KT="Other" id="E38">
+<type class="Positive_regulation"/>
+<theme idref="T19"/>
+<cause idref="A11"/>
+<clue>Stimulation of interleukin-1 gene transcription may be caused by the <clueType>stimulation</clueType> <linkTheme>of</linkTheme> <corefTheme>transcription factor</corefTheme> activities, including those of AP-1, <linkCause>by</linkCause> <corefCause>these protein phosphatase inhibitors</corefCause>.</clue>
+</event>
+<event KT="Other" id="E39">
+<type class="Positive_regulation"/>
+<theme idref="T19"/>
+<cause idref="A12"/>
+<clue>Stimulation of interleukin-1 gene transcription may be caused by the <clueType>stimulation</clueType> <linkTheme>of</linkTheme> <corefTheme>transcription factor</corefTheme> activities, including those of AP-1, <linkCause>by</linkCause> <corefCause>these protein phosphatase inhibitors</corefCause>.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E40" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E35"/>
+<cause idref="E36"/>
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> interleukin-1 gene transcription <clueKT><clueCL>may</clueCL></clueKT> be <linkCause>caused by</linkCause> the stimulation of transcription factor activities, including those of AP-1, by these protein phosphatase inhibitors.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E41" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E35"/>
+<cause idref="E37"/>
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> interleukin-1 gene transcription <clueKT><clueCL>may</clueCL></clueKT> be <linkCause>caused by</linkCause> the stimulation of transcription factor activities, including those of AP-1, by these protein phosphatase inhibitors.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E42" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E35"/>
+<cause idref="E38"/>
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> interleukin-1 gene transcription <clueKT><clueCL>may</clueCL></clueKT> be <linkCause>caused by</linkCause> the stimulation of transcription factor activities, including those of AP-1, by these protein phosphatase inhibitors.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E43" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E35"/>
+<cause idref="E39"/>
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> interleukin-1 gene transcription <clueKT><clueCL>may</clueCL></clueKT> be <linkCause>caused by</linkCause> the stimulation of transcription factor activities, including those of AP-1, by these protein phosphatase inhibitors.</clue>
+</event>
+<sentence id="S6"><term id="A13" sem="Organic_compound_other">Okadaic acid</term> increased the synthesis of the <term id="T22" lex="interleukin-1_beta" sem="Protein_molecule">interleukin-1 beta</term> <term id="A14" sem="Protein_molecule">precursor</term> and <term id="A114" sem="Protein_molecule">mature forms</term> and their secretion.</sentence>
+<event id="E44">
+<type class="Translation"/>
+<theme idref="T22" idref1="A14"/>
+<clue>Okadaic acid increased the <clueType>synthesis</clueType> <linkTheme>of</linkTheme> the interleukin-1 beta precursor and mature forms and their secretion.</clue>
+</event>
+<event id="E45">
+<type class="Protein_processing"/>
+<theme idref="T22"/>
+<clue>Okadaic acid increased the <clueType>synthesis</clueType> <linkTheme>of</linkTheme> the interleukin-1 beta precursor and <clueType>mature forms</clueType> and their secretion.</clue>
+</event>
+<event id="E46">
+<type class="Localization"/>
+<theme idref="T22"/>
+<clue>Okadaic acid increased the synthesis of the interleukin-1 beta precursor and mature forms and <corefTheme>their</corefTheme> <clueType>secretion</clueType>.</clue>
+</event>
+<event id="E47">
+<type class="Positive_regulation"/>
+<theme idref="E44"/>
+<cause idref="A13"/>
+<clue>Okadaic acid <clueType>increased</clueType> the synthesis of the interleukin-1 beta precursor and mature forms and their secretion.</clue>
+</event>
+<event id="E48">
+<type class="Positive_regulation"/>
+<theme idref="E45"/>
+<cause idref="A13"/>
+<clue>Okadaic acid <clueType>increased</clueType> the synthesis of the interleukin-1 beta precursor and mature forms and their secretion.</clue>
+</event>
+<event id="E49">
+<type class="Positive_regulation"/>
+<theme idref="E46"/>
+<cause idref="A13"/>
+<clue>Okadaic acid <clueType>increased</clueType> the synthesis of the interleukin-1 beta precursor and mature forms and their secretion.</clue>
+</event>
+<sentence id="S7">This increased processing and secretion correlated with the stimulation of <term id="T23" lex="IL-1_beta_convertase_mRNA_accumulation" sem="Other"><term id="T24" lex="IL-1_beta_convertase_mRNA" sem="RNA_molecule"><term id="T25" lex="IL-1_beta_convertase" sem="Protein_molecule">IL-1 beta convertase</term> mRNA</term> accumulation</term>.</sentence>
+<event KT="Other" id="E50">
+<type class="Positive_regulation"/>
+<theme idref="T24"/>
+<clue>This increased processing and secretion correlated with the stimulation of IL-1 beta convertase mRNA <clueType>accumulation</clueType>.</clue>
+</event>
+<event KT="Other" id="E51">
+<type class="Positive_regulation"/>
+<theme idref="E50"/>
+<clue>This increased processing and secretion correlated with the <clueType>stimulation</clueType> <linkTheme>of</linkTheme> IL-1 beta convertase mRNA accumulation.</clue>
+</event>
+<event KT="Analysis" id="E52">
+<type class="Correlation"/>
+<theme idref="E48"/>
+<theme idref="E51"/>
+<clue><corefTheme idref1="E48">This increased processing</corefTheme> and secretion <clueType><clueKT>correlated</clueKT></clueType> <linkTheme>with</linkTheme> the stimulation of IL-1 beta convertase mRNA accumulation.</clue>
+</event>
+<event KT="Analysis" id="E53">
+<type class="Correlation"/>
+<theme idref="E49"/>
+<theme idref="E51"/>
+<clue><corefTheme idref1="E49">This increased</corefTheme> processing and <corefTheme idref1="E49">secretion</corefTheme> <clueType><clueKT>correlated</clueKT></clueType> <linkTheme>with</linkTheme> the stimulation of IL-1 beta convertase mRNA accumulation.</clue>
+</event>
+<sentence id="S8">The stimulation of <term id="T26" lex="interleukin-1_alpha_production" sem="Other"><term id="T27" lex="interleukin-1_alpha" sem="Protein_molecule">interleukin-1 alpha</term> production</term> by <term id="T28" lex="okadaic_acid" sem="Organic_compound_other">okadaic acid</term> was more modest than that of <term id="T29" lex="interleukin-1_beta" sem="Protein_molecule">interleukin-1 beta</term>.</sentence>
+<event id="E54">
+<type class="Gene_expression"/>
+<theme idref="T27"/>
+<clue>The stimulation of interleukin-1 alpha <clueType>production</clueType> by okadaic acid was more modest than that of interleukin-1 beta.</clue>
+</event>
+<event id="E55">
+<type class="Positive_regulation"/>
+<theme idref="E54"/>
+<cause idref="T28"/>
+<clue>The <clueType>stimulation</clueType> <linkTheme>of</linkTheme> interleukin-1 alpha production <linkCause>by</linkCause> okadaic acid was more modest than that of interleukin-1 beta.</clue>
+</event>
+<event id="E56">
+<type class="Gene_expression"/>
+<theme idref="T29"/>
+<clue>The stimulation of interleukin-1 alpha <clueType>production</clueType> by okadaic acid was more modest than that <linkTheme>of</linkTheme> interleukin-1 beta.</clue>
+<comment>CAUTION: that=stimulation of production</comment></event>
+<event id="E57">
+<type class="Positive_regulation"/>
+<theme idref="E54"/>
+<cause idref="T28"/>
+<clue>The <clueType>stimulation</clueType> of interleukin-1 alpha production <linkCause>by</linkCause> okadaic acid was more modest than that <linkTheme>of</linkTheme> interleukin-1 beta.</clue>
+<comment>CAUTION: that=stimulation of production</comment></event>
+<sentence id="S9">However, the phosphorylation of the <term id="T30" lex="precursor_interleukin-1_alpha_cytokine" sem="Protein_molecule">precursor <term id="T31" lex="interleukin-1_alpha" sem="Protein_molecule">interleukin-1 alpha</term> cytokine</term> was increased.</sentence>
+<event id="E58">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T30"/>
+<clue>However, the <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> the precursor interleukin-1 alpha cytokine was increased.</clue>
+</event>
+<event id="E59">
+<type class="Positive_regulation"/>
+<theme idref="E58"/>
+<clue>However, the phosphorylation of the precursor interleukin-1 alpha cytokine was <clueType>increased</clueType>.</clue>
+</event>
+<sentence id="S10">These results show that <cons id="T32" lex="(AND protein_phosphatase_1 protein_phosphatase_2A_inhibitor)" sem="(AND Other Other)"><frag id="F8"><term id="A31" sem="Protein_molecule">protein phosphatase</term></frag> <frag id="F9"><term id="A32" sem="Protein_molecule">1</term></frag> and <frag id="F10"><term id="A33" sem="Protein_molecule">2A</term></frag> <frag id="F11"><term id="A34" sem="Organic_compound_other">inhibitors</term></frag></cons> exert multiple effects on <term id="A35" sem="Protein_family_or_group">cytokine</term> production in <term id="T33" lex="human_monocyte" sem="Cell_natural">human monocytes</term> and suggest that these two <term id="T34" lex="phosphatase" sem="Protein_family_or_group">phosphatases</term> play important roles in regulating <term id="T35" lex="interleukin-1_production" sem="Other"><term id="T36" lex="interleukin-1" sem="Protein_molecule">interleukin-1</term> production</term>.</sentence>
+<event KT="Other" id="E60">
+<type class="Gene_expression"/>
+<theme idref="A35"/>
+<clue>These results show that protein phosphatase 1 and 2A inhibitors exert multiple effects on cytokine <clueType>production</clueType> <clueLoc>in human monocytes</clueLoc> and suggest that these two phosphatases play important roles in regulating interleukin-1 production.</clue>
+</event>
+<event KT="Analysis" id="E61">
+<type class="Regulation"/>
+<theme idref="E60"/>
+<cause idref="A31" idref1="A32" idref2="A34"/>
+<clue>These results <clueKT>show</clueKT> that protein phosphatase 1 and 2A inhibitors <clueType>exert multiple effects</clueType> <linkTheme>on</linkTheme> cytokine production in human monocytes and suggest that these two phosphatases play important roles in regulating interleukin-1 production.</clue>
+</event>
+<event KT="Analysis" id="E62">
+<type class="Regulation"/>
+<theme idref="E60"/>
+<cause idref="A31" idref1="A33" idref2="A34"/>
+<clue>These results <clueKT>show</clueKT> that protein phosphatase 1 and 2A inhibitors <clueType>exert multiple effects</clueType> <linkTheme>on</linkTheme> cytokine production in human monocytes and suggest that these two phosphatases play important roles in regulating interleukin-1 production.</clue>
+</event>
+<event KT="Other" id="E63">
+<type class="Gene_expression"/>
+<theme idref="T36"/>
+<clue>These results show that protein phosphatase 1 and 2A inhibitors exert multiple effects on cytokine production in human monocytes and suggest that these two phosphatases play important roles in regulating interleukin-1 <clueType>production</clueType>.</clue>
+</event>
+<event KT="Other" id="E64">
+<type class="Regulation"/>
+<theme idref="E63"/>
+<clue>These results show that protein phosphatase 1 and 2A inhibitors exert multiple effects on cytokine production in human monocytes and suggest that these two phosphatases play important roles in <clueType>regulating</clueType> interleukin-1 production.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E65">
+<type class="Regulation"/>
+<theme idref="E64"/>
+<cause idref="A31" idref1="A32" idref2="A34"/>
+<clue>These results show that protein phosphatase 1 and 2A inhibitors exert multiple effects on cytokine production in human monocytes and <clueKT><clueCL>suggest</clueCL></clueKT> that <corefCause>these two phosphatases</corefCause> <clueType>play important roles</clueType> <linkTheme>in</linkTheme> regulating interleukin-1 production.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E66">
+<type class="Regulation"/>
+<theme idref="E64"/>
+<cause idref="A31" idref1="A33" idref2="A34"/>
+<clue>These results show that protein phosphatase 1 and 2A inhibitors exert multiple effects on cytokine production in human monocytes and <clueKT><clueCL>suggest</clueCL></clueKT> that <corefCause>these two phosphatases</corefCause> <clueType>play important roles</clueType> <linkTheme>in</linkTheme> regulating interleukin-1 production.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

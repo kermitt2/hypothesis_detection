@@ -1,0 +1,228 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10377075" created="29/06/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10377075</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="PPARalpha_activator" sem="Organic_compound_other">PPARalpha activators</term> inhibit <term id="T2" lex="cytokine-induced_vascular_cell_adhesion_molecule-1_expression" sem="Other"><term id="A1" sem="Protein_family_or_group">cytokine</term>-induced <term id="T3" lex="vascular_cell_adhesion_molecule-1" sem="Protein_molecule">vascular cell adhesion molecule-1</term> expression</term> in <term id="T4" lex="human_endothelial_cell" sem="Cell_natural">human endothelial cells</term>.</sentence>
+<event id="E1">
+<type class="Negative_regulation"/>
+<theme idref="E2"/>
+<cause idref="T1"/>
+<clue>PPARalpha activators <clueType>inhibit</clueType> cytokine-induced vascular cell adhesion molecule-1 expression in human endothelial cells.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="A1"/>
+<clue>PPARalpha activators inhibit cytokine-<clueType>induced</clueType> vascular cell adhesion molecule-1 expression in human endothelial cells.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Gene_expression"/>
+<theme idref="T3"/>
+<clue>PPARalpha activators inhibit cytokine-induced vascular cell adhesion molecule-1 <clueType>expression</clueType> <clueLoc>in human endothelial cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">BACKGROUND: <term id="T5" lex="adhesion_molecule_expression" sem="Other"><term id="A2" sem="Protein_family_or_group">Adhesion molecule</term> expression</term> on the <term id="T6" lex="endothelial_cell_(EC)_surface" sem="Cell_component">endothelial cell (EC) surface</term> is critical for <term id="T7" lex="leukocyte_recruitment" sem="Other"><term id="A3" sem="Cell_natural">leukocyte</term> recruitment</term> to <term id="T8" lex="atherosclerotic_lesion" sem="Multicellular_organism_genetically_modified">atherosclerotic lesions</term>.</sentence>
+<event KT="Other" id="E4">
+<type class="Gene_expression"/>
+<theme idref="A2"/>
+<clue>BACKGROUND: Adhesion molecule <clueType>expression</clueType> <clueLoc>on the endothelial cell (EC) surface</clueLoc> is critical for leukocyte recruitment to atherosclerotic lesions.</clue>
+</event>
+<event KT="Fact" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="E4"/>
+<clue>BACKGROUND: Adhesion molecule expression on the endothelial cell (EC) surface is <clueType>critical</clueType> <linkTheme>for</linkTheme> leukocyte recruitment to atherosclerotic lesions.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Cell_adhesion"/>
+<theme idref="A3"/>
+<theme idref="T8"/>
+<clue>BACKGROUND: Adhesion molecule expression on the endothelial cell (EC) surface is critical for leukocyte <clueType>recruitment</clueType> <linkTheme>to</linkTheme> atherosclerotic lesions.</clue>
+<comment>NER: T8 sem mod, Other_name -&gt; Other_artificial_source</comment></event>
+<sentence id="S3">Better understanding of <term id="T9" lex="transcriptional_regulation" sem="Other">transcriptional regulation</term> of <term id="T10" lex="adhesion_molecule" sem="Protein_family_or_group">adhesion molecules</term> in <term id="T11" lex="EC" sem="Cell_natural">ECs</term> may provide important insight into <term id="T12" lex="plaque_formation" sem="Other">plaque formation</term>.</sentence>
+<event KT="Other" id="E7">
+<type class="Regulation"/>
+<theme idref="T10"/>
+<clue>Better understanding of <clueType>transcriptional regulation</clueType> <linkTheme>of</linkTheme> adhesion molecules <clueLoc>in ECs</clueLoc> may provide important insight into plaque formation.</clue>
+</event>
+<sentence id="S4"><term id="T13" lex="peroxisome_proliferator-activated_receptor-alpha" sem="Protein_molecule"><term id="T14" lex="peroxisome" sem="Cell_natural">Peroxisome</term> proliferator-activated receptor-alpha</term> (<term id="T15" lex="PPARalpha" sem="Protein_molecule">PPARalpha</term>), a member of the <term id="T16" lex="nuclear_receptor_family" sem="Protein_family_or_group">nuclear receptor family</term>, regulates <term id="T17" lex="gene_expression" sem="Other">gene expression</term> in response to certain <term id="T18" lex="fatty_acid" sem="Lipid">fatty acids</term> and <term id="A5" sem="Organic_compound_other">fibric acid derivatives</term>.</sentence>
+<event KT="Fact" id="E8">
+<type class="Regulation"/>
+<theme idref="T17"/>
+<cause idref="E10"/>
+<clue>Peroxisome proliferator-activated receptor-alpha (PPARalpha), a member of the nuclear receptor family, <clueType>regulates</clueType> gene expression in response to certain fatty acids and fibric acid derivatives.</clue>
+</event>
+<event KT="Fact" id="E9">
+<type class="Regulation"/>
+<theme idref="T17"/>
+<cause idref="E11"/>
+<clue>Peroxisome proliferator-activated receptor-alpha (PPARalpha), a member of the nuclear receptor family, <clueType>regulates</clueType> gene expression in response to certain fatty acids and fibric acid derivatives.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Regulation"/>
+<theme idref="T15"/>
+<cause idref="T18"/>
+<clue>Peroxisome proliferator-activated receptor-alpha (PPARalpha), a member of the nuclear receptor family, regulates gene expression <linkCause>in response to</linkCause> certain fatty acids and fibric acid derivatives.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Other" id="E11">
+<type class="Regulation"/>
+<theme idref="T15"/>
+<cause idref="A5"/>
+<clue>Peroxisome proliferator-activated receptor-alpha (PPARalpha), a member of the nuclear receptor family, regulates gene expression <linkCause>in response to</linkCause> certain fatty acids and fibric acid derivatives.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S5">The present study investigated <term id="T19" lex="PPARalpha_expression" sem="Other"><term id="T20" lex="PPARalpha" sem="Protein_molecule">PPARalpha</term> expression</term> in <term id="T21" lex="human_EC" sem="Cell_natural">human <term id="T22" lex="EC" sem="Cell_natural">ECs</term></term> and their regulation of <term id="T23" lex="vascular_cell_adhesion_molecule-1" sem="Protein_molecule">vascular cell adhesion molecule-1</term> (<term id="T24" lex="VCAM-1" sem="Protein_molecule">VCAM-1</term>).</sentence>
+<event KT="Investigation" id="E12" uncertainty="doubtful">
+<type class="Gene_expression"/>
+<theme idref="T20"/>
+<clue>The present study <clueKT>investigated</clueKT> PPARalpha <clueType>expression</clueType> <clueLoc>in human ECs</clueLoc> and their regulation of vascular cell adhesion molecule-1 (VCAM-1).</clue>
+</event>
+<event KT="Investigation" id="E13" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="T24"/>
+<cause idref="T20"/>
+<clue>The present study <clueKT>investigated</clueKT> PPARalpha expression in human ECs and their <clueType>regulation</clueType> <linkTheme>of</linkTheme> vascular cell adhesion molecule-1 (VCAM-1).</clue>
+</event>
+<sentence id="S6">METHODS AND RESULTS: <term id="T25" lex="immunohistochemistry" sem="Other">Immunohistochemistry</term> revealed that <term id="T26" lex="human_carotid_artery_EC" sem="Cell_natural">human carotid artery <term id="T27" lex="EC" sem="Cell_natural">ECs</term></term> express <term id="T28" lex="PPARalpha" sem="Protein_molecule">PPARalpha</term>.</sentence>
+<event KT="Analysis" id="E14">
+<type class="Gene_expression"/>
+<theme idref="T28"/>
+<clue>METHODS AND RESULTS: <clueExperiment>Immunohistochemistry</clueExperiment> <clueKT>revealed</clueKT> that <clueLoc>human carotid artery ECs</clueLoc> <clueType>express</clueType> PPARalpha.</clue>
+</event>
+<sentence id="S7">Pretreatment of <term id="T29" lex="cultured_human_EC" sem="Cell_natural">cultured human <term id="T30" lex="EC" sem="Cell_natural">ECs</term></term> with the <term id="T31" lex="PPARalpha_activator" sem="Organic_compound_other"><term id="T32" lex="PPARalpha" sem="Protein_molecule">PPARalpha</term> activators</term> <term id="T33" lex="fenofibrate" sem="Organic_compound_other">fenofibrate</term> or <term id="T34" lex="WY14643" sem="Organic_compound_other">WY14643</term> inhibited <term id="T35" lex="TNF-alpha-induced_VCAM-1" sem="Protein_molecule"><term id="A6" sem="Protein_molecule">TNF-alpha</term>-induced <term id="T36" lex="VCAM-1" sem="Protein_molecule">VCAM-1</term></term> in a time- and concentration-dependent manner, an effect not seen with <term id="T37" lex="PPARgamma_activator" sem="Organic_compound_other"><term id="T38" lex="PPARgamma" sem="Protein_molecule">PPARgamma</term> activators</term>.</sentence>
+<event id="E17">
+<type class="Negative_regulation"/>
+<theme idref="E19"/>
+<cause idref="T33"/>
+<clue>Pretreatment of <clueLoc>cultured human ECs</clueLoc> <linkCause>with</linkCause> the <corefCause>PPARalpha activators</corefCause> fenofibrate or WY14643 <clueType>inhibited</clueType> TNF-alpha-induced VCAM-1 in a time- and concentration-dependent manner, an effect not seen with PPARgamma activators.</clue>
+<comment>NER: T33 sem mod, Other_artificial_source -&gt; Other_organic_compound</comment></event>
+<event id="E18">
+<type class="Negative_regulation"/>
+<theme idref="E19"/>
+<cause idref="T34"/>
+<clue>Pretreatment of <clueLoc>cultured human ECs</clueLoc> <linkCause>with</linkCause> the <corefCause>PPARalpha activators</corefCause> fenofibrate or WY14643 <clueType>inhibited</clueType> TNF-alpha-induced VCAM-1 in a time- and concentration-dependent manner, an effect not seen with PPARgamma activators.</clue>
+<comment>NER: T34 sem mod, Other_artificial_source -&gt; Other_organic_compound</comment></event>
+<event KT="Other" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="T36"/>
+<cause idref="A6"/>
+<clue>Pretreatment of cultured human ECs with the PPARalpha activators fenofibrate or WY14643 inhibited TNF-alpha-<clueType>induced</clueType> VCAM-1 in a time- and concentration-dependent manner, an effect not seen with PPARgamma activators.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E21">
+<type class="Negative_regulation"/>
+<theme idref="E19"/>
+<cause idref="T37"/>
+<clue>Pretreatment of cultured human ECs with the PPARalpha activators fenofibrate or WY14643 <clueType>inhibited</clueType> TNF-alpha-induced VCAM-1 in a time- and concentration-dependent manner, an effect <cluePolarity>not seen</cluePolarity> <linkCause>with</linkCause> PPARgamma activators.</clue>
+<comment>CAUTION: SEE; NER: T37 sem mod, Other_name -&gt; Other_organic_compound</comment></event>
+<event id="E39">
+<type class="Positive_regulation"/>
+<theme idref="T32"/>
+<cause idref="T33"/>
+<clue>Pretreatment of cultured human ECs with the PPARalpha <clueType>activators</clueType> fenofibrate or WY14643 inhibited TNF-alpha-induced VCAM-1 in a time- and concentration-dependent manner, an effect not seen with PPARgamma activators.</clue>
+</event>
+<event id="E40">
+<type class="Positive_regulation"/>
+<theme idref="T32"/>
+<cause idref="T34"/>
+<clue>Pretreatment of cultured human ECs with the PPARalpha <clueType>activators</clueType> fenofibrate or WY14643 inhibited TNF-alpha-induced VCAM-1 in a time- and concentration-dependent manner, an effect not seen with PPARgamma activators.</clue>
+</event>
+<sentence id="S8">Both <term id="T39" lex="PPARalpha_activator" sem="Organic_compound_other"><term id="T40" lex="PPARalpha" sem="Protein_molecule">PPARalpha</term> activators</term> decreased <term id="A7" sem="Protein_family_or_group">cytokine</term>-induced <term id="T41" lex="VCAM-1_mRNA_expression" sem="Other"><term id="A8" sem="RNA_molecule"><term id="T42" lex="VCAM-1" sem="Protein_molecule">VCAM-1</term> mRNA</term> expression</term> without altering its <term id="T43" lex="mRNA_half-life" sem="Other">mRNA half-life</term>.</sentence>
+<event id="E22">
+<type class="Negative_regulation"/>
+<theme idref="E24"/>
+<cause idref="T33"/>
+<clue><corefCause>Both PPARalpha activators</corefCause> <clueType>decreased</clueType> cytokine-induced VCAM-1 mRNA expression without altering its mRNA half-life.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation"/>
+<theme idref="E24"/>
+<cause idref="T34"/>
+<clue><corefCause>Both PPARalpha activators</corefCause> <clueType>decreased</clueType> cytokine-induced VCAM-1 mRNA expression without altering its mRNA half-life.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E25"/>
+<cause idref="A7"/>
+<clue>Both PPARalpha activators decreased cytokine-<clueType>induced</clueType> VCAM-1 mRNA expression without altering its mRNA half-life.</clue>
+</event>
+<event id="E25">
+<type class="Transcription"/>
+<theme idref="A8"/>
+<clue>Both PPARalpha activators decreased cytokine-induced VCAM-1 mRNA <clueType>expression</clueType> without altering its mRNA half-life.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E26">
+<type class="Regulation"/>
+<theme idref="A8"/>
+<cause idref="T33"/>
+<clue><corefCause>Both PPARalpha activators</corefCause> decreased cytokine-induced VCAM-1 mRNA expression <cluePolarity>without</cluePolarity> <clueType>altering</clueType> <corefTheme>its mRNA</corefTheme> <clueType>half-life</clueType>.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E27">
+<type class="Regulation"/>
+<theme idref="A8"/>
+<cause idref="T34"/>
+<clue><corefCause>Both PPARalpha activators</corefCause> decreased cytokine-induced VCAM-1 mRNA expression <cluePolarity>without</cluePolarity> <clueType>altering</clueType> <corefTheme>its mRNA</corefTheme> <clueType>half-life</clueType>.</clue>
+</event>
+<sentence id="S9">Transient transfection of deletional <term id="T44" lex="VCAM-1_promoter_construct" sem="DNA_molecule"><term id="T45" lex="VCAM-1" sem="Protein_molecule">VCAM-1</term> promoter constructs</term> and <term id="T46" lex="electrophoretic_mobility_shift_assay" sem="Other">electrophoretic mobility shift assays</term> suggest that <term id="T47" lex="fenofibrate" sem="Organic_compound_other">fenofibrate</term> inhibits <term id="T48" lex="VCAM-1_transcription" sem="Other"><term id="T49" lex="VCAM-1" sem="Protein_molecule"><term id="A4" sem="DNA_domain_or_region">VCAM-1</term></term> transcription</term> in part by inhibiting <term id="T50" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E28" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="T44"/>
+<cause idref="E30"/>
+<clue><clueExperiment>Transient transfection of deletional VCAM-1 promoter constructs and electrophoretic mobility shift assays</clueExperiment> <clueKT><clueCL>suggest</clueCL></clueKT> that fenofibrate <clueType>inhibits</clueType> VCAM-1 transcription in part <linkCause>by</linkCause> inhibiting NF-kappaB.</clue>
+<comment>NER: T47 sem mod, Other_artificial_source -&gt; Other_organic_compound</comment></event>
+<event KT="Other" id="E29">
+<type class="Transcription"/>
+<theme idref="A4"/>
+<clue>Transient transfection of deletional VCAM-1 promoter constructs and electrophoretic mobility shift assays suggest that fenofibrate inhibits VCAM-1 <clueType>transcription</clueType> in part by inhibiting NF-kappaB.</clue>
+</event>
+<event KT="Other" id="E30">
+<type class="Negative_regulation"/>
+<theme idref="T50"/>
+<cause idref="T47"/>
+<clue>Transient transfection of deletional VCAM-1 promoter constructs and electrophoretic mobility shift assays suggest that fenofibrate inhibits VCAM-1 transcription in part by <clueType>inhibiting</clueType> NF-kappaB.</clue>
+</event>
+<sentence id="S10">Finally, <term id="T51" lex="PPARalpha_activator" sem="Organic_compound_other"><term id="T52" lex="PPARalpha" sem="Protein_molecule">PPARalpha</term> activators</term> significantly <term id="T53" lex="reduced_adhesion" sem="Other">reduced adhesion</term> of <term id="T54" lex="U937_cell" sem="Cell_cultured">U937 cells</term> to <term id="T55" lex="cultured_human_ECs" sem="Cell_natural">cultured human <term id="T56" sem="Cell_natural">ECs</term></term>.</sentence>
+<event Manner="High" id="E31">
+<type class="Negative_regulation"/>
+<theme idref="E32"/>
+<cause idref="T51"/>
+<clue>Finally, PPARalpha activators <clueManner>significantly</clueManner> <clueType>reduced</clueType> adhesion of U937 cells to cultured human ECs.</clue>
+</event>
+<event id="E32">
+<type class="Cell_adhesion"/>
+<theme idref="T54"/>
+<theme idref="T56"/>
+<clue>Finally, PPARalpha activators significantly reduced <clueType>adhesion</clueType> <linkTheme>of</linkTheme> U937 cells <linkTheme>to</linkTheme> cultured human ECs.</clue>
+<comment>NER: T56 mod, &quot;cultured human ECs&quot; -&gt; ECs</comment></event>
+<sentence id="S11">CONCLUSIONS: <term id="T57" lex="human_EC" sem="Cell_natural">Human ECs</term> express <term id="T58" lex="PPARalpha" sem="Protein_molecule">PPARalpha</term>, a potentially important regulator of <term id="T59" lex="atherogenesis" sem="Other">atherogenesis</term> through its transcriptional control of <term id="T60" lex="VCAM-1_gene_expression" sem="Other"><term id="T61" lex="VCAM-1" sem="Protein_molecule">VCAM-1</term> gene expression</term>.</sentence>
+<event id="E33">
+<type class="Gene_expression"/>
+<theme idref="T58"/>
+<clue>CONCLUSIONS: Human ECs <clueType>express</clueType> PPARalpha, a potentially important regulator of atherogenesis through its transcriptional control of VCAM-1 gene expression.</clue>
+</event>
+<event KT="Other" id="E34">
+<type class="Regulation"/>
+<theme idref="E35"/>
+<cause idref="T58"/>
+<clue>CONCLUSIONS: Human ECs express PPARalpha, a potentially important regulator of atherogenesis through its <clueType>transcriptional control</clueType> <linkTheme>of</linkTheme> VCAM-1 gene expression.</clue>
+</event>
+<event KT="Other" id="E35">
+<type class="Gene_expression"/>
+<theme idref="T61"/>
+<clue>CONCLUSIONS: Human ECs express PPARalpha, a potentially important regulator of atherogenesis through its transcriptional control of VCAM-1 gene <clueType>expression</clueType>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E36">
+<type class="Regulation"/>
+<theme idref="T59"/>
+<cause idref="E34"/>
+<clue>CONCLUSIONS: Human ECs express PPARalpha, a <clueKT><clueCL>potentially</clueCL></clueKT> important <clueType>regulator</clueType> <linkTheme>of</linkTheme> atherogenesis <linkCause>through</linkCause> its transcriptional control of VCAM-1 gene expression.</clue>
+</event>
+<sentence id="S12">Such findings also have implications regarding the clinical use of <term id="T62" lex="lipid-lowering_agent" sem="Organic_compound_other">lipid-lowering agents</term>, like <term id="T63" lex="fibric_acid" sem="Organic_compound_other">fibric acids</term>, which can activate <term id="T64" lex="PPARalpha" sem="Protein_molecule">PPARalpha</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E37" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T64"/>
+<cause idref="T63"/>
+<clue>Such findings also have implications regarding the clinical use of <corefCause>lipid-lowering agents</corefCause>, like fibric acids, which <clueKT><clueCL>can</clueCL></clueKT> <clueType>activate</clueType> PPARalpha.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

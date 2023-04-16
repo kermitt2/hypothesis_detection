@@ -1,0 +1,14 @@
+T11	Adverse_effect 31 37	caused
+T13	Potential_therapeutic_effect 117 123	herapy
+T14	Adverse_effect 152 161	developed
+T17	Adverse_effect 279 288	ingestion
+T18	Potential_therapeutic_effect 412 419	therapy
+T19	Adverse_effect 412 419	therapy
+R1	Subject_Disorder Arg1:T12 Arg2:T5
+R3	Subject_Disorder Arg1:T15 Arg2:T16
+E1	Adverse_effect:T11 has_agent:T2 affects:T3
+E2	Potential_therapeutic_effect:T13 affects:T5 has_agent:T4 has_subject:T12
+E3	Adverse_effect:T14 affects:T6 has_agent:T4 has_subject:T12
+E4	Adverse_effect:T17 has_agent:T8 affects:T7
+E5	Potential_therapeutic_effect:T18 has_agent:T10 has_subject:T15
+E6	Adverse_effect:T19 has_subject:T15 has_agent:T10 affects:T9

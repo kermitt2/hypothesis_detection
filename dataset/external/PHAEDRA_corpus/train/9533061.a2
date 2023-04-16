@@ -1,0 +1,19 @@
+T19	Adverse_effect 37 44	induced
+T23	Adverse_effect 296 305	developed
+T24	Potential_therapeutic_effect 364 371	therapy
+T25	Adverse_effect 172 179	induced
+T27	Adverse_effect 59 62	use
+T28	Adverse_effect 201 204	use
+T29	Potential_therapeutic_effect 805 808	for
+T32	Adverse_effect 1113 1118	cause
+T35	Adverse_effect 1172 1182	occurrence
+E1	Adverse_effect:T19 has_agent:T18
+E2	Adverse_effect:T23 affects:T21 affects:T22 has_subject:T20 has_agent:T6
+E3	Potential_therapeutic_effect:T24 affects:T7 has_agent:T6
+E5	Adverse_effect:T25 affects:T4 has_agent:T3
+E7	Adverse_effect:T27 has_agent:T2 affects:T1
+E8	Adverse_effect:T28 has_agent:T5 affects:T4
+E9	Potential_therapeutic_effect:T29 affects:T10 has_agent:T9
+E11	Adverse_effect:T32 has_cue:T33 affects:T31 has_agent:T14
+E12	Adverse_effect:T35 affects:T15 has_agent:T16
+A1	Speculated E11

@@ -1,0 +1,300 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7565732" created="06/12/27" creator="Yumiko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7565732</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="transcriptional_repression" sem="Other">Transcriptional repression</term> of the <term id="T2" lex="interleukin-2_gene" sem="DNA_domain_or_region">interleukin-2 gene</term> by <term id="T3" lex="vitamin_D3" sem="Lipid">vitamin D3</term>: direct inhibition of <term id="T4" lex="NFATp/AP-1_complex_formation" sem="Other"><term id="T5" lex="NFATp/AP-1_complex" sem="Protein_complex"><term id="A1" sem="Protein_molecule">NFATp</term>/<term id="A2" sem="Protein_molecule">AP-1</term> complex</term> formation</term> by a <term id="T6" lex="nuclear_hormone_receptor" sem="Protein_family_or_group">nuclear hormone receptor</term>.</sentence>
+<event KT="Investigation" id="E2">
+<type class="Negative_regulation"/>
+<theme idref="T2"/>
+<cause idref="T3"/>
+<clue><clueType>Transcriptional repression</clueType> <linkTheme>of</linkTheme> the interleukin-2 gene <linkCause>by</linkCause> vitamin D3: direct inhibition of NFATp/AP-1 complex formation by a nuclear hormone receptor.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Binding"/>
+<theme idref="A1"/>
+<theme idref="A2"/>
+<clue>Transcriptional repression of the interleukin-2 gene by vitamin D3: direct inhibition of NFATp/AP-1 <clueType>complex formation</clueType> by a nuclear hormone receptor.</clue>
+</event>
+<event KT="Investigation" id="E4">
+<type class="Negative_regulation"/>
+<theme idref="E3"/>
+<cause idref="T6"/>
+<clue>Transcriptional repression of the interleukin-2 gene by vitamin D3: direct <clueType>inhibition</clueType> <linkTheme>of</linkTheme> NFATp/AP-1 complex formation <linkCause>by</linkCause> a nuclear hormone receptor.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="A3" sem="Cell_natural">T-lymphocyte</term> proliferation is suppressed by <term id="T8" lex="1,25-dihydroxyvitamin_D3" sem="Lipid">1,25-dihydroxyvitamin D3</term> [<term id="T9" lex="1,25(OH)2D3" sem="Lipid">1,25(OH)2D3</term>], the active metabolite of <term id="T10" lex="vitamin_D3" sem="Lipid">vitamin D3</term>, and is associated with a decrease in <cons id="T11" lex="(AND interleukin_2_(IL-2)_mRNA_level gamma_interferon_mRNA_level granulocyte-macrophage_colony-stimulating_factor_mRNA_level)" sem="(AND Other Other Other)"><frag id="F1">interleukin 2 (IL-2)</frag>, <frag id="F2">gamma interferon</frag>, and <frag id="F3">granulocyte-macrophage colony-stimulating factor</frag> <frag id="F4">mRNA</frag> <frag id="F5">levels</frag></cons>.</sentence>
+<event KT="Other" id="E5">
+<type class="Cellular_physiological_process"/>
+<theme idref="A3"/>
+<clue>T-lymphocyte <clueType>proliferation</clueType> is suppressed by 1,25-dihydroxyvitamin D3 [1,25(OH)2D3], the active metabolite of vitamin D3, and is associated with a decrease in interleukin 2 (IL-2), gamma interferon, and granulocyte-macrophage colony-stimulating factor mRNA levels.</clue>
+<comment>NER T7 DEL</comment></event>
+<event KT="Fact" id="E6">
+<type class="Metabolism"/>
+<theme idref="T10"/>
+<clue>T-lymphocyte proliferation is suppressed by 1,25-dihydroxyvitamin D3 [1,25(OH)2D3], the active <clueType>metabolite</clueType> <linkTheme>of</linkTheme> vitamin D3, and is associated with a decrease in interleukin 2 (IL-2), gamma interferon, and granulocyte-macrophage colony-stimulating factor mRNA levels.</clue>
+</event>
+<event KT="Fact" id="E7">
+<type class="Negative_regulation"/>
+<theme idref="E5"/>
+<cause idref="T9"/>
+<clue>T-lymphocyte proliferation is <clueType>suppressed</clueType> <linkCause>by</linkCause> 1,25-dihydroxyvitamin D3 [1,25(OH)2D3], <corefCause>the active metabolite of vitamin D3</corefCause>, and is associated with a decrease in interleukin 2 (IL-2), gamma interferon, and granulocyte-macrophage colony-stimulating factor mRNA levels.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Negative_regulation"/>
+<theme idref="F1" idref1="F4" idref2="F5"/>
+<clue>T-lymphocyte proliferation is suppressed by 1,25-dihydroxyvitamin D3 [1,25(OH)2D3], the active metabolite of vitamin D3, and is associated with a <clueType>decrease</clueType> <linkTheme>in</linkTheme> interleukin 2 (IL-2), gamma interferon, and granulocyte-macrophage colony-stimulating factor mRNA levels.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Negative_regulation"/>
+<theme idref="F2" idref1="F4" idref2="F5"/>
+<clue>T-lymphocyte proliferation is suppressed by 1,25-dihydroxyvitamin D3 [1,25(OH)2D3], the active metabolite of vitamin D3, and is associated with a <clueType>decrease</clueType> <linkTheme>in</linkTheme> interleukin 2 (IL-2), gamma interferon, and granulocyte-macrophage colony-stimulating factor mRNA levels.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Negative_regulation"/>
+<theme idref="F3" idref1="F4" idref2="F5"/>
+<clue>T-lymphocyte proliferation is suppressed by 1,25-dihydroxyvitamin D3 [1,25(OH)2D3], the active metabolite of vitamin D3, and is associated with a <clueType>decrease</clueType> <linkTheme>in</linkTheme> interleukin 2 (IL-2), gamma interferon, and granulocyte-macrophage colony-stimulating factor mRNA levels.</clue>
+<comment>NER T11 MOD</comment></event>
+<event KT="Analysis" id="E110">
+<type class="Correlation"/>
+<theme idref="E5"/>
+<theme idref="E8"/>
+<clue>T-lymphocyte proliferation is suppressed by 1,25-dihydroxyvitamin D3 [1,25(OH)2D3], the active metabolite of vitamin D3, and is <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> a decrease in interleukin 2 (IL-2), gamma interferon, and granulocyte-macrophage colony-stimulating factor mRNA levels.</clue>
+</event>
+<event KT="Analysis" id="E111">
+<type class="Correlation"/>
+<theme idref="E5"/>
+<theme idref="E9"/>
+<clue>T-lymphocyte proliferation is suppressed by 1,25-dihydroxyvitamin D3 [1,25(OH)2D3], the active metabolite of vitamin D3, and is <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> a decrease in interleukin 2 (IL-2), gamma interferon, and granulocyte-macrophage colony-stimulating factor mRNA levels.</clue>
+</event>
+<event KT="Analysis" id="E112">
+<type class="Correlation"/>
+<theme idref="E5"/>
+<theme idref="E10"/>
+<clue>T-lymphocyte proliferation is suppressed by 1,25-dihydroxyvitamin D3 [1,25(OH)2D3], the active metabolite of vitamin D3, and is <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> a decrease in interleukin 2 (IL-2), gamma interferon, and granulocyte-macrophage colony-stimulating factor mRNA levels.</clue>
+</event>
+<sentence id="S3">We report here that <term id="T12" lex="1,25(OH)2D3-mediated_repression" sem="Other"><term id="T13" lex="1,25(OH)2D3" sem="Lipid">1,25(OH)2D3</term>-mediated repression</term> in <term id="T14" lex="Jurkat_cell" sem="Cell_cultured">Jurkat cells</term> is <term id="T16" lex="cycloheximide" sem="Organic_compound_other">cycloheximide</term> resistant, suggesting that it is a direct transcriptional repressive effect on <term id="T17" lex="IL-2_expression" sem="Other"><term id="T18" lex="IL-2" sem="Protein_molecule">IL-2</term> expression</term> by the <term id="T19" lex="vitamin_D3_receptor" sem="Protein_family_or_group"><term id="T20" lex="vitamin_D3" sem="Lipid">vitamin D3</term> receptor</term> (<term id="T21" lex="VDR" sem="Protein_family_or_group">VDR</term>).</sentence>
+<event KT="Other" id="E12">
+<type class="Negative_regulation"/>
+<cause idref="T13"/>
+<clue>We report here that 1,25(OH)2D3-<linkCause>mediated</linkCause> <clueType>repression</clueType> <clueLoc>in Jurkat cells</clueLoc> is cycloheximide resistant, suggesting that it is a direct transcriptional repressive effect on IL-2 expression by the vitamin D3 receptor (VDR).</clue>
+<comment>NO THEME</comment></event>
+<event KT="Analysis" assertion="non-exist" id="E13">
+<type/>
+<theme idref="E12"/>
+<cause idref="T16"/>
+<clue>We <clueKT>report</clueKT> here that 1,25(OH)2D3-mediated repression <clueLoc>in Jurkat cells</clueLoc> is cycloheximide <clueType>resistant</clueType>, suggesting that it is a direct transcriptional repressive effect on IL-2 expression by the vitamin D3 receptor (VDR).</clue>
+<comment>RESISTANCE; NER: T15 del &quot;cycloheximide resistant&quot;</comment></event>
+<event KT="Other" id="E130">
+<type class="Transcription"/>
+<theme idref="T18"/>
+<clue>We report here that 1,25(OH)2D3-mediated repression in Jurkat cells is cycloheximide resistant, suggesting that it is a direct <clueType>transcriptional</clueType> repressive effect on IL-2 <clueType>expression</clueType> by the vitamin D3 receptor (VDR).</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E14" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="E130"/>
+<cause idref="T21"/>
+<clue>We report here that 1,25(OH)2D3-mediated repression in Jurkat cells is cycloheximide resistant, <clueKT><clueCL>suggesting</clueCL></clueKT> that it is a direct transcriptional <clueType>repressive effect</clueType> <linkTheme>on</linkTheme> IL-2 expression <linkCause>by</linkCause> the vitamin D3 receptor (VDR).</clue>
+</event>
+<sentence id="S4">We therefore examined <term id="T22" lex="vitamin_D3-mediated_repression" sem="Other"><term id="T23" lex="vitamin_D3" sem="Lipid">vitamin D3</term>-mediated repression</term> of <term id="T24" lex="activated_IL-2_expression" sem="Other">activated <term id="T25" lex="IL-2" sem="Protein_molecule">IL-2</term> expression</term> by cotransfecting <term id="T26" lex="Jurkat_cell" sem="Cell_cultured">Jurkat cells</term> with <term id="T27" lex="IL-2_promoter/reporter_construct" sem="DNA_family_or_group"><term id="T28" lex="IL-2" sem="Protein_molecule">IL-2</term> promoter/reporter constructs</term> and a <term id="T29" lex="VDR_overexpression_vector" sem="DNA_molecule"><term id="T30" lex="VDR" sem="Protein_family_or_group">VDR</term> overexpression vector</term> and by <term id="T31" lex="DNA_binding" sem="Other">DNA binding</term>.</sentence>
+<event KT="Other" id="E15">
+<type class="Gene_expression"/>
+<theme idref="T25"/>
+<clue>We therefore examined vitamin D3-mediated repression of activated IL-2 <clueType>expression</clueType> by cotransfecting Jurkat cells with IL-2 promoter/reporter constructs and a VDR overexpression vector and by DNA binding.</clue>
+</event>
+<event KT="Method" id="E16">
+<type class="Artificial_process"/>
+<theme idref="T27"/>
+<theme idref="T29"/>
+<theme idref="T26"/>
+<clue>We therefore examined vitamin D3-mediated repression of activated IL-2 expression by <clueType>cotransfecting</clueType> Jurkat cells <linkTheme>with</linkTheme> IL-2 promoter/reporter constructs and a VDR overexpression vector and by DNA binding.</clue>
+</event>
+<event KT="Other" id="E160">
+<type class="Gene_expression"/>
+<theme idref="T30"/>
+<clue>We therefore examined vitamin D3-mediated repression of activated IL-2 expression by <clueType>cotransfecting</clueType> <clueLoc>Jurkat cells</clueLoc> <linkTheme>with</linkTheme> IL-2 promoter/reporter constructs and a VDR <clueType>overexpression</clueType> vector and by DNA binding.</clue>
+</event>
+<event KT="Other" id="E162">
+<type class="Positive_regulation"/>
+<theme idref="E160"/>
+<cause idref="E16"/>
+<clue>We therefore examined vitamin D3-mediated repression of activated IL-2 expression by <clueType>cotransfecting</clueType> <clueLoc>Jurkat cells</clueLoc> with IL-2 promoter/reporter constructs and a VDR <clueType>overexpression</clueType> vector and by DNA binding.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<clue>We therefore examined vitamin D3-mediated repression of <clueType>activated</clueType> IL-2 expression by cotransfecting Jurkat cells with IL-2 promoter/reporter constructs and a VDR overexpression vector and by DNA binding.</clue>
+</event>
+<event KT="Investigation" id="E21" uncertainty="doubtful">
+<type class="Negative_regulation"/>
+<theme idref="E18"/>
+<cause idref="T23"/>
+<clue>We therefore <clueKT>examined</clueKT> vitamin D3-<linkCause>mediated</linkCause> <clueType>repression</clueType> <linkTheme>of</linkTheme> activated IL-2 expression by cotransfecting Jurkat cells with IL-2 promoter/reporter constructs and a VDR overexpression vector and by DNA binding.</clue>
+</event>
+<event KT="Other" id="E181">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="T31"/>
+<clue>We therefore examined vitamin D3-mediated repression of activated IL-2 expression <clueExperiment>by cotransfecting Jurkat cells with IL-2 promoter/reporter constructs and a VDR overexpression vector</clueExperiment> and <linkCause>by</linkCause> DNA binding.</clue>
+</event>
+<sentence id="S5">We delineated an <term id="A13" sem="DNA_domain_or_region">element</term> conferring both <term id="A11" sem="Other"><term id="A50" sem="DNA_domain_or_region">DNA</term> binding</term> by the receptor in vitro and <term id="T32" lex="1,25(OH)2D3-mediated_repression" sem="Other"><term id="T33" lex="1,25(OH)2D3" sem="Lipid">1,25(OH)2D3</term>-mediated repression</term> in vivo to a short <term id="T34" lex="40-bp_region" sem="DNA_domain_or_region">40-bp region</term> encompassing an important <term id="T35" lex="positive_regulatory_element" sem="DNA_domain_or_region">positive regulatory element</term>, <term id="T36" lex="NF-AT-1" sem="DNA_domain_or_region">NF-AT-1</term>, which is bound by a <term id="T37" lex="T-cell-specific_transcription_factor" sem="Protein_family_or_group">T-cell-specific transcription factor</term>, <term id="T38" lex="NFATp" sem="Protein_molecule">NFATp</term>, as well as by <term id="T39" lex="AP-1" sem="Protein_molecule">AP-1</term>.</sentence>
+<event KT="Other" id="E17">
+<type class="Regulation"/>
+<cause idref="T33"/>
+<clue>We delineated an element conferring both DNA binding by the receptor in vitro and 1,25(OH)2D3-<linkCause>mediated</linkCause> <clueType>repression</clueType> in vivo to a short 40-bp region encompassing an important positive regulatory element, NF-AT-1, which is bound by a T-cell-specific transcription factor, NFATp, as well as by AP-1.</clue>
+<comment>NO THEME</comment></event>
+<event KT="Fact" id="E25">
+<type class="Binding"/>
+<theme idref="T36"/>
+<theme idref="T38"/>
+<clue>We delineated an element conferring both DNA binding by the receptor in vitro and 1,25(OH)2D3-mediated repression in vivo to a short 40-bp region encompassing an important positive regulatory element, NF-AT-1, which is <clueType>bound</clueType> <linkTheme>by</linkTheme> a T-cell-specific transcription factor, NFATp, as well as by AP-1.</clue>
+</event>
+<event KT="Fact" id="E26">
+<type class="Binding"/>
+<theme idref="T36"/>
+<theme idref="T39"/>
+<clue>We delineated an element conferring both DNA binding by the receptor in vitro and 1,25(OH)2D3-mediated repression in vivo to a short 40-bp region encompassing an important positive regulatory element, NF-AT-1, which is <clueType>bound</clueType> by a T-cell-specific transcription factor, NFATp, as well as <linkTheme>by</linkTheme> AP-1.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Binding"/>
+<theme idref="A50"/>
+<theme idref="T30"/>
+<clue>We delineated an element conferring both DNA <clueType>binding</clueType> <linkTheme>by</linkTheme> the <corefTheme idref1="T30">receptor</corefTheme> in vitro and 1,25(OH)2D3-mediated repression in vivo to a short 40-bp region encompassing an important positive regulatory element, NF-AT-1, which is bound by a T-cell-specific transcription factor, NFATp, as well as by AP-1.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Regulation"/>
+<theme idref="T32"/>
+<cause idref="T34"/>
+<clue>We delineated an <corefCause>element</corefCause> <clueType>conferring</clueType> both DNA binding by the receptor in vitro and 1,25(OH)2D3-mediated repression in vivo to a short 40-bp region encompassing an important positive regulatory element, NF-AT-1, which is bound by a T-cell-specific transcription factor, NFATp, as well as by AP-1.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Regulation"/>
+<theme idref="E19"/>
+<cause idref="T34"/>
+<clue>We delineated an <corefCause>element</corefCause> <clueType>conferring</clueType> both DNA binding by the receptor in vitro and 1,25(OH)2D3-mediated repression in vivo to a short 40-bp region encompassing an important positive regulatory element, NF-AT-1, which is bound by a T-cell-specific transcription factor, NFATp, as well as by AP-1.</clue>
+</event>
+<sentence id="S6"><term id="T40" lex="VDR_DNA-binding_mutant" sem="Protein_family_or_group"><term id="T41" lex="VDR" sem="Protein_family_or_group">VDR</term> <term id="A109" sem="DNA_molecule">DNA</term>-binding mutants</term> were unable to either bind to this element in vitro or repress in vivo; the <term id="T42" lex="VDR_DNA-binding_domain" sem="Protein_domain_or_region"><term id="T43" lex="VDR" sem="Protein_family_or_group">VDR</term> DNA-binding domain</term> alone, however, bound the element but also could not repress <term id="T44" lex="IL-2_expression" sem="Other"><term id="T45" lex="IL-2" sem="Protein_molecule">IL-2</term> expression</term>.</sentence>
+<event assertion="non-exist" id="E1">
+<type class="Binding"/>
+<theme idref="T41"/>
+<theme idref="A109"/>
+<clue>VDR DNA-<clueType>binding mutants</clueType> were unable to either bind to this element in vitro or repress in vivo; the VDR DNA-binding domain alone, however, bound the element but also could not repress IL-2 expression.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E27">
+<type class="Binding"/>
+<theme idref="E1"/>
+<theme idref="A13"/>
+<clue>VDR DNA-binding mutants were <cluePolarity>unable to</cluePolarity> either <clueType>bind</clueType> <linkTheme>to</linkTheme> <corefTheme idref1="A13">this element</corefTheme> in vitro or repress in vivo; the VDR DNA-binding domain alone, however, bound the element but also could not repress IL-2 expression.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E28">
+<type class="Negative_regulation"/>
+<theme idref="E30"/>
+<cause idref="E1"/>
+<clue>VDR DNA-binding mutants were <cluePolarity>unable to</cluePolarity> either bind to this element in vitro or <clueType>repress</clueType> in vivo; the VDR DNA-binding domain alone, however, bound the element but also could not repress IL-2 expression.</clue>
+</event>
+<event id="E29">
+<type class="Binding"/>
+<theme idref="T42"/>
+<theme idref="A13"/>
+<clue>VDR DNA-binding mutants were unable to either bind to this element in vitro or repress in vivo; the VDR DNA-binding domain alone, however, <clueType>bound</clueType> <corefTheme idref1="A13">the element</corefTheme> but also could not repress IL-2 expression.</clue>
+</event>
+<event id="E30">
+<type class="Gene_expression"/>
+<theme idref="T45"/>
+<clue>VDR DNA-binding mutants were unable to either bind to this element in vitro or repress in vivo; the VDR DNA-binding domain alone, however, bound the element but also could not repress IL-2 <clueType>expression</clueType>.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E31">
+<type class="Negative_regulation"/>
+<theme idref="E30"/>
+<cause idref="T42"/>
+<clue>VDR DNA-binding mutants were unable to either bind to this element in vitro or repress in vivo; the VDR DNA-binding domain alone, however, bound the element but also could <cluePolarity>not</cluePolarity> <clueType>repress</clueType> IL-2 expression.</clue>
+</event>
+<sentence id="S7">These results indicate that <term id="A8" sem="DNA_domain_or_region">DNA</term> binding by <term id="T46" lex="VDR" sem="Protein_family_or_group">VDR</term> is necessary but not sufficient to mediate <term id="T47" lex="IL-2_repression" sem="Other"><term id="T48" lex="IL-2" sem="Protein_molecule">IL-2</term> repression</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E32">
+<type class="Positive_regulation"/>
+<theme idref="E33"/>
+<cause idref="E34"/>
+<clue>These results <clueKT><clueCL>indicate</clueCL></clueKT> that DNA binding by VDR is <clueType>necessary but not sufficient to mediate</clueType> IL-2 repression.</clue>
+</event>
+<event KT="Other" id="E33">
+<type class="Negative_regulation"/>
+<theme idref="T48"/>
+<clue>These results indicate that DNA binding by VDR is necessary but not sufficient to mediate IL-2 <clueType>repression</clueType>.</clue>
+</event>
+<event KT="Other" id="E34">
+<type class="Binding"/>
+<theme idref="A8"/>
+<theme idref="T46"/>
+<clue>These results indicate that DNA <clueType>binding</clueType> <linkTheme>by</linkTheme> VDR is necessary but not sufficient to mediate IL-2 repression.</clue>
+</event>
+<sentence id="S8">By combining <term id="T49" lex="partially_purified_protein" sem="Protein_family_or_group">partially purified proteins</term> in vitro, we observed the loss of the bound <term id="T50" lex="NFATp/AP-1-DNA_complex" sem="Protein_complex"><term id="T51" lex="NFATp" sem="Protein_molecule">NFATp</term>/<term id="A81" sem="Protein_molecule">AP-1</term>-<term id="A80" sem="DNA_molecule">DNA</term> complex</term> upon inclusion of <term id="T52" lex="VDR" sem="Protein_family_or_group">VDR</term> or <term id="T53" lex="VDR-retinoid_X_receptor" sem="Protein_molecule"><term id="T54" lex="VDR" sem="Protein_family_or_group">VDR</term>-retinoid X receptor</term>.</sentence>
+<event KT="Other" id="E35" uncertainty="doubtful">
+<type class="Binding"/>
+<theme idref="T51"/>
+<theme idref="A80"/>
+<clue>By combining partially purified proteins in vitro, we observed the loss of the <clueType>bound</clueType> NFATp/AP-1-DNA complex upon inclusion of VDR or VDR-retinoid X receptor.</clue>
+</event>
+<event KT="Other" id="E350" uncertainty="doubtful">
+<type class="Binding"/>
+<theme idref="A81"/>
+<theme idref="A80"/>
+<clue>By combining partially purified proteins in vitro, we observed the loss of the <clueType>bound</clueType> NFATp/AP-1-DNA complex upon inclusion of VDR or VDR-retinoid X receptor.</clue>
+</event>
+<event id="E36" uncertainty="doubtful">
+<type class="Negative_regulation"/>
+<theme idref="E35"/>
+<cause idref="T52"/>
+<clue>By combining partially purified proteins in vitro, we <clueKT>observed</clueKT> the <clueType>loss</clueType> <linkTheme>of</linkTheme> the bound NFATp/AP-1-DNA complex <linkCause>upon</linkCause> inclusion of VDR or VDR-retinoid X receptor.</clue>
+</event>
+<event id="E361" uncertainty="doubtful">
+<type class="Negative_regulation"/>
+<theme idref="E35"/>
+<cause idref="T53"/>
+<clue>By combining partially purified proteins in vitro, we <clueKT>observed</clueKT> the <clueType>loss</clueType> <linkTheme>of</linkTheme> the bound NFATp/AP-1-DNA complex <linkCause>upon</linkCause> inclusion of VDR or VDR-retinoid X receptor.</clue>
+</event>
+<event id="E360" uncertainty="doubtful">
+<type class="Negative_regulation"/>
+<theme idref="E350"/>
+<cause idref="T52"/>
+<clue>By combining partially purified proteins in vitro, we <clueKT>observed</clueKT> the <clueType>loss</clueType> <linkTheme>of</linkTheme> the bound NFATp/AP-1-DNA complex <linkCause>upon</linkCause> inclusion of VDR or VDR-retinoid X receptor.</clue>
+</event>
+<event id="E362" uncertainty="doubtful">
+<type class="Negative_regulation"/>
+<theme idref="E350"/>
+<cause idref="T53"/>
+<clue>By combining partially purified proteins in vitro, we <clueKT>observed</clueKT> the <clueType>loss</clueType> <linkTheme>of</linkTheme> the bound NFATp/AP-1-DNA complex <linkCause>upon</linkCause> inclusion of VDR or VDR-retinoid X receptor.</clue>
+</event>
+<sentence id="S9">Order of addition and off-rate experiments indicate that the <term id="T55" lex="VDR-retinoid_X_receptor_heterodimer" sem="Protein_molecule"><term id="T56" lex="VDR" sem="Protein_family_or_group">VDR</term>-retinoid X receptor heterodimer</term> blocks <term id="T57" lex="NFATp/AP-1_complex_formation" sem="Other"><term id="T58" lex="NFATp/AP-1_complex" sem="Protein_complex"><term id="T59" lex="NFATp" sem="Protein_molecule">NFATp</term>/<term id="T60" lex="AP-1" sem="Protein_molecule">AP-1</term> complex</term> formation</term> and then stably associates with the <term id="T61" lex="NF-AT-1_element" sem="DNA_domain_or_region"><term id="T62" lex="NF-AT-1" sem="DNA_domain_or_region">NF-AT-1</term> element</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E37">
+<type class="Negative_regulation"/>
+<theme idref="E38"/>
+<cause idref="T55"/>
+<clue>Order of addition and off-rate experiments <clueKT><clueCL>indicate</clueCL></clueKT> that the VDR-retinoid X receptor heterodimer <clueType>blocks</clueType> NFATp/AP-1 complex formation and then stably associates with the NF-AT-1 element.</clue>
+</event>
+<event KT="Other" id="E38">
+<type class="Binding"/>
+<theme idref="T59"/>
+<theme idref="T60"/>
+<clue>Order of addition and off-rate experiments indicate that the VDR-retinoid X receptor heterodimer blocks NFATp/AP-1 <clueType>complex formation</clueType> and then stably associates with the NF-AT-1 element.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E39">
+<type class="Binding"/>
+<theme idref="T55"/>
+<theme idref="T61"/>
+<clue>Order of addition and off-rate experiments <clueCL>indicate</clueCL> that the VDR-retinoid X receptor heterodimer blocks NFATp/AP-1 complex formation and then stably <clueType><clueKT>associates</clueKT></clueType> <linkTheme>with</linkTheme> the NF-AT-1 element.</clue>
+</event>
+<sentence id="S10">This direct inhibition by a <term id="A40" sem="Protein_family_or_group">nuclear hormone receptor</term> of <term id="A90" sem="Protein_family_or_group"><term id="T63" lex="transcriptional_activator" sem="Protein_family_or_group">transcriptional activators</term> of the <term id="T64" lex="IL-2_gene" sem="DNA_domain_or_region"><term id="T65" lex="IL-2" sem="Protein_molecule">IL-2</term> gene</term></term> may provide a mechanistic explanation of how vitamin derivatives can act as potent <term id="T66" lex="immunosuppressive_agents" sem="Other">immunosuppressive agents</term>.</sentence>
+<event KT="Other" id="E40">
+<type class="Positive_regulation"/>
+<theme idref="T64"/>
+<clue>This direct inhibition by a nuclear hormone receptor of <clueType>transcriptional activators</clueType> <linkTheme>of</linkTheme> the IL-2 gene may provide a mechanistic explanation of how vitamin derivatives can act as potent immunosuppressive agents.</clue>
+</event>
+<event KT="Other" id="E41">
+<type class="Negative_regulation"/>
+<theme idref="A90"/>
+<cause idref="A40"/>
+<clue>This direct <clueType>inhibition</clueType> <linkCause>by</linkCause> a nuclear hormone receptor <linkTheme>of</linkTheme> transcriptional activators of the IL-2 gene may provide a mechanistic explanation of how vitamin derivatives can act as potent immunosuppressive agents.</clue>
+<comment>TPS A90</comment></event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

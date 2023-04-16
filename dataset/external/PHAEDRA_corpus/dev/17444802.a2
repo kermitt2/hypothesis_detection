@@ -1,0 +1,12 @@
+T20	Adverse_effect 23 31	increase
+T2	Adverse_effect 236 248	side effects
+T25	Potential_therapeutic_effect 556 565	treatment
+T26	Potential_therapeutic_effect 1194 1203	treatment
+R1	is_equivalent Arg1:T6 Arg2:T7
+R2	Subject_Disorder Arg1:T5 Arg2:T6
+R3	Subject_Disorder Arg1:T23 Arg2:T3
+R4	Subject_Disorder Arg1:T11 Arg2:T24
+E1	Adverse_effect:T20 has_agent:T19 affects:T1 has_subject:T23
+E2	Adverse_effect:T2 has_agent:T18 affects:T4 has_subject:T5
+E3	Potential_therapeutic_effect:T25 has_agent:T13 affects:T8
+E5	Potential_therapeutic_effect:T26 affects:T16 has_agent:T14

@@ -1,0 +1,217 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8690900" created="23/05/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8690900</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="IL-10" sem="Protein_molecule">IL-10</term> inhibits <term id="T2" lex="nuclear_factor-kappa_B/Rel_nuclear_activity" sem="Other"><term id="T3" lex="nuclear_factor-kappa_B/Rel" sem="Protein_complex">nuclear factor-kappa B/Rel</term> nuclear activity</term> in <term id="T4" lex="CD3-stimulated_human_peripheral_T_lymphocyte" sem="Cell_cultured"><term id="A21" sem="Protein_molecule">CD3</term>-stimulated <term id="A22" sem="Cell_natural">human peripheral T lymphocytes</term></term>.</sentence>
+<event id="E1">
+<type class="Negative_regulation"/>
+<theme idref="T2"/>
+<cause idref="T1"/>
+<clue>IL-10 <clueType>inhibits</clueType> nuclear factor-kappa B/Rel nuclear activity <clueLoc>in CD3-stimulated human peripheral T lymphocytes.</clueLoc></clue>
+</event>
+<event id="E51">
+<type class="Physiological_process"/>
+<theme idref="A22"/>
+<cause idref="A21"/>
+<clue>IL-10 inhibits nuclear factor-kappa B/Rel nuclear activity in CD3-<clueType>stimulated</clueType> human peripheral T lymphocytes.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T5" lex="IL-10" sem="Protein_molecule">IL-10</term> markedly reduces nuclear factor <term id="T6" lex="(NF)-kappa_B/Rel_nuclear_activity" sem="Other"><term id="T7" lex="(NF)-kappa_B/Rel" sem="Protein_complex">(NF)-kappa B/Rel</term> nuclear activity</term> induced in <term id="T8" lex="PBMC" sem="Cell_natural">PBMC</term> by stimulation with the <term id="T9" lex="anti-CD3_mAb" sem="Protein_family_or_group">anti-CD3 mAb</term> <term id="T10" lex="OKT3" sem="Protein_molecule">OKT3</term>.</sentence>
+<event KT="Other" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="T6"/>
+<cause idref="T10"/>
+<clue>IL-10 markedly reduces nuclear factor (NF)-kappa B/Rel nuclear activity <clueType>induced</clueType> <clueLoc>in PBMC</clueLoc> <linkCause>by</linkCause> stimulation with the anti-CD3 mAb OKT3.</clue>
+</event>
+<event KT="Fact" Manner="High" id="E3">
+<type class="Negative_regulation"/>
+<theme idref="E2"/>
+<cause idref="T5"/>
+<clue>IL-10 <clueManner>markedly</clueManner> <clueType>reduces</clueType> nuclear factor (NF)-kappa B/Rel nuclear activity induced in PBMC by stimulation with the anti-CD3 mAb OKT3.</clue>
+</event>
+<sentence id="S3">The inhibition is exerted specifically on the <term id="T11" lex="NF-kappa_B/Rel_activation" sem="Other"><term id="T12" lex="NF-kappa_B/Rel" sem="Protein_complex">NF-kappa B/Rel</term> activation</term> induced by <term id="T13" lex="mAb_OKT3" sem="Protein_molecule">mAb <term id="T14" lex="OKT3" sem="Protein_molecule">OKT3</term></term>, and not that produced by <term id="T15" lex="PMA" sem="Organic_compound_other">PMA</term>.</sentence>
+<event KT="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T12"/>
+<cause idref="T13"/>
+<clue>The inhibition is exerted specifically on the NF-kappa B/Rel <clueType>activation</clueType> induced <linkCause>by</linkCause> mAb OKT3, and not that produced by PMA.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="T12"/>
+<cause idref="T15"/>
+<clue>The inhibition is exerted specifically on the NF-kappa B/Rel <clueType>activation</clueType> induced by mAb OKT3, and not that produced <linkCause>by</linkCause> PMA.</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Negative_regulation"/>
+<theme idref="E4"/>
+<cause idref="T5"/>
+<clue>The <clueType>inhibition</clueType> is exerted specifically on the NF-kappa B/Rel activation induced by mAb OKT3, and not that produced by PMA.</clue>
+<comment>NO COREFCAUSE</comment></event>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E7">
+<type class="Negative_regulation"/>
+<theme idref="E5"/>
+<cause idref="T5"/>
+<clue>The <clueType>inhibition</clueType> is exerted specifically on the NF-kappa B/Rel activation induced by mAb OKT3, and <cluePolarity>not</cluePolarity> that produced by PMA.</clue>
+<comment>NO COREFCAUSE</comment></event>
+<sentence id="S4">As judged by supershifting the <term id="T16" lex="DNA-protein_complex" sem="Protein_complex">DNA-protein complexes</term> with <term id="T17" lex="Abs" sem="Protein_family_or_group">Abs</term> recognizing specific components of the <term id="T18" lex="NF-kappa_B/Rel_protein_family" sem="Protein_family_or_group"><term id="T19" lex="NF-kappa_B/Rel" sem="Protein_complex">NF-kappa B/Rel</term> protein family</term>, the <term id="T20" lex="p50/p65" sem="Protein_complex">p50/p65</term> (<term id="T21" lex="Rel_A" sem="Protein_complex">Rel A</term>) heterodimeric form of <term id="T22" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> is primarily affected.</sentence>
+<event KT="Analysis" id="E8">
+<type class="Negative_regulation"/>
+<theme idref="T20"/>
+<clue><clueExperiment>As <clueKT>judged</clueKT> by supershifting the DNA-protein complexes with Abs recognizing specific components of the NF-kappa B/Rel protein family,</clueExperiment> the p50/p65 (Rel A) heterodimeric form of NF-kappa B is primarily <clueType>affected</clueType>.</clue>
+</event>
+<sentence id="S5">The maximal effect is observed at the <term id="T23" lex="IL-10_concentration" sem="Other"><term id="T24" lex="IL-10" sem="Protein_molecule">IL-10</term> concentration</term> of 20 U/ml.</sentence>
+<sentence id="S6"><term id="T25" lex="IL-10" sem="Protein_molecule">IL-10</term> inhibitory activity is exerted on <term id="T26" lex="T_lymphocyte" sem="Cell_natural">T lymphocytes</term> and is mediated by <term id="T27" lex="monocyte" sem="Cell_natural">monocytes</term>.</sentence>
+<event id="E9">
+<type class="Negative_regulation"/>
+<cause idref="T25"/>
+<clue>IL-10 <clueType>inhibitory activity</clueType> is exerted <clueLoc>on T lymphocytes</clueLoc> and is mediated by monocytes.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="T27"/>
+<clue>IL-10 inhibitory activity is exerted on T lymphocytes and is <clueType>mediated</clueType> <linkCause>by</linkCause> monocytes.</clue>
+</event>
+<sentence id="S7">Indeed, <term id="T28" lex="monocyte" sem="Cell_natural">monocytes</term> pretreated with <term id="T29" lex="IL-10" sem="Protein_molecule">IL-10</term> are able so inhibit <term id="T30" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> nuclear activity in purified <term id="T31" lex="T_lymphocyte" sem="Cell_natural">T lymphocytes</term> stimulated with <term id="T32" lex="OKT3" sem="Protein_molecule">OKT3</term>.</sentence>
+<event KT="Method" id="E11">
+<type class="Artificial_process"/>
+<theme idref="T28"/>
+<theme idref="T29"/>
+<clue>Indeed, monocytes <clueType>pretreated</clueType> <linkTheme>with</linkTheme> IL-10 are able so inhibit NF-kappa B nuclear activity in purified T lymphocytes stimulated with OKT3.</clue>
+</event>
+<event KT="Method" id="E12">
+<type class="Physiological_process"/>
+<theme idref="T31"/>
+<theme idref="T32"/>
+<clue>Indeed, monocytes pretreated with IL-10 are able so inhibit NF-kappa B nuclear activity in purified T lymphocytes <clueType>stimulated</clueType> <linkTheme>with</linkTheme> OKT3.</clue>
+</event>
+<event id="E13">
+<type class="Negative_regulation"/>
+<theme idref="T30"/>
+<cause idref="E11"/>
+<clue>Indeed, monocytes pretreated with IL-10 are able so <clueType>inhibit</clueType> NF-kappa B nuclear activity <clueLoc>in purified T lymphocytes stimulated with OKT3.</clueLoc></clue>
+</event>
+<sentence id="S8"><term id="A2" sem="Other">Soluble factors</term> do not appear to be involved in the mechanism of inhibition.</sentence>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E14" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="A2"/>
+<theme idref="E13"/>
+<clue>Soluble factors <cluePolarity>do not</cluePolarity> <clueKT><clueCL>appear</clueCL></clueKT> to be <clueType>involved</clueType> <linkTheme>in</linkTheme> the mechanism of <corefTheme idref1="E13">inhibition</corefTheme>.</clue>
+</event>
+<sentence id="S9">On the other hand, the up-regulation of <term id="T33" lex="CD80_Ag" sem="Protein_molecule">CD80 Ag</term>, found on <term id="T34" lex="monocyte" sem="Cell_natural">monocytes</term> obtained from <term id="T35" lex="PBMC" sem="Cell_natural">PBMC</term> incubated with <term id="T36" lex="OKT3" sem="Protein_molecule">OKT3</term>, is not detected after addition of <term id="T37" lex="IL-10" sem="Protein_molecule">IL-10</term>, and the <term id="T38" lex="anti-CD28_mAb" sem="Protein_family_or_group">anti-CD28 mAb</term> <term id="T39" lex="CLB-CD28/1" sem="Protein_molecule">CLB-CD28/1</term> restores the <term id="T40" lex="NF-kappa_B/Rel_nuclear_activity" sem="Element"><term id="T41" lex="NF-kappa_B/Rel" sem="Protein_complex">NF-kappa B/Rel</term> nuclear activity</term> in <term id="T42" lex="IL-10-inhibited_lymphocyte" sem="Cell_cultured"><term id="T43" lex="IL-10" sem="Protein_molecule">IL-10</term>-inhibited <term id="A23" sem="Cell_natural">lymphocytes</term></term>.</sentence>
+<event KT="Method" id="E52">
+<type class="Artificial_process"/>
+<theme idref="T36"/>
+<theme idref="T35"/>
+<clue>On the other hand, the up-regulation of CD80 Ag, found on monocytes obtained from PBMC <clueType>incubated</clueType> <linkTheme>with</linkTheme> OKT3, is not detected after addition of IL-10, and the anti-CD28 mAb CLB-CD28/1 restores the NF-kappa B/Rel nuclear activity in IL-10-inhibited lymphocytes.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation"/>
+<theme idref="T33"/>
+<cause idref="E52"/>
+<clue>On the other hand, the <clueType>up-regulation</clueType> <linkTheme>of</linkTheme> CD80 Ag, found <clueLoc>on monocytes obtained from PBMC</clueLoc> incubated with OKT3, is not detected after addition of IL-10, and the anti-CD28 mAb CLB-CD28/1 restores the NF-kappa B/Rel nuclear activity in IL-10-inhibited lymphocytes.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="T37"/>
+<clue>On the other hand, the up-regulation of CD80 Ag, found on monocytes obtained from PBMC incubated with OKT3, is <cluePolarity>not</cluePolarity> <clueType>detected</clueType> <linkCause>after</linkCause> addition of IL-10, and the anti-CD28 mAb CLB-CD28/1 restores the NF-kappa B/Rel nuclear activity in IL-10-inhibited lymphocytes.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="T41"/>
+<cause idref="T39"/>
+<clue>On the other hand, the up-regulation of CD80 Ag, found on monocytes obtained from PBMC incubated with OKT3, is not detected after addition of IL-10, and the anti-CD28 mAb CLB-CD28/1 <clueType>restores</clueType> the NF-kappa B/Rel nuclear activity <clueLoc>in IL-10-inhibited lymphocytes</clueLoc>.</clue>
+</event>
+<event id="E53">
+<type class="Negative_regulation"/>
+<theme idref="A23"/>
+<cause idref="T43"/>
+<clue>On the other hand, the up-regulation of CD80 Ag, found on monocytes obtained from PBMC incubated with OKT3, is not detected after addition of IL-10, and the anti-CD28 mAb CLB-CD28/1 restores the NF-kappa B/Rel nuclear activity in IL-10-<clueType>inhibited</clueType> lymphocytes.</clue>
+</event>
+<sentence id="S10">Therefore, the <term id="T44" lex="NF-kappa_B/Rel" sem="Protein_complex">NF-kappa B/Rel</term> inhibition might be ascribed to a lack of cooperation between <term id="A3" sem="Cell_natural">accessory cells</term> and <term id="T45" lex="T_lymphocyte" sem="Cell_natural">T lymphocytes</term>, resulting from down-regulation of a costimulatory molecule, such as <term id="T46" lex="CD80" sem="Protein_molecule">CD80</term>, produced by <term id="T47" lex="IL-10" sem="Protein_molecule">IL-10</term> on activated <term id="T48" lex="monocyte" sem="Cell_natural">monocytes</term>.</sentence>
+<event KT="Other" id="E18">
+<type class="Negative_regulation"/>
+<theme idref="T44"/>
+<clue>Therefore, the NF-kappa B/Rel <clueType>inhibition</clueType> might be ascribed to a lack of cooperation between accessory cells and T lymphocytes, resulting from down-regulation of a costimulatory molecule, such as CD80, produced by IL-10 on activated monocytes.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Negative_regulation"/>
+<theme idref="T46"/>
+<cause idref="T47"/>
+<clue>Therefore, the NF-kappa B/Rel inhibition might be ascribed to a lack of cooperation between accessory cells and T lymphocytes, resulting from <clueType>down-regulation</clueType> <linkTheme>of</linkTheme> a <corefTheme>costimulatory molecule</corefTheme>, such as CD80, produced <linkCause>by</linkCause> IL-10 <clueLoc>on activated monocytes</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Cell_communication"/>
+<theme idref="A3"/>
+<theme idref="T45"/>
+<clue>Therefore, the NF-kappa B/Rel inhibition might be ascribed to a lack of <clueType>cooperation</clueType> <linkTheme>between</linkTheme> accessory cells and T lymphocytes, resulting from down-regulation of a costimulatory molecule, such as CD80, produced by IL-10 on activated monocytes.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Negative_regulation"/>
+<theme idref="E20"/>
+<cause idref="E19"/>
+<clue>Therefore, the NF-kappa B/Rel inhibition might be ascribed to a <clueType>lack</clueType> <linkTheme>of</linkTheme> cooperation between accessory cells and T lymphocytes, <linkCause>resulting from</linkCause> down-regulation of a costimulatory molecule, such as CD80, produced by IL-10 on activated monocytes.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E23" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="E22"/>
+<clue><clueKT>Therefore</clueKT>, the NF-kappa B/Rel inhibition <clueCL>might</clueCL> be <clueType>ascribed</clueType> <linkTheme>to</linkTheme> a lack of cooperation between accessory cells and T lymphocytes, resulting from down-regulation of a costimulatory molecule, such as CD80, produced by IL-10 on activated monocytes.</clue>
+</event>
+<event KT="Other" id="E54">
+<type class="Physiological_process"/>
+<theme idref="T48"/>
+<clue>Therefore, the NF-kappa B/Rel inhibition might be ascribed to a lack of cooperation between accessory cells and T lymphocytes, resulting from down-regulation of a costimulatory molecule, such as CD80, produced by IL-10 on <clueType>activated</clueType> monocytes.</clue>
+</event>
+<sentence id="S11">Our results demonstrate that <term id="T49" lex="IL-10" sem="Protein_molecule">IL-10</term> can inhibit the induction of <term id="T50" lex="NF-kappa_B/Rel" sem="Protein_complex">NF-kappa B/Rel</term> nuclear activity in <term id="T51" lex="CD3-stimulated_T_lymphocyte" sem="Cell_cultured"><term id="A25" sem="Protein_molecule">CD3</term>-stimulated <term id="T52" lex="T_lymphocyte" sem="Cell_natural">T lymphocytes</term></term>.</sentence>
+<event KT="Other" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="T50"/>
+<clue>Our results demonstrate that IL-10 can inhibit the <clueType>induction</clueType> <linkTheme>of</linkTheme> NF-kappa B/Rel nuclear activity <clueLoc>in CD3-stimulated T lymphocytes</clueLoc>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E25">
+<type class="Negative_regulation"/>
+<theme idref="E24"/>
+<cause idref="T49"/>
+<clue>Our results <clueKT>demonstrate</clueKT> that IL-10 <clueCL>can</clueCL> <clueType>inhibit</clueType> the induction of NF-kappa B/Rel nuclear activity in CD3-stimulated T lymphocytes.</clue>
+</event>
+<event KT="Method" id="E55">
+<type class="Physiological_process"/>
+<theme idref="T52"/>
+<cause idref="A25"/>
+<clue>Our results demonstrate that IL-10 can inhibit the induction of NF-kappa B/Rel nuclear activity in CD3-<clueType>stimulated</clueType> T lymphocytes.</clue>
+</event>
+<sentence id="S12">Since inappropriate activation of <term id="T53" lex="kappa_B-driven_gene" sem="DNA_family_or_group">kappa B-driven genes</term> has a physiopathologic role in a number of diseases, such as <term id="T54" lex="HIV_infection" sem="Other"><term id="A26" sem="Virus">HIV</term> infection</term>, our findings support the possibility of using this cytokine to suppress an undesirable activation of these <term id="T55" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term>.</sentence>
+<event KT="Other" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="T53"/>
+<clue>Since <clueType>inappropriate activation</clueType> <linkTheme>of</linkTheme> kappa B-driven genes has a physiopathologic role in a number of diseases, such as HIV infection, our findings support the possibility of using this cytokine to suppress an undesirable activation of these transcription factors.</clue>
+</event>
+<event KT="Fact" id="E28">
+<type class="Correlation"/>
+<theme idref="E26"/>
+<theme idref="T54"/>
+<clue>Since inappropriate activation of kappa B-driven genes <clueType>has</clueType> a physiopathologic <clueType>role</clueType> <linkTheme>in</linkTheme> <corefTheme idref1="T54">a number of diseases</corefTheme>, such as HIV infection, our findings support the possibility of using this cytokine to suppress an undesirable activation of these transcription factors.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation"/>
+<theme idref="T50"/>
+<clue>Since inappropriate activation of kappa B-driven genes has a physiopathologic role in a number of diseases, such as HIV infection, our findings support the possibility of using this cytokine to suppress an undesirable <clueType>activation</clueType> <linkTheme>of</linkTheme> <corefTheme>these transcription factors</corefTheme>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E30">
+<type class="Negative_regulation"/>
+<theme idref="E29"/>
+<cause idref="T49"/>
+<clue>Since inappropriate activation of kappa B-driven genes has a physiopathologic role in a number of diseases, such as HIV infection, our findings <clueKT>support the<clueCL> possibility</clueCL></clueKT> of using <corefCause>this cytokine</corefCause> to <clueType>suppress</clueType> an undesirable activation of these transcription factors.</clue>
+</event>
+<event KT="Other" id="E56">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="A26"/>
+<clue>Since inappropriate activation of kappa B-driven genes has a physiopathologic role in a number of diseases, such as HIV <clueType>infection</clueType>, our findings support the possibility of using this cytokine to suppress an undesirable activation of these transcription factors.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

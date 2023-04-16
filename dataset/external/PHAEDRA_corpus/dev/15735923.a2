@@ -1,0 +1,18 @@
+T12	Adverse_effect 53 58	after
+T17	Adverse_effect 380 399	following treatment
+T19	Adverse_effect 816 820	with
+T20	Potential_therapeutic_effect 72 75	for
+T22	Adverse_effect 230 245	adverse effects
+T24	Potential_therapeutic_effect 380 399	following treatment
+R1	is_equivalent Arg1:T9 Arg2:T15
+R2	Subject_Disorder Arg1:T13 Arg2:T4
+R4	Coreference Arg1:T30 Arg2:T2
+E1	Adverse_effect:T12 affects:T1 has_agent:T2
+E2	Adverse_effect:T17 has_agent:T9 affects:T7 has_subject:T14
+E3	Adverse_effect:T19 affects:T11 has_agent:T18
+E4	Potential_therapeutic_effect:T20 affects:T3 has_agent:T2
+E6	Adverse_effect:T22 affects:T5 affects:T6 has_subject:T13 has_cue:T28 has_agent:T30
+E7	Potential_therapeutic_effect:T24 affects:T8 has_agent:T9
+A1	Manner E6 High
+T31	Adverse_effect 533 538	after
+E5	Adverse_effect:T31 affects:T25 has_agent:T16

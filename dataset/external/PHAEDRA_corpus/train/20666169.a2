@@ -1,0 +1,16 @@
+T21	Adverse_effect 13 20	induced
+T26	DDI 809 820	interaction
+T29	Potential_therapeutic_effect 228 234	reated
+T35	Adverse_effect 743 748	cause
+R1	Subject_Disorder Arg1:T22 Arg2:T3
+R2	Subject_Disorder Arg1:T22 Arg2:T4
+R3	Subject_Disorder Arg1:T22 Arg2:T5
+R4	Subject_Disorder Arg1:T22 Arg2:T6
+R5	Coreference Arg1:T30 Arg2:T22
+E2	DDI:T26 has_participant:T17 has_participant:T18 has_cue:T34
+E3	Combination:T28 has_participant:T7 has_participant:T8
+E1	Adverse_effect:T21 affects:T2 has_agent:T1
+E4	Potential_therapeutic_effect:T29 has_subject:T30 has_agent:E3
+E6	Adverse_effect:T35 has_cue:T36 has_agent:E2 affects:T16
+A3	Speculated E2
+A4	Speculated E6

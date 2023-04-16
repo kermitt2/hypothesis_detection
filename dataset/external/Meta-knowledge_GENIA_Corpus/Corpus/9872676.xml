@@ -1,0 +1,330 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9872676" created="20/05/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9872676</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="interleukin-10" sem="Protein_molecule">Interleukin-10</term> stabilizes <term id="A1" sem="Protein_molecule">inhibitory <term id="T2" lex="kappaB-alpha" sem="Protein_molecule">kappaB-alpha</term></term> in <term id="T3" lex="human_monocyte" sem="Cell_natural">human monocytes</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation"/>
+<theme idref="A1"/>
+<cause idref="T1"/>
+<clue>Interleukin-10 <clueType>stabilizes</clueType> inhibitory kappaB-alpha <clueLoc>in human monocytes</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T4" lex="interleukin-10" sem="Protein_molecule">Interleukin-10</term> (<term id="T5" lex="IL-10" sem="Protein_molecule">IL-10</term>) protects animals from <term id="T6" lex="lethal_endotoxemia" sem="Other">lethal endotoxemia</term>.</sentence>
+<event KT="Fact" id="E2">
+<type class="Negative_regulation"/>
+<theme idref="T6"/>
+<cause idref="T5"/>
+<clue>Interleukin-10 (IL-10) <clueType>protects</clueType> <clueLoc>animals</clueLoc> <linkTheme>from</linkTheme> lethal endotoxemia.</clue>
+</event>
+<sentence id="S3">This beneficial effect is mediated, in part, by inhibition of <term id="T7" lex="inflammatory_cytokine_production" sem="Other"><term id="T8" lex="inflammatory_cytokine" sem="Protein_family_or_group">inflammatory cytokine</term> production</term>, including <term id="T9" lex="tumor_necrosis_factor-alpha" sem="Protein_molecule">tumor necrosis factor-alpha</term> (<term id="T10" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term>).</sentence>
+<event KT="Fact" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="E4"/>
+<clue><corefTheme>This beneficial effect</corefTheme> is <clueType>mediated</clueType>, in part, <linkCause>by</linkCause> inhibition of inflammatory cytokine production, including tumor necrosis factor-alpha (TNF-alpha).</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Negative_regulation"/>
+<theme idref="E5"/>
+<clue>This beneficial effect is mediated, in part, by <clueType>inhibition</clueType> <linkTheme>of</linkTheme> inflammatory cytokine production, including tumor necrosis factor-alpha (TNF-alpha).</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Gene_expression"/>
+<theme idref="T10"/>
+<clue>This beneficial effect is mediated, in part, by inhibition of <corefTheme>inflammatory cytokine</corefTheme> <clueType>production</clueType>, including tumor necrosis factor-alpha (TNF-alpha).</clue>
+</event>
+<sentence id="S4">Evidence suggests that <term id="T11" lex="IL-10" sem="Protein_molecule">IL-10</term> may inhibit activation of the <term id="T12" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> <term id="T13" lex="nuclear_factor-kappaB" sem="Protein_molecule">nuclear factor-kappaB</term> (<term id="T14" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>) through an unknown mechanism.</sentence>
+<event CL="L1" KT="Analysis" id="E6" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="E7"/>
+<cause idref="T11"/>
+<clue><clueKT>Evidence</clueKT> <clueKT>suggests</clueKT> that IL-10 <clueCL>may</clueCL> <clueType>inhibit</clueType> activation of the transcription factor nuclear factor-kappaB (NF-kappaB) through an unknown mechanism.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T14"/>
+<clue>Evidence suggests that IL-10 may inhibit <clueType>activation</clueType> <linkTheme>of</linkTheme> the transcription factor nuclear factor-kappaB (NF-kappaB) through an unknown mechanism.</clue>
+</event>
+<sentence id="S5"><term id="T15" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activation in response to <term id="T16" lex="inflammatory_signal" sem="Other">inflammatory signals</term> is dependent upon degradation of its associated <term id="T17" lex="inhibitory_peptide" sem="Peptide">inhibitory peptide</term>, <term id="T18" lex="inhibitory_kappaB-alpha" sem="Protein_molecule">inhibitory kappaB-alpha</term> (<term id="T19" lex="IkappaB-alpha" sem="Protein_molecule">IkappaB-alpha</term>).</sentence>
+<event KT="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T15"/>
+<cause idref="T16"/>
+<clue>NF-kappaB <clueType>activation</clueType> <linkCause>in response to</linkCause> inflammatory signals is dependent upon degradation of its associated inhibitory peptide, inhibitory kappaB-alpha (IkappaB-alpha).</clue>
+</event>
+<event KT="Fact" id="E9">
+<type class="Regulation"/>
+<theme idref="E8"/>
+<cause idref="E10"/>
+<clue>NF-kappaB activation in response to inflammatory signals is <clueType>dependent</clueType> <linkCause>upon</linkCause> degradation of its associated inhibitory peptide, inhibitory kappaB-alpha (IkappaB-alpha).</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Protein_catabolism"/>
+<theme idref="T19"/>
+<clue>NF-kappaB activation in response to inflammatory signals is dependent upon <clueType>degradation</clueType> <linkTheme>of</linkTheme> its associated inhibitory peptide, inhibitory kappaB-alpha (IkappaB-alpha).</clue>
+</event>
+<event KT="Analysis" id="E11">
+<type class="Binding"/>
+<theme idref="T15"/>
+<theme idref="T19"/>
+<clue>NF-kappaB activation in response to inflammatory signals is dependent upon degradation of <corefTheme>its</corefTheme> <clueType><clueKT>associated</clueKT></clueType> inhibitory peptide, inhibitory kappaB-alpha (IkappaB-alpha).</clue>
+</event>
+<sentence id="S6">We hypothesized that <term id="T20" lex="IL-10" sem="Protein_molecule">IL-10</term> prevents <term id="T21" lex="human_monocyte_NF-kappaB_activation" sem="Other">human monocyte <term id="T22" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activation</term> and resultant <term id="T23" lex="TNF-alpha_production" sem="Other"><term id="T24" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term> production</term> by stabilization of <term id="T25" lex="IkappaB-alpha" sem="Protein_molecule">IkappaB-alpha</term>.</sentence>
+<event KT="Other" id="E12" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="T25"/>
+<cause idref="T20"/>
+<clue>We hypothesized that IL-10 prevents human monocyte NF-kappaB activation and resultant TNF-alpha production by <clueType>stabilization</clueType> <linkTheme>of</linkTheme> IkappaB-alpha.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T22"/>
+<clue>We hypothesized that IL-10 prevents <clueLoc>human monocyte</clueLoc> NF-kappaB <clueType>activation</clueType> and resultant TNF-alpha production by stabilization of IkappaB-alpha.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Gene_expression"/>
+<theme idref="T24"/>
+<clue>We hypothesized that IL-10 prevents <clueLoc>human monocyte</clueLoc> NF-kappaB activation and resultant TNF-alpha <clueType>production</clueType> by stabilization of IkappaB-alpha.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E15" uncertainty="doubtful">
+<type class="Negative_regulation"/>
+<theme idref="E13"/>
+<cause idref="E12"/>
+<clue>We <clueKT><clueCL>hypothesized</clueCL></clueKT> that IL-10 <clueType>prevents</clueType> human monocyte NF-kappaB activation and resultant TNF-alpha production <linkCause>by</linkCause> stabilization of IkappaB-alpha.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E53" uncertainty="doubtful">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<cause idref="E12"/>
+<clue>We <clueKT><clueCL>hypothesized</clueCL></clueKT> that IL-10 <clueType>prevents</clueType> human monocyte NF-kappaB activation and resultant TNF-alpha production <linkCause>by</linkCause> stabilization of IkappaB-alpha.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="E13"/>
+<clue>We hypothesized that IL-10 prevents human monocyte NF-kappaB activation and <clueType>resultant</clueType> TNF-alpha production by stabilization of IkappaB-alpha.</clue>
+</event>
+<sentence id="S7">The purpose of this study was to determine the effect of <term id="T26" lex="IL-10" sem="Protein_molecule">IL-10</term> on lipopolysaccharide (<term id="A2" sem="Lipid">LPS</term>)-induced <term id="T27" lex="human_monocyte_TNF-alpha_production" sem="Other">human monocyte <term id="T28" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term> production</term>, <term id="T29" lex="NF-kappaB_activation" sem="Other"><term id="T30" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activation</term>, and <term id="T31" lex="IkappaB-alpha_degradation" sem="Other"><term id="T32" lex="IkappaB-alpha" sem="Protein_molecule">IkappaB-alpha</term> degradation</term>.</sentence>
+<event KT="Investigation" id="E17" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E21"/>
+<cause idref="T26"/>
+<clue>The purpose of this study was <clueKT>to determine</clueKT> the <clueType>effect</clueType> <linkCause>of</linkCause> IL-10 <linkTheme>on</linkTheme> lipopolysaccharide (LPS)-induced human monocyte TNF-alpha production, NF-kappaB activation, and IkappaB-alpha degradation.</clue>
+</event>
+<event KT="Investigation" id="E18" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E22"/>
+<cause idref="T26"/>
+<clue>The purpose of this study was <clueKT>to determine</clueKT> the <clueType>effect</clueType> <linkCause>of</linkCause> IL-10 <linkTheme>on</linkTheme> lipopolysaccharide (LPS)-induced human monocyte TNF-alpha production, NF-kappaB activation, and IkappaB-alpha degradation.</clue>
+</event>
+<event KT="Investigation" id="E19" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E23"/>
+<cause idref="T26"/>
+<clue>The purpose of this study was <clueKT>to determine</clueKT> the <clueType>effect</clueType> <linkCause>of</linkCause> IL-10 <linkTheme>on</linkTheme> lipopolysaccharide (LPS)-induced human monocyte TNF-alpha production, NF-kappaB activation, and IkappaB-alpha degradation.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="A2"/>
+<clue>The purpose of this study was to determine the effect of IL-10 on lipopolysaccharide (LPS)-<clueType>induced</clueType> human monocyte TNF-alpha production, NF-kappaB activation, and IkappaB-alpha degradation.</clue>
+<comment>NER: T27 mod</comment></event>
+<event KT="Other" id="E21">
+<type class="Gene_expression"/>
+<theme idref="T28"/>
+<clue>The purpose of this study was to determine the effect of IL-10 on lipopolysaccharide (LPS)-induced <clueLoc>human monocyte</clueLoc> TNF-alpha <clueType>production</clueType>, NF-kappaB activation, and IkappaB-alpha degradation.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="T30"/>
+<cause idref="A2"/>
+<clue>The purpose of this study was to determine the effect of IL-10 on lipopolysaccharide (LPS)<linkCause>-induced</linkCause> <clueLoc>human monocyte</clueLoc> TNF-alpha production, NF-kappaB <clueType>activation</clueType>, and IkappaB-alpha degradation.</clue>
+</event>
+<event KT="Other" id="E23">
+<type class="Protein_catabolism"/>
+<theme idref="T32"/>
+<clue>The purpose of this study was to determine the effect of IL-10 on lipopolysaccharide (LPS)-induced <clueLoc>human monocyte</clueLoc> TNF-alpha production, NF-kappaB activation, and IkappaB-alpha <clueType>degradation</clueType>.</clue>
+</event>
+<event KT="Other" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E23"/>
+<cause idref="A2"/>
+<clue>The purpose of this study was to determine the effect of IL-10 on lipopolysaccharide (LPS)-<clueType>induced</clueType> human monocyte TNF-alpha production, NF-kappaB activation, and IkappaB-alpha degradation.</clue>
+</event>
+<sentence id="S8"><term id="A3" sem="Cell_natural">Monocytes</term> were isolated from <term id="T33" lex="human_donor" sem="Multicellular_organism_natural">human donors</term>.</sentence>
+<sentence id="S9">Cells were stimulated with <term id="T34" lex="endotoxin" sem="Protein_family_or_group">endotoxin</term> (<term id="T35" lex="LPS" sem="Lipid">LPS</term>, 100 ng/mL) with and without human <term id="T36" lex="IL-10" sem="Protein_molecule">IL-10</term> (10 ng/mL).</sentence>
+<event id="E25">
+<type class="Physiological_process"/>
+<theme idref="A3"/>
+<cause idref="T35"/>
+<cause idref="T36"/>
+<clue><corefTheme>Cells</corefTheme> were <clueType>stimulated</clueType> <linkCause>with</linkCause> endotoxin (LPS, 100 ng/mL) <linkCause>with</linkCause> and without human IL-10 (10 ng/mL).</clue>
+</event>
+<event id="E26">
+<type class="Physiological_process"/>
+<theme idref="A3"/>
+<cause idref="T35"/>
+<clue><corefTheme>Cells</corefTheme> were <clueType>stimulated</clueType> <linkCause>with</linkCause> endotoxin (LPS, 100 ng/mL) with and without human IL-10 (10 ng/mL).</clue>
+</event>
+<sentence id="S10">Following stimulation, <term id="T37" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term> was measured in cell supernatants by <term id="T38" lex="ELISA" sem="Other">ELISA</term>, <term id="T39" lex="NF-kappaB_activity" sem="Other"><term id="T40" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activity</term> by <term id="T41" lex="electrophoretic_mobility_shift_assay" sem="Other">electrophoretic mobility shift assay</term>, and <term id="T42" lex="IkappaB-alpha" sem="Protein_molecule">IkappaB-alpha</term> levels by <term id="T43" lex="Western_blot" sem="Other">Western blot</term>.</sentence>
+<event KT="Investigation" id="E29" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="T37"/>
+<cause idref="E25"/>
+<clue><linkCause>Following</linkCause> <corefCause>stimulation</corefCause>, TNF-alpha was <clueType><clueKT>measured</clueKT></clueType> <clueLoc>in cell supernatants</clueLoc> <clueExperiment>by ELISA</clueExperiment>, NF-kappaB activity by electrophoretic mobility shift assay, and IkappaB-alpha levels by Western blot.</clue>
+</event>
+<event KT="Investigation" id="E30" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="T37"/>
+<cause idref="E26"/>
+<clue><linkCause>Following</linkCause> <corefCause>stimulation</corefCause>, TNF-alpha was <clueType><clueKT>measured</clueKT></clueType> <clueLoc>in cell supernatants</clueLoc> <clueExperiment>by ELISA</clueExperiment>, NF-kappaB activity by electrophoretic mobility shift assay, and IkappaB-alpha levels by Western blot.</clue>
+</event>
+<event KT="Investigation" id="E31" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="T40"/>
+<cause idref="E25"/>
+<clue><linkCause>Following</linkCause> <corefCause>stimulation</corefCause>, TNF-alpha was <clueType><clueKT>measured</clueKT></clueType> <clueLoc>in cell supernatants</clueLoc> by ELISA, NF-kappaB activity <clueExperiment>by electrophoretic mobility shift assay</clueExperiment>, and IkappaB-alpha levels by Western blot.</clue>
+</event>
+<event KT="Investigation" id="E32" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="T40"/>
+<cause idref="E26"/>
+<clue><linkCause>Following</linkCause> <corefCause>stimulation</corefCause>, TNF-alpha was <clueType><clueKT>measured</clueKT></clueType> <clueLoc>in cell supernatants</clueLoc> by ELISA, NF-kappaB activity <clueExperiment>by electrophoretic mobility shift assay</clueExperiment>, and IkappaB-alpha levels by Western blot.</clue>
+</event>
+<event KT="Other" id="E33" uncertainty="doubtful">
+<type class="Gene_expression"/>
+<theme idref="T42"/>
+<clue>Following stimulation, TNF-alpha was measured <clueLoc>in cell supernatants</clueLoc> by ELISA, NF-kappaB activity by electrophoretic mobility shift assay, and IkappaB-alpha <clueType>levels</clueType> <clueExperiment>by Western blot</clueExperiment>.</clue>
+</event>
+<event KT="Investigation" id="E55" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E33"/>
+<cause idref="E25"/>
+<clue><linkCause>Following</linkCause> <corefCause>stimulation</corefCause>, TNF-alpha was <clueType><clueKT>measured</clueKT></clueType> in cell supernatants by ELISA, NF-kappaB activity by electrophoretic mobility shift assay, and IkappaB-alpha levels by Western blot.</clue>
+</event>
+<event KT="Investigation" id="E34" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E33"/>
+<cause idref="E26"/>
+<clue><linkCause>Following</linkCause> <corefCause>stimulation</corefCause>, TNF-alpha was <clueType><clueKT>measured</clueKT></clueType> in cell supernatants by ELISA, NF-kappaB activity by electrophoretic mobility shift assay, and IkappaB-alpha levels by Western blot.</clue>
+</event>
+<sentence id="S11">We observed that after <term id="T44" lex="LPS_stimulation" sem="Other"><term id="T45" lex="LPS" sem="Lipid">LPS</term> stimulation</term> of <term id="T46" lex="human_monocyte" sem="Cell_natural">human monocytes</term>, <term id="T47" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term> increased to 798+/-67 pg/mL (p &lt; .001 versus control).</sentence>
+<event id="E35">
+<type class="Physiological_process"/>
+<theme idref="T46"/>
+<cause idref="T45"/>
+<clue>We observed that after LPS <clueType>stimulation</clueType> <linkTheme>of</linkTheme> human monocytes, TNF-alpha increased to 798+/-67 pg/mL (p &lt; .001 versus control).</clue>
+</event>
+<event id="E36">
+<type class="Positive_regulation"/>
+<theme idref="T47"/>
+<cause idref="E35"/>
+<clue>We <clueKT>observed</clueKT> that <linkCause>after</linkCause> LPS stimulation of <clueLoc>human monocytes</clueLoc>, TNF-alpha <clueType>increased</clueType> to 798+/-67 pg/mL (p &lt; .001 versus control).</clue>
+</event>
+<sentence id="S12"><term id="T48" lex="IL-10" sem="Protein_molecule">IL-10</term> attenuated <term id="T49" lex="LPS-stimulated_TNF-alpha_production" sem="Other"><term id="T50" lex="LPS" sem="Lipid">LPS</term>-stimulated <term id="T51" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term> production</term> (297+/-54; p &lt; .001 versus <term id="T52" lex="LPS" sem="Lipid">LPS</term> alone).</sentence>
+<event id="E37">
+<type class="Negative_regulation"/>
+<theme idref="E38"/>
+<cause idref="T48"/>
+<clue>IL-10 <clueType>attenuated</clueType> LPS-stimulated TNF-alpha production (297+/-54; p &lt; .001 versus LPS alone).</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation"/>
+<theme idref="E54"/>
+<cause idref="T50"/>
+<clue>IL-10 attenuated LPS-<clueType>stimulated</clueType> TNF-alpha production (297+/-54; p &lt; .001 versus LPS alone).</clue>
+</event>
+<event id="E54">
+<type class="Gene_expression"/>
+<theme idref="T51"/>
+<clue>IL-10 attenuated LPS-stimulated TNF-alpha <clueType>production</clueType> (297+/-54; p &lt; .001 versus LPS alone).</clue>
+</event>
+<sentence id="S13">After <term id="T53" lex="LPS_stimulation" sem="Other"><term id="T54" lex="LPS" sem="Lipid">LPS</term> stimulation</term> in <term id="T55" lex="human_monocyte" sem="Cell_natural">human monocytes</term>, <term id="T56" lex="IkappaB-alpha_protein_levels" sem="Other"><term id="T57" lex="IkappaB-alpha" sem="Protein_molecule">IkappaB-alpha</term> protein levels</term> decreased, and <term id="T58" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> <term id="A4" sem="DNA_domain_or_region">DNA</term> binding increased.</sentence>
+<event id="E39">
+<type class="Physiological_process"/>
+<theme idref="T55"/>
+<cause idref="T54"/>
+<clue>After LPS <clueType>stimulation</clueType> <linkTheme>in</linkTheme> human monocytes, IkappaB-alpha protein levels decreased, and NF-kappaB DNA binding increased.</clue>
+</event>
+<event id="E40">
+<type class="Negative_regulation"/>
+<theme idref="T57"/>
+<cause idref="E39"/>
+<clue><linkCause>After</linkCause> LPS stimulation <clueLoc>in human monocytes</clueLoc>, IkappaB-alpha protein levels <clueType>decreased</clueType>, and NF-kappaB DNA binding increased.</clue>
+</event>
+<event id="E41">
+<type class="Binding"/>
+<theme idref="T58"/>
+<theme idref="A4"/>
+<clue>After LPS stimulation in human monocytes, IkappaB-alpha protein levels decreased, and NF-kappaB DNA <clueType>binding</clueType> increased.</clue>
+</event>
+<event id="E42">
+<type class="Positive_regulation"/>
+<theme idref="E41"/>
+<cause idref="E39"/>
+<clue><linkCause>After</linkCause> LPS stimulation <clueLoc>in human monocytes</clueLoc>, IkappaB-alpha protein levels decreased, and NF-kappaB DNA binding <clueType>increased</clueType>.</clue>
+</event>
+<sentence id="S14"><term id="T59" lex="IL-10" sem="Protein_molecule">IL-10</term> pretreatment prevented <term id="T60" lex="LPS-induced_decrease" sem="Other"><term id="T61" lex="LPS" sem="Lipid">LPS</term>-induced decreases</term> in <term id="T62" lex="IkappaB-alpha_protein_level" sem="Other"><term id="T63" lex="IkappaB-alpha" sem="Protein_molecule">IkappaB-alpha</term> protein levels</term> and attenuated <term id="T64" lex="NF-kappaB_DNA_binding" sem="Other"><term id="T65" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> <term id="A5" sem="DNA_domain_or_region">DNA</term> binding</term>.</sentence>
+<event KT="Method" id="E43">
+<type class="Artificial_process"/>
+<theme idref="T59"/>
+<clue>IL-10 <clueType>pretreatment</clueType> prevented LPS-induced decreases in IkappaB-alpha protein levels and attenuated NF-kappaB DNA binding.</clue>
+</event>
+<event KT="Other" id="E44">
+<type class="Negative_regulation"/>
+<theme idref="T63"/>
+<cause idref="T61"/>
+<clue>IL-10 pretreatment prevented LPS<linkCause>-induced</linkCause> <clueType>decreases</clueType> <linkTheme>in</linkTheme> IkappaB-alpha protein <clueType>levels</clueType> and attenuated NF-kappaB DNA binding.</clue>
+</event>
+<event id="E45">
+<type class="Negative_regulation"/>
+<theme idref="E44"/>
+<cause idref="E43"/>
+<clue>IL-10 pretreatment <clueType>prevented</clueType> LPS-induced decreases in IkappaB-alpha protein levels and attenuated NF-kappaB DNA binding.</clue>
+</event>
+<event id="E46">
+<type class="Binding"/>
+<theme idref="T65"/>
+<theme idref="A5"/>
+<clue>IL-10 pretreatment prevented LPS-induced decreases in IkappaB-alpha protein levels and attenuated NF-kappaB DNA <clueType>binding</clueType>.</clue>
+</event>
+<event id="E47">
+<type class="Negative_regulation"/>
+<theme idref="E46"/>
+<cause idref="E43"/>
+<clue>IL-10 pretreatment prevented LPS-induced decreases in IkappaB-alpha protein levels and <clueType>attenuated</clueType> NF-kappaB DNA binding.</clue>
+</event>
+<sentence id="S15"><term id="T66" lex="IL-10" sem="Protein_molecule">IL-10</term> appears to prevent activation of <term id="T67" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> by preserving <term id="T68" lex="IkappaB-alpha_protein_level" sem="Other"><term id="T69" lex="IkappaB-alpha" sem="Protein_molecule">IkappaB-alpha</term> protein levels</term>, leading to a reduction in <term id="T70" lex="TNF-alpha_release" sem="Other"><term id="T71" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term> release</term>.</sentence>
+<event KT="Other" id="E48">
+<type class="Positive_regulation"/>
+<theme idref="T67"/>
+<clue>IL-10 appears to prevent <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappaB by preserving IkappaB-alpha protein levels, leading to a reduction in TNF-alpha release.</clue>
+</event>
+<event KT="Other" id="E49">
+<type class="Positive_regulation"/>
+<theme idref="T69"/>
+<cause idref="T66"/>
+<clue>IL-10 appears to prevent activation of NF-kappaB by <clueType>preserving</clueType> IkappaB-alpha protein <clueType>levels</clueType>, leading to a reduction in TNF-alpha release.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E50" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="E48"/>
+<cause idref="E49"/>
+<clue>IL-10 <clueKT><clueCL>appears</clueCL></clueKT> to <clueType>prevent</clueType> activation of NF-kappaB <linkCause>by</linkCause> preserving IkappaB-alpha protein levels, leading to a reduction in TNF-alpha release.</clue>
+</event>
+<event KT="Other" id="E51">
+<type class="Localization"/>
+<theme idref="T71"/>
+<clue>IL-10 appears to prevent activation of NF-kappaB by preserving IkappaB-alpha protein levels, leading to a reduction in TNF-alpha <clueType>release</clueType>.</clue>
+</event>
+<event KT="Other" id="E52">
+<type class="Negative_regulation"/>
+<theme idref="E51"/>
+<cause idref="E50"/>
+<clue>IL-10 appears to prevent activation of NF-kappaB by preserving IkappaB-alpha protein levels, <clueType>leading to a reduction</clueType> <linkTheme>in</linkTheme> TNF-alpha release.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

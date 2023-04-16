@@ -1,0 +1,226 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9783909" created="16/10/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9783909</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="RNA_display" sem="Other">Differential RNA display</term> identifies <term id="T2" lex="novel_gene" sem="DNA_family_or_group">novel genes</term> associated with decreased <term id="T3" lex="vitamin_D_receptor_expression" sem="Other"><term id="T4" lex="vitamin_D_receptor" sem="Protein_family_or_group">vitamin D receptor</term> expression</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Gene_expression"/>
+<theme idref="T4"/>
+<clue>Differential RNA display identifies novel genes associated with decreased vitamin D receptor <clueType>expression</clueType>.</clue>
+<comment>NER T1 MOD</comment></event>
+<event KT="Other" id="E2">
+<type class="Negative_regulation"/>
+<theme idref="E1"/>
+<clue>Differential RNA display identifies novel genes associated with <clueType>decreased</clueType> vitamin D receptor expression.</clue>
+</event>
+<event KT="Analysis" id="E3">
+<type class="Correlation"/>
+<theme idref="T2"/>
+<theme idref="E2"/>
+<clue><clueExperiment>Differential RNA display</clueExperiment> <clueKT>identifies</clueKT> novel genes <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> decreased vitamin D receptor expression.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">To characterize further the function of the <term id="T5" lex="intracellular_vitamin_D_receptor" sem="Protein_molecule">intracellular <term id="T6" lex="vitamin_D_receptor" sem="Protein_family_or_group">vitamin D receptor</term></term> (<term id="T7" lex="VDR" sem="Protein_molecule">VDR</term>), we have developed <term id="T8" lex="stable_transfectant_variant" sem="Cell_cultured">stable transfectant variants</term> of a <term id="T9" lex="vitamin_D-responsive_cell_line" sem="Cell_cultured">vitamin D-responsive cell line</term> (<term id="T10" lex="U937" sem="Cell_cultured">U937</term>) which express either decreased or increased numbers of <term id="T11" lex="VDR" sem="Protein_family_or_group">VDR</term>.</sentence>
+<event Source="Other" id="E4">
+<type class="Gene_expression"/>
+<theme idref="T11"/>
+<clue>To characterize further the function of the intracellular vitamin D receptor (VDR), <clueSource>we have developed</clueSource> stable transfectant variants of a vitamin D-responsive cell line (U937) which <clueType>express</clueType> either decreased or increased numbers of VDR.</clue>
+</event>
+<event id="E5">
+<type class="Negative_regulation"/>
+<theme idref="E4"/>
+<clue>To characterize further the function of the intracellular vitamin D receptor (VDR), we have developed <clueLoc>stable transfectant variants of a vitamin D-responsive cell line (U937)</clueLoc> which express either <clueType>decreased</clueType> or increased <clueType>numbers</clueType> <linkTheme>of</linkTheme> VDR.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<clue>To characterize further the function of the intracellular vitamin D receptor (VDR), we have developed <clueLoc>stable transfectant variants of a vitamin D-responsive cell line (U937)</clueLoc> which express either decreased or <clueType>increased numbers</clueType> <linkTheme>of</linkTheme> VDR.</clue>
+</event>
+<sentence id="S3">In this study we have analyzed changes in <term id="A1" sem="Other">gene expression</term> associated with this variable <term id="T12" lex="VDR_expression" sem="Other"><term id="T13" lex="VDR" sem="Protein_family_or_group">VDR</term> expression</term>.</sentence>
+<event KT="Other" id="E7">
+<type class="Gene_expression"/>
+<theme idref="T13"/>
+<clue>In this study we have analyzed changes in gene expression associated with this variable VDR <clueType>expression</clueType>.</clue>
+</event>
+<event KT="Investigation" id="E8" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="A1"/>
+<clue>In this study we have <clueKT>analyzed</clueKT> <clueType>changes</clueType> <linkTheme>in</linkTheme> gene expression associated with this variable VDR expression.</clue>
+</event>
+<event KT="Analysis" id="E108" uncertainty="doubtful">
+<type class="Correlation"/>
+<theme idref="A1"/>
+<theme idref="E8"/>
+<clue>In this study we have analyzed changes in gene expression <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> this variable VDR expression.</clue>
+</event>
+<sentence id="S4">Initial experiments indicated that a 50% decrease in <term id="T14" lex="VDR_level" sem="Other"><term id="T15" lex="VDR" sem="Protein_family_or_group">VDR</term> levels</term> was associated with a 2-fold increase in <term id="A2" sem="Other">cell proliferation</term> and a similar rise in <term id="T16" lex="c-myc_mRNA_expression" sem="Other"><term id="T17" lex="c-myc_mRNA" sem="RNA_molecule">c-myc mRNA</term> expression</term>.</sentence>
+<event KT="Other" id="E9">
+<type class="Negative_regulation"/>
+<theme idref="T15"/>
+<clue>Initial experiments indicated that a 50% <clueType>decrease</clueType> <linkTheme>in</linkTheme> VDR levels was associated with a 2-fold increase in cell proliferation and a similar rise in c-myc mRNA expression.</clue>
+</event>
+<event KT="Other" Manner="High" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="A2"/>
+<clue>Initial experiments indicated that a 50% decrease in VDR levels was associated with a <clueManner>2-fold</clueManner> <clueType>increase</clueType> <linkTheme>in</linkTheme> cell proliferation and a similar rise in c-myc mRNA expression.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Transcription"/>
+<theme idref="T17"/>
+<clue>Initial experiments indicated that a 50% decrease in VDR levels was associated with a 2-fold increase in cell proliferation and a similar rise in c-myc mRNA <clueType>expression</clueType>.</clue>
+</event>
+<event KT="Other" Manner="High" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<clue>Initial experiments indicated that a 50% decrease in VDR levels was associated with a <clueManner>2-fold</clueManner> increase in cell proliferation and a similar <clueType>rise</clueType> <linkTheme>in</linkTheme> c-myc mRNA expression.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E13">
+<type class="Correlation"/>
+<theme idref="E9"/>
+<theme idref="E10"/>
+<clue>Initial experiments <clueKT><clueCL>indicated</clueCL></clueKT> that a 50% decrease in VDR levels was <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> a 2-fold increase in cell proliferation and a similar rise in c-myc mRNA expression.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E14">
+<type class="Correlation"/>
+<theme idref="E9"/>
+<theme idref="E12"/>
+<clue>Initial experiments <clueKT><clueCL>indicated</clueCL></clueKT> that a 50% decrease in VDR levels was <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> a 2-fold increase in cell proliferation and a similar rise in c-myc mRNA expression.</clue>
+<comment>NERT18 MOD</comment></event>
+<sentence id="S5">Further studies were carried out using <term id="T18" lex="RNA_display" sem="Other">differential RNA display</term> (<term id="T19" lex="DD" sem="Other">DD</term>).</sentence>
+<sentence id="S6">Sequence analysis of <term id="T20" lex="DD_product" sem="Protein_molecule">DD products</term> revealed two <term id="T21" lex="cDNA" sem="DNA_family_or_group">cDNAs</term> with identity to <term id="T22" lex="known_gene_product" sem="Protein_family_or_group">known gene products</term>: the <term id="T23" lex="catalytic_sub-unit_of_DNA-protein_kinase" sem="Protein_molecule"><term id="T24" lex="catalytic_sub-unit" sem="Protein_molecule">catalytic sub-unit</term> of <term id="T25" lex="DNA-protein_kinase" sem="Protein_molecule">DNA-protein kinase</term></term> (<term id="T26" lex="DNA-PK(CS)" sem="Protein_molecule">DNA-PK(CS)</term>), and the <term id="T27" lex="peroxisomal_enzyme_17beta-hydroxysteroid_dehydrogenase_type_IV" sem="Protein_molecule">peroxisomal enzyme 17beta-hydroxysteroid dehydrogenase type IV</term> (<term id="T28" lex="17beta-HSD_IV" sem="Protein_molecule">17beta-HSD IV</term>).</sentence>
+<sentence id="S7">Northern analysis confirmed that expression of both <term id="T29" lex="mRNA" sem="RNA_family_or_group">mRNAs</term> was reduced in cells with decreased numbers of <term id="T30" lex="VDR" sem="Protein_family_or_group">VDR</term>.</sentence>
+<event KT="Other" id="E15">
+<type class="Transcription"/>
+<theme idref="T26"/>
+<clue>Northern analysis confirmed that <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>both mRNAs</corefTheme> was reduced in cells with decreased numbers of VDR.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Transcription"/>
+<theme idref="T28"/>
+<clue>Northern analysis confirmed that <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>both mRNAs</corefTheme> was reduced in cells with decreased numbers of VDR.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Negative_regulation"/>
+<theme idref="E15"/>
+<cause idref="E19"/>
+<clue><clueExperiment>Northern analysis</clueExperiment> confirmed that expression of both mRNAs was <clueType>reduced</clueType> <clueLoc>in cells with decreased numbers of VDR</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<cause idref="E19"/>
+<clue><clueExperiment>Northern analysis</clueExperiment> confirmed that expression of both mRNAs was <clueType>reduced</clueType> <clueLoc>in cells with decreased numbers of VDR</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Negative_regulation"/>
+<theme idref="T30"/>
+<clue>Northern analysis confirmed that expression of both mRNAs was reduced in cells with <clueType>decreased numbers</clueType> <linkTheme>of</linkTheme> VDR.</clue>
+</event>
+<event KT="Analysis" id="E101">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<cause idref="E19"/>
+<clue>Northern analysis <clueKT>confirmed</clueKT> that expression of both mRNAs was reduced <linkTheme>in cells with</linkTheme> decreased numbers of VDR.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Analysis" id="E102">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="E19"/>
+<clue>Northern analysis <clueKT>confirmed</clueKT> that expression of both mRNAs was reduced <linkTheme>in cells with</linkTheme> decreased numbers of VDR.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S8">Down-regulation of <term id="T31" lex="17beta-HSD_IV_mRNA_expression" sem="Other"><term id="T32" lex="17beta-HSD_IV" sem="RNA_molecule">17beta-HSD IV mRNA</term> expression</term> was associated with <term id="T33" lex="enhanced_estradiol_inactivation" sem="Other">enhanced <term id="A3" sem="Organic_compound_other">estradiol</term> inactivation</term> by <term id="T34" lex="U937_cell" sem="Cell_cultured">U937 cells</term>, suggesting a link between <term id="T35" lex="estrogenic_pathway" sem="Other">estrogenic pathways</term> and <term id="T36" lex="cell_proliferation" sem="Other">cell proliferation</term>.</sentence>
+<event KT="Other" id="E20">
+<type class="Transcription"/>
+<theme idref="T32"/>
+<clue>Down-regulation of 17beta-HSD IV mRNA <clueType>expression</clueType> was associated with enhanced estradiol inactivation by U937 cells, suggesting a link between estrogenic pathways and cell proliferation.</clue>
+<comment>NER T32 MOD</comment></event>
+<event KT="Other" id="E21">
+<type class="Negative_regulation"/>
+<theme idref="E20"/>
+<clue><clueType>Down-regulation</clueType> <linkTheme>of</linkTheme> 17beta-HSD IV mRNA expression was associated with enhanced estradiol inactivation by U937 cells, suggesting a link between estrogenic pathways and cell proliferation.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Negative_regulation"/>
+<theme idref="A3"/>
+<clue>Down-regulation of 17beta-HSD IV mRNA expression was associated with enhanced estradiol <clueType>inactivation</clueType> by U937 cells, suggesting a link between estrogenic pathways and cell proliferation.</clue>
+</event>
+<event KT="Other" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="E22"/>
+<clue>Down-regulation of 17beta-HSD IV mRNA expression was associated with <clueType>enhanced</clueType> estradiol inactivation <clueLoc>by U937 cells</clueLoc>, suggesting a link between estrogenic pathways and cell proliferation.</clue>
+</event>
+<event KT="Analysis" id="E24">
+<type class="Correlation"/>
+<theme idref="E21"/>
+<theme idref="E23"/>
+<clue>Down-regulation of 17beta-HSD IV mRNA expression was <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> enhanced estradiol inactivation by U937 cells, suggesting a link between estrogenic pathways and cell proliferation.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E25" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="T35"/>
+<theme idref="T36"/>
+<clue>Down-regulation of 17beta-HSD IV mRNA expression was associated with enhanced estradiol inactivation by U937 cells, <clueKT><clueCL>suggesting</clueCL></clueKT> a <clueType>link</clueType> <linkTheme>between</linkTheme> estrogenic pathways and cell proliferation.</clue>
+</event>
+<sentence id="S9">Further <term id="T37" lex="Northern_analysis" sem="Other">Northern analyses</term> indicated that there was no significant change in <term id="T38" lex="17beta-HSD_IV" sem="RNA_molecule">17beta-HSD IV</term> or <term id="T39" lex="DNA-PK(CS)_mRNA_level" sem="Other"><term id="T40" lex="DNA-PK(CS)_mRNA" sem="RNA_molecule"><term id="T41" lex="DNA-PK(CS)" sem="RNA_molecule">DNA-PK(CS)</term> <term id="A5" sem="RNA_molecule">mRNA</term></term> levels</term> following treatment with <term id="T42" lex="1,25(OH)2D3" sem="Organic_compound_other">1,25(OH)2D3</term>, although expression of both genes varied with changes in <term id="A4" sem="Other">cell proliferation</term>.</sentence>
+<event CL="L2" KT="Analysis" Manner="High" Polarity="Negative" assertion="non-exist" id="E26">
+<type class="Regulation"/>
+<theme idref="T38" idref1="A5"/>
+<cause idref="T42"/>
+<clue>Further <clueExperiment>Northern analyses</clueExperiment> <clueKT><clueCL>indicated</clueCL></clueKT> that there was <cluePolarity>no</cluePolarity> <clueManner>significant</clueManner> <clueType>change</clueType> <linkTheme>in</linkTheme> 17beta-HSD IV or DNA-PK(CS) mRNA levels <linkCause>following treatment with</linkCause> 1,25(OH)2D3, although expression of both genes varied with changes in cell proliferation.</clue>
+<comment>NER T38 T41 MOD</comment></event>
+<event CL="L2" KT="Analysis" Manner="High" Polarity="Negative" assertion="non-exist" id="E27">
+<type class="Regulation"/>
+<theme idref="T41" idref1="A5"/>
+<cause idref="T42"/>
+<clue>Further <clueExperiment>Northern analyses</clueExperiment> <clueKT><clueCL>indicated</clueCL></clueKT> that there was <cluePolarity>no</cluePolarity> <clueManner>significant</clueManner> <clueType>change</clueType> <linkTheme>in</linkTheme> 17beta-HSD IV or DNA-PK(CS) mRNA levels <linkCause>following treatment with</linkCause> 1,25(OH)2D3, although expression of both genes varied with changes in cell proliferation.</clue>
+</event>
+<event KT="Other" id="E28">
+<type class="Gene_expression"/>
+<theme idref="T38"/>
+<clue>Further Northern analyses indicated that there was no significant change in 17beta-HSD IV or DNA-PK(CS) mRNA levels following treatment with 1,25(OH)2D3, although <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>both genes</corefTheme> varied with changes in cell proliferation.</clue>
+</event>
+<event KT="Other" id="E29">
+<type class="Gene_expression"/>
+<theme idref="T41"/>
+<clue>Further Northern analyses indicated that there was no significant change in 17beta-HSD IV or DNA-PK(CS) mRNA levels following treatment with 1,25(OH)2D3, although <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>both genes</corefTheme> varied with changes in cell proliferation.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E30">
+<type class="Correlation"/>
+<theme idref="E28"/>
+<theme idref="A4"/>
+<clue>Further Northern analyses <clueKT><clueCL>indicated</clueCL></clueKT> that there was no significant change in 17beta-HSD IV or DNA-PK(CS) mRNA levels following treatment with 1,25(OH)2D3, although expression of both genes <clueType>varied with changes</clueType> <linkTheme>in</linkTheme> cell proliferation.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E31">
+<type class="Correlation"/>
+<theme idref="E29"/>
+<theme idref="A4"/>
+<clue>Further Northern analyses <clueKT><clueCL>indicated</clueCL></clueKT> that there was no significant change in 17beta-HSD IV or DNA-PK(CS) mRNA levels following treatment with 1,25(OH)2D3, although expression of both genes <clueType>varied with changes</clueType> <linkTheme>in</linkTheme> cell proliferation.</clue>
+</event>
+<sentence id="S10">These data suggest that, in addition to its established role as a <term id="T43" lex="hormone-dependent_trans-activator" sem="Protein_family_or_group"><term id="A6" sem="Organic_compound_other">hormone</term>-dependent trans-activator</term>, <term id="T44" lex="VDR" sem="Protein_family_or_group">VDR</term> may influence <term id="T45" lex="gene_expression" sem="Other">gene expression</term> by <term id="T46" lex="ligand-independent_mechanisms" sem="Other"><term id="A7" sem="Organic_compound_other">ligand</term>-independent mechanisms</term>.</sentence>
+<event KT="Fact" id="E32">
+<type class="Positive_regulation"/>
+<cause idref="T44"/>
+<clue>These data suggest that, in addition to its established role as a hormone-dependent <clueType>trans-activator</clueType>, VDR may influence gene expression by ligand-independent mechanisms.</clue>
+</event>
+<event KT="Other" id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E32"/>
+<cause idref="A6"/>
+<clue>These data suggest that, in addition to its established role as a hormone-<clueType>dependent</clueType> trans-activator, VDR may influence gene expression by ligand-independent mechanisms.</clue>
+</event>
+<event KT="Other" id="E34">
+<type class="Regulation"/>
+<theme idref="T45"/>
+<cause idref="T44"/>
+<clue>These data suggest that, in addition to its established role as a hormone-dependent trans-activator, VDR may <clueType>influence</clueType> gene expression by ligand-independent mechanisms.</clue>
+</event>
+<event CL="L1" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E35" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E34"/>
+<theme idref="A7"/>
+<clue>These data <clueKT>suggest</clueKT> that, in addition to its established role as a hormone-dependent trans-activator, VDR <clueCL>may</clueCL> influence gene expression <clueType>by</clueType> ligand-<clueType><cluePolarity>independent</cluePolarity> mechanisms</clueType>.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

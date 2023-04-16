@@ -1,0 +1,158 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8663148" created="18/11/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8663148</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">A <term id="A1" sem="Protein_molecule">3&apos; --&gt; 5&apos; XPB helicase</term> defect in <term id="T3" lex="repair/transcription_factor" sem="Protein_family_or_group">repair/transcription factor</term> <term id="T4" lex="TFIIH" sem="Protein_molecule">TFIIH</term> of xeroderma pigmentosum group B affects both <term id="T5" lex="DNA_repair" sem="Other">DNA repair</term> and <term id="T6" lex="transcription" sem="Other">transcription</term>.</sentence>
+<event id="E1">
+<type class="Negative_regulation"/>
+<theme idref="A1"/>
+<clue>A 3&apos; --&gt; 5&apos; XPB helicase <clueType>defect</clueType> <clueLoc>in repair/transcription factor TFIIH of xeroderma pigmentosum group B</clueLoc> affects both DNA repair and transcription.</clue>
+<comment>NER: T1DEL, T2DEL</comment></event>
+<event id="E2">
+<type class="Regulation"/>
+<theme idref="T5"/>
+<cause idref="E1"/>
+<clue>A 3&apos; --&gt; 5&apos; XPB helicase defect in repair/transcription factor TFIIH of xeroderma pigmentosum group B <clueType>affects</clueType> both DNA repair and transcription.</clue>
+</event>
+<event id="E3">
+<type class="Regulation"/>
+<theme idref="T6"/>
+<cause idref="E1"/>
+<clue>A 3&apos; --&gt; 5&apos; XPB helicase defect in repair/transcription factor TFIIH of xeroderma pigmentosum group B <clueType>affects</clueType> both DNA repair and transcription.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T7" lex="XPB" sem="Protein_molecule">XPB</term> is a subunit of the basal <term id="T8" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> <term id="T9" lex="TFIIH" sem="Protein_molecule">TFIIH</term>, which is also involved in <term id="A2" sem="Other">nucleotide excision repair (NER)</term> and potentially in <term id="A3" sem="Other">cell cycle regulation</term>.</sentence>
+<event KT="Fact" id="E4">
+<type class="Correlation"/>
+<theme idref="T7"/>
+<theme idref="A2"/>
+<clue>XPB is a subunit of the basal transcription factor TFIIH, which is also <clueType>involved</clueType> <linkTheme>in</linkTheme> nucleotide excision repair (NER) and potentially in cell cycle regulation.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E5">
+<type class="Correlation"/>
+<theme idref="T7"/>
+<theme idref="A3"/>
+<clue>XPB is a subunit of the basal transcription factor TFIIH, which is also <clueType><clueKT>involved</clueKT></clueType> <linkTheme>in</linkTheme> nucleotide excision repair (NER) and <clueCL>potentially</clueCL> in cell cycle regulation.</clue>
+</event>
+<sentence id="S3">A frameshift mutation in the 3&apos;-end of the <term id="T10" lex="XPB_gene" sem="DNA_domain_or_region"><term id="T11" lex="XPB" sem="Protein_molecule">XPB</term> gene</term> is responsible for a concurrence of two disorders: <term id="T12" lex="xeroderma_pigmentosum" sem="Other">xeroderma pigmentosum</term> (<term id="T13" lex="XP" sem="Other">XP</term>) and <term id="T14" lex="Cockayne&apos;s_syndrome" sem="Other">Cockayne&apos;s syndrome</term> (<term id="T15" lex="CS" sem="Other">CS</term>).</sentence>
+<event id="E6">
+<type class="Mutagenesis"/>
+<theme idref="T10"/>
+<clue>A <clueType>frameshift mutation</clueType> <linkTheme>in</linkTheme> the 3&apos;-end of the XPB gene is responsible for a concurrence of two disorders: xeroderma pigmentosum (XP) and Cockayne&apos;s syndrome (CS).</clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T13"/>
+<cause idref="E6"/>
+<clue>A frameshift mutation in the 3&apos;-end of the XPB gene is <clueType>responsible</clueType> <linkTheme>for</linkTheme> a concurrence of two disorders: xeroderma pigmentosum (XP) and Cockayne&apos;s syndrome (CS).</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T15"/>
+<cause idref="E6"/>
+<clue>A frameshift mutation in the 3&apos;-end of the XPB gene is <clueType>responsible</clueType> <linkTheme>for</linkTheme> a concurrence of two disorders: xeroderma pigmentosum (XP) and Cockayne&apos;s syndrome (CS).</clue>
+</event>
+<sentence id="S4">We have isolated <term id="T16" lex="TFIIH" sem="Protein_molecule">TFIIH</term> from cells derived from a <term id="T17" lex="patient" sem="Multicellular_organism_natural">patient</term> (<term id="T18" lex="XP11BE" sem="Multicellular_organism_natural">XP11BE</term>) who carries this <term id="T19" lex="frameshift_mutation" sem="Other">frameshift mutation</term> (<term id="T20" lex="TFIIHmut" sem="Protein_molecule">TFIIHmut</term>) and from the <term id="T21" lex="mother" sem="Multicellular_organism_natural">mother</term> of this <term id="T22" lex="patient" sem="Multicellular_organism_natural">patient</term> (<term id="T23" lex="TFIIHwt" sem="Protein_molecule">TFIIHwt</term>) to determine the <term id="T24" lex="biochemical_consequence" sem="Other">biochemical consequences</term> of the mutation.</sentence>
+<sentence id="S5">Although identical in composition and <term id="T25" lex="stoichiometry" sem="Other">stoichiometry</term> to <term id="T26" lex="TFIIHwt" sem="Protein_molecule">TFIIHwt</term>, <term id="T27" lex="TFIIHmut" sem="Protein_molecule">TFIIHmut</term> shows a reduced <term id="A6" sem="Protein_molecule">3&apos; --&gt; 5&apos; <term id="T28" lex="XPB" sem="Protein_molecule">XPB</term> helicase</term> activity.</sentence>
+<event KT="Analysis" id="E9">
+<type class="Negative_regulation"/>
+<theme idref="A6"/>
+<clue>Although identical in composition and stoichiometry to TFIIHwt, <clueLoc>TFIIHmut</clueLoc> <clueKT>shows</clueKT> a <clueType>reduced</clueType> 3&apos; --&gt; 5&apos; XPB helicase activity.</clue>
+</event>
+<sentence id="S6">A decrease in <term id="A7" sem="Protein_molecule">helicase</term> and <term id="T29" lex="DNA-dependent_ATPase_activity" sem="Other"><term id="T30" lex="DNA-dependent_ATPase" sem="Protein_molecule">DNA-dependent ATPase</term> activities</term> was also observed with the mutated recombinant <term id="T31" lex="XPB_protein" sem="Protein_molecule"><term id="T32" lex="XPB" sem="Protein_molecule">XPB</term> protein</term>.</sentence>
+<event id="E10">
+<type class="Negative_regulation"/>
+<theme idref="A7"/>
+<clue>A <clueType>decrease</clueType> <linkTheme>in</linkTheme> helicase and DNA-dependent ATPase activities was also <clueKT>observed</clueKT> <clueLoc>with the mutated recombinant XPB protein.</clueLoc></clue>
+</event>
+<event id="E11">
+<type class="Negative_regulation"/>
+<theme idref="T30"/>
+<clue>A <clueType>decrease</clueType> <linkTheme>in</linkTheme> helicase and DNA-dependent ATPase activities was also <clueKT>observed</clueKT> <clueLoc>with the mutated recombinant XPB protein.</clueLoc></clue>
+</event>
+<event KT="Method" id="E12">
+<type class="Mutagenesis"/>
+<theme idref="T31"/>
+<clue>A decrease in helicase and DNA-dependent ATPase activities was also observed with the <clueType>mutated</clueType> recombinant XPB protein.</clue>
+<comment>Artificial</comment></event>
+<sentence id="S7">The <term id="T33" lex="XPB_mutatio" sem="Other"><term id="T34" lex="XPB" sem="Protein_molecule">XPB</term> mutation</term> causes a <term id="T35" lex="severe_NER_defect" sem="Other">severe <term id="A8" sem="Other">NER</term> defect</term>.</sentence>
+<event KT="Method" id="E13">
+<type class="Mutagenesis"/>
+<theme idref="T34"/>
+<clue>The XPB <clueType>mutation</clueType> causes a severe NER defect.</clue>
+<comment>Artificial</comment></event>
+<event Manner="High" id="E14">
+<type class="Negative_regulation"/>
+<theme idref="A8"/>
+<clue>The XPB mutation causes a <clueManner>severe</clueManner> NER <clueType>defect</clueType>.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="E13"/>
+<clue>The XPB mutation <clueType>causes</clueType> a severe NER defect.</clue>
+</event>
+<sentence id="S8">In addition, we provide evidence for a decrease in <term id="T36" lex="basal_transcription_activity" sem="Other">basal transcription activity</term> in vitro.</sentence>
+<event KT="Analysis" id="E16">
+<type class="Negative_regulation"/>
+<theme idref="T36"/>
+<cause idref="E13"/>
+<clue>In addition, we provide <clueKT>evidence</clueKT> for a <clueType>decrease</clueType> <linkTheme>in</linkTheme> basal transcription activity in vitro.</clue>
+<comment>NO COREFCAUSE</comment></event>
+<sentence id="S9">The latter defect may provide an explanation for many of the <cons id="C1" lex="(AND XP_symptom CS_symptom)" sem="(AND Other Other)"><frag id="F1">XP</frag> and <frag id="F2">CS</frag> <frag id="F3">symptoms</frag></cons> that are difficult to rationalize based solely on an <term id="T38" lex="NER_defect" sem="Other"><term id="A9" sem="Other">NER</term> defect</term>.</sentence>
+<event KT="Other" id="E17">
+<type class="Negative_regulation"/>
+<theme idref="A9"/>
+<clue>The latter defect may provide an explanation for many of the XP and CS symptoms that are difficult to rationalize based solely on an NER <clueType>defect</clueType>.</clue>
+<comment>T37-&gt;C</comment></event>
+<event CL="L1" KT="Analysis" Polarity="Negative" id="E117">
+<type class="Positive_regulation"/>
+<theme idref="F1" idref1="F3"/>
+<cause idref="E17"/>
+<clue>The latter defect may provide an explanation for many of the XP and CS symptoms that are <clueKT><clueCL>difficult to rationalize</clueCL></clueKT> <clueType>based</clueType> solely <linkCause>on</linkCause> an NER defect.</clue>
+</event>
+<event CL="L1" KT="Analysis" Polarity="Negative" id="E118">
+<type class="Positive_regulation"/>
+<theme idref="F2" idref1="F3"/>
+<cause idref="E17"/>
+<clue>The latter defect may provide an explanation for many of the XP and CS symptoms that are <clueKT><clueCL>difficult to rationalize</clueCL></clueKT> <clueType>based</clueType> solely <linkCause>on</linkCause> an NER defect.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E18" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="F1" idref1="F3"/>
+<cause idref="E16"/>
+<clue><corefTheme idref1="E16">The latter defect</corefTheme> <clueCL>may</clueCL> <clueType>provide an <clueKT>explanation</clueKT></clueType> <linkTheme>for</linkTheme> many of the XP and CS symptoms that are difficult to rationalize based solely on an NER defect.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E19" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="F2" idref1="F3"/>
+<cause idref="E16"/>
+<clue><corefTheme idref1="E16">The latter defect</corefTheme> <clueCL>may</clueCL> <clueType>provide an <clueKT>explanation</clueKT></clueType> <linkTheme>for</linkTheme> many of the XP and CS symptoms that are difficult to rationalize based solely on an NER defect.</clue>
+</event>
+<sentence id="S10">Thus, this work presents the first detailed analysis of a <term id="T39" lex="naturally_occurring_mutation" sem="Other">naturally occurring mutation</term> in a <term id="T40" lex="basal_transcription_factor" sem="Protein_family_or_group">basal transcription factor</term> and supports the concept that the combined <term id="T42" lex="XP/CS_clinical_entity" sem="Other"><term id="A15" sem="Other">XP</term>/<term id="T43" lex="CS" sem="Other">CS</term> clinical entity</term> is actually the result of a combined <term id="T44" lex="transcription/repair_deficiency" sem="Other"><term id="A13" sem="Other">transcription</term>/<term id="A14" sem="Other">repair</term> deficiency</term>.</sentence>
+<event KT="Analysis" id="E20">
+<type class="Mutagenesis"/>
+<theme idref="T40"/>
+<clue><clueKT>Thus</clueKT>, this work <clueKT>presents</clueKT> the first detailed analysis of a naturally occurring <clueType>mutation</clueType> <linkTheme>in</linkTheme> a basal transcription factor and supports the concept that the combined XP/CS clinical entity is actually the result of a combined transcription/repair deficiency.</clue>
+<comment>NER: T41 del &quot;transcription factor&quot;</comment></event>
+<event KT="Other" id="E21">
+<type class="Negative_regulation"/>
+<theme idref="A13"/>
+<clue>Thus, this work presents the first detailed analysis of a naturally occurring mutation in a basal transcription factor and supports the concept that the combined XP/CS clinical entity is actually the result of a combined transcription/repair <clueType>deficiency</clueType>.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Negative_regulation"/>
+<theme idref="A14"/>
+<clue>Thus, this work presents the first detailed analysis of a naturally occurring mutation in a basal transcription factor and supports the concept that the combined XP/CS clinical entity is actually the result of a combined transcription/repair <clueType>deficiency</clueType>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="T42"/>
+<cause idref="E21"/>
+<cause idref="E22"/>
+<clue>Thus, this work presents the first detailed analysis of a naturally occurring mutation in a basal transcription factor and supports the <clueKT><clueCL>concept</clueCL></clueKT> that the combined XP/CS clinical entity is actually the <clueType>result</clueType> <linkCause>of</linkCause> a combined transcription/repair deficiency.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

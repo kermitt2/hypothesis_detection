@@ -1,0 +1,19 @@
+T26	Potential_therapeutic_effect 107 116	receiving
+T27	Adverse_effect 40 49	following
+T30	Potential_therapeutic_effect 325 334	receiving
+T31	Potential_therapeutic_effect 275 284	treatment
+T32	Adverse_effect 223 228	after
+T35	Potential_therapeutic_effect 523 534	prophylaxis
+T36	Potential_therapeutic_effect 774 784	prescribed
+R1	Subject_Disorder Arg1:T34 Arg2:T6
+R2	Subject_Disorder Arg1:T34 Arg2:T44
+E8	Combination:T38 has_participant:T24 has_participant:T23
+E1	Potential_therapeutic_effect:T26 has_agent:T2 has_subject:T25
+E2	Adverse_effect:T27 affects:T28 has_agent:T1 has_subject:T25
+E3	Potential_therapeutic_effect:T30 has_agent:T5 has_subject:T29
+E4	Potential_therapeutic_effect:T31 affects:T4 has_agent:T3
+E5	Adverse_effect:T32 has_agent:T3 affects:T33
+E6	Potential_therapeutic_effect:T35 affects:T8 has_agent:T7
+E7	Potential_therapeutic_effect:T36 affects:T12 has_agent:T10
+T11	Adverse_effect 813 818	after
+E9	Adverse_effect:T11 has_agent:T13 affects:T41

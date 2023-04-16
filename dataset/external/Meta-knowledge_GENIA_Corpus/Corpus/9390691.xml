@@ -1,0 +1,184 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9390691" created="20/11/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9390691</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="phosphatidylinositol_3-kinase" sem="Protein_molecule">Phosphatidylinositol 3-kinase</term> couples the <term id="T2" lex="interleukin-2_receptor" sem="Protein_molecule">interleukin-2 receptor</term> to the <term id="T3" lex="cell_cycle_regulator" sem="Protein_family_or_group"><term id="A2" sem="Other">cell cycle</term> regulator</term> <term id="T4" lex="E2F" sem="Protein_molecule">E2F</term>.</sentence>
+<event id="E1">
+<type class="Correlation"/>
+<theme idref="T2"/>
+<theme idref="T4"/>
+<clue>Phosphatidylinositol 3-kinase <clueType>couples</clueType> the interleukin-2 receptor <linkTheme>to</linkTheme> the cell cycle regulator E2F.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T1"/>
+<clue>Phosphatidylinositol 3-kinase <clueType>couples</clueType> the interleukin-2 receptor to the cell cycle regulator E2F.</clue>
+</event>
+<event KT="Fact" id="E101">
+<type class="Regulation"/>
+<theme idref="A2"/>
+<cause idref="T4"/>
+<clue>Phosphatidylinositol 3-kinase couples the interleukin-2 receptor to the cell cycle <clueType>regulator</clueType> E2F.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="A1" sem="Other">Cell cycle</term> <term id="T5" lex="progression" sem="Other">progression</term> initiated by <term id="T6" lex="interleukin-2" sem="Protein_molecule">interleukin-2</term> (<term id="T7" lex="IL-2" sem="Protein_molecule">IL-2</term>) in <term id="T8" lex="T_cell" sem="Cell_natural">T cells</term> is critical for <term id="T9" lex="lymphoproliferation" sem="Other">lymphoproliferation</term> and an <term id="T10" lex="immune_response" sem="Other">immune response</term>.</sentence>
+<event KT="Other" id="E3">
+<type class="Cellular_physiological_process"/>
+<theme idref="A1"/>
+<clue>Cell cycle <clueType>progression</clueType> initiated by interleukin-2 (IL-2) in T cells is critical for lymphoproliferation and an immune response.</clue>
+<comment>NER: T5 mod &quot;Cell cycle progression&quot;-&gt;&quot;progression&quot;</comment></event>
+<event KT="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="T7"/>
+<clue>Cell cycle progression <clueType>initiated</clueType> <linkCause>by</linkCause> interleukin-2 (IL-2) <clueLoc>in T cells</clueLoc> is critical for lymphoproliferation and an immune response.</clue>
+</event>
+<event KT="Fact" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="T9"/>
+<cause idref="E4"/>
+<clue>Cell cycle progression initiated by interleukin-2 (IL-2) in T cells is <clueType>critical</clueType> <linkTheme>for</linkTheme> lymphoproliferation and an immune response.</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="T10"/>
+<cause idref="E4"/>
+<clue>Cell cycle progression initiated by interleukin-2 (IL-2) in T cells is <clueType>critical</clueType> <linkTheme>for</linkTheme> lymphoproliferation and an immune response.</clue>
+</event>
+<sentence id="S3"><term id="T11" lex="phosphatidyl_inositol_3-kinase" sem="Protein_molecule">Phosphatidyl inositol 3-kinase</term> (<term id="T12" lex="PI3K" sem="Protein_molecule">PI3K</term>) is activated by <term id="T13" lex="IL-2" sem="Protein_molecule">IL-2</term>.</sentence>
+<event KT="Fact" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T12"/>
+<cause idref="T13"/>
+<clue>Phosphatidyl inositol 3-kinase (PI3K) is <clueType>activated</clueType> <linkCause>by</linkCause> IL-2.</clue>
+</event>
+<sentence id="S4">However, nuclear targets for <term id="T14" lex="PI3K" sem="Protein_molecule">PI3K</term> are not known.</sentence>
+<event KT="Investigation" id="E8">
+<type class="Regulation"/>
+<cause idref="T14"/>
+<clue>However, <clueLoc>nuclear</clueLoc> <clueType>targets</clueType> <linkCause>for</linkCause> PI3K are <clueKT>not known</clueKT>.</clue>
+</event>
+<sentence id="S5">Here we identify the <term id="T15" lex="cell_cycle_regulator" sem="Protein_family_or_group">cell cycle regulator</term> <term id="T16" lex="E2F" sem="Protein_molecule">E2F</term> as an <term id="T17" lex="IL-2" sem="Protein_molecule">IL-2</term> target in <term id="T18" lex="lymphocyte" sem="Cell_natural">T lymphocytes</term> and <term id="T19" lex="PI3K" sem="Protein_molecule">PI3K</term> as the <term id="T20" lex="critical_signaling_pathway" sem="Other">critical signaling pathway</term>.</sentence>
+<event KT="Analysis" id="E9">
+<type class="Regulation"/>
+<theme idref="T16"/>
+<cause idref="T17"/>
+<clue>Here we <clueType><clueKT>identify</clueKT></clueType> the cell cycle regulator E2F <clueType>as</clueType> an IL-2 <clueType>target</clueType> <clueLoc>in T lymphocytes</clueLoc> and PI3K as the critical signaling pathway.</clue>
+<comment>NER T18 MOD</comment></event>
+<event KT="Analysis" id="E10">
+<type class="Cell_communication"/>
+<theme idref="T19"/>
+<clue>Here we <clueType><clueKT>identify</clueKT></clueType> the cell cycle regulator E2F as an IL-2 target in T lymphocytes and PI3K <clueType>as the critical signaling pathway</clueType>.</clue>
+</event>
+<sentence id="S6">We eliminate both <term id="T21" lex="Stat5" sem="Protein_molecule">Stat5</term> and <term id="T22" lex="Raf/MEK_pathway" sem="Other"><term id="T23" lex="Raf" sem="Protein_molecule">Raf</term><term id="T24" lex="MEK" sem="Protein_family_or_group">/MEK</term> pathways</term> from <term id="T25" lex="E2F_regulation" sem="Other"><term id="T26" lex="E2F" sem="Protein_molecule">E2F</term> regulation</term>.</sentence>
+<event id="E11">
+<type class="Regulation"/>
+<cause idref="T26"/>
+<clue>We eliminate both Stat5 and Raf/MEK pathways from E2F <clueType>regulation</clueType>.</clue>
+</event>
+<event KT="Other" id="E112">
+<type class="Cell_communication"/>
+<theme idref="T23"/>
+<theme idref="T24"/>
+<clue>We eliminate both Stat5 and Raf/MEK <clueType>pathways</clueType> from E2F regulation.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E12" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="E11"/>
+<theme idref="T21"/>
+<clue>We <clueType><cluePolarity>eliminate</cluePolarity></clueType> both Stat5 and Raf/MEK pathways <linkTheme>from</linkTheme> E2F regulation.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E212" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="E11"/>
+<theme idref="E112"/>
+<clue>We <clueType><cluePolarity>eliminate</cluePolarity></clueType> both Stat5 and Raf/MEK pathways <linkTheme>from</linkTheme> E2F regulation.</clue>
+</event>
+<sentence id="S7"><term id="T27" lex="protein_kinase_B" sem="Protein_molecule">Protein kinase B</term> (<term id="T28" lex="PKB" sem="Protein_molecule">PKB</term>) is activated by <term id="T29" lex="IL-2" sem="Protein_molecule">IL-2</term> via <term id="T30" lex="PI3K" sem="Protein_molecule">PI3K</term>.</sentence>
+<event id="E14">
+<type class="Positive_regulation"/>
+<theme idref="T30"/>
+<cause idref="T29"/>
+<clue>Protein kinase B (PKB) is <clueType>activated</clueType> <linkCause>by</linkCause> IL-2 <linkTheme>via</linkTheme> PI3K.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation"/>
+<theme idref="T28"/>
+<cause idref="E14"/>
+<clue>Protein kinase B (PKB) is <clueType>activated</clueType> by IL-2 <linkCause>via</linkCause> PI3K.</clue>
+</event>
+<sentence id="S8">The expression of an active <term id="T31" lex="PKB" sem="Protein_molecule">PKB</term> is sufficient to induce <term id="T32" lex="E2F_activity" sem="Other"><term id="T33" lex="E2F" sem="Protein_molecule">E2F</term> activity</term>.</sentence>
+<event id="E16">
+<type class="Gene_expression"/>
+<theme idref="T31"/>
+<clue>The <clueType>expression</clueType> <linkTheme>of</linkTheme> an active PKB is sufficient to induce E2F activity.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="T33"/>
+<cause idref="E16"/>
+<clue>The expression of an active PKB is <clueType>sufficient to induce</clueType> E2F activity.</clue>
+</event>
+<sentence id="S9">Inhibition of <term id="T34" lex="PI3K" sem="Protein_molecule">PI3K</term> inhibits <term id="T35" lex="phosphorylation" sem="Other">phosphorylation</term> of <term id="T36" lex="Rb" sem="Protein_molecule">Rb</term>, induction of <term id="T37" lex="cyclin_D3" sem="Protein_molecule">cyclin D3</term>, and degradation of <term id="T38" lex="p27kip1" sem="Protein_molecule">p27kip1</term>.</sentence>
+<event id="E18">
+<type class="Negative_regulation"/>
+<theme idref="T34"/>
+<clue><clueType>Inhibition</clueType> <linkTheme>of</linkTheme> PI3K inhibits phosphorylation of Rb, induction of cyclin D3, and degradation of p27kip1.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T36"/>
+<clue>Inhibition of PI3K inhibits <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> Rb, induction of cyclin D3, and degradation of p27kip1.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="T37"/>
+<clue>Inhibition of PI3K inhibits phosphorylation of Rb, <clueType>induction</clueType> <linkTheme>of</linkTheme> cyclin D3, and degradation of p27kip1.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Protein_catabolism"/>
+<theme idref="T38"/>
+<clue>Inhibition of PI3K inhibits phosphorylation of Rb, induction of cyclin D3, and <clueType>degradation</clueType> <linkTheme>of</linkTheme> p27kip1.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation"/>
+<theme idref="E19"/>
+<cause idref="E18"/>
+<clue>Inhibition of PI3K <clueType>inhibits</clueType> phosphorylation of Rb, induction of cyclin D3, and degradation of p27kip1.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation"/>
+<theme idref="E20"/>
+<cause idref="E18"/>
+<clue>Inhibition of PI3K <clueType>inhibits</clueType> phosphorylation of Rb, induction of cyclin D3, and degradation of p27kip1.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation"/>
+<theme idref="E21"/>
+<cause idref="E18"/>
+<clue>Inhibition of PI3K <clueType>inhibits</clueType> phosphorylation of Rb, induction of cyclin D3, and degradation of p27kip1.</clue>
+</event>
+<sentence id="S10">These results establish a crucial <term id="T39" lex="PI3K/PKB-mediated_link" sem="Other"><term id="T40" lex="PI3K" sem="Protein_molecule">PI3K</term>/<term id="T41" lex="PKB" sem="Protein_molecule">PKB</term>-mediated link</term> between the <term id="T42" lex="IL-2_teceptor" sem="Protein_family_or_group">IL-2 teceptor</term> and the <term id="T44" lex="cell_cycle_machinery" sem="Other">cell cycle machinery</term>.</sentence>
+<event KT="Other" id="E25">
+<type class="Correlation"/>
+<theme idref="T42"/>
+<theme idref="T44"/>
+<clue>These results establish a crucial PI3K/PKB-mediated <clueType>link</clueType> <linkTheme>between</linkTheme> the IL-2 teceptor and the cell cycle machinery.</clue>
+<comment>CAUTION, &quot;teceptor&quot;in T42 should be &quot;receptor&quot;; NER: T43 del &quot;IL-2&quot;</comment></event>
+<event KT="Analysis" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="E25"/>
+<cause idref="T40"/>
+<clue>These results establish a crucial PI3K/PKB-<clueType>mediated</clueType> <clueKT>link</clueKT> between the IL-2 teceptor and the cell cycle machinery.</clue>
+</event>
+<event KT="Analysis" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="E25"/>
+<cause idref="T41"/>
+<clue>These results establish a crucial PI3K/PKB-<clueType>mediated</clueType> <clueKT>link</clueKT> between the IL-2 teceptor and the cell cycle machinery.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

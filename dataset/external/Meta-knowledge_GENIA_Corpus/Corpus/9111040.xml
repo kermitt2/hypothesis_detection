@@ -1,0 +1,235 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9111040" created="07/12/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9111040</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="A2" sem="Protein_molecule">Oncogenic forms of <term id="T1" lex="NOTCH1" sem="Protein_molecule">NOTCH1</term></term> lacking either the <term id="A1" sem="DNA_domain_or_region"><term id="T2" lex="primary_binding_site" sem="DNA_domain_or_region">primary binding site</term> for <term id="T3" lex="RBP-Jkappa" sem="Protein_molecule">RBP-Jkappa</term></term> or <term id="T4" lex="nuclear_localization_sequence" sem="Protein_substructure">nuclear localization sequences</term> retain the ability to associate with <term id="T5" lex="RBP-Jkappa" sem="Protein_molecule">RBP-Jkappa</term> and activate <term id="A3" sem="Other">transcription</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E1">
+<type class="Binding"/>
+<theme idref="A2"/>
+<theme idref="T5"/>
+<clue>Oncogenic forms of NOTCH1 lacking either the primary binding site for RBP-Jkappa or nuclear localization sequences retain the <clueKT><clueCL>ability</clueCL></clueKT> to <clueType>associate</clueType> <linkTheme>with</linkTheme> RBP-Jkappa and activate transcription.</clue>
+<comment>TPS: A1 , TPS: A2</comment></event>
+<event CL="L2" KT="Analysis" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<cause idref="T5"/>
+<clue>Oncogenic forms of NOTCH1 lacking either the primary binding site for RBP-Jkappa or nuclear localization sequences retain the <clueKT><clueCL>ability</clueCL></clueKT> to associate with RBP-Jkappa and <clueType>activate</clueType> transcription.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation"/>
+<theme idref="A1"/>
+<clue><clueLoc>Oncogenic forms of NOTCH1</clueLoc> <clueType>lacking</clueType> either the primary binding site for RBP-Jkappa or nuclear localization sequences retain the ability to associate with RBP-Jkappa and activate transcription.</clue>
+</event>
+<event id="E4">
+<type class="Negative_regulation"/>
+<theme idref="T4"/>
+<clue><clueLoc>Oncogenic forms of NOTCH1</clueLoc> <clueType>lacking</clueType> either the primary binding site for RBP-Jkappa or nuclear localization sequences retain the ability to associate with RBP-Jkappa and activate transcription.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="A4" sem="Protein_molecule">Truncated forms of the <term id="T6" lex="NOTCH1_transmembrane_receptor" sem="Protein_domain_or_region"><term id="T7" lex="NOTCH1" sem="Protein_molecule">NOTCH1</term> transmembrane receptor</term></term> engineered to resemble mutant forms of <term id="T8" lex="NOTCH1" sem="Protein_molecule">NOTCH1</term> found in certain cases of <term id="T9" lex="human_T_cell_leukemia/lymphoma" sem="Other">human T cell leukemia/lymphoma</term> (<term id="T10" lex="T-ALL" sem="Other">T-ALL</term>) efficiently induce <term id="T11" lex="T-ALL" sem="Other">T-ALL</term> when expressed in the <term id="T12" lex="bone_marrow" sem="Tissue_natural">bone marrow</term> of <term id="T13" lex="mouse" sem="Multicellular_organism_natural">mice</term>.</sentence>
+<event id="E5">
+<type class="Gene_expression"/>
+<theme idref="A4"/>
+<clue>Truncated forms of the NOTCH1 transmembrane receptor engineered to resemble mutant forms of NOTCH1 found in certain cases of human T cell leukemia/lymphoma (T-ALL) efficiently induce T-ALL when <clueType>expressed</clueType> <clueLoc>in the bone marrow of mice.</clueLoc></clue>
+<comment>TPS: A4</comment></event>
+<event id="E6">
+<type class="Positive_regulation"/>
+<theme idref="T10"/>
+<cause idref="E5"/>
+<clue>Truncated forms of the NOTCH1 transmembrane receptor engineered to resemble mutant forms of NOTCH1 found in certain cases of human T cell leukemia/lymphoma (T-ALL) efficiently <clueType>induce</clueType> T-ALL when expressed in the bone marrow of mice.</clue>
+</event>
+<sentence id="S3">Unlike full-sized <term id="T14" lex="NOTCH1" sem="Protein_molecule">NOTCH1</term>, two such truncated forms of the protein either lacking a major portion of the <term id="T15" lex="extracellular_domain" sem="Protein_domain_or_region">extracellular domain</term> (<term id="T16" lex="DeltaE" sem="Protein_molecule">DeltaE</term>) or consisting only of the <term id="T17" lex="intracellular_domain" sem="Protein_domain_or_region">intracellular domain</term> (<term id="T18" lex="ICN" sem="Protein_domain_or_region">ICN</term>) were found to activate <term id="A5" sem="Other">transcription</term> in cultured cells, presumably through <term id="A6" sem="DNA_domain_or_region"><term id="T19" lex="RBP-Jkappa" sem="Protein_molecule">RBP-Jkappa</term> response elements</term> within DNA.</sentence>
+<event KT="Method" id="E7">
+<type class="Mutagenesis"/>
+<theme idref="T15"/>
+<clue>Unlike full-sized NOTCH1, two such truncated forms of the protein either <clueType>lacking</clueType> a major portion of the extracellular domain (DeltaE) or consisting only of the intracellular domain (ICN) were found to activate transcription in cultured cells, presumably through RBP-Jkappa response elements within DNA.</clue>
+<comment>Artificial</comment></event>
+<event id="E8">
+<type class="Positive_regulation"/>
+<theme idref="A5"/>
+<cause idref="E7"/>
+<clue>Unlike full-sized NOTCH1, two such truncated forms of the protein either lacking a major portion of the extracellular domain (DeltaE) or consisting only of the intracellular domain (ICN) were <clueKT>found</clueKT> to <clueType>activate</clueType> transcription <clueLoc>in cultured cells</clueLoc>, presumably through RBP-Jkappa response elements within DNA.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation"/>
+<theme idref="A5"/>
+<cause idref="T18"/>
+<clue>Unlike full-sized NOTCH1, two such truncated forms of the protein either lacking a major portion of the extracellular domain (DeltaE) or consisting only of the intracellular domain (ICN) were <clueKT>found</clueKT> to <clueType>activate</clueType> transcription <clueLoc>in cultured cells</clueLoc>, presumably through RBP-Jkappa response elements within DNA.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E10" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="A6"/>
+<clue>Unlike full-sized NOTCH1, two such truncated forms of the protein either lacking a major portion of the extracellular domain (DeltaE) or consisting only of the intracellular domain (ICN) were found to activate transcription in cultured cells, <clueKT><clueCL>presumably</clueCL></clueKT> <linkCause>through</linkCause> RBP-Jkappa response elements within DNA.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event CL="L2" KT="Analysis" id="E11" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="A6"/>
+<clue>Unlike full-sized NOTCH1, two such truncated forms of the protein either lacking a major portion of the extracellular domain (DeltaE) or consisting only of the intracellular domain (ICN) were found to activate transcription in cultured cells, <clueKT><clueCL>presumably</clueCL></clueKT> <linkCause>through</linkCause> RBP-Jkappa response elements within DNA.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S4">Both truncated forms also bound to the <term id="T20" lex="transcription_factor_RBP-Jkappa" sem="Protein_molecule">transcription factor <term id="T21" lex="RBP-Jkappa" sem="Protein_molecule">RBP-Jkappa</term></term> in extracts prepared from <cons id="T22" lex="(AND human_T-ALL_cell_line murine_T-ALL_cell_line)" sem="(AND Cell_cultured Cell_cultured)"><frag id="F1">human</frag> and <frag id="F2">murine</frag> <frag id="F3">T-ALL cell lines</frag></cons>.</sentence>
+<event id="E300">
+<type class="Binding"/>
+<theme idref="T21"/>
+<theme idref="T16"/>
+<clue>Both <corefTheme idref1="T16">truncated forms</corefTheme> also <clueType>bound</clueType> <linkTheme>to</linkTheme> the transcription factor RBP-Jkappa <clueLoc>in extracts prepared from human</clueLoc> and murine <clueLoc>T-ALL cell lines</clueLoc>.</clue>
+</event>
+<event id="E301">
+<type class="Binding"/>
+<theme idref="T21"/>
+<theme idref="T16"/>
+<clue>Both <corefTheme idref1="T16">truncated forms</corefTheme> also <clueType>bound</clueType> <linkTheme>to</linkTheme> the transcription factor RBP-Jkappa <clueLoc>in extracts prepared from</clueLoc> human and <clueLoc>murine T-ALL cell lines</clueLoc>.</clue>
+</event>
+<event id="E302">
+<type class="Binding"/>
+<theme idref="T21"/>
+<theme idref="T18"/>
+<clue>Both <corefTheme idref1="T18">truncated forms</corefTheme> also <clueType>bound</clueType> <linkTheme>to</linkTheme> the transcription factor RBP-Jkappa <clueLoc>in extracts prepared from human</clueLoc> and murine <clueLoc>T-ALL cell lines</clueLoc>.</clue>
+</event>
+<event id="E303">
+<type class="Binding"/>
+<theme idref="T21"/>
+<theme idref="T18"/>
+<clue>Both <corefTheme idref1="T18">truncated forms</corefTheme> also <clueType>bound</clueType> <linkTheme>to</linkTheme> the transcription factor RBP-Jkappa <clueLoc>in extracts prepared from</clueLoc> human and <clueLoc>murine T-ALL cell lines</clueLoc>.</clue>
+</event>
+<sentence id="S5"><term id="A7" sem="Other">Transcriptional activation</term> required the presence of a <term id="A9" sem="Protein_domain_or_region">weak <term id="T23" lex="RBP-Jkappa-binding_site" sem="Protein_domain_or_region"><term id="T24" lex="RBP-Jkappa" sem="Protein_molecule">RBP-Jkappa</term>-binding site</term></term> within the <term id="T25" lex="NOTCH1_ankyrin_repeat_region" sem="Protein_domain_or_region"><term id="T26" lex="NOTCH1" sem="Protein_molecule">NOTCH1</term> ankyrin repeat region</term> of the <term id="T27" lex="intracellular_domain" sem="Protein_domain_or_region">intracellular domain</term>.</sentence>
+<event id="E14">
+<type class="Positive_regulation"/>
+<theme idref="A7"/>
+<cause idref="A9"/>
+<clue>Transcriptional activation <clueType>required</clueType> the presence of a weak RBP-Jkappa-binding site within the NOTCH1 ankyrin repeat region of the intracellular domain.</clue>
+</event>
+<sentence id="S6">Unexpectedly, a second, <term id="A10" sem="Protein_domain_or_region">stronger <term id="T28" lex="RBP-Jkappa-binding_site" sem="Protein_domain_or_region"><term id="T29" lex="RBP-Jkappa" sem="Protein_molecule">RBP-Jkappa</term>-binding site</term></term>, which lies within the <term id="T30" lex="intracellular_domain" sem="Protein_domain_or_region">intracellular domain</term> close to the transmembrane region and significantly augments association with <term id="T31" lex="RBP-Jkappa" sem="Protein_domain_or_region">RBP-Jkappa</term>, was not needed for <term id="A8" sem="Other">oncogenesis</term> or for <term id="T32" lex="transcriptional_activation" sem="Other">transcriptional activation</term>.</sentence>
+<event Polarity="Negative" assertion="non-exist" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="A8"/>
+<cause idref="A10"/>
+<clue>Unexpectedly, a second, stronger RBP-Jkappa-binding site, which lies within the intracellular domain close to the transmembrane region and significantly augments association with RBP-Jkappa, was <cluePolarity>not</cluePolarity> <clueType>needed</clueType> <linkTheme>for</linkTheme> oncogenesis or for transcriptional activation.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T32"/>
+<cause idref="A10"/>
+<clue>Unexpectedly, a second, stronger RBP-Jkappa-binding site, which lies within the intracellular domain close to the transmembrane region and significantly augments association with RBP-Jkappa, was <cluePolarity>not</cluePolarity> <clueType>needed</clueType> for oncogenesis or <linkTheme>for</linkTheme> transcriptional activation.</clue>
+</event>
+<event KT="Analysis" id="E17">
+<type class="Binding"/>
+<theme idref="T1"/>
+<theme idref="T31"/>
+<clue>Unexpectedly, a second, stronger RBP-Jkappa-binding site, which lies within the intracellular domain close to the transmembrane region and significantly augments <clueType><clueKT>association</clueKT></clueType> <linkTheme>with</linkTheme> RBP-Jkappa, was not needed for oncogenesis or for transcriptional activation.</clue>
+</event>
+<event KT="Fact" Manner="High" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<cause idref="A10"/>
+<clue>Unexpectedly, a second, stronger RBP-Jkappa-binding site, which lies within the intracellular domain close to the transmembrane region and <clueManner>significantly</clueManner> <clueType>augments</clueType> association with RBP-Jkappa, was not needed for oncogenesis or for transcriptional activation.</clue>
+</event>
+<sentence id="S7">While <term id="T33" lex="ICN" sem="Protein_domain_or_region">ICN</term> appeared primarily in the <term id="T34" lex="nucleus" sem="Cell_component">nucleus</term>, <term id="T35" lex="DeltaE" sem="Protein_molecule">DeltaE</term> localized to <cons id="T36" lex="(AND cytoplasmic_membrane nuclear_membrane)" sem="(AND Cell_component Cell_component)"><frag id="F4">cytoplasmic</frag> and <frag id="F5">nuclear</frag> <frag id="F6">membranes</frag></cons>, suggesting that <term id="A11" sem="Other">intranuclear localization</term> is not essential for <term id="A12" sem="Other">oncogenesis</term> or <term id="T37" lex="transcriptional_activation" sem="Other">transcriptional activation</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E19">
+<type class="Localization"/>
+<theme idref="T33"/>
+<clue>While ICN <clueType><clueKT><clueCL>appeared</clueCL></clueKT></clueType> primarily <clueLoc>in the nucleus,</clueLoc> DeltaE localized to cytoplasmic and nuclear membranes, suggesting that intranuclear localization is not essential for oncogenesis or transcriptional activation.</clue>
+</event>
+<event id="E321">
+<type class="Localization"/>
+<theme idref="T35"/>
+<clue>While ICN appeared primarily in the nucleus, DeltaE <clueType>localized</clueType> <clueLoc>to cytoplasmic</clueLoc> and nuclear <clueLoc>membranes</clueLoc>, suggesting that intranuclear localization is not essential for oncogenesis or transcriptional activation.</clue>
+</event>
+<event id="E320">
+<type class="Localization"/>
+<theme idref="T35"/>
+<clue>While ICN appeared primarily in the nucleus, DeltaE <clueType>localized</clueType> <clueLoc>to</clueLoc> cytoplasmic and <clueLoc>nuclear membranes</clueLoc>, suggesting that intranuclear localization is not essential for oncogenesis or transcriptional activation.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E21" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="A12"/>
+<cause idref="A11"/>
+<clue>While ICN appeared primarily in the nucleus, DeltaE localized to cytoplasmic and nuclear membranes, <clueKT><clueCL>suggesting</clueCL></clueKT> that intranuclear localization is <cluePolarity>not</cluePolarity> <clueType>essential</clueType> <linkTheme>for</linkTheme> oncogenesis or transcriptional activation.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E22" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T37"/>
+<cause idref="A11"/>
+<clue>While ICN appeared primarily in the nucleus, DeltaE localized to cytoplasmic and nuclear membranes, <clueKT><clueCL>suggesting</clueCL></clueKT> that intranuclear localization is <cluePolarity>not</cluePolarity> <clueType>essential</clueType> <linkTheme>for</linkTheme> oncogenesis or transcriptional activation.</clue>
+</event>
+<sentence id="S8">In support of this interpretation, mutation of putative <term id="T38" lex="nuclear_localization_sequence" sem="Protein_substructure">nuclear localization sequences</term> decreased nuclear localization and increased <term id="T39" lex="transcriptional_activation" sem="Other">transcriptional activation</term> by <term id="T40" lex="membrane-bound_DeltaE" sem="Protein_molecule"><term id="A13" sem="Cell_component">membrane</term>-bound <term id="T41" lex="DeltaE" sem="Protein_molecule">DeltaE</term></term>.</sentence>
+<event KT="Method" id="E23">
+<type class="Mutagenesis"/>
+<theme idref="T38"/>
+<clue>In support of this interpretation, <clueType>mutation</clueType> <linkTheme>of</linkTheme> putative nuclear localization sequences decreased nuclear localization and increased transcriptional activation by <clueLoc>membrane-bound DeltaE.</clueLoc></clue>
+<comment>Artificial</comment></event>
+<event id="E24">
+<type class="Localization"/>
+<theme idref="T1"/>
+<clue>In support of this interpretation, mutation of putative nuclear localization sequences decreased <clueLoc>nuclear</clueLoc> <clueType>localization</clueType> and increased transcriptional activation by membrane-bound DeltaE.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event id="E25">
+<type class="Negative_regulation"/>
+<theme idref="E24"/>
+<cause idref="E23"/>
+<clue>In support of this interpretation, mutation of putative nuclear localization sequences <clueType>decreased</clueType> nuclear localization and increased transcriptional activation by membrane-bound DeltaE.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation"/>
+<cause idref="T40"/>
+<clue>In support of this interpretation, mutation of putative nuclear localization sequences decreased nuclear localization and increased <clueType>transcriptional activation</clueType> <linkCause>by</linkCause> membrane-bound DeltaE.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation"/>
+<theme idref="E26"/>
+<cause idref="E23"/>
+<clue>In support of this interpretation, mutation of putative nuclear localization sequences decreased nuclear localization and <clueType>increased</clueType> transcriptional activation by membrane-bound DeltaE.</clue>
+</event>
+<event id="E28">
+<type class="Cell_adhesion"/>
+<theme idref="A13"/>
+<theme idref="T41"/>
+<clue>In support of this interpretation, mutation of putative nuclear localization sequences decreased nuclear localization and increased transcriptional activation by membrane-<clueType>bound</clueType> DeltaE.</clue>
+</event>
+<sentence id="S9">Transcriptional activation by this <term id="A14" sem="Protein_molecule">mutant form of <term id="T42" lex="membrane-bound_DeltaE" sem="Protein_molecule">membrane-bound <term id="T43" lex="DeltaE" sem="Protein_molecule">DeltaE</term></term></term> was approximately equivalent to that produced by <term id="T44" lex="intranuclear_ICN" sem="Protein_domain_or_region">intranuclear <term id="T45" lex="ICN" sem="Protein_domain_or_region">ICN</term></term>.</sentence>
+<event id="E29">
+<type class="Positive_regulation"/>
+<cause idref="A14"/>
+<clue><clueType>Transcriptional activation</clueType> <linkCause>by</linkCause> this mutant form of membrane-bound DeltaE was approximately equivalent to that produced by intranuclear ICN.</clue>
+<comment>TPS: A14</comment></event>
+<event id="E30">
+<type class="Positive_regulation"/>
+<cause idref="T44"/>
+<clue><clueType>Transcriptional activation</clueType> by this mutant form of membrane-bound DeltaE was approximately equivalent to that produced <linkCause>by</linkCause> intranuclear ICN.</clue>
+</event>
+<sentence id="S10">These data are most consistent with <term id="T46" lex="NOTCH1" sem="Protein_molecule">NOTCH1</term> <term id="A15" sem="Other">oncogenesis</term> and <term id="T47" lex="transcriptional_activation" sem="Other">transcriptional activation</term> being independent of association with <term id="T48" lex="RBP-Jkappa" sem="Protein_molecule">RBP-Jkappa</term> at <term id="T49" lex="promoter_site" sem="DNA_domain_or_region">promoter sites</term>.</sentence>
+<event id="E31">
+<type class="Positive_regulation"/>
+<theme idref="A15"/>
+<cause idref="T46"/>
+<clue>These data are most consistent with NOTCH1 oncogenesis and transcriptional activation being independent of association with RBP-Jkappa at promoter sites.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E32">
+<type class="Positive_regulation"/>
+<theme idref="T47"/>
+<cause idref="T46"/>
+<clue>These data are most consistent with NOTCH1 oncogenesis and transcriptional activation being independent of association with RBP-Jkappa at promoter sites.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Analysis" id="E33">
+<type class="Binding"/>
+<theme idref="T48"/>
+<theme idref="T49"/>
+<clue>These data are most consistent with NOTCH1 oncogenesis and transcriptional activation being independent of <clueType><clueKT>association</clueKT></clueType> <linkTheme>with</linkTheme> RBP-Jkappa <linkTheme>at</linkTheme> promoter sites.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E34">
+<type class="Correlation"/>
+<theme idref="E31"/>
+<theme idref="E33"/>
+<clue>These data are most consistent with NOTCH1 oncogenesis and transcriptional activation being <clueType><cluePolarity>independent</cluePolarity></clueType> <linkTheme>of</linkTheme> association with RBP-Jkappa at promoter sites.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E35">
+<type class="Correlation"/>
+<theme idref="E32"/>
+<theme idref="E33"/>
+<clue>These data are most consistent with NOTCH1 oncogenesis and transcriptional activation being <clueType><cluePolarity>independent</cluePolarity></clueType> <linkTheme>of</linkTheme> association with RBP-Jkappa at promoter sites.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

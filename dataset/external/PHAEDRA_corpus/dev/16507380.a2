@@ -1,0 +1,37 @@
+T18	DDI 20 31	interaction
+T25	Potential_therapeutic_effect 194 201	treated
+T27	Adverse_effect 267 281	Adverse events
+T33	DDI 483 494	interaction
+T54	Adverse_effect 1765 1772	induced
+T55	Adverse_effect 2138 2145	induced
+T56	DDI 2017 2028	interaction
+T61	DDI 1657 1668	interaction
+T63	DDI 1540 1551	interaction
+T65	Adverse_effect 1311 1318	induced
+T70	Potential_therapeutic_effect 2120 2129	treatment
+R1	Subject_Disorder Arg1:T19 Arg2:T4
+R2	Subject_Disorder Arg1:T21 Arg2:T5
+R3	Subject_Disorder Arg1:T39 Arg2:T11
+R7	Subject_Disorder Arg1:T48 Arg2:T12
+R8	Subject_Disorder Arg1:T48 Arg2:T51
+E1	DDI:T18 has_participant:T1 has_participant:T3 has_cue:T20 has_subject:T19
+E4	DDI:T33 has_participant:T9 has_participant:T10 has_subject:T39 has_cue:T42
+E6	Combination:T53 has_participant:T15 has_participant:T17
+E9	DDI:T56 has_participant:T43 has_participant:T44 has_cue:T58
+E11	DDI:T61 has_participant:T31 has_participant:T32 has_cue:T62
+E12	DDI:T63 has_participant:T28 has_participant:T2 has_cue:T69
+E2	Potential_therapeutic_effect:T25 has_agent:T6 affects:T5 has_subject:T21
+E3	Adverse_effect:T27 has_agent:T7 affects:T26
+E7	Adverse_effect:T54 affects:T35 has_agent:T34
+E8	Adverse_effect:T55 affects:T47 has_agent:T46
+E13	Adverse_effect:T65 affects:T23 has_agent:T22
+E15	Potential_therapeutic_effect:T70 affects:T47 has_agent:T44
+A1	Speculated E1
+A2	Speculated E4
+A3	Speculated E9
+A5	Speculated E11
+A6	Speculated E12
+T29	Potential_therapeutic_effect 1026 1035	treatment
+E5	Potential_therapeutic_effect:T29 affects:T14 has_agent:E6
+T30	Adverse_effect 826 835	presented
+E10	Adverse_effect:T30 affects:T13 has_agent:E6

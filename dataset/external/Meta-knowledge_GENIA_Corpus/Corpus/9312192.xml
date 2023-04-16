@@ -1,0 +1,273 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9312192" created="15/11/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9312192</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Evidence that <term id="A1" sem="Protein_molecule">calcineurin</term> is rate-limiting for <term id="T1" lex="primary_human_lymphocyte_activation" sem="Other"><term id="A2" sem="Cell_natural">primary human lymphocyte</term> activation</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Physiological_process"/>
+<theme idref="A2"/>
+<clue>Evidence that calcineurin is rate-limiting for primary human lymphocyte <clueType>activation</clueType>.</clue>
+</event>
+<event KT="Analysis" id="E2">
+<type class="Regulation"/>
+<theme idref="E1"/>
+<cause idref="A1"/>
+<clue><clueKT>Evidence</clueKT> that calcineurin is <clueType>rate-limiting</clueType> <linkTheme>for</linkTheme> primary human lymphocyte activation.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T2" lex="cyclosporine" sem="Organic_compound_other">Cyclosporine</term> (<term id="T3" lex="CsA" sem="Organic_compound_other">CsA</term>) is both a <term id="T4" lex="clinical_immunosuppressive_drug" sem="Organic_compound_other">clinical immunosuppressive drug</term> and a probe to dissect <term id="T5" lex="intracellular_signaling_pathway" sem="Other">intracellular signaling pathways</term>.</sentence>
+<sentence id="S3">In vitro, <term id="T6" lex="CsA" sem="Organic_compound_other">CsA</term> inhibits <term id="T7" lex="lymphocyte_gene_activation" sem="Other"><term id="T8" lex="lymphocyte_gene" sem="DNA_family_or_group">lymphocyte gene</term> activation</term> by inhibiting the <term id="T9" lex="phosphatase_activity" sem="Other"><term id="T10" lex="phosphatase" sem="Protein_family_or_group">phosphatase</term> activity</term> of <term id="T11" lex="calcineurin" sem="Protein_molecule">calcineurin</term> (<term id="T12" lex="CN" sem="Protein_molecule">CN</term>).</sentence>
+<event KT="Other" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="T8"/>
+<clue>In vitro, CsA inhibits lymphocyte gene <clueType>activation</clueType> by inhibiting the phosphatase activity of calcineurin (CN).</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Protein_amino_acid_dephosphorylation"/>
+<cause idref="T12"/>
+<clue>In vitro, CsA inhibits lymphocyte gene activation by inhibiting the <clueType>phosphatase activity</clueType> <linkCause>of</linkCause> calcineurin (CN).</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Negative_regulation"/>
+<theme idref="E4"/>
+<cause idref="T6"/>
+<clue>In vitro, CsA inhibits lymphocyte gene activation by <clueType>inhibiting</clueType> the phosphatase activity of calcineurin (CN).</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Negative_regulation"/>
+<theme idref="E3"/>
+<cause idref="E5"/>
+<clue>In vitro, CsA <clueType>inhibits</clueType> lymphocyte gene activation <linkCause>by</linkCause> inhibiting the phosphatase activity of calcineurin (CN).</clue>
+</event>
+<sentence id="S4">In clinical use, <term id="T13" lex="CsA_treatment" sem="Other"><term id="T14" lex="CsA" sem="Organic_compound_other">CsA</term> treatment</term> inhibits 50-75% of <term id="T15" lex="CN_activity" sem="Other"><term id="T16" lex="CN" sem="Protein_molecule">CN</term> activity</term> in <term id="T17" lex="circulating_leukocyte" sem="Cell_natural">circulating <term id="A3" sem="Cell_natural">leukocytes</term></term>.</sentence>
+<event KT="Fact" Manner="High" id="E7">
+<type class="Negative_regulation"/>
+<theme idref="T16"/>
+<cause idref="T14"/>
+<clue>In clinical use, CsA treatment <clueType>inhibits</clueType> <clueManner>50-75%</clueManner> of CN activity <clueLoc>in circulating leukocytes</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Physiological_process"/>
+<theme idref="A3"/>
+<clue>In clinical use, CsA treatment inhibits 50-75% of CN activity in <clueType>circulating</clueType> leukocytes.</clue>
+</event>
+<sentence id="S5">We modeled this degree of <term id="T18" lex="CN" sem="Protein_molecule">CN</term> inhibition in <term id="T19" lex="primary_human_leukocyte" sem="Cell_natural">primary human leukocytes</term> in vitro in order to study the effect of <term id="T20" lex="partial_CN_inhibition" sem="Other">partial <term id="T21" lex="CN" sem="Protein_molecule">CN</term> inhibition</term> on the <term id="T22" lex="downstream_signaling_event" sem="Other">downstream signaling events</term> that lead to <term id="T23" lex="gene_activation" sem="Other">gene activation</term>.</sentence>
+<event KT="Analysis" id="E9">
+<type class="Negative_regulation"/>
+<theme idref="T18"/>
+<clue>We <clueKT>modeled</clueKT> this degree of CN <clueType>inhibition</clueType> <clueLoc>in primary human leukocytes</clueLoc> in vitro in order to study the effect of partial CN inhibition on the downstream signaling events that lead to gene activation.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Negative_regulation"/>
+<theme idref="T21"/>
+<clue>We modeled this degree of CN inhibition in primary human leukocytes in vitro in order to study the effect of partial CN <clueType>inhibition</clueType> on the downstream signaling events that lead to gene activation.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="T23"/>
+<cause idref="T22"/>
+<clue>We modeled this degree of CN inhibition in primary human leukocytes in vitro in order to study the effect of partial CN inhibition on the downstream signaling events that <clueType>lead</clueType> <linkTheme>to</linkTheme> gene activation.</clue>
+</event>
+<event KT="Investigation" id="E12" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E11"/>
+<cause idref="E10"/>
+<clue>We modeled this degree of CN inhibition in primary human leukocytes in vitro in order <clueKT>to study</clueKT> the <clueType>effect</clueType> <linkCause>of</linkCause> partial CN inhibition <linkTheme>on</linkTheme> the downstream signaling events that lead to gene activation.</clue>
+</event>
+<sentence id="S6">In <term id="T24" lex="CsA-treated_leukocyte" sem="Cell_cultured"><term id="T25" lex="CsA" sem="Organic_compound_other">CsA</term>-treated <term id="A10" sem="Cell_natural">leukocytes</term></term> stimulated by <term id="T26" lex="calcium_ionophore" sem="Organic_compound_other">calcium ionophore</term>, the degree of reduction in <term id="T27" lex="CN_activity" sem="Other"><term id="T28" lex="CN" sem="Protein_molecule">CN</term> activity</term> was accompanied by a similar degree of inhibition of each event tested: <term id="T29" lex="dephosphorylation" sem="Other">dephosphorylation</term> of <term id="T30" lex="nuclear_factor_of_activated_T_cells_protein" sem="Protein_family_or_group">nuclear factor of activated T cell proteins</term>, <term id="T31" lex="nuclear_DNA_binding" sem="Other">nuclear <term id="A6" sem="DNA_domain_or_region">DNA</term> binding</term>, activation of a <term id="T32" lex="transfected_reporter_gene_construct" sem="DNA_molecule">transfected reporter gene construct</term>, <cons id="T33" lex="(AND IFN-gamma_mRNA_accumulation IL-2_mRNA_accumulation)" sem="(AND Other Other)"><frag id="F1"><term id="A7" sem="RNA_molecule">IFN-gamma</term></frag> and <frag id="F2"><term id="A8" sem="RNA_molecule">IL-2</term></frag> <frag id="F3"><term id="A9" sem="RNA_molecule">mRNA</term> accumulation</frag></cons>, and <term id="T34" lex="IFN-gamma_production" sem="Other"><term id="T35" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term> production</term>.</sentence>
+<event KT="Method" id="E101">
+<type class="Artificial_process"/>
+<theme idref="T25"/>
+<theme idref="A10"/>
+<clue>In CsA-<clueType>treated</clueType> leukocytes stimulated by calcium ionophore, the degree of reduction in CN activity was accompanied by a similar degree of inhibition of each event tested: dephosphorylation of nuclear factor of activated T cell proteins, nuclear DNA binding, activation of a transfected reporter gene construct, IFN-gamma and IL-2 mRNA accumulation, and IFN-gamma production.</clue>
+</event>
+<event id="E102">
+<type class="Physiological_process"/>
+<theme idref="T24"/>
+<cause idref="T26"/>
+<clue>In CsA-treated leukocytes <clueType>stimulated</clueType> <linkCause>by</linkCause> calcium ionophore, the degree of reduction in CN activity was accompanied by a similar degree of inhibition of each event tested: dephosphorylation of nuclear factor of activated T cell proteins, nuclear DNA binding, activation of a transfected reporter gene construct, IFN-gamma and IL-2 mRNA accumulation, and IFN-gamma production.</clue>
+</event>
+<event id="E13">
+<type class="Negative_regulation"/>
+<theme idref="T28"/>
+<clue>In CsA-treated leukocytes stimulated by calcium ionophore, the degree of <clueType>reduction</clueType> <linkTheme>in</linkTheme> CN activity was accompanied by a similar degree of inhibition of each event tested: dephosphorylation of nuclear factor of activated T cell proteins, nuclear DNA binding, activation of a transfected reporter gene construct, IFN-gamma and IL-2 mRNA accumulation, and IFN-gamma production.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Protein_amino_acid_dephosphorylation"/>
+<theme idref="T30"/>
+<clue>In CsA-treated leukocytes stimulated by calcium ionophore, the degree of reduction in CN activity was accompanied by a similar degree of inhibition of each event tested: <clueType>dephosphorylation</clueType> <linkTheme>of</linkTheme> nuclear factor of activated T cell proteins, nuclear DNA binding, activation of a transfected reporter gene construct, IFN-gamma and IL-2 mRNA accumulation, and IFN-gamma production.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Binding"/>
+<theme idref="A6"/>
+<theme idref="T30"/>
+<clue>In CsA-treated leukocytes stimulated by calcium ionophore, the degree of reduction in CN activity was accompanied by a similar degree of inhibition of each event tested: dephosphorylation of nuclear factor of activated T cell proteins, <clueLoc>nuclear</clueLoc> DNA <clueType>binding</clueType>, activation of a transfected reporter gene construct, IFN-gamma and IL-2 mRNA accumulation, and IFN-gamma production.</clue>
+<comment>NO COREFTHEME FOR T30</comment></event>
+<event KT="Other" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T32"/>
+<clue>In CsA-treated leukocytes stimulated by calcium ionophore, the degree of reduction in CN activity was accompanied by a similar degree of inhibition of each event tested: dephosphorylation of nuclear factor of activated T cell proteins, nuclear DNA binding, <clueType>activation</clueType> <linkTheme>of</linkTheme> a transfected reporter gene construct, IFN-gamma and IL-2 mRNA accumulation, and IFN-gamma production.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="A7" idref1="A9"/>
+<clue>In CsA-treated leukocytes stimulated by calcium ionophore, the degree of reduction in CN activity was accompanied by a similar degree of inhibition of each event tested: dephosphorylation of nuclear factor of activated T cell proteins, nuclear DNA binding, activation of a transfected reporter gene construct, IFN-gamma and IL-2 mRNA <clueType>accumulation</clueType>, and IFN-gamma production.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="A8" idref1="A9"/>
+<clue>In CsA-treated leukocytes stimulated by calcium ionophore, the degree of reduction in CN activity was accompanied by a similar degree of inhibition of each event tested: dephosphorylation of nuclear factor of activated T cell proteins, nuclear DNA binding, activation of a transfected reporter gene construct, IFN-gamma and IL-2 mRNA <clueType>accumulation</clueType>, and IFN-gamma production.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Gene_expression"/>
+<theme idref="T35"/>
+<clue>In CsA-treated leukocytes stimulated by calcium ionophore, the degree of reduction in CN activity was accompanied by a similar degree of inhibition of each event tested: dephosphorylation of nuclear factor of activated T cell proteins, nuclear DNA binding, activation of a transfected reporter gene construct, IFN-gamma and IL-2 mRNA accumulation, and IFN-gamma <clueType>production</clueType>.</clue>
+</event>
+<event id="E20">
+<type class="Negative_regulation"/>
+<theme idref="E14"/>
+<clue>In CsA-treated leukocytes stimulated by calcium ionophore, the degree of reduction in CN activity was accompanied by a similar degree of <clueType>inhibition</clueType> <linkTheme>of</linkTheme> <corefTheme>each event tested</corefTheme>: dephosphorylation of nuclear factor of activated T cell proteins, nuclear DNA binding, activation of a transfected reporter gene construct, IFN-gamma and IL-2 mRNA accumulation, and IFN-gamma production.</clue>
+</event>
+<event id="E21">
+<type class="Negative_regulation"/>
+<theme idref="E15"/>
+<clue>In CsA-treated leukocytes stimulated by calcium ionophore, the degree of reduction in CN activity was accompanied by a similar degree of <clueType>inhibition</clueType> <linkTheme>of</linkTheme> <corefTheme>each event tested</corefTheme>: dephosphorylation of nuclear factor of activated T cell proteins, nuclear DNA binding, activation of a transfected reporter gene construct, IFN-gamma and IL-2 mRNA accumulation, and IFN-gamma production.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<clue>In CsA-treated leukocytes stimulated by calcium ionophore, the degree of reduction in CN activity was accompanied by a similar degree of <clueType>inhibition</clueType> <linkTheme>of</linkTheme> <corefTheme>each event tested</corefTheme>: dephosphorylation of nuclear factor of activated T cell proteins, nuclear DNA binding, activation of a transfected reporter gene construct, IFN-gamma and IL-2 mRNA accumulation, and IFN-gamma production.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation"/>
+<theme idref="E17"/>
+<clue>In CsA-treated leukocytes stimulated by calcium ionophore, the degree of reduction in CN activity was accompanied by a similar degree of <clueType>inhibition</clueType> <linkTheme>of</linkTheme> <corefTheme>each event tested</corefTheme>: dephosphorylation of nuclear factor of activated T cell proteins, nuclear DNA binding, activation of a transfected reporter gene construct, IFN-gamma and IL-2 mRNA accumulation, and IFN-gamma production.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation"/>
+<theme idref="E18"/>
+<clue>In CsA-treated leukocytes stimulated by calcium ionophore, the degree of reduction in CN activity was accompanied by a similar degree of <clueType>inhibition</clueType> <linkTheme>of</linkTheme> <corefTheme>each event tested</corefTheme>: dephosphorylation of nuclear factor of activated T cell proteins, nuclear DNA binding, activation of a transfected reporter gene construct, IFN-gamma and IL-2 mRNA accumulation, and IFN-gamma production.</clue>
+</event>
+<event id="E25">
+<type class="Negative_regulation"/>
+<theme idref="E19"/>
+<clue>In CsA-treated leukocytes stimulated by calcium ionophore, the degree of reduction in CN activity was accompanied by a similar degree of <clueType>inhibition</clueType> <linkTheme>of</linkTheme> <corefTheme>each event tested</corefTheme>: dephosphorylation of nuclear factor of activated T cell proteins, nuclear DNA binding, activation of a transfected reporter gene construct, IFN-gamma and IL-2 mRNA accumulation, and IFN-gamma production.</clue>
+</event>
+<event id="E26">
+<type class="Correlation"/>
+<theme idref="E13"/>
+<theme idref="E20"/>
+<clue><clueLoc>In CsA-treated leukocytes stimulated by calcium ionophore</clueLoc>, the degree of reduction in CN activity was <clueType>accompanied</clueType> <linkTheme>by</linkTheme> a similar degree of inhibition of each event tested: dephosphorylation of nuclear factor of activated T cell proteins, nuclear DNA binding, activation of a transfected reporter gene construct, IFN-gamma and IL-2 mRNA accumulation, and IFN-gamma production.</clue>
+</event>
+<event id="E27">
+<type class="Correlation"/>
+<theme idref="E13"/>
+<theme idref="E21"/>
+<clue><clueLoc>In CsA-treated leukocytes stimulated by calcium ionophore</clueLoc>, the degree of reduction in CN activity was <clueType>accompanied</clueType> <linkTheme>by</linkTheme> a similar degree of inhibition of each event tested: dephosphorylation of nuclear factor of activated T cell proteins, nuclear DNA binding, activation of a transfected reporter gene construct, IFN-gamma and IL-2 mRNA accumulation, and IFN-gamma production.</clue>
+</event>
+<event id="E28">
+<type class="Correlation"/>
+<theme idref="E13"/>
+<theme idref="E22"/>
+<clue><clueLoc>In CsA-treated leukocytes stimulated by calcium ionophore</clueLoc>, the degree of reduction in CN activity was <clueType>accompanied</clueType> <linkTheme>by</linkTheme> a similar degree of inhibition of each event tested: dephosphorylation of nuclear factor of activated T cell proteins, nuclear DNA binding, activation of a transfected reporter gene construct, IFN-gamma and IL-2 mRNA accumulation, and IFN-gamma production.</clue>
+</event>
+<event id="E29">
+<type class="Correlation"/>
+<theme idref="E13"/>
+<theme idref="E23"/>
+<clue><clueLoc>In CsA-treated leukocytes stimulated by calcium ionophore</clueLoc>, the degree of reduction in CN activity was <clueType>accompanied</clueType> <linkTheme>by</linkTheme> a similar degree of inhibition of each event tested: dephosphorylation of nuclear factor of activated T cell proteins, nuclear DNA binding, activation of a transfected reporter gene construct, IFN-gamma and IL-2 mRNA accumulation, and IFN-gamma production.</clue>
+</event>
+<event id="E30">
+<type class="Correlation"/>
+<theme idref="E13"/>
+<theme idref="E24"/>
+<clue><clueLoc>In CsA-treated leukocytes stimulated by calcium ionophore</clueLoc>, the degree of reduction in CN activity was <clueType>accompanied</clueType> <linkTheme>by</linkTheme> a similar degree of inhibition of each event tested: dephosphorylation of nuclear factor of activated T cell proteins, nuclear DNA binding, activation of a transfected reporter gene construct, IFN-gamma and IL-2 mRNA accumulation, and IFN-gamma production.</clue>
+</event>
+<event id="E31">
+<type class="Correlation"/>
+<theme idref="E13"/>
+<theme idref="E25"/>
+<clue><clueLoc>In CsA-treated leukocytes stimulated by calcium ionophore</clueLoc>, the degree of reduction in CN activity was <clueType>accompanied</clueType> <linkTheme>by</linkTheme> a similar degree of inhibition of each event tested: dephosphorylation of nuclear factor of activated T cell proteins, nuclear DNA binding, activation of a transfected reporter gene construct, IFN-gamma and IL-2 mRNA accumulation, and IFN-gamma production.</clue>
+</event>
+<sentence id="S7">Furthermore, the degree of <term id="T36" lex="CN_inhibition" sem="Other"><term id="T37" lex="CN" sem="Protein_molecule">CN</term> inhibition</term> was reflected by a similar degree of reduction in <term id="T38" lex="lymphocyte_proliferation" sem="Other"><term id="A11" sem="Cell_natural">lymphocyte</term> proliferation</term> and <term id="T39" lex="IFN-gamma_production" sem="Other"><term id="T40" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term> production</term> in the <term id="T41" lex="allogeneic_mixed_lymphocyte_culture" sem="Cell_cultured">allogeneic mixed lymphocyte cultures</term>.</sentence>
+<event KT="Other" id="E32">
+<type class="Negative_regulation"/>
+<theme idref="T37"/>
+<clue>Furthermore, the degree of CN <clueType>inhibition</clueType> was reflected by a similar degree of reduction in lymphocyte proliferation and IFN-gamma production in the allogeneic mixed lymphocyte cultures.</clue>
+</event>
+<event KT="Other" id="E33">
+<type class="Cellular_physiological_process"/>
+<theme idref="A11"/>
+<clue>Furthermore, the degree of CN inhibition was reflected by a similar degree of reduction in lymphocyte <clueType>proliferation</clueType> and IFN-gamma production in the allogeneic mixed lymphocyte cultures.</clue>
+</event>
+<event KT="Other" id="E34">
+<type class="Negative_regulation"/>
+<theme idref="E33"/>
+<clue>Furthermore, the degree of CN inhibition was reflected by a similar degree of <clueType>reduction</clueType> <linkTheme>in</linkTheme> lymphocyte proliferation and IFN-gamma production <clueLoc>in the allogeneic mixed lymphocyte cultures</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E35">
+<type class="Gene_expression"/>
+<theme idref="T40"/>
+<clue>Furthermore, the degree of CN inhibition was reflected by a similar degree of reduction in lymphocyte proliferation and IFN-gamma <clueType>production</clueType> in the allogeneic mixed lymphocyte cultures.</clue>
+</event>
+<event KT="Other" id="E36">
+<type class="Negative_regulation"/>
+<theme idref="E35"/>
+<clue>Furthermore, the degree of CN inhibition was reflected by a similar degree of <clueType>reduction</clueType> <linkTheme>in</linkTheme> lymphocyte proliferation and IFN-gamma production <clueLoc>in the allogeneic mixed lymphocyte cultures</clueLoc>.</clue>
+</event>
+<event KT="Analysis" id="E37">
+<type class="Correlation"/>
+<theme idref="E32"/>
+<theme idref="E34"/>
+<clue>Furthermore, the degree of CN inhibition was <clueType><clueKT>reflected</clueKT></clueType> <linkTheme>by</linkTheme> a similar degree of reduction in lymphocyte proliferation and IFN-gamma production in the allogeneic mixed lymphocyte cultures.</clue>
+</event>
+<event KT="Analysis" id="E38">
+<type class="Correlation"/>
+<theme idref="E32"/>
+<theme idref="E36"/>
+<clue>Furthermore, the degree of CN inhibition was <clueType><clueKT>reflected</clueKT></clueType> <linkTheme>by</linkTheme> a similar degree of reduction in lymphocyte proliferation and IFN-gamma production in the allogeneic mixed lymphocyte cultures.</clue>
+</event>
+<sentence id="S8">These data support the conclusion that <term id="T42" lex="CN_activity" sem="Other"><term id="T43" lex="CN" sem="Protein_molecule">CN</term> activity</term> is rate-limiting for the activation of <term id="T44" lex="primary_human_T_lymphocyte" sem="Cell_natural">primary human T lymphocytes</term>.</sentence>
+<event KT="Other" id="E39">
+<type class="Physiological_process"/>
+<theme idref="T44"/>
+<clue>These data support the conclusion that CN activity is rate-limiting for the <clueType>activation</clueType> <linkTheme>of</linkTheme> primary human T lymphocytes.</clue>
+</event>
+<event KT="Analysis" id="E40">
+<type class="Regulation"/>
+<theme idref="E39"/>
+<cause idref="T43"/>
+<clue>These data <clueKT>support</clueKT> the <clueKT>conclusion</clueKT> that CN activity is <clueType>rate-limiting</clueType> <linkTheme>for</linkTheme> the activation of primary human T lymphocytes.</clue>
+</event>
+<sentence id="S9">Thus, the reduction of <term id="T45" lex="CN_activity" sem="Other"><term id="T46" lex="CN" sem="Protein_molecule">CN</term> activity</term> observed in <term id="T47" lex="CsA-treated_patient" sem="Multicellular_organism_natural"><term id="T48" lex="CsA" sem="Organic_compound_other">CsA</term>-treated <term id="T49" lex="patient" sem="Multicellular_organism_natural">patients</term></term> is accompanied by a similar degree of reduction in <term id="T50" lex="lymphocyte_gene_activation" sem="Other"><term id="T51" lex="lymphocyte_gene" sem="DNA_family_or_group">lymphocyte gene</term> activation</term>, and accounts for the <term id="T52" lex="immunosuppression" sem="Other">immunosuppression</term> observed.</sentence>
+<event id="E41">
+<type class="Negative_regulation"/>
+<theme idref="T46"/>
+<clue>Thus, the <clueType>reduction</clueType> <linkTheme>of</linkTheme> CN activity <clueKT>observed</clueKT> <clueLoc>in CsA-treated patients</clueLoc> is accompanied by a similar degree of reduction in lymphocyte gene activation, and accounts for the immunosuppression observed.</clue>
+</event>
+<event id="E42">
+<type class="Positive_regulation"/>
+<theme idref="T51"/>
+<clue>Thus, the reduction of CN activity observed in CsA-treated patients is accompanied by a similar degree of reduction in lymphocyte gene <clueType>activation</clueType>, and accounts for the immunosuppression observed.</clue>
+</event>
+<event id="E43">
+<type class="Negative_regulation"/>
+<theme idref="E42"/>
+<clue>Thus, the reduction of CN activity observed in CsA-treated patients is accompanied by a similar degree of <clueType>reduction</clueType> <linkTheme>in</linkTheme> lymphocyte gene activation, and accounts for the immunosuppression observed.</clue>
+</event>
+<event KT="Analysis" id="E44">
+<type class="Correlation"/>
+<theme idref="E41"/>
+<theme idref="E43"/>
+<clue><clueKT>Thus</clueKT>, the reduction of CN activity observed in CsA-treated patients is <clueType>accompanied</clueType> <linkTheme>by</linkTheme> a similar degree of reduction in lymphocyte gene activation, and accounts for the immunosuppression observed.</clue>
+</event>
+<event KT="Analysis" id="E45">
+<type class="Positive_regulation"/>
+<theme idref="T52"/>
+<cause idref="E44"/>
+<clue>Thus, the reduction of CN activity observed in CsA-treated patients is accompanied by a similar degree of reduction in lymphocyte gene activation, and <clueType><clueKT>accounts</clueKT></clueType> <linkTheme>for</linkTheme> the immunosuppression observed.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

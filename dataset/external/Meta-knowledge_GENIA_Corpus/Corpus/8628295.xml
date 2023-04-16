@@ -1,0 +1,256 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8628295" created="08/11/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8628295</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Role of <term id="T1" lex="EGR1" sem="Protein_molecule">EGR1</term> in regulation of <term id="T2" lex="timulus-dependent_CD44_transcription" sem="Other"><term id="A2" sem="Protein_family_or_group">stimulus</term>-dependent <term id="T3" lex="CD44" sem="Protein_molecule">CD44</term> transcription</term> in <term id="A1" sem="Cell_natural">B lymphocytes</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Transcription"/>
+<theme idref="T3"/>
+<clue>Role of EGR1 in regulation of stimulus-dependent CD44 <clueType>transcription</clueType> in B lymphocytes.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="A2"/>
+<clue>Role of EGR1 in regulation of stimulus-<clueType>dependent</clueType> CD44 transcription in B lymphocytes.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Regulation"/>
+<theme idref="E2"/>
+<clue>Role of EGR1 in <clueType>regulation</clueType> <linkTheme>of</linkTheme> stimulus-dependent CD44 transcription in B lymphocytes.</clue>
+</event>
+<event KT="Investigation" id="E4">
+<type class="Regulation"/>
+<theme idref="E3"/>
+<cause idref="T1"/>
+<clue><clueType>Role</clueType> <linkCause>of</linkCause> EGR1 <linkTheme>in</linkTheme> regulation of stimulus-dependent CD44 transcription <clueLoc>in B lymphocytes</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T4" lex="immediate-early_gene" sem="DNA_family_or_group">immediate-early gene</term> <term id="T5" lex="egr-1" sem="DNA_domain_or_region">egr-1</term> encodes a <term id="T6" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> (<term id="T7" lex="EGR1" sem="Protein_molecule">EGR1</term>) that links <term id="T8" lex="B-cell_antigen_receptor" sem="Protein_family_or_group">B-cell antigen receptor</term> (<term id="T9" lex="BCR" sem="Protein_family_or_group">BCR</term>) signals to <term id="A201" sem="Other">downstream activation events</term> through the regulation of previously unidentified <term id="T10" lex="target_gene" sem="DNA_family_or_group">target genes</term>.</sentence>
+<event KT="Other" id="E5">
+<type class="Regulation"/>
+<theme idref="T10"/>
+<cause idref="T7"/>
+<clue>The immediate-early gene egr-1 encodes a transcription factor (EGR1) that links B-cell antigen receptor (BCR) signals to downstream activation events through the <clueType>regulation</clueType> <linkTheme>of</linkTheme> previously unidentified target genes.</clue>
+</event>
+<event KT="Other" id="E105">
+<type class="Cell_communication"/>
+<theme idref="T9"/>
+<clue>The immediate-early gene egr-1 encodes a transcription factor (EGR1) that links B-cell antigen receptor (BCR) <clueType>signals</clueType> to downstream activation events through the regulation of previously unidentified target genes.</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="E105"/>
+<clue>The immediate-early gene egr-1 encodes a transcription factor (EGR1) that <clueType>links</clueType> B-cell antigen receptor (BCR) signals to downstream activation events <linkCause>through</linkCause> the regulation of previously unidentified target genes.</clue>
+</event>
+<event KT="Fact" id="E106">
+<type class="Positive_regulation"/>
+<theme idref="A201"/>
+<cause idref="E6"/>
+<clue>The immediate-early gene egr-1 encodes a transcription factor (EGR1) that <clueType>links</clueType> B-cell antigen receptor (BCR) signals <linkTheme>to</linkTheme> downstream activation events through the regulation of previously unidentified target genes.</clue>
+</event>
+<sentence id="S3">Here we identify the gene encoding the <term id="T11" lex="lymphocyte_homing_and_migration_protein" sem="Protein_family_or_group">lymphocyte homing and migration protein</term> <term id="T12" lex="CD44" sem="Protein_molecule">CD44</term> as a target of <term id="T13" lex="EGR1" sem="Protein_molecule">EGR1</term> regulation in <term id="T14" lex="B_cell" sem="Cell_natural">B cells</term>.</sentence>
+<event KT="Analysis" id="E7">
+<type class="Regulation"/>
+<theme idref="T12"/>
+<cause idref="T13"/>
+<clue>Here we <clueKT>identify</clueKT> the gene encoding the lymphocyte homing and migration protein CD44 as a <corefTheme>target</corefTheme> <linkCause>of</linkCause> EGR1 <clueType>regulation</clueType> <clueLoc>in B cells</clueLoc>.</clue>
+</event>
+<sentence id="S4"><term id="T15" lex="BCR-induced_increases" sem="Other"><term id="T16" lex="BCR" sem="Protein_family_or_group">BCR</term>-induced increases</term> in <cons id="T17" lex="(AND CD44_mRNA_expression_level CD44_mRNA_transcription_level)" sem="(AND Other Other)"><term id="T18" lex="CD44_mRNA" sem="RNA_molecule"><frag id="F1">CD44 mRNA</frag></term> <frag id="F2">expression</frag> and <frag id="F3">transcription</frag> <frag id="F4">levels</frag></cons> are shown to occur in <cons id="T19" lex="(BUT_NOT EGR1-expressing_subclone EGR1-nonexpressing_subclone)" sem="(BUT_NOT Cell_cultured Cell_cultured)"><frag id="F5"><term id="T20" lex="EGR1" sem="Protein_molecule">EGR1</term>-</frag><frag id="F6">expressing</frag> but not in <frag id="F7">nonexpressing</frag> <frag id="F8">subclones</frag></cons> of the <term id="T21" lex="B-cell_line" sem="Cell_cultured">B-cell line</term> <term id="T22" lex="WEHI-231" sem="Cell_cultured">WEHI-231</term>.</sentence>
+<event KT="Other" id="E8">
+<type class="Transcription"/>
+<theme idref="T13"/>
+<clue>BCR-induced increases in CD44 mRNA <clueType>expression and transcription</clueType> levels are shown to occur in EGR1-expressing but not in nonexpressing subclones of the B-cell line WEHI-231.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="T16"/>
+<clue>BCR-<linkCause>induced</linkCause> <clueType>increases</clueType> <linkTheme>in</linkTheme> CD44 mRNA expression and transcription levels are shown to occur <clueLoc>in EGR1-expressing</clueLoc> but not in nonexpressing <clueLoc>subclones of the B-cell line WEHI-231</clueLoc>.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="T16"/>
+<clue>BCR-<linkCause>induced</linkCause> <clueType>increases</clueType> <linkTheme>in</linkTheme> CD44 mRNA expression and transcription levels are shown to occur in EGR1-expressing but <cluePolarity>not</cluePolarity> <clueLoc>in nonexpressing subclones of the B-cell line WEHI-231</clueLoc>.</clue>
+</event>
+<event KT="Analysis" id="E11">
+<type class="Gene_expression"/>
+<theme idref="T20"/>
+<clue>BCR-induced increases in CD44 mRNA expression and transcription levels are <clueKT>shown</clueKT> to occur in EGR1-<clueType>expressing</clueType> but not in nonexpressing <clueLoc>subclones of the B-cell line WEHI-231</clueLoc>.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E12">
+<type class="Gene_expression"/>
+<theme idref="T20"/>
+<clue>BCR-induced increases in CD44 mRNA expression and transcription levels are <clueKT>shown</clueKT> to occur in EGR1-expressing but <cluePolarity>not</cluePolarity> in <clueType>nonexpressing</clueType> <clueLoc>subclones of the B-cell line WEHI-231</clueLoc>.</clue>
+</event>
+<sentence id="S5">Kinetics of <term id="T23" lex="egr-1_transcription" sem="Other"><term id="T24" lex="egr-1" sem="DNA_domain_or_region">egr-1</term> transcription</term> and the appearance of nuclear <term id="T25" lex="EGR1_protein" sem="Protein_molecule"><term id="T26" lex="EGR1" sem="Protein_molecule">EGR1</term> protein</term> precede <term id="T27" lex="CD44_induction" sem="Other"><term id="T28" lex="CD44" sem="Protein_molecule">CD44</term> induction</term> and occur within 30 min after stimulation in the <term id="T29" lex="EGR1-expressing_subclone" sem="Cell_cultured"><term id="T30" lex="EGR1" sem="Protein_molecule">EGR1</term>-expressing subclone</term>.</sentence>
+<event id="E13">
+<type class="Transcription"/>
+<theme idref="T24"/>
+<clue>Kinetics of egr-1 <clueType>transcription</clueType> and the appearance of nuclear EGR1 protein <clueTime>precede CD44 induction</clueTime> and occur within 30 min after stimulation in the EGR1-expressing subclone.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E14">
+<type class="Localization"/>
+<theme idref="T26"/>
+<clue>Kinetics of egr-1 transcription and the <clueType><clueKT><clueCL>appearance</clueCL></clueKT></clueType> <linkTheme>of</linkTheme> <clueLoc>nuclear</clueLoc> EGR1 protein <clueTime>precede CD44 induction</clueTime> and occur within 30 min after stimulation in the EGR1-expressing subclone.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation"/>
+<theme idref="T28"/>
+<clue>Kinetics of egr-1 transcription and the appearance of nuclear EGR1 protein precede CD44 <clueType>induction</clueType> and occur within 30 min after stimulation in the EGR1-expressing subclone.</clue>
+</event>
+<event id="E116">
+<type class="Positive_regulation"/>
+<cause idref="T16"/>
+<clue>Kinetics of egr-1 transcription and the appearance of nuclear EGR1 protein precede CD44 induction and occur within 30 min after <clueType>stimulation</clueType> in the EGR1-expressing subclone.</clue>
+<comment>NO COREFCAUSE</comment></event>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="E116"/>
+<clue>Kinetics of egr-1 transcription and the appearance of nuclear EGR1 protein precede CD44 induction and <clueType>occur</clueType> <clueTime>within 30 min</clueTime> <linkCause>after</linkCause> stimulation <clueLoc>in the EGR1-expressing subclone</clueLoc>.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="E116"/>
+<clue>Kinetics of egr-1 transcription and the appearance of nuclear EGR1 protein precede CD44 induction and <clueType>occur</clueType> <clueTime>within 30 min</clueTime> <linkCause>after</linkCause> stimulation <clueLoc>in the EGR1-expressing subclone</clueLoc>.</clue>
+</event>
+<event id="E19">
+<type class="Gene_expression"/>
+<theme idref="T30"/>
+<clue>Kinetics of egr-1 transcription and the appearance of nuclear EGR1 protein precede CD44 induction and occur within 30 min after stimulation in the EGR1-<clueType>expressing</clueType> subclone.</clue>
+</event>
+<sentence id="S6">A single <term id="A6" sem="DNA_domain_or_region"><term id="T31" lex="EGR1" sem="Protein_molecule">EGR1</term> binding motif</term> is demonstrated at bp -301 of the <term id="T32" lex="human_CD44_promoter" sem="DNA_domain_or_region">human <term id="T33" lex="CD44" sem="Protein_molecule">CD44</term> promoter</term>.</sentence>
+<sentence id="S7">Cotransfection of a <term id="T34" lex="CD44_promoter-chloramphenicol_acetyltransferase_reporter_construct" sem="DNA_molecule"><term id="A101" sem="DNA_domain_or_region"><term id="T35" lex="CD44" sem="Protein_molecule">CD44</term> promoter</term>-chloramphenicol acetyltransferase reporter construct</term> with an <term id="T36" lex="egr-1_expression_vector" sem="DNA_molecule"><term id="T37" lex="egr-1" sem="DNA_domain_or_region">egr-1</term> expression vector</term> resulted in a 6.5- to 8.5-fold induction of <term id="A7" sem="Other">transcriptional activity</term> relative to an <term id="T38" lex="empty_expression_vector" sem="DNA_molecule">empty expression vector</term>.</sentence>
+<event KT="Method" id="E20">
+<type class="Artificial_process"/>
+<theme idref="T34"/>
+<theme idref="T36"/>
+<clue><clueType>Cotransfection</clueType> <linkTheme>of</linkTheme> a CD44 promoter-chloramphenicol acetyltransferase reporter construct <linkTheme>with</linkTheme> an egr-1 expression vector resulted in a 6.5- to 8.5-fold induction of transcriptional activity relative to an empty expression vector.</clue>
+</event>
+<event id="E21">
+<type class="Transcription"/>
+<theme idref="A101"/>
+<clue>Cotransfection of a CD44 promoter-chloramphenicol acetyltransferase reporter construct with an egr-1 expression vector resulted in a 6.5- to 8.5-fold induction of <clueType>transcriptional activity</clueType> relative to an empty expression vector.</clue>
+</event>
+<event Manner="High" id="E121">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="E20"/>
+<clue>Cotransfection of a CD44 promoter-chloramphenicol acetyltransferase reporter construct with an egr-1 expression vector <clueType>resulted in</clueType> a <clueManner>6.5- to 8.5-fold</clueManner> <clueType>induction</clueType> <linkTheme>of</linkTheme> transcriptional activity relative to an empty expression vector.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Gene_expression"/>
+<theme idref="T37"/>
+<clue>Cotransfection of a CD44 promoter-chloramphenicol acetyltransferase reporter construct with an egr-1 <clueType>expression</clueType> vector resulted in a 6.5- to 8.5-fold induction of transcriptional activity relative to an empty expression vector.</clue>
+</event>
+<event id="E122">
+<type class="Positive_regulation"/>
+<theme idref="E22"/>
+<clue><clueType>Cotransfection</clueType> of a CD44 promoter-chloramphenicol acetyltransferase reporter construct with an egr-1 expression vector resulted in a 6.5- to 8.5-fold induction of transcriptional activity relative to an empty expression vector.</clue>
+</event>
+<sentence id="S8">The <term id="T39" lex="EGR1_binding_motif" sem="DNA_domain_or_region"><term id="T40" lex="EGR1" sem="Protein_molecule">EGR1</term> binding motif</term> was shown to be necessary for <term id="T41" lex="stimulus-induced_expression" sem="Other"><term id="A8" sem="Protein_family_or_group">stimulus</term>-induced expression</term> of a <term id="T43" lex="promoter-chloramphenicol_acetyltransferase_reporter_construct" sem="DNA_domain_or_region"><term id="T42" lex="CD44" sem="Protein_molecule">CD44</term> promoter-chloramphenicol acetyltransferase reporter construct</term> in <term id="T44" lex="nontransformed_B_lymphocyte" sem="Cell_natural">nontransformed <term id="A55" sem="Cell_natural">B lymphocytes</term></term> and was required for transactivation by an <term id="T45" lex="EGR1_expression_vector" sem="DNA_molecule"><term id="T46" lex="EGR1" sem="Protein_molecule">EGR1</term> expression vector</term> in a <term id="T47" lex="B-cell_line" sem="Cell_cultured">B-cell line</term>.</sentence>
+<event KT="Other" id="E23">
+<type class="Gene_expression"/>
+<theme idref="T43"/>
+<clue>The EGR1 binding motif was shown to be necessary for stimulus-induced <clueType>expression</clueType> <linkTheme>of</linkTheme> a CD44 promoter-chloramphenicol acetyltransferase reporter construct in nontransformed B lymphocytes and was required for transactivation by an EGR1 expression vector in a B-cell line.</clue>
+<comment>NER T43 MOD</comment></event>
+<event KT="Other" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E23"/>
+<cause idref="A8"/>
+<clue>The EGR1 binding motif was shown to be necessary for stimulus-<clueType>induced</clueType> expression of a CD44 promoter-chloramphenicol acetyltransferase reporter construct in nontransformed B lymphocytes and was required for transactivation by an EGR1 expression vector in a B-cell line.</clue>
+</event>
+<event KT="Analysis" id="E25">
+<type class="Positive_regulation"/>
+<theme idref="E24"/>
+<cause idref="T39"/>
+<clue>The EGR1 binding motif was <clueKT>shown</clueKT> to be <clueType>necessary</clueType> <linkTheme>for</linkTheme> stimulus-induced expression of a CD44 promoter-chloramphenicol acetyltransferase reporter construct <clueLoc>in nontransformed B lymphocytes</clueLoc> and was required for transactivation by an EGR1 expression vector in a B-cell line.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Positive_regulation"/>
+<cause idref="T45"/>
+<clue>The EGR1 binding motif was shown to be necessary for stimulus-induced expression of a CD44 promoter-chloramphenicol acetyltransferase reporter construct in nontransformed B lymphocytes and was required for <clueType>transactivation</clueType> <linkCause>by</linkCause> an EGR1 expression vector in a B-cell line.</clue>
+</event>
+<event KT="Analysis" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="E26"/>
+<cause idref="T39"/>
+<clue>The EGR1 binding motif was <clueKT>shown</clueKT> to be necessary for stimulus-induced expression of a CD44 promoter-chloramphenicol acetyltransferase reporter construct in nontransformed B lymphocytes and was <clueType>required</clueType> <linkTheme>for</linkTheme> transactivation by an EGR1 expression vector <clueLoc>in a B-cell line</clueLoc>.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E127">
+<type class="Biological_process"/>
+<theme idref="A55"/>
+<clue>The EGR1 binding motif was shown to be necessary for stimulus-induced expression of a CD44 promoter-chloramphenicol acetyltransferase reporter construct in <clueType><cluePolarity>nontransformed</cluePolarity></clueType> B lymphocytes and was required for transactivation by an EGR1 expression vector in a B-cell line.</clue>
+</event>
+<sentence id="S9">These studies identify <term id="T48" lex="EGR1" sem="Protein_molecule">EGR1</term> as an intermediary linking <term id="T49" lex="BCR-derived_signal" sem="Other"><term id="T50" lex="BCR" sem="Protein_family_or_group">BCR</term>-derived signals</term> to the induction of <term id="T51" lex="CD44" sem="Protein_molecule">CD44</term>.</sentence>
+<event KT="Other" id="E28">
+<type class="Cell_communication"/>
+<theme idref="T50"/>
+<clue>These studies identify EGR1 as an intermediary linking BCR-<linkTheme>derived</linkTheme> <clueType>signals</clueType> to the induction of CD44.</clue>
+</event>
+<event KT="Other" id="E29">
+<type class="Positive_regulation"/>
+<theme idref="T51"/>
+<clue>These studies identify EGR1 as an intermediary linking BCR-derived signals to the <clueType>induction</clueType> <linkTheme>of</linkTheme> CD44.</clue>
+</event>
+<event KT="Analysis" id="E30">
+<type class="Positive_regulation"/>
+<theme idref="T48"/>
+<cause idref="E28"/>
+<clue>These studies <clueKT>identify</clueKT> EGR1 as an <clueType>intermediary linking</clueType> BCR-derived signals to the induction of CD44.</clue>
+</event>
+<event KT="Analysis" id="E31">
+<type class="Positive_regulation"/>
+<theme idref="E29"/>
+<cause idref="E30"/>
+<clue>These studies <clueKT>identify</clueKT> EGR1 as an <clueType>intermediary linking</clueType> BCR-derived signals <linkTheme>to</linkTheme> the induction of CD44.</clue>
+</event>
+<sentence id="S10">The relevance of these molecular events to <term id="T52" lex="BCR_signal_transduction" sem="Other"><term id="T53" lex="BCR" sem="Protein_family_or_group">BCR</term> signal transduction</term> and <term id="T54" lex="antigen-stimulated_B-cell-mediated_immune_response" sem="Other"><term id="A11" sem="Protein_family_or_group">antigen</term>-stimulated <term id="A12" sem="Cell_natural">B-cell</term>-mediated immune responses</term> is discussed.</sentence>
+<event KT="Other" id="E32">
+<type class="Cell_communication"/>
+<theme idref="T53"/>
+<clue>The relevance of these molecular events to BCR <clueType>signal transduction</clueType> and antigen-stimulated B-cell-mediated immune responses is discussed.</clue>
+</event>
+<event KT="Analysis" id="E33" uncertainty="doubtful">
+<type class="Correlation"/>
+<theme idref="E30"/>
+<theme idref="E32"/>
+<clue>The <clueType>relevance</clueType> <linkTheme>of</linkTheme> <corefTheme>these molecular events</corefTheme> <linkTheme>to</linkTheme> BCR signal transduction and antigen-stimulated B-cell-mediated immune responses is <clueKT>discussed</clueKT>.</clue>
+</event>
+<event KT="Analysis" id="E133" uncertainty="doubtful">
+<type class="Correlation"/>
+<theme idref="E31"/>
+<theme idref="E32"/>
+<clue>The <clueType>relevance</clueType> <linkTheme>of</linkTheme> <corefTheme>these molecular events</corefTheme> <linkTheme>to</linkTheme> BCR signal transduction and antigen-stimulated B-cell-mediated immune responses is <clueKT>discussed</clueKT>.</clue>
+</event>
+<event KT="Other" id="E34">
+<type class="Physiological_process"/>
+<theme idref="A12"/>
+<clue>The relevance of these molecular events to BCR signal transduction and antigen-stimulated B-cell-<linkCause>mediated</linkCause> <clueType>immune responses</clueType> is discussed.</clue>
+</event>
+<event KT="Other" id="E35">
+<type class="Positive_regulation"/>
+<theme idref="E34"/>
+<cause idref="A11"/>
+<clue>The relevance of these molecular events to BCR signal transduction and antigen-<clueType>stimulated</clueType> B-cell-mediated immune responses is discussed.</clue>
+</event>
+<event KT="Other" id="E36" uncertainty="doubtful">
+<type class="Correlation"/>
+<theme idref="E30"/>
+<theme idref="E35"/>
+<clue>The <clueType>relevance</clueType> <linkTheme>of</linkTheme> these molecular events <linkTheme>to</linkTheme> BCR signal transduction and antigen-stimulated B-cell-mediated immune responses is discussed.</clue>
+</event>
+<event KT="Other" id="E136" uncertainty="doubtful">
+<type class="Correlation"/>
+<theme idref="E31"/>
+<theme idref="E35"/>
+<clue>The <clueType>relevance</clueType> <linkTheme>of</linkTheme> these molecular events <linkTheme>to</linkTheme> BCR signal transduction and antigen-stimulated B-cell-mediated immune responses is discussed.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

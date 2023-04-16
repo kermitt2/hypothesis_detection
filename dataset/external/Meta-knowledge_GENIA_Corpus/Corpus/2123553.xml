@@ -1,0 +1,374 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2123553" created="06/11/04" creator="Yumiko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>2123553</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Two distinct <term id="T1" lex="signal_transmission_pathway" sem="Other">signal transmission pathways</term> in <term id="T2" lex="T_lymphocyte" sem="Cell_natural">T lymphocytes</term> are inhibited by <term id="A1" sem="Protein_substructure">complexes</term> formed between an <term id="T3" lex="immunophilin" sem="Protein_molecule">immunophilin</term> and either <term id="T4" lex="FK506" sem="Organic_compound_other">FK506</term> or <term id="T5" lex="rapamycin" sem="Organic_compound_other">rapamycin</term>.</sentence>
+<event id="E1">
+<type class="Negative_regulation"/>
+<theme idref="T1"/>
+<cause idref="E2"/>
+<clue>Two distinct signal transmission pathways <clueLoc>in T lymphocytes</clueLoc> are <clueType>inhibited</clueType> <linkCause>by</linkCause> complexes formed between an immunophilin and either FK506 or rapamycin.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation"/>
+<theme idref="T1"/>
+<cause idref="E4"/>
+<clue>Two distinct signal transmission pathways <clueLoc>in T lymphocytes</clueLoc> are <clueType>inhibited</clueType> <linkCause>by</linkCause> complexes formed between an immunophilin and either FK506 or rapamycin.</clue>
+</event>
+<event id="E2">
+<type class="Binding"/>
+<theme idref="T3"/>
+<theme idref="T4"/>
+<clue>Two distinct signal transmission pathways in T lymphocytes are inhibited by <clueType>complexes formed</clueType> <linkTheme>between</linkTheme> an immunophilin and either FK506 or rapamycin.</clue>
+</event>
+<event id="E4">
+<type class="Binding"/>
+<theme idref="T3"/>
+<theme idref="T5"/>
+<clue>Two distinct signal transmission pathways in T lymphocytes are inhibited by <clueType>complexes formed</clueType> <linkTheme>between</linkTheme> an immunophilin and either FK506 or rapamycin.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Proliferation and <term id="T6" lex="immunologic_function" sem="Other">immunologic function</term> of <term id="T7" lex="T_lymphocyte" sem="Cell_natural">T lymphocytes</term> are initiated by signals from the <term id="T8" lex="antigen_receptor" sem="Protein_family_or_group">antigen receptor</term> that are inhibited by the <term id="T9" lex="immunosuppressant" sem="Organic_compound_other">immunosuppressant</term> <term id="T10" lex="FK506" sem="Organic_compound_other">FK506</term> but not by its structural analog, <term id="T11" lex="rapamycin" sem="Organic_compound_other">rapamycin</term>.</sentence>
+<event KT="Other" id="E201">
+<type class="Negative_regulation"/>
+<cause idref="T10"/>
+<clue>Proliferation and immunologic function of T lymphocytes are initiated by signals from the antigen receptor that are inhibited by the <clueType>immunosuppressant</clueType> FK506 but not by its structural analog, rapamycin.</clue>
+</event>
+<event KT="Other" id="E200">
+<type class="Cell_communication"/>
+<theme idref="T8"/>
+<clue>Proliferation and immunologic function of T lymphocytes are initiated by <clueType>signals</clueType> <linkTheme>from</linkTheme> the antigen receptor that are inhibited by the immunosuppressant FK506 but not by its structural analog, rapamycin.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Cellular_physiological_process"/>
+<theme idref="T7"/>
+<clue><clueType>Proliferation</clueType> and immunologic function <linkTheme>of</linkTheme> T lymphocytes are initiated by signals from the antigen receptor that are inhibited by the immunosuppressant FK506 but not by its structural analog, rapamycin.</clue>
+</event>
+<event KT="Other" id="E500">
+<type class="Regulation"/>
+<theme idref="T7"/>
+<clue>Proliferation and <clueType>immunologic function</clueType> <linkTheme>of</linkTheme> T lymphocytes are initiated by signals from the antigen receptor that are inhibited by the immunosuppressant FK506 but not by its structural analog, rapamycin.</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="T8"/>
+<clue>Proliferation and immunologic function of T lymphocytes are <clueType>initiated</clueType> <linkCause>by</linkCause> signals from the antigen receptor that are inhibited by the immunosuppressant FK506 but not by its structural analog, rapamycin.</clue>
+</event>
+<event KT="Fact" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="E500"/>
+<cause idref="T8"/>
+<clue>Proliferation and immunologic function of T lymphocytes are <clueType>initiated</clueType> <linkCause>by</linkCause> signals from the antigen receptor that are inhibited by the immunosuppressant FK506 but not by its structural analog, rapamycin.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Negative_regulation"/>
+<theme idref="E200"/>
+<cause idref="T10"/>
+<clue>Proliferation and immunologic function of T lymphocytes are initiated by signals from the antigen receptor that are <clueType>inhibited</clueType> <linkCause>by</linkCause> the <corefCause>immunosuppressant</corefCause> FK506 but not by its structural analog, rapamycin.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E9">
+<type class="Negative_regulation"/>
+<theme idref="E200"/>
+<cause idref="T11"/>
+<clue>Proliferation and immunologic function of T lymphocytes are initiated by signals from the antigen receptor that are <clueType>inhibited</clueType> by the immunosuppressant FK506 but <cluePolarity>not</cluePolarity> <linkCause>by</linkCause> its structural analog, rapamycin.</clue>
+</event>
+<sentence id="S3">On the other hand, <term id="T12" lex="interleukin_2_(IL-2)-induced_signal" sem="Other"><term id="T13" lex="interleukin_2" sem="Protein_molecule">interleukin 2</term> (<term id="T14" lex="IL-2" sem="Protein_molecule">IL-2</term>)-induced signals</term> are blocked by <term id="T15" lex="rapamycin" sem="Organic_compound_other">rapamycin</term> but not by <term id="T16" lex="FK506" sem="Organic_compound_other">FK506</term>.</sentence>
+<event KT="Other" id="E10">
+<type class="Cell_communication"/>
+<theme idref="T14"/>
+<clue>On the other hand, interleukin 2 (IL-2)-<clueType>induced signals</clueType> are blocked by rapamycin but not by FK506.</clue>
+</event>
+<event id="E11">
+<type class="Negative_regulation"/>
+<theme idref="E10"/>
+<cause idref="T15"/>
+<clue>On the other hand, interleukin 2 (IL-2)-induced signals are <clueType>blocked</clueType> <linkCause>by</linkCause> rapamycin but not by FK506.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E12">
+<type class="Negative_regulation"/>
+<theme idref="T12"/>
+<cause idref="T16"/>
+<clue>On the other hand, interleukin 2 (IL-2)-induced signals are <clueType>blocked</clueType> by rapamycin but <cluePolarity>not</cluePolarity> <linkCause>by</linkCause> FK506.</clue>
+</event>
+<sentence id="S4">Remarkably, these two drugs inhibit each other&apos;s actions, raising the possibility that both act by means of a common <term id="T17" lex="immunophilin" sem="Protein_molecule">immunophilin</term> (<term id="T18" lex="immunosuppressant_binding_protein" sem="Protein_family_or_group">immunosuppressant binding protein</term>).</sentence>
+<event id="E13">
+<type class="Negative_regulation"/>
+<theme idref="E10"/>
+<cause idref="T15"/>
+<clue>Remarkably, <corefCause>these two drugs</corefCause> <clueType>inhibit</clueType> <corefTheme>each other&apos;s actions</corefTheme>, raising the possibility that both act by means of a common immunophilin (immunosuppressant binding protein).</clue>
+</event>
+<event id="E14">
+<type class="Negative_regulation"/>
+<theme idref="E200"/>
+<cause idref="T16"/>
+<clue>Remarkably, <corefCause>these two drugs</corefCause> <clueType>inhibit</clueType> <corefTheme>each other&apos;s actions</corefTheme>, raising the possibility that both act by means of a common immunophilin (immunosuppressant binding protein).</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E15" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="T15"/>
+<cause idref="T18"/>
+<clue>Remarkably, these two drugs inhibit each other&apos;s actions, raising the <clueKT><clueCL>possibility</clueCL></clueKT> that <corefTheme>both</corefTheme> <clueType>act</clueType> <linkCause>by means of</linkCause> a common immunophilin (immunosuppressant binding protein).</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E16" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="T16"/>
+<cause idref="T18"/>
+<clue>Remarkably, these two drugs inhibit each other&apos;s actions, raising the <clueKT><clueCL>possibility</clueCL></clueKT> that <corefTheme>both</corefTheme> <clueType>act</clueType> <linkCause>by means of</linkCause> a common immunophilin (immunosuppressant binding protein).</clue>
+</event>
+<sentence id="S5">We find that the dissociation constant of <term id="T19" lex="rapamycin" sem="Organic_compound_other">rapamycin</term> to the <term id="T20" lex="FK506_binding_protein" sem="Protein_molecule"><term id="T21" lex="FK506" sem="Organic_compound_other">FK506</term> binding protein</term> <term id="T22" lex="FKBP" sem="Protein_molecule">FKBP</term> (Kd = 0.2 nM) is close to the dissociation constant of <term id="T23" lex="FK506" sem="Organic_compound_other">FK506</term> to <term id="T24" lex="FKBP" sem="Protein_molecule">FKBP</term> (Kd = 0.4 nM) and to their effective <term id="T25" lex="biologic_inhibitory_concentration" sem="Other">biologic inhibitory concentrations</term>.</sentence>
+<event KT="Analysis" id="E17">
+<type class="Binding"/>
+<theme idref="T19"/>
+<theme idref="T22"/>
+<clue>We find that the <clueType><clueKT>dissociation</clueKT></clueType> constant <linkTheme>of</linkTheme> rapamycin <linkTheme>to</linkTheme> the FK506 binding protein FKBP (Kd = 0.2 nM) is close to the dissociation constant of FK506 to FKBP (Kd = 0.4 nM) and to their effective biologic inhibitory concentrations.</clue>
+</event>
+<event KT="Analysis" id="E18">
+<type class="Binding"/>
+<theme idref="T23"/>
+<theme idref="T24"/>
+<clue>We find that the dissociation constant of rapamycin to the FK506 binding protein FKBP (Kd = 0.2 nM) is close to the <clueType><clueKT>dissociation</clueKT></clueType> constant <linkTheme>of</linkTheme> FK506 <linkTheme>to</linkTheme> FKBP (Kd = 0.4 nM) and to their effective biologic inhibitory concentrations.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Binding"/>
+<theme idref="T21"/>
+<theme idref="T22"/>
+<clue>We find that the dissociation constant of rapamycin to the FK506 <clueType>binding</clueType> protein FKBP (Kd = 0.2 nM) is close to the dissociation constant of FK506 to FKBP (Kd = 0.4 nM) and to their effective biologic inhibitory concentrations.</clue>
+</event>
+<sentence id="S6">However, an <term id="A100" sem="Organic_compound_other">excess of <term id="T26" lex="rapamycin" sem="Organic_compound_other">rapamycin</term></term> is needed to revert <term id="T27" lex="FK506-mediated_inhibition" sem="Other"><term id="T28" lex="FK506" sem="Organic_compound_other">FK506</term>-mediated inhibition</term> of <term id="T29" lex="IL-2_production" sem="Other"><term id="T30" lex="IL-2" sem="Protein_molecule">IL-2</term> production</term>, <term id="T31" lex="apoptosis" sem="Other">apoptosis</term>, and <term id="T32" lex="transcriptional_activation" sem="Other">transcriptional activation</term> of <term id="T33" lex="NF-AT" sem="Protein_molecule">NF-AT</term>, a <term id="T34" lex="T-cell-specific_transcription_factor" sem="Protein_family_or_group">T-cell-specific transcription factor</term> necessary for <term id="T35" lex="IL-2_gene_activation" sem="Other"><term id="T36" lex="IL-2_gene" sem="DNA_domain_or_region"><term id="T37" lex="IL-2" sem="Protein_molecule">IL-2</term> gene</term> activation</term>.</sentence>
+<event KT="Other" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="T36"/>
+<clue>However, an excess of rapamycin is needed to revert FK506-mediated inhibition of IL-2 production, apoptosis, and transcriptional activation of NF-AT, a <clueLoc>T-cell</clueLoc>-specific transcription factor necessary for IL-2 gene <clueType>activation</clueType>.</clue>
+</event>
+<event KT="Fact" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="T33"/>
+<clue>However, an excess of rapamycin is needed to revert FK506-mediated inhibition of IL-2 production, apoptosis, and transcriptional activation of NF-AT, a T-cell-specific transcription factor <clueType>necessary</clueType> <linkTheme>for</linkTheme> IL-2 gene activation.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Positive_regulation"/>
+<cause idref="T33"/>
+<clue>However, an excess of rapamycin is needed to revert FK506-mediated inhibition of IL-2 production, apoptosis, and <clueType>transcriptional activation</clueType> <linkCause>of</linkCause> NF-AT, a <clueLoc>T-cell</clueLoc>-specific transcription factor necessary for IL-2 gene activation.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Gene_expression"/>
+<theme idref="T30"/>
+<clue>However, an excess of rapamycin is needed to revert FK506-mediated inhibition of IL-2 <clueType>production</clueType>, apoptosis, and transcriptional activation of NF-AT, a T-cell-specific transcription factor necessary for IL-2 gene activation.</clue>
+</event>
+<event KT="Other" id="E24">
+<type class="Negative_regulation"/>
+<theme idref="E22"/>
+<cause idref="T28"/>
+<clue>However, an excess of rapamycin is needed to revert FK506-<linkCause>mediated</linkCause> <clueType>inhibition</clueType> <linkTheme>of</linkTheme> IL-2 production, apoptosis, and transcriptional activation of NF-AT, a T-cell-specific transcription factor necessary for IL-2 gene activation.</clue>
+</event>
+<event KT="Other" id="E25">
+<type class="Negative_regulation"/>
+<theme idref="T31"/>
+<cause idref="T28"/>
+<clue>However, an excess of rapamycin is needed to revert FK506-<linkCause>mediated</linkCause> <clueType>inhibition</clueType> <linkTheme>of</linkTheme> IL-2 production, apoptosis, and transcriptional activation of NF-AT, a T-cell-specific transcription factor necessary for IL-2 gene activation.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Negative_regulation"/>
+<theme idref="E21"/>
+<cause idref="T28"/>
+<clue>However, an excess of rapamycin is needed to revert FK506-<linkCause>mediated</linkCause> <clueType>inhibition</clueType> <linkTheme>of</linkTheme> IL-2 production, apoptosis, and transcriptional activation of NF-AT, a T-cell-specific transcription factor necessary for IL-2 gene activation.</clue>
+</event>
+<event id="E27">
+<type class="Negative_regulation"/>
+<theme idref="E24"/>
+<cause idref="A100"/>
+<clue>However, an excess of rapamycin is <clueType>needed to revert</clueType> FK506-mediated inhibition of IL-2 production, apoptosis, and transcriptional activation of NF-AT, a T-cell-specific transcription factor necessary for IL-2 gene activation.</clue>
+<comment>TPS A100</comment></event>
+<event id="E28">
+<type class="Negative_regulation"/>
+<theme idref="E25"/>
+<cause idref="A100"/>
+<clue>However, an excess of rapamycin is <clueType>needed to revert</clueType> FK506-mediated inhibition of IL-2 production, apoptosis, and transcriptional activation of NF-AT, a T-cell-specific transcription factor necessary for IL-2 gene activation.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation"/>
+<theme idref="E26"/>
+<cause idref="A100"/>
+<clue>However, an excess of rapamycin is <clueType>needed to revert</clueType> FK506-mediated inhibition of IL-2 production, apoptosis, and transcriptional activation of NF-AT, a T-cell-specific transcription factor necessary for IL-2 gene activation.</clue>
+</event>
+<sentence id="S7">Similarly, an <term id="A101" sem="Organic_compound_other">excess of <term id="T38" lex="FK506" sem="Organic_compound_other">FK506</term></term> is needed to revert <term id="T39" lex="rapamycin-mediated_inhibition" sem="Other"><term id="T40" lex="rapamycin" sem="Organic_compound_other">rapamycin</term>-mediated inhibition</term> of <term id="T42" lex="IL-2" sem="Protein_molecule">IL-2</term>-induced <term id="A4" sem="Other">proliferation</term>.</sentence>
+<event KT="Other" id="E30">
+<type class="Positive_regulation"/>
+<theme idref="A4"/>
+<cause idref="T42"/>
+<clue>Similarly, an excess of FK506 is needed to revert rapamycin-mediated inhibition of IL-2-<clueType>induced</clueType> proliferation.</clue>
+</event>
+<event KT="Other" id="E31">
+<type class="Negative_regulation"/>
+<theme idref="E30"/>
+<cause idref="T40"/>
+<clue>Similarly, an excess of FK506 is needed to revert rapamycin-<linkCause>mediated</linkCause> <clueType>inhibition</clueType> <linkTheme>of</linkTheme> IL-2-induced proliferation.</clue>
+</event>
+<event id="E32">
+<type class="Negative_regulation"/>
+<theme idref="E31"/>
+<cause idref="A101"/>
+<clue>Similarly, an excess of FK506 is <clueType>needed to revert</clueType> rapamycin-mediated inhibition of IL-2-induced proliferation.</clue>
+<comment>TPS A101</comment></event>
+<sentence id="S8">The drug concentrations required for <term id="A103" sem="Other">antagonism</term> may be explained by the relative affinity of the drugs to, and by the abundance of, the <term id="T43" lex="immunophilin" sem="Protein_molecule">immunophilin</term> <term id="T44" lex="FKBP" sem="Protein_molecule">FKBP</term>.</sentence>
+<event KT="Other" id="E51">
+<type class="Positive_regulation"/>
+<theme idref="A103"/>
+<cause idref="A100"/>
+<clue><corefCause>The drug concentrations</corefCause> <clueType>required</clueType> <linkTheme>for</linkTheme> antagonism may be explained by the relative affinity of the drugs to, and by the abundance of, the immunophilin FKBP.</clue>
+</event>
+<event KT="Other" id="E52">
+<type class="Positive_regulation"/>
+<theme idref="A103"/>
+<cause idref="A101"/>
+<clue><corefCause>The drug concentrations</corefCause> <clueType>required</clueType> <linkTheme>for</linkTheme> antagonism may be explained by the relative affinity of the drugs to, and by the abundance of, the immunophilin FKBP.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E33" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E51"/>
+<cause idref="T44"/>
+<clue>The drug concentrations required for antagonism <clueCL>may</clueCL> be <clueType><clueKT>explained</clueKT></clueType> by the relative affinity of the drugs to, and <linkCause>by</linkCause> the abundance of, the immunophilin FKBP.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E34" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E52"/>
+<cause idref="T44"/>
+<clue>The drug concentrations required for antagonism <clueCL>may</clueCL> be <clueType><clueKT>explained</clueKT></clueType> by the relative affinity of the drugs to, and <linkCause>by</linkCause> the abundance of, the immunophilin FKBP.</clue>
+</event>
+<event id="E35">
+<type class="Binding"/>
+<theme idref="T38"/>
+<theme idref="T44"/>
+<clue>The drug concentrations required for antagonism may be explained by the relative <clueType>affinity</clueType> <linkTheme>of</linkTheme> <corefTheme idref1="T38">the drugs</corefTheme> <linkTheme>to</linkTheme>, and by the abundance of, the immunophilin FKBP.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E36" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E51"/>
+<cause idref="E35"/>
+<clue>The drug concentrations required for antagonism <clueCL>may</clueCL> be <clueType><clueKT>explained</clueKT></clueType> <linkCause>by</linkCause> the relative affinity of the drugs to, and by the abundance of, the immunophilin FKBP.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E53" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E52"/>
+<cause idref="E35"/>
+<clue>The drug concentrations required for antagonism <clueCL>may</clueCL> be <clueType><clueKT>explained</clueKT></clueType> <linkCause>by</linkCause> the relative affinity of the drugs to, and by the abundance of, the immunophilin FKBP.</clue>
+</event>
+<event id="E37">
+<type class="Binding"/>
+<theme idref="T40"/>
+<theme idref="T44"/>
+<clue>The drug concentrations required for antagonism may be explained by the relative <clueType>affinity</clueType> <linkTheme>of</linkTheme> <corefTheme idref1="T40">the drugs</corefTheme> <linkTheme>to</linkTheme>, and by the abundance of, the immunophilin FKBP.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E39" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E51"/>
+<cause idref="E37"/>
+<clue>The drug concentrations required for antagonism <clueCL>may</clueCL> be <clueType><clueKT>explained</clueKT></clueType> <linkCause>by</linkCause> the relative affinity of the drugs to, and by the abundance of, the immunophilin FKBP.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E40" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E52"/>
+<cause idref="E37"/>
+<clue>The drug concentrations required for antagonism <clueCL>may</clueCL> be <clueType><clueKT>explained</clueKT></clueType> <linkCause>by</linkCause> the relative affinity of the drugs to, and by the abundance of, the immunophilin FKBP.</clue>
+</event>
+<sentence id="S9"><term id="T45" lex="FKBP" sem="Protein_molecule">FKBP</term> has been shown to catalyze the interconversion of the <cons id="T46" lex="(AND cis-rotamer trans-rotamer)" sem="(AND Peptide Peptide)"><frag id="F1"><term id="A5" sem="Protein_substructure">cis-</term></frag> and <frag id="F2"><term id="A6" sem="Protein_substructure">trans-</term></frag><frag id="F3"><term id="A7" sem="Protein_substructure">rotamers</term></frag></cons> <term id="A102" sem="Protein_substructure">of the <term id="T47" lex="peptidyl-prolyl_amide_bond" sem="Protein_substructure">peptidyl-prolyl amide bond</term> of <term id="T48" lex="peptide_substrate" sem="Peptide">peptide substrates</term></term>; here we show that <term id="T49" lex="rapamycin" sem="Organic_compound_other">rapamycin</term>, like <term id="T50" lex="FK506" sem="Organic_compound_other">FK506</term>, is a potent inhibitor of the <term id="T51" lex="rotamase_activity" sem="Other"><term id="A3" sem="Protein_molecule">rotamase</term> activity</term> of <term id="T52" lex="FKBP" sem="Protein_molecule">FKBP</term> (Ki = 0.2 nM).</sentence>
+<event KT="Other" id="E41">
+<type class="Protein_metabolism"/>
+<theme idref="A5" idref1="A7" idref2="A102"/>
+<product idref="A6" idref1="A7" idref2="A102"/>
+<clue>FKBP has been shown to catalyze the <clueType>interconversion</clueType> <linkTheme>of</linkTheme> the cis- and trans-rotamers of the peptidyl-prolyl amide bond of peptide substrates; here we show that rapamycin, like FK506, is a potent inhibitor of the rotamase activity of FKBP (Ki = 0.2 nM).</clue>
+<comment>TPS A102</comment></event>
+<event KT="Analysis" Source="Other" id="E42">
+<type class="Regulation"/>
+<theme idref="E41"/>
+<cause idref="T45"/>
+<clue>FKBP <clueSource>has been</clueSource> <clueKT>shown</clueKT> to <clueType>catalyze</clueType> the interconversion of the cis- and trans-rotamers of the peptidyl-prolyl amide bond of peptide substrates; here we show that rapamycin, like FK506, is a potent inhibitor of the rotamase activity of FKBP (Ki = 0.2 nM).</clue>
+</event>
+<event KT="Other" id="E43">
+<type class="Regulation"/>
+<cause idref="T52"/>
+<clue>FKBP has been shown to catalyze the interconversion of the cis- and trans-rotamers of the peptidyl-prolyl amide bond of peptide substrates; here we show that rapamycin, like FK506, is a potent inhibitor of the <clueType>rotamase activity</clueType> <linkCause>of</linkCause> FKBP (Ki = 0.2 nM).</clue>
+<comment>NO THEME</comment></event>
+<event KT="Analysis" Manner="High" id="E44">
+<type class="Negative_regulation"/>
+<theme idref="E43"/>
+<cause idref="T49"/>
+<clue>FKBP has been shown to catalyze the interconversion of the cis- and trans-rotamers of the peptidyl-prolyl amide bond of peptide substrates; here we <clueKT>show</clueKT> that rapamycin, like FK506, is a <clueManner>potent</clueManner> <clueType>inhibitor</clueType> <linkTheme>of</linkTheme> the rotamase activity of FKBP (Ki = 0.2 nM).</clue>
+</event>
+<event KT="Analysis" Manner="High" id="E440">
+<type class="Negative_regulation"/>
+<theme idref="E43"/>
+<cause idref="T50"/>
+<clue>FKBP has been shown to catalyze the interconversion of the cis- and trans-rotamers of the peptidyl-prolyl amide bond of peptide substrates; here we <clueKT>show</clueKT> that rapamycin, like FK506, is a <clueManner>potent</clueManner> <clueType>inhibitor</clueType> <linkTheme>of</linkTheme> the rotamase activity of FKBP (Ki = 0.2 nM).</clue>
+</event>
+<sentence id="S10">Neither <term id="T53" lex="FKBP_binding" sem="Other"><term id="T54" lex="FKBP" sem="Protein_molecule">FKBP</term> binding</term> nor inhibition of <term id="T55" lex="rotamase_activity" sem="Other">rotamase activity</term> of <term id="T56" lex="FKBP" sem="Protein_molecule">FKBP</term> alone is sufficient to explain the <term id="T57" lex="biologic_action" sem="Other">biologic actions</term> of these drugs.</sentence>
+<event assertion="non-exist" id="E450">
+<type class="Binding"/>
+<theme idref="T49"/>
+<theme idref="T54"/>
+<clue>Neither FKBP <clueType>binding</clueType> nor inhibition of rotamase activity of FKBP alone is sufficient to explain the biologic actions of <corefTheme idref1="T49">these drugs</corefTheme>.</clue>
+</event>
+<event assertion="non-exist" id="E451">
+<type class="Binding"/>
+<theme idref="T50"/>
+<theme idref="T54"/>
+<clue>Neither FKBP <clueType>binding</clueType> nor inhibition of rotamase activity of FKBP alone is sufficient to explain the biologic actions of <corefTheme idref1="T50">these drugs</corefTheme>.</clue>
+</event>
+<event KT="Other" id="E452">
+<type class="Regulation"/>
+<cause idref="T56"/>
+<clue>Neither FKBP binding nor inhibition of <clueType>rotamase activity</clueType> <linkCause>of</linkCause> FKBP alone is sufficient to explain the biologic actions of these drugs.</clue>
+<comment>NO THEME</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E453">
+<type class="Negative_regulation"/>
+<theme idref="E452"/>
+<cause idref="T50"/>
+<clue>Neither FKBP binding <cluePolarity>nor</cluePolarity> <clueType>inhibition</clueType> <linkTheme>of</linkTheme> rotamase activity of FKBP alone is sufficient to explain the biologic actions of <corefCause>these drugs</corefCause>.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E454">
+<type class="Negative_regulation"/>
+<theme idref="E452"/>
+<cause idref="T49"/>
+<clue>Neither FKBP binding <cluePolarity>nor</cluePolarity> <clueType>inhibition</clueType> <linkTheme>of</linkTheme> rotamase activity of FKBP alone is sufficient to explain the biologic actions of <corefCause>these drugs</corefCause>.</clue>
+</event>
+<sentence id="S11">Rather, these findings suggest that <term id="T58" lex="immunophilin" sem="Protein_molecule">immunophilin</term> bound to <term id="T59" lex="FK506" sem="Organic_compound_other">FK506</term> interferes with <term id="T60" lex="antigen_receptor-induced_signal" sem="Other"><term id="T61" lex="antigen_receptor" sem="Protein_family_or_group">antigen receptor</term>-induced signals</term>, while <term id="T62" lex="rapamycin" sem="Organic_compound_other">rapamycin</term> bound to the <term id="T63" lex="immunophilin" sem="Protein_molecule">immunophilin</term> interferes with <term id="T64" lex="IL-2-induced_signal" sem="Other"><term id="T65" lex="IL-2" sem="Protein_molecule">IL-2</term>-induced signals</term>.</sentence>
+<event id="E45">
+<type class="Binding"/>
+<theme idref="T58"/>
+<theme idref="T59"/>
+<clue>Rather, these findings suggest that immunophilin <clueType>bound</clueType> <linkTheme>to</linkTheme> FK506 interferes with antigen receptor-induced signals, while rapamycin bound to the immunophilin interferes with IL-2-induced signals.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E46" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="T60"/>
+<cause idref="E45"/>
+<clue>Rather, these findings <clueKT><clueCL>suggest</clueCL></clueKT> that immunophilin bound to FK506 <clueType>interferes</clueType> <linkTheme>with</linkTheme> antigen receptor-induced signals, while rapamycin bound to the immunophilin interferes with IL-2-induced signals.</clue>
+</event>
+<event KT="Other" id="E47">
+<type class="Cell_communication"/>
+<theme idref="T60"/>
+<clue>Rather, these findings suggest that immunophilin bound to FK506 interferes with antigen receptor-<linkTheme>induced</linkTheme> <clueType>signals</clueType>, while rapamycin bound to the immunophilin interferes with IL-2-induced signals.</clue>
+</event>
+<event id="E48">
+<type class="Binding"/>
+<theme idref="T62"/>
+<theme idref="T63"/>
+<clue>Rather, these findings suggest that immunophilin bound to FK506 interferes with antigen receptor-induced signals, while rapamycin <clueType>bound</clueType> <linkTheme>to</linkTheme> the immunophilin interferes with IL-2-induced signals.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E49" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="T64"/>
+<cause idref="E48"/>
+<clue>Rather, these findings <clueKT><clueCL>suggest</clueCL></clueKT> that immunophilin bound to FK506 interferes with antigen receptor-induced signals, while rapamycin bound to the immunophilin <clueType>interferes</clueType> <linkTheme>with</linkTheme> IL-2-induced signals.</clue>
+</event>
+<event KT="Other" id="E50">
+<type class="Cell_communication"/>
+<theme idref="T65"/>
+<clue>Rather, these findings suggest that immunophilin bound to FK506 interferes with antigen receptor-induced signals, while rapamycin bound to the immunophilin interferes with IL-2-<linkTheme>induced</linkTheme> <clueType>signals</clueType>.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

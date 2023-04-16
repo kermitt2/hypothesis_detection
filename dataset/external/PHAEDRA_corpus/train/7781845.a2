@@ -1,0 +1,25 @@
+T45	Adverse_effect 20 30	associated
+T13	Adverse_effect 123 129	causes
+T22	Potential_therapeutic_effect 409 416	therapy
+T25	Adverse_effect 392 397	after
+T20	Adverse_effect 292 306	adverse effect
+T17	Adverse_effect 1059 1066	induced
+T35	Potential_therapeutic_effect 1237 1246	receiving
+T42	Adverse_effect 1312 1316	risk
+R1	is_equivalent Arg1:T10 Arg2:T41
+R2	Subject_Disorder Arg1:T44 Arg2:T3
+R4	Subject_Disorder Arg1:T31 Arg2:T32
+R5	Subject_Disorder Arg1:T31 Arg2:T37
+R6	Subject_Disorder Arg1:T7 Arg2:T15
+R3	Coreference Arg1:T29 Arg2:T8
+R8	Subject_Disorder Arg1:T7 Arg2:T16
+E1	Adverse_effect:T45 affects:T2 has_agent:T1 has_subject:T44
+E3	Adverse_effect:T13 affects:T6 has_agent:T4 has_agent:T5 affects:T8
+E4	Potential_therapeutic_effect:T22 affects:T14 has_agent:T12
+E5	Adverse_effect:T25 has_agent:T12 affects:T11
+E7	Adverse_effect:T20 has_agent:T10 has_cue:T24 affects:T29
+E8	Adverse_effect:T17 has_agent:T34 affects:T33 has_agent:T36
+E9	Potential_therapeutic_effect:T35 has_agent:T38 has_subject:T31
+E10	Adverse_effect:T42 affects:T40 has_subject:T31 has_cue:T46 has_agent:T38
+A1	Speculated E10
+A2	Speculated E7

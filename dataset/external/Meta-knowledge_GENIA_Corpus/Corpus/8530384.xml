@@ -1,0 +1,154 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8530384" created="07/11/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8530384</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Functional characterization of the <term id="T1" lex="murine_homolog" sem="Protein_family_or_group">murine homolog</term> of the <term id="T2" lex="B_cell-specific_coactivator" sem="Protein_family_or_group">B cell-specific coactivator</term> <term id="T3" lex="BOB.1/OBF.1" sem="Protein_molecule">BOB.1/OBF.1</term>.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T4" lex="B_cell-specific_transcriptional_promoter_activity" sem="Other"><term id="A1" sem="Cell_natural">B cell</term>-specific <term id="A2" sem="DNA_domain_or_region">transcriptional promoter</term> activity</term> mediated by the <term id="T5" lex="octamer_motif" sem="DNA_domain_or_region">octamer motif</term> requires the <term id="T6" lex="Oct1" sem="Protein_molecule">Oct1</term> or <term id="T7" lex="Oct2_protein" sem="Protein_molecule">Oct2 protein</term> and additional <term id="T8" lex="B_cell-restricted_cofactor" sem="Protein_family_or_group">B cell-restricted cofactors</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation"/>
+<theme idref="A2"/>
+<cause idref="T5"/>
+<clue><clueLoc>B cell-specific</clueLoc> transcriptional promoter activity <clueType>mediated</clueType> <linkCause>by</linkCause> the octamer motif requires the Oct1 or Oct2 protein and additional B cell-restricted cofactors.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T6"/>
+<cause idref="T8"/>
+<clue>B cell-specific transcriptional promoter activity mediated by the octamer motif <clueType>requires</clueType> the Oct1 or Oct2 protein and additional B cell-restricted cofactors.</clue>
+</event>
+<event id="E102">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T7"/>
+<cause idref="T8"/>
+<clue>B cell-specific transcriptional promoter activity mediated by the octamer motif <clueType>requires</clueType> the Oct1 or Oct2 protein and additional B cell-restricted cofactors.</clue>
+</event>
+<sentence id="S3">One such <term id="T9" lex="cofactor" sem="Protein_family_or_group">cofactor</term>, <term id="T10" lex="BOB.1/OBF.1" sem="Protein_molecule">BOB.1/OBF.1</term>, was recently isolated from <term id="T11" lex="human_B_cell" sem="Cell_natural">human B cells</term>.</sentence>
+<sentence id="S4">Here, we describe the isolation and detailed characterization of the <term id="T12" lex="murine_homolog" sem="Protein_family_or_group">murine homolog</term>.</sentence>
+<sentence id="S5">Full-length <term id="T13" lex="cDNA" sem="DNA_family_or_group">cDNAs</term> and <term id="T14" lex="genomic_clone" sem="DNA_family_or_group">genomic clones</term> were isolated, and the <term id="T15" lex="gene_structure" sem="Other">gene structure</term> was determined.</sentence>
+<sentence id="S6">Comparison of the deduced amino acids shows 88% sequence identity between <cons id="T16" lex="(AND mouse_BOB.1/OBF.1 human_BOB.1/OBF.1)" sem="(AND Protein_molecule Protein_molecule)"><frag id="F1">mouse</frag> and <frag id="F2">human</frag> <frag id="F3"><term id="T45" lex="BOB.1/OBF.1" sem="Protein_molecule">BOB.1/OBF.1</term></frag></cons>.</sentence>
+<sentence id="S7">The <term id="A101" sem="Protein_domain_or_region"><term id="T17" lex="NH2-terminal_126_amino_acid" sem="Protein_domain_or_region">NH2-terminal 126 amino acids</term> of <term id="T18" lex="BOB.1/OBF.1" sem="Protein_molecule">BOB.1/OBF.1</term></term> are both essential and sufficient for interaction with the <term id="T19" lex="POU_domain" sem="Protein_domain_or_region">POU domains</term> <term id="A3" sem="Protein_domain_or_region">of</term> either <term id="T20" lex="Oct1" sem="Protein_molecule">Oct1</term> or <term id="T21" lex="Oct2" sem="Protein_molecule">Oct2</term>.</sentence>
+<event id="E3">
+<type class="Binding"/>
+<theme idref="T18"/>
+<theme idref="T19" idref1="A3" idref2="T20"/>
+<clue>The NH2-terminal 126 amino acids of BOB.1/OBF.1 are both essential and sufficient for <clueType>interaction</clueType> <linkTheme>with</linkTheme> the POU domains of either Oct1 or Oct2.</clue>
+<comment>NER T19 MOD</comment></event>
+<event id="E4">
+<type class="Binding"/>
+<theme idref="T18"/>
+<theme idref="T19" idref1="A3" idref2="T21"/>
+<clue>The NH2-terminal 126 amino acids of BOB.1/OBF.1 are both essential and sufficient for <clueType>interaction</clueType> <linkTheme>with</linkTheme> the POU domains of either Oct1 or Oct2.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="A101"/>
+<clue>The NH2-terminal 126 amino acids of BOB.1/OBF.1 are both <clueType>essential and sufficient</clueType> <linkTheme>for</linkTheme> interaction with the POU domains of either Oct1 or Oct2.</clue>
+<comment>TPS A101</comment></event>
+<sentence id="S8">This <term id="T22" lex="protein-protein_interaction" sem="Other">protein-protein interaction</term> does not require the simultaneous binding of <term id="T23" lex="Oct_protein" sem="Protein_family_or_group">Oct proteins</term> to <term id="A6" sem="DNA_domain_or_region">DNA</term>, and high resolution footprinting of the <term id="T24" lex="Oct-DNA_interaction" sem="Other"><term id="T25" lex="Oct" sem="Protein_family_or_group">Oct</term>-<term id="A7" sem="DNA_domain_or_region">DNA</term> interaction</term> reveals that binding of <term id="T26" lex="BOB.1/OBF.1" sem="Protein_molecule">BOB.1/OBF.1</term> to <term id="T27" lex="Oct1" sem="Protein_molecule">Oct1</term> or <term id="T28" lex="Oct2" sem="Protein_molecule">Oct2</term> does not alter the interaction with <term id="A8" sem="DNA_domain_or_region">DNA</term>.</sentence>
+<event KT="Other" id="E6">
+<type class="Binding"/>
+<theme idref="T23"/>
+<theme idref="A6"/>
+<clue>This protein-protein interaction does not require the simultaneous <clueType>binding</clueType> <linkTheme>of</linkTheme> Oct proteins <linkTheme>to</linkTheme> DNA, and high resolution footprinting of the Oct-DNA interaction reveals that binding of BOB.1/OBF.1 to Oct1 or Oct2 does not alter the interaction with DNA.</clue>
+<comment>NER T25 MOD</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="E6"/>
+<clue><corefTheme>This protein-protein interaction</corefTheme> does <cluePolarity>not</cluePolarity> <clueType>require</clueType> the simultaneous binding of Oct proteins to DNA, and high resolution footprinting of the Oct-DNA interaction reveals that binding of BOB.1/OBF.1 to Oct1 or Oct2 does not alter the interaction with DNA.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Binding"/>
+<theme idref="T26"/>
+<theme idref="T27"/>
+<clue>This protein-protein interaction does not require the simultaneous binding of Oct proteins to DNA, and high resolution footprinting of the Oct-DNA interaction reveals that <clueType>binding</clueType> <linkTheme>of</linkTheme> BOB.1/OBF.1 <linkTheme>to</linkTheme> Oct1 or Oct2 does not alter the interaction with DNA.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Binding"/>
+<theme idref="T26"/>
+<theme idref="T28"/>
+<clue>This protein-protein interaction does not require the simultaneous binding of Oct proteins to DNA, and high resolution footprinting of the Oct-DNA interaction reveals that <clueType>binding</clueType> <linkTheme>of</linkTheme> BOB.1/OBF.1 <linkTheme>to</linkTheme> Oct1 or Oct2 does not alter the interaction with DNA.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Binding"/>
+<theme idref="T25"/>
+<theme idref="A8"/>
+<clue>This protein-protein interaction does not require the simultaneous binding of Oct proteins to DNA, and high resolution footprinting of the Oct-DNA interaction reveals that binding of BOB.1/OBF.1 to Oct1 or Oct2 does not alter <corefTheme>the</corefTheme> <clueType>interaction</clueType> <linkTheme>with</linkTheme> DNA.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E11">
+<type class="Regulation"/>
+<theme idref="E10"/>
+<cause idref="E9"/>
+<clue>This protein-protein interaction does not require the simultaneous binding of Oct proteins to DNA, and <clueExperiment>high resolution footprinting of the Oct-DNA interaction</clueExperiment> <clueKT>reveals</clueKT> that binding of BOB.1/OBF.1 to Oct1 or Oct2 does <cluePolarity>not</cluePolarity> <clueType>alter</clueType> the interaction with DNA.</clue>
+</event>
+<event id="E12">
+<type class="Binding"/>
+<theme idref="T25"/>
+<theme idref="A7"/>
+<clue>This protein-protein interaction does not require the simultaneous binding of Oct proteins to DNA, and high resolution footprinting of the Oct-DNA <clueType>interaction</clueType> reveals that binding of BOB.1/OBF.1 to Oct1 or Oct2 does not alter the interaction with DNA.</clue>
+</event>
+<sentence id="S9"><term id="T29" lex="BOB.1/OBF.1" sem="Protein_molecule">BOB.1/OBF.1</term> can efficiently activate <term id="A10" sem="DNA_domain_or_region"><term id="A11" sem="DNA_domain_or_region">octamer</term>-dependent <term id="A12" sem="DNA_domain_or_region">promoters</term></term> in <term id="T30" lex="fibroblast" sem="Cell_natural">fibroblasts</term>; however, it fails to stimulate <term id="T31" lex="octamer-dependent_enhancer_activity" sem="Other"><term id="T32" lex="octamer-dependent_enhancer" sem="DNA_domain_or_region"><term id="A13" sem="DNA_domain_or_region">octamer</term>-dependent <term id="A14" sem="DNA_domain_or_region">enhancer</term></term> activity</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="A10"/>
+<cause idref="T29"/>
+<clue>BOB.1/OBF.1 <clueKT><clueCL>can</clueCL></clueKT> efficiently <clueType>activate</clueType> octamer-dependent promoters <clueLoc>in fibroblasts</clueLoc>; however, it fails to stimulate octamer-dependent enhancer activity.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="T32"/>
+<cause idref="T29"/>
+<clue>BOB.1/OBF.1 can efficiently activate octamer-dependent promoters in fibroblasts; however, <corefCause>it</corefCause> <cluePolarity>fails</cluePolarity> to <clueType>stimulate</clueType> octamer-dependent enhancer activity.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="A12"/>
+<cause idref="A11"/>
+<clue>BOB.1/OBF.1 can efficiently activate octamer-<clueType>dependent</clueType> promoters in fibroblasts; however, it fails to stimulate octamer-dependent enhancer activity.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="A14"/>
+<cause idref="A13"/>
+<clue>BOB.1/OBF.1 can efficiently activate octamer-dependent promoters in fibroblasts; however, it fails to stimulate octamer-<clueType>dependent</clueType> enhancer activity.</clue>
+</event>
+<sentence id="S10">Fusion of subdomains of <term id="T33" lex="BOB.1/OBF.1" sem="Protein_molecule">BOB.1/OBF.1</term> with the <term id="T34" lex="GAL4_DNA_binding_domain" sem="Protein_domain_or_region">GAL4 DNA binding domain</term> reveals that both <cons id="T35" lex="(AND NH2-terminal_domain COOH-terminal_domain)" sem="(AND Protein_domain_or_region Protein_domain_or_region)"><frag id="F4">NH2-</frag> and <frag id="F5">COOH-</frag><frag id="F6">terminal domains</frag></cons> <term id="A102" sem="Protein_domain_or_region">of</term> <term id="T36" lex="BOB.1/OBF.1" sem="Protein_molecule">BOB.1/OBF.1</term> contribute to full <term id="A18" sem="Other">transactivation</term> function, the <term id="T37" lex="COOH-terminal_domain" sem="Protein_domain_or_region">COOH-terminal domain</term> is more efficient in this <term id="T38" lex="transactivation_assay" sem="Other">transactivation assay</term>.</sentence>
+<event KT="Analysis" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="A18"/>
+<cause idref="F4" idref1="F6" idref2="A102" idref3="T36"/>
+<clue><clueExperiment>Fusion of subdomains of BOB.1/OBF.1 with the GAL4 DNA binding domain</clueExperiment> <clueKT>reveals</clueKT> that both NH2- and COOH-terminal domains of BOB.1/OBF.1 <clueType>contribute</clueType> <linkTheme>to</linkTheme> full transactivation function, the COOH-terminal domain is more efficient in this transactivation assay.</clue>
+</event>
+<event KT="Analysis" id="E117">
+<type class="Positive_regulation"/>
+<theme idref="A18"/>
+<cause idref="F5" idref1="F6" idref2="A102" idref3="T36"/>
+<clue><clueExperiment>Fusion of subdomains of BOB.1/OBF.1 with the GAL4 DNA binding domain</clueExperiment> <clueKT>reveals</clueKT> that both NH2- and COOH-terminal domains of BOB.1/OBF.1 <clueType>contribute</clueType> <linkTheme>to</linkTheme> full transactivation function, the COOH-terminal domain is more efficient in this transactivation assay.</clue>
+</event>
+<event KT="Analysis" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="A18"/>
+<cause idref="T37"/>
+<clue>Fusion of subdomains of BOB.1/OBF.1 with the GAL4 DNA binding domain <clueKT>reveals</clueKT> that both NH2- and COOH-terminal domains of BOB.1/OBF.1 contribute to full transactivation function, the COOH-terminal domain is more <clueType>efficient</clueType> <clueExperiment>in this transactivation assay</clueExperiment>.</clue>
+<comment>NO COREFTEHEME</comment></event>
+<sentence id="S11">Consistent with the failure of <term id="T39" lex="full-length_BOB.1/OBF.1" sem="Protein_molecule">full-length <term id="T40" lex="BOB.1/OBF.1" sem="Protein_molecule">BOB.1/OBF.1</term></term> to stimulate <term id="T41" lex="octamer-dependent_enhancer_element" sem="DNA_domain_or_region">octamer-dependent enhancer elements</term> in <term id="T42" lex="non_B_cell" sem="Cell_natural">non B cells</term>, the <term id="T43" lex="GAL4_fusion" sem="Protein_family_or_group">GAL4 fusions</term> likewise only stimulate from a <term id="T44" lex="promoter-proximal_position" sem="DNA_domain_or_region">promoter-proximal position</term>.</sentence>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="T41"/>
+<cause idref="T40"/>
+<clue>Consistent with the <cluePolarity>failure</cluePolarity> of full-length BOB.1/OBF.1 <clueType>to stimulate</clueType> octamer-dependent enhancer elements <clueLoc>in non B cells</clueLoc>, the GAL4 fusions likewise only stimulate from a promoter-proximal position.</clue>
+<comment>NER T44 MOD</comment></event>
+<event id="E20">
+<type class="Positive_regulation"/>
+<theme idref="T44"/>
+<cause idref="T43"/>
+<clue>Consistent with the failure of full-length BOB.1/OBF.1 to stimulate octamer-dependent enhancer elements in non B cells, the GAL4 fusions likewise only <clueType>stimulate</clueType> <linkTheme>from</linkTheme> a promoter-proximal position.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

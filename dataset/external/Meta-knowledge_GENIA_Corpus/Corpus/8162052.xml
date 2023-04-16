@@ -1,0 +1,85 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8162052" created="27/10/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8162052</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Genes encoding <term id="T1" lex="general_initiation_factor" sem="Protein_family_or_group">general initiation factors</term> for <term id="T3" lex="RNA_polymerase_II" sem="Protein_molecule">RNA polymerase II</term> <term id="A1" sem="Other">transcription</term> are dispersed in the <term id="T4" lex="human_genome" sem="DNA_family_or_group">human genome</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation"/>
+<theme idref="A1"/>
+<cause idref="T3"/>
+<clue>Genes encoding general initiation factors for RNA polymerase II transcription are dispersed in the human genome.</clue>
+<comment>NO CLUETYPE; NER, T2 del &quot;RNA polymerase II transcription&quot;</comment></event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T1"/>
+<clue>Genes encoding general initiation factors <linkTheme>for</linkTheme> RNA polymerase II transcription are dispersed in the human genome.</clue>
+<comment>NO CLUETYPE</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T5" lex="general_transcription_factor" sem="Protein_family_or_group">General <term id="T6" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term></term> are required for accurate <term id="A2" sem="Other">initiation of transcription</term> by <term id="T7" lex="RNA_polymerase_II" sem="Protein_complex">RNA polymerase II</term>.</sentence>
+<event KT="Other" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="A2"/>
+<cause idref="T7"/>
+<clue>General transcription factors are required for accurate initiation of transcription <linkCause>by</linkCause> RNA polymerase II.</clue>
+<comment>NO CLUETYPE; TPS: A2</comment></event>
+<event KT="Fact" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="T5"/>
+<clue>General transcription factors are <clueType>required</clueType> <linkTheme>for</linkTheme> accurate initiation of transcription by RNA polymerase II.</clue>
+</event>
+<sentence id="S3"><term id="T8" lex="Human_cDNA" sem="DNA_family_or_group">Human cDNAs</term> encoding subunits of these factors have been cloned and sequenced.</sentence>
+<sentence id="S4">Using <term id="T9" lex="fluorescence_in_situ_hybridization" sem="Other">fluorescence in situ hybridization</term> (<term id="T10" lex="FISH" sem="Other">FISH</term>), we show here that the <term id="T11" lex="gene" sem="DNA_family_or_group">genes</term> encoding the <term id="T12" lex="TATA-box_binding_protein" sem="Protein_family_or_group">TATA-box binding protein</term> (<term id="T13" lex="TBP" sem="Protein_family_or_group">TBP</term>), <term id="T14" lex="TFIIB" sem="Protein_molecule">TFIIB</term>, <term id="T15" lex="TFIIE_alpha" sem="Protein_molecule">TFIIE alpha</term>, <term id="T16" lex="TFIIE_beta" sem="Protein_molecule">TFIIE beta</term>, <term id="T17" lex="RAP30" sem="Protein_molecule">RAP30</term>, <term id="T18" lex="RAP74" sem="Protein_molecule">RAP74</term> and the <term id="T19" lex="62_kDa_subunit" sem="Protein_molecule">62 kDa subunit</term>, of <term id="T20" lex="TFIIH" sem="Protein_molecule">TFIIH</term> are located at the <cons id="T21" lex="(AND human_chromosomal_band_6q26-27 human_chromosomal_band_1p21-22 human_chromosomal_band_3q21-24 human_chromosomal_band_8p12 human_chromosomal_band_13q14 human_chromosomal_band_19p13.3 human_chromosomal_band_11p14-15.1)" sem="(AND DNA_domain_or_region DNA_domain_or_region DNA_domain_or_region DNA_domain_or_region DNA_domain_or_region DNA_domain_or_region DNA_domain_or_region)"><frag id="F1">human chromosomal bands</frag> <frag id="F2">6q26-27</frag>, <frag id="F3">1p21-22</frag>, <frag id="F4">3q21-24</frag>, <frag id="F5">8p12</frag>, <frag id="F6">13q14</frag>, <frag id="F7">19p13.3</frag> and <frag id="F8">11p14-15.1</frag></cons>, respectively.</sentence>
+<sentence id="S5">This dispersed localization of a <term id="A3" sem="DNA_family_or_group">group of functionally related gene</term> provides insights into the <term id="T22" lex="molecular_mechanism" sem="Other">molecular mechanism</term> of <term id="T23" lex="human_genome_evolution" sem="Other"><term id="T24" lex="human_genome" sem="DNA_family_or_group">human genome</term> evolution</term> and their possible involvement in <term id="T25" lex="human_disease" sem="Other">human diseases</term>.</sentence>
+<event KT="Fact" id="E5">
+<type/>
+<theme idref="T24"/>
+<clue>This dispersed localization of a group of functionally related gene provides insights into the molecular mechanism of human genome <clueType>evolution</clueType> and their possible involvement in human diseases.</clue>
+<comment>SOO</comment></event>
+<event CL="L1" KT="Analysis" id="E6" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="T13"/>
+<theme idref="T25"/>
+<clue>This dispersed localization of a <corefTheme idref1="T13">group of functionally related gene</corefTheme> provides insights into the molecular mechanism of human genome evolution and <corefTheme idref1="A3">their</corefTheme> <clueKT><clueCL>possible</clueCL></clueKT> <clueType>involvement</clueType> <linkTheme>in</linkTheme> human diseases.</clue>
+<comment>corefTheme=multilayer</comment></event>
+<event CL="L1" KT="Analysis" id="E7" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="T14"/>
+<theme idref="T25"/>
+<clue>This dispersed localization of a <corefTheme idref1="T14">group of functionally related gene</corefTheme> provides insights into the molecular mechanism of human genome evolution and <corefTheme idref1="A3">their</corefTheme> <clueKT><clueCL>possible</clueCL></clueKT> <clueType>involvement</clueType> <linkTheme>in</linkTheme> human diseases.</clue>
+<comment>corefTheme=multilayer</comment></event>
+<event CL="L1" KT="Analysis" id="E8" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="T15"/>
+<theme idref="T25"/>
+<clue>This dispersed localization of a <corefTheme idref1="T15">group of functionally related gene</corefTheme> provides insights into the molecular mechanism of human genome evolution and <corefTheme idref1="A3">their</corefTheme> <clueKT><clueCL>possible</clueCL></clueKT> <clueType>involvement</clueType> <linkTheme>in</linkTheme> human diseases.</clue>
+<comment>corefTheme=multilayer</comment></event>
+<event CL="L1" KT="Analysis" id="E9" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="T16"/>
+<theme idref="T25"/>
+<clue>This dispersed localization of a <corefTheme idref1="T16">group of functionally related gene</corefTheme> provides insights into the molecular mechanism of human genome evolution and <corefTheme idref1="A3">their</corefTheme> <clueKT><clueCL>possible</clueCL></clueKT> <clueType>involvement</clueType> <linkTheme>in</linkTheme> human diseases.</clue>
+<comment>corefTheme=multilayer</comment></event>
+<event CL="L1" KT="Analysis" id="E10" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="T17"/>
+<theme idref="T25"/>
+<clue>This dispersed localization of a <corefTheme idref1="T17">group of functionally related gene</corefTheme> provides insights into the molecular mechanism of human genome evolution and <corefTheme idref1="A3">their</corefTheme> <clueKT><clueCL>possible</clueCL></clueKT> <clueType>involvement</clueType> <linkTheme>in</linkTheme> human diseases.</clue>
+<comment>corefTheme=multilayer</comment></event>
+<event CL="L1" KT="Analysis" id="E11" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="T18"/>
+<theme idref="T25"/>
+<clue>This dispersed localization of a <corefTheme idref1="T18">group of functionally related gene</corefTheme> provides insights into the molecular mechanism of human genome evolution and <corefTheme idref1="A3">their</corefTheme> <clueKT><clueCL>possible</clueCL></clueKT> <clueType>involvement</clueType> <linkTheme>in</linkTheme> human diseases.</clue>
+<comment>corefTheme=multilayer</comment></event>
+<event CL="L1" KT="Analysis" id="E12" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="T19"/>
+<theme idref="T25"/>
+<clue>This dispersed localization of a <corefTheme idref1="T19">group of functionally related gene</corefTheme> provides insights into the molecular mechanism of human genome evolution and <corefTheme idref1="A3">their</corefTheme> <clueKT><clueCL>possible</clueCL></clueKT> <clueType>involvement</clueType> <linkTheme>in</linkTheme> human diseases.</clue>
+<comment>corefTheme=multilayer</comment></event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

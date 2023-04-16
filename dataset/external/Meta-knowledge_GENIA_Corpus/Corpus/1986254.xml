@@ -1,0 +1,167 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1986254" created="2006/10/21" creator="Yumiko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1986254</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><cons id="T1" lex="(AND positive_regulation negative_regulation)" sem="(AND Other Other)"><frag id="F1">Positive</frag> and <frag id="F2">negative</frag> <frag id="F3">regulation</frag></cons> of <term id="T2" lex="immunoglobulin_gene_expression" sem="Other"><term id="T3" lex="immunoglobulin_gene" sem="DNA_family_or_group">immunoglobulin gene</term> expression</term> by a novel <term id="T4" lex="B-cell-specific_enhancer_element" sem="DNA_domain_or_region">B-cell-specific enhancer element</term>.</sentence>
+<event KT="Investigation" id="E1">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="T4"/>
+<clue><clueType>Positive</clueType> and negative <clueType>regulation</clueType> <linkTheme>of</linkTheme> immunoglobulin gene expression <linkCause>by</linkCause> a novel <clueLoc>B-cell</clueLoc>-specific enhancer element.</clue>
+</event>
+<event KT="Investigation" id="E2">
+<type class="Negative_regulation"/>
+<theme idref="E3"/>
+<cause idref="T4"/>
+<clue>Positive and <clueType>negative regulation</clueType> <linkTheme>of</linkTheme> immunoglobulin gene expression <linkCause>by</linkCause> a novel <clueLoc>B-cell</clueLoc>-specific enhancer element.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Gene_expression"/>
+<theme idref="T3"/>
+<clue>Positive and negative regulation of immunoglobulin gene <clueType>expression</clueType> by a novel B-cell-specific enhancer element.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">A new <term id="T5" lex="B-cell-specific_enhancer_element" sem="DNA_domain_or_region">B-cell-specific enhancer element</term> has been identified 3&apos; of <cons id="T6" lex="(AND E4_motif octamerlike_motif)" sem="(AND DNA_domain_or_region DNA_domain_or_region)"><frag id="F4">E4</frag> and the <frag id="F5">octamerlike</frag> <frag id="F6">motifs</frag></cons> in the <term id="T7" lex="human_immunoglobulin_heavy-chain_gene_enhancer" sem="DNA_domain_or_region"><term id="T8" lex="human_immunoglobulin_heavy-chain" sem="Protein_molecule">human immunoglobulin heavy-chain</term> gene enhancer</term>.</sentence>
+<sentence id="S3"><term id="A109" sem="DNA_domain_or_region">Tandem copies of this <term id="T9" lex="67-bp_MnlI-AluI_fragment" sem="DNA_domain_or_region">67-bp MnlI-AluI fragment</term></term>, when fused to the <term id="T10" lex="chloramphenicol_acetyltransferase_gene" sem="DNA_domain_or_region">chloramphenicol acetyltransferase gene</term> driven by the <term id="T11" lex="conalbumin_promoter" sem="DNA_domain_or_region">conalbumin promoter</term>, stimulated <term id="T12" lex="transcription" sem="Other">transcription</term> in <term id="T13" lex="B_cell" sem="Cell_natural">B cells</term> but not in <term id="T14" lex="Jurkat_T_cell" sem="Cell_cultured">Jurkat T cells</term> or <term id="T15" lex="HeLa_cell" sem="Cell_cultured">HeLa cells</term>.</sentence>
+<event id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T11"/>
+<cause idref="T10"/>
+<clue>Tandem copies of this 67-bp MnlI-AluI fragment, when fused to the chloramphenicol acetyltransferase gene <clueType>driven</clueType> <linkCause>by</linkCause> the conalbumin promoter, stimulated transcription in B cells but not in Jurkat T cells or HeLa cells.</clue>
+</event>
+<event id="E5">
+<type class="DNA_recombination"/>
+<theme idref="T10"/>
+<theme idref="A109"/>
+<clue>Tandem copies of this 67-bp MnlI-AluI fragment, when <clueType>fused</clueType> <linkTheme>to</linkTheme> the chloramphenicol acetyltransferase gene driven by the conalbumin promoter, stimulated transcription in B cells but not in Jurkat T cells or HeLa cells.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event id="E6">
+<type class="Positive_regulation"/>
+<theme idref="T12"/>
+<cause idref="A109"/>
+<clue>Tandem copies of this 67-bp MnlI-AluI fragment, when fused to the chloramphenicol acetyltransferase gene driven by the conalbumin promoter, <clueType>stimulated</clueType> transcription <clueLoc>in B cells</clueLoc> but not in Jurkat T cells or HeLa cells.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T12"/>
+<cause idref="A109"/>
+<clue>Tandem copies of this 67-bp MnlI-AluI fragment, when fused to the chloramphenicol acetyltransferase gene driven by the conalbumin promoter, <clueType>stimulated</clueType> transcription in B cells but <cluePolarity>not</cluePolarity> <clueLoc>in Jurkat T cells</clueLoc> or HeLa cells.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E700">
+<type class="Positive_regulation"/>
+<theme idref="T12"/>
+<cause idref="A109"/>
+<clue>Tandem copies of this 67-bp MnlI-AluI fragment, when fused to the chloramphenicol acetyltransferase gene driven by the conalbumin promoter, <clueType>stimulated</clueType> transcription in B cells but <cluePolarity>not</cluePolarity> <clueLoc>in</clueLoc> Jurkat T cells or <clueLoc>HeLa cells</clueLoc>.</clue>
+</event>
+<sentence id="S4"><term id="T16" lex="footprinting_analysis" sem="Other">Footprinting analysis</term> revealed that the identical sequence <term id="T17" lex="CCGAAACTGAAAAGG" sem="Polynucleotide">CCGAAACTGAAAAGG</term>, designated <term id="T18" lex="E6" sem="DNA_domain_or_region">E6</term>, was protected by <term id="A101" sem="Cell_component"><term id="T19" lex="nuclear_extract" sem="Cell_component">nuclear extracts</term> from</term> <term id="T20" lex="B_cell" sem="Cell_natural"><term id="A10" sem="Cell_component">B cells</term></term>, <term id="T21" lex="T_cell" sem="Cell_natural"><term id="A11" sem="Cell_component">T cells</term></term>, or <term id="A100" sem="Cell_component">HeLa cells</term>.</sentence>
+<event KT="Analysis" id="E8">
+<type class="Cell_adhesion"/>
+<theme idref="T18"/>
+<theme idref="A101" idref1="A10"/>
+<clue><clueExperiment>Footprinting analysis</clueExperiment> <clueKT>revealed</clueKT> that the identical sequence CCGAAACTGAAAAGG, designated E6, was <clueType>protected</clueType> <linkTheme>by</linkTheme> nuclear extracts from B cells, T cells, or HeLa cells.</clue>
+<comment>TPS A101</comment></event>
+<event KT="Analysis" id="E19">
+<type class="Cell_adhesion"/>
+<theme idref="T18"/>
+<theme idref="A101" idref1="A11"/>
+<clue><clueExperiment>Footprinting analysis</clueExperiment> <clueKT>revealed</clueKT> that the identical sequence CCGAAACTGAAAAGG, designated E6, was <clueType>protected</clueType> <linkTheme>by</linkTheme> nuclear extracts from B cells, T cells, or HeLa cells.</clue>
+</event>
+<event KT="Analysis" id="E20">
+<type class="Cell_adhesion"/>
+<theme idref="T18"/>
+<theme idref="A101" idref1="A100"/>
+<clue><clueExperiment>Footprinting analysis</clueExperiment> <clueKT>revealed</clueKT> that the identical sequence CCGAAACTGAAAAGG, designated E6, was <clueType>protected</clueType> <linkTheme>by</linkTheme> nuclear extracts from B cells, T cells, or HeLa cells.</clue>
+</event>
+<sentence id="S5"><term id="T22" lex="Gel_mobility_shift_assay" sem="Other">Gel mobility shift assays</term> using a <term id="T23" lex="synthetic_E6_motif" sem="DNA_domain_or_region">synthetic E6 motif</term> detected a <term id="T24" lex="B-cell-specific_complex" sem="Protein_complex">B-cell-specific complex</term> in addition to a ubiquitous band found also in <term id="T25" lex="T_cell" sem="Cell_natural">T cells</term> and <term id="T26" lex="HeLa_cell" sem="Cell_cultured">HeLa cells</term>.</sentence>
+<event id="E9">
+<type class="Gene_expression"/>
+<theme idref="T24"/>
+<clue><clueExperiment>Gel mobility shift assays using a synthetic E6 motif</clueExperiment> <clueType><clueKT>detected</clueKT></clueType> a B-cell-specific complex in addition to a ubiquitous band found also in T cells and HeLa cells.</clue>
+</event>
+<sentence id="S6">In agreement with the results of <term id="T27" lex="gel_retardation_assay" sem="Other">gel retardation assays</term>, <term id="A1" sem="DNA_domain_or_region">tandem copies of the <term id="T28" lex="E6_motif" sem="DNA_domain_or_region">E6 motif</term></term> stimulated <term id="T29" lex="transcription" sem="Other">transcription</term> in <term id="T30" lex="ARH77" sem="Cell_cultured">ARH77</term> and <term id="T31" lex="Raji_cell" sem="Cell_cultured">Raji cells</term> but not in <term id="T32" lex="Jurkat" sem="Cell_cultured">Jurkat</term> or <term id="T33" lex="HeLa_cell" sem="Cell_cultured">HeLa cells</term>.</sentence>
+<event id="E10">
+<type class="Positive_regulation"/>
+<theme idref="T29"/>
+<cause idref="A1"/>
+<clue>In agreement with the results of <clueExperiment>gel retardation assays</clueExperiment>, tandem copies of the E6 motif <clueType>stimulated</clueType> transcription <clueLoc>in ARH77</clueLoc> and Raji <clueLoc>cells</clueLoc> but not in Jurkat or HeLa cells.</clue>
+<comment>TPS A1</comment></event>
+<event id="E1000">
+<type class="Positive_regulation"/>
+<theme idref="T29"/>
+<cause idref="A1"/>
+<clue>In agreement with the results of <clueExperiment>gel retardation assays</clueExperiment>, tandem copies of the E6 motif <clueType>stimulated</clueType> transcription <clueLoc>in</clueLoc> ARH77 and <clueLoc>Raji cells</clueLoc> but not in Jurkat or HeLa cells.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="T29"/>
+<cause idref="A1"/>
+<clue>In agreement with the results of <clueExperiment>gel retardation assays</clueExperiment>, tandem copies of the E6 motif <clueType>stimulated</clueType> transcription in ARH77 and Raji cells but <cluePolarity>not</cluePolarity> <clueLoc>in Jurkat</clueLoc> or HeLa <clueLoc>cells</clueLoc>.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E110">
+<type class="Positive_regulation"/>
+<theme idref="T29"/>
+<cause idref="A1"/>
+<clue>In agreement with the results of <clueExperiment>gel retardation assays</clueExperiment>, tandem copies of the E6 motif <clueType>stimulated</clueType> transcription in ARH77 and Raji cells but <cluePolarity>not</cluePolarity> <clueLoc>in</clueLoc> Jurkat or <clueLoc>HeLa cells</clueLoc>.</clue>
+</event>
+<sentence id="S7">Furthermore, a <term id="T34" lex="mutant_E6_motif" sem="DNA_domain_or_region">mutant E6 motif</term> lost both <term id="T35" lex="in_vitro_binding_activity" sem="Other">in vitro binding activity</term> and in <term id="T36" lex="vivo_enhancer_activity" sem="Other">vivo enhancer activity</term>.</sentence>
+<event id="E12">
+<type class="Negative_regulation"/>
+<theme idref="T35"/>
+<cause idref="T34"/>
+<clue>Furthermore, a mutant E6 motif <clueType>lost</clueType> both in vitro binding activity and in vivo enhancer activity.</clue>
+</event>
+<event id="E13">
+<type class="Negative_regulation"/>
+<theme idref="T36"/>
+<cause idref="T34"/>
+<clue>Furthermore, a mutant E6 motif <clueType>lost</clueType> both in vitro binding activity and in vivo enhancer activity.</clue>
+</event>
+<sentence id="S8">In striking contrast to the <term id="T37" lex="mouse_Ig_heavy-chain_enhancer" sem="DNA_domain_or_region">mouse Ig heavy-chain enhancer</term>, in which the <term id="T38" lex="octamer_motif" sem="DNA_domain_or_region">octamer motif</term> acts as a <term id="T39" lex="B-cell-specific_enhancer_element" sem="DNA_domain_or_region">B-cell-specific enhancer element</term>, the <term id="T40" lex="human_enhancer" sem="DNA_domain_or_region">human enhancer</term> contains an <term id="T41" lex="octamerlike_sequence" sem="DNA_domain_or_region">octamerlike sequence</term> with one base substitution which bound <term id="T42" lex="octamer-binding_protein" sem="Protein_domain_or_region">octamer-binding proteins</term> with only very low affinity and showed no <term id="T43" lex="enhancer_activity" sem="Other">enhancer activity</term> of its own.</sentence>
+<event Manner="Low" id="E14">
+<type class="Binding"/>
+<theme idref="T41"/>
+<theme idref="T42"/>
+<clue>In striking contrast to the mouse Ig heavy-chain enhancer, in which the octamer motif acts as a B-cell-specific enhancer element, the human enhancer contains an octamerlike sequence with one base substitution which <clueType>bound</clueType> octamer-binding proteins with only <clueManner>very low affinity</clueManner> and showed no enhancer activity of its own.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E140">
+<type class="Positive_regulation"/>
+<theme idref="T40"/>
+<clue>In striking contrast to the mouse Ig heavy-chain enhancer, in which the octamer motif acts as a B-cell-specific enhancer element, the human enhancer contains an octamerlike sequence with one base substitution which bound octamer-binding proteins with only very low affinity and <clueKT>showed</clueKT> <cluePolarity>no</cluePolarity> <clueType>enhancer activity</clueType> <linkCause>of</linkCause> <corefCause>its own</corefCause>.</clue>
+</event>
+<sentence id="S9">Interestingly, the <term id="T44" lex="MnlI-AluI_fragment" sem="DNA_domain_or_region">MnlI-AluI fragment</term> could suppress the basal-level activity of the <term id="T45" lex="conalbumin_promoter" sem="DNA_domain_or_region">conalbumin promoter</term> in both <term id="T46" lex="Jurkat" sem="Cell_cultured">Jurkat</term> and <term id="T47" lex="HeLa_cell" sem="Cell_cultured">HeLa cells</term>.</sentence>
+<event id="E15">
+<type class="Negative_regulation"/>
+<theme idref="T45"/>
+<cause idref="T44"/>
+<clue>Interestingly, the MnlI-AluI fragment could <clueType>suppress</clueType> the basal-level activity of the conalbumin promoter <clueLoc>in</clueLoc> both <clueLoc>Jurkat</clueLoc> and HeLa <clueLoc>cells</clueLoc>.</clue>
+</event>
+<event id="E150">
+<type class="Negative_regulation"/>
+<theme idref="T45"/>
+<cause idref="T44"/>
+<clue>Interestingly, the MnlI-AluI fragment could <clueType>suppress</clueType> the basal-level activity of the conalbumin promoter <clueLoc>in</clueLoc> both Jurkat and <clueLoc>HeLa cells</clueLoc>.</clue>
+</event>
+<sentence id="S10">Moreover, <term id="T48" lex="simian_virus_40_enhancer_activity" sem="Other"><term id="T49" lex="simian_virus_40" sem="Virus">simian virus 40</term> enhancer activity</term> was blocked by the <term id="T51" lex="MnlI-AluI_fragment" sem="DNA_domain_or_region">MnlI-AluI fragment</term> in <term id="T52" lex="HeLa_cell" sem="Cell_cultured">HeLa cells</term> but not in <term id="T53" lex="B_cell" sem="Cell_natural">B cells</term>.</sentence>
+<event id="E16">
+<type class="Negative_regulation"/>
+<theme idref="T48"/>
+<cause idref="T51"/>
+<clue>Moreover, simian virus 40 enhancer activity was <clueType>blocked</clueType> <linkCause>by</linkCause> the MnlI-AluI fragment <clueLoc>in HeLa cells</clueLoc> but not in B cells.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E17">
+<type class="Negative_regulation"/>
+<theme idref="T48"/>
+<cause idref="T51"/>
+<clue>Moreover, simian virus 40 enhancer activity was <clueType>blocked</clueType> <linkCause>by</linkCause> the MnlI-AluI fragment in HeLa cells but <cluePolarity>not</cluePolarity> <clueLoc>in B cells</clueLoc>.</clue>
+</event>
+<sentence id="S11">Thus, the novel enhancer element identified in this study is probably a target site for both <term id="T54" lex="positive_and_negative_factor" sem="Protein_family_or_group"><term id="T55" lex="positive_factor" sem="Protein_family_or_group">positive</term> and <term id="T56" lex="negative_factor" sem="Protein_family_or_group">negative <term id="A2" sem="Protein_family_or_group">factors</term></term></term>.</sentence>
+<event CL="L2" KT="Analysis" id="E18">
+<type class="Binding"/>
+<theme idref="T55" idref1="A2"/>
+<theme idref="T56"/>
+<clue><clueKT>Thus</clueKT>, the novel enhancer element identified in this study is <clueCL>probably</clueCL> a <clueType>target</clueType> site <linkTheme>for</linkTheme> both positive and negative factors.</clue>
+<comment>NER T55 MOD</comment></event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

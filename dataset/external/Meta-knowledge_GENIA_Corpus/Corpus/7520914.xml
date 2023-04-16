@@ -1,0 +1,333 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7520914" created="23/04/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7520914</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="CD14-mediated_translocation" sem="Other"><term id="T2" lex="CD14" sem="Protein_molecule">CD14</term>-mediated translocation</term> of <term id="T3" lex="nuclear_factor-kappa_B" sem="Protein_molecule">nuclear factor-kappa B</term> induced by <term id="T4" lex="lipopolysaccharide" sem="Lipid">lipopolysaccharide</term> does not require <term id="T5" lex="tyrosine_kinase_activity" sem="Other"><term id="T6" lex="tyrosine_kinase" sem="Protein_molecule"><term id="T7" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> kinase</term> activity</term>.</sentence>
+<event id="E1">
+<type class="Localization"/>
+<theme idref="T3"/>
+<clue>CD14-mediated <clueType>translocation</clueType> <linkTheme>of</linkTheme> nuclear factor-kappa B induced by lipopolysaccharide does not require tyrosine kinase activity.</clue>
+</event>
+<event id="E48">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T2"/>
+<clue>CD14-<clueType>mediated</clueType> translocation of nuclear factor-kappa B induced by lipopolysaccharide does not require tyrosine kinase activity.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T4"/>
+<clue>CD14-mediated translocation of nuclear factor-kappa B <clueType>induced</clueType> <linkCause>by</linkCause> lipopolysaccharide does not require tyrosine kinase activity.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E3">
+<type class="Correlation"/>
+<theme idref="E2"/>
+<theme idref="T5"/>
+<clue>CD14-mediated translocation of nuclear factor-kappa B induced by lipopolysaccharide does <cluePolarity>not</cluePolarity> <clueType>require</clueType> tyrosine kinase activity.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">During the course of <term id="T8" lex="serious_bacterial_infection" sem="Other">serious bacterial infections</term>, <term id="T9" lex="lipopolysaccharide" sem="Lipid">lipopolysaccharide</term> (<term id="T10" lex="LPS" sem="Lipid">LPS</term>) is believed to interact with <term id="T11" lex="macrophage_receptor" sem="Protein_family_or_group">macrophage receptors</term>, resulting in the generation of <term id="T12" lex="inflammatory_mediator" sem="Protein_family_or_group">inflammatory mediators</term> and systemic symptoms including <term id="T13" lex="hemodynamic_instability" sem="Other">hemodynamic instability</term> and <term id="T14" lex="shock" sem="Other">shock</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E4">
+<type class="Binding"/>
+<theme idref="T9"/>
+<theme idref="T11"/>
+<clue><clueTime>During the course of serious bacterial infections</clueTime>, lipopolysaccharide (LPS) is <clueKT><clueCL>believed</clueCL></clueKT> to <clueType>interact</clueType> <linkTheme>with</linkTheme> macrophage receptors, resulting in the generation of inflammatory mediators and systemic symptoms including hemodynamic instability and shock.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Gene_expression"/>
+<theme idref="T12"/>
+<clue>During the course of serious bacterial infections, lipopolysaccharide (LPS) is believed to interact with macrophage receptors, resulting in the <clueType>generation</clueType> <linkTheme>of</linkTheme> inflammatory mediators and systemic symptoms including hemodynamic instability and shock.</clue>
+<comment>NER: T12 sem mod, Other_name -&gt; Protein_family_or_group</comment></event>
+<event CL="L2" KT="Analysis" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="E4"/>
+<clue>During the course of serious bacterial infections, lipopolysaccharide (LPS) is <clueKT><clueCL>believed</clueCL></clueKT> to interact with macrophage receptors, <clueType>resulting</clueType> <linkTheme>in</linkTheme> the generation of inflammatory mediators and systemic symptoms including hemodynamic instability and shock.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T13"/>
+<cause idref="E4"/>
+<clue>During the course of serious bacterial infections, lipopolysaccharide (LPS) is <clueKT><clueCL>believed</clueCL></clueKT> to interact with macrophage receptors, <clueType>resulting</clueType> <linkTheme>in</linkTheme> the generation of inflammatory mediators and systemic symptoms including hemodynamic instability and shock.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T14"/>
+<cause idref="E4"/>
+<clue>During the course of serious bacterial infections, lipopolysaccharide (LPS) is <clueKT><clueCL>believed</clueCL></clueKT> to interact with macrophage receptors, <clueType>resulting</clueType> <linkTheme>in</linkTheme> the generation of inflammatory mediators and systemic symptoms including hemodynamic instability and shock.</clue>
+</event>
+<sentence id="S3"><term id="T15" lex="CD14" sem="Protein_molecule">CD14</term>, a <term id="T16" lex="glycosylphosphatidylinositol-linked_antigen" sem="Protein_family_or_group">glycosylphosphatidylinositol-linked antigen</term>, functions as an <term id="T17" lex="LPS_signaling_receptor" sem="Protein_family_or_group"><term id="T18" lex="LPS" sem="Lipid">LPS</term> signaling receptor</term>.</sentence>
+<event KT="Fact" id="E9">
+<type class="Binding"/>
+<theme idref="T15"/>
+<theme idref="T18"/>
+<clue>CD14, a glycosylphosphatidylinositol-linked antigen, functions as an LPS <clueType>signaling receptor</clueType>.</clue>
+</event>
+<sentence id="S4">A critical issue concerns the mechanism by which <term id="T19" lex="CD14" sem="Protein_molecule">CD14</term>, which has no <term id="T20" lex="transmembrane_domain" sem="Protein_domain_or_region">transmembrane domain</term>, transduces its signal following <term id="T21" lex="LPS" sem="Lipid">LPS</term> binding.</sentence>
+<event KT="Other" id="E10" uncertainty="doubtful">
+<type class="Cell_communication"/>
+<theme idref="T19"/>
+<clue>A critical issue concerns the mechanism by which CD14, which has no transmembrane domain, <clueType>transduces its signal</clueType> following LPS binding.</clue>
+</event>
+<event KT="Fact" id="E47">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="E11"/>
+<clue>A critical issue concerns the mechanism by which CD14, which has no transmembrane domain, transduces its signal <linkCause>following</linkCause> LPS binding.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Other" id="E11">
+<type class="Binding"/>
+<theme idref="T19"/>
+<theme idref="T21"/>
+<clue>A critical issue concerns the mechanism by which CD14, which has no transmembrane domain, transduces its signal following LPS <clueType>binding</clueType>.</clue>
+</event>
+<sentence id="S5">Recently, investigators have hypothesized that <term id="T22" lex="CD14-mediated_signaling" sem="Other"><term id="T23" lex="CD14" sem="Protein_molecule">CD14</term>-mediated <term id="A9" sem="Other">signaling</term></term> is effected through a <term id="A2" sem="Protein_molecule">receptor</term>-associated <term id="T24" lex="tyrosine_kinase" sem="Protein_molecule"><term id="T25" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> kinase</term> (<term id="A1" sem="Protein_molecule">TK</term>), suggesting a multicomponent receptor model of <term id="T26" lex="LPS_signaling" sem="Other"><term id="T27" lex="LPS" sem="Lipid">LPS</term> signaling</term>.</sentence>
+<event KT="Other" id="E45">
+<type class="Positive_regulation"/>
+<theme idref="A9"/>
+<cause idref="T23"/>
+<clue>Recently, investigators have hypothesized that CD14-<clueType>mediated</clueType> signaling is effected through a receptor-associated tyrosine kinase (TK), suggesting a multicomponent receptor model of LPS signaling.</clue>
+</event>
+<event CL="L2" KT="Analysis" Source="Other" id="E12" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="T22"/>
+<cause idref="E13"/>
+<clue><clueSource>Recently</clueSource>, investigators have <clueKT><clueCL>hypothesized</clueCL></clueKT> that CD14-mediated signaling is <clueType>effected</clueType> <linkCause>through</linkCause> a receptor-associated tyrosine kinase (TK), suggesting a multicomponent receptor model of LPS signaling.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Binding"/>
+<theme idref="A1"/>
+<theme idref="A2"/>
+<clue>Recently, investigators have hypothesized that CD14-mediated signaling is effected through a receptor-<clueType>associated</clueType> tyrosine kinase (TK), suggesting a multicomponent receptor model of LPS signaling.</clue>
+</event>
+<event KT="Other" id="E46">
+<type class="Cell_communication"/>
+<theme idref="T27"/>
+<clue>Recently, investigators have hypothesized that CD14-mediated signaling is effected through a receptor-associated tyrosine kinase (TK), suggesting a multicomponent receptor model of LPS <clueType>signaling</clueType>.</clue>
+</event>
+<sentence id="S6">Wild-type <term id="T28" lex="Chinese_hamster_ovary_(CHO)-K1_cell" sem="Cell_cultured">Chinese hamster ovary (CHO)-K1 cells</term> can be activated by <term id="A3" sem="Carbohydrate">endotoxin</term> to release <term id="T29" lex="arachidonate" sem="Organic_compound_other">arachidonate</term> following transfection with human <term id="T30" lex="CD14" sem="Protein_molecule">CD14</term> (<term id="T31" lex="CHO/CD14" sem="Protein_molecule">CHO/<term id="T32" lex="CD14" sem="Protein_molecule">CD14</term></term>).</sentence>
+<event KT="Other" id="E14">
+<type class="Localization"/>
+<theme idref="T29"/>
+<clue>Wild-type <clueLoc>Chinese hamster ovary (CHO)-K1 cells</clueLoc> can be activated by endotoxin to <clueType>release</clueType> arachidonate following transfection with human CD14 (CHO/CD14).</clue>
+</event>
+<event KT="Analysis" id="E49">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="E15"/>
+<clue>Wild-type Chinese hamster ovary (CHO)-K1 cells <clueKT><clueCL>can</clueCL></clueKT> be activated by endotoxin <linkTheme>to</linkTheme> release arachidonate following transfection with human CD14 (CHO/CD14).</clue>
+<comment>NO CLUETYPE</comment></event>
+<event CL="L2" KT="Analysis" id="E15">
+<type class="Physiological_process"/>
+<theme idref="T28"/>
+<cause idref="A3"/>
+<clue>Wild-type Chinese hamster ovary (CHO)-K1 cells <clueKT><clueCL>can</clueCL></clueKT> be <clueType>activated</clueType> <linkCause>by</linkCause> endotoxin to release arachidonate following transfection with human CD14 (CHO/CD14).</clue>
+</event>
+<event KT="Analysis" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="E56"/>
+<clue>Wild-type Chinese hamster ovary (CHO)-K1 cells <clueKT><clueCL>can</clueCL></clueKT> be activated by endotoxin to release arachidonate <linkCause>following</linkCause> transfection with human CD14 (CHO/CD14).</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Method" id="E55">
+<type class="Gene_expression"/>
+<theme idref="T30"/>
+<clue><clueLoc>Wild-type Chinese hamster ovary (CHO)-K1 cells</clueLoc> can be activated by endotoxin to release arachidonate following <clueType>transfection</clueType> <linkTheme>with</linkTheme> human CD14 (CHO/CD14).</clue>
+<comment>ARTIFICIAL</comment></event>
+<event KT="Method" id="E56">
+<type class="Positive_regulation"/>
+<theme idref="E55"/>
+<clue><clueLoc>Wild-type Chinese hamster ovary (CHO)-K1 cells</clueLoc> can be activated by endotoxin to release arachidonate following <clueType>transfection</clueType> <linkTheme>with</linkTheme> human CD14 (CHO/CD14).</clue>
+</event>
+<sentence id="S7">Nuclear translocation of cytosolic <term id="A4" sem="Protein_molecule">NF-kappa B</term> is correlated with a number of <term id="T33" lex="LPS-inducible_response" sem="Other"><term id="T34" lex="LPS" sem="Lipid">LPS</term>-inducible responses</term>.</sentence>
+<event KT="Other" id="E17">
+<type class="Localization"/>
+<theme idref="A4"/>
+<clue><clueLoc>Nuclear</clueLoc> <clueType>translocation</clueType> <linkTheme>of</linkTheme> <clueLoc>cytosolic</clueLoc> NF-kappa B is correlated with a number of LPS-inducible responses.</clue>
+</event>
+<event KT="Analysis" id="E18">
+<type class="Correlation"/>
+<theme idref="E17"/>
+<theme idref="T33"/>
+<clue>Nuclear translocation of cytosolic NF-kappa B is <clueType><clueKT>correlated</clueKT></clueType> <linkTheme>with</linkTheme> a number of LPS-inducible responses.</clue>
+</event>
+<sentence id="S8">We sought to determine if this pathway were present in <term id="T35" lex="CHO/CD14_cell" sem="Cell_cultured">CHO/<term id="T36" lex="CD14" sem="Protein_molecule">CD14</term> cells</term> and to elucidate the relationship of <term id="T37" lex="NF-kappa_B_activation" sem="Other"><term id="T38" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> activation</term> to the <term id="T39" lex="CD14_receptor_system" sem="Other"><term id="T40" lex="CD14" sem="Protein_molecule">CD14</term> receptor system</term>.</sentence>
+<event id="E19">
+<type class="Positive_regulation"/>
+<theme idref="T38"/>
+<clue>We sought to determine if this pathway were present in CHO/CD14 cells and to elucidate the relationship of NF-kappa B <clueType>activation</clueType> to the CD14 receptor system.</clue>
+</event>
+<event KT="Investigation" id="E20" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="T39"/>
+<cause idref="E19"/>
+<clue>We sought to determine if this pathway were present <clueLoc>in CHO/CD14 cells</clueLoc> and to <clueKT>elucidate</clueKT> the <clueType>relationship</clueType> <linkCause>of</linkCause> NF-kappa B activation <linkTheme>to</linkTheme> the CD14 receptor system.</clue>
+</event>
+<sentence id="S9"><term id="T41" lex="LPS-stimulated_translocation" sem="Other"><term id="T42" lex="LPS" sem="Lipid">LPS</term>-stimulated translocation</term> of <term id="T43" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> in <term id="T44" lex="CHO/CD14_cell" sem="Cell_cultured">CHO/<term id="T45" lex="CD14" sem="Protein_molecule">CD14</term> cells</term> resembled the same response in the <term id="T46" lex="murine_macrophage-like_cell_line" sem="Cell_cultured">murine macrophage-like cell line</term> <term id="T47" lex="RAW_264.7" sem="Cell_cultured">RAW 264.7</term>.</sentence>
+<event id="E21">
+<type class="Localization"/>
+<theme idref="T43"/>
+<clue>LPS-stimulated <clueType>translocation</clueType> <linkTheme>of</linkTheme> NF-kappa B <clueLoc>in CHO/CD14 cells</clueLoc> resembled the same response in the murine macrophage-like cell line RAW 264.7.</clue>
+</event>
+<event id="E22">
+<type class="Localization"/>
+<theme idref="T43"/>
+<clue>LPS-stimulated <clueType>translocation</clueType> of NF-kappa B in CHO/CD14 cells resembled <corefTheme>the same response</corefTheme> <clueLoc>in the murine macrophage-like cell line RAW 264.7</clueLoc>.</clue>
+<comment>CAUTION: SEE</comment></event>
+<event id="E50">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="T42"/>
+<clue>LPS-<clueType>stimulated</clueType> translocation of NF-kappa B in CHO/CD14 cells resembled the same response in the murine macrophage-like cell line RAW 264.7.</clue>
+</event>
+<event id="E51">
+<type class="Positive_regulation"/>
+<theme idref="E22"/>
+<cause idref="T42"/>
+<clue>LPS-<clueType>stimulated</clueType> translocation of NF-kappa B in CHO/CD14 cells resembled the same response in the murine macrophage-like cell line RAW 264.7.</clue>
+</event>
+<sentence id="S10"><term id="A5" sem="Other">Protein synthesis inhibitors</term> and <term id="T48" lex="corticosteroid" sem="Lipid">corticosteroids</term>, which suppress <term id="T49" lex="arachidonate" sem="Organic_compound_other">arachidonate</term> release and the synthesis of <term id="T50" lex="proinflammatory_cytokine" sem="Protein_family_or_group">proinflammatory cytokines</term>, had no effect on translocation of <term id="T51" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> in CHO/<term id="T52" lex="CD14" sem="Protein_molecule">CD14</term> or <term id="T53" lex="RAW_264.7_cell" sem="Cell_cultured">RAW 264.7 cells</term>, demonstrating that <term id="T54" lex="NF-kappa_B_translocation" sem="Other"><term id="T55" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> translocation</term> is an early event.</sentence>
+<event KT="Other" id="E23">
+<type class="Localization"/>
+<theme idref="T49"/>
+<clue>Protein synthesis inhibitors and corticosteroids, which suppress arachidonate <clueType>release</clueType> and the synthesis of proinflammatory cytokines, had no effect on translocation of NF-kappa B in CHO/CD14 or RAW 264.7 cells, demonstrating that NF-kappa B translocation is an early event.</clue>
+</event>
+<event KT="Fact" id="E24">
+<type class="Negative_regulation"/>
+<theme idref="E23"/>
+<cause idref="A5"/>
+<clue>Protein synthesis inhibitors and corticosteroids, which <clueType>suppress</clueType> arachidonate release and the synthesis of proinflammatory cytokines, had no effect on translocation of NF-kappa B in CHO/CD14 or RAW 264.7 cells, demonstrating that NF-kappa B translocation is an early event.</clue>
+</event>
+<event KT="Fact" id="E25">
+<type class="Negative_regulation"/>
+<theme idref="E23"/>
+<cause idref="T48"/>
+<clue>Protein synthesis inhibitors and corticosteroids, which <clueType>suppress</clueType> arachidonate release and the synthesis of proinflammatory cytokines, had no effect on translocation of NF-kappa B in CHO/CD14 or RAW 264.7 cells, demonstrating that NF-kappa B translocation is an early event.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Gene_expression"/>
+<theme idref="T50"/>
+<clue>Protein synthesis inhibitors and corticosteroids, which suppress arachidonate release and the <clueType>synthesis</clueType> <linkTheme>of</linkTheme> proinflammatory cytokines, had no effect on translocation of NF-kappa B in CHO/CD14 or RAW 264.7 cells, demonstrating that NF-kappa B translocation is an early event.</clue>
+</event>
+<event KT="Fact" id="E27">
+<type class="Negative_regulation"/>
+<theme idref="E26"/>
+<cause idref="A5"/>
+<clue>Protein synthesis inhibitors and corticosteroids, which <clueType>suppress</clueType> arachidonate release and the synthesis of proinflammatory cytokines, had no effect on translocation of NF-kappa B in CHO/CD14 or RAW 264.7 cells, demonstrating that NF-kappa B translocation is an early event.</clue>
+</event>
+<event KT="Fact" id="E28">
+<type class="Negative_regulation"/>
+<theme idref="E27"/>
+<cause idref="T48"/>
+<clue>Protein synthesis inhibitors and corticosteroids, which <clueType>suppress</clueType> arachidonate release and the synthesis of proinflammatory cytokines, had no effect on translocation of NF-kappa B in CHO/CD14 or RAW 264.7 cells, demonstrating that NF-kappa B translocation is an early event.</clue>
+</event>
+<event id="E29">
+<type class="Localization"/>
+<theme idref="T51"/>
+<clue>Protein synthesis inhibitors and corticosteroids, which suppress arachidonate release and the synthesis of proinflammatory cytokines, had no effect on <clueType>translocation</clueType> <linkTheme>of</linkTheme> NF-kappa B <clueLoc>in CHO/CD14</clueLoc> or RAW 264.7 <clueLoc>cells</clueLoc>, demonstrating that NF-kappa B translocation is an early event.</clue>
+</event>
+<event id="E52">
+<type class="Localization"/>
+<theme idref="T51"/>
+<clue>Protein synthesis inhibitors and corticosteroids, which suppress arachidonate release and the synthesis of proinflammatory cytokines, had no effect on <clueType>translocation</clueType> <linkTheme>of</linkTheme> NF-kappa B <clueLoc>in</clueLoc> CHO/CD14 or <clueLoc>RAW 264.7 cells</clueLoc>, demonstrating that NF-kappa B translocation is an early event.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E30">
+<type class="Regulation"/>
+<theme idref="E29"/>
+<cause idref="A5"/>
+<clue>Protein synthesis inhibitors and corticosteroids, which suppress arachidonate release and the synthesis of proinflammatory cytokines, had <cluePolarity>no</cluePolarity> <clueType>effect</clueType> <linkTheme>on</linkTheme> translocation of NF-kappa B in CHO/CD14 or RAW 264.7 cells, demonstrating that NF-kappa B translocation is an early event.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E53">
+<type class="Regulation"/>
+<theme idref="E52"/>
+<cause idref="A5"/>
+<clue>Protein synthesis inhibitors and corticosteroids, which suppress arachidonate release and the synthesis of proinflammatory cytokines, had <cluePolarity>no</cluePolarity> <clueType>effect</clueType> <linkTheme>on</linkTheme> translocation of NF-kappa B in CHO/CD14 or RAW 264.7 cells, demonstrating that NF-kappa B translocation is an early event.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E31">
+<type class="Regulation"/>
+<theme idref="E29"/>
+<cause idref="A5"/>
+<clue>Protein synthesis inhibitors and corticosteroids, which suppress arachidonate release and the synthesis of proinflammatory cytokines, had <cluePolarity>no</cluePolarity> <clueType>effect</clueType> <linkTheme>on</linkTheme> translocation of NF-kappa B in CHO/CD14 or RAW 264.7 cells, demonstrating that NF-kappa B translocation is an early event.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E54">
+<type class="Regulation"/>
+<theme idref="E52"/>
+<cause idref="A5"/>
+<clue>Protein synthesis inhibitors and corticosteroids, which suppress arachidonate release and the synthesis of proinflammatory cytokines, had <cluePolarity>no</cluePolarity> <clueType>effect</clueType> <linkTheme>on</linkTheme> translocation of NF-kappa B in CHO/CD14 or RAW 264.7 cells, demonstrating that NF-kappa B translocation is an early event.</clue>
+</event>
+<event KT="Analysis" id="E32">
+<type class="Localization"/>
+<theme idref="T55"/>
+<clue>Protein synthesis inhibitors and corticosteroids, which suppress arachidonate release and the synthesis of proinflammatory cytokines, had no effect on translocation of NF-kappa B in CHO/CD14 or RAW 264.7 cells, <clueKT>demonstrating</clueKT> that NF-kappa B <clueType>translocation</clueType> is an <clueTime>early event</clueTime>.</clue>
+</event>
+<sentence id="S11">Although <term id="T56" lex="TK_activity" sem="Other"><term id="A6" sem="Protein_molecule">TK</term> activity</term> was consistently observed by <term id="T57" lex="immunoblotting_extract" sem="Other">immunoblotting extracts</term> from activated <term id="T58" lex="RAW_264.7_cell" sem="Cell_cultured">RAW 264.7 cells</term>, <term id="T59" lex="LPS-induced_phosphotyrosine_residue" sem="Amino_acid_monomer"><term id="A7" sem="Lipid">LPS</term>-induced <term id="A8" sem="Protein_domain_or_region">phosphotyrosine residues</term></term> were not observed from similarly treated <term id="T60" lex="CHO/CD14_cell" sem="Cell_cultured">CHO/CD14 cells</term>.</sentence>
+<event id="E33">
+<type class="Positive_regulation"/>
+<theme idref="A6"/>
+<clue>Although TK <clueType>activity</clueType> was consistently <clueKT>observed</clueKT> <clueExperiment>by immunoblotting extracts</clueExperiment> <clueLoc>from activated RAW 264.7 cells</clueLoc>, LPS-induced phosphotyrosine residues were not observed from similarly treated CHO/CD14 cells.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E34">
+<type class="Positive_regulation"/>
+<theme idref="A8"/>
+<cause idref="A7"/>
+<clue>Although TK activity was consistently observed <clueExperiment>by immunoblotting extracts</clueExperiment> from activated RAW 264.7 cells, LPS-<clueType>induced</clueType> phosphotyrosine residues were <cluePolarity>not</cluePolarity> <clueKT>observed</clueKT> <clueLoc>from similarly treated CHO/CD14 cells</clueLoc>.</clue>
+</event>
+<sentence id="S12">Furthermore, the <term id="T61" lex="TK_inhibitor" sem="Other">TK inhibitors</term> <term id="T62" lex="herbimycin_A" sem="Organic_compound_other">herbimycin A</term> and <term id="T63" lex="genistein" sem="Organic_compound_other">genistein</term> failed to inhibit translocation of <term id="T64" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> in <term id="T65" lex="CHO/CD14_cell" sem="Cell_cultured">CHO/CD14</term> or <term id="T66" lex="RAW_264.7_cell" sem="Cell_cultured">RAW 264.7 cells</term>, although both of these agents inhibited <term id="T67" lex="LPS-induced_TK_activity" sem="Other"><term id="T68" lex="LPS" sem="Lipid">LPS</term>-induced <term id="T69" lex="TK_activity" sem="Other">TK activity</term></term> in <term id="T70" lex="RAW_264.7_cell" sem="Cell_cultured">RAW 264.7 cells</term>.</sentence>
+<event Polarity="Negative" assertion="non-exist" id="E35">
+<type class="Negative_regulation"/>
+<theme idref="E37"/>
+<cause idref="T62"/>
+<clue>Furthermore, <corefCause>the TK inhibitors</corefCause> herbimycin A and genistein <cluePolarity>failed to</cluePolarity> <clueType>inhibit</clueType> translocation of NF-kappa B in CHO/CD14 or RAW 264.7 cells, although both of these agents inhibited LPS-induced TK activity in RAW 264.7 cells.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E36">
+<type class="Negative_regulation"/>
+<theme idref="E37"/>
+<cause idref="T63"/>
+<clue>Furthermore, <corefCause>the TK inhibitors</corefCause> herbimycin A and genistein <cluePolarity>failed to</cluePolarity> <clueType>inhibit</clueType> translocation of NF-kappa B in CHO/CD14 or RAW 264.7 cells, although both of these agents inhibited LPS-induced TK activity in RAW 264.7 cells.</clue>
+</event>
+<event id="E37">
+<type class="Localization"/>
+<theme idref="T64"/>
+<clue>Furthermore, the TK inhibitors herbimycin A and genistein failed to inhibit <clueType>translocation</clueType> <linkTheme>of</linkTheme> NF-kappa B <clueLoc>in CHO/CD14 or RAW 264.7 cells</clueLoc>, although both of these agents inhibited LPS-induced TK activity in RAW 264.7 cells.</clue>
+</event>
+<event KT="Other" id="E38">
+<type class="Positive_regulation"/>
+<theme idref="T69"/>
+<cause idref="T68"/>
+<clue>Furthermore, the TK inhibitors herbimycin A and genistein failed to inhibit translocation of NF-kappa B in CHO/CD14 or RAW 264.7 cells, although both of these agents inhibited LPS-<clueType>induced</clueType> TK activity <clueLoc>in RAW 264.7 cells</clueLoc>.</clue>
+</event>
+<event id="E39">
+<type class="Negative_regulation"/>
+<theme idref="E38"/>
+<cause idref="T62"/>
+<clue>Furthermore, the TK inhibitors herbimycin A and genistein failed to inhibit translocation of NF-kappa B in CHO/CD14 or RAW 264.7 cells, although <corefCause>both of these agents</corefCause> <clueType>inhibited</clueType> LPS-induced TK activity in RAW 264.7 cells.</clue>
+</event>
+<event id="E40">
+<type class="Negative_regulation"/>
+<theme idref="E38"/>
+<cause idref="T63"/>
+<clue>Furthermore, the TK inhibitors herbimycin A and genistein failed to inhibit translocation of NF-kappa B in CHO/CD14 or RAW 264.7 cells, although <corefCause>both of these agents</corefCause> <clueType>inhibited</clueType> LPS-induced TK activity in RAW 264.7 cells.</clue>
+</event>
+<sentence id="S13">These results imply that <term id="T71" lex="TK_activity" sem="Other"><term id="A20" sem="Protein_family_or_group">TK</term> activity</term> is not obligatory for <term id="T72" lex="CD14-mediated_signal_transduction" sem="Other"><term id="T73" lex="CD14" sem="Protein_molecule">CD14</term>-mediated signal transduction</term> to occur in response to <term id="T74" lex="LPS" sem="Lipid">LPS</term>.</sentence>
+<event KT="Other" id="E41">
+<type class="Cell_communication"/>
+<theme idref="T73"/>
+<clue>These results imply that TK activity is not obligatory for CD14<linkTheme>-mediated</linkTheme> <clueType>signal transduction</clueType> to occur in response to LPS.</clue>
+</event>
+<event KT="Other" id="E42">
+<type class="Positive_regulation"/>
+<theme idref="E41"/>
+<cause idref="T74"/>
+<clue>These results imply that TK activity is not obligatory for CD14-mediated signal transduction to <clueType>occur</clueType> <linkCause>in response to</linkCause> LPS.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E43" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="E42"/>
+<theme idref="A20"/>
+<clue>These results <clueKT><clueCL>imply</clueCL></clueKT> that TK activity is <cluePolarity>not</cluePolarity> <clueType>obligatory</clueType> <linkTheme>for</linkTheme> CD14-mediated signal transduction to occur in response to LPS.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

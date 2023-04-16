@@ -1,0 +1,10 @@
+T10	Adverse_effect 25 32	induced
+T16	Adverse_effect 484 490	induce
+T19	Adverse_effect 173 175	on
+R1	Subject_Disorder Arg1:T11 Arg2:T9
+R2	Subject_Disorder Arg1:T12 Arg2:T5
+R3	is_equivalent Arg1:T5 Arg2:T13
+E1	Adverse_effect:T10 has_agent:T1 affects:T2
+E2	Adverse_effect:T16 has_subject:T11 has_cue:T17 has_agent:T8 affects:T15
+E3	Adverse_effect:T19 has_agent:T6 affects:T3 affects:T4 has_subject:T12
+A1	Speculated E2

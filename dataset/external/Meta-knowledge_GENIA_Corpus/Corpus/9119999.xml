@@ -1,0 +1,185 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9119999" created="11/04/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9119999</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="HIV" sem="Virus">HIV</term> does not replicate in <term id="T2" lex="naive_CD4_T_cell" sem="Cell_natural">naive CD4 T cells</term> stimulated with <term id="T3" lex="CD3/CD28" sem="Protein_complex">CD3</term>/<term id="A1" sem="Protein_molecule">CD28</term>.</sentence>
+<event Polarity="Negative" assertion="non-exist" id="E1">
+<type class="Viral_life_cycle"/>
+<theme idref="T1"/>
+<clue>HIV does <cluePolarity>not</cluePolarity> <clueType>replicate</clueType> <clueLoc>in naive CD4 T cells stimulated with CD3/CD28</clueLoc>.</clue>
+</event>
+<event id="E2">
+<type class="Physiological_process"/>
+<theme idref="T2"/>
+<cause idref="T3"/>
+<clue>HIV does not replicate in naive CD4 T cells <clueType>stimulated</clueType> <linkCause>with</linkCause> CD3/CD28.</clue>
+<comment>NER T3 mod</comment></event>
+<event id="E3">
+<type class="Physiological_process"/>
+<theme idref="T2"/>
+<cause idref="A1"/>
+<clue>HIV does not replicate in naive CD4 T cells <clueType>stimulated</clueType> <linkCause>with</linkCause> CD3/CD28.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">In this report, we demonstrate that the <term id="T4" lex="T_cell_tropic_strain" sem="Virus">T cell tropic strain</term> of <term id="T5" lex="HIV" sem="Virus">HIV</term>, <term id="T6" lex="LAI" sem="Virus">LAI</term>, does not replicate in <term id="T7" lex="naive_CD4_T_cell" sem="Cell_natural">naive CD4 T cells</term> stimulated by cross-linking <term id="T8" lex="CD3" sem="Protein_molecule">CD3</term> and <term id="T9" lex="CD28" sem="Protein_molecule">CD28</term>.</sentence>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E4">
+<type class="Viral_life_cycle"/>
+<theme idref="T6"/>
+<clue>In this report, we <clueKT>demonstrate</clueKT> that the T cell tropic strain of HIV, LAI, does <cluePolarity>not</cluePolarity> <clueType>replicate</clueType> <clueLoc>in naive CD4 T cells stimulated by cross-linking CD3</clueLoc> and CD28.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E104">
+<type class="Viral_life_cycle"/>
+<theme idref="T6"/>
+<clue>In this report, we <clueKT>demonstrate</clueKT> that the T cell tropic strain of HIV, LAI, does <cluePolarity>not</cluePolarity> <clueType>replicate</clueType> <clueLoc>in naive CD4 T cells stimulated by cross-linking</clueLoc> CD3 and <clueLoc>CD28</clueLoc>.</clue>
+</event>
+<event id="E5">
+<type class="Binding"/>
+<theme idref="T8"/>
+<clue>In this report, we demonstrate that the T cell tropic strain of HIV, LAI, does not replicate in naive CD4 T cells stimulated by <clueType>cross-linking</clueType> CD3 and CD28.</clue>
+</event>
+<event id="E6">
+<type class="Binding"/>
+<theme idref="T9"/>
+<clue>In this report, we demonstrate that the T cell tropic strain of HIV, LAI, does not replicate in naive CD4 T cells stimulated by <clueType>cross-linking</clueType> CD3 and CD28.</clue>
+</event>
+<event id="E7">
+<type class="Physiological_process"/>
+<theme idref="T7"/>
+<cause idref="E5"/>
+<clue>In this report, we demonstrate that the T cell tropic strain of HIV, LAI, does not replicate in naive CD4 T cells <clueType>stimulated</clueType> <linkCause>by</linkCause> cross-linking CD3 and CD28.</clue>
+</event>
+<event id="E8">
+<type class="Physiological_process"/>
+<theme idref="T7"/>
+<cause idref="E6"/>
+<clue>In this report, we demonstrate that the T cell tropic strain of HIV, LAI, does not replicate in naive CD4 T cells <clueType>stimulated</clueType> <linkCause>by</linkCause> cross-linking CD3 and CD28.</clue>
+</event>
+<sentence id="S3">In contrast, <term id="T10" lex="LAI" sem="Virus">LAI</term> replicates well in <term id="T11" lex="memory_CD4_T_cell" sem="Cell_natural">memory CD4 T cells</term> stimulated in the same way.</sentence>
+<event Manner="High" id="E9">
+<type class="Viral_life_cycle"/>
+<theme idref="T10"/>
+<clue>In contrast, LAI <clueType>replicates</clueType> <clueManner>well</clueManner> <clueLoc>in memory CD4 T cells stimulated in the same way</clueLoc>.</clue>
+</event>
+<event id="E10">
+<type class="Physiological_process"/>
+<theme idref="T11"/>
+<cause idref="E5"/>
+<clue>In contrast, LAI replicates well in memory CD4 T cells <clueType>stimulated</clueType> <corefCause>in the same way</corefCause>.</clue>
+</event>
+<event id="E11">
+<type class="Physiological_process"/>
+<theme idref="T11"/>
+<cause idref="E6"/>
+<clue>In contrast, LAI replicates well in memory CD4 T cells <clueType>stimulated</clueType> <corefCause>in the same way</corefCause>.</clue>
+</event>
+<sentence id="S4">Unlike this physiologically relevant stimulation, <term id="T12" lex="PHA" sem="Protein_molecule">PHA</term> stimulates productive <term id="T13" lex="LAI_replication" sem="Other"><term id="T14" lex="LAI" sem="Virus">LAI</term> replication</term> in both <cons id="T15" lex="(AND naive_T_cell memory_T_cell)" sem="(AND Cell_natural Cell_natural)"><frag id="F1">naive</frag> and <frag id="F2">memory</frag> <frag id="F3">T cells</frag></cons>.</sentence>
+<event id="E12">
+<type class="Viral_life_cycle"/>
+<theme idref="T14"/>
+<clue>Unlike this physiologically relevant stimulation, PHA stimulates productive LAI <clueType>replication</clueType> in both naive and memory T cells.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="T12"/>
+<clue>Unlike this physiologically relevant stimulation, PHA <clueType>stimulates</clueType> productive LAI replication <clueLoc>in</clueLoc> both <clueLoc>naive</clueLoc> and memory <clueLoc>T cells</clueLoc>.</clue>
+</event>
+<event id="E113">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="T12"/>
+<clue>Unlike this physiologically relevant stimulation, PHA <clueType>stimulates</clueType> productive LAI replication <clueLoc>in</clueLoc> both naive and <clueLoc>memory T cells</clueLoc>.</clue>
+</event>
+<sentence id="S5">These studies were conducted with highly purified (FACS-isolated) subsets of <term id="T16" lex="CD4_T_cell" sem="Cell_natural">CD4 T cells</term> identified by expression of both <term id="T17" lex="CD45RA" sem="Protein_molecule">CD45RA</term> and <term id="T18" lex="CD62L" sem="Protein_molecule">CD62L</term>.</sentence>
+<sentence id="S6">Remixing of <term id="T19" lex="purified_T_cell" sem="Cell_natural">purified T cells</term> showed that <term id="T20" lex="naive_T_cell" sem="Cell_natural">naive T cells</term> do not suppress <term id="T21" lex="LAI" sem="Virus">LAI</term> replication in <term id="T22" lex="memory_T_cell" sem="Cell_natural">memory T cells</term> and that <term id="T23" lex="memory_T_cell" sem="Cell_natural">memory T cells</term> do not restore <term id="T24" lex="LAI" sem="Virus">LAI</term> expression in <term id="T25" lex="naive_T_cell" sem="Cell_natural">naive T cells</term>.</sentence>
+<event KT="Other" id="E14">
+<type class="Viral_life_cycle"/>
+<theme idref="T21"/>
+<clue>Remixing of purified T cells showed that naive T cells do not suppress LAI <clueType>replication</clueType> <clueLoc>in memory T cells</clueLoc> and that memory T cells do not restore LAI expression in naive T cells.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E15">
+<type class="Negative_regulation"/>
+<theme idref="E14"/>
+<cause idref="T20"/>
+<clue>Remixing of purified T cells <clueKT>showed</clueKT> that naive T cells do <cluePolarity>not</cluePolarity> <clueType>suppress</clueType> LAI replication in memory T cells and that memory T cells do not restore LAI expression in naive T cells.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Gene_expression"/>
+<theme idref="T24"/>
+<clue>Remixing of purified T cells showed that naive T cells do not suppress LAI replication in memory T cells and that memory T cells do not restore LAI <clueType>expression</clueType> in naive T cells.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<cause idref="T23"/>
+<clue>Remixing of purified T cells <clueKT>showed</clueKT> that naive T cells do not suppress LAI replication in memory T cells and that memory T cells do <cluePolarity>not</cluePolarity> <clueType>restore</clueType> LAI expression <clueLoc>in naive T cells</clueLoc>.</clue>
+</event>
+<sentence id="S7">The suppression of productive <term id="T26" lex="LAI_replication" sem="Other"><term id="T27" lex="LAI" sem="Virus">LAI</term> replication</term> in <term id="T28" lex="naive_T_cell" sem="Cell_natural">naive T cells</term> is not due to <term id="T29" lex="differential_expression" sem="Other">differential expression</term> of <term id="T30" lex="viral_coreceptor" sem="Protein_family_or_group">viral coreceptors</term>, nor is it due to inhibition of activation of the important <term id="T31" lex="HIV" sem="Virus">HIV</term> <term id="T32" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term>, <term id="T33" lex="nuclear_factor-kappaB" sem="Protein_molecule">nuclear factor-kappaB</term> and <term id="T34" lex="activator_protein-1" sem="Protein_molecule">activator protein-1</term>.</sentence>
+<event KT="Other" id="E18">
+<type class="Viral_life_cycle"/>
+<theme idref="T27"/>
+<clue>The suppression of productive LAI <clueType>replication</clueType> in naive T cells is not due to differential expression of viral coreceptors, nor is it due to inhibition of activation of the important HIV transcription factors, nuclear factor-kappaB and activator protein-1.</clue>
+</event>
+<event id="E19">
+<type class="Negative_regulation"/>
+<theme idref="E18"/>
+<clue>The <clueType>suppression</clueType> <linkTheme>of</linkTheme> productive LAI replication <clueLoc>in naive T cells</clueLoc> is not due to differential expression of viral coreceptors, nor is it due to inhibition of activation of the important HIV transcription factors, nuclear factor-kappaB and activator protein-1.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Gene_expression"/>
+<theme idref="T30"/>
+<clue>The suppression of productive LAI replication in naive T cells is not due to differential <clueType>expression</clueType> <linkTheme>of</linkTheme> viral coreceptors, nor is it due to inhibition of activation of the important HIV transcription factors, nuclear factor-kappaB and activator protein-1.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E21">
+<type class="Regulation"/>
+<theme idref="E18"/>
+<cause idref="E20"/>
+<clue>The suppression of productive LAI replication in naive T cells is <cluePolarity>not</cluePolarity> <clueType>due</clueType> <linkCause>to</linkCause> differential expression of viral coreceptors, nor is it due to inhibition of activation of the important HIV transcription factors, nuclear factor-kappaB and activator protein-1.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="T33"/>
+<clue>The suppression of productive LAI replication in naive T cells is not due to differential expression of viral coreceptors, nor is it due to inhibition of <clueType>activation</clueType> <linkTheme>of</linkTheme> the important HIV transcription factors, nuclear factor-kappaB and activator protein-1.</clue>
+</event>
+<event KT="Other" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="T34"/>
+<clue>The suppression of productive LAI replication in naive T cells is not due to differential expression of viral coreceptors, nor is it due to inhibition of <clueType>activation</clueType> <linkTheme>of</linkTheme> the important HIV transcription factors, nuclear factor-kappaB and activator protein-1.</clue>
+</event>
+<event KT="Other" id="E24">
+<type class="Negative_regulation"/>
+<theme idref="E22"/>
+<clue>The suppression of productive LAI replication in naive T cells is not due to differential expression of viral coreceptors, nor is it due to <clueType>inhibition</clueType> <linkTheme>of</linkTheme> activation of the important HIV transcription factors, nuclear factor-kappaB and activator protein-1.</clue>
+</event>
+<event KT="Other" id="E25">
+<type class="Negative_regulation"/>
+<theme idref="E23"/>
+<clue>The suppression of productive LAI replication in naive T cells is not due to differential expression of viral coreceptors, nor is it due to <clueType>inhibition</clueType> <linkTheme>of</linkTheme> activation of the important HIV transcription factors, nuclear factor-kappaB and activator protein-1.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="E24"/>
+<clue>The suppression of productive LAI replication in naive T cells is not due to differential expression of viral coreceptors, <cluePolarity>nor</cluePolarity> is it <clueType>due</clueType> <linkCause>to</linkCause> inhibition of activation of the important HIV transcription factors, nuclear factor-kappaB and activator protein-1.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="E25"/>
+<clue>The suppression of productive LAI replication in naive T cells is not due to differential expression of viral coreceptors, <cluePolarity>nor</cluePolarity> is it <clueType>due</clueType> <linkCause>to</linkCause> inhibition of activation of the important HIV transcription factors, nuclear factor-kappaB and activator protein-1.</clue>
+</event>
+<sentence id="S8">The inherent resistance of <term id="T35" lex="naive_T_cell" sem="Cell_natural">naive T cells</term> to productive <term id="T36" lex="HIV" sem="Virus">HIV</term> infection, coupled with their proliferative advantage as demonstrated here, provides a sound basis for proposed <term id="T37" lex="clinical_therapy" sem="Other">clinical therapies</term> using <term id="T38" lex="ex_vivo_expansion" sem="Other">ex vivo expansion</term> and <term id="T39" lex="reinfusion" sem="Other">reinfusion</term> of <term id="T40" lex="CD4_T_cell" sem="Cell_natural">CD4 T cells</term> from <term id="T41" lex="HIV-infected_adult" sem="Multicellular_organism_natural"><term id="T42" lex="HIV" sem="Virus">HIV</term>-infected adults</term>.</sentence>
+<event KT="Other" id="E28">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T36"/>
+<clue>The inherent resistance of naive T cells to productive HIV <clueType>infection</clueType>, coupled with their proliferative advantage as demonstrated here, provides a sound basis for proposed clinical therapies using ex vivo expansion and reinfusion of CD4 T cells from HIV-infected adults.</clue>
+</event>
+<event KT="Fact" id="E29">
+<type/>
+<theme idref="E28"/>
+<clue>The <clueKT>inherent</clueKT> <clueType>resistance</clueType> <clueLoc>of naive T cells</clueLoc> <linkTheme>to</linkTheme> productive HIV infection, coupled with their proliferative advantage as demonstrated here, provides a sound basis for proposed clinical therapies using ex vivo expansion and reinfusion of CD4 T cells from HIV-infected adults.</clue>
+<comment>RESISTANCE</comment></event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

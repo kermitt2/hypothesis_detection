@@ -1,0 +1,164 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7915519" creator="Hitomi MASUDA"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7915519</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="A1" sem="Other">Signals</term> transduced through the <term id="T1" lex="CD4_molecule" sem="Protein_molecule">CD4 molecule</term> on <term id="T2" lex="T_lymphocyte" sem="Cell_natural">T lymphocytes</term> activate <term id="T3" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>.</sentence>
+<event id="E1">
+<type class="Regulation"/>
+<theme idref="A1"/>
+<clue>Signals <clueType>transduced</clueType> through the CD4 molecule <clueLoc>on T lymphocytes</clueLoc> activate NF-kappa B.</clue>
+</event>
+<event id="E2">
+<type class="Correlation"/>
+<theme idref="E1"/>
+<theme idref="T1"/>
+<clue>Signals transduced <linkTheme>through</linkTheme> the CD4 molecule on T lymphocytes activate NF-kappa B.</clue>
+<comment>No clueType</comment></event>
+<event id="E3">
+<type class="Positive_regulation"/>
+<theme idref="T3"/>
+<cause idref="E1"/>
+<clue>Signals transduced through the CD4 molecule on T lymphocytes <clueType>activate</clueType> NF-kappa B.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">We have demonstrated that <term id="T4" lex="native_envelope_glycoprotein" sem="Protein_family_or_group">native envelope glycoproteins</term> of <term id="T5" lex="HIV-1" sem="Virus">HIV-1</term>, <term id="T6" lex="gp160" sem="Virus">gp160</term> can induce activation of the <term id="T7" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term>, <term id="T8" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>.</sentence>
+<event KT="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T8"/>
+<clue>We have demonstrated that native envelope glycoproteins of HIV-1, gp160 can induce <clueType>activation</clueType> <linkTheme>of</linkTheme> the transcription factor, NF-kappa B.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="T6"/>
+<clue>We have <clueKT>demonstrated</clueKT> that native envelope glycoproteins of HIV-1, gp160 <clueCL>can</clueCL> <clueType>induce</clueType> activation of the transcription factor, NF-kappa B.</clue>
+</event>
+<sentence id="S3">The <term id="A2" sem="Other">stimulatory effects of <term id="T9" lex="gp160" sem="Virus">gp160</term></term> are mediated through the <term id="T10" lex="CD4_molecule" sem="Protein_molecule">CD4 molecule</term>, since pretreatment with <term id="A3" sem="Protein_molecule">soluble <term id="T11" lex="CD4" sem="Protein_molecule">CD4</term></term> abrogates its activity.</sentence>
+<event id="E6">
+<type class="Positive_regulation"/>
+<theme idref="A2"/>
+<cause idref="T10"/>
+<clue>The stimulatory effects of gp160 are <clueType>mediated</clueType> <linkCause>through</linkCause> the CD4 molecule, since pretreatment with soluble CD4 abrogates its activity.</clue>
+<comment>TPS: A2</comment></event>
+<event id="E7">
+<type class="Negative_regulation"/>
+<theme idref="E6"/>
+<cause idref="A3"/>
+<clue>The stimulatory effects of gp160 are mediated through the CD4 molecule, since pretreatment with soluble CD4 <clueType>abrogates</clueType> <corefTheme>its activity</corefTheme>.</clue>
+</event>
+<sentence id="S4">The <term id="T12" lex="gp160-induced_NF-kappa_B_complex" sem="Protein_complex"><term id="T13" lex="gp160" sem="Virus">gp160</term>-induced <term id="T14" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> complex</term> consists of <term id="T15" lex="p65" sem="Protein_molecule">p65</term>, <term id="T16" lex="p50" sem="Protein_molecule">p50</term> and <term id="T17" lex="c-rel_protein" sem="Protein_molecule">c-rel proteins</term>.</sentence>
+<event id="E8">
+<type class="Binding"/>
+<theme idref="T15"/>
+<theme idref="T16"/>
+<theme idref="T17"/>
+<clue>The gp160-induced NF-kappa B <clueType>complex</clueType> <linkTheme>consists of</linkTheme> p65, p50 and c-rel proteins.</clue>
+</event>
+<event id="E9">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="T13"/>
+<clue>The gp160-<clueType>induced</clueType> <corefTheme>NF-kappa B complex</corefTheme> consists of p65, p50 and c-rel proteins.</clue>
+</event>
+<sentence id="S5">The stimulatory effect of <term id="T18" lex="gp160" sem="Virus">gp160</term> on <term id="T19" lex="NF-kappa_B_activation" sem="Other"><term id="T20" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> activation</term> is <term id="A5" sem="Other">protein synthesis</term> independent, is dependent upon protein <term id="T21" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> phosphorylation, and abrogated by <term id="A6" sem="Organic_compound_other">inhibitors of <term id="T22" lex="protein_kinase_C" sem="Protein_molecule">protein kinase C</term></term>.</sentence>
+<event id="E10">
+<type class="Positive_regulation"/>
+<theme idref="T20"/>
+<clue>The stimulatory effect of gp160 on NF-kappa B <clueType>activation</clueType> is protein synthesis independent, is dependent upon protein tyrosine phosphorylation, and abrogated by inhibitors of protein kinase C.</clue>
+</event>
+<event id="E200">
+<type class="Regulation"/>
+<theme idref="E10"/>
+<cause idref="T18"/>
+<clue>The stimulatory <clueType>effect</clueType> <linkCause>of</linkCause> gp160 <linkTheme>on</linkTheme> NF-kappa B activation is protein synthesis independent, is dependent upon protein tyrosine phosphorylation, and abrogated by inhibitors of protein kinase C.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E11">
+<type class="Regulation"/>
+<theme idref="E200"/>
+<cause idref="A5"/>
+<clue>The stimulatory effect of gp160 on NF-kappa B activation is protein synthesis <clueType><cluePolarity>independent</cluePolarity></clueType>, is dependent upon protein tyrosine phosphorylation, and abrogated by inhibitors of protein kinase C.</clue>
+</event>
+<event id="E12">
+<type class="Protein_amino_acid_phosphorylation"/>
+<site idref="T21"/>
+<clue>The stimulatory effect of gp160 on NF-kappa B activation is protein synthesis independent, is dependent upon protein tyrosine <clueType>phosphorylation</clueType>, and abrogated by inhibitors of protein kinase C.</clue>
+</event>
+<event id="E13">
+<type class="Regulation"/>
+<theme idref="E200"/>
+<cause idref="E12"/>
+<clue>The stimulatory effect of gp160 on NF-kappa B activation is protein synthesis independent, is <clueType>dependent</clueType> <linkCause>upon</linkCause> protein tyrosine phosphorylation, and abrogated by inhibitors of protein kinase C.</clue>
+</event>
+<event id="E14">
+<type class="Negative_regulation"/>
+<theme idref="E200"/>
+<cause idref="A6"/>
+<clue>The stimulatory effect of gp160 on NF-kappa B activation is protein synthesis independent, is dependent upon protein tyrosine phosphorylation, and <clueType>abrogated</clueType> <linkCause>by</linkCause> inhibitors of protein kinase C.</clue>
+<comment>TPS: A6</comment></event>
+<sentence id="S6">The <term id="T23" lex="gp160-mediated_activation" sem="Other"><term id="T24" lex="gp160" sem="Virus">gp160</term>-mediated activation</term> of <term id="T25" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> in <term id="T26" lex="CD4_positive_T_cell" sem="Cell_natural"><term id="T27" lex="CD4" sem="Protein_molecule">CD4</term> positive T cells</term> may be involved in <term id="A7" sem="Other">biological effects</term>, e.g., enhanced <term id="T28" lex="HIV_replication" sem="Other"><term id="A8" sem="Virus">HIV</term> replication</term>, <term id="T29" lex="hypergammaglobulinemia" sem="Other">hypergammaglobulinemia</term>, increased <term id="T30" lex="cytokine_secretion" sem="Other"><term id="T31" lex="cytokine" sem="Protein_family_or_group">cytokine</term> secretion</term>, <term id="T32" lex="hypercellularity" sem="Other">hypercellularity</term> in <term id="T33" lex="bone_marrow" sem="Tissue_natural">bone marrow</term> and <term id="T34" lex="apoptosis" sem="Other">apoptosis</term>.</sentence>
+<event KT="Other" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="T25"/>
+<cause idref="T24"/>
+<clue>The gp160-<linkCause>mediated</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappa B <clueLoc>in CD4 positive T cells</clueLoc> may be involved in biological effects, e.g., enhanced HIV replication, hypergammaglobulinemia, increased cytokine secretion, hypercellularity in bone marrow and apoptosis.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E16" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="A7"/>
+<theme idref="E15"/>
+<clue>The gp160-mediated activation of NF-kappa B in CD4 positive T cells <clueKT><clueCL>may</clueCL></clueKT> be <clueType>involved</clueType> <linkTheme>in</linkTheme> biological effects, e.g., enhanced HIV replication, hypergammaglobulinemia, increased cytokine secretion, hypercellularity in bone marrow and apoptosis.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Viral_life_cycle"/>
+<theme idref="A8"/>
+<clue>The gp160-mediated activation of NF-kappa B in CD4 positive T cells may be involved in biological effects, e.g., enhanced HIV <clueType>replication</clueType>, hypergammaglobulinemia, increased cytokine secretion, hypercellularity in bone marrow and apoptosis.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<clue>The gp160-mediated activation of NF-kappa B in CD4 positive T cells may be involved in biological effects, e.g., <clueType>enhanced</clueType> HIV replication, hypergammaglobulinemia, increased cytokine secretion, hypercellularity in bone marrow and apoptosis.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Localization"/>
+<theme idref="T31"/>
+<clue>The gp160-mediated activation of NF-kappa B in CD4 positive T cells may be involved in biological effects, e.g., enhanced HIV replication, hypergammaglobulinemia, increased cytokine <clueType>secretion</clueType>, hypercellularity in bone marrow and apoptosis.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<clue>The gp160-mediated activation of NF-kappa B in CD4 positive T cells may be involved in biological effects, e.g., enhanced HIV replication, hypergammaglobulinemia, <clueType>increased</clueType> cytokine secretion, hypercellularity in bone marrow and apoptosis.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E21" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="E18"/>
+<theme idref="E15"/>
+<clue>The gp160-mediated activation of NF-kappa B in CD4 positive T cells <clueKT><clueCL>may</clueCL></clueKT> be <clueType>involved</clueType> <linkTheme>in</linkTheme> <corefTheme>biological effects</corefTheme>, e.g., enhanced HIV replication, hypergammaglobulinemia, increased cytokine secretion, hypercellularity in bone marrow and apoptosis.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E122" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="E20"/>
+<theme idref="E15"/>
+<clue>The gp160-mediated activation of NF-kappa B in CD4 positive T cells <clueKT><clueCL>may</clueCL></clueKT> be <clueType>involved</clueType> <linkTheme>in</linkTheme> <corefTheme>biological effects</corefTheme>, e.g., enhanced HIV replication, hypergammaglobulinemia, increased cytokine secretion, hypercellularity in bone marrow and apoptosis.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E23" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="T29"/>
+<theme idref="E15"/>
+<clue>The gp160-mediated activation of NF-kappa B in CD4 positive T cells <clueKT><clueCL>may</clueCL></clueKT> be <clueType>involved</clueType> <linkTheme>in</linkTheme> <corefTheme>biological effects</corefTheme>, e.g., enhanced HIV replication, hypergammaglobulinemia, increased cytokine secretion, hypercellularity in bone marrow and apoptosis.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E222" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="T32"/>
+<theme idref="E15"/>
+<clue>The gp160-mediated activation of NF-kappa B in CD4 positive T cells <clueKT><clueCL>may</clueCL></clueKT> be <clueType>involved</clueType> <linkTheme>in</linkTheme> <corefTheme>biological effects</corefTheme>, e.g., enhanced HIV replication, hypergammaglobulinemia, increased cytokine secretion, hypercellularity <clueLoc>in bone marrow</clueLoc> and apoptosis.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E22" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="T34"/>
+<theme idref="E15"/>
+<clue>The gp160-mediated activation of NF-kappa B in CD4 positive T cells <clueKT><clueCL>may</clueCL></clueKT> be <clueType>involved</clueType> <linkTheme>in</linkTheme> <corefTheme>biological effects</corefTheme>, e.g., enhanced HIV replication, hypergammaglobulinemia, increased cytokine secretion, hypercellularity in bone marrow and apoptosis.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

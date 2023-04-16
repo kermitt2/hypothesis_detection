@@ -1,0 +1,82 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10372271" created="28/06/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10372271</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Novel therapies for <term id="T1" lex="inflammatory_bowel_disease" sem="Other">inflammatory bowel disease</term>.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Looking back at successes and failures in newer approaches to treating <term id="T2" lex="IBD" sem="Other">IBD</term>, it is tempting--although still difficult--to draw conclusions about <term id="T3" lex="pathogenesis" sem="Other">pathogenesis</term>.</sentence>
+<sentence id="S3">When a therapy proves effective, do clinicians truly know how it works?</sentence>
+<sentence id="S4">Even with a therapy as specific as <term id="T4" lex="anti-TNF_antibody" sem="Protein_family_or_group">anti-TNF antibody</term>, it is not clear if the benefit is attributable to simple binding and clearance of <term id="T5" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term> or to binding on the <term id="T6" lex="cell_surface" sem="Cell_component">cell surface</term> and subsequent deletion of the <term id="T7" lex="activated_macrophage" sem="Cell_natural">activated <term id="A1" sem="Cell_natural">macrophage</term></term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Positive_regulation"/>
+<cause idref="T4"/>
+<clue>Even with a therapy as specific as anti-TNF antibody, it is not clear if the <clueType>benefit</clueType> is attributable to simple binding and clearance of TNF-alpha or to binding on the cell surface and subsequent deletion of the activated macrophage.</clue>
+</event>
+<event KT="Investigation" id="E2" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="E4"/>
+<clue>Even with a therapy as specific as anti-TNF antibody, it is not clear <clueKT>if</clueKT> the benefit is <clueType>attributable</clueType> <linkCause>to</linkCause> simple binding and clearance of TNF-alpha or to binding on the cell surface and subsequent deletion of the activated macrophage.</clue>
+</event>
+<event KT="Investigation" id="E3" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="E5"/>
+<clue>Even with a therapy as specific as anti-TNF antibody, it is not clear <clueKT>if</clueKT> the benefit is <clueType>attributable</clueType> <linkCause>to</linkCause> simple binding and clearance of TNF-alpha or to binding on the cell surface and subsequent deletion of the activated macrophage.</clue>
+</event>
+<event KT="Other" id="E4" uncertainty="doubtful">
+<type class="Binding"/>
+<theme idref="T4"/>
+<theme idref="T5"/>
+<clue>Even with a therapy as specific as anti-TNF antibody, it is not clear if the benefit is attributable to simple <clueType>binding</clueType> and clearance <linkTheme>of</linkTheme> TNF-alpha or to binding on the cell surface and subsequent deletion of the activated macrophage.</clue>
+</event>
+<event KT="Other" id="E5" uncertainty="doubtful">
+<type class="Negative_regulation"/>
+<theme idref="T4"/>
+<cause idref="E4"/>
+<clue>Even with a therapy as specific as anti-TNF antibody, it is not clear if the benefit is attributable to simple binding and <clueType>clearance</clueType> <linkTheme>of</linkTheme> TNF-alpha or to binding on the cell surface and subsequent deletion of the activated macrophage.</clue>
+</event>
+<event KT="Investigation" id="E6" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="E7"/>
+<clue>Even with a therapy as specific as anti-TNF antibody, it is not clear <clueKT>if</clueKT> the benefit is <clueType>attributable</clueType> to simple binding and clearance of TNF-alpha or <linkCause>to</linkCause> binding on the cell surface and subsequent deletion of the activated macrophage.</clue>
+</event>
+<event KT="Investigation" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="E9"/>
+<clue>Even with a therapy as specific as anti-TNF antibody, it is not clear <clueKT>if</clueKT> the benefit is <clueType>attributable</clueType> to simple binding and clearance of TNF-alpha or <linkCause>to</linkCause> binding on the cell surface and <linkCause>subsequent</linkCause> deletion of the activated macrophage.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Cell_adhesion"/>
+<theme idref="T4"/>
+<theme idref="T6"/>
+<clue>Even with a therapy as specific as anti-TNF antibody, it is not clear if the benefit is attributable to simple binding and clearance of TNF-alpha or to <clueType>binding</clueType> on the cell surface and subsequent deletion of the activated macrophage.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Negative_regulation"/>
+<theme idref="T7"/>
+<clue>Even with a therapy as specific as anti-TNF antibody, it is not clear if the benefit is attributable to simple binding and clearance of TNF-alpha or to binding on the cell surface and subsequent <clueType>deletion</clueType> <linkTheme>of</linkTheme> the activated macrophage.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Physiological_process"/>
+<theme idref="A1"/>
+<clue>Even with a therapy as specific as anti-TNF antibody, it is not clear if the benefit is attributable to simple binding and clearance of TNF-alpha or to binding on the cell surface and subsequent deletion of the <clueType>activated</clueType> macrophage.</clue>
+</event>
+<sentence id="S5">When a drug appears to be less effective than <term id="T8" lex="preclinical_model" sem="Other">preclinical models</term> suggest, can failures in effectiveness from delivery or dosing be differentiated?</sentence>
+<sentence id="S6">The disappointing results of clinical trials with <term id="T9" lex="IL-10" sem="Protein_molecule">IL-10</term>--so at odds with the prediction of benefit from <term id="T10" lex="animal_model" sem="Multicellular_organism_natural">animal models</term>--bring into question the validity of those models as well as the soundness of design of the <term id="T11" lex="clinical_trial" sem="Other">clinical trials</term> on which efficacy of <term id="T12" lex="IL-10" sem="Protein_molecule">IL-10</term> is judged.</sentence>
+<event KT="Investigation" id="E11" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<cause idref="T12"/>
+<clue>The disappointing results of clinical trials with IL-10--so at odds with the prediction of benefit from animal models--bring into question the validity of those models as well as the soundness of design of the clinical trials on which <clueType>efficacy</clueType> <linkCause>of</linkCause> IL-10 is <clueKT>judged</clueKT>.</clue>
+</event>
+<sentence id="S7">The variability of response even to the most narrowly targeted agents suggests that these diseases are far more heterogeneous in <term id="T13" lex="human" sem="Multicellular_organism_natural">humans</term> than in their <term id="T14" lex="murine_counterpart" sem="Multicellular_organism_natural">murine counterparts</term>.</sentence>
+<sentence id="S8">Clinicians are only just beginning to recognize <term id="T15" lex="subclinical_marker" sem="Other">subclinical markers</term> of response, and it may soon be possible to predict response on the basis of <term id="T16" lex="genetic_composition" sem="Other">genetic composition</term>.</sentence>
+<sentence id="S9">For the moment, however, the field of <term id="T17" lex="pharmacogenetic" sem="Other">pharmacogenetics</term> is embryonic.</sentence>
+<sentence id="S10">Challenges in developing new <term id="T18" lex="therapeutic_strategy" sem="Other">therapeutic strategies</term> include not only identifying novel agents, but also improving the definitions of clinical endpoints and defining efficacy at the biologic level.</sentence>
+<sentence id="S11">Only through considered evaluation of clinical evidence may <term id="T19" lex="clinician" sem="Multicellular_organism_natural">clinicians</term> determine which therapies should remain novelties and which should become an accepted part of the <term id="T20" lex="armamentarium" sem="Other">armamentarium</term>.</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

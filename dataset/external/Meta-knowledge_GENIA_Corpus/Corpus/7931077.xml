@@ -1,0 +1,310 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7931077" created="22/06/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7931077</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">A family of <term id="T1" lex="serine_protease" sem="Protein_family_or_group">serine proteases</term> expressed exclusively in myelo-<term id="T2" lex="monocytic_cell" sem="Cell_natural">monocytic cells</term> specifically processes the <term id="T3" lex="nuclear_factor-kappa_B_subunit_p65" sem="Protein_molecule">nuclear factor-kappa B subunit p65</term> in vitro and may impair human <term id="T4" lex="immunodeficiency_virus_replication" sem="Other"><term id="T5" lex="immunodeficiency_virus" sem="Virus">immunodeficiency virus</term> replication</term> in these cells.</sentence>
+<event id="E1">
+<type class="Gene_expression"/>
+<theme idref="T1"/>
+<clue>A family of serine proteases <clueType>expressed</clueType> exclusively <clueLoc>in myelo-monocytic cells</clueLoc> specifically processes the nuclear factor-kappa B subunit p65 in vitro and may impair human immunodeficiency virus replication in these cells.</clue>
+</event>
+<event id="E102">
+<type class="Protein_processing"/>
+<theme idref="T3"/>
+<clue>A family of serine proteases expressed exclusively in myelo-monocytic cells specifically <clueType>processes</clueType> the nuclear factor-kappa B subunit p65 in vitro and may impair human immunodeficiency virus replication in these cells.</clue>
+</event>
+<event id="E103">
+<type class="Positive_regulation"/>
+<theme idref="E102"/>
+<cause idref="T1"/>
+<clue>A family of serine proteases expressed exclusively in myelo-monocytic cells specifically <clueType>processes</clueType> the nuclear factor-kappa B subunit p65 in vitro and may impair human immunodeficiency virus replication in these cells.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Viral_life_cycle"/>
+<theme idref="T5"/>
+<clue>A family of serine proteases expressed exclusively in myelo-monocytic cells specifically processes the nuclear factor-kappa B subunit p65 in vitro and may impair human immunodeficiency virus <clueType>replication</clueType> in these cells.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E4" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="E3"/>
+<cause idref="T1"/>
+<clue>A family of serine proteases expressed exclusively <clueLoc>in myelo-monocytic cells</clueLoc> specifically processes the nuclear factor-kappa B subunit p65 in vitro and <clueKT><clueCL>may</clueCL></clueKT> <clueType>impair</clueType> human immunodeficiency virus replication in these cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Two groups of <term id="T6" lex="U937_promonocytic_cell" sem="Cell_cultured">U937 promonocytic cells</term> were obtained by limiting dilution cloning which differed strikingly in their ability to support <term id="T7" lex="human_immunodeficiency_virus_1_(HIV-1)_replication" sem="Other"><term id="T8" lex="human_immunodeficiency_virus_1" sem="Virus">human immunodeficiency virus 1</term> (<term id="T9" lex="HIV-1" sem="Virus">HIV-1</term>) replication</term>.</sentence>
+<event id="E5">
+<type class="Viral_life_cycle"/>
+<theme idref="T9"/>
+<clue>Two groups of U937 promonocytic cells were obtained by limiting dilution cloning which differed strikingly in their ability to support human immunodeficiency virus 1 (HIV-1) <clueType>replication</clueType>.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<clue>Two groups of <clueLoc>U937 promonocytic cells</clueLoc> were obtained by limiting dilution cloning which differed strikingly in their ability to <clueType>support</clueType> human immunodeficiency virus 1 (HIV-1) replication.</clue>
+</event>
+<sentence id="S3"><term id="T10" lex="&quot;Plus&quot;_clone" sem="Cell_cultured">&quot;Plus&quot; clones</term> replicated the virus efficiently, whereas <term id="T11" lex="&quot;minus&quot;_clone" sem="Cell_cultured">&quot;minus&quot; clones</term> did not.</sentence>
+<event id="E7">
+<type class="Viral_life_cycle"/>
+<theme idref="T9"/>
+<clue><clueLoc>&quot;Plus&quot; clones</clueLoc> <clueType>replicated</clueType> <corefTheme>the virus</corefTheme> efficiently, whereas &quot;minus&quot; clones did not.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E8">
+<type class="Viral_life_cycle"/>
+<theme idref="T9"/>
+<clue>&quot;Plus&quot; clones <clueType>replicated</clueType> <corefTheme>the virus</corefTheme> efficiently, whereas <clueLoc>&quot;minus&quot; clones</clueLoc> <cluePolarity>did not</cluePolarity>.</clue>
+</event>
+<sentence id="S4">We examined these clones for differences in <term id="T12" lex="nuclear_factor_(NF)-kappa_B_activity" sem="Other"><term id="T13" lex="nuclear_factor_(NF)-kappa_B" sem="Protein_complex">nuclear factor (NF)-kappa B</term> activity</term> which might account for the observed phenomenon.</sentence>
+<event CL="L1" KT="Analysis" id="E9" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="T13"/>
+<clue>We examined these clones for differences in nuclear factor (NF)-kappa B activity which <clueKT><clueCL>might</clueCL></clueKT> <clueType>account</clueType> <linkTheme>for</linkTheme> <corefTheme>the observed phenomenon</corefTheme>.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E10" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="T13"/>
+<clue>We examined these clones for differences in nuclear factor (NF)-kappa B activity which <clueKT><clueCL>might</clueCL></clueKT> <clueType>account</clueType> <linkTheme>for</linkTheme> <corefTheme>the observed phenomenon</corefTheme>.</clue>
+</event>
+<sentence id="S5">Stimulation of <term id="T14" lex="plus_clone" sem="Cell_cultured">plus clones</term> liberated the classical <term id="T15" lex="p50-p65_complex" sem="Protein_complex">p50-p65 complex</term> from cytoplasmic pools, whereas <term id="T16" lex="minus_clone" sem="Cell_cultured">minus clones</term> produced an apparently novel, <term id="T17" lex="faster-migrating_complex" sem="Protein_complex">faster-migrating complex</term>, as judged by <term id="T18" lex="electrophoretic_mobility_shift_assay" sem="Other">electrophoretic mobility shift assays</term>.</sentence>
+<event KT="Method" id="E11">
+<type class="Physiological_process"/>
+<theme idref="T14"/>
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> plus clones liberated the classical p50-p65 complex from cytoplasmic pools, whereas minus clones produced an apparently novel, faster-migrating complex, as judged by electrophoretic mobility shift assays.</clue>
+</event>
+<event id="E112">
+<type class="Localization"/>
+<theme idref="T15"/>
+<clue>Stimulation of plus clones <clueType>liberated</clueType> the classical p50-p65 complex <clueLoc>from cytoplasmic pools</clueLoc>, whereas minus clones produced an apparently novel, faster-migrating complex, as judged by electrophoretic mobility shift assays.</clue>
+</event>
+<event id="E113">
+<type class="Positive_regulation"/>
+<theme idref="E112"/>
+<cause idref="E11"/>
+<clue>Stimulation of plus clones <clueType>liberated</clueType> the classical p50-p65 complex from cytoplasmic pools, whereas minus clones produced an apparently novel, faster-migrating complex, as judged by electrophoretic mobility shift assays.</clue>
+</event>
+<event KT="Method" id="E13">
+<type class="Physiological_process"/>
+<theme idref="T16"/>
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> plus clones liberated the classical p50-p65 complex from cytoplasmic pools, whereas minus clones produced an apparently novel, faster-migrating complex, as judged by electrophoretic mobility shift assays.</clue>
+</event>
+<event id="E14">
+<type class="Gene_expression"/>
+<theme idref="T17"/>
+<clue>Stimulation of plus clones liberated the classical p50-p65 complex from cytoplasmic pools, whereas minus clones <clueType>produced</clueType> an apparently novel, faster-migrating complex, as judged by electrophoretic mobility shift assays.</clue>
+</event>
+<event KT="Analysis" id="E61">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="E13"/>
+<clue>Stimulation of plus clones liberated the classical p50-p65 complex from cytoplasmic pools, whereas minus clones produced an apparently novel, faster-migrating complex, <clueExperiment><clueKT>as judged by</clueKT> electrophoretic mobility shift assays</clueExperiment>.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S6">It is surprising that the <term id="T19" lex="faster-migrating_complex" sem="Protein_complex">faster-migrating complex</term> was composed also of <term id="T20" lex="p50" sem="Protein_molecule">p50</term> and <term id="T21" lex="p65" sem="Protein_molecule">p65</term>.</sentence>
+<sentence id="S7">However, the <term id="T22" lex="p65_subunit" sem="Protein_molecule">p65 subunit</term> was <term id="A100" sem="Protein_molecule"><term id="T24" lex="COOH-terminally_truncated" sem="Other">COOH-terminally truncated</term></term>, as shown by <term id="T25" lex="immunoprecipitation" sem="Other">immunoprecipitation</term>.</sentence>
+<event KT="Analysis" id="E16">
+<type class="Protein_processing"/>
+<theme idref="T22"/>
+<clue>However, the p65 subunit was <clueType>COOH-terminally truncated</clueType>, <clueKT>as shown</clueKT> <clueExperiment>by immunoprecipitation.</clueExperiment></clue>
+</event>
+<sentence id="S8">The truncation resulted from limited proteolysis of <term id="T26" lex="p65" sem="Protein_molecule">p65</term> during <term id="T27" lex="cellular_extraction" sem="Other">cellular extraction</term> which released particular <term id="T28" lex="lysosomal_serine_protease" sem="Protein_family_or_group">lysosomal <term id="T29" lex="serine_protease" sem="Protein_family_or_group">serine proteases</term></term>, such as <term id="T30" lex="elastase" sem="Protein_family_or_group">elastase</term>, <term id="T31" lex="cathepsin_G" sem="Protein_molecule">cathepsin G</term>, and <term id="T32" lex="proteinase_3" sem="Protein_molecule">proteinase 3</term>.</sentence>
+<event Manner="Low" id="E117">
+<type class="Protein_processing"/>
+<theme idref="T26"/>
+<product idref="T22" idref1="A100"/>
+<clue><corefTheme idref1="T22">The truncation</corefTheme> resulted from <clueManner>limited</clueManner> <clueType>proteolysis</clueType> <linkTheme>of</linkTheme> p65 during cellular extraction which released particular lysosomal serine proteases, such as elastase, cathepsin G, and proteinase 3.</clue>
+</event>
+<event Manner="Low" id="E118">
+<type class="Positive_regulation"/>
+<theme idref="E117"/>
+<cause idref="T28"/>
+<clue>The truncation resulted from <clueManner>limited</clueManner> <clueType>proteolysis</clueType> of p65 <clueLoc>during cellular extraction</clueLoc> which released particular lysosomal serine proteases, such as elastase, cathepsin G, and proteinase 3.</clue>
+</event>
+<event Manner="Low" id="E119">
+<type class="Positive_regulation"/>
+<theme idref="E117"/>
+<cause idref="T30"/>
+<clue>The truncation resulted from <clueManner>limited</clueManner> <clueType>proteolysis</clueType> of p65 <clueLoc>during cellular extraction</clueLoc> which released particular <corefCause>lysosomal serine proteases</corefCause>, such as elastase, cathepsin G, and proteinase 3.</clue>
+</event>
+<event Manner="Low" id="E120">
+<type class="Positive_regulation"/>
+<theme idref="E117"/>
+<cause idref="T31"/>
+<clue>The truncation resulted from <clueManner>limited</clueManner> <clueType>proteolysis</clueType> of p65 <clueLoc>during cellular extraction</clueLoc> which released particular <corefCause>lysosomal serine proteases</corefCause>, such as elastase, cathepsin G, and proteinase 3.</clue>
+</event>
+<event Manner="Low" id="E121">
+<type class="Positive_regulation"/>
+<theme idref="E117"/>
+<cause idref="T32"/>
+<clue>The truncation resulted from <clueManner>limited</clueManner> <clueType>proteolysis</clueType> of p65 <clueLoc>during cellular extraction</clueLoc> which released particular <corefCause>lysosomal serine proteases</corefCause>, such as elastase, cathepsin G, and proteinase 3.</clue>
+</event>
+<sentence id="S9">These specific proteases are coordinately expressed and were present exclusively in the <term id="T33" lex="minus_U937_clone" sem="Cell_cultured">minus U937 clones</term>, but not in the <term id="T34" lex="plus_clone" sem="Cell_cultured">plus clones</term>, as demonstrated in the case of <term id="T35" lex="cathepsin_G" sem="Protein_molecule">cathepsin G</term>.</sentence>
+<event id="E21">
+<type class="Gene_expression"/>
+<theme idref="T30"/>
+<clue><corefTheme>These specific proteases</corefTheme> are coordinately <clueType>expressed</clueType> and were present exclusively <clueLoc>in the minus U937 clones</clueLoc>, but not in the plus clones, as demonstrated in the case of cathepsin G.</clue>
+</event>
+<event id="E22">
+<type class="Gene_expression"/>
+<theme idref="T31"/>
+<clue><corefTheme>These specific proteases</corefTheme> are coordinately <clueType>expressed</clueType> and were present exclusively <clueLoc>in the minus U937 clones</clueLoc>, but not in the plus clones, as demonstrated in the case of cathepsin G.</clue>
+</event>
+<event id="E23">
+<type class="Gene_expression"/>
+<theme idref="T32"/>
+<clue><corefTheme>These specific proteases</corefTheme> are coordinately <clueType>expressed</clueType> and were present exclusively <clueLoc>in the minus U937 clones</clueLoc>, but not in the plus clones, as demonstrated in the case of cathepsin G.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E24">
+<type class="Gene_expression"/>
+<theme idref="T30"/>
+<clue><corefTheme>These specific proteases</corefTheme> are coordinately <clueType>expressed</clueType> and were present exclusively in the minus U937 clones, but <cluePolarity>not</cluePolarity> <clueLoc>in the plus clones</clueLoc>, as demonstrated in the case of cathepsin G.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E25">
+<type class="Gene_expression"/>
+<theme idref="T31"/>
+<clue><corefTheme>These specific proteases</corefTheme> are coordinately <clueType>expressed</clueType> and were present exclusively in the minus U937 clones, but <cluePolarity>not</cluePolarity> <clueLoc>in the plus clones</clueLoc>, as demonstrated in the case of cathepsin G.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E26">
+<type class="Gene_expression"/>
+<theme idref="T32"/>
+<clue><corefTheme>These specific proteases</corefTheme> are coordinately <clueType>expressed</clueType> and were present exclusively in the minus U937 clones, but <cluePolarity>not</cluePolarity> <clueLoc>in the plus clones</clueLoc>, as demonstrated in the case of cathepsin G.</clue>
+</event>
+<sentence id="S10">In addition, these proteases were detected in certain subclones of <term id="T36" lex="THP-1" sem="Cell_cultured">THP-1</term> and <term id="T37" lex="HL-60_cell" sem="Cell_cultured">HL-60 cells</term> and in primary <term id="T38" lex="monocyte" sem="Cell_natural">monocytes</term>, in each case correlating with the truncated from of <term id="T39" lex="p65" sem="Protein_molecule">p65</term>.</sentence>
+<event id="E301">
+<type class="Gene_expression"/>
+<theme idref="T30"/>
+<clue>In addition, <corefTheme>these proteases</corefTheme> were <clueType>detected</clueType> <clueLoc>in certain subclones of THP-1</clueLoc> and HL-60 <clueLoc>cells</clueLoc> and in primary monocytes, in each case correlating with the truncated from of p65.</clue>
+</event>
+<event id="E302">
+<type class="Gene_expression"/>
+<theme idref="T30"/>
+<clue>In addition, <corefTheme>these proteases</corefTheme> were <clueType>detected</clueType> <clueLoc>in certain subclones of</clueLoc> THP-1 and <clueLoc>HL-60 cells</clueLoc> and in primary monocytes, in each case correlating with the truncated from of p65.</clue>
+</event>
+<event id="E303">
+<type class="Gene_expression"/>
+<theme idref="T30"/>
+<clue>In addition, <corefTheme>these proteases</corefTheme> were <clueType>detected</clueType> in certain subclones of THP-1 and HL-60 cells and <clueLoc>in primary monocytes</clueLoc>, in each case correlating with the truncated from of p65.</clue>
+</event>
+<event id="E304">
+<type class="Gene_expression"/>
+<theme idref="T31"/>
+<clue>In addition, <corefTheme>these proteases</corefTheme> were <clueType>detected</clueType> <clueLoc>in certain subclones of THP-1</clueLoc> and HL-60 <clueLoc>cells</clueLoc> and in primary monocytes, in each case correlating with the truncated from of p65.</clue>
+</event>
+<event id="E305">
+<type class="Gene_expression"/>
+<theme idref="T31"/>
+<clue>In addition, <corefTheme>these proteases</corefTheme> were <clueType>detected</clueType> <clueLoc>in certain subclones of</clueLoc> THP-1 and <clueLoc>HL-60 cells</clueLoc> and in primary monocytes, in each case correlating with the truncated from of p65.</clue>
+</event>
+<event id="E306">
+<type class="Gene_expression"/>
+<theme idref="T31"/>
+<clue>In addition, <corefTheme>these proteases</corefTheme> were <clueType>detected</clueType> in certain subclones of THP-1 and HL-60 cells and <clueLoc>in primary monocytes</clueLoc>, in each case correlating with the truncated from of p65.</clue>
+</event>
+<event id="E307">
+<type class="Gene_expression"/>
+<theme idref="T32"/>
+<clue>In addition, <corefTheme>these proteases</corefTheme> were <clueType>detected</clueType> <clueLoc>in certain subclones of THP-1</clueLoc> and HL-60 <clueLoc>cells</clueLoc> and in primary monocytes, in each case correlating with the truncated from of p65.</clue>
+</event>
+<event id="E308">
+<type class="Gene_expression"/>
+<theme idref="T32"/>
+<clue>In addition, <corefTheme>these proteases</corefTheme> were <clueType>detected</clueType> <clueLoc>in certain subclones of</clueLoc> THP-1 and <clueLoc>HL-60 cells</clueLoc> and in primary monocytes, in each case correlating with the truncated from of p65.</clue>
+</event>
+<event id="E309">
+<type class="Gene_expression"/>
+<theme idref="T32"/>
+<clue>In addition, <corefTheme>these proteases</corefTheme> were <clueType>detected</clueType> in certain subclones of THP-1 and HL-60 cells and <clueLoc>in primary monocytes</clueLoc>, in each case correlating with the truncated from of p65.</clue>
+</event>
+<event KT="Other" id="E30">
+<type class="Protein_processing"/>
+<theme idref="T39"/>
+<clue>In addition, these proteases were detected in certain subclones of THP-1 and HL-60 cells and in primary monocytes, in each case correlating with the <clueType>truncated</clueType> from <linkTheme>of</linkTheme> p65.</clue>
+</event>
+<event KT="Analysis" id="E310">
+<type class="Correlation"/>
+<theme idref="E30"/>
+<theme idref="E301"/>
+<clue>In addition, these proteases were detected in certain subclones of THP-1 and HL-60 cells and in primary monocytes, in each case <clueType><clueKT>correlating</clueKT></clueType> <linkTheme>with</linkTheme> the truncated from of p65.</clue>
+</event>
+<event KT="Analysis" id="E311">
+<type class="Correlation"/>
+<theme idref="E30"/>
+<theme idref="E302"/>
+<clue>In addition, these proteases were detected in certain subclones of THP-1 and HL-60 cells and in primary monocytes, in each case <clueType><clueKT>correlating</clueKT></clueType> <linkTheme>with</linkTheme> the truncated from of p65.</clue>
+</event>
+<event KT="Analysis" id="E312">
+<type class="Correlation"/>
+<theme idref="E30"/>
+<theme idref="E303"/>
+<clue>In addition, these proteases were detected in certain subclones of THP-1 and HL-60 cells and in primary monocytes, in each case <clueType><clueKT>correlating</clueKT></clueType> <linkTheme>with</linkTheme> the truncated from of p65.</clue>
+</event>
+<event KT="Analysis" id="E313">
+<type class="Correlation"/>
+<theme idref="E30"/>
+<theme idref="E304"/>
+<clue>In addition, these proteases were detected in certain subclones of THP-1 and HL-60 cells and in primary monocytes, in each case <clueType><clueKT>correlating</clueKT></clueType> <linkTheme>with</linkTheme> the truncated from of p65.</clue>
+</event>
+<event KT="Analysis" id="E314">
+<type class="Correlation"/>
+<theme idref="E30"/>
+<theme idref="E305"/>
+<clue>In addition, these proteases were detected in certain subclones of THP-1 and HL-60 cells and in primary monocytes, in each case <clueType><clueKT>correlating</clueKT></clueType> <linkTheme>with</linkTheme> the truncated from of p65.</clue>
+</event>
+<event KT="Analysis" id="E315">
+<type class="Correlation"/>
+<theme idref="E30"/>
+<theme idref="E306"/>
+<clue>In addition, these proteases were detected in certain subclones of THP-1 and HL-60 cells and in primary monocytes, in each case <clueType><clueKT>correlating</clueKT></clueType> <linkTheme>with</linkTheme> the truncated from of p65.</clue>
+</event>
+<event KT="Analysis" id="E316">
+<type class="Correlation"/>
+<theme idref="E30"/>
+<theme idref="E307"/>
+<clue>In addition, these proteases were detected in certain subclones of THP-1 and HL-60 cells and in primary monocytes, in each case <clueType><clueKT>correlating</clueKT></clueType> <linkTheme>with</linkTheme> the truncated from of p65.</clue>
+</event>
+<event KT="Analysis" id="E317">
+<type class="Correlation"/>
+<theme idref="E30"/>
+<theme idref="E308"/>
+<clue>In addition, these proteases were detected in certain subclones of THP-1 and HL-60 cells and in primary monocytes, in each case <clueType><clueKT>correlating</clueKT></clueType> <linkTheme>with</linkTheme> the truncated from of p65.</clue>
+</event>
+<event KT="Analysis" id="E318">
+<type class="Correlation"/>
+<theme idref="E30"/>
+<theme idref="E309"/>
+<clue>In addition, these proteases were detected in certain subclones of THP-1 and HL-60 cells and in primary monocytes, in each case <clueType><clueKT>correlating</clueKT></clueType> <linkTheme>with</linkTheme> the truncated from of p65.</clue>
+</event>
+<sentence id="S11">We demonstrate in vitro cleavage of <term id="T40" lex="p65" sem="Protein_molecule">p65</term> by purified <term id="T41" lex="elastase" sem="Protein_family_or_group">elastase</term> and <term id="T42" lex="cathepsin_G" sem="Protein_molecule">cathepsin G</term>.</sentence>
+<event KT="Other" id="E134">
+<type class="Protein_processing"/>
+<theme idref="T40"/>
+<clue>We demonstrate in vitro <clueType>cleavage</clueType> <linkTheme>of</linkTheme> p65 by purified elastase and cathepsin G.</clue>
+</event>
+<event KT="Analysis" id="E135">
+<type class="Positive_regulation"/>
+<theme idref="E134"/>
+<cause idref="T41"/>
+<clue>We <clueKT>demonstrate</clueKT> in vitro <clueType>cleavage</clueType> of p65 <linkCause>by</linkCause> purified elastase and cathepsin G.</clue>
+</event>
+<event KT="Analysis" id="E136">
+<type class="Positive_regulation"/>
+<theme idref="E134"/>
+<cause idref="T42"/>
+<clue>We <clueKT>demonstrate</clueKT> in vitro <clueType>cleavage</clueType> of p65 <linkCause>by</linkCause> purified elastase and cathepsin G.</clue>
+</event>
+<sentence id="S12">It is possible that particular <term id="T43" lex="serine_protease" sem="Protein_family_or_group">serine proteases</term> may have inhibiting effects on the replication of <term id="T44" lex="HIV-1" sem="Virus">HIV-1</term> in <term id="T45" lex="myelo-monocytic_cell" sem="Cell_cultured">myelo-<term id="T46" lex="monocytic_cell" sem="Cell_natural">monocytic cells</term></term>.</sentence>
+<event KT="Other" id="E36">
+<type class="Viral_life_cycle"/>
+<theme idref="T44"/>
+<clue>It is possible that particular serine proteases may have inhibiting effects on the <clueType>replication</clueType> <linkTheme>of</linkTheme> HIV-1 in myelo-monocytic cells.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E37" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="E36"/>
+<cause idref="T43"/>
+<clue>It is <clueCL>possible</clueCL> that particular serine proteases <clueKT><clueCL>may</clueCL></clueKT> have <clueType>inhibiting</clueType> effects <linkTheme>on</linkTheme> the replication of HIV-1 <clueLoc>in myelo-monocytic cells</clueLoc>.</clue>
+</event>
+<sentence id="S13">The data also demonstrate that special precautions must be taken when making extracts from <term id="T47" lex="myelo-monocytic_cell" sem="Cell_cultured">myelo-<term id="T48" lex="monocytic_cell" sem="Cell_natural">monocytic cells</term></term>.</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

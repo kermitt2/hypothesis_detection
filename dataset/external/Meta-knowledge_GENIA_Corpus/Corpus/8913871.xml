@@ -1,0 +1,222 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8913871" created="07/02/22" creator="Yumiko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8913871</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Potent <term id="T1" lex="gene_regulatory_activity" sem="Other"><term id="A2" sem="DNA_molecule">gene</term> regulatory</term> and <term id="T2" lex="antiproliferative_activity" sem="Other">antiproliferative activities</term> of <term id="A1" sem="Organic_compound_other"><term id="T3" lex="20-methyl_analogue" sem="Organic_compound_other">20-methyl analogues</term> of <term id="T4" lex="1,25_dihydroxyvitamin_D3" sem="Lipid">1,25 dihydroxyvitamin D3</term></term>.</sentence>
+<event KT="Investigation" Manner="High" id="E1">
+<type class="Regulation"/>
+<theme idref="A2"/>
+<cause idref="A1"/>
+<clue><clueManner>Potent</clueManner> gene <clueType>regulatory</clueType> and antiproliferative activities <linkCause>of</linkCause> 20-methyl analogues of 1,25 dihydroxyvitamin D3.</clue>
+<comment>TPS A1</comment></event>
+<event KT="Investigation" Manner="High" id="E2">
+<type class="Negative_regulation"/>
+<cause idref="A1"/>
+<clue><clueManner>Potent</clueManner> gene regulatory and <clueType>antiproliferative activities</clueType> <linkCause>of</linkCause> 20-methyl analogues of 1,25 dihydroxyvitamin D3.</clue>
+<comment>NO THEME</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The biological active form of <term id="T5" lex="vitamin_D3" sem="Lipid">vitamin D3</term>, <term id="T6" lex="1,25-dihydroxyvitamin_D3" sem="Lipid">1,25-dihydroxyvitamin D3</term> (<term id="T7" lex="VD" sem="Lipid">VD</term>), regulates <term id="A3" sem="Other"><term id="A10" sem="Other">cellular</term> growth</term> and <term id="A11" sem="Other">differentiation</term>.</sentence>
+<event KT="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T7"/>
+<clue>The biological <clueType>active form</clueType> <linkTheme>of</linkTheme> vitamin D3, 1,25-dihydroxyvitamin D3 (VD), regulates cellular growth and differentiation.</clue>
+</event>
+<event KT="Fact" id="E3">
+<type class="Regulation"/>
+<theme idref="A10" idref1="A11"/>
+<cause idref="E4"/>
+<clue>The biological active form of vitamin D3, 1,25-dihydroxyvitamin D3 (VD), <clueType>regulates</clueType> cellular growth and differentiation.</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Regulation"/>
+<theme idref="A3"/>
+<cause idref="E4"/>
+<clue>The biological active form of vitamin D3, 1,25-dihydroxyvitamin D3 (VD), <clueType>regulates</clueType> cellular growth and differentiation.</clue>
+</event>
+<sentence id="S3">This provides the <term id="A4" sem="Protein_molecule">hormone with an interesting therapeutic potential</term>.</sentence>
+<event KT="Fact" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="A4"/>
+<cause idref="T7"/>
+<clue><corefCause>This</corefCause> <clueType>provides</clueType> the hormone with an interesting therapeutic potential.</clue>
+<comment>TPS A4</comment></event>
+<sentence id="S4">However, <term id="T9" lex="hypercalcemia" sem="Other">hypercalcemia</term> is a side effect, which is caused by <term id="T10" lex="VD" sem="Lipid">VD</term>&apos;s classical action, the regulation of <term id="T11" lex="calcium_homeostasis" sem="Other"><term id="T12" lex="calcium" sem="Element">calcium</term> homeostasis</term>.</sentence>
+<event KT="Other" id="E80">
+<type class="Physiological_process"/>
+<theme idref="T12"/>
+<clue>However, hypercalcemia is a side effect, which is caused by VD&apos;s classical action, the regulation of calcium <clueType>homeostasis</clueType>.</clue>
+</event>
+<event KT="Fact" id="E8">
+<type class="Regulation"/>
+<theme idref="E80"/>
+<cause idref="T10"/>
+<clue>However, hypercalcemia is a side effect, which is caused by VD&apos;s classical action, the <clueType>regulation</clueType> <linkTheme>of</linkTheme> calcium homeostasis.</clue>
+</event>
+<event KT="Fact" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="T9"/>
+<cause idref="E8"/>
+<clue>However, hypercalcemia is a side effect, which is <clueType>caused</clueType> <linkCause>by</linkCause> <corefCause>VD&apos;s classical action</corefCause>, the regulation of calcium homeostasis.</clue>
+</event>
+<sentence id="S5">This made the need for <term id="A5" sem="Organic_compound_other"><term id="T13" lex="VD" sem="Lipid">VD</term> analogues</term> with selectively increased <term id="T14" lex="cell_regulatory_property" sem="Other">cell regulatory properties</term>.</sentence>
+<event KT="Other" id="E10">
+<type class="Regulation"/>
+<cause idref="A5"/>
+<clue>This made the need for VD analogues with selectively increased <clueType>cell regulatory properties</clueType>.</clue>
+<comment>NO THEME</comment></event>
+<event KT="Fact" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<clue>This made the need for VD analogues with selectively <clueType>increased</clueType> cell regulatory properties.</clue>
+</event>
+<sentence id="S6">Studies with <term id="T15" lex="20-epi_analogue" sem="Organic_compound_other">20-epi analogues</term> pointed out the importance of the carbon-20 position and led to the development of <term id="T16" lex="20-methyl_derivative" sem="Organic_compound_other">20-methyl derivatives</term> of <term id="T17" lex="VD" sem="Lipid">VD</term>.</sentence>
+<sentence id="S7">In this report the biological properties of the compounds <term id="T18" lex="ZK161422" sem="Organic_compound_other">ZK161422</term> and <term id="T19" lex="ZK157202" sem="Organic_compound_other">ZK157202</term>, which are <cons id="T20" lex="(AND 20-methyl-eneanalogue 20-methyl-23-eneanalogue)" sem="(AND Organic_compound_other Organic_compound_other)"><frag id="F1">20-methyl-</frag> and <frag id="F2">20-methyl-23-</frag><frag id="F3">eneanalogues</frag></cons>, respectively, have been analyzed in comparison with <term id="T21" lex="VD" sem="Lipid">VD</term>.</sentence>
+<sentence id="S8">Both compounds show about 2-fold lower affinity to the <term id="T22" lex="VD" sem="Lipid">VD</term> receptor (<term id="A6" sem="Protein_family_or_group">VDR</term>) than <term id="T23" lex="VD" sem="Lipid">VD</term>.</sentence>
+<event KT="Analysis" Manner="Low" id="E12">
+<type class="Binding"/>
+<theme idref="T18"/>
+<theme idref="A6"/>
+<clue><corefTheme idref1="T18">Both compounds</corefTheme> <clueKT>show</clueKT> about <clueManner>2-fold</clueManner> <clueType><clueManner>lower</clueManner> affinity</clueType> <linkTheme>to</linkTheme> the VD receptor (VDR) than VD.</clue>
+</event>
+<event KT="Analysis" Manner="Low" id="E13">
+<type class="Binding"/>
+<theme idref="T19"/>
+<theme idref="A6"/>
+<clue><corefTheme idref1="T19">Both compounds</corefTheme> <clueKT>show</clueKT> about <clueManner>2-fold</clueManner> <clueType><clueManner>lower</clueManner> affinity</clueType> <linkTheme>to</linkTheme> the VD receptor (VDR) than VD.</clue>
+</event>
+<event KT="Analysis" id="E14">
+<type class="Binding"/>
+<theme idref="T18"/>
+<theme idref="T23"/>
+<clue><corefTheme idref1="T18">Both compounds</corefTheme> <clueKT>show</clueKT> about 2-fold lower <clueType>affinity</clueType> <linkTheme>to</linkTheme> the VD receptor (VDR) than VD.</clue>
+</event>
+<event KT="Analysis" id="E15">
+<type class="Binding"/>
+<theme idref="T19"/>
+<theme idref="T23"/>
+<clue><corefTheme idref1="T19">Both compounds</corefTheme> <clueKT>show</clueKT> about 2-fold lower <clueType>affinity</clueType> <linkTheme>to</linkTheme> the VD receptor (VDR) than VD.</clue>
+</event>
+<sentence id="S9">However, compared to <term id="T24" lex="VD" sem="Lipid">VD</term>, their antiproliferative effect is up to 30-fold higher on <term id="T25" lex="human_peripheral_blood_mononuclear_cell" sem="Cell_natural">human peripheral blood mononuclear cells</term> and even up to 300-fold higher on <term id="T26" lex="human_breast_cancer_MCF-7_cell" sem="Cell_cultured">human breast cancer MCF-7 cells</term>.</sentence>
+<event KT="Other" id="E16">
+<type class="Cellular_physiological_process"/>
+<theme idref="T25"/>
+<clue>However, compared to VD, their <clueType>antiproliferative</clueType> effect is up to 30-fold higher on human peripheral blood mononuclear cells and even up to 300-fold higher on human breast cancer MCF-7 cells.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Cellular_physiological_process"/>
+<theme idref="T26"/>
+<clue>However, compared to VD, their <clueType>antiproliferative</clueType> effect is up to 30-fold higher on human peripheral blood mononuclear cells and even up to 300-fold higher on human breast cancer MCF-7 cells.</clue>
+</event>
+<event id="E18">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<cause idref="T18"/>
+<clue>However, compared to VD, <corefCause>their</corefCause> <clueType>antiproliferative effect</clueType> is up to 30-fold higher <linkTheme>on</linkTheme> human peripheral blood mononuclear cells and even up to 300-fold higher on human breast cancer MCF-7 cells.</clue>
+</event>
+<event id="E19">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<cause idref="T19"/>
+<clue>However, compared to VD, <corefCause>their</corefCause> <clueType>antiproliferative effect</clueType> is up to 30-fold higher <linkTheme>on</linkTheme> human peripheral blood mononuclear cells and even up to 300-fold higher on human breast cancer MCF-7 cells.</clue>
+</event>
+<event id="E20">
+<type class="Negative_regulation"/>
+<theme idref="E17"/>
+<cause idref="T18"/>
+<clue>However, compared to VD, <corefCause>their</corefCause> <clueType>antiproliferative effect</clueType> is up to 30-fold higher on human peripheral blood mononuclear cells and even up to 300-fold higher <linkTheme>on</linkTheme> human breast cancer MCF-7 cells.</clue>
+</event>
+<event id="E21">
+<type class="Negative_regulation"/>
+<theme idref="E17"/>
+<cause idref="T19"/>
+<clue>However, compared to VD, <corefCause>their</corefCause> <clueType>antiproliferative effect</clueType> is up to 30-fold higher on human peripheral blood mononuclear cells and even up to 300-fold higher <linkTheme>on</linkTheme> human breast cancer MCF-7 cells.</clue>
+</event>
+<event Manner="High" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<clue>However, compared to VD, their antiproliferative effect is <clueType><clueManner>up to 30-fold higher</clueManner></clueType> <clueLoc>on human peripheral blood mononuclear cells</clueLoc> and even up to 300-fold higher on human breast cancer MCF-7 cells.</clue>
+</event>
+<event Manner="High" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<clue>However, compared to VD, their antiproliferative effect is <clueType><clueManner>up to 30-fold higher</clueManner></clueType> <clueLoc>on human peripheral blood mononuclear cells</clueLoc> and even up to 300-fold higher on human breast cancer MCF-7 cells.</clue>
+</event>
+<event Manner="High" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<clue>However, compared to VD, their antiproliferative effect is <clueType><clueManner>up</clueManner></clueType> to 30-fold higher on human peripheral blood mononuclear cells and even up <clueType><clueManner>to 300-fold higher</clueManner></clueType> <clueLoc>on human breast cancer MCF-7 cells</clueLoc>.</clue>
+</event>
+<event Manner="High" id="E25">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<clue>However, compared to VD, their antiproliferative effect is <clueType><clueManner>up</clueManner></clueType> to 30-fold higher on human peripheral blood mononuclear cells and even up <clueType><clueManner>to 300-fold higher</clueManner></clueType> <clueLoc>on human breast cancer MCF-7 cells</clueLoc>.</clue>
+</event>
+<sentence id="S10">Whereas the <term id="A8" sem="Other">hypercalcemic</term> effect for <term id="T27" lex="ZK157202" sem="Organic_compound_other">ZK157202</term> is also increased 10-fold, <term id="T28" lex="ZK161422" sem="Organic_compound_other">ZK161422</term> has the same <term id="T29" lex="calcium-mobilizing_potency" sem="Other"><term id="T30" lex="calcium" sem="Element">calcium</term>-mobilizing potency</term> as <term id="T31" lex="VD" sem="Lipid">VD</term>.</sentence>
+<event id="E26">
+<type class="Regulation"/>
+<theme idref="A8"/>
+<cause idref="T27"/>
+<clue>Whereas the hypercalcemic <clueType>effect</clueType> <linkCause>for</linkCause> ZK157202 is also increased 10-fold, ZK161422 has the same calcium-mobilizing potency as VD.</clue>
+</event>
+<event Manner="High" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="E26"/>
+<clue>Whereas the hypercalcemic effect for ZK157202 is also <clueType>increased</clueType> <clueManner>10-fold</clueManner>, ZK161422 has the same calcium-mobilizing potency as VD.</clue>
+</event>
+<event Manner="High" id="E28">
+<type class="Regulation"/>
+<theme idref="T30"/>
+<cause idref="T28"/>
+<clue>Whereas the hypercalcemic effect for ZK157202 is also increased 10-fold, ZK161422 has the same calcium-mobilizing <clueType><clueManner>potency</clueManner></clueType> as VD.</clue>
+</event>
+<sentence id="S11">Moreover, <term id="T32" lex="ZK161422" sem="Organic_compound_other">ZK161422</term>, but not <term id="T33" lex="ZK157202" sem="Organic_compound_other">ZK157202</term>, showed preference for gene activation from a <term id="A55" sem="DNA_domain_or_region"><term id="A12" sem="DNA_domain_or_region"><term id="T34" lex="promoter" sem="DNA_domain_or_region">promoter</term> carrying a <term id="T35" lex="VD_response_element" sem="DNA_domain_or_region"><term id="T36" lex="VD" sem="Lipid">VD</term> response element</term></term> with a <term id="T37" lex="palindromic_arrangement" sem="DNA_substructure">palindromic arrangement</term> of two <term id="T38" lex="hexameric_receptor_binding_site" sem="DNA_domain_or_region">hexameric receptor binding sites</term> spaced by <term id="T39" lex="9_nucleotide" sem="Polynucleotide">9 nucleotides</term> (<term id="T40" lex="IP9" sem="Polynucleotide">IP9</term>)</term> rather than for activation from a <term id="A14" sem="DNA_domain_or_region"><term id="T41" lex="response_element" sem="DNA_domain_or_region">response element</term> formed by a direct repeat spaced by <term id="T42" lex="3_nucleotide" sem="Polynucleotide">3 nucleotides</term></term> (<term id="T43" lex="DR3" sem="Polynucleotide">DR3</term>).</sentence>
+<event KT="Other" id="E29">
+<type class="Positive_regulation"/>
+<theme idref="A55"/>
+<clue>Moreover, ZK161422, but not ZK157202, showed preference for gene <clueType>activation</clueType> <linkTheme>from</linkTheme> a promoter carrying a VD response element with a palindromic arrangement of two hexameric receptor binding sites spaced by 9 nucleotides (IP9) rather than for activation from a response element formed by a direct repeat spaced by 3 nucleotides (DR3).</clue>
+<comment>TPS A55</comment></event>
+<event KT="Other" id="E30">
+<type class="Positive_regulation"/>
+<theme idref="A14"/>
+<clue>Moreover, ZK161422, but not ZK157202, showed preference for gene activation from a promoter carrying a VD response element with a palindromic arrangement of two hexameric receptor binding sites spaced by 9 nucleotides (IP9) rather than for <clueType>activation</clueType> <linkTheme>from</linkTheme> a response element formed by a direct repeat spaced by 3 nucleotides (DR3).</clue>
+<comment>TPS A14</comment></event>
+<event KT="Analysis" id="E31">
+<type class="Correlation"/>
+<theme idref="T32"/>
+<theme idref="E29"/>
+<clue>Moreover, ZK161422, but not ZK157202, <clueKT>showed</clueKT> <clueType>preference</clueType> <linkTheme>for</linkTheme> gene activation from a promoter carrying a VD response element with a palindromic arrangement of two hexameric receptor binding sites spaced by 9 nucleotides (IP9) rather than for activation from a response element formed by a direct repeat spaced by 3 nucleotides (DR3).</clue>
+</event>
+<event KT="Analysis" id="E32">
+<type class="Correlation"/>
+<theme idref="T32"/>
+<theme idref="E30"/>
+<clue>Moreover, ZK161422, but not ZK157202, <clueKT>showed</clueKT> <clueType>preference</clueType> for gene activation from a promoter carrying a VD response element with a palindromic arrangement of two hexameric receptor binding sites spaced by 9 nucleotides (IP9) rather than <linkTheme>for</linkTheme> activation from a response element formed by a direct repeat spaced by 3 nucleotides (DR3).</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E33">
+<type class="Correlation"/>
+<theme idref="T33"/>
+<theme idref="E29"/>
+<clue>Moreover, ZK161422, but <cluePolarity>not</cluePolarity> ZK157202, <clueKT>showed</clueKT> <clueType>preference</clueType> <linkTheme>for</linkTheme> gene activation from a promoter carrying a VD response element with a palindromic arrangement of two hexameric receptor binding sites spaced by 9 nucleotides (IP9) rather than for activation from a response element formed by a direct repeat spaced by 3 nucleotides (DR3).</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E34">
+<type class="Correlation"/>
+<theme idref="T33"/>
+<theme idref="E30"/>
+<clue>Moreover, ZK161422, but <cluePolarity>not</cluePolarity> ZK157202, <clueKT>showed</clueKT> <clueType>preference</clueType> <linkTheme>for</linkTheme> gene activation from a promoter carrying a VD response element with a palindromic arrangement of two hexameric receptor binding sites spaced by 9 nucleotides (IP9) rather than for activation from a response element formed by a direct repeat spaced by 3 nucleotides (DR3).</clue>
+</event>
+<sentence id="S12">This observation supports a model, in which <term id="T44" lex="promoter_selectivity" sem="Other">promoter selectivity</term> reflects the selectively increased <term id="T45" lex="antiproliferative_effect" sem="Other">antiproliferative effect</term> of <term id="T46" lex="VD_analogue" sem="Organic_compound_other"><term id="T47" lex="VD" sem="Lipid">VD</term> analogues</term>.</sentence>
+<event KT="Other" id="E35">
+<type class="Negative_regulation"/>
+<cause idref="T46"/>
+<clue>This observation supports a model, in which promoter selectivity reflects the selectively increased <clueType>antiproliferative effect</clueType> <linkCause>of</linkCause> VD analogues.</clue>
+<comment>NO THEME</comment></event>
+<event KT="Analysis" id="E36">
+<type class="Positive_regulation"/>
+<theme idref="E35"/>
+<cause idref="T44"/>
+<clue>This observation supports a model, in which promoter selectivity <clueKT>reflects</clueKT> the selectively <clueType>increased</clueType> antiproliferative effect of VD analogues.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

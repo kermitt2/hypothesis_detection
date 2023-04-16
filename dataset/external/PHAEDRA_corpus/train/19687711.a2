@@ -1,0 +1,24 @@
+T34	Adverse_effect 372 383	association
+T37	Adverse_effect 67 78	consequence
+T39	Potential_therapeutic_effect 252 259	therapy
+T40	Adverse_effect 200 209	secondary
+T22	Potential_therapeutic_effect 841 844	for
+T44	Adverse_effect 998 1009	development
+T28	Potential_therapeutic_effect 1162 1167	given
+R2	is_equivalent Arg1:T12 Arg2:T23
+R3	is_equivalent Arg1:T3 Arg2:T26
+R4	is_equivalent Arg1:T4 Arg2:T27
+R5	is_equivalent Arg1:T5 Arg2:T7
+R6	is_equivalent Arg1:T6 Arg2:T31
+E6	Combination:T41 has_participant:T5 has_participant:T6
+E7	Combination:T42 has_participant:T7 has_participant:T31
+E8	Combination:T43 has_participant:T18 has_participant:T35
+E11	Combination:T46 has_participant:T19 has_participant:T36
+E2	Adverse_effect:T34 affects:T32 affects:T33 has_agent:T9
+E3	Adverse_effect:T37 affects:T1 affects:T2 has_agent:T20
+E4	Potential_therapeutic_effect:T39 affects:T8 has_agent:T5 has_agent:T6
+E5	Adverse_effect:T40 affects:T3 affects:T4 has_agent:E6
+E1	Potential_therapeutic_effect:T22 has_agent:T15 affects:T24
+E9	Adverse_effect:T44 affects:T21 has_cue:T45 has_agent:E8
+E10	Potential_therapeutic_effect:T28 has_agent:E11 affects:T30
+A1	Speculated E9

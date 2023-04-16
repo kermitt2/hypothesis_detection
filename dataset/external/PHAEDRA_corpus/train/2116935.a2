@@ -1,0 +1,12 @@
+T4	Adverse_effect 31 43	complication
+T24	Potential_therapeutic_effect 102 108	herapy
+T25	Adverse_effect 185 191	result
+T27	Potential_therapeutic_effect 389 392	for
+T28	Adverse_effect 342 351	developed
+R1	is_equivalent Arg1:T21 Arg2:T22
+E1	Adverse_effect:T4 has_agent:T2 affects:T1
+E2	Potential_therapeutic_effect:T24 has_agent:T21 affects:T7
+E3	Adverse_effect:T25 has_cue:T26 has_agent:T21 affects:T8
+E4	Potential_therapeutic_effect:T27 has_agent:T12 affects:T15
+E5	Adverse_effect:T28 has_agent:T12 affects:T10 affects:T11
+A1	Speculated E3

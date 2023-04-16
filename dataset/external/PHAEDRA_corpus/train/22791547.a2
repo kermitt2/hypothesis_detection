@@ -1,0 +1,16 @@
+T10	Adverse_effect 16 23	induced
+T18	Adverse_effect 752 757	after
+T19	Potential_therapeutic_effect 262 271	treatment
+T20	Potential_therapeutic_effect 345 354	receiving
+T23	Adverse_effect 842 854	side effects
+R1	Subject_Disorder Arg1:T17 Arg2:T4
+E1	Adverse_effect:T10 has_agent:T1 affects:T2
+E2	Adverse_effect:T18 has_agent:T15 affects:T14
+E3	Potential_therapeutic_effect:T19 has_agent:T5 affects:T6
+E4	Potential_therapeutic_effect:T20 has_agent:T7 affects:T8 has_subject:T17
+E5	Adverse_effect:T23 has_cue:T24 has_agent:T16
+A1	Speculated E5
+T21	Adverse_effect 434 439	after
+E6	Adverse_effect:T21 has_agent:T11 affects:T9
+T25	Adverse_effect 564 569	after
+E7	Adverse_effect:T25 affects:T12 has_agent:T13

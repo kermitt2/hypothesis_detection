@@ -1,0 +1,18 @@
+T17	Adverse_effect 32 42	associated
+T18	Adverse_effect 631 636	after
+T19	Potential_therapeutic_effect 657 666	treatment
+T21	Adverse_effect 952 962	implicated
+T27	Adverse_effect 236 240	have
+T25	Adverse_effect 196 201	occur
+T43	Adverse_effect 1058 1062	with
+E1	Adverse_effect:T17 has_agent:T2 affects:T1
+E2	Adverse_effect:T18 has_agent:T8 has_agent:T9 affects:T7
+E3	Potential_therapeutic_effect:T19 has_agent:T8 has_agent:T9 affects:T10
+E4	Adverse_effect:T21 has_agent:T11 affects:T22
+E5	Adverse_effect:T21 has_cue:T23 has_agent:T12 affects:T22
+E7	Adverse_effect:T27 has_agent:T26 affects:T5 has_cue:T28
+E6	Adverse_effect:T25 has_cue:T29 affects:T4 has_agent:T26
+E9	Adverse_effect:T43 has_agent:T14 affects:T13
+A1	Manner E5 Low
+A2	Speculated E7
+A3	Speculated E6

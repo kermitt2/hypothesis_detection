@@ -1,0 +1,193 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8960365" created="29/11/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8960365</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">A novel <term id="A1" sem="Protein_molecule"><term id="T1" lex="immunosuppressive_factor" sem="Protein_family_or_group">immunosuppressive factor</term> in <term id="T2" lex="bovine_colostrum" sem="Body_region">bovine colostrum</term></term> blocks activation of the <term id="T3" lex="interleukin_2_gene_enhancer" sem="DNA_domain_or_region">interleukin 2 gene enhancer</term> at the <term id="T4" lex="NFAT_site" sem="DNA_domain_or_region">NFAT site</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Positive_regulation"/>
+<theme idref="T3"/>
+<clue>A novel immunosuppressive factor in bovine colostrum blocks <clueType>activation</clueType> <linkTheme>of</linkTheme> the interleukin 2 gene enhancer at the NFAT site.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation"/>
+<theme idref="E1"/>
+<cause idref="A1"/>
+<clue>A novel immunosuppressive factor in bovine colostrum <clueType>blocks</clueType> activation of the interleukin 2 gene enhancer at the NFAT site.</clue>
+<comment>TPS: A1</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">A factor in <term id="T5" lex="bovine_colostrum" sem="Body_region">bovine colostrum</term> (<term id="T6" lex="colostrum_inhibitory_factor" sem="Protein_molecule">colostrum inhibitory factor</term>, <term id="T7" lex="CIF" sem="Protein_molecule">CIF</term>) inhibits <term id="T8" lex="interleukin_2" sem="Protein_molecule">interleukin 2</term> (<term id="T9" lex="IL2" sem="Protein_molecule">IL2</term>) production in activated <term id="T10" lex="T_helper_cell" sem="Cell_natural">T helper cells</term> by blocking the accumulation of <term id="T11" lex="IL2_mRNA" sem="RNA_molecule"><term id="T12" lex="IL2" sem="Protein_molecule">IL2</term> mRNA</term>.</sentence>
+<event KT="Other" id="E3">
+<type class="Gene_expression"/>
+<theme idref="T9"/>
+<clue>A factor in bovine colostrum (colostrum inhibitory factor, CIF) inhibits interleukin 2 (IL2) <clueType>production</clueType> <clueLoc>in activated T helper cells</clueLoc> by blocking the accumulation of IL2 mRNA.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T11"/>
+<clue>A factor in bovine colostrum (colostrum inhibitory factor, CIF) inhibits interleukin 2 (IL2) production in activated T helper cells by blocking the <clueType>accumulation</clueType> <linkTheme>of</linkTheme> IL2 mRNA.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Negative_regulation"/>
+<theme idref="E4"/>
+<cause idref="T7"/>
+<clue>A factor in bovine colostrum (colostrum inhibitory factor, CIF) inhibits interleukin 2 (IL2) production in activated T helper cells by <clueType>blocking</clueType> the accumulation of IL2 mRNA.</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Negative_regulation"/>
+<theme idref="E3"/>
+<cause idref="E5"/>
+<clue>A factor in bovine colostrum (colostrum inhibitory factor, CIF) <clueType>inhibits</clueType> interleukin 2 (IL2) production in activated T helper cells <linkCause>by</linkCause> blocking the accumulation of IL2 mRNA.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Physiological_process"/>
+<theme idref="T10"/>
+<clue>A factor in bovine colostrum (colostrum inhibitory factor, CIF) inhibits interleukin 2 (IL2) production in <clueType>activated</clueType> T helper cells by blocking the accumulation of IL2 mRNA.</clue>
+</event>
+<sentence id="S3">To determine whether <term id="T13" lex="CIF" sem="Protein_molecule">CIF</term> blocks at the level of <term id="T14" lex="IL2_transcription" sem="Other"><term id="T15" lex="IL2" sem="Protein_molecule">IL2</term> transcription</term>, we introduced <term id="A2" sem="DNA_molecule">reporter plasmids</term> into the <term id="T16" lex="human_T_leukemia_cell_line_Jurkat" sem="Cell_cultured">human T leukemia cell line Jurkat</term> by <term id="T17" lex="transient_transfection" sem="Other">transient transfection</term>.</sentence>
+<event KT="Other" id="E8">
+<type class="Transcription"/>
+<theme idref="T15"/>
+<clue>To determine whether CIF blocks at the level of IL2 <clueType>transcription</clueType>, we introduced reporter plasmids into the human T leukemia cell line Jurkat by transient transfection.</clue>
+</event>
+<event KT="Investigation" id="E9" uncertainty="doubtful">
+<type class="Negative_regulation"/>
+<theme idref="E8"/>
+<cause idref="T13"/>
+<clue><clueKT>To determine</clueKT> whether CIF <clueType>blocks</clueType> at the level of IL2 transcription, we introduced reporter plasmids into the human T leukemia cell line Jurkat by transient transfection.</clue>
+</event>
+<event KT="Method" id="E10">
+<type class="Artificial_process"/>
+<theme idref="A2"/>
+<theme idref="T16"/>
+<clue>To determine whether CIF blocks at the level of IL2 transcription, we <clueType>introduced</clueType> reporter plasmids <linkTheme>into</linkTheme> the human T leukemia cell line Jurkat <clueExperiment>by transient transfection.</clueExperiment></clue>
+</event>
+<sentence id="S4">These contained the <term id="T18" lex="luciferase_gene" sem="DNA_domain_or_region"><term id="T19" lex="luciferase" sem="Protein_molecule">luciferase</term> gene</term> <term id="A4" sem="DNA_domain_or_region">under the control of</term> either the <term id="T20" lex="human_IL2_upstream_enhancer" sem="DNA_domain_or_region">human <term id="T21" lex="IL2" sem="Protein_molecule">IL2</term> upstream enhancer</term> region (segments -326 to +45) or three repeats of the <term id="T22" lex="NFAT_element" sem="DNA_domain_or_region">NFAT element</term> contained within it (segments -255 to -285).</sentence>
+<event id="E11">
+<type class="Regulation"/>
+<theme idref="T18"/>
+<cause idref="T20"/>
+<clue>These contained the luciferase gene under the <clueType>control</clueType> <linkCause>of</linkCause> either the human IL2 upstream enhancer region (segments -326 to +45) or three repeats of the NFAT element contained within it (segments -255 to -285).</clue>
+</event>
+<event id="E12">
+<type class="Regulation"/>
+<theme idref="T18"/>
+<cause idref="T22"/>
+<clue>These contained the luciferase gene under the <clueType>control</clueType> <linkCause>of</linkCause> either the human IL2 upstream enhancer region (segments -326 to +45) or three repeats of the NFAT element contained within it (segments -255 to -285).</clue>
+</event>
+<sentence id="S5">Expression of <term id="T23" lex="luciferase" sem="Protein_molecule">luciferase</term> in these cells was induced by <term id="T24" lex="phorbol_myristate_acetate" sem="Organic_compound_other">phorbol myristate acetate</term> plus a <term id="T25" lex="calcium_ionophore" sem="Organic_compound_other"><term id="T26" lex="calcium" sem="Element">calcium</term> ionophore</term>.</sentence>
+<event id="E13">
+<type class="Gene_expression"/>
+<theme idref="T23"/>
+<clue><clueType>Expression</clueType> <linkTheme>of</linkTheme> luciferase <clueLoc>in these cells</clueLoc> was induced by phorbol myristate acetate plus a calcium ionophore.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="T24"/>
+<cause idref="T25"/>
+<clue>Expression of luciferase in these cells was <clueType>induced</clueType> <linkCause>by</linkCause> phorbol myristate acetate plus a calcium ionophore.</clue>
+</event>
+<sentence id="S6"><term id="T27" lex="CIF" sem="Protein_molecule">CIF</term> inhibited induction of either construct as did <term id="T28" lex="cyclosporine" sem="Organic_compound_other">cyclosporine</term>, which is known to block activation of the <term id="T29" lex="NFAT_element" sem="DNA_domain_or_region">NFAT element</term>.</sentence>
+<event KT="Other" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="T18" idref1="A4" idref2="T20"/>
+<clue>CIF inhibited <clueType>induction</clueType> <linkTheme>of</linkTheme> <corefTheme>either construct</corefTheme> as did cyclosporine, which is known to block activation of the NFAT element.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T18" idref1="A4" idref2="T22"/>
+<clue>CIF inhibited <clueType>induction</clueType> <linkTheme>of</linkTheme> <corefTheme>either construct</corefTheme> as did cyclosporine, which is known to block activation of the NFAT element.</clue>
+</event>
+<event id="E17">
+<type class="Negative_regulation"/>
+<theme idref="E15"/>
+<cause idref="T27"/>
+<clue>CIF <clueType>inhibited</clueType> induction of either construct as did cyclosporine, which is known to block activation of the NFAT element.</clue>
+</event>
+<event id="E18">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<cause idref="T27"/>
+<clue>CIF <clueType>inhibited</clueType> induction of either construct as did cyclosporine, which is known to block activation of the NFAT element.</clue>
+</event>
+<event id="E19">
+<type class="Negative_regulation"/>
+<theme idref="E15"/>
+<cause idref="T28"/>
+<clue>CIF <clueType>inhibited</clueType> induction of either construct as did cyclosporine, which is known to block activation of the NFAT element.</clue>
+</event>
+<event id="E20">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<cause idref="T28"/>
+<clue>CIF <clueType>inhibited</clueType> induction of either construct as did cyclosporine, which is known to block activation of the NFAT element.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="T29"/>
+<clue>CIF inhibited induction of either construct as did cyclosporine, which is known to block <clueType>activation</clueType> <linkTheme>of</linkTheme> the NFAT element.</clue>
+<comment>NER: T29 MOD</comment></event>
+<event KT="Fact" id="E22">
+<type class="Negative_regulation"/>
+<theme idref="E21"/>
+<cause idref="T28"/>
+<clue>CIF inhibited induction of either construct as did cyclosporine, which is <clueKT>known</clueKT> to <clueType>block</clueType> activation of the NFAT element.</clue>
+</event>
+<sentence id="S7"><term id="T30" lex="CIF" sem="Protein_molecule">CIF</term> failed to inhibit several other <term id="T31" lex="enhancer_element" sem="DNA_domain_or_region">enhancer elements</term>.</sentence>
+<event Polarity="Negative" assertion="non-exist" id="E23">
+<type class="Negative_regulation"/>
+<theme idref="T31"/>
+<cause idref="T30"/>
+<clue>CIF <clueType><cluePolarity>failed</cluePolarity> to inhibit</clueType> several other enhancer elements.</clue>
+</event>
+<sentence id="S8">The <term id="T32" lex="NFAT-controlled_luciferase_gene_system" sem="DNA_domain_or_region">NFAT-controlled <term id="T33" lex="luciferase_gene" sem="DNA_domain_or_region"><term id="T34" lex="luciferase" sem="Protein_molecule">luciferase</term> gene</term> system</term> distinguishes <term id="T35" lex="CIF" sem="Protein_molecule">CIF</term> from other <term id="T36" lex="T_cell_inhibitory_activity" sem="Other">T cell inhibitory activities</term> present in <term id="T37" lex="colostrum" sem="Body_region">colostrum</term>, in particular, <term id="T38" lex="TGF_beta_1" sem="Protein_molecule">TGF beta 1</term> and <term id="T39" lex="TGF_beta_2" sem="Protein_molecule">TGF beta 2</term> and the <term id="T40" lex="glucocorticoid" sem="Lipid">glucocorticoids</term>.</sentence>
+<event KT="Fact" id="E24">
+<type class="Localization"/>
+<theme idref="T38"/>
+<clue>The <clueExperiment>NFAT-controlled luciferase gene system</clueExperiment> distinguishes CIF from other <corefTheme>T cell inhibitory activities</corefTheme> <clueType>present</clueType> <clueLoc>in colostrum</clueLoc>, in particular, TGF beta 1 and TGF beta 2 and the glucocorticoids.</clue>
+</event>
+<event KT="Fact" id="E25">
+<type class="Localization"/>
+<theme idref="T39"/>
+<clue>The <clueExperiment>NFAT-controlled luciferase gene system</clueExperiment> distinguishes CIF from other <corefTheme>T cell inhibitory activities</corefTheme> <clueType>present</clueType> <clueLoc>in colostrum</clueLoc>, in particular, TGF beta 1 and TGF beta 2 and the glucocorticoids.</clue>
+</event>
+<event KT="Fact" id="E26">
+<type class="Localization"/>
+<theme idref="T40"/>
+<clue>The <clueExperiment>NFAT-controlled luciferase gene system</clueExperiment> distinguishes CIF from other <corefTheme>T cell inhibitory activities</corefTheme> <clueType>present</clueType> <clueLoc>in colostrum</clueLoc>, in particular, TGF beta 1 and TGF beta 2 and the glucocorticoids.</clue>
+</event>
+<event KT="Fact" id="E27">
+<type class="Localization"/>
+<theme idref="T35"/>
+<clue>The <clueExperiment>NFAT-controlled luciferase gene system</clueExperiment> distinguishes CIF from other T cell inhibitory activities <clueType>present</clueType> <clueLoc>in colostrum</clueLoc>, in particular, TGF beta 1 and TGF beta 2 and the glucocorticoids.</clue>
+</event>
+<sentence id="S9">Stably transfected Jurkat cells behaved similarly to the transiently transfected ones with respect to inhibition by <term id="T41" lex="CIF" sem="Protein_molecule">CIF</term> and <term id="T42" lex="cyclosporine" sem="Organic_compound_other">cyclosporine</term>.</sentence>
+<event id="E28">
+<type class="Negative_regulation"/>
+<theme idref="E15"/>
+<cause idref="T41"/>
+<clue><clueLoc>Stably transfected Jurkat cells</clueLoc> behaved similarly to the <clueLoc>transiently transfected ones</clueLoc> with respect to <clueType>inhibition</clueType> <linkCause>by</linkCause> CIF and cyclosporine.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<cause idref="T41"/>
+<clue><clueLoc>Stably transfected Jurkat cells</clueLoc> behaved similarly to the <clueLoc>transiently transfected ones</clueLoc> with respect to <clueType>inhibition</clueType> <linkCause>by</linkCause> CIF and cyclosporine.</clue>
+</event>
+<event id="E30">
+<type class="Negative_regulation"/>
+<theme idref="E15"/>
+<cause idref="T42"/>
+<clue><clueLoc>Stably transfected Jurkat cells</clueLoc> behaved similarly to the <clueLoc>transiently transfected ones</clueLoc> with respect to <clueType>inhibition</clueType> <linkCause>by</linkCause> CIF and cyclosporine.</clue>
+</event>
+<event id="E31">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<cause idref="T42"/>
+<clue><clueLoc>Stably transfected Jurkat cells</clueLoc> behaved similarly to the <clueLoc>transiently transfected ones</clueLoc> with respect to <clueType>inhibition</clueType> <linkCause>by</linkCause> CIF and cyclosporine.</clue>
+</event>
+<sentence id="S10">The <term id="T43" lex="NFAT-luc_assay" sem="Other"><term id="T44" lex="NFAT" sem="Protein_family_or_group">NFAT</term>-luc assay</term> is a useful technique for the rapid, sensitive measurement of <term id="T45" lex="CIF" sem="Protein_molecule">CIF</term> or other <term id="T46" lex="immunosuppressant" sem="Protein_family_or_group">immunosuppressants</term> with a similar mode of action.</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

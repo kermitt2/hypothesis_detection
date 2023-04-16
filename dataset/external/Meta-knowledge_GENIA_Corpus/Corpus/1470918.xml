@@ -1,0 +1,182 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1470918" created="10/11/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1470918</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Targeted degradation of <term id="T1" lex="c-Fos" sem="Protein_molecule">c-Fos</term>, but not <term id="T2" lex="v-Fos" sem="Protein_molecule">v-Fos</term>, by a <term id="A5" sem="Other">phosphorylation</term>-dependent <term id="T3" lex="signal" sem="Protein_substructure">signal</term> on <term id="T4" lex="c-Jun" sem="Protein_molecule">c-Jun</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Protein_catabolism"/>
+<theme idref="T1"/>
+<clue>Targeted <clueType>degradation</clueType> <linkTheme>of</linkTheme> c-Fos, but not v-Fos, by a phosphorylation-dependent signal on c-Jun.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Protein_catabolism"/>
+<theme idref="T2"/>
+<clue>Targeted <clueType>degradation</clueType> <linkTheme>of</linkTheme> c-Fos, but not v-Fos, by a phosphorylation-dependent signal on c-Jun.</clue>
+</event>
+<event KT="Investigation" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="E5"/>
+<clue><clueType>Targeted</clueType> degradation of c-Fos, but not v-Fos, <linkCause>by</linkCause> a phosphorylation-dependent signal on c-Jun.</clue>
+</event>
+<event KT="Investigation" Polarity="Negative" assertion="non-exist" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="E5"/>
+<clue><clueType>Targeted</clueType> degradation of c-Fos, but <cluePolarity>not</cluePolarity> v-Fos, <linkCause>by</linkCause> a phosphorylation-dependent signal on c-Jun.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Cell_communication"/>
+<theme idref="T4"/>
+<clue>Targeted degradation of c-Fos, but not v-Fos, by a phosphorylation-dependent <clueType>signal</clueType> <linkTheme>on</linkTheme> c-Jun.</clue>
+</event>
+<event KT="Other" id="E29">
+<type class="Regulation"/>
+<theme idref="E5"/>
+<cause idref="A5"/>
+<clue>Targeted degradation of c-Fos, but not v-Fos, by a phosphorylation-<clueType>dependent</clueType> signal on c-Jun.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T5" lex="proto-oncogene_product" sem="Protein_family_or_group">proto-oncogene products</term> <term id="T6" lex="c-Fos" sem="Protein_molecule">c-Fos</term> and <term id="T7" lex="c-Jun" sem="Protein_molecule">c-Jun</term> heterodimerize through their <term id="T8" lex="leucine_zipper" sem="Protein_substructure">leucine zippers</term> to form the <term id="T9" lex="AP-1_transcription_factor" sem="Protein_molecule">AP-1 transcription factor</term>.</sentence>
+<event KT="Other" id="E6">
+<type class="Binding"/>
+<theme idref="T6"/>
+<theme idref="T7"/>
+<clue>The proto-oncogene products c-Fos and c-Jun <clueType>heterodimerize</clueType> through their leucine zippers to form the AP-1 transcription factor.</clue>
+</event>
+<event KT="Fact" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="T8"/>
+<clue>The proto-oncogene products c-Fos and c-Jun heterodimerize <linkCause>through</linkCause> their leucine zippers to form the AP-1 transcription factor.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Protein_metabolism"/>
+<theme idref="T9"/>
+<clue>The proto-oncogene products c-Fos and c-Jun heterodimerize through their leucine zippers to <clueType>form</clueType> the AP-1 transcription factor.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<cause idref="E6"/>
+<clue>The proto-oncogene products c-Fos and c-Jun heterodimerize through their leucine zippers <linkTheme>to</linkTheme> form the AP-1 transcription factor.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S3">The <term id="T10" lex="transcriptional_activity" sem="Other">transcriptional activity</term> of the heterodimer is regulated by <term id="A1" lex="signal" sem="Protein_substructure">signal</term>-dependent <term id="T11" lex="phosphorylation" sem="Other">phosphorylation</term> and <term id="T12" lex="dephosphorylation_event" sem="Other">dephosphorylation events</term>.</sentence>
+<event KT="Other" id="E9">
+<type class="Regulation"/>
+<cause idref="T9"/>
+<clue>The <clueType>transcriptional activity</clueType> <linkCause>of</linkCause> <corefCause>the heterodimer</corefCause> is regulated by signal-dependent phosphorylation and dephosphorylation events.</clue>
+<comment>NO THEME</comment></event>
+<event KT="Fact" id="E10">
+<type class="Regulation"/>
+<theme idref="E9"/>
+<cause idref="E12"/>
+<clue>The transcriptional activity of the heterodimer is <clueType>regulated</clueType> <linkCause>by</linkCause> signal-dependent phosphorylation and dephosphorylation events.</clue>
+</event>
+<event KT="Fact" id="E11">
+<type class="Regulation"/>
+<theme idref="E9"/>
+<cause idref="E13"/>
+<clue>The transcriptional activity of the heterodimer is <clueType>regulated</clueType> <linkCause>by</linkCause> signal-dependent phosphorylation and dephosphorylation events.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Regulation"/>
+<theme idref="T11"/>
+<cause idref="A1"/>
+<clue>The transcriptional activity of the heterodimer is regulated by signal-<clueType>dependent</clueType> phosphorylation and dephosphorylation events.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Regulation"/>
+<theme idref="T12"/>
+<cause idref="A1"/>
+<clue>The transcriptional activity of the heterodimer is regulated by signal-<clueType>dependent</clueType> phosphorylation and dephosphorylation events.</clue>
+</event>
+<sentence id="S4">The stability of <term id="T13" lex="c-Fos" sem="Protein_molecule">c-Fos</term> was found to also be controlled by intracellular <term id="T14" lex="signal_transduction" sem="Other">signal transduction</term>.</sentence>
+<event id="E15">
+<type class="Protein_catabolism"/>
+<theme idref="T13"/>
+<clue>The <clueType>stability</clueType> <linkTheme>of</linkTheme> c-Fos was found to also be controlled by intracellular signal transduction.</clue>
+</event>
+<event id="E14">
+<type class="Regulation"/>
+<theme idref="E15"/>
+<cause idref="T14"/>
+<clue>The stability <linkTheme>of</linkTheme> c-Fos was <clueKT>found</clueKT> to also be <clueType>controlled</clueType> <linkCause>by</linkCause> <clueLoc>intracellular</clueLoc> signal transduction.</clue>
+</event>
+<sentence id="S5">In transient expression and in vitro <term id="T15" lex="degradation_experiment" sem="Other">degradation experiments</term>, the stability of <term id="T16" lex="c-Fos" sem="Protein_molecule">c-Fos</term> was decreased when the protein was dimerized with phosphorylated <term id="T18" lex="c-Jun" sem="Protein_molecule">c-Jun</term>.</sentence>
+<event id="E17">
+<type class="Negative_regulation"/>
+<theme idref="T16"/>
+<clue><clueExperiment>In transient expression and in vitro degradation experiments</clueExperiment>, the <clueType>stability</clueType> <linkTheme>of</linkTheme> c-Fos was <clueType>decreased</clueType> when the protein was dimerized with phosphorylated c-Jun.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<cause idref="E19"/>
+<clue>In transient expression and in vitro degradation experiments, the stability of c-Fos was decreased <linkCause>when</linkCause> the protein was dimerized with phosphorylated c-Jun.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E19">
+<type class="Binding"/>
+<theme idref="T16"/>
+<theme idref="T18"/>
+<clue>In transient expression and in vitro degradation experiments, the stability of c-Fos was decreased when <corefTheme>the protein</corefTheme> was <clueType>dimerized</clueType> <linkTheme>with</linkTheme> phosphorylated c-Jun.</clue>
+</event>
+<event id="E20">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T18"/>
+<clue>In transient expression and in vitro degradation experiments, the stability of c-Fos was decreased when the protein was dimerized with <clueType>phosphorylated</clueType> c-Jun.</clue>
+</event>
+<sentence id="S6"><term id="T19" lex="c-Jun" sem="Protein_molecule">c-Jun</term> protein isolated from <term id="T20" lex="phorbol_ester-induced_cell" sem="Cell_cultured">phorbol ester-induced cells</term> did not target <term id="T21" lex="c-Fos" sem="Protein_molecule">c-Fos</term> for degradation, which suggests that <term id="T22" lex="c-Fos" sem="Protein_molecule">c-Fos</term> is transiently stabilized after stimulation of cell growth.</sentence>
+<event Polarity="Negative" assertion="non-exist" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E22"/>
+<cause idref="T19"/>
+<clue>c-Jun protein isolated from <clueLoc>phorbol ester-induced cells</clueLoc> did <cluePolarity>not</cluePolarity> <clueType>target</clueType> c-Fos <linkTheme>for</linkTheme> degradation, which suggests that c-Fos is transiently stabilized after stimulation of cell growth.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Protein_catabolism"/>
+<theme idref="T21"/>
+<clue>c-Jun protein isolated from phorbol ester-induced cells did not target c-Fos for <clueType>degradation</clueType>, which suggests that c-Fos is transiently stabilized after stimulation of cell growth.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E23" uncertainty="probable">
+<type class="Protein_catabolism"/>
+<theme idref="T22"/>
+<clue>c-Jun protein isolated from phorbol ester-induced cells did not target c-Fos for degradation, which suggests that c-Fos is transiently <clueType><cluePolarity>stabilized</cluePolarity></clueType> after stimulation of cell growth.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E30">
+<type class="Positive_regulation"/>
+<theme idref="E23"/>
+<cause idref="E24"/>
+<clue>c-Jun protein isolated from phorbol ester-induced cells did not target c-Fos for degradation, which <clueKT><clueCL>suggests</clueCL></clueKT> that c-Fos is transiently stabilized <linkCause>after</linkCause> stimulation of cell growth.</clue>
+</event>
+<event KT="Other" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E25"/>
+<clue>c-Jun protein isolated from phorbol ester-induced cells did not target c-Fos for degradation, which suggests that c-Fos is transiently stabilized after <clueType>stimulation</clueType> <linkTheme>of</linkTheme> cell growth.</clue>
+</event>
+<event KT="Other" id="E25">
+<type class="Cellular_physiological_process"/>
+<theme idref="T20"/>
+<clue>c-Jun protein isolated from phorbol ester-induced cells did not target c-Fos for degradation, which suggests that c-Fos is transiently stabilized after stimulation of <corefTheme>cell</corefTheme> <clueType>growth</clueType>.</clue>
+</event>
+<sentence id="S7"><term id="T23" lex="v-Fos_protein" sem="Protein_molecule">v-Fos protein</term>, the retroviral counterpart of <term id="T24" lex="c-Fos" sem="Protein_molecule">c-Fos</term>, was not susceptible to degradation targeted by <term id="T25" lex="c-Jun" sem="Protein_molecule">c-Jun</term>.</sentence>
+<event Polarity="Negative" assertion="non-exist" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="T23"/>
+<clue>v-Fos protein, the retroviral counterpart of c-Fos, was <cluePolarity>not</cluePolarity> <clueType>susceptible</clueType> <linkTheme>to</linkTheme> degradation targeted by c-Jun.</clue>
+<comment>SUSCEPTIBILITY</comment></event>
+<event KT="Other" id="E27">
+<type class="Protein_catabolism"/>
+<theme idref="T23"/>
+<clue>v-Fos protein, the retroviral counterpart of c-Fos, was not susceptible to <clueType>degradation</clueType> targeted by c-Jun.</clue>
+</event>
+<event KT="Other" id="E28">
+<type class="Binding"/>
+<theme idref="T23"/>
+<theme idref="T25"/>
+<clue>v-Fos protein, the retroviral counterpart of c-Fos, was not susceptible to degradation <clueType>targeted</clueType> <linkTheme>by</linkTheme> c-Jun.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

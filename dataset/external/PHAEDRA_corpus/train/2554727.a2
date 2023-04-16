@@ -1,0 +1,15 @@
+T14	Adverse_effect 67 73	caused
+T15	Potential_therapeutic_effect 145 152	benefit
+T16	Adverse_effect 337 346	developed
+T18	Adverse_effect 233 239	caused
+T23	Adverse_effect 533 545	complication
+R1	Subject_Disorder Arg1:T20 Arg2:T5
+R2	Subject_Disorder Arg1:T17 Arg2:T8
+E1	Adverse_effect:T14 affects:T2 affects:T1 has_agent:T3
+E2	Potential_therapeutic_effect:T15 affects:T5 has_agent:T4 has_cue:T21 has_subject:T20
+E3	Adverse_effect:T16 affects:T9 affects:T10 has_agent:T12 has_subject:T17
+E4	Adverse_effect:T18 has_cue:T19 has_agent:T7 affects:T6
+E5	Adverse_effect:T23 has_agent:T13 affects:T22 has_cue:T24
+A1	Manner E4 Low
+A2	Speculated E2
+A3	Speculated E5

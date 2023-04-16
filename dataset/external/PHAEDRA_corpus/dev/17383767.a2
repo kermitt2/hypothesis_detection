@@ -1,0 +1,15 @@
+T14	Adverse_effect 49 55	due to
+T23	DDI 463 474	interaction
+T25	Adverse_effect 513 518	after
+T1	Potential_therapeutic_effect 176 190	administration
+T6	DDI 17 28	interaction
+R2	Subject_Disorder Arg1:T15 Arg2:T4
+R1	Subject_Disorder Arg1:T19 Arg2:T10
+E3	Combination:T8 has_participant:T5 has_participant:T17
+E4	Combination:T8 has_participant:T5 has_participant:T7
+E7	DDI:T23 has_cue:T24 has_participant:T13 has_participant:T12
+E1	DDI:T6 has_participant:T18 has_participant:T3
+E2	Adverse_effect:T14 affects:T2 has_agent:E1
+E8	Adverse_effect:T25 has_agent:E7 affects:T22
+E9	Potential_therapeutic_effect:T1 has_agent:E4 has_agent:E3 has_subject:T15 affects:T16
+A1	Speculated E7

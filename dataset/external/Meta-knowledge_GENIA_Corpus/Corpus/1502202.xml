@@ -1,0 +1,190 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1502202" created="03/04/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1502202</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>-dependent induction of the <term id="T3" lex="p50_subunit_gene_promoter" sem="DNA_domain_or_region"><term id="T4" lex="p50" sem="Protein_molecule"><term id="T2" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> p50 subunit</term> gene promoter</term> underlies self-perpetuation of <term id="T5" lex="human_immunodeficiency_virus_transcription" sem="Other"><term id="T6" lex="human_immunodeficiency_virus" sem="Virus">human immunodeficiency virus</term> transcription</term> in <term id="T7" lex="monocytic_cell" sem="Cell_natural">monocytic cells</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation"/>
+<theme idref="T3"/>
+<cause idref="T1"/>
+<clue>NF-kappa B-<linkCause>dependent</linkCause> <clueType>induction</clueType> <linkTheme>of</linkTheme> the NF-kappa B p50 subunit gene promoter underlies self-perpetuation of human immunodeficiency virus transcription in monocytic cells.</clue>
+<comment>NER: T2, T4 mod</comment></event>
+<event id="E2">
+<type class="Transcription"/>
+<theme idref="T6"/>
+<clue>NF-kappa B-dependent induction of the NF-kappa B p50 subunit gene promoter underlies self-perpetuation of human immunodeficiency virus <clueType>transcription</clueType> in monocytic cells.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<clue>NF-kappa B-dependent induction of the NF-kappa B p50 subunit gene promoter underlies self-<clueType>perpetuation</clueType> <linkTheme>of</linkTheme> human immunodeficiency virus transcription in monocytic cells.</clue>
+</event>
+<event id="E4">
+<type class="Regulation"/>
+<theme idref="E3"/>
+<cause idref="E1"/>
+<clue>NF-kappa B-dependent induction of the NF-kappa B p50 subunit gene promoter <clueType>underlies</clueType> self-perpetuation of human immunodeficiency virus transcription <clueLoc>in monocytic cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The molecular mechanisms underlying the sustained nuclear translocation of <term id="T8" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> observed in <term id="T9" lex="U937_monocytic_cell" sem="Cell_cultured">U937 <term id="T10" lex="monocytic_cell" sem="Cell_natural">monocytic cells</term></term> chronically infected with <term id="T11" lex="human_immunodeficiency_virus" sem="Virus">human immunodeficiency virus</term> (<term id="T12" lex="HIV" sem="Virus">HIV</term>) were studied.</sentence>
+<event KT="Other" id="E5">
+<type class="Localization"/>
+<theme idref="T8"/>
+<clue>The molecular mechanisms underlying the sustained <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> <linkTheme>of</linkTheme> NF-kappa B observed in U937 monocytic cells chronically infected with human immunodeficiency virus (HIV) were studied.</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<clue>The molecular mechanisms underlying the <clueType>sustained</clueType> nuclear translocation of NF-kappa B observed <clueLoc>in U937 monocytic cells</clueLoc> chronically infected with human immunodeficiency virus (HIV) were studied.</clue>
+</event>
+<event KT="Method" id="E7">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T12"/>
+<clue>The molecular mechanisms underlying the sustained nuclear translocation of NF-kappa B observed in <clueLoc>U937 monocytic cells</clueLoc> chronically <clueType>infected</clueType> <linkCause>with</linkCause> human immunodeficiency virus (HIV) were studied.</clue>
+</event>
+<event KT="Fact" id="E8">
+<type class="Correlation"/>
+<theme idref="E6"/>
+<theme idref="E7"/>
+<clue>The molecular mechanisms underlying the sustained nuclear translocation of NF-kappa B <clueType>observed</clueType> <linkTheme>in</linkTheme> U937 monocytic cells chronically infected with human immunodeficiency virus (HIV) were studied.</clue>
+</event>
+<sentence id="S3">The activity of the <term id="T13" lex="promoter" sem="DNA_domain_or_region">promoter</term> regulating the synthesis of the <term id="T14" lex="p105_precursor" sem="Protein_molecule">p105 precursor</term> of the <term id="T15" lex="NF-kappa_B_p50_subunit" sem="Protein_molecule">NF-kappa B <term id="T16" lex="p50" sem="Protein_molecule">p50</term> subunit</term> was enhanced in these cells.</sentence>
+<event id="E9">
+<type class="Gene_expression"/>
+<theme idref="T14"/>
+<clue>The activity of the promoter regulating the <clueType>synthesis</clueType> <linkTheme>of</linkTheme> the p105 precursor of the NF-kappa B p50 subunit was enhanced in these cells.</clue>
+</event>
+<event id="E10">
+<type class="Regulation"/>
+<theme idref="E9"/>
+<cause idref="T13"/>
+<clue>The activity of the promoter <clueType>regulating</clueType> the synthesis of the p105 precursor of the NF-kappa B p50 subunit was enhanced in these cells.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<clue>The activity of the promoter regulating the synthesis of the p105 precursor of the NF-kappa B p50 subunit was <clueType>enhanced</clueType> <clueLoc>in these cells</clueLoc>.</clue>
+</event>
+<sentence id="S4">Deletions in this <term id="T17" lex="promoter" sem="DNA_domain_or_region">promoter</term> indicated that this upregulation was mediated through the <term id="T18" lex="NF-kappa_B-binding_motif" sem="DNA_domain_or_region">NF-kappa B-</term> but not the <term id="T19" lex="AP-1-binding_motif" sem="DNA_domain_or_region">AP-1-binding <term id="A1" sem="DNA_domain_or_region">motif</term></term>, by bona fide <term id="T20" lex="p50/p65_heterodimer" sem="Protein_complex">p50/p65 heterodimers</term>.</sentence>
+<event KT="Analysis" id="E12">
+<type class="Regulation"/>
+<theme idref="E11"/>
+<cause idref="T18" idref1="A1"/>
+<cause idref="T20"/>
+<clue>Deletions in this promoter <clueKT>indicated</clueKT> that <corefTheme>this upregulation</corefTheme> was <clueType>mediated</clueType> <linkCause>through</linkCause> the NF-kappa B- but not the AP-1-binding motif, <linkCause>by</linkCause> bona fide p50/p65 heterodimers.</clue>
+<comment>NER T18 mod</comment></event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E13">
+<type class="Regulation"/>
+<theme idref="E11"/>
+<cause idref="T19" idref1="A1"/>
+<clue>Deletions in this promoter <clueKT>indicated</clueKT> that <corefTheme>this upregulation</corefTheme> was <clueType>mediated</clueType> <linkCause>through</linkCause> the NF-kappa B- but <cluePolarity>not</cluePolarity> the AP-1-binding motif, by bona fide p50/p65 heterodimers.</clue>
+</event>
+<sentence id="S5">Analysis of cytosolic extracts indicated that <term id="T21" lex="NF-kappa_B_level" sem="Other"><term id="T22" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> levels</term> were increased in <term id="T23" lex="HIV-infected_cell" sem="Cell_natural"><term id="T24" lex="HIV" sem="Virus">HIV</term>-infected <term id="A101" sem="Cell_natural">cells</term></term>.</sentence>
+<event KT="Analysis" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="T22"/>
+<clue>Analysis of cytosolic extracts <clueKT>indicated</clueKT> that NF-kappa B levels were <clueType>increased</clueType> <clueLoc>in HIV-infected cells</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E101">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T24"/>
+<theme idref="A101"/>
+<clue>Analysis of cytosolic extracts indicated that NF-kappa B levels were increased in HIV-<clueType>infected</clueType> cells.</clue>
+</event>
+<sentence id="S6">In contrast to the transient <term id="T25" lex="NF-kappa_B_activation" sem="Other"><term id="T26" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> activation</term> induced by <term id="T27" lex="phorbol_ester" sem="Organic_compound_other">phorbol ester</term>, the permanent <term id="T28" lex="NF-kappa_B_translocation" sem="Other"><term id="T29" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> translocation</term> induced by <term id="T30" lex="HIV" sem="Virus">HIV</term> infection was not dependent on <cons id="T31" lex="(AND PKC_isoenzyme_alpha PKC_isoenzyme_beta)" sem="(AND Protein_molecule Protein_molecule)"><term id="T32" lex="PKC_isoenzyme" sem="Protein_molecule"><frag id="F1">PKC isoenzymes</frag></term> <frag id="F2"><term id="A2" sem="Protein_molecule">alpha</term></frag> and <frag id="F3"><term id="A3" sem="Protein_molecule">beta</term></frag></cons> as shown by the use of a <term id="T33" lex="specific_inhibitor" sem="Organic_compound_other">specific inhibitor</term> (<term id="T34" lex="GF_109203X" sem="Organic_compound_other">GF 109203X</term>).</sentence>
+<event id="E15">
+<type class="Positive_regulation"/>
+<theme idref="T26"/>
+<cause idref="T27"/>
+<clue>In contrast to the transient NF-kappa B <clueType>activation</clueType> <linkCause>induced by</linkCause> phorbol ester, the permanent NF-kappa B translocation induced by HIV infection was not dependent on PKC isoenzymes alpha and beta as shown by the use of a specific inhibitor (GF 109203X).</clue>
+</event>
+<event id="E16">
+<type class="Localization"/>
+<theme idref="T29"/>
+<clue>In contrast to the transient NF-kappa B activation induced by phorbol ester, the permanent NF-kappa B <clueType>translocation</clueType> induced by HIV infection was not dependent on PKC isoenzymes alpha and beta as shown by the use of a specific inhibitor (GF 109203X).</clue>
+</event>
+<event id="E17">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T30"/>
+<clue>In contrast to the transient NF-kappa B activation induced by phorbol ester, the permanent NF-kappa B translocation induced by HIV <clueType>infection</clueType> was not dependent on PKC isoenzymes alpha and beta as shown by the use of a specific inhibitor (GF 109203X).</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<cause idref="E17"/>
+<clue>In contrast to the transient NF-kappa B activation induced by phorbol ester, the permanent NF-kappa B translocation <clueType>induced</clueType> <linkCause>by</linkCause> HIV infection was not dependent on PKC isoenzymes alpha and beta as shown by the use of a specific inhibitor (GF 109203X).</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E19">
+<type class="Regulation"/>
+<theme idref="E18"/>
+<cause idref="T32" idref1="A2"/>
+<clue>In contrast to the transient NF-kappa B activation induced by phorbol ester, the permanent NF-kappa B translocation induced by HIV infection was <cluePolarity>not</cluePolarity> <clueType>dependent</clueType> <linkCause>on</linkCause> PKC isoenzymes alpha and beta as shown by the use of a specific inhibitor (GF 109203X).</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E20">
+<type class="Regulation"/>
+<theme idref="E18"/>
+<cause idref="T32" idref1="A3"/>
+<clue>In contrast to the transient NF-kappa B activation induced by phorbol ester, the permanent NF-kappa B translocation induced by HIV infection was <cluePolarity>not</cluePolarity> <clueType>dependent</clueType> <linkCause>on</linkCause> PKC isoenzymes alpha and beta as shown by the use of a specific inhibitor (GF 109203X).</clue>
+</event>
+<event id="E102">
+<type class="Negative_regulation"/>
+<theme idref="T32"/>
+<cause idref="T34"/>
+<clue>In contrast to the transient NF-kappa B activation induced by phorbol ester, the permanent NF-kappa B translocation induced by HIV infection was not dependent on PKC isoenzymes alpha and beta as shown by the use of a <corefTheme>specific</corefTheme> <clueType>inhibitor</clueType> (GF 109203X).</clue>
+</event>
+<sentence id="S7">These observations indicate that during chronic <term id="T35" lex="HIV_infection" sem="Other"><term id="T36" lex="HIV" sem="Virus">HIV</term> infection</term> of <term id="T37" lex="U937_cell" sem="Cell_cultured">U937 cells</term>, continuous <term id="T38" lex="NF-kappa_B_(p50/p65)_translocation" sem="Other"><term id="T39" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> (<term id="T40" lex="p50/p65" sem="Protein_complex">p50/p65</term>) translocation</term> results in <term id="T41" lex="p105_promoter_upregulation" sem="Other"><term id="T42" lex="p105_promoter" sem="Protein_domain_or_region">p105 promoter</term> upregulation</term> with subsequent cytosolic <term id="T43" lex="NF-kappa_B_accumulation" sem="Other"><term id="T44" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> accumulation</term>, ready for further translocation.</sentence>
+<event KT="Other" id="E21">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T37"/>
+<theme idref="T36"/>
+<clue>These observations indicate that during chronic HIV <clueType>infection</clueType> <linkTheme>of</linkTheme> U937 cells, continuous NF-kappa B (p50/p65) translocation results in p105 promoter upregulation with subsequent cytosolic NF-kappa B accumulation, ready for further translocation.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Localization"/>
+<theme idref="T40"/>
+<clue>These observations indicate that during chronic HIV infection of U937 cells, continuous NF-kappa B (p50/p65) <clueType>translocation</clueType> results in p105 promoter upregulation with subsequent cytosolic NF-kappa B accumulation, ready for further translocation.</clue>
+<comment>NER: T39, T40 mod</comment></event>
+<event KT="Other" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="T42"/>
+<clue>These observations indicate that during chronic HIV infection of U937 cells, continuous NF-kappa B (p50/p65) translocation results in p105 promoter <clueType>upregulation</clueType> with subsequent cytosolic NF-kappa B accumulation, ready for further translocation.</clue>
+<comment>NER T42 mod</comment></event>
+<event KT="Analysis" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E23"/>
+<cause idref="E22"/>
+<clue>These observations <clueKT>indicate</clueKT> that <clueTime>during chronic HIV infection of U937 cells</clueTime>, continuous NF-kappa B (p50/p65) translocation <clueType>results</clueType> <linkTheme>in</linkTheme> p105 promoter upregulation with subsequent cytosolic NF-kappa B accumulation, ready for further translocation.</clue>
+</event>
+<event KT="Other" id="E25">
+<type class="Gene_expression"/>
+<theme idref="T44"/>
+<clue>These observations indicate that during chronic HIV infection of U937 cells, continuous NF-kappa B (p50/p65) translocation results in p105 promoter upregulation with subsequent <clueLoc>cytosolic</clueLoc> NF-kappa B <clueType>accumulation</clueType>, ready for further translocation.</clue>
+</event>
+<event KT="Analysis" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="E25"/>
+<cause idref="E24"/>
+<clue>These observations <clueKT>indicate</clueKT> that <clueTime>during chronic HIV infection of U937 cells</clueTime>, continuous NF-kappa B (p50/p65) translocation results in p105 promoter upregulation with <clueType>subsequent</clueType> cytosolic NF-kappa B accumulation, ready for further translocation.</clue>
+</event>
+<sentence id="S8">This <term id="T45" lex="HIV-mediated_mechanism" sem="Other"><term id="T46" lex="HIV" sem="Virus">HIV</term>-mediated <term id="A4" sem="Other">mechanism</term></term> results in a self-perpetuating loop of <term id="T47" lex="NF-kappa_B_production" sem="Other"><term id="T48" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> production</term>.</sentence>
+<event KT="Other" id="E27">
+<type class="Gene_expression"/>
+<theme idref="T48"/>
+<clue>This HIV-mediated mechanism results in a self-perpetuating loop of NF-kappa B <clueType>production</clueType>.</clue>
+<comment>NER: T48 mod</comment></event>
+<event KT="Other" id="E28">
+<type class="Positive_regulation"/>
+<theme idref="E27"/>
+<cause idref="T48"/>
+<clue>This HIV-mediated mechanism results in a <corefCause>self</corefCause>-<clueType>perpetuating loop</clueType> <linkTheme>of</linkTheme> NF-kappa B production.</clue>
+</event>
+<event KT="Analysis" id="E29">
+<type class="Positive_regulation"/>
+<theme idref="E28"/>
+<cause idref="E26"/>
+<clue><corefCause>This HIV-mediated mechanism</corefCause> <clueType><clueKT>results</clueKT></clueType> <linkTheme>in</linkTheme> a self-perpetuating loop of NF-kappa B production.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

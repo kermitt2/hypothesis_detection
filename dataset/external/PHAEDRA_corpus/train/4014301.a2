@@ -1,0 +1,9 @@
+T6	Adverse_effect 17 24	induced
+T11	Adverse_effect 290 297	induced
+T17	Potential_therapeutic_effect 665 672	prevent
+T23	Adverse_effect 83 95	complication
+R1	Subject_Disorder Arg1:T7 Arg2:T9
+E1	Adverse_effect:T6 affects:T3 has_agent:T2
+E2	Adverse_effect:T11 affects:T13 has_agent:T10
+E3	Potential_therapeutic_effect:T17 has_subject:T15 has_agent:T20 affects:T21
+E4	Adverse_effect:T23 has_agent:T5 affects:T4

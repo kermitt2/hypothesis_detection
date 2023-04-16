@@ -1,0 +1,13 @@
+T14	Adverse_effect 47 57	associated
+T16	Adverse_effect 141 149	observed
+T18	Potential_therapeutic_effect 183 190	treated
+T19	Potential_therapeutic_effect 500 507	treated
+T20	Adverse_effect 340 349	developed
+T23	Adverse_effect 391 398	release
+E1	Adverse_effect:T14 has_agent:T11 affects:T1 affects:T2
+E2	Adverse_effect:T16 has_agent:T12 has_subject:T15 affects:T3 affects:T4
+E3	Potential_therapeutic_effect:T18 has_agent:T12 has_subject:T15
+E4	Potential_therapeutic_effect:T19 affects:T10 has_agent:T9
+E5	Adverse_effect:T20 has_cue:T21 has_agent:T13 affects:T7
+E6	Adverse_effect:T23 has_agent:T8 affects:T17
+A1	Speculated E5

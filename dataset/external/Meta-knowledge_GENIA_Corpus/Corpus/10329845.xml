@@ -1,0 +1,297 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10329845" created="20/06/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10329845</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="transcriptional_control" sem="Other">Transcriptional control</term> of the <term id="T2" lex="IL-5" sem="DNA_domain_or_region">IL-5 gene</term> by <term id="T3" lex="human_helper_T_cell" sem="Cell_natural">human helper T cells</term>: <term id="T4" lex="IL-5" sem="Protein_molecule">IL-5</term> synthesis is regulated independently from <term id="T5" lex="IL-2" sem="Protein_molecule">IL-2</term> or <term id="T6" lex="IL-4_synthesis" sem="Other"><term id="T7" lex="IL-4" sem="Protein_molecule">IL-4</term> synthesis</term>.</sentence>
+<event KT="Investigation" id="E1">
+<type class="Regulation"/>
+<theme idref="T2"/>
+<clue><clueType>Transcriptional control</clueType> <linkTheme>of</linkTheme> the IL-5 gene <clueLoc>by human helper T cells</clueLoc>: IL-5 synthesis is regulated independently from IL-2 or IL-4 synthesis.</clue>
+<comment>NER T2 MOD</comment></event>
+<event id="E2">
+<type class="Gene_expression"/>
+<theme idref="T4"/>
+<clue>Transcriptional control of the IL-5 gene by human helper T cells: IL-5 <clueType>synthesis</clueType> is regulated independently from IL-2 or IL-4 synthesis.</clue>
+</event>
+<event id="E3">
+<type class="Regulation"/>
+<theme idref="E2"/>
+<clue>Transcriptional control of the IL-5 gene by human helper T cells: IL-5 synthesis is <clueType>regulated</clueType> independently from IL-2 or IL-4 synthesis.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Gene_expression"/>
+<theme idref="T5"/>
+<clue>Transcriptional control of the IL-5 gene by human helper T cells: IL-5 synthesis is regulated independently from IL-2 or IL-4 <clueType>synthesis</clueType>.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Gene_expression"/>
+<theme idref="T7"/>
+<clue>Transcriptional control of the IL-5 gene by human helper T cells: IL-5 synthesis is regulated independently from IL-2 or IL-4 <clueType>synthesis</clueType>.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E6">
+<type class="Correlation"/>
+<theme idref="E3"/>
+<theme idref="E4"/>
+<clue>Transcriptional control of the IL-5 gene by human helper T cells: IL-5 synthesis is regulated <clueType><cluePolarity>independently</cluePolarity></clueType> <linkTheme>from</linkTheme> IL-2 or IL-4 synthesis.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E7">
+<type class="Correlation"/>
+<theme idref="E3"/>
+<theme idref="E5"/>
+<clue>Transcriptional control of the IL-5 gene by human helper T cells: IL-5 synthesis is regulated <clueType><cluePolarity>independently</cluePolarity></clueType> <linkTheme>from</linkTheme> IL-2 or IL-4 synthesis.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">BACKGROUND: <term id="T8" lex="IL-5" sem="Protein_molecule">IL-5</term> is fundamentally involved in <term id="T9" lex="eosinophilic_inflammation" sem="Other">eosinophilic inflammation</term>.</sentence>
+<event KT="Fact" id="E8">
+<type class="Regulation"/>
+<theme idref="T9"/>
+<cause idref="T8"/>
+<clue>BACKGROUND: IL-5 is fundamentally <clueType>involved</clueType> <linkTheme>in</linkTheme> eosinophilic inflammation.</clue>
+</event>
+<sentence id="S3">Control of <term id="T10" lex="IL-5" sem="Protein_molecule">IL-5</term> production may be effective for the management of <term id="T11" lex="allergic_disease" sem="Other">allergic diseases</term>.</sentence>
+<event id="E9">
+<type class="Gene_expression"/>
+<theme idref="T10"/>
+<clue>Control of IL-5 <clueType>production</clueType> may be effective for the management of allergic diseases.</clue>
+</event>
+<event id="E10">
+<type class="Regulation"/>
+<theme idref="E9"/>
+<clue><clueType>Control</clueType> <linkTheme>of</linkTheme> IL-5 production may be effective for the management of allergic diseases.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Regulation"/>
+<theme idref="T11"/>
+<clue>Control of IL-5 production may be effective for the <clueType>management</clueType> <linkTheme>of</linkTheme> allergic diseases.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E12" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E11"/>
+<cause idref="E9"/>
+<clue>Control of IL-5 production <clueKT><clueCL>may</clueCL></clueKT> be <clueType>effective</clueType> <linkTheme>for</linkTheme> the management of allergic diseases.</clue>
+</event>
+<sentence id="S4">OBJECTIVE: We aimed to find the <term id="T12" lex="transcriptional_mechanism" sem="Other">transcriptional mechanisms</term> that regulate the <term id="T13" lex="IL-5" sem="DNA_domain_or_region">IL-5 gene</term> to selectively control <term id="T14" lex="IL-5_synthesis" sem="Other"><term id="T15" lex="IL-5" sem="Protein_molecule">IL-5</term> synthesis</term>.</sentence>
+<event KT="Investigation" id="E103">
+<type class="Transcription"/>
+<theme idref="T13"/>
+<clue>OBJECTIVE: We aimed <clueKT>to find</clueKT> the <clueType>transcriptional</clueType> mechanisms that regulate the IL-5 gene to selectively control IL-5 synthesis.</clue>
+<comment>NER T13 MOD</comment></event>
+<event KT="Other" id="E13">
+<type class="Regulation"/>
+<theme idref="E103"/>
+<cause idref="T12"/>
+<clue>OBJECTIVE: We aimed to find the transcriptional mechanisms that <clueType>regulate</clueType> the IL-5 gene to selectively control IL-5 synthesis.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Gene_expression"/>
+<theme idref="T15"/>
+<clue>OBJECTIVE: We aimed to find the transcriptional mechanisms that regulate the IL-5 gene to selectively control IL-5 <clueType>synthesis</clueType>.</clue>
+</event>
+<event KT="Investigation" id="E15">
+<type class="Regulation"/>
+<theme idref="E14"/>
+<cause idref="E13"/>
+<clue>OBJECTIVE: We aimed to find the transcriptional mechanisms that regulate the IL-5 gene <clueKT>to</clueKT> selectively <clueType>control</clueType> IL-5 synthesis.</clue>
+</event>
+<sentence id="S5">METHODS: <term id="T16" lex="allergen-specific_T-cell_clone" sem="Cell_cultured">Allergen-specific T-cell clones</term> and <term id="T17" lex="T-cell_hybridoma" sem="Cell_cultured">T-cell hybridomas</term> were established from the <term id="T18" lex="peripheral_blood_lymphocyte" sem="Cell_natural"><term id="T19" lex="peripheral_blood" sem="Tissue_natural">peripheral blood</term> lymphocytes</term> of <term id="T20" lex="patient" sem="Multicellular_organism_natural">patients</term> with <term id="T21" lex="asthma" sem="Other">asthma</term>, and the <term id="T22" lex="transcriptional_regulation" sem="Other">transcriptional regulation</term> of the <term id="T23" lex="IL-5_gene" sem="DNA_domain_or_region"><term id="T24" lex="IL-5" sem="Protein_molecule">IL-5</term> gene</term> was investigated with <term id="T25" lex="transient_transfection" sem="Other">transient transfection</term> and <term id="T26" lex="electrophoretic_mobility_shift_analysis" sem="Other">electrophoretic mobility shift analysis</term>.</sentence>
+<event KT="Investigation" id="E104" uncertainty="doubtful">
+<type class="Transcription"/>
+<theme idref="T23"/>
+<clue>METHODS: Allergen-specific T-cell clones and T-cell hybridomas were established from the peripheral blood lymphocytes of patients with asthma, and the <clueType>transcriptional regulation</clueType> <linkTheme>of</linkTheme> the IL-5 gene was <clueKT>investigated</clueKT> <clueExperiment>with transient transfection and electrophoretic mobility shift analysis</clueExperiment>.</clue>
+</event>
+<sentence id="S6">RESULTS: A human <term id="T27" lex="IL-5_promoter/enhancer-_luciferase_gene_construct" sem="DNA_molecule"><term id="T28" lex="IL-5" sem="Protein_molecule">IL-5</term> promoter/enhancer-<term id="T29" lex="luciferase" sem="Protein_molecule">luciferase</term> gene construct</term>, <term id="T30" lex="pIL-5(-511)Luc" sem="DNA_molecule">pIL-5(-511)Luc</term>, was transcribed on activation of <term id="T31" lex="IL-5-producing_T-cell_clone" sem="Cell_cultured"><term id="T32" lex="IL-5" sem="Protein_molecule">IL-5</term>-producing T-cell clones</term>, but not <term id="T33" lex="IL-5-nonproducing_clone" sem="Cell_cultured"><term id="T34" lex="IL-5" sem="Protein_molecule">IL-5</term>-nonproducing clones</term>.</sentence>
+<event id="E17">
+<type class="Physiological_process"/>
+<theme idref="T31"/>
+<clue>RESULTS: A human IL-5 promoter/enhancer-luciferase gene construct, pIL-5(-511)Luc, was transcribed on <clueType>activation</clueType> <linkTheme>of</linkTheme> IL-5-producing T-cell clones, but not IL-5-nonproducing clones.</clue>
+</event>
+<event id="E18">
+<type class="Transcription"/>
+<theme idref="T30"/>
+<clue>RESULTS: A human IL-5 promoter/enhancer-luciferase gene construct, pIL-5(-511)Luc, was <clueType>transcribed</clueType> on activation of IL-5-producing T-cell clones, but not IL-5-nonproducing clones.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="E17"/>
+<clue>RESULTS: A human IL-5 promoter/enhancer-luciferase gene construct, pIL-5(-511)Luc, was transcribed <linkCause>on</linkCause> activation of IL-5-producing T-cell clones, but not IL-5-nonproducing clones.</clue>
+<comment>No clueType</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E20">
+<type class="Transcription"/>
+<theme idref="T30"/>
+<clue>RESULTS: A human IL-5 promoter/enhancer-luciferase gene construct, pIL-5(-511)Luc, was <clueType>transcribed</clueType> on activation of IL-5-producing T-cell clones, but <cluePolarity>not</cluePolarity> <clueLoc>IL-5-nonproducing clones</clueLoc>.</clue>
+</event>
+<event id="E120">
+<type class="Gene_expression"/>
+<theme idref="T32"/>
+<clue>RESULTS: A human IL-5 promoter/enhancer-luciferase gene construct, pIL-5(-511)Luc, was transcribed on activation of IL-5-<clueType>producing</clueType> <clueLoc>T-cell clones</clueLoc>, but not IL-5-nonproducing clones.</clue>
+</event>
+<event KT="Other" Polarity="Negative" id="E121">
+<type class="Gene_expression"/>
+<theme idref="T34"/>
+<clue>RESULTS: A human IL-5 promoter/enhancer-luciferase gene construct, pIL-5(-511)Luc, was transcribed on activation of IL-5-producing T-cell clones, but not IL-5-<clueType><cluePolarity>nonproducing</cluePolarity></clueType> <clueLoc>clones</clueLoc>.</clue>
+</event>
+<sentence id="S7"><term id="T35" lex="pIL-5(-511)Luc" sem="DNA_molecule">pIL-5(-511)Luc</term> was transcribed by <term id="T36" lex="T-cell_hybridoma" sem="Cell_cultured">T-cell hybridomas</term> derived from fusion between <term id="T37" lex="IL-5-producing_T-cell_clone" sem="Cell_cultured"><term id="T38" lex="IL-5" sem="Protein_molecule">IL-5</term>-producing T-cell clones</term> and an <term id="T39" lex="IL-5_gene-nonexpressing_T-cell_line" sem="Cell_cultured"><term id="T40" lex="IL-5" sem="DNA_domain_or_region">IL-5 gene</term>-nonexpressing T-cell line</term>, but not by <term id="T41" lex="hybridoma" sem="Cell_cultured">hybridomas</term> derived from <term id="T42" lex="IL-5-nonproducing_T-cell_clone" sem="Cell_cultured"><term id="T43" lex="IL-5" sem="Protein_molecule">IL-5</term>-nonproducing T-cell clones</term>.</sentence>
+<event id="E21">
+<type class="Transcription"/>
+<theme idref="T35"/>
+<clue>pIL-5(-511)Luc was <clueType>transcribed</clueType> <clueLoc>by T-cell hybridomas derived from fusion between IL-5-producing T-cell clones and an IL-5 gene-nonexpressing T-cell line</clueLoc>, but not by hybridomas derived from IL-5-nonproducing T-cell clones.</clue>
+</event>
+<event id="E50">
+<type class="Cellular_physiological_process"/>
+<theme idref="T37"/>
+<theme idref="T39"/>
+<clue>pIL-5(-511)Luc was transcribed by T-cell hybridomas derived from <clueType>fusion</clueType> <linkTheme>between</linkTheme> IL-5-producing T-cell clones and an IL-5 gene-nonexpressing T-cell line, but not by hybridomas derived from IL-5-nonproducing T-cell clones.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E22">
+<type class="Transcription"/>
+<theme idref="T35"/>
+<clue>pIL-5(-511)Luc was <clueType>transcribed</clueType> by T-cell hybridomas derived from fusion between IL-5-producing T-cell clones and an IL-5 gene-nonexpressing T-cell line, but <cluePolarity>not</cluePolarity> <clueLoc>by hybridomas derived from IL-5-nonproducing T-cell clones</clueLoc>.</clue>
+</event>
+<event id="E23">
+<type class="Gene_expression"/>
+<theme idref="T38"/>
+<clue>pIL-5(-511)Luc was transcribed by T-cell hybridomas derived from fusion between IL-5-<clueType>producing</clueType> <clueLoc>T-cell clones</clueLoc> and an IL-5 gene-nonexpressing T-cell line, but not by hybridomas derived from IL-5-nonproducing T-cell clones.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E24">
+<type class="Gene_expression"/>
+<theme idref="T40"/>
+<clue>pIL-5(-511)Luc was transcribed by T-cell hybridomas derived from fusion between IL-5-producing T-cell clones and an IL-5 gene-<clueType><cluePolarity>nonexpressing</cluePolarity></clueType> <clueLoc>T-cell line</clueLoc>, but not by hybridomas derived from IL-5-nonproducing T-cell clones.</clue>
+<comment>NER T40 mod</comment></event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E25">
+<type class="Gene_expression"/>
+<theme idref="T43"/>
+<clue>pIL-5(-511)Luc was transcribed by T-cell hybridomas derived from fusion between IL-5-producing T-cell clones and an IL-5 gene-nonexpressing T-cell line, but not by hybridomas derived from IL-5-<clueType><cluePolarity>nonproducing</cluePolarity></clueType> <clueLoc>T-cell clones</clueLoc>.</clue>
+</event>
+<sentence id="S8"><term id="T44" lex="IL-5" sem="Protein_molecule">IL-5</term> synthesis was not only induced by <term id="T45" lex="T-cell_receptor_stimulation" sem="Other"><term id="A1" sem="Protein_family_or_group">T-cell receptor</term> stimulation</term> but also by <term id="T46" lex="IL-2_receptor_stimulation" sem="Other"><term id="T47" lex="IL-2" sem="Protein_molecule">IL-2 receptor</term> stimulation</term>.</sentence>
+<event id="E26">
+<type class="Gene_expression"/>
+<theme idref="T44"/>
+<clue>IL-5 <clueType>synthesis</clueType> was not only induced by T-cell receptor stimulation but also by IL-2 receptor stimulation.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation"/>
+<theme idref="A1"/>
+<clue>IL-5 synthesis was not only induced by T-cell receptor <clueType>stimulation</clueType> but also by IL-2 receptor stimulation.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation"/>
+<theme idref="E26"/>
+<cause idref="E27"/>
+<clue>IL-5 synthesis was not only <clueType>induced</clueType> <linkCause>by</linkCause> T-cell receptor stimulation but also by IL-2 receptor stimulation.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation"/>
+<theme idref="T47"/>
+<clue>IL-5 synthesis was not only induced by T-cell receptor stimulation but also by IL-2 receptor <clueType>stimulation</clueType>.</clue>
+<comment>NER T47 mod</comment></event>
+<event id="E30">
+<type class="Positive_regulation"/>
+<theme idref="E26"/>
+<cause idref="E29"/>
+<clue>IL-5 synthesis was not only <clueType>induced</clueType> by T-cell receptor stimulation but also <linkCause>by</linkCause> IL-2 receptor stimulation.</clue>
+</event>
+<sentence id="S9">Binding of <term id="T48" lex="NF-AT" sem="Protein_family_or_group">NF-AT</term>, <term id="T49" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>, and <term id="T50" lex="AP-1" sem="Protein_complex">AP-1</term> was induced by <term id="T51" lex="T-cell_receptor_(TcR)_stimulation" sem="Other"><term id="T52" lex="T-cell_receptor" sem="Protein_family_or_group">T-cell receptor</term> (<term id="T53" lex="TcR" sem="Protein_family_or_group">TcR</term>) stimulation</term>, although there was no significant upregulation of binding by <term id="T54" lex="IL-2_stimulation" sem="Other"><term id="T55" lex="IL-2" sem="Protein_molecule">IL-2</term> stimulation</term>.</sentence>
+<event id="E31">
+<type class="Binding"/>
+<theme idref="T48"/>
+<clue><clueType>Binding</clueType> <linkTheme>of</linkTheme> NF-AT, NF-kappaB, and AP-1 was induced by T-cell receptor (TcR) stimulation, although there was no significant upregulation of binding by IL-2 stimulation.</clue>
+<comment>NER T48 mod</comment></event>
+<event id="E32">
+<type class="Binding"/>
+<theme idref="T49"/>
+<clue><clueType>Binding</clueType> <linkTheme>of</linkTheme> NF-AT, NF-kappaB, and AP-1 was induced by T-cell receptor (TcR) stimulation, although there was no significant upregulation of binding by IL-2 stimulation.</clue>
+</event>
+<event id="E33">
+<type class="Binding"/>
+<theme idref="T50"/>
+<clue><clueType>Binding</clueType> <linkTheme>of</linkTheme> NF-AT, NF-kappaB, and AP-1 was induced by T-cell receptor (TcR) stimulation, although there was no significant upregulation of binding by IL-2 stimulation.</clue>
+<comment>NER T50 mod</comment></event>
+<event id="E34">
+<type class="Positive_regulation"/>
+<theme idref="T53"/>
+<clue>Binding of NF-AT, NF-kappaB, and AP-1 was induced by T-cell receptor (TcR) <clueType>stimulation</clueType>, although there was no significant upregulation of binding by IL-2 stimulation.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation"/>
+<theme idref="E31"/>
+<cause idref="E34"/>
+<clue>Binding of NF-AT, NF-kappaB, and AP-1 was <clueType>induced</clueType> <linkCause>by</linkCause> T-cell receptor (TcR) stimulation, although there was no significant upregulation of binding by IL-2 stimulation.</clue>
+</event>
+<event id="E36">
+<type class="Positive_regulation"/>
+<theme idref="E32"/>
+<cause idref="E34"/>
+<clue>Binding of NF-AT, NF-kappaB, and AP-1 was <clueType>induced</clueType> <linkCause>by</linkCause> T-cell receptor (TcR) stimulation, although there was no significant upregulation of binding by IL-2 stimulation.</clue>
+</event>
+<event id="E37">
+<type class="Positive_regulation"/>
+<theme idref="E33"/>
+<cause idref="E34"/>
+<clue>Binding of NF-AT, NF-kappaB, and AP-1 was <clueType>induced</clueType> <linkCause>by</linkCause> T-cell receptor (TcR) stimulation, although there was no significant upregulation of binding by IL-2 stimulation.</clue>
+</event>
+<event id="E38">
+<type class="Physiological_process"/>
+<cause idref="T55"/>
+<clue>Binding of NF-AT, NF-kappaB, and AP-1 was induced by T-cell receptor (TcR) stimulation, although there was no significant upregulation of binding by IL-2 <clueType>stimulation</clueType>.</clue>
+</event>
+<event Manner="Low" assertion="non-exist" id="E39">
+<type class="Positive_regulation"/>
+<theme idref="E31"/>
+<cause idref="E38"/>
+<clue>Binding of NF-AT, NF-kappaB, and AP-1 was induced by T-cell receptor (TcR) stimulation, although there was <clueManner>no significant</clueManner> <clueType>upregulation</clueType> <linkTheme>of</linkTheme> <corefTheme>binding</corefTheme> <linkCause>by</linkCause> IL-2 stimulation.</clue>
+</event>
+<event Manner="Low" assertion="non-exist" id="E40">
+<type class="Positive_regulation"/>
+<theme idref="E32"/>
+<cause idref="E38"/>
+<clue>Binding of NF-AT, NF-kappaB, and AP-1 was induced by T-cell receptor (TcR) stimulation, although there was <clueManner>no significant</clueManner> <clueType>upregulation</clueType> <linkTheme>of</linkTheme> <corefTheme>binding</corefTheme> <linkCause>by</linkCause> IL-2 stimulation.</clue>
+</event>
+<event Manner="Low" assertion="non-exist" id="E41">
+<type class="Positive_regulation"/>
+<theme idref="E33"/>
+<cause idref="E38"/>
+<clue>Binding of NF-AT, NF-kappaB, and AP-1 was induced by T-cell receptor (TcR) stimulation, although there was <clueManner>no significant</clueManner> <clueType>upregulation</clueType> <linkTheme>of</linkTheme> <corefTheme>binding</corefTheme> <linkCause>by</linkCause> IL-2 stimulation.</clue>
+</event>
+<sentence id="S10">CONCLUSION: <term id="T56" lex="IL-5" sem="Protein_molecule">IL-5</term> synthesis by <term id="T57" lex="human_helper_T_cell" sem="Cell_natural">human helper T cells</term> is regulated at the <term id="T58" lex="transcriptional_level" sem="Other">transcriptional level</term>.</sentence>
+<event id="E42">
+<type class="Gene_expression"/>
+<theme idref="T56"/>
+<clue>CONCLUSION: IL-5 <clueType>synthesis</clueType> <clueLoc>by human helper T cells</clueLoc> is regulated at the transcriptional level.</clue>
+</event>
+<event KT="Analysis" id="E43">
+<type class="Regulation"/>
+<theme idref="E42"/>
+<clue><clueKT>CONCLUSION</clueKT>: IL-5 synthesis by human helper T cells is <clueType>regulated</clueType> at the transcriptional level.</clue>
+</event>
+<sentence id="S11">A unique <term id="T59" lex="transcriptional_mechanism" sem="Other">transcriptional mechanism</term> distinct from those regulating the <cons id="T60" lex="(OR IL-2_gene IL-4_gene)" sem="(OR DNA_domain_or_region DNA_domain_or_region)"><frag id="F1">IL-2</frag> or <frag id="F2">IL-4</frag> <frag id="F3">genes</frag></cons> seems to control the <term id="T61" lex="IL-5_gene" sem="DNA_domain_or_region"><term id="T62" lex="IL-5" sem="Protein_molecule">IL-5</term> gene</term>.</sentence>
+<event KT="Fact" id="E44">
+<type class="Regulation"/>
+<theme idref="F1" idref1="F3"/>
+<clue>A unique transcriptional mechanism distinct from those <clueType>regulating</clueType> the IL-2 or IL-4 genes seems to control the IL-5 gene.</clue>
+</event>
+<event KT="Fact" id="E45">
+<type class="Regulation"/>
+<theme idref="F2" idref1="F3"/>
+<clue>A unique transcriptional mechanism distinct from those <clueType>regulating</clueType> the IL-2 or IL-4 genes seems to control the IL-5 gene.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E46" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="T61"/>
+<clue>A unique transcriptional mechanism distinct from those regulating the IL-2 or IL-4 genes <clueKT><clueCL>seems</clueCL></clueKT> to <clueType>control</clueType> the IL-5 gene.</clue>
+</event>
+<sentence id="S12">Selective regulation of <term id="T63" lex="IL-5_gene_transcription" sem="Other"><term id="T64" lex="IL-5" sem="DNA_domain_or_region">IL-5 gene</term> transcription</term> may be useful for treating <term id="T65" lex="eosinophlic_inflammation" sem="Other">eosinophlic inflammation</term>.</sentence>
+<event id="E47">
+<type class="Transcription"/>
+<theme idref="T64"/>
+<clue>Selective regulation of IL-5 gene <clueType>transcription</clueType> may be useful for treating eosinophlic inflammation.</clue>
+<comment>NER T64 mod</comment></event>
+<event id="E48">
+<type class="Regulation"/>
+<theme idref="E47"/>
+<clue>Selective <clueType>regulation</clueType> <linkTheme>of</linkTheme> IL-5 gene transcription may be useful for treating eosinophlic inflammation.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

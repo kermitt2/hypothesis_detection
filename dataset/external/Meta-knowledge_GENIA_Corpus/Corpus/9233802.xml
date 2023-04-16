@@ -1,0 +1,207 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9233802" created="14/11/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9233802</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="c-Myb" sem="Protein_molecule">c-Myb</term> and <term id="T2" lex="Ets_protein" sem="Protein_family_or_group">Ets proteins</term> synergize to overcome <term id="T3" lex="transcriptional_repression" sem="Other">transcriptional repression</term> by <term id="T4" lex="ZEB" sem="Protein_molecule">ZEB</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Negative_regulation"/>
+<cause idref="T4"/>
+<clue>c-Myb and Ets proteins synergize to overcome <clueType>transcriptional repression</clueType> <linkCause>by</linkCause> ZEB.</clue>
+<comment>NER T1 MOD</comment></event>
+<event id="E2">
+<type class="Negative_regulation"/>
+<theme idref="E1"/>
+<cause idref="T1"/>
+<cause idref="T2"/>
+<clue>c-Myb and Ets proteins <clueType>synergize to overcome</clueType> transcriptional repression by ZEB.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T5" lex="Zfh_family" sem="Protein_family_or_group">Zfh family</term> of <term id="T6" lex="zinc_finger/homeodomain_protein" sem="Protein_family_or_group">zinc finger/homeodomain proteins</term> was first identified in <term id="A1" sem="Multicellular_organism_natural">Drosophila</term> where it is required for differentiation of tissues such as the <term id="T7" lex="central_nervous_system" sem="Body_region">central nervous system</term> and <term id="T8" lex="muscle" sem="Tissue_natural">muscle</term>.</sentence>
+<event KT="Other" id="E3">
+<type class="Biological_process"/>
+<theme idref="T7"/>
+<clue>The Zfh family of zinc finger/homeodomain proteins was first identified in Drosophila where it is required for <clueType>differentiation</clueType> <linkTheme>of</linkTheme> <corefTheme>tissues</corefTheme> such as the central nervous system and muscle.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Biological_process"/>
+<theme idref="T8"/>
+<clue>The Zfh family of zinc finger/homeodomain proteins was first identified in Drosophila where it is required for <clueType>differentiation</clueType> <linkTheme>of</linkTheme> <corefTheme>tissues</corefTheme> such as the central nervous system and muscle.</clue>
+</event>
+<event KT="Fact" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="T5"/>
+<clue>The Zfh family of zinc finger/homeodomain proteins was first identified <clueLoc>in Drosophila</clueLoc> where <corefCause>it</corefCause> is <clueType>required</clueType> <linkTheme>for</linkTheme> differentiation of tissues such as the central nervous system and muscle.</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="T5"/>
+<clue>The Zfh family of zinc finger/homeodomain proteins was first identified <clueLoc>in Drosophila</clueLoc> where <corefCause>it</corefCause> is <clueType>required</clueType> <linkTheme>for</linkTheme> differentiation of tissues such as the central nervous system and muscle.</clue>
+</event>
+<sentence id="S3"><term id="T9" lex="ZEB" sem="Protein_molecule">ZEB</term>, a vertebrate homolog of <term id="T10" lex="Zfh-1" sem="Protein_molecule">Zfh-1</term>, binds a subset of <term id="T11" lex="E_box" sem="DNA_family_or_group">E boxes</term> and blocks <term id="A3" sem="Other">myogenesis</term> through <term id="T12" lex="transcriptional_repression" sem="Other">transcriptional repression</term> of <term id="T13" lex="muscle_gene" sem="DNA_family_or_group"><term id="T14" lex="muscle" sem="Tissue_natural">muscle</term> genes</term>.</sentence>
+<event KT="Fact" id="E7">
+<type class="Binding"/>
+<theme idref="T9"/>
+<theme idref="T11"/>
+<clue>ZEB, a vertebrate homolog of Zfh-1, <clueType>binds</clueType> a subset of E boxes and blocks myogenesis through transcriptional repression of muscle genes.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Negative_regulation"/>
+<theme idref="T13"/>
+<cause idref="T9"/>
+<clue>ZEB, a vertebrate homolog of Zfh-1, binds a subset of E boxes and blocks myogenesis through <clueType>transcriptional repression</clueType> <linkTheme>of</linkTheme> muscle genes.</clue>
+</event>
+<event KT="Fact" id="E9">
+<type class="Negative_regulation"/>
+<theme idref="A3"/>
+<cause idref="E8"/>
+<clue>ZEB, a vertebrate homolog of Zfh-1, binds a subset of E boxes and <clueType>blocks</clueType> myogenesis <linkCause>through</linkCause> transcriptional repression of muscle genes.</clue>
+</event>
+<sentence id="S4">We present evidence here that <term id="T15" lex="ZEB" sem="Protein_molecule">ZEB</term> also has an important role in controlling <term id="T16" lex="hematopoietic_gene_transcription" sem="Other"><term id="T17" lex="hematopoietic_gene" sem="DNA_domain_or_region">hematopoietic gene</term> transcription</term>.</sentence>
+<event KT="Other" id="E10">
+<type class="Transcription"/>
+<theme idref="T17"/>
+<clue>We present evidence here that ZEB also has an important role in controlling hematopoietic gene <clueType>transcription</clueType>.</clue>
+</event>
+<event KT="Analysis" id="E11">
+<type class="Regulation"/>
+<theme idref="E10"/>
+<cause idref="T15"/>
+<clue>We <clueKT>present</clueKT> <clueKT>evidence</clueKT> here that ZEB also <clueType>has an important role in controlling</clueType> hematopoietic gene transcription.</clue>
+<comment>NER: T16 mod &quot;controlling hematopoietic gene transcription&quot;-&gt;&quot;hematopoietic gene transcription&quot;</comment></event>
+<sentence id="S5">Two families of <term id="T18" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term> that are required for normal <term id="T19" lex="hematopoiesis" sem="Other">hematopoiesis</term> are <term id="T20" lex="c-Myb" sem="Protein_molecule">c-Myb</term> and <term id="T21" lex="Ets" sem="Protein_molecule">Ets</term>.</sentence>
+<event KT="Fact" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="T19"/>
+<cause idref="T20"/>
+<clue><corefCause>Two families of transcription factors</corefCause> that are <clueType>required</clueType> <linkTheme>for</linkTheme> normal hematopoiesis are c-Myb and Ets.</clue>
+</event>
+<event KT="Fact" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T19"/>
+<cause idref="T21"/>
+<clue><corefCause>Two families of transcription factors</corefCause> that are <clueType>required</clueType> <linkTheme>for</linkTheme> normal hematopoiesis are c-Myb and Ets.</clue>
+</event>
+<sentence id="S6">These factors act synergistically to activate <term id="A4" sem="Other">transcription</term>, and this synergy is required for transcription of at least several important <term id="T22" lex="hematopoietic_gene" sem="DNA_family_or_group">hematopoietic genes</term>.</sentence>
+<event KT="Fact" id="E14">
+<type class="Correlation"/>
+<theme idref="T20"/>
+<theme idref="T21"/>
+<clue>These factors <clueType>act synergistically</clueType> to activate transcription, and this synergy is required for transcription of at least several important hematopoietic genes.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="A4"/>
+<cause idref="E14"/>
+<clue>These factors act synergistically <clueType>to activate</clueType> transcription, and this synergy is required for transcription of at least several important hematopoietic genes.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Transcription"/>
+<theme idref="T22"/>
+<clue>These factors act synergistically to activate transcription, and this synergy is required for <clueType>transcription</clueType> <linkTheme>of</linkTheme> at least several important hematopoietic genes.</clue>
+</event>
+<event KT="Fact" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<cause idref="E14"/>
+<clue>These factors act synergistically to activate transcription, and <corefCause>this synergy</corefCause> is <clueType>required</clueType> <linkTheme>for</linkTheme> transcription of at least several important hematopoietic genes.</clue>
+</event>
+<sentence id="S7"><term id="T23" lex="ZEB" sem="Protein_molecule">ZEB</term> blocks the activity of <term id="T24" lex="c-Myb" sem="Protein_molecule">c-Myb</term> and <term id="T25" lex="Ets" sem="Protein_molecule">Ets</term> individually, but together the factors synergize to resist this repression.</sentence>
+<event KT="Fact" id="E18">
+<type class="Negative_regulation"/>
+<theme idref="T24"/>
+<cause idref="T23"/>
+<clue>ZEB <clueType>blocks</clueType> the activity of c-Myb and Ets individually, but together the factors synergize to resist this repression.</clue>
+</event>
+<event KT="Fact" id="E19">
+<type class="Negative_regulation"/>
+<theme idref="T25"/>
+<cause idref="T23"/>
+<clue>ZEB <clueType>blocks</clueType> the activity of c-Myb and Ets individually, but together the factors synergize to resist this repression.</clue>
+</event>
+<event KT="Fact" id="E20">
+<type class="Negative_regulation"/>
+<theme idref="E18"/>
+<cause idref="T24"/>
+<cause idref="T25"/>
+<clue>ZEB blocks the activity of c-Myb and Ets individually, but together the factors <clueType>synergize to resist</clueType> <corefTheme>this repression</corefTheme>.</clue>
+</event>
+<event KT="Fact" id="E21">
+<type class="Negative_regulation"/>
+<theme idref="E19"/>
+<cause idref="T24"/>
+<cause idref="T25"/>
+<clue>ZEB blocks the activity of c-Myb and Ets individually, but together the factors <clueType>synergize to resist</clueType> <corefTheme>this repression</corefTheme>.</clue>
+</event>
+<sentence id="S8">Such repression imposes a requirement for both <term id="T26" lex="c-Myb" sem="Protein_molecule">c-Myb</term> and <term id="T27" lex="Ets" sem="Protein_molecule">Ets</term> for <term id="A5" sem="Other">transcriptional activity</term>, providing one explanation for why synergy between these factors is important.</sentence>
+<event KT="Fact" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="A5"/>
+<cause idref="T26"/>
+<cause idref="T27"/>
+<clue>Such repression imposes a <clueType>requirement</clueType> <linkCause>for both</linkCause> c-Myb and Ets <linkTheme>for</linkTheme> transcriptional activity, providing one explanation for why synergy between these factors is important.</clue>
+</event>
+<event KT="Other" id="E23">
+<type class="Correlation"/>
+<theme idref="T26"/>
+<theme idref="T27"/>
+<clue>Such repression imposes a requirement for both c-Myb and Ets for transcriptional activity, providing one explanation for why <clueType>synergy</clueType> <linkTheme>between</linkTheme> <corefTheme>these factors</corefTheme> is important.</clue>
+</event>
+<event KT="Analysis" id="E123">
+<type class="Regulation"/>
+<cause idref="E23"/>
+<clue>Such repression imposes a requirement for both c-Myb and Ets for transcriptional activity, providing one <clueKT>explanation</clueKT> for why synergy between these factors is <clueType>important</clueType>.</clue>
+</event>
+<sentence id="S9">The balance between repression by <term id="T28" lex="ZEB" sem="Protein_molecule">ZEB</term> and <term id="T29" lex="transcriptional_activation" sem="Other">transcriptional activation</term> by <term id="T30" lex="c-Myb" sem="Protein_molecule">c-Myb</term><term id="T31" lex="Ets" sem="Protein_molecule">/Ets</term> provides a flexible regulatory mechanism for controlling <term id="T32" lex="gene_expression" sem="Other">gene expression</term> in <term id="T33" lex="hematopoietic_cell" sem="Cell_natural">hematopoietic cells</term>.</sentence>
+<event KT="Other" id="E24">
+<type class="Negative_regulation"/>
+<cause idref="T28"/>
+<clue>The balance between <clueType>repression</clueType> <linkCause>by</linkCause> ZEB and transcriptional activation by c-Myb/Ets provides a flexible regulatory mechanism for controlling gene expression in hematopoietic cells.</clue>
+</event>
+<event KT="Other" id="E25">
+<type class="Positive_regulation"/>
+<cause idref="T30"/>
+<cause idref="T31"/>
+<clue>The balance between repression by ZEB and transcriptional <clueType>activation</clueType> <linkCause>by</linkCause> c-Myb/Ets provides a flexible regulatory mechanism for controlling gene expression in hematopoietic cells.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Regulation"/>
+<theme idref="E24"/>
+<theme idref="E25"/>
+<clue>The <clueType>balance</clueType> <linkTheme>between</linkTheme> repression by ZEB and transcriptional activation by c-Myb/Ets provides a flexible regulatory mechanism for controlling gene expression in hematopoietic cells.</clue>
+</event>
+<event KT="Fact" id="E27">
+<type class="Regulation"/>
+<theme idref="T32"/>
+<cause idref="E26"/>
+<clue>The balance between repression by ZEB and transcriptional activation by c-Myb/Ets <clueType>provides a flexible regulatory mechanism for controlling</clueType> gene expression <clueLoc>in hematopoietic cells</clueLoc>.</clue>
+</event>
+<sentence id="S10">We demonstrate that one target of this <term id="T34" lex="positive/negative_regulation" sem="Other">positive/negative regulation</term> in vivo is the <term id="T35" lex="alpha4_integrin" sem="Protein_molecule">alpha4 integrin</term>, which play a key role in normal <term id="T36" lex="hematopoiesis" sem="Other">hematopoiesis</term> and function of <term id="T37" lex="mature_leukocyte" sem="Cell_natural">mature leukocytes</term>.</sentence>
+<event KT="Analysis" id="E28">
+<type class="Regulation"/>
+<theme idref="T35"/>
+<cause idref="E26"/>
+<clue>We <clueKT>demonstrate</clueKT> that one <corefTheme>target</corefTheme> of <corefCause>this</corefCause> <clueType>positive/negative regulation</clueType> in vivo is the alpha4 integrin, which play a key role in normal hematopoiesis and function of mature leukocytes.</clue>
+</event>
+<event KT="Other" id="E29">
+<type class="Regulation"/>
+<theme idref="T36"/>
+<cause idref="T35"/>
+<clue>We demonstrate that one target of this positive/negative regulation in vivo is the alpha4 integrin, which <clueType>play a key role</clueType> <linkTheme>in</linkTheme> normal hematopoiesis and function of mature leukocytes.</clue>
+</event>
+<event KT="Other" id="E30">
+<type class="Physiological_process"/>
+<cause idref="T37"/>
+<clue>We demonstrate that one target of this positive/negative regulation in vivo is the alpha4 integrin, which play a key role in normal hematopoiesis and <clueType>function</clueType> <linkCause>of</linkCause> mature leukocytes.</clue>
+</event>
+<event KT="Fact" id="E31">
+<type class="Regulation"/>
+<theme idref="E30"/>
+<cause idref="T35"/>
+<clue>We demonstrate that one target of this positive/negative regulation in vivo is the alpha4 integrin, which <clueType>play a key role</clueType> <linkTheme>in</linkTheme> normal hematopoiesis and function of mature leukocytes.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

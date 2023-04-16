@@ -1,0 +1,21 @@
+T4	Adverse_effect 36 45	following
+T21	Potential_therapeutic_effect 160 169	treatment
+T24	Adverse_effect 222 229	related
+T26	Adverse_effect 346 355	developed
+T28	Potential_therapeutic_effect 496 508	administered
+T29	Adverse_effect 810 821	development
+T30	Adverse_effect 1098 1110	complication
+T34	Potential_therapeutic_effect 900 907	managed
+R2	Coreference Arg1:T33 Arg2:T27
+E4	Combination:T25 has_participant:T8 has_participant:T9 has_participant:T10
+E1	Adverse_effect:T4 has_agent:T2 affects:T1
+E2	Potential_therapeutic_effect:T21 affects:T5 has_agent:T3
+E3	Adverse_effect:T24 has_agent:T6 affects:T23 affects:T22
+E5	Adverse_effect:T26 has_agent:E4 affects:T7
+E6	Potential_therapeutic_effect:T28 affects:T14 has_subject:T27 has_agent:E10
+E7	Adverse_effect:T29 affects:T15 has_agent:T35
+E8	Adverse_effect:T30 has_cue:T32 has_cue:T31 has_agent:T19 affects:T18
+E9	Potential_therapeutic_effect:T34 has_agent:T16 has_agent:T17 affects:T33
+A1	Speculated E8
+A2	Manner E8 Low
+E10	Combination:T36 has_participant:T13 has_participant2:T12 has_participant3:T11

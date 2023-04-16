@@ -1,0 +1,28 @@
+T27	Adverse_effect 32 42	associated
+T18	Adverse_effect 207 217	associated
+T48	Potential_therapeutic_effect 281 290	receiving
+T49	Adverse_effect 395 404	developed
+T51	Adverse_effect 763 771	reported
+T53	Adverse_effect 852 861	developed
+T63	Adverse_effect 1704 1708	with
+T65	Adverse_effect 1737 1743	occurs
+T68	Adverse_effect 2115 2130	adverse effects
+T17	Adverse_effect 85 95	associated
+R1	is_equivalent Arg1:T3 Arg2:T4
+R2	is_equivalent Arg1:T6 Arg2:T7
+E1	Adverse_effect:T27 has_agent:T2 affects:T1
+E2	Adverse_effect:T18 has_agent:T10 has_cue:T41
+E3	Potential_therapeutic_effect:T48 has_agent:T12 affects:T13 has_subject:T11
+E4	Adverse_effect:T49 has_agent:T12 has_subject:T47 affects:T15
+E5	Adverse_effect:T51 affects:T50 has_subject:T56 has_agent:T25
+E6	Adverse_effect:T53 affects:T52 has_subject:T57 has_agent:T24
+E9	Adverse_effect:T63 has_agent:T37 affects:T36 has_cue:T70
+E10	Adverse_effect:T65 affects:T38 has_agent:T64
+E12	Adverse_effect:T68 has_cue:T69 has_agent:T45 affects:T46
+E13	Adverse_effect:T17 has_agent:T3 affects:T5 has_cue:T20
+A3	Speculated E12
+A4	Manner E9 Low
+A5	Manner E13 Low
+A1	Speculated E2
+T22	Adverse_effect 2063 2083	contributing factors
+E7	Adverse_effect:T22 has_agent:T43 has_agent2:T44 has_cue:T23 affects:T39 has_subject:T14

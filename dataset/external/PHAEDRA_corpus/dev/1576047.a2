@@ -1,0 +1,6 @@
+T20	DDI 45 56	interaction
+T32	Potential_therapeutic_effect 416 423	therapy
+R2	Subject_Disorder Arg1:T25 Arg2:T3
+R3	Subject_Disorder Arg1:T33 Arg2:T10
+E1	DDI:T20 has_participant:T1 has_participant:T2 has_subject:T25
+E5	Potential_therapeutic_effect:T32 has_agent:T9 has_subject:T33 affects:T10

@@ -1,0 +1,211 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10430908" created="04/07/06" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10430908</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="NF-kappaB-mediated up-regulation" sem="Other"><term id="T2" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>-mediated up-regulation</term> of <term id="T3" lex="Bcl-x" sem="Protein_molecule">Bcl-x</term> and <term id="T4" lex="Bfl-1/A1" sem="Protein_molecule">Bfl-1/A1</term> is required for <term id="T5" lex="CD40_survival_signaling" sem="Other"><term id="T6" lex="CD40" sem="Protein_molecule">CD40</term> survival signaling</term> in <term id="T7" lex="B_lymphocyte" sem="Cell_natural">B lymphocytes</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation"/>
+<theme idref="T3"/>
+<cause idref="T2"/>
+<clue>NF-kappaB<linkCause>-mediated</linkCause> <clueType>up-regulation</clueType> <linkTheme>of</linkTheme> Bcl-x and Bfl-1/A1 is required for CD40 survival signaling in B lymphocytes.</clue>
+<comment>NER: T1 sem mod, Cell_type -&gt; Other_name</comment></event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="T4"/>
+<cause idref="T2"/>
+<clue>NF-kappaB<linkCause>-mediated</linkCause> <clueType>up-regulation</clueType> <linkTheme>of</linkTheme> Bcl-x and Bfl-1/A1 is required for CD40 survival signaling in B lymphocytes.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="E1"/>
+<clue>NF-kappaB-mediated up-regulation of Bcl-x and Bfl-1/A1 is <clueType>required</clueType> <linkTheme>for</linkTheme> CD40 survival signaling in B lymphocytes.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="E2"/>
+<clue>NF-kappaB-mediated up-regulation of Bcl-x and Bfl-1/A1 is <clueType>required</clueType> <linkTheme>for</linkTheme> CD40 survival signaling in B lymphocytes.</clue>
+</event>
+<event id="E5">
+<type class="Cell_communication"/>
+<theme idref="T6"/>
+<clue>NF-kappaB-mediated up-regulation of Bcl-x and Bfl-1/A1 is required for CD40 <clueType>survival signaling</clueType> <clueLoc>in B lymphocytes</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Activation of <term id="T8" lex="CD40" sem="Protein_molecule">CD40</term> is essential for <term id="T9" lex="thymus-dependent_humoral_immune_response" sem="Other">thymus-dependent humoral immune responses</term> and rescuing <term id="T10" lex="B_cell" sem="Cell_natural">B cells</term> from <term id="T11" lex="apoptosis" sem="Other">apoptosis</term>.</sentence>
+<event KT="Other" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="T8"/>
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> CD40 is essential for thymus-dependent humoral immune responses and rescuing B cells from apoptosis.</clue>
+</event>
+<event KT="Fact" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T9"/>
+<cause idref="E6"/>
+<clue>Activation of CD40 is <clueType>essential</clueType> <linkTheme>for</linkTheme> thymus-dependent humoral immune responses and rescuing B cells from apoptosis.</clue>
+</event>
+<event KT="Fact" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="E6"/>
+<clue>Activation of CD40 is <clueType>essential</clueType> <linkTheme>for</linkTheme> thymus-dependent humoral immune responses and rescuing B cells from apoptosis.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Negative_regulation"/>
+<theme idref="E10"/>
+<clue>Activation of CD40 is essential for thymus-dependent humoral immune responses and <clueType>rescuing</clueType> B cells <linkTheme>from</linkTheme> apoptosis.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Cellular_physiological_process"/>
+<theme idref="T10"/>
+<clue>Activation of CD40 is essential for thymus-dependent humoral immune responses and rescuing B cells from <clueType>apoptosis</clueType>.</clue>
+</event>
+<sentence id="S3">Many of the effects of <term id="T12" lex="CD40" sem="Protein_molecule">CD40</term> are believed to be achieved through altered <term id="T13" lex="gene_expression" sem="Other">gene expression</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E11">
+<type class="Positive_regulation"/>
+<cause idref="E12"/>
+<clue>Many of the <clueType>effects</clueType> of CD40 are <clueKT><clueCL>believed</clueCL></clueKT> to be <clueType>achieved</clueType> <linkCause>through</linkCause> altered gene expression.</clue>
+<comment>NO THEME</comment></event>
+<event KT="Other" id="E12">
+<type class="Regulation"/>
+<theme idref="T13"/>
+<cause idref="T12"/>
+<clue>Many of the effects of CD40 are believed to be achieved through <clueType>altered</clueType> gene expression.</clue>
+</event>
+<sentence id="S4">In addition to <term id="T14" lex="Bcl-x" sem="Protein_molecule">Bcl-x</term>, a known <term id="T15" lex="CD40-regulated_antiapoptotic_molecule" sem="Protein_molecule"><term id="T16" lex="CD40" sem="Protein_molecule">CD40</term>-regulated antiapoptotic molecule</term>, we identified a related <term id="T17" lex="antiapoptotic_molecule" sem="Protein_family_or_group">antiapoptotic molecule</term>, <term id="T18" lex="A1/Bfl-1" sem="Protein_molecule">A1/Bfl-1</term>, as a <term id="T19" lex="CD40-inducible_gene" sem="DNA_domain_or_region"><term id="T20" lex="CD40" sem="Protein_molecule">CD40</term>-inducible gene</term>.</sentence>
+<event KT="Analysis" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T18"/>
+<cause idref="T20"/>
+<clue>In addition to Bcl-x, a known CD40-regulated antiapoptotic molecule, we <clueKT>identified</clueKT> a related antiapoptotic molecule, A1/Bfl-1, as a CD40-<clueType>inducible</clueType> gene.</clue>
+</event>
+<event KT="Fact" id="E14">
+<type class="Regulation"/>
+<theme idref="T14"/>
+<cause idref="T20"/>
+<clue>In addition to Bcl-x, a <clueKT>known</clueKT> CD40-<clueType>regulated</clueType> antiapoptotic molecule, we identified a related antiapoptotic molecule, A1/Bfl-1, as a CD40-inducible gene.</clue>
+</event>
+<sentence id="S5">Inhibition of the <term id="T21" lex="NF-kappaB_pathway" sem="Other"><term id="T22" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> pathway</term> by overexpression of a <term id="A2" sem="Protein_molecule">dominant-active inhibitor of <term id="T23" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term></term> abolished <term id="T24" lex="CD40-induced_up-regulation" sem="Other"><term id="T25" lex="CD40" sem="Protein_molecule">CD40</term>-induced up-regulation</term> of both the <term id="T27" lex="Bfl-1" sem="Protein_molecule">Bfl-1</term> and <term id="T28" lex="Bcl-x" sem="Protein_molecule">Bcl-x</term> genes and also eliminated the ability of <term id="T29" lex="CD40" sem="Protein_molecule">CD40</term> to rescue <term id="T31" lex="Fas" sem="Protein_molecule">Fas</term>-induced <term id="A3" sem="Other">cell death</term>.</sentence>
+<event id="E15">
+<type class="Negative_regulation"/>
+<theme idref="T21"/>
+<cause idref="E34"/>
+<clue><clueType>Inhibition</clueType> <linkTheme>of</linkTheme> the NF-kappaB pathway <linkCause>by</linkCause> overexpression of a dominant-active inhibitor of NF-kappaB abolished CD40-induced up-regulation of both the Bfl-1 and Bcl-x genes and also eliminated the ability of CD40 to rescue Fas-induced cell death.</clue>
+</event>
+<event id="E16">
+<type class="Gene_expression"/>
+<theme idref="A2"/>
+<clue>Inhibition of the NF-kappaB pathway by <clueType>overexpression</clueType> <linkTheme>of</linkTheme> a dominant-active inhibitor of NF-kappaB abolished CD40-induced up-regulation of both the Bfl-1 and Bcl-x genes and also eliminated the ability of CD40 to rescue Fas-induced cell death.</clue>
+<comment>TPS: A2</comment></event>
+<event id="E34">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<clue>Inhibition of the NF-kappaB pathway by <clueType>overexpression</clueType> of a dominant-active inhibitor of NF-kappaB abolished CD40-induced up-regulation of both the Bfl-1 and Bcl-x genes and also eliminated the ability of CD40 to rescue Fas-induced cell death.</clue>
+</event>
+<event id="E17">
+<type class="Negative_regulation"/>
+<theme idref="E19"/>
+<cause idref="E15"/>
+<clue>Inhibition of the NF-kappaB pathway by overexpression of a dominant-active inhibitor of NF-kappaB <clueType>abolished</clueType> CD40-induced up-regulation of both the Bfl-1 and Bcl-x genes and also eliminated the ability of CD40 to rescue Fas-induced cell death.</clue>
+</event>
+<event id="E18">
+<type class="Negative_regulation"/>
+<theme idref="E20"/>
+<cause idref="E15"/>
+<clue>Inhibition of the NF-kappaB pathway by overexpression of a dominant-active inhibitor of NF-kappaB <clueType>abolished</clueType> CD40-induced up-regulation of both the Bfl-1 and Bcl-x genes and also eliminated the ability of CD40 to rescue Fas-induced cell death.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="T27"/>
+<cause idref="T25"/>
+<clue>Inhibition of the NF-kappaB pathway by overexpression of a dominant-active inhibitor of NF-kappaB abolished CD40<linkCause>-induced</linkCause> <clueType>up-regulation</clueType> <linkTheme>of</linkTheme> both the Bfl-1 and Bcl-x genes and also eliminated the ability of CD40 to rescue Fas-induced cell death.</clue>
+<comment>NER: T26 del &quot;CD40&quot;</comment></event>
+<event KT="Other" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="T28"/>
+<cause idref="T25"/>
+<clue>Inhibition of the NF-kappaB pathway by overexpression of a dominant-active inhibitor of NF-kappaB abolished CD40<linkCause>-induced</linkCause> <clueType>up-regulation</clueType> <linkTheme>of</linkTheme> both the Bfl-1 and Bcl-x genes and also eliminated the ability of CD40 to rescue Fas-induced cell death.</clue>
+</event>
+<event id="E21">
+<type class="Negative_regulation"/>
+<theme idref="E22"/>
+<cause idref="E15"/>
+<clue>Inhibition of the NF-kappaB pathway by overexpression of a dominant-active inhibitor of NF-kappaB abolished CD40-induced up-regulation of both the Bfl-1 and Bcl-x genes and also <clueType>eliminated</clueType> the ability of CD40 to rescue Fas-induced cell death.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E22">
+<type class="Negative_regulation"/>
+<theme idref="E23"/>
+<cause idref="T29"/>
+<clue>Inhibition of the NF-kappaB pathway by overexpression of a dominant-active inhibitor of NF-kappaB abolished CD40-induced up-regulation of both the Bfl-1 and Bcl-x genes and also eliminated the <clueKT><clueCL>ability</clueCL></clueKT> <linkCause>of</linkCause> CD40 to <clueType>rescue</clueType> Fas-induced cell death.</clue>
+</event>
+<event KT="Other" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<cause idref="T31"/>
+<clue>Inhibition of the NF-kappaB pathway by overexpression of a dominant-active inhibitor of NF-kappaB abolished CD40-induced up-regulation of both the Bfl-1 and Bcl-x genes and also eliminated the ability of CD40 to rescue Fas-<clueType>induced</clueType> cell death.</clue>
+<comment>NER: T30 del &quot;Fas-induced cell death&quot;</comment></event>
+<sentence id="S6">Within the <term id="T32" lex="upstream_promoter_region" sem="DNA_domain_or_region">upstream promoter region</term> of <term id="T33" lex="Bcl-x" sem="Protein_molecule">Bcl-x</term>, a potential <term id="T34" lex="NF-kappaB-binding_sequence" sem="DNA_domain_or_region"><term id="T35" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>-binding sequence</term> was found to support <term id="T36" lex="NF-kappaB-dependent_transcriptional_activation" sem="Other"><term id="T37" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>-dependent transcriptional activation</term>.</sentence>
+<event id="E25">
+<type class="Positive_regulation"/>
+<cause idref="T37"/>
+<clue>Within the upstream promoter region of Bcl-x, a potential NF-kappaB-binding sequence was found to support NF-kappaB<linkCause>-dependent</linkCause> <clueType>transcriptional activation</clueType>.</clue>
+<comment>NO THEME</comment></event>
+<event id="E33">
+<type class="Positive_regulation"/>
+<theme idref="T34"/>
+<cause idref="E25"/>
+<clue>Within the upstream promoter region of Bcl-x, a potential NF-kappaB-binding sequence was <clueKT>found</clueKT> to <clueType>support</clueType> NF-kappaB-dependent transcriptional activation.</clue>
+</event>
+<sentence id="S7">Furthermore, expression of physiological levels of <term id="T39" lex="Bcl-x" sem="Protein_molecule">Bcl-x</term> protected <term id="T40" lex="B_cell" sem="Cell_natural">B cells</term> from <term id="A4" sem="Protein_molecule">Fas</term>-mediated <term id="T41" lex="apoptosis" sem="Other">apoptosis</term> in the absence of <term id="T42" lex="NF-kappaB_signaling" sem="Other"><term id="T43" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> signaling</term>.</sentence>
+<event id="E26">
+<type class="Gene_expression"/>
+<theme idref="T39"/>
+<clue>Furthermore, <clueType>expression</clueType> <linkTheme>of</linkTheme> physiological levels of Bcl-x protected B cells from Fas-mediated apoptosis in the absence of NF-kappaB signaling.</clue>
+</event>
+<event id="E27">
+<type class="Negative_regulation"/>
+<theme idref="E28"/>
+<cause idref="E26"/>
+<clue>Furthermore, expression of physiological levels of Bcl-x <clueType>protected</clueType> B cells <linkTheme>from</linkTheme> Fas-mediated apoptosis in the absence of NF-kappaB signaling.</clue>
+<comment>NER: T38 del &quot;Bcl-x protected B cells&quot;</comment></event>
+<event KT="Other" id="E28">
+<type class="Cellular_physiological_process"/>
+<theme idref="T40"/>
+<clue>Furthermore, expression of physiological levels of Bcl-x protected B cells from Fas-mediated <clueType>apoptosis</clueType> in the absence of NF-kappaB signaling.</clue>
+</event>
+<event KT="Other" id="E35">
+<type class="Positive_regulation"/>
+<theme idref="E28"/>
+<cause idref="A4"/>
+<clue>Furthermore, expression of physiological levels of Bcl-x protected B cells from Fas-<clueType>mediated</clueType> apoptosis in the absence of NF-kappaB signaling.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E29">
+<type class="Regulation"/>
+<theme idref="E27"/>
+<cause idref="T42"/>
+<clue>Furthermore, expression of physiological levels of Bcl-x protected B cells from Fas-mediated apoptosis <linkCause>in the <cluePolarity>absence</cluePolarity> of</linkCause> NF-kappaB signaling.</clue>
+</event>
+<sentence id="S8">Thus, our results suggest that <term id="T45" lex="CD40" sem="Protein_molecule">CD40</term>-mediated <term id="A5" sem="Other">cell survival</term> proceeds through <term id="T46" lex="NF-kappaB-dependent_up-regulation" sem="Other"><term id="T47" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>-dependent up-regulation</term> of <term id="T48" lex="Bcl-2_family_member" sem="Protein_family_or_group">Bcl-2 family members</term>.</sentence>
+<event KT="Other" id="E30">
+<type class="Positive_regulation"/>
+<theme idref="A5"/>
+<cause idref="T45"/>
+<clue>Thus, our results suggest that CD40-<clueType>mediated</clueType> cell survival proceeds through NF-kappaB-dependent up-regulation of Bcl-2 family members.</clue>
+<comment>NER: T44 del &quot;CD40-mediated cell survival&quot;</comment></event>
+<event KT="Other" id="E31">
+<type class="Positive_regulation"/>
+<theme idref="T48"/>
+<cause idref="T47"/>
+<clue>Thus, our results suggest that CD40-mediated cell survival proceeds through NF-kappaB<linkCause>-dependent</linkCause> <clueType>up-regulation</clueType> <linkTheme>of</linkTheme> Bcl-2 family members.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E32">
+<type class="Positive_regulation"/>
+<theme idref="E30"/>
+<cause idref="E31"/>
+<clue><clueKT>Thus</clueKT>, our results <clueCL>suggest</clueCL> that CD40-mediated cell survival <clueType>proceeds</clueType> <linkCause>through</linkCause> NF-kappaB-dependent up-regulation of Bcl-2 family members.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

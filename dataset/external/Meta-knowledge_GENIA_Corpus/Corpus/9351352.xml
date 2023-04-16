@@ -1,0 +1,195 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9351352" created="09/06/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9351352</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Dysregulation of <term id="T1" lex="monocytic_nuclear_factor-kappa_B" sem="Protein_molecule">monocytic <term id="T2" lex="nuclear_factor-kappa_B" sem="Protein_complex">nuclear factor-kappa B</term></term> by <term id="A1" sem="Lipid">oxidized <term id="T3" lex="low-density_lipoprotein" sem="Lipid">low-density lipoprotein</term></term>.</sentence>
+<event KT="Investigation" Polarity="Negative" id="E1">
+<type class="Regulation"/>
+<theme idref="T2"/>
+<cause idref="A1"/>
+<clue><clueType><cluePolarity>Dys</cluePolarity>regulation</clueType> <linkTheme>of</linkTheme> <clueLoc>monocytic</clueLoc> nuclear factor-kappa B <linkCause>by</linkCause> oxidized low-density lipoprotein.</clue>
+<comment>NER: T3, sem mod, Protein_complex-&gt;Lipid</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T4" lex="nuclear_factor-kappa_B_(NF-kappa_B)/Rel_transcription_factor" sem="Protein_family_or_group">Nuclear factor-kappa B <term id="A6" sem="Protein_family_or_group">(<term id="T5" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term>)/Rel</term> transcription factors</term> may be involved in <term id="T6" lex="atherosclerosis" sem="Other">atherosclerosis</term>, as is suggested by the presence of activated <term id="T7" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> in <term id="T8" lex="human_atherosclerotic_lesion" sem="Other"><term id="T16" sem="Multicellular_organism_natural">human</term> atherosclerotic lesions</term>.</sentence>
+<event CL="L1" KT="Analysis" id="E2" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="T6"/>
+<cause idref="A6"/>
+<clue>Nuclear factor-kappa B (NF-kappa B)/Rel transcription factors <clueKT><clueCL>may</clueCL></clueKT> be <clueType>involved</clueType> <linkTheme>in</linkTheme> atherosclerosis, as is suggested by the presence of activated NF-kappa B in human atherosclerotic lesions.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="T7"/>
+<clue>Nuclear factor-kappa B (NF-kappa B)/Rel transcription factors may be involved in atherosclerosis, as is suggested by the presence of <clueType>activated</clueType> NF-kappa B <clueLoc>in human atherosclerotic lesions</clueLoc>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E4" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="E2"/>
+<theme idref="E3"/>
+<clue>Nuclear factor-kappa B (NF-kappa B)/Rel transcription factors may be involved in atherosclerosis, as is <clueType><clueKT><clueCL>suggested</clueCL></clueKT> by the presence</clueType> <linkTheme>of</linkTheme> activated NF-kappa B in human atherosclerotic lesions.</clue>
+</event>
+<sentence id="S3">The aim of the present study was to investigate the effects of <term id="T9" lex="oxidized_LDL" sem="Lipid">oxidized LDL</term> (<term id="T10" lex="oxLDL" sem="Lipid">oxLDL</term>) on the <term id="T11" lex="NF-kappa_B_system" sem="Other"><term id="T12" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> system</term> in human <term id="T13" lex="THP-1_monocytic_cell" sem="Cell_cultured">THP-1 monocytic cells</term> as well as <term id="T14" lex="adherent_monocyte" sem="Cell_natural">adherent monocytes</term>.</sentence>
+<event KT="Investigation" id="E5" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="T12"/>
+<cause idref="T10"/>
+<clue>The aim of the present study was <clueKT>to investigate</clueKT> the <clueType>effects</clueType> <linkCause>of</linkCause> oxidized LDL (oxLDL) <linkTheme>on</linkTheme> the NF-kappa B system <clueLoc>in human THP-1 monocytic cells</clueLoc> as well as adherent monocytes.</clue>
+<comment>NER: T9 and T10, sem mod, Protein_family_or_region-&gt;Lipid</comment></event>
+<event KT="Investigation" id="E31" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="T12"/>
+<cause idref="T10"/>
+<clue>The aim of the present study was <clueKT>to investigate</clueKT> the <clueType>effects</clueType> <linkCause>of</linkCause> oxidized LDL (oxLDL) <linkTheme>on</linkTheme> the NF-kappa B system <clueLoc>in</clueLoc> human THP-1 monocytic cells as well as <clueLoc>adherent monocytes</clueLoc>.</clue>
+<comment>NER: T9 and T10, sem mod, Protein_family_or_region-&gt;Lipid</comment></event>
+<sentence id="S4">Our results demonstrate that <term id="T15" lex="short-term_incubation" sem="Other">short-term incubation</term> of these cells with <term id="T17" lex="oxLDL" sem="Lipid">oxLDL</term> activated <term id="A2" sem="Protein_complex">p50/p65</term> containing <term id="T18" lex="NF-kappa_B_dimer" sem="Protein_complex"><term id="T19" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> dimers</term> and induced the expression of the <term id="T20" lex="target_gene_IL-8" sem="DNA_domain_or_region">target gene <term id="A3" sem="Protein_molecule">IL-8</term></term>.</sentence>
+<event KT="Analysis" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="A2" idref1="T19"/>
+<cause idref="T17"/>
+<clue>Our results <clueKT>demonstrate</clueKT> that short-term incubation <clueLoc>of these cells</clueLoc> <linkCause>with</linkCause> oxLDL <clueType>activated</clueType> p50/p65 containing NF-kappa B dimers and induced the expression of the target gene IL-8.</clue>
+<comment>NER: T16 &quot;oxLDL activated p50/p65&quot; del; NER: T17, sem mod, Protein_family_or_region-&gt;Lipid</comment></event>
+<event KT="Analysis" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="T17"/>
+<clue>Our results <clueKT>demonstrate</clueKT> that short-term incubation of these cells with oxLDL activated p50/p65 containing NF-kappa B dimers and <clueType>induced</clueType> the expression of the target gene IL-8.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Gene_expression"/>
+<theme idref="A3"/>
+<clue>Our results demonstrate that short-term incubation of these cells with oxLDL activated p50/p65 containing NF-kappa B dimers and induced the <clueType>expression</clueType> <linkTheme>of</linkTheme> the target gene IL-8.</clue>
+</event>
+<sentence id="S5">This activation of <term id="T21" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> was inhibited by the antioxidant and <term id="T22" lex="H2O2_scavenger" sem="Organic_compound_other"><term id="T23" lex="H2O2" sem="Inorganic_compound">H2O2</term> scavenger</term> <term id="T24" lex="pyrrolidine_dithiocarbamate" sem="Organic_compound_other">pyrrolidine dithiocarbamate</term> and the <term id="T25" lex="proteasome_inhibitor" sem="Organic_compound_other"><term id="T26" lex="proteasome" sem="Protein_complex">proteasome</term> inhibitor</term> <term id="T27" lex="PSI" sem="Peptide">PSI</term>.</sentence>
+<event KT="Other" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="T21"/>
+<cause idref="T17"/>
+<clue>This <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappa B was inhibited by the antioxidant and H2O2 scavenger pyrrolidine dithiocarbamate and the proteasome inhibitor PSI.</clue>
+</event>
+<event id="E10">
+<type class="Negative_regulation"/>
+<theme idref="E9"/>
+<cause idref="T24"/>
+<clue>This activation of NF-kappa B was <clueType>inhibited</clueType> <linkCause>by</linkCause> <corefCause>the antioxidant and H2O2 scavenger</corefCause> pyrrolidine dithiocarbamate and the proteasome inhibitor PSI.</clue>
+</event>
+<event id="E11">
+<type class="Negative_regulation"/>
+<theme idref="E9"/>
+<cause idref="T27"/>
+<clue>This activation of NF-kappa B was <clueType>inhibited</clueType> <linkCause>by</linkCause> the antioxidant and H2O2 scavenger pyrrolidine dithiocarbamate and the <corefCause>proteasome inhibitor</corefCause> PSI.</clue>
+<comment>NER: T27, sem mod, Other_organic_compound-&gt;Peptide</comment></event>
+<sentence id="S6">The <term id="T29" lex="oxLDL" sem="Lipid">oxLDL</term>-induced <term id="T30" lex="NF-kappa_B_activation" sem="Other"><term id="T31" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> activation</term> was accompanied by an initial depletion of <term id="T32" lex="I_kappa_B-alpha" sem="Protein_molecule">I kappa B-alpha</term> followed by a slight transient increase in the level of this inhibitor protein.</sentence>
+<event id="E12">
+<type class="Positive_regulation"/>
+<theme idref="T31"/>
+<cause idref="T29"/>
+<clue>The oxLDL<linkCause>-induced</linkCause> NF-kappa B <clueType>activation</clueType> was accompanied by an initial depletion of I kappa B-alpha followed by a slight transient increase in the level of this inhibitor protein.</clue>
+<comment>NER: T29, sem mod, Protein_family_or_region-&gt;Lipid</comment></event>
+<event id="E13">
+<type class="Correlation"/>
+<theme idref="E12"/>
+<theme idref="E15"/>
+<clue>The oxLDL-induced NF-kappa B activation was <clueType>accompanied</clueType> <linkTheme>by</linkTheme> an initial depletion of I kappa B-alpha followed by a slight transient increase in the level of this inhibitor protein.</clue>
+</event>
+<event id="E14">
+<type class="Correlation"/>
+<theme idref="E12"/>
+<theme idref="E16"/>
+<clue>The oxLDL-induced NF-kappa B activation was <clueType>accompanied</clueType> <linkTheme>by</linkTheme> an initial depletion of I kappa B-alpha followed by a slight transient increase in the level of this inhibitor protein.</clue>
+</event>
+<event id="E15">
+<type class="Negative_regulation"/>
+<theme idref="T32"/>
+<clue>The oxLDL-induced NF-kappa B activation was accompanied by an <clueTime>initial</clueTime> <clueType>depletion</clueType> <linkTheme>of</linkTheme> I kappa B-alpha followed by a slight transient increase in the level of this inhibitor protein.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T32"/>
+<clue>The oxLDL-induced NF-kappa B activation was accompanied by an initial depletion of I kappa B-alpha <clueTime>followed</clueTime> by a slight transient <clueType>increase</clueType> in the level <linkTheme>of</linkTheme> <corefTheme>this inhibitor protein</corefTheme>.</clue>
+</event>
+<sentence id="S7">In contrast, long-term treatment with <term id="T33" lex="oxLDL" sem="Lipid">oxLDL</term> prevented the <term id="T35" lex="lipopolysaccharide" sem="Lipid">lipopolysaccharide</term>-induced <term id="T28" sem="Other">depletion</term> of <term id="T36" lex="I_kappa_B-alpha" sem="Protein_molecule">I kappa B-alpha</term>, accompanied by an inhibition of both <term id="T37" lex="NF-kappa_B_activation" sem="Other"><term id="T38" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> activation</term> and the expression of <cons id="T39" lex="(AND tumor_necrosis_factor-alpha_gene interleukin-1_beta_gene)" sem="(AND DNA_domain_or_region DNA_domain_or_region)"><frag id="F1"><term id="A4" sem="Protein_molecule">tumor necrosis factor-alpha</term></frag> and <frag id="F2"><term id="A5" sem="Protein_molecule">interleukin-1 beta</term></frag> <frag id="F3">genes</frag></cons>.</sentence>
+<event id="E17">
+<type class="Negative_regulation"/>
+<theme idref="E18"/>
+<cause idref="T33"/>
+<clue>In contrast, <clueTime>long-term treatment</clueTime> <linkCause>with</linkCause> oxLDL <clueType>prevented</clueType> the lipopolysaccharide-induced depletion of I kappa B-alpha, accompanied by an inhibition of both NF-kappa B activation and the expression of tumor necrosis factor-alpha and interleukin-1 beta genes.</clue>
+<comment>NER: T33, sem modified, Protein_family_or_region-&gt;Lipid</comment></event>
+<event KT="Other" id="E18">
+<type class="Negative_regulation"/>
+<theme idref="T36"/>
+<cause idref="T35"/>
+<clue>In contrast, long-term treatment with oxLDL prevented the lipopolysaccharide<linkCause>-induced</linkCause> <clueType>depletion</clueType> <linkTheme>of</linkTheme> I kappa B-alpha, accompanied by an inhibition of both NF-kappa B activation and the expression of tumor necrosis factor-alpha and interleukin-1 beta genes.</clue>
+</event>
+<event id="E19">
+<type class="Correlation"/>
+<theme idref="E17"/>
+<theme idref="E22"/>
+<clue>In contrast, long-term treatment with oxLDL prevented the lipopolysaccharide-induced depletion of I kappa B-alpha, <clueType>accompanied</clueType> <linkTheme>by</linkTheme> an inhibition of both NF-kappa B activation and the expression of tumor necrosis factor-alpha and interleukin-1 beta genes.</clue>
+</event>
+<event id="E20">
+<type class="Correlation"/>
+<theme idref="E17"/>
+<theme idref="E23"/>
+<clue>In contrast, long-term treatment with oxLDL prevented the lipopolysaccharide-induced depletion of I kappa B-alpha, <clueType>accompanied</clueType> <linkTheme>by</linkTheme> an inhibition of both NF-kappa B activation and the expression of tumor necrosis factor-alpha and interleukin-1 beta genes.</clue>
+</event>
+<event id="E21">
+<type class="Correlation"/>
+<theme idref="E17"/>
+<theme idref="E24"/>
+<clue>In contrast, long-term treatment with oxLDL prevented the lipopolysaccharide-induced depletion of I kappa B-alpha, <clueType>accompanied</clueType> <linkTheme>by</linkTheme> an inhibition of both NF-kappa B activation and the expression of tumor necrosis factor-alpha and interleukin-1 beta genes.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation"/>
+<theme idref="E25"/>
+<cause idref="T33"/>
+<clue>In contrast, long-term treatment with oxLDL prevented the lipopolysaccharide-induced depletion of I kappa B-alpha, accompanied by an <clueType>inhibition</clueType> <linkTheme>of</linkTheme> both NF-kappa B activation and the expression of tumor necrosis factor-alpha and interleukin-1 beta genes.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation"/>
+<theme idref="E26"/>
+<cause idref="T33"/>
+<clue>In contrast, long-term treatment with oxLDL prevented the lipopolysaccharide-induced depletion of I kappa B-alpha, accompanied by an <clueType>inhibition</clueType> <linkTheme>of</linkTheme> both NF-kappa B activation and the expression of tumor necrosis factor-alpha and interleukin-1 beta genes.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation"/>
+<theme idref="E27"/>
+<cause idref="T33"/>
+<clue>In contrast, long-term treatment with oxLDL prevented the lipopolysaccharide-induced depletion of I kappa B-alpha, accompanied by an <clueType>inhibition</clueType> <linkTheme>of</linkTheme> both NF-kappa B activation and the expression of tumor necrosis factor-alpha and interleukin-1 beta genes.</clue>
+</event>
+<event KT="Other" id="E25">
+<type class="Positive_regulation"/>
+<theme idref="T38"/>
+<clue>In contrast, long-term treatment with oxLDL prevented the lipopolysaccharide-induced depletion of I kappa B-alpha, accompanied by an inhibition of both NF-kappa B <clueType>activation</clueType> and the expression of tumor necrosis factor-alpha and interleukin-1 beta genes.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Gene_expression"/>
+<theme idref="A4"/>
+<clue>In contrast, long-term treatment with oxLDL prevented the lipopolysaccharide-induced depletion of I kappa B-alpha, accompanied by an inhibition of both NF-kappa B activation and the <clueType>expression</clueType> <linkTheme>of</linkTheme> tumor necrosis factor-alpha and interleukin-1 beta genes.</clue>
+</event>
+<event KT="Other" id="E27">
+<type class="Gene_expression"/>
+<theme idref="A5"/>
+<clue>In contrast, long-term treatment with oxLDL prevented the lipopolysaccharide-induced depletion of I kappa B-alpha, accompanied by an inhibition of both NF-kappa B activation and the <clueType>expression</clueType> <linkTheme>of</linkTheme> tumor necrosis factor-alpha and interleukin-1 beta genes.</clue>
+</event>
+<sentence id="S8">These observations provide additional evidence that <term id="T40" lex="oxLDL" sem="Lipid">oxLDL</term> is a potent modulator of <term id="T41" lex="gene_expression" sem="Other">gene expression</term> and suggest that <term id="T42" lex="(dys)regulation" sem="Other">(dys)regulation</term> of <term id="T43" lex="NF-kappa_B/Rel" sem="Protein_complex"><term id="T44" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term>/Rel</term> is likely to play an important role in <term id="T45" lex="atherogenesis" sem="Other">atherogenesis</term>.</sentence>
+<event KT="Analysis" Manner="High" id="E28">
+<type class="Regulation"/>
+<theme idref="T41"/>
+<cause idref="T40"/>
+<clue>These observations provide additional <clueKT>evidence</clueKT> that oxLDL is a <clueManner>potent</clueManner> <clueType>modulator</clueType> <linkTheme>of</linkTheme> gene expression and suggest that (dys)regulation of NF-kappa B/Rel is likely to play an important role in atherogenesis.</clue>
+<comment>NER: T40, sem modified, Protein_family_or_region-&gt;Lipid</comment></event>
+<event KT="Other" Polarity="Negative" id="E29" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="T43"/>
+<clue>These observations provide additional evidence that oxLDL is a potent modulator of gene expression and suggest that <clueType>(<cluePolarity>dys</cluePolarity>)regulation</clueType> <linkTheme>of</linkTheme> NF-kappa B/Rel is likely to play an important role in atherogenesis.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E30" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="T45"/>
+<cause idref="E29"/>
+<clue>These observations provide additional evidence that oxLDL is a potent modulator of gene expression and <clueKT>suggest</clueKT> that (dys)regulation of NF-kappa B/Rel is <clueCL>likely</clueCL> to <clueType>play</clueType> an important <clueType>role</clueType> <linkTheme>in</linkTheme> atherogenesis.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,17 @@
+T11	Adverse_effect 37 44	induced
+T13	Adverse_effect 118 130	toxic effect
+T15	Potential_therapeutic_effect 273 278	treat
+T17	Adverse_effect 411 420	developed
+T20	Adverse_effect 343 353	coincident
+T25	Potential_therapeutic_effect 564 570	use of
+T28	Adverse_effect 664 671	prevent
+R1	Subject_Disorder Arg1:T22 Arg2:T9
+E1	Adverse_effect:T11 has_agent:T4 affects:T1 affects:T2
+E2	Adverse_effect:T13 has_cue:T14 affects:T12 has_agent:T3
+E3	Potential_therapeutic_effect:T15 affects:T5 has_agent:T16
+E4	Adverse_effect:T17 has_subject:T30 affects:T7 has_agent:T31
+E5	Adverse_effect:T20 affects:T6 has_agent:T19 has_subject:T29
+E6	Potential_therapeutic_effect:T25 has_cue:T26 has_agent:T21 has_subject:T22 affects:T9
+E7	Adverse_effect:T28 affects:T24 affects:T10 has_agent:T21
+A1	Manner E2 High
+A2	Speculated E6

@@ -1,0 +1,20 @@
+T4	Adverse_effect 39 45	due to
+T25	Adverse_effect 118 128	associated
+T29	Adverse_effect 201 205	seen
+T31	Adverse_effect 285 294	transient
+T32	Adverse_effect 389 398	resulting
+T35	Adverse_effect 660 668	observed
+T38	Potential_therapeutic_effect 772 774	in
+T26	Adverse_effect 825 830	aware
+R3	Subject_Disorder Arg1:T33 Arg2:T15
+E1	Adverse_effect:T4 has_agent:T2 affects:T1
+E3	Adverse_effect:T25 has_agent:T11 has_cue:T28 affects:T3
+E4	Adverse_effect:T29 has_agent:T8 affects:T7
+E5	Adverse_effect:T31 affects:T30 has_agent:T8
+E6	Adverse_effect:T32 has_agent:T14 affects:T13 has_subject:T33
+E7	Adverse_effect:T35 has_cue:T36 affects:T18 has_agent:T22 has_agent:T23
+E8	Potential_therapeutic_effect:T38 affects:T27 has_agent:T21
+E12	Adverse_effect:T26 has_cue:T44 has_agent:T24 affects:T37
+A2	Negated E3
+A1	Speculated E12
+A6	Manner E7 Low

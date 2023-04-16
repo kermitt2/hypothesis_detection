@@ -1,0 +1,275 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1851743" created="16/11/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1851743</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Inhibition of <term id="T1" lex="protein_phosphatase" sem="Protein_family_or_group">protein phosphatases</term> by <term id="T2" lex="okadaic_acid" sem="Organic_compound_other">okadaic acid</term> induces <term id="T3" lex="AP1" sem="Protein_molecule">AP1</term> in <term id="T4" lex="human_T_cell" sem="Cell_natural">human <term id="T5" lex="T_cell" sem="Cell_natural">T cells</term></term>.</sentence>
+<event id="E1">
+<type class="Negative_regulation"/>
+<theme idref="T1"/>
+<cause idref="T2"/>
+<clue><clueType>Inhibition</clueType> <linkTheme>of</linkTheme> protein phosphatases <linkCause>by</linkCause> okadaic acid induces AP1 in human T cells.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="T3"/>
+<cause idref="E1"/>
+<clue>Inhibition of protein phosphatases by okadaic acid <clueType>induces</clueType> AP1 <clueLoc>in human T cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">To examine the role of <term id="T6" lex="protein_phosphatase" sem="Protein_family_or_group">protein phosphatases</term> in <term id="T7" lex="T_cell_activation" sem="Other"><term id="A1" sem="Cell_natural">T cell</term> activation</term>, <term id="T8" lex="Jurkat_cell" sem="Cell_cultured">Jurkat cells</term> were treated with <term id="T9" lex="okadaic_acid" sem="Organic_compound_other">okadaic acid</term>, an inhibitor of <cons id="T10" lex="(AND type_1_phosphatase type_2A_phosphatase)" sem="(AND Protein_family_or_group Protein_family_or_group)"><frag id="F1">type</frag> <frag id="F2">1</frag> and <frag id="F3">2A</frag> <frag id="F4">phosphatases</frag></cons>, and <term id="T11" lex="nuclear_extract" sem="Protein_family_or_group">nuclear extracts</term> were examined for the presence of <term id="T12" lex="AP1" sem="Protein_molecule">AP1</term> as a measure of early <term id="T13" lex="T_cell_activation" sem="Other"><term id="A6" sem="Cell_natural">T cell</term> activation</term>.</sentence>
+<event KT="Investigation" id="E3" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E4"/>
+<cause idref="T6"/>
+<clue>To <clueKT>examine</clueKT> the <clueType>role</clueType> <linkCause>of</linkCause> protein phosphatases <linkTheme>in</linkTheme> T cell activation, Jurkat cells were treated with okadaic acid, an inhibitor of type 1 and 2A phosphatases, and nuclear extracts were examined for the presence of AP1 as a measure of early T cell activation.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Physiological_process"/>
+<theme idref="A1"/>
+<clue>To examine the role of protein phosphatases in T cell <clueType>activation</clueType>, Jurkat cells were treated with okadaic acid, an inhibitor of type 1 and 2A phosphatases, and nuclear extracts were examined for the presence of AP1 as a measure of early T cell activation.</clue>
+</event>
+<event KT="Method" id="E5">
+<type class="Artificial_process"/>
+<theme idref="T8"/>
+<theme idref="T9"/>
+<clue>To examine the role of protein phosphatases in T cell activation, Jurkat cells were <clueType>treated</clueType> <linkTheme>with</linkTheme> okadaic acid, an inhibitor of type 1 and 2A phosphatases, and nuclear extracts were examined for the presence of AP1 as a measure of early T cell activation.</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Negative_regulation"/>
+<theme idref="F1" idref1="F2" idref2="F4"/>
+<cause idref="T9"/>
+<clue>To examine the role of protein phosphatases in T cell activation, Jurkat cells were treated with okadaic acid, an <clueType>inhibitor</clueType> <linkTheme>of</linkTheme> type 1 and 2A phosphatases, and nuclear extracts were examined for the presence of AP1 as a measure of early T cell activation.</clue>
+</event>
+<event KT="Fact" id="E7">
+<type class="Negative_regulation"/>
+<theme idref="F1" idref1="F3" idref2="F4"/>
+<cause idref="T9"/>
+<clue>To examine the role of protein phosphatases in T cell activation, Jurkat cells were treated with okadaic acid, an <clueType>inhibitor</clueType> <linkTheme>of</linkTheme> type 1 and 2A phosphatases, and nuclear extracts were examined for the presence of AP1 as a measure of early T cell activation.</clue>
+</event>
+<event KT="Other" id="E8" uncertainty="doubtful">
+<type class="Localization"/>
+<theme idref="T12"/>
+<clue>To examine the role of protein phosphatases in T cell activation, Jurkat cells were treated with okadaic acid, an inhibitor of type 1 and 2A phosphatases, and <clueLoc>nuclear extracts</clueLoc> were examined for the <clueType>presence</clueType> <linkTheme>of</linkTheme> AP1 as a measure of early T cell activation.</clue>
+</event>
+<event KT="Other" id="E9" uncertainty="doubtful">
+<type class="Physiological_process"/>
+<theme idref="A6"/>
+<clue>To examine the role of protein phosphatases in T cell activation, Jurkat cells were treated with okadaic acid, an inhibitor of type 1 and 2A phosphatases, and nuclear extracts were examined for the presence of AP1 as a measure of <clueTime>early</clueTime> T cell <clueType>activation</clueType>.</clue>
+</event>
+<event KT="Investigation" id="E10">
+<type class="Correlation"/>
+<theme idref="E8"/>
+<theme idref="E9"/>
+<clue>To examine the role of protein phosphatases in T cell activation, Jurkat cells were treated with okadaic acid, an inhibitor of type 1 and 2A phosphatases, and nuclear extracts were <clueKT>examined</clueKT> for the presence of AP1 <linkTheme>as a measure of</linkTheme> early T cell activation.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S3"><term id="T14" lex="okadaic_acid" sem="Organic_compound_other">Okadaic acid</term> was found to be a potent inducer of <term id="T15" lex="AP1" sem="Protein_molecule">AP1</term>.</sentence>
+<event Manner="High" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="T15"/>
+<cause idref="T14"/>
+<clue>Okadaic acid was <clueKT>found</clueKT> to be a <clueManner>potent</clueManner> <clueType>inducer</clueType> <linkTheme>of</linkTheme> AP1.</clue>
+</event>
+<sentence id="S4">In contrast to <term id="T16" lex="phorbol_ester" sem="Organic_compound_other">phorbol esters</term> such as <term id="T17" lex="phorbol_myristate_acetate" sem="Organic_compound_other">phorbol myristate acetate</term> (<term id="T18" lex="PMA" sem="Organic_compound_other">PMA</term>), the induction of <term id="T19" lex="AP1" sem="Protein_molecule">AP1</term> by <term id="T20" lex="okadaic_acid" sem="Organic_compound_other">okadaic acid</term> occurs predominantly by <term id="T21" lex="transcriptional_activation" sem="Other">transcriptional activation</term> of the <cons id="T22" lex="(AND jun_family fos_family)" sem="(AND DNA_family_or_group DNA_family_or_group)"><frag id="F5"><term id="A8" sem="DNA_domain_or_region">jun</term></frag> and <frag id="F6"><term id="A9" sem="DNA_domain_or_region">fos</term></frag> <frag id="F7">family</frag></cons> of <term id="T23" lex="proto-oncogene" sem="DNA_family_or_group">proto-oncogenes</term>.</sentence>
+<event KT="Other" assertion="non-exist" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="T19"/>
+<cause idref="T18"/>
+<clue><clueType>In contrast</clueType> to <corefCause>phorbol esters</corefCause> such as phorbol myristate acetate (PMA), the <clueType>induction</clueType> <linkTheme>of</linkTheme> AP1 by okadaic acid occurs predominantly by transcriptional activation of the jun and fos family of proto-oncogenes.</clue>
+<comment>CAUTION: SEE</comment></event>
+<event id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T19"/>
+<cause idref="T20"/>
+<clue>In contrast to phorbol esters such as phorbol myristate acetate (PMA), the <clueType>induction</clueType> <linkTheme>of</linkTheme> AP1 <linkCause>by</linkCause> okadaic acid occurs predominantly by transcriptional activation of the jun and fos family of proto-oncogenes.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="E16"/>
+<clue>In contrast to phorbol esters such as phorbol myristate acetate (PMA), the induction of AP1 by okadaic acid occurs predominantly <linkCause>by</linkCause> transcriptional activation of the jun and fos family of proto-oncogenes.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E15">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="E17"/>
+<clue>In contrast to phorbol esters such as phorbol myristate acetate (PMA), the induction of AP1 by okadaic acid occurs predominantly <linkCause>by</linkCause> transcriptional activation of the jun and fos family of proto-oncogenes.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E16">
+<type class="Positive_regulation"/>
+<theme idref="A8"/>
+<clue>In contrast to phorbol esters such as phorbol myristate acetate (PMA), the induction of AP1 by okadaic acid occurs predominantly by <clueType>transcriptional activation</clueType> <linkTheme>of</linkTheme> the jun and fos family of proto-oncogenes.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="A9"/>
+<clue>In contrast to phorbol esters such as phorbol myristate acetate (PMA), the induction of AP1 by okadaic acid occurs predominantly by <clueType>transcriptional activation</clueType> <linkTheme>of</linkTheme> the jun and fos family of proto-oncogenes.</clue>
+</event>
+<sentence id="S5">Surprisingly, while the addition of <term id="T24" lex="phytohemagglutinin" sem="Protein_molecule">phytohemagglutinin</term> further enhanced the induction of <term id="T25" lex="AP1" sem="Protein_molecule">AP1</term>, the addition of <term id="T26" lex="PMA" sem="Organic_compound_other">PMA</term> inhibited it.</sentence>
+<event id="E18">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="T24"/>
+<clue>Surprisingly, while the addition of phytohemagglutinin further <clueType>enhanced</clueType> the induction of AP1, the addition of PMA inhibited it.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="T25"/>
+<clue>Surprisingly, while the addition of phytohemagglutinin further enhanced the <clueType>induction</clueType> <linkTheme>of</linkTheme> AP1, the addition of PMA inhibited it.</clue>
+</event>
+<event id="E20">
+<type class="Negative_regulation"/>
+<theme idref="E19"/>
+<cause idref="T26"/>
+<clue>Surprisingly, while the addition of phytohemagglutinin further enhanced the induction of AP1, the addition of PMA <clueType>inhibited</clueType> <corefTheme>it</corefTheme>.</clue>
+</event>
+<sentence id="S6"><term id="T27" lex="okadaic_acid" sem="Organic_compound_other">Okadaic acid</term> treatment was found to dramatically increase <term id="T28" lex="mRNA_transcript" sem="RNA_family_or_group">mRNA transcripts</term> of the <term id="T29" lex="jun_family_of_proto-oncogene" sem="DNA_family_or_group">jun family of proto-oncogenes</term> including <term id="T30" lex="c-jun" sem="DNA_domain_or_region">c-jun</term>, <term id="T31" lex="junD" sem="DNA_domain_or_region">junD</term>, and <term id="T32" lex="junB" sem="DNA_domain_or_region">junB</term> and to a lesser extent the <term id="T33" lex="fos_family" sem="DNA_family_or_group">fos family</term> including <term id="T34" lex="c-fos" sem="DNA_domain_or_region">c-fos</term> and <term id="T35" lex="fra-1" sem="DNA_domain_or_region">fra-1</term>.</sentence>
+<event Manner="High" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E41"/>
+<cause idref="T27"/>
+<clue>Okadaic acid treatment was <clueKT>found</clueKT> to <clueManner>dramatically</clueManner> <clueType>increase</clueType> mRNA transcripts of the jun family of proto-oncogenes including c-jun, junD, and junB and to a lesser extent the fos family including c-fos and fra-1.</clue>
+</event>
+<event Manner="High" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E42"/>
+<cause idref="T27"/>
+<clue>Okadaic acid treatment was <clueKT>found</clueKT> to <clueManner>dramatically</clueManner> <clueType>increase</clueType> mRNA transcripts of the jun family of proto-oncogenes including c-jun, junD, and junB and to a lesser extent the fos family including c-fos and fra-1.</clue>
+</event>
+<event Manner="High" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="E43"/>
+<cause idref="T27"/>
+<clue>Okadaic acid treatment was <clueKT>found</clueKT> to <clueManner>dramatically</clueManner> <clueType>increase</clueType> mRNA transcripts of the jun family of proto-oncogenes including c-jun, junD, and junB and to a lesser extent the fos family including c-fos and fra-1.</clue>
+</event>
+<event Manner="Low" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E44"/>
+<cause idref="T27"/>
+<clue>Okadaic acid treatment was <clueKT>found</clueKT> to dramatically <clueType>increase</clueType> mRNA transcripts of the jun family of proto-oncogenes including c-jun, junD, and junB and <clueManner>to a lesser extent</clueManner> the fos family including c-fos and fra-1.</clue>
+</event>
+<event Manner="Low" id="E25">
+<type class="Positive_regulation"/>
+<theme idref="E45"/>
+<cause idref="T27"/>
+<clue>Okadaic acid treatment was <clueKT>found</clueKT> to dramatically <clueType>increase</clueType> mRNA transcripts of the jun family of proto-oncogenes including c-jun, junD, and junB and <clueManner>to a lesser extent</clueManner> the fos family including c-fos and fra-1.</clue>
+</event>
+<event id="E41">
+<type class="Transcription"/>
+<theme idref="T30"/>
+<clue>Okadaic acid treatment was found to dramatically increase <clueType>mRNA transcripts</clueType> <linkTheme>of</linkTheme> the <corefTheme>jun family of proto-oncogenes</corefTheme> including c-jun, junD, and junB and to a lesser extent the fos family including c-fos and fra-1.</clue>
+</event>
+<event id="E42">
+<type class="Transcription"/>
+<theme idref="T31"/>
+<clue>Okadaic acid treatment was found to dramatically increase <clueType>mRNA transcripts</clueType> <linkTheme>of</linkTheme> the <corefTheme>jun family of proto-oncogenes</corefTheme> including c-jun, junD, and junB and to a lesser extent the fos family including c-fos and fra-1.</clue>
+</event>
+<event id="E43">
+<type class="Transcription"/>
+<theme idref="T32"/>
+<clue>Okadaic acid treatment was found to dramatically increase <clueType>mRNA transcripts</clueType> <linkTheme>of</linkTheme> the <corefTheme>jun family of proto-oncogenes</corefTheme> including c-jun, junD, and junB and to a lesser extent the fos family including c-fos and fra-1.</clue>
+</event>
+<event id="E44">
+<type class="Transcription"/>
+<theme idref="T34"/>
+<clue>Okadaic acid treatment was found to dramatically increase <clueType>mRNA transcripts</clueType> <linkTheme>of</linkTheme> the jun family of proto-oncogenes including c-jun, junD, and junB and to a lesser extent the <corefTheme>fos family</corefTheme> including c-fos and fra-1.</clue>
+</event>
+<event id="E45">
+<type class="Transcription"/>
+<theme idref="T35"/>
+<clue>Okadaic acid treatment was found to dramatically increase <clueType>mRNA transcripts</clueType> <linkTheme>of</linkTheme> the jun family of proto-oncogenes including c-jun, junD, and junB and to a lesser extent the <corefTheme>fos family</corefTheme> including c-fos and fra-1.</clue>
+</event>
+<sentence id="S7">By comparison, <term id="T36" lex="PMA" sem="Organic_compound_other">PMA</term> is a very inefficient inducer of the <term id="T37" lex="jun_gene_family" sem="DNA_family_or_group">jun gene family</term> in <term id="T38" lex="Jurkat_cell" sem="Cell_cultured">Jurkat cells</term>.</sentence>
+<event KT="Fact" Manner="High" Polarity="Negative" assertion="non-exist" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="T37"/>
+<cause idref="T36"/>
+<clue>By comparison, PMA is a <clueManner>very</clueManner> <clueType><cluePolarity>inefficient</cluePolarity> inducer</clueType> <linkTheme>of</linkTheme> the jun gene family <clueLoc>in Jurkat cells</clueLoc>.</clue>
+</event>
+<sentence id="S8">Similar to its effect on the induction of <term id="T39" lex="AP1" sem="Protein_molecule">AP1</term> by <term id="T40" lex="okadaic_acid" sem="Organic_compound_other">okadaic acid</term>, <term id="T41" lex="PMA" sem="Organic_compound_other">PMA</term> inhibits the induction of <term id="T42" lex="c-jun_mRNA" sem="RNA_family_or_group">c-jun mRNA</term> by <term id="T43" lex="okadaic_acid" sem="Organic_compound_other">okadaic acid</term>.</sentence>
+<event KT="Other" id="E27">
+<type class="Negative_regulation"/>
+<theme idref="E28"/>
+<cause idref="T41"/>
+<clue><clueType>Similar</clueType> to its <clueType>effect</clueType> <linkTheme>on</linkTheme> the induction of AP1 by okadaic acid, PMA <clueType>inhibits</clueType> the induction of c-jun mRNA by okadaic acid.</clue>
+</event>
+<event KT="Other" id="E28">
+<type class="Positive_regulation"/>
+<theme idref="T39"/>
+<cause idref="T40"/>
+<clue>Similar to its effect on the <clueType>induction</clueType> <linkTheme>of</linkTheme> AP1 <linkCause>by</linkCause> okadaic acid, PMA inhibits the induction of c-jun mRNA by okadaic acid.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation"/>
+<theme idref="E30"/>
+<cause idref="T41"/>
+<clue>Similar to its effect on the induction of AP1 by okadaic acid, PMA <clueType>inhibits</clueType> the induction of c-jun mRNA by okadaic acid.</clue>
+</event>
+<event KT="Other" id="E30">
+<type class="Positive_regulation"/>
+<theme idref="T42"/>
+<cause idref="T43"/>
+<clue>Similar to its effect on the induction of AP1 by okadaic acid, PMA inhibits the <clueType>induction</clueType> <linkTheme>of</linkTheme> c-jun mRNA <linkCause>by</linkCause> okadaic acid.</clue>
+</event>
+<sentence id="S9">Transfection of <term id="T44" lex="c-jun_promoter_construct" sem="DNA_molecule"><term id="T45" lex="c-jun" sem="DNA_domain_or_region">c-jun</term> promoter constructs</term> confirmed the marked difference between <term id="T46" lex="PMA" sem="Organic_compound_other">PMA</term> and <term id="T47" lex="okadaic_acid" sem="Organic_compound_other">okadaic acid</term> in inducing <term id="T48" lex="c-jun_transcription" sem="Other"><term id="T49" lex="c-jun" sem="DNA_domain_or_region">c-jun</term> transcription</term>.</sentence>
+<event KT="Other" id="E31">
+<type class="Positive_regulation"/>
+<theme idref="E33"/>
+<cause idref="T46"/>
+<clue><clueExperiment>Transfection of c-jun promoter constructs</clueExperiment> confirmed the marked difference between PMA and okadaic acid in <clueType>inducing</clueType> c-jun transcription.</clue>
+</event>
+<event KT="Other" id="E32">
+<type class="Positive_regulation"/>
+<theme idref="E33"/>
+<cause idref="T47"/>
+<clue><clueExperiment>Transfection of c-jun promoter constructs</clueExperiment> confirmed the marked difference between PMA and okadaic acid in <clueType>inducing</clueType> c-jun transcription.</clue>
+</event>
+<event KT="Other" id="E33">
+<type class="Transcription"/>
+<theme idref="T49"/>
+<clue>Transfection of c-jun promoter constructs confirmed the marked difference between PMA and okadaic acid in inducing c-jun <clueType>transcription</clueType>.</clue>
+</event>
+<event KT="Method" id="E34">
+<type class="Artificial_process"/>
+<theme idref="T44"/>
+<clue><clueType>Transfection</clueType> <linkTheme>of</linkTheme> c-jun promoter constructs confirmed the marked difference between PMA and okadaic acid in inducing c-jun transcription.</clue>
+</event>
+<sentence id="S10">The induction of <term id="T50" lex="AP1" sem="Protein_molecule">AP1</term> by <term id="T51" lex="okadaic_acid" sem="Organic_compound_other">okadaic acid</term> suggests that <cons id="T52" lex="(AND protein_phosphatase_1 protein_phosphatase_2A)" sem="(AND Protein_molecule Protein_molecule)"><frag id="F8">protein phosphatases</frag> <frag id="F9">1</frag> and <frag id="F10">2A</frag></cons> (<term id="T53" lex="PP1" sem="Protein_molecule">PP1</term> and <term id="T54" lex="PP2A" sem="Protein_molecule">PP2A</term>) may be involved in <term id="T55" lex="T_cell_activation" sem="Other"><term id="A15" sem="Cell_natural">T cell</term> activation</term> as important negative regulators of the <term id="T56" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> <term id="T57" lex="AP1" sem="Protein_molecule">AP1</term>.</sentence>
+<event KT="Other" id="E35">
+<type class="Positive_regulation"/>
+<theme idref="T50"/>
+<cause idref="T51"/>
+<clue>The <clueType>induction</clueType> <linkTheme>of</linkTheme> AP1 <linkCause>by</linkCause> okadaic acid suggests that protein phosphatases 1 and 2A (PP1 and PP2A) may be involved in T cell activation as important negative regulators of the transcription factor AP1.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E36" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E38"/>
+<cause idref="E39"/>
+<clue>The induction of AP1 by okadaic acid <clueKT>suggests</clueKT> that protein phosphatases 1 and 2A (PP1 and PP2A) <clueCL>may</clueCL> be <clueType>involved</clueType> <linkTheme>in</linkTheme> T cell activation <linkCause>as</linkCause> important negative regulators of the transcription factor AP1.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E37" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E38"/>
+<cause idref="E40"/>
+<clue>The induction of AP1 by okadaic acid <clueKT>suggests</clueKT> that protein phosphatases 1 and 2A (PP1 and PP2A) <clueCL>may</clueCL> be <clueType>involved</clueType> <linkTheme>in</linkTheme> T cell activation <linkCause>as</linkCause> important negative regulators of the transcription factor AP1.</clue>
+</event>
+<event KT="Other" id="E38">
+<type class="Physiological_process"/>
+<theme idref="A15"/>
+<clue>The induction of AP1 by okadaic acid suggests that protein phosphatases 1 and 2A (PP1 and PP2A) may be involved in T cell <clueType>activation</clueType> as important negative regulators of the transcription factor AP1.</clue>
+</event>
+<event KT="Other" id="E39">
+<type class="Negative_regulation"/>
+<theme idref="T57"/>
+<cause idref="T53"/>
+<clue>The induction of AP1 by okadaic acid suggests that protein phosphatases 1 and 2A (PP1 and PP2A) may be involved in T cell activation as important <clueType>negative regulators</clueType> <linkTheme>of</linkTheme> the transcription factor AP1.</clue>
+</event>
+<event KT="Other" id="E40">
+<type class="Negative_regulation"/>
+<theme idref="T57"/>
+<cause idref="T54"/>
+<clue>The induction of AP1 by okadaic acid suggests that protein phosphatases 1 and 2A (PP1 and PP2A) may be involved in T cell activation as important <clueType>negative regulators</clueType> <linkTheme>of</linkTheme> the transcription factor AP1.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

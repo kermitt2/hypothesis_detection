@@ -1,0 +1,34 @@
+T10	DDI 36 47	interaction
+T13	Potential_therapeutic_effect 79 88	treatment
+T16	Potential_therapeutic_effect 307 318	prophylaxis
+T37	Potential_therapeutic_effect 413 422	receiving
+T39	Potential_therapeutic_effect 673 682	treatment
+T48	Potential_therapeutic_effect 1625 1634	receiving
+T49	Potential_therapeutic_effect 809 819	prescribed
+T52	Potential_therapeutic_effect 1751 1762	prophylaxis
+T33	Adverse_effect 245 250	after
+T56	Adverse_effect 1071 1076	after
+T57	Adverse_effect 1542 1552	associated
+T59	Adverse_effect 1701 1706	after
+T60	Potential_therapeutic_effect 1774 1781	therapy
+R1	is_equivalent Arg1:T29 Arg2:T30
+R3	Coreference Arg1:T31 Arg2:T17
+R4	Coreference Arg1:T61 Arg2:T31
+E1	DDI:T10 has_participant:T1 has_participant:T2 has_participant:T3
+E3	Combination:T15 has_participant:T6 has_participant:T7 has_participant:T5
+E9	Combination:T46 has_participant:T22 has_participant:T23
+E14	Combination:T54 has_participant:T25 has_participant:T26
+E6	Combination:T36 has_participant:T12 has_participant:T14
+E2	Potential_therapeutic_effect:T13 has_agent:E1 affects:T4 has_agent:T21
+E4	Potential_therapeutic_effect:T16 has_agent:E3 has_agent:T29 affects:T8
+E7	Potential_therapeutic_effect:T37 has_subject:T17 has_agent:T9
+E8	Potential_therapeutic_effect:T39 affects:T11 has_agent:T38
+E10	Potential_therapeutic_effect:T48 has_agent:T24 has_subject:T47
+E12	Potential_therapeutic_effect:T49 has_agent:E6 has_subject:T31
+E13	Potential_therapeutic_effect:T52 has_agent:E14 affects:T27 has_subject:T47
+E11	Adverse_effect:T33 has_agent:E3 affects:T55
+E15	Adverse_effect:T56 has_agent:T35 affects:T40 has_subject:T61
+E16	Adverse_effect:T57 has_cue:T58 affects:T45 has_agent:E9
+E17	Adverse_effect:T59 affects:T51 has_agent:E14
+E18	Potential_therapeutic_effect:T60 affects:T27 has_agent:T53
+A1	Speculated E16

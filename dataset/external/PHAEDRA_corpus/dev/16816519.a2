@@ -1,0 +1,29 @@
+T15	Adverse_effect 22 29	induced
+T16	Adverse_effect 443 447	with
+T20	Adverse_effect 116 123	induced
+T21	Potential_therapeutic_effect 92 100	recovery
+T29	Potential_therapeutic_effect 817 825	improved
+T33	Potential_therapeutic_effect 275 283	received
+T36	Potential_therapeutic_effect 603 611	received
+T37	Adverse_effect 656 667	development
+T41	Adverse_effect 998 1010	side effects
+R1	is_equivalent Arg1:T7 Arg2:T8
+R2	Coreference Arg1:T31 Arg2:T13
+R3	Coreference Arg1:T31 Arg2:T14
+R4	Coreference Arg1:T32 Arg2:T24
+R5	Coreference Arg1:T35 Arg2:T39
+R6	Coreference Arg1:T39 Arg2:T24
+E4	Combination:T18 has_participant:T13 has_participant:T14
+E3	Combination:T17 has_participant:T11 has_participant:T12
+E1	Adverse_effect:T15 affects:T2 has_agent:T1
+E2	Adverse_effect:T16 affects:T10 has_agent:T9 has_subject:T39
+E5	Adverse_effect:T20 affects:T4 has_agent:T3 has_subject:T19
+E6	Potential_therapeutic_effect:T21 affects:T4 has_agent:E11
+E7	Potential_therapeutic_effect:T29 has_agent:E4 has_cue:T30 affects:T26
+E8	Potential_therapeutic_effect:T33 has_agent:T34 has_subject:T32
+E9	Potential_therapeutic_effect:T36 has_agent:T28 has_subject:T35
+E10	Adverse_effect:T37 affects:T27 has_agent:T28 has_subject:T35
+E13	Adverse_effect:T41 has_agent:T31 has_cue:T42
+A1	Manner E7 High
+A2	Negated E13
+E11	Combination:T38 has_participant:T5 has_participant2:T6

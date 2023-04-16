@@ -1,0 +1,93 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1448931" created="22/02/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1448931</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Natural variants of the <term id="T1" lex="HIV-1_long_terminal_repeat" sem="DNA_domain_or_region">HIV-1 long terminal repeat</term>: analysis of <term id="T2" lex="promoter" sem="DNA_domain_or_region">promoters</term> with duplicated <term id="T3" lex="DNA_regulatory_motif" sem="DNA_domain_or_region">DNA regulatory motifs</term>.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Sequence variation in the <term id="T4" lex="long_terminal_repeat_(LTR)_region" sem="DNA_domain_or_region">long terminal repeat (<term id="T5" lex="LTR" sem="DNA_domain_or_region">LTR</term>) region</term> of <term id="T6" lex="HIV-1" sem="Virus">HIV-1</term> was analyzed in <term id="T7" lex="viral_isolate" sem="Virus">viral isolates</term> of 17 <term id="T8" lex="infected_individual" sem="Multicellular_organism_natural">infected individuals</term>.</sentence>
+<sentence id="S3">Two classes of <term id="T9" lex="LTR_size_variant" sem="Virus">LTR size variants</term> were found.</sentence>
+<sentence id="S4">One <term id="T10" lex="HIV-1_variant" sem="Virus"><term id="T11" lex="HIV-1" sem="Virus">HIV-1</term> variant</term> was detected containing an additional binding site for the transcription factor <term id="T12" lex="Sp1" sem="Protein_molecule">Sp1</term>.</sentence>
+<sentence id="S5">Another <term id="T13" lex="LTR_size_variation" sem="DNA_domain_or_region">LTR size variation</term> was observed in four <term id="T14" lex="patient" sem="Multicellular_organism_natural">patients</term> in a region just upstream of the <term id="T15" lex="NF-kappa_B_enhancer" sem="DNA_domain_or_region">NF-kappa B enhancer</term>.</sentence>
+<sentence id="S6">This variation was the result of a duplication of a <term id="T16" lex="short_DNA_sequence" sem="DNA_domain_or_region">short DNA sequence</term> (<term id="T17" lex="CTG-motif" sem="DNA_domain_or_region">CTG-motif</term>).</sentence>
+<sentence id="S7"><term id="T18" lex="cell_culture_experiment" sem="Other">Cell culture experiments</term> demonstrated that the <term id="A1" sem="Virus">natural variant with four <term id="T19" lex="Sp1_site" sem="DNA_domain_or_region"><term id="T20" lex="Sp1" sem="Protein_molecule">Sp1</term> sites</term></term> had a slightly higher <term id="A2" sem="Other">promoter activity</term> and viral replication rate than the <term id="T21" lex="isogenic_control_LTR" sem="DNA_domain_or_region">isogenic control LTR</term> with three <term id="T22" lex="Sp1_sites" sem="DNA_domain_or_region"><term id="T23" lex="Sp1" sem="Protein_molecule">Sp1</term> sites</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Positive_regulation"/>
+<theme idref="A2"/>
+<clue><clueExperiment>Cell culture experiments</clueExperiment> demonstrated that <clueLoc>the natural variant with four Sp1 sites</clueLoc> had a slightly <clueType>higher</clueType> promoter activity and viral replication rate than the isogenic control LTR with three Sp1 sites.</clue>
+<comment>TPS A1, NER T20,T23 MOD</comment></event>
+<event KT="Other" id="E2">
+<type class="Viral_life_cycle"/>
+<theme idref="T11"/>
+<clue>Cell culture experiments demonstrated that the natural variant with four Sp1 sites had a slightly higher promoter activity and <corefTheme>viral</corefTheme> <clueType>replication</clueType> rate than the isogenic control LTR with three Sp1 sites.</clue>
+</event>
+<event KT="Analysis" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<clue><clueExperiment>Cell culture experiments</clueExperiment> <clueKT>demonstrated</clueKT> that the natural variant with four Sp1 sites had a slightly <clueType>higher</clueType> promoter activity and viral replication <clueType>rate</clueType> than the isogenic control LTR with three Sp1 sites.</clue>
+</event>
+<sentence id="S8">No positive effect of the duplicated <term id="T24" lex="CTG-motif" sem="DNA_domain_or_region">CTG-motif</term> could be detected.</sentence>
+<event id="E4">
+<type class="DNA_recombination"/>
+<theme idref="T24"/>
+<clue>No positive effect of the <clueType>duplicated</clueType> CTG-motif could be detected.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E5">
+<type class="Positive_regulation"/>
+<cause idref="E4"/>
+<clue><cluePolarity>No</cluePolarity> <clueType>positive effect</clueType> <linkCause>of</linkCause> the duplicated CTG-motif could be <clueKT>detected</clueKT>.</clue>
+</event>
+<sentence id="S9">In order to measure small differences in <term id="T25" lex="virus_production" sem="Other">virus production</term> more accurately, equal amounts of a <term id="A3" sem="Virus">size variant</term> and the <term id="T26" lex="wild-type_plasmid" sem="DNA_family_or_group">wild-type plasmid</term> were cotransfected into <term id="T27" lex="T-cell" sem="Cell_natural">T-cells</term>.</sentence>
+<event KT="Other" id="E6">
+<type class="Viral_life_cycle"/>
+<theme idref="T11"/>
+<clue>In order to measure small differences in <corefTheme>virus</corefTheme> <clueType>production</clueType> more accurately, equal amounts of a size variant and the wild-type plasmid were cotransfected into T-cells.</clue>
+</event>
+<event KT="Investigation" id="E7" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E6"/>
+<clue><clueKT>In order to measure</clueKT> small <clueType>differences</clueType> <linkTheme>in</linkTheme> virus production more accurately, equal amounts of a size variant and the wild-type plasmid were cotransfected into T-cells.</clue>
+</event>
+<event KT="Method" id="E8">
+<type class="Artificial_process"/>
+<theme idref="A3"/>
+<theme idref="T26"/>
+<theme idref="T27"/>
+<clue>In order to measure small differences in virus production more accurately, equal amounts of a size variant and the wild-type plasmid were <clueType>cotransfected</clueType> <linkTheme>into</linkTheme> T-cells.</clue>
+</event>
+<sentence id="S10">The <term id="A4" sem="Virus">virus with four <term id="A102" sem="DNA_domain_or_region"><term id="A101" sem="Protein_molecule">Sp1</term> sites</term></term> did outgrow the three <term id="T28" lex="Sp1_virus" sem="Virus"><term id="T29" lex="Sp1" sem="Protein_molecule">Sp1</term> virus</term> in 35 days of culture and <term id="T30" lex="CTG-monomer_virus" sem="Virus"><term id="A103" sem="DNA_domain_or_region">CTG-monomer</term> virus</term> outcompeted the <term id="T31" lex="CTG-dimer_virus" sem="Virus"><term id="A104" sem="DNA_domain_or_region">CTG-dimer</term> virus</term> in 42 days.</sentence>
+<event id="E9">
+<type class="Viral_life_cycle"/>
+<theme idref="A4"/>
+<clue>The virus with four Sp1 sites did <clueType>outgrow</clueType> the three Sp1 virus in 35 days of culture and CTG-monomer virus outcompeted the CTG-dimer virus in 42 days.</clue>
+<comment>TPS A4, NER T29 MOD</comment></event>
+<event id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<clue>The virus with four Sp1 sites did <clueType>outgrow</clueType> the three Sp1 virus <clueTime>in 35 days of culture</clueTime> and CTG-monomer virus outcompeted the CTG-dimer virus in 42 days.</clue>
+</event>
+<event id="E11">
+<type class="Viral_life_cycle"/>
+<theme idref="T30"/>
+<clue>The virus with four Sp1 sites did outgrow the three Sp1 virus in 35 days of culture and CTG-monomer virus <clueType>outcompeted</clueType> the CTG-dimer virus in 42 days.</clue>
+<comment>CAUTION: outcompete=outgrowth</comment></event>
+<event id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<clue>The virus with four Sp1 sites did outgrow the three Sp1 virus in 35 days of culture and CTG-monomer virus <clueType>outcompeted</clueType> the CTG-dimer virus <clueTime>in 42 days</clueTime>.</clue>
+</event>
+<sentence id="S11">Based on these results we estimate a 5-10% difference in <term id="T32" lex="virus_production" sem="Other">virus production</term> of the <term id="T33" lex="LTR_variant" sem="DNA_domain_or_region">LTR variants</term> when compared to that of <term id="T34" lex="wild-type" sem="Virus">wild-type</term>.</sentence>
+<event KT="Other" id="E13">
+<type class="Viral_life_cycle"/>
+<theme idref="T11"/>
+<clue>Based on these results we estimate a 5-10% difference in <corefTheme>virus</corefTheme> <clueType>production</clueType> of the LTR variants when compared to that of wild-type.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E14">
+<type class="Regulation"/>
+<theme idref="E13"/>
+<cause idref="T33"/>
+<clue>Based on these results we <clueKT><clueCL>estimate</clueCL></clueKT> a 5-10% <clueType>difference</clueType> <linkTheme>in</linkTheme> virus production <linkCause>of</linkCause> the LTR variants when compared to that of wild-type.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,286 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8662960" created="15/11/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8662960</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T10" lex="globin_gene" sem="DNA_domain_or_region">Globin gene</term> switching.</sentence>
+<event KT="Investigation" id="E12">
+<type class="Physiological_process"/>
+<theme idref="T10"/>
+<clue>Globin gene <clueType>switching</clueType>.</clue>
+</event>
+<sentence id="S2">In vivo <term id="T1" lex="protein-DNA_interactions" sem="Other"><term id="A1" sem="Protein_molecule">protein</term>-DNA interactions</term> of the <term id="T2" lex="human_beta-globin_locus" sem="DNA_domain_or_region">human beta-globin locus</term> in <term id="T3" lex="erythroid_cell" sem="Cell_natural">erythroid cells</term> expressing the <cons id="T4" lex="(OR fetal_globin_gene_program adult_globin_gene_program)" sem="(OR DNA_domain_or_region DNA_domain_or_region)"><frag id="F1"><term id="A2" sem="DNA_domain_or_region">fetal</term></frag> or the <frag id="F2"><term id="A3" sem="DNA_domain_or_region">adult</term></frag> <frag id="F3"><term id="T5" lex="globin_gene" sem="DNA_domain_or_region">globin gene</term> program</frag></cons>.</sentence>
+<event KT="Investigation" id="E1">
+<type class="Binding"/>
+<theme idref="A1"/>
+<theme idref="T2"/>
+<clue>In vivo protein-<corefTheme idref1="T2">DNA</corefTheme> <clueType>interactions</clueType> <linkTheme>of</linkTheme> the human beta-globin locus <clueLoc>in erythroid cells</clueLoc> expressing the fetal or the adult globin gene program.</clue>
+<comment>NER: T1 mod &quot;vivo protein-DNA interactions&quot;-&gt;&quot;protein-DNA interactions&quot;</comment></event>
+<event KT="Other" id="E2">
+<type class="Gene_expression"/>
+<theme idref="A2" idref1="T5"/>
+<clue>In vivo protein-DNA interactions of the human beta-globin locus i<clueLoc>n erythroid cells</clueLoc> <clueType>expressing</clueType> the fetal or the adult globin gene program.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Gene_expression"/>
+<theme idref="A3" idref1="T5"/>
+<clue>In vivo protein-DNA interactions of the human beta-globin locus <clueLoc>in erythroid cells</clueLoc> <clueType>expressing</clueType> the fetal or the adult globin gene program.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">To characterize the <term id="T6" lex="protein-DNA_interaction" sem="Other"><term id="A4" sem="Protein_molecule">protein</term>-<term id="A5" sem="DNA_molecule">DNA</term> interactions</term> important for the developmental control of the <term id="T7" lex="human_beta-globin_locus" sem="DNA_domain_or_region">human beta-globin locus</term>, we analyzed by <term id="T8" lex="in_vivo_dimethyl_sulfate_footprinting" sem="Other">in vivo dimethyl sulfate footprinting</term> <term id="T9" lex="erythroid_cell" sem="Cell_natural">erythroid cells</term> expressing either the <cons id="C1" lex="(OR fetal_globin_developmental_program adult_globin_developmental_program)" sem="(OR DNA_domain_or_region DNA_domain_or_region)"><frag id="F4">fetal</frag> or the <frag id="F5">adult</frag> <frag id="F6">globin developmental program</frag></cons>.</sentence>
+<event KT="Investigation" id="E4">
+<type class="Binding"/>
+<theme idref="A4"/>
+<theme idref="A5"/>
+<clue><clueKT>To characterize</clueKT> the protein-DNA <clueType>interactions</clueType> important for the developmental control of the human beta-globin locus, we analyzed by in vivo dimethyl sulfate footprinting erythroid cells expressing either the fetal or the adult globin developmental program.</clue>
+<comment>NER: T10-&gt;C1</comment></event>
+<event KT="Other" id="E5">
+<type class="Regulation"/>
+<theme idref="T7"/>
+<clue>To characterize the protein-DNA interactions important for the developmental <clueType>control</clueType> <linkTheme>of</linkTheme> the human beta-globin locus, we analyzed by in vivo dimethyl sulfate footprinting erythroid cells expressing either the fetal or the adult globin developmental program.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="E4"/>
+<clue>To characterize the protein-DNA interactions <clueType>important</clueType> <linkTheme>for</linkTheme> the developmental control of the human beta-globin locus, we analyzed by in vivo dimethyl sulfate footprinting erythroid cells expressing either the fetal or the adult globin developmental program.</clue>
+</event>
+<event KT="Investigation" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="F4" idref1="F6"/>
+<clue>To characterize the protein-DNA interactions important for the developmental control of the human beta-globin locus, we <clueKT>analyzed</clueKT> by in vivo dimethyl sulfate footprinting <clueLoc>erythroid cells</clueLoc> <clueType>expressing</clueType> either the fetal or the adult globin developmental program.</clue>
+</event>
+<event KT="Investigation" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="F5" idref1="F6"/>
+<clue>To characterize the protein-DNA interactions important for the developmental control of the human beta-globin locus, we <clueKT>analyzed</clueKT> by in vivo dimethyl sulfate footprinting <clueLoc>erythroid cells</clueLoc> <clueType>expressing</clueType> either the fetal or the adult globin developmental program.</clue>
+</event>
+<sentence id="S4">In the <term id="T11" lex="locus_control_region" sem="DNA_domain_or_region">locus control region</term> (<term id="T12" lex="LCR" sem="DNA_domain_or_region">LCR</term>) of the <term id="T13" lex="beta-globin_locus" sem="DNA_domain_or_region">beta-globin locus</term>, <term id="T14" lex="in_vivo_footprint" sem="Other">in vivo footprints</term> on <term id="T15" lex="NF-E2" sem="DNA_domain_or_region">NF-E2</term> (or <term id="T16" lex="AP-1" sem="DNA_domain_or_region">AP-1</term>) and <term id="T17" lex="GATA-1_motifs" sem="DNA_domain_or_region">GATA-1 <term id="A9" sem="DNA_domain_or_region">motifs</term></term> remained the same regardless of whether the <term id="A10" sem="DNA_domain_or_region">fetal</term> or the <term id="T18" lex="adult_globin_gene" sem="DNA_family_or_group">adult <term id="A11" sem="DNA_domain_or_region">globin genes</term></term> are expressed.</sentence>
+<event id="E9">
+<type class="Binding"/>
+<theme idref="T15" idref1="A9"/>
+<clue>In the locus control region (LCR) of the beta-globin locus, in vivo <clueType>footprints</clueType> <linkTheme>on</linkTheme> NF-E2 (or AP-1) and GATA-1 motifs <clueType>remained</clueType> the same regardless of whether the fetal or the adult globin genes are expressed.</clue>
+<comment>NER: T15, T16, OKAP &quot;another THEME is not mentioned&quot; &quot;need background&quot;</comment></event>
+<event id="E10">
+<type class="Binding"/>
+<theme idref="T16" idref1="A9"/>
+<clue>In the locus control region (LCR) of the beta-globin locus, in vivo <clueType>footprints</clueType> <linkTheme>on</linkTheme> NF-E2 (or AP-1) and GATA-1 motifs <clueType>remained</clueType> the same regardless of whether the fetal or the adult globin genes are expressed.</clue>
+<comment>OKAP &quot;another THEME is not mentioned&quot; &quot;need background&quot;</comment></event>
+<event id="E11">
+<type class="Binding"/>
+<theme idref="T17"/>
+<clue>In the locus control region (LCR) of the beta-globin locus, in vivo <clueType>footprints</clueType> <linkTheme>on</linkTheme> NF-E2 (or AP-1) and GATA-1 motifs <clueType>remained</clueType> the same regardless of whether the fetal or the adult globin genes are expressed.</clue>
+<comment>OKAP &quot;another THEME is not mentioned&quot; &quot;need background&quot;</comment></event>
+<event KT="Other" id="E42">
+<type class="Gene_expression"/>
+<theme idref="A10" idref1="A11"/>
+<clue>In the locus control region (LCR) of the beta-globin locus, in vivo footprints on NF-E2 (or AP-1) and GATA-1 motifs remained the same regardless of whether the fetal or the adult globin genes are <clueType>expressed</clueType>.</clue>
+</event>
+<event KT="Other" id="E43">
+<type class="Gene_expression"/>
+<theme idref="T18"/>
+<clue>In the locus control region (LCR) of the beta-globin locus, in vivo footprints on NF-E2 (or AP-1) and GATA-1 motifs remained the same regardless of whether the fetal or the adult globin genes are <clueType>expressed</clueType>.</clue>
+</event>
+<event KT="Analysis" id="E44">
+<type class="Correlation"/>
+<theme idref="E9"/>
+<theme idref="E42"/>
+<clue>In the locus control region (LCR) of the beta-globin locus, in vivo footprints on NF-E2 (or AP-1) and GATA-1 motifs remained the same <clueType><clueKT>regardless</clueKT></clueType> <linkTheme>of</linkTheme> whether the fetal or the adult globin genes are expressed.</clue>
+</event>
+<event KT="Analysis" id="E45">
+<type class="Correlation"/>
+<theme idref="E10"/>
+<theme idref="E42"/>
+<clue>In the locus control region (LCR) of the beta-globin locus, in vivo footprints on NF-E2 (or AP-1) and GATA-1 motifs remained the same <clueType><clueKT>regardless</clueKT></clueType> <linkTheme>of</linkTheme> whether the fetal or the adult globin genes are expressed.</clue>
+</event>
+<event KT="Analysis" id="E46">
+<type class="Correlation"/>
+<theme idref="E11"/>
+<theme idref="E42"/>
+<clue>In the locus control region (LCR) of the beta-globin locus, in vivo footprints on NF-E2 (or AP-1) and GATA-1 motifs remained the same <clueType><clueKT>regardless</clueKT></clueType> <linkTheme>of</linkTheme> whether the fetal or the adult globin genes are expressed.</clue>
+</event>
+<event KT="Analysis" id="E47">
+<type class="Correlation"/>
+<theme idref="E9"/>
+<theme idref="E43"/>
+<clue>In the locus control region (LCR) of the beta-globin locus, in vivo footprints on NF-E2 (or AP-1) and GATA-1 motifs remained the same <clueType><clueKT>regardless</clueKT></clueType> <linkTheme>of</linkTheme> whether the fetal or the adult globin genes are expressed.</clue>
+</event>
+<event KT="Analysis" id="E48">
+<type class="Correlation"/>
+<theme idref="E10"/>
+<theme idref="E43"/>
+<clue>In the locus control region (LCR) of the beta-globin locus, in vivo footprints on NF-E2 (or AP-1) and GATA-1 motifs remained the same <clueType><clueKT>regardless</clueKT></clueType> <linkTheme>of</linkTheme> whether the fetal or the adult globin genes are expressed.</clue>
+</event>
+<event KT="Analysis" id="E49">
+<type class="Correlation"/>
+<theme idref="E11"/>
+<theme idref="E43"/>
+<clue>In the locus control region (LCR) of the beta-globin locus, in vivo footprints on NF-E2 (or AP-1) and GATA-1 motifs remained the same <clueType><clueKT>regardless</clueKT></clueType> <linkTheme>of</linkTheme> whether the fetal or the adult globin genes are expressed.</clue>
+</event>
+<sentence id="S5">In contrast, <term id="T19" lex="in_vivo_footprint" sem="Other">in vivo footprints</term> on <term id="T20" lex="GT_(CACCC)_motif" sem="DNA_domain_or_region">GT (CACCC) motifs</term> differed between the cells expressing the <cons id="T21" lex="(OR fetal_globin_program adult_globin_program)" sem="(OR DNA_domain_or_region DNA_domain_or_region)"><frag id="F7"><term id="A12" sem="DNA_domain_or_region">fetal</term></frag> or the <frag id="F8"><term id="A13" sem="DNA_domain_or_region">adult</term></frag> <frag id="F9"><term id="A14" sem="DNA_domain_or_region">globin program</term></frag></cons>.</sentence>
+<event id="E13">
+<type class="Binding"/>
+<theme idref="T20"/>
+<clue>In contrast, in vivo <clueType>footprints</clueType> <linkTheme>on</linkTheme> GT (CACCC) motifs differed between the cells expressing the fetal or the adult globin program.</clue>
+<comment>OKAP &quot;another THEME is not mentioned&quot; &quot;need background&quot;</comment></event>
+<event id="E14">
+<type class="Gene_expression"/>
+<theme idref="A12" idref1="A14"/>
+<clue>In contrast, in vivo footprints on GT (CACCC) motifs differed between the cells <clueType>expressing</clueType> the fetal or the adult globin program.</clue>
+</event>
+<event id="E15">
+<type class="Gene_expression"/>
+<theme idref="A13" idref1="A14"/>
+<clue>In contrast, in vivo footprints on GT (CACCC) motifs differed between the cells <clueType>expressing</clueType> the fetal or the adult globin program.</clue>
+</event>
+<event id="E16">
+<type class="Regulation"/>
+<theme idref="E13"/>
+<cause idref="E14"/>
+<clue>In contrast, in vivo footprints on GT (CACCC) motifs <clueType>differed</clueType> between the cells expressing the fetal or the adult globin program.</clue>
+</event>
+<event id="E17">
+<type class="Regulation"/>
+<theme idref="E13"/>
+<cause idref="E15"/>
+<clue>In contrast, in vivo footprints on GT (CACCC) motifs <clueType>differed</clueType> between the cells expressing the fetal or the adult globin program.</clue>
+</event>
+<sentence id="S6">In <term id="T22" lex="promoter_region" sem="DNA_domain_or_region">promoter regions</term>, the <term id="T23" lex="actively_transcribed_gene" sem="DNA_family_or_group">actively transcribed <term id="A18" sem="DNA_domain_or_region">genes</term></term> demonstrated extensive and consistent footprints over the canonical elements, such as <cons id="T24" lex="(AND CACCC_motif CCAAT_motif)" sem="(AND DNA_domain_or_region DNA_domain_or_region)"><frag id="F10">CACCC</frag> and <frag id="F11">CCAAT</frag> <frag id="F12">motifs</frag></cons>.</sentence>
+<event KT="Other" id="E18">
+<type class="Binding"/>
+<theme idref="F10" idref1="F12"/>
+<clue>In promoter regions, the actively transcribed genes demonstrated extensive and consistent <clueType>footprints</clueType> <linkTheme>over</linkTheme> the canonical elements, such as CACCC and CCAAT motifs.</clue>
+<comment>OKAP &quot;another THEME is not mentioned&quot; &quot;need background&quot;</comment></event>
+<event KT="Other" id="E19">
+<type class="Binding"/>
+<theme idref="F11" idref1="F12"/>
+<clue>In promoter regions, the actively transcribed genes demonstrated extensive and consistent <clueType>footprints</clueType> <linkTheme>over</linkTheme> the canonical elements, such as CACCC and CCAAT motifs.</clue>
+<comment>OKAP &quot;another THEME is not mentioned&quot; &quot;need background&quot;</comment></event>
+<event KT="Other" id="E20">
+<type class="Transcription"/>
+<theme idref="A18"/>
+<clue>In promoter regions, the actively <clueType>transcribed</clueType> genes demonstrated extensive and consistent footprints over the canonical elements, such as CACCC and CCAAT motifs.</clue>
+</event>
+<event KT="Analysis" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="E20"/>
+<clue>In promoter regions, the actively transcribed genes <clueKT>demonstrated</clueKT> extensive and consistent footprints over the canonical elements, such as CACCC and CCAAT motifs.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Analysis" id="E41">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="E20"/>
+<clue>In promoter regions, the actively transcribed genes <clueKT>demonstrated</clueKT> extensive and consistent footprints over the canonical elements, such as CACCC and CCAAT motifs.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S7">The <term id="T25" lex="adult_globin_expressing_cell" sem="Cell_natural"><term id="A19" sem="Protein_molecule">adult globin</term> expressing cells</term> displayed more extensive footprints than the <term id="T26" lex="fetal_globin_expressing_cell" sem="Cell_natural"><term id="A23" sem="Protein_molecule">fetal globin</term> expressing cells</term> in the <term id="T27" lex="3&apos;_regulatory_sequence" sem="DNA_domain_or_region">3&apos; regulatory sequences</term> of both the <cons id="T28" lex="(AND Agamma-globin_gene beta-globin_gene)" sem="(AND DNA_domain_or_region DNA_domain_or_region)"><frag id="F13">Agamma-</frag> and the <frag id="F14">beta-</frag><frag id="F15">globin genes</frag></cons>, suggesting a role of these <term id="T29" lex="3&apos;_element" sem="DNA_domain_or_region">3&apos; elements</term> in <term id="T30" lex="beta-globin_gene_expression" sem="Other"><term id="T31" lex="beta-globin_gene" sem="DNA_family_or_group">beta-globin gene</term> expression</term>.</sentence>
+<event KT="Other" id="E22">
+<type class="Gene_expression"/>
+<theme idref="A19"/>
+<clue>The adult globin <clueType>expressing</clueType> cells displayed more extensive footprints than the fetal globin expressing cells in the 3&apos; regulatory sequences of both the Agamma- and the beta-globin genes, suggesting a role of these 3&apos; elements in beta-globin gene expression.</clue>
+</event>
+<event KT="Other" id="E23">
+<type class="Gene_expression"/>
+<theme idref="A23"/>
+<clue>The adult globin expressing cells displayed more extensive footprints than the fetal globin <clueType>expressing</clueType> cells in the 3&apos; regulatory sequences of both the Agamma- and the beta-globin genes, suggesting a role of these 3&apos; elements in beta-globin gene expression.</clue>
+</event>
+<event KT="Other" id="E24">
+<type class="Binding"/>
+<theme idref="T27"/>
+<clue>The adult globin expressing cells displayed more extensive <clueType>footprints</clueType> than the fetal globin expressing cells <linkTheme>in</linkTheme> the 3&apos; regulatory sequences of both the Agamma- and the beta-globin genes, suggesting a role of these 3&apos; elements in beta-globin gene expression.</clue>
+<comment>OKAP &quot;another THEME is not mentioned&quot; &quot;need background&quot;</comment></event>
+<event KT="Analysis" id="E25">
+<type class="Positive_regulation"/>
+<theme idref="E24"/>
+<cause idref="E22"/>
+<clue>The adult globin expressing cells <clueKT>displayed</clueKT> <clueType>more extensive</clueType> footprints than the fetal globin expressing cells in the 3&apos; regulatory sequences of both the Agamma- and the beta-globin genes, suggesting a role of these 3&apos; elements in beta-globin gene expression.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Gene_expression"/>
+<theme idref="T31"/>
+<clue>The adult globin expressing cells displayed more extensive footprints than the fetal globin expressing cells in the 3&apos; regulatory sequences of both the Agamma- and the beta-globin genes, suggesting a role of these 3&apos; elements in beta-globin gene <clueType>expression</clueType>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E27" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E26"/>
+<cause idref="T29"/>
+<clue>The adult globin expressing cells displayed more extensive footprints than the fetal globin expressing cells in the 3&apos; regulatory sequences of both the Agamma- and the beta-globin genes, <clueKT><clueCL>suggesting</clueCL></clueKT> a <clueType>role</clueType> <linkTheme>of</linkTheme> these 3&apos; elements <linkTheme>in</linkTheme> beta-globin gene expression.</clue>
+</event>
+<sentence id="S8">Our results suggest that the bulk of <term id="T32" lex="protein-DNA_interaction" sem="Other"><term id="A25" sem="Protein_molecule">protein</term>-<term id="A26" sem="DNA_molecule">DNA</term> interactions</term> that underlies the developmental control of <term id="T33" lex="globin_gene" sem="DNA_family_or_group">globin genes</term> takes place in the <cons id="T34" lex="(AND gamma-globin_gene_promoter beta-globin_gene_promoter)" sem="(AND DNA_domain_or_region DNA_domain_or_region)"><frag id="F16">gamma-</frag> and <frag id="F17">beta-</frag><frag id="F18">globin gene promoters</frag></cons>, and that <term id="T35" lex="GT_motif" sem="DNA_domain_or_region">GT motifs</term> of the <term id="T36" lex="beta-globin_locus" sem="DNA_domain_or_region">beta-globin locus</term> <term id="T37" lex="LCR" sem="DNA_domain_or_region">LCR</term> may play a role in the <term id="T38" lex="developmental_regulation" sem="Other">developmental regulation</term> of <term id="T39" lex="human_beta-globin_gene_expression" sem="Other">human <term id="T40" lex="beta-globin_gene" sem="DNA_domain_or_region">beta-globin gene</term> expression</term>, perhaps by increasing the probability of interaction of the <term id="T41" lex="LCR_holocomplex" sem="Protein_complex"><term id="T42" lex="LCR" sem="DNA_domain_or_region">LCR</term> holocomplex</term> with the <cons id="T43" lex="(OR fetal_globin_gene adult_globin_gene)" sem="(OR DNA_domain_or_region DNA_domain_or_region)"><frag id="F19">fetal</frag> or the <frag id="F20">adult</frag> <frag id="F21">globin gene</frag></cons>.</sentence>
+<event KT="Other" id="E28">
+<type class="Binding"/>
+<theme idref="A25"/>
+<theme idref="A26"/>
+<clue>Our results suggest that the bulk of protein-DNA <clueType>interactions</clueType> that underlies the developmental control of globin genes takes place in the gamma- and beta-globin gene promoters, and that GT motifs of the beta-globin locus LCR may play a role in the developmental regulation of human beta-globin gene expression, perhaps by increasing the probability of interaction of the LCR holocomplex with the fetal or the adult globin gene.</clue>
+</event>
+<event KT="Other" id="E300">
+<type class="Regulation"/>
+<theme idref="T33"/>
+<clue>Our results suggest that the bulk of protein-DNA interactions that underlies the developmental <clueType>control</clueType> <linkTheme>of</linkTheme> globin genes takes place <clueLoc>in the gamma-</clueLoc> and beta-<clueLoc>globin gene promoters</clueLoc>, and that GT motifs of the beta-globin locus LCR may play a role in the developmental regulation of human beta-globin gene expression, perhaps by increasing the probability of interaction of the LCR holocomplex with the fetal or the adult globin gene.</clue>
+</event>
+<event KT="Other" id="E301">
+<type class="Regulation"/>
+<theme idref="T33"/>
+<clue>Our results suggest that the bulk of protein-DNA interactions that underlies the developmental <clueType>control</clueType> <linkTheme>of</linkTheme> globin genes takes place <clueLoc>in the</clueLoc> gamma- and <clueLoc>beta-globin gene promoters</clueLoc>, and that GT motifs of the beta-globin locus LCR may play a role in the developmental regulation of human beta-globin gene expression, perhaps by increasing the probability of interaction of the LCR holocomplex with the fetal or the adult globin gene.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E302" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E300"/>
+<cause idref="E28"/>
+<clue>Our results <clueKT><clueCL>suggest</clueCL></clueKT> that the bulk of protein-DNA interactions that <clueType>underlies</clueType> the developmental control of globin genes takes place in the gamma- and beta-globin gene promoters, and that GT motifs of the beta-globin locus LCR may play a role in the developmental regulation of human beta-globin gene expression, perhaps by increasing the probability of interaction of the LCR holocomplex with the fetal or the adult globin gene.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E303" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E301"/>
+<cause idref="E28"/>
+<clue>Our results <clueKT><clueCL>suggest</clueCL></clueKT> that the bulk of protein-DNA interactions that <clueType>underlies</clueType> the developmental control of globin genes takes place in the gamma- and beta-globin gene promoters, and that GT motifs of the beta-globin locus LCR may play a role in the developmental regulation of human beta-globin gene expression, perhaps by increasing the probability of interaction of the LCR holocomplex with the fetal or the adult globin gene.</clue>
+</event>
+<event KT="Other" id="E31">
+<type class="Gene_expression"/>
+<theme idref="T40"/>
+<clue>Our results suggest that the bulk of protein-DNA interactions that underlies the developmental control of globin genes takes place in the gamma- and beta-globin gene promoters, and that GT motifs of the beta-globin locus LCR may play a role in the developmental regulation of human beta-globin gene <clueType>expression</clueType>, perhaps by increasing the probability of interaction of the LCR holocomplex with the fetal or the adult globin gene.</clue>
+</event>
+<event KT="Other" id="E32">
+<type class="Regulation"/>
+<theme idref="E31"/>
+<clue>Our results suggest that the bulk of protein-DNA interactions that underlies the developmental control of globin genes takes place in the gamma- and beta-globin gene promoters, and that GT motifs of the beta-globin locus LCR may play a role in the developmental <clueType>regulation</clueType> <linkTheme>of</linkTheme> human beta-globin gene expression, perhaps by increasing the probability of interaction of the LCR holocomplex with the fetal or the adult globin gene.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E33">
+<type class="Binding"/>
+<theme idref="T41"/>
+<theme idref="F19" idref1="F21"/>
+<clue>Our results suggest that the bulk of protein-DNA interactions that underlies the developmental control of globin genes takes place in the gamma- and beta-globin gene promoters, and that GT motifs of the beta-globin locus LCR may play a role in the developmental regulation of human beta-globin gene expression, perhaps by increasing the <clueKT><clueCL>probability</clueCL></clueKT> of <clueType>interaction</clueType> <linkTheme>of</linkTheme> the LCR holocomplex <linkTheme>with</linkTheme> the fetal or the adult globin gene.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E34">
+<type class="Binding"/>
+<theme idref="T41"/>
+<theme idref="F20" idref1="F21"/>
+<clue>Our results suggest that the bulk of protein-DNA interactions that underlies the developmental control of globin genes takes place in the gamma- and beta-globin gene promoters, and that GT motifs of the beta-globin locus LCR may play a role in the developmental regulation of human beta-globin gene expression, perhaps by increasing the <clueKT><clueCL>probability</clueCL></clueKT> of <clueType>interaction</clueType> <linkTheme>of</linkTheme> the LCR holocomplex <linkTheme>with</linkTheme> the fetal or the adult globin gene.</clue>
+</event>
+<event KT="Other" id="E35">
+<type class="Positive_regulation"/>
+<theme idref="E33"/>
+<cause idref="T35"/>
+<clue>Our results suggest that the bulk of protein-DNA interactions that underlies the developmental control of globin genes takes place in the gamma- and beta-globin gene promoters, and that GT motifs of the beta-globin locus LCR may play a role in the developmental regulation of human beta-globin gene expression, perhaps by <clueType>increasing</clueType> the probability of interaction of the LCR holocomplex with the fetal or the adult globin gene.</clue>
+</event>
+<event KT="Other" id="E36">
+<type class="Positive_regulation"/>
+<theme idref="E34"/>
+<cause idref="T35"/>
+<clue>Our results suggest that the bulk of protein-DNA interactions that underlies the developmental control of globin genes takes place in the gamma- and beta-globin gene promoters, and that GT motifs of the beta-globin locus LCR may play a role in the developmental regulation of human beta-globin gene expression, perhaps by <clueType>increasing</clueType> the probability of interaction of the LCR holocomplex with the fetal or the adult globin gene.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E37" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E32"/>
+<cause idref="E35"/>
+<clue>Our results <clueKT>suggest</clueKT> that the bulk of protein-DNA interactions that underlies the developmental control of globin genes takes place in the gamma- and beta-globin gene promoters, and that GT motifs of the beta-globin locus LCR <clueCL>may</clueCL> <clueType>play a role</clueType> <linkTheme>in</linkTheme> the developmental regulation of human beta-globin gene expression, perhaps <linkCause>by</linkCause> increasing the probability of interaction of the LCR holocomplex with the fetal or the adult globin gene.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E38" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E32"/>
+<cause idref="E36"/>
+<clue>Our results <clueKT>suggest</clueKT> that the bulk of protein-DNA interactions that underlies the developmental control of globin genes takes place in the gamma- and beta-globin gene promoters, and that GT motifs of the beta-globin locus LCR <clueCL>may</clueCL> <clueType>play a role</clueType> <linkTheme>in</linkTheme> the developmental regulation of human beta-globin gene expression, perhaps <linkCause>by</linkCause> increasing the probability of interaction of the LCR holocomplex with the fetal or the adult globin gene.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

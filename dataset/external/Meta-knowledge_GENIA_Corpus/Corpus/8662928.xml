@@ -1,0 +1,284 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8662928" created="14/11/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8662928</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="A1" sem="Protein_family_or_group">Receptors for</term> <cons id="T1" lex="(AND interleukin_(IL)-10-type_cytokine IL-6-type_cytokine)" sem="(AND Protein_family_or_group Protein_family_or_group)"><frag id="F1"><term id="A2" sem="Protein_family_or_group">interleukin (IL)-10</term></frag> and <frag id="F2"><term id="A3" sem="Protein_family_or_group">IL-6</term></frag><frag id="F3"><term id="A4" sem="Protein_family_or_group">-type cytokines</term></frag></cons> use similar signaling mechanisms for inducing <term id="A5" sem="Other">transcription</term> through <term id="T2" lex="IL-6_response_element" sem="DNA_family_or_group">IL-6 response elements</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation"/>
+<theme idref="T2"/>
+<cause idref="A1" idref1="A2" idref2="A4"/>
+<clue>Receptors for interleukin (IL)-10 and IL-6-type cytokines use similar signaling mechanisms for <clueType>inducing</clueType> transcription through IL-6 response elements.</clue>
+<comment>TPS: A1</comment></event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="T2"/>
+<cause idref="A1" idref1="A3" idref2="A4"/>
+<clue>Receptors for interleukin (IL)-10 and IL-6-type cytokines use similar signaling mechanisms for <clueType>inducing</clueType> transcription through IL-6 response elements.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation"/>
+<theme idref="A5"/>
+<cause idref="E1"/>
+<clue>Receptors for interleukin (IL)-10 and IL-6-type cytokines use similar signaling mechanisms for <clueType>inducing</clueType> transcription <linkCause>through</linkCause> IL-6 response elements.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation"/>
+<theme idref="A5"/>
+<cause idref="E2"/>
+<clue>Receptors for interleukin (IL)-10 and IL-6-type cytokines use similar signaling mechanisms for <clueType>inducing</clueType> transcription <linkCause>through</linkCause> IL-6 response elements.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T3" lex="cytoplasmic_domain" sem="Protein_domain_or_region">cytoplasmic domain</term> of the receptor for <term id="T4" lex="interleukin_10" sem="Protein_molecule">interleukin 10</term> (<term id="T5" lex="IL-10R" sem="Protein_molecule">IL-10R</term>) contains two <term id="T6" lex="box_3_sequence_motif" sem="Protein_substructure">box 3 sequence motifs</term> that have been identified in the <term id="T7" lex="signal-transducing_receptor_subunit" sem="Protein_molecule">signal-transducing receptor subunits</term> for <term id="T8" lex="IL-6-type_cytokine" sem="Protein_family_or_group">IL-6-type cytokines</term> and noted to be required for activating <term id="T9" lex="STAT3" sem="Protein_molecule">STAT3</term> and inducing <term id="A7" sem="Other">transcription</term> through <term id="T10" lex="IL-6-responsive_element" sem="DNA_family_or_group">IL-6-responsive elements</term>.</sentence>
+<event KT="Other" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="T9"/>
+<clue>The cytoplasmic domain of the receptor for interleukin 10 (IL-10R) contains two box 3 sequence motifs that have been identified in the signal-transducing receptor subunits for IL-6-type cytokines and noted to be required for <clueType>activating</clueType> STAT3 and inducing transcription through IL-6-responsive elements.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="A7"/>
+<cause idref="T10"/>
+<clue>The cytoplasmic domain of the receptor for interleukin 10 (IL-10R) contains two box 3 sequence motifs that have been identified in the signal-transducing receptor subunits for IL-6-type cytokines and noted to be required for activating STAT3 and <clueType>inducing</clueType> transcription <linkCause>through</linkCause> IL-6-responsive elements.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="T6"/>
+<clue>The cytoplasmic domain of the receptor for interleukin 10 (IL-10R) contains two box 3 sequence motifs that <clueSource>have been</clueSource> identified in the signal-transducing receptor subunits for IL-6-type cytokines and <clueKT>noted</clueKT> to be <clueType>required</clueType> <linkTheme>for</linkTheme> activating STAT3 and inducing transcription through IL-6-responsive elements.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="T6"/>
+<clue>The cytoplasmic domain of the receptor for interleukin 10 (IL-10R) contains two box 3 sequence motifs that <clueSource>have been</clueSource> identified in the signal-transducing receptor subunits for IL-6-type cytokines and <clueKT>noted</clueKT> to be <clueType>required</clueType> <linkTheme>for</linkTheme> activating STAT3 and inducing transcription through IL-6-responsive elements.</clue>
+</event>
+<sentence id="S3">To determine whether the <term id="T11" lex="IL-10R" sem="Protein_molecule">IL-10R</term> has signaling functions similar to <term id="T12" lex="IL-6R" sem="Protein_molecule">IL-6R</term> in cells normally expressing these receptors, <term id="T13" lex="leukocyte" sem="Cell_natural">leukocytes</term> of the <cons id="T14" lex="(AND B-cell_lineage T-cell_lineage NK-cell_lineage)" sem="(AND Cell_natural Cell_natural Cell_natural)"><frag id="F4">B-</frag>, <frag id="F5">T-</frag>, and <frag id="F6">NK-</frag><frag id="F7">cell lineages</frag></cons> were treated with either cytokine.</sentence>
+<event KT="Analysis" id="E300">
+<type class="Gene_expression"/>
+<theme idref="T11"/>
+<clue>To determine whether the IL-10R has signaling functions similar to IL-6R in cells <clueKT>normally</clueKT> <clueType>expressing</clueType> <corefTheme>these receptors</corefTheme>, <clueLoc>leukocytes of the B-</clueLoc>, T-, and NK-<clueLoc>cell lineages</clueLoc> were treated with either cytokine.</clue>
+</event>
+<event KT="Analysis" id="E301">
+<type class="Gene_expression"/>
+<theme idref="T11"/>
+<clue>To determine whether the IL-10R has signaling functions similar to IL-6R in cells <clueKT>normally</clueKT> <clueType>expressing</clueType> <corefTheme>these receptors</corefTheme>, <clueLoc>leukocytes of the</clueLoc> B-, <clueLoc>T-</clueLoc>, and NK-<clueLoc>cell lineages</clueLoc> were treated with either cytokine.</clue>
+</event>
+<event KT="Analysis" id="E302">
+<type class="Gene_expression"/>
+<theme idref="T11"/>
+<clue>To determine whether the IL-10R has signaling functions similar to IL-6R in cells <clueKT>normally</clueKT> <clueType>expressing</clueType> <corefTheme>these receptors</corefTheme>, <clueLoc>leukocytes of the</clueLoc> B-, T-, and <clueLoc>NK-cell lineages</clueLoc> were treated with either cytokine.</clue>
+</event>
+<event KT="Analysis" id="E303">
+<type class="Gene_expression"/>
+<theme idref="T12"/>
+<clue>To determine whether the IL-10R has signaling functions similar to IL-6R in cells <clueKT>normally</clueKT> <clueType>expressing</clueType> <corefTheme>these receptors</corefTheme>, <clueLoc>leukocytes of the B-</clueLoc>, T-, and NK-<clueLoc>cell lineages</clueLoc> were treated with either cytokine.</clue>
+</event>
+<event KT="Analysis" id="E304">
+<type class="Gene_expression"/>
+<theme idref="T12"/>
+<clue>To determine whether the IL-10R has signaling functions similar to IL-6R in cells <clueKT>normally</clueKT> <clueType>expressing</clueType> <corefTheme>these receptors</corefTheme>, <clueLoc>leukocytes of the</clueLoc> B-, <clueLoc>T-</clueLoc>, and NK-<clueLoc>cell lineages</clueLoc> were treated with either cytokine.</clue>
+</event>
+<event KT="Analysis" id="E305">
+<type class="Gene_expression"/>
+<theme idref="T12"/>
+<clue>To determine whether the IL-10R has signaling functions similar to IL-6R in cells <clueKT>normally</clueKT> <clueType>expressing</clueType> <corefTheme>these receptors</corefTheme>, <clueLoc>leukocytes of the</clueLoc> B-, T-, and <clueLoc>NK-cell lineages</clueLoc> were treated with either cytokine.</clue>
+</event>
+<sentence id="S4">Both <term id="T15" lex="cytokine" sem="Protein_family_or_group">cytokines</term> activated <term id="A8" sem="Protein_complex">factors</term> that bound to the <term id="T16" lex="sis-inducible_elemen" sem="DNA_family_or_group">sis-inducible element</term> and included <term id="T17" lex="STAT1" sem="Protein_molecule">STAT1</term> and <term id="T18" lex="STAT3" sem="Protein_molecule">STAT3</term>.</sentence>
+<event id="E11">
+<type class="Positive_regulation"/>
+<theme idref="A8"/>
+<cause idref="A2"/>
+<clue>Both cytokines <clueType>activated</clueType> factors that bound to the sis-inducible element and included STAT1 and STAT3.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation"/>
+<theme idref="A8"/>
+<cause idref="A3"/>
+<clue>Both cytokines <clueType>activated</clueType> factors that bound to the sis-inducible element and included STAT1 and STAT3.</clue>
+</event>
+<event id="E13">
+<type class="Binding"/>
+<theme idref="A8"/>
+<theme idref="T16"/>
+<clue>Both cytokines activated factors that <clueType>bound</clueType> <linkTheme>to</linkTheme> the sis-inducible element and included STAT1 and STAT3.</clue>
+</event>
+<sentence id="S5">The cell response to <term id="T19" lex="IL-10" sem="Protein_molecule">IL-10</term> characteristically differed from that to <term id="T20" lex="IL-2/IL-15" sem="Protein_molecule">IL-2/IL-15</term>, <term id="T21" lex="IL-4" sem="Protein_molecule">IL-4</term>, and <term id="T22" lex="interferon_gamma" sem="Protein_molecule">interferon gamma</term>.</sentence>
+<event id="E14">
+<type class="Regulation"/>
+<theme idref="T13"/>
+<cause idref="T19"/>
+<clue><corefTheme>The cell</corefTheme> <clueType>response</clueType> <linkCause>to</linkCause> IL-10 characteristically differed from that to IL-2/IL-15, IL-4, and interferon gamma.</clue>
+</event>
+<event id="E15">
+<type class="Regulation"/>
+<theme idref="T13"/>
+<cause idref="T20"/>
+<clue><corefTheme>The cell</corefTheme> <clueType>response</clueType> to IL-10 characteristically differed from that <linkCause>to</linkCause> IL-2/IL-15, IL-4, and interferon gamma.</clue>
+</event>
+<event id="E16">
+<type class="Regulation"/>
+<theme idref="T13"/>
+<cause idref="T21"/>
+<clue><corefTheme>The cell</corefTheme> <clueType>response</clueType> to IL-10 characteristically differed from that <linkCause>to</linkCause> IL-2/IL-15, IL-4, and interferon gamma.</clue>
+</event>
+<event id="E17">
+<type class="Regulation"/>
+<theme idref="T13"/>
+<cause idref="T22"/>
+<clue><corefTheme>The cell</corefTheme> <clueType>response</clueType> to IL-10 characteristically differed from that <linkCause>to</linkCause> IL-2/IL-15, IL-4, and interferon gamma.</clue>
+</event>
+<sentence id="S6">The signaling capabilities of the <term id="T23" lex="IL-10R" sem="Protein_molecule">IL-10R</term> for activating specific <term id="T24" lex="STAT_protein" sem="Protein_family_or_group">STAT proteins</term> and inducing <term id="A11" sem="Other">gene transcription</term> were defined by reconstitution of receptor functions in <term id="T25" lex="transfected_tissue_culture_cells" sem="Cell_cultured">transfected tissue culture cells</term>.</sentence>
+<event KT="Other" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="T24"/>
+<clue>The signaling capabilities of the IL-10R for <clueType>activating</clueType> specific STAT proteins and inducing gene transcription were defined by reconstitution of receptor functions in transfected tissue culture cells.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="A11"/>
+<clue>The signaling capabilities of the IL-10R for activating specific STAT proteins and <clueType>inducing</clueType> gene transcription were defined by reconstitution of receptor functions in transfected tissue culture cells.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E20" uncertainty="doubtful">
+<type class="Cell_communication"/>
+<theme idref="T23"/>
+<clue>The <clueType>signaling</clueType> <clueCL>capabilities</clueCL> <linkTheme>of</linkTheme> the IL-10R for activating specific STAT proteins and inducing gene transcription were <clueKT>defined</clueKT> by <clueExperiment>reconstitution of receptor functions in transfected tissue culture cells.</clueExperiment></clue>
+</event>
+<event CL="L2" KT="Analysis" id="E120" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="E20"/>
+<clue>The <clueType>signaling</clueType> <clueCL>capabilities</clueCL> of the IL-10R <linkTheme>for</linkTheme> activating specific STAT proteins and inducing gene transcription were <clueKT>defined</clueKT> by <clueExperiment>reconstitution of receptor functions in transfected tissue culture cells.</clueExperiment></clue>
+</event>
+<event CL="L2" KT="Analysis" id="E121" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="E20"/>
+<clue>The <clueType>signaling</clueType> <clueCL>capabilities</clueCL> of the IL-10R <linkTheme>for</linkTheme> activating specific STAT proteins and inducing gene transcription were <clueKT>defined</clueKT> by <clueExperiment>reconstitution of receptor functions in transfected tissue culture cells.</clueExperiment></clue>
+</event>
+<sentence id="S7"><term id="T26" lex="COS-1_cell" sem="Cell_cultured">COS-1 cells</term>, co-expressing the human <term id="T27" lex="IL-10R" sem="Protein_molecule">IL-10R</term> and individual <term id="T28" lex="STAT_protein" sem="Protein_family_or_group">STAT proteins</term>, confirmed a preference of the <term id="T29" lex="IL-10R" sem="Protein_molecule">IL-10R</term> for <term id="T30" lex="STAT3" sem="Protein_molecule">STAT3</term> and <term id="T31" lex="STAT1" sem="Protein_molecule">STAT1</term>.</sentence>
+<event KT="Other" id="E22">
+<type class="Gene_expression"/>
+<theme idref="T27"/>
+<clue><clueLoc>COS-1 cells</clueLoc>, <clueType>co-expressing</clueType> the human IL-10R and individual STAT proteins, confirmed a preference of the IL-10R for STAT3 and STAT1.</clue>
+</event>
+<event KT="Other" id="E23">
+<type class="Gene_expression"/>
+<theme idref="T28"/>
+<clue><clueLoc>COS-1 cells</clueLoc>, <clueType>co-expressing</clueType> the human IL-10R and individual STAT proteins, confirmed a preference of the IL-10R for STAT3 and STAT1.</clue>
+</event>
+<event KT="Analysis" id="E24">
+<type class="Binding"/>
+<theme idref="T29"/>
+<theme idref="T30"/>
+<clue><clueLoc>COS-1 cells</clueLoc>, co-expressing the human IL-10R and individual STAT proteins, <clueKT>confirmed</clueKT> a <clueType>preference</clueType> <linkTheme>of</linkTheme> the IL-10R <linkTheme>for</linkTheme> STAT3 and STAT1.</clue>
+</event>
+<event KT="Analysis" id="E25">
+<type class="Binding"/>
+<theme idref="T29"/>
+<theme idref="T31"/>
+<clue><clueLoc>COS-1 cells</clueLoc>, <clueExperiment>co-expressing the human IL-10R and individual STAT proteins</clueExperiment>, <clueKT>confirmed</clueKT> a <clueType>preference</clueType> <linkTheme>of</linkTheme> the IL-10R <linkTheme>for</linkTheme> STAT3 and STAT1.</clue>
+</event>
+<sentence id="S8">Unlike many <term id="T32" lex="hematopoietin_receptor" sem="Protein_family_or_group">hematopoietin receptors</term>, the <term id="T33" lex="IL-10R" sem="Protein_molecule">IL-10R</term> did not detectably activate <term id="T34" lex="STAT5" sem="Protein_molecule">STAT5</term>.</sentence>
+<event id="E27">
+<type class="Positive_regulation"/>
+<theme idref="T34"/>
+<cause idref="T32"/>
+<clue>Unlike many hematopoietin receptors, the IL-10R did not detectably <clueType>activate</clueType> STAT5.</clue>
+</event>
+<sentence id="S9">The <term id="T35" lex="IL-10R" sem="Protein_molecule">IL-10R</term>, together with <term id="A12" sem="DNA_domain_or_region">reporter gene constructs containing different <term id="T36" lex="IL-6-responsive_gene_element" sem="DNA_family_or_group">IL-6-responsive gene elements</term></term>, reconstituted in <term id="T37" lex="hepatoma_cell" sem="Cell_natural">hepatoma cells</term> an induction of <term id="A13" sem="Other">transcription</term> by <term id="T38" lex="IL-10" sem="Protein_molecule">IL-10</term> that was comparable to that by <term id="T39" lex="IL-6" sem="Protein_molecule">IL-6</term>.</sentence>
+<event KT="Method" id="E28">
+<type class="Artificial_process"/>
+<theme idref="T35"/>
+<theme idref="A12"/>
+<clue>The IL-10R, together with reporter gene constructs containing different IL-6-responsive gene elements, <clueType>reconstituted</clueType> <clueLoc>in hepatoma cells</clueLoc> an induction of transcription by IL-10 that was comparable to that by IL-6.</clue>
+<comment>TPS: A12</comment></event>
+<event id="E30">
+<type class="Positive_regulation"/>
+<theme idref="A13"/>
+<cause idref="E28"/>
+<cause idref="T38"/>
+<clue>The IL-10R, together with reporter gene constructs containing different IL-6-responsive gene elements, reconstituted <clueLoc>in hepatoma cells</clueLoc> an <clueType>induction</clueType> <linkTheme>of</linkTheme> transcription <linkCause>by</linkCause> IL-10 that was comparable to that by IL-6.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation"/>
+<theme idref="A13"/>
+<cause idref="E28"/>
+<cause idref="T39"/>
+<clue>The IL-10R, together with reporter gene constructs containing different IL-6-responsive gene elements, reconstituted <clueLoc>in hepatoma cells</clueLoc> an <clueType>induction</clueType> <linkTheme>of</linkTheme> transcription by IL-10 that was comparable to that <linkCause>by</linkCause> IL-6.</clue>
+</event>
+<sentence id="S10">This regulation could not be appreciably modified by enhanced expression of <term id="T40" lex="STAT_protein" sem="Protein_family_or_group">STAT proteins</term>.</sentence>
+<event id="E32">
+<type class="Gene_expression"/>
+<theme idref="T40"/>
+<clue>This regulation could not be appreciably modified by enhanced <clueType>expression</clueType> <linkTheme>of</linkTheme> STAT proteins.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E32"/>
+<clue>This regulation could not be appreciably modified by <clueType>enhanced</clueType> expression of STAT proteins.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E34">
+<type class="Regulation"/>
+<theme idref="E30"/>
+<cause idref="E33"/>
+<clue><corefTheme>This regulation</corefTheme> could <cluePolarity>not</cluePolarity> be appreciably <clueType>modified</clueType> <linkCause>by</linkCause> enhanced expression of STAT proteins.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E35">
+<type class="Regulation"/>
+<theme idref="E31"/>
+<cause idref="E33"/>
+<clue><corefTheme>This regulation</corefTheme> could <cluePolarity>not</cluePolarity> be appreciably <clueType>modified</clueType> <linkCause>by</linkCause> enhanced expression of STAT proteins.</clue>
+</event>
+<sentence id="S11">The similar actions of <term id="T41" lex="IL-10R" sem="Protein_molecule">IL-10R</term> and <term id="T42" lex="IL-6R" sem="Protein_molecule">IL-6R</term> on the induction of endogenous <term id="T43" lex="IL-6-responsive_gene" sem="DNA_family_or_group"><term id="T44" lex="IL-6" sem="Protein_molecule">IL-6</term>-responsive genes</term> were demonstrated in <term id="T45" lex="hepatoma_cell" sem="Cell_natural">hepatoma cells</term> stably expressing the <term id="T46" lex="IL-10R" sem="Protein_molecule">IL-10R</term>.</sentence>
+<event KT="Other" id="E36">
+<type class="Positive_regulation"/>
+<theme idref="T43"/>
+<clue>The similar actions of IL-10R and IL-6R on the <clueType>induction</clueType> <linkTheme>of</linkTheme> endogenous IL-6-responsive genes were demonstrated in hepatoma cells stably expressing the IL-10R.</clue>
+</event>
+<event KT="Analysis" id="E37">
+<type class="Regulation"/>
+<theme idref="E36"/>
+<cause idref="T41"/>
+<clue>The similar <clueType>actions</clueType> <linkCause>of</linkCause> IL-10R and IL-6R <linkTheme>on</linkTheme> the induction of endogenous IL-6-responsive genes were <clueKT>demonstrated</clueKT> <clueLoc>in hepatoma cells</clueLoc> stably expressing the IL-10R.</clue>
+</event>
+<event KT="Analysis" id="E38">
+<type class="Regulation"/>
+<theme idref="E36"/>
+<cause idref="T42"/>
+<clue>The similar <clueType>actions</clueType> <linkCause>of</linkCause> IL-10R and IL-6R <linkTheme>on</linkTheme> the induction of endogenous IL-6-responsive genes were <clueKT>demonstrated</clueKT> <clueLoc>in hepatoma cells</clueLoc> stably expressing the IL-10R.</clue>
+</event>
+<event KT="Other" id="E39">
+<type class="Gene_expression"/>
+<theme idref="T46"/>
+<clue>The similar actions of IL-10R and IL-6R on the induction of endogenous IL-6-responsive genes were demonstrated in hepatoma cells stably <clueType>expressing</clueType> the IL-10R.</clue>
+</event>
+<sentence id="S12">These receptor functions required the presence of the <term id="T47" lex="box_3_motif" sem="Protein_substructure">box 3 motifs</term>, as shown by the analysis of the mouse <term id="T48" lex="IL-10R" sem="Protein_molecule">IL-10R</term> constructs containing <term id="T49" lex="progressively_truncated_cytoplasmic_domain" sem="Protein_domain_or_region">progressively truncated cytoplasmic domains</term>.</sentence>
+<event KT="Analysis" id="E40">
+<type class="Positive_regulation"/>
+<theme idref="E37"/>
+<cause idref="T47"/>
+<clue><corefTheme>These receptor functions</corefTheme> <clueType>required</clueType> the presence of the box 3 motifs, as <clueKT>shown</clueKT> by <clueExperiment>the analysis of the mouse IL-10R constructs containing progressively truncated cytoplasmic domains</clueExperiment>.</clue>
+</event>
+<event KT="Analysis" id="E41">
+<type class="Positive_regulation"/>
+<theme idref="E38"/>
+<cause idref="T47"/>
+<clue><corefTheme>These receptor functions</corefTheme> <clueType>required</clueType> the presence of the box 3 motifs, as <clueKT>shown</clueKT> by <clueExperiment>the analysis of the mouse IL-10R constructs containing progressively truncated cytoplasmic domains</clueExperiment>.</clue>
+</event>
+<sentence id="S13">The data demonstrate that the <term id="T50" lex="IL-10R" sem="Protein_molecule">IL-10R</term>, unlike other <term id="A15" sem="Protein_family_or_group">members of the interferon receptor family</term>, is highly effective in recruiting the <term id="A14" sem="Other">signaling pathways of <term id="T51" lex="IL-6-type_cytokine_receptor" sem="Protein_family_or_group"><term id="T52" lex="IL-6" sem="Protein_molecule">IL-6</term>-type cytokine receptors</term></term>.</sentence>
+<event KT="Analysis" Manner="High" id="E42">
+<type class="Positive_regulation"/>
+<theme idref="A14"/>
+<cause idref="T50"/>
+<clue>The data <clueKT>demonstrate</clueKT> that the IL-10R, unlike other members of the interferon receptor family, is <clueType><clueManner>highly</clueManner> effective in recruiting</clueType> the signaling pathways of IL-6-type cytokine receptors.</clue>
+<comment>TPS: A14</comment></event>
+<event KT="Analysis" Manner="High" Polarity="Negative" assertion="non-exist" id="E43">
+<type class="Positive_regulation"/>
+<theme idref="A14"/>
+<cause idref="A15"/>
+<clue>The data <clueKT>demonstrate</clueKT> that the IL-10R, <cluePolarity>unlike</cluePolarity> other members of the interferon receptor family, is <clueType><clueManner>highly</clueManner> effective in recruiting</clueType> the signaling pathways of IL-6-type cytokine receptors.</clue>
+<comment>TPS: A15</comment></event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

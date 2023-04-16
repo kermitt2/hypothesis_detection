@@ -1,0 +1,161 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9632764" created="21/11/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9632764</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Coactivation by <term id="T1" lex="OCA-B" sem="Protein_molecule">OCA-B</term>: definition of critical regions and synergism with <term id="T2" lex="general_cofactor" sem="Organic_compound_other">general cofactors</term>.</sentence>
+<event KT="Investigation" id="E1">
+<type class="Positive_regulation"/>
+<cause idref="T1"/>
+<clue><clueType>Coactivation</clueType> <linkCause>by</linkCause> OCA-B: definition of critical regions and synergism with general cofactors.</clue>
+</event>
+<event KT="Investigation" id="E2">
+<type class="Correlation"/>
+<theme idref="T1"/>
+<theme idref="T2"/>
+<clue>Coactivation by OCA-B: definition of critical regions and <clueType>synergism</clueType> <linkTheme>with</linkTheme> general cofactors.</clue>
+<comment>NO COREFTHEME FOR T1</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Molecular dissection of the <term id="T3" lex="B-cell-specific_transcription" sem="Protein_family_or_group"><term id="A1" sem="Cell_natural">B-cell</term>-specific transcription coactivator</term> <term id="T4" lex="OCA-B" sem="Protein_molecule">OCA-B</term> has revealed distinct regions important, respectively, for recruitment to <term id="T5" lex="immunoglobulin_promoter" sem="DNA_family_or_group">immunoglobulin promoters</term> through interaction with <term id="T6" lex="octamer-bound_Oct-1" sem="Protein_molecule">octamer-bound <term id="T7" lex="Oct-1" sem="Protein_molecule">Oct-1</term></term> and for subsequent coactivator function.</sentence>
+<event KT="Other" id="E3">
+<type class="Binding"/>
+<theme idref="T4"/>
+<theme idref="T6"/>
+<clue>Molecular dissection of the B-cell-specific transcription coactivator OCA-B has revealed distinct regions important, respectively, for recruitment to immunoglobulin promoters through <clueType>interaction</clueType> <linkTheme>with</linkTheme> octamer-bound Oct-1 and for subsequent coactivator function.</clue>
+<comment>NER T3 MOD</comment></event>
+<event KT="Other" id="E4">
+<type class="Binding"/>
+<theme idref="T4"/>
+<theme idref="T5"/>
+<clue>Molecular dissection of the B-cell-specific transcription coactivator OCA-B has revealed distinct regions important, respectively, for <clueType>recruitment</clueType> <linkTheme>to</linkTheme> immunoglobulin promoters through interaction with octamer-bound Oct-1 and for subsequent coactivator function.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="E3"/>
+<clue>Molecular dissection of the B-cell-specific transcription coactivator OCA-B has revealed distinct regions important, respectively, for recruitment to immunoglobulin promoters <linkCause>through</linkCause> interaction with octamer-bound Oct-1 and for subsequent coactivator function.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Other" id="E6">
+<type class="Positive_regulation"/>
+<cause idref="E5"/>
+<clue>Molecular dissection of the B-cell-specific transcription coactivator OCA-B has revealed distinct regions important, respectively, for recruitment to immunoglobulin promoters through interaction with octamer-bound Oct-1 and for <linkCause>subsequent</linkCause> <clueType>coactivator function</clueType>.</clue>
+</event>
+<sentence id="S3">Further analysis of general coactivator requirements showed that selective removal of <term id="T8" lex="PC4" sem="Protein_molecule">PC4</term> from the essential <term id="T9" lex="USA_fraction" sem="Cell_component">USA fraction</term> severely impairs <cons id="T10" lex="(AND Oct-1_function OCA-B_function)" sem="(AND Other Other)"><frag id="F1"><term id="A6" sem="Protein_molecule">Oct-1</term></frag> and <frag id="F2"><term id="A7" sem="Protein_molecule">OCA-B</term></frag> <frag id="F3">function</frag></cons> in a cell-free system reconstituted with partially purified factors.</sentence>
+<event KT="Other" id="E7">
+<type class="Negative_regulation"/>
+<theme idref="T8"/>
+<clue>Further analysis of general coactivator requirements showed that selective <clueType>removal</clueType> <linkTheme>of</linkTheme> PC4 from the essential USA fraction severely impairs Oct-1 and OCA-B function in a cell-free system reconstituted with partially purified factors.</clue>
+</event>
+<event KT="Analysis" Manner="High" id="E8">
+<type class="Negative_regulation"/>
+<theme idref="A6"/>
+<cause idref="E7"/>
+<clue>Further <clueExperiment>analysis of general coactivator requirements</clueExperiment> <clueKT>showed</clueKT> that selective removal of PC4 from the essential USA fraction <clueManner>severely</clueManner> <clueType>impairs</clueType> Oct-1 and OCA-B function <clueLoc>in a cell-free system reconstituted with partially purified factors</clueLoc>.</clue>
+</event>
+<event KT="Analysis" Manner="High" id="E9">
+<type class="Negative_regulation"/>
+<theme idref="A7"/>
+<cause idref="E7"/>
+<clue>Further <clueExperiment>analysis of general coactivator requirements</clueExperiment> <clueKT>showed</clueKT> that selective removal of PC4 from the essential USA fraction <clueManner>severely</clueManner> <clueType>impairs</clueType> Oct-1 and OCA-B function <clueLoc>in a cell-free system reconstituted with partially purified factors</clueLoc>.</clue>
+</event>
+<sentence id="S4">Full activity can be restored by the combined action of recombinant <term id="T11" lex="PC4" sem="Protein_molecule">PC4</term> and the <term id="T12" lex="PC4-depleted_USA_fraction" sem="Cell_component"><term id="T13" lex="PC4" sem="Protein_molecule">PC4</term>-depleted USA fraction</term>, thus suggesting a joint requirement for <term id="T14" lex="PC4" sem="Protein_molecule">PC4</term> and another, <term id="T15" lex="USA-derived_component" sem="Cell_component">USA-derived component</term>(s) for optimal function of <term id="T16" lex="Oct-1" sem="Protein_molecule">Oct-1</term><term id="T17" lex="OCA-B" sem="Protein_molecule">/OCA-B</term> in the <term id="T18" lex="reconstituted_system" sem="Multicellular_organism_genetically_modified">reconstituted system</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="A6"/>
+<cause idref="T11"/>
+<cause idref="E110"/>
+<clue><corefTheme>Full activity</corefTheme> <clueKT><clueCL>can</clueCL></clueKT> be <clueType>restored</clueType> <linkCause>by the combined action of</linkCause> recombinant PC4 and the PC4-depleted USA fraction, thus suggesting a joint requirement for PC4 and another, USA-derived component(s) for optimal function of Oct-1/OCA-B in the reconstituted system.</clue>
+</event>
+<event KT="Other" id="E110">
+<type class="Negative_regulation"/>
+<theme idref="T13"/>
+<clue>Full activity can be restored by the combined action of recombinant PC4 and the PC4-<clueType>depleted</clueType> <clueLoc>USA fraction</clueLoc>, thus suggesting a joint requirement for PC4 and another, USA-derived component(s) for optimal function of Oct-1/OCA-B in the reconstituted system.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E210">
+<type class="Positive_regulation"/>
+<theme idref="A7"/>
+<cause idref="T11"/>
+<cause idref="T12"/>
+<clue><corefTheme>Full activity</corefTheme> <clueKT><clueCL>can</clueCL></clueKT> be <clueType>restored</clueType> <linkCause>by the combined action of</linkCause> recombinant PC4 and the PC4-depleted USA fraction, thus suggesting a joint requirement for PC4 and another, USA-derived component(s) for optimal function of Oct-1/OCA-B in the reconstituted system.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="T16"/>
+<cause idref="T14"/>
+<cause idref="T15"/>
+<clue>Full activity can be restored by the combined action of recombinant PC4 and the PC4-depleted USA fraction, thus <clueKT><clueCL>suggesting</clueCL></clueKT> a <clueType>joint requirement</clueType> <linkCause>for</linkCause> PC4 and another, USA-derived component(s) <linkTheme>for</linkTheme> optimal function of Oct-1/OCA-B <clueLoc>in the reconstituted system</clueLoc>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E111">
+<type class="Positive_regulation"/>
+<theme idref="T17"/>
+<cause idref="T14"/>
+<cause idref="T15"/>
+<clue>Full activity can be restored by the combined action of recombinant PC4 and the PC4-depleted USA fraction, thus <clueKT><clueCL>suggesting</clueCL></clueKT> a <clueType>joint requirement</clueType> <linkCause>for</linkCause> PC4 and another, USA-derived component(s) <linkTheme>for</linkTheme> optimal function of Oct-1/OCA-B <clueLoc>in the reconstituted system</clueLoc>.</clue>
+</event>
+<sentence id="S5">Indeed, <term id="T19" lex="USA-derived_PC2" sem="Protein_molecule">USA-derived PC2</term> was found to act synergistically with <term id="T20" lex="PC4" sem="Protein_molecule">PC4</term> in reproducing the function of intact <term id="T21" lex="USA" sem="Cell_component">USA</term> in the <term id="T22" lex="assay_system" sem="Other">assay system</term>.</sentence>
+<event id="E12">
+<type class="Positive_regulation"/>
+<theme idref="T21"/>
+<cause idref="T19"/>
+<cause idref="T20"/>
+<clue>Indeed, USA-derived PC2 was <clueKT>found</clueKT> to <clueType>act synergistically</clueType> <linkTheme>with</linkTheme> PC4 <clueType>in reproducing</clueType> the function of intact USA <clueLoc>in the assay system</clueLoc>.</clue>
+</event>
+<sentence id="S6">Consistent with the requirement for <term id="T23" lex="PC4" sem="Protein_molecule">PC4</term> in the <term id="T24" lex="reconstituted_system" sem="Multicellular_organism_genetically_modified">reconstituted system</term>, <term id="T25" lex="OCA-B" sem="Protein_molecule">OCA-B</term> was found to interact directly with <term id="T26" lex="PC4" sem="Protein_molecule">PC4</term>.</sentence>
+<event id="E13">
+<type class="Regulation"/>
+<cause idref="T23"/>
+<clue>Consistent with the <clueType>requirement</clueType> <linkCause>for</linkCause> PC4 <clueLoc>in the reconstituted system</clueLoc>, OCA-B was found to interact directly with PC4.</clue>
+</event>
+<event id="E14">
+<type class="Binding"/>
+<theme idref="T25"/>
+<theme idref="T26"/>
+<clue>Consistent with the requirement for PC4 in the reconstituted system, OCA-B was <clueKT>found</clueKT> to <clueType>interact</clueType> directly <linkTheme>with</linkTheme> PC4.</clue>
+</event>
+<sentence id="S7">Surprisingly, however, removal of <term id="T27" lex="PC4" sem="Protein_molecule">PC4</term> from the <term id="T28" lex="unfractionated_nuclear_extract" sem="Cell_component">unfractionated nuclear extract</term> has no detrimental effect on <term id="T30" lex="OCA-B" sem="Protein_molecule">OCA-B</term>/<term id="T31" lex="Oct-1" sem="Protein_molecule">Oct-1</term>-dependent <term id="A8" sem="Other">transcription</term>.</sentence>
+<event id="E15">
+<type class="Negative_regulation"/>
+<theme idref="T27"/>
+<clue>Surprisingly, however, <clueType>removal</clueType> <linkTheme>of</linkTheme> PC4 <clueLoc>from the unfractionated nuclear extract</clueLoc> has no detrimental effect on OCA-B/Oct-1-dependent transcription.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation"/>
+<theme idref="A8"/>
+<cause idref="T30"/>
+<clue>Surprisingly, however, removal of PC4 from the unfractionated nuclear extract has no detrimental effect on OCA-B/Oct-1-<clueType>dependent</clueType> transcription.</clue>
+<comment>NER: T29 del &quot;OCA-B/Oct-1-dependent transcription</comment></event>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="A8"/>
+<cause idref="T31"/>
+<clue>Surprisingly, however, removal of PC4 from the unfractionated nuclear extract has no detrimental effect on OCA-B/Oct-1-<clueType>dependent</clueType> transcription.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E18">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<cause idref="E15"/>
+<clue>Surprisingly, however, removal of PC4 from the unfractionated nuclear extract <clueType>has <cluePolarity>no</cluePolarity> detrimental effect</clueType> <linkTheme>on</linkTheme> OCA-B/Oct-1-dependent transcription.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E19">
+<type class="Negative_regulation"/>
+<theme idref="E17"/>
+<cause idref="E15"/>
+<clue>Surprisingly, however, removal of PC4 from the unfractionated nuclear extract <clueType>has <cluePolarity>no</cluePolarity> detrimental effect</clueType> <linkTheme>on</linkTheme> OCA-B/Oct-1-dependent transcription.</clue>
+</event>
+<sentence id="S8">These results lead to a general model for the synergistic function of activation domains in <term id="T32" lex="Oct-1" sem="Protein_molecule">Oct-1</term> and <term id="T33" lex="OCA-B" sem="Protein_molecule">OCA-B</term> (mediated by the combined action of the multiple <term id="T34" lex="USA_component" sem="Cell_component">USA components</term>) and, further, suggest a functional redundancy in <term id="T35" lex="general_coactivator" sem="Protein_family_or_group">general coactivators</term>.</sentence>
+<event KT="Analysis" id="E20">
+<type class="Correlation"/>
+<theme idref="T32"/>
+<theme idref="T33"/>
+<clue>These results lead to a general <clueKT>model</clueKT> for the <clueType>synergistic function</clueType> <linkTheme>of</linkTheme> activation domains in Oct-1 and OCA-B (mediated by the combined action of the multiple USA components) and, further, suggest a functional redundancy in general coactivators.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="T34"/>
+<cause idref="T34"/>
+<clue>These results lead to a general model for the synergistic function of activation domains in Oct-1 and OCA-B (<clueType>mediated</clueType> <linkCause>by the combined action of</linkCause> the multiple USA components) and, further, suggest a functional redundancy in general coactivators.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

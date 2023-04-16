@@ -1,0 +1,190 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8929546" created="27/11/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8929546</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Regulation of <term id="T1" lex="cytokine" sem="Protein_family_or_group">cytokine</term> and <term id="T2" lex="cytokine_receptor_expression" sem="Other"><term id="T3" lex="cytokine_receptor" sem="Protein_family_or_group"><term id="T4" lex="cytokine" sem="Protein_family_or_group">cytokine</term> receptor</term> expression</term> by <term id="T5" lex="glucocorticoid" sem="Lipid">glucocorticoids</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Gene_expression"/>
+<theme idref="T1"/>
+<clue>Regulation of cytokine and cytokine receptor <clueType>expression</clueType> by glucocorticoids.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Gene_expression"/>
+<theme idref="T3"/>
+<clue>Regulation of cytokine and cytokine receptor <clueType>expression</clueType> by glucocorticoids.</clue>
+</event>
+<event KT="Investigation" id="E3">
+<type class="Regulation"/>
+<theme idref="E1"/>
+<cause idref="T5"/>
+<clue><clueType>Regulation</clueType> <linkTheme>of</linkTheme> cytokine and cytokine receptor expression <linkCause>by</linkCause> glucocorticoids.</clue>
+</event>
+<event KT="Investigation" id="E4">
+<type class="Regulation"/>
+<theme idref="E2"/>
+<cause idref="T5"/>
+<clue><clueType>Regulation</clueType> <linkTheme>of</linkTheme> cytokine and cytokine receptor expression <linkCause>by</linkCause> glucocorticoids.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T6" lex="glucocorticoid" sem="Lipid">Glucocorticoids</term> (<term id="T7" lex="GCS" sem="Lipid">GCS</term>) profoundly inhibit several aspects of <term id="A1" sem="Other">T cell immunity</term> largely through inhibition of <term id="T8" lex="cytokine_expression" sem="Other"><term id="T9" lex="cytokine" sem="Protein_family_or_group">cytokine</term> expression</term> at the transcriptional and <term id="T10" lex="posttranscriptional_level" sem="Other">posttranscriptional levels</term>.</sentence>
+<event KT="Other" id="E5">
+<type class="Gene_expression"/>
+<theme idref="T9"/>
+<clue>Glucocorticoids (GCS) profoundly inhibit several aspects of T cell immunity largely through inhibition of cytokine <clueType>expression</clueType> at the transcriptional and posttranscriptional levels.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Negative_regulation"/>
+<theme idref="E5"/>
+<cause idref="T7"/>
+<clue>Glucocorticoids (GCS) profoundly inhibit several aspects of T cell immunity largely through <clueType>inhibition</clueType> <linkTheme>of</linkTheme> cytokine expression at the transcriptional and posttranscriptional levels.</clue>
+</event>
+<event KT="Fact" Manner="High" id="E7">
+<type class="Negative_regulation"/>
+<theme idref="A1"/>
+<cause idref="E6"/>
+<clue>Glucocorticoids (GCS) <clueManner>profoundly</clueManner> <clueType>inhibit</clueType> several aspects of T cell immunity largely <linkCause>through</linkCause> inhibition of cytokine expression at the transcriptional and posttranscriptional levels.</clue>
+</event>
+<sentence id="S3"><term id="T11" lex="GCS" sem="Lipid">GCS</term> were also reported to act indirectly by inducing <term id="A2" sem="Protein_molecule">transforming <term id="T13" lex="growth_factor-beta" sem="Protein_molecule">growth factor-beta</term></term> expression, which in turn blocks <term id="T14" lex="T_cell_immunity" sem="Other">T cell immunity</term>.</sentence>
+<event KT="Other" id="E8">
+<type class="Gene_expression"/>
+<theme idref="A2"/>
+<clue>GCS were also reported to act indirectly by inducing transforming growth factor-beta <clueType>expression</clueType>, which in turn blocks T cell immunity.</clue>
+<comment>NER: T12 DEL</comment></event>
+<event KT="Analysis" Source="Other" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="T11"/>
+<clue>GCS <clueSource>were</clueSource> also <clueKT>reported</clueKT> to act indirectly by <clueType>inducing</clueType> transforming growth factor-beta expression, which in turn blocks T cell immunity.</clue>
+</event>
+<event KT="Analysis" id="E10">
+<type class="Negative_regulation"/>
+<theme idref="T14"/>
+<cause idref="E9"/>
+<clue>GCS were also <clueKT>reported</clueKT> to act indirectly <linkCause>by</linkCause> inducing transforming growth factor-beta expression, which in turn <clueType>blocks</clueType> T cell immunity.</clue>
+</event>
+<sentence id="S4">In exerting their <term id="A3" sem="Other">antiproliferative effects</term>, <term id="T15" lex="GCS" sem="Lipid">GCS</term> diffuse into <term id="T16" lex="target_cell" sem="Cell_natural">target cells</term> where they bind their <term id="T17" lex="cytoplasmic_receptor" sem="Protein_family_or_group">cytoplasmic receptor</term>, which in turn translocates to the <term id="T18" lex="nucleus" sem="Cell_component">nucleus</term> where it inhibits transcription of <term id="T19" lex="cytokine_gene" sem="DNA_family_or_group"><term id="T20" lex="cytokine" sem="Protein_family_or_group">cytokine</term> genes</term> through direct binding to the <term id="T21" lex="glucocorticoid_response_element" sem="DNA_domain_or_region">glucocorticoid response elements</term> (<term id="T22" lex="GRE" sem="DNA_domain_or_region">GRE</term>), which are located in the promoter region of <term id="T23" lex="cytokine_gene" sem="DNA_family_or_group"><term id="T24" lex="cytokine" sem="Protein_family_or_group">cytokine</term> genes</term> or, alternatively, through antagonism of the action of <term id="T25" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term> required for optimal <term id="T26" lex="transcriptional_activation" sem="Other">transcriptional activation</term>.</sentence>
+<event KT="Fact" id="E100">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<cause idref="T15"/>
+<clue>In <clueType>exerting</clueType> <corefCause>their</corefCause> antiproliferative effects, GCS diffuse into target cells where they bind their cytoplasmic receptor, which in turn translocates to the nucleus where it inhibits transcription of cytokine genes through direct binding to the glucocorticoid response elements (GRE), which are located in the promoter region of cytokine genes or, alternatively, through antagonism of the action of transcription factors required for optimal transcriptional activation.</clue>
+</event>
+<event KT="Fact" id="E101">
+<type class="Localization"/>
+<theme idref="T15"/>
+<clue><clueTime>In exerting their antiproliferative effects</clueTime>, GCS <clueType>diffuse</clueType> <clueLoc>into target cells</clueLoc> where they bind their cytoplasmic receptor, which in turn translocates to the nucleus where it inhibits transcription of cytokine genes through direct binding to the glucocorticoid response elements (GRE), which are located in the promoter region of cytokine genes or, alternatively, through antagonism of the action of transcription factors required for optimal transcriptional activation.</clue>
+</event>
+<event KT="Fact" id="E102">
+<type class="Binding"/>
+<theme idref="T15"/>
+<theme idref="T17"/>
+<clue>In exerting their antiproliferative effects, GCS diffuse into <clueLoc>target cells</clueLoc> where <corefTheme idref1="T15">they</corefTheme> <clueType>bind</clueType> their cytoplasmic receptor, which in turn translocates to the nucleus where it inhibits transcription of cytokine genes through direct binding to the glucocorticoid response elements (GRE), which are located in the promoter region of cytokine genes or, alternatively, through antagonism of the action of transcription factors required for optimal transcriptional activation.</clue>
+</event>
+<event KT="Other" id="E112">
+<type class="Localization"/>
+<theme idref="T15"/>
+<clue>In exerting their antiproliferative effects, GCS diffuse into target cells where they bind their cytoplasmic receptor, which in turn <clueType>translocates</clueType> <clueLoc>to the nucleus</clueLoc> where it inhibits transcription of cytokine genes through direct binding to the glucocorticoid response elements (GRE), which are located in the promoter region of cytokine genes or, alternatively, through antagonism of the action of transcription factors required for optimal transcriptional activation.</clue>
+</event>
+<event KT="Fact" id="E113">
+<type class="Positive_regulation"/>
+<theme idref="E112"/>
+<cause idref="E102"/>
+<clue>In exerting their antiproliferative effects, GCS diffuse into target cells where they bind their cytoplasmic receptor, which in turn translocates to the nucleus where it inhibits transcription of cytokine genes through direct binding to the glucocorticoid response elements (GRE), which are located in the promoter region of cytokine genes or, alternatively, through antagonism of the action of transcription factors required for optimal transcriptional activation.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Other" id="E13">
+<type class="Transcription"/>
+<theme idref="T19"/>
+<clue>In exerting their antiproliferative effects, GCS diffuse into target cells where they bind their cytoplasmic receptor, which in turn translocates to the nucleus where it inhibits <clueType>transcription</clueType> <linkTheme>of</linkTheme> cytokine genes through direct binding to the glucocorticoid response elements (GRE), which are located in the promoter region of cytokine genes or, alternatively, through antagonism of the action of transcription factors required for optimal transcriptional activation.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Binding"/>
+<theme idref="T15"/>
+<theme idref="T22"/>
+<clue>In exerting their antiproliferative effects, GCS diffuse into target cells where they bind their cytoplasmic receptor, which in turn translocates to the nucleus where it inhibits transcription of cytokine genes through direct <clueType>binding</clueType> <linkTheme>to</linkTheme> the glucocorticoid response elements (GRE), which are located in the promoter region of cytokine genes or, alternatively, through antagonism of the action of transcription factors required for optimal transcriptional activation.</clue>
+<comment>OK T15=glucocorticoid=glycolipid</comment></event>
+<event KT="Fact" id="E15">
+<type class="Negative_regulation"/>
+<theme idref="E13"/>
+<cause idref="E14"/>
+<clue>In exerting their antiproliferative effects, GCS diffuse into target cells where they bind their cytoplasmic receptor, which in turn translocates to the <clueLoc>nucleus</clueLoc> where it <clueType>inhibits</clueType> transcription of cytokine genes <linkCause>through</linkCause> direct binding to the glucocorticoid response elements (GRE), which are located in the promoter region of cytokine genes or, alternatively, through antagonism of the action of transcription factors required for optimal transcriptional activation.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Negative_regulation"/>
+<theme idref="T25"/>
+<cause idref="T15"/>
+<clue>In exerting their antiproliferative effects, GCS diffuse into target cells where they bind their cytoplasmic receptor, which in turn translocates to the nucleus where it inhibits transcription of cytokine genes through direct binding to the glucocorticoid response elements (GRE), which are located in the promoter region of cytokine genes or, alternatively, through <clueType>antagonism</clueType> <linkTheme>of</linkTheme> the action of transcription factors required for optimal transcriptional activation.</clue>
+</event>
+<event KT="Fact" id="E17">
+<type class="Negative_regulation"/>
+<theme idref="E13"/>
+<cause idref="E16"/>
+<clue>In exerting their antiproliferative effects, GCS diffuse into target cells where they bind their cytoplasmic receptor, which in turn translocates to the <clueLoc>nucleus</clueLoc> where it <clueType>inhibits</clueType> transcription of cytokine genes through direct binding to the glucocorticoid response elements (GRE), which are located in the promoter region of cytokine genes or, alternatively, <linkCause>through</linkCause> antagonism of the action of transcription factors required for optimal transcriptional activation.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="T26"/>
+<cause idref="T25"/>
+<clue>In exerting their antiproliferative effects, GCS diffuse into target cells where they bind their cytoplasmic receptor, which in turn translocates to the nucleus where it inhibits transcription of cytokine genes through direct binding to the glucocorticoid response elements (GRE), which are located in the promoter region of cytokine genes or, alternatively, through antagonism of the action of transcription factors <clueType>required</clueType> <linkTheme>for</linkTheme> optimal transcriptional activation.</clue>
+</event>
+<sentence id="S5">In contrast to their inhibitory effects on <term id="T27" lex="cytokine_expression" sem="Other"><term id="T28" lex="cytokine" sem="Protein_family_or_group">cytokine</term> expression</term>, <term id="T29" lex="GCS" sem="Lipid">GCS</term> up-regulate <term id="T30" lex="cytokine_receptor_expression" sem="Other"><term id="T31" lex="cytokine_receptor" sem="Protein_family_or_group">cytokine receptor</term> expression</term> that correlates with enhanced <term id="T33" lex="cytokine_effect" sem="Other"><term id="T34" lex="cytokine" sem="Protein_family_or_group">cytokine</term> effects</term> on <term id="T35" lex="target_cell" sem="Cell_natural">target cells</term>.</sentence>
+<event KT="Other" id="E19">
+<type class="Gene_expression"/>
+<theme idref="T28"/>
+<clue>In contrast to their inhibitory effects on cytokine <clueType>expression</clueType>, GCS up-regulate cytokine receptor expression that correlates with enhanced cytokine effects on target cells.</clue>
+</event>
+<event KT="Fact" id="E20">
+<type class="Negative_regulation"/>
+<theme idref="E19"/>
+<cause idref="T29"/>
+<clue>In contrast to <corefCause>their</corefCause> <clueType>inhibitory effects</clueType> <linkTheme>on</linkTheme> cytokine expression, GCS up-regulate cytokine receptor expression that correlates with enhanced cytokine effects on target cells.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Gene_expression"/>
+<theme idref="T31"/>
+<clue>In contrast to their inhibitory effects on cytokine expression, GCS up-regulate cytokine receptor <clueType>expression</clueType> that correlates with enhanced cytokine effects on target cells.</clue>
+<comment>NER: T32 del &quot;cytokine&quot;</comment></event>
+<event KT="Fact" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="T29"/>
+<clue>In contrast to their inhibitory effects on cytokine expression, GCS <clueType>up-regulate</clueType> cytokine receptor expression that correlates with enhanced cytokine effects on target cells.</clue>
+</event>
+<event KT="Other" id="E23">
+<type class="Physiological_process"/>
+<theme idref="T35"/>
+<cause idref="T34"/>
+<clue>In contrast to their inhibitory effects on cytokine expression, GCS up-regulate cytokine receptor expression that correlates with enhanced cytokine <clueType>effects</clueType> <linkTheme>on</linkTheme> target cells.</clue>
+</event>
+<event KT="Other" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E23"/>
+<clue>In contrast to their inhibitory effects on cytokine expression, GCS up-regulate cytokine receptor expression that correlates with <clueType>enhanced</clueType> cytokine effects on target cells.</clue>
+</event>
+<event KT="Analysis" id="E25">
+<type class="Correlation"/>
+<theme idref="E22"/>
+<theme idref="E24"/>
+<clue>In contrast to their inhibitory effects on cytokine expression, GCS up-regulate cytokine receptor expression that <clueType><clueKT>correlates</clueKT></clueType> <linkTheme>with</linkTheme> enhanced cytokine effects on target cells.</clue>
+</event>
+<sentence id="S6">In this review, we summarize the current state of knowledge of the mechanism of action of <term id="T36" lex="GCS" sem="Lipid">GCS</term>, including the phenomenon of <term id="A5" sem="Lipid">steroid</term>-induced <term id="A4" sem="Other">rebound</term>, which ensues upon <term id="T37" lex="GCS_withdrawal" sem="Other"><term id="T38" lex="GCS" sem="Lipid">GCS</term> withdrawal</term>.</sentence>
+<event KT="Other" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="A4"/>
+<cause idref="T38"/>
+<clue>In this review, we summarize the current state of knowledge of the mechanism of action of GCS, including the phenomenon of steroid-<clueType>induced</clueType> rebound, which ensues upon GCS withdrawal.</clue>
+</event>
+<event KT="Other" id="E27">
+<type class="Negative_regulation"/>
+<theme idref="T38"/>
+<clue>In this review, we summarize the current state of knowledge of the mechanism of action of GCS, including the phenomenon of steroid-induced rebound, which ensues upon GCS <clueType>withdrawal</clueType>.</clue>
+</event>
+<event KT="Fact" id="E28">
+<type class="Positive_regulation"/>
+<theme idref="E26"/>
+<cause idref="E27"/>
+<clue>In this review, we summarize the current state of knowledge of the mechanism of action of GCS, including the phenomenon of steroid-induced rebound, which <clueType>ensues</clueType> <linkCause>upon</linkCause> GCS withdrawal.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

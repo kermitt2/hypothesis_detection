@@ -1,0 +1,29 @@
+T21	Adverse_effect 31 43	secondary to
+T23	Potential_therapeutic_effect 90 97	treated
+T24	Potential_therapeutic_effect 151 160	commenced
+T25	Adverse_effect 819 827	-induced
+T27	Adverse_effect 451 456	cause
+T29	Adverse_effect 541 548	induced
+T30	Potential_therapeutic_effect 883 890	therapy
+T38	Potential_therapeutic_effect 411 419	improved
+T39	Adverse_effect 503 509	causes
+T33	Adverse_effect 756 762	caused
+E1	Adverse_effect:T21 has_agent:T2 affects:T1
+E2	Potential_therapeutic_effect:T23 has_agent:T3 has_subject:T22
+E3	Potential_therapeutic_effect:T24 has_agent:T4 affects:T5 has_subject:T22
+E4	Adverse_effect:T25 affects:T19 has_agent:T18 has_subject:T37
+E5	Adverse_effect:T27 affects:T26 has_agent:T9 has_cue:T10
+E6	Adverse_effect:T29 has_agent:T12 affects:T13 has_cue:T32
+E7	Potential_therapeutic_effect:T30 has_agent:T20 affects:T19 has_subject:T37
+E11	Potential_therapeutic_effect:T38 affects:T28 has_agent:T8 has_subject:T34
+E12	Adverse_effect:T39 affects:T11 has_cue:T40 has_agent:T9
+E8	Adverse_effect:T33 has_agent:T15 affects:T17 has_cue:T16
+A2	Speculated E5
+A3	Manner E12 Low
+A1	Manner E6 Low
+A4	Speculated E8
+R1	Coreference Arg1:T34 Arg2:T22	
+R2	Coreference Arg1:T35 Arg2:T34	
+T36	Potential_therapeutic_effect 641 650	tolerated
+E9	Potential_therapeutic_effect:T36 has_subject:T35 has_agent:T14
+R3	Coreference Arg1:T37 Arg2:T35	

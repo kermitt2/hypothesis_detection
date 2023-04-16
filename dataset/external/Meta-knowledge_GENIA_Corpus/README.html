@@ -1,0 +1,122 @@
+<html>
+<head><title>GENIA Corpus with meta-knowledge annotation</title></head>
+<body>
+
+<h1>GENIA Corpus with meta-knowledge annotation</h1>
+
+<p>
+The <a href="http://www.nactem.ac.uk/meta-knowledge/Meta-knowledge_GENIA_corpus.zip">Meta-knowledge_GENIA_corpus</a> directory contains a version of the entire GENIA event corpus, which has been enriched with meta-knowledge annotation. A more detailed description of this annotation, together with access to the annotation guidelines, is available <a href="http://www.nactem.ac.uk/meta-knowledge/">here</a>. 
+</p> 
+
+<p>The use of the corpus is subject to the terms and conditions of the licences provided in the LICENCES directory.</p>
+
+<p><b><u>If you use the corpus, please cite the following paper:</u></b><br/><br/>
+Thompson, P., Nawaz, R., McNaught, J. and Ananiadou, S. (2011). <b><a href="http://www.biomedcentral.com/1471-2105/12/393">Enriching a biomedical event corpus with meta-knowledge annotation</a></b>. <i>BMC Bioinformatics</i>, 12:393. 
+
+<p>
+The Meta-knowledge_GENIA_corpus directory contains 3 subdirectories:
+<ul>
+<li><b>Corpus</b> - Contains the annotated corpus in XML format. All files have been validated according to the DTD (see next bullet point).</li>
+<li><b>ModifiedGENIAtypes</b> - Contains modified versions of the DTD and CSS files provided with the original GENIA corpus. The modifications relate to the new meta-knowledge annnotation added. The CSS file, in particular, allows the annotated files to be displayed graphically in the <a href="http://www-tsujii.is.s.u-tokyo.ac.jp/GENIA/home/wiki.cgi?page=XConc+Suite">X-Conc</a> tool, which was used to perform the annotation. </li>
+<li><b>GeniaOntologies</b> - Contains the two GENIA ontologies encoded in OWL. The GENIAterm40.owl defines the term classes on which the GENIA term annotation is based. The GENIAevent.owl defines the event classes on which the GENIA event annotation is based.
+</li>
+</ul>
+</p>
+
+
+<p>
+The XML annotation of the corpus follows <a href=" http://www-tsujii.is.s.u-tokyo.ac.jp/GENIA/home/wiki.cgi?page=Event+Annotation">GENIA event annotation format</a>, with additions to allow meta-knowledge to be encoded. 
+</p>
+
+<p>
+Two levels of annotation of the target text are expressed within each file, i.e. 
+
+<ul>
+<li>text-bound event arguments and other annotated biological concepts</li>
+<li>event annotations. It is at this level that modifications from the original GENIA annotation format, to allow meta-knowledge to be encoded</li>
+</ul>
+
+<p>
+An example of an annotated sentence within the XML file is shown below:
+<pre>
+
+&lt;sentence id="S9"&gt;Nuclear transcription studies in vitro showed that 
+	&lt;term id="T28" lex="LTB4" sem="Organic_compound_other"&gt;LTB4&lt;/term&gt; 
+	increased the transcription of the 
+	&lt;term id="T29" lex="c-fos_gene" sem="DNA_domain_or_region"&gt;c-fos gene&lt;/term&gt; 
+	7-fold and the 
+	&lt;term id="T30" lex="c-jun_gene" sem="DNA_domain_or_region"&gt;c-jun gene&lt;/term&gt; 
+	1.4-fold.
+&lt;/sentence&gt;
+&lt;event KT="Analysis" Manner="High" id="E30"&gt;
+	&lt;type class="Positive_regulation"/&gt;
+	&lt;theme idref="E32"/&gt;
+	&lt;cause idref="T28"/&gt;
+	&lt;clue&gt;&lt;clueExperiment&gt;Nuclear transcription studies in vitro&lt;/clueExperiment&gt;
+	&lt;clueKT&gt;showed&lt;/clueKT&gt; that LTB4 &lt;clueType&gt;increased&lt;/clueType&gt; the transcription of the 
+	c-fos gene &lt;clueManner&gt;7-fold&lt;/clueManner&gt; and the c-jun gene 1.4-fold.&lt;/clue&gt;
+&lt;/event&gt;
+&lt;event KT="Analysis" Manner="Low" id="E31"&gt;
+	&lt;type class="Positive_regulation"/&gt;
+	&lt;theme idref="E33"/&gt;
+	&lt;cause idref="T28"/&gt;
+	&lt;clue&gt;&lt;clueExperiment&gt;Nuclear transcription studies in vitro&lt;/clueExperiment&gt; 
+	&lt;clueKT&gt;showed&lt;/clueKT&gt; that LTB4 &lt;clueType&gt;increased&lt;/clueType&gt; the transcription of the 
+	c-fos gene 7-fold and the c-jun gene &lt;clueManner&gt;1.4-fold&lt;/clueManner&gt;.&lt;/clue&gt;
+&lt;/event&gt;
+&lt;event KT="Other" id="E32"&gt;
+	&lt;type class="Transcription"/&gt;
+	&lt;theme idref="T29"/&gt;
+	&lt;clue&gt;Nuclear transcription studies in vitro showed that LTB4 increased the 	
+	&lt;clueType&gt;transcription&lt;/clueType&gt; &lt;linkTheme&gt;of&lt;/linkTheme&gt; the c-fos gene 7-fold and 
+	the c-jun gene 1.4-fold.&lt;/clue&gt;
+&lt;/event&gt;
+&lt;event KT="Other" id="E33"&gt;
+	&lt;type class="Transcription"/&gt;
+	&lt;theme idref="T30"/&gt;
+	&lt;clue&gt;Nuclear transcription studies in vitro showed that LTB4 increased the 
+	&lt;clueType&gt;transcription&lt;/clueType&gt; &lt;linkTheme&gt;of&lt;/linkTheme&gt; the c-fos gene 7-fold 
+	and the c-jun gene 1.4-fold.&lt;/clue&gt;
+&lt;/event&gt;
+
+</pre>
+</p>
+
+<p>
+Below, we provide below a brief description of the above XML representation, in terms of the orginal GENIA annition, and the information added to represent meta-knowledge. 
+
+<h2>Original GENIA annotation</h2>
+<p>
+Each sentence of the abstract is contained within a <i>&lt;sentence&gt;</i> element. Biological concepts are annotated inline, indicated by <i>&lt;term&gt;</i> elements. Each <i>&lt;term&gt;</i> element has the following attributes:
+<ul>
+<li><b>sem</b> - The biological concept type assigned to the span. Concept types belong to to the <a href="http://www-tsujii.is.s.u-tokyo.ac.jp/GENIA/home/wiki.cgi?page=GENIA+Ontology">GENIA Term Ontology</a>.</li>
+<li><b>id</b> - A unique id for the span, beginning with "T"</li>
+<li><b>lex</b> - The value of the text span, with spaces replaced with underscores
+</ul>  
+</p>
+<p>
+Following the <i>&lt;sentence&gt;</i> element, the events in the sentence are listed, each within an <i>&lt;event&gt;</i> element. 
+Each event has a unique id, starting with an "E". Within the <i>&lt;event&gt;</i> element, there are the following elements:
+<ul>
+<li><b>type</b>- The type assigned to the event is indicated by the <i>class</i> attribute. Event types belong to the according to the <a href="http://www-tsujii.is.s.u-tokyo.ac.jp/GENIA/home/wiki.cgi?page=GENIA+Ontology">GENIA Event Ontology</a>.</li>
+<li><b>semantic arguments</b> - There is an element corresponding to each annotated argument of the event, which is named according to the semantic role assigned to the argument, e.g. <i>theme</i>, <i>cause</i>, etc. Each element has one or more attributes, whose values correspond the id(s) of the argument which fills the role. The attributes are named <i>idref</i>, <i>idref1</i>, <i>idref2</i> etc. The value ot each attibute begins either with a "T", indicating that the argument span corresponds to one of the <i>&lt;term&gt;</i> elements, or it may begin with an "E", indicating that the argument is an embedded event whose structure is described in another <i>&lt;event&gt;</i> element.</li>
+<li><b>clue</b> - This element contains the complete sentence containing the event. The <i>&lt;clueType&gt;</i> element surrounds the verb/nominalised verb on which the event is centred. Several other elements may be present, which consititute lexical clues that are used to help identify different types of information about the event. Some of these relate to meta-knowledge annotation (see below), while others were added as part of the original GENIA event annotation. These include <i>&lt;clueExperiment&gt;</i>, which are text spans that describe experimental methods, and <i>&lt;linkTheme&gt;</i>, which are text spans that provide a link between the <i>&lt;clueType&gt;</i> element and the theme of the event. The complete list of orginal GENIA elements that can occur within the <i>&lt;clue&gt;</i> element can be found in the <a href="http://www-tsujii.is.s.u-tokyo.ac.jp/~genia/release/GENIA_event_annotation_guidelines.pdf">GENIA event annotation guidelines</a>.  
+</li> 
+</ul>
+</p>
+
+<h2>Meta-knowledge annotation</h2>
+<p>
+Meta-knowledge annotation is encoded in two places in the XML:
+<ul>
+<li>
+As attributes of the <i>&lt;event&gt;</i> element, to encode the values assigned to the 5 meta-knowledge dimensions. These are encodeed using the attributes <i>KT</i> (Knowledge Type), <i>CL</i> (Certainty Level), <i>Polarity</i>, <i>Manner</i> and </i>Source</i>. Note that these attributes only appear if there annotated values vary from the default values (as defined in the DTD). 
+</li>
+<li>
+As elements within the <i>&lt;clue&gt;</i> element, to denote clue phrases (if any) used to determine the values of the different meta-knowledge dimensions. The elements that may appear are:  <i>&lt;clueKT&gt;</i>, <i>&lt;clueCL&gt;</i>, <i>&lt;cluePolarity&gt;</i>, <i>&lt;clueManner&gt;</i> and <i>&lt;clueSource&gt;</i>.
+</li>
+</ul>
+
+			
+</body>
+</html>

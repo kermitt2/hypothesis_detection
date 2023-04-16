@@ -1,0 +1,206 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9199305" created="07/03/13" creator="Yumiko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9199305</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The immediate-early gene product <term id="T1" lex="Egr-1" sem="Protein_molecule">Egr-1</term> regulates the <term id="T2" lex="human_interleukin-2_receptor_beta-chain_promoter" sem="DNA_domain_or_region">human <term id="A4" sem="DNA_domain_or_region"><term id="T3" lex="interleukin-2_receptor" sem="Protein_molecule">interleukin-2 receptor</term> beta-chain promoter</term></term> through <cons id="T4" lex="(AND noncanonical_Egr_binding_site noncanonical_Sp1_binding_site)" sem="(AND DNA_domain_or_region DNA_domain_or_region)"><frag id="F1">noncanonical</frag> <frag id="F2"><term id="A1" sem="DNA_domain_or_region">Egr</term></frag> and <frag id="F3"><term id="A2" sem="DNA_domain_or_region">Sp1</term></frag> <frag id="F4"><term id="A3" sem="DNA_domain_or_region">binding sites</term></frag></cons>.</sentence>
+<event id="E1">
+<type class="Regulation"/>
+<theme idref="A1" idref1="A3"/>
+<cause idref="T1"/>
+<clue>The immediate-early gene product Egr-1 <clueType>regulates</clueType> the human interleukin-2 receptor beta-chain promoter through noncanonical Egr and Sp1 binding sites.</clue>
+</event>
+<event id="E2">
+<type class="Regulation"/>
+<theme idref="A2" idref1="A3"/>
+<cause idref="T1"/>
+<clue>The immediate-early gene product Egr-1 <clueType>regulates</clueType> the human interleukin-2 receptor beta-chain promoter through noncanonical Egr and Sp1 binding sites.</clue>
+</event>
+<event id="E3">
+<type class="Regulation"/>
+<theme idref="A4"/>
+<cause idref="E1"/>
+<clue>The immediate-early gene product Egr-1 regulates the human interleukin-2 receptor beta-chain promoter <linkCause>through</linkCause> noncanonical Egr and Sp1 binding sites.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E4">
+<type class="Regulation"/>
+<theme idref="A4"/>
+<cause idref="E2"/>
+<clue>The immediate-early gene product Egr-1 regulates the human interleukin-2 receptor beta-chain promoter <linkCause>through</linkCause> noncanonical Egr and Sp1 binding sites.</clue>
+<comment>NO CLUETYPE</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T5" lex="interleukin-2_IL-2_receptor_beta-chain" sem="Protein_domain_or_region">interleukin-2 IL-2 receptor beta-chain</term> (<term id="T6" lex="IL-2Rbeta" sem="Protein_domain_or_region">IL-2Rbeta</term>) is an essential component of the <term id="A5" sem="Protein_molecule">receptors for</term> <term id="T7" lex="IL-2" sem="Protein_molecule">IL-2</term> and <term id="T8" lex="IL-15" sem="Protein_molecule">IL-15</term>.</sentence>
+<sentence id="S3">Although <term id="T9" lex="IL-2Rbeta" sem="Protein_domain_or_region">IL-2Rbeta</term> is constitutively expressed by lymphocytes, its expression can be further induced by a number of stimuli, including <term id="T10" lex="phorbol_12-myristate_13-acetate" sem="Organic_compound_other">phorbol 12-myristate 13-acetate</term> (<term id="T11" lex="PMA" sem="Organic_compound_other">PMA</term>).</sentence>
+<event KT="Fact" id="E7">
+<type class="Gene_expression"/>
+<theme idref="T9"/>
+<clue>Although IL-2Rbeta is constitutively <clueType>expressed</clueType> <clueLoc>by lymphocytes</clueLoc>, its expression can be further induced by a number of stimuli, including phorbol 12-myristate 13-acetate (PMA).</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="T11"/>
+<clue>Although IL-2Rbeta is constitutively expressed by lymphocytes, <corefTheme>its expression</corefTheme> <clueKT><clueCL>can</clueCL></clueKT> be further <clueType>induced</clueType> <linkCause>by</linkCause> <corefCause>a number of stimuli</corefCause>, including phorbol 12-myristate 13-acetate (PMA).</clue>
+</event>
+<sentence id="S4">We have now characterized <term id="A7" sem="Protein_family_or_group">factors</term> that bind to an <term id="A6" sem="DNA_domain_or_region">enhancer region located between <term id="T12" lex="nucleotides_-170_and_-139" sem="DNA_domain_or_region">nucleotides -170 and -139</term> of the human <term id="T13" lex="IL-2Rbeta_promoter" sem="DNA_domain_or_region"><term id="T14" lex="IL-2Rbeta" sem="Protein_molecule">IL-2Rbeta</term> promoter</term></term>.</sentence>
+<event KT="Analysis" id="E9">
+<type class="Binding"/>
+<theme idref="A7"/>
+<theme idref="A6"/>
+<clue>We have now <clueKT>characterized</clueKT> factors that <clueType>bind</clueType> <linkTheme>to</linkTheme> an enhancer region located between nucleotides -170 and -139 of the human IL-2Rbeta promoter.</clue>
+<comment>TPS A6</comment></event>
+<sentence id="S5">Both <term id="T15" lex="Sp1" sem="Protein_molecule">Sp1</term> and <term id="T16" lex="Sp3" sem="Protein_molecule">Sp3</term> bound to the <term id="T17" lex="5&apos;_portion" sem="DNA_domain_or_region">5&apos; portion</term> of this region, whereas a <term id="T18" lex="PMA-inducible_factor" sem="Protein_family_or_group"><term id="T19" lex="PMA" sem="Organic_compound_other">PMA</term>-inducible factor</term> (<term id="T20" lex="PIF" sem="Protein_family_or_group">PIF</term>) mainly bound to its <term id="T21" lex="3&apos;_portion" sem="DNA_domain_or_region">3&apos; portion</term> and bound to the <term id="T22" lex="Sp_binding_motif" sem="DNA_family_or_group">Sp binding motifs</term> as well.</sentence>
+<event id="E10">
+<type class="Binding"/>
+<theme idref="T15"/>
+<theme idref="T17"/>
+<clue>Both Sp1 and Sp3 <clueType>bound</clueType> <linkTheme>to</linkTheme> the 5&apos; portion of this region, whereas a PMA-inducible factor (PIF) mainly bound to its 3&apos; portion and bound to the Sp binding motifs as well.</clue>
+</event>
+<event id="E11">
+<type class="Binding"/>
+<theme idref="T16"/>
+<theme idref="T17"/>
+<clue>Both Sp1 and Sp3 <clueType>bound</clueType> <linkTheme>to</linkTheme> the 5&apos; portion of this region, whereas a PMA-inducible factor (PIF) mainly bound to its 3&apos; portion and bound to the Sp binding motifs as well.</clue>
+</event>
+<event id="E12">
+<type class="Binding"/>
+<theme idref="T20"/>
+<theme idref="T21"/>
+<clue>Both Sp1 and Sp3 bound to the 5&apos; portion of this region, whereas a PMA-inducible factor (PIF) mainly <clueType>bound</clueType> <linkTheme>to</linkTheme> its 3&apos; portion and bound to the Sp binding motifs as well.</clue>
+</event>
+<event id="E13">
+<type class="Binding"/>
+<theme idref="T20"/>
+<theme idref="T22"/>
+<clue>Both Sp1 and Sp3 bound to the 5&apos; portion of this region, whereas a PMA-inducible factor (PIF) mainly bound to its 3&apos; portion and <clueType>bound</clueType> <linkTheme>to</linkTheme> the Sp binding motifs as well.</clue>
+</event>
+<sentence id="S6">In <term id="T23" lex="Jurkat_T_cell" sem="Cell_cultured">Jurkat <term id="T24" lex="T_cell" sem="Cell_natural">T cells</term></term>, induction of <term id="T25" lex="PIF_DNA_binding_activity" sem="Other"><term id="T26" lex="PIF" sem="Protein_family_or_group">PIF</term> <term id="A8" sem="DNA_molecule">DNA</term> binding activity</term> was rapidly induced, required de novo <term id="A9" sem="Other">protein synthesis</term>, and was sustained at a high level for at least 23 h.</sentence>
+<event id="E14">
+<type class="Binding"/>
+<theme idref="T26"/>
+<theme idref="A8"/>
+<clue>In Jurkat T cells, induction of PIF DNA <clueType>binding</clueType> activity was rapidly induced, required de novo protein synthesis, and was sustained at a high level for at least 23 h.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<clue>In Jurkat T cells, <clueType>induction</clueType> <linkTheme>of</linkTheme> PIF DNA binding activity was rapidly induced, required de novo protein synthesis, and was sustained at a high level for at least 23 h.</clue>
+</event>
+<event Manner="High" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<clue><clueLoc>In Jurkat T cells</clueLoc>, induction of PIF DNA binding activity was <clueTime><clueManner>rapidly</clueManner></clueTime> <clueType>induced</clueType>, required de novo protein synthesis, and was sustained at a high level for at least 23 h.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="A9"/>
+<clue><clueLoc>In Jurkat T cells</clueLoc>, induction of PIF DNA binding activity was rapidly induced, <clueType>required</clueType> de novo protein synthesis, and was sustained at a high level for at least 23 h.</clue>
+</event>
+<event Manner="High" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<clue><clueLoc>In Jurkat T cells</clueLoc>, induction of PIF DNA binding activity was rapidly induced, required de novo protein synthesis, and was <clueType>sustained</clueType> <clueManner>at a high level</clueManner> <clueTime>for at least 23 h</clueTime>.</clue>
+</event>
+<sentence id="S7">Interestingly, <term id="T27" lex="PIF" sem="Protein_family_or_group">PIF</term> was constitutively activated in <term id="T28" lex="human_T-cell_leukemia_virus_type_1-transformed_MT-2_cell" sem="Cell_cultured"><term id="T29" lex="human_T-cell_leukemia_virus_type_1" sem="Virus">human T-cell <term id="A10" sem="Virus">leukemia virus type 1</term></term>-transformed <term id="A11" sem="Cell_natural">MT-2 cells</term></term>.</sentence>
+<event id="E19">
+<type class="Positive_regulation"/>
+<theme idref="T27"/>
+<clue>Interestingly, PIF was constitutively <clueType>activated</clueType> <clueLoc>in human T-cell leukemia virus type 1-transformed MT-2 cells</clueLoc>.</clue>
+</event>
+<event id="E20">
+<type class="Biological_process"/>
+<theme idref="A11"/>
+<clue>Interestingly, PIF was constitutively activated in human T-cell leukemia virus type 1-<clueType>transformed</clueType> MT-2 cells.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="T29"/>
+<clue>Interestingly, PIF was constitutively activated in human T-cell leukemia virus type 1-<clueType>transformed</clueType> MT-2 cells.</clue>
+</event>
+<sentence id="S8">In this paper, we demonstrate that <term id="T30" lex="PIF" sem="Protein_family_or_group">PIF</term> is <term id="T31" lex="Egr-1" sem="Protein_molecule">Egr-1</term> based on its recognition by <term id="A12" sem="Protein_molecule">anti-<term id="T32" lex="Egr-1" sem="Protein_molecule">Egr-1</term> antisera</term> in <term id="T33" lex="gel_mobility_shift_assay" sem="Other">gel mobility shift assays</term>, even though the <term id="T34" lex="IL-2Rbeta_DNA_binding_motif" sem="DNA_domain_or_region"><term id="T35" lex="IL-2Rbeta" sem="Protein_domain_or_region">IL-2Rbeta</term> DNA binding motif</term> differed substantially from the canonical <term id="T36" lex="Egr-1_binding_site" sem="DNA_domain_or_region"><term id="T37" lex="Egr-1" sem="Protein_molecule">Egr-1</term> binding site</term>.</sentence>
+<event KT="Analysis" id="E21">
+<type class="Binding"/>
+<theme idref="T30"/>
+<theme idref="A12"/>
+<clue>In this paper, we <clueKT>demonstrate</clueKT> that PIF is Egr-1 based on <corefTheme idref1="T30">its</corefTheme> <clueType>recognition</clueType> <linkTheme>by</linkTheme> anti-Egr-1 antisera <clueExperiment>in gel mobility shift assays</clueExperiment>, even though the IL-2Rbeta DNA binding motif differed substantially from the canonical Egr-1 binding site.</clue>
+</event>
+<sentence id="S9">In addition, <term id="T38" lex="Egr-1" sem="Protein_molecule">Egr-1</term> bound to the <term id="T39" lex="Sp_binding_site" sem="DNA_domain_or_region">Sp binding site</term>.</sentence>
+<event id="E22">
+<type class="Binding"/>
+<theme idref="T38"/>
+<theme idref="T39"/>
+<clue>In addition, Egr-1 <clueType>bound</clueType> <linkTheme>to</linkTheme> the Sp binding site.</clue>
+</event>
+<sentence id="S10">In <term id="T40" lex="Jurkat_cell" sem="Cell_cultured">Jurkat cells</term>, both sites were required for maximal <term id="T41" lex="IL-2Rbeta_promoter_activity" sem="Other"><term id="A13" sem="DNA_domain_or_region"><term id="T42" lex="IL-2Rbeta" sem="Protein_domain_or_region">IL-2Rbeta</term> promoter</term> activity</term>, and in <term id="A14" sem="Cell_natural">HeLaS3 cells</term>, transfection of <term id="T43" lex="Egr-1" sem="Protein_molecule">Egr-1</term> could drive activity of a <term id="A15" sem="DNA_domain_or_region">reporter construct</term> containing both sites.</sentence>
+<event id="E23">
+<type class="Positive_regulation"/>
+<theme idref="A13"/>
+<cause idref="T34"/>
+<clue><clueLoc>In Jurkat cells</clueLoc>, <corefCause>both sites</corefCause> were <clueType>required</clueType> <linkTheme>for</linkTheme> maximal IL-2Rbeta promoter activity, and in HeLaS3 cells, transfection of Egr-1 could drive activity of a reporter construct containing both sites.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation"/>
+<theme idref="A13"/>
+<cause idref="T39"/>
+<clue><clueLoc>In Jurkat cells</clueLoc>, <corefCause>both sites</corefCause> were <clueType>required</clueType> <linkTheme>for</linkTheme> maximal IL-2Rbeta promoter activity, and in HeLaS3 cells, transfection of Egr-1 could drive activity of a reporter construct containing both sites.</clue>
+</event>
+<event KT="Method" id="E6">
+<type class="Artificial_process"/>
+<theme idref="T43"/>
+<theme idref="A14"/>
+<clue>In Jurkat cells, both sites were required for maximal IL-2Rbeta promoter activity, and in HeLaS3 cells, <clueType>transfection</clueType> <linkTheme>of</linkTheme> Egr-1 could drive activity of a reporter construct containing both sites.</clue>
+</event>
+<event id="E250">
+<type class="Gene_expression"/>
+<theme idref="T43"/>
+<clue>In Jurkat cells, both sites were required for maximal IL-2Rbeta promoter activity, and <clueLoc>in HeLaS3 cells</clueLoc>, <clueType>transfection</clueType> <linkTheme>of</linkTheme> Egr-1 could drive activity of a reporter construct containing both sites.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation"/>
+<theme idref="E250"/>
+<cause idref="E6"/>
+<clue>In Jurkat cells, both sites were required for maximal IL-2Rbeta promoter activity, and <clueLoc>in HeLaS3 cells</clueLoc>, <clueType>transfection</clueType> of Egr-1 could drive activity of a reporter construct containing both sites.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation"/>
+<theme idref="A15"/>
+<cause idref="E25"/>
+<clue>In Jurkat cells, both sites were required for maximal IL-2Rbeta promoter activity, and <clueLoc>in HeLaS3 cells</clueLoc>, transfection of Egr-1 could <clueType>drive</clueType> activity of a reporter construct containing both sites.</clue>
+</event>
+<sentence id="S11">Moreover, <term id="T44" lex="Sp1" sem="Protein_molecule">Sp1</term> and <term id="T45" lex="Egr-1" sem="Protein_molecule">Egr-1</term> could form a complex with kinetics that correlated with the production of <term id="T46" lex="Egr-1" sem="Protein_molecule">Egr-1</term> in <term id="T47" lex="Jurkat_cell" sem="Cell_cultured">Jurkat cells</term> upon <term id="T48" lex="PMA" sem="Organic_compound_other">PMA</term> stimulation.</sentence>
+<event id="E27">
+<type class="Binding"/>
+<theme idref="T44"/>
+<theme idref="T45"/>
+<clue>Moreover, Sp1 and Egr-1 could <clueType>form a complex</clueType> with kinetics that correlated with the production of Egr-1 in Jurkat cells upon PMA stimulation.</clue>
+</event>
+<event KT="Other" id="E28">
+<type class="Gene_expression"/>
+<theme idref="T46"/>
+<clue>Moreover, Sp1 and Egr-1 could form a complex with kinetics that correlated with the <clueType>production</clueType> <linkTheme>of</linkTheme> Egr-1 <clueLoc>in Jurkat cells upon PMA stimulation</clueLoc>.</clue>
+</event>
+<event KT="Analysis" id="E29">
+<type class="Correlation"/>
+<theme idref="E27"/>
+<theme idref="E28"/>
+<clue>Moreover, Sp1 and Egr-1 could form a complex with kinetics that <clueType><clueKT>correlated</clueKT></clueType> <linkTheme>with</linkTheme> the production of Egr-1 <clueLoc>in Jurkat cells upon PMA stimulation</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E30">
+<type class="Physiological_process"/>
+<theme idref="T47"/>
+<cause idref="T48"/>
+<clue>Moreover, Sp1 and Egr-1 could form a complex with kinetics that correlated with the production of Egr-1 in Jurkat cells <linkCause>upon</linkCause> PMA <clueType>stimulation</clueType>.</clue>
+</event>
+<sentence id="S12">Thus, <term id="T49" lex="Sp1" sem="Protein_molecule">Sp1</term> and <term id="T50" lex="Egr-1" sem="Protein_molecule">Egr-1</term> physically and functionally cooperate to mediate maximal <term id="T51" lex="IL-2Rbeta_promoter_activity" sem="Other"><term id="T52" lex="IL-2Rbeta_promoter" sem="DNA_domain_or_region">IL-2Rbeta promoter</term> activity</term>.</sentence>
+<event id="E31">
+<type class="Positive_regulation"/>
+<theme idref="T52"/>
+<cause idref="T49"/>
+<cause idref="T50"/>
+<clue>Thus, Sp1 and Egr-1 physically and functionally <clueType>cooperate to mediate</clueType> maximal IL-2Rbeta promoter activity.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

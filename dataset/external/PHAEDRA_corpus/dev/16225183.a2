@@ -1,0 +1,30 @@
+T29	Potential_therapeutic_effect 134 150	standard therapy
+T37	Adverse_effect 564 573	developed
+T38	Adverse_effect 1200 1202	of
+T4	Adverse_effect 61 68	treated
+T7	Adverse_effect 457 465	concerns
+T12	Potential_therapeutic_effect 622 629	treated
+T16	Potential_therapeutic_effect 61 68	treated
+T24	Potential_therapeutic_effect 759 767	resolved
+T42	Potential_therapeutic_effect 1215 1217	in
+R1	is_equivalent Arg1:T9 Arg2:T30
+R2	is_equivalent Arg1:T19 Arg2:T22
+R3	Coreference Arg1:T35 Arg2:T13
+R4	Coreference Arg1:T35 Arg2:T5
+R5	Subject_Disorder Arg1:T33 Arg2:T2
+R6	is_equivalent Arg1:T11 Arg2:T13
+R7	is_equivalent Arg1:T11 Arg2:T5
+R8	is_equivalent Arg1:T15 Arg2:T8
+R9	is_equivalent Arg1:T8 Arg2:T10
+R10	Coreference Arg1:T35 Arg2:T8
+E1	Potential_therapeutic_effect:T29 affects:T9 has_agent:T6
+E2	Adverse_effect:T37 affects:T18 has_agent:T20 has_subject:T36
+E3	Adverse_effect:T38 has_agent:T32 affects:T28 has_cue:T39
+E4	Adverse_effect:T4 has_agent:T3 affects:T1 has_subject:T33
+E5	Adverse_effect:T7 has_agent:T35 affects:T34 affects:T17
+E6	Potential_therapeutic_effect:T12 has_agent:T20 affects:T19
+E7	Potential_therapeutic_effect:T16 has_agent:T3 has_subject:T33 affects:T2
+E9	Potential_therapeutic_effect:T24 has_cue:T40 affects:T23 has_agent:T25
+E11	Potential_therapeutic_effect:T42 affects:T31 has_agent:T32
+A2	Speculated E3
+A4	Manner E9 High

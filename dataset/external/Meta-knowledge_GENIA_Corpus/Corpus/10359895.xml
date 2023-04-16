@@ -1,0 +1,273 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10359895" created="27/01/2007" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10359895</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Binding of <term id="T1" lex="YY1" sem="Protein_molecule">YY1</term> and <term id="T2" lex="Oct1" sem="Protein_molecule">Oct1</term> to a <term id="A1" sem="DNA_domain_or_region">novel element</term> that downregulates expression of <term id="T3" lex="IL-5" sem="Protein_molecule">IL-5</term> in human <term id="T4" lex="T_cell" sem="Cell_natural">T cells</term>.</sentence>
+<event id="E1">
+<type class="Binding"/>
+<theme idref="A1"/>
+<theme idref="T1"/>
+<clue><clueType>Binding</clueType> <linkTheme>of</linkTheme> YY1 and Oct1 <linkTheme>to</linkTheme> a novel element that downregulates expression of IL-5 in human T cells.</clue>
+</event>
+<event id="E2">
+<type class="Binding"/>
+<theme idref="A1"/>
+<theme idref="T2"/>
+<clue><clueType>Binding</clueType> <linkTheme>of</linkTheme> YY1 and Oct1 <linkTheme>to</linkTheme> a novel element that downregulates expression of IL-5 in human T cells.</clue>
+</event>
+<event id="E3">
+<type class="Gene_expression"/>
+<theme idref="T3"/>
+<clue>Binding of YY1 and Oct1 to a novel element that downregulates <clueType>expression</clueType> <linkTheme>of</linkTheme> IL-5 <clueLoc>in human T cells.</clueLoc></clue>
+</event>
+<event id="E4">
+<type class="Negative_regulation"/>
+<theme idref="E3"/>
+<cause idref="A1"/>
+<clue>Binding of YY1 and Oct1 to a novel element that <clueType>downregulates</clueType> expression of IL-5 in human T cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">BACKGROUND: <term id="T5" lex="IL-5" sem="Protein_molecule">IL-5</term> controls development of <term id="T6" lex="eosinophilia" sem="Other">eosinophilia</term> and has been shown to be involved in the pathogenesis of <term id="T7" lex="allergic_disease" sem="Other">allergic diseases</term>.</sentence>
+<event KT="Other" id="E5">
+<type class="Cellular_physiological_process"/>
+<theme idref="T6"/>
+<clue>BACKGROUND: IL-5 controls <clueType>development</clueType> <linkTheme>of</linkTheme> eosinophilia and has been shown to be involved in the pathogenesis of allergic diseases.</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Regulation"/>
+<theme idref="E5"/>
+<cause idref="T5"/>
+<clue>BACKGROUND: IL-5 <clueType>controls</clueType> development of eosinophilia and has been shown to be involved in the pathogenesis of allergic diseases.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T7"/>
+<clue>BACKGROUND: IL-5 controls development of eosinophilia and has been shown to be involved in the <clueType>pathogenesis</clueType> <linkTheme>of</linkTheme> allergic diseases.</clue>
+<comment>CAUTION:cluetype</comment></event>
+<event KT="Analysis" Source="Other" id="E8">
+<type class="Regulation"/>
+<theme idref="E7"/>
+<cause idref="T5"/>
+<clue>BACKGROUND: IL-5 controls development of eosinophilia and <clueSource>has been</clueSource> <clueKT>shown</clueKT> to be <clueType>involved</clueType> <linkTheme>in</linkTheme> the pathogenesis of allergic diseases.</clue>
+</event>
+<sentence id="S3">In both <cons id="T8" lex="(AND atopic_asthma nonatopic_asthma)" sem="(AND Other Other)"><frag id="F1">atopic</frag> and <frag id="F2">nonatopic</frag> <frag id="F3">asthma</frag></cons>, elevated <term id="T9" lex="IL-5" sem="Protein_molecule">IL-5</term> has been detected in <term id="T10" lex="peripheral_blood" sem="Tissue_natural">peripheral blood</term> and the <term id="T11" lex="airway" sem="Body_region">airways</term>.</sentence>
+<event Source="Other" id="E300">
+<type class="Positive_regulation"/>
+<theme idref="T9"/>
+<clue><clueLoc>In</clueLoc> both <clueLoc>atopic</clueLoc> and nonatopic <clueLoc>asthma</clueLoc>, <clueType>elevated</clueType> IL-5 <clueSource>has been</clueSource> <clueKT>detected</clueKT> <clueLoc>in peripheral blood</clueLoc> and the airways.</clue>
+</event>
+<event Source="Other" id="E301">
+<type class="Positive_regulation"/>
+<theme idref="T9"/>
+<clue><clueLoc>In</clueLoc> both <clueLoc>atopic</clueLoc> and nonatopic <clueLoc>asthma</clueLoc>, <clueType>elevated</clueType> IL-5 <clueSource>has been</clueSource> <clueKT>detected</clueKT> <clueLoc>in</clueLoc> peripheral blood and <clueLoc>the airways</clueLoc>.</clue>
+</event>
+<event Source="Other" id="E302">
+<type class="Positive_regulation"/>
+<theme idref="T9"/>
+<clue><clueLoc>In</clueLoc> both atopic and <clueLoc>nonatopic asthma</clueLoc>, <clueType>elevated</clueType> IL-5 <clueSource>has been</clueSource> <clueKT>detected</clueKT> <clueLoc>in peripheral blood</clueLoc> and the airways.</clue>
+</event>
+<event Source="Other" id="E303">
+<type class="Positive_regulation"/>
+<theme idref="T9"/>
+<clue><clueLoc>In</clueLoc> both atopic and <clueLoc>nonatopic asthma</clueLoc>, <clueType>elevated</clueType> IL-5 <clueSource>has been</clueSource> <clueKT>detected</clueKT> <clueLoc>in</clueLoc> peripheral blood and <clueLoc>the airways</clueLoc>.</clue>
+</event>
+<sentence id="S4"><term id="T12" lex="IL-5" sem="Protein_molecule">IL-5</term> is produced mainly by activated <term id="T13" lex="T_cell" sem="Cell_natural">T cells</term>, and its expression is regulated at the <term id="T14" lex="transcriptional_level" sem="Other">transcriptional level</term>.</sentence>
+<event KT="Fact" id="E10">
+<type class="Gene_expression"/>
+<theme idref="T12"/>
+<clue>IL-5 is <clueType>produced</clueType> mainly <clueLoc>by activated T cells</clueLoc>, and its expression is regulated at the transcriptional level.</clue>
+</event>
+<event KT="Fact" id="E11">
+<type class="Regulation"/>
+<theme idref="E10"/>
+<clue>IL-5 is produced mainly by activated T cells, and <corefTheme>its expression</corefTheme> is <clueType>regulated</clueType> at the <clueType>transcriptional</clueType> level.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E12">
+<type class="Physiological_process"/>
+<theme idref="T13"/>
+<clue>IL-5 is produced <clueKT><clueCL>mainly</clueCL></clueKT> by <clueType>activated</clueType> T cells, and its expression is regulated at the transcriptional level.</clue>
+</event>
+<sentence id="S5">OBJECTIVE: This study focuses on the functional analysis of the <term id="T15" lex="human_IL-5_(hIL-5)_promoter" sem="DNA_domain_or_region">human IL-5 (hIL-5) promoter</term> and characterization of cis -regulatory elements and <term id="A2" sem="Protein_family_or_group">transcription factors</term> involved in the suppression of <term id="T16" lex="IL-5" sem="Protein_molecule">IL-5</term> transcription in <term id="T17" lex="T_cell" sem="Cell_natural">T cells</term>.</sentence>
+<event KT="Other" id="E13">
+<type class="Transcription"/>
+<theme idref="T16"/>
+<clue>OBJECTIVE: This study focuses on the functional analysis of the human IL-5 (hIL-5) promoter and characterization of cis -regulatory elements and transcription factors involved in the suppression of IL-5 <clueType>transcription</clueType> in T cells.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Negative_regulation"/>
+<theme idref="E13"/>
+<clue>OBJECTIVE: This study focuses on the functional analysis of the human IL-5 (hIL-5) promoter and characterization of cis -regulatory elements and transcription factors involved in the <clueType>suppression</clueType> of IL-5 transcription in T cells.</clue>
+</event>
+<event KT="Fact" id="E15" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E14"/>
+<cause idref="A2"/>
+<clue>OBJECTIVE: This study focuses on the functional analysis of the human IL-5 (hIL-5) promoter and characterization of cis -regulatory elements and transcription factors <clueType>involved</clueType> <linkTheme>in</linkTheme> the suppression of IL-5 transcription <clueLoc>in T cells</clueLoc>.</clue>
+</event>
+<sentence id="S6">METHODS: Methods used in this study include <term id="T18" lex="DNase_I_footprint_assay" sem="Other"><term id="T19" lex="DNase_I" sem="Protein_molecule">DNase I</term> footprint assays</term>, <term id="T20" lex="electrophoretic_mobility_shift_assay" sem="Other">electrophoretic mobility shift assays</term>, and functional analysis by <term id="T21" lex="mammalian_cell_transfection" sem="Other">mammalian cell transfection</term> involving <term id="T22" lex="deletion_analysis" sem="Other">deletion analysis</term> and <term id="T23" lex="site-directed_mutagenesis" sem="Other">site-directed mutagenesis</term>.</sentence>
+<sentence id="S7">RESULTS: We identified 5 <term id="T24" lex="protein_binding_region" sem="DNA_domain_or_region"><term id="A3" sem="Protein_molecule">protein</term> binding regions</term> (<term id="T25" lex="BR" sem="DNA_domain_or_region">BRs</term>) located within the <term id="T26" lex="proximal_hIL-5_promoter" sem="DNA_domain_or_region">proximal <term id="T27" lex="hIL-5_promoter" sem="DNA_domain_or_region">hIL-5 promoter</term></term>.</sentence>
+<event KT="Analysis" id="E16">
+<type class="Binding"/>
+<theme idref="T25"/>
+<theme idref="A3"/>
+<clue>RESULTS: We <clueKT>identified</clueKT> 5 protein <clueType>binding</clueType> regions (BRs) located within the proximal hIL-5 promoter.</clue>
+</event>
+<sentence id="S8">Functional analysis indicates that the <term id="T28" lex="BR" sem="DNA_domain_or_region">BRs</term> are involved in control of <term id="T29" lex="hIL-5_promoter_activity" sem="Other"><term id="T30" lex="hIL-5_promoter" sem="DNA_domain_or_region">hIL-5 promoter</term> activity</term>.</sentence>
+<event KT="Other" id="E17">
+<type class="Regulation"/>
+<theme idref="T30"/>
+<clue>Functional analysis indicates that the BRs are involved in <clueType>control</clueType> <linkTheme>of</linkTheme> hIL-5 promoter activity.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E18">
+<type class="Correlation"/>
+<theme idref="T28"/>
+<theme idref="E17"/>
+<clue><clueExperiment>Functional analysis</clueExperiment> <clueKT><clueCL>indicates</clueCL></clueKT> that the BRs are <clueType>involved</clueType> <linkTheme>in</linkTheme> control of hIL-5 promoter activity.</clue>
+</event>
+<sentence id="S9">Two of these regions, <term id="T31" lex="BR3" sem="DNA_domain_or_region">BR3</term> and <term id="T32" lex="BR4" sem="DNA_domain_or_region">BR4</term> located at positions -102 to -73, have not previously been described as regulators of <term id="T33" lex="IL-5_expression" sem="Other"><term id="T34" lex="IL-5" sem="Protein_molecule">IL-5</term> expression</term> in <term id="T35" lex="T_cell" sem="Cell_natural">T cells</term>.</sentence>
+<event KT="Other" id="E19">
+<type class="Gene_expression"/>
+<theme idref="T34"/>
+<clue>Two of these regions, BR3 and BR4 located at positions -102 to -73, have not previously been described as regulators of IL-5 <clueType>expression</clueType> <clueLoc>in T cells</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Regulation"/>
+<theme idref="E19"/>
+<cause idref="T31"/>
+<clue>Two of these regions, BR3 and BR4 located at positions -102 to -73, have not previously been described as <clueType>regulators</clueType> <linkTheme>of</linkTheme> IL-5 expression in T cells.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Regulation"/>
+<theme idref="E19"/>
+<cause idref="T32"/>
+<clue>Two of these regions, BR3 and BR4 located at positions -102 to -73, have not previously been described as <clueType>regulators</clueType> <linkTheme>of</linkTheme> IL-5 expression in T cells.</clue>
+</event>
+<sentence id="S10">We show that the <term id="T36" lex="BR3" sem="DNA_domain_or_region">BR3</term> sequence contains a novel <term id="T37" lex="negative_regulatory_element" sem="DNA_family_or_group">negative regulatory element</term> located at positions -90 to -79 of the <term id="T38" lex="hIL-5_promoter" sem="DNA_domain_or_region">hIL-5 promoter</term>, which binds <term id="T39" lex="Oct1" sem="Protein_molecule">Oct1</term>, <term id="T40" lex="octamer-like_nuclear_factor" sem="Protein_family_or_group">octamer-like</term>, and <term id="T41" lex="YY1_nuclear_factor" sem="Protein_family_or_group"><term id="T42" lex="YY1" sem="Protein_molecule">YY1</term> <term id="A50" sem="Protein_molecule">nuclear factors</term></term>.</sentence>
+<event id="E22">
+<type class="Binding"/>
+<theme idref="T37"/>
+<theme idref="T39" idref1="A50"/>
+<clue>We show that the BR3 sequence contains a novel negative regulatory element located at positions -90 to -79 of the hIL-5 promoter, which <clueType>binds</clueType> Oct1, octamer-like, and YY1 nuclear factors.</clue>
+</event>
+<event id="E23">
+<type class="Binding"/>
+<theme idref="T37"/>
+<theme idref="T40" idref1="A50"/>
+<clue>We show that the BR3 sequence contains a novel negative regulatory element located at positions -90 to -79 of the hIL-5 promoter, which <clueType>binds</clueType> Oct1, octamer-like, and YY1 nuclear factors.</clue>
+</event>
+<event id="E24">
+<type class="Binding"/>
+<theme idref="T37"/>
+<theme idref="T41"/>
+<clue>We show that the BR3 sequence contains a novel negative regulatory element located at positions -90 to -79 of the hIL-5 promoter, which <clueType>binds</clueType> Oct1, octamer-like, and YY1 nuclear factors.</clue>
+</event>
+<event KT="Analysis" id="E25">
+<type class="Negative_regulation"/>
+<theme idref="T38"/>
+<cause idref="T37"/>
+<clue>We <clueKT>show</clueKT> that the BR3 sequence contains a novel <clueType>negative regulatory</clueType> element located at positions -90 to -79 of the hIL-5 promoter, which binds Oct1, octamer-like, and YY1 nuclear factors.</clue>
+</event>
+<sentence id="S11">Substitution mutations, which abolished binding of these proteins to the <term id="T43" lex="BR3_sequence" sem="DNA_domain_or_region"><term id="T44" lex="BR3" sem="DNA_domain_or_region">BR3</term> sequence</term>, significantly increased <term id="T45" lex="hIL-5_promoter" sem="DNA_domain_or_region">hIL-5 promoter</term> activity in <term id="T46" lex="activated_T_cell" sem="Cell_natural">activated <term id="A6" sem="Cell_natural">T cells</term></term>.</sentence>
+<event id="E200">
+<type class="Mutagenesis"/>
+<theme idref="T43"/>
+<clue><clueType>Substitution mutations</clueType>, which abolished binding of these proteins to the BR3 sequence, significantly increased hIL-5 promoter activity in activated T cells.</clue>
+</event>
+<event KT="Other" id="E201">
+<type class="Binding"/>
+<theme idref="T39" idref1="A50"/>
+<theme idref="T43"/>
+<clue>Substitution mutations, which abolished <clueType>binding</clueType> <linkTheme>of</linkTheme> <corefTheme idref1="T39">these proteins</corefTheme> <linkTheme>to</linkTheme> the BR3 sequence, significantly increased hIL-5 promoter activity in activated T cells.</clue>
+</event>
+<event KT="Other" id="E202">
+<type class="Binding"/>
+<theme idref="T40" idref1="A50"/>
+<theme idref="T43"/>
+<clue>Substitution mutations, which abolished <clueType>binding</clueType> <linkTheme>of</linkTheme> <corefTheme idref1="T40">these proteins</corefTheme> <linkTheme>to</linkTheme> the BR3 sequence, significantly increased hIL-5 promoter activity in activated T cells.</clue>
+</event>
+<event KT="Other" id="E203">
+<type class="Binding"/>
+<theme idref="T41"/>
+<theme idref="T43"/>
+<clue>Substitution mutations, which abolished <clueType>binding</clueType> <linkTheme>of</linkTheme> <corefTheme idref1="T41">these proteins</corefTheme> <linkTheme>to</linkTheme> the BR3 sequence, significantly increased hIL-5 promoter activity in activated T cells.</clue>
+</event>
+<event id="E204">
+<type class="Negative_regulation"/>
+<theme idref="E201"/>
+<cause idref="E200"/>
+<clue>Substitution mutations, which <clueType>abolished</clueType> binding of these proteins to the BR3 sequence, significantly increased hIL-5 promoter activity in activated T cells.</clue>
+</event>
+<event id="E205">
+<type class="Negative_regulation"/>
+<theme idref="E202"/>
+<cause idref="E200"/>
+<clue>Substitution mutations, which <clueType>abolished</clueType> binding of these proteins to the BR3 sequence, significantly increased hIL-5 promoter activity in activated T cells.</clue>
+</event>
+<event id="E206">
+<type class="Negative_regulation"/>
+<theme idref="E203"/>
+<cause idref="E200"/>
+<clue>Substitution mutations, which <clueType>abolished</clueType> binding of these proteins to the BR3 sequence, significantly increased hIL-5 promoter activity in activated T cells.</clue>
+</event>
+<event Manner="High" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="T45"/>
+<cause idref="E200"/>
+<clue>Substitution mutations, which abolished binding of these proteins to the BR3 sequence, <clueManner>significantly</clueManner> <clueType>increased</clueType> hIL-5 promoter activity <clueLoc>in activated T cells.</clueLoc></clue>
+</event>
+<event id="E33">
+<type class="Physiological_process"/>
+<theme idref="A6"/>
+<clue>Substitution mutations, which abolished binding of these proteins to the BR3 sequence, significantly increased hIL-5 promoter activity in <clueType>activated</clueType> T cells.</clue>
+</event>
+<sentence id="S12">CONCLUSION: We suggest that <term id="T47" lex="Oct1" sem="Protein_molecule">Oct1</term>, <term id="T48" lex="YY1" sem="Protein_molecule">YY1</term>, and <term id="T49" lex="octamer-like_factor" sem="Protein_family_or_group">octamer-like factors</term> binding to the <term id="A7" sem="DNA_domain_or_region"><term id="T50" lex="-90/-79_sequence" sem="DNA_domain_or_region">-90/-79 sequence</term> within the <term id="T51" lex="proximal_IL-5_promoter" sem="DNA_domain_or_region">proximal <term id="T52" lex="IL-5" sem="Protein_molecule">IL-5</term> promoter</term></term> are involved in suppression of <term id="T53" lex="IL-5_transcription" sem="Other"><term id="T54" lex="IL-5" sem="Protein_molecule">IL-5</term> transcription</term> in <term id="T55" lex="T_cell" sem="Cell_natural">T cells</term>.</sentence>
+<event KT="Other" id="E34">
+<type class="Binding"/>
+<theme idref="T47"/>
+<theme idref="A7"/>
+<clue>CONCLUSION: We suggest that Oct1, YY1, and octamer-like factors <clueType>binding</clueType> <linkTheme>to</linkTheme> the -90/-79 sequence within the proximal IL-5 promoter are involved in suppression of IL-5 transcription in T cells.</clue>
+<comment>TPS: A7</comment></event>
+<event KT="Other" id="E35">
+<type class="Binding"/>
+<theme idref="T48"/>
+<theme idref="A7"/>
+<clue>CONCLUSION: We suggest that Oct1, YY1, and octamer-like factors <clueType>binding</clueType> <linkTheme>to</linkTheme> the -90/-79 sequence within the proximal IL-5 promoter are involved in suppression of IL-5 transcription in T cells.</clue>
+</event>
+<event KT="Other" id="E36">
+<type class="Binding"/>
+<theme idref="T49"/>
+<theme idref="A7"/>
+<clue>CONCLUSION: We suggest that Oct1, YY1, and octamer-like factors <clueType>binding</clueType> <linkTheme>to</linkTheme> the -90/-79 sequence within the proximal IL-5 promoter are involved in suppression of IL-5 transcription in T cells.</clue>
+</event>
+<event KT="Other" id="E37">
+<type class="Transcription"/>
+<theme idref="T54"/>
+<clue>CONCLUSION: We suggest that Oct1, YY1, and octamer-like factors binding to the -90/-79 sequence within the proximal IL-5 promoter are involved in suppression of IL-5 <clueType>transcription</clueType> in T cells.</clue>
+</event>
+<event KT="Other" id="E38">
+<type class="Negative_regulation"/>
+<theme idref="E37"/>
+<clue>CONCLUSION: We suggest that Oct1, YY1, and octamer-like factors binding to the -90/-79 sequence within the proximal IL-5 promoter are involved in <clueType>suppression</clueType> <linkTheme>of</linkTheme> IL-5 transcription in T cells.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E39" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E38"/>
+<cause idref="E34"/>
+<clue>CONCLUSION: We <clueKT><clueCL>suggest</clueCL></clueKT> that Oct1, YY1, and octamer-like factors binding to the -90/-79 sequence within the proximal IL-5 promoter are <clueType>involved</clueType> <linkTheme>in</linkTheme> suppression of IL-5 transcription <clueLoc>in T cells.</clueLoc></clue>
+</event>
+<event CL="L2" KT="Analysis" id="E40" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E38"/>
+<cause idref="E35"/>
+<clue>CONCLUSION: We <clueKT><clueCL>suggest</clueCL></clueKT> that Oct1, YY1, and octamer-like factors binding to the -90/-79 sequence within the proximal IL-5 promoter are <clueType>involved</clueType> <linkTheme>in</linkTheme> suppression of IL-5 transcription <clueLoc>in T cells.</clueLoc></clue>
+</event>
+<event CL="L2" KT="Analysis" id="E41" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E38"/>
+<cause idref="E36"/>
+<clue>CONCLUSION: We <clueKT><clueCL>suggest</clueCL></clueKT> that Oct1, YY1, and octamer-like factors binding to the -90/-79 sequence within the proximal IL-5 promoter are <clueType>involved</clueType> <linkTheme>in</linkTheme> suppression of IL-5 transcription <clueLoc>in T cells.</clueLoc></clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

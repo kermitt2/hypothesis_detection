@@ -1,0 +1,13 @@
+T18	Adverse_effect 245 253	risks fo
+T20	Potential_therapeutic_effect 322 331	influence
+T21	Adverse_effect 372 376	risk
+T25	Adverse_effect 457 466	treatment
+T28	Adverse_effect 530 532	in
+E1	Adverse_effect:T18 has_subject:T15 has_agent:T17 has_cue:T19
+E2	Potential_therapeutic_effect:T20 has_agent:T2 affects:T4
+E3	Adverse_effect:T21 has_agent:T2 affects:T5
+E5	Adverse_effect:T25 has_agent:T7 affects:T6 has_cue:T26
+E6	Adverse_effect:T28 affects:T9 has_cue:T27 has_agent:T8
+A1	Speculated E1
+A2	Speculated E5
+A3	Speculated E6

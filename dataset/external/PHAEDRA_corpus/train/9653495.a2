@@ -1,0 +1,31 @@
+T8	Potential_therapeutic_effect 280 289	treatment
+T58	Potential_therapeutic_effect 750 757	receive
+T62	Potential_therapeutic_effect 67 69	in
+T63	Potential_therapeutic_effect 605 609	used
+T16	Adverse_effect 1423 1433	pronounced
+T18	Potential_therapeutic_effect 1553 1555	in
+T66	Potential_therapeutic_effect 1959 1961	in
+R1	is_equivalent Arg1:T6 Arg2:T4
+R2	is_equivalent Arg1:T5 Arg2:T39
+R3	Subject_Disorder Arg1:T55 Arg2:T56
+R4	Subject_Disorder Arg1:T55 Arg2:T12
+R5	Subject_Disorder Arg1:T59 Arg2:T60
+E1	Combination:T44 has_participant:T42 has_participant:T43
+E2	Combination:T45 has_participant:T5 has_participant:T6
+E3	Combination:T49 has_participant:T19 has_participant:T48
+E4	Combination:T27 has_participant:T22 has_participant:T23
+E5	Combination:T50 has_participant:T31 has_participant:T29
+E6	Combination:T52 has_participant:T35 has_participant:T51
+E8	Combination:T57 has_participant:T47 has_participant:T46
+E10	Combination:T61 has_participant:T1 has_participant:T2
+E17	Combination:T21 has_participant:T34 has_participant:T20
+E18	Combination:T65 has_participant:T37 has_participant:T53
+E7	Potential_therapeutic_effect:T8 affects:T7 has_agent:E2
+E9	Potential_therapeutic_effect:T58 has_agent:E8 has_subject:T55 affects:T56 affects:T12
+E11	Potential_therapeutic_effect:T62 affects:T3 has_agent:E10
+E12	Potential_therapeutic_effect:T63 has_agent:T11 has_subject:T10
+E13	Adverse_effect:T16 has_agent:E4 affects:T25 affects:T26 affects:T28 affects:T30
+E14	Potential_therapeutic_effect:T18 affects:T33 has_agent:E5
+E15	Potential_therapeutic_effect:T18 affects:T33 has_agent:T32
+E16	Potential_therapeutic_effect:T58 has_subject:T55 affects:T12 affects:T56 has_agent:T15
+E19	Potential_therapeutic_effect:T66 affects:T38 has_agent:E18

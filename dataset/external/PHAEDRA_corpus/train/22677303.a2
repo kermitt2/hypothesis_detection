@@ -1,0 +1,22 @@
+T24	DDI 125 136	interaction
+T26	Potential_therapeutic_effect 232 239	treated
+T10	Adverse_effect 1053 1065	relationship
+T32	DDI 1157 1169	Interactions
+T35	Adverse_effect 1207 1213	result
+T39	DDI 1099 1110	interaction
+T23	Adverse_effect 836 848	relationship
+T27	Adverse_effect 1272 1281	monitored
+R1	Coreference Arg1:T40 Arg2:T21
+R2	Coreference Arg1:T40 Arg2:T22
+E2	DDI:T24 has_participant:T3 has_participant:T4
+E7	DDI:T32 has_participant:T21 has_participant:T22
+E10	DDI:T39 has_participant:T18 has_participant:T19
+E1	Combination:T14 has_participant:T2 has_participant:T1
+E3	Potential_therapeutic_effect:T26 has_agent:T5 affects:T6 has_subject:T25
+E4	Adverse_effect:T10 has_cue:T38 affects:T20 has_agent:E10
+E9	Adverse_effect:T35 has_cue:T36 affects:T31 has_agent:E7
+E5	Adverse_effect:T23 has_agent:T13 affects:T15
+E6	Adverse_effect:T27 has_cue:T28 has_agent:T40
+A1	Speculated E9
+A3	Speculated E4
+A2	Speculated E6

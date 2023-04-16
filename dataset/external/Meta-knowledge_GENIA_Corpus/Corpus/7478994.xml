@@ -1,0 +1,72 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7478994" created="06/11/21" creator="Yumiko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7478994</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="tissue-specific_regulation" sem="Other">Tissue-specific regulation</term> of the <term id="T2" lex="rabbit_15-lipoxygenase_gene" sem="DNA_domain_or_region"><term id="T3" lex="rabbit" sem="Multicellular_organism_natural">rabbit</term> <term id="A10" sem="DNA_domain_or_region"><term id="T4" lex="15-lipoxygenase" sem="Protein_molecule">15-lipoxygenase</term> gene</term></term> in <term id="T5" lex="erythroid_cell" sem="Cell_natural">erythroid cells</term> by a <term id="T6" lex="transcriptional_silencer" sem="DNA_domain_or_region">transcriptional silencer</term>.</sentence>
+<event KT="Investigation" id="E1">
+<type class="Regulation"/>
+<theme idref="A10"/>
+<cause idref="T6"/>
+<clue><clueLoc>Tissue</clueLoc>-specific <clueType>regulation</clueType> <linkTheme>of</linkTheme> the rabbit 15-lipoxygenase gene <clueLoc>in erythroid cells</clueLoc> <linkCause>by</linkCause> a transcriptional silencer.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T7" lex="15-lipoxygenase_(lox)_gene" sem="DNA_domain_or_region">15-lipoxygenase (lox) gene</term> is expressed in a <term id="T8" lex="tissue-specific_manner" sem="Other">tissue-specific manner</term>, predominantly in <term id="T9" lex="erythroid_cell" sem="Cell_natural">erythroid cells</term> but also in <term id="T10" lex="airway_epithelial_cell" sem="Cell_natural">airway epithelial cells</term> and <term id="T11" lex="eosinophil" sem="Cell_natural">eosinophils</term>.</sentence>
+<event KT="Fact" id="E2">
+<type class="Gene_expression"/>
+<theme idref="T7"/>
+<clue>The 15-lipoxygenase (lox) gene is <clueType>expressed</clueType> in a <clueLoc>tissue</clueLoc>-specific manner, predominantly <clueLoc>in erythroid cells</clueLoc> but also in airway epithelial cells and eosinophils.</clue>
+</event>
+<event KT="Fact" id="E201">
+<type class="Gene_expression"/>
+<theme idref="T7"/>
+<clue>The 15-lipoxygenase (lox) gene is <clueType>expressed</clueType> in a <clueLoc>tissue</clueLoc>-specific manner, predominantly in erythroid cells but also <clueLoc>in airway epithelial cells</clueLoc> and eosinophils.</clue>
+</event>
+<event KT="Fact" id="E202">
+<type class="Gene_expression"/>
+<theme idref="T7"/>
+<clue>The 15-lipoxygenase (lox) gene is <clueType>expressed</clueType> in a <clueLoc>tissue</clueLoc>-specific manner, predominantly in erythroid cells but also <clueLoc>in</clueLoc> airway epithelial cells and <clueLoc>eosinophils</clueLoc>.</clue>
+</event>
+<sentence id="S3">We demonstrate in this report that the <term id="T12" lex="5&apos;_flanking_DNA" sem="DNA_domain_or_region">5&apos; flanking DNA</term> of the <term id="T13" lex="15-lox_gene" sem="DNA_domain_or_region">15-lox gene</term> contains sequences which down-regulate its activity in a variety of <term id="T14" lex="non-erythroid_cell_line" sem="Cell_cultured">non-erythroid cell lines</term> but not in two <term id="T15" lex="erythroid_cell_line" sem="Cell_cultured">erythroid cell lines</term>.</sentence>
+<event KT="Other" id="E3">
+<type class="Negative_regulation"/>
+<theme idref="E201"/>
+<cause idref="T13"/>
+<clue>We demonstrate in this report that the 5&apos; flanking DNA of the 15-lox gene contains sequences which <clueType>down-regulate</clueType> <corefTheme>its</corefTheme> activity <clueLoc>in a variety of non-erythroid cell lines</clueLoc> but not in two erythroid cell lines.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E4">
+<type class="Negative_regulation"/>
+<theme idref="E2"/>
+<cause idref="T13"/>
+<clue>We demonstrate in this report that the 5&apos; flanking DNA of the 15-lox gene contains sequences which <clueType>down-regulate</clueType> <corefTheme>its</corefTheme> activity in a variety of non-erythroid cell lines but <cluePolarity>not</cluePolarity> <clueLoc>in two erythroid cell lines</clueLoc>.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E404">
+<type class="Negative_regulation"/>
+<theme idref="E202"/>
+<cause idref="T13"/>
+<clue>We demonstrate in this report that the 5&apos; flanking DNA of the 15-lox gene contains sequences which <clueType>down-regulate</clueType> <corefTheme>its</corefTheme> activity in a variety of non-erythroid cell lines but <cluePolarity>not</cluePolarity> <clueLoc>in two erythroid cell lines</clueLoc>.</clue>
+</event>
+<sentence id="S4">The element has characteristics of a <term id="T16" lex="transcriptional_&apos;silencer&apos;" sem="DNA_family_or_group">transcriptional &apos;silencer&apos;</term> since it functions in both orientations.</sentence>
+<event id="E5">
+<type class="Regulation"/>
+<cause idref="T13"/>
+<clue>The element has characteristics of a transcriptional &apos;silencer&apos; since <corefCause>it</corefCause> <clueType>functions</clueType> in both orientations.</clue>
+<comment>NO THEME</comment></event>
+<sentence id="S5">The main activity of the <term id="T17" lex="silencer" sem="DNA_family_or_group">silencer</term> has been mapped to the first 900 bp of <term id="T18" lex="5&apos;_flanking_DNA" sem="DNA_domain_or_region">5&apos; flanking DNA</term>, which contains nine binding sites for a <term id="T19" lex="nuclear_factor" sem="Protein_family_or_group">nuclear factor</term> present in non-<term id="T20" lex="erythroid_cell" sem="Cell_natural">erythroid cells</term> but not in <term id="T21" lex="erythroid_cell" sem="Cell_natural">erythroid cells</term>.</sentence>
+<sentence id="S6">These binding sites have similar sequences and multiple copies of the <term id="T22" lex="binding_site" sem="DNA_domain_or_region">binding sites</term> confer <term id="T23" lex="tissue-specific_down-regulation" sem="Other">tissue-specific down-regulation</term> when attached to a <term id="T24" lex="minimal_lox_promoter_fragment" sem="DNA_molecule">minimal <term id="T25" lex="lox_promoter" sem="DNA_domain_or_region">lox promoter</term> fragment</term>.</sentence>
+<event id="E6">
+<type class="Regulation"/>
+<theme idref="T23"/>
+<cause idref="T22"/>
+<clue>These binding sites have similar sequences and multiple copies of the binding sites <clueType>confer</clueType> tissue-specific down-regulation when attached to a minimal lox promoter fragment.</clue>
+</event>
+<event id="E7">
+<type class="Binding"/>
+<theme idref="T22"/>
+<theme idref="T24"/>
+<clue>These binding sites have similar sequences and multiple copies of the binding sites confer tissue-specific down-regulation when <clueType>attached</clueType> <linkTheme>to</linkTheme> a minimal lox promoter fragment.</clue>
+</event>
+<sentence id="S7">The <term id="T26" lex="5&apos;_flanking_DNA" sem="DNA_domain_or_region">5&apos; flanking DNA</term> also contains a cluster of three <term id="T27" lex="binding_site" sem="DNA_domain_or_region">binding sites</term> for the <term id="T28" lex="GATA_family" sem="Protein_family_or_group">GATA family</term> of <term id="T29" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term>.</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

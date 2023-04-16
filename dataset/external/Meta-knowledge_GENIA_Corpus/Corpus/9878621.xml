@@ -1,0 +1,267 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9878621" created="22/05/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9878621</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Regulation of <term id="T1" lex="interleukin-1beta_transcription" sem="Other"><term id="A16" sem="DNA_domain_or_region"><term id="T2" lex="interleukin-1beta" sem="Protein_molecule">interleukin-1beta</term></term> transcription</term> by <term id="T3" lex="Epstein-Barr_virus" sem="Virus">Epstein-Barr virus</term> involves a number of <term id="T4" lex="latent_protein" sem="Protein_family_or_group">latent proteins</term> via their interaction with <term id="T5" lex="RBP" sem="Protein_molecule">RBP</term>.</sentence>
+<event id="E1">
+<type class="Transcription"/>
+<theme idref="A16"/>
+<clue>Regulation of interleukin-1beta <clueType>transcription</clueType> by Epstein-Barr virus involves a number of latent proteins via their interaction with RBP.</clue>
+</event>
+<event id="E2">
+<type class="Regulation"/>
+<theme idref="E1"/>
+<cause idref="T3"/>
+<clue><clueType>Regulation</clueType> <linkTheme>of</linkTheme> interleukin-1beta transcription <linkCause>by</linkCause> Epstein-Barr virus involves a number of latent proteins via their interaction with RBP.</clue>
+</event>
+<event id="E3">
+<type class="Regulation"/>
+<theme idref="E2"/>
+<cause idref="E4"/>
+<clue>Regulation of interleukin-1beta transcription by Epstein-Barr virus <clueType>involves</clueType> a number of latent proteins <linkCause>via</linkCause> their interaction with RBP.</clue>
+</event>
+<event id="E4">
+<type class="Binding"/>
+<theme idref="T4"/>
+<theme idref="T5"/>
+<clue>Regulation of interleukin-1beta transcription by Epstein-Barr virus involves a number of latent proteins via <corefTheme>their</corefTheme> <clueType>interaction</clueType> <linkTheme>with</linkTheme> RBP.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T6" lex="Epstein-Barr_virus" sem="Virus">Epstein-Barr virus</term> (EBV) infects <term id="T7" lex="B_cell" sem="Cell_natural">B cells</term>, resulting in the outgrowth of <term id="T8" lex="immortalised_lymphoblastoid_cell_line" sem="Cell_cultured">immortalised lymphoblastoid cell lines</term> (<term id="T9" lex="LCL" sem="Cell_cultured">LCLs</term>).</sentence>
+<event KT="Fact" id="E5">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T6"/>
+<theme idref="T7"/>
+<clue>Epstein-Barr virus (EBV) <clueType>infects</clueType> B cells, resulting in the outgrowth of immortalised lymphoblastoid cell lines (LCLs).</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="E5"/>
+<clue>Epstein-Barr virus (EBV) infects B cells, <clueType>resulting</clueType> <linkTheme>in</linkTheme> the outgrowth of immortalised lymphoblastoid cell lines (LCLs).</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Cellular_physiological_process"/>
+<theme idref="T9"/>
+<clue>Epstein-Barr virus (EBV) infects B cells, resulting in the <clueType>outgrowth</clueType> <linkTheme>of</linkTheme> immortalised lymphoblastoid cell lines (LCLs).</clue>
+</event>
+<sentence id="S3">Here, we demonstrate through the use of intracellular staining that <term id="T10" lex="interleukin-1beta" sem="Protein_molecule">interleukin-1beta</term> (<term id="T11" lex="IL-1beta" sem="Protein_molecule">IL-1beta</term>) is expressed in <term id="T12" lex="LCL" sem="Cell_cultured">LCLs</term> and investigate the influence of the individual <term id="T13" lex="latent_protein" sem="Protein_family_or_group">latent proteins</term> on the expression of <term id="T14" lex="IL-1beta" sem="Protein_molecule">IL-1beta</term>.</sentence>
+<event KT="Analysis" id="E8">
+<type class="Gene_expression"/>
+<theme idref="T11"/>
+<clue>Here, we <clueKT>demonstrate</clueKT> through the use of <clueExperiment>intracellular staining</clueExperiment> that interleukin-1beta (IL-1beta) is <clueType>expressed</clueType> <clueLoc>in LCLs</clueLoc> and investigate the influence of the individual latent proteins on the expression of IL-1beta.</clue>
+</event>
+<event KT="Investigation" id="E9" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E10"/>
+<cause idref="T13"/>
+<clue>Here, we demonstrate through the use of intracellular staining that interleukin-1beta (IL-1beta) is expressed in LCLs and <clueKT>investigate</clueKT> the <clueType>influence</clueType> <linkCause>of</linkCause> the individual latent proteins <linkTheme>on</linkTheme> the expression of IL-1beta.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Gene_expression"/>
+<theme idref="T14"/>
+<clue>Here, we demonstrate through the use of intracellular staining that interleukin-1beta (IL-1beta) is expressed in LCLs and investigate the influence of the individual latent proteins on the <clueType>expression</clueType> <linkTheme>of</linkTheme> IL-1beta.</clue>
+</event>
+<sentence id="S4">Using <term id="T15" lex="RT-PCR" sem="Other">RT-PCR</term>, <term id="T16" lex="IL-1beta" sem="Protein_molecule">IL-1beta</term> was shown to be up-regulated in <term id="T17" lex="EBV-transformed_LCL" sem="Cell_cultured"><term id="A1" sem="Virus">EBV</term>-transformed <term id="T18" lex="LCL" sem="Cell_cultured">LCLs</term></term> as well as in <term id="T19" lex="group_III_Burkitt&apos;s_lymphoma_(BL)_cell_line" sem="Cell_cultured">group III Burkitt&apos;s lymphoma (BL) cell lines</term>, compared with <term id="T20" lex="group_I_BL_cell_line" sem="Cell_cultured">group I BL cell lines</term>.</sentence>
+<event KT="Analysis" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="T16"/>
+<clue>Using <clueExperiment>RT-PCR</clueExperiment>, IL-1beta was <clueKT>shown</clueKT> to be <clueType>up-regulated</clueType> <clueLoc>in EBV-transformed LCLs</clueLoc> as well as in group III Burkitt&apos;s lymphoma (BL) cell lines, compared with group I BL cell lines.</clue>
+</event>
+<event KT="Analysis" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="T16"/>
+<clue>Using <clueExperiment>RT-PCR</clueExperiment>, IL-1beta was <clueKT>shown</clueKT> to be <clueType>up-regulated</clueType> in EBV-transformed LCLs as well as <clueLoc>in group III Burkitt&apos;s lymphoma (BL) cell lines</clueLoc>, compared with group I BL cell lines.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T16"/>
+<clue>Using <clueExperiment>RT-PCR</clueExperiment>, IL-1beta was shown to be <clueType>up-regulated</clueType> in EBV-transformed LCLs as well as in group III Burkitt&apos;s lymphoma (BL) cell lines, compared with <clueLoc>group I BL cell lines</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Biological_process"/>
+<theme idref="T18"/>
+<clue>Using RT-PCR, IL-1beta was shown to be up-regulated in EBV-<clueType>transformed</clueType> LCLs as well as in group III Burkitt&apos;s lymphoma (BL) cell lines, compared with group I BL cell lines.</clue>
+</event>
+<event KT="Other" id="E44">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="A1"/>
+<clue>Using RT-PCR, IL-1beta was shown to be up-regulated in EBV-<clueType>transformed</clueType> LCLs as well as in group III Burkitt&apos;s lymphoma (BL) cell lines, compared with group I BL cell lines.</clue>
+</event>
+<sentence id="S5">The up-regulation of <term id="T21" lex="IL-1beta" sem="Protein_molecule">IL-1beta</term> message could be mediated by the <term id="T22" lex="latent_membrane_protein-1" sem="Protein_molecule">latent membrane protein-1</term>, <cons id="T23" lex="(AND EBV_nuclear_protein_2_gene EBV_nuclear_protein_3_gene EBV_nuclear_protein_4_gene EBV_nuclear_protein_6_gene)" sem="(AND DNA_domain_or_region DNA_domain_or_region DNA_domain_or_region DNA_domain_or_region)"><frag id="F1">EBV nuclear proteins</frag> <frag id="F2">2</frag>, <frag id="F3">3</frag>, <frag id="F4">4</frag>, and <frag id="F5">6</frag> <frag id="F6">genes</frag></cons>.</sentence>
+<event id="E15">
+<type class="Positive_regulation"/>
+<theme idref="T21"/>
+<clue>The <clueType>up-regulation</clueType> <linkTheme>of</linkTheme> IL-1beta message could be mediated by the latent membrane protein-1, EBV nuclear proteins 2, 3, 4, and 6 genes.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="F1" idref1="F2" idref2="F6"/>
+<clue>The up-regulation of IL-1beta message could be <clueType>mediated</clueType> <linkCause>by</linkCause> <corefCause>the latent membrane protein-1</corefCause>, EBV nuclear proteins 2, 3, 4, and 6 genes.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="F1" idref1="F3" idref2="F6"/>
+<clue>The up-regulation of IL-1beta message could be <clueType>mediated</clueType> <linkCause>by</linkCause> <corefCause>the latent membrane protein-1</corefCause>, EBV nuclear proteins 2, 3, 4, and 6 genes.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="F1" idref1="F4" idref2="F6"/>
+<clue>The up-regulation of IL-1beta message could be <clueType>mediated</clueType> <linkCause>by</linkCause> <corefCause>the latent membrane protein-1</corefCause>, EBV nuclear proteins 2, 3, 4, and 6 genes.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="F1" idref1="F5" idref2="F6"/>
+<clue>The up-regulation of IL-1beta message could be <clueType>mediated</clueType> <linkCause>by</linkCause> <corefCause>the latent membrane protein-1</corefCause>, EBV nuclear proteins 2, 3, 4, and 6 genes.</clue>
+</event>
+<sentence id="S6"><term id="T24" lex="electrophoretic_mobility_shift_assay" sem="Other">Electrophoretic mobility shift assays</term> (<term id="T25" lex="EMSA" sem="Other">EMSAs</term>) demonstrated that the -300 region of the <term id="T26" lex="IL-1beta" sem="Protein_molecule">IL-1beta</term> promoter, which contains a <term id="T27" lex="nuclear_factor-kappaB_(NF-kappaB)_binding_site" sem="DNA_domain_or_region"><term id="T28" lex="nuclear_factor-kappaB" sem="Protein_complex">nuclear factor-kappaB</term> (<term id="T29" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>) binding site</term>, contained a <term id="T30" lex="functional_RBP_binding_site" sem="DNA_domain_or_region">functional RBP binding site</term>.</sentence>
+<sentence id="S7">Binding of <term id="A8" sem="Protein_molecule">RBP</term> to this site could be inhibited by addition of <cons id="T31" lex="(AND EBV_nuclear_protein_3 EBV_nuclear_protein_6)" sem="(AND Protein_molecule Protein_molecule)"><frag id="F7">EBV nuclear proteins</frag> <frag id="F8">3</frag> and <frag id="F9">6</frag></cons>, suggesting that these proteins displace <term id="T32" lex="RBP" sem="Protein_molecule">RBP</term> from its <term id="T33" lex="recognition_sequence" sem="DNA_domain_or_region">recognition sequence</term>, removing <term id="T34" lex="transcriptional_repression" sem="Other">transcriptional repression</term> and allowing <term id="A12" sem="Other">gene transcription</term> to occur.</sentence>
+<event KT="Other" id="E21">
+<type class="Binding"/>
+<theme idref="A8"/>
+<theme idref="T30"/>
+<clue><clueType>Binding</clueType> <linkTheme>of</linkTheme> RBP <linkTheme>to</linkTheme> <corefTheme>this site</corefTheme> could be inhibited by addition of EBV nuclear proteins 3 and 6, suggesting that these proteins displace RBP from its recognition sequence, removing transcriptional repression and allowing gene transcription to occur.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation"/>
+<theme idref="E21"/>
+<cause idref="F7" idref1="F8"/>
+<clue>Binding of RBP to this site could be <clueType>inhibited</clueType> <linkCause>by</linkCause> addition of EBV nuclear proteins 3 and 6, suggesting that these proteins displace RBP from its recognition sequence, removing transcriptional repression and allowing gene transcription to occur.</clue>
+</event>
+<event id="E39">
+<type class="Negative_regulation"/>
+<theme idref="E21"/>
+<cause idref="F7" idref1="F9"/>
+<clue>Binding of RBP to this site could be <clueType>inhibited</clueType> <linkCause>by</linkCause> addition of EBV nuclear proteins 3 and 6, suggesting that these proteins displace RBP from its recognition sequence, removing transcriptional repression and allowing gene transcription to occur.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E23">
+<type class="Negative_regulation"/>
+<theme idref="T32"/>
+<cause idref="F7" idref1="F8"/>
+<clue>Binding of RBP to this site could be inhibited by addition of EBV nuclear proteins 3 and 6, <clueKT><clueCL>suggesting</clueCL></clueKT> that <corefCause>these proteins</corefCause> <clueType>displace</clueType> RBP from its recognition sequence, removing transcriptional repression and allowing gene transcription to occur.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E24">
+<type class="Negative_regulation"/>
+<theme idref="T32"/>
+<cause idref="F7" idref1="F9"/>
+<clue>Binding of RBP to this site could be inhibited by addition of EBV nuclear proteins 3 and 6, <clueKT><clueCL>suggesting</clueCL></clueKT> that <corefCause>these proteins</corefCause> <clueType>displace</clueType> RBP from its recognition sequence, removing transcriptional repression and allowing gene transcription to occur.</clue>
+</event>
+<event KT="Other" id="E25">
+<type class="Negative_regulation"/>
+<theme idref="T34"/>
+<cause idref="E23"/>
+<clue>Binding of RBP to this site could be inhibited by addition of EBV nuclear proteins 3 and 6, suggesting that these proteins displace RBP from its recognition sequence, <clueType>removing</clueType> transcriptional repression and allowing gene transcription to occur.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Negative_regulation"/>
+<theme idref="T34"/>
+<cause idref="E24"/>
+<clue>Binding of RBP to this site could be inhibited by addition of EBV nuclear proteins 3 and 6, suggesting that these proteins displace RBP from its recognition sequence, <clueType>removing</clueType> transcriptional repression and allowing gene transcription to occur.</clue>
+</event>
+<event KT="Other" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="A12"/>
+<cause idref="E25"/>
+<clue>Binding of RBP to this site could be inhibited by addition of EBV nuclear proteins 3 and 6, suggesting that these proteins displace RBP from its recognition sequence, removing transcriptional repression and <clueType>allowing</clueType> gene transcription to occur.</clue>
+</event>
+<event KT="Other" id="E28">
+<type class="Positive_regulation"/>
+<theme idref="A12"/>
+<cause idref="E26"/>
+<clue>Binding of RBP to this site could be inhibited by addition of EBV nuclear proteins 3 and 6, suggesting that these proteins displace RBP from its recognition sequence, removing transcriptional repression and <clueType>allowing</clueType> gene transcription to occur.</clue>
+</event>
+<sentence id="S8">In <term id="T35" lex="group_I_BL_cell" sem="Cell_cultured">group I BL cells</term>, containing low levels of <term id="T36" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>, only <term id="T37" lex="RBP_binding" sem="Other"><term id="T38" lex="RBP" sem="Protein_molecule">RBP</term> binding</term> was observed in <term id="T39" lex="EMSA" sem="Other">EMSAs</term>, whereas <term id="T40" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> binding could be demonstrated in <term id="T41" lex="EBV-transformed_B_cell_line" sem="Cell_cultured"><term id="A13" sem="Virus">EBV</term>-transformed <term id="A14" sem="Cell_cultured">B cell lines</term></term> containing high levels of activated <term id="T42" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>.</sentence>
+<event id="E29">
+<type class="Binding"/>
+<theme idref="T38"/>
+<clue><clueLoc>In group I BL cells, containing low levels of NF-kappaB</clueLoc>, only RBP <clueType>binding</clueType> was <clueKT>observed</clueKT> <clueExperiment>in EMSAs</clueExperiment>, whereas NF-kappaB binding could be demonstrated in EBV-transformed B cell lines containing high levels of activated NF-kappaB.</clue>
+</event>
+<event KT="Analysis" id="E30">
+<type class="Binding"/>
+<theme idref="T40"/>
+<clue>In group I BL cells, containing low levels of NF-kappaB, only RBP binding was observed in EMSAs, whereas NF-kappaB <clueType>binding</clueType> could be <clueKT>demonstrated</clueKT> <clueLoc>in EBV-transformed B cell lines containing high levels of activated NF-kappaB</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E31">
+<type class="Biological_process"/>
+<theme idref="A14"/>
+<clue>In group I BL cells, containing low levels of NF-kappaB, only RBP binding was observed in EMSAs, whereas NF-kappaB binding could be demonstrated in EBV-<clueType>transformed</clueType> B cell lines containing high levels of activated NF-kappaB.</clue>
+</event>
+<event KT="Other" id="E45">
+<type class="Positive_regulation"/>
+<theme idref="E31"/>
+<cause idref="A13"/>
+<clue>In group I BL cells, containing low levels of NF-kappaB, only RBP binding was observed in EMSAs, whereas NF-kappaB binding could be demonstrated in EBV-<clueType>transformed</clueType> B cell lines containing high levels of activated NF-kappaB.</clue>
+</event>
+<event KT="Other" Manner="High" id="E32">
+<type class="Positive_regulation"/>
+<theme idref="T42"/>
+<clue>In group I BL cells, containing low levels of NF-kappaB, only RBP binding was observed in EMSAs, whereas NF-kappaB binding could be demonstrated <clueLoc>in EBV-transformed B cell lines</clueLoc> containing <clueManner>high levels of</clueManner> <clueType>activated</clueType> NF-kappaB.</clue>
+</event>
+<event KT="Other" id="E43">
+<type class="Positive_regulation"/>
+<theme idref="E32"/>
+<clue>In group I BL cells, containing low levels of NF-kappaB, only RBP binding was observed in EMSAs, whereas NF-kappaB binding could be demonstrated in EBV-transformed B cell lines containing <clueType>high levels</clueType> <linkTheme>of</linkTheme> activated NF-kappaB.</clue>
+</event>
+<sentence id="S9">In addition, the expression of <term id="T43" lex="latent_membrane_protein-1" sem="Protein_molecule">latent membrane protein-1</term> led to activation of <term id="T44" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> that was capable of binding the <term id="T45" lex="IL-1beta_promoter" sem="DNA_domain_or_region"><term id="T46" lex="IL-1beta" sem="Protein_molecule">IL-1beta</term> promoter</term>.</sentence>
+<event id="E33">
+<type class="Gene_expression"/>
+<theme idref="T43"/>
+<clue>In addition, the <clueType>expression</clueType> <linkTheme>of</linkTheme> latent membrane protein-1 led to activation of NF-kappaB that was capable of binding the IL-1beta promoter.</clue>
+</event>
+<event id="E34">
+<type class="Positive_regulation"/>
+<theme idref="E35"/>
+<cause idref="E33"/>
+<clue>In addition, the expression of latent membrane protein-1 <clueType>led</clueType> <linkTheme>to</linkTheme> activation of NF-kappaB that was capable of binding the IL-1beta promoter.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation"/>
+<theme idref="E36"/>
+<clue>In addition, the expression of latent membrane protein-1 led to <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappaB that was capable of binding the IL-1beta promoter.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E36">
+<type class="Binding"/>
+<theme idref="T44"/>
+<theme idref="T45"/>
+<clue>In addition, the expression of latent membrane protein-1 led to activation of NF-kappaB that was <clueKT><clueCL>capable</clueCL></clueKT> of <clueType>binding</clueType> the IL-1beta promoter.</clue>
+</event>
+<sentence id="S10">The study demonstrates that <term id="T47" lex="EBV" sem="Virus">EBV</term> can up-regulate <term id="T48" lex="IL-1beta_expression" sem="Other"><term id="T49" lex="IL-1beta" sem="Protein_molecule">IL-1beta</term> expression</term>, possibly by using <term id="T50" lex="RBP" sem="Protein_molecule">RBP</term>, <term id="T51" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>, or both.</sentence>
+<event CL="L2" KT="Analysis" id="E37">
+<type class="Positive_regulation"/>
+<theme idref="E38"/>
+<cause idref="E40"/>
+<clue>The study <clueKT>demonstrates</clueKT> that EBV <clueCL>can</clueCL> <clueType>up-regulate</clueType> IL-1beta expression, possibly by using RBP, NF-kappaB, or both.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E42">
+<type class="Positive_regulation"/>
+<theme idref="E38"/>
+<cause idref="E41"/>
+<clue>The study <clueKT>demonstrates</clueKT> that EBV <clueCL>can</clueCL> <clueType>up-regulate</clueType> IL-1beta expression, possibly by using RBP, NF-kappaB, or both.</clue>
+</event>
+<event KT="Other" id="E38">
+<type class="Gene_expression"/>
+<theme idref="T49"/>
+<clue>The study demonstrates that EBV can up-regulate IL-1beta <clueType>expression</clueType>, possibly by using RBP, NF-kappaB, or both.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E40" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="T50"/>
+<cause idref="T47"/>
+<clue>The study demonstrates that EBV can up-regulate IL-1beta expression, <clueKT><clueCL>possibly</clueCL></clueKT> <linkCause>by using</linkCause> RBP, NF-kappaB, or both.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event CL="L1" KT="Analysis" id="E41" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="T51"/>
+<cause idref="T47"/>
+<clue>The study demonstrates that EBV can up-regulate IL-1beta expression, <clueKT><clueCL>possibly</clueCL></clueKT> <linkCause>by using</linkCause> RBP, NF-kappaB, or both.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S11">Copyright 1998 Academic Press.</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

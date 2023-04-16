@@ -1,0 +1,36 @@
+T30	Potential_therapeutic_effect 129 138	treatment
+T37	Adverse_effect 501 510	developed
+T41	Potential_therapeutic_effect 785 791	taking
+T43	Adverse_effect 737 746	developed
+T46	Potential_therapeutic_effect 879 882;904 906	was on
+T50	Adverse_effect 987 996	displayed
+T54	Potential_therapeutic_effect 1331 1347	readministration
+T56	Adverse_effect 1391 1398	produce
+T62	Adverse_effect 1527 1531	lead
+T68	Potential_therapeutic_effect 31 46	switch reaction
+T70	Potential_therapeutic_effect 543 552	switching
+T71	Potential_therapeutic_effect 1051 1060	switching
+T31	Adverse_effect 1300 1317	adverse reactions
+T52	Potential_therapeutic_effect 308 317	switching
+R1	is_equivalent Arg1:T10 Arg2:T11
+R2	is_equivalent Arg1:T12 Arg2:T28
+R3	Subject_Disorder Arg1:T38 Arg2:T10
+R4	Subject_Disorder Arg1:T38 Arg2:T12
+R5	Coreference Arg1:T39 Arg2:T38
+R6	Coreference Arg1:T49 Arg2:T44
+E2	Potential_therapeutic_effect:T30 has_agent:T3 affects:T4
+E9	Adverse_effect:T37 has_subject:T27 affects:T35 has_agent:T9
+E10	Potential_therapeutic_effect:T41 has_agent:T14 has_subject:T39
+E12	Adverse_effect:T43 has_agent:T14 has_subject:T39 affects:T13 affects:T40
+E13	Potential_therapeutic_effect:T46 has_agent:T16 affects:T17 affects:T45 has_subject:T44
+E14	Adverse_effect:T50 has_subject:T49 affects:T18 affects:T48 affects:T47 has_agent:T19
+E17	Potential_therapeutic_effect:T54 has_agent:T21 has_subject:T55
+E18	Adverse_effect:T56 has_cue:T58 affects:T57 has_subject:T55 has_agent:T21
+E20	Adverse_effect:T62 has_cue:T61 has_agent:T23 affects:T60
+E24	Potential_therapeutic_effect:T68 has_agent:T2 has_subject:T26
+E26	Potential_therapeutic_effect:T70 has_agent:T9 has_subject:T27
+E27	Potential_therapeutic_effect:T71 has_agent:T19 has_subject:T49
+E3	Adverse_effect:T31 has_agent:T20
+E4	Potential_therapeutic_effect:T52 has_agent:T5 affects:T4
+A3	Negated E18
+A4	Speculated E20

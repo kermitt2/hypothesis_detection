@@ -1,0 +1,23 @@
+T45	Adverse_effect 55 64	receiving
+T10	Adverse_effect 1007 1020	suffered from
+T14	Adverse_effect 1051 1055	from
+T20	Adverse_effect 1077 1081	from
+T48	Adverse_effect 1449 1463	high incidence
+T52	Potential_therapeutic_effect 465 470	start
+T53	Potential_therapeutic_effect 566 573	receive
+T25	Adverse_effect 1699 1708	monitored
+E1	Combination:T40 has_participant:T30 has_participant:T32
+E2	Combination:T42 has_participant:T33 has_participant:T34
+E4	Combination:T46 has_participant:T1 has_participant:T2
+E8	Combination:T27 has_participant:T8 has_participant:T9
+E9	Combination:T28 has_participant:T4 has_participant:T5
+E14	Combination:T54 has_participant:T17 has_participant:T13
+E3	Adverse_effect:T45 has_agent:E4 has_subject:T16 affects:T44
+E5	Adverse_effect:T10 affects:T22 affects:T21 has_subject:T38 has_agent:T19
+E6	Adverse_effect:T14 affects:T23 has_subject:T3 has_agent:T19
+E7	Adverse_effect:T20 affects:T24 has_subject:T6 has_agent:T19
+E10	Adverse_effect:T48 affects:T35 has_agent:E1
+E12	Potential_therapeutic_effect:T52 has_agent:T12 has_subject:T11
+E13	Potential_therapeutic_effect:T53 has_subject:T15 has_agent:T13 has_agent:E14
+E11	Adverse_effect:T25 has_cue:T26 has_agent:E2
+A1	Speculated E11

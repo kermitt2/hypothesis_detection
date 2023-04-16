@@ -1,0 +1,18 @@
+T11	Adverse_effect 36 45	hazardous
+T48	DDI 212 220	interact
+T54	DDI 301 312	interaction
+T56	DDI 431 442	interaction
+E1	Combination:T7 has_participant:T1 has_participant:T3
+E5	DDI:T48 has_participant:T9 has_participant:T47
+E6	DDI:T48 has_participant:T8 has_participant:T47
+E7	DDI:T54 has_cue:T55 has_participant:T13 has_participant:T9
+E8	DDI:T56 has_participant:T15 has_participant:T16
+E9	DDI:T56 has_participant:T14 has_participant:T16
+E19	DDI:T54 has_cue:T55 has_participant:T13 has_participant:T8
+E20	Combination:T7 has_participant:T1 has_participant:T4
+E2	Adverse_effect:T11 has_cue:T29 has_agent:E1
+E21	Adverse_effect:T11 has_cue:T29 has_agent:E20
+A1	Speculated E2
+A2	Speculated E7
+A7	Speculated E21
+A8	Speculated E19

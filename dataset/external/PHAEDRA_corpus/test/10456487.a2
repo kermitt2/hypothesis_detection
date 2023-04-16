@@ -1,0 +1,12 @@
+T18	Adverse_effect 233 240	induced
+T55	Adverse_effect 1681 1688	induced
+T5	Potential_therapeutic_effect 1665 1672	reduces
+T6	Potential_therapeutic_effect 632 637	doses
+R1	Coreference Arg1:T47 Arg2:T30
+E15	Combination:T58 has_participant:T35 has_participant:T36
+E4	Combination:T9 has_participant:T17 has_participant:T15
+E3	Adverse_effect:T18 has_agent:T7 affects:T8
+E13	Adverse_effect:T55 has_agent:T36 affects:T37
+E1	Potential_therapeutic_effect:T5 has_agent:E15 affects:T37 has_cue:T4
+E2	Potential_therapeutic_effect:T6 has_subject:T47 has_agent:E4
+A1	Speculated E1

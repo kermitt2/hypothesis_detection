@@ -1,0 +1,291 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9060666" created="05/10/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9060666</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Alteration of <term id="A2" sem="Amino_acid_monomer">a single <term id="T1" lex="serine" sem="Amino_acid_monomer">serine</term> in the <term id="T2" lex="basic_domain" sem="Protein_domain_or_region">basic domain</term> of the <term id="T3" lex="Epstein-Barr_virus_ZEBRA_protein" sem="Protein_molecule"><term id="A1" sem="Virus">Epstein-Barr virus</term> ZEBRA protein</term></term> separates its functions of <term id="T4" lex="transcriptional_activation" sem="Other">transcriptional activation</term> and disruption of latency.</sentence>
+<event KT="Other" id="E1">
+<type class="Viral_life_cycle"/>
+<theme idref="A1"/>
+<clue>Alteration of a single serine in the basic domain of the Epstein-Barr virus ZEBRA protein separates its functions of transcriptional activation and disruption of <clueType>latency</clueType>.</clue>
+<comment>NO COREFTHEME, TPS A2</comment></event>
+<event id="E2">
+<type class="Negative_regulation"/>
+<theme idref="E1"/>
+<clue>Alteration of a single serine in the basic domain of the Epstein-Barr virus ZEBRA protein separates its functions of transcriptional activation and <clueType>disruption</clueType> <linkTheme>of</linkTheme> latency.</clue>
+</event>
+<event id="E3">
+<type class="Transcription"/>
+<theme idref="A1"/>
+<clue>Alteration of a single serine in the basic domain of the Epstein-Barr virus ZEBRA protein separates its functions of <clueType>transcriptional</clueType> activation and disruption of latency.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event KT="Method" id="E4">
+<type class="Mutagenesis"/>
+<theme idref="A2"/>
+<clue><clueType>Alteration</clueType> <linkTheme>of</linkTheme> a single serine in the basic domain of the Epstein-Barr virus ZEBRA protein separates its functions of transcriptional activation and disruption of latency.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event id="E5">
+<type class="Regulation"/>
+<theme idref="E2"/>
+<cause idref="E4"/>
+<clue>Alteration of a single serine in the basic domain of the Epstein-Barr virus ZEBRA protein <clueType>separates its functions</clueType> <linkTheme>of</linkTheme> transcriptional activation and disruption of latency.</clue>
+</event>
+<event id="E6">
+<type class="Regulation"/>
+<theme idref="E3"/>
+<cause idref="E4"/>
+<clue>Alteration of a single serine in the basic domain of the Epstein-Barr virus ZEBRA protein <clueType>separates its functions</clueType> <linkTheme>of</linkTheme> transcriptional activation and disruption of latency.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T5" lex="ZEBRA_protein" sem="Protein_molecule">ZEBRA protein</term> from <term id="T6" lex="Epstein-Barr_virus" sem="Virus">Epstein-Barr virus</term> (<term id="T7" lex="EBV" sem="Virus">EBV</term>) activates a switch from the latent to the <term id="T8" lex="lytic_expression_program" sem="Other">lytic expression program</term> of the <term id="T9" lex="virus" sem="Virus">virus</term>.</sentence>
+<event KT="Other" id="E117">
+<type class="Gene_expression"/>
+<theme idref="T7"/>
+<clue>The ZEBRA protein from Epstein-Barr virus (EBV) activates a switch from the latent to the lytic <clueType>expression program</clueType> <linkTheme>of</linkTheme> <corefTheme>the virus</corefTheme>.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Regulation"/>
+<theme idref="E117"/>
+<clue>The ZEBRA protein from Epstein-Barr virus (EBV) activates a <clueType>switch from the latent to the lytic</clueType> expression program of the virus.</clue>
+</event>
+<event KT="Fact" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="T5"/>
+<clue>The ZEBRA protein from Epstein-Barr virus (EBV) <clueType>activates</clueType> a switch from the latent to the lytic expression program of the virus.</clue>
+</event>
+<sentence id="S3"><term id="T10" lex="ZEBRA" sem="Protein_molecule">ZEBRA</term>, a member of the <term id="T11" lex="bZIP_family" sem="Protein_family_or_group">bZIP family</term> of <term id="T12" lex="DNA-binding_protein" sem="Protein_family_or_group"><term id="A3" sem="DNA_domain_or_region">DNA</term>-binding proteins</term>, is a transcriptional activator capable of inducing expression from <term id="T13" lex="viral_lytic_cycle_promoter" sem="DNA_domain_or_region">viral lytic cycle promoters</term>.</sentence>
+<event KT="Other" id="E9">
+<type class="Gene_expression"/>
+<theme idref="T13"/>
+<clue>ZEBRA, a member of the bZIP family of DNA-binding proteins, is a transcriptional activator capable of inducing <clueType>expression</clueType> <linkTheme>from</linkTheme> viral lytic cycle promoters.</clue>
+</event>
+<event KT="Fact" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="T10"/>
+<clue>ZEBRA, a member of the bZIP family of DNA-binding proteins, <clueType>is a transcriptional activator capable of inducing</clueType> expression from viral lytic cycle promoters.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Binding"/>
+<theme idref="T10"/>
+<theme idref="A3"/>
+<clue>ZEBRA, a member of the bZIP family of DNA-<clueType>binding</clueType> proteins, is a transcriptional activator capable of inducing expression from viral lytic cycle promoters.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Binding"/>
+<theme idref="T11"/>
+<theme idref="A3"/>
+<clue>ZEBRA, a member of the bZIP family of DNA-<clueType>binding</clueType> proteins, is a transcriptional activator capable of inducing expression from viral lytic cycle promoters.</clue>
+</event>
+<sentence id="S4">It had previously been thought that <term id="T14" lex="ZEBRA" sem="Protein_molecule">ZEBRA</term>&apos;s capacity to disrupt <term id="T15" lex="EBV" sem="Virus">EBV</term> latency resided primarily in its ability to activate transcription of <term id="A5" sem="DNA_domain_or_region">genes that encode <term id="A4" sem="Protein_family_or_group">products</term> required for <term id="T16" lex="lytic_replication" sem="Other">lytic replication</term></term>.</sentence>
+<event KT="Other" id="E13">
+<type class="Viral_life_cycle"/>
+<theme idref="T15"/>
+<clue>It had previously been thought that ZEBRA&apos;s capacity to disrupt EBV <clueType>latency</clueType> resided primarily in its ability to activate transcription of genes that encode products required for lytic replication.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E14">
+<type class="Negative_regulation"/>
+<theme idref="E13"/>
+<cause idref="T14"/>
+<clue>It had previously been thought that ZEBRA&apos;s <clueType><clueKT><clueCL>capacity</clueCL></clueKT> to disrupt</clueType> EBV latency resided primarily in its ability to activate transcription of genes that encode products required for lytic replication.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="T16"/>
+<cause idref="A4"/>
+<clue>It had previously been thought that ZEBRA&apos;s capacity to disrupt EBV latency resided primarily in its ability to activate transcription of genes that encode products <clueType>required</clueType> <linkTheme>for</linkTheme> lytic replication.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Transcription"/>
+<theme idref="A5"/>
+<clue>It had previously been thought that ZEBRA&apos;s capacity to disrupt EBV latency resided primarily in its ability to activate <clueType>transcription</clueType> <linkTheme>of</linkTheme> genes that encode products required for lytic replication.</clue>
+<comment>TPS A5</comment></event>
+<event CL="L2" KT="Analysis" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<cause idref="T14"/>
+<clue>It had previously been thought that ZEBRA&apos;s capacity to disrupt EBV latency resided primarily in <corefCause>its <clueKT><clueCL>ability</clueCL></clueKT></corefCause> <clueType>to activate</clueType> transcription of genes that encode products required for lytic replication.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="E17"/>
+<clue>It had <clueSource>previously</clueSource> been <clueKT>thought</clueKT> that ZEBRA&apos;s capacity to disrupt EBV latency <clueType>resided</clueType> primarily <linkCause>in</linkCause> its ability to activate transcription of genes that encode products required for lytic replication.</clue>
+</event>
+<sentence id="S5">We generated a point mutant of <term id="T17" lex="ZEBRA" sem="Protein_molecule">ZEBRA</term>, <term id="T18" lex="Z(S186A)" sem="Protein_molecule">Z(S186A)</term>, that was not impaired in its ability to activate <term id="T19" lex="transcription" sem="Other">transcription</term>; however, this <term id="T20" lex="mutation" sem="Other">mutation</term> abolished its ability to initiate the <term id="T21" lex="viral_lytic_cascade" sem="Other">viral lytic cascade</term>.</sentence>
+<event KT="Method" id="E19">
+<type class="Mutagenesis"/>
+<theme idref="T17"/>
+<clue>We generated a <clueType>point mutant</clueType> <linkTheme>of</linkTheme> ZEBRA, Z(S186A), that was not impaired in its ability to activate transcription; however, this mutation abolished its ability to initiate the viral lytic cascade.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event CL="L2" KT="Analysis" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="T19"/>
+<cause idref="T17"/>
+<clue>We generated a point mutant of ZEBRA, Z(S186A), that was not impaired in <corefCause>its <clueKT><clueCL>ability</clueCL></clueKT></corefCause> <clueType>to activate</clueType> transcription; however, this mutation abolished its ability to initiate the viral lytic cascade.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E21">
+<type class="Negative_regulation"/>
+<theme idref="E20"/>
+<cause idref="E19"/>
+<clue>We generated a point mutant of ZEBRA, Z(S186A), that was <cluePolarity>not</cluePolarity> <clueType>impaired</clueType> <linkTheme>in</linkTheme> its ability to activate transcription; however, this mutation abolished its ability to initiate the viral lytic cascade.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E122"/>
+<cause idref="T17"/>
+<clue>We generated a point mutant of ZEBRA, Z(S186A), that was not impaired in its ability to activate transcription; however, this mutation abolished <corefCause>its ability</corefCause> <clueType>to initiate</clueType> the viral lytic cascade.</clue>
+</event>
+<event KT="Other" id="E122">
+<type class="Viral_life_cycle"/>
+<theme idref="T15"/>
+<clue>We generated a point mutant of ZEBRA, Z(S186A), that was not impaired in its ability to activate transcription; however, this mutation abolished its ability to initiate <corefTheme>the viral</corefTheme> <clueType>lytic cascade</clueType>.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation"/>
+<theme idref="E22"/>
+<cause idref="E19"/>
+<clue>We generated a point mutant of ZEBRA, Z(S186A), that was not impaired in its ability to activate transcription; however, <corefCause>this mutation</corefCause> <clueType>abolished</clueType> its ability to initiate the viral lytic cascade.</clue>
+</event>
+<sentence id="S6"><term id="A6" sem="Protein_molecule">The mutant, containing a <term id="T22" lex="serine-to-alanine_substitution" sem="Other"><term id="T23" lex="serine" sem="Amino_acid_monomer">serine</term>-to-<term id="T24" lex="alanine" sem="Amino_acid_monomer">alanine</term> substitution</term> in the <term id="T25" lex="DNA-binding_domain" sem="Protein_domain_or_region">DNA-binding domain</term> of the protein</term>, bound to several known <term id="T26" lex="ZEBRA-binding_site" sem="DNA_domain_or_region"><term id="T27" lex="ZEBRA" sem="Protein_molecule">ZEBRA</term>-binding sites</term> and activated <term id="T28" lex="transcription" sem="Other">transcription</term> from reporters bearing known <term id="T29" lex="ZEBRA-responsive_promoter" sem="DNA_domain_or_region"><term id="T30" lex="ZEBRA" sem="Protein_molecule">ZEBRA</term>-responsive promoters</term> but did not disrupt <term id="A7" sem="Other">latency</term> in <term id="T31" lex="EBV-infected_cell_lines" sem="Cell_cultured"><term id="T32" lex="EBV" sem="Virus">EBV</term>-infected cell lines</term>.</sentence>
+<event id="E24">
+<type class="Binding"/>
+<theme idref="A6"/>
+<theme idref="T26"/>
+<clue>The mutant, containing a serine-to-alanine substitution in the DNA-binding domain of the protein, <clueType>bound</clueType> <linkTheme>to</linkTheme> several known ZEBRA-binding sites and activated transcription from reporters bearing known ZEBRA-responsive promoters but did not disrupt latency in EBV-infected cell lines.</clue>
+<comment>TPS A6</comment></event>
+<event id="E25">
+<type class="Transcription"/>
+<theme idref="T29"/>
+<clue>The mutant, containing a serine-to-alanine substitution in the DNA-binding domain of the protein, bound to several known ZEBRA-binding sites and activated <clueType>transcription</clueType> <linkTheme>from</linkTheme> reporters bearing known ZEBRA-responsive promoters but did not disrupt latency in EBV-infected cell lines.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation"/>
+<theme idref="E25"/>
+<cause idref="A6"/>
+<clue>The mutant, containing a serine-to-alanine substitution in the DNA-binding domain of the protein, bound to several known ZEBRA-binding sites and <clueType>activated</clueType> transcription from reporters bearing known ZEBRA-responsive promoters but did not disrupt latency in EBV-infected cell lines.</clue>
+</event>
+<event id="E127">
+<type class="Viral_life_cycle"/>
+<theme idref="T32"/>
+<clue>The mutant, containing a serine-to-alanine substitution in the DNA-binding domain of the protein, bound to several known ZEBRA-binding sites and activated transcription from reporters bearing known ZEBRA-responsive promoters but did not disrupt <clueType>latency</clueType> <clueLoc>in EBV-infected cell lines</clueLoc>.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E27">
+<type class="Regulation"/>
+<theme idref="E127"/>
+<cause idref="A6"/>
+<clue>The mutant, containing a serine-to-alanine substitution in the DNA-binding domain of the protein, bound to several known ZEBRA-binding sites and activated transcription from reporters bearing known ZEBRA-responsive promoters but did <cluePolarity>not</cluePolarity> <clueType>disrupt</clueType> latency in EBV-infected cell lines.</clue>
+</event>
+<event id="E128">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T32"/>
+<clue>The mutant, containing a serine-to-alanine substitution in the DNA-binding domain of the protein, bound to several known ZEBRA-binding sites and activated transcription from reporters bearing known ZEBRA-responsive promoters but did not disrupt latency in EBV-<clueType>infected</clueType> cell lines.</clue>
+</event>
+<sentence id="S7">Therefore, initiation of the <term id="T33" lex="EBV" sem="Virus">EBV</term> <term id="T34" lex="lytic_cycle" sem="Other">lytic cycle</term> by the <term id="T35" lex="ZEBRA_protein" sem="Protein_molecule"><term id="T36" lex="ZEBRA" sem="Protein_molecule">ZEBRA</term> protein</term> requires a function in addition to <term id="T37" lex="transcriptional_activation" sem="Other">transcriptional activation</term>; a change of <term id="T38" lex="serine_186" sem="Amino_acid_monomer">serine 186</term> to <term id="T39" lex="alanine" sem="Amino_acid_monomer">alanine</term> in the <term id="A8" sem="Protein_domain_or_region"><term id="T40" lex="DNA-binding_domain" sem="Protein_domain_or_region">DNA-binding domain</term> of <term id="T41" lex="ZEBRA" sem="Protein_molecule">ZEBRA</term></term> abolished this additional function and uncovered a new role for the <term id="T42" lex="ZEBRA_protein" sem="Protein_molecule"><term id="T43" lex="ZEBRA" sem="Protein_molecule">ZEBRA</term> protein</term> in disruption of <term id="T44" lex="EBV" sem="Virus">EBV</term> latency.</sentence>
+<event KT="Other" id="E28">
+<type class="Viral_life_cycle"/>
+<theme idref="T33"/>
+<clue>Therefore, initiation of the EBV <clueType>lytic cycle</clueType> by the ZEBRA protein requires a function in addition to transcriptional activation; a change of serine 186 to alanine in the DNA-binding domain of ZEBRA abolished this additional function and uncovered a new role for the ZEBRA protein in disruption of EBV latency.</clue>
+<comment>TPS A8</comment></event>
+<event KT="Other" id="E29">
+<type class="Positive_regulation"/>
+<theme idref="E28"/>
+<cause idref="T35"/>
+<clue>Therefore, <clueType>initiation</clueType> <linkTheme>of</linkTheme> the EBV lytic cycle <linkCause>by</linkCause> the ZEBRA protein requires a function in addition to transcriptional activation; a change of serine 186 to alanine in the DNA-binding domain of ZEBRA abolished this additional function and uncovered a new role for the ZEBRA protein in disruption of EBV latency.</clue>
+</event>
+<event KT="Other" id="E30">
+<type class="Positive_regulation"/>
+<theme idref="T33"/>
+<cause idref="T35"/>
+<clue>Therefore, initiation of the EBV lytic cycle by the ZEBRA protein requires a function in addition to <clueType>transcriptional activation</clueType>; a change of serine 186 to alanine in the DNA-binding domain of ZEBRA abolished this additional function and uncovered a new role for the ZEBRA protein in disruption of EBV latency.</clue>
+<comment>NO COREFTHEME, NO CPREFCAUSE</comment></event>
+<event KT="Other" id="E31">
+<type class="Regulation"/>
+<cause idref="T35"/>
+<clue>Therefore, initiation of the EBV lytic cycle by the ZEBRA protein requires a <clueType>function</clueType> in addition to transcriptional activation; a change of serine 186 to alanine in the DNA-binding domain of ZEBRA abolished this additional function and uncovered a new role for the ZEBRA protein in disruption of EBV latency.</clue>
+<comment>NOCOREFCAUSE</comment></event>
+<event KT="Analysis" id="E32">
+<type class="Regulation"/>
+<theme idref="E29"/>
+<cause idref="E30"/>
+<cause idref="E31"/>
+<clue><clueKT>Therefore</clueKT>, initiation of the EBV lytic cycle by the ZEBRA protein <clueType>requires</clueType> a function <linkCause>in addition to</linkCause> transcriptional activation; a change of serine 186 to alanine in the DNA-binding domain of ZEBRA abolished this additional function and uncovered a new role for the ZEBRA protein in disruption of EBV latency.</clue>
+</event>
+<event KT="Method" id="E33">
+<type class="Mutagenesis"/>
+<theme idref="A8"/>
+<clue>Therefore, initiation of the EBV lytic cycle by the ZEBRA protein requires a function in addition to transcriptional activation; a <clueType>change of serine 186 to alanine</clueType> <linkTheme>in</linkTheme> the DNA-binding domain of ZEBRA abolished this additional function and uncovered a new role for the ZEBRA protein in disruption of EBV latency.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event id="E34">
+<type class="Regulation"/>
+<theme idref="E31"/>
+<cause idref="E33"/>
+<clue>Therefore, initiation of the EBV lytic cycle by the ZEBRA protein requires a function in addition to transcriptional activation; a change of serine 186 to alanine in the DNA-binding domain of ZEBRA <clueType>abolished</clueType> <corefTheme>this additional function</corefTheme> and uncovered a new role for the ZEBRA protein in disruption of EBV latency.</clue>
+</event>
+<event KT="Other" id="E35">
+<type class="Viral_life_cycle"/>
+<theme idref="T44"/>
+<clue>Therefore, initiation of the EBV lytic cycle by the ZEBRA protein requires a function in addition to transcriptional activation; a change of serine 186 to alanine in the DNA-binding domain of ZEBRA abolished this additional function and uncovered a new role for the ZEBRA protein in disruption of EBV <clueType>latency</clueType>.</clue>
+</event>
+<event KT="Other" id="E36">
+<type class="Regulation"/>
+<theme idref="E35"/>
+<clue>Therefore, initiation of the EBV lytic cycle by the ZEBRA protein requires a function in addition to transcriptional activation; a change of serine 186 to alanine in the DNA-binding domain of ZEBRA abolished this additional function and uncovered a new role for the ZEBRA protein in <clueType>disruption</clueType> <linkTheme>of</linkTheme> EBV latency.</clue>
+</event>
+<event KT="Analysis" id="E37">
+<type class="Regulation"/>
+<theme idref="E36"/>
+<cause idref="T42"/>
+<clue>Therefore, initiation of the EBV lytic cycle by the ZEBRA protein requires a function in addition to transcriptional activation; a change of serine 186 to alanine in the DNA-binding domain of ZEBRA abolished this additional function and <clueKT>uncovered</clueKT> a new <clueType>role</clueType> <linkCause>for</linkCause> the ZEBRA protein <linkTheme>in</linkTheme> disruption of EBV latency.</clue>
+</event>
+<sentence id="S8">The additional function that is required for initiation of the <term id="A9" sem="Other">lytic viral life cycle</term> is likely to require <term id="T45" lex="phosphorylation" sem="Other">phosphorylation</term> of <term id="A11" sem="Amino_acid_monomer"><term id="A109" sem="Amino_acid_monomer"><term id="T46" lex="serine" sem="Amino_acid_monomer">serine</term> 186</term> of the <term id="T47" lex="ZEBRA_protein" sem="Protein_molecule"><term id="T48" lex="ZEBRA" sem="Protein_molecule">ZEBRA</term> protein</term></term>, which may influence either <term id="A10" sem="DNA_domain_or_region">DNA</term> recognition or <term id="T49" lex="transcriptional_activation" sem="Other">transcriptional activation</term> of <term id="T50" lex="lytic_viral_promoter" sem="DNA_domain_or_region">lytic viral promoters</term> in a <term id="T51" lex="chromatinized_viral_episome" sem="DNA_domain_or_region">chromatinized viral episome</term>.</sentence>
+<event KT="Other" id="E38">
+<type class="Positive_regulation"/>
+<theme idref="A9"/>
+<clue>The additional function that is required for <clueType>initiation</clueType> <linkTheme>of</linkTheme> the lytic viral life cycle is likely to require phosphorylation of serine 186 of the ZEBRA protein, which may influence either DNA recognition or transcriptional activation of lytic viral promoters in a chromatinized viral episome.</clue>
+<comment>TPS A11</comment></event>
+<event KT="Other" id="E39">
+<type class="Positive_regulation"/>
+<theme idref="E38"/>
+<cause idref="E31"/>
+<clue><corefCause>The additional function</corefCause> that is <clueType>required</clueType> <linkTheme>for</linkTheme> initiation of the lytic viral life cycle is likely to require phosphorylation of serine 186 of the ZEBRA protein, which may influence either DNA recognition or transcriptional activation of lytic viral promoters in a chromatinized viral episome.</clue>
+</event>
+<event KT="Other" id="E40">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T47"/>
+<site idref="A109"/>
+<clue>The additional function that is required for initiation of the lytic viral life cycle is likely to require <clueType>phosphorylation</clueType> of serine 186 <linkTheme>of</linkTheme> the ZEBRA protein, which may influence either DNA recognition or transcriptional activation of lytic viral promoters in a chromatinized viral episome.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E41">
+<type class="Positive_regulation"/>
+<theme idref="E31"/>
+<cause idref="E40"/>
+<clue>The additional function that is required for initiation of the lytic viral life cycle is <clueKT><clueCL>likely</clueCL></clueKT> to <clueType>require</clueType> phosphorylation of serine 186 of the ZEBRA protein, which may influence either DNA recognition or transcriptional activation of lytic viral promoters in a chromatinized viral episome.</clue>
+</event>
+<event KT="Other" id="E42">
+<type class="Binding"/>
+<theme idref="T47"/>
+<theme idref="A10"/>
+<clue>The additional function that is required for initiation of the lytic viral life cycle is likely to require phosphorylation of serine 186 of the ZEBRA protein, which may influence either DNA <clueType>recognition</clueType> or transcriptional activation of lytic viral promoters in a chromatinized viral episome.</clue>
+</event>
+<event KT="Other" id="E43">
+<type class="Positive_regulation"/>
+<theme idref="T50"/>
+<clue>The additional function that is required for initiation of the lytic viral life cycle is likely to require phosphorylation of serine 186 of the ZEBRA protein, which may influence either DNA recognition or <clueType>transcriptional activation</clueType> <linkTheme>of</linkTheme> lytic viral promoters in a chromatinized viral episome.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E44" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E42"/>
+<cause idref="E40"/>
+<clue>The additional function that is required for initiation of the lytic viral life cycle is likely to require phosphorylation of serine 186 of the ZEBRA protein, which <clueKT><clueCL>may</clueCL></clueKT> <clueType>influence</clueType> either DNA recognition or transcriptional activation of lytic viral promoters in a chromatinized viral episome.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E45" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E43"/>
+<cause idref="E40"/>
+<clue>The additional function that is required for initiation of the lytic viral life cycle is likely to require phosphorylation of serine 186 of the ZEBRA protein, which <clueKT><clueCL>may</clueCL></clueKT> <clueType>influence</clueType> either DNA recognition or transcriptional activation of lytic viral promoters in a chromatinized viral episome.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

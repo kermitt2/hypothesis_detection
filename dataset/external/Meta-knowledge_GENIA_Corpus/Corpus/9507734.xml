@@ -1,0 +1,221 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9507734" created="04/04/06" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9507734</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="xenogeneic_human_serum" sem="Tissue_natural">Xenogeneic human serum</term> promotes <term id="T2" lex="leukocyte_adhesion" sem="Other"><term id="A1" sem="Cell_natural">leukocyte</term> adhesion</term> to <term id="T3" lex="porcine_endothelium" sem="Tissue_natural">porcine endothelium</term> under flow conditions, possibly through the activation of the <term id="T4" lex="transcription_factor_NF-kappa_B" sem="Protein_complex">transcription factor NF-kappa B</term>.</sentence>
+<event id="E1">
+<type class="Cell_adhesion"/>
+<theme idref="T3"/>
+<theme idref="A1"/>
+<clue>Xenogeneic human serum promotes leukocyte <clueType>adhesion</clueType> <linkTheme>to</linkTheme> porcine endothelium under flow conditions, possibly through the activation of the transcription factor NF-kappa B.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E2" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T4"/>
+<cause idref="T1"/>
+<clue>Xenogeneic human serum promotes leukocyte adhesion to porcine endothelium under flow conditions, <clueKT><clueCL>possibly</clueCL></clueKT> through the <clueType>activation</clueType> <linkTheme>of</linkTheme> the transcription factor NF-kappa B.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="E2"/>
+<clue>Xenogeneic human serum <clueType>promotes</clueType> leukocyte adhesion to porcine endothelium under flow conditions, possibly through the activation of the transcription factor NF-kappa B.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T5" lex="endothelial_cell_activation" sem="Other"><term id="A2" sem="Cell_natural">Endothelial cell</term> activation</term> and <term id="T6" lex="leukocyte_infiltration" sem="Other"><term id="A3" sem="Cell_natural">leukocyte</term> infiltration</term> are a consistent feature of <term id="T7" lex="discordant_xenograft_rejection" sem="Other">discordant <term id="A4" sem="Body_region">xenograft</term> rejection</term>.</sentence>
+<event KT="Fact" id="E4">
+<type class="Physiological_process"/>
+<theme idref="A2"/>
+<clue>Endothelial cell <clueType>activation</clueType> and leukocyte infiltration are a consistent feature of discordant xenograft rejection.</clue>
+</event>
+<event KT="Fact" id="E5">
+<type class="Cellular_physiological_process"/>
+<theme idref="A3"/>
+<clue>Endothelial cell activation and leukocyte <clueType>infiltration</clueType> are a consistent feature of discordant xenograft rejection.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Physiological_process"/>
+<theme idref="A4"/>
+<clue>Endothelial cell activation and leukocyte infiltration are a consistent feature of discordant xenograft <clueType>rejection</clueType>.</clue>
+</event>
+<sentence id="S3">Here we evaluated whether <term id="T8" lex="xenogeneic_serum" sem="Tissue_natural">xenogeneic serum</term>, as a source of <term id="T9" lex="xenoreactive_natural_antibody" sem="Protein_family_or_group">xenoreactive natural antibodies</term> and complement, induced <term id="A5" sem="Cell_natural">endothelial cell</term> activation with consequent <term id="T10" lex="leukocyte_adhesion" sem="Other"><term id="A6" sem="Cell_natural">leukocyte</term> adhesion</term> under flow conditions.</sentence>
+<event KT="Other" id="E10">
+<type class="Physiological_process"/>
+<theme idref="A5"/>
+<clue>Here we evaluated whether xenogeneic serum, as a source of xenoreactive natural antibodies and complement, induced endothelial cell <clueType>activation</clueType> with consequent leukocyte adhesion under flow conditions.</clue>
+</event>
+<event KT="Investigation" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="T8"/>
+<clue>Here we <clueKT>evaluated</clueKT> whether xenogeneic serum, as a source of xenoreactive natural antibodies and complement, <clueType>induced</clueType> endothelial cell activation with consequent leukocyte adhesion under flow conditions.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Cell_adhesion"/>
+<theme idref="A6"/>
+<clue>Here we evaluated whether xenogeneic serum, as a source of xenoreactive natural antibodies and complement, induced endothelial cell activation with consequent leukocyte <clueType>adhesion</clueType> <clueExperiment>under flow conditions</clueExperiment>.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="E11"/>
+<clue>Here we evaluated whether xenogeneic serum, as a source of xenoreactive natural antibodies and complement, induced endothelial cell activation <clueType>with consequent</clueType> leukocyte adhesion under flow conditions.</clue>
+</event>
+<sentence id="S4"><term id="T11" lex="porcine_aortic_endothelial_cell" sem="Cell_cultured">Porcine aortic endothelial cells</term> (<term id="T12" lex="PAEC" sem="Cell_cultured">PAEC</term>) were incubated for 1 hr 30 min or 5 hr with 10% <term id="T13" lex="homologous_porcine_serum" sem="Tissue_natural">homologous porcine serum</term> (control) or 10% <term id="T14" lex="xenogeneic_human_serum" sem="Tissue_natural">xenogeneic human serum</term> and then perfused with total <term id="T15" lex="human_leukocyte" sem="Cell_natural">human leukocytes</term> in a <term id="T16" lex="parallel_plate_flow_chamber" sem="Other">parallel plate flow chamber</term> under laminar flow (1.5 dynes/cm2).</sentence>
+<event KT="Method" id="E14">
+<type class="Artificial_process"/>
+<theme idref="T12"/>
+<theme idref="T13"/>
+<clue>Porcine aortic endothelial cells (PAEC) were <clueType>incubated</clueType> <clueTime>for 1 hr 30 min or 5 hr</clueTime> <linkTheme>with</linkTheme> 10% homologous porcine serum (control) or 10% xenogeneic human serum and then perfused with total human leukocytes in a parallel plate flow chamber under laminar flow (1.5 dynes/cm2).</clue>
+</event>
+<event KT="Method" id="E39">
+<type class="Artificial_process"/>
+<theme idref="T12"/>
+<theme idref="T14"/>
+<clue>Porcine aortic endothelial cells (PAEC) were <clueType>incubated</clueType> <clueTime>for 1 hr 30 min or 5 hr</clueTime> <linkTheme>with</linkTheme> 10% homologous porcine serum (control) or 10% xenogeneic human serum and then perfused with total human leukocytes in a parallel plate flow chamber under laminar flow (1.5 dynes/cm2).</clue>
+</event>
+<event KT="Method" id="E15">
+<type class="Artificial_process"/>
+<theme idref="T12"/>
+<clue>Porcine aortic endothelial cells (PAEC) were incubated for 1 hr 30 min or 5 hr with 10% homologous porcine serum (control) or 10% xenogeneic human serum and then <clueType>perfused</clueType> <linkTheme>with</linkTheme> total human leukocytes in a parallel plate flow chamber under laminar flow (1.5 dynes/cm2).</clue>
+</event>
+<sentence id="S5">Adherent <term id="A7" sem="Cell_cultured">cells</term> were counted by <term id="T17" lex="digital_image_analysis" sem="Other">digital image analysis</term>.</sentence>
+<event KT="Investigation" id="E16" uncertainty="doubtful">
+<type class="Cell_adhesion"/>
+<theme idref="A7"/>
+<clue><clueType>Adherent</clueType> cells were <clueKT>counted</clueKT> <clueExperiment>by digital image analysis</clueExperiment>.</clue>
+</event>
+<sentence id="S6"><term id="T18" lex="xenogeneic_human_serum" sem="Tissue_natural">Xenogeneic human serum</term> significantly (P &lt; 0.01) increased the number of <term id="T19" lex="adherent_leukocyte" sem="Cell_natural">adherent leukocytes</term> as compared with <term id="T20" lex="porcine_serum" sem="Tissue_natural">porcine serum</term>.</sentence>
+<event Manner="High" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="T19"/>
+<cause idref="T18"/>
+<clue>Xenogeneic human serum <clueManner>significantly</clueManner> (P &lt; 0.01) <clueType>increased</clueType> the number <linkTheme>of</linkTheme> adherent leukocytes as compared with porcine serum.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation"/>
+<theme idref="T19"/>
+<cause idref="T20"/>
+<clue>Xenogeneic human serum significantly (P &lt; 0.01) <clueType>increased</clueType> the number <linkTheme>of</linkTheme> adherent leukocytes as compared with porcine serum.</clue>
+</event>
+<sentence id="S7">A similar adhesive response was elicited by <term id="A8" sem="Protein_family_or_group">TNF alpha</term> (100 U/ml), one of the most potent inducers of <term id="T21" lex="endothelial_cell_adhesive_property" sem="Other"><term id="T22" lex="endothelial_cell" sem="Cell_natural">endothelial cell</term> adhesive properties</term>, here used as positive control.</sentence>
+<event id="E19">
+<type class="Positive_regulation"/>
+<theme idref="T19"/>
+<cause idref="A8"/>
+<clue>A similar <corefTheme>adhesive response</corefTheme> was <clueType>elicited</clueType> <linkCause>by</linkCause> TNF alpha (100 U/ml), one of the most potent inducers of endothelial cell adhesive properties, here used as positive control.</clue>
+</event>
+<event KT="Fact" Manner="High" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="T21"/>
+<cause idref="A8"/>
+<clue>A similar adhesive response was elicited by TNF alpha (100 U/ml), <clueManner>one of the most potent</clueManner> <clueType>inducers</clueType> <linkTheme>of</linkTheme> endothelial cell adhesive properties, here used as positive control.</clue>
+</event>
+<sentence id="S8">In order to elucidate possible mechanisms underlying <term id="T23" lex="endothelial_cell_activation" sem="Other"><term id="T24" lex="endothelial_cell" sem="Cell_natural">endothelial cell</term> activation</term> by <term id="T25" lex="xenogeneic_serum" sem="Tissue_natural">xenogeneic serum</term>, we focussed on <term id="T26" lex="transcription_factor_NF-kappa_B" sem="Protein_complex">transcription factor <term id="T27" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term></term>, a central regulator for the induction of different genes, including <term id="T28" lex="adhesive_molecule" sem="Protein_family_or_group">adhesive molecules</term> and <term id="T29" lex="chemoattractant" sem="Protein_family_or_group">chemoattractants</term>.</sentence>
+<event KT="Investigation" id="E21">
+<type class="Physiological_process"/>
+<theme idref="T24"/>
+<cause idref="T25"/>
+<clue><clueKT>In order to elucidate</clueKT> possible mechanisms underlying endothelial cell <clueType>activation</clueType> <linkCause>by</linkCause> xenogeneic serum, we focussed on transcription factor NF-kappa B, a central regulator for the induction of different genes, including adhesive molecules and chemoattractants.</clue>
+</event>
+<sentence id="S9">By <term id="T30" lex="confocal_fluorescence_microscopy" sem="Other">confocal fluorescence microscopy</term>, we observed a positive staining for <term id="A50" sem="Protein_molecule"><term id="T31" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> (<term id="T32" lex="p65_subunit" sem="Protein_molecule">p65 subunit</term></term>) in the <term id="T33" lex="nucleus" sem="Cell_component">nuclei</term> of <term id="T34" lex="PAEC" sem="Cell_cultured">PAEC</term> exposed for 1 hr 30 min to <term id="T35" lex="human_serum" sem="Tissue_natural">human serum</term>, which indicated <term id="T36" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> activation in this setting.</sentence>
+<event id="E22">
+<type class="Gene_expression"/>
+<theme idref="A50"/>
+<clue><clueExperiment>By confocal fluorescence microscopy</clueExperiment>, we <clueKT>observed</clueKT> a <clueType>positive staining</clueType> <linkTheme>for</linkTheme> NF-kappa B (p65 subunit) <clueLoc>in the nuclei of PAEC</clueLoc> exposed for 1 hr 30 min to human serum, which indicated NF-kappa B activation in this setting.</clue>
+<comment>CAUTION, positive staining</comment></event>
+<event KT="Method" id="E23">
+<type class="Artificial_process"/>
+<theme idref="T34"/>
+<theme idref="T35"/>
+<clue>By confocal fluorescence microscopy, we observed a positive staining for NF-kappa B (p65 subunit) in the nuclei of PAEC <clueType>exposed</clueType> <clueTime>for 1 hr 30 min</clueTime> <linkCause>to</linkCause> human serum, which indicated NF-kappa B activation in this setting.</clue>
+</event>
+<event KT="Other" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="T36"/>
+<clue>By confocal fluorescence microscopy, we observed a positive staining for NF-kappa B (p65 subunit) in the nuclei of PAEC exposed for 1 hr 30 min to human serum, which indicated NF-kappa B <clueType>activation</clueType> in this setting.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E25">
+<type class="Correlation"/>
+<theme idref="E22"/>
+<theme idref="E24"/>
+<clue>By confocal fluorescence microscopy, we observed a positive staining for NF-kappa B (p65 subunit) in the nuclei of PAEC exposed for 1 hr 30 min to human serum, which <clueType><clueKT><clueCL>indicated</clueCL></clueKT></clueType> NF-kappa B activation in this setting.</clue>
+</event>
+<sentence id="S10">At variance, in <term id="T37" lex="PAEC" sem="Cell_cultured">PAEC</term> incubated with the <term id="A12" sem="Tissue_natural">homologous serum</term>, <term id="T38" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> was strictly localized in the <term id="T39" lex="cell_cytoplasm" sem="Cell_component">cell cytoplasm</term>.</sentence>
+<event KT="Method" id="E26">
+<type class="Artificial_process"/>
+<theme idref="T37"/>
+<theme idref="A12"/>
+<clue>At variance, in PAEC <clueType>incubated</clueType> <linkTheme>with</linkTheme> the homologous serum, NF-kappa B was strictly localized in the cell cytoplasm.</clue>
+</event>
+<event id="E27">
+<type class="Localization"/>
+<theme idref="T38"/>
+<clue>At variance, <clueExperiment>in PAEC incubated with the homologous serum</clueExperiment>, NF-kappa B was strictly <clueType>localized</clueType> <clueLoc>in the cell cytoplasm</clueLoc>.</clue>
+</event>
+<sentence id="S11">Treatment of <term id="T40" lex="PAEC" sem="Cell_cultured">PAEC</term> exposed to <term id="T41" lex="xenogeneic_serum" sem="Tissue_natural">xenogeneic serum</term> with the <term id="T42" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> inhibitors <term id="T43" lex="pyrrolidinedithiocarbamate" sem="Organic_compound_other">pyrrolidinedithiocarbamate</term> (<term id="T44" lex="PDTC" sem="Organic_compound_other">PDTC</term>, 25 microM) and <term id="T45" lex="tosyl-phechloromethylketone" sem="Organic_compound_other">tosyl-phechloromethylketone</term> (<term id="T46" lex="TPCK" sem="Organic_compound_other">TPCK</term>, 25 microM) significantly (P &lt; 0.01) reduced <term id="T47" lex="leukocyte_adhesion" sem="Other">leukocyte adhesion</term> in respect to <term id="T48" lex="PAEC" sem="Cell_cultured">PAEC</term> treated with <term id="T49" lex="human_serum" sem="Tissue_natural">human serum</term> alone.</sentence>
+<event KT="Method" id="E28">
+<type class="Artificial_process"/>
+<theme idref="T40"/>
+<theme idref="T41"/>
+<clue>Treatment of PAEC <clueType>exposed</clueType> <linkCause>to</linkCause> xenogeneic serum with the NF-kappa B inhibitors pyrrolidinedithiocarbamate (PDTC, 25 microM) and tosyl-phechloromethylketone (TPCK, 25 microM) significantly (P &lt; 0.01) reduced leukocyte adhesion in respect to PAEC treated with human serum alone.</clue>
+</event>
+<event Manner="High" id="E32">
+<type class="Negative_regulation"/>
+<theme idref="T47"/>
+<cause idref="T44"/>
+<clue>Treatment of <clueLoc>PAEC exposed to xenogeneic serum</clueLoc> with the NF-kappa B inhibitors pyrrolidinedithiocarbamate (PDTC, 25 microM) and tosyl-phechloromethylketone (TPCK, 25 microM) <clueManner>significantly</clueManner> (P &lt; 0.01) <clueType>reduced</clueType> leukocyte adhesion in respect to PAEC treated with human serum alone.</clue>
+</event>
+<event Manner="High" id="E33">
+<type class="Negative_regulation"/>
+<theme idref="T47"/>
+<cause idref="T46"/>
+<clue>Treatment of <clueLoc>PAEC exposed to xenogeneic serum</clueLoc> with the NF-kappa B inhibitors pyrrolidinedithiocarbamate (PDTC, 25 microM) and tosyl-phechloromethylketone (TPCK, 25 microM) <clueManner>significantly</clueManner> (P &lt; 0.01) <clueType>reduced</clueType> leukocyte adhesion in respect to PAEC treated with human serum alone.</clue>
+</event>
+<event KT="Method" id="E34">
+<type class="Artificial_process"/>
+<theme idref="T48"/>
+<theme idref="T49"/>
+<clue>Treatment of PAEC exposed to xenogeneic serum with the NF-kappa B inhibitors pyrrolidinedithiocarbamate (PDTC, 25 microM) and tosyl-phechloromethylketone (TPCK, 25 microM) significantly (P &lt; 0.01) reduced leukocyte adhesion in respect to PAEC <clueType>treated</clueType> <linkCause>with</linkCause> human serum alone.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation"/>
+<theme idref="T47"/>
+<cause idref="T44"/>
+<clue>Treatment of PAEC exposed to xenogeneic serum with the NF-kappa B inhibitors pyrrolidinedithiocarbamate (PDTC, 25 microM) and tosyl-phechloromethylketone (TPCK, 25 microM) significantly (P &lt; 0.01) <clueType>reduced</clueType> leukocyte adhesion in respect to <clueLoc>PAEC treated with human serum alone</clueLoc>.</clue>
+</event>
+<event id="E30">
+<type class="Negative_regulation"/>
+<theme idref="T47"/>
+<cause idref="T46"/>
+<clue>Treatment of PAEC exposed to xenogeneic serum with the NF-kappa B inhibitors pyrrolidinedithiocarbamate (PDTC, 25 microM) and tosyl-phechloromethylketone (TPCK, 25 microM) significantly (P &lt; 0.01) <clueType>reduced</clueType> leukocyte adhesion in respect to <clueLoc>PAEC treated with human serum alone</clueLoc>.</clue>
+</event>
+<sentence id="S12">Findings that <term id="T50" lex="xenogeneic_serum" sem="Tissue_natural">xenogeneic serum</term> promotes <term id="T51" lex="leukocyte-endothelium_interaction" sem="Other"><term id="A10" sem="Cell_natural">leukocyte</term>-<term id="A11" sem="Cell_natural">endothelium</term> interaction</term> possibly through <term id="T52" lex="NF-kappa_B_activation" sem="Other"><term id="T53" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> activation</term> might be relevant for designing <term id="T54" lex="future_therapeutic_strategy" sem="Other">future therapeutic strategies</term> aimed at prolonging <term id="T55" lex="xenograft_survival" sem="Other">xenograft survival</term>.</sentence>
+<event KT="Other" id="E35">
+<type class="Cell_adhesion"/>
+<theme idref="A10"/>
+<theme idref="A11"/>
+<clue>Findings that xenogeneic serum promotes leukocyte-endothelium <clueType>interaction</clueType> possibly through NF-kappa B activation might be relevant for designing future therapeutic strategies aimed at prolonging xenograft survival.</clue>
+</event>
+<event KT="Other" id="E36">
+<type class="Positive_regulation"/>
+<theme idref="T53"/>
+<cause idref="T50"/>
+<clue>Findings that xenogeneic serum promotes leukocyte-endothelium interaction possibly through NF-kappa B <clueType>activation</clueType> might be relevant for designing future therapeutic strategies aimed at prolonging xenograft survival.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E37">
+<type class="Positive_regulation"/>
+<theme idref="E35"/>
+<cause idref="E36"/>
+<clue>Findings that xenogeneic serum <clueType>promotes</clueType> leukocyte-endothelium interaction <clueKT><clueCL>possibly</clueCL></clueKT> <linkCause>through</linkCause> NF-kappa B activation might be relevant for designing future therapeutic strategies aimed at prolonging xenograft survival.</clue>
+</event>
+<event KT="Investigation" id="E38" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="T55"/>
+<cause idref="T54"/>
+<clue>Findings that xenogeneic serum promotes leukocyte-endothelium interaction possibly through NF-kappa B activation might be relevant for designing future therapeutic strategies <clueKT>aimed at</clueKT> <clueType>prolonging</clueType> xenograft survival.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

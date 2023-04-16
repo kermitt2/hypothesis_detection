@@ -1,0 +1,186 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1628621" created="14/11/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1628621</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="transcription_factor_AP-2" sem="Protein_molecule">Transcription factor <term id="A1" sem="Protein_molecule">AP-2</term></term> activates gene expression of <term id="A20" sem="DNA_domain_or_region"><term id="T2" lex="HTLV-I" sem="Virus">HTLV-I</term>.</term></sentence>
+<event id="E1">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="A1"/>
+<clue>Transcription factor AP-2 <clueType>activates</clueType> gene expression of HTLV-I.</clue>
+</event>
+<event id="E2">
+<type class="Gene_expression"/>
+<theme idref="A20"/>
+<clue>Transcription factor AP-2 activates <clueType>gene expression</clueType> <linkTheme>of</linkTheme> HTLV-I.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T3" lex="HTLV-I_LTR" sem="DNA_domain_or_region">HTLV-I LTR</term> contains three conserved <term id="T4" lex="regulatory_element" sem="DNA_domain_or_region">regulatory elements</term> known as <term id="T5" lex="21_base_pair_repeat" sem="DNA_domain_or_region">21 base pair repeats</term> which are required for stimulation of <term id="T6" lex="gene_expression" sem="Other">gene expression</term> by the <term id="T7" lex="transactivator_protein" sem="Protein_family_or_group">transactivator protein</term> <term id="T8" lex="tax" sem="Protein_molecule">tax</term>.</sentence>
+<event KT="Fact" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="T5"/>
+<clue>The HTLV-I LTR contains three conserved regulatory elements known as 21 base pair repeats which are <clueType>required</clueType> <linkTheme>for</linkTheme> stimulation of gene expression by the transactivator protein tax.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T6"/>
+<cause idref="T8"/>
+<clue>The HTLV-I LTR contains three conserved regulatory elements known as 21 base pair repeats which are required for <clueType>stimulation</clueType> <linkTheme>of</linkTheme> gene expression <linkCause>by</linkCause> the transactivator protein tax.</clue>
+</event>
+<sentence id="S3"><term id="T9" lex="mutagenesis" sem="Other">Mutagenesis</term> indicates that the <term id="A2" sem="DNA_substructure"><term id="T10" lex="21_bp_repeat" sem="DNA_domain_or_region">21 bp repeats</term></term> can be subdivided into three motifs, <term id="T11" lex="A" sem="DNA_substructure">A</term>, <term id="T12" lex="B" sem="DNA_substructure">B</term> and <term id="T13" lex="C" sem="DNA_substructure">C</term>, each of which influences the level of <term id="T14" lex="tax_activation" sem="Other"><term id="T15" lex="tax" sem="Protein_molecule">tax</term> activation</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E5">
+<type class="Regulation"/>
+<theme idref="E8"/>
+<cause idref="A2" idref1="T11"/>
+<clue>Mutagenesis <clueKT><clueCL>indicates</clueCL></clueKT> that the 21 bp repeats can be subdivided into three motifs, A, B and C, each of which <clueType>influences the level</clueType> <linkTheme>of</linkTheme> tax activation.</clue>
+<comment>NER: T11 sem mod, DNA_ETC -&gt; DNA_substructure</comment></event>
+<event CL="L2" KT="Analysis" id="E6">
+<type class="Regulation"/>
+<theme idref="E8"/>
+<cause idref="A2" idref1="T12"/>
+<clue>Mutagenesis <clueKT><clueCL>indicates</clueCL></clueKT> that the 21 bp repeats can be subdivided into three motifs, A, B and C, each of which <clueType>influences the level</clueType> <linkTheme>of</linkTheme> tax activation.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E7">
+<type class="Regulation"/>
+<theme idref="E8"/>
+<cause idref="A2" idref1="T13"/>
+<clue>Mutagenesis <clueKT><clueCL>indicates</clueCL></clueKT> that the 21 bp repeats can be subdivided into three motifs, A, B and C, each of which <clueType>influences the level</clueType> <linkTheme>of</linkTheme> tax activation.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T15"/>
+<clue>Mutagenesis indicates that the 21 bp repeats can be subdivided into three motifs, A, B and C, each of which influences the level of tax <clueType>activation</clueType>.</clue>
+</event>
+<sentence id="S4">The <term id="T16" lex="A_site" sem="DNA_domain_or_region">A site</term> in the <term id="T17" lex="21_bp_repeat" sem="DNA_domain_or_region">21 bp repeat</term> has strong homology with previously described <term id="T18" lex="binding_site" sem="DNA_domain_or_region">binding sites</term> for the <term id="T19" lex="transcription_factor_AP-2" sem="Protein_molecule">transcription factor AP-2</term>.</sentence>
+<sentence id="S5">We demonstrated that <term id="T21" lex="AP-2_mRNA" sem="RNA_molecule">AP-2 mRNA</term> was present in <term id="T22" lex="T-lymphocyte" sem="Cell_natural">T-lymphocytes</term> and that <term id="A3" sem="Protein_family_or_group">cellular factors</term> from both non-transformed and transformed <term id="T23" lex="T-lymphocyte" sem="Cell_natural">T-lymphocytes</term> specifically bound to the <term id="A4" sem="DNA_domain_or_region"><term id="T24" lex="consensus_motif" sem="DNA_domain_or_region">consensus motif</term> for <term id="T25" lex="AP-2" sem="Protein_molecule">AP-2</term> in each 21 bp</term>.</sentence>
+<event KT="Analysis" id="E9">
+<type class="Binding"/>
+<theme idref="A3"/>
+<theme idref="A4"/>
+<clue>We <clueKT>demonstrated</clueKT> that AP-2 mRNA was present in T-lymphocytes and that cellular factors from both non-transformed and transformed T-lymphocytes specifically <clueType>bound</clueType> <linkTheme>to</linkTheme> the consensus motif for AP-2 in each 21 bp.</clue>
+<comment>TPS: A4; NER, T20 del &quot;transcription&quot;</comment></event>
+<event KT="Analysis" id="E10">
+<type class="Transcription"/>
+<theme idref="T21"/>
+<clue>We <clueKT>demonstrated</clueKT> that AP-2 mRNA was <clueType>present</clueType> <clueLoc>in T-lymphocytes</clueLoc> and that cellular factors from both non-transformed and transformed T-lymphocytes specifically bound to the consensus motif for AP-2 in each 21 bp.</clue>
+<comment>CAUTION: mRNA present</comment></event>
+<event KT="Other" id="E11">
+<type class="Biological_process"/>
+<theme idref="T23"/>
+<clue>We demonstrated that AP-2 mRNA was present in T-lymphocytes and that cellular factors from both non-transformed and <clueType>transformed</clueType> T-lymphocytes specifically bound to the consensus motif for AP-2 in each 21 bp.</clue>
+</event>
+<sentence id="S6">To determine the role of <term id="T26" lex="AP-2" sem="Protein_molecule">AP-2</term> in the regulation of the <term id="T27" lex="HTLV-I_LTR_gene_expression" sem="Other"><term id="T28" lex="HTLV-I_LTR" sem="DNA_domain_or_region">HTLV-I LTR</term> gene expression</term>, we used an <term id="T29" lex="AP-2_cDNA" sem="DNA_molecule"><term id="T30" lex="AP-2" sem="Protein_molecule">AP-2</term> cDNA</term> in <cons id="C1" lex="(AND DNA_binding_assay transient_expression_assay)" sem="(AND Other Other)"><frag id="F1">DNA binding</frag> and <frag id="F2">transient expression</frag> <frag id="F3">assays</frag></cons>.</sentence>
+<event KT="Investigation" id="E12" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E13"/>
+<cause idref="T26"/>
+<clue><clueKT>To determine</clueKT> the <clueType>role</clueType> <linkCause>of</linkCause> AP-2 <linkTheme>in</linkTheme> the regulation of the HTLV-I LTR gene expression, we <clueExperiment>used an AP-2 cDNA in DNA binding and transient expression assays</clueExperiment>.</clue>
+<comment>NER: T31, T32 del &quot;DNA binding&quot; &quot;transient expression assays&quot;</comment></event>
+<event KT="Other" id="E13">
+<type class="Regulation"/>
+<theme idref="E14"/>
+<clue>To determine the role of AP-2 in the <clueType>regulation</clueType> <linkTheme>of</linkTheme> the HTLV-I LTR gene expression, we used an AP-2 cDNA in DNA binding and transient expression assays.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Gene_expression"/>
+<theme idref="T28"/>
+<clue>To determine the role of AP-2 in the regulation of the HTLV-I LTR <clueType>gene expression</clueType>, we used an AP-2 cDNA in DNA binding and transient expression assays.</clue>
+</event>
+<sentence id="S7"><term id="T33" lex="gel_retardation" sem="Other">Gel retardation</term> and <term id="T34" lex="methylation_interference" sem="Other">methylation interference</term> studies revealed that <term id="T35" lex="bacterially_produced_AP-2" sem="Protein_molecule">bacterially produced <term id="T36" lex="AP-2" sem="Protein_molecule">AP-2</term></term> bound specifically and with high affinity to all three <term id="T37" lex="21_bp_repeat" sem="DNA_domain_or_region">21 bp repeats</term>, and that it required the <term id="T38" lex="core_sequence" sem="DNA_domain_or_region">core sequence</term> <term id="T39" lex="AGGC" sem="Polynucleotide">AGGC</term> for <term id="T40" lex="specific_binding" sem="Other">specific binding</term>.</sentence>
+<event KT="Other" id="E15">
+<type class="Gene_expression"/>
+<theme idref="T36"/>
+<clue>Gel retardation and methylation interference studies revealed that <clueLoc>bacterially</clueLoc> <clueType>produced</clueType> AP-2 bound specifically and with high affinity to all three 21 bp repeats, and that it required the core sequence AGGC for specific binding.</clue>
+</event>
+<event KT="Analysis" Manner="High" id="E16">
+<type class="Binding"/>
+<theme idref="T36"/>
+<theme idref="T37"/>
+<clue><clueExperiment>Gel retardation and methylation interference studies</clueExperiment> <clueKT>revealed</clueKT> that bacterially produced AP-2 <clueType>bound</clueType> specifically and <clueManner>with high affinity</clueManner> <linkTheme>to</linkTheme> all three 21 bp repeats, and that it required the core sequence AGGC for specific binding.</clue>
+</event>
+<event KT="Analysis" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="T39"/>
+<clue>Gel retardation and methylation interference studies <clueKT>revealed</clueKT> that bacterially produced AP-2 bound specifically and with high affinity to all three 21 bp repeats, and that it <clueType>required</clueType> the core sequence AGGC <linkTheme>for</linkTheme> specific binding.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Binding"/>
+<theme idref="T36"/>
+<clue>Gel retardation and methylation interference studies revealed that bacterially produced AP-2 bound specifically and with high affinity to all three 21 bp repeats, and that <corefTheme>it</corefTheme> required the core sequence AGGC for specific <clueType>binding</clueType>.</clue>
+</event>
+<sentence id="S8">Binding of <term id="T41" lex="AP-2" sem="Protein_molecule">AP-2</term> prevented the subsequent binding of members of the <term id="T42" lex="CREB/ATF_family" sem="Protein_family_or_group">CREB/ATF family</term> to an <term id="A5" sem="DNA_domain_or_region"><term id="T43" lex="adjacent_regulatory_motif" sem="DNA_domain_or_region">adjacent regulatory motif</term> in the <term id="T44" lex="21_bp_repeat" sem="DNA_domain_or_region">21 bp repeat</term></term>.</sentence>
+<event id="E19">
+<type class="Binding"/>
+<theme idref="T41"/>
+<theme idref="T44"/>
+<clue><clueType>Binding</clueType> <linkTheme>of</linkTheme> AP-2 prevented the subsequent binding of members of the CREB/ATF family to an adjacent regulatory motif in the 21 bp repeat.</clue>
+</event>
+<event id="E20">
+<type class="Negative_regulation"/>
+<theme idref="E21"/>
+<cause idref="E19"/>
+<clue>Binding of AP-2 <clueType>prevented</clueType> the subsequent binding of members of the CREB/ATF family to an adjacent regulatory motif in the 21 bp repeat.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Binding"/>
+<theme idref="T42"/>
+<theme idref="A5"/>
+<clue>Binding of AP-2 prevented the <clueTime>subsequent</clueTime> <clueType>binding</clueType> <linkTheme>of</linkTheme> members of the CREB/ATF family <linkTheme>to</linkTheme> an adjacent regulatory motif in the 21 bp repeat.</clue>
+<comment>TPS: A5</comment></event>
+<sentence id="S9">Transfection of an <term id="T45" lex="AP-2_expression_construct" sem="DNA_molecule"><term id="T46" lex="AP-2" sem="Protein_molecule">AP-2</term> expression construct</term> into <term id="T47" lex="T-lymphocyte" sem="Cell_natural">T-lymphocytes</term> activated <term id="T48" lex="gene_expression" sem="Other">gene expression</term> from the <term id="T49" lex="HTLV-I_LTR" sem="DNA_domain_or_region">HTLV-I LTR</term>.</sentence>
+<event KT="Method" id="E30">
+<type class="Gene_expression"/>
+<theme idref="T45"/>
+<clue><clueType>Transfection</clueType> <linkTheme>of</linkTheme> an AP-2 expression construct <clueLoc>into T-lymphocytes</clueLoc> activated gene expression from the HTLV-I LTR.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event id="E31">
+<type class="Positive_regulation"/>
+<theme idref="E30"/>
+<clue><clueType>Transfection</clueType> <linkTheme>of</linkTheme> an AP-2 expression construct <clueLoc>into T-lymphocytes</clueLoc> activated gene expression from the HTLV-I LTR.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation"/>
+<theme idref="E24"/>
+<cause idref="E31"/>
+<clue>Transfection of an AP-2 expression construct into T-lymphocytes <clueType>activated</clueType> gene expression from the HTLV-I LTR.</clue>
+</event>
+<event id="E24">
+<type class="Gene_expression"/>
+<theme idref="T49"/>
+<clue>Transfection of an AP-2 expression construct into T-lymphocytes activated <clueType>gene expression</clueType> <linkTheme>from</linkTheme> the HTLV-I LTR.</clue>
+</event>
+<sentence id="S10">At least two <term id="T50" lex="21_bp_repeat" sem="DNA_domain_or_region">21 bp repeats</term> were required for high levels of <term id="T51" lex="AP-2" sem="Protein_molecule">AP-2</term> activation and mutagenesis of the <term id="A6" sem="DNA_domain_or_region"><term id="T52" lex="AP-2_consensus_binding_sequences" sem="DNA_domain_or_region"><term id="T53" lex="AP-2" sem="Protein_molecule">AP-2</term> consensus binding sequences</term> in the <term id="T54" lex="21_bp_repeat" sem="DNA_domain_or_region">21 bp repeats</term></term> eliminate this activation.</sentence>
+<event id="E25">
+<type class="Positive_regulation"/>
+<theme idref="E26"/>
+<cause idref="T50"/>
+<clue>At least two 21 bp repeats were <clueType>required</clueType> <linkTheme>for</linkTheme> high levels of AP-2 activation and mutagenesis of the AP-2 consensus binding sequences in the 21 bp repeats eliminate this activation.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation"/>
+<theme idref="E27"/>
+<clue>At least two 21 bp repeats were required for <clueType>high levels</clueType> <linkTheme>of</linkTheme> AP-2 activation and mutagenesis of the AP-2 consensus binding sequences in the 21 bp repeats eliminate this activation.</clue>
+</event>
+<event Manner="High" id="E27">
+<type class="Positive_regulation"/>
+<cause idref="T51"/>
+<clue>At least two 21 bp repeats were required for <clueManner>high levels</clueManner> of AP-2 <clueType>activation</clueType> and mutagenesis of the AP-2 consensus binding sequences in the 21 bp repeats eliminate this activation.</clue>
+<comment>NO THEME</comment></event>
+<event id="E28">
+<type class="Mutagenesis"/>
+<theme idref="A6"/>
+<clue>At least two 21 bp repeats were required for high levels of AP-2 activation and <clueType>mutagenesis</clueType> <linkTheme>of</linkTheme> the AP-2 consensus binding sequences in the 21 bp repeats eliminate this activation.</clue>
+<comment>TPA: A6</comment></event>
+<event id="E29">
+<type class="Negative_regulation"/>
+<theme idref="E27"/>
+<cause idref="E28"/>
+<clue>At least two 21 bp repeats were required for high levels of AP-2 activation and mutagenesis of the AP-2 consensus binding sequences in the 21 bp repeats <clueType>eliminate</clueType> <corefTheme>this activation</corefTheme>.</clue>
+</event>
+<sentence id="S11">(ABSTRACT TRUNCATED AT 250 WORDS)</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

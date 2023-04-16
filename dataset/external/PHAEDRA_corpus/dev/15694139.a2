@@ -1,0 +1,23 @@
+T17	Adverse_effect 22 32	neuropathy
+T23	Adverse_effect 101 110	following
+T26	Potential_therapeutic_effect 206 218	reintroduced
+T27	Adverse_effect 364 375	side effect
+T8	Adverse_effect 643 653	neuropathy
+T30	Potential_therapeutic_effect 519 526	treated
+T34	Potential_therapeutic_effect 797 804	treated
+T36	Adverse_effect 489 491	in
+T37	Adverse_effect 705 713	progress
+T39	Adverse_effect 882 888	detect
+E1	Adverse_effect:T17 affects:T2 has_agent:T1 has_subject:T16
+E2	Adverse_effect:T23 affects:T18 has_agent:T3
+E4	Potential_therapeutic_effect:T26 has_agent:T4 has_subject:T25 affects:T22 affects:T21 affects:T20 affects:T19 has_subject:T24
+E5	Adverse_effect:T27 has_agent:T6 affects:T5 has_cue:T35
+E6	Adverse_effect:T8 affects:T13 has_agent:T12 affects:T33
+E7	Potential_therapeutic_effect:T30 has_agent:T9 affects:T10 affects:T11 affects:T29 has_subject:T31
+E9	Potential_therapeutic_effect:T34 has_agent:T14 has_subject:T28
+E3	Adverse_effect:T36 has_subject:T31 has_agent:T9 affects:T7
+E10	Adverse_effect:T37 has_cue:T38 affects:T13 has_agent:T12
+E11	Adverse_effect:T39 affects:T40 affects:T15 has_agent:T14 has_subject:T28 has_cue:T41
+A1	Manner E5 High
+A3	Speculated E10
+A4	Speculated E11

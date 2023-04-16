@@ -1,0 +1,29 @@
+T21	DDI 24 35	interaction
+T27	Adverse_effect 93 99	occurs
+T28	Adverse_effect 337 354	increase the risk
+T33	Potential_therapeutic_effect 653 662	treatment
+T34	Adverse_effect 608 617	developed
+T35	Potential_therapeutic_effect 750 756	taking
+T39	Adverse_effect 935 947	relationship
+T41	Adverse_effect 424 430	during
+T17	Adverse_effect 39 43	case
+R2	Coreference Arg1:T30 Arg2:T4
+R3	Coreference Arg1:T32 Arg2:T22
+E1	DDI:T21 has_participant:T1 has_participant:T2
+E5	Combination:T31 has_participant:T6 has_participant:T7
+E13	Combination:T42 has_participant:T13 has_participant:T14
+E14	Combination:T43 has_participant:T19 has_participant:T20
+E3	Adverse_effect:T27 has_agent:T5 affects:T4
+E4	Adverse_effect:T28 has_cue:T29 affects:T30 has_agent:E5
+E6	Potential_therapeutic_effect:T33 affects:T15 has_subject:T22 has_agent:E13
+E7	Adverse_effect:T34 affects:T12 has_agent:E13
+E8	Potential_therapeutic_effect:T35 has_agent:T16 has_subject:T32
+E10	Adverse_effect:T39 has_agent:E14 has_cue:T40 affects:T18
+E11	Adverse_effect:T41 affects:T8 has_agent:E12
+E2	Adverse_effect:T17 affects:T3 has_agent:E1
+A2	Speculated E4
+A4	Speculated E10
+E12	Combination:T23 has_participant:T10 has_participant2:T9
+T25	Adverse_effect 832 849	secondary effects
+E9	Adverse_effect:T25 has_cue:T38 has_agent:T16 has_subject:T32
+A1	Negated E9

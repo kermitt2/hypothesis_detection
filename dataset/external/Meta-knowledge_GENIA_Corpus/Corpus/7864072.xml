@@ -1,0 +1,305 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7864072" creator="Hitomi MASUDA"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7864072</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Effects of <term id="T1" lex="glucocorticoid" sem="Lipid">glucocorticoids</term> on <term id="T2" lex="transcription_factor_activation" sem="Other"><term id="A1" sem="Protein_family_or_group">transcription factor</term> activation</term> in <term id="T3" lex="human_peripheral_blood_mononuclear_cell" sem="Cell_natural">human peripheral blood mononuclear cells</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Positive_regulation"/>
+<theme idref="A1"/>
+<clue>Effects of glucocorticoids on transcription factor <clueType>activation</clueType> in human peripheral blood mononuclear cells.</clue>
+</event>
+<event KT="Investigation" id="E2">
+<type class="Regulation"/>
+<theme idref="E1"/>
+<cause idref="T1"/>
+<clue><clueType>Effects</clueType> <linkCause>of</linkCause> glucocorticoids <linkTheme>on</linkTheme> transcription factor activation <clueLoc>in human peripheral blood mononuclear cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T4" lex="glucocorticoid" sem="Lipid">Glucocorticoids</term> have an inhibitory effect on <cons id="T5" lex="(AND inflammatory_response immune_response)" sem="(AND Other Other)"><frag id="F1"><term id="A2" sem="Other">inflammatory</term></frag> and <term id="A3" sem="Other"><frag id="F2">immune</frag> <frag id="F3"><term id="A4" sem="Other">responses</term></frag></term></cons>, and this may be through the modulation of <term id="T6" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> binding to <term id="A5" sem="DNA_domain_or_region">DNA</term>.</sentence>
+<event KT="Fact" id="E3">
+<type class="Negative_regulation"/>
+<theme idref="A2" idref1="A4"/>
+<cause idref="T4"/>
+<clue>Glucocorticoids <clueType>have an inhibitory effect</clueType> <linkTheme>on</linkTheme> inflammatory and immune responses, and this may be through the modulation of transcription factor binding to DNA.</clue>
+</event>
+<event KT="Fact" id="E4">
+<type class="Negative_regulation"/>
+<theme idref="A3"/>
+<cause idref="T4"/>
+<clue>Glucocorticoids <clueType>have an inhibitory effect</clueType> <linkTheme>on</linkTheme> inflammatory and immune responses, and this may be through the modulation of transcription factor binding to DNA.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Binding"/>
+<theme idref="T6"/>
+<theme idref="A5"/>
+<clue>Glucocorticoids have an inhibitory effect on inflammatory and immune responses, and this may be through the modulation of transcription factor <clueType>binding</clueType> <linkTheme>to</linkTheme> DNA.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Regulation"/>
+<theme idref="E5"/>
+<clue>Glucocorticoids have an inhibitory effect on inflammatory and immune responses, and this may be through the <clueType>modulation</clueType> <linkTheme>of</linkTheme> transcription factor binding to DNA.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E7" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="E6"/>
+<clue>Glucocorticoids have an inhibitory effect on inflammatory and immune responses, and <corefTheme>this</corefTheme> <clueKT><clueCL>may</clueCL></clueKT> be <linkCause>through</linkCause> the modulation of transcription factor binding to DNA.</clue>
+<comment>No clueType</comment></event>
+<event CL="L1" KT="Analysis" id="E200" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="E6"/>
+<clue>Glucocorticoids have an inhibitory effect on inflammatory and immune responses, and <corefTheme>this</corefTheme> <clueKT><clueCL>may</clueCL></clueKT> be <linkCause>through</linkCause> the modulation of transcription factor binding to DNA.</clue>
+<comment>No clueType</comment></event>
+<sentence id="S3">The interaction of the <term id="T7" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term>, <term id="T8" lex="activator_protein-1" sem="Protein_molecule">activator protein-1</term> (<term id="T9" lex="AP-1" sem="Protein_molecule">AP-1</term>), <term id="T10" lex="nuclear_factor_kappa_B" sem="Protein_molecule">nuclear factor kappa B</term> (<term id="T11" lex="NF_kappa_B" sem="Protein_molecule">NF kappa B</term>), and <term id="T12" lex="cAMP-responsive_element_binding_protein" sem="Protein_molecule">cAMP-responsive element binding protein</term> (<term id="T13" lex="CREB" sem="Protein_molecule">CREB</term>) with <term id="A6" sem="DNA_domain_or_region">DNA</term> and <term id="T14" lex="glucocorticoid_receptor" sem="Protein_family_or_group">glucocorticoid receptors</term> (<term id="T15" lex="GR" sem="Protein_family_or_group">GR</term>) was analyzed in <term id="T16" lex="human_peripheral_blood_mononuclear_cell" sem="Cell_natural">human peripheral blood mononuclear cells</term> by <term id="T17" lex="gel_mobility_shift_assay" sem="Other">gel mobility shift assays</term>.</sentence>
+<event KT="Investigation" id="E8" uncertainty="doubtful">
+<type class="Binding"/>
+<theme idref="T9"/>
+<theme idref="A6"/>
+<clue>The <clueType>interaction</clueType> <linkTheme>of</linkTheme> the transcription factors, activator protein-1 (AP-1), nuclear factor kappa B (NF kappa B), and cAMP-responsive element binding protein (CREB) <linkTheme>with</linkTheme> DNA and glucocorticoid receptors (GR) was <clueKT>analyzed</clueKT> <clueLoc>in human peripheral blood mononuclear cells</clueLoc> <clueExperiment>by gel mobility shift assays</clueExperiment>.</clue>
+</event>
+<event KT="Investigation" id="E9" uncertainty="doubtful">
+<type class="Binding"/>
+<theme idref="T11"/>
+<theme idref="A6"/>
+<clue>The <clueType>interaction</clueType> <linkTheme>of</linkTheme> the transcription factors, activator protein-1 (AP-1), nuclear factor kappa B (NF kappa B), and cAMP-responsive element binding protein (CREB) <linkTheme>with</linkTheme> DNA and glucocorticoid receptors (GR) was <clueKT>analyzed</clueKT> <clueLoc>in human peripheral blood mononuclear cells</clueLoc> <clueExperiment>by gel mobility shift assays</clueExperiment>.</clue>
+</event>
+<event KT="Investigation" id="E10" uncertainty="doubtful">
+<type class="Binding"/>
+<theme idref="T13"/>
+<theme idref="A6"/>
+<clue>The <clueType>interaction</clueType> <linkTheme>of</linkTheme> the transcription factors, activator protein-1 (AP-1), nuclear factor kappa B (NF kappa B), and cAMP-responsive element binding protein (CREB) <linkTheme>with</linkTheme> DNA and glucocorticoid receptors (GR) was <clueKT>analyzed</clueKT> <clueLoc>in human peripheral blood mononuclear cells</clueLoc> <clueExperiment>by gel mobility shift assays</clueExperiment>.</clue>
+</event>
+<event KT="Investigation" id="E11" uncertainty="doubtful">
+<type class="Binding"/>
+<theme idref="T9"/>
+<theme idref="T15"/>
+<clue>The <clueType>interaction</clueType> <linkTheme>of</linkTheme> the transcription factors, activator protein-1 (AP-1), nuclear factor kappa B (NF kappa B), and cAMP-responsive element binding protein (CREB) <linkTheme>with</linkTheme> DNA and glucocorticoid receptors (GR) was <clueKT>analyzed</clueKT> <clueLoc>in human peripheral blood mononuclear cells</clueLoc> <clueExperiment>by gel mobility shift assays</clueExperiment>.</clue>
+</event>
+<event KT="Investigation" id="E12" uncertainty="doubtful">
+<type class="Binding"/>
+<theme idref="T11"/>
+<theme idref="T15"/>
+<clue>The <clueType>interaction</clueType> <linkTheme>of</linkTheme> the transcription factors, activator protein-1 (AP-1), nuclear factor kappa B (NF kappa B), and cAMP-responsive element binding protein (CREB) <linkTheme>with</linkTheme> DNA and glucocorticoid receptors (GR) was <clueKT>analyzed</clueKT> <clueLoc>in human peripheral blood mononuclear cells</clueLoc> <clueExperiment>by gel mobility shift assays</clueExperiment>.</clue>
+</event>
+<event KT="Investigation" id="E13" uncertainty="doubtful">
+<type class="Binding"/>
+<theme idref="T13"/>
+<theme idref="T15"/>
+<clue>The <clueType>interaction</clueType> <linkTheme>of</linkTheme> the transcription factors, activator protein-1 (AP-1), nuclear factor kappa B (NF kappa B), and cAMP-responsive element binding protein (CREB) <linkTheme>with</linkTheme> DNA and glucocorticoid receptors (GR) was <clueKT>analyzed</clueKT> <clueLoc>in human peripheral blood mononuclear cells</clueLoc> <clueExperiment>by gel mobility shift assays</clueExperiment>.</clue>
+</event>
+<sentence id="S4"><cons id="T18" lex="(AND TNF-alpha,_IL-1_beta__treatment phorbol_myristate_acetate_(PMA)_treatment)" sem="(AND Other Other)"><frag id="F4"><term id="A7" sem="Protein_molecule">TNF-alpha</term></frag>, <frag id="F5"><term id="A8" sem="Protein_molecule">IL-1 beta</term></frag> and <frag id="F6">phorbol myristate acetate (<term id="A9" sem="Organic_compound_other">PMA</term>)</frag> <frag id="F7">treatment</frag></cons> increased <term id="T19" lex="AP-1" sem="Protein_molecule">AP-1</term> and <term id="A111" sem="Protein_family_or_group">NF kappa B</term> <term id="A10" sem="DNA_domain_or_region">DNA</term> binding by up to 200% but decreased <term id="T20" lex="CREB_binding" sem="Other"><term id="T21" lex="CREB" sem="Protein_molecule">CREB</term> binding</term> (38%) over a 60-min time course.</sentence>
+<event id="E17">
+<type class="Binding"/>
+<theme idref="T19"/>
+<theme idref="A10"/>
+<clue>TNF-alpha, IL-1 beta and phorbol myristate acetate (PMA) treatment increased AP-1 and NF kappa B DNA <clueType>binding</clueType> by up to 200% but decreased CREB binding (38%) over a 60-min time course.</clue>
+</event>
+<event id="E18">
+<type class="Binding"/>
+<theme idref="T19"/>
+<theme idref="A111"/>
+<clue>TNF-alpha, IL-1 beta and phorbol myristate acetate (PMA) treatment increased AP-1 and NF kappa B DNA <clueType>binding</clueType> by up to 200% but decreased CREB binding (38%) over a 60-min time course.</clue>
+</event>
+<event Manner="High" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<cause idref="A7"/>
+<clue>TNF-alpha, IL-1 beta and phorbol myristate acetate (PMA) treatment <clueType>increased</clueType> AP-1 and NF kappa B DNA binding by <clueManner>up to 200%</clueManner> but decreased CREB binding (38%) over a 60-min time course.</clue>
+</event>
+<event Manner="High" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="A7"/>
+<clue>TNF-alpha, IL-1 beta and phorbol myristate acetate (PMA) treatment <clueType>increased</clueType> AP-1 and NF kappa B DNA binding by <clueManner>up to 200%</clueManner> but decreased CREB binding (38%) over a 60-min time course.</clue>
+</event>
+<event Manner="High" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<cause idref="A8"/>
+<clue>TNF-alpha, IL-1 beta and phorbol myristate acetate (PMA) treatment <clueType>increased</clueType> AP-1 and NF kappa B DNA binding by <clueManner>up to 200%</clueManner> but decreased CREB binding (38%) over a 60-min time course.</clue>
+</event>
+<event Manner="High" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="A8"/>
+<clue>TNF-alpha, IL-1 beta and phorbol myristate acetate (PMA) treatment <clueType>increased</clueType> AP-1 and NF kappa B DNA binding by <clueManner>up to 200%</clueManner> but decreased CREB binding (38%) over a 60-min time course.</clue>
+</event>
+<event Manner="High" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<cause idref="A9"/>
+<clue>TNF-alpha, IL-1 beta and phorbol myristate acetate (PMA) treatment <clueType>increased</clueType> AP-1 and NF kappa B DNA binding by <clueManner>up to 200%</clueManner> but decreased CREB binding (38%) over a 60-min time course.</clue>
+</event>
+<event Manner="High" id="E201">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="A9"/>
+<clue>TNF-alpha, IL-1 beta and phorbol myristate acetate (PMA) treatment <clueType>increased</clueType> AP-1 and NF kappa B DNA binding by <clueManner>up to 200%</clueManner> but decreased CREB binding (38%) over a 60-min time course.</clue>
+</event>
+<event id="E24">
+<type class="Binding"/>
+<theme idref="T21"/>
+<theme idref="A10"/>
+<clue>TNF-alpha, IL-1 beta and phorbol myristate acetate (PMA) treatment increased AP-1 and NF kappa B DNA binding by up to 200% but decreased CREB <clueType>binding</clueType> (38%) over a 60-min time course.</clue>
+</event>
+<event Manner="High" id="E25">
+<type class="Negative_regulation"/>
+<theme idref="E24"/>
+<cause idref="A7"/>
+<clue>TNF-alpha, IL-1 beta and phorbol myristate acetate (PMA) treatment increased AP-1 and NF kappa B DNA binding by up to 200% but <clueType>decreased</clueType> CREB binding (<clueManner>38%</clueManner>) over a 60-min time course.</clue>
+</event>
+<event Manner="High" id="E26">
+<type class="Negative_regulation"/>
+<theme idref="E24"/>
+<cause idref="A8"/>
+<clue>TNF-alpha, IL-1 beta and phorbol myristate acetate (PMA) treatment increased AP-1 and NF kappa B DNA binding by up to 200% but <clueType>decreased</clueType> CREB binding (<clueManner>38%</clueManner>) over a 60-min time course.</clue>
+</event>
+<event Manner="High" id="E27">
+<type class="Negative_regulation"/>
+<theme idref="E24"/>
+<cause idref="A9"/>
+<clue>TNF-alpha, IL-1 beta and phorbol myristate acetate (PMA) treatment increased AP-1 and NF kappa B DNA binding by up to 200% but <clueType>decreased</clueType> CREB binding (<clueManner>38%</clueManner>) over a 60-min time course.</clue>
+</event>
+<sentence id="S5"><term id="T22" lex="dexamethasone" sem="Lipid">Dexamethasone</term> produced a rapid and sustained increase in <term id="T23" lex="glucocorticoid_response_element_binding" sem="Other"><term id="T24" lex="glucocorticoid_response_element" sem="DNA_domain_or_region">glucocorticoid response element</term> binding</term> and a concomitant 40-50% decrease in <cons id="T25" lex="(AND AP-1_DNA_binding NF_kappa_B_DNA_binding CREB_DNA_binding)" sem="(AND Other Other Other)"><frag id="F8"><term id="A11" sem="Protein_molecule">AP-1</term></frag>, <frag id="F9"><term id="A12" sem="Protein_family_or_group">NF kappa B</term></frag>, and <frag id="F10"><term id="A114" sem="Protein_family_or_group">CREB</term></frag> <frag id="F11"><term id="A13" sem="DNA_domain_or_region">DNA</term> binding</frag></cons> that was blocked by combined <term id="T26" lex="dexamethasone" sem="Lipid">dexamethasone</term> and <term id="T27" lex="cytokine" sem="Protein_family_or_group"><term id="T28" lex="cytokine_treatment" sem="Other">cytokine</term></term> or <term id="T29" lex="PMA_treatment" sem="Other"><term id="A14" sem="Organic_compound_other">PMA</term> treatment</term>.</sentence>
+<event id="E28">
+<type class="Binding"/>
+<theme idref="T24"/>
+<clue>Dexamethasone produced a rapid and sustained increase in glucocorticoid response element <clueType>binding</clueType> and a concomitant 40-50% decrease in AP-1, NF kappa B, and CREB DNA binding that was blocked by combined dexamethasone and cytokine or PMA treatment.</clue>
+</event>
+<event Manner="High" id="E29">
+<type class="Positive_regulation"/>
+<theme idref="E28"/>
+<cause idref="T22"/>
+<clue>Dexamethasone produced a <clueManner>rapid</clueManner> and sustained <clueType>increase</clueType> <linkTheme>in</linkTheme> glucocorticoid response element binding and a concomitant 40-50% decrease in AP-1, NF kappa B, and CREB DNA binding that was blocked by combined dexamethasone and cytokine or PMA treatment.</clue>
+</event>
+<event id="E30">
+<type class="Binding"/>
+<theme idref="A11"/>
+<theme idref="A13"/>
+<clue>Dexamethasone produced a rapid and sustained increase in glucocorticoid response element binding and a concomitant 40-50% decrease in AP-1, NF kappa B, and CREB DNA <clueType>binding</clueType> that was blocked by combined dexamethasone and cytokine or PMA treatment.</clue>
+</event>
+<event id="E31">
+<type class="Binding"/>
+<theme idref="A12"/>
+<theme idref="A13"/>
+<clue>Dexamethasone produced a rapid and sustained increase in glucocorticoid response element binding and a concomitant 40-50% decrease in AP-1, NF kappa B, and CREB DNA <clueType>binding</clueType> that was blocked by combined dexamethasone and cytokine or PMA treatment.</clue>
+</event>
+<event id="E32">
+<type class="Binding"/>
+<theme idref="A114"/>
+<theme idref="A13"/>
+<clue>Dexamethasone produced a rapid and sustained increase in glucocorticoid response element binding and a concomitant 40-50% decrease in AP-1, NF kappa B, and CREB DNA <clueType>binding</clueType> that was blocked by combined dexamethasone and cytokine or PMA treatment.</clue>
+</event>
+<event Manner="High" id="E33">
+<type class="Negative_regulation"/>
+<theme idref="E30"/>
+<cause idref="T22"/>
+<clue>Dexamethasone produced a rapid and sustained increase in glucocorticoid response element binding and a concomitant <clueManner>40-50%</clueManner> <clueType>decrease</clueType> <linkTheme>in</linkTheme> AP-1, NF kappa B, and CREB DNA binding that was blocked by combined dexamethasone and cytokine or PMA treatment.</clue>
+</event>
+<event Manner="High" id="E100">
+<type class="Negative_regulation"/>
+<theme idref="E31"/>
+<cause idref="T22"/>
+<clue>Dexamethasone produced a rapid and sustained increase in glucocorticoid response element binding and a concomitant <clueManner>40-50%</clueManner> <clueType>decrease</clueType> <linkTheme>in</linkTheme> AP-1, NF kappa B, and CREB DNA binding that was blocked by combined dexamethasone and cytokine or PMA treatment.</clue>
+</event>
+<event Manner="High" id="E101">
+<type class="Negative_regulation"/>
+<theme idref="E32"/>
+<cause idref="T22"/>
+<clue>Dexamethasone produced a rapid and sustained increase in glucocorticoid response element binding and a concomitant <clueManner>40-50%</clueManner> <clueType>decrease</clueType> <linkTheme>in</linkTheme> AP-1, NF kappa B, and CREB DNA binding that was blocked by combined dexamethasone and cytokine or PMA treatment.</clue>
+</event>
+<event id="E34">
+<type class="Binding"/>
+<theme idref="T26"/>
+<theme idref="T28"/>
+<clue>Dexamethasone produced a rapid and sustained increase in glucocorticoid response element binding and a concomitant 40-50% decrease in AP-1, NF kappa B, and CREB DNA binding that was blocked by <clueType>combined</clueType> dexamethasone and cytokine or PMA treatment.</clue>
+</event>
+<event id="E35">
+<type class="Negative_regulation"/>
+<theme idref="E30"/>
+<cause idref="E34"/>
+<clue>Dexamethasone produced a rapid and sustained increase in glucocorticoid response element binding and a concomitant 40-50% decrease in AP-1, NF kappa B, and CREB DNA binding that was <clueType>blocked</clueType> <linkTheme>by</linkTheme> combined dexamethasone and cytokine or PMA treatment.</clue>
+</event>
+<event id="E36">
+<type class="Negative_regulation"/>
+<theme idref="E30"/>
+<cause idref="A14"/>
+<clue>Dexamethasone produced a rapid and sustained increase in glucocorticoid response element binding and a concomitant 40-50% decrease in AP-1, NF kappa B, and CREB DNA binding that was <clueType>blocked</clueType> <linkTheme>by</linkTheme> combined dexamethasone and cytokine or PMA treatment.</clue>
+</event>
+<event id="E202">
+<type class="Negative_regulation"/>
+<theme idref="E31"/>
+<cause idref="E34"/>
+<clue>Dexamethasone produced a rapid and sustained increase in glucocorticoid response element binding and a concomitant 40-50% decrease in AP-1, NF kappa B, and CREB DNA binding that was <clueType>blocked</clueType> <linkTheme>by</linkTheme> combined dexamethasone and cytokine or PMA treatment.</clue>
+</event>
+<event id="E203">
+<type class="Negative_regulation"/>
+<theme idref="E31"/>
+<cause idref="A14"/>
+<clue>Dexamethasone produced a rapid and sustained increase in glucocorticoid response element binding and a concomitant 40-50% decrease in AP-1, NF kappa B, and CREB DNA binding that was <clueType>blocked</clueType> <linkTheme>by</linkTheme> combined dexamethasone and cytokine or PMA treatment.</clue>
+</event>
+<event id="E204">
+<type class="Negative_regulation"/>
+<theme idref="E32"/>
+<cause idref="E34"/>
+<clue>Dexamethasone produced a rapid and sustained increase in glucocorticoid response element binding and a concomitant 40-50% decrease in AP-1, NF kappa B, and CREB DNA binding that was <clueType>blocked</clueType> <linkTheme>by</linkTheme> combined dexamethasone and cytokine or PMA treatment.</clue>
+</event>
+<event id="E205">
+<type class="Negative_regulation"/>
+<theme idref="E32"/>
+<cause idref="A14"/>
+<clue>Dexamethasone produced a rapid and sustained increase in glucocorticoid response element binding and a concomitant 40-50% decrease in AP-1, NF kappa B, and CREB DNA binding that was <clueType>blocked</clueType> <linkTheme>by</linkTheme> combined dexamethasone and cytokine or PMA treatment.</clue>
+</event>
+<sentence id="S6">These latter effects were due to increases in the <term id="T30" lex="nuclear_localization" sem="Other">nuclear localization</term> of <term id="T31" lex="GR" sem="Protein_family_or_group">GR</term>, not to reduced amounts of the <term id="A15" sem="Protein_family_or_group">other <term id="T32" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term></term>.</sentence>
+<event id="E37">
+<type class="Localization"/>
+<theme idref="T31"/>
+<clue>These latter effects were due to increases in the <clueLoc>nuclear</clueLoc> <clueType>localization</clueType> <linkTheme>of</linkTheme> GR, not to reduced amounts of the other transcription factors.</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation"/>
+<theme idref="E36"/>
+<clue>These latter effects were due to <clueType>increases</clueType> <linkTheme>in</linkTheme> the nuclear localization of GR, not to reduced amounts of the other transcription factors.</clue>
+</event>
+<event KT="Analysis" id="E39">
+<type class="Correlation"/>
+<theme idref="E37"/>
+<theme idref="E33"/>
+<clue><corefTheme>These latter effects</corefTheme> were <clueType><clueKT>due</clueKT></clueType> <linkTheme>to</linkTheme> increases in the nuclear localization of GR, not to reduced amounts of the other transcription factors.</clue>
+</event>
+<event KT="Analysis" id="E40">
+<type class="Correlation"/>
+<theme idref="E37"/>
+<theme idref="E100"/>
+<clue><corefTheme>These latter effects</corefTheme> were <clueType><clueKT>due</clueKT></clueType> <linkTheme>to</linkTheme> increases in the nuclear localization of GR, not to reduced amounts of the other transcription factors.</clue>
+</event>
+<event KT="Analysis" id="E41">
+<type class="Correlation"/>
+<theme idref="E37"/>
+<theme idref="E101"/>
+<clue><corefTheme>These latter effects</corefTheme> were <clueType><clueKT>due</clueKT></clueType> <linkTheme>to</linkTheme> increases in the nuclear localization of GR, not to reduced amounts of the other transcription factors.</clue>
+</event>
+<event id="E42">
+<type class="Negative_regulation"/>
+<theme idref="A15"/>
+<clue>These latter effects were due to increases in the nuclear localization of GR, not to <clueType>reduced</clueType> amounts of the other transcription factors.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E43">
+<type class="Correlation"/>
+<theme idref="E40"/>
+<theme idref="E39"/>
+<clue><corefTheme>These latter effects</corefTheme> were <clueType><clueKT>due</clueKT></clueType> to increases in the nuclear localization of GR, <cluePolarity>not</cluePolarity> <clueType>to</clueType> reduced amounts of the other transcription factors.</clue>
+</event>
+<sentence id="S7">This suggests that in these cells <term id="T33" lex="GR" sem="Protein_family_or_group">GR</term> within the <term id="T34" lex="nucleus" sem="Cell_component">nucleus</term> interacts with <term id="T35" lex="cytokine-stimulated_transcription_factor" sem="Protein_family_or_group"><term id="T36" lex="cytokine" sem="Protein_family_or_group">cytokine</term>-stimulated <term id="T37" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term></term> by the process of cross coupling.</sentence>
+<event CL="L2" KT="Analysis" id="E44">
+<type class="Binding"/>
+<theme idref="T33"/>
+<theme idref="T35"/>
+<clue>This <clueKT><clueCL>suggests</clueCL></clueKT> that <clueLoc>in these cells</clueLoc> GR <clueLoc>within the nucleus</clueLoc> <clueType>interacts</clueType> <linkTheme>with</linkTheme> cytokine-stimulated transcription factors by the process of cross coupling.</clue>
+</event>
+<sentence id="S8">This may be an important molecular site of <term id="T38" lex="steroid" sem="Lipid">steroid</term> action.</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

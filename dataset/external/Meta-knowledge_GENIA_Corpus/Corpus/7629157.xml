@@ -1,0 +1,297 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7629157" created="06/06/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7629157</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Activation of <term id="T1" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> by <term id="T2" lex="phosphatase_inhibitor" sem="Other"><term id="T3" lex="phosphatase" sem="Protein_family_or_group">phosphatase</term> inhibitors</term> involves the <term id="T4" lex="phosphorylation" sem="Other">phosphorylation</term> of <term id="T5" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term> at <term id="T6" lex="phosphatase_2A-sensitive_site" sem="Protein_domain_or_region">phosphatase 2A-sensitive sites</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation"/>
+<theme idref="T1"/>
+<cause idref="T2"/>
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> NF-kappa B <linkCause>by</linkCause> phosphatase inhibitors involves the phosphorylation of I kappa B alpha at phosphatase 2A-sensitive sites.</clue>
+</event>
+<event id="E2">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T5"/>
+<clue>Activation of NF-kappa B by phosphatase inhibitors involves the <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> I kappa B alpha <clueLoc>at phosphatase 2A-sensitive sites</clueLoc>.</clue>
+</event>
+<event id="E3">
+<type class="Correlation"/>
+<theme idref="E1"/>
+<theme idref="E2"/>
+<clue>Activation of NF-kappa B by phosphatase inhibitors <clueType>involves</clueType> the phosphorylation of I kappa B alpha at phosphatase 2A-sensitive sites.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Activation of <term id="T7" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> by various <term id="T8" lex="cellular_stimuli" sem="Other">cellular stimuli</term> involves the <term id="T9" lex="phosphorylation" sem="Other">phosphorylation</term> and subsequent degradation of its inhibitor, <term id="T11" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term>, although the underlying mechanism remains unclear.</sentence>
+<event KT="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T7"/>
+<cause idref="T8"/>
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> NF-kappa B <linkCause>by</linkCause> various cellular stimuli involves the phosphorylation and subsequent degradation of its inhibitor, I kappa B alpha, although the underlying mechanism remains unclear.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T11"/>
+<clue>Activation of NF-kappa B by various cellular stimuli involves the <clueType>phosphorylation</clueType> and subsequent degradation <linkTheme>of</linkTheme> its inhibitor, I kappa B alpha, although the underlying mechanism remains unclear.</clue>
+<comment>NER: T10 del &quot;inhibitor&quot;</comment></event>
+<event KT="Other" id="E6">
+<type class="Protein_catabolism"/>
+<theme idref="T11"/>
+<clue>Activation of NF-kappa B by various cellular stimuli involves the phosphorylation and subsequent <clueType>degradation</clueType> <linkTheme>of</linkTheme> its inhibitor, I kappa B alpha, although the underlying mechanism remains unclear.</clue>
+</event>
+<event KT="Fact" id="E7">
+<type class="Correlation"/>
+<theme idref="E4"/>
+<theme idref="E5"/>
+<clue>Activation of NF-kappa B by various cellular stimuli <clueType>involves</clueType> the phosphorylation and subsequent degradation of its inhibitor, I kappa B alpha, although the underlying mechanism remains unclear.</clue>
+</event>
+<event KT="Fact" id="E8">
+<type class="Correlation"/>
+<theme idref="E4"/>
+<theme idref="E6"/>
+<clue>Activation of NF-kappa B by various cellular stimuli <clueType>involves</clueType> the phosphorylation and subsequent degradation of its inhibitor, I kappa B alpha, although the underlying mechanism remains unclear.</clue>
+</event>
+<sentence id="S3">In the present study, the role of <term id="T12" lex="serine/threonine_phosphatase" sem="Protein_molecule">serine/threonine phosphatases</term> in the regulation of <term id="T13" lex="I_kappa_B_alpha_phosphorylation" sem="Other"><term id="T14" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term> phosphorylation</term> was investigated.</sentence>
+<event KT="Other" id="E9">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T14"/>
+<clue>In the present study, the role of serine/threonine phosphatases in the regulation of I kappa B alpha <clueType>phosphorylation</clueType> was investigated.</clue>
+</event>
+<event KT="Investigation" id="E10" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E9"/>
+<cause idref="T12"/>
+<clue>In the present study, the role of serine/threonine phosphatases in the <clueType>regulation</clueType> <linkTheme>of</linkTheme> I kappa B alpha phosphorylation was <clueKT>investigated</clueKT>.</clue>
+</event>
+<sentence id="S4">Our studies demonstrate that incubation of <term id="T15" lex="human_T_cell" sem="Cell_natural">human T cells</term> with low concentrations (approximately 1-5 nM) of <term id="T16" lex="calyculin_A" sem="Organic_compound_other">calyculin A</term> or <term id="T17" lex="okadaic_acid" sem="Organic_compound_other">okadaic acid</term>, potent inhibitors of <cons id="T18" lex="(AND protein_phosphatase_type_1_(PP-1) protein_phosphatase_type_2A)" sem="(AND Protein_family_or_group Protein_family_or_group)"><frag id="F1">protein phosphatase</frag> <frag id="F2">type 1 (PP-1)</frag> and <frag id="F3">type 2A</frag></cons> (<term id="T19" lex="PP-2A" sem="Protein_family_or_group">PP-2A</term>), induces the <term id="T20" lex="phosphorylation" sem="Other">phosphorylation</term> of <term id="T21" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term> even in the absence of any <term id="A23" sem="Other">cellular stimulus</term>.</sentence>
+<event KT="Method" id="E61">
+<type class="Artificial_process"/>
+<theme idref="T15"/>
+<theme idref="T16"/>
+<clue>Our studies demonstrate that <clueType>incubation</clueType> <linkTheme>of</linkTheme> human T cells <linkTheme>with</linkTheme> low concentrations (approximately 1-5 nM) of calyculin A or okadaic acid, potent inhibitors of protein phosphatase type 1 (PP-1) and type 2A (PP-2A), induces the phosphorylation of I kappa B alpha even in the absence of any cellular stimulus.</clue>
+</event>
+<event KT="Method" id="E62">
+<type class="Artificial_process"/>
+<theme idref="T15"/>
+<theme idref="T17"/>
+<clue>Our studies demonstrate that <clueType>incubation</clueType> <linkTheme>of</linkTheme> human T cells <linkTheme>with</linkTheme> low concentrations (approximately 1-5 nM) of calyculin A or okadaic acid, potent inhibitors of protein phosphatase type 1 (PP-1) and type 2A (PP-2A), induces the phosphorylation of I kappa B alpha even in the absence of any cellular stimulus.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T21"/>
+<clue>Our studies demonstrate that incubation of human T cells with low concentrations (approximately 1-5 nM) of calyculin A or okadaic acid, potent inhibitors of protein phosphatase type 1 (PP-1) and type 2A (PP-2A), induces the <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> I kappa B alpha even in the absence of any cellular stimulus.</clue>
+</event>
+<event KT="Analysis" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<cause idref="E61"/>
+<clue>Our studies <clueKT>demonstrate</clueKT> that incubation of human T cells with low concentrations (approximately 1-5 nM) of calyculin A or okadaic acid, potent inhibitors of protein phosphatase type 1 (PP-1) and type 2A (PP-2A), <clueType>induces</clueType> the phosphorylation of I kappa B alpha even in the absence of any cellular stimulus.</clue>
+</event>
+<event KT="Analysis" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<cause idref="E62"/>
+<clue>Our studies <clueKT>demonstrate</clueKT> that incubation of human T cells with low concentrations (approximately 1-5 nM) of calyculin A or okadaic acid, potent inhibitors of protein phosphatase type 1 (PP-1) and type 2A (PP-2A), <clueType>induces</clueType> the phosphorylation of I kappa B alpha even in the absence of any cellular stimulus.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E64">
+<type class="Regulation"/>
+<theme idref="E12"/>
+<cause idref="A23"/>
+<clue>Our studies <clueKT>demonstrate</clueKT> that incubation of human T cells with low concentrations (approximately 1-5 nM) of calyculin A or okadaic acid, potent inhibitors of protein phosphatase type 1 (PP-1) and type 2A (PP-2A), induces the phosphorylation of I kappa B alpha even in the <clueType><cluePolarity>absence</cluePolarity></clueType> <linkCause>of</linkCause> any cellular stimulus.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E65">
+<type class="Regulation"/>
+<theme idref="E13"/>
+<cause idref="A23"/>
+<clue>Our studies <clueKT>demonstrate</clueKT> that incubation of human T cells with low concentrations (approximately 1-5 nM) of calyculin A or okadaic acid, potent inhibitors of protein phosphatase type 1 (PP-1) and type 2A (PP-2A), induces the phosphorylation of I kappa B alpha even in the <clueType><cluePolarity>absence</cluePolarity></clueType> <linkCause>of</linkCause> any cellular stimulus.</clue>
+</event>
+<sentence id="S5">This action of the <term id="T22" lex="phosphatase_inhibitor" sem="Organic_compound_other">phosphatase inhibitors</term>, which is associated with the activation of the <term id="T23" lex="RelA.p50_NF-kappa_B_heterodimer" sem="Protein_complex">RelA.p50 <term id="T24" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> heterodimer</term>, is not affected by <term id="A2" sem="Other">agents</term> that block the induction of <term id="T25" lex="I_kappa_B_alpha_phosphorylation" sem="Other"><term id="T26" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term> phosphorylation</term> by <term id="T27" lex="tumor_necrosis_factor_alpha" sem="Protein_molecule">tumor necrosis factor alpha</term> (<term id="T28" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term>).</sentence>
+<event KT="Other" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="T23"/>
+<clue>This action of the phosphatase inhibitors, which is associated with the <clueType>activation</clueType> <linkTheme>of</linkTheme> the RelA.p50 NF-kappa B heterodimer, is not affected by agents that block the induction of I kappa B alpha phosphorylation by tumor necrosis factor alpha (TNF-alpha).</clue>
+</event>
+<event KT="Analysis" id="E15">
+<type class="Correlation"/>
+<theme idref="E12"/>
+<theme idref="E14"/>
+<clue><corefTheme idref1="E12">This action of the phosphatase inhibitors</corefTheme>, which is <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> the activation of the RelA.p50 NF-kappa B heterodimer, is not affected by agents that block the induction of I kappa B alpha phosphorylation by tumor necrosis factor alpha (TNF-alpha).</clue>
+</event>
+<event KT="Analysis" id="E16">
+<type class="Correlation"/>
+<theme idref="E13"/>
+<theme idref="E14"/>
+<clue><corefTheme idref1="E13">This action of the phosphatase inhibitors</corefTheme>, which is <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> the activation of the RelA.p50 NF-kappa B heterodimer, is not affected by agents that block the induction of I kappa B alpha phosphorylation by tumor necrosis factor alpha (TNF-alpha).</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T26"/>
+<clue>This action of the phosphatase inhibitors, which is associated with the activation of the RelA.p50 NF-kappa B heterodimer, is not affected by agents that block the induction of I kappa B alpha <clueType>phosphorylation</clueType> by tumor necrosis factor alpha (TNF-alpha).</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="T28"/>
+<clue>This action of the phosphatase inhibitors, which is associated with the activation of the RelA.p50 NF-kappa B heterodimer, is not affected by agents that block the <clueType>induction</clueType> <linkTheme>of</linkTheme> I kappa B alpha phosphorylation <linkCause>by</linkCause> tumor necrosis factor alpha (TNF-alpha).</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Negative_regulation"/>
+<theme idref="E19"/>
+<cause idref="A2"/>
+<clue>This action of the phosphatase inhibitors, which is associated with the activation of the RelA.p50 NF-kappa B heterodimer, is not affected by agents that <clueType>block</clueType> the induction of I kappa B alpha phosphorylation by tumor necrosis factor alpha (TNF-alpha).</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E21">
+<type class="Regulation"/>
+<theme idref="E12"/>
+<cause idref="A2"/>
+<clue><corefTheme>This action of the phosphatase inhibitors</corefTheme>, which is associated with the activation of the RelA.p50 NF-kappa B heterodimer, is <cluePolarity>not</cluePolarity> <clueType>affected</clueType> <linkCause>by</linkCause> agents that block the induction of I kappa B alpha phosphorylation by tumor necrosis factor alpha (TNF-alpha).</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E22">
+<type class="Regulation"/>
+<theme idref="E13"/>
+<cause idref="A2"/>
+<clue><corefTheme>This action of the phosphatase inhibitors</corefTheme>, which is associated with the activation of the RelA.p50 NF-kappa B heterodimer, is <cluePolarity>not</cluePolarity> <clueType>affected</clueType> <linkCause>by</linkCause> agents that block the induction of I kappa B alpha phosphorylation by tumor necrosis factor alpha (TNF-alpha).</clue>
+</event>
+<sentence id="S6">Furthermore, the <term id="T29" lex="phosphorylated_I_kappa_B_alpha" sem="Protein_molecule">phosphorylated <term id="T30" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term></term> from <term id="T31" lex="calyculin_A-treated_cell" sem="Cell_cultured"><term id="T32" lex="calyculin_A" sem="Organic_compound_other">calyculin A</term>-treated cells</term>, but not that from <term id="T33" lex="TNF-alpha-stimulated_cell" sem="Cell_cultured"><term id="T34" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term>-stimulated cells</term>, is sensitive to <term id="T35" lex="PP-2A" sem="Protein_family_or_group">PP-2A</term> in vitro, suggesting the existence of fundamental differences in the <term id="T36" lex="phosphorylation" sem="Other">phosphorylation</term> of <term id="T37" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term> induced by the two different <term id="T38" lex="NF-kappa_B_inducer" sem="Other"><term id="T39" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> inducers</term>.</sentence>
+<event id="E23">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T37"/>
+<clue>Furthermore, the phosphorylated I kappa B alpha from calyculin A-treated cells, but not that from TNF-alpha-stimulated cells, is sensitive to PP-2A in vitro, suggesting the existence of fundamental differences in the <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> I kappa B alpha induced by the two different NF-kappa B inducers.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E23"/>
+<cause idref="T38"/>
+<clue>Furthermore, the phosphorylated I kappa B alpha from calyculin A-treated cells, but not that from TNF-alpha-stimulated cells, is sensitive to PP-2A in vitro, suggesting the existence of fundamental differences in the phosphorylation of I kappa B alpha <clueType>induced</clueType> <linkCause>by</linkCause> the two different NF-kappa B inducers.</clue>
+</event>
+<event id="E50">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T30"/>
+<clue>Furthermore, the <clueType>phosphorylated</clueType> I kappa B alpha from <clueLoc>calyculin A-treated cells</clueLoc>, but not that from TNF-alpha-stimulated cells, is sensitive to PP-2A in vitro, suggesting the existence of fundamental differences in the phosphorylation of I kappa B alpha induced by the two different NF-kappa B inducers.</clue>
+</event>
+<event id="E51">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T30"/>
+<clue>Furthermore, the <clueType>phosphorylated</clueType> I kappa B alpha from calyculin A-treated cells, but not that from <clueLoc>TNF-alpha-stimulated cells</clueLoc>, is sensitive to PP-2A in vitro, suggesting the existence of fundamental differences in the phosphorylation of I kappa B alpha induced by the two different NF-kappa B inducers.</clue>
+</event>
+<event id="E52">
+<type/>
+<theme idref="E50"/>
+<cause idref="T35"/>
+<clue>Furthermore, the phosphorylated I kappa B alpha from calyculin A-treated cells, but not that from TNF-alpha-stimulated cells, is <clueType>sensitive</clueType> <linkCause>to</linkCause> PP-2A in vitro, suggesting the existence of fundamental differences in the phosphorylation of I kappa B alpha induced by the two different NF-kappa B inducers.</clue>
+<comment>SENSITIVITY</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E53">
+<type/>
+<theme idref="E51"/>
+<cause idref="T35"/>
+<clue>Furthermore, the phosphorylated I kappa B alpha from calyculin A-treated cells, but <cluePolarity>not</cluePolarity> that from TNF-alpha-stimulated cells, is <clueType>sensitive</clueType> <linkCause>to</linkCause> PP-2A in vitro, suggesting the existence of fundamental differences in the phosphorylation of I kappa B alpha induced by the two different NF-kappa B inducers.</clue>
+<comment>SENSITIVITY</comment></event>
+<sentence id="S7">However, induction of <term id="T40" lex="I_kappa_B_alpha_phosphorylation" sem="Other"><term id="T41" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term> phosphorylation</term> by both <term id="T42" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term> and the <term id="T43" lex="phosphatase_inhibitor" sem="Organic_compound_other">phosphatase inhibitors</term> is associated with the subsequent degradation of <term id="T44" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term>.</sentence>
+<event KT="Other" id="E25">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T41"/>
+<clue>However, induction of I kappa B alpha <clueType>phosphorylation</clueType> by both TNF-alpha and the phosphatase inhibitors is associated with the subsequent degradation of I kappa B alpha.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="E25"/>
+<cause idref="T42"/>
+<clue>However, <clueType>induction</clueType> <linkTheme>of</linkTheme> I kappa B alpha phosphorylation <linkCause>by</linkCause> both TNF-alpha and the phosphatase inhibitors is associated with the subsequent degradation of I kappa B alpha.</clue>
+</event>
+<event KT="Other" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="E25"/>
+<cause idref="T43"/>
+<clue>However, <clueType>induction</clueType> <linkTheme>of</linkTheme> I kappa B alpha phosphorylation <linkCause>by</linkCause> both TNF-alpha and the phosphatase inhibitors is associated with the subsequent degradation of I kappa B alpha.</clue>
+</event>
+<event KT="Other" id="E28">
+<type class="Protein_catabolism"/>
+<theme idref="T44"/>
+<clue>However, induction of I kappa B alpha phosphorylation by both TNF-alpha and the phosphatase inhibitors is associated with the subsequent <clueType>degradation</clueType> <linkTheme>of</linkTheme> I kappa B alpha.</clue>
+</event>
+<event KT="Analysis" id="E29">
+<type class="Correlation"/>
+<theme idref="E26"/>
+<theme idref="E28"/>
+<clue>However, induction of I kappa B alpha phosphorylation by both TNF-alpha and the phosphatase inhibitors is <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> the subsequent degradation of I kappa B alpha.</clue>
+</event>
+<event KT="Analysis" id="E30">
+<type class="Correlation"/>
+<theme idref="E27"/>
+<theme idref="E28"/>
+<clue>However, induction of I kappa B alpha phosphorylation by both TNF-alpha and the phosphatase inhibitors is <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> the subsequent degradation of I kappa B alpha.</clue>
+</event>
+<sentence id="S8">We further demonstrate that <term id="A3" sem="Protein_molecule">TNF-alpha</term>- and <term id="A4" sem="Organic_compound_other">calyculin A</term>-induced <term id="A5" sem="Protein_molecule">I kappa B alpha</term> degradation exhibits similar but not identical sensitivities to a <term id="T46" lex="proteasome_inhibitor" sem="Organic_compound_other">proteasome inhibitor</term>.</sentence>
+<event KT="Other" id="E31">
+<type class="Protein_catabolism"/>
+<theme idref="A5"/>
+<clue>We further demonstrate that TNF-alpha- and calyculin A-induced I kappa B alpha <clueType>degradation</clueType> exhibits similar but not identical sensitivities to a proteasome inhibitor.</clue>
+<comment>NER T45 DEL</comment></event>
+<event KT="Other" id="E32">
+<type class="Positive_regulation"/>
+<theme idref="E31"/>
+<cause idref="A3"/>
+<clue>We further demonstrate that TNF-alpha- and calyculin A-<clueType>induced</clueType> I kappa B alpha degradation exhibits similar but not identical sensitivities to a proteasome inhibitor.</clue>
+</event>
+<event KT="Other" id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E31"/>
+<cause idref="A4"/>
+<clue>We further demonstrate that TNF-alpha- and calyculin A-<clueType>induced</clueType> I kappa B alpha degradation exhibits similar but not identical sensitivities to a proteasome inhibitor.</clue>
+</event>
+<event KT="Analysis" id="E34">
+<type/>
+<theme idref="E32"/>
+<cause idref="T46"/>
+<clue>We further <clueKT>demonstrate</clueKT> that TNF-alpha- and calyculin A-induced I kappa B alpha degradation <clueType>exhibits</clueType> similar but not identical <clueType>sensitivities</clueType> <linkCause>to</linkCause> a proteasome inhibitor.</clue>
+<comment>SENSITIVITY</comment></event>
+<event KT="Analysis" id="E35">
+<type/>
+<theme idref="E33"/>
+<cause idref="T46"/>
+<clue>We further <clueKT>demonstrate</clueKT> that TNF-alpha- and calyculin A-induced I kappa B alpha degradation <clueType>exhibits</clueType> similar but not identical <clueType>sensitivities</clueType> <linkCause>to</linkCause> a proteasome inhibitor.</clue>
+<comment>SENSITIVITY</comment></event>
+<sentence id="S9">Together, these results suggest that <term id="T47" lex="phosphorylation" sem="Other">phosphorylation</term> of <term id="T48" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term>, mediated through both the <term id="T49" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term><term id="A6" sem="Protein_molecule">-inducible</term> and the <term id="T50" lex="PP-2A-opposing_kinase" sem="Protein_family_or_group"><term id="T51" lex="PP-2A" sem="Protein_family_or_group">PP-2A</term>-opposing <term id="A7" sem="Protein_molecule">kinases</term></term>, may serve to target <term id="T52" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term> for <term id="T53" lex="proteasome-mediated_degradation" sem="Other"><term id="T54" lex="proteasome" sem="Protein_complex">proteasome</term>-mediated degradation</term>.</sentence>
+<event KT="Other" id="E36">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T48"/>
+<clue>Together, these results suggest that <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> I kappa B alpha, mediated through both the TNF-alpha-inducible and the PP-2A-opposing kinases, may serve to target I kappa B alpha for proteasome-mediated degradation.</clue>
+</event>
+<event KT="Other" id="E37">
+<type class="Positive_regulation"/>
+<theme idref="E36"/>
+<cause idref="T49" idref1="A6" idref2="A7"/>
+<clue>Together, these results suggest that phosphorylation of I kappa B alpha, <clueType>mediated</clueType> <linkCause>through</linkCause> both the TNF-alpha-inducible and the PP-2A-opposing kinases, may serve to target I kappa B alpha for proteasome-mediated degradation.</clue>
+</event>
+<event KT="Other" id="E38">
+<type class="Positive_regulation"/>
+<theme idref="E36"/>
+<cause idref="T50"/>
+<clue>Together, these results suggest that phosphorylation of I kappa B alpha, <clueType>mediated</clueType> <linkCause>through</linkCause> both the TNF-alpha-inducible and the PP-2A-opposing kinases, may serve to target I kappa B alpha for proteasome-mediated degradation.</clue>
+</event>
+<event KT="Other" id="E139">
+<type class="Protein_catabolism"/>
+<theme idref="T52"/>
+<clue>Together, these results suggest that phosphorylation of I kappa B alpha, mediated through both the TNF-alpha-inducible and the PP-2A-opposing kinases, may serve to target I kappa B alpha for proteasome-mediated <clueType>degradation</clueType>.</clue>
+</event>
+<event KT="Other" id="E140">
+<type class="Positive_regulation"/>
+<theme idref="E139"/>
+<cause idref="T54"/>
+<clue>Together, these results suggest that phosphorylation of I kappa B alpha, mediated through both the TNF-alpha-inducible and the PP-2A-opposing kinases, may serve to target I kappa B alpha for proteasome-<clueType>mediated</clueType> degradation.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E40" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E140"/>
+<cause idref="E37"/>
+<clue>Together, these results <clueKT><clueCL>suggest</clueCL></clueKT> that phosphorylation of I kappa B alpha, mediated through both the TNF-alpha-inducible and the PP-2A-opposing kinases, <clueCL>may</clueCL> <clueType>serve to target</clueType> I kappa B alpha for proteasome-mediated degradation.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E41" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E140"/>
+<cause idref="E38"/>
+<clue>Together, these results <clueKT><clueCL>suggest</clueCL></clueKT> that phosphorylation of I kappa B alpha, mediated through both the TNF-alpha-inducible and the PP-2A-opposing kinases, <clueCL>may</clueCL> <clueType>serve to target</clueType> I kappa B alpha for proteasome-mediated degradation.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,246 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9242431" created="12/10/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9242431</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="Bcl-2_protein" sem="Protein_molecule">Bcl-2 protein</term> inhibits <term id="T2" lex="bufalin-induced_apoptosis" sem="Other"><term id="T3" lex="bufalin" sem="Organic_compound_other">bufalin</term>-induced <term id="A1" sem="Other">apoptosis</term></term> through inhibition of <term id="T4" lex="mitogen-activated_protein_kinase_activation" sem="Other"><term id="T5" lex="mitogen-activated_protein_kinase" sem="Protein_family_or_group">mitogen-activated protein kinase</term> activation</term> in <term id="T6" lex="human_leukemia_U937_cell" sem="Cell_cultured">human leukemia U937 cells</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Positive_regulation"/>
+<theme idref="A1"/>
+<cause idref="T3"/>
+<clue>Bcl-2 protein inhibits bufalin-<clueType>induced</clueType> apoptosis through inhibition of mitogen-activated protein kinase activation in human leukemia U937 cells.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="T5"/>
+<clue>Bcl-2 protein inhibits bufalin-induced apoptosis through inhibition of mitogen-activated protein kinase <clueType>activation</clueType> in human leukemia U937 cells.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation"/>
+<theme idref="E2"/>
+<cause idref="T1"/>
+<clue>Bcl-2 protein <clueType>inhibits</clueType> bufalin-induced apoptosis <clueType>through inhibition</clueType> <linkTheme>of</linkTheme> mitogen-activated protein kinase activation in human leukemia U937 cells.</clue>
+</event>
+<event id="E4">
+<type class="Negative_regulation"/>
+<theme idref="E1"/>
+<cause idref="E3"/>
+<clue>Bcl-2 protein <clueType>inhibits</clueType> bufalin-induced apoptosis <linkCause>through</linkCause> inhibition of mitogen-activated protein kinase activation <clueLoc>in human leukemia U937 cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">In a previous study, we demonstrated that <term id="T7" lex="bufalin" sem="Organic_compound_other">bufalin</term>, which is an active principle of <term id="T8" lex="Chinese_medicine" sem="Organic_compound_other">Chinese medicine</term>, <term id="T9" lex="chan&apos;su" sem="Organic_compound_other">chan&apos;su</term>, caused apoptosis in <term id="T10" lex="human_leukemia_U937_cell" sem="Cell_cultured">human leukemia U937 cells</term> by anomalous activation of <term id="T11" lex="mitogen-activated_protein_kinase" sem="Protein_family_or_group">mitogen-activated protein kinase</term> (<term id="T12" lex="MAPK" sem="Protein_family_or_group">MAPK</term>) via the signaling pathway of <term id="T13" lex="Ras" sem="Protein_molecule">Ras</term>, <term id="T14" lex="Raf-1" sem="Protein_molecule">Raf-1</term>, and <term id="T15" lex="MAPK_kinase-1" sem="Protein_molecule"><term id="T16" lex="MAPK" sem="Protein_family_or_group">MAPK</term> kinase-1</term>.</sentence>
+<event KT="Other" id="E5">
+<type class="Cellular_physiological_process"/>
+<theme idref="T10"/>
+<clue>In a previous study, we demonstrated that bufalin, which is an active principle of Chinese medicine, chan&apos;su, caused <clueType>apoptosis</clueType> <linkTheme>in</linkTheme> human leukemia U937 cells by anomalous activation of mitogen-activated protein kinase (MAPK) via the signaling pathway of Ras, Raf-1, and MAPK kinase-1.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="T12"/>
+<cause idref="T13"/>
+<clue>In a previous study, we demonstrated that bufalin, which is an active principle of Chinese medicine, chan&apos;su, caused apoptosis in human leukemia U937 cells by <clueType>anomalous activation</clueType> <linkTheme>of</linkTheme> mitogen-activated protein kinase (MAPK) <linkCause>via</linkCause> the signaling pathway of Ras, Raf-1, and MAPK kinase-1.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T12"/>
+<cause idref="T14"/>
+<clue>In a previous study, we demonstrated that bufalin, which is an active principle of Chinese medicine, chan&apos;su, caused apoptosis in human leukemia U937 cells by <clueType>anomalous activation</clueType> <linkTheme>of</linkTheme> mitogen-activated protein kinase (MAPK) <linkCause>via</linkCause> the signaling pathway of Ras, Raf-1, and MAPK kinase-1.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T12"/>
+<cause idref="T15"/>
+<clue>In a previous study, we demonstrated that bufalin, which is an active principle of Chinese medicine, chan&apos;su, caused apoptosis in human leukemia U937 cells by <clueType>anomalous activation</clueType> <linkTheme>of</linkTheme> mitogen-activated protein kinase (MAPK) <linkCause>via</linkCause> the signaling pathway of Ras, Raf-1, and MAPK kinase-1.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="T7"/>
+<clue><clueSource>In a previous study</clueSource>, we <clueKT>demonstrated</clueKT> that bufalin, which is an active principle of Chinese medicine, chan&apos;su, <clueType>caused</clueType> apoptosis in human leukemia U937 cells <linkTheme>by</linkTheme> anomalous activation of mitogen-activated protein kinase (MAPK) via the signaling pathway of Ras, Raf-1, and MAPK kinase-1.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="E9"/>
+<clue><clueSource>In a previous study</clueSource>, we <clueKT>demonstrated</clueKT> that bufalin, which is an active principle of Chinese medicine, chan&apos;su, <clueType>caused</clueType> apoptosis in human leukemia U937 cells <linkCause>by</linkCause> anomalous activation of mitogen-activated protein kinase (MAPK) via the signaling pathway of Ras, Raf-1, and MAPK kinase-1.</clue>
+</event>
+<sentence id="S3">Here, we report the effect of overexpression of <term id="T17" lex="bcl-2" sem="Protein_molecule">bcl-2</term> in <term id="T18" lex="U937_cell" sem="Cell_cultured">U937 cells</term> on the <term id="T19" lex="signaling_pathway" sem="Other">signaling pathway</term> of <term id="T20" lex="apoptosis" sem="Other">apoptosis</term> that is induced by <term id="T21" lex="bufalin" sem="Organic_compound_other">bufalin</term>.</sentence>
+<event KT="Other" id="E11">
+<type class="Gene_expression"/>
+<theme idref="T17"/>
+<clue>Here, we report the effect of <clueType>overexpression</clueType> <linkTheme>of</linkTheme> bcl-2 <clueLoc>in U937 cells</clueLoc> on the signaling pathway of apoptosis that is induced by bufalin.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<clue>Here, we report the effect of <clueType>overexpression</clueType> of bcl-2 in U937 cells on the signaling pathway of apoptosis that is induced by bufalin.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Cellular_physiological_process"/>
+<theme idref="T18"/>
+<clue>Here, we report the effect of overexpression of bcl-2 in U937 cells on the signaling pathway of <clueType>apoptosis</clueType> that is induced by bufalin.</clue>
+</event>
+<event KT="Fact" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="T21"/>
+<clue>Here, we report the effect of overexpression of bcl-2 in U937 cells on the signaling pathway of apoptosis that is <clueType>induced</clueType> <linkCause>by</linkCause> bufalin.</clue>
+</event>
+<event KT="Analysis" id="E15">
+<type class="Regulation"/>
+<theme idref="E14"/>
+<cause idref="E12"/>
+<clue>Here, we <clueKT>report</clueKT> the <clueType>effect</clueType> <linkCause>of</linkCause> overexpression of bcl-2 in U937 cells <linkTheme>on</linkTheme> the signaling pathway of apoptosis that is induced by bufalin.</clue>
+</event>
+<sentence id="S4">The results indicated that the <term id="T22" lex="apoptosis" sem="Other">apoptosis</term> induced by <term id="T23" lex="bufalin" sem="Organic_compound_other">bufalin</term> in <term id="T24" lex="U937_cell" sem="Cell_cultured">U937 cells</term> was significantly inhibited by overexpression of the <term id="T25" lex="Bcl-2_protein" sem="Protein_molecule">Bcl-2 protein</term>.</sentence>
+<event KT="Other" id="E16">
+<type class="Cellular_physiological_process"/>
+<theme idref="T24"/>
+<clue>The results indicated that the <clueType>apoptosis</clueType> induced by bufalin <linkTheme>in</linkTheme> U937 cells was significantly inhibited by overexpression of the Bcl-2 protein.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<cause idref="T23"/>
+<clue>The results indicated that the apoptosis <clueType>induced</clueType> <linkCause>by</linkCause> bufalin in U937 cells was significantly inhibited by overexpression of the Bcl-2 protein.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Gene_expression"/>
+<theme idref="T25"/>
+<clue>The results indicated that the apoptosis induced by bufalin in U937 cells was significantly inhibited by <clueType>overexpression</clueType> <linkTheme>of</linkTheme> the Bcl-2 protein.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<clue>The results indicated that the apoptosis induced by bufalin in U937 cells was significantly inhibited by <clueType>overexpression</clueType> of the Bcl-2 protein.</clue>
+</event>
+<event CL="L2" KT="Analysis" Manner="High" id="E20">
+<type class="Negative_regulation"/>
+<theme idref="E17"/>
+<cause idref="E19"/>
+<clue>The results <clueKT><clueCL>indicated</clueCL></clueKT> that the apoptosis induced by bufalin in U937 cells was <clueManner>significantly</clueManner> <clueType>inhibited</clueType> <linkCause>by</linkCause> overexpression of the Bcl-2 protein.</clue>
+</event>
+<sentence id="S5">No significant difference was detected in the activation of <term id="T26" lex="MAPK_kinase-1" sem="Protein_molecule"><term id="T27" lex="MAPK" sem="Protein_family_or_group">MAPK</term> kinase-1</term> that is induced by <term id="T28" lex="bufalin" sem="Organic_compound_other">bufalin</term> in wild-type or <term id="T29" lex="Bcl-2-overexpressed_U937_cell" sem="Cell_natural"><term id="A2" sem="Protein_molecule">Bcl-2</term>-overexpressed <term id="T30" lex="U937_cell" sem="Cell_cultured">U937 cells</term></term>; however, the activation of <term id="T31" lex="MAPK" sem="Protein_family_or_group">MAPK</term> by <term id="T32" lex="bufalin" sem="Organic_compound_other">bufalin</term> was significantly attenuated in the cells overexpressing <term id="T33" lex="Bcl-2" sem="Protein_molecule">Bcl-2</term>.</sentence>
+<event id="E21">
+<type class="Positive_regulation"/>
+<theme idref="T26"/>
+<cause idref="T28"/>
+<clue>No significant difference was detected in the <clueType>activation</clueType> <linkTheme>of</linkTheme> MAPK kinase-1 that is <linkCause>induced by</linkCause> bufalin <clueLoc>in wild-type</clueLoc> or Bcl-2-overexpressed <clueLoc>U937 cells</clueLoc>; however, the activation of MAPK by bufalin was significantly attenuated in the cells overexpressing Bcl-2.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation"/>
+<theme idref="T26"/>
+<cause idref="T28"/>
+<clue>No significant difference was detected in the <clueType>activation</clueType> <linkTheme>of</linkTheme> MAPK kinase-1 that is <linkCause>induced by</linkCause> bufalin <clueLoc>in</clueLoc> wild-type or <clueLoc>Bcl-2-overexpressed U937 cells</clueLoc>; however, the activation of MAPK by bufalin was significantly attenuated in the cells overexpressing Bcl-2.</clue>
+</event>
+<event id="E23">
+<type class="Gene_expression"/>
+<theme idref="A2"/>
+<clue>No significant difference was detected in the activation of MAPK kinase-1 that is induced by bufalin in wild-type or Bcl-2-<clueType>overexpressed</clueType> U937 cells; however, the activation of MAPK by bufalin was significantly attenuated in the cells overexpressing Bcl-2.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E23"/>
+<clue>No significant difference was detected in the activation of MAPK kinase-1 that is induced by bufalin in wild-type or Bcl-2-<clueType>overexpressed</clueType> <clueLoc>U937 cells</clueLoc>; however, the activation of MAPK by bufalin was significantly attenuated in the cells overexpressing Bcl-2.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E25">
+<type class="Regulation"/>
+<theme idref="E22"/>
+<cause idref="E24"/>
+<clue><cluePolarity>No</cluePolarity> significant <clueType>difference</clueType> was <clueKT>detected</clueKT> <linkTheme>in</linkTheme> the activation of MAPK kinase-1 that is induced by bufalin <linkCause>in</linkCause> wild-type or Bcl-2-overexpressed U937 cells; however, the activation of MAPK by bufalin was significantly attenuated in the cells overexpressing Bcl-2.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation"/>
+<theme idref="T31"/>
+<cause idref="T32"/>
+<clue>No significant difference was detected in the activation of MAPK kinase-1 that is induced by bufalin in wild-type or Bcl-2-overexpressed U937 cells; however, the <clueType>activation</clueType> <linkTheme>of</linkTheme> MAPK <linkCause>by</linkCause> bufalin was significantly attenuated in the cells overexpressing Bcl-2.</clue>
+</event>
+<event id="E27">
+<type class="Gene_expression"/>
+<theme idref="T33"/>
+<clue>No significant difference was detected in the activation of MAPK kinase-1 that is induced by bufalin in wild-type or Bcl-2-overexpressed U937 cells; however, the activation of MAPK by bufalin was significantly attenuated in the cells <clueType>overexpressing</clueType> Bcl-2.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation"/>
+<theme idref="E27"/>
+<clue>No significant difference was detected in the activation of MAPK kinase-1 that is induced by bufalin in wild-type or Bcl-2-overexpressed U937 cells; however, the activation of MAPK by bufalin was significantly attenuated in <clueLoc>the cells</clueLoc> <clueType>overexpressing</clueType> Bcl-2.</clue>
+</event>
+<event Manner="High" id="E29">
+<type class="Negative_regulation"/>
+<theme idref="E26"/>
+<cause idref="E28"/>
+<clue>No significant difference was detected in the activation of MAPK kinase-1 that is induced by bufalin in wild-type or Bcl-2-overexpressed U937 cells; however, the activation of MAPK by bufalin was <clueManner>significantly</clueManner> <clueType>attenuated</clueType> <linkCause>in</linkCause> the cells overexpressing Bcl-2.</clue>
+</event>
+<sentence id="S6"><term id="A3" sem="Organic_compound_other">Bufalin</term> treatment activated <term id="T34" lex="activated_activator_protein-1_transcriptional_activity" sem="Other"><term id="T35" lex="activated_activator_protein-1" sem="Protein_molecule">activator protein-1</term> transcriptional activity</term>; however, this activation was decreased to 40% in <term id="T36" lex="bcl-2" sem="Protein_molecule">bcl-2</term>-overexpressed <term id="T37" lex="U937_cell" sem="Cell_cultured">U937 cells</term>.</sentence>
+<event id="E30">
+<type class="Positive_regulation"/>
+<cause idref="T35"/>
+<clue>Bufalin treatment activated activator protein-1 <clueType>transcriptional activity</clueType>; however, this activation was decreased to 40% in bcl-2-overexpressed U937 cells.</clue>
+<comment>NER T35,T34 MOD</comment></event>
+<event id="E31">
+<type class="Positive_regulation"/>
+<theme idref="E30"/>
+<cause idref="A3"/>
+<clue>Bufalin treatment <clueType>activated</clueType> activator protein-1 transcriptional activity; however, this activation was decreased to 40% in bcl-2-overexpressed U937 cells.</clue>
+</event>
+<event id="E32">
+<type class="Gene_expression"/>
+<theme idref="T36"/>
+<clue>Bufalin treatment activated activator protein-1 transcriptional activity; however, this activation was decreased to 40% in bcl-2-<clueType>overexpressed</clueType> U937 cells.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E32"/>
+<clue>Bufalin treatment activated activator protein-1 transcriptional activity; however, this activation was decreased to 40% in bcl-2-<clueType>overexpressed</clueType> <clueLoc>U937 cells</clueLoc>.</clue>
+</event>
+<event id="E34">
+<type class="Negative_regulation"/>
+<theme idref="E31"/>
+<cause idref="E33"/>
+<clue>Bufalin treatment activated activator protein-1 transcriptional activity; however, <corefTheme>this activation</corefTheme> was <clueType>decreased</clueType> to 40% <linkCause>in</linkCause> bcl-2-overexpressed U937 cells.</clue>
+</event>
+<sentence id="S7">These results indicate that <term id="T38" lex="Bcl-2" sem="Protein_molecule">Bcl-2</term> acts downstream of <term id="T39" lex="MAPK_kinase-1" sem="Protein_molecule"><term id="T40" lex="MAPK" sem="Protein_family_or_group">MAPK</term> kinase-1</term> but upstream of <term id="T41" lex="MAPK" sem="Protein_family_or_group">MAPK</term> and suggest that, in the <term id="T42" lex="signaling_pathway" sem="Other">signaling pathway</term> of the <term id="A4" sem="Other">apoptotic process</term> induced by <term id="T43" lex="bufalin" sem="Organic_compound_other">bufalin</term>, the transcriptional activity of <term id="T44" lex="activator_protein-1" sem="Protein_molecule">activator protein-1</term> may be down-regulated through the inhibition of <term id="T45" lex="MAPK" sem="Protein_family_or_group">MAPK</term> activity by <term id="T46" lex="Bcl-2" sem="Protein_molecule">Bcl-2</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E35">
+<type class="Regulation"/>
+<theme idref="T38"/>
+<cause idref="T39"/>
+<clue>These results <clueKT><clueCL>indicate</clueCL></clueKT> that Bcl-2 <clueType>acts</clueType> <linkCause>downstream of</linkCause> MAPK kinase-1 but upstream of MAPK and suggest that, in the signaling pathway of the apoptotic process induced by bufalin, the transcriptional activity of activator protein-1 may be down-regulated through the inhibition of MAPK activity by Bcl-2.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E36">
+<type class="Regulation"/>
+<theme idref="T41"/>
+<cause idref="T38"/>
+<clue>These results <clueKT><clueCL>indicate</clueCL></clueKT> that Bcl-2 <clueType>acts</clueType> downstream of MAPK kinase-1 but <linkTheme>upstream of</linkTheme> MAPK and suggest that, in the signaling pathway of the apoptotic process induced by bufalin, the transcriptional activity of activator protein-1 may be down-regulated through the inhibition of MAPK activity by Bcl-2.</clue>
+</event>
+<event KT="Other" id="E37">
+<type class="Positive_regulation"/>
+<theme idref="A4"/>
+<cause idref="T43"/>
+<clue>These results indicate that Bcl-2 acts downstream of MAPK kinase-1 but upstream of MAPK and suggest that, in the signaling pathway of the apoptotic process <clueType>induced</clueType> <linkCause>by</linkCause> bufalin, the transcriptional activity of activator protein-1 may be down-regulated through the inhibition of MAPK activity by Bcl-2.</clue>
+</event>
+<event KT="Other" id="E38">
+<type class="Positive_regulation"/>
+<cause idref="T44"/>
+<clue>These results indicate that Bcl-2 acts downstream of MAPK kinase-1 but upstream of MAPK and suggest that, in the signaling pathway of the apoptotic process induced by bufalin, the <clueType>transcriptional activity</clueType> <linkCause>of</linkCause> activator protein-1 may be down-regulated through the inhibition of MAPK activity by Bcl-2.</clue>
+</event>
+<event KT="Other" id="E39">
+<type class="Negative_regulation"/>
+<theme idref="T45"/>
+<cause idref="T46"/>
+<clue>These results indicate that Bcl-2 acts downstream of MAPK kinase-1 but upstream of MAPK and suggest that, in the signaling pathway of the apoptotic process induced by bufalin, the transcriptional activity of activator protein-1 may be down-regulated through the <clueType>inhibition</clueType> <linkTheme>of</linkTheme> MAPK activity <linkCause>by</linkCause> Bcl-2.</clue>
+</event>
+<event KT="Other" id="E40" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="E38"/>
+<cause idref="E39"/>
+<clue>These results indicate that Bcl-2 acts downstream of MAPK kinase-1 but upstream of MAPK and suggest that, in the signaling pathway of the apoptotic process induced by bufalin, the transcriptional activity of activator protein-1 may be <clueType>down-regulated</clueType> <linkCause>through</linkCause> the inhibition of MAPK activity by Bcl-2.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E137" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E37"/>
+<cause idref="E40"/>
+<clue>These results indicate that Bcl-2 acts downstream of MAPK kinase-1 but upstream of MAPK and <clueKT>suggest</clueKT> that, <linkTheme>in the signaling pathway of</linkTheme> the apoptotic process induced by bufalin, the transcriptional activity of activator protein-1 <clueCL>may</clueCL> be down-regulated through the inhibition of MAPK activity by Bcl-2.</clue>
+<comment>NO CLUETYPE</comment></event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

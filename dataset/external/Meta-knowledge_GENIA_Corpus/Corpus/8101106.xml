@@ -1,0 +1,207 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8101106" created="19/03/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8101106</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="A1" sem="Polynucleotide"><term id="T1" lex="antisense_oligonucleotide" sem="Polynucleotide">Antisense oligonucleotides</term> to the <term id="T2" lex="p65_subunit" sem="Protein_molecule">p65 subunit</term></term> of <term id="T3" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> block <term id="T4" lex="CD11b_expression" sem="Other"><term id="T5" lex="CD11b" sem="Protein_molecule">CD11b</term> expression</term> and alter <term id="T6" lex="adhesion_property" sem="Other">adhesion properties</term> of differentiated <term id="T7" lex="HL-60_granulocyte" sem="Cell_cultured">HL-60 granulocytes</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Gene_expression"/>
+<theme idref="T5"/>
+<clue>Antisense oligonucleotides to the p65 subunit of NF-kappa B block CD11b <clueType>expression</clueType> and alter adhesion properties of differentiated HL-60 granulocytes.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation"/>
+<theme idref="E1"/>
+<cause idref="A1"/>
+<clue>Antisense oligonucleotides to the p65 subunit of NF-kappa B <clueType>block</clueType> CD11b expression and alter adhesion properties of differentiated HL-60 granulocytes.</clue>
+</event>
+<event id="E3">
+<type class="Regulation"/>
+<theme idref="T7"/>
+<cause idref="A1"/>
+<clue>Antisense oligonucleotides to the p65 subunit of NF-kappa B block CD11b expression and <clueType>alter adhesion properties</clueType> <linkTheme>of</linkTheme> differentiated HL-60 granulocytes.</clue>
+<comment>TPS: A1</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T8" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> is a <term id="T9" lex="pleiotropic_regulator" sem="Protein_family_or_group">pleiotropic regulator</term> of a <term id="A30" sem="DNA_domain_or_region"><term id="A2" sem="DNA_domain_or_region">variety of genes</term> implicated in the <term id="A4" sem="Other">cellular response to injury</term>.</term></sentence>
+<event KT="Fact" id="E4">
+<type class="Regulation"/>
+<theme idref="A30"/>
+<cause idref="T8"/>
+<clue>NF-kappa B is a pleiotropic <clueType>regulator</clueType> <linkTheme>of</linkTheme> a variety of genes implicated in the cellular response to injury.</clue>
+<comment>TPS:A2, A4, A30</comment></event>
+<event KT="Analysis" id="E21">
+<type class="Correlation"/>
+<theme idref="A2"/>
+<theme idref="A4"/>
+<clue>NF-kappa B is a pleiotropic regulator of a variety of genes <clueType><clueKT>implicated</clueKT></clueType> <linkTheme>in</linkTheme> the cellular response to injury.</clue>
+<comment>TPS: A4</comment></event>
+<sentence id="S3">This function has been attributed to the coordinated binding of subunits of <term id="T10" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> to distinct regions of the <term id="T11" lex="promoter_element" sem="DNA_family_or_group">promoter elements</term> of numerous genes, including <term id="T12" lex="cytokine" sem="Protein_family_or_group">cytokines</term>, <term id="T13" lex="growth_factor_receptor" sem="Protein_family_or_group">growth factor receptors</term>, and <term id="T14" lex="adhesion_molecule" sem="Protein_family_or_group">adhesion molecules</term>.</sentence>
+<event KT="Fact" id="E22">
+<type class="Binding"/>
+<theme idref="T10"/>
+<theme idref="T12"/>
+<clue>This function has been attributed to the coordinated <clueType>binding</clueType> <linkTheme>of</linkTheme> subunits of NF-kappa B <linkTheme>to</linkTheme> distinct regions of the promoter elements of numerous genes, including cytokines, growth factor receptors, and adhesion molecules.</clue>
+</event>
+<event KT="Fact" id="E23">
+<type class="Binding"/>
+<theme idref="T10"/>
+<theme idref="T13"/>
+<clue>This function has been attributed to the coordinated <clueType>binding</clueType> <linkTheme>of</linkTheme> subunits of NF-kappa B <linkTheme>to</linkTheme> distinct regions of the promoter elements of numerous genes, including cytokines, growth factor receptors, and adhesion molecules.</clue>
+</event>
+<event KT="Fact" id="E24">
+<type class="Binding"/>
+<theme idref="T10"/>
+<theme idref="T14"/>
+<clue>This function has been attributed to the coordinated <clueType>binding</clueType> <linkTheme>of</linkTheme> subunits of NF-kappa B <linkTheme>to</linkTheme> distinct regions of the promoter elements of numerous genes, including cytokines, growth factor receptors, and adhesion molecules.</clue>
+</event>
+<event KT="Analysis" id="E31">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="E22"/>
+<clue><corefTheme>This function</corefTheme> has been <clueType><clueKT>attributed</clueKT></clueType> <linkCause>to</linkCause> the coordinated binding of subunits of NF-kappa B to distinct regions of the promoter elements of numerous genes, including cytokines, growth factor receptors, and adhesion molecules.</clue>
+</event>
+<event KT="Analysis" id="E32">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="E23"/>
+<clue><corefTheme>This function</corefTheme> has been <clueType><clueKT>attributed</clueKT></clueType> <linkCause>to</linkCause> the coordinated binding of subunits of NF-kappa B to distinct regions of the promoter elements of numerous genes, including cytokines, growth factor receptors, and adhesion molecules.</clue>
+</event>
+<event KT="Analysis" id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="E24"/>
+<clue><corefTheme>This function</corefTheme> has been <clueType><clueKT>attributed</clueKT></clueType> <linkCause>to</linkCause> the coordinated binding of subunits of NF-kappa B to distinct regions of the promoter elements of numerous genes, including cytokines, growth factor receptors, and adhesion molecules.</clue>
+</event>
+<sentence id="S4"><term id="T15" lex="antisense_phosphorothioate_oligonucleotide" sem="Polynucleotide">Antisense phosphorothioate oligonucleotides</term> to the <term id="T16" lex="p50" sem="Protein_molecule">p50</term> and <term id="T17" lex="p65_subunit" sem="Protein_molecule">p65 subunits</term> of the <term id="T18" lex="NF-kappa_B_complex" sem="Protein_complex">NF-kappa B complex</term> were used to define the physiologic role of this <term id="T19" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> in <cons id="T20" lex="(AND resting_granulocyte stimulated_granulocyte)" sem="(AND Cell_cultured Cell_cultured)"><frag id="F1">resting</frag> and <frag id="F2">stimulated</frag> <frag id="F3"><term id="A21" sem="Cell_natural">granulocytes</term></frag></cons>.</sentence>
+<event KT="Investigation" id="E300" uncertainty="doubtful">
+<type class="Regulation"/>
+<cause idref="T18"/>
+<clue><clueExperiment>Antisense phosphorothioate oligonucleotides to the p50 and p65 subunits of the NF-kappa B complex were used</clueExperiment> to <clueKT>define</clueKT> the <clueType>physiologic role</clueType> <linkCause>of</linkCause> <corefTheme>this transcription factor</corefTheme> <clueLoc>in resting</clueLoc> and stimulated <clueLoc>granulocytes</clueLoc>.</clue>
+</event>
+<event KT="Investigation" id="E301" uncertainty="doubtful">
+<type class="Regulation"/>
+<cause idref="T18"/>
+<clue><clueExperiment>Antisense phosphorothioate oligonucleotides to the p50 and p65 subunits of the NF-kappa B complex were used</clueExperiment> to <clueKT>define</clueKT> the <clueType>physiologic role</clueType> <linkCause>of</linkCause> <corefTheme>this transcription factor</corefTheme> <clueLoc>in</clueLoc> resting and <clueLoc>stimulated granulocytes</clueLoc>.</clue>
+</event>
+<event KT="Method" id="E35">
+<type class="Physiological_process"/>
+<theme idref="A21"/>
+<clue>Antisense phosphorothioate oligonucleotides to the p50 and p65 subunits of the NF-kappa B complex were used to define the physiologic role of this transcription factor in resting and <clueType>stimulated</clueType> granulocytes.</clue>
+</event>
+<sentence id="S5">A reduction in the expression of <term id="T21" lex="p65" sem="Protein_molecule">p65</term> was produced by treatment with the <term id="T22" lex="phosphorothioate_antisense_oligodeoxynucleotide" sem="Polynucleotide">phosphorothioate antisense oligodeoxynucleotide</term>.</sentence>
+<event id="E6">
+<type class="Gene_expression"/>
+<theme idref="T21"/>
+<clue>A reduction in the <clueType>expression</clueType> <linkTheme>of</linkTheme> p65 was produced by treatment with the phosphorothioate antisense oligodeoxynucleotide.</clue>
+</event>
+<event KT="Method" id="E36">
+<type class="Artificial_process"/>
+<theme idref="T22"/>
+<clue>A reduction in the expression of p65 was produced by <clueType>treatment</clueType> <linkTheme>with</linkTheme> the phosphorothioate antisense oligodeoxynucleotide.</clue>
+</event>
+<event id="E7">
+<type class="Negative_regulation"/>
+<theme idref="E6"/>
+<cause idref="E36"/>
+<clue>A <clueType>reduction</clueType> <linkTheme>in</linkTheme> the expression of p65 was produced <linkCause>by</linkCause> treatment with the phosphorothioate antisense oligodeoxynucleotide.</clue>
+</event>
+<sentence id="S6">This reduction was accompanied by rapid changes in the <term id="A3" sem="Other">cellular adhesion</term> of <term id="T23" lex="dimethyl_sulfoxide-differentiated_HL-60_leukemia_cell" sem="Cell_cultured"><term id="T24" lex="dimethyl_sulfoxide" sem="Organic_compound_other">dimethyl sulfoxide</term>-differentiated <term id="A7" sem="Cell_cultured">HL-60 leukemia cells</term></term> stimulated by <term id="T25" lex="12-O-tetradecanoylphorbol_13-acetate" sem="Organic_compound_other">12-O-tetradecanoylphorbol 13-acetate</term> (<term id="T26" lex="TPA" sem="Organic_compound_other">TPA</term>).</sentence>
+<event Manner="High" id="E8">
+<type class="Regulation"/>
+<theme idref="A3"/>
+<cause idref="E7"/>
+<clue><corefCause>This reduction</corefCause> was accompanied by <clueManner>rapid</clueManner> <clueType>changes</clueType> <linkTheme>in</linkTheme> the cellular adhesion of <clueLoc>dimethyl sulfoxide-differentiated HL-60 leukemia cells stimulated by 12-O-tetradecanoylphorbol 13-acetate (TPA).</clueLoc></clue>
+</event>
+<event KT="Method" id="E25">
+<type class="Physiological_process"/>
+<theme idref="T23"/>
+<cause idref="T26"/>
+<clue>This reduction was accompanied by rapid changes in the cellular adhesion of dimethyl sulfoxide-differentiated HL-60 leukemia cells <clueType>stimulated</clueType> <linkCause>by</linkCause> 12-O-tetradecanoylphorbol 13-acetate (TPA).</clue>
+</event>
+<event id="E126">
+<type class="Cell_differentiation"/>
+<theme idref="A7"/>
+<clue>This reduction was accompanied by rapid changes in the cellular adhesion of dimethyl sulfoxide-<clueType>differentiated</clueType> HL-60 leukemia cells stimulated by 12-O-tetradecanoylphorbol 13-acetate (TPA).</clue>
+</event>
+<event id="E127">
+<type class="Positive_regulation"/>
+<theme idref="E126"/>
+<cause idref="T24"/>
+<clue>This reduction was accompanied by rapid changes in the cellular adhesion of dimethyl sulfoxide-<clueType>differentiated</clueType> HL-60 leukemia cells stimulated by 12-O-tetradecanoylphorbol 13-acetate (TPA).</clue>
+</event>
+<sentence id="S7">These effects were characterized by a marked reduction in <term id="T27" lex="CD11b_integrin_expression" sem="Other"><term id="T28" lex="CD11b" sem="Protein_molecule">CD11b</term> <term id="T29" lex="integrin" sem="Protein_family_or_group">integrin</term> expression</term> on the surface of <term id="T30" lex="treated_cell" sem="Cell_cultured">treated cells</term>.</sentence>
+<event id="E9">
+<type class="Gene_expression"/>
+<theme idref="T28"/>
+<clue>These effects were characterized by a marked reduction in CD11b integrin <clueType>expression</clueType> <clueLoc>on the surface of treated cells.</clueLoc></clue>
+</event>
+<event Manner="High" id="E10">
+<type class="Negative_regulation"/>
+<theme idref="E9"/>
+<cause idref="E36"/>
+<clue>These effects were characterized by a <clueManner>marked</clueManner> <clueType>reduction</clueType> <linkTheme>in</linkTheme> CD11b integrin expression on the surface of treated cells.</clue>
+</event>
+<event KT="Analysis" id="E11">
+<type class="Correlation"/>
+<theme idref="E10"/>
+<theme idref="E8"/>
+<clue><corefTheme idref1="E8">These effects</corefTheme> were <clueType><clueKT>characterized</clueKT></clueType> <linkTheme>by</linkTheme> a marked reduction in CD11b integrin expression on the surface of treated cells.</clue>
+</event>
+<sentence id="S8">Furthermore, the <term id="T31" lex="p65_antisense_oligomerp" sem="Polynucleotide"><term id="T32" lex="p65" sem="Protein_molecule">p65</term> antisense oligomer</term> effectively abolished an upregulation of <term id="T33" lex="CD11b" sem="Protein_molecule">CD11b</term> that was produced by <term id="T34" lex="formyl-met-leu-phe" sem="Peptide">formyl-met-leu-phe</term> and <term id="T35" lex="TPA" sem="Organic_compound_other">TPA</term>.</sentence>
+<event KT="Other" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="T33"/>
+<cause idref="T34"/>
+<clue>Furthermore, the p65 antisense oligomer effectively abolished an <clueType>upregulation</clueType> <linkTheme>of</linkTheme> CD11b that was produced <linkCause>by</linkCause> formyl-met-leu-phe and TPA.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T33"/>
+<cause idref="T35"/>
+<clue>Furthermore, the p65 antisense oligomer effectively abolished an <clueType>upregulation</clueType> <linkTheme>of</linkTheme> CD11b that was produced <linkCause>by</linkCause> formyl-met-leu-phe and TPA.</clue>
+</event>
+<event id="E14">
+<type class="Negative_regulation"/>
+<theme idref="E12"/>
+<cause idref="T31"/>
+<clue>Furthermore, the p65 antisense oligomer effectively <clueType>abolished</clueType> an upregulation of CD11b that was produced by formyl-met-leu-phe and TPA.</clue>
+</event>
+<event id="E15">
+<type class="Negative_regulation"/>
+<theme idref="E13"/>
+<cause idref="T31"/>
+<clue>Furthermore, the p65 antisense oligomer effectively <clueType>abolished</clueType> an upregulation of CD11b that was produced by formyl-met-leu-phe and TPA.</clue>
+</event>
+<sentence id="S9">However, the <term id="T36" lex="p65_antisense_phosphorothioate_oligodeoxynucleotide" sem="Polynucleotide"><term id="T37" lex="p65" sem="Protein_molecule">p65</term> antisense phosphorothioate oligodeoxynucleotide</term> had no significant effect on the production of <term id="T38" lex="reactive_oxygen_intermediate" sem="Inorganic_compound">reactive oxygen intermediates</term> or on <term id="T39" lex="phagocytosis" sem="Other">phagocytosis</term> by these cells.</sentence>
+<event id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T38"/>
+<clue>However, the p65 antisense phosphorothioate oligodeoxynucleotide had no significant effect on the <clueType>production</clueType> <linkTheme>of</linkTheme> reactive oxygen intermediates or on phagocytosis by these cells.</clue>
+</event>
+<event Manner="Low" assertion="non-exist" id="E17">
+<type class="Regulation"/>
+<theme idref="E16"/>
+<cause idref="T36"/>
+<clue>However, the p65 antisense phosphorothioate oligodeoxynucleotide had <clueManner>no significant</clueManner> <clueType>effect</clueType> <linkTheme>on</linkTheme> the production of reactive oxygen intermediates or on phagocytosis by these cells.</clue>
+</event>
+<event Manner="Low" assertion="non-exist" id="E18">
+<type class="Regulation"/>
+<theme idref="T39"/>
+<cause idref="T36"/>
+<clue>However, the p65 antisense phosphorothioate oligodeoxynucleotide had <clueManner>no significant</clueManner> <clueType>effect</clueType> <linkTheme>on</linkTheme> the production of reactive oxygen intermediates or on phagocytosis by these cells.</clue>
+</event>
+<sentence id="S10">These findings indicate that <term id="T40" lex="antisense_oligomer" sem="Polynucleotide">antisense oligomers</term> to <term id="T41" lex="p65" sem="Protein_molecule">p65</term> can be used to define the role of <term id="T42" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> in the <term id="T43" lex="activation_pathway" sem="Other">activation pathways</term> of <term id="T44" lex="neutrophil" sem="Cell_natural">neutrophils</term>.</sentence>
+<event KT="Other" id="E19">
+<type class="Physiological_process"/>
+<theme idref="T44"/>
+<clue>These findings indicate that antisense oligomers to p65 can be used to define the role of NF-kappa B in the <clueType>activation</clueType> pathways <linkTheme>of</linkTheme> neutrophils.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E20" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="T42"/>
+<cause idref="T42"/>
+<clue>These findings <clueKT>indicate</clueKT> that <clueExperiment>antisense oligomers to p65</clueExperiment> <clueCL>can</clueCL> be used to define the <clueType>role</clueType> <linkTheme>of</linkTheme> NF-kappa B <linkTheme>in</linkTheme> the activation pathways of neutrophils.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,163 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10229231" created="22/05/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10229231</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Regulation of <term id="T1" lex="Fas_ligand_expression" sem="Other"><term id="T2" lex="Fas_ligand" sem="Protein_molecule">Fas ligand</term> expression</term> and <term id="T3" lex="cell_death" sem="Other">cell death</term> by <term id="T4" lex="apoptosis-linked_gene_4" sem="DNA_domain_or_region">apoptosis-linked gene 4</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Gene_expression"/>
+<theme idref="T2"/>
+<clue>Regulation of Fas ligand <clueType>expression</clueType> and cell death by apoptosis-linked gene 4.</clue>
+</event>
+<event KT="Investigation" id="E2">
+<type class="Regulation"/>
+<theme idref="E1"/>
+<cause idref="T4"/>
+<clue><clueType>Regulation</clueType> <linkTheme>of</linkTheme> Fas ligand expression and cell death <linkCause>by</linkCause> apoptosis-linked gene 4.</clue>
+</event>
+<event KT="Investigation" id="E3">
+<type class="Regulation"/>
+<theme idref="T3"/>
+<cause idref="T4"/>
+<clue><clueType>Regulation</clueType> <linkTheme>of</linkTheme> Fas ligand expression and cell death <linkCause>by</linkCause> apoptosis-linked gene 4.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T5" lex="cell_death" sem="Other">Programmed cell death</term> is a process required for the <term id="T6" lex="normal_development" sem="Other">normal development</term> of an <term id="A1" sem="Multicellular_organism_natural">organism</term>.</sentence>
+<event KT="Other" id="E4">
+<type class="Biological_process"/>
+<theme idref="A1"/>
+<clue>Programmed cell death is a process required for the normal <clueType>development</clueType> <linkTheme>of</linkTheme> an organism.</clue>
+</event>
+<event KT="Fact" id="E5">
+<type class="Correlation"/>
+<theme idref="T5"/>
+<theme idref="E4"/>
+<clue>Programmed cell death is a process <clueType>required</clueType> <linkTheme>for</linkTheme> the normal development of an organism.</clue>
+</event>
+<sentence id="S3">One of the best understood <term id="T7" lex="apoptotic_pathway" sem="Other">apoptotic pathways</term> occurs in <term id="T8" lex="T_lymphocyte" sem="Cell_natural">T lymphocytes</term> and is mediated by <term id="T9" lex="Fas/Fas_ligand_(FasL)_interaction" sem="Other"><term id="T10" lex="Fas" sem="Protein_molecule">Fas</term>/<term id="T11" lex="Fas_ligand" sem="Protein_molecule">Fas ligand</term> (<term id="T12" lex="FasL" sem="Protein_molecule">FasL</term>) interaction</term>.</sentence>
+<event KT="Other" id="E6">
+<type class="Binding"/>
+<theme idref="T10"/>
+<theme idref="T12"/>
+<clue>One of the best understood apoptotic pathways occurs in T lymphocytes and is mediated by Fas/Fas ligand (FasL) <clueType>interaction</clueType>.</clue>
+</event>
+<event KT="Fact" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T7"/>
+<clue>One of the best understood apoptotic pathways <clueType>occurs</clueType> <clueLoc>in T lymphocytes</clueLoc> and is mediated by Fas/Fas ligand (FasL) interaction.</clue>
+</event>
+<event KT="Fact" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="E6"/>
+<clue>One of the best understood apoptotic pathways occurs in T lymphocytes and is <clueType>mediated</clueType> <linkCause>by</linkCause> Fas/Fas ligand (FasL) interaction.</clue>
+</event>
+<sentence id="S4">During studies of <term id="T13" lex="apoptosis" sem="Other">apoptosis</term> induced by <term id="T14" lex="T_cell-receptor_engagement" sem="Other"><term id="A2" sem="Protein_complex">T cell-receptor</term> engagement</term>, we identified <term id="T15" lex="ALG-4F" sem="Protein_molecule">ALG-4F</term>, a <term id="T16" lex="truncated_transcript" sem="Protein_molecule">truncated transcript</term> that prevents <term id="A3" sem="Protein_complex">T cell-receptor</term>-induced <term id="T180" sem="Other"><term id="T18" lex="FasL" sem="Protein_molecule">FasL</term> upregulation</term> and <term id="T19" lex="cell_death" sem="Other">cell death</term>.</sentence>
+<event id="E9">
+<type class="Binding"/>
+<theme idref="A2"/>
+<clue>During studies of apoptosis induced by T cell-receptor <clueType>engagement</clueType>, we identified ALG-4F, a truncated transcript that prevents T cell-receptor-induced FasL upregulation and cell death.</clue>
+</event>
+<event id="E10" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="T13"/>
+<cause idref="E9"/>
+<clue>During studies of apoptosis <clueType>induced</clueType> <linkCause>by</linkCause> T cell-receptor engagement, we identified ALG-4F, a truncated transcript that prevents T cell-receptor-induced FasL upregulation and cell death.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="T18"/>
+<clue>During studies of apoptosis induced by T cell-receptor engagement, we identified ALG-4F, a truncated transcript that prevents T cell-receptor-induced FasL <clueType>upregulation</clueType> and cell death.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<cause idref="A3"/>
+<clue>During studies of apoptosis induced by T cell-receptor engagement, we identified ALG-4F, a truncated transcript that prevents T cell-receptor-<clueType>induced</clueType> FasL upregulation and cell death.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T19"/>
+<cause idref="A3"/>
+<clue>During studies of apoptosis induced by T cell-receptor engagement, we identified ALG-4F, a truncated transcript that prevents T cell-receptor-<clueType>induced</clueType> FasL upregulation and cell death.</clue>
+</event>
+<event KT="Analysis" id="E14">
+<type class="Negative_regulation"/>
+<theme idref="E12"/>
+<cause idref="T15"/>
+<clue>During studies of apoptosis induced by T cell-receptor engagement, we <clueKT>identified</clueKT> ALG-4F, a truncated transcript that <clueType>prevents</clueType> T cell-receptor-induced FasL upregulation and cell death.</clue>
+</event>
+<event KT="Analysis" id="E15">
+<type class="Negative_regulation"/>
+<theme idref="E13"/>
+<cause idref="T15"/>
+<clue>During studies of apoptosis induced by T cell-receptor engagement, we <clueKT>identified</clueKT> ALG-4F, a truncated transcript that <clueType>prevents</clueType> T cell-receptor-induced FasL upregulation and cell death.</clue>
+</event>
+<sentence id="S5">Overexpression of <term id="T20" lex="full-length_ALG-4" sem="Protein_molecule">full-length ALG-4</term> induced <term id="T21" lex="transcription" sem="Other">transcription</term> of <term id="T22" lex="FasL" sem="Protein_molecule">FasL</term> and, consequently, <term id="T23" lex="apoptosis" sem="Other">apoptosis</term>.</sentence>
+<event Manner="High" id="E16">
+<type class="Gene_expression"/>
+<theme idref="T20"/>
+<clue><clueType><clueManner>Overexpression</clueManner></clueType> <linkTheme>of</linkTheme> full-length ALG-4 induced transcription of FasL and, consequently, apoptosis.</clue>
+</event>
+<event Manner="High" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<clue><clueType><clueManner>Overexpression</clueManner></clueType> of full-length ALG-4 induced transcription of FasL and, consequently, apoptosis.</clue>
+</event>
+<event id="E18">
+<type class="Transcription"/>
+<theme idref="T22"/>
+<clue>Overexpression of full-length ALG-4 induced <clueType>transcription</clueType> <linkTheme>of</linkTheme> FasL and, consequently, apoptosis.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="E17"/>
+<clue>Overexpression of full-length ALG-4 <clueType>induced</clueType> transcription of FasL and, consequently, apoptosis.</clue>
+</event>
+<event KT="Analysis" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="T23"/>
+<cause idref="E19"/>
+<clue>Overexpression of full-length ALG-4 <clueType>induced</clueType> transcription of FasL and, <clueKT>consequently</clueKT>, apoptosis.</clue>
+</event>
+<sentence id="S6">These results indicate that <term id="T24" lex="ALG-4" sem="Protein_molecule">ALG-4</term> is necessary and sufficient for <term id="T25" lex="FasL_expression" sem="Other"><term id="T26" lex="FasL" sem="Protein_molecule">FasL</term> expression</term>.</sentence>
+<event KT="Other" id="E21">
+<type class="Gene_expression"/>
+<theme idref="T26"/>
+<clue>These results indicate that ALG-4 is necessary and sufficient for FasL <clueType>expression</clueType>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="T24"/>
+<clue>These results <clueKT><clueCL>indicate</clueCL></clueKT> that ALG-4 is <clueType>necessary and sufficient</clueType> <linkTheme>for</linkTheme> FasL expression.</clue>
+</event>
+<sentence id="S7"><term id="T27" lex="Fas/FasL_interaction" sem="Other"><term id="A4" sem="Protein_molecule">Fas</term>/<term id="T28" lex="FasL" sem="Protein_molecule">FasL</term> interaction</term> initiates <term id="T29" lex="cell_death" sem="Other">cell death</term> in many other systems, and its dysregulation is a mechanism by which several <term id="A5" sem="Other">pathologic conditions</term> arise.</sentence>
+<event KT="Other" id="E23">
+<type class="Binding"/>
+<theme idref="A4"/>
+<theme idref="T28"/>
+<clue>Fas/FasL <clueType>interaction</clueType> initiates cell death in many other systems, and its dysregulation is a mechanism by which several pathologic conditions arise.</clue>
+</event>
+<event KT="Fact" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="T29"/>
+<cause idref="E23"/>
+<clue>Fas/FasL interaction <clueType>initiates</clueType> cell death <clueLoc>in many other systems</clueLoc>, and its dysregulation is a mechanism by which several pathologic conditions arise.</clue>
+</event>
+<event KT="Other" Manner="Low" assertion="non-exist" id="E25">
+<type class="Regulation"/>
+<theme idref="E23"/>
+<clue>Fas/FasL interaction initiates cell death in many other systems, and <corefTheme>its</corefTheme> <clueType><clueManner>dysregulation</clueManner></clueType> is a mechanism by which several pathologic conditions arise.</clue>
+</event>
+<event KT="Fact" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="A5"/>
+<cause idref="E25"/>
+<clue>Fas/FasL interaction initiates cell death in many other systems, and its dysregulation is a mechanism <linkCause>by</linkCause> <corefCause>which</corefCause> several pathologic conditions <clueType>arise</clueType>.</clue>
+</event>
+<sentence id="S8">Understanding the <term id="T30" lex="molecular_mechanism" sem="Other">molecular mechanisms</term> of <term id="T31" lex="FasL_regulation" sem="Other"><term id="T32" lex="FasL" sem="Protein_molecule">FasL</term> regulation</term> could be very useful in elucidating how these diseases develop and in identifying <term id="T33" lex="potential_therapeutic_target" sem="Other">potential therapeutic targets</term>.</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

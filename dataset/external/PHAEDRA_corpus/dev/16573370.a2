@@ -1,0 +1,17 @@
+T35	Potential_therapeutic_effect 373 383	prescribed
+T38	Adverse_effect 670 678	suffered
+T39	Potential_therapeutic_effect 634 644	prescribed
+T43	Adverse_effect 1046 1051	cause
+T52	Potential_therapeutic_effect 1498 1504	reduce
+R1	Subject_Disorder Arg1:T19 Arg2:T1
+R2	Subject_Disorder Arg1:T25 Arg2:T2
+R10	Coreference Arg1:T34 Arg2:T25
+R11	is_equivalent Arg1:T11 Arg2:T12
+R12	Coreference Arg1:T40 Arg2:T25
+R14	Coreference Arg1:T42 Arg2:T17
+E5	Potential_therapeutic_effect:T35 has_subject:T34 has_agent:T5 has_agent:T6 has_agent:T7 has_agent:T8 has_agent:T9 has_agent:T10
+E6	Adverse_effect:T38 has_agent:T36 affects:T37 affects:T11 has_subject:T40
+E7	Potential_therapeutic_effect:T39 has_subject:T40 has_agent:T36
+E9	Adverse_effect:T43 has_cue:T44 affects:T20 has_agent:T42
+E15	Potential_therapeutic_effect:T52 affects:T24 has_agent:T23
+A2	Manner E9 Low

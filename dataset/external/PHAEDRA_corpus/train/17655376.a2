@@ -1,0 +1,9 @@
+T28	Adverse_effect 204 209	known
+T30	Potential_therapeutic_effect 144 148	reat
+T35	Potential_therapeutic_effect 44 53	treatment
+T55	Potential_therapeutic_effect 276 285	indicated
+R1	Subject_Disorder Arg1:T31 Arg2:T15
+E1	Adverse_effect:T28 affects:T2 has_agent:T4
+E2	Potential_therapeutic_effect:T30 affects:T5 has_agent:T4
+E3	Potential_therapeutic_effect:T35 affects:T3 has_agent:T1
+E5	Potential_therapeutic_effect:T55 has_agent:T4 affects:T6 affects:T7

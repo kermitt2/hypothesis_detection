@@ -1,0 +1,28 @@
+T30	DDI 1173 1185	interactions
+T31	Adverse_effect 12 19	induced
+T32	Potential_therapeutic_effect 300 308	received
+T33	Adverse_effect 229 237	occurred
+T35	Adverse_effect 420 429	developed
+T26	DDI 488 499	interaction
+T29	Potential_therapeutic_effect 623 630	replace
+T16	Adverse_effect 743 752	developed
+T40	Adverse_effect 1111 1118	induced
+T43	Adverse_effect 1186 1192	due to
+R1	is_equivalent Arg1:T1 Arg2:T2
+R2	Coreference Arg1:T36 Arg2:T27
+R4	is_equivalent Arg1:T15 Arg2:T17
+R6	Coreference Arg1:T44 Arg2:T27
+R7	Coreference Arg1:T46 Arg2:T24
+R8	Coreference Arg1:T47 Arg2:T27
+E1	DDI:T30 has_participant:T39 has_participant:T12 has_cue:T41
+E6	DDI:T26 has_participant:T8 has_participant:T9
+E2	Adverse_effect:T31 affects:T1 has_agent:T25
+E3	Potential_therapeutic_effect:T32 has_agent:T4 affects:T5 affects:T6 has_subject:T27
+E4	Adverse_effect:T33 affects:T34 has_subject:T28 has_agent:T3
+E5	Adverse_effect:T35 has_agent:E6 affects:T7 has_subject:T36
+E7	Potential_therapeutic_effect:T29 has_agent:T24 has_subject:T44
+E8	Adverse_effect:T16 affects:T14 has_subject:T47 has_agent:T46 affects2:T15
+E9	Adverse_effect:T40 has_agent:T12 affects:T23 has_cue:T42
+E10	Adverse_effect:T43 has_agent:E1 affects:T23
+A1	Speculated E9
+A2	Speculated E1

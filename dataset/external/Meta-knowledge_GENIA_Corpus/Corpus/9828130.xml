@@ -1,0 +1,68 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9828130" created="16/10/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9828130</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Cloning of <term id="T1" lex="ARE-containing_gene" sem="DNA_family_or_group">ARE-containing genes</term> by <term id="T2" lex="AU-motif-directed_display" sem="Other">AU-motif-directed display</term>.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">A procedure suitable for <term id="T3" lex="cloning_labile_mRNA" sem="RNA_family_or_group">cloning labile mRNAs</term> that contain <term id="T4" lex="AU_motif" sem="RNA_substructure">AU motifs</term> is presented (<term id="T5" lex="AU-DD" sem="RNA_substructure">AU-DD</term>).</sentence>
+<sentence id="S3">These motifs are <term id="T6" lex="regulatory_sequence" sem="DNA_family_or_group">regulatory sequences</term> within the so-called <term id="T7" lex="AU-rich_element" sem="DNA_family_or_group">AU-rich elements</term> (<term id="T8" lex="ARE" sem="DNA_family_or_group">AREs</term>) often found in <term id="T9" lex="3&apos;_untranslated_region" sem="DNA_domain_or_region">3&apos; untranslated regions</term> of genes such as <term id="T10" lex="cytokine" sem="Protein_family_or_group">cytokines</term>, <term id="T11" lex="proto-oncogene" sem="DNA_family_or_group">proto-oncogenes</term>, and <term id="T12" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term>.</sentence>
+<sentence id="S4"><term id="T13" lex="AU-DD" sem="Other">AU-DD</term> is an <term id="T14" lex="AU-motif-directed_differential_display" sem="Other"><term id="A101" sem="DNA_domain_or_region">AU-motif</term>-directed differential display</term> that permits the identification of <term id="T15" lex="ARE-containing_gene" sem="DNA_family_or_group">ARE-containing genes</term> differentially expressed after <term id="A1" sem="Other">cell activation</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Gene_expression"/>
+<theme idref="T15"/>
+<clue>AU-DD is an AU-motif-directed differential display that permits the identification of ARE-containing genes differentially <clueType>expressed</clueType> after cell activation.</clue>
+<comment>NER T13,T14 MOD</comment></event>
+<event KT="Other" id="E2">
+<type class="Regulation"/>
+<theme idref="E1"/>
+<cause idref="A1"/>
+<clue>AU-DD is an AU-motif-directed differential display that permits the identification of ARE-containing genes <clueType>differentially</clueType> expressed <linkCause>after</linkCause> cell activation.</clue>
+</event>
+<sentence id="S5">It has been applied to <term id="T16" lex="peripheral_blood_monocyte" sem="Cell_natural"><term id="T17" lex="peripheral_blood" sem="Tissue_natural">peripheral blood</term> monocytes</term> and a <term id="T18" lex="T_cell_clone" sem="Cell_cultured">T cell clone</term> to isolate <term id="T19" lex="59_cDNA_fragment" sem="DNA_family_or_group">59 cDNA fragments</term> associated to activation.</sentence>
+<event KT="Other" id="E3">
+<type class="Physiological_process"/>
+<theme idref="T16"/>
+<clue>It has been applied to peripheral blood monocytes and a T cell clone to isolate 59 cDNA fragments associated to <clueType>activation</clueType>.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event KT="Other" id="E4">
+<type class="Physiological_process"/>
+<theme idref="T18"/>
+<clue>It has been applied to peripheral blood monocytes and a T cell clone to isolate 59 cDNA fragments associated to <clueType>activation</clueType>.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event KT="Analysis" id="E5">
+<type class="Correlation"/>
+<theme idref="T19"/>
+<theme idref="E3"/>
+<clue>It has been applied to peripheral blood monocytes and a T cell clone to isolate 59 cDNA fragments <clueType><clueKT>associated</clueKT></clueType> <linkTheme>to</linkTheme> activation.</clue>
+</event>
+<event KT="Analysis" id="E6">
+<type class="Correlation"/>
+<theme idref="T19"/>
+<theme idref="E4"/>
+<clue>It has been applied to peripheral blood monocytes and a T cell clone to isolate 59 cDNA fragments <clueType><clueKT>associated</clueKT></clueType> <linkTheme>to</linkTheme> activation.</clue>
+</event>
+<sentence id="S6">Fourteen percent of isolated fragments belong to already known genes that certainly are <term id="T20" lex="cytokine" sem="Protein_family_or_group">cytokines</term> and <term id="T21" lex="transduction/transcription_factor" sem="Protein_family_or_group">transduction/<term id="T22" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term></term>.</sentence>
+<sentence id="S7">The remaining 86% correspond to <term id="T23" lex="gene" sem="DNA_family_or_group">unknown genes</term> of which 92% have been confirmed to be differentially expressed.</sentence>
+<event KT="Other" id="E7">
+<type class="Gene_expression"/>
+<theme idref="T23"/>
+<clue>The remaining 86% correspond to unknown genes of which 92% have been confirmed to be differentially <clueType>expressed</clueType>.</clue>
+<comment>NER T23 MOD</comment></event>
+<event KT="Analysis" id="E8">
+<type class="Regulation"/>
+<theme idref="E7"/>
+<cause idref="E3"/>
+<clue>The remaining 86% correspond to unknown genes of which 92% have been <clueKT>confirmed</clueKT> to be <clueType>differentially</clueType> expressed.</clue>
+<comment>NO COREFCAUSE</comment></event>
+<event KT="Analysis" id="E9">
+<type class="Regulation"/>
+<theme idref="E7"/>
+<cause idref="E4"/>
+<clue>The remaining 86% correspond to unknown genes of which 92% have been <clueKT>confirmed</clueKT> to be <clueType>differentially</clueType> expressed.</clue>
+<comment>NO COREFCAUSE</comment></event>
+<sentence id="S8">These data demonstrate the efficiency of the system and support the notion that numerous <term id="T24" lex="gene" sem="DNA_family_or_group">genes</term> falling into those categories remain unidentified and that they can be cloned by this method.</sentence>
+<sentence id="S9">Copyright 1998 Academic Press.</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

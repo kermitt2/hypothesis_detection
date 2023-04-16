@@ -1,0 +1,12 @@
+T20	DDI 5 17	interactions
+T21	DDI 160 171	interaction
+T33	DDI 417 428	interaction
+T43	Potential_therapeutic_effect 973 980	therapy
+R1	is_equivalent Arg1:T4 Arg2:T25
+E1	DDI:T20 has_participant:T1 has_participant:T2 has_subject:T24
+E2	DDI:T21 has_participant:T3 has_participant:T4 has_cue:T30 has_subject:T22
+E5	DDI:T33 has_participant:T6 has_participant:T32 has_cue:T35 has_subject:T34
+E9	Combination:T40 has_participant:T38 has_participant:T12
+E12	Potential_therapeutic_effect:T43 has_agent:T14 has_subject:T7
+A3	Speculated E2
+A5	Speculated E5

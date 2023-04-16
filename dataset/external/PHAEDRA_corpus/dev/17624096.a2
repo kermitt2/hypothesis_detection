@@ -1,0 +1,8 @@
+T9	Adverse_effect 25 39	cardiotoxicity
+T10	Potential_therapeutic_effect 53 62	treatment
+T13	Potential_therapeutic_effect 222 232	prescribed
+R1	Coreference Arg1:T7 Arg2:T11
+R2	Subject_Disorder Arg1:T11 Arg2:T12
+E1	Adverse_effect:T9 affects:T2 has_agent:T1
+E2	Potential_therapeutic_effect:T10 affects:T3 has_agent:T1
+E3	Potential_therapeutic_effect:T13 has_subject:T7 has_agent:T4

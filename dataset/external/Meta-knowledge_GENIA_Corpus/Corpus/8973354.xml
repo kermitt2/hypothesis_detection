@@ -1,0 +1,93 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8973354" created="30/11/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8973354</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Characterization of the <term id="T1" lex="murine_cyclin-dependent_kinase_inhibitor_gene" sem="DNA_domain_or_region">murine <term id="A3" sem="Protein_molecule"><term id="A1" sem="Protein_molecule">cyclin</term>-dependent <term id="A2" sem="Protein_family_or_group">kinase</term></term> inhibitor gene</term> <term id="T2" lex="p27Kip1" sem="DNA_domain_or_region">p27Kip1</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Positive_regulation"/>
+<theme idref="A2"/>
+<cause idref="A1"/>
+<clue>Characterization of the murine cyclin-<clueType>dependent</clueType> kinase inhibitor gene p27Kip1.</clue>
+</event>
+<event KT="Investigation" id="E2">
+<type class="Negative_regulation"/>
+<theme idref="A3"/>
+<cause idref="T2"/>
+<clue>Characterization of the murine cyclin-dependent kinase <clueType>inhibitor</clueType> gene p27Kip1.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T3" lex="cyclin-dependent_kinase_inhibitor" sem="DNA_domain_or_region">cyclin-dependent kinase inhibitor</term> <term id="T4" lex="p27Kip1" sem="DNA_domain_or_region">p27Kip1</term> plays an important role in regulating <term id="T5" lex="cell-cycle_progression." sem="Other">cell-cycle progression</term>.</sentence>
+<event KT="Other" id="E3">
+<type class="Regulation"/>
+<theme idref="T5"/>
+<clue>The cyclin-dependent kinase inhibitor p27Kip1 plays an important role in <clueType>regulating</clueType> cell-cycle progression.</clue>
+</event>
+<event KT="Fact" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="T4"/>
+<clue>The cyclin-dependent kinase inhibitor p27Kip1 <clueType>plays</clueType> an <clueType>important role</clueType> in regulating cell-cycle progression.</clue>
+</event>
+<sentence id="S3"><term id="T6" lex="p27Kip1" sem="DNA_domain_or_region">p27Kip1</term> directly inhibits the <term id="T7" lex="catalytic_activity" sem="Other">catalytic activity</term> of <term id="T8" lex="cyclin/cdks_(cyclin-dependent_kinase)_complex" sem="Protein_complex"><term id="T9" lex="cyclin/cdks" sem="Protein_complex">cyclin/cdks</term> (<term id="T10" lex="cyclin-dependent_kinase" sem="Protein_family_or_group">cyclin-dependent kinase</term>) complexes</term> and/or interferes physically with <term id="T11" lex="cyclin/cdks_activation" sem="Other"><term id="T12" lex="cyclin/cdks" sem="Protein_complex">cyclin/cdks</term> activation</term> by <term id="T13" lex="CAK" sem="Protein_molecule">CAK</term>.</sentence>
+<event KT="Other" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="T9"/>
+<clue>p27Kip1 directly inhibits the <clueType>catalytic activity</clueType> <linkCause>of</linkCause> cyclin/cdks (cyclin-dependent kinase) complexes and/or interferes physically with cyclin/cdks activation by CAK.</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Negative_regulation"/>
+<theme idref="E5"/>
+<cause idref="T6"/>
+<clue>p27Kip1 directly <clueType>inhibits</clueType> the catalytic activity of cyclin/cdks (cyclin-dependent kinase) complexes and/or interferes physically with cyclin/cdks activation by CAK.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T12"/>
+<cause idref="T13"/>
+<clue>p27Kip1 directly inhibits the catalytic activity of cyclin/cdks (cyclin-dependent kinase) complexes and/or interferes physically with cyclin/cdks <clueType>activation</clueType> <linkCause>by</linkCause> CAK.</clue>
+</event>
+<event KT="Fact" id="E8">
+<type class="Negative_regulation"/>
+<theme idref="E7"/>
+<cause idref="T6"/>
+<clue>p27Kip1 directly inhibits the catalytic activity of cyclin/cdks (cyclin-dependent kinase) complexes and/or <clueType>interferes</clueType> physically <linkTheme>with</linkTheme> cyclin/cdks activation by CAK.</clue>
+</event>
+<sentence id="S4">Interestingly, the expression level of <term id="T14" lex="p27Kip1_mRNA" sem="RNA_molecule"><term id="T15" lex="p27Kip1" sem="DNA_domain_or_region">p27Kip1</term> mRNA</term> was maximal in <term id="T16" lex="resting_Go_T-cell" sem="Cell_natural">resting Go T-cells</term> and rapidly declined following <term id="T17" lex="anti-CD3_activation" sem="Other"><term id="T18" lex="anti-CD3" sem="Protein_molecule">anti-CD3</term> activation</term>.</sentence>
+<event Manner="High" id="E9">
+<type class="Transcription"/>
+<theme idref="T14"/>
+<clue>Interestingly, the <clueType>expression level</clueType> <linkTheme>of</linkTheme> p27Kip1 mRNA was <clueManner>maximal</clueManner> <clueLoc>in resting Go T-cells</clueLoc> and rapidly declined following anti-CD3 activation.</clue>
+</event>
+<event id="E10">
+<type class="Physiological_process"/>
+<theme idref="T16"/>
+<cause idref="T17"/>
+<clue>Interestingly, the expression level of p27Kip1 mRNA was maximal in resting Go T-cells and rapidly declined following anti-CD3 <clueType>activation</clueType>.</clue>
+</event>
+<event Manner="High" id="E11">
+<type class="Negative_regulation"/>
+<theme idref="E9"/>
+<cause idref="E10"/>
+<clue>Interestingly, the expression level of p27Kip1 mRNA was maximal in resting Go T-cells and <clueManner>rapidly</clueManner> <clueType>declined</clueType> <linkCause>following</linkCause> anti-CD3 activation.</clue>
+</event>
+<sentence id="S5">We report here the cloning of <term id="T19" lex="p27Kip1_gene" sem="DNA_domain_or_region"><term id="T20" lex="p27Kip1" sem="DNA_domain_or_region">p27Kip1</term> gene</term> from <term id="T21" lex="murine_genomic_DNA" sem="DNA_family_or_group">murine genomic DNA</term> and the functional analysis of the promoter of the <term id="T22" lex="p27Kip1" sem="DNA_domain_or_region">p27Kip1</term> gene.</sentence>
+<sentence id="S6">The gene consists of at least three exons and spans more than <term id="T23" lex="5.6_kb_of_DNA" sem="DNA_domain_or_region">5.6 kb of DNA</term>.</sentence>
+<sentence id="S7"><term id="T24" lex="primer_extension" sem="Other">Primer extension</term> and <term id="T25" lex="nuclease_S1_protection_analysis" sem="Other">nuclease S1 protection analysis</term> revealed two major <term id="T26" lex="transcription_initiation_site" sem="DNA_domain_or_region">transcription initiation sites</term>.</sentence>
+<sentence id="S8">The <term id="T27" lex="promoter_region" sem="DNA_domain_or_region">promoter region</term> lacked a <term id="T28" lex="TATA_box" sem="DNA_domain_or_region">TATA box</term> but contained potential binding sites for the <term id="T29" lex="transcriptional_factor" sem="Protein_family_or_group">transcriptional factors</term> including two <term id="T30" lex="Sp1" sem="Protein_molecule">Sp1</term>, <term id="T31" lex="CRE" sem="Protein_molecule">CRE</term>, <term id="T32" lex="Myb" sem="Protein_molecule">Myb</term> and <term id="T33" lex="NFkB" sem="Protein_molecule">NFkB</term> located at <cons id="T34" lex="(AND position_-153 position_-178 position_-286 position_-875 position_-1011)" sem="(AND DNA_domain_or_region DNA_domain_or_region DNA_domain_or_region DNA_domain_or_region DNA_domain_or_region)"><frag id="F1">positions</frag> <frag id="F2">-153</frag>, <frag id="F3">-178</frag>, <frag id="F4">-286</frag>, <frag id="F5">-875</frag>, and <frag id="F6">-1011</frag></cons>, respectively.</sentence>
+<sentence id="S9">To analyze the <term id="T35" lex="regulatory_mechanism" sem="Other">regulatory mechanisms</term> controlling <term id="T36" lex="p27Kip1" sem="DNA_domain_or_region">p27Kip1</term> gene expression, we characterized the <term id="T37" lex="5&apos;-flanking_region" sem="DNA_domain_or_region">5&apos;-flanking region</term> from <term id="T38" lex="nt_-1609_to_+178" sem="DNA_domain_or_region">nt -1609 to +178</term>.</sentence>
+<event KT="Other" id="E12">
+<type class="Gene_expression"/>
+<theme idref="T36"/>
+<clue>To analyze the regulatory mechanisms controlling p27Kip1 gene <clueType>expression</clueType>, we characterized the 5&apos;-flanking region from nt -1609 to +178.</clue>
+</event>
+<event KT="Investigation" id="E13">
+<type class="Regulation"/>
+<theme idref="E12"/>
+<cause idref="T35"/>
+<clue><clueKT>To analyze</clueKT> the regulatory mechanisms <clueType>controlling</clueType> p27Kip1 gene expression, we characterized the 5&apos;-flanking region from nt -1609 to +178.</clue>
+</event>
+<sentence id="S10">The <term id="T39" lex="-326_to_-615_region" sem="DNA_domain_or_region">-326 to -615 region</term> contained <term id="T40" lex="positive_regulatory_element" sem="DNA_family_or_group">positive regulatory elements</term>.</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

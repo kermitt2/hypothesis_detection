@@ -1,0 +1,219 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7590666" created="25/04/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7590666</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="Vitamin_E_therapy" sem="Other"><term id="T2" lex="Vitamin_E" sem="Lipid">Vitamin E</term> therapy</term> of <term id="T3" lex="acute_CCl4-induced_hepatic_injury" sem="Other">acute <term id="T4" lex="CCl4" sem="Organic_compound_other">CCl4</term>-induced hepatic injury</term> in <term id="T5" lex="mice" sem="Multicellular_organism_natural">mice</term> is associated with inhibition of <term id="T6" lex="nuclear_factor_kappa_B_binding" sem="Other"><term id="T7" lex="nuclear_factor_kappa_B" sem="Protein_molecule">nuclear factor kappa B</term> binding</term>.</sentence>
+<event KT="Other" Manner="High" id="E1">
+<type class="Negative_regulation"/>
+<cause idref="T4"/>
+<clue>Vitamin E therapy of <clueManner>acute</clueManner> CCl4-<clueType>induced</clueType> <clueLoc>hepatic</clueLoc> <clueType>injury</clueType> <clueLoc>in mice</clueLoc> is associated with inhibition of nuclear factor kappa B binding.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Negative_regulation"/>
+<theme idref="E1"/>
+<cause idref="T2"/>
+<clue>Vitamin E <clueType>therapy</clueType> <linkTheme>of</linkTheme> acute CCl4-induced hepatic injury in mice is associated with inhibition of nuclear factor kappa B binding.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Negative_regulation"/>
+<theme idref="E3"/>
+<clue>Vitamin E therapy of acute CCl4-induced hepatic injury in mice is associated with <clueType>inhibition</clueType> <linkTheme>of</linkTheme> nuclear factor kappa B binding.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Binding"/>
+<theme idref="T7"/>
+<clue>Vitamin E therapy of acute CCl4-induced hepatic injury in mice is associated with inhibition of nuclear factor kappa B <clueType>binding</clueType>.</clue>
+</event>
+<event KT="Analysis" id="E4">
+<type class="Correlation"/>
+<theme idref="E5"/>
+<theme idref="E2"/>
+<clue>Vitamin E therapy of acute CCl4-induced hepatic injury in mice is <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> inhibition of nuclear factor kappa B binding.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T8" lex="oxidative_stress" sem="Other">Oxidative stress</term>, with <term id="T9" lex="reactive_oxygen_intermediate_formation" sem="Other"><term id="T10" lex="reactive_oxygen_intermediate" sem="Inorganic_compound">reactive oxygen intermediate</term> formation</term>, may represent a common mechanism by which <term id="T11" lex="liver_injury" sem="Other"><term id="T12" lex="liver" sem="Body_region">liver</term> injury</term> is induced by <term id="A4" sem="Other">diverse etiologies</term>.</sentence>
+<event KT="Other" id="E6">
+<type class="Metabolism"/>
+<theme idref="T10"/>
+<clue>Oxidative stress, with reactive oxygen intermediate <clueType>formation</clueType>, may represent a common mechanism by which liver injury is induced by diverse etiologies.</clue>
+</event>
+<event KT="Other" id="E7" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="T8"/>
+<theme idref="E6"/>
+<clue>Oxidative stress, <linkTheme>with</linkTheme> reactive oxygen intermediate formation, may represent a common mechanism by which liver injury is induced by diverse etiologies.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event CL="L1" KT="Analysis" id="E37">
+<type class="Positive_regulation"/>
+<theme idref="E31"/>
+<cause idref="T8"/>
+<clue>Oxidative stress, with reactive oxygen intermediate formation, <clueKT><clueCL>may</clueCL></clueKT> represent a common mechanism <linkCause>by</linkCause> which liver injury is induced by diverse etiologies.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Other" id="E31">
+<type class="Positive_regulation"/>
+<theme idref="T11"/>
+<cause idref="A4"/>
+<clue>Oxidative stress, with reactive oxygen intermediate formation, may represent a common mechanism by which <clueLoc>liver</clueLoc> injury <clueType>is induced</clueType> <linkCause>by</linkCause> diverse etiologies.</clue>
+</event>
+<sentence id="S3"><term id="A1" sem="Other">Oxidative stress</term> enhances <term id="T13" lex="nuclear_factor_kappa_B_(NF-kappa_B)_activity" sem="Other"><term id="T14" lex="nuclear_factor_kappa_B" sem="Protein_molecule">nuclear factor kappa B</term> (<term id="T15" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>) activity</term>, and <term id="T16" lex="NF-kappa_B_activity" sem="Other"><term id="T17" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> activity</term> has been shown to enhance the expression of <term id="T18" lex="cytotoxic_cytokine" sem="Protein_family_or_group">cytotoxic cytokines</term>.</sentence>
+<event KT="Fact" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T15"/>
+<cause idref="A1"/>
+<clue>Oxidative stress <clueType>enhances</clueType> nuclear factor kappa B (NF-kappa B) activity, and NF-kappa B activity has been shown to enhance the expression of cytotoxic cytokines.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="T17"/>
+<clue>Oxidative stress enhances nuclear factor kappa B (NF-kappa B) activity, and NF-kappa B activity <clueSource>has been</clueSource> <clueKT>shown</clueKT> to <clueType>enhance</clueType> the expression of cytotoxic cytokines.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Gene_expression"/>
+<theme idref="T18"/>
+<clue>Oxidative stress enhances nuclear factor kappa B (NF-kappa B) activity, and NF-kappa B activity has been shown to enhance the <clueType>expression</clueType> <linkTheme>of</linkTheme> cytotoxic cytokines.</clue>
+</event>
+<sentence id="S4"><term id="A2" sem="Other">Acute hepatic injury</term> caused by <term id="T19" lex="reactive_oxygen_intermediate_production" sem="Other"><term id="T20" lex="reactive_oxygen_intermediate" sem="Organic_compound_other">reactive oxygen intermediate</term> production</term> was induced by an intraperitoneal injection of <term id="T21" lex="CCl4" sem="Organic_compound_other">CCl4</term> in <term id="T22" lex="mice" sem="Multicellular_organism_natural">mice</term>.</sentence>
+<event id="E11">
+<type class="Positive_regulation"/>
+<theme idref="A2"/>
+<cause idref="E38"/>
+<clue>Acute hepatic injury <clueType>caused</clueType> <linkCause>by</linkCause> reactive oxygen intermediate production <clueExperiment>was induced by an intraperitoneal injection of CCl4 in mice</clueExperiment>.</clue>
+</event>
+<event id="E38">
+<type class="Metabolism"/>
+<theme idref="T20"/>
+<clue>Acute hepatic injury caused by reactive oxygen intermediate <clueType>production</clueType> was induced by an intraperitoneal injection of CCl4 in mice.</clue>
+</event>
+<event id="E39">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<cause idref="T21"/>
+<clue>Acute hepatic injury caused by reactive oxygen intermediate production was <clueType>induced</clueType> <linkCause>by</linkCause> an <clueLoc>intraperitoneal</clueLoc> injection of CCl4 <clueLoc>in mice</clueLoc>.</clue>
+</event>
+<sentence id="S5">This injury was significantly inhibited by intravenous pretreatment of the <term id="T23" lex="mice" sem="Multicellular_organism_natural">mice</term> with a water-soluble emulsion of <term id="T24" lex="alpha-tocopherol" sem="Organic_compound_other">alpha-tocopherol</term>.</sentence>
+<event Manner="High" id="E13">
+<type class="Negative_regulation"/>
+<theme idref="E11"/>
+<cause idref="E35"/>
+<clue><corefTheme>This injury</corefTheme> was <clueManner>significantly</clueManner> <clueType>inhibited</clueType> <linkCause>by</linkCause> intravenous pretreatment of the mice with a water-soluble emulsion of alpha-tocopherol.</clue>
+</event>
+<event KT="Method" id="E35">
+<type class="Artificial_process"/>
+<theme idref="T23"/>
+<theme idref="T24"/>
+<clue>This injury was significantly inhibited by <clueLoc>intravenous</clueLoc> <clueType>pretreatment</clueType> <linkTheme>of</linkTheme> the mice <linkTheme>with</linkTheme> a water-soluble emulsion of alpha-tocopherol.</clue>
+</event>
+<sentence id="S6"><term id="T25" lex="alpha-tocopherol_treatment" sem="Other"><term id="A3" sem="Organic_compound_other">Alpha-tocopherol</term> treatment</term> of the <term id="A5" sem="Multicellular_organism_natural"><term id="T26" lex="mice" sem="Multicellular_organism_natural">mice</term> given the <term id="T27" lex="CCl4" sem="Organic_compound_other">CCl4</term></term> also reduced the <term id="T28" lex="NF-kappa_B_binding" sem="Other"><term id="T29" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> binding</term> to levels approaching those found in <term id="T30" lex="normal_mice" sem="Multicellular_organism_natural">normal <term id="T31" lex="mice" sem="Multicellular_organism_natural">mice</term></term>.</sentence>
+<event KT="Method" id="E36">
+<type class="Artificial_process"/>
+<theme idref="A3"/>
+<theme idref="A5"/>
+<clue>Alpha-tocopherol <clueType>treatment</clueType> <linkTheme>of</linkTheme> the mice given the CCl4 also reduced the NF-kappa B binding to levels approaching those found in normal mice.</clue>
+<comment>TPS: A5</comment></event>
+<event id="E14">
+<type class="Negative_regulation"/>
+<theme idref="E15"/>
+<cause idref="E36"/>
+<clue>Alpha-tocopherol treatment of the mice given the CCl4 also <clueType>reduced</clueType> the NF-kappa B binding to levels approaching those found in normal mice.</clue>
+</event>
+<event id="E15">
+<type class="Binding"/>
+<theme idref="T29"/>
+<clue>Alpha-tocopherol treatment of the <clueLoc>mice given the CCl4</clueLoc> also reduced the NF-kappa B <clueType>binding</clueType> to levels approaching those found in normal mice.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Binding"/>
+<theme idref="T29"/>
+<clue>Alpha-tocopherol treatment of the mice given the CCl4 also reduced the NF-kappa B <clueType>binding</clueType> to levels approaching those found in <clueLoc>normal mice</clueLoc>.</clue>
+</event>
+<sentence id="S7">In vitro treatment of a monocyte/macrophage cell line with <term id="T32" lex="CCl4" sem="Organic_compound_other">CCl4</term> led to enhanced <term id="T33" lex="NF-kappa_B_binding" sem="Other"><term id="T34" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> binding</term> and an increase in <term id="T35" lex="tumor_necrosis_factor-alpha_(TNF-alpha)_messenger_RNA_levels" sem="Other"><term id="T36" lex="tumor_necrosis_factor-alpha_(TNF-alpha)_messenger_RNA" sem="RNA_molecule"><term id="T37" lex="tumor_necrosis_factor-alpha" sem="Protein_molecule">tumor necrosis factor-alpha</term> (<term id="T38" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term>) messenger RNA</term> levels</term>.</sentence>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="T32"/>
+<clue>In vitro treatment of a <clueLoc>monocyte/macrophage cell line</clueLoc> <linkCause>with</linkCause> CCl4 <clueType>led to enhanced</clueType> NF-kappa B binding and an increase in tumor necrosis factor-alpha (TNF-alpha) messenger RNA levels.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation"/>
+<theme idref="T36"/>
+<cause idref="T34"/>
+<clue>In vitro treatment of a monocyte/macrophage cell line <linkCause>with</linkCause> CCl4 <clueType>led to</clueType> enhanced NF-kappa B binding and <clueType>an increase</clueType> <linkTheme>in</linkTheme> tumor necrosis factor-alpha (TNF-alpha) messenger RNA levels.</clue>
+</event>
+<event id="E19">
+<type class="Binding"/>
+<theme idref="T34"/>
+<clue>In vitro treatment of a monocyte/macrophage cell line with CCl4 led to enhanced NF-kappa B <clueType>binding</clueType> and an increase in tumor necrosis factor-alpha (TNF-alpha) messenger RNA levels.</clue>
+</event>
+<sentence id="S8">Liver specimens taken from patients with <term id="T39" lex="acute_fulminant_hepatitis" sem="Other">acute fulminant hepatitis</term> had markedly increased <term id="T40" lex="NF-kappa_B_binding_activity" sem="Other"><term id="T41" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> binding activity</term> in comparison with the binding of <term id="T42" lex="normal_liver" sem="Body_region">normal livers</term>.</sentence>
+<event Manner="High" id="E20">
+<type class="Binding"/>
+<theme idref="T41"/>
+<clue>Liver specimens taken from patients with acute fulminant hepatitis had <clueManner>markedly increased</clueManner> NF-kappa B <clueType>binding activity</clueType> in comparison with the binding of normal livers.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<clue><clueLoc>Liver specimens taken from patients with acute fulminant hepatitis</clueLoc> had markedly <clueType>increased</clueType> NF-kappa B binding activity in comparison with the binding of normal livers.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Binding"/>
+<theme idref="T41"/>
+<clue>Liver specimens taken from patients with acute fulminant hepatitis had markedly increased NF-kappa B binding activity in comparison with the <clueType>binding</clueType> of <clueLoc>normal livers</clueLoc>.</clue>
+</event>
+<sentence id="S9">These data demonstrate that abolishing <term id="T43" lex="acute_hepatic_injury" sem="Other">acute hepatic injury</term> with <term id="T44" lex="alpha-tocopherol" sem="Organic_compound_other">alpha-tocopherol</term>, a free <term id="T45" lex="radical_scavenger" sem="Inorganic_compound">radical scavenger</term>, also eliminated increased <term id="T46" lex="NF-kappa_B_binding" sem="Other"><term id="T47" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> binding</term>.</sentence>
+<event id="E23">
+<type class="Negative_regulation"/>
+<theme idref="T43"/>
+<cause idref="T44"/>
+<clue>These data demonstrate that <clueType>abolishing</clueType> acute hepatic injury <linkCause>with</linkCause> alpha-tocopherol, a free radical scavenger, also eliminated increased NF-kappa B binding.</clue>
+</event>
+<event KT="Analysis" id="E25">
+<type class="Negative_regulation"/>
+<theme idref="E26"/>
+<cause idref="E23"/>
+<clue>These data <clueKT>demonstrate</clueKT> that abolishing acute hepatic injury with alpha-tocopherol, a free radical scavenger, also <clueType>eliminated</clueType> increased NF-kappa B binding.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="E27"/>
+<clue>These data demonstrate that abolishing acute hepatic injury with alpha-tocopherol, a free radical scavenger, also eliminated <clueType>increased</clueType> NF-kappa B binding.</clue>
+</event>
+<event KT="Other" id="E27">
+<type class="Binding"/>
+<theme idref="T47"/>
+<clue>These data demonstrate that abolishing acute hepatic injury with alpha-tocopherol, a free radical scavenger, also eliminated increased NF-kappa B <clueType>binding</clueType>.</clue>
+</event>
+<sentence id="S10">It is tempting to speculate that enhanced <term id="T48" lex="NF-kappa_B_expression" sem="Other"><term id="T49" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> expression</term> caused by <term id="T50" lex="free_radical_production/oxidative_stress" sem="Other">free radical production/oxidative stress</term> may modulate <term id="T51" lex="liver_injury" sem="Other"><term id="T52" lex="liver" sem="Body_region">liver</term> injury</term>, perhaps through an effect on <term id="T53" lex="cytotoxic_cytokine_synthesis" sem="Other"><term id="T54" lex="cytotoxic_cytokine" sem="Protein_family_or_group">cytotoxic cytokine</term> synthesis</term>.</sentence>
+<event KT="Other" id="E28">
+<type class="Gene_expression"/>
+<theme idref="T49"/>
+<clue>It is tempting to speculate that enhanced NF-kappa B <clueType>expression</clueType> caused by free radical production/oxidative stress may modulate liver injury, perhaps through an effect on cytotoxic cytokine synthesis.</clue>
+</event>
+<event KT="Other" id="E29">
+<type class="Positive_regulation"/>
+<theme idref="E28"/>
+<cause idref="T50"/>
+<clue>It is tempting to speculate that <clueType>enhanced</clueType> NF-kappa B expression <linkCause>caused by</linkCause> free radical production/oxidative stress may modulate liver injury, perhaps through an effect on cytotoxic cytokine synthesis.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E30" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="T51"/>
+<cause idref="E33"/>
+<clue>It is tempting <clueKT>to speculate</clueKT> that enhanced NF-kappa B expression caused by free radical production/oxidative stress <clueCL>may</clueCL> <clueType>modulate</clueType> liver injury, perhaps <linkCause>through</linkCause> an effect on cytotoxic cytokine synthesis.</clue>
+</event>
+<event KT="Other" id="E33" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E32"/>
+<cause idref="T50"/>
+<clue>It is tempting to speculate that enhanced NF-kappa B expression caused by free radical production/oxidative stress may modulate liver injury, perhaps through an <clueType>effect</clueType> on cytotoxic cytokine synthesis.</clue>
+</event>
+<event KT="Other" id="E32" uncertainty="probable">
+<type class="Gene_expression"/>
+<theme idref="T54"/>
+<clue>It is tempting to speculate that enhanced NF-kappa B expression caused by free radical production/oxidative stress may modulate liver injury, perhaps through an effect on cytotoxic cytokine <clueType>synthesis</clueType>.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,26 @@
+T18	Adverse_effect 15 22	related
+T19	Potential_therapeutic_effect 45 54	treatment
+T22	DDI 319 331	interactions
+T27	Potential_therapeutic_effect 554 559	treat
+T30	Adverse_effect 575 589	adverse events
+T31	Potential_therapeutic_effect 645 652	therapy
+T32	Potential_therapeutic_effect 470 489	antiviral treatment
+T33	Adverse_effect 438 447	developed
+T34	Adverse_effect 182 189	related
+T35	Potential_therapeutic_effect 103 112	Treatment
+T36	Adverse_effect 229 236	because
+R1	Subject_Disorder Arg1:T25 Arg2:T10
+E4	DDI:T22 has_cue:T24 has_participant:T8 has_participant:T9
+E2	Adverse_effect:T18 has_agent:T1 affects:T11
+E3	Potential_therapeutic_effect:T19 has_agent:T1 affects:T2
+E5	Potential_therapeutic_effect:T27 affects:T15 has_agent:T14 has_subject:T25
+E7	Adverse_effect:T30 has_agent:T16
+E8	Potential_therapeutic_effect:T31 affects:T17 has_agent:T16
+E9	Potential_therapeutic_effect:T32 affects:T10 has_subject:T25 has_agent:E6
+E10	Adverse_effect:T33 affects:T26 has_subject:T25 has_agent2:E1
+E11	Adverse_effect:T34 affects:T5 has_agent:T4 affects2:T20
+E12	Potential_therapeutic_effect:T35 affects:T3 has_agent:T4 has_agent:T6
+E13	Adverse_effect:T36 has_agent:T6 affects:T21
+A2	Speculated E4
+E1	Combination:T7 has_participant:T14 has_participant2:T13 has_participant3:T12
+E6	Combination:T23 has_participant:T12 has_participant2:T13

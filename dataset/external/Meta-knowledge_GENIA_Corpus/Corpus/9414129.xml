@@ -1,0 +1,103 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9414129" created="29/03/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9414129</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><cons id="T1" lex="(AND c-Rel_subunit p65_subunit)" sem="(AND Protein_molecule Protein_molecule)"><frag id="F1"><term id="A1" sem="Protein_molecule">c-Rel</term></frag> and <frag id="F2"><term id="A2" sem="Protein_molecule">p65</term></frag> <frag id="F3"><term id="A3" sem="Protein_molecule">subunits</term></frag></cons> bind to an <term id="A7" sem="DNA_domain_or_region"><term id="T2" lex="upstream_NF-kappaB_site" sem="DNA_domain_or_region">upstream NF-kappaB site</term> in <term id="T3" lex="human_granulocyte_macrophage-colony_stimulating_factor_promoter" sem="DNA_domain_or_region"><term id="T4" lex="human_granulocyte_macrophage-colony_stimulating_factor" sem="Protein_molecule">human granulocyte macrophage-colony stimulating factor</term> promoter</term></term> involved in <term id="T5" lex="phorbol_ester" sem="Organic_compound_other">phorbol ester</term> response in <term id="T6" lex="5637_cell" sem="Cell_cultured">5637 cells</term>.</sentence>
+<event id="E1">
+<type class="Binding"/>
+<theme idref="A1" idref1="A3"/>
+<theme idref="A7"/>
+<clue>c-Rel and p65 subunits <clueType>bind</clueType> <linkTheme>to</linkTheme> an upstream NF-kappaB site in human granulocyte macrophage-colony stimulating factor promoter involved in phorbol ester response in 5637 cells.</clue>
+<comment>TPS: A7</comment></event>
+<event id="E14">
+<type class="Binding"/>
+<theme idref="A2" idref1="A3"/>
+<theme idref="A7"/>
+<clue>c-Rel and p65 subunits <clueType>bind</clueType> <linkTheme>to</linkTheme> an upstream NF-kappaB site in human granulocyte macrophage-colony stimulating factor promoter involved in phorbol ester response in 5637 cells.</clue>
+<comment>TPS: A7</comment></event>
+<event KT="Other" id="E2">
+<type class="Physiological_process"/>
+<theme idref="T6"/>
+<cause idref="T5"/>
+<clue>c-Rel and p65 subunits bind to an upstream NF-kappaB site in human granulocyte macrophage-colony stimulating factor promoter involved in phorbol ester <clueType>response</clueType> <linkTheme>in</linkTheme> 5637 cells.</clue>
+</event>
+<event KT="Fact" id="E3">
+<type class="Regulation"/>
+<theme idref="E2"/>
+<cause idref="T3"/>
+<clue>c-Rel and p65 subunits bind to an upstream NF-kappaB site in human granulocyte macrophage-colony stimulating factor promoter <clueType>involved</clueType> <linkTheme>in</linkTheme> phorbol ester response <clueLoc>in 5637 cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">To further clarify the complex transcriptional regulation of the <term id="T7" lex="human_GM-CSF_gene" sem="DNA_domain_or_region">human GM-CSF gene</term>, which was extensively investigated in <term id="T8" lex="activated_T_cell" sem="Cell_natural">activated <term id="A5" sem="Cell_natural">T cells</term></term>, we have studied the role of an upstream <term id="T9" lex="NF-kappaB_like_site" sem="DNA_domain_or_region"><term id="T10" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> like site</term> in the <term id="T11" lex="5637_non-lymphoid_cell_line" sem="Cell_cultured">5637 non-lymphoid cell line</term>, which derives from a <term id="T12" lex="bladder_carcinoma" sem="Tissue_natural">bladder carcinoma</term> and constitutively produces <term id="T13" lex="GM-CSF" sem="Protein_molecule">GM-CSF</term>.</sentence>
+<event KT="Investigation" id="E4" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="T7"/>
+<clue><clueKT>To</clueKT> further <clueKT>clarify</clueKT> the complex <clueType>transcriptional regulation</clueType> <linkTheme>of</linkTheme> the human GM-CSF gene, which was extensively investigated in activated T cells, we have studied the role of an upstream NF-kappaB like site in the 5637 non-lymphoid cell line, which derives from a bladder carcinoma and constitutively produces GM-CSF.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Physiological_process"/>
+<theme idref="A5"/>
+<clue>To further clarify the complex transcriptional regulation of the human GM-CSF gene, which was extensively investigated in <clueType>activated</clueType> T cells, we have studied the role of an upstream NF-kappaB like site in the 5637 non-lymphoid cell line, which derives from a bladder carcinoma and constitutively produces GM-CSF.</clue>
+</event>
+<event KT="Investigation" id="E16" uncertainty="doubtful">
+<type class="Regulation"/>
+<cause idref="T9"/>
+<clue>To further clarify the complex transcriptional regulation of the human GM-CSF gene, which was extensively investigated in activated T cells, we have <clueKT>studied</clueKT> the <clueType>role</clueType> <linkCause>of</linkCause> an upstream NF-kappaB like site in the 5637 non-lymphoid cell line, which derives from a bladder carcinoma and constitutively produces GM-CSF.</clue>
+</event>
+<event KT="Fact" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="T11"/>
+<cause idref="T12"/>
+<clue>To further clarify the complex transcriptional regulation of the human GM-CSF gene, which was extensively investigated in activated T cells, we have studied the role of an upstream NF-kappaB like site in the 5637 non-lymphoid cell line, which <clueType>derives</clueType> <linkCause>from</linkCause> a bladder carcinoma and constitutively produces GM-CSF.</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Gene_expression"/>
+<theme idref="T13"/>
+<clue>To further clarify the complex transcriptional regulation of the human GM-CSF gene, which was extensively investigated in activated T cells, we have studied the role of an upstream NF-kappaB like site in the <clueLoc>5637 non-lymphoid cell line</clueLoc>, which derives from a bladder carcinoma and constitutively <clueType>produces</clueType> GM-CSF.</clue>
+</event>
+<sentence id="S3">This sequence, named the A element, has an active role on <term id="T14" lex="GM-CSF_transcription" sem="Other"><term id="T15" lex="GM-CSF" sem="Protein_molecule"><term id="A6" sem="DNA_domain_or_region">GM-CSF</term></term> transcription</term> and is responsive to the <term id="T16" lex="tumor_promoter_PMA" sem="DNA_domain_or_region">tumor promoter PMA</term> in <term id="T17" lex="transient_transfection_experiment" sem="Other">transient transfection experiments</term>.</sentence>
+<event KT="Other" id="E7">
+<type class="Transcription"/>
+<theme idref="A6"/>
+<clue>This sequence, named the A element, has an active role on GM-CSF <clueType>transcription</clueType> and is responsive to the tumor promoter PMA in transient transfection experiments.</clue>
+</event>
+<event KT="Fact" id="E8">
+<type class="Regulation"/>
+<theme idref="E7"/>
+<cause idref="T9"/>
+<clue><corefCause>This sequence</corefCause>, named the A element, has an active <clueType>role</clueType> <linkTheme>on</linkTheme> GM-CSF transcription and is responsive to the tumor promoter PMA in transient transfection experiments.</clue>
+</event>
+<event KT="Fact" id="E9">
+<type class="Correlation"/>
+<theme idref="T16"/>
+<theme idref="T9"/>
+<clue><corefCause>This sequence</corefCause>, named the A element, has an active role on GM-CSF transcription and is <clueType>responsive</clueType> <linkTheme>to</linkTheme> the tumor promoter PMA <clueExperiment>in transient transfection experiments</clueExperiment>.</clue>
+</event>
+<sentence id="S4">We describe here a <term id="T18" lex="heterodimeric_binding_complex" sem="Protein_complex">heterodimeric binding complex</term> of <term id="T19" lex="NF-kappaB_subunit" sem="Protein_molecule"><term id="T20" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> subunits</term> (<term id="T21" lex="c-Rel" sem="Protein_molecule">c-Rel</term> and <term id="T22" lex="p65" sem="Protein_molecule">p65</term>) which is identical to the one obtained using the <term id="T23" lex="HIV-LTR-kappaB_site" sem="DNA_domain_or_region">HIV-LTR-kappaB site</term> as recognition sequence and different from the one (<term id="T24" lex="c-Rel" sem="Protein_molecule">c-Rel</term> and <term id="T25" lex="p50" sem="Protein_molecule">p50</term>) observed with nuclear extracts from <term id="T26" lex="Mo_T-lymphoid_HTLV-II_infected_cell" sem="Cell_cultured"><term id="A4" sem="Cell_cultured">Mo T-lymphoid</term> <term id="T27" lex="HTLV-II" sem="Virus">HTLV-II</term> infected cells</term>.</sentence>
+<event KT="Analysis" id="E10">
+<type class="Binding"/>
+<theme idref="T21"/>
+<theme idref="T22"/>
+<clue>We <clueKT>describe</clueKT> here a <clueType>heterodimeric binding complex</clueType> <linkTheme>of</linkTheme> NF-kappaB subunits (c-Rel and p65) which is identical to the one obtained using the HIV-LTR-kappaB site as recognition sequence and different from the one (c-Rel and p50) observed with nuclear extracts from Mo T-lymphoid HTLV-II infected cells.</clue>
+</event>
+<event id="E11">
+<type class="Binding"/>
+<theme idref="T18"/>
+<clue>We describe here a heterodimeric binding <clueType>complex</clueType> of NF-kappaB subunits (c-Rel and p65) which is identical to the one <clueType>obtained</clueType> <clueExperiment>using the HIV-LTR-kappaB site as recognition sequence</clueExperiment> and different from the one (c-Rel and p50) observed with nuclear extracts from Mo T-lymphoid HTLV-II infected cells.</clue>
+</event>
+<event KT="Analysis" id="E12">
+<type class="Binding"/>
+<theme idref="T24"/>
+<theme idref="T25"/>
+<clue>We <clueKT>describe</clueKT> here a <clueType>heterodimeric binding complex</clueType> of NF-kappaB subunits (c-Rel and p65) which is identical to the one obtained using the HIV-LTR-kappaB site as recognition sequence and different from the one (c-Rel and p50) observed <clueLoc>with nuclear extracts from Mo T-lymphoid HTLV-II infected cells</clueLoc>.</clue>
+</event>
+<event id="E13">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="A4"/>
+<theme idref="T27"/>
+<clue>We describe here a heterodimeric binding complex of NF-kappaB subunits (c-Rel and p65) which is identical to the one obtained using the HIV-LTR-kappaB site as recognition sequence and different from the one (c-Rel and p50) <clueKT>observed</clueKT> with nuclear extracts from Mo T-lymphoid HTLV-II <clueType>infected</clueType> cells.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

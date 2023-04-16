@@ -1,0 +1,330 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9278334" created="07/04/03" creator="Yumiko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9278334</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="human_monocyte" sem="Cell_natural">Human monocyte</term> binding to <term id="T2" lex="fibronectin" sem="Protein_family_or_group">fibronectin</term> enhances <term id="T3" lex="IFN-gamma-induced_early_signaling_event" sem="Other"><term id="T4" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term>-induced <term id="A1" sem="Other">early signaling events</term></term>.</sentence>
+<event id="E1">
+<type class="Cell_adhesion"/>
+<theme idref="T1"/>
+<theme idref="T2"/>
+<clue>Human monocyte <clueType>binding</clueType> <linkTheme>to</linkTheme> fibronectin enhances IFN-gamma-induced early signaling events.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="A1"/>
+<cause idref="T4"/>
+<clue>Human monocyte binding to fibronectin enhances IFN-gamma-<clueType>induced</clueType> early signaling events.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="E1"/>
+<clue>Human monocyte binding to fibronectin <clueType>enhances</clueType> IFN-gamma-induced early signaling events.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T5" lex="leukocyte_integrin" sem="Protein_family_or_group">Leukocyte integrins</term> are fundamentally important in modulating adhesion to <term id="T6" lex="extracellular_matrix_component" sem="Cell_component">extracellular matrix components</term> and to <term id="A2" sem="Cell_natural">other cells</term>.</sentence>
+<event KT="Other" id="E4">
+<type class="Cell_adhesion"/>
+<theme idref="T1"/>
+<theme idref="T6"/>
+<clue>Leukocyte integrins are fundamentally important in modulating <clueType>adhesion</clueType> <linkTheme>to</linkTheme> extracellular matrix components and to other cells.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event KT="Other" id="E5">
+<type class="Cell_adhesion"/>
+<theme idref="T1"/>
+<theme idref="A2"/>
+<clue>Leukocyte integrins are fundamentally important in modulating <clueType>adhesion</clueType> to extracellular matrix components and <linkTheme>to</linkTheme> other cells.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event KT="Other" id="E6">
+<type class="Regulation"/>
+<theme idref="E4"/>
+<cause idref="T5"/>
+<clue>Leukocyte integrins are fundamentally important in <clueType>modulating</clueType> adhesion to extracellular matrix components and to other cells.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Regulation"/>
+<theme idref="E5"/>
+<cause idref="T5"/>
+<clue>Leukocyte integrins are fundamentally important in <clueType>modulating</clueType> adhesion to extracellular matrix components and to other cells.</clue>
+</event>
+<sentence id="S3">This <term id="A3" sem="Protein_family_or_group">integrin</term>-mediated adhesion controls <term id="T7" lex="leukocyte_arrest" sem="Other"><term id="A4" sem="Cell_natural">leukocyte</term> arrest</term> and <term id="A5" sem="Other">extravasation</term> during the onset of <term id="T8" lex="inflammatory_response" sem="Other">inflammatory responses</term>.</sentence>
+<event KT="Other" id="E54">
+<type class="Positive_regulation"/>
+<theme idref="T8"/>
+<clue>This integrin-mediated adhesion controls leukocyte arrest and extravasation during the <clueType>onset</clueType> <linkTheme>of</linkTheme> inflammatory responses.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Regulation"/>
+<theme idref="E4"/>
+<cause idref="A3"/>
+<clue>This integrin-<clueType>mediated</clueType> <corefTheme>adhesion</corefTheme> controls leukocyte arrest and extravasation during the onset of inflammatory responses.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Regulation"/>
+<theme idref="E5"/>
+<cause idref="A3"/>
+<clue>This integrin-<clueType>mediated</clueType> <corefTheme>adhesion</corefTheme> controls leukocyte arrest and extravasation during the onset of inflammatory responses.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Negative_regulation"/>
+<theme idref="A4"/>
+<clue>This integrin-mediated adhesion controls leukocyte <clueType>arrest</clueType> and extravasation during the onset of inflammatory responses.</clue>
+</event>
+<event KT="Fact" id="E11">
+<type class="Regulation"/>
+<theme idref="E10"/>
+<cause idref="E8"/>
+<clue>This integrin-mediated adhesion <clueType>controls</clueType> leukocyte arrest and extravasation during the onset of inflammatory responses.</clue>
+</event>
+<event KT="Fact" id="E12">
+<type class="Regulation"/>
+<theme idref="E10"/>
+<cause idref="E9"/>
+<clue>This integrin-mediated adhesion <clueType>controls</clueType> leukocyte arrest and extravasation during the onset of inflammatory responses.</clue>
+</event>
+<event KT="Other" id="E53">
+<type class="Cellular_physiological_process"/>
+<theme idref="A4"/>
+<clue>This integrin-mediated adhesion controls leukocyte arrest and <clueType>extravasation</clueType> during the onset of inflammatory responses.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Regulation"/>
+<theme idref="E53"/>
+<cause idref="E8"/>
+<clue>This integrin-mediated adhesion <clueType>controls</clueType> leukocyte arrest and extravasation <clueTime>during the onset of inflammatory responses</clueTime>.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Regulation"/>
+<theme idref="E53"/>
+<cause idref="E9"/>
+<clue>This integrin-mediated adhesion <clueType>controls</clueType> leukocyte arrest and extravasation <clueTime>during the onset of inflammatory responses</clueTime>.</clue>
+</event>
+<sentence id="S4">Moreover, <term id="T9" lex="integrin-ligand_interaction" sem="Other"><term id="T10" lex="integrin" sem="Protein_family_or_group">integrin</term>-<term id="A6" sem="Protein_molecule">ligand</term> interactions</term> trigger <term id="A7" sem="Other">signaling pathways</term> that may influence <term id="A8" sem="Cell_natural"><term id="A9" sem="Cell_natural">leukocyte</term> phenotype</term> and function at <term id="T11" lex="sites_of_inflammation" sem="Tissue_natural">sites of inflammation</term>.</sentence>
+<event KT="Other" id="E15">
+<type class="Binding"/>
+<theme idref="T10"/>
+<theme idref="A6"/>
+<clue>Moreover, integrin-ligand <clueType>interactions</clueType> trigger signaling pathways that may influence leukocyte phenotype and function at sites of inflammation.</clue>
+</event>
+<event KT="Fact" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="A7"/>
+<cause idref="E15"/>
+<clue>Moreover, integrin-ligand interactions <clueType>trigger</clueType> signaling pathways that may influence leukocyte phenotype and function at sites of inflammation.</clue>
+</event>
+<event KT="Other" id="E17" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="A8"/>
+<cause idref="A7"/>
+<clue>Moreover, integrin-ligand interactions trigger signaling pathways that may <clueType>influence</clueType> leukocyte phenotype and function at sites of inflammation.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Regulation"/>
+<theme idref="A9"/>
+<clue>Moreover, integrin-ligand interactions trigger signaling pathways that may influence leukocyte phenotype and <clueType>function</clueType> <clueLoc>at sites of inflammation</clueLoc>.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E19" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E18"/>
+<cause idref="A7"/>
+<clue>Moreover, integrin-ligand interactions trigger signaling pathways that <clueKT><clueCL>may</clueCL></clueKT> <clueType>influence</clueType> leukocyte phenotype and function at sites of inflammation.</clue>
+</event>
+<sentence id="S5">In the current studies, we evaluated the combinatorial effects of <term id="T12" lex="monocyte_adhesion" sem="Other"><term id="A10" sem="Cell_natural">monocyte</term> adhesion</term> and <term id="T13" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term> on <term id="T14" lex="intracellular_signaling_pathway" sem="Other">intracellular <term id="A101" sem="Other">signaling pathways</term></term>.</sentence>
+<event KT="Other" id="E20">
+<type class="Cell_adhesion"/>
+<theme idref="A10"/>
+<clue>In the current studies, we evaluated the combinatorial effects of monocyte <clueType>adhesion</clueType> and IFN-gamma on intracellular signaling pathways.</clue>
+</event>
+<event KT="Investigation" id="E21" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="A101"/>
+<cause idref="E20"/>
+<cause idref="T13"/>
+<clue>In the current studies, we <clueKT>evaluated</clueKT> the <clueType>combinatorial effects</clueType> <linkCause>of</linkCause> monocyte adhesion and IFN-gamma <linkTheme>on</linkTheme> <clueLoc>intracellular</clueLoc> signaling pathways.</clue>
+</event>
+<sentence id="S6"><term id="T15" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term> triggers a well-defined <term id="A11" sem="Other">signal transduction pathway</term>, which although not directly stimulated by <term id="T16" lex="monocyte_adherence" sem="Other"><term id="A12" sem="Cell_natural">monocyte</term> adherence</term> to <term id="T17" lex="fibronectin" sem="Protein_family_or_group">fibronectin</term> or <term id="T18" lex="arginine-glycine-aspartate_(RGD)-coated_substrata" sem="Protein_family_or_group">arginine-glycine-aspartate (RGD)-coated substrata</term>, was enhanced significantly in these <term id="T19" lex="matrix-adherent_cell" sem="Cell_natural">matrix-adherent cells</term>.</sentence>
+<event id="E22">
+<type class="Positive_regulation"/>
+<theme idref="A11"/>
+<cause idref="T15"/>
+<clue>IFN-gamma <clueType>triggers</clueType> a well-defined signal transduction pathway, which although not directly stimulated by monocyte adherence to fibronectin or arginine-glycine-aspartate (RGD)-coated substrata, was enhanced significantly in these matrix-adherent cells.</clue>
+</event>
+<event id="E23">
+<type class="Cell_adhesion"/>
+<theme idref="A12"/>
+<theme idref="T17"/>
+<clue>IFN-gamma triggers a well-defined signal transduction pathway, which although not directly stimulated by monocyte <clueType>adherence</clueType> <linkTheme>to</linkTheme> fibronectin or arginine-glycine-aspartate (RGD)-coated substrata, was enhanced significantly in these matrix-adherent cells.</clue>
+</event>
+<event id="E24">
+<type class="Cell_adhesion"/>
+<theme idref="A12"/>
+<theme idref="T18"/>
+<clue>IFN-gamma triggers a well-defined signal transduction pathway, which although not directly stimulated by monocyte <clueType>adherence</clueType> <linkTheme>to</linkTheme> fibronectin or arginine-glycine-aspartate (RGD)-coated substrata, was enhanced significantly in these matrix-adherent cells.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E25">
+<type class="Positive_regulation"/>
+<theme idref="A11"/>
+<cause idref="E23"/>
+<clue>IFN-gamma triggers a well-defined signal transduction pathway, which although <cluePolarity>not</cluePolarity> directly <clueType>stimulated</clueType> <linkCause>by</linkCause> monocyte adherence to fibronectin or arginine-glycine-aspartate (RGD)-coated substrata, was enhanced significantly in these matrix-adherent cells.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="A11"/>
+<cause idref="E24"/>
+<clue>IFN-gamma triggers a well-defined signal transduction pathway, which although <cluePolarity>not</cluePolarity> directly <clueType>stimulated</clueType> <linkCause>by</linkCause> monocyte adherence to fibronectin or arginine-glycine-aspartate (RGD)-coated substrata, was enhanced significantly in these matrix-adherent cells.</clue>
+</event>
+<event Manner="High" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="A11"/>
+<clue>IFN-gamma triggers a well-defined signal transduction pathway, which although not directly stimulated by monocyte adherence to fibronectin or arginine-glycine-aspartate (RGD)-coated substrata, was <clueType>enhanced</clueType> <clueManner>significantly</clueManner> <clueLoc>in these matrix-adherent cells</clueLoc>.</clue>
+</event>
+<sentence id="S7">Compared with <term id="A13" sem="Cell_natural">monocytes</term> in suspension or adherent on <term id="T20" lex="plastic_surface" sem="Organic_compound_other">plastic surfaces</term>, <term id="A15" sem="Cell_natural">monocytes</term> adherent to <term id="T21" lex="fibronectin" sem="Protein_family_or_group">fibronectin</term> or <term id="T22" lex="RGD" sem="Peptide">RGD</term> exhibited a greater than threefold increase in steady state levels of <term id="T24" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term>-induced <term id="A14" sem="RNA_family_or_group">mRNA for the <term id="T25" lex="high_affinity_Fc_gammaRI_receptor" sem="Protein_molecule">high affinity Fc gammaRI receptor</term></term>.</sentence>
+<event id="E28">
+<type class="Cell_adhesion"/>
+<theme idref="A13"/>
+<theme idref="T20"/>
+<clue>Compared with monocytes in suspension or <clueType>adherent</clueType> <linkTheme>on</linkTheme> plastic surfaces, monocytes adherent to fibronectin or RGD exhibited a greater than threefold increase in steady state levels of IFN-gamma-induced mRNA for the high affinity Fc gammaRI receptor.</clue>
+</event>
+<event KT="Other" id="E29">
+<type class="Cell_adhesion"/>
+<theme idref="A15"/>
+<theme idref="T21"/>
+<clue>Compared with monocytes in suspension or adherent on plastic surfaces, monocytes <clueType>adherent</clueType> <linkTheme>to</linkTheme> fibronectin or RGD exhibited a greater than threefold increase in steady state levels of IFN-gamma-induced mRNA for the high affinity Fc gammaRI receptor.</clue>
+</event>
+<event KT="Other" id="E30">
+<type class="Cell_adhesion"/>
+<theme idref="A15"/>
+<theme idref="T22"/>
+<clue>Compared with monocytes in suspension or adherent on plastic surfaces, monocytes <clueType>adherent</clueType> <linkTheme>to</linkTheme> fibronectin or RGD exhibited a greater than threefold increase in steady state levels of IFN-gamma-induced mRNA for the high affinity Fc gammaRI receptor.</clue>
+</event>
+<event KT="Other" id="E31">
+<type class="Transcription"/>
+<theme idref="A14"/>
+<clue>Compared with monocytes in suspension or adherent on plastic surfaces, monocytes adherent to fibronectin or RGD exhibited a greater than threefold increase in steady state <clueType>levels</clueType> <linkTheme>of</linkTheme> IFN-gamma-induced mRNA for the high affinity Fc gammaRI receptor.</clue>
+</event>
+<event KT="Other" id="E32">
+<type class="Positive_regulation"/>
+<theme idref="E31"/>
+<cause idref="T24"/>
+<clue>Compared with monocytes in suspension or adherent on plastic surfaces, monocytes adherent to fibronectin or RGD exhibited a greater than threefold increase in steady state levels of IFN-gamma-<clueType>induced</clueType> mRNA for the high affinity Fc gammaRI receptor.</clue>
+<comment>TPS A14</comment></event>
+<event KT="Analysis" Manner="High" id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E31"/>
+<clue>Compared with monocytes in suspension or adherent on plastic surfaces, <clueLoc>monocytes adherent to fibronectin or RGD</clueLoc> <clueKT>exhibited</clueKT> a <clueManner>greater than threefold</clueManner> <clueType>increase</clueType> <linkTheme>in</linkTheme> steady state levels of IFN-gamma-induced mRNA for the high affinity Fc gammaRI receptor.</clue>
+<comment>NER T23 DEL</comment></event>
+<sentence id="S8">By <term id="T26" lex="electrophoretic_mobility_shift_assays" sem="Other">electrophoretic mobility shift assays</term>, this increase in <term id="T27" lex="mRNA" sem="RNA_family_or_group">mRNA</term> was associated with a 5- to 10-fold increase in the <term id="T28" lex="STAT1-containing_DNA-binding_complex" sem="Protein_complex"><term id="A17" sem="Protein_molecule">STAT1</term>-containing <term id="A16" sem="DNA_molecule">DNA</term>-binding complex</term> that binds to <term id="T29" lex="Fc_gammaRI_promoter_element" sem="DNA_domain_or_region">Fc gammaRI promoter elements</term>.</sentence>
+<event KT="Other" id="E34">
+<type class="Positive_regulation"/>
+<theme idref="A14"/>
+<clue>By electrophoretic mobility shift assays, this <clueType>increase</clueType> <linkTheme>in</linkTheme> <corefTheme>mRNA</corefTheme> was associated with a 5- to 10-fold increase in the STAT1-containing DNA-binding complex that binds to Fc gammaRI promoter elements.</clue>
+</event>
+<event KT="Other" id="E35">
+<type class="Binding"/>
+<theme idref="A17"/>
+<theme idref="A16"/>
+<clue>By electrophoretic mobility shift assays, this increase in mRNA was associated with a 5- to 10-fold increase in the STAT1-containing DNA-<clueType>binding complex</clueType> that binds to Fc gammaRI promoter elements.</clue>
+</event>
+<event KT="Other" id="E36">
+<type class="Binding"/>
+<theme idref="T28"/>
+<theme idref="T29"/>
+<clue>By electrophoretic mobility shift assays, this increase in mRNA was associated with a 5- to 10-fold increase in the STAT1-containing DNA-binding complex that <clueType>binds</clueType> <linkTheme>to</linkTheme> Fc gammaRI promoter elements.</clue>
+</event>
+<event KT="Other" Manner="High" id="E37">
+<type class="Positive_regulation"/>
+<theme idref="T28"/>
+<clue><clueExperiment>By electrophoretic mobility shift assays</clueExperiment>, this increase in mRNA was associated with a <clueManner>5- to 10-fold</clueManner> <clueType>increase</clueType> <linkTheme>in</linkTheme> the STAT1-containing DNA-binding complex that binds to Fc gammaRI promoter elements.</clue>
+</event>
+<event KT="Analysis" id="E38">
+<type class="Correlation"/>
+<theme idref="E34"/>
+<theme idref="E37"/>
+<clue><clueExperiment>By electrophoretic mobility shift assays</clueExperiment>, this increase in mRNA was <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> a 5- to 10-fold increase in the STAT1-containing DNA-binding complex that binds to Fc gammaRI promoter elements.</clue>
+</event>
+<sentence id="S9">Furthermore, the <term id="A22" lex="tyrosine_phosphorylation" sem="Other"><term id="A23" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> phosphorylation</term> of <term id="T30" lex="STAT1" sem="Protein_molecule">STAT1</term> and the <term id="T31" lex="tyrosine_kinase" sem="Protein_family_or_group">tyrosine kinases</term> <term id="T32" lex="JAK1" sem="Protein_molecule">JAK1</term> and <term id="T33" lex="JAK2" sem="Protein_molecule">JAK2</term> was enhanced significantly in <term id="T34" lex="RGD-adherent_monocyte" sem="Cell_natural"><term id="T35" lex="RGD" sem="Peptide">RGD</term>-adherent <term id="A18" sem="Cell_natural">monocytes</term></term> compared with <term id="T36" lex="control_cell" sem="Cell_natural">control cells</term>.</sentence>
+<event id="E39">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T30"/>
+<site idref="A23"/>
+<clue>Furthermore, the tyrosine <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> STAT1 and the tyrosine kinases JAK1 and JAK2 was enhanced significantly in RGD-adherent monocytes compared with control cells.</clue>
+</event>
+<event id="E40">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T32"/>
+<site idref="A23"/>
+<clue>Furthermore, the tyrosine <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> STAT1 and the tyrosine kinases JAK1 and JAK2 was enhanced significantly in RGD-adherent monocytes compared with control cells.</clue>
+</event>
+<event id="E41">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T33"/>
+<site idref="A23"/>
+<clue>Furthermore, the tyrosine <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> STAT1 and the tyrosine kinases JAK1 and JAK2 was enhanced significantly in RGD-adherent monocytes compared with control cells.</clue>
+</event>
+<event Manner="High" id="E42">
+<type class="Positive_regulation"/>
+<theme idref="E39"/>
+<clue>Furthermore, the tyrosine phosphorylation of STAT1 and the tyrosine kinases JAK1 and JAK2 was <clueType>enhanced</clueType> <clueManner>significantly</clueManner> <clueLoc>in RGD-adherent monocytes</clueLoc> compared with control cells.</clue>
+</event>
+<event Manner="High" id="E43">
+<type class="Positive_regulation"/>
+<theme idref="E40"/>
+<clue>Furthermore, the tyrosine phosphorylation of STAT1 and the tyrosine kinases JAK1 and JAK2 was <clueType>enhanced</clueType> <clueManner>significantly</clueManner> <clueLoc>in RGD-adherent monocytes</clueLoc> compared with control cells.</clue>
+</event>
+<event Manner="High" id="E44">
+<type class="Positive_regulation"/>
+<theme idref="E41"/>
+<clue>Furthermore, the tyrosine phosphorylation of STAT1 and the tyrosine kinases JAK1 and JAK2 was <clueType>enhanced</clueType> <clueManner>significantly</clueManner> <clueLoc>in RGD-adherent monocytes</clueLoc> compared with control cells.</clue>
+</event>
+<event id="E45">
+<type class="Cell_adhesion"/>
+<theme idref="A18"/>
+<theme idref="T35"/>
+<clue>Furthermore, the tyrosine phosphorylation of STAT1 and the tyrosine kinases JAK1 and JAK2 was enhanced significantly in RGD-<clueType>adherent</clueType> monocytes compared with control cells.</clue>
+</event>
+<sentence id="S10">These results suggest a novel mechanism by which <term id="T37" lex="integrin-mediated_cell_adhesion" sem="Other"><term id="T38" lex="integrin" sem="Protein_family_or_group">integrin</term>-mediated <term id="A19" sem="Other">cell adhesion</term></term> can modulate the magnitude of <term id="T39" lex="cytokine-induced_signal_transduction_pathway" sem="Other"><term id="T40" lex="cytokine" sem="Protein_family_or_group">cytokine</term>-induced <term id="A20" sem="Other">signal transduction pathways</term></term>, thereby amplifying <term id="T41" lex="cellular_event" sem="Other">cellular events</term> leading to <term id="T42" lex="monocyte_activation" sem="Other"><term id="A21" sem="Cell_natural">monocyte</term> activation</term> and <term id="T43" lex="inflammation" sem="Other">inflammation</term>.</sentence>
+<event KT="Other" id="E46">
+<type class="Positive_regulation"/>
+<theme idref="A19"/>
+<cause idref="T38"/>
+<clue>These results suggest a novel mechanism by which integrin-<clueType>mediated</clueType> cell adhesion can modulate the magnitude of cytokine-induced signal transduction pathways, thereby amplifying cellular events leading to monocyte activation and inflammation.</clue>
+</event>
+<event KT="Other" id="E47">
+<type class="Positive_regulation"/>
+<theme idref="A20"/>
+<cause idref="T40"/>
+<clue>These results suggest a novel mechanism by which integrin-mediated cell adhesion can modulate the magnitude of cytokine-<clueType>induced</clueType> signal transduction pathways, thereby amplifying cellular events leading to monocyte activation and inflammation.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E48">
+<type class="Regulation"/>
+<theme idref="E47"/>
+<cause idref="E46"/>
+<clue>These results <clueKT>suggest</clueKT> a novel mechanism by which integrin-mediated cell adhesion <clueCL>can</clueCL> <clueType>modulate</clueType> the magnitude of cytokine-induced signal transduction pathways, thereby amplifying cellular events leading to monocyte activation and inflammation.</clue>
+</event>
+<event KT="Other" id="E49">
+<type class="Positive_regulation"/>
+<theme idref="T41"/>
+<cause idref="E48"/>
+<clue>These results suggest a novel mechanism by which integrin-mediated cell adhesion can modulate the magnitude of cytokine-induced signal transduction pathways, thereby <clueType>amplifying</clueType> cellular events leading to monocyte activation and inflammation.</clue>
+</event>
+<event KT="Other" id="E50">
+<type class="Physiological_process"/>
+<theme idref="A21"/>
+<clue>These results suggest a novel mechanism by which integrin-mediated cell adhesion can modulate the magnitude of cytokine-induced signal transduction pathways, thereby amplifying cellular events leading to monocyte <clueType>activation</clueType> and inflammation.</clue>
+</event>
+<event KT="Other" id="E51">
+<type class="Positive_regulation"/>
+<theme idref="E50"/>
+<cause idref="T41"/>
+<clue>These results suggest a novel mechanism by which integrin-mediated cell adhesion can modulate the magnitude of cytokine-induced signal transduction pathways, thereby amplifying cellular events <clueType>leading</clueType> <linkTheme>to</linkTheme> monocyte activation and inflammation.</clue>
+</event>
+<event KT="Other" id="E52">
+<type class="Positive_regulation"/>
+<theme idref="T43"/>
+<cause idref="T41"/>
+<clue>These results suggest a novel mechanism by which integrin-mediated cell adhesion can modulate the magnitude of cytokine-induced signal transduction pathways, thereby amplifying cellular events <clueType>leading</clueType> <linkTheme>to</linkTheme> monocyte activation and inflammation.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

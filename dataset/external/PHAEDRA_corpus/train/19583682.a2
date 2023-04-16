@@ -1,0 +1,11 @@
+T13	DDI 289 301	interactions
+T17	Adverse_effect 242 249	induced
+T22	Adverse_effect 401 416	Extreme caution
+R1	is_equivalent Arg1:T4 Arg2:T5
+E3	DDI:T13 has_participant:T4 has_participant:T6
+E8	Combination:T21 has_participant:T7 has_participant:T9 has_participant:T20
+E6	Adverse_effect:T17 affects:T3 has_agent:E3
+E9	Adverse_effect:T22 has_cue:T23 has_agent:E8
+E10	Adverse_effect:T22 has_cue:T23 has_agent:T8
+A1	Speculated E9
+A2	Speculated E10

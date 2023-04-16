@@ -1,0 +1,258 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7926759" created="11/07/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7926759</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">An active <term id="T1" lex="v-abl_protein_tyrosine_kinase" sem="Protein_molecule">v-abl protein <term id="T2" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> kinase</term> blocks <term id="T3" lex="immunoglobulin_light-chain_gene_rearrangement" sem="Other"><term id="T4" lex="immunoglobulin_light-chain_gene" sem="DNA_domain_or_region">immunoglobulin light-chain gene</term> rearrangement</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="DNA_recombination"/>
+<theme idref="T4"/>
+<clue>An active v-abl protein tyrosine kinase blocks immunoglobulin light-chain gene <clueType>rearrangement</clueType>.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation"/>
+<theme idref="E1"/>
+<cause idref="T1"/>
+<clue>An active v-abl protein tyrosine kinase <clueType>blocks</clueType> immunoglobulin light-chain gene rearrangement.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T5" lex="lymphoid_cell" sem="Cell_natural">Lymphoid cells</term> transformed by <term id="T6" lex="Abelson_murine_leukemia_virus" sem="Virus">Abelson murine leukemia virus</term> have provided one of the classic models for study of <term id="T7" lex="early_B-cell_development" sem="Other">early <term id="A1" sem="Cell_natural">B-cell</term> development</term> and <term id="T8" lex="immunoglobulin_rearrangement" sem="Other"><term id="T9" lex="immunoglobulin" sem="Protein_family_or_group">immunoglobulin</term> rearrangement</term>.</sentence>
+<event KT="Other" id="E3">
+<type class="Biological_process"/>
+<theme idref="T5"/>
+<clue>Lymphoid cells <clueType>transformed</clueType> by Abelson murine leukemia virus have provided one of the classic models for study of early B-cell development and immunoglobulin rearrangement.</clue>
+</event>
+<event KT="Other" id="E103">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="T6"/>
+<clue>Lymphoid cells <clueType>transformed</clueType> <linkCause>by</linkCause> Abelson murine leukemia virus have provided one of the classic models for study of early B-cell development and immunoglobulin rearrangement.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Investigation" id="E4">
+<type class="Cell_differentiation"/>
+<theme idref="A1"/>
+<clue>Lymphoid cells transformed by Abelson murine leukemia virus have provided one of the classic models for <clueKT>study</clueKT> of early B-cell <clueType>development</clueType> and immunoglobulin rearrangement.</clue>
+</event>
+<event KT="Investigation" id="E5">
+<type class="DNA_recombination"/>
+<theme idref="T9"/>
+<clue>Lymphoid cells transformed by Abelson murine leukemia virus have provided one of the classic models for <clueKT>study</clueKT> of early B-cell development and immunoglobulin <clueType>rearrangement</clueType>.</clue>
+</event>
+<sentence id="S3">Most of these cells have rearranged their <term id="T10" lex="heavy-chain_locus" sem="DNA_domain_or_region">heavy-chain locus</term> but not their <term id="T11" lex="light_chain_gene" sem="DNA_domain_or_region">light chain genes</term>, suggesting that an active <term id="T12" lex="v-abl_protein" sem="Protein_molecule">v-abl protein</term> interferes with this <term id="A2" sem="Other">differentiation step</term>.</sentence>
+<event KT="Fact" id="E6">
+<type class="DNA_recombination"/>
+<theme idref="T10"/>
+<clue><clueLoc>Most of these cells</clueLoc> have <clueType>rearranged</clueType> their heavy-chain locus but not their light chain genes, suggesting that an active v-abl protein interferes with this differentiation step.</clue>
+</event>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E7">
+<type class="DNA_recombination"/>
+<theme idref="T11"/>
+<clue><clueLoc>Most of these cells</clueLoc> have <clueType>rearranged</clueType> their heavy-chain locus but <cluePolarity>not</cluePolarity> their light chain genes, suggesting that an active v-abl protein interferes with this differentiation step.</clue>
+</event>
+<event KT="Fact" Polarity="Negative" id="E8">
+<type class="DNA_recombination"/>
+<theme idref="T11"/>
+<clue><clueLoc>Most of these cells</clueLoc> have <clueType>rearranged</clueType> their heavy-chain locus but <cluePolarity>not</cluePolarity> their light chain genes, suggesting that an active v-abl protein interferes with this differentiation step.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E9" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="E8"/>
+<cause idref="T12"/>
+<clue>Most of these cells have rearranged their heavy-chain locus but not their light chain genes, <clueKT><clueCL>suggesting</clueCL></clueKT> that an active v-abl protein <clueType>interferes</clueType> <linkTheme>with</linkTheme> <corefTheme>this differentiation step</corefTheme>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E10" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="A2"/>
+<cause idref="T12"/>
+<clue>Most of these cells have rearranged their heavy-chain locus but not their light chain genes, <clueKT><clueCL>suggesting</clueCL></clueKT> that an active v-abl protein <clueType>interferes</clueType> <linkTheme>with</linkTheme> this differentiation step.</clue>
+</event>
+<sentence id="S4">To test this hypothesis, <term id="T13" lex="light-chain_gene_structure" sem="DNA_domain_or_region">light-chain gene structure</term> was examined in <term id="T14" lex="pre-B_cell" sem="Cell_cultured">pre-B cells</term> transformed by <term id="A3" sem="Virus"><term id="T15" lex="temperature-sensitive_mutant" sem="Virus">temperature-sensitive mutants</term> of the <term id="T16" lex="Abelson_virus" sem="Virus">Abelson virus</term></term> and in derivatives that survive at the nonpermissive temperature because they express a <term id="T17" lex="human_BCL-2_gene" sem="DNA_domain_or_region">human BCL-2 gene</term>.</sentence>
+<event KT="Other" id="E11">
+<type class="Biological_process"/>
+<theme idref="T14"/>
+<clue>To test this hypothesis, light-chain gene structure was examined in pre-B cells <clueType>transformed</clueType> by temperature-sensitive mutants of the Abelson virus and in derivatives that survive at the nonpermissive temperature because they express a human BCL-2 gene.</clue>
+<comment>TPS A3</comment></event>
+<event KT="Other" id="E111">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<cause idref="A3"/>
+<clue>To test this hypothesis, light-chain gene structure was examined in pre-B cells <clueType>transformed</clueType> <linkCause>by</linkCause> temperature-sensitive mutants of the Abelson virus and in derivatives that survive at the nonpermissive temperature because they express a human BCL-2 gene.</clue>
+<comment>TPS A3</comment></event>
+<event KT="Fact" id="E12">
+<type class="Gene_expression"/>
+<theme idref="T17"/>
+<clue>To test this hypothesis, light-chain gene structure was examined <clueLoc>in pre-B cells transformed by temperature-sensitive mutants of the Abelson virus</clueLoc> and in derivatives that survive at the nonpermissive temperature because they <clueType>express</clueType> a human BCL-2 gene.</clue>
+</event>
+<event KT="Fact" id="E112">
+<type class="Gene_expression"/>
+<theme idref="T17"/>
+<clue>To test this hypothesis, light-chain gene structure was examined in pre-B cells transformed by temperature-sensitive mutants of the Abelson virus and <clueLoc>in derivatives that survive at the nonpermissive temperature</clueLoc> because they <clueType>express</clueType> a human BCL-2 gene.</clue>
+</event>
+<sentence id="S5">Our studies reveal that inactivation of the <term id="T18" lex="v-abl_protein_tyrosine_kinase" sem="Protein_molecule">v-abl protein <term id="T20" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> kinase</term> triggers high-frequency rearrangement of <cons id="T21" lex="(AND kappa_light-chain_gene lambda_light-chain_gene)" sem="(AND DNA_family_or_group DNA_family_or_group)"><frag id="F1"><term id="A5" sem="DNA_domain_or_region">kappa</term></frag> and <frag id="F2"><term id="A6" sem="DNA_domain_or_region">lambda</term></frag> <frag id="F3"><term id="A7" sem="DNA_domain_or_region">light-chain genes</term></frag></cons>.</sentence>
+<event KT="Other" id="E13">
+<type class="Negative_regulation"/>
+<theme idref="T18"/>
+<clue>Our studies reveal that <clueType>inactivation</clueType> <linkTheme>of</linkTheme> the v-abl protein tyrosine kinase triggers high-frequency rearrangement of kappa and lambda light-chain genes.</clue>
+<comment>NER T18 DEL</comment></event>
+<event KT="Other" id="E14">
+<type class="DNA_recombination"/>
+<theme idref="A5" idref1="A7"/>
+<clue>Our studies reveal that inactivation of the v-abl protein tyrosine kinase triggers high-frequency <clueType>rearrangement</clueType> <linkTheme>of</linkTheme> kappa and lambda light-chain genes.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="DNA_recombination"/>
+<theme idref="A6" idref1="A7"/>
+<clue>Our studies reveal that inactivation of the v-abl protein tyrosine kinase triggers high-frequency <clueType>rearrangement</clueType> <linkTheme>of</linkTheme> kappa and lambda light-chain genes.</clue>
+</event>
+<event KT="Analysis" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="E13"/>
+<clue>Our studies <clueKT>reveal</clueKT> that inactivation of the v-abl protein tyrosine kinase <clueType>triggers</clueType> high-frequency rearrangement of kappa and lambda light-chain genes.</clue>
+</event>
+<event KT="Analysis" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="E13"/>
+<clue>Our studies <clueKT>reveal</clueKT> that inactivation of the v-abl protein tyrosine kinase <clueType>triggers</clueType> high-frequency rearrangement of kappa and lambda light-chain genes.</clue>
+</event>
+<sentence id="S6">These events are accompanied by marked increases in the expression of <term id="T23" lex="RAG-1_RNA" sem="RNA_family_or_group">RAG-1</term> and <term id="T24" lex="RAG-2_RNA" sem="RNA_family_or_group">RAG-2</term> <term id="T22" lex="RAG-1_and_RAG-2_RNA" sem="RNA_family_or_group">RNAs</term>.</sentence>
+<event id="E18">
+<type class="Transcription"/>
+<theme idref="T23" idref1="T22"/>
+<clue>These events are accompanied by marked increases in the <clueType>expression</clueType> <linkTheme>of</linkTheme> RAG-1 and RAG-2 RNAs.</clue>
+<comment>NER T22 MOD</comment></event>
+<event id="E19">
+<type class="Transcription"/>
+<theme idref="T24" idref1="T22"/>
+<clue>These events are accompanied by marked increases in the <clueType>expression</clueType> <linkTheme>of</linkTheme> RAG-1 and RAG-2 RNAs.</clue>
+</event>
+<event Manner="High" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<clue>These events are accompanied by <clueManner>marked</clueManner> <clueType>increases</clueType> <linkTheme>in</linkTheme> the expression of RAG-1 and RAG-2 RNAs.</clue>
+</event>
+<event Manner="High" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<clue>These events are accompanied by <clueManner>marked</clueManner> <clueType>increases</clueType> <linkTheme>in</linkTheme> the expression of RAG-1 and RAG-2 RNAs.</clue>
+</event>
+<event id="E22">
+<type class="Correlation"/>
+<theme idref="E16"/>
+<theme idref="E20"/>
+<clue><corefTheme>These events</corefTheme> are <clueType>accompanied</clueType> <linkTheme>by</linkTheme> marked increases in the expression of RAG-1 and RAG-2 RNAs.</clue>
+</event>
+<event id="E23">
+<type class="Correlation"/>
+<theme idref="E17"/>
+<theme idref="E21"/>
+<clue><corefTheme>These events</corefTheme> are <clueType>accompanied</clueType> <linkTheme>by</linkTheme> marked increases in the expression of RAG-1 and RAG-2 RNAs.</clue>
+</event>
+<sentence id="S7">These increases occur in the absence of <term id="T25" lex="protein_synthesis" sem="Other">protein synthesis</term> but are dependent on inactivation of the <term id="T26" lex="v-abl_protein_tyrosine_kinase" sem="Protein_molecule"><term id="T27" lex="v-abl_protein" sem="Protein_molecule">v-abl protein</term> <term id="T28" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> kinase</term>.</sentence>
+<event Polarity="Negative" assertion="non-exist" id="E24">
+<type class="Correlation"/>
+<theme idref="T20"/>
+<theme idref="T25"/>
+<clue><corefTheme>These increases</corefTheme> <clueType>occur</clueType> <linkTheme><cluePolarity>in the absence of</cluePolarity></linkTheme> protein synthesis but are dependent on inactivation of the v-abl protein tyrosine kinase.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E25">
+<type class="Correlation"/>
+<theme idref="T21"/>
+<theme idref="T25"/>
+<clue><corefTheme>These increases</corefTheme> <clueType>occur</clueType> <linkTheme><cluePolarity>in the absence of</cluePolarity></linkTheme> protein synthesis but are dependent on inactivation of the v-abl protein tyrosine kinase.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Negative_regulation"/>
+<theme idref="T25"/>
+<clue>These increases occur in the absence of protein synthesis but are dependent on <clueType>inactivation</clueType> <linkTheme>of</linkTheme> the v-abl protein tyrosine kinase.</clue>
+</event>
+<event KT="Analysis" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="E26"/>
+<clue>These increases occur in the absence of protein synthesis but are <clueType><clueKT>dependent</clueKT></clueType> <linkCause>on</linkCause> inactivation of the v-abl protein tyrosine kinase.</clue>
+</event>
+<event KT="Analysis" id="E28">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="E26"/>
+<clue>These increases occur in the absence of protein synthesis but are <clueType><clueKT>dependent</clueKT></clueType> <linkCause>on</linkCause> inactivation of the v-abl protein tyrosine kinase.</clue>
+</event>
+<sentence id="S8">As documented in the accompanying paper (Klug et al., this issue), an active <term id="T29" lex="v-abl_protein" sem="Protein_molecule">v-abl protein</term> also suppresses the activity of <term id="T30" lex="NF-kappa_B/rel" sem="Protein_complex"><term id="T31" lex="NF-kappa_B" sem="Protein_family_or_group">NF-kappa B</term>/<term id="A8" sem="Protein_family_or_group">rel</term></term> and expression controlled by the <term id="T32" lex="kappa_intron_enhancer" sem="DNA_domain_or_region">kappa intron enhancer</term>.</sentence>
+<event KT="Analysis" Source="Other" id="E29">
+<type class="Negative_regulation"/>
+<theme idref="T30"/>
+<cause idref="T29"/>
+<clue><clueSource>As <clueKT>documented</clueKT> in the accompanying paper (Klug et al., this issue)</clueSource>, an active v-abl protein also <clueType>suppresses</clueType> the activity of NF-kappa B/rel and expression controlled by the kappa intron enhancer.</clue>
+</event>
+<event KT="Other" id="E30">
+<type class="Gene_expression"/>
+<theme idref="T30"/>
+<clue>As documented in the accompanying paper (Klug et al., this issue), an active v-abl protein also suppresses the activity of NF-kappa B/rel and <clueType>expression</clueType> controlled by the kappa intron enhancer.</clue>
+</event>
+<event KT="Other" id="E31">
+<type class="Regulation"/>
+<theme idref="E30"/>
+<cause idref="T32"/>
+<clue>As documented in the accompanying paper (Klug et al., this issue), an active v-abl protein also suppresses the activity of NF-kappa B/rel and expression <clueType>controlled</clueType> <linkCause>by</linkCause> the kappa intron enhancer.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E32">
+<type class="Negative_regulation"/>
+<theme idref="E31"/>
+<cause idref="T29"/>
+<clue><clueSource>As <clueKT>documented</clueKT> in the accompanying paper (Klug et al., this issue)</clueSource>, an active v-abl protein also <clueType>suppresses</clueType> the activity of NF-kappa B/rel and expression controlled by the kappa intron enhancer.</clue>
+</event>
+<sentence id="S9">Together these data demonstrate that the <term id="T33" lex="v-abl_protein" sem="Protein_molecule">v-abl protein</term> specifically interferes with <term id="T34" lex="light-chain_gene_rearrangement" sem="Other"><term id="T35" lex="light-chain_gene" sem="DNA_domain_or_region">light-chain gene</term> rearrangement</term> by suppressing at least two <term id="A9" sem="Other">pathways</term> essential for this stage of <term id="T36" lex="B-cell_differentiation" sem="Other"><term id="T37" lex="B-cell" sem="Cell_natural">B-cell</term> differentiation</term> and suggest that <term id="T38" lex="tyrosine_phosphorylation" sem="Other"><term id="T39" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> phosphorylation</term> is important in regulating <term id="T40" lex="RAG_gene_expression" sem="Other"><term id="T41" lex="RAG_gene" sem="DNA_domain_or_region">RAG gene</term> expression</term>.</sentence>
+<event KT="Other" id="E33">
+<type class="DNA_recombination"/>
+<theme idref="T35"/>
+<clue>Together these data demonstrate that the v-abl protein specifically interferes with light-chain gene <clueType>rearrangement</clueType> by suppressing at least two pathways essential for this stage of B-cell differentiation and suggest that tyrosine phosphorylation is important in regulating RAG gene expression.</clue>
+</event>
+<event KT="Analysis" id="E34">
+<type class="Negative_regulation"/>
+<theme idref="E33"/>
+<cause idref="E41"/>
+<clue>Together these data <clueKT>demonstrate</clueKT> that the v-abl protein specifically <clueType>interferes</clueType> <linkTheme>with</linkTheme> light-chain gene rearrangement <linkCause>by</linkCause> suppressing at least two pathways essential for this stage of B-cell differentiation and suggest that tyrosine phosphorylation is important in regulating RAG gene expression.</clue>
+</event>
+<event KT="Other" id="E35">
+<type class="Cell_differentiation"/>
+<theme idref="T37"/>
+<clue>Together these data demonstrate that the v-abl protein specifically interferes with light-chain gene rearrangement by suppressing at least two pathways essential for this stage of B-cell <clueType>differentiation</clueType> and suggest that tyrosine phosphorylation is important in regulating RAG gene expression.</clue>
+</event>
+<event KT="Other" id="E36">
+<type class="Positive_regulation"/>
+<theme idref="E33"/>
+<cause idref="A9"/>
+<clue>Together these data demonstrate that the v-abl protein specifically interferes with light-chain gene rearrangement by suppressing at least two pathways <clueType>essential</clueType> <linkTheme>for</linkTheme> <corefTheme>this stage of B-cell differentiation</corefTheme> and suggest that tyrosine phosphorylation is important in regulating RAG gene expression.</clue>
+</event>
+<event KT="Other" id="E41">
+<type class="Negative_regulation"/>
+<theme idref="E36"/>
+<cause idref="T33"/>
+<clue>Together these data demonstrate that the v-abl protein specifically interferes with light-chain gene rearrangement by <clueType>suppressing</clueType> at least two pathways essential for this stage of B-cell differentiation and suggest that tyrosine phosphorylation is important in regulating RAG gene expression.</clue>
+</event>
+<event KT="Other" id="E37">
+<type class="Gene_expression"/>
+<theme idref="T41"/>
+<clue>Together these data demonstrate that the v-abl protein specifically interferes with light-chain gene rearrangement by suppressing at least two pathways essential for this stage of B-cell differentiation and suggest that tyrosine phosphorylation is important in regulating RAG gene <clueType>expression</clueType>.</clue>
+</event>
+<event KT="Other" id="E38">
+<type class="Regulation"/>
+<theme idref="E37"/>
+<clue>Together these data demonstrate that the v-abl protein specifically interferes with light-chain gene rearrangement by suppressing at least two pathways essential for this stage of B-cell differentiation and suggest that tyrosine phosphorylation is important in <clueType>regulating</clueType> RAG gene expression.</clue>
+</event>
+<event KT="Other" id="E39">
+<type class="Protein_amino_acid_phosphorylation"/>
+<site idref="T39"/>
+<clue>Together these data demonstrate that the v-abl protein specifically interferes with light-chain gene rearrangement by suppressing at least two pathways essential for this stage of B-cell differentiation and suggest that tyrosine <clueType>phosphorylation</clueType> is important in regulating RAG gene expression.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E40" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="E39"/>
+<theme idref="E38"/>
+<clue>Together these data demonstrate that the v-abl protein specifically interferes with light-chain gene rearrangement by suppressing at least two pathways essential for this stage of B-cell differentiation and <clueKT><clueCL>suggest</clueCL></clueKT> that tyrosine phosphorylation is <clueType>important</clueType> <linkTheme>in</linkTheme> regulating RAG gene expression.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

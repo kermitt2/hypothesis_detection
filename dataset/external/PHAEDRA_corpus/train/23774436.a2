@@ -1,0 +1,14 @@
+T20	Potential_therapeutic_effect 78 80	in
+T27	Potential_therapeutic_effect 251 260	treatment
+T32	DDI 1685 1696	interaction
+T38	Potential_therapeutic_effect 546 551	given
+R1	Subject_Disorder Arg1:T18 Arg2:T2
+R2	Subject_Disorder Arg1:T33 Arg2:T11
+E4	Combination:T31 has_participant:T3 has_participant:T4 has_participant:T5 has_participant:T6
+E5	DDI:T32 has_participant:T26 has_participant:T25 has_participant:T24 has_participant:T23
+E8	Combination:T39 has_participant:T23 has_participant:T24 has_participant:T25
+E2	Potential_therapeutic_effect:T20 affects:T2 has_subject:T18 has_agent:T1 has_cue:T22
+E3	Potential_therapeutic_effect:T27 affects:T7 has_cue:T30 has_agent:E4
+E7	Potential_therapeutic_effect:T38 has_subject:T33 has_agent:T10
+A2	Speculated E2
+A3	Speculated E3

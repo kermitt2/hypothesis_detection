@@ -1,0 +1,212 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8758898" created="21/11/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8758898</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="C/EBP_activator" sem="Protein_family_or_group">C/EBP activators</term> are required for <term id="T2" lex="HIV-1_replication" sem="Other"><term id="T3" lex="HIV-1" sem="Virus">HIV-1</term> replication</term> and <term id="T4" lex="proviral_induction" sem="Other"><term id="A1" sem="DNA_domain_or_region">proviral</term> induction</term> in <term id="T5" lex="monocytic_cell_line" sem="Cell_cultured">monocytic cell lines</term>.</sentence>
+<event id="E1">
+<type class="Viral_life_cycle"/>
+<theme idref="T3"/>
+<clue>C/EBP activators are required for HIV-1 <clueType>replication</clueType> and proviral induction <clueLoc>in monocytic cell lines.</clueLoc></clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="A1"/>
+<clue>C/EBP activators are required for HIV-1 replication and proviral <clueType>induction</clueType> <clueLoc>in monocytic cell lines.</clueLoc></clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T1"/>
+<clue>C/EBP activators are <clueType>required</clueType> <linkTheme>for</linkTheme> HIV-1 replication and proviral induction in monocytic cell lines.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="T1"/>
+<clue>C/EBP activators are <clueType>required</clueType> <linkTheme>for</linkTheme> HIV-1 replication and proviral induction in monocytic cell lines.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Previous work has shown that <term id="T6" lex="C/EBP_site" sem="DNA_domain_or_region">C/EBP sites</term> and <term id="T7" lex="C/EBP_transcriptional_activator" sem="Protein_family_or_group">C/EBP transcriptional activators</term> are necessary for <term id="T8" lex="HIV-1_LTR_activity" sem="Other"><term id="T9" lex="HIV-1_LTR" sem="DNA_domain_or_region"><term id="T10" lex="HIV-1" sem="Virus">HIV-1</term> LTR</term> activity</term> in <term id="T11" lex="monocyte/macrophage" sem="Cell_natural">monocytes/macrophages</term>.</sentence>
+<event KT="Analysis" Source="Other" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="T9"/>
+<cause idref="T6"/>
+<clue><clueSource>Previous work</clueSource> has <clueKT>shown</clueKT> that C/EBP sites and C/EBP transcriptional activators are <clueType>necessary</clueType> <linkTheme>for</linkTheme> HIV-1 LTR activity <clueLoc>in monocytes/macrophages.</clueLoc></clue>
+</event>
+<event KT="Analysis" Source="Other" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="T9"/>
+<cause idref="T7"/>
+<clue><clueSource>Previous work</clueSource> has <clueKT>shown</clueKT> that C/EBP sites and C/EBP transcriptional activators are <clueType>necessary</clueType> <linkTheme>for</linkTheme> HIV-1 LTR activity <clueLoc>in monocytes/macrophages.</clueLoc></clue>
+</event>
+<sentence id="S3">We have investigated the role that <term id="T12" lex="C/EBP_protein" sem="Protein_family_or_group">C/EBP proteins</term> play in induction and replication of <term id="T13" lex="HIV-1" sem="Virus">HIV-1</term>.</sentence>
+<event KT="Other" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T13"/>
+<clue>We have investigated the role that C/EBP proteins play in <clueType>induction</clueType> and replication <linkTheme>of</linkTheme> HIV-1.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Viral_life_cycle"/>
+<theme idref="T13"/>
+<clue>We have investigated the role that C/EBP proteins play in induction and <clueType>replication</clueType> <linkTheme>of</linkTheme> HIV-1.</clue>
+</event>
+<event KT="Investigation" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="T12"/>
+<clue>We have <clueKT>investigated</clueKT> the <clueType>role</clueType> that C/EBP proteins <clueType>play</clueType> <linkTheme>in</linkTheme> induction and replication of HIV-1.</clue>
+</event>
+<event KT="Investigation" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="T12"/>
+<clue>We have <clueKT>investigated</clueKT> the <clueType>role</clueType> that C/EBP proteins <clueType>play</clueType> <linkTheme>in</linkTheme> induction and replication of HIV-1.</clue>
+</event>
+<sentence id="S4">Ectopic expression of the <term id="A2" sem="Protein_molecule">dominant negative <term id="T14" lex="C/EBP_protein_LIP" sem="Protein_molecule">C/EBP protein LIP</term></term> inhibited <cons id="T15" lex="(AND HIV-1_mRNA_production HIV-1_virus_production)" sem="(AND Other Other)"><frag id="F1"><term id="A3" sem="Virus">HIV-1</term></frag> <frag id="F2"><term id="A4" sem="RNA_molecule">mRNA</term></frag> and <frag id="F3"><term id="A5" sem="Virus">virus</term></frag> <frag id="F4">production</frag></cons> in <term id="T16" lex="activated_U1_cell" sem="Cell_cultured">activated <term id="A6" sem="Cell_cultured">U1 cells</term></term>, demonstrating that <term id="T17" lex="C/EBP_protein" sem="Protein_family_or_group">C/EBP proteins</term> are required for <term id="T18" lex="provirus_induction" sem="Other"><term id="A7" sem="DNA_domain_or_region">provirus</term> induction</term>.</sentence>
+<event id="E11">
+<type class="Gene_expression"/>
+<theme idref="A2"/>
+<clue>Ectopic <clueType>expression</clueType> <linkTheme>of</linkTheme> the dominant negative C/EBP protein LIP inhibited HIV-1 mRNA and virus production in activated U1 cells, demonstrating that C/EBP proteins are required for provirus induction.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Viral_life_cycle"/>
+<theme idref="A3" idref1="A5"/>
+<clue>Ectopic expression of the dominant negative C/EBP protein LIP inhibited HIV-1 mRNA and virus <clueType>production</clueType> in activated U1 cells, demonstrating that C/EBP proteins are required for provirus induction.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Transcription"/>
+<theme idref="A3" idref1="A4"/>
+<clue>Ectopic expression of the dominant negative C/EBP protein LIP inhibited HIV-1 mRNA and virus <clueType>production</clueType> in activated U1 cells, demonstrating that C/EBP proteins are required for provirus induction.</clue>
+</event>
+<event id="E14">
+<type class="Negative_regulation"/>
+<theme idref="E12"/>
+<cause idref="E11"/>
+<clue>Ectopic expression of the dominant negative C/EBP protein LIP <clueType>inhibited</clueType> HIV-1 mRNA and virus production <clueLoc>in activated U1 cells</clueLoc>, demonstrating that C/EBP proteins are required for provirus induction.</clue>
+</event>
+<event id="E15">
+<type class="Negative_regulation"/>
+<theme idref="E13"/>
+<cause idref="E11"/>
+<clue>Ectopic expression of the dominant negative C/EBP protein LIP <clueType>inhibited</clueType> HIV-1 mRNA and virus production <clueLoc>in activated U1 cells</clueLoc>, demonstrating that C/EBP proteins are required for provirus induction.</clue>
+</event>
+<event id="E16">
+<type class="Physiological_process"/>
+<theme idref="A6"/>
+<clue>Ectopic expression of the dominant negative C/EBP protein LIP inhibited HIV-1 mRNA and virus production in <clueType>activated</clueType> U1 cells, demonstrating that C/EBP proteins are required for provirus induction.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="A7"/>
+<clue>Ectopic expression of the dominant negative C/EBP protein LIP inhibited HIV-1 mRNA and virus production in activated U1 cells, demonstrating that C/EBP proteins are required for provirus <clueType>induction</clueType>.</clue>
+</event>
+<event KT="Analysis" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<cause idref="T17"/>
+<clue>Ectopic expression of the dominant negative C/EBP protein LIP inhibited HIV-1 mRNA and virus production in activated U1 cells, <clueKT>demonstrating</clueKT> that C/EBP proteins are <clueType>required</clueType> <linkTheme>for</linkTheme> provirus induction.</clue>
+</event>
+<sentence id="S5"><term id="T19" lex="U1_line" sem="Cell_cultured">U1 lines</term> overexpressing <term id="T20" lex="C/EBP_activator" sem="Protein_family_or_group">C/EBP activator</term> <term id="T21" lex="NF-IL-6" sem="Protein_molecule">NF-IL-6</term> produced more <term id="T22" lex="viral_mRNA" sem="RNA_family_or_group">viral mRNA</term> and <term id="T23" lex="virus_particle" sem="Virus">virus particles</term> following <term id="T24" lex="cellular_activation" sem="Other">cellular activation</term> than <term id="T25" lex="control_line" sem="Cell_cultured">control lines</term>, demonstrating that <term id="T26" lex="C/EBP_protein" sem="Protein_family_or_group">C/EBP proteins</term> are limiting for <term id="T27" lex="virus_transcription" sem="Other">virus transcription</term>.</sentence>
+<event id="E19">
+<type class="Gene_expression"/>
+<theme idref="T20"/>
+<clue><clueLoc>U1 lines</clueLoc> <clueType>overexpressing</clueType> C/EBP activator NF-IL-6 produced more viral mRNA and virus particles following cellular activation than control lines, demonstrating that C/EBP proteins are limiting for virus transcription.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<clue><clueLoc>U1 lines</clueLoc> <clueType>overexpressing</clueType> C/EBP activator NF-IL-6 produced more viral mRNA and virus particles following cellular activation than control lines, demonstrating that C/EBP proteins are limiting for virus transcription.</clue>
+</event>
+<event id="E21">
+<type class="Gene_expression"/>
+<theme idref="T21"/>
+<clue><clueLoc>U1 lines</clueLoc> <clueType>overexpressing</clueType> <corefTheme>C/EBP activator</corefTheme> NF-IL-6 produced more viral mRNA and virus particles following cellular activation than control lines, demonstrating that C/EBP proteins are limiting for virus transcription.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<clue><clueLoc>U1 lines</clueLoc> <clueType>overexpressing</clueType> C/EBP activator NF-IL-6 produced more viral mRNA and virus particles following cellular activation than control lines, demonstrating that C/EBP proteins are limiting for virus transcription.</clue>
+</event>
+<event id="E23">
+<type class="Transcription"/>
+<theme idref="T22"/>
+<clue>U1 lines overexpressing C/EBP activator NF-IL-6 <clueType>produced</clueType> more viral mRNA and virus particles following cellular activation than control lines, demonstrating that C/EBP proteins are limiting for virus transcription.</clue>
+</event>
+<event id="E24">
+<type class="Viral_life_cycle"/>
+<theme idref="T23"/>
+<clue>U1 lines overexpressing C/EBP activator NF-IL-6 <clueType>produced</clueType> more viral mRNA and virus particles following cellular activation than control lines, demonstrating that C/EBP proteins are limiting for virus transcription.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation"/>
+<theme idref="E23"/>
+<cause idref="T22"/>
+<clue>U1 lines overexpressing C/EBP activator NF-IL-6 produced more viral mRNA and virus particles <linkCause>following</linkCause> cellular activation than control lines, demonstrating that C/EBP proteins are limiting for virus transcription.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E26">
+<type class="Positive_regulation"/>
+<theme idref="E24"/>
+<cause idref="T22"/>
+<clue>U1 lines overexpressing C/EBP activator NF-IL-6 produced more viral mRNA and virus particles <linkCause>following</linkCause> cellular activation than control lines, demonstrating that C/EBP proteins are limiting for virus transcription.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E27">
+<type class="Positive_regulation"/>
+<theme idref="E25"/>
+<clue><clueLoc>U1 lines overexpressing C/EBP activator NF-IL-6</clueLoc> produced <clueType>more</clueType> viral mRNA and virus particles following cellular activation than control lines, demonstrating that C/EBP proteins are limiting for virus transcription.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation"/>
+<theme idref="E26"/>
+<clue><clueLoc>U1 lines overexpressing C/EBP activator NF-IL-6</clueLoc> produced <clueType>more</clueType> viral mRNA and virus particles following cellular activation than control lines, demonstrating that C/EBP proteins are limiting for virus transcription.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation"/>
+<theme idref="E23"/>
+<cause idref="T22"/>
+<clue>U1 lines overexpressing C/EBP activator NF-IL-6 produced more viral mRNA and virus particles <linkCause>following</linkCause> cellular activation than <clueLoc>control lines</clueLoc>, demonstrating that C/EBP proteins are limiting for virus transcription.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E30">
+<type class="Positive_regulation"/>
+<theme idref="E24"/>
+<cause idref="T22"/>
+<clue>U1 lines overexpressing C/EBP activator NF-IL-6 produced more viral mRNA and virus particles <linkCause>following</linkCause> cellular activation than <clueLoc>control lines</clueLoc>, demonstrating that C/EBP proteins are limiting for virus transcription.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S6"><term id="T28" lex="HIV-1" sem="Virus">HIV-1</term> harboring mutations within two <term id="T29" lex="C/EBP_site" sem="DNA_domain_or_region">C/EBP sites</term> were crippled in their ability to replicate in <term id="T30" lex="U937_promonocytic_cell" sem="Cell_cultured">U937 promonocytic cells</term>, indicating that these sites are required for <term id="A8" sem="Other">replication</term>.</sentence>
+<event id="E31">
+<type class="Mutagenesis"/>
+<theme idref="T29"/>
+<clue>HIV-1 harboring <clueType>mutations</clueType> <linkTheme>within</linkTheme> two C/EBP sites were crippled in their ability to replicate in U937 promonocytic cells, indicating that these sites are required for replication.</clue>
+</event>
+<event KT="Other" id="E32">
+<type class="Viral_life_cycle"/>
+<theme idref="T28"/>
+<clue>HIV-1 harboring mutations within two C/EBP sites were crippled in their ability to <clueType>replicate</clueType> <clueLoc>in U937 promonocytic cells</clueLoc>, indicating that these sites are required for replication.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E33">
+<type class="Negative_regulation"/>
+<theme idref="E32"/>
+<cause idref="E31"/>
+<clue>HIV-1 harboring mutations within two C/EBP sites were <clueType>crippled</clueType> <linkTheme>in</linkTheme> their <clueKT><clueCL>ability to</clueCL></clueKT> replicate in U937 promonocytic cells, indicating that these sites are required for replication.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E34">
+<type class="Positive_regulation"/>
+<theme idref="A8"/>
+<cause idref="T29"/>
+<clue>HIV-1 harboring mutations within two C/EBP sites were crippled in their ability to replicate in U937 promonocytic cells, <clueKT><clueCL>indicating</clueCL></clueKT> that <corefCause>these sites</corefCause> are <clueType>required</clueType> <linkTheme>for</linkTheme> replication.</clue>
+</event>
+<sentence id="S7">These data identify <term id="T31" lex="C/EBP_protein" sem="Protein_family_or_group">C/EBP proteins</term> as regulators of <term id="T32" lex="HIV-1_expression" sem="Other"><term id="T33" lex="HIV-1" sem="DNA_domain_or_region">HIV-1</term> expression</term> in <term id="T34" lex="monocyte/macrophage" sem="Cell_natural">monocytes/macrophages</term>.</sentence>
+<event KT="Other" id="E35">
+<type class="Gene_expression"/>
+<theme idref="T33"/>
+<clue>These data identify C/EBP proteins as regulators of HIV-1 <clueType>expression</clueType> in monocytes/macrophages.</clue>
+<comment>NER: T33 MOD</comment></event>
+<event KT="Analysis" id="E36">
+<type class="Regulation"/>
+<theme idref="E35"/>
+<cause idref="T31"/>
+<clue>These data <clueKT>identify</clueKT> C/EBP proteins as <clueType>regulators</clueType> <linkTheme>of</linkTheme> HIV-1 expression <clueLoc>in monocytes/macrophages.</clueLoc></clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

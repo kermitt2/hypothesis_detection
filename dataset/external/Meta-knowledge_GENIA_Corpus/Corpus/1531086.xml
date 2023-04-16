@@ -1,0 +1,136 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1531086" created="04/04/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1531086</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">A novel <term id="T1" lex="mitogen-inducible_gene_product" sem="Protein_molecule"><term id="A101" sem="Organic_compound_other">mitogen</term>-inducible <term id="A102" sem="Protein_family_or_group">gene product</term></term> related to <term id="T2" lex="p50/p105-NF-kappa_B" sem="Protein_molecule">p50/p105-NF-kappa B</term> participates in transactivation through a <term id="T3" lex="kappa_B_site" sem="DNA_domain_or_region">kappa B site</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation"/>
+<cause idref="T3"/>
+<clue>A novel mitogen-inducible gene product related to p50/p105-NF-kappa B participates in <clueType>transactivation</clueType> <linkCause>through</linkCause> a kappa B site.</clue>
+</event>
+<event id="E2">
+<type class="Correlation"/>
+<theme idref="T1"/>
+<theme idref="E1"/>
+<clue>A novel mitogen-inducible gene product related to p50/p105-NF-kappa B <clueType>participates</clueType> <linkTheme>in</linkTheme> transactivation through a kappa B site.</clue>
+</event>
+<event id="E101">
+<type class="Positive_regulation"/>
+<theme idref="A102"/>
+<cause idref="A101"/>
+<clue>A novel mitogen-<clueType>inducible</clueType> gene product related to p50/p105-NF-kappa B participates in transactivation through a kappa B site.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">A <term id="T4" lex="Rel-related,_mitogen-inducible,_kappa_B-binding_protein" sem="Protein_molecule">Rel-related, <term id="A104" sem="Organic_compound_other">mitogen</term>-inducible, <term id="A105" sem="DNA_domain_or_region">kappa B</term>-binding <term id="A106" sem="Protein_family_or_group">protein</term></term> has been cloned as an <term id="T5" lex="immediate-early_activation_gene" sem="DNA_domain_or_region">immediate-early activation gene</term> of <term id="T6" lex="human_peripheral_blood_T_cell" sem="Cell_natural"><term id="T7" lex="human" sem="Multicellular_organism_natural">human</term> peripheral blood <term id="T8" lex="T_cell" sem="Cell_natural">T cells</term></term>.</sentence>
+<event KT="Other" id="E103">
+<type class="Positive_regulation"/>
+<theme idref="A106"/>
+<cause idref="A104"/>
+<clue>A Rel-related, mitogen-inducible, kappa B-binding protein has been cloned as an immediate-early activation gene of human peripheral blood T cells.</clue>
+</event>
+<event KT="Other" id="E104">
+<type class="Binding"/>
+<theme idref="A105"/>
+<theme idref="A106"/>
+<clue>A Rel-related, mitogen-inducible, kappa B-binding protein has been cloned as an immediate-early activation gene of human peripheral blood T cells.</clue>
+</event>
+<sentence id="S3">The <term id="T9" lex="cDNA" sem="DNA_family_or_group">cDNA</term> has an <term id="T10" lex="open_reading_frame" sem="DNA_domain_or_region">open reading frame</term> of <term id="T11" lex="900_amino_acids" sem="DNA_domain_or_region">900 amino acids</term> capable of encoding a <term id="T12" lex="97-kDa_protein" sem="Protein_molecule">97-kDa protein</term>.</sentence>
+<sentence id="S4">This protein is most similar to the <term id="T13" lex="105-kDa_precursor_polypeptide" sem="Peptide">105-kDa precursor polypeptide</term> of <term id="T14" lex="p50-NF-kappa_B" sem="Protein_molecule">p50-NF-kappa B</term>.</sentence>
+<sentence id="S5">Like the 105-kDa precursor, it contains an <term id="T15" lex="amino-terminal_Rel-related_domain" sem="Protein_domain_or_region">amino-terminal Rel-related domain</term> of about 300 amino acids and a <term id="T16" lex="carboxy-terminal_domain" sem="Protein_domain_or_region">carboxy-terminal domain</term> containing six <term id="T17" lex="full_cell_cycle" sem="Protein_substructure">full cell cycle</term> or <term id="T18" lex="ankyrin_repeats" sem="Protein_substructure">ankyrin repeats</term>.</sentence>
+<sentence id="S6"><term id="T19" lex="vitro-translated_protein" sem="Protein_family_or_group">In vitro-translated proteins</term>, truncated downstream of the <term id="T20" lex="Rel_domain" sem="DNA_domain_or_region">Rel domain</term> and excluding the repeats, bind <term id="T21" lex="kappa_B_site" sem="DNA_domain_or_region">kappa B sites</term>.</sentence>
+<event KT="Method" id="E102">
+<type class="Translation"/>
+<theme idref="T4"/>
+<clue>In vitro-<clueType>translated</clueType> <corefTheme>proteins</corefTheme>, truncated downstream of the Rel domain and excluding the repeats, bind kappa B sites.</clue>
+</event>
+<event LT="Propositional" id="E3">
+<type class="Binding"/>
+<theme idref="T4"/>
+<theme idref="T21"/>
+<clue>In vitro-translated <corefTheme>proteins</corefTheme>, truncated downstream of the Rel domain and excluding the repeats, <clueType>bind</clueType> kappa B sites.</clue>
+<comment>NER T19 mod</comment></event>
+<sentence id="S7">We refer to the <term id="T22" lex="kappa_B-binding,_truncated_protein" sem="Protein_family_or_group"><term id="A103" sem="DNA_domain_or_region">kappa B</term>-binding, truncated protein</term> as <term id="T23" lex="p50B" sem="Protein_molecule">p50B</term> by analogy with <term id="T24" lex="p50-NF-kappa_B" sem="Protein_molecule">p50-NF-kappa B</term> and to the full-length protein as <term id="T25" lex="p97" sem="Protein_molecule">p97</term>.</sentence>
+<event KT="Other" id="E105">
+<type class="Binding"/>
+<theme idref="A103"/>
+<theme idref="T23"/>
+<clue>We refer to the kappa B-<clueType>binding</clueType>, truncated <corefTheme>protein</corefTheme> as p50B by analogy with p50-NF-kappa B and to the full-length protein as p97.</clue>
+</event>
+<sentence id="S8"><term id="T26" lex="p50B" sem="Protein_molecule">p50B</term> is able to form <term id="T27" lex="heteromeric_kappa_B-binding_complex" sem="Protein_complex">heteromeric <term id="A1" sem="DNA_domain_or_region">kappa B</term>-binding <term id="A40" sem="Protein_complex">complexes</term></term> with <term id="T28" lex="RelB" sem="Protein_molecule">RelB</term>, as well as with <term id="T29" lex="p65" sem="Protein_molecule">p65</term> and <term id="T30" lex="p50" sem="Protein_molecule">p50</term>, the two subunits of <term id="T31" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>.</sentence>
+<event CL="L2" KT="Analysis" LT="Propositional" id="E4">
+<type class="Binding"/>
+<theme idref="T26"/>
+<theme idref="T28"/>
+<clue>p50B is <clueKT><clueCL>able</clueCL></clueKT> to <clueType>form</clueType> heteromeric kappa B-binding <clueType>complexes</clueType> <linkTheme>with</linkTheme> RelB, as well as with p65 and p50, the two subunits of NF-kappa B.</clue>
+</event>
+<event CL="L2" KT="Analysis" LT="Propositional" id="E5">
+<type class="Binding"/>
+<theme idref="T26"/>
+<theme idref="T29"/>
+<clue>p50B is <clueKT><clueCL>able</clueCL></clueKT> to <clueType>form</clueType> heteromeric kappa B-binding <clueType>complexes</clueType> with RelB, as well as <linkTheme>with</linkTheme> p65 and p50, the two subunits of NF-kappa B.</clue>
+</event>
+<event CL="L2" KT="Analysis" LT="Propositional" id="E6">
+<type class="Binding"/>
+<theme idref="T26"/>
+<theme idref="T30"/>
+<clue>p50B is <clueKT><clueCL>able</clueCL></clueKT> to <clueType>form</clueType> heteromeric kappa B-binding <clueType>complexes</clueType> with RelB, as well as <linkTheme>with</linkTheme> p65 and p50, the two subunits of NF-kappa B.</clue>
+</event>
+<event id="E11">
+<type class="Binding"/>
+<theme idref="A1"/>
+<theme idref="T26" idref1="T28" idref2="A40"/>
+<clue>p50B is able to form heteromeric kappa B-<clueType>binding</clueType> <corefTheme>complexes</corefTheme> with RelB, as well as with p65 and p50, the two subunits of NF-kappa B.</clue>
+</event>
+<event id="E12">
+<type class="Binding"/>
+<theme idref="A1"/>
+<theme idref="T26" idref1="T29" idref2="A40"/>
+<clue>p50B is able to form heteromeric kappa B-<clueType>binding</clueType> <corefTheme>complexes</corefTheme> with RelB, as well as with p65 and p50, the two subunits of NF-kappa B.</clue>
+</event>
+<event id="E13">
+<type class="Binding"/>
+<theme idref="A1"/>
+<theme idref="T26" idref1="T30" idref2="A40"/>
+<clue>p50B is able to form heteromeric kappa B-<clueType>binding</clueType> <corefTheme>complexes</corefTheme> with RelB, as well as with p65 and p50, the two subunits of NF-kappa B.</clue>
+</event>
+<sentence id="S9">Transient-transfection experiments in <term id="T32" lex="embryonal_carcinoma_cell" sem="Cell_cultured">embryonal carcinoma cells</term> demonstrate a functional cooperation between <term id="T33" lex="p50B" sem="Protein_molecule">p50B</term> and <term id="T34" lex="RelB" sem="Protein_molecule">RelB</term> or <term id="T35" lex="p65" sem="Protein_molecule">p65</term> in transactivation of a <term id="T36" lex="reporter_plasmid" sem="DNA_molecule">reporter plasmid</term> dependent on a <term id="T37" lex="kappa_B_site" sem="DNA_domain_or_region">kappa B site</term>.</sentence>
+<event KT="Analysis" LT="Propositional" id="E7">
+<type class="Correlation"/>
+<theme idref="T33"/>
+<theme idref="T34"/>
+<clue>Transient-transfection experiments in embryonal carcinoma cells <clueKT>demonstrate</clueKT> a functional <clueType>cooperation</clueType> <linkTheme>between</linkTheme> p50B and RelB or p65 in transactivation of a reporter plasmid dependent on a kappa B site.</clue>
+</event>
+<event KT="Analysis" LT="Propositional" id="E8">
+<type class="Correlation"/>
+<theme idref="T33"/>
+<theme idref="T35"/>
+<clue>Transient-transfection experiments in embryonal carcinoma cells <clueKT>demonstrate</clueKT> a functional <clueType>cooperation</clueType> <linkTheme>between</linkTheme> p50B and RelB or p65 in transactivation of a reporter plasmid dependent on a kappa B site.</clue>
+</event>
+<event KT="Other" id="E106">
+<type class="Positive_regulation"/>
+<theme idref="T36"/>
+<cause idref="T37"/>
+<clue>Transient-transfection experiments in embryonal carcinoma cells demonstrate a functional cooperation between p50B and RelB or p65 in transactivation of a reporter plasmid <clueType>dependent</clueType> <linkCause>on</linkCause> a kappa B site.</clue>
+</event>
+<event KT="Other" id="E107">
+<type class="Positive_regulation"/>
+<theme idref="E106"/>
+<clue>Transient-transfection experiments in embryonal carcinoma cells demonstrate a functional cooperation between p50B and RelB or p65 in <clueType>transactivation</clueType> <linkTheme>of</linkTheme> a reporter plasmid dependent on a kappa B site.</clue>
+</event>
+<event KT="Analysis" LT="Propositional" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="E107"/>
+<cause idref="E7"/>
+<clue><clueExperiment>Transient-transfection experiments</clueExperiment> <clueLoc>in embryonal carcinoma cells</clueLoc> <clueKT>demonstrate</clueKT> a functional cooperation between p50B and RelB or p65 <linkTheme>in</linkTheme> transactivation of a reporter plasmid dependent on a kappa B site.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Analysis" LT="Propositional" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E107"/>
+<cause idref="E8"/>
+<clue><clueExperiment>Transient-transfection experiments</clueExperiment> <clueLoc>in embryonal carcinoma cells</clueLoc> <clueKT>demonstrate</clueKT> a functional cooperation between p50B and RelB or p65 <linkTheme>in</linkTheme> transactivation of a reporter plasmid dependent on a kappa B site.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S10">The data imply the existence of a complex family of <term id="T38" lex="NF-kappa_B-like_transcription_factor" sem="Protein_family_or_group"><term id="T39" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>-like transcription factors</term>.</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,22 @@
+T10	Adverse_effect 13 20	induced
+T14	DDI 159 171	interactions
+T19	Potential_therapeutic_effect 382 389	treated
+T26	DDI 258 269	interaction
+T27	Adverse_effect 77 84	induced
+T47	Adverse_effect 1109 1118	causative
+T34	DDI 1628 1639	interaction
+T55	Adverse_effect 1863 1870	inducer
+T16	Adverse_effect 1999 2009	monitoring
+R1	Subject_Disorder Arg1:T15 Arg2:T7
+R3	Coreference Arg1:T20 Arg2:T15
+E3	DDI:T14 has_participant:T5 has_participant:T6
+E2	DDI:T26 has_participant:T5 has_participant:T6
+E11	DDI:T34 has_participant:T32 has_participant:T33
+E1	Adverse_effect:T10 has_agent:T1 affects:T11
+E4	Potential_therapeutic_effect:T19 has_subject:T20 has_agent:T9
+E5	Adverse_effect:T27 has_agent:T3 affects:T24
+E7	Adverse_effect:T47 has_cue:T48 affects:T46 has_agent:T28
+E12	Adverse_effect:T55 affects:T54 has_agent:T38
+E6	Adverse_effect:T16 has_cue:T21 has_agent:T42 has_agent:T43
+A3	Speculated E7
+A1	Speculated E6

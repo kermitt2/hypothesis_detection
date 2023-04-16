@@ -1,0 +1,244 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8504932" created="29/01/2007" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8504932</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="ectopic_expression" sem="Other">Ectopic expression</term> of a conditional <term id="T2" lex="GATA-2/estrogen_receptor_chimera" sem="Protein_molecule">GATA-2/<term id="A2" sem="Lipid">estrogen</term> receptor chimera</term> arrests <term id="T3" lex="erythroid_differentiation" sem="Other"><term id="A1" sem="Cell_natural">erythroid</term> differentiation</term> in a hormone-dependent manner.</sentence>
+<event id="E1">
+<type class="Gene_expression"/>
+<theme idref="T2"/>
+<clue><clueType>Ectopic expression</clueType> <linkTheme>of</linkTheme> a conditional GATA-2/estrogen receptor chimera arrests erythroid differentiation in a hormone-dependent manner.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation"/>
+<theme idref="E3"/>
+<cause idref="E1"/>
+<clue>Ectopic expression of a conditional GATA-2/estrogen receptor chimera <clueType>arrests</clueType> erythroid differentiation in a hormone-dependent manner.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Cell_differentiation"/>
+<theme idref="A1"/>
+<clue>Ectopic expression of a conditional GATA-2/estrogen receptor chimera arrests erythroid <clueType>differentiation</clueType> in a hormone-dependent manner.</clue>
+</event>
+<event KT="Analysis" id="E4">
+<type class="Regulation"/>
+<theme idref="E3"/>
+<cause idref="A2"/>
+<clue>Ectopic expression of a conditional GATA-2/estrogen receptor chimera arrests erythroid differentiation in a <corefCause>hormone</corefCause>-<clueType><clueKT>dependent</clueKT></clueType> manner.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T4" lex="GATA_factor" sem="Protein_family_or_group">GATA factors</term> are a family of <term id="T5" lex="transcriptional_regulatory_protein" sem="Protein_family_or_group">transcriptional regulatory proteins</term> in <term id="T6" lex="eukaryote" sem="Multicellular_organism_natural">eukaryotes</term> that share extensive homology in their <term id="T7" lex="DNA-binding_domain" sem="Protein_domain_or_region">DNA-binding domains</term>.</sentence>
+<sentence id="S3">One enigmatic aspect of <term id="T8" lex="GATA_factor_expression" sem="Other"><term id="T9" lex="GATA_factor" sem="Protein_family_or_group">GATA factor</term> expression</term> is that several <term id="T10" lex="GATA_protein" sem="Protein_family_or_group">GATA proteins</term>, which ostensibly share the same <term id="T11" lex="DNA-binding_site_specificity" sem="Other"><term id="T12" lex="DNA-binding_site" sem="Protein_domain_or_region">DNA-binding site</term> specificity</term>, are coexpressed in erythroid cells.</sentence>
+<event KT="Fact" id="E6">
+<type class="Gene_expression"/>
+<theme idref="T10"/>
+<clue>One enigmatic aspect of GATA factor expression is that several GATA proteins, which ostensibly share the same DNA-binding site specificity, are <clueType>coexpressed</clueType> <clueLoc>in erythroid cells</clueLoc>.</clue>
+</event>
+<sentence id="S4">To elucidate the roles of individual <term id="T13" lex="GATA_factor" sem="Protein_family_or_group">GATA factors</term> in <term id="T14" lex="erythropoiesis" sem="Other">erythropoiesis</term>, conditional alleles of <term id="T15" lex="GATA-1" sem="Protein_molecule">GATA-1</term>, <term id="T16" lex="GATA-2" sem="Protein_molecule">GATA-2</term>, and <term id="T17" lex="GATA-3" sem="Protein_molecule">GATA-3</term> were prepared by fusing each of the factors to the <term id="A11" sem="Protein_domain_or_region"><term id="T18" lex="hormone-binding_domain" sem="Protein_domain_or_region">hormone-binding domain</term> of</term> the <term id="T19" lex="human_estrogen_receptor" sem="Protein_family_or_group">human <term id="T20" lex="estrogen" sem="Lipid">estrogen</term> receptor</term> (<term id="A3" sem="Protein_domain_or_region"><term id="T21" lex="ER" sem="Protein_family_or_group">ER</term></term>).</sentence>
+<event KT="Investigation" id="E5" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="T14"/>
+<cause idref="T13"/>
+<clue><clueKT>To elucidate</clueKT> the <clueType>roles</clueType> <linkCause>of</linkCause> individual GATA factors <linkTheme>in</linkTheme> erythropoiesis, conditional alleles of GATA-1, GATA-2, and GATA-3 were prepared by fusing each of the factors to the hormone-binding domain of the human estrogen receptor (ER).</clue>
+</event>
+<event KT="Method" id="E7">
+<type class="Mutagenesis"/>
+<theme idref="T15"/>
+<theme idref="A11" idref1="A3"/>
+<clue>To elucidate the roles of individual GATA factors in erythropoiesis, conditional alleles of GATA-1, GATA-2, and GATA-3 were prepared by <clueType>fusing</clueType> <corefTheme>each of the factors</corefTheme> <linkTheme>to</linkTheme> the hormone-binding domain of the human estrogen receptor (ER).</clue>
+<comment>ARTIFICIAL; TPS: A11</comment></event>
+<event KT="Method" id="E8">
+<type class="Mutagenesis"/>
+<theme idref="T16"/>
+<theme idref="A11" idref1="A3"/>
+<clue>To elucidate the roles of individual GATA factors in erythropoiesis, conditional alleles of GATA-1, GATA-2, and GATA-3 were prepared by <clueType>fusing</clueType> <corefTheme>each of the factors</corefTheme> <linkTheme>to</linkTheme> the hormone-binding domain of the human estrogen receptor (ER).</clue>
+<comment>ARTIFICIAL; TPS: A11</comment></event>
+<event KT="Method" id="E9">
+<type class="Mutagenesis"/>
+<theme idref="T17"/>
+<theme idref="T18" idref1="A3"/>
+<clue>To elucidate the roles of individual GATA factors in erythropoiesis, conditional alleles of GATA-1, GATA-2, and GATA-3 were prepared by <clueType>fusing</clueType> <corefTheme>each of the factors</corefTheme> <linkTheme>to</linkTheme> the hormone-binding domain of the human estrogen receptor (ER).</clue>
+<comment>ARTIFICIAL</comment></event>
+<sentence id="S5">These <term id="T22" lex="GATA/ER_chimeric_factor" sem="Protein_molecule">GATA/ER chimeric factors</term> were shown to be <term id="T23" lex="hormone-inducible_trans-activating_protein" sem="Protein_family_or_group">hormone-inducible trans-activating proteins</term> in transient transfection assays.</sentence>
+<event KT="Analysis" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="T22"/>
+<cause idref="T20"/>
+<clue>These GATA/ER chimeric factors were <clueKT>shown</clueKT> to be <corefCause>hormone</corefCause>-<clueType>inducible</clueType> trans-activating proteins in transient transfection assays.</clue>
+</event>
+<event KT="Analysis" id="E11">
+<type class="Positive_regulation"/>
+<cause idref="T22"/>
+<clue>These GATA/ER chimeric factors were <clueKT>shown</clueKT> to be hormone-inducible <clueType>trans-activating</clueType> proteins <clueExperiment>in transient transfection assays</clueExperiment>.</clue>
+<comment>NO THEME</comment></event>
+<sentence id="S6">When stably introduced into <term id="T24" lex="primary_erythroblast" sem="Cell_natural">primary erythroblasts</term> or <term id="T25" lex="conditionally_transformed_erythroid_progenitors_cell" sem="Cell_cultured">conditionally transformed <term id="A4" sem="Cell_natural">erythroid progenitors cells</term></term>, exogenous <term id="T26" lex="GATA-2/ER" sem="Protein_molecule">GATA-2/ER</term> promoted proliferation and inhibited terminal differentiation in an <term id="T27" lex="estrogen-dependent_manner" sem="Other"><term id="T28" lex="estrogen" sem="Lipid">estrogen</term>-dependent manner</term>.</sentence>
+<event KT="Method" id="E39">
+<type class="Gene_expression"/>
+<theme idref="T26"/>
+<clue>When <clueType>stably introduced</clueType> <clueLoc>into primary erythroblasts</clueLoc> or conditionally transformed erythroid progenitors cells, exogenous GATA-2/ER promoted proliferation and inhibited terminal differentiation in an estrogen-dependent manner.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E39"/>
+<clue>When <clueType>stably introduced</clueType> <clueLoc>into primary erythroblasts</clueLoc> or conditionally transformed erythroid progenitors cells, exogenous GATA-2/ER promoted proliferation and inhibited terminal differentiation in an estrogen-dependent manner.</clue>
+</event>
+<event KT="Method" id="E41">
+<type class="Gene_expression"/>
+<theme idref="T26"/>
+<clue>When <clueType>stably introduced</clueType> <clueLoc>into</clueLoc> primary erythroblasts or <clueLoc>conditionally transformed erythroid progenitors cells</clueLoc>, exogenous GATA-2/ER promoted proliferation and inhibited terminal differentiation in an estrogen-dependent manner.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E41"/>
+<clue>When <clueType>stably introduced</clueType> <clueLoc>into</clueLoc> primary erythroblasts or <clueLoc>conditionally transformed erythroid progenitors cells</clueLoc>, exogenous GATA-2/ER promoted proliferation and inhibited terminal differentiation in an estrogen-dependent manner.</clue>
+</event>
+<event id="E13">
+<type class="Biological_process"/>
+<theme idref="A4"/>
+<clue>When stably introduced into primary erythroblasts or conditionally <clueType>transformed</clueType> erythroid progenitors cells, exogenous GATA-2/ER promoted proliferation and inhibited terminal differentiation in an estrogen-dependent manner.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="E12"/>
+<clue><linkCause>When</linkCause> stably introduced into primary erythroblasts or conditionally transformed erythroid progenitors cells, exogenous GATA-2/ER <clueType>promoted</clueType> proliferation and inhibited terminal differentiation in an estrogen-dependent manner.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="E17"/>
+<clue><linkCause>When</linkCause> stably introduced into primary erythroblasts or conditionally transformed erythroid progenitors cells, exogenous GATA-2/ER <clueType>promoted</clueType> proliferation and inhibited terminal differentiation in an estrogen-dependent manner.</clue>
+</event>
+<event id="E15">
+<type class="Negative_regulation"/>
+<theme idref="E20"/>
+<cause idref="E12"/>
+<clue><linkCause>When</linkCause> stably introduced into primary erythroblasts or conditionally transformed erythroid progenitors cells, exogenous GATA-2/ER promoted proliferation and <clueType>inhibited</clueType> terminal differentiation in an estrogen-dependent manner.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation"/>
+<theme idref="E21"/>
+<cause idref="E17"/>
+<clue><linkCause>When</linkCause> stably introduced into primary erythroblasts or conditionally transformed erythroid progenitors cells, exogenous GATA-2/ER promoted proliferation and <clueType>inhibited</clueType> terminal differentiation in an estrogen-dependent manner.</clue>
+</event>
+<event KT="Analysis" id="E16">
+<type class="Regulation"/>
+<theme idref="E14"/>
+<cause idref="T28"/>
+<clue>When stably introduced into primary erythroblasts or conditionally transformed erythroid progenitors cells, exogenous GATA-2/ER promoted proliferation and inhibited terminal differentiation in an estrogen-<clueType><clueKT>dependent</clueKT></clueType> manner.</clue>
+</event>
+<event KT="Analysis" id="E24">
+<type class="Regulation"/>
+<theme idref="E22"/>
+<cause idref="T28"/>
+<clue>When stably introduced into primary erythroblasts or conditionally transformed erythroid progenitors cells, exogenous GATA-2/ER promoted proliferation and inhibited terminal differentiation in an estrogen-<clueType><clueKT>dependent</clueKT></clueType> manner.</clue>
+</event>
+<event KT="Analysis" id="E25">
+<type class="Regulation"/>
+<theme idref="E15"/>
+<cause idref="T28"/>
+<clue>When stably introduced into primary erythroblasts or conditionally transformed erythroid progenitors cells, exogenous GATA-2/ER promoted proliferation and inhibited terminal differentiation in an estrogen-<clueType><clueKT>dependent</clueKT></clueType> manner.</clue>
+</event>
+<event KT="Analysis" id="E26">
+<type class="Regulation"/>
+<theme idref="E23"/>
+<cause idref="T28"/>
+<clue>When stably introduced into primary erythroblasts or conditionally transformed erythroid progenitors cells, exogenous GATA-2/ER promoted proliferation and inhibited terminal differentiation in an estrogen-<clueType><clueKT>dependent</clueKT></clueType> manner.</clue>
+</event>
+<event id="E18">
+<type class="Cellular_physiological_process"/>
+<theme idref="T24"/>
+<clue>When stably introduced into primary erythroblasts or conditionally transformed erythroid progenitors cells, exogenous GATA-2/ER promoted <clueType>proliferation</clueType> and inhibited terminal differentiation in an estrogen-dependent manner.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event id="E19">
+<type class="Cellular_physiological_process"/>
+<theme idref="T25"/>
+<clue>When stably introduced into primary erythroblasts or conditionally transformed erythroid progenitors cells, exogenous GATA-2/ER promoted <clueType>proliferation</clueType> and inhibited terminal differentiation in an estrogen-dependent manner.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event KT="Other" id="E20">
+<type class="Cell_differentiation"/>
+<theme idref="T24"/>
+<clue>When stably introduced into primary erythroblasts or conditionally transformed erythroid progenitors cells, exogenous GATA-2/ER promoted proliferation and inhibited <clueType>terminal differentiation</clueType> in an estrogen-dependent manner.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event KT="Other" id="E21">
+<type class="Cell_differentiation"/>
+<theme idref="T25"/>
+<clue>When stably introduced into primary erythroblasts or conditionally transformed erythroid progenitors cells, exogenous GATA-2/ER promoted proliferation and inhibited <clueType>terminal differentiation</clueType> in an estrogen-dependent manner.</clue>
+<comment>NO COREFTHEME</comment></event>
+<sentence id="S7">These <term id="A6" sem="Other">phenotypic</term> effects are specifically attributable to the action of ectopically expressed <term id="T29" lex="GATA-2/ER" sem="Protein_molecule">GATA-2/ER</term> because <term id="A7" sem="Cell_cultured"><term id="A5" sem="Cell_natural">erythroblasts</term> expressing exogenous <term id="T30" lex="GATA-2" sem="Protein_molecule">GATA-2</term></term> are constitutively arrested in differentiation and because <term id="A8" sem="Cell_cultured"><term id="T31" lex="erythroid_progenitor" sem="Cell_natural">erythroid progenitors</term> expressing</term> either <term id="A9" sem="Cell_cultured"><term id="T32" lex="Gal/ER" sem="Protein_molecule">Gal/ER</term></term> or <term id="A10" sem="Cell_cultured"><term id="T33" lex="GATA-3/ER" sem="Protein_molecule">GATA-3/ER</term></term> do not display a hormone-responsive block in differentiation.</sentence>
+<event KT="Analysis" id="E27">
+<type class="Regulation"/>
+<theme idref="A6"/>
+<cause idref="T29"/>
+<clue>These phenotypic <clueType>effects</clueType> are specifically <linkCause><clueKT>attributable to</clueKT></linkCause> the action of ectopically expressed GATA-2/ER because erythroblasts expressing exogenous GATA-2 are constitutively arrested in differentiation and because erythroid progenitors expressing either Gal/ER or GATA-3/ER do not display a hormone-responsive block in differentiation.</clue>
+</event>
+<event KT="Other" id="E28">
+<type class="Gene_expression"/>
+<theme idref="T30"/>
+<clue>These phenotypic effects are specifically attributable to the action of ectopically expressed GATA-2/ER because <clueLoc>erythroblasts</clueLoc> <clueType>expressing</clueType> exogenous GATA-2 are constitutively arrested in differentiation and because erythroid progenitors expressing either Gal/ER or GATA-3/ER do not display a hormone-responsive block in differentiation.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation"/>
+<theme idref="E30"/>
+<clue>These phenotypic effects are specifically attributable to the action of ectopically expressed GATA-2/ER because erythroblasts expressing exogenous GATA-2 are constitutively <clueType>arrested</clueType> <linkTheme>in</linkTheme> differentiation and because erythroid progenitors expressing either Gal/ER or GATA-3/ER do not display a hormone-responsive block in differentiation.</clue>
+</event>
+<event id="E30">
+<type class="Cell_differentiation"/>
+<theme idref="A7"/>
+<clue>These phenotypic effects are specifically attributable to the action of ectopically expressed GATA-2/ER because erythroblasts expressing exogenous GATA-2 are constitutively arrested in <clueType>differentiation</clueType> and because erythroid progenitors expressing either Gal/ER or GATA-3/ER do not display a hormone-responsive block in differentiation.</clue>
+<comment>TPS: A7</comment></event>
+<event id="E31">
+<type class="Gene_expression"/>
+<theme idref="T32"/>
+<clue>These phenotypic effects are specifically attributable to the action of ectopically expressed GATA-2/ER because erythroblasts expressing exogenous GATA-2 are constitutively arrested in differentiation and because <clueLoc>erythroid progenitors</clueLoc> <clueType>expressing</clueType> either Gal/ER or GATA-3/ER do not display a hormone-responsive block in differentiation.</clue>
+</event>
+<event id="E34">
+<type class="Gene_expression"/>
+<theme idref="T33"/>
+<clue>These phenotypic effects are specifically attributable to the action of ectopically expressed GATA-2/ER because erythroblasts expressing exogenous GATA-2 are constitutively arrested in differentiation and because <clueLoc>erythroid progenitors</clueLoc> <clueType>expressing</clueType> either Gal/ER or GATA-3/ER do not display a hormone-responsive block in differentiation.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E32">
+<type class="Negative_regulation"/>
+<theme idref="E33"/>
+<clue>These phenotypic effects are specifically attributable to the action of ectopically expressed GATA-2/ER because erythroblasts expressing exogenous GATA-2 are constitutively arrested in differentiation and because erythroid progenitors expressing either Gal/ER or GATA-3/ER do <cluePolarity>not</cluePolarity> <clueKT>display</clueKT> a hormone-responsive <clueType>block</clueType> <linkTheme>in</linkTheme> differentiation.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E36">
+<type class="Negative_regulation"/>
+<theme idref="E35"/>
+<clue>These phenotypic effects are specifically attributable to the action of ectopically expressed GATA-2/ER because erythroblasts expressing exogenous GATA-2 are constitutively arrested in differentiation and because erythroid progenitors expressing either Gal/ER or GATA-3/ER do <cluePolarity>not</cluePolarity> <clueKT>display</clueKT> a hormone-responsive <clueType>block</clueType> <linkTheme>in</linkTheme> differentiation.</clue>
+</event>
+<event KT="Other" id="E40">
+<type class="Regulation"/>
+<theme idref="E32"/>
+<clue>These phenotypic effects are specifically attributable to the action of ectopically expressed GATA-2/ER because erythroblasts expressing exogenous GATA-2 are constitutively arrested in differentiation and because erythroid progenitors expressing either Gal/ER or GATA-3/ER do not display a <corefCause>hormone</corefCause>-<clueType>responsive</clueType> block in differentiation.</clue>
+<comment>RESPONSIVE</comment></event>
+<event KT="Other" id="E42">
+<type class="Regulation"/>
+<theme idref="E36"/>
+<clue>These phenotypic effects are specifically attributable to the action of ectopically expressed GATA-2/ER because erythroblasts expressing exogenous GATA-2 are constitutively arrested in differentiation and because erythroid progenitors expressing either Gal/ER or GATA-3/ER do not display a <corefCause>hormone</corefCause>-<clueType>responsive</clueType> block in differentiation.</clue>
+<comment>RESPONSIVE</comment></event>
+<event KT="Other" id="E33">
+<type class="Cell_differentiation"/>
+<theme idref="A8" idref1="A9"/>
+<clue>These phenotypic effects are specifically attributable to the action of ectopically expressed GATA-2/ER because erythroblasts expressing exogenous GATA-2 are constitutively arrested in differentiation and because erythroid progenitors expressing either Gal/ER or GATA-3/ER do not display a hormone-responsive block in <clueType>differentiation</clueType>.</clue>
+<comment>TPS: A8; NER: T31 sem mod, Cell_line -&gt; Cell_type</comment></event>
+<event KT="Other" id="E35">
+<type class="Cell_differentiation"/>
+<theme idref="A8" idref1="A10"/>
+<clue>These phenotypic effects are specifically attributable to the action of ectopically expressed GATA-2/ER because erythroblasts expressing exogenous GATA-2 are constitutively arrested in differentiation and because erythroid progenitors expressing either Gal/ER or GATA-3/ER do not display a hormone-responsive block in <clueType>differentiation</clueType>.</clue>
+<comment>TPS: A8</comment></event>
+<sentence id="S8">Thus, the <term id="T34" lex="GATA-2_transcription_factor" sem="Protein_molecule"><term id="T35" lex="GATA-2" sem="Protein_molecule">GATA-2</term> transcription factor</term> appears to play a role in regulating the self-renewal capacity of <term id="T36" lex="early_erythroid_progenitor_cell" sem="Cell_natural">early erythroid progenitor cells</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E37" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E38"/>
+<cause idref="T35"/>
+<clue>Thus, the GATA-2 transcription factor <clueKT><clueCL>appears</clueCL></clueKT> to <clueType>play a role in regulating</clueType> the self-renewal capacity of early erythroid progenitor cells.</clue>
+</event>
+<event KT="Other" id="E38">
+<type class="Cell_differentiation"/>
+<theme idref="T36"/>
+<clue>Thus, the GATA-2 transcription factor appears to play a role in regulating the <clueType>self-renewal</clueType> capacity <linkTheme>of</linkTheme> early erythroid progenitor cells.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

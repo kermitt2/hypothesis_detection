@@ -1,0 +1,21 @@
+T22	Adverse_effect 24 32	-induced
+T25	Adverse_effect 109 116	induced
+T34	Adverse_effect 900 906	causes
+T37	Adverse_effect 1379 1384	cause
+T42	Adverse_effect 1517 1524	induced
+T45	Adverse_effect 1964 1969	cause
+T47	Adverse_effect 2142 2148	causes
+R1	is_equivalent Arg1:T4 Arg2:T5
+E3	Combination:T29 has_participant:T8 has_participant:T30
+E1	Adverse_effect:T22 has_agent:T1 affects:T2
+E2	Adverse_effect:T25 has_agent:T3 affects:T4
+E4	Adverse_effect:T34 has_cue:T33 has_agent:T13 has_agent:T12 has_agent:T11 has_agent:T10
+E5	Adverse_effect:T37 has_agent:T20 affects:T21 has_cue:T54
+E6	Adverse_effect:T42 has_agent:T41 affects:T23
+E7	Adverse_effect:T45 has_agent:T44 affects:T26
+E8	Adverse_effect:T47 has_cue:T48 has_agent:T27 affects:T28
+A1	Speculated E4
+A3	Speculated E8
+A2	Manner E5 Low
+R2	Subject_Disorder Arg1:T32 Arg2:T6	
+R3	is_equivalent Arg1:T32 Arg2:T7	

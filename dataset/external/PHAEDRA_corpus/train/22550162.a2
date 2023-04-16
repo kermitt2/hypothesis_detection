@@ -1,0 +1,26 @@
+T27	DDI 259 270	interaction
+T32	Adverse_effect 32 36	from
+T34	Adverse_effect 108 119	experienced
+T35	Potential_therapeutic_effect 86 89	use
+T36	Adverse_effect 241 248	induced
+T38	Potential_therapeutic_effect 449 460	prophylaxis
+T39	Potential_therapeutic_effect 363 369	placed
+T40	Potential_therapeutic_effect 941 950	receiving
+T41	Potential_therapeutic_effect 863 872	continued
+R1	Subject_Disorder Arg1:T1 Arg2:T12
+R2	Subject_Disorder Arg1:T8 Arg2:T7
+R3	Coreference Arg1:T31 Arg2:T1
+E2	DDI:T27 has_participant:T10 has_participant:T11 has_subject:T1
+E3	Adverse_effect:T32 has_cue:T33 has_agent:T3 affects:T2
+E4	Adverse_effect:T34 has_agent:T5 has_subject:T8 affects:T7
+E5	Potential_therapeutic_effect:T35 has_agent:T4 has_subject:T8 affects:T7
+E6	Adverse_effect:T36 has_agent:E2 affects:T9 has_cue:T37
+E7	Potential_therapeutic_effect:T38 has_agent:T14 affects:T15
+E8	Potential_therapeutic_effect:T39 has_agent:T13 has_subject:T31
+E9	Potential_therapeutic_effect:T40 has_agent:T25 affects:T24
+E10	Potential_therapeutic_effect:T41 has_agent:T23 affects:T24
+A1	Speculated E3
+A2	Speculated E6
+T6	Adverse_effect 1274 1286	relationship
+E1	Adverse_effect:T6 affects:T28 has_agent:T29 has_cue:T30
+A3	Speculated E1

@@ -1,0 +1,25 @@
+T45	DDI 364 376	interactions
+T49	Adverse_effect 300 309	dangerous
+T48	Potential_therapeutic_effect 1447 1461	administration
+T57	Adverse_effect 1636 1643	caution
+T59	Potential_therapeutic_effect 533 541	received
+T68	Adverse_effect 1546 1554	reported
+T63	Adverse_effect 1462 1472	because of
+T4	DDI 315 327	interactions
+E6	Combination:T43 has_participant:T41 has_participant:T42
+E7	DDI:T45 has_participant:T5 has_participant:T6 has_cue:T51
+E14	Combination:T12 has_participant:T29 has_participant:T30
+E18	Combination:T62 has_participant:T13 has_participant:T15
+E1	DDI:T4 has_participant:T42 has_participant:T41
+E9	Adverse_effect:T49 has_cue:T50 has_agent:E1
+E10	Potential_therapeutic_effect:T48 has_agent:T25 has_subject:T67
+E13	Adverse_effect:T57 has_cue:T58 has_agent:E14
+E15	Potential_therapeutic_effect:T59 has_subject:T33 has_agent:T7
+E20	Potential_therapeutic_effect:T59 has_subject:T33 has_agent:T65
+E21	Adverse_effect:T68 affects:T26 has_subject:T54 has_agent:T25 has_cue:T64
+E16	Adverse_effect:T63 has_agent:T25 affects:T60 has_cue:T61 has_subject:T67
+A7	Speculated E7
+A8	Speculated E9
+A12	Speculated E13
+A14	Speculated E21
+A15	Manner E16 High

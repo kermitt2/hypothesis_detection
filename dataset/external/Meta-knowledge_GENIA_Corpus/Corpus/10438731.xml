@@ -1,0 +1,292 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10438731" created="29/01/2007" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10438731</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="C/EBPbeta" sem="Protein_molecule">C/EBPbeta</term> and <term id="T2" lex="GATA-1" sem="Protein_molecule">GATA-1</term> synergistically regulate activity of the <term id="T3" lex="eosinophil_granule_major_basic_protein_promoter" sem="DNA_domain_or_region">eosinophil granule major basic protein promoter</term>: implication for <term id="T4" lex="C/EBPbeta_activity" sem="Other"><term id="T5" lex="C/EBPbeta" sem="Protein_molecule">C/EBPbeta</term> activity</term> in <term id="T6" lex="eosinophil_gene_expression" sem="Other"><term id="A1" sem="DNA_domain_or_region">eosinophil gene</term> expression</term>.</sentence>
+<event id="E1">
+<type class="Regulation"/>
+<theme idref="T3"/>
+<cause idref="T1"/>
+<cause idref="T2"/>
+<clue>C/EBPbeta and GATA-1 <clueType>synergistically regulate</clueType> activity of the eosinophil granule major basic protein promoter: implication for C/EBPbeta activity in eosinophil gene expression.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Gene_expression"/>
+<theme idref="A1"/>
+<clue>C/EBPbeta and GATA-1 synergistically regulate activity of the eosinophil granule major basic protein promoter: implication for C/EBPbeta activity in eosinophil gene <clueType>expression</clueType>.</clue>
+</event>
+<event KT="Investigation" id="E3">
+<type class="Correlation"/>
+<theme idref="T5"/>
+<theme idref="E2"/>
+<clue>C/EBPbeta and GATA-1 synergistically regulate activity of the eosinophil granule major basic protein promoter: <clueType>implication</clueType> <linkTheme>for</linkTheme> C/EBPbeta activity <linkTheme>in</linkTheme> eosinophil gene expression.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T7" lex="eosinophil_granule_major_basic_protein" sem="Protein_molecule">Eosinophil granule major basic protein</term> (<term id="T8" lex="MBP" sem="Protein_molecule">MBP</term>) is expressed exclusively in <term id="T9" lex="eosinophil" sem="Cell_natural">eosinophils</term> and <term id="T10" lex="basophil" sem="Cell_natural">basophils</term> in <term id="T11" lex="hematopoietic_cell" sem="Cell_natural">hematopoietic cells</term>.</sentence>
+<event KT="Fact" id="E300">
+<type class="Gene_expression"/>
+<theme idref="T8"/>
+<clue>Eosinophil granule major basic protein (MBP) is <clueType>expressed</clueType> exclusively <clueLoc>in eosinophils</clueLoc> and basophils <clueLoc>in hematopoietic cells</clueLoc>.</clue>
+</event>
+<event KT="Fact" id="E301">
+<type class="Gene_expression"/>
+<theme idref="T8"/>
+<clue>Eosinophil granule major basic protein (MBP) is <clueType>expressed</clueType> exclusively <clueLoc>in</clueLoc> eosinophils and <clueLoc>basophils in hematopoietic cells</clueLoc>.</clue>
+</event>
+<sentence id="S3">In our previous study, we demonstrated a major <term id="T12" lex="positive_regulatory_role" sem="Other">positive regulatory role</term> for <term id="T13" lex="GATA-1" sem="Protein_molecule">GATA-1</term> and a <term id="T14" lex="negative_regulatory_role" sem="Other">negative regulatory role</term> for <term id="T15" lex="GATA-2" sem="Protein_molecule">GATA-2</term> in <term id="T16" lex="MBP_gene_transcription" sem="Other"><term id="T17" lex="MBP" sem="Protein_molecule">MBP</term> gene transcription</term>.</sentence>
+<event KT="Other" id="E5">
+<type class="Transcription"/>
+<theme idref="T17"/>
+<clue>In our previous study, we demonstrated a major positive regulatory role for GATA-1 and a negative regulatory role for GATA-2 in MBP gene <clueType>transcription</clueType>.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="T13"/>
+<clue>In our <clueSource>previous</clueSource> study, we <clueKT>demonstrated</clueKT> a major <clueType>positive regulatory role</clueType> <linkCause>for</linkCause> GATA-1 and a negative regulatory role for GATA-2 <linkTheme>in</linkTheme> MBP gene transcription.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E7">
+<type class="Negative_regulation"/>
+<theme idref="E5"/>
+<cause idref="T15"/>
+<clue>In our <clueSource>previous</clueSource> study, we <clueKT>demonstrated</clueKT> a major positive regulatory role for GATA-1 and a <clueType>negative regulatory role</clueType> <linkCause>for</linkCause> GATA-2 <linkTheme>in</linkTheme> MBP gene transcription.</clue>
+</event>
+<sentence id="S4">Further analysis of the <term id="T18" lex="MBP_promoter_region" sem="DNA_domain_or_region"><term id="T19" lex="MBP" sem="Protein_molecule">MBP</term> promoter region</term> identified a <term id="T20" lex="C/EBP_(CCAAT/enhancer-binding_protein)_consensus_binding_site" sem="DNA_domain_or_region"><term id="T21" lex="C/EBP" sem="Protein_family_or_group">C/EBP</term> (<term id="T22" lex="CCAAT/enhancer-binding_protein" sem="Protein_family_or_group">CCAAT/enhancer-binding protein</term>) consensus binding site</term> 6 bp upstream of the functional <term id="T23" lex="GATA-binding_site" sem="DNA_domain_or_region">GATA-binding site</term> in the <term id="T24" lex="MBP_gene" sem="DNA_domain_or_region"><term id="T25" lex="MBP" sem="Protein_molecule">MBP</term> gene</term>.</sentence>
+<sentence id="S5">In the <term id="T26" lex="cell_line_HT93A" sem="Cell_cultured">cell line HT93A</term>, which is capable of differentiating towards both the <term id="T27" lex="eosinophil" sem="Cell_natural">eosinophil</term> and <term id="A6" sem="Cell_natural">neutrophil</term> <term id="A7" sem="Cell_natural">lineages</term> in response to <term id="T28" lex="retinoic_acid" sem="Organic_compound_other">retinoic acid</term> (<term id="T29" lex="RA" sem="Organic_compound_other">RA</term>), <term id="T30" lex="C/EBPalpha_mRNA_expression" sem="Other"><term id="T31" lex="C/EBPalpha_mRNA" sem="RNA_molecule"><term id="T32" lex="C/EBPalpha" sem="Protein_molecule">C/EBPalpha</term> mRNA</term> expression</term> decreased significantly concomitant with <cons id="T33" lex="(AND eosinophilic_differentiation neutrophilic_differentiation)" sem="(AND Other Other)"><frag id="F1"><term id="A4" sem="Cell_natural">eosinophilic</term></frag> and <frag id="F2"><term id="A5" sem="Cell_natural">neutrophilic</term></frag> <frag id="F3">differentiation</frag></cons>, whereas <term id="T34" lex="C/EBPbeta_expression" sem="Other"><term id="T35" lex="C/EBPbeta" sem="Protein_molecule">C/EBPbeta</term> expression</term> was markedly increased.</sentence>
+<event KT="Other" id="E8">
+<type class="Cell_differentiation"/>
+<theme idref="T26"/>
+<theme idref="T27" idref1="A7"/>
+<clue>In the cell line HT93A, which is capable of <clueType>differentiating</clueType> <linkTheme>towards</linkTheme> both the eosinophil and neutrophil lineages in response to retinoic acid (RA), C/EBPalpha mRNA expression decreased significantly concomitant with eosinophilic and neutrophilic differentiation, whereas C/EBPbeta expression was markedly increased.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E108">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="T29"/>
+<clue>In the cell line HT93A, which is <clueKT><clueCL>capable</clueCL></clueKT> of differentiating towards both the eosinophil and neutrophil lineages <linkCause>in response to</linkCause> retinoic acid (RA), C/EBPalpha mRNA expression decreased significantly concomitant with eosinophilic and neutrophilic differentiation, whereas C/EBPbeta expression was markedly increased.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Other" id="E9">
+<type class="Cell_differentiation"/>
+<theme idref="T26"/>
+<theme idref="A6" idref1="A7"/>
+<clue>In the cell line HT93A, which is capable of <clueType>differentiating</clueType> <linkTheme>towards</linkTheme> both the eosinophil and neutrophil lineages in response to retinoic acid (RA), C/EBPalpha mRNA expression decreased significantly concomitant with eosinophilic and neutrophilic differentiation, whereas C/EBPbeta expression was markedly increased.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E109">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="T29"/>
+<clue>In the cell line HT93A, which is <clueKT><clueCL>capable</clueCL></clueKT> of differentiating towards both the eosinophil and neutrophil lineages <linkCause>in response to</linkCause> retinoic acid (RA), C/EBPalpha mRNA expression decreased significantly concomitant with eosinophilic and neutrophilic differentiation, whereas C/EBPbeta expression was markedly increased.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E10">
+<type class="Transcription"/>
+<theme idref="T31"/>
+<clue>In the cell line HT93A, which is capable of differentiating towards both the eosinophil and neutrophil lineages in response to retinoic acid (RA), C/EBPalpha mRNA <clueType>expression</clueType> decreased significantly concomitant with eosinophilic and neutrophilic differentiation, whereas C/EBPbeta expression was markedly increased.</clue>
+</event>
+<event id="E11">
+<type class="Cell_differentiation"/>
+<theme idref="A4"/>
+<clue>In the cell line HT93A, which is capable of differentiating towards both the eosinophil and neutrophil lineages in response to retinoic acid (RA), C/EBPalpha mRNA expression decreased significantly concomitant with eosinophilic and neutrophilic <clueType>differentiation</clueType>, whereas C/EBPbeta expression was markedly increased.</clue>
+</event>
+<event id="E12">
+<type class="Cell_differentiation"/>
+<theme idref="A5"/>
+<clue>In the cell line HT93A, which is capable of differentiating towards both the eosinophil and neutrophil lineages in response to retinoic acid (RA), C/EBPalpha mRNA expression decreased significantly concomitant with eosinophilic and neutrophilic <clueType>differentiation</clueType>, whereas C/EBPbeta expression was markedly increased.</clue>
+</event>
+<event Manner="High" id="E13">
+<type class="Negative_regulation"/>
+<theme idref="E10"/>
+<clue>In the cell line HT93A, which is capable of differentiating towards both the eosinophil and neutrophil lineages in response to retinoic acid (RA), C/EBPalpha mRNA expression <clueType>decreased</clueType> <clueManner>significantly</clueManner> concomitant with eosinophilic and neutrophilic differentiation, whereas C/EBPbeta expression was markedly increased.</clue>
+</event>
+<event id="E14">
+<type class="Correlation"/>
+<theme idref="E11"/>
+<theme idref="E13"/>
+<clue><clueLoc>In the cell line HT93A</clueLoc>, which is capable of differentiating towards both the eosinophil and neutrophil lineages in response to retinoic acid (RA), C/EBPalpha mRNA expression decreased significantly <clueType>concomitant</clueType> <linkTheme>with</linkTheme> eosinophilic and neutrophilic differentiation, whereas C/EBPbeta expression was markedly increased.</clue>
+</event>
+<event id="E15">
+<type class="Correlation"/>
+<theme idref="E12"/>
+<theme idref="E13"/>
+<clue><clueLoc>In the cell line HT93A</clueLoc>, which is capable of differentiating towards both the eosinophil and neutrophil lineages in response to retinoic acid (RA), C/EBPalpha mRNA expression decreased significantly <clueType>concomitant</clueType> <linkTheme>with</linkTheme> eosinophilic and neutrophilic differentiation, whereas C/EBPbeta expression was markedly increased.</clue>
+</event>
+<event id="E16">
+<type class="Gene_expression"/>
+<theme idref="T35"/>
+<clue>In the cell line HT93A, which is capable of differentiating towards both the eosinophil and neutrophil lineages in response to retinoic acid (RA), C/EBPalpha mRNA expression decreased significantly concomitant with eosinophilic and neutrophilic differentiation, whereas C/EBPbeta <clueType>expression</clueType> was markedly increased.</clue>
+</event>
+<event Manner="High" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<clue>In the cell line HT93A, which is capable of differentiating towards both the eosinophil and neutrophil lineages in response to retinoic acid (RA), C/EBPalpha mRNA expression decreased significantly concomitant with eosinophilic and neutrophilic differentiation, whereas C/EBPbeta expression was <clueManner>markedly</clueManner> <clueType>increased</clueType>.</clue>
+</event>
+<event id="E18">
+<type class="Correlation"/>
+<theme idref="E12"/>
+<theme idref="E17"/>
+<clue><clueLoc>In the cell line HT93A</clueLoc>, which is capable of differentiating towards both the eosinophil and neutrophil lineages in response to retinoic acid (RA), C/EBPalpha mRNA expression decreased significantly <clueType>concomitant</clueType> <linkTheme>with</linkTheme> eosinophilic and neutrophilic differentiation, whereas C/EBPbeta expression was markedly increased.</clue>
+</event>
+<event id="E19">
+<type class="Correlation"/>
+<theme idref="E13"/>
+<theme idref="E17"/>
+<clue><clueLoc>In the cell line HT93A</clueLoc>, which is capable of differentiating towards both the eosinophil and neutrophil lineages in response to retinoic acid (RA), C/EBPalpha mRNA expression decreased significantly <clueType>concomitant</clueType> <linkTheme>with</linkTheme> eosinophilic and neutrophilic differentiation, whereas C/EBPbeta expression was markedly increased.</clue>
+</event>
+<sentence id="S6"><term id="T36" lex="electrophoretic_mobility_shift_assay" sem="Other">Electrophoretic mobility shift assays</term> (<term id="T37" lex="EMSA" sem="Other">EMSAs</term>) showed that recombinant <term id="T38" lex="C/EBPbeta" sem="Protein_molecule">C/EBPbeta</term> protein could bind to the potential <term id="T39" lex="C/EBP-binding_site" sem="DNA_domain_or_region">C/EBP-binding site</term> (<term id="T40" lex="bp_-90_to_-82" sem="DNA_domain_or_region">bp -90 to -82</term>) <term id="A8" sem="DNA_domain_or_region">in the <term id="T41" lex="MBP" sem="Protein_molecule">MBP</term> promoter.</term></sentence>
+<event KT="Analysis" id="E20">
+<type class="Binding"/>
+<theme idref="T38"/>
+<theme idref="T39" idref1="A8"/>
+<clue><clueExperiment>Electrophoretic mobility shift assays (EMSAs)</clueExperiment> <clueKT>showed</clueKT> that recombinant C/EBPbeta protein could <clueType>bind</clueType> <linkTheme>to</linkTheme> the potential C/EBP-binding site (bp -90 to -82) in the MBP promoter.</clue>
+<comment>TPS: A8</comment></event>
+<sentence id="S7">Furthermore, we have demonstrated that both <term id="T42" lex="C/EBPbeta" sem="Protein_molecule">C/EBPbeta</term> and <term id="T43" lex="GATA-1" sem="Protein_molecule">GATA-1</term> can bind simultaneously to the <term id="A9" sem="DNA_domain_or_region">C/EBP-</term> and <term id="T44" lex="GATA-binding_site" sem="DNA_domain_or_region">GATA-<term id="A10" sem="DNA_domain_or_region">binding sites</term></term> <term id="A11" sem="DNA_domain_or_region">in the <term id="T45" lex="MBP_promoter" sem="DNA_domain_or_region"><term id="T46" lex="MBP" sem="Protein_molecule">MBP</term> promoter</term></term>.</sentence>
+<event CL="L2" KT="Analysis" id="E21">
+<type class="Binding"/>
+<theme idref="T42"/>
+<theme idref="A9" idref1="A10" idref2="A11"/>
+<clue>Furthermore, we have <clueKT>demonstrated</clueKT> that both C/EBPbeta and GATA-1 <clueCL>can</clueCL> <clueType>bind</clueType> simultaneously <linkTheme>to</linkTheme> the C/EBP- and GATA-binding sites in the MBP promoter.</clue>
+<comment>TPS: A11</comment></event>
+<event CL="L2" KT="Analysis" id="E22">
+<type class="Binding"/>
+<theme idref="T43"/>
+<theme idref="T44" idref1="A11"/>
+<clue>Furthermore, we have <clueKT>demonstrated</clueKT> that both C/EBPbeta and GATA-1 <clueCL>can</clueCL> <clueType>bind</clueType> simultaneously <linkTheme>to</linkTheme> the C/EBP- and GATA-binding sites in the MBP promoter.</clue>
+</event>
+<sentence id="S8">To determine the functionality of both the <cons id="T47" lex="(AND C/EBP-_binding_site GATA-_binding_site)" sem="(AND DNA_domain_or_region DNA_domain_or_region)"><frag id="F4">C/EBP-</frag> and <frag id="F5">GATA-</frag> <frag id="F6">binding sites</frag></cons>, we analyzed whether <term id="T48" lex="C/EBPbeta" sem="Protein_molecule">C/EBPbeta</term> and <term id="T49" lex="GATA-1" sem="Protein_molecule">GATA-1</term> can stimulate the <term id="T50" lex="MBP_promoter" sem="DNA_domain_or_region"><term id="T51" lex="MBP" sem="Protein_molecule">MBP</term> promoter</term> in the <term id="T52" lex="C/EBPbeta_and_GATA-1_negative_Jurkat_T-cell_line" sem="Cell_cultured"><term id="T53" lex="C/EBPbeta" sem="Protein_molecule">C/EBPbeta</term> and <term id="T54" lex="GATA-1" sem="Protein_molecule">GATA-1</term> negative <term id="T55" lex="Jurkat_T-cell_line" sem="Cell_cultured">Jurkat T-cell line</term></term>.</sentence>
+<event KT="Investigation" id="E23" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="T50"/>
+<cause idref="T48"/>
+<clue>To determine the functionality of both the C/EBP- and GATA- binding sites, we <clueKT>analyzed</clueKT> whether C/EBPbeta and GATA-1 can <clueType>stimulate</clueType> the MBP promoter <clueLoc>in the C/EBPbeta and GATA-1 negative Jurkat T-cell line.</clueLoc></clue>
+</event>
+<event KT="Investigation" id="E24" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="T50"/>
+<cause idref="T49"/>
+<clue>To determine the functionality of both the C/EBP- and GATA- binding sites, we <clueKT>analyzed</clueKT> whether C/EBPbeta and GATA-1 can <clueType>stimulate</clueType> the MBP promoter <clueLoc>in the C/EBPbeta and GATA-1 negative Jurkat T-cell line.</clueLoc></clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E25">
+<type class="Gene_expression"/>
+<theme idref="T53"/>
+<clue>To determine the functionality of both the C/EBP- and GATA- binding sites, we analyzed whether C/EBPbeta and GATA-1 can stimulate the MBP promoter in the C/EBPbeta and GATA-1 <clueType><cluePolarity>negative</cluePolarity></clueType> <clueLoc>Jurkat T-cell line</clueLoc>.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E26">
+<type class="Gene_expression"/>
+<theme idref="T54"/>
+<clue>To determine the functionality of both the C/EBP- and GATA- binding sites, we analyzed whether C/EBPbeta and GATA-1 can stimulate the MBP promoter in the C/EBPbeta and GATA-1 <clueType><cluePolarity>negative</cluePolarity></clueType> <clueLoc>Jurkat T-cell line</clueLoc>.</clue>
+</event>
+<sentence id="S9">Cotransfection with <cons id="T56" lex="(AND C/EBPbeta_expression_vector GATA-1_expression_vector)" sem="(AND DNA_molecule DNA_molecule)"><frag id="F7"><term id="A12" sem="DNA_molecule">C/EBPbeta</term></frag> and <frag id="F8"><term id="A13" sem="DNA_molecule">GATA-1</term></frag> <frag id="F9"><term id="A14" sem="DNA_molecule">expression vectors</term></frag></cons> produced a 5-fold increase compared with cotransfection with the <term id="T57" lex="C/EBPbeta" sem="DNA_molecule">C/EBPbeta</term> or <term id="T58" lex="GATA-1_expression_vector" sem="DNA_molecule"><term id="T59" lex="GATA-1" sem="Protein_molecule">GATA-1</term> <term id="A15" sem="DNA_molecule">expression vectors</term></term> individually.</sentence>
+<event id="E270">
+<type class="Gene_expression"/>
+<theme idref="A12" idref1="A14"/>
+<clue><clueType>Cotransfection</clueType> <linkTheme>with</linkTheme> C/EBPbeta and GATA-1 expression vectors produced a 5-fold increase compared with cotransfection with the C/EBPbeta or GATA-1 expression vectors individually.</clue>
+</event>
+<event id="E271">
+<type class="Gene_expression"/>
+<theme idref="A13" idref1="A14"/>
+<clue><clueType>Cotransfection</clueType> <linkTheme>with</linkTheme> C/EBPbeta and GATA-1 expression vectors produced a 5-fold increase compared with cotransfection with the C/EBPbeta or GATA-1 expression vectors individually.</clue>
+</event>
+<event id="E272">
+<type class="Positive_regulation"/>
+<theme idref="E270"/>
+<theme idref="E271"/>
+<clue><clueType>Cotransfection</clueType> <linkTheme>with</linkTheme> C/EBPbeta and GATA-1 expression vectors produced a 5-fold increase compared with cotransfection with the C/EBPbeta or GATA-1 expression vectors individually.</clue>
+</event>
+<event id="E280">
+<type class="Gene_expression"/>
+<theme idref="T57" idref1="A15"/>
+<clue>Cotransfection with C/EBPbeta and GATA-1 expression vectors produced a 5-fold increase compared with <clueType>cotransfection</clueType> <linkTheme>with</linkTheme> the C/EBPbeta or GATA-1 expression vectors individually.</clue>
+<comment>NER: T57 MOD</comment></event>
+<event id="E281">
+<type class="Positive_regulation"/>
+<theme idref="E280" idref1="A15"/>
+<clue>Cotransfection with C/EBPbeta and GATA-1 expression vectors produced a 5-fold increase compared with <clueType>cotransfection</clueType> with the C/EBPbeta or GATA-1 expression vectors individually.</clue>
+</event>
+<event id="E290">
+<type class="Gene_expression"/>
+<theme idref="T58"/>
+<clue>Cotransfection with C/EBPbeta and GATA-1 expression vectors produced a 5-fold increase compared with <clueType>cotransfection</clueType> <linkTheme>with</linkTheme> the C/EBPbeta or GATA-1 expression vectors individually.</clue>
+<comment>NER: T58 MOD</comment></event>
+<event id="E291">
+<type class="Positive_regulation"/>
+<theme idref="E290"/>
+<clue>Cotransfection with C/EBPbeta and GATA-1 expression vectors produced a 5-fold increase compared with <clueType>cotransfection</clueType> with the C/EBPbeta or GATA-1 expression vectors individually.</clue>
+</event>
+<event Manner="High" id="E30">
+<type class="Positive_regulation"/>
+<theme idref="T50"/>
+<cause idref="E272"/>
+<clue>Cotransfection with C/EBPbeta and GATA-1 expression vectors produced a <clueManner>5-fold</clueManner> <clueType>increase</clueType> compared with cotransfection with the C/EBPbeta or GATA-1 expression vectors individually.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event Manner="High" id="E31">
+<type class="Positive_regulation"/>
+<theme idref="T50"/>
+<cause idref="E281"/>
+<clue>Cotransfection with C/EBPbeta and GATA-1 expression vectors produced a <clueManner>5-fold</clueManner> <clueType>increase</clueType> compared with cotransfection with the C/EBPbeta or GATA-1 expression vectors individually.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event Manner="High" id="E32">
+<type class="Positive_regulation"/>
+<theme idref="T50"/>
+<cause idref="E291"/>
+<clue>Cotransfection with C/EBPbeta and GATA-1 expression vectors produced a <clueManner>5-fold</clueManner> <clueType>increase</clueType> compared with cotransfection with the C/EBPbeta or GATA-1 expression vectors individually.</clue>
+<comment>NO COREFTHEME</comment></event>
+<sentence id="S10">In addition, <term id="T60" lex="GST_pull-down_experiments" sem="Other"><term id="T61" lex="GST" sem="Protein_molecule">GST</term> pull-down experiments</term> demonstrated a physical interaction between human <term id="T62" lex="GATA-1" sem="Protein_molecule">GATA-1</term> and <term id="T63" lex="C/EBPbeta" sem="Protein_molecule">C/EBPbeta</term>.</sentence>
+<event KT="Analysis" id="E33">
+<type class="Binding"/>
+<theme idref="T62"/>
+<theme idref="T63"/>
+<clue>In addition, <clueExperiment>GST pull-down experiments</clueExperiment> <clueKT>demonstrated</clueKT> a <clueType>physical interaction</clueType> <linkTheme>between</linkTheme> human GATA-1 and C/EBPbeta.</clue>
+</event>
+<sentence id="S11">Expression of <term id="T64" lex="FOG" sem="Protein_molecule">FOG</term> (<term id="T65" lex="riend_ATA" sem="Protein_molecule">riend ATA</term>), which binds to <term id="T66" lex="GATA-1" sem="Protein_molecule">GATA-1</term> and acts as a cofactor for <term id="T67" lex="GATA-binding_protein" sem="Protein_family_or_group">GATA-binding proteins</term>, decreased transactivation activity of <term id="T68" lex="GATA-1" sem="Protein_molecule">GATA-1</term> for the <term id="T69" lex="MBP_promoter" sem="DNA_domain_or_region"><term id="T70" lex="MBP" sem="Protein_molecule">MBP</term> promoter</term> in a dose-dependent manner.</sentence>
+<event id="E34">
+<type class="Gene_expression"/>
+<theme idref="T64"/>
+<clue><clueType>Expression</clueType> <linkTheme>of</linkTheme> FOG (riend ATA), which binds to GATA-1 and acts as a cofactor for GATA-binding proteins, decreased transactivation activity of GATA-1 for the MBP promoter in a dose-dependent manner.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation"/>
+<theme idref="T69"/>
+<cause idref="T68"/>
+<clue>Expression of FOG (riend ATA), which binds to GATA-1 and acts as a cofactor for GATA-binding proteins, decreased <clueType>transactivation</clueType> activity <linkCause>of</linkCause> GATA-1 <linkTheme>for</linkTheme> the MBP promoter in a dose-dependent manner.</clue>
+</event>
+<event id="E36">
+<type class="Negative_regulation"/>
+<theme idref="E35"/>
+<cause idref="E34"/>
+<clue>Expression of FOG (riend ATA), which binds to GATA-1 and acts as a cofactor for GATA-binding proteins, <clueType>decreased</clueType> transactivation activity of GATA-1 for the MBP promoter in a dose-dependent manner.</clue>
+</event>
+<event KT="Fact" id="E37">
+<type class="Binding"/>
+<theme idref="T64"/>
+<theme idref="T66"/>
+<clue>Expression of FOG (riend ATA), which <clueType>binds</clueType> <linkTheme>to</linkTheme> GATA-1 and acts as a cofactor for GATA-binding proteins, decreased transactivation activity of GATA-1 for the MBP promoter in a dose-dependent manner.</clue>
+</event>
+<sentence id="S12">Our results provide the first evidence that both <term id="T71" lex="GATA-1" sem="Protein_molecule">GATA-1</term> and <term id="T72" lex="C/EBPbeta" sem="Protein_molecule">C/EBPbeta</term> synergistically transactivate the <term id="A16" sem="DNA_domain_or_region"><term id="T73" lex="promoter" sem="DNA_domain_or_region">promoter</term> of an <term id="T74" lex="eosinophil-specific_granule_protein_gene" sem="DNA_family_or_group">eosinophil-specific granule protein gene</term></term> and that <term id="T75" lex="FOG" sem="Protein_molecule">FOG</term> may act as a negative cofactor for the <term id="T76" lex="eosinophil_lineage" sem="Cell_natural">eosinophil lineage</term>, unlike its positively regulatory function for the <cons id="T77" lex="(AND erythroid_lineage megakaryocyte_lineage)" sem="(AND Cell_natural Cell_natural)"><frag id="F10"><term id="A17" sem="Cell_natural">erythroid</term></frag> and <frag id="F11"><term id="A18" sem="Cell_natural">megakaryocyte</term></frag> <frag id="F12"><term id="A19" sem="Cell_natural">lineages</term></frag></cons>.</sentence>
+<event CL="L2" KT="Analysis" id="E38">
+<type class="Positive_regulation"/>
+<theme idref="A16"/>
+<cause idref="T71"/>
+<cause idref="T72"/>
+<clue>Our results provide the first <clueKT><clueCL>evidence</clueCL></clueKT> that both GATA-1 and C/EBPbeta <clueType>synergistically transactivate</clueType> the promoter of an eosinophil-specific granule protein gene and that FOG may act as a negative cofactor for the eosinophil lineage, unlike its positively regulatory function for the erythroid and megakaryocyte lineages.</clue>
+<comment>TPS: A16</comment></event>
+<event CL="L1" KT="Analysis" id="E39">
+<type class="Negative_regulation"/>
+<theme idref="T76"/>
+<cause idref="T75"/>
+<clue>Our results provide the first <clueKT>evidence</clueKT> that both GATA-1 and C/EBPbeta synergistically transactivate the promoter of an eosinophil-specific granule protein gene and that FOG <clueCL>may</clueCL> <clueType>act as a negative cofactor</clueType> <linkTheme>for</linkTheme> the eosinophil lineage, unlike its positively regulatory function for the erythroid and megakaryocyte lineages.</clue>
+</event>
+<event KT="Fact" id="E40">
+<type class="Positive_regulation"/>
+<theme idref="A17" idref1="A19"/>
+<cause idref="T75"/>
+<clue>Our results provide the first evidence that both GATA-1 and C/EBPbeta synergistically transactivate the promoter of an eosinophil-specific granule protein gene and that FOG may act as a negative cofactor for the eosinophil lineage, unlike <corefTheme>its</corefTheme> <clueType>positively regulatory function</clueType> <linkTheme>for</linkTheme> the erythroid and megakaryocyte lineages.</clue>
+</event>
+<event KT="Fact" id="E41">
+<type class="Positive_regulation"/>
+<theme idref="A18" idref1="A19"/>
+<cause idref="T75"/>
+<clue>Our results provide the first evidence that both GATA-1 and C/EBPbeta synergistically transactivate the promoter of an eosinophil-specific granule protein gene and that FOG may act as a negative cofactor for the eosinophil lineage, unlike <corefTheme>its</corefTheme> <clueType>positively regulatory function</clueType> <linkTheme>for</linkTheme> the erythroid and megakaryocyte lineages.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

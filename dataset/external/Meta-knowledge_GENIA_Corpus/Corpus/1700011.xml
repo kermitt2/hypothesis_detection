@@ -1,0 +1,116 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1700011" created="14/03/2007" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1700011</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="NF-X2" sem="Protein_molecule">NF-X2</term> that binds to the <term id="T2" lex="DRA_X2-box" sem="DNA_domain_or_region">DRA X2-box</term> is <term id="T3" lex="activator_protein_1" sem="Protein_molecule">activator protein 1</term>.</sentence>
+<event id="E1">
+<type class="Binding"/>
+<theme idref="T1"/>
+<theme idref="T2"/>
+<clue>NF-X2 that <clueType>binds</clueType> <linkTheme>to</linkTheme> the DRA X2-box is activator protein 1.</clue>
+</event>
+<event id="E2">
+<type class="Binding"/>
+<theme idref="T3"/>
+<theme idref="T2"/>
+<clue>NF-X2 that <clueType>binds</clueType> <linkTheme>to</linkTheme> the DRA X2-box is activator protein 1.</clue>
+</event>
+<sentence id="S2"><term id="T4" lex="expression_cloning" sem="Other">Expression cloning</term> of <term id="T5" lex="c-Jun" sem="Protein_molecule">c-Jun</term>.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term id="T6" lex="human_class_II_MHC_Ag" sem="Protein_family_or_group">Human class II MHC Ag</term> are a family of <term id="T7" lex="cell_surface_glycoprotein" sem="Protein_domain_or_region">cell surface glycoproteins</term>.</sentence>
+<sentence id="S4">Their constitutive expression is limited to <term id="T8" lex="B_lymphocyte" sem="Cell_natural">B lymphocytes</term> and <term id="T9" lex="thymic_epithelial_cell" sem="Cell_natural">thymic epithelial cells</term>.</sentence>
+<event KT="Fact" id="E300">
+<type class="Gene_expression"/>
+<theme idref="T6"/>
+<clue><corefTheme>Their</corefTheme> constitutive <clueType>expression</clueType> is limited to <clueLoc>B lymphocytes</clueLoc> and thymic epithelial cells.</clue>
+</event>
+<event KT="Fact" id="E301">
+<type class="Gene_expression"/>
+<theme idref="T6"/>
+<clue><corefTheme>Their</corefTheme> constitutive <clueType>expression</clueType> is limited to B lymphocytes and <clueLoc>thymic epithelial cells</clueLoc>.</clue>
+</event>
+<sentence id="S5">In many other cells their <term id="T10" lex="expression" sem="Other">expression</term> can be induced by <term id="T11" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term>.</sentence>
+<event id="E4">
+<type class="Gene_expression"/>
+<theme idref="T6"/>
+<clue>In many other cells <corefTheme>their</corefTheme> <clueType>expression</clueType> can be induced by IFN-gamma.</clue>
+</event>
+<event KT="Fact" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="T11"/>
+<clue><clueLoc>In many other cells</clueLoc> their expression can be <clueType>induced</clueType> <linkCause>by</linkCause> IFN-gamma.</clue>
+</event>
+<sentence id="S6"><term id="A1" sem="DNA_domain_or_region">Conserved upstream promoter sequences</term> regulate this tissue-specific expression of <term id="T12" lex="class_II_gene" sem="DNA_family_or_group">class II genes</term>.</sentence>
+<event KT="Fact" id="E302">
+<type class="Regulation"/>
+<theme idref="E300"/>
+<cause idref="A1"/>
+<clue>Conserved upstream promoter sequences <clueType>regulate</clueType> <corefTheme>this tissue-specific expression of class II genes.</corefTheme></clue>
+</event>
+<event KT="Fact" id="E303">
+<type class="Regulation"/>
+<theme idref="E301"/>
+<cause idref="A1"/>
+<clue>Conserved upstream promoter sequences <clueType>regulate</clueType> <corefTheme>this tissue-specific expression of class II genes.</corefTheme></clue>
+</event>
+<event KT="Fact" id="E7">
+<type class="Regulation"/>
+<theme idref="E5"/>
+<cause idref="A1"/>
+<clue>Conserved upstream promoter sequences <clueType>regulate</clueType> <corefTheme>this tissue-specific expression of class II genes.</corefTheme></clue>
+</event>
+<sentence id="S7">In the <term id="T13" lex="DRA_promoter" sem="DNA_domain_or_region">DRA promoter</term>, one of these <term id="T14" lex="cis-acting_regulatory_motif" sem="DNA_domain_or_region">cis-acting regulatory motifs</term> is the <term id="T15" lex="X2-box" sem="DNA_domain_or_region">X2-box</term> to which <term id="T16" lex="nuclear_factor_X2" sem="Protein_molecule">nuclear factor X2</term> (<term id="T17" lex="NF-X2" sem="Protein_molecule">NF-X2</term>) binds.</sentence>
+<event KT="Fact" id="E8">
+<type class="Binding"/>
+<theme idref="T17"/>
+<theme idref="T15"/>
+<clue>In the DRA promoter, one of these cis-acting regulatory motifs is the X2-box <linkTheme>to</linkTheme> which nuclear factor X2 (NF-X2) <clueType>binds</clueType>.</clue>
+</event>
+<sentence id="S8">Here, we present the isolation and characterization of the <term id="T18" lex="full-length_cDNA_clone" sem="DNA_family_or_group">full-length cDNA clone</term> encoding <term id="T19" lex="NF-X2" sem="Protein_molecule">NF-X2</term>.</sentence>
+<sentence id="S9">This <term id="T20" lex="cDNA_clone" sem="DNA_molecule">cDNA clone</term> was isolated by <term id="T21" lex="expression_cDNA_cloning" sem="Other">expression <term id="T22" lex="cDNA" sem="DNA_family_or_group">cDNA</term> cloning</term>, and encodes the <term id="T23" lex="human_c-Jun_protein" sem="Protein_molecule">human <term id="T24" lex="c-Jun" sem="Protein_molecule">c-Jun</term> protein</term>, which together with <term id="T25" lex="c-Fos" sem="Protein_molecule">c-Fos</term> forms the <term id="T26" lex="heterodimeric_activator_protein-1_transcription_complex" sem="Protein_family_or_group">heterodimeric activator protein-1 transcription complex</term>.</sentence>
+<event KT="Fact" id="E9">
+<type class="Binding"/>
+<theme idref="T25"/>
+<theme idref="T24"/>
+<clue>This cDNA clone was isolated by expression cDNA cloning, and encodes the human c-Jun protein, which <linkTheme>together with</linkTheme> c-Fos <clueType>forms the heterodimeric</clueType> activator protein-1 transcription <clueType>complex</clueType>.</clue>
+</event>
+<event KT="Fact" id="E19">
+<type class="Protein_metabolism"/>
+<theme idref="T26"/>
+<clue>This cDNA clone was isolated by expression cDNA cloning, and encodes the human c-Jun protein, which together with c-Fos <clueType>forms the heterodimeric</clueType> activator protein-1 transcription <clueType>complex</clueType>.</clue>
+</event>
+<sentence id="S10">Whereas <term id="T27" lex="c-Fos/c-Jun_heterodimer" sem="Protein_complex"><term id="T28" lex="c-Fos" sem="Protein_molecule">c-Fos</term><term id="T29" lex="c-Jun" sem="Protein_molecule">/c-Jun</term> heterodimers</term> do not exist in <term id="T30" lex="B_cell" sem="Cell_cultured">B cells</term>, they form and bind to the <term id="T31" lex="X2-box" sem="DNA_domain_or_region">X2-box</term> in <term id="T32" lex="class_II_nonexpressing_cell" sem="Cell_cultured">class II nonexpressing cells</term>.</sentence>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E10">
+<type class="Gene_expression"/>
+<theme idref="T27"/>
+<clue>Whereas c-Fos/c-Jun heterodimers do <cluePolarity>not</cluePolarity> <clueType>exist</clueType> <clueLoc>in B cells</clueLoc>, they form and bind to the X2-box in class II nonexpressing cells.</clue>
+</event>
+<event id="E11">
+<type class="Binding"/>
+<theme idref="T28"/>
+<theme idref="T29"/>
+<clue>Whereas c-Fos/c-Jun <clueType>heterodimers</clueType> do not exist in B cells, they <clueType>form</clueType> and bind to the X2-box <clueLoc>in class II nonexpressing cells</clueLoc>.</clue>
+</event>
+<event id="E12">
+<type class="Binding"/>
+<theme idref="T27"/>
+<theme idref="T31"/>
+<clue>Whereas c-Fos/c-Jun heterodimers do not exist in B cells, they form and <clueType>bind</clueType> <linkTheme>to</linkTheme> the X2-box <clueLoc>in class II nonexpressing cells</clueLoc>.</clue>
+</event>
+<sentence id="S11">Thus, <term id="T33" lex="c-Fos/c-Jun_heterodimer" sem="Protein_complex"><term id="T34" lex="c-Fos" sem="Protein_molecule">c-Fos</term><term id="T35" lex="c-Jun" sem="Protein_molecule">/c-Jun</term> heterodimers</term> might contribute to the repression of <term id="T36" lex="DRA_gene_expression" sem="Other"><term id="T37" lex="DRA_gene" sem="DNA_domain_or_region">DRA gene</term> expression</term>.</sentence>
+<event KT="Other" id="E13">
+<type class="Gene_expression"/>
+<theme idref="T37"/>
+<clue>Thus, c-Fos/c-Jun heterodimers might contribute to the repression of DRA gene <clueType>expression</clueType>.</clue>
+</event>
+<event KT="Fact" id="E14" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="E13"/>
+<cause idref="T33"/>
+<clue>Thus, c-Fos/c-Jun heterodimers might contribute to the <clueType>repression</clueType> <linkTheme>of</linkTheme> DRA gene expression.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

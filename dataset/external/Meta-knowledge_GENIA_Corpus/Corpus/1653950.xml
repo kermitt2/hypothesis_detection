@@ -1,0 +1,137 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1653950" created="14/11/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1653950</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="USF-related_transcription_factor" sem="Protein_molecule">USF-related transcription factor</term>, <term id="T2" lex="HIV-TF1" sem="Protein_molecule">HIV-TF1</term>, stimulates transcription of <term id="A20" sem="DNA_domain_or_region"><term id="T3" lex="human_immunodeficiency_virus-1" sem="Virus">human immunodeficiency virus-1</term></term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="T2"/>
+<clue>USF-related transcription factor, HIV-TF1, <clueType>stimulates</clueType> transcription of human immunodeficiency virus-1.</clue>
+</event>
+<event id="E2">
+<type class="Transcription"/>
+<theme idref="A20"/>
+<clue>USF-related transcription factor, HIV-TF1, stimulates <clueType>transcription</clueType> <linkTheme>of</linkTheme> human immunodeficiency virus-1.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T4" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> <term id="T5" lex="HIV-TF1" sem="Protein_molecule">HIV-TF1</term>, which binds to a <term id="A1" sem="DNA_domain_or_region">region about <term id="T6" lex="60_bp_upstream" sem="DNA_domain_or_region">60 bp upstream</term> from the enhancer of</term> the <term id="T7" lex="human_immunodeficiency_virus-1" sem="Virus">human immunodeficiency virus-1</term> (<term id="A7" sem="DNA_domain_or_region"><term id="T8" lex="HIV-1" sem="Virus">HIV-1</term></term>), was purified from <term id="T9" lex="human_B_cell" sem="Cell_natural">human B cells</term>.</sentence>
+<event KT="Fact" id="E3">
+<type class="Binding"/>
+<theme idref="T5"/>
+<theme idref="A1" idref1="A7"/>
+<clue>The transcription factor HIV-TF1, which <clueType>binds</clueType> <linkTheme>to</linkTheme> a region about 60 bp upstream from the enhancer of the human immunodeficiency virus-1 (HIV-1), was purified from human B cells.</clue>
+<comment>TPS: A1</comment></event>
+<sentence id="S3"><term id="T10" lex="HIV-TF1" sem="Protein_molecule">HIV-TF1</term> had a molecular weight of 39,000.</sentence>
+<sentence id="S4">Binding of <term id="T11" lex="HIV-TF1" sem="Protein_molecule">HIV-TF1</term> to the <term id="T12" lex="HIV_long_terminal_repeat" sem="DNA_domain_or_region"><term id="A2" sem="DNA_domain_or_region">HIV</term> long terminal repeat</term> (<term id="T13" lex="LTR" sem="DNA_domain_or_region">LTR</term>) activated transcription from the <term id="T14" lex="HIV_promoter" sem="DNA_domain_or_region">HIV promoter</term> in vitro.</sentence>
+<event id="E4">
+<type class="Binding"/>
+<theme idref="T11"/>
+<theme idref="A2" idref1="T13"/>
+<clue><clueType>Binding</clueType> <linkTheme>of</linkTheme> HIV-TF1 <linkTheme>to</linkTheme> the HIV long terminal repeat (LTR) activated transcription from the HIV promoter in vitro.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="E4"/>
+<clue>Binding of HIV-TF1 to the HIV long terminal repeat (LTR) <clueType>activated</clueType> transcription from the HIV promoter in vitro.</clue>
+</event>
+<event id="E6">
+<type class="Transcription"/>
+<theme idref="T14"/>
+<clue>Binding of HIV-TF1 to the HIV long terminal repeat (LTR) activated <clueType>transcription</clueType> <linkTheme>from</linkTheme> the HIV promoter in vitro.</clue>
+</event>
+<sentence id="S5">The <term id="T15" lex="HIV-TF1-binding_site" sem="DNA_domain_or_region"><term id="T16" lex="HIV-TF1" sem="Protein_molecule">HIV-TF1</term>-binding site</term> in <term id="T17" lex="HIV_LTR" sem="DNA_domain_or_region">HIV LTR</term> was similar to the <term id="A6" sem="DNA_domain_or_region">site</term> recognized by <term id="T18" lex="upstream_stimulatory_factor" sem="Protein_molecule">upstream stimulatory factor</term> (<term id="T19" lex="USF" sem="Protein_molecule">USF</term>) in the <term id="T20" lex="adenovirus_major_late_promoter" sem="DNA_domain_or_region">adenovirus major late promoter</term>.</sentence>
+<event KT="Analysis" id="E7">
+<type class="Binding"/>
+<theme idref="T19"/>
+<theme idref="A6" idref1="T20"/>
+<clue>The HIV-TF1-binding site in HIV LTR was similar to the site <clueType><clueKT>recognized</clueKT></clueType> <linkTheme>by</linkTheme> upstream stimulatory factor (USF) <linkTheme>in</linkTheme> the adenovirus major late promoter.</clue>
+</event>
+<sentence id="S6"><term id="A3" sem="DNA_domain_or_region">DNA</term>-binding properties of <term id="T21" lex="HIV-TF1" sem="Protein_molecule">HIV-TF1</term> suggested that <term id="T22" lex="HIV-TF1" sem="Protein_molecule">HIV-TF1</term> might be identical or related to <term id="T23" lex="USF" sem="Protein_molecule">USF</term>.</sentence>
+<event KT="Other" id="E8">
+<type class="Binding"/>
+<theme idref="A3"/>
+<theme idref="T21"/>
+<clue>DNA-<clueType>binding</clueType> properties <linkTheme>of</linkTheme> HIV-TF1 suggested that HIV-TF1 might be identical or related to USF.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E9" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="T22"/>
+<theme idref="T23"/>
+<clue>DNA-binding properties of HIV-TF1 <clueKT>suggested</clueKT> that HIV-TF1 <clueCL>might</clueCL> be <clueType>identical or related</clueType> <linkTheme>to</linkTheme> USF.</clue>
+</event>
+<sentence id="S7">Interestingly, treatment of purified <term id="T24" lex="HIV-TF1" sem="Protein_molecule">HIV-TF1</term> by <term id="T25" lex="phosphatase" sem="Protein_family_or_group">phosphatase</term> greatly reduced its <term id="A4" sem="DNA_domain_or_region">DNA</term>-binding activity, suggesting that <term id="T26" lex="phosphorylation" sem="Other">phosphorylation</term> of <term id="T27" lex="HIV-TF1" sem="Protein_molecule">HIV-TF1</term> was essential for <term id="T28" lex="DNA_binding" sem="Other"><term id="A5" sem="DNA_domain_or_region">DNA</term> binding</term>.</sentence>
+<event id="E10">
+<type class="Protein_amino_acid_dephosphorylation"/>
+<theme idref="T24"/>
+<clue>Interestingly, <clueType>treatment</clueType> <linkTheme>of</linkTheme> purified HIV-TF1 by phosphatase greatly reduced its DNA-binding activity, suggesting that phosphorylation of HIV-TF1 was essential for DNA binding.</clue>
+<comment>CAUTION, by phosphatase</comment></event>
+<event id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="T25"/>
+<clue>Interestingly, treatment of purified HIV-TF1 <linkCause>by</linkCause> phosphatase greatly reduced its DNA-binding activity, suggesting that phosphorylation of HIV-TF1 was essential for DNA binding.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E11">
+<type class="Negative_regulation"/>
+<theme idref="E15"/>
+<cause idref="E10"/>
+<clue>Interestingly, treatment of purified HIV-TF1 by phosphatase greatly <clueType>reduced</clueType> its DNA-binding activity, suggesting that phosphorylation of HIV-TF1 was essential for DNA binding.</clue>
+</event>
+<event id="E15">
+<type class="Binding"/>
+<theme idref="T24"/>
+<theme idref="A4"/>
+<clue>Interestingly, treatment of purified HIV-TF1 by phosphatase greatly reduced <corefTheme>its</corefTheme> DNA-<clueType>binding</clueType> activity, suggesting that phosphorylation of HIV-TF1 was essential for DNA binding.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T27"/>
+<clue>Interestingly, treatment of purified HIV-TF1 by phosphatase greatly reduced its DNA-binding activity, suggesting that <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> HIV-TF1 was essential for DNA binding.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E13" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="E12"/>
+<clue>Interestingly, treatment of purified HIV-TF1 by phosphatase greatly reduced its DNA-binding activity, <clueKT><clueCL>suggesting</clueCL></clueKT> that phosphorylation of HIV-TF1 was <clueType>essential</clueType> <linkTheme>for</linkTheme> DNA binding.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Binding"/>
+<theme idref="T27"/>
+<theme idref="A5"/>
+<clue>Interestingly, treatment of purified HIV-TF1 by phosphatase greatly reduced its DNA-binding activity, suggesting that phosphorylation of HIV-TF1 was essential for DNA <clueType>binding</clueType>.</clue>
+</event>
+<sentence id="S8">The disruption of <term id="T29" lex="HIV-TF1-binding_site" sem="DNA_domain_or_region"><term id="T30" lex="HIV-TF1" sem="Protein_molecule">HIV-TF1</term>-binding site</term> induced a 60% decrease in the level of transcription from the <term id="T31" lex="HIV_promoter" sem="DNA_domain_or_region">HIV promoter</term> in vivo.</sentence>
+<event id="E16">
+<type class="Negative_regulation"/>
+<theme idref="T29"/>
+<clue>The <clueType>disruption</clueType> <linkTheme>of</linkTheme> HIV-TF1-binding site induced a 60% decrease in the level of transcription from the HIV promoter in vivo.</clue>
+</event>
+<event Manner="High" id="E17">
+<type class="Negative_regulation"/>
+<theme idref="E18"/>
+<cause idref="E16"/>
+<clue>The disruption of HIV-TF1-binding site <clueType>induced</clueType> a <clueManner>60%</clueManner> <clueType>decrease</clueType> <linkTheme>in</linkTheme> the level of transcription from the HIV promoter in vivo.</clue>
+</event>
+<event id="E18">
+<type class="Transcription"/>
+<theme idref="T31"/>
+<clue>The disruption of HIV-TF1-binding site induced a 60% decrease in the level of <clueType>transcription</clueType> <linkTheme>from</linkTheme> the HIV promoter in vivo.</clue>
+</event>
+<sentence id="S9">These results suggest that <term id="T32" lex="HIV-TF1" sem="Protein_molecule">HIV-TF1</term> is involved in <term id="T33" lex="transcriptional_regulation" sem="Other">transcriptional regulation</term> of <term id="T34" lex="HIV-1" sem="Virus">HIV-1</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E19">
+<type class="Regulation"/>
+<theme idref="E20"/>
+<cause idref="T32"/>
+<clue>These results <clueKT><clueCL>suggest</clueCL></clueKT> that HIV-TF1 is <clueType>involved</clueType> <linkTheme>in</linkTheme> transcriptional regulation of HIV-1.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Regulation"/>
+<theme idref="T34"/>
+<clue>These results suggest that HIV-TF1 is involved in <clueType>transcriptional regulation</clueType> <linkTheme>of</linkTheme> HIV-1.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,345 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10092091" created="15/05/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10092091</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> regulates <cons id="T2" lex="(AND Fas/APO-1/CD95-mediated_apoptosis TCR-_mediated_apoptosis)" sem="(AND Other Other)"><frag id="F1"><term id="A1" sem="Protein_molecule">Fas</term>/<term id="A2" sem="Protein_molecule">APO-1</term>/<term id="A3" sem="Protein_molecule">CD95</term>-</frag> and <frag id="F2"><term id="A4" sem="Protein_complex">TCR</term>-</frag> <frag id="F3">mediated apoptosis</frag></cons> of <term id="T3" lex="T_lymphocyte" sem="Cell_natural">T lymphocytes</term>.</sentence>
+<event id="E1">
+<type class="Cellular_physiological_process"/>
+<theme idref="T3"/>
+<clue>NF-kappaB regulates Fas/APO-1/CD95- and TCR- mediated <clueType>apoptosis</clueType> <linkTheme>of</linkTheme> T lymphocytes.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="A1"/>
+<clue>NF-kappaB regulates Fas/APO-1/CD95- and TCR- <clueType>mediated</clueType> apoptosis of T lymphocytes.</clue>
+</event>
+<event id="E102">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="A4"/>
+<clue>NF-kappaB regulates Fas/APO-1/CD95- and TCR- <clueType>mediated</clueType> apoptosis of T lymphocytes.</clue>
+</event>
+<event id="E3">
+<type class="Regulation"/>
+<theme idref="E2"/>
+<cause idref="T1"/>
+<clue>NF-kappaB <clueType>regulates</clueType> Fas/APO-1/CD95- and TCR- mediated apoptosis of T lymphocytes.</clue>
+</event>
+<event id="E103">
+<type class="Regulation"/>
+<theme idref="E102"/>
+<cause idref="T1"/>
+<clue>NF-kappaB <clueType>regulates</clueType> Fas/APO-1/CD95- and TCR- mediated apoptosis of T lymphocytes.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The maintenance of <term id="T4" lex="lymphocyte_homeostasis" sem="Other"><term id="A19" sem="Cell_natural">lymphocyte</term> homeostasis</term> by <term id="T5" lex="apoptosis" sem="Other">apoptosis</term> is a <term id="T6" lex="critical_regulatory_mechanism" sem="Other">critical regulatory mechanism</term> in the <term id="T7" lex="normal_immune_system" sem="Other">normal immune system</term>.</sentence>
+<event KT="Other" id="E50">
+<type class="Physiological_process"/>
+<theme idref="A19"/>
+<clue>The maintenance of lymphocyte <clueType>homeostasis</clueType> by apoptosis is a critical regulatory mechanism in the normal immune system.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Regulation"/>
+<theme idref="E50"/>
+<cause idref="T5"/>
+<clue>The <clueType>maintenance</clueType> <linkTheme>of</linkTheme> lymphocyte homeostasis <linkCause>by</linkCause> apoptosis is a critical regulatory mechanism in the normal immune system.</clue>
+</event>
+<event KT="Fact" id="E51">
+<type class="Regulation"/>
+<theme idref="T7"/>
+<cause idref="E4"/>
+<clue>The maintenance of lymphocyte homeostasis by apoptosis is a critical <clueType>regulatory mechanism</clueType> <linkTheme>in</linkTheme> the normal immune system.</clue>
+<comment>NER T7 mod</comment></event>
+<sentence id="S3">The <term id="T8" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> <term id="T9" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> has been shown to play a role in protecting <term id="A7" sem="Cell_natural">cells</term> against <term id="A6" sem="Other">death</term> mediated by <term id="T10" lex="TNF" sem="Protein_family_or_group">TNF</term> We show here that <term id="T11" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> also has a role in regulating <term id="T13" lex="Fas" sem="Protein_molecule">Fas</term>/<term id="T14" lex="APO-1" sem="Protein_molecule">APO-1</term>/<term id="T15" lex="CD95" sem="Protein_molecule">CD95</term>-mediated <term id="A8" sem="Other">death</term>, a major pathway of <term id="T16" lex="peripheral_T_cell_death" sem="Other"><term id="T17" lex="peripheral_T_cell" sem="Cell_natural">peripheral T cell</term> death</term>.</sentence>
+<event KT="Other" id="E5">
+<type class="Cellular_physiological_process"/>
+<theme idref="A7"/>
+<clue>The transcription factor NF-kappaB has been shown to play a role in protecting cells against <clueType>death</clueType> mediated by TNF We show here that NF-kappaB also has a role in regulating Fas/APO-1/CD95-mediated death, a major pathway of peripheral T cell death.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="T10"/>
+<clue>The transcription factor NF-kappaB has been shown to play a role in protecting cells against death <clueType>mediated</clueType> <linkCause>by</linkCause> TNF We show here that NF-kappaB also has a role in regulating Fas/APO-1/CD95-mediated death, a major pathway of peripheral T cell death.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Negative_regulation"/>
+<theme idref="E6"/>
+<clue>The transcription factor NF-kappaB has been shown to play a role in <clueType>protecting</clueType> cells against death mediated by TNF We show here that NF-kappaB also has a role in regulating Fas/APO-1/CD95-mediated death, a major pathway of peripheral T cell death.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="T9"/>
+<clue>The transcription factor NF-kappaB <clueSource>has been</clueSource> <clueKT>shown</clueKT> to <clueType>play a role</clueType> <linkTheme>in</linkTheme> protecting cells against death mediated by TNF We show here that NF-kappaB also has a role in regulating Fas/APO-1/CD95-mediated death, a major pathway of peripheral T cell death.</clue>
+<comment>SENTENCE ERROR IN S3: PERIOD MISSING</comment></event>
+<event KT="Other" id="E9">
+<type class="Cellular_physiological_process"/>
+<theme idref="T17"/>
+<clue>The transcription factor NF-kappaB has been shown to play a role in protecting cells against death mediated by TNF We show here that NF-kappaB also has a role in regulating Fas/APO-1/CD95-mediated death, a major pathway of peripheral T cell <clueType>death</clueType>.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="T13"/>
+<clue>The transcription factor NF-kappaB has been shown to play a role in protecting cells against death mediated by TNF We show here that NF-kappaB also has a role in regulating Fas/APO-1/CD95-<clueType>mediated</clueType> <corefTheme>death</corefTheme>, a major pathway of peripheral T cell death.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Regulation"/>
+<theme idref="E10"/>
+<clue>The transcription factor NF-kappaB has been shown to play a role in protecting cells against death mediated by TNF We show here that NF-kappaB also has a role in <clueType>regulating</clueType> Fas/APO-1/CD95-mediated death, a major pathway of peripheral T cell death.</clue>
+</event>
+<event KT="Analysis" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<cause idref="T11"/>
+<clue>The transcription factor NF-kappaB has been shown to play a role in protecting cells against death mediated by TNF We <clueKT>show</clueKT> here that NF-kappaB also <clueType>has a role</clueType> <linkTheme>in</linkTheme> regulating Fas/APO-1/CD95-mediated death, a major pathway of peripheral T cell death.</clue>
+</event>
+<sentence id="S4">Transfection of <term id="T18" lex="Jurkat_cell" sem="Cell_cultured">Jurkat cells</term> with the <term id="T19" lex="NF-kappaB_subunit" sem="Protein_molecule">NF-kappaB subunits</term> <term id="T20" lex="p50" sem="Protein_molecule">p50</term> and <term id="T21" lex="p65" sem="Protein_molecule">p65</term> confers resistance against <term id="A10" sem="Protein_molecule">Fas</term>-mediated <term id="T23" lex="apoptosis" sem="Other">apoptosis</term>.</sentence>
+<event KT="Method" id="E113">
+<type class="Gene_expression"/>
+<theme idref="T20"/>
+<clue><clueType>Transfection</clueType> of Jurkat cells <linkTheme>with</linkTheme> the NF-kappaB subunits p50 and p65 confers resistance against Fas-mediated apoptosis.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event KT="Method" id="E114">
+<type class="Gene_expression"/>
+<theme idref="T21"/>
+<clue><clueType>Transfection</clueType> of Jurkat cells <linkTheme>with</linkTheme> the NF-kappaB subunits p50 and p65 confers resistance against Fas-mediated apoptosis.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event KT="Method" id="E115">
+<type class="Positive_regulation"/>
+<theme idref="E113"/>
+<clue><clueType>Transfection</clueType> of <clueLoc>Jurkat cells</clueLoc> with the NF-kappaB subunits p50 and p65 confers resistance against Fas-mediated apoptosis.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event KT="Method" id="E116">
+<type class="Positive_regulation"/>
+<theme idref="E114"/>
+<clue><clueType>Transfection</clueType> of <clueLoc>Jurkat cells</clueLoc> with the NF-kappaB subunits p50 and p65 confers resistance against Fas-mediated apoptosis.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event KT="Other" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="T23"/>
+<cause idref="A10"/>
+<clue>Transfection of Jurkat cells with the NF-kappaB subunits p50 and p65 confers resistance against Fas-<clueType>mediated</clueType> apoptosis.</clue>
+</event>
+<event id="E15">
+<type class="Negative_regulation"/>
+<theme idref="E14"/>
+<cause idref="E115"/>
+<clue>Transfection of Jurkat cells with the NF-kappaB subunits p50 and p65 <clueType>confers resistance</clueType> <linkTheme>against</linkTheme> Fas-mediated apoptosis.</clue>
+<comment>RESISTANCE</comment></event>
+<event id="E215">
+<type class="Negative_regulation"/>
+<theme idref="E14"/>
+<cause idref="E116"/>
+<clue>Transfection of Jurkat cells with the NF-kappaB subunits p50 and p65 <clueType>confers resistance</clueType> <linkTheme>against</linkTheme> Fas-mediated apoptosis.</clue>
+<comment>RESISTANCE</comment></event>
+<sentence id="S5">Reciprocally, inhibition of <term id="T24" lex="NF-kappaB_activation" sem="Other"><term id="T25" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activation</term> by a <term id="T26" lex="soluble_peptide_inhibitor" sem="Protein_molecule"><term id="T27" lex="soluble_peptide" sem="Peptide">soluble peptide</term> inhibitor</term> or a dominant form of the <term id="T28" lex="NF-kappaB_inhibitor" sem="Protein_molecule"><term id="T29" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> inhibitor</term>, <term id="T30" lex="IkappaB" sem="Protein_molecule">IkappaB</term>, makes the cells more susceptible to <term id="A11" sem="Protein_molecule">Fas</term>-mediated <term id="T32" lex="apoptosis" sem="Other">apoptosis</term>.</sentence>
+<event KT="Other" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T25"/>
+<clue>Reciprocally, inhibition of NF-kappaB <clueType>activation</clueType> by a soluble peptide inhibitor or a dominant form of the NF-kappaB inhibitor, IkappaB, makes the cells more susceptible to Fas-mediated apoptosis.</clue>
+</event>
+<event id="E17">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<cause idref="T26"/>
+<clue>Reciprocally, <clueType>inhibition</clueType> <linkTheme>of</linkTheme> NF-kappaB activation <linkCause>by</linkCause> a soluble peptide inhibitor or a dominant form of the NF-kappaB inhibitor, IkappaB, makes the cells more susceptible to Fas-mediated apoptosis.</clue>
+</event>
+<event id="E18">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<cause idref="T30"/>
+<clue>Reciprocally, <clueType>inhibition</clueType> <linkTheme>of</linkTheme> NF-kappaB activation <linkCause>by</linkCause> a soluble peptide inhibitor or a dominant form of the NF-kappaB inhibitor, IkappaB, makes the cells more susceptible to Fas-mediated apoptosis.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation"/>
+<theme idref="T32"/>
+<cause idref="A11"/>
+<clue>Reciprocally, inhibition of NF-kappaB activation by a soluble peptide inhibitor or a dominant form of the NF-kappaB inhibitor, IkappaB, makes the cells more susceptible to Fas-<clueType>mediated</clueType> apoptosis.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="E17"/>
+<clue>Reciprocally, inhibition of NF-kappaB activation by a soluble peptide inhibitor or a dominant form of the NF-kappaB inhibitor, IkappaB, <clueType>makes</clueType> <clueLoc>the cells</clueLoc> <clueType>more susceptible</clueType> <linkTheme>to</linkTheme> Fas-mediated apoptosis.</clue>
+<comment>SUSCEPTIBILITY</comment></event>
+<event id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="E18"/>
+<clue>Reciprocally, inhibition of NF-kappaB activation by a soluble peptide inhibitor or a dominant form of the NF-kappaB inhibitor, IkappaB, <clueType>makes</clueType> <clueLoc>the cells</clueLoc> <clueType>more susceptible</clueType> <linkTheme>to</linkTheme> Fas-mediated apoptosis.</clue>
+<comment>SUSCEPTIBILITY</comment></event>
+<sentence id="S6">Furthermore, inhibition of <term id="T33" lex="NF-kappaB_activation" sem="Other"><term id="T34" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activation</term> by a <term id="A12" sem="Peptide">soluble peptide inhibitor</term> rendered a <term id="T35" lex="T_cell_hybridoma" sem="Cell_cultured">T cell hybridoma</term> more susceptible to <term id="A13" sem="Protein_complex">TCR</term>-mediated <term id="T37" lex="apoptosis" sem="Other">apoptosis</term>.</sentence>
+<event KT="Other" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="T34"/>
+<clue>Furthermore, inhibition of NF-kappaB <clueType>activation</clueType> by a soluble peptide inhibitor rendered a T cell hybridoma more susceptible to TCR-mediated apoptosis.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation"/>
+<theme idref="E22"/>
+<cause idref="A12"/>
+<clue>Furthermore, <clueType>inhibition</clueType> <linkTheme>of</linkTheme> NF-kappaB activation <linkCause>by</linkCause> a soluble peptide inhibitor rendered a T cell hybridoma more susceptible to TCR-mediated apoptosis.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation"/>
+<theme idref="T37"/>
+<cause idref="A13"/>
+<clue>Furthermore, inhibition of NF-kappaB activation by a soluble peptide inhibitor rendered a T cell hybridoma more susceptible to TCR-<clueType>mediated</clueType> apoptosis.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation"/>
+<theme idref="E24"/>
+<cause idref="E23"/>
+<clue>Furthermore, inhibition of NF-kappaB activation by a soluble peptide inhibitor <clueType>rendered</clueType> a <clueLoc>T cell hybridoma</clueLoc> <clueType>more susceptible</clueType> <linkTheme>to</linkTheme> TCR-mediated apoptosis.</clue>
+<comment>SUSCEPTIBILITY</comment></event>
+<sentence id="S7">Correspondingly, transfection of <term id="T38" lex="p50" sem="Protein_molecule">p50</term> and <term id="T39" lex="p65" sem="Protein_molecule">p65</term> provided considerable protection from <term id="A14" sem="Protein_complex">TCR</term>-mediated <term id="T40" lex="apoptosis" sem="Other">apoptosis</term>.</sentence>
+<event KT="Method" id="E126">
+<type class="Gene_expression"/>
+<theme idref="T38"/>
+<clue>Correspondingly, <clueType>transfection</clueType> <linkTheme>of</linkTheme> p50 and p65 provided considerable protection from TCR-mediated apoptosis.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event KT="Method" id="E127">
+<type class="Gene_expression"/>
+<theme idref="T39"/>
+<clue>Correspondingly, <clueType>transfection</clueType> <linkTheme>of</linkTheme> p50 and p65 provided considerable protection from TCR-mediated apoptosis.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event KT="Method" id="E128">
+<type class="Positive_regulation"/>
+<theme idref="E126"/>
+<clue>Correspondingly, <clueType>transfection</clueType> of p50 and p65 provided considerable protection from TCR-mediated apoptosis.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event KT="Method" id="E129">
+<type class="Positive_regulation"/>
+<theme idref="E127"/>
+<clue>Correspondingly, <clueType>transfection</clueType> of p50 and p65 provided considerable protection from TCR-mediated apoptosis.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event KT="Other" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="T40"/>
+<cause idref="A14"/>
+<clue>Correspondingly, transfection of p50 and p65 provided considerable protection from TCR-<clueType>mediated</clueType> apoptosis.</clue>
+</event>
+<event Manner="High" id="E28">
+<type class="Negative_regulation"/>
+<theme idref="E27"/>
+<cause idref="E128"/>
+<clue>Correspondingly, transfection of p50 and p65 <clueType>provided</clueType> <clueManner>considerable</clueManner> <clueType>protection</clueType> <linkTheme>from</linkTheme> TCR-mediated apoptosis.</clue>
+</event>
+<event Manner="High" id="E130">
+<type class="Negative_regulation"/>
+<theme idref="E27"/>
+<cause idref="E129"/>
+<clue>Correspondingly, transfection of p50 and p65 <clueType>provided</clueType> <clueManner>considerable</clueManner> <clueType>protection</clueType> <linkTheme>from</linkTheme> TCR-mediated apoptosis.</clue>
+</event>
+<sentence id="S8">These observations were corroborated by studies on <term id="T42" lex="Fas" sem="Protein_molecule">Fas</term>-mediated <term id="A15" sem="Other">death</term> in <term id="T43" lex="primary_T_cell" sem="Cell_natural">primary T cells</term>.</sentence>
+<event KT="Investigation" id="E29">
+<type class="Positive_regulation"/>
+<theme idref="A15"/>
+<cause idref="T42"/>
+<clue>These observations were corroborated by <clueKT>studies</clueKT> on Fas-<clueType>mediated</clueType> death <clueLoc>in primary T cells</clueLoc>.</clue>
+</event>
+<sentence id="S9"><term id="T44" lex="concanavalin_A" sem="Organic_compound_other">Concanavalin A</term>-activated <term id="T45" lex="cycling_T_cell_blast" sem="Cell_cultured">cycling T cell blasts</term> from <term id="T46" lex="mouse" sem="Multicellular_organism_natural">mice</term> that are transgenic for the <term id="T47" lex="dominant_IkappaB_molecule" sem="Protein_molecule">dominant <term id="T48" lex="IkappaB" sem="Protein_molecule">IkappaB</term> molecule</term> have increased sensitivity to <term id="A16" sem="Protein_molecule">Fas</term>-mediated <term id="T50" lex="apoptosis" sem="Other">apoptosis</term>, associated with a <term id="T51" lex="down-regulation" sem="Other">down-regulation</term> of <term id="T52" lex="NF-kappaB_complex" sem="Protein_complex">NF-kappaB complexes</term> in the nucleus.</sentence>
+<event id="E30">
+<type class="Physiological_process"/>
+<theme idref="T45"/>
+<cause idref="T44"/>
+<clue>Concanavalin A-<clueType>activated</clueType> cycling T cell blasts from mice that are transgenic for the dominant IkappaB molecule have increased sensitivity to Fas-mediated apoptosis, associated with a down-regulation of NF-kappaB complexes in the nucleus.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation"/>
+<theme idref="T50"/>
+<cause idref="A16"/>
+<clue>Concanavalin A-activated cycling T cell blasts from mice that are transgenic for the dominant IkappaB molecule have increased sensitivity to Fas-<clueType>mediated</clueType> apoptosis, associated with a down-regulation of NF-kappaB complexes in the nucleus.</clue>
+</event>
+<event KT="Method" id="E55">
+<type class="Artificial_process"/>
+<theme idref="T48"/>
+<clue>Concanavalin A-activated cycling T cell blasts from <clueLoc>mice</clueLoc> that are <clueType>transgenic</clueType> <linkTheme>for</linkTheme> the dominant IkappaB molecule have increased sensitivity to Fas-mediated apoptosis, associated with a down-regulation of NF-kappaB complexes in the nucleus.</clue>
+</event>
+<event id="E155">
+<type class="Gene_expression"/>
+<theme idref="T48"/>
+<clue>Concanavalin A-activated cycling T cell blasts from mice that are <clueType>transgenic</clueType> <linkTheme>for</linkTheme> the dominant IkappaB molecule have increased sensitivity to Fas-mediated apoptosis, associated with a down-regulation of NF-kappaB complexes in the nucleus.</clue>
+</event>
+<event id="E156">
+<type class="Positive_regulation"/>
+<theme idref="T48"/>
+<clue>Concanavalin A-activated cycling T cell blasts from <clueLoc>mice</clueLoc> that are <clueType>transgenic</clueType> for the dominant IkappaB molecule have increased sensitivity to Fas-mediated apoptosis, associated with a down-regulation of NF-kappaB complexes in the nucleus.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation"/>
+<theme idref="E31"/>
+<clue><clueLoc>Concanavalin A-activated cycling T cell blasts from mice that are transgenic for the dominant IkappaB molecule</clueLoc> have <clueType>increased sensitivity</clueType> <linkTheme>to</linkTheme> Fas-mediated apoptosis, associated with a down-regulation of NF-kappaB complexes in the nucleus.</clue>
+<comment>SENSITIVITY</comment></event>
+<event KT="Other" id="E33">
+<type class="Negative_regulation"/>
+<theme idref="T52"/>
+<clue>Concanavalin A-activated cycling T cell blasts from mice that are transgenic for the dominant IkappaB molecule have increased sensitivity to Fas-mediated apoptosis, associated with a <clueType>down-regulation</clueType> <linkTheme>of</linkTheme> NF-kappaB complexes <clueLoc>in the nucleus</clueLoc>.</clue>
+</event>
+<event KT="Analysis" id="E34">
+<type class="Correlation"/>
+<theme idref="E32"/>
+<theme idref="E33"/>
+<clue>Concanavalin A-activated cycling T cell blasts from mice that are transgenic for the dominant IkappaB molecule have increased sensitivity to Fas-mediated apoptosis, <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> a down-regulation of NF-kappaB complexes in the nucleus.</clue>
+</event>
+<sentence id="S10">In addition, blocking <term id="T54" lex="TNF" sem="Protein_family_or_group">TNF</term>, itself a positive regulator of <term id="T55" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>, with <term id="T56" lex="neutralizing_antibody" sem="Protein_family_or_group">neutralizing antibodies</term> renders the cells more susceptible to <term id="A50" sem="Protein_family_or_group">anti-<term id="A17" sem="Protein_molecule">Fas</term></term>-mediated <term id="T58" lex="apoptosis" sem="Other">apoptosis</term>.</sentence>
+<event id="E35">
+<type class="Negative_regulation"/>
+<theme idref="T54"/>
+<cause idref="T56"/>
+<clue>In addition, <clueType>blocking</clueType> TNF, itself a positive regulator of NF-kappaB, <linkCause>with</linkCause> neutralizing antibodies renders the cells more susceptible to anti-Fas-mediated apoptosis.</clue>
+</event>
+<event id="E36">
+<type class="Positive_regulation"/>
+<theme idref="E70"/>
+<cause idref="E35"/>
+<clue>In addition, blocking TNF, itself a positive regulator of NF-kappaB, with neutralizing antibodies <clueType>renders</clueType> <clueLoc>the cells</clueLoc> <clueType>more susceptible</clueType> <linkTheme>to</linkTheme> anti-Fas-mediated apoptosis.</clue>
+<comment>SUSCEPTIBILITY</comment></event>
+<event id="E70">
+<type class="Positive_regulation"/>
+<theme idref="T58"/>
+<cause idref="A50"/>
+<clue>In addition, blocking TNF, itself a positive regulator of NF-kappaB, with neutralizing antibodies renders the cells more susceptible to anti-Fas-<clueType>mediated</clueType> apoptosis.</clue>
+</event>
+<sentence id="S11">In summary, our results provide compelling evidence that <term id="T59" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> protects against <term id="T61" lex="Fas" sem="Protein_molecule">Fas</term>-mediated <term id="A18" sem="Other">death</term> and is likely to be an important regulator of <term id="T62" lex="T_cell_homeostasis" sem="Other"><term id="A20" sem="Cell_natural">T cell</term> homeostasis</term> and <term id="T63" lex="T_cell_tolerance" sem="Other">tolerance</term>.</sentence>
+<event KT="Other" id="E37">
+<type class="Positive_regulation"/>
+<theme idref="A18"/>
+<cause idref="T61"/>
+<clue>In summary, our results provide compelling evidence that NF-kappaB protects against Fas-<clueType>mediated</clueType> death and is likely to be an important regulator of T cell homeostasis and tolerance.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E38">
+<type class="Negative_regulation"/>
+<theme idref="E37"/>
+<cause idref="T59"/>
+<clue><clueKT>In summary</clueKT>, our results provide compelling <clueCL>evidence</clueCL> that NF-kappaB <clueType>protects</clueType> <linkTheme>against</linkTheme> Fas-mediated death and is likely to be an important regulator of T cell homeostasis and tolerance.</clue>
+</event>
+<event KT="Other" id="E39">
+<type class="Physiological_process"/>
+<theme idref="A20"/>
+<clue>In summary, our results provide compelling evidence that NF-kappaB protects against Fas-mediated death and is likely to be an important regulator of T cell <clueType>homeostasis</clueType> and tolerance.</clue>
+</event>
+<event KT="Other" id="E40">
+<type class="Physiological_process"/>
+<theme idref="A20"/>
+<clue>In summary, our results provide compelling evidence that NF-kappaB protects against Fas-mediated death and is likely to be an important regulator of T cell homeostasis and <clueType>tolerance</clueType>.</clue>
+<comment>TOLERANCE</comment></event>
+<event CL="L2" KT="Analysis" id="E41" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E39"/>
+<cause idref="T59"/>
+<clue><clueKT>In summary</clueKT>, our results provide compelling evidence that NF-kappaB protects against Fas-mediated death and is <clueCL>likely</clueCL> to <clueType>be</clueType> an important <clueType>regulator</clueType> <linkTheme>of</linkTheme> T cell homeostasis and tolerance.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E42" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E40"/>
+<cause idref="T59"/>
+<clue><clueKT>In summary</clueKT>, our results provide compelling evidence that NF-kappaB protects against Fas-mediated death and is <clueCL>likely</clueCL> to <clueType>be</clueType> an important <clueType>regulator</clueType> <linkTheme>of</linkTheme> T cell homeostasis and tolerance.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,15 @@
+T15	Adverse_effect 68 75	induced
+T16	Adverse_effect 184 190	nduced
+T19	Adverse_effect 127 129	to
+T22	Adverse_effect 453 464	experienced
+T23	Potential_therapeutic_effect 360 369	treatment
+T25	Adverse_effect 856 863	induced
+R1	Subject_Disorder Arg1:T20 Arg2:T8
+R2	Subject_Disorder Arg1:T24 Arg2:T12
+E1	Adverse_effect:T15 affects:T2 has_agent:T1
+E2	Adverse_effect:T16 affects:T5 has_agent:T4
+E3	Adverse_effect:T19 has_agent:T3 affects:T18 has_cue:T26
+E4	Adverse_effect:T22 affects:T21 has_agent:T9 has_subject:T20 affects:T8
+E5	Potential_therapeutic_effect:T23 has_agent:T7
+E6	Adverse_effect:T25 has_agent:T13 has_subject:T24 affects:T14
+A1	Manner E3 Low

@@ -1,0 +1,124 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1680914" created="05/04/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1680914</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="anti-CD2_receptor_antibody" sem="Protein_family_or_group">Anti-CD2 receptor antibodies</term> activate the <term id="T2" lex="HIV_long_terminal_repeat" sem="DNA_domain_or_region"><term id="A111" sem="Virus">HIV</term> long terminal repeat</term> in <term id="T3" lex="T_lymphocyte" sem="Cell_natural">T lymphocytes</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation"/>
+<theme idref="T2"/>
+<cause idref="T1"/>
+<clue>Anti-CD2 receptor antibodies <clueType>activate</clueType> the HIV long terminal repeat <clueLoc>in T lymphocytes</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T4" lex="CD2_T_lymphocyte_glycoprotein_surface_molecule" sem="Protein_molecule">CD2 T lymphocyte glycoprotein surface molecule</term> mediates both <term id="A1" sem="Cell_natural">cell</term> to <term id="A4" sem="Cell_natural">cell</term> adhesion and <term id="T5" lex="T_cell_activation" sem="Other"><term id="A5" sem="Cell_natural">T cell</term> activation</term>, two processes that are involved in the spread of <term id="T6" lex="HIV_infection" sem="Other"><term id="A2" sem="Virus">HIV</term> infection</term>.</sentence>
+<event KT="Other" id="E18">
+<type class="Cell_adhesion"/>
+<theme idref="A1"/>
+<theme idref="A4"/>
+<clue>The CD2 T lymphocyte glycoprotein surface molecule mediates both cell <linkTheme>to</linkTheme> cell <clueType>adhesion</clueType> and T cell activation, two processes that are involved in the spread of HIV infection.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Physiological_process"/>
+<theme idref="A5"/>
+<clue>The CD2 T lymphocyte glycoprotein surface molecule mediates both cell to cell adhesion and T cell <clueType>activation</clueType>, two processes that are involved in the spread of HIV infection.</clue>
+</event>
+<event KT="Fact" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="A1"/>
+<cause idref="T4"/>
+<clue>The CD2 T lymphocyte glycoprotein surface molecule <clueType>mediates</clueType> both cell to cell adhesion and T cell activation, two processes that are involved in the spread of HIV infection.</clue>
+</event>
+<event KT="Fact" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="T5"/>
+<cause idref="T4"/>
+<clue>The CD2 T lymphocyte glycoprotein surface molecule <clueType>mediates</clueType> both cell to cell adhesion and T cell activation, two processes that are involved in the spread of HIV infection.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="A2"/>
+<clue>The CD2 T lymphocyte glycoprotein surface molecule mediates both cell to cell adhesion and T cell activation, two processes that are involved in the spread of HIV <clueType>infection</clueType>.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<clue>The CD2 T lymphocyte glycoprotein surface molecule mediates both cell to cell adhesion and T cell activation, two processes that are involved in the <clueType>spread</clueType> <linkTheme>of</linkTheme> HIV infection.</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="E18"/>
+<clue>The CD2 T lymphocyte glycoprotein surface molecule mediates both cell to cell adhesion and T cell activation, <corefCause>two processes</corefCause> that are <clueType>involved</clueType> <linkTheme>in</linkTheme> the spread of HIV infection.</clue>
+</event>
+<event KT="Fact" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="E19"/>
+<clue>The CD2 T lymphocyte glycoprotein surface molecule mediates both cell to cell adhesion and T cell activation, <corefCause>two processes</corefCause> that are <clueType>involved</clueType> <linkTheme>in</linkTheme> the spread of HIV infection.</clue>
+</event>
+<sentence id="S3">Treatment of <term id="T7" lex="chronically_HIV-infected_PBMC" sem="Cell_cultured">chronically <term id="A102" sem="Virus">HIV</term>-infected <term id="A101" sem="Cell_natural">PBMC</term></term> with <term id="T8" lex="anti-CD2_mAb" sem="Protein_family_or_group">anti-CD2 mAb</term> has been shown to induce the expression of <term id="T9" lex="infectious_virus" sem="Virus">infectious virus</term> from these cultures.</sentence>
+<event id="E8">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="A101"/>
+<theme idref="A102"/>
+<clue>Treatment of chronically HIV-<clueType>infected</clueType> PBMC with anti-CD2 mAb has been shown to induce the expression of infectious virus from these cultures.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Viral_life_cycle"/>
+<theme idref="T9"/>
+<clue>Treatment of chronically HIV-infected PBMC with anti-CD2 mAb has been shown to induce the <clueType>expression</clueType> <linkTheme>of</linkTheme> infectious virus <clueLoc>from these cultures</clueLoc>.</clue>
+</event>
+<event KT="Fact" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="T8"/>
+<clue><linkCause>Treatment</linkCause> of <clueLoc>chronically HIV-infected PBMC</clueLoc> <linkCause>with</linkCause> anti-CD2 mAb has been shown to <clueType>induce</clueType> the expression of infectious virus from these cultures.</clue>
+</event>
+<sentence id="S4">In this study we investigated the mechanisms whereby <term id="T10" lex="anti-CD2_antibody" sem="Protein_family_or_group">anti-CD2 antibodies</term> stimulate <term id="T11" lex="viral_production" sem="Other">viral production</term>.</sentence>
+<event KT="Fact" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="T11"/>
+<cause idref="T10"/>
+<clue>In this study we investigated the mechanisms whereby anti-CD2 antibodies <clueType>stimulate</clueType> viral production.</clue>
+</event>
+<sentence id="S5">We demonstrate that treatment of transiently transfected <term id="T12" lex="T_lymphocyte" sem="Cell_natural">T lymphocytes</term> with <term id="T13" lex="anti-CD2_antibody" sem="Protein_domain_or_region">anti-CD2 antibodies</term> results in activation of the <term id="T14" lex="HIV_long_terminal_repeat" sem="DNA_domain_or_region"><term id="A112" sem="Virus">HIV</term> long terminal repeat</term>.</sentence>
+<event id="E12">
+<type class="Artificial_process"/>
+<theme idref="T12"/>
+<clue>We demonstrate that treatment of transiently <clueType>transfected</clueType> T lymphocytes with anti-CD2 antibodies results in activation of the HIV long terminal repeat.</clue>
+</event>
+<event KT="Analysis" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T14"/>
+<cause idref="E12"/>
+<clue>We <clueKT>demonstrate</clueKT> that <linkCause>treatment</linkCause> of <clueLoc>transiently transfected T lymphocytes</clueLoc> <linkCause>with</linkCause> anti-CD2 antibodies <clueType>results in activation</clueType> <linkTheme>of</linkTheme> the HIV long terminal repeat.</clue>
+</event>
+<sentence id="S6">Furthermore, <term id="T15" lex="CAT_assay" sem="Other"><term id="T16" lex="CAT" sem="Protein_molecule">CAT</term> assays</term> using mutated <term id="T17" lex="HIV_long_terminal_repeat-CAT_construct" sem="DNA_molecule"><term id="T18" lex="HIV_long_terminal_repeat" sem="DNA_domain_or_region">HIV long terminal repeat</term>-CAT constructs</term> and <term id="T19" lex="gel_shift_assay" sem="Other">gel shift assays</term> demonstrate that this activation is dependent on the <term id="T20" lex="NF-kappa_B_enhancer" sem="DNA_domain_or_region"><term id="T21" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> enhancer</term>.</sentence>
+<event KT="Analysis" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="T20"/>
+<clue>Furthermore, <clueExperiment>CAT assays using mutated HIV long terminal repeat-CAT constructs</clueExperiment> and <clueExperiment>gel shift assays</clueExperiment> <clueKT>demonstrate</clueKT> that <corefTheme>this activation</corefTheme> is <clueType>dependent</clueType> <linkCause>on</linkCause> the NF-kappa B enhancer.</clue>
+</event>
+<sentence id="S7">These studies suggest that interaction of <term id="T22" lex="CD2" sem="Protein_molecule">CD2</term> with its natural <term id="T23" lex="ligand" sem="Other">ligand</term>, <term id="T24" lex="LFA-3" sem="Protein_molecule">LFA-3</term>, may play a role in <term id="T25" lex="regulation" sem="Other">regulation</term> of <term id="T26" lex="HIV_expression" sem="Other"><term id="A3" sem="Virus">HIV</term> expression</term>.</sentence>
+<event id="E15">
+<type class="Binding"/>
+<theme idref="T22"/>
+<theme idref="T24"/>
+<clue>These studies suggest that <clueType>interaction</clueType> <linkTheme>of</linkTheme> CD2 <linkTheme>with</linkTheme> its natural ligand, LFA-3, may play a role in regulation of HIV expression.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Gene_expression"/>
+<theme idref="A3"/>
+<clue>These studies suggest that interaction of CD2 with its natural ligand, LFA-3, may play a role in regulation of HIV <clueType>expression</clueType>.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E17" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E16"/>
+<cause idref="E15"/>
+<clue>These studies <clueKT>suggest</clueKT> that interaction of CD2 with its natural ligand, LFA-3, <clueCL>may</clueCL> <clueType>play a role in regulation</clueType> <linkTheme>of</linkTheme> HIV expression.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

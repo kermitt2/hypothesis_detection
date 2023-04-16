@@ -1,0 +1,382 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9804806" created="08/05/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9804806</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Role of <term id="T1" lex="IKK1" sem="Protein_molecule">IKK1</term> and <term id="T2" lex="IKK2" sem="Protein_molecule">IKK2</term> in <term id="T3" lex="lipopolysaccharide_signaling" sem="Other">lipopolysaccharide signaling</term> in <term id="T4" lex="human_monocytic_cell" sem="Cell_natural">human monocytic cells</term>.</sentence>
+<event KT="Investigation" id="E1">
+<type class="Regulation"/>
+<theme idref="T3"/>
+<cause idref="T1"/>
+<clue><clueType>Role</clueType> <linkCause>of</linkCause> IKK1 and IKK2 <linkTheme>in</linkTheme> lipopolysaccharide signaling <clueLoc>in human monocytic cells</clueLoc>.</clue>
+</event>
+<event KT="Investigation" id="E2">
+<type class="Regulation"/>
+<theme idref="T3"/>
+<cause idref="T2"/>
+<clue><clueType>Role</clueType> <linkCause>of</linkCause> IKK1 and IKK2 <linkTheme>in</linkTheme> lipopolysaccharide signaling <clueLoc>in human monocytic cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T5" lex="mononuclear_phagocyte" sem="Cell_natural">Mononuclear phagocytes</term> play a major role in <cons id="C6" lex="(AND immune_response inflammatory_response)" sem="(AND Other Other)"><frag id="F1">immune</frag> and <frag id="F2">inflammatory</frag> <frag id="F3">responses</frag></cons>.</sentence>
+<event KT="Fact" id="E3">
+<type class="Regulation"/>
+<theme idref="F1" idref1="F3"/>
+<cause idref="T5"/>
+<clue>Mononuclear phagocytes <clueType>play</clueType> a major <clueType>role</clueType> <linkTheme>in</linkTheme> immune and inflammatory responses.</clue>
+<comment>NER: T6-&gt;C6</comment></event>
+<event KT="Fact" id="E54">
+<type class="Regulation"/>
+<theme idref="F2" idref1="F3"/>
+<cause idref="T5"/>
+<clue>Mononuclear phagocytes <clueType>play</clueType> a major <clueType>role</clueType> <linkTheme>in</linkTheme> immune and inflammatory responses.</clue>
+</event>
+<sentence id="S3"><term id="T7" lex="bacterial_lipopolysaccharide" sem="Lipid">Bacterial lipopolysaccharide</term> (<term id="T8" lex="LPS" sem="Lipid">LPS</term>) induces <term id="T9" lex="monocyte" sem="Cell_natural">monocytes</term> to express <term id="A1" sem="DNA_domain_or_region">a variety of genes</term> by activating the <term id="T10" lex="NF-kappaB/Rel_transcription_factor_family" sem="Protein_family_or_group"><term id="T11" lex="NF-kappaB/Rel" sem="Protein_molecule">NF-kappaB/Rel</term> transcription factor family</term>.</sentence>
+<event KT="Fact" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="E6"/>
+<clue>Bacterial lipopolysaccharide (LPS) <clueType>induces</clueType> monocytes to express a variety of genes <linkCause>by</linkCause> activating the NF-kappaB/Rel transcription factor family.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Gene_expression"/>
+<theme idref="A1"/>
+<clue>Bacterial lipopolysaccharide (LPS) induces <clueLoc>monocytes</clueLoc> to <clueType>express</clueType> a variety of genes by activating the NF-kappaB/Rel transcription factor family.</clue>
+<comment>TPS: A1</comment></event>
+<event KT="Other" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="T11"/>
+<cause idref="T8"/>
+<clue>Bacterial lipopolysaccharide (LPS) induces monocytes to express a variety of genes by <clueType>activating</clueType> the NF-kappaB/Rel transcription factor family.</clue>
+</event>
+<sentence id="S4">Recently, we have reported that the <cons id="C1" lex="(AND tumor_necrosis_factor_signaling_pathway interleukin_1_signaling_pathway)" sem="(AND Other Other)"><frag id="F4"><term id="T12" lex="tumor_necrosis_factor" sem="Protein_family_or_group">tumor necrosis factor</term></frag> and <frag id="F5"><term id="T14" lex="interleukin_1" sem="Protein_molecule">interleukin 1</term></frag> <frag id="F6">signaling pathways</frag></cons> activate two kinases, <term id="T15" lex="IKK1" sem="Protein_molecule">IKK1</term> and <term id="T16" lex="IKK2" sem="Protein_molecule">IKK2</term>.</sentence>
+<event KT="Analysis" Source="Other" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T15"/>
+<cause idref="F4" idref1="F6"/>
+<clue><clueSource>Recently</clueSource>, we have <clueKT>reported</clueKT> that the tumor necrosis factor and interleukin 1 signaling pathways <clueType>activate</clueType> two kinases, IKK1 and IKK2.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T16"/>
+<cause idref="F4" idref1="F6"/>
+<clue><clueSource>Recently</clueSource>, we have <clueKT>reported</clueKT> that the tumor necrosis factor and interleukin 1 signaling pathways <clueType>activate</clueType> two kinases, IKK1 and IKK2.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E55">
+<type class="Positive_regulation"/>
+<theme idref="T15"/>
+<cause idref="F5" idref1="F6"/>
+<clue><clueSource>Recently</clueSource>, we have <clueKT>reported</clueKT> that the tumor necrosis factor and interleukin 1 signaling pathways <clueType>activate</clueType> two kinases, IKK1 and IKK2.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E56">
+<type class="Positive_regulation"/>
+<theme idref="T16"/>
+<cause idref="F5" idref1="F6"/>
+<clue><clueSource>Recently</clueSource>, we have <clueKT>reported</clueKT> that the tumor necrosis factor and interleukin 1 signaling pathways <clueType>activate</clueType> two kinases, IKK1 and IKK2.</clue>
+</event>
+<sentence id="S5">Phosphorylation of the <term id="T17" lex="IkappaB_cytoplasmic_inhibitor" sem="Protein_family_or_group"><term id="T18" lex="IkappaB" sem="Protein_molecule">IkappaB</term> cytoplasmic inhibitors</term>, <term id="T19" lex="IkappaBalpha" sem="Protein_molecule">IkappaBalpha</term>, <term id="T20" lex="IkappaBbeta" sem="Protein_molecule">IkappaBbeta</term>, and <term id="T21" lex="IkappaBepsilon" sem="Protein_molecule">IkappaBepsilon</term>, by these kinases triggers <term id="A3" sem="Other">proteolytic degradation</term> and the release of <term id="T22" lex="NF-kappaB/Rel_protein" sem="Protein_family_or_group">NF-kappaB/Rel proteins</term> into the nucleus.</sentence>
+<event id="E9">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T19"/>
+<clue><clueType>Phosphorylation</clueType> <linkTheme>of</linkTheme> the <corefTheme>IkappaB cytoplasmic inhibitors</corefTheme>, IkappaBalpha, IkappaBbeta, and IkappaBepsilon, by these kinases triggers proteolytic degradation and the release of NF-kappaB/Rel proteins into the nucleus.</clue>
+</event>
+<event id="E59">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="T15"/>
+<clue>Phosphorylation of the IkappaB cytoplasmic inhibitors, IkappaBalpha, IkappaBbeta, and IkappaBepsilon, <linkCause>by</linkCause> <corefCause>these kinases</corefCause> triggers proteolytic degradation and the release of NF-kappaB/Rel proteins into the nucleus.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E10">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T20"/>
+<clue><clueType>Phosphorylation</clueType> <linkTheme>of</linkTheme> the <corefTheme>IkappaB cytoplasmic inhibitors</corefTheme>, IkappaBalpha, IkappaBbeta, and IkappaBepsilon, by these kinases triggers proteolytic degradation and the release of NF-kappaB/Rel proteins into the nucleus.</clue>
+</event>
+<event id="E60">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="T15"/>
+<clue>Phosphorylation of the IkappaB cytoplasmic inhibitors, IkappaBalpha, IkappaBbeta, and IkappaBepsilon, <linkCause>by</linkCause> <corefCause>these kinases</corefCause> triggers proteolytic degradation and the release of NF-kappaB/Rel proteins into the nucleus.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E11">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T21"/>
+<clue><clueType>Phosphorylation</clueType> <linkTheme>of</linkTheme> the <corefTheme>IkappaB cytoplasmic inhibitors</corefTheme>, IkappaBalpha, IkappaBbeta, and IkappaBepsilon, by these kinases triggers proteolytic degradation and the release of NF-kappaB/Rel proteins into the nucleus.</clue>
+</event>
+<event id="E61">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<cause idref="T15"/>
+<clue>Phosphorylation of the IkappaB cytoplasmic inhibitors, IkappaBalpha, IkappaBbeta, and IkappaBepsilon, <linkCause>by</linkCause> <corefCause>these kinases</corefCause> triggers proteolytic degradation and the release of NF-kappaB/Rel proteins into the nucleus.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E12">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T19"/>
+<clue><clueType>Phosphorylation</clueType> <linkTheme>of</linkTheme> the <corefTheme>IkappaB cytoplasmic inhibitors</corefTheme>, IkappaBalpha, IkappaBbeta, and IkappaBepsilon, by these kinases triggers proteolytic degradation and the release of NF-kappaB/Rel proteins into the nucleus.</clue>
+</event>
+<event id="E62">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="T16"/>
+<clue>Phosphorylation of the IkappaB cytoplasmic inhibitors, IkappaBalpha, IkappaBbeta, and IkappaBepsilon, <linkCause>by</linkCause> <corefCause>these kinases</corefCause> triggers proteolytic degradation and the release of NF-kappaB/Rel proteins into the nucleus.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E13">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T20"/>
+<clue><clueType>Phosphorylation</clueType> <linkTheme>of</linkTheme> the <corefTheme>IkappaB cytoplasmic inhibitors</corefTheme>, IkappaBalpha, IkappaBbeta, and IkappaBepsilon, by these kinases triggers proteolytic degradation and the release of NF-kappaB/Rel proteins into the nucleus.</clue>
+</event>
+<event id="E63">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="T16"/>
+<clue>Phosphorylation of the IkappaB cytoplasmic inhibitors, IkappaBalpha, IkappaBbeta, and IkappaBepsilon, <linkCause>by</linkCause> <corefCause>these kinases</corefCause> triggers proteolytic degradation and the release of NF-kappaB/Rel proteins into the nucleus.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E14">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T21"/>
+<clue><clueType>Phosphorylation</clueType> <linkTheme>of</linkTheme> the <corefTheme>IkappaB cytoplasmic inhibitors</corefTheme>, IkappaBalpha, IkappaBbeta, and IkappaBepsilon, by these kinases triggers proteolytic degradation and the release of NF-kappaB/Rel proteins into the nucleus.</clue>
+</event>
+<event id="E64">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="T16"/>
+<clue>Phosphorylation of the IkappaB cytoplasmic inhibitors, IkappaBalpha, IkappaBbeta, and IkappaBepsilon, <linkCause>by</linkCause> <corefCause>these kinases</corefCause> triggers proteolytic degradation and the release of NF-kappaB/Rel proteins into the nucleus.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E15">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<cause idref="E9"/>
+<clue>Phosphorylation of the IkappaB cytoplasmic inhibitors, IkappaBalpha, IkappaBbeta, and IkappaBepsilon, by these kinases <clueType>triggers</clueType> proteolytic degradation and the release of NF-kappaB/Rel proteins into the nucleus.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<cause idref="E10"/>
+<clue>Phosphorylation of the IkappaB cytoplasmic inhibitors, IkappaBalpha, IkappaBbeta, and IkappaBepsilon, by these kinases <clueType>triggers</clueType> proteolytic degradation and the release of NF-kappaB/Rel proteins into the nucleus.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<cause idref="E11"/>
+<clue>Phosphorylation of the IkappaB cytoplasmic inhibitors, IkappaBalpha, IkappaBbeta, and IkappaBepsilon, by these kinases <clueType>triggers</clueType> proteolytic degradation and the release of NF-kappaB/Rel proteins into the nucleus.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<cause idref="E12"/>
+<clue>Phosphorylation of the IkappaB cytoplasmic inhibitors, IkappaBalpha, IkappaBbeta, and IkappaBepsilon, by these kinases <clueType>triggers</clueType> proteolytic degradation and the release of NF-kappaB/Rel proteins into the nucleus.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<cause idref="E13"/>
+<clue>Phosphorylation of the IkappaB cytoplasmic inhibitors, IkappaBalpha, IkappaBbeta, and IkappaBepsilon, by these kinases <clueType>triggers</clueType> proteolytic degradation and the release of NF-kappaB/Rel proteins into the nucleus.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<cause idref="E14"/>
+<clue>Phosphorylation of the IkappaB cytoplasmic inhibitors, IkappaBalpha, IkappaBbeta, and IkappaBepsilon, by these kinases <clueType>triggers</clueType> proteolytic degradation and the release of NF-kappaB/Rel proteins into the nucleus.</clue>
+</event>
+<event id="E21">
+<type class="Localization"/>
+<theme idref="T22"/>
+<clue>Phosphorylation of the IkappaB cytoplasmic inhibitors, IkappaBalpha, IkappaBbeta, and IkappaBepsilon, by these kinases triggers proteolytic degradation and the <clueType>release</clueType> <linkTheme>of</linkTheme> NF-kappaB/Rel proteins <clueLoc>into the nucleus</clueLoc>.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="E9"/>
+<clue>Phosphorylation of the IkappaB cytoplasmic inhibitors, IkappaBalpha, IkappaBbeta, and IkappaBepsilon, by these kinases <clueType>triggers</clueType> proteolytic degradation and the release of NF-kappaB/Rel proteins into the nucleus.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="E10"/>
+<clue>Phosphorylation of the IkappaB cytoplasmic inhibitors, IkappaBalpha, IkappaBbeta, and IkappaBepsilon, by these kinases <clueType>triggers</clueType> proteolytic degradation and the release of NF-kappaB/Rel proteins into the nucleus.</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="E11"/>
+<clue>Phosphorylation of the IkappaB cytoplasmic inhibitors, IkappaBalpha, IkappaBbeta, and IkappaBepsilon, by these kinases <clueType>triggers</clueType> proteolytic degradation and the release of NF-kappaB/Rel proteins into the nucleus.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="E12"/>
+<clue>Phosphorylation of the IkappaB cytoplasmic inhibitors, IkappaBalpha, IkappaBbeta, and IkappaBepsilon, by these kinases <clueType>triggers</clueType> proteolytic degradation and the release of NF-kappaB/Rel proteins into the nucleus.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="E13"/>
+<clue>Phosphorylation of the IkappaB cytoplasmic inhibitors, IkappaBalpha, IkappaBbeta, and IkappaBepsilon, by these kinases <clueType>triggers</clueType> proteolytic degradation and the release of NF-kappaB/Rel proteins into the nucleus.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="E14"/>
+<clue>Phosphorylation of the IkappaB cytoplasmic inhibitors, IkappaBalpha, IkappaBbeta, and IkappaBepsilon, by these kinases <clueType>triggers</clueType> proteolytic degradation and the release of NF-kappaB/Rel proteins into the nucleus.</clue>
+</event>
+<sentence id="S6">At present, the role of the IKKs in <term id="T23" lex="LPS" sem="Lipid">LPS</term> signaling has not been investigated.</sentence>
+<event KT="Investigation" id="E28" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E57"/>
+<cause idref="T15"/>
+<clue>At present, the <clueType>role</clueType> <linkCause>of</linkCause> <corefCause>the IKKs</corefCause> <linkTheme>in</linkTheme> LPS signaling has not been <clueKT>investigated</clueKT>.</clue>
+</event>
+<event KT="Investigation" id="E29" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E57"/>
+<cause idref="T16"/>
+<clue>At present, the <clueType>role</clueType> <linkCause>of</linkCause> <corefCause>the IKKs</corefCause> <linkTheme>in</linkTheme> LPS signaling has not been <clueKT>investigated</clueKT>.</clue>
+</event>
+<event KT="Other" id="E57">
+<type class="Cell_communication"/>
+<theme idref="T23"/>
+<clue>At present, the role of the IKKs in LPS <clueType>signaling</clueType> has not been investigated.</clue>
+</event>
+<sentence id="S7">Here, we report that <term id="T24" lex="LPS" sem="Lipid">LPS</term> induces <term id="T25" lex="IKK_activity" sem="Other"><term id="T26" lex="IKK" sem="Protein_molecule">IKK</term> activity</term> in <term id="T27" lex="human_monocyte" sem="Cell_natural">human <term id="T28" lex="monocyte" sem="Cell_natural">monocytes</term></term> and <term id="T29" lex="THP-1_monocytic_cell" sem="Cell_cultured">THP-1 monocytic cells</term>.</sentence>
+<event KT="Analysis" id="E30">
+<type class="Positive_regulation"/>
+<theme idref="T25"/>
+<cause idref="T24"/>
+<clue>Here, we <clueKT>report</clueKT> that LPS <clueType>induces</clueType> IKK activity <clueLoc>in human monocytes</clueLoc> and THP-1 monocytic cells.</clue>
+</event>
+<event KT="Analysis" id="E58">
+<type class="Positive_regulation"/>
+<theme idref="T25"/>
+<cause idref="T24"/>
+<clue>Here, we <clueKT>report</clueKT> that LPS <clueType>induces</clueType> IKK activity <clueLoc>in</clueLoc> human monocytes and <clueLoc>THP-1 monocytic cells</clueLoc>.</clue>
+</event>
+<sentence id="S8">The kinetics of activation of <term id="T30" lex="kinase_activity" sem="Other">kinase activity</term> in <term id="T31" lex="monocytic_cell" sem="Cell_natural">monocytic cells</term> are relatively slow with maximal activity observed at 60 min, which coincides with the degradation of <term id="T32" lex="IkappaBs" sem="Protein_family_or_group">IkappaBs</term> and the <term id="T33" lex="nuclear_translocation" sem="Other">nuclear translocation</term> of <term id="T34" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>.</sentence>
+<event id="E31">
+<type class="Positive_regulation"/>
+<theme idref="T30"/>
+<clue>The kinetics of <clueType>activation</clueType> <linkTheme>of</linkTheme> kinase activity <clueLoc>in monocytic cells</clueLoc> are relatively slow with maximal activity observed at 60 min, which coincides with the degradation of IkappaBs and the nuclear translocation of NF-kappaB.</clue>
+</event>
+<event id="E32">
+<type class="Protein_catabolism"/>
+<theme idref="T32"/>
+<clue>The kinetics of activation of kinase activity in monocytic cells are relatively slow with maximal activity observed at 60 min, which coincides with the <clueType>degradation</clueType> <linkTheme>of</linkTheme> IkappaBs and the nuclear translocation of NF-kappaB.</clue>
+</event>
+<event id="E33">
+<type class="Localization"/>
+<theme idref="T34"/>
+<clue>The kinetics of activation of kinase activity in monocytic cells are relatively slow with maximal activity observed at 60 min, which coincides with the degradation of IkappaBs and the <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> <linkTheme>of</linkTheme> NF-kappaB.</clue>
+</event>
+<event id="E34">
+<type class="Correlation"/>
+<theme idref="E31"/>
+<theme idref="E32"/>
+<clue>The kinetics of activation of kinase activity in monocytic cells are relatively slow with maximal activity observed at 60 min, which <clueType>coincides</clueType> <linkTheme>with</linkTheme> the degradation of IkappaBs and the nuclear translocation of NF-kappaB.</clue>
+</event>
+<event id="E35">
+<type class="Correlation"/>
+<theme idref="E31"/>
+<theme idref="E33"/>
+<clue>The kinetics of activation of kinase activity in monocytic cells are relatively slow with maximal activity observed at 60 min, which <clueType>coincides</clueType> <linkTheme>with</linkTheme> the degradation of IkappaBs and the nuclear translocation of NF-kappaB.</clue>
+</event>
+<sentence id="S9">In transfection experiments, overexpression of wild type <term id="T35" lex="IKK1" sem="Protein_molecule">IKK1</term>, a <term id="T36" lex="dominant_negative_mutant_IKK1" sem="Protein_molecule">dominant negative mutant <term id="T37" lex="IKK1" sem="Protein_molecule">IKK1</term></term> (<term id="T38" lex="K44M" sem="Protein_molecule">K44M</term>), or <term id="T39" lex="wild_type_IKK2" sem="Protein_molecule">wild type <term id="T40" lex="IKK2" sem="Protein_molecule">IKK2</term></term> did not affect <term id="T42" lex="LPS" sem="Lipid">LPS</term>-induced <term id="T43" lex="kappaB" sem="Protein_molecule">kappaB</term>-dependent <term id="A12" sem="Other">transcription</term> in <term id="T44" lex="monocytic_cell" sem="Cell_natural">monocytic cells</term>.</sentence>
+<event id="E36">
+<type class="Gene_expression"/>
+<theme idref="T35"/>
+<clue>In transfection experiments, <clueType>overexpression</clueType> <linkTheme>of</linkTheme> wild type IKK1, a dominant negative mutant IKK1 (K44M), or wild type IKK2 did not affect LPS-induced kappaB-dependent transcription in monocytic cells.</clue>
+</event>
+<event id="E51">
+<type class="Positive_regulation"/>
+<theme idref="E36"/>
+<clue>In transfection experiments, <clueType>overexpression</clueType> of wild type IKK1, a dominant negative mutant IKK1 (K44M), or wild type IKK2 did not affect LPS-induced kappaB-dependent transcription in monocytic cells.</clue>
+</event>
+<event id="E37">
+<type class="Gene_expression"/>
+<theme idref="T38"/>
+<clue>In transfection experiments, <clueType>overexpression</clueType> <linkTheme>of</linkTheme> wild type IKK1, a dominant negative mutant IKK1 (K44M), or wild type IKK2 did not affect LPS-induced kappaB-dependent transcription in monocytic cells.</clue>
+</event>
+<event id="E52">
+<type class="Positive_regulation"/>
+<theme idref="E37"/>
+<clue>In transfection experiments, <clueType>overexpression</clueType> of wild type IKK1, a dominant negative mutant IKK1 (K44M), or wild type IKK2 did not affect LPS-induced kappaB-dependent transcription in monocytic cells.</clue>
+</event>
+<event id="E38">
+<type class="Gene_expression"/>
+<theme idref="T40"/>
+<clue>In transfection experiments, <clueType>overexpression</clueType> <linkTheme>of</linkTheme> wild type IKK1, a dominant negative mutant IKK1 (K44M), or wild type IKK2 did not affect LPS-induced kappaB-dependent transcription in monocytic cells.</clue>
+</event>
+<event id="E53">
+<type class="Positive_regulation"/>
+<theme idref="E38"/>
+<clue>In transfection experiments, <clueType>overexpression</clueType> of wild type IKK1, a dominant negative mutant IKK1 (K44M), or wild type IKK2 did not affect LPS-induced kappaB-dependent transcription in monocytic cells.</clue>
+</event>
+<event id="E39">
+<type class="Regulation"/>
+<cause idref="A12"/>
+<clue>In transfection experiments, overexpression of wild type IKK1, a dominant negative mutant IKK1 (K44M), or wild type IKK2 did not affect LPS-induced kappaB-<clueType>dependent</clueType> transcription in monocytic cells.</clue>
+<comment>NER: T41 del &quot;LPS-induced kappaB-dependent transcription&quot;</comment></event>
+<event id="E40">
+<type class="Positive_regulation"/>
+<theme idref="E39"/>
+<cause idref="T42"/>
+<clue>In transfection experiments, overexpression of wild type IKK1, a dominant negative mutant IKK1 (K44M), or wild type IKK2 did not affect LPS-<clueType>induced</clueType> kappaB-dependent transcription <clueLoc>in monocytic cells</clueLoc>.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E41">
+<type class="Regulation"/>
+<theme idref="E40"/>
+<cause idref="E51"/>
+<clue><clueExperiment>In transfection experiments</clueExperiment>, overexpression of wild type IKK1, a dominant negative mutant IKK1 (K44M), or wild type IKK2 did <cluePolarity>not</cluePolarity> <clueType>affect</clueType> LPS-induced kappaB-dependent transcription in monocytic cells.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E42">
+<type class="Regulation"/>
+<theme idref="E40"/>
+<cause idref="E52"/>
+<clue><clueExperiment>In transfection experiments</clueExperiment>, overexpression of wild type IKK1, a dominant negative mutant IKK1 (K44M), or wild type IKK2 did <cluePolarity>not</cluePolarity> <clueType>affect</clueType> LPS-induced kappaB-dependent transcription in monocytic cells.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E43">
+<type class="Regulation"/>
+<theme idref="E40"/>
+<cause idref="E53"/>
+<clue><clueExperiment>In transfection experiments</clueExperiment>, overexpression of wild type IKK1, a dominant negative mutant IKK1 (K44M), or wild type IKK2 did <cluePolarity>not</cluePolarity> <clueType>affect</clueType> LPS-induced kappaB-dependent transcription in monocytic cells.</clue>
+</event>
+<sentence id="S10">In contrast, a <term id="A5" sem="Protein_molecule">dominant negative mutant</term> of <term id="T45" lex="IKK2" sem="Protein_molecule">IKK2</term> inhibited <term id="T46" lex="LPS" sem="Lipid">LPS</term> induction of <term id="T48" lex="kappaB" sem="Protein_molecule">kappaB</term>-dependent <term id="A13" sem="Other">transcription</term> in a <term id="T49" lex="dose-dependent_manner" sem="Other">dose-dependent manner</term>.</sentence>
+<event KT="Other" id="E44">
+<type class="Regulation"/>
+<cause idref="T48"/>
+<clue>In contrast, a dominant negative mutant of IKK2 inhibited LPS induction of kappaB-<clueType>dependent</clueType> transcription in a dose-dependent manner.</clue>
+<comment>NER: T47 del &quot;kappaB-dependent transcription&quot;</comment></event>
+<event KT="Other" id="E45">
+<type class="Positive_regulation"/>
+<theme idref="A13"/>
+<cause idref="T46"/>
+<clue>In contrast, a dominant negative mutant of IKK2 inhibited LPS <clueType>induction</clueType> <linkTheme>of</linkTheme> kappaB-dependent transcription in a dose-dependent manner.</clue>
+</event>
+<event id="E46">
+<type class="Negative_regulation"/>
+<theme idref="E45"/>
+<cause idref="A5" idref1="T45"/>
+<clue>In contrast, a dominant negative mutant of IKK2 <clueType>inhibited</clueType> LPS induction of kappaB-dependent transcription in a dose-dependent manner.</clue>
+</event>
+<sentence id="S11">These results indicate that <term id="T50" lex="LPS" sem="Lipid">LPS</term> induction of <term id="A6" sem="Protein_molecule">kappaB</term>-dependent <term id="A7" sem="Other">gene expression</term> in <term id="T51" lex="human_monocytic_cell" sem="Cell_natural">human <term id="T52" lex="monocytic_cell" sem="Cell_natural">monocytic cells</term></term> requires activation of <term id="T53" lex="IKK2" sem="Protein_molecule">IKK2</term>.</sentence>
+<event KT="Other" id="E47">
+<type class="Regulation"/>
+<cause idref="A7"/>
+<clue>These results indicate that LPS induction of kappaB-<clueType>dependent</clueType> gene expression in human monocytic cells requires activation of IKK2.</clue>
+</event>
+<event KT="Other" id="E48">
+<type class="Positive_regulation"/>
+<theme idref="E47"/>
+<cause idref="T50"/>
+<clue>These results indicate that LPS <clueType>induction</clueType> <linkTheme>of</linkTheme> kappaB-dependent gene expression <clueLoc>in human monocytic cells</clueLoc> requires activation of IKK2.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E49">
+<type class="Positive_regulation"/>
+<theme idref="E48"/>
+<cause idref="E50"/>
+<clue>These results <clueKT><clueCL>indicate</clueCL></clueKT> that LPS induction of kappaB-dependent gene expression in human monocytic cells <clueType>requires</clueType> activation of IKK2.</clue>
+</event>
+<event KT="Other" id="E50">
+<type class="Positive_regulation"/>
+<theme idref="T53"/>
+<clue>These results indicate that LPS induction of kappaB-dependent gene expression in human monocytic cells requires <clueType>activation</clueType> <linkTheme>of</linkTheme> IKK2.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

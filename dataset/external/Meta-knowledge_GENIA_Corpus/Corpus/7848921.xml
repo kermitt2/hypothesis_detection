@@ -1,0 +1,190 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7848921" created="05/10/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7848921</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Overexpression of <term id="T1" lex="protein_kinase_C-zeta" sem="Protein_molecule"><term id="T2" lex="protein_kinase_C" sem="Protein_molecule">protein kinase C</term>-zeta</term> stimulates <term id="T3" lex="leukemic_cell_differentiation" sem="Other"><term id="T4" lex="leukemic_cell" sem="Cell_natural">leukemic cell</term> differentiation</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression"/>
+<theme idref="T1"/>
+<clue><clueType>Overexpression</clueType> <linkTheme>of</linkTheme> protein kinase C-zeta stimulates leukemic cell differentiation.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<clue><clueType>Overexpression</clueType> of protein kinase C-zeta stimulates leukemic cell differentiation.</clue>
+</event>
+<event id="E3">
+<type class="Cell_differentiation"/>
+<theme idref="T4"/>
+<clue>Overexpression of protein kinase C-zeta stimulates leukemic cell <clueType>differentiation</clueType>.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="E2"/>
+<clue>Overexpression of protein kinase C-zeta <clueType>stimulates</clueType> leukemic cell differentiation.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">A function for <term id="T5" lex="protein_kinase_C-zeta" sem="Protein_molecule"><term id="T6" lex="protein_kinase_C" sem="Protein_molecule">protein kinase C</term>-zeta</term> (<term id="T7" lex="PKC-zeta" sem="Protein_molecule"><term id="T8" lex="PKC" sem="Protein_molecule">PKC</term>-zeta</term>), a member of the <term id="A2" sem="Organic_compound_other">phorbol ester</term> nonresponsive atypical <term id="T9" lex="protein_kinase_C_subfamily" sem="Protein_family_or_group"><term id="T10" lex="protein_kinase_C" sem="Protein_molecule">protein kinase C</term> subfamily</term>, in modulating <term id="A1" sem="Other">differentiation</term> was examined in the <term id="T11" lex="leukemic_U937_cell" sem="Cell_cultured">leukemic U937 cell</term>.</sentence>
+<event KT="Other" id="E5">
+<type class="Regulation"/>
+<theme idref="A1"/>
+<clue>A function for protein kinase C-zeta (PKC-zeta), a member of the phorbol ester nonresponsive atypical protein kinase C subfamily, in <clueType>modulating</clueType> differentiation was examined in the leukemic U937 cell.</clue>
+</event>
+<event KT="Investigation" id="E6" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E5"/>
+<cause idref="T7"/>
+<clue>A <clueType>function</clueType> <linkCause>for</linkCause> protein kinase C-zeta (PKC-zeta), a member of the phorbol ester nonresponsive atypical protein kinase C subfamily, <linkTheme>in</linkTheme> modulating differentiation was <clueKT>examined</clueKT> <clueLoc>in the leukemic U937 cell.</clueLoc></clue>
+</event>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E7">
+<type class="Regulation"/>
+<theme idref="T7"/>
+<cause idref="A2"/>
+<clue>A function for protein kinase C-zeta (PKC-zeta), a member of the phorbol ester <clueType><cluePolarity>nonresponsive</cluePolarity></clueType> atypical protein kinase C subfamily, in modulating differentiation was examined in the leukemic U937 cell.</clue>
+</event>
+<sentence id="S3">Transfected <term id="T12" lex="U937_cell" sem="Cell_cultured">U937 cells</term> stably overexpressing <term id="T13" lex="PKC-zeta" sem="Protein_molecule">PKC-zeta</term> displayed a longer <term id="A3" sem="Other">doubling time</term>, lower <term id="A4" sem="Other">saturation density at confluency</term>, and an increase in adherence to <term id="A5" sem="Organic_compound_other">plastic</term> as compared to <term id="T14" lex="control_cell" sem="Cell_cultured">control cells</term>.</sentence>
+<event KT="Other" id="E8">
+<type class="Gene_expression"/>
+<theme idref="T13"/>
+<clue>Transfected U937 cells stably <clueType>overexpressing</clueType> PKC-zeta displayed a longer doubling time, lower saturation density at confluency, and an increase in adherence to plastic as compared to control cells.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<clue>Transfected U937 cells stably <clueType>overexpressing</clueType> PKC-zeta displayed a longer doubling time, lower saturation density at confluency, and an increase in adherence to plastic as compared to control cells.</clue>
+</event>
+<event KT="Analysis" id="E10">
+<type class="Negative_regulation"/>
+<theme idref="A3"/>
+<cause idref="E9"/>
+<clue>Transfected U937 cells stably overexpressing PKC-zeta <clueKT>displayed</clueKT> a <clueType>longer</clueType> doubling time, lower saturation density at confluency, and an increase in adherence to plastic as compared to control cells.</clue>
+</event>
+<event KT="Analysis" id="E11">
+<type class="Negative_regulation"/>
+<theme idref="A4"/>
+<cause idref="E9"/>
+<clue>Transfected U937 cells stably overexpressing PKC-zeta <clueKT>displayed</clueKT> a longer doubling time, <clueType>lower</clueType> saturation density at confluency, and an increase in adherence to plastic as compared to control cells.</clue>
+<comment>TPS: A4</comment></event>
+<event KT="Other" id="E12">
+<type class="Cell_adhesion"/>
+<theme idref="T12"/>
+<theme idref="A5"/>
+<clue>Transfected U937 cells stably overexpressing PKC-zeta displayed a longer doubling time, lower saturation density at confluency, and an increase in <clueType>adherence</clueType> <linkTheme>to</linkTheme> plastic as compared to control cells.</clue>
+</event>
+<event KT="Analysis" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="E9"/>
+<clue>Transfected U937 cells stably overexpressing PKC-zeta <clueKT>displayed</clueKT> a longer doubling time, lower saturation density at confluency, and an <clueType>increase</clueType> <linkTheme>in</linkTheme> adherence to plastic as compared to control cells.</clue>
+</event>
+<sentence id="S4"><term id="T15" lex="PKC-zeta_cell" sem="Cell_cultured"><term id="T16" lex="PKC-zeta" sem="Protein_molecule">PKC-zeta</term> cells</term> expressed a more differentiated phenotype as assessed by changes in morphology, <term id="A20" sem="Protein_family_or_group">surface antigen</term> expression, and <term id="T17" lex="lysosomal_enzyme_activity" sem="Other"><term id="T18" lex="lysosomal_enzyme" sem="Protein_family_or_group">lysosomal enzyme</term> activities</term> and were distinct from <term id="T19" lex="parental_U937_cell" sem="Cell_cultured">parental <term id="T20" lex="U937_cell" sem="Cell_cultured">U937 cells</term></term> stimulated to differentiate by exposure to <term id="T21" lex="phorbol_ester" sem="Organic_compound_other">phorbol esters</term>.</sentence>
+<event KT="Method" id="E14">
+<type class="Artificial_process"/>
+<theme idref="T21"/>
+<theme idref="T20"/>
+<clue>PKC-zeta cells expressed a more differentiated phenotype as assessed by changes in morphology, surface antigen expression, and lysosomal enzyme activities and were distinct from parental U937 cells stimulated to differentiate by <clueType>exposure</clueType> <linkTheme>to</linkTheme> phorbol esters.</clue>
+</event>
+<event id="E15">
+<type class="Cell_differentiation"/>
+<theme idref="T20"/>
+<clue>PKC-zeta cells expressed a more differentiated phenotype as assessed by changes in morphology, surface antigen expression, and lysosomal enzyme activities and were distinct from parental U937 cells stimulated to <clueType>differentiate</clueType> by exposure to phorbol esters.</clue>
+</event>
+<event id="E105">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="E14"/>
+<clue>PKC-zeta cells expressed a more differentiated phenotype as assessed by changes in morphology, surface antigen expression, and lysosomal enzyme activities and were distinct from parental U937 cells stimulated to differentiate <linkCause>by</linkCause> exposure to phorbol esters.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Other" id="E50">
+<type class="Gene_expression"/>
+<theme idref="A20"/>
+<clue>PKC-zeta cells expressed a more differentiated phenotype as assessed by changes in morphology, surface antigen <clueType>expression</clueType>, and lysosomal enzyme activities and were distinct from parental U937 cells stimulated to differentiate by exposure to phorbol esters.</clue>
+</event>
+<sentence id="S5">In contrast to parental <term id="T22" lex="U937_cell" sem="Cell_cultured">U937 cells</term>, <term id="T23" lex="PKC-zeta_cell" sem="Cell_cultured"><term id="T24" lex="PKC-zeta" sem="Protein_molecule">PKC-zeta</term> cells</term> constitutively expressed <term id="A7" sem="RNA_molecule"><term id="T25" lex="mRNA_transcripts" sem="RNA_family_or_group"><term id="T26" lex="mRNA" sem="RNA_family_or_group">mRNA</term> transcripts</term> for <term id="T27" lex="c-jun" sem="DNA_domain_or_region">c-jun</term></term> and a low mobility <term id="T28" lex="AP-1_binding_activity" sem="Other"><term id="T29" lex="AP-1" sem="Protein_molecule">AP-1</term> binding activity</term>.</sentence>
+<event id="E16">
+<type class="Transcription"/>
+<theme idref="A7"/>
+<clue>In contrast to parental U937 cells, <clueLoc>PKC-zeta cells</clueLoc> constitutively <clueType>expressed</clueType> mRNA transcripts for c-jun and a low mobility AP-1 binding activity.</clue>
+<comment>TPS: A7</comment></event>
+<event Manner="Low" id="E17">
+<type class="Binding"/>
+<theme idref="T29"/>
+<clue>In contrast to parental U937 cells, PKC-zeta cells constitutively expressed mRNA transcripts for c-jun and a <clueManner>low mobility</clueManner> AP-1 <clueType>binding activity</clueType>.</clue>
+</event>
+<sentence id="S6">Thus, <term id="T30" lex="PKC-zeta" sem="Protein_molecule">PKC-zeta</term> overexpression stimulates a type of <term id="A8" sem="Other">phenotypic differentiation</term> that differs significantly from <term id="A9" sem="Other">maturation</term> occurring upon activation of other <term id="T31" lex="PKC_subfamilies" sem="Protein_family_or_group"><term id="T32" lex="PKC" sem="Protein_molecule">PKC</term> subfamilies</term> induced by <term id="T33" lex="phorbol_ester_treatment" sem="Other"><term id="T34" lex="phorbol_ester" sem="Organic_compound_other">phorbol ester</term> treatment</term>.</sentence>
+<event id="E19">
+<type class="Gene_expression"/>
+<theme idref="T30"/>
+<clue>Thus, PKC-zeta <clueType>overexpression</clueType> stimulates a type of phenotypic differentiation that differs significantly from maturation occurring upon activation of other PKC subfamilies induced by phorbol ester treatment.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<clue>Thus, PKC-zeta <clueType>overexpression</clueType> stimulates a type of phenotypic differentiation that differs significantly from maturation occurring upon activation of other PKC subfamilies induced by phorbol ester treatment.</clue>
+</event>
+<event KT="Analysis" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="A8"/>
+<cause idref="E20"/>
+<clue><clueKT>Thus</clueKT>, PKC-zeta overexpression <clueType>stimulates</clueType> a type of phenotypic differentiation that differs significantly from maturation occurring upon activation of other PKC subfamilies induced by phorbol ester treatment.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="T31"/>
+<cause idref="T34"/>
+<clue>Thus, PKC-zeta overexpression stimulates a type of phenotypic differentiation that differs significantly from maturation occurring upon <clueType>activation</clueType> <linkTheme>of</linkTheme> other PKC subfamilies induced <linkCause>by</linkCause> phorbol ester treatment.</clue>
+</event>
+<event KT="Other" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="A9"/>
+<cause idref="E22"/>
+<clue>Thus, PKC-zeta overexpression stimulates a type of phenotypic differentiation that differs significantly from maturation <clueType>occurring</clueType> <linkCause>upon</linkCause> activation of other PKC subfamilies induced by phorbol ester treatment.</clue>
+</event>
+<sentence id="S7">Increased expression of the <term id="T35" lex="c-jun" sem="DNA_domain_or_region">c-jun</term> protooncogene and an increase in <term id="T36" lex="AP-1_binding_activity" sem="Other"><term id="T37" lex="AP-1" sem="Protein_molecule">AP-1</term> binding activity</term> in <term id="T38" lex="PKC-zeta_cell" sem="Cell_cultured"><term id="T39" lex="PKC-zeta" sem="Protein_molecule">PKC-zeta</term> cells</term> provides a potential mechanism for explaining the altered differentiation status of this cell.</sentence>
+<event id="E24">
+<type class="Gene_expression"/>
+<theme idref="T35"/>
+<clue>Increased <clueType>expression</clueType> <linkTheme>of</linkTheme> the c-jun protooncogene and an increase in AP-1 binding activity in PKC-zeta cells provides a potential mechanism for explaining the altered differentiation status of this cell.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation"/>
+<theme idref="E24"/>
+<clue><clueType>Increased</clueType> expression of the c-jun protooncogene and an increase in AP-1 binding activity <clueLoc>in PKC-zeta cells</clueLoc> provides a potential mechanism for explaining the altered differentiation status of this cell.</clue>
+</event>
+<event id="E26">
+<type class="Binding"/>
+<theme idref="T37"/>
+<clue>Increased expression of the c-jun protooncogene and an increase in AP-1 <clueType>binding activity</clueType> in PKC-zeta cells provides a potential mechanism for explaining the altered differentiation status of this cell.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation"/>
+<theme idref="E26"/>
+<clue>Increased expression of the c-jun protooncogene and an <clueType>increase</clueType> <linkTheme>in</linkTheme> AP-1 binding activity <clueLoc>in PKC-zeta cells</clueLoc> provides a potential mechanism for explaining the altered differentiation status of this cell.</clue>
+</event>
+<event KT="Other" id="E28">
+<type class="Cell_differentiation"/>
+<theme idref="T38"/>
+<clue>Increased expression of the c-jun protooncogene and an increase in AP-1 binding activity in PKC-zeta cells provides a potential mechanism for explaining the altered <clueType>differentiation status</clueType> <linkTheme>of</linkTheme> <corefTheme>this cell.</corefTheme></clue>
+</event>
+<event KT="Other" id="E29">
+<type class="Regulation"/>
+<theme idref="E28"/>
+<clue>Increased expression of the c-jun protooncogene and an increase in AP-1 binding activity in PKC-zeta cells provides a potential mechanism for explaining the <clueType>altered</clueType> differentiation status of this cell.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E30" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E29"/>
+<cause idref="E25"/>
+<clue>Increased expression of the c-jun protooncogene and an increase in AP-1 binding activity in PKC-zeta cells provides a <clueType><clueCL>potential</clueCL> mechanism for <clueKT>explaining</clueKT></clueType> the altered differentiation status of this cell.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E31" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E29"/>
+<cause idref="E27"/>
+<clue>Increased expression of the c-jun protooncogene and an increase in AP-1 binding activity in PKC-zeta cells provides a <clueType><clueCL>potential</clueCL> mechanism for <clueKT>explaining</clueKT></clueType> the altered differentiation status of this cell.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

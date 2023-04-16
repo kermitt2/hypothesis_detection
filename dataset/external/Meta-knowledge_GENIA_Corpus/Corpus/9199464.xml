@@ -1,0 +1,317 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9199464" created="14/04/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9199464</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="Anti-Ehrlichia_chaffeensis_antibody" sem="Protein_family_or_group">Anti-Ehrlichia chaffeensis antibody</term> complexed with <term id="T2" lex="E._chaffeensis" sem="Unicellular_organism">E. chaffeensis</term> induces <term id="T3" lex="potent_proinflammatory_cytokine_mRNA_expression" sem="Other">potent <term id="T4" lex="proinflammatory_cytokine_mRNA" sem="RNA_molecule">proinflammatory cytokine mRNA</term> expression</term> in <term id="T5" lex="human_monocyte" sem="Cell_natural">human monocytes</term> through sustained reduction of <term id="T6" lex="IkappaB-alpha" sem="Protein_molecule">IkappaB-alpha</term> and activation of <term id="T7" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>.</sentence>
+<event id="E1">
+<type class="Binding"/>
+<theme idref="T1"/>
+<theme idref="T2"/>
+<clue>Anti-Ehrlichia chaffeensis antibody <clueType>complexed</clueType> <linkTheme>with</linkTheme> E. chaffeensis induces potent proinflammatory cytokine mRNA expression in human monocytes through sustained reduction of IkappaB-alpha and activation of NF-kappaB.</clue>
+</event>
+<event Manner="High" id="E2">
+<type class="Transcription"/>
+<theme idref="T4"/>
+<clue>Anti-Ehrlichia chaffeensis antibody complexed with E. chaffeensis induces <clueManner>potent</clueManner> proinflammatory cytokine mRNA <clueType>expression</clueType> in human monocytes through sustained reduction of IkappaB-alpha and activation of NF-kappaB.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation"/>
+<theme idref="T6"/>
+<cause idref="E1"/>
+<clue>Anti-Ehrlichia chaffeensis antibody complexed with E. chaffeensis <clueType>induces</clueType> potent proinflammatory cytokine mRNA expression in human monocytes <clueType>through</clueType> sustained <clueType>reduction</clueType> <linkTheme>of</linkTheme> IkappaB-alpha and activation of NF-kappaB.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T7"/>
+<cause idref="E1"/>
+<clue>Anti-Ehrlichia chaffeensis antibody complexed with E. chaffeensis <clueType>induces</clueType> potent proinflammatory cytokine mRNA expression in human monocytes <clueType>through</clueType> sustained reduction of IkappaB-alpha and <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappaB.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="E3"/>
+<clue>Anti-Ehrlichia chaffeensis antibody complexed with E. chaffeensis <clueType>induces</clueType> potent proinflammatory cytokine mRNA expression <clueLoc>in human monocytes</clueLoc> <linkCause>through</linkCause> sustained reduction of IkappaB-alpha and activation of NF-kappaB.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="E4"/>
+<clue>Anti-Ehrlichia chaffeensis antibody complexed with E. chaffeensis <clueType>induces</clueType> potent proinflammatory cytokine mRNA expression <clueLoc>in human monocytes</clueLoc> <linkCause>through</linkCause> sustained reduction of IkappaB-alpha and activation of NF-kappaB.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T8" lex="Ehrlichia_chaffeensis" sem="Unicellular_organism">Ehrlichia chaffeensis</term> is an <term id="T9" lex="obligatory_intracellular_bacterium" sem="Unicellular_organism">obligatory intracellular bacterium</term> that infects <term id="T10" lex="monocyte" sem="Cell_natural">monocytes</term> and <term id="T11" lex="macrophage" sem="Cell_natural">macrophages</term> and is the etiologic agent of <term id="T12" lex="human_ehrlichiosis" sem="Unicellular_organism">human ehrlichiosis</term> in the <term id="T13" lex="United_States" sem="Other">United States</term>.</sentence>
+<sentence id="S3">Our previous studies showed that the exposure of <term id="T14" lex="human_monocyte" sem="Cell_natural">human <term id="T15" lex="monocyte" sem="Cell_natural">monocytes</term></term> to <term id="T16" lex="E._chaffeensis" sem="Unicellular_organism">E. chaffeensis</term> induces the expression of <term id="T17" lex="interleukin-1beta" sem="DNA_domain_or_region">interleukin-1beta</term> (<term id="T18" lex="IL-1beta" sem="DNA_domain_or_region">IL-1beta</term>), <term id="T19" lex="IL-8" sem="DNA_domain_or_region">IL-8</term>, and <term id="T20" lex="IL-10_gene" sem="DNA_domain_or_region"><term id="T21" lex="IL-10" sem="DNA_domain_or_region">IL-10</term> <term id="A1" sem="DNA_domain_or_region">genes</term></term> in vitro but not the expression of <cons id="T22" lex="(AND tumor_necrosis_factor_alpha_(TNF-alpha)_mRNA IL-6_mRNA)" sem="(AND RNA_molecule RNA_molecule)"><frag id="F1">tumor necrosis factor alpha (<term id="A2" sem="RNA_molecule">TNF-alpha</term>)</frag> and <frag id="F2"><term id="A3" sem="RNA_molecule">IL-6</term></frag> <frag id="F3"><term id="A4" sem="RNA_molecule">mRNAs</term></frag></cons>.</sentence>
+<event KT="Other" id="E8">
+<type class="Gene_expression"/>
+<theme idref="T18" idref1="A1"/>
+<clue>Our previous studies showed that the exposure of human monocytes to E. chaffeensis induces the <clueType>expression</clueType> <linkTheme>of</linkTheme> interleukin-1beta (IL-1beta), IL-8, and IL-10 genes in vitro but not the expression of tumor necrosis factor alpha (TNF-alpha) and IL-6 mRNAs.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Gene_expression"/>
+<theme idref="T19" idref1="A1"/>
+<clue>Our previous studies showed that the exposure of human monocytes to E. chaffeensis induces the <clueType>expression</clueType> <linkTheme>of</linkTheme> interleukin-1beta (IL-1beta), IL-8, and IL-10 genes in vitro but not the expression of tumor necrosis factor alpha (TNF-alpha) and IL-6 mRNAs.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Gene_expression"/>
+<theme idref="T21" idref1="A1"/>
+<clue>Our previous studies showed that the exposure of human monocytes to E. chaffeensis induces the <clueType>expression</clueType> <linkTheme>of</linkTheme> interleukin-1beta (IL-1beta), IL-8, and IL-10 genes in vitro but not the expression of tumor necrosis factor alpha (TNF-alpha) and IL-6 mRNAs.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="T16"/>
+<clue><clueSource>Our previous studies</clueSource> <clueKT>showed</clueKT> that the <linkCause>exposure</linkCause> of <clueLoc>human monocytes</clueLoc> <linkCause>to</linkCause> E. chaffeensis <clueType>induces</clueType> the expression of interleukin-1beta (IL-1beta), IL-8, and IL-10 genes in vitro but not the expression of tumor necrosis factor alpha (TNF-alpha) and IL-6 mRNAs.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="T16"/>
+<clue><clueSource>Our previous studies</clueSource> <clueKT>showed</clueKT> that the <linkCause>exposure</linkCause> of <clueLoc>human monocytes</clueLoc> <linkCause>to</linkCause> E. chaffeensis <clueType>induces</clueType> the expression of interleukin-1beta (IL-1beta), IL-8, and IL-10 genes in vitro but not the expression of tumor necrosis factor alpha (TNF-alpha) and IL-6 mRNAs.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="T16"/>
+<clue><clueSource>Our previous studies</clueSource> <clueKT>showed</clueKT> that the <linkCause>exposure</linkCause> of <clueLoc>human monocytes</clueLoc> <linkCause>to</linkCause> E. chaffeensis <clueType>induces</clueType> the expression of interleukin-1beta (IL-1beta), IL-8, and IL-10 genes in vitro but not the expression of tumor necrosis factor alpha (TNF-alpha) and IL-6 mRNAs.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Transcription"/>
+<theme idref="A2" idref1="A4"/>
+<clue>Our previous studies showed that the exposure of human monocytes to E. chaffeensis induces the expression of interleukin-1beta (IL-1beta), IL-8, and IL-10 genes in vitro but not the <clueType>expression</clueType> <linkTheme>of</linkTheme> tumor necrosis factor alpha (TNF-alpha) and IL-6 mRNAs.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Transcription"/>
+<theme idref="A3" idref1="A4"/>
+<clue>Our previous studies showed that the exposure of human monocytes to E. chaffeensis induces the expression of interleukin-1beta (IL-1beta), IL-8, and IL-10 genes in vitro but not the <clueType>expression</clueType> <linkTheme>of</linkTheme> tumor necrosis factor alpha (TNF-alpha) and IL-6 mRNAs.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" Source="Other" assertion="non-exist" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="T16"/>
+<clue><clueSource>Our previous studies</clueSource> <clueKT>showed</clueKT> that the exposure of <clueLoc>human monocytes</clueLoc> to E. chaffeensis <clueType>induces</clueType> the expression of interleukin-1beta (IL-1beta), IL-8, and IL-10 genes in vitro but <cluePolarity>not</cluePolarity> the expression of tumor necrosis factor alpha (TNF-alpha) and IL-6 mRNAs.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" Source="Other" assertion="non-exist" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="T16"/>
+<clue><clueSource>Our previous studies</clueSource> <clueKT>showed</clueKT> that the exposure of <clueLoc>human monocytes</clueLoc> to E. chaffeensis <clueType>induces</clueType> the expression of interleukin-1beta (IL-1beta), IL-8, and IL-10 genes in vitro but <cluePolarity>not</cluePolarity> the expression of tumor necrosis factor alpha (TNF-alpha) and IL-6 mRNAs.</clue>
+</event>
+<sentence id="S4">In this study, the effect of <term id="T23" lex="anti-E." sem="Protein_molecule">anti-<term id="T24" lex="E._chaffeensis" sem="Unicellular_organism">E. chaffeensis</term> antibody</term> complexed with <term id="T25" lex="E._chaffeensis" sem="Unicellular_organism">E. chaffeensis</term> on the expression of <term id="T26" lex="major_proinflammatory_cytokine" sem="Protein_family_or_group">major proinflammatory cytokines</term> in <term id="T27" lex="human_monocyte" sem="Cell_natural">human monocytes</term> was examined.</sentence>
+<event KT="Other" id="E18">
+<type class="Binding"/>
+<theme idref="T23"/>
+<theme idref="T25"/>
+<clue>In this study, the effect of anti-E. chaffeensis antibody <clueType>complexed</clueType> <linkTheme>with</linkTheme> E. chaffeensis on the expression of major proinflammatory cytokines in human monocytes was examined.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Gene_expression"/>
+<theme idref="T26"/>
+<clue>In this study, the effect of anti-E. chaffeensis antibody complexed with E. chaffeensis on the <clueType>expression</clueType> <linkTheme>of</linkTheme> major proinflammatory cytokines <clueLoc>in human monocytes</clueLoc> was examined.</clue>
+</event>
+<event KT="Investigation" id="E20" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E19"/>
+<cause idref="E18"/>
+<clue>In this study, the <clueType>effect</clueType> <linkTheme>of</linkTheme> anti-E. chaffeensis antibody complexed with E. chaffeensis <linkTheme>on</linkTheme> the expression of major proinflammatory cytokines in human monocytes was <clueKT>examined</clueKT>.</clue>
+</event>
+<sentence id="S5"><term id="T28" lex="human_monocytic_cell_line_THP-1" sem="Cell_cultured">Human monocytic cell line THP-1</term> was treated with <term id="T29" lex="E._chaffeensis" sem="Unicellular_organism">E. chaffeensis</term> which had been preincubated with <term id="T30" lex="human_anti-E." sem="Tissue_natural">human anti-<term id="T31" lex="E._chaffeensis" sem="Unicellular_organism">E. chaffeensis</term> serum</term> for 2 h, and the levels of <term id="T32" lex="cytokine_mRNA" sem="RNA_family_or_group">cytokine mRNAs</term> were evaluated by competitive <term id="T33" lex="reverse_transcription-PCR" sem="Other">reverse transcription-PCR</term>.</sentence>
+<sentence id="S6"><term id="T34" lex="anti-E." sem="Protein_molecule">Anti-<term id="T35" lex="E._chaffeensis" sem="Unicellular_organism">E. chaffeensis</term> antibody</term> complexed with <term id="A5" sem="Unicellular_organism">E. chaffeensis</term> significantly enhanced <term id="T36" lex="mRNA_expression" sem="Other">mRNA expression</term> of <term id="T37" lex="IL-1beta" sem="Protein_molecule">IL-1beta</term> in <term id="T38" lex="THP-1_cell" sem="Cell_cultured">THP-1 cells</term>.</sentence>
+<event id="E21">
+<type class="Binding"/>
+<theme idref="T34"/>
+<theme idref="A5"/>
+<clue>Anti-E. chaffeensis antibody <clueType>complexed</clueType> <linkTheme>with</linkTheme> E. chaffeensis significantly enhanced mRNA expression of IL-1beta in THP-1 cells.</clue>
+</event>
+<event id="E22">
+<type class="Transcription"/>
+<theme idref="T37"/>
+<clue>Anti-E. chaffeensis antibody complexed with E. chaffeensis significantly enhanced <clueType>mRNA expression</clueType> <linkTheme>of</linkTheme> IL-1beta in THP-1 cells.</clue>
+</event>
+<event Manner="High" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="E22"/>
+<cause idref="E21"/>
+<clue>Anti-E. chaffeensis antibody complexed with E. chaffeensis <clueManner>significantly</clueManner> <clueType>enhanced</clueType> mRNA expression of IL-1beta <clueLoc>in THP-1 cells</clueLoc>.</clue>
+</event>
+<sentence id="S7">The expression of <cons id="T39" lex="(AND TNF-alpha_mRNA IL-6_mRNA)" sem="(AND RNA_molecule RNA_molecule)"><frag id="F4"><term id="A6" sem="RNA_molecule">TNF-alpha</term></frag> and <frag id="F5"><term id="A7" sem="RNA_molecule">IL-6</term></frag> <frag id="F6"><term id="A8" sem="RNA_molecule">mRNAs</term></frag></cons> was also induced.</sentence>
+<event id="E24">
+<type class="Transcription"/>
+<theme idref="A6" idref1="A8"/>
+<clue>The <clueType>expression</clueType> <linkTheme>of</linkTheme> TNF-alpha and IL-6 mRNAs was also induced.</clue>
+</event>
+<event id="E25">
+<type class="Transcription"/>
+<theme idref="A7" idref1="A8"/>
+<clue>The <clueType>expression</clueType> <linkTheme>of</linkTheme> TNF-alpha and IL-6 mRNAs was also induced.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation"/>
+<theme idref="E24"/>
+<cause idref="E21"/>
+<clue>The expression of TNF-alpha and IL-6 mRNAs was also <clueType>induced</clueType>.</clue>
+<comment>No corefCause</comment></event>
+<event id="E55">
+<type class="Positive_regulation"/>
+<theme idref="E24"/>
+<cause idref="E21"/>
+<clue>The expression of TNF-alpha and IL-6 mRNAs was also <clueType>induced</clueType>.</clue>
+<comment>No corefCause</comment></event>
+<sentence id="S8">The levels of secreted <term id="T40" lex="IL-1beta" sem="Protein_molecule">IL-1beta</term>, <term id="T41" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term>, and <term id="T42" lex="IL-6" sem="Protein_molecule">IL-6</term> during 24 h of stimulation were comparable to those induced by <term id="T43" lex="Escherichia_coli_lipopolysaccharide" sem="Lipid"><term id="T44" lex="Escherichia_coli" sem="Unicellular_organism">Escherichia coli</term> lipopolysaccharide</term> at 1 microg/ml.</sentence>
+<sentence id="S9"><term id="A9" sem="Protein_domain_or_region">Fab fragment of <term id="T45" lex="anti-E._chaffeensis_immunoglobulin_G" sem="Protein_molecule">anti-<term id="T46" lex="E._chaffeensis" sem="Unicellular_organism">E. chaffeensis</term> immunoglobulin G</term></term> complexed with <term id="T47" lex="E._chaffeensis" sem="Unicellular_organism">E. chaffeensis</term> did not induce any of these three cytokines, indicating that ehrlichial binding is required for <term id="T48" lex="IL-1beta_mRNA_expression" sem="Other"><term id="T49" lex="IL-1beta_mRNA" sem="RNA_molecule"><term id="T50" lex="IL-1beta" sem="Protein_molecule">IL-1beta</term> mRNA</term> expression</term> and that binding of the <term id="T51" lex="immune_complex" sem="Protein_complex">immune complex</term> to the <term id="T52" lex="Fc_gamma_receptor" sem="Protein_family_or_group">Fc gamma receptor</term> is required for <term id="A11" sem="RNA_molecule"><term id="T53" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term></term> and <term id="T54" lex="IL-6_mRNA_expression" sem="Other"><term id="T55" lex="IL-6_mRNA" sem="RNA_molecule"><term id="T56" lex="IL-6" sem="Protein_molecule">IL-6</term> <term id="A10" sem="RNA_molecule">mRNA</term></term> expression</term> and enhanced <term id="T57" lex="IL-1beta_mRNA_expression" sem="Other"><term id="T58" lex="IL-1beta_mRNA" sem="RNA_molecule"><term id="T59" lex="IL-1beta" sem="Protein_molecule">IL-1beta</term> mRNA</term> expression</term>.</sentence>
+<event id="E27">
+<type class="Binding"/>
+<theme idref="T47"/>
+<theme idref="A9"/>
+<clue>Fab fragment of anti-E. chaffeensis immunoglobulin G <clueType>complexed</clueType> <linkTheme>with</linkTheme> E. chaffeensis did not induce any of these three cytokines, indicating that ehrlichial binding is required for IL-1beta mRNA expression and that binding of the immune complex to the Fc gamma receptor is required for TNF-alpha and IL-6 mRNA expression and enhanced IL-1beta mRNA expression.</clue>
+<comment>TPS A9</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E28">
+<type class="Positive_regulation"/>
+<theme idref="T40"/>
+<cause idref="E27"/>
+<clue>Fab fragment of anti-E. chaffeensis immunoglobulin G complexed with E. chaffeensis did <cluePolarity>not</cluePolarity> <clueType>induce</clueType> <corefTheme>any of these three cytokines</corefTheme>, indicating that ehrlichial binding is required for IL-1beta mRNA expression and that binding of the immune complex to the Fc gamma receptor is required for TNF-alpha and IL-6 mRNA expression and enhanced IL-1beta mRNA expression.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E29">
+<type class="Positive_regulation"/>
+<theme idref="T41"/>
+<cause idref="E27"/>
+<clue>Fab fragment of anti-E. chaffeensis immunoglobulin G complexed with E. chaffeensis did <cluePolarity>not</cluePolarity> <clueType>induce</clueType> <corefTheme>any of these three cytokines</corefTheme>, indicating that ehrlichial binding is required for IL-1beta mRNA expression and that binding of the immune complex to the Fc gamma receptor is required for TNF-alpha and IL-6 mRNA expression and enhanced IL-1beta mRNA expression.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E30">
+<type class="Positive_regulation"/>
+<theme idref="T42"/>
+<cause idref="E27"/>
+<clue>Fab fragment of anti-E. chaffeensis immunoglobulin G complexed with E. chaffeensis did <cluePolarity>not</cluePolarity> <clueType>induce</clueType> <corefTheme>any of these three cytokines</corefTheme>, indicating that ehrlichial binding is required for IL-1beta mRNA expression and that binding of the immune complex to the Fc gamma receptor is required for TNF-alpha and IL-6 mRNA expression and enhanced IL-1beta mRNA expression.</clue>
+</event>
+<event KT="Other" id="E31">
+<type class="Binding"/>
+<theme idref="T47"/>
+<clue>Fab fragment of anti-E. chaffeensis immunoglobulin G complexed with E. chaffeensis did not induce any of these three cytokines, indicating that <corefTheme>ehrlichial</corefTheme> <clueType>binding</clueType> is required for IL-1beta mRNA expression and that binding of the immune complex to the Fc gamma receptor is required for TNF-alpha and IL-6 mRNA expression and enhanced IL-1beta mRNA expression.</clue>
+</event>
+<event KT="Other" id="E32">
+<type class="Transcription"/>
+<theme idref="T55"/>
+<clue>Fab fragment of anti-E. chaffeensis immunoglobulin G complexed with E. chaffeensis did not induce any of these three cytokines, indicating that ehrlichial binding is required for IL-1beta mRNA <clueType>expression</clueType> and that binding of the immune complex to the Fc gamma receptor is required for TNF-alpha and IL-6 mRNA expression and enhanced IL-1beta mRNA expression.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E32"/>
+<cause idref="E31"/>
+<clue>Fab fragment of anti-E. chaffeensis immunoglobulin G complexed with E. chaffeensis did not induce any of these three cytokines, <clueKT><clueCL>indicating</clueCL></clueKT> that ehrlichial binding is <clueType>required</clueType> <linkTheme>for</linkTheme> IL-1beta mRNA expression and that binding of the immune complex to the Fc gamma receptor is required for TNF-alpha and IL-6 mRNA expression and enhanced IL-1beta mRNA expression.</clue>
+</event>
+<event KT="Other" id="E34">
+<type class="Binding"/>
+<theme idref="T51"/>
+<theme idref="T52"/>
+<clue>Fab fragment of anti-E. chaffeensis immunoglobulin G complexed with E. chaffeensis did not induce any of these three cytokines, indicating that ehrlichial binding is required for IL-1beta mRNA expression and that <clueType>binding</clueType> <linkTheme>of</linkTheme> the immune complex <linkTheme>to</linkTheme> the Fc gamma receptor is required for TNF-alpha and IL-6 mRNA expression and enhanced IL-1beta mRNA expression.</clue>
+</event>
+<event KT="Other" id="E35">
+<type class="Transcription"/>
+<theme idref="A11" idref1="A10"/>
+<clue>Fab fragment of anti-E. chaffeensis immunoglobulin G complexed with E. chaffeensis did not induce any of these three cytokines, indicating that ehrlichial binding is required for IL-1beta mRNA expression and that binding of the immune complex to the Fc gamma receptor is required for TNF-alpha and IL-6 mRNA <clueType>expression</clueType> and enhanced IL-1beta mRNA expression.</clue>
+</event>
+<event KT="Other" id="E36">
+<type class="Transcription"/>
+<theme idref="T55"/>
+<clue>Fab fragment of anti-E. chaffeensis immunoglobulin G complexed with E. chaffeensis did not induce any of these three cytokines, indicating that ehrlichial binding is required for IL-1beta mRNA expression and that binding of the immune complex to the Fc gamma receptor is required for TNF-alpha and IL-6 mRNA <clueType>expression</clueType> and enhanced IL-1beta mRNA expression.</clue>
+</event>
+<event KT="Other" id="E37">
+<type class="Transcription"/>
+<theme idref="T58"/>
+<clue>Fab fragment of anti-E. chaffeensis immunoglobulin G complexed with E. chaffeensis did not induce any of these three cytokines, indicating that ehrlichial binding is required for IL-1beta mRNA expression and that binding of the immune complex to the Fc gamma receptor is required for TNF-alpha and IL-6 mRNA expression and enhanced IL-1beta mRNA <clueType>expression</clueType>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E38">
+<type class="Positive_regulation"/>
+<theme idref="E35"/>
+<cause idref="E34"/>
+<clue>Fab fragment of anti-E. chaffeensis immunoglobulin G complexed with E. chaffeensis did not induce any of these three cytokines, <clueKT><clueCL>indicating</clueCL></clueKT> that ehrlichial binding is required for IL-1beta mRNA expression and that binding of the immune complex to the Fc gamma receptor is <clueType>required</clueType> <linkTheme>for</linkTheme> TNF-alpha and IL-6 mRNA expression and enhanced IL-1beta mRNA expression.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E39">
+<type class="Positive_regulation"/>
+<theme idref="E36"/>
+<cause idref="E34"/>
+<clue>Fab fragment of anti-E. chaffeensis immunoglobulin G complexed with E. chaffeensis did not induce any of these three cytokines, <clueKT><clueCL>indicating</clueCL></clueKT> that ehrlichial binding is required for IL-1beta mRNA expression and that binding of the immune complex to the Fc gamma receptor is <clueType>required</clueType> <linkTheme>for</linkTheme> TNF-alpha and IL-6 mRNA expression and enhanced IL-1beta mRNA expression.</clue>
+</event>
+<event KT="Other" id="E40">
+<type class="Positive_regulation"/>
+<theme idref="E37"/>
+<cause idref="E34"/>
+<clue>Fab fragment of anti-E. chaffeensis immunoglobulin G complexed with E. chaffeensis did not induce any of these three cytokines, indicating that ehrlichial binding is required for IL-1beta mRNA expression and that binding of the immune complex to the Fc gamma receptor is required for TNF-alpha and IL-6 mRNA expression and <clueType>enhanced</clueType> IL-1beta mRNA expression.</clue>
+</event>
+<sentence id="S10">Furthermore, prolonged degradation of <term id="T60" lex="IkappaB-alpha" sem="Protein_molecule">IkappaB-alpha</term> and activation of <term id="T61" lex="NF-kappaB" sem="Protein_molecule">NF-kappaB</term> were demonstrated in <term id="T62" lex="THP-1_cell" sem="Cell_cultured">THP-1 cells</term> exposed to <term id="T63" lex="anti-E._chaffeensis_serum" sem="Tissue_natural">anti-<term id="T64" lex="E._chaffeensis" sem="Unicellular_organism">E. chaffeensis</term> serum</term> and <term id="T65" lex="E._chaffeensis" sem="Unicellular_organism">E. chaffeensis</term>.</sentence>
+<event KT="Other" id="E41">
+<type class="Protein_catabolism"/>
+<theme idref="T60"/>
+<clue>Furthermore, prolonged <clueType>degradation</clueType> <linkTheme>of</linkTheme> IkappaB-alpha and activation of NF-kappaB were demonstrated in THP-1 cells exposed to anti-E. chaffeensis serum and E. chaffeensis.</clue>
+</event>
+<event KT="Other" id="E42">
+<type class="Positive_regulation"/>
+<theme idref="T61"/>
+<clue>Furthermore, prolonged degradation of IkappaB-alpha and <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappaB were demonstrated in THP-1 cells exposed to anti-E. chaffeensis serum and E. chaffeensis.</clue>
+</event>
+<event KT="Analysis" id="E45">
+<type class="Positive_regulation"/>
+<theme idref="E41"/>
+<cause idref="T63"/>
+<clue>Furthermore, prolonged degradation of IkappaB-alpha and activation of NF-kappaB were <clueType><clueKT>demonstrated</clueKT></clueType> <clueLoc>in THP-1 cells</clueLoc> <linkCause>exposed to</linkCause> anti-E. chaffeensis serum and E. chaffeensis.</clue>
+</event>
+<event KT="Analysis" id="E46">
+<type class="Positive_regulation"/>
+<theme idref="E42"/>
+<cause idref="T63"/>
+<clue>Furthermore, prolonged degradation of IkappaB-alpha and activation of NF-kappaB were <clueType><clueKT>demonstrated</clueKT></clueType> <clueLoc>in THP-1 cells</clueLoc> <linkCause>exposed to</linkCause> anti-E. chaffeensis serum and E. chaffeensis.</clue>
+</event>
+<event KT="Analysis" id="E47">
+<type class="Positive_regulation"/>
+<theme idref="E41"/>
+<cause idref="T65"/>
+<clue>Furthermore, prolonged degradation of IkappaB-alpha and activation of NF-kappaB were <clueType><clueKT>demonstrated</clueKT></clueType> <clueLoc>in THP-1 cells</clueLoc> <linkCause>exposed to</linkCause> anti-E. chaffeensis serum and E. chaffeensis.</clue>
+</event>
+<event KT="Analysis" id="E48">
+<type class="Positive_regulation"/>
+<theme idref="E42"/>
+<cause idref="T65"/>
+<clue>Furthermore, prolonged degradation of IkappaB-alpha and activation of NF-kappaB were <clueType><clueKT>demonstrated</clueKT></clueType> <clueLoc>in THP-1 cells</clueLoc> <linkCause>exposed to</linkCause> anti-E. chaffeensis serum and E. chaffeensis.</clue>
+</event>
+<sentence id="S11">This result implies that development of <term id="T66" lex="anti-E._chaffeensis_antibody" sem="Protein_molecule">anti-<term id="T67" lex="E._chaffeensis" sem="Unicellular_organism">E. chaffeensis</term> antibody</term> in patients can result in the production of <term id="T68" lex="major_proinflammatory_cytokine" sem="Protein_family_or_group">major proinflammatory cytokines</term>, which may play an important role in the pathophysiology of <term id="T69" lex="ehrlichiosis" sem="Unicellular_organism">ehrlichiosis</term> and <term id="T70" lex="immune_response" sem="Other">immune responses</term> to it.</sentence>
+<event KT="Other" id="E49">
+<type class="Physiological_process"/>
+<theme idref="T66"/>
+<clue>This result implies that <clueType>development</clueType> <linkTheme>of</linkTheme> anti-E. chaffeensis antibody <clueLoc>in patients</clueLoc> can result in the production of major proinflammatory cytokines, which may play an important role in the pathophysiology of ehrlichiosis and immune responses to it.</clue>
+</event>
+<event KT="Other" id="E50">
+<type class="Gene_expression"/>
+<theme idref="T68"/>
+<clue>This result implies that development of anti-E. chaffeensis antibody in patients can result in the <clueType>production</clueType> <linkTheme>of</linkTheme> major proinflammatory cytokines, which may play an important role in the pathophysiology of ehrlichiosis and immune responses to it.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E51">
+<type class="Positive_regulation"/>
+<theme idref="E50"/>
+<cause idref="E49"/>
+<clue>This result <clueKT>implies</clueKT> that development of anti-E. chaffeensis antibody in patients <clueCL>can</clueCL> <clueType>result</clueType> <linkTheme>in</linkTheme> the production of major proinflammatory cytokines, which may play an important role in the pathophysiology of ehrlichiosis and immune responses to it.</clue>
+</event>
+<event KT="Other" id="E52">
+<type class="Physiological_process"/>
+<theme idref="T69"/>
+<clue>This result implies that development of anti-E. chaffeensis antibody in patients can result in the production of major proinflammatory cytokines, which may play an important role in the pathophysiology of ehrlichiosis and <clueType>immune responses</clueType> <linkTheme>to</linkTheme> <corefTheme>it</corefTheme>.</clue>
+</event>
+<event KT="Other" id="E56">
+<type/>
+<cause idref="T69"/>
+<clue>This result implies that development of anti-E. chaffeensis antibody in patients can result in the production of major proinflammatory cytokines, which may play an important role in the <clueType>pathophysiology</clueType> <linkCause>of</linkCause> ehrlichiosis and immune responses to it.</clue>
+<comment>SOO</comment></event>
+<event CL="L1" KT="Analysis" id="E53" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E56"/>
+<cause idref="T68"/>
+<clue>This result <clueKT>implies</clueKT> that development of anti-E. chaffeensis antibody in patients can result in the production of major proinflammatory cytokines, which <clueCL>may</clueCL> <clueType>play</clueType> an important <clueType>role</clueType> <linkTheme>in</linkTheme> the pathophysiology of ehrlichiosis and immune responses to it.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E54" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E52"/>
+<cause idref="T68"/>
+<clue>This result <clueKT>implies</clueKT> that development of anti-E. chaffeensis antibody in patients can result in the production of major proinflammatory cytokines, which <clueCL>may</clueCL> <clueType>play</clueType> an important <clueType>role</clueType> <linkTheme>in</linkTheme> the pathophysiology of ehrlichiosis and immune responses to it.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

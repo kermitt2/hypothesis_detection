@@ -1,0 +1,307 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2204723" created="10/04/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>2204723</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="cell-specific_difference" sem="Other">Cell-specific differences</term> in activation of <term id="T2" lex="NF-kappa_B_regulatory_element" sem="DNA_family_or_group"><term id="T3" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> regulatory elements</term> of <cons id="T4" lex="(AND human_immunodeficiency_virus_promoter beta_interferon_promoter)" sem="(AND DNA_domain_or_region DNA_domain_or_region)"><frag id="F1"><term id="A1" sem="Virus">human immunodeficiency virus</term></frag> and <frag id="F2"><term id="A2" sem="DNA_domain_or_region">beta interferon</term></frag> <frag id="F3"><term id="A3" sem="DNA_domain_or_region">promoters</term></frag></cons> by <term id="T5" lex="tumor_necrosis_factor" sem="Protein_molecule">tumor necrosis factor</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Regulation"/>
+<theme idref="T3"/>
+<cause idref="A1"/>
+<clue>Cell-specific differences in activation of NF-kappa B <clueType>regulatory elements</clueType> <linkCause>of</linkCause> human immunodeficiency virus and beta interferon promoters by tumor necrosis factor.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Regulation"/>
+<theme idref="T3"/>
+<cause idref="A2" idref1="A3"/>
+<clue>Cell-specific differences in activation of NF-kappa B <clueType>regulatory elements</clueType> <linkCause>of</linkCause> human immunodeficiency virus and beta interferon promoters by tumor necrosis factor.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T5"/>
+<clue>Cell-specific differences in <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappa B regulatory elements of human immunodeficiency virus and beta interferon promoters <linkCause>by</linkCause> tumor necrosis factor.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="T5"/>
+<clue>Cell-specific differences in <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappa B regulatory elements of human immunodeficiency virus and beta interferon promoters <linkCause>by</linkCause> tumor necrosis factor.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Three aspects of the involvement of <term id="T6" lex="tumor_necrosis_factor" sem="Protein_molecule">tumor necrosis factor</term> in <term id="T7" lex="human_immunodeficiency_virus" sem="Virus">human immunodeficiency virus</term> (<term id="T8" lex="HIV" sem="Virus">HIV</term>) pathogenesis were examined.</sentence>
+<event KT="Other" id="E5">
+<type/>
+<theme idref="T8"/>
+<clue>Three aspects of the involvement of tumor necrosis factor in human immunodeficiency virus (HIV) <clueType>pathogenesis</clueType> were examined.</clue>
+<comment>SOO</comment></event>
+<event KT="Fact" id="E6" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E5"/>
+<cause idref="T6"/>
+<clue>Three aspects of the <clueType>involvement</clueType> <linkCause>of</linkCause> tumor necrosis factor <linkTheme>in</linkTheme> human immunodeficiency virus (HIV) pathogenesis were examined.</clue>
+</event>
+<sentence id="S3"><term id="T9" lex="tumor_necrosis_factor_alpha_(TNF-alpha)_mRNA_production" sem="Other"><term id="T10" lex="tumor_necrosis_factor_alpha_(TNF-alpha)_mRNA" sem="RNA_molecule"><term id="T11" lex="tumor_necrosis_factor_alpha" sem="Protein_molecule">Tumor necrosis factor alpha</term> (<term id="A10" sem="RNA_molecule"><term id="T12" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term></term>) mRNA</term> production</term> was analyzed by <term id="T13" lex="polymerase_chain_reaction_amplification" sem="Other"><term id="T14" lex="polymerase_chain_reaction" sem="Other">polymerase chain reaction</term> amplification</term> in <term id="T15" lex="monocytic_U937_cell" sem="Cell_cultured">monocytic U937 cells</term> and in a <term id="T16" lex="chronically_HIV_infected_U937_cell_line" sem="Cell_cultured">chronically <term id="A5" sem="Virus">HIV</term> infected <term id="A6" sem="Cell_cultured">U937 cell line</term></term> (<term id="T17" lex="U9-IIIB" sem="Cell_cultured">U9-IIIB</term>).</sentence>
+<event KT="Other" id="E7" uncertainty="doubtful">
+<type class="Transcription"/>
+<theme idref="A10" idref1="T10"/>
+<clue>Tumor necrosis factor alpha (TNF-alpha) mRNA <clueType>production</clueType> was <clueExperiment>analyzed by polymerase chain reaction amplification</clueExperiment> <clueLoc>in monocytic U937 cells</clueLoc> and in a chronically HIV infected U937 cell line (U9-IIIB).</clue>
+</event>
+<event KT="Other" id="E16" uncertainty="doubtful">
+<type class="Transcription"/>
+<theme idref="A10" idref1="T10"/>
+<clue>Tumor necrosis factor alpha (TNF-alpha) mRNA <clueType>production</clueType> was <clueExperiment>analyzed by polymerase chain reaction amplification</clueExperiment> in monocytic U937 cells and <clueLoc>in a chronically HIV infected U937 cell line (U9-IIIB)</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="A5"/>
+<theme idref="A6"/>
+<clue>Tumor necrosis factor alpha (TNF-alpha) mRNA production was analyzed by polymerase chain reaction amplification in monocytic U937 cells and in a chronically HIV <clueType>infected</clueType> U937 cell line (U9-IIIB).</clue>
+</event>
+<sentence id="S4"><term id="T18" lex="TNF-alpha_RNA" sem="RNA_molecule"><term id="T19" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term> RNA</term> was undetectable in <term id="T20" lex="U937_cell" sem="Cell_cultured">U937 cells</term>, whereas a low constitutive level was detected in <term id="T21" lex="U9-IIIB_cell" sem="Cell_cultured">U9-IIIB cells</term>.</sentence>
+<event Polarity="Negative" assertion="non-exist" id="E9">
+<type class="Transcription"/>
+<theme idref="T18"/>
+<clue>TNF-alpha RNA was <clueType><cluePolarity>un</cluePolarity><clueKT>detectable</clueKT></clueType> <clueLoc>in U937 cells</clueLoc>, whereas a low constitutive level was detected in U9-IIIB cells.</clue>
+</event>
+<event id="E10">
+<type class="Transcription"/>
+<theme idref="T18"/>
+<clue>TNF-alpha RNA was undetectable in U937 cells, whereas a low constitutive level was <clueType><clueKT>detected</clueKT></clueType> <clueLoc>in U9-IIIB cells</clueLoc>.</clue>
+</event>
+<sentence id="S5"><term id="A4" sem="Virus">Paramyxovirus</term> infection induced a 5- to 10-fold increase in the steady-state level of <term id="T22" lex="TNF-alpha_RNA" sem="RNA_molecule"><term id="T23" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term> RNA</term> in <term id="T24" lex="U9-IIIB_cell" sem="Cell_cultured">U9-IIIB cells</term> compared with <term id="T25" lex="U937_cell" sem="Cell_cultured">U937 cells</term>, suggesting that <term id="T26" lex="HIV-infected_monocytic_cell" sem="Cell_cultured"><term id="A11" sem="Virus">HIV</term>-infected <term id="A12" sem="Cell_natural">monocytic cells</term></term> produced higher levels of <term id="T27" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term> than did <term id="A7" sem="Cell_cultured">normal cells</term> after a <term id="T28" lex="secondary_virus_infection" sem="Other">secondary virus infection</term>.</sentence>
+<event id="E11">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="A4"/>
+<theme idref="T24"/>
+<clue>Paramyxovirus <clueType>infection</clueType> induced a 5- to 10-fold increase in the steady-state level of TNF-alpha RNA in U9-IIIB cells compared with U937 cells, suggesting that HIV-infected monocytic cells produced higher levels of TNF-alpha than did normal cells after a secondary virus infection.</clue>
+</event>
+<event id="E51">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="A4"/>
+<theme idref="T25"/>
+<clue>Paramyxovirus <clueType>infection</clueType> induced a 5- to 10-fold increase in the steady-state level of TNF-alpha RNA in U9-IIIB cells compared with U937 cells, suggesting that HIV-infected monocytic cells produced higher levels of TNF-alpha than did normal cells after a secondary virus infection.</clue>
+</event>
+<event Manner="High" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="T22"/>
+<clue>Paramyxovirus infection induced a <clueManner>5- to 10-fold</clueManner> <clueType>increase</clueType> <linkTheme>in</linkTheme> the steady-state level of TNF-alpha RNA <clueLoc>in U9-IIIB cells</clueLoc> compared with U937 cells, suggesting that HIV-infected monocytic cells produced higher levels of TNF-alpha than did normal cells after a secondary virus infection.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T22"/>
+<clue>Paramyxovirus infection induced a 5- to 10-fold <clueType>increase</clueType> <linkTheme>in</linkTheme> the steady-state level of TNF-alpha RNA in U9-IIIB cells compared <clueLoc>with U937 cells</clueLoc>, suggesting that HIV-infected monocytic cells produced higher levels of TNF-alpha than did normal cells after a secondary virus infection.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="E11"/>
+<clue>Paramyxovirus infection <clueType>induced</clueType> a 5- to 10-fold increase in the steady-state level of TNF-alpha RNA in U9-IIIB cells compared with U937 cells, suggesting that HIV-infected monocytic cells produced higher levels of TNF-alpha than did normal cells after a secondary virus infection.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="E11"/>
+<clue>Paramyxovirus infection <clueType>induced</clueType> a 5- to 10-fold increase in the steady-state level of TNF-alpha RNA in U9-IIIB cells compared with U937 cells, suggesting that HIV-infected monocytic cells produced higher levels of TNF-alpha than did normal cells after a secondary virus infection.</clue>
+</event>
+<event KT="Other" id="E17" uncertainty="probable">
+<type class="Gene_expression"/>
+<theme idref="T27"/>
+<clue>Paramyxovirus infection induced a 5- to 10-fold increase in the steady-state level of TNF-alpha RNA in U9-IIIB cells compared with U937 cells, suggesting that <clueLoc>HIV-infected monocytic cells</clueLoc> <clueType>produced</clueType> higher levels of TNF-alpha than did normal cells after a secondary virus infection.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E49" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<cause idref="T28"/>
+<clue>Paramyxovirus infection induced a 5- to 10-fold increase in the steady-state level of TNF-alpha RNA in U9-IIIB cells compared with U937 cells, <clueKT><clueCL>suggesting</clueCL></clueKT> that <clueLoc>HIV-infected monocytic cells</clueLoc> produced <clueType>higher levels</clueType> of TNF-alpha than did normal cells <linkCause>after</linkCause> a secondary virus infection.</clue>
+</event>
+<event id="E18">
+<type class="Gene_expression"/>
+<theme idref="T27"/>
+<clue>Paramyxovirus infection induced a 5- to 10-fold increase in the steady-state level of TNF-alpha RNA in U9-IIIB cells compared with U937 cells, suggesting that HIV-infected monocytic cells <clueType>produced</clueType> higher levels of TNF-alpha than did <clueLoc>normal cells</clueLoc> after a secondary virus infection.</clue>
+<comment>CAUTION: SEE</comment></event>
+<event id="E52">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="A11"/>
+<theme idref="A12"/>
+<clue>Paramyxovirus infection induced a 5- to 10-fold increase in the steady-state level of TNF-alpha RNA in U9-IIIB cells compared with U937 cells, suggesting that HIV-<clueType>infected</clueType> monocytic cells produced higher levels of TNF-alpha than did normal cells after a secondary virus infection.</clue>
+</event>
+<sentence id="S6">The effects of <term id="T29" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term> on <term id="T30" lex="gene_expression" sem="Other">gene expression</term> were examined by <term id="T31" lex="transient_expression_assay" sem="Other">transient expression assays</term> using <term id="T32" lex="reporter_chloramphenicol_acetyltransferase_plasmid" sem="DNA_molecule">reporter chloramphenicol acetyltransferase plasmids</term> linked to <term id="T33" lex="regulatory_element" sem="DNA_family_or_group">regulatory elements</term> from the <term id="T34" lex="HIV_long_terminal_repeat" sem="DNA_domain_or_region">HIV long terminal repeat</term> (<term id="T35" lex="LTR" sem="DNA_domain_or_region">LTR</term>) and the <term id="T36" lex="beta_interferon_promoter" sem="DNA_domain_or_region">beta interferon promoter</term>.</sentence>
+<event KT="Other" id="E19" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="T30"/>
+<cause idref="T29"/>
+<clue>The <clueType>effects</clueType> <linkCause>of</linkCause> TNF-alpha <linkTheme>on</linkTheme> gene expression were examined by <clueExperiment>transient expression assays using reporter chloramphenicol acetyltransferase plasmids linked to regulatory elements from the HIV long terminal repeat (LTR) and the beta interferon promoter</clueExperiment>.</clue>
+</event>
+<event id="E21">
+<type class="Binding"/>
+<theme idref="T32"/>
+<theme idref="T33" idref1="T35"/>
+<clue>The effects of TNF-alpha on gene expression were examined by transient expression assays using reporter chloramphenicol acetyltransferase plasmids <clueType>linked</clueType> <linkTheme>to</linkTheme> regulatory elements from the HIV long terminal repeat (LTR) and the beta interferon promoter.</clue>
+</event>
+<event id="E22">
+<type class="Binding"/>
+<theme idref="T32"/>
+<theme idref="T33" idref1="T36"/>
+<clue>The effects of TNF-alpha on gene expression were examined by transient expression assays using reporter chloramphenicol acetyltransferase plasmids <clueType>linked</clueType> <linkTheme>to</linkTheme> regulatory elements from the HIV long terminal repeat (LTR) and the beta interferon promoter.</clue>
+</event>
+<sentence id="S7">In <cons id="T37" lex="(AND U937_cell Jurkat_T_lymphoid_cell)" sem="(AND Cell_cultured Cell_cultured)"><frag id="F4">U937</frag> and <frag id="F5">Jurkat T lymphoid</frag> <frag id="F6">cells</frag></cons>, the inducibility of the different <term id="T38" lex="hybrid_promoter" sem="DNA_family_or_group">hybrid <term id="A8" sem="DNA_family_or_group">promoters</term></term> by <term id="T39" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term> or <term id="T40" lex="phorbol_ester" sem="Organic_compound_other">phorbol ester</term> varied in a cell type- and promoter context-specific manner; the levels of <term id="T41" lex="gene_activity" sem="Other">gene activity</term> of <term id="T42" lex="NF-kappa_B-containing_plasmid" sem="DNA_molecule"><term id="T43" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>-containing plasmids</term> correlated directly with induction of <term id="T44" lex="NF-kappa_B_DNA-binding_activity" sem="Other"><term id="T45" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> DNA-binding activity</term>.</sentence>
+<event id="E23">
+<type class="Binding"/>
+<theme idref="A8"/>
+<clue>In U937 and Jurkat T lymphoid cells, the inducibility of the different <clueType>hybrid</clueType> promoters <linkTheme>by</linkTheme> TNF-alpha or phorbol ester varied in a cell type- and promoter context-specific manner; the levels of gene activity of NF-kappa B-containing plasmids correlated directly with induction of NF-kappa B DNA-binding activity.</clue>
+</event>
+<event id="E24">
+<type class="Binding"/>
+<theme idref="A8"/>
+<clue>In U937 and Jurkat T lymphoid cells, the inducibility of the different <clueType>hybrid</clueType> promoters <linkTheme>by</linkTheme> TNF-alpha or phorbol ester varied in a cell type- and promoter context-specific manner; the levels of gene activity of NF-kappa B-containing plasmids correlated directly with induction of NF-kappa B DNA-binding activity.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation"/>
+<theme idref="E23"/>
+<cause idref="T39"/>
+<clue><clueLoc>In U937</clueLoc> and Jurkat T lymphoid <clueLoc>cells</clueLoc>, the <clueType>inducibility</clueType> <linkTheme>of</linkTheme> the different hybrid promoters <linkCause>by</linkCause> TNF-alpha or phorbol ester varied in a cell type- and promoter context-specific manner; the levels of gene activity of NF-kappa B-containing plasmids correlated directly with induction of NF-kappa B DNA-binding activity.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation"/>
+<theme idref="E24"/>
+<cause idref="T40"/>
+<clue><clueLoc>In</clueLoc> U937 and <clueLoc>Jurkat T lymphoid cells</clueLoc>, the <clueType>inducibility</clueType> <linkTheme>of</linkTheme> the different hybrid promoters <linkCause>by</linkCause> TNF-alpha or phorbol ester varied in a cell type- and promoter context-specific manner; the levels of gene activity of NF-kappa B-containing plasmids correlated directly with induction of NF-kappa B DNA-binding activity.</clue>
+</event>
+<event KT="Other" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="T42"/>
+<clue>In U937 and Jurkat T lymphoid cells, the inducibility of the different hybrid promoters by TNF-alpha or phorbol ester varied in a cell type- and promoter context-specific manner; the levels of <clueType>gene activity</clueType> <linkTheme>of</linkTheme> NF-kappa B-containing plasmids correlated directly with induction of NF-kappa B DNA-binding activity.</clue>
+</event>
+<event KT="Other" id="E28">
+<type class="Positive_regulation"/>
+<theme idref="T44"/>
+<clue>In U937 and Jurkat T lymphoid cells, the inducibility of the different hybrid promoters by TNF-alpha or phorbol ester varied in a cell type- and promoter context-specific manner; the levels of gene activity of NF-kappa B-containing plasmids correlated directly with <clueType>induction</clueType> <linkTheme>of</linkTheme> NF-kappa B DNA-binding activity.</clue>
+</event>
+<event KT="Analysis" id="E29">
+<type class="Correlation"/>
+<theme idref="E27"/>
+<theme idref="E28"/>
+<clue>In U937 and Jurkat T lymphoid cells, the inducibility of the different hybrid promoters by TNF-alpha or phorbol ester varied in a cell type- and promoter context-specific manner; the levels of gene activity of NF-kappa B-containing plasmids <clueType><clueKT>correlated</clueKT></clueType> directly <linkTheme>with</linkTheme> induction of NF-kappa B DNA-binding activity.</clue>
+</event>
+<sentence id="S8">Although the intact <term id="T46" lex="beta_interferon_promoter" sem="DNA_domain_or_region">beta interferon promoter</term> was only weakly stimulated by <term id="T47" lex="phorbol_ester" sem="Organic_compound_other">phorbol ester</term> or <term id="T48" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term>, multimers of the <term id="T49" lex="PRDII_NF-kappa_B-binding_domain" sem="DNA_domain_or_region">PRDII <term id="T50" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>-binding domain</term> were inducible by both agents.</sentence>
+<event Manner="Low" id="E30">
+<type class="Positive_regulation"/>
+<theme idref="T46"/>
+<cause idref="T47"/>
+<clue>Although the intact beta interferon promoter was <clueManner>only weakly</clueManner> <clueType>stimulated</clueType> <linkCause>by</linkCause> phorbol ester or TNF-alpha, multimers of the PRDII NF-kappa B-binding domain were inducible by both agents.</clue>
+</event>
+<event Manner="Low" id="E31">
+<type class="Positive_regulation"/>
+<theme idref="T46"/>
+<cause idref="T48"/>
+<clue>Although the intact beta interferon promoter was <clueManner>only weakly</clueManner> <clueType>stimulated</clueType> <linkCause>by</linkCause> phorbol ester or TNF-alpha, multimers of the PRDII NF-kappa B-binding domain were inducible by both agents.</clue>
+</event>
+<event id="E32">
+<type class="Binding"/>
+<theme idref="T49"/>
+<clue>Although the intact beta interferon promoter was only weakly stimulated by phorbol ester or TNF-alpha, <clueType>multimers</clueType> <linkTheme>of</linkTheme> the PRDII NF-kappa B-binding domain were inducible by both agents.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E32"/>
+<cause idref="T47"/>
+<clue>Although the intact beta interferon promoter was only weakly stimulated by phorbol ester or TNF-alpha, multimers of the PRDII NF-kappa B-binding domain were <clueType>inducible</clueType> <linkCause>by</linkCause> <corefCause>both agents</corefCause>.</clue>
+</event>
+<event id="E34">
+<type class="Positive_regulation"/>
+<theme idref="E32"/>
+<cause idref="T48"/>
+<clue>Although the intact beta interferon promoter was only weakly stimulated by phorbol ester or TNF-alpha, multimers of the PRDII NF-kappa B-binding domain were <clueType>inducible</clueType> <linkCause>by</linkCause> <corefCause>both agents</corefCause>.</clue>
+</event>
+<sentence id="S9"><term id="T51" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term> was able to increase expression of the <term id="T52" lex="HIV_LTR" sem="DNA_domain_or_region">HIV LTR</term> in <term id="T53" lex="T_cell" sem="Cell_natural">T cells</term>, but in <term id="T54" lex="monocytic_cell" sem="Cell_natural">monocytic cells</term>, <term id="T55" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term> did not induce the <term id="T56" lex="HIV_LTR" sem="DNA_domain_or_region">HIV LTR</term> above a <term id="T57" lex="constitutive_level_of_activity" sem="Other">constitutive level of activity</term>.</sentence>
+<event KT="Other" id="E35">
+<type class="Gene_expression"/>
+<theme idref="T52"/>
+<clue>TNF-alpha was able to increase <clueType>expression</clueType> <linkTheme>of</linkTheme> the HIV LTR in T cells, but in monocytic cells, TNF-alpha did not induce the HIV LTR above a constitutive level of activity.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E36">
+<type class="Positive_regulation"/>
+<theme idref="E34"/>
+<cause idref="T51"/>
+<clue>TNF-alpha was <clueKT><clueCL>able to</clueCL></clueKT> <clueType>increase</clueType> expression of the HIV LTR <clueLoc>in T cells</clueLoc>, but in monocytic cells, TNF-alpha did not induce the HIV LTR above a constitutive level of activity.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E37">
+<type class="Positive_regulation"/>
+<theme idref="T56"/>
+<cause idref="T55"/>
+<clue>TNF-alpha was able to increase expression of the HIV LTR in T cells, but <clueLoc>in monocytic cells</clueLoc>, TNF-alpha did <cluePolarity>not</cluePolarity> <clueType>induce</clueType> the HIV LTR above a constitutive level of activity.</clue>
+</event>
+<sentence id="S10">This level of <term id="T58" lex="NF-kappa_B-independent_activity" sem="Other"><term id="T59" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>-independent activity</term> appears to be sufficient for <term id="T60" lex="virus_multiplication" sem="Other"><term id="A13" sem="Virus">virus</term> multiplication</term>, since <term id="T61" lex="TNF-alpha_treatment" sem="Other"><term id="T62" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term> treatment</term> had no effect on the kinetics of de novo <term id="T63" lex="HIV_type_1_(HIV-1)_infection" sem="Other"><term id="T64" lex="HIV_type_1" sem="Virus">HIV type 1</term> (<term id="T65" lex="HIV-1" sem="Virus">HIV-1</term>) infection</term> and <term id="T66" lex="viral_RNA_production" sem="Other"><term id="T67" lex="viral_RNA" sem="RNA_family_or_group">viral RNA</term> production</term> in <term id="T68" lex="U937_cell" sem="Cell_cultured">U937 cells</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E38" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E39"/>
+<cause idref="T58"/>
+<clue>This level of NF-kappa B-independent activity <clueKT><clueCL>appears</clueCL></clueKT> to be <clueType>sufficient</clueType> <linkTheme>for</linkTheme> virus multiplication, since TNF-alpha treatment had no effect on the kinetics of de novo HIV type 1 (HIV-1) infection and viral RNA production in U937 cells.</clue>
+</event>
+<event KT="Other" id="E39">
+<type class="Viral_life_cycle"/>
+<theme idref="A13"/>
+<clue>This level of NF-kappa B-independent activity appears to be sufficient for virus <clueType>multiplication</clueType>, since TNF-alpha treatment had no effect on the kinetics of de novo HIV type 1 (HIV-1) infection and viral RNA production in U937 cells.</clue>
+</event>
+<event id="E40">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T65"/>
+<theme idref="T68"/>
+<clue>This level of NF-kappa B-independent activity appears to be sufficient for virus multiplication, since TNF-alpha treatment had no effect on the kinetics <linkTheme>of</linkTheme> de novo HIV type 1 (HIV-1) <clueType>infection</clueType> and viral RNA production <linkTheme>in</linkTheme> U937 cells.</clue>
+</event>
+<event id="E41">
+<type class="Transcription"/>
+<theme idref="T67"/>
+<clue>This level of NF-kappa B-independent activity appears to be sufficient for virus multiplication, since TNF-alpha treatment had no effect on the kinetics of de novo HIV type 1 (HIV-1) infection and viral RNA <clueType>production</clueType> <clueLoc>in U937 cells</clueLoc>.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E42">
+<type class="Regulation"/>
+<theme idref="E40"/>
+<cause idref="T62"/>
+<clue>This level of NF-kappa B-independent activity appears to be sufficient for virus multiplication, since TNF-alpha treatment had <cluePolarity>no</cluePolarity> <clueType>effect</clueType> <linkTheme>on</linkTheme> the kinetics of de novo HIV type 1 (HIV-1) infection and viral RNA production in U937 cells.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E43">
+<type class="Regulation"/>
+<theme idref="E41"/>
+<cause idref="T62"/>
+<clue>This level of NF-kappa B-independent activity appears to be sufficient for virus multiplication, since TNF-alpha treatment had <cluePolarity>no</cluePolarity> <clueType>effect</clueType> <linkTheme>on</linkTheme> the kinetics of de novo HIV type 1 (HIV-1) infection and viral RNA production in U937 cells.</clue>
+</event>
+<sentence id="S11">However, in <term id="T69" lex="Jurkat_cell" sem="Cell_cultured">Jurkat cells</term>, <term id="T70" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term> dramatically enhanced the spread of <term id="T71" lex="HIV-1" sem="Virus">HIV-1</term> through the <term id="T72" lex="cell_population" sem="Cell_cultured">cell population</term> and increased <term id="T73" lex="viral_RNA_synthesis" sem="Other"><term id="T74" lex="viral_RNA" sem="RNA_family_or_group">viral RNA</term> synthesis</term>, indicating that in <term id="T75" lex="T_cell" sem="Cell_natural">T cells</term> <term id="T76" lex="HIV-1_multiplication" sem="Other"><term id="A9" sem="Virus">HIV-1</term> multiplication</term> was stimulated by <term id="T77" lex="TNF-alpha_treatment" sem="Other"><term id="T78" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term> treatment</term>.</sentence>
+<event Manner="High" id="E44">
+<type class="Positive_regulation"/>
+<theme idref="E45"/>
+<cause idref="T70"/>
+<clue>However, <clueLoc>in Jurkat cells</clueLoc>, TNF-alpha <clueManner>dramatically</clueManner> <clueType>enhanced</clueType> the spread of HIV-1 through the cell population and increased viral RNA synthesis, indicating that in T cells HIV-1 multiplication was stimulated by TNF-alpha treatment.</clue>
+</event>
+<event id="E45">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T71"/>
+<theme idref="T72"/>
+<clue>However, in Jurkat cells, TNF-alpha dramatically enhanced the <clueType>spread</clueType> <linkTheme>of</linkTheme> HIV-1 <linkTheme>through</linkTheme> the cell population and increased viral RNA synthesis, indicating that in T cells HIV-1 multiplication was stimulated by TNF-alpha treatment.</clue>
+<comment>NER: T72 sem mod, Other_name -&gt; Cell_line</comment></event>
+<event id="E46">
+<type class="Positive_regulation"/>
+<theme idref="E47"/>
+<cause idref="T70"/>
+<clue>However, <clueLoc>in Jurkat cells</clueLoc>, TNF-alpha dramatically enhanced the spread of HIV-1 through the cell population and <clueType>increased</clueType> viral RNA synthesis, indicating that in T cells HIV-1 multiplication was stimulated by TNF-alpha treatment.</clue>
+</event>
+<event id="E47">
+<type class="Transcription"/>
+<theme idref="T74"/>
+<clue>However, in Jurkat cells, TNF-alpha dramatically enhanced the spread of HIV-1 through the cell population and increased viral RNA <clueType>synthesis</clueType>, indicating that in T cells HIV-1 multiplication was stimulated by TNF-alpha treatment.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E48">
+<type class="Positive_regulation"/>
+<theme idref="E50"/>
+<cause idref="T78"/>
+<clue>However, in Jurkat cells, TNF-alpha dramatically enhanced the spread of HIV-1 through the cell population and increased viral RNA synthesis, <clueKT><clueCL>indicating</clueCL></clueKT> that <clueLoc>in T cells</clueLoc> HIV-1 multiplication was <clueType>stimulated</clueType> <linkCause>by</linkCause> TNF-alpha treatment.</clue>
+</event>
+<event KT="Other" id="E50">
+<type class="Viral_life_cycle"/>
+<theme idref="A9"/>
+<clue>However, in Jurkat cells, TNF-alpha dramatically enhanced the spread of HIV-1 through the cell population and increased viral RNA synthesis, indicating that in T cells HIV-1 <clueType>multiplication</clueType> was stimulated by TNF-alpha treatment.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

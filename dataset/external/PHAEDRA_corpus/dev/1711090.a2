@@ -1,0 +1,10 @@
+T10	Potential_therapeutic_effect 190 199	treatment
+T23	Adverse_effect 963 975	side-effects
+T24	Potential_therapeutic_effect 243 249	effect
+R1	is_equivalent Arg1:T5 Arg2:T6
+R2	Subject_Disorder Arg1:T2 Arg2:T5
+R3	Subject_Disorder Arg1:T2 Arg2:T7
+E1	Potential_therapeutic_effect:T10 affects:T3 has_agent:T8 has_agent:T9
+E2	Adverse_effect:T23 has_agent:T22 affects:T17 affects:T18 affects:T4 affects:T19
+E3	Potential_therapeutic_effect:T24 has_agent:T12 has_subject:T2 affects:T5 has_cue:T25
+A1	Speculated E3

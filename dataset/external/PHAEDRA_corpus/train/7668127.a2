@@ -1,0 +1,14 @@
+T12	Potential_therapeutic_effect 83 94	prophylaxis
+T13	Potential_therapeutic_effect 373 384	prophylaxis
+T17	Potential_therapeutic_effect 248 255	therapy
+T19	Potential_therapeutic_effect 573 584	prophylaxis
+R1	Subject_Disorder Arg1:T14 Arg2:T7
+R2	Subject_Disorder Arg1:T16 Arg2:T4
+R3	Subject_Disorder Arg1:T18 Arg2:T10
+E1	Potential_therapeutic_effect:T12 has_agent:T3 affects:T1
+E2	Potential_therapeutic_effect:T13 has_subject:T14 has_agent:T6
+E3	Potential_therapeutic_effect:T17 has_agent:T5 has_subject:T16 affects:T11
+E4	Potential_therapeutic_effect:T19 has_agent:T8 has_subject:T18 affects:T9 has_cue:T20
+A1	Speculated E4
+T15	Adverse_effect 348 361	complications
+E5	Adverse_effect:T15 has_cue:T21 has_agent:T6 has_subject:T14

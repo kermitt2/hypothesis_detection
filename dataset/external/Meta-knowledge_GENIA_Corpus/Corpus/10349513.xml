@@ -1,0 +1,202 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10349513" created="29/10/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10349513</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="targeted_remodeling" sem="Other">Targeted remodeling</term> of <term id="T2" lex="human_beta-globin_promoter_chromatin_structure" sem="Other"><term id="A1" sem="DNA_domain_or_region">human beta-globin promoter</term> chromatin structure</term> produces increased expression and decreased <term id="A2" sem="Other">silencing</term>.</sentence>
+<event id="E1">
+<type class="DNA_metabolism"/>
+<theme idref="T2"/>
+<clue><clueType>Targeted remodeling</clueType> <linkTheme>of</linkTheme> human beta-globin promoter chromatin structure produces increased expression and decreased silencing.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="E1"/>
+<clue>Targeted remodeling of human beta-globin promoter chromatin structure produces <clueType>increased</clueType> expression and decreased silencing.</clue>
+</event>
+<event id="E3">
+<type class="Gene_expression"/>
+<theme idref="A1"/>
+<clue>Targeted remodeling of human beta-globin promoter chromatin structure produces increased <clueType>expression</clueType> and decreased silencing.</clue>
+</event>
+<event id="E4">
+<type class="Negative_regulation"/>
+<theme idref="E5"/>
+<cause idref="E1"/>
+<clue>Targeted remodeling of human beta-globin promoter chromatin structure produces increased expression and <clueType>decreased</clueType> silencing.</clue>
+</event>
+<event id="E5">
+<type class="Cellular_physiological_process"/>
+<theme idref="A1"/>
+<clue>Targeted remodeling of human beta-globin promoter chromatin structure produces increased expression and decreased <clueType>silencing</clueType>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T3" lex="chromatin_structure" sem="Other">chromatin structure</term> of the <term id="T4" lex="human_beta-globin_gene_locus" sem="DNA_domain_or_region">human beta-globin gene locus</term> assumes a <term id="T5" lex="transcriptionally-active_conformation" sem="Other">transcriptionally-active conformation</term> in <term id="T6" lex="erythroid_cell" sem="Cell_natural">erythroid cells</term>.</sentence>
+<event KT="Fact" id="E6" uncertainty="probable">
+<type class="Transcription"/>
+<theme idref="T4"/>
+<clue>The chromatin structure of the human beta-globin gene locus assumes a <clueType>transcriptionally-active</clueType> conformation <clueLoc>in erythroid cells</clueLoc>.</clue>
+</event>
+<sentence id="S3">One feature of this <term id="A5" sem="DNA_family_or_group">chromatin</term> reorganization is the formation of <term id="A20" sem="DNA_domain_or_region"><term id="T7" lex="DNase_1_hypersensitive_site" sem="DNA_domain_or_region">DNase 1 hypersensitive sites</term> in the regions of <term id="T8" lex="active_globin_gene_promoter" sem="DNA_family_or_group">active globin gene promoters</term></term>.</sentence>
+<event id="E7">
+<type class="DNA_metabolism"/>
+<theme idref="A5"/>
+<clue>One feature of this chromatin <clueType>reorganization</clueType> is the formation of DNase 1 hypersensitive sites in the regions of active globin gene promoters.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="DNA_metabolism"/>
+<theme idref="A20"/>
+<clue>One feature of this chromatin reorganization is the <clueType>formation</clueType> <linkTheme>of</linkTheme> DNase 1 hypersensitive sites in the regions of active globin gene promoters.</clue>
+<comment>TPS: A20</comment></event>
+<event KT="Fact" id="E9">
+<type class="Correlation"/>
+<theme idref="E7"/>
+<theme idref="E8"/>
+<clue>One <clueType>feature</clueType> <linkTheme>of</linkTheme> this chromatin reorganization is the formation of DNase 1 hypersensitive sites in the regions of active globin gene promoters.</clue>
+</event>
+<sentence id="S4">This reorganization requires the <term id="T9" lex="globin_locus_control_region" sem="DNA_domain_or_region">globin locus control region</term> and is associated with normal expression of the <term id="T10" lex="beta-like_globin_gene" sem="DNA_family_or_group">beta-like globin genes</term>.</sentence>
+<event KT="Fact" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="T9"/>
+<clue><corefTheme>This reorganization</corefTheme> <clueType>requires</clueType> the globin locus control region and is associated with normal expression of the beta-like globin genes.</clue>
+</event>
+<event KT="Fact" id="E11">
+<type class="Correlation"/>
+<theme idref="E7"/>
+<theme idref="E12"/>
+<clue>This reorganization requires the globin locus control region and is <clueType>associated</clueType> <linkTheme>with</linkTheme> normal expression of the beta-like globin genes.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Gene_expression"/>
+<theme idref="T10"/>
+<clue>This reorganization requires the globin locus control region and is associated with normal <clueType>expression</clueType> <linkTheme>of</linkTheme> the beta-like globin genes.</clue>
+</event>
+<sentence id="S5">To determine whether it is possible to artificially enhance the opening of the chromatin structure of a <term id="T11" lex="minimal_beta-globin_promoter" sem="DNA_family_or_group">minimal beta-globin promoter</term>, we placed a 101bp, <term id="T12" lex="erythroid-specific_DNase_1_hypersensitive_site-forming_element" sem="DNA_domain_or_region">erythroid-specific DNase 1 hypersensitive site-forming element</term> (<term id="T13" lex="HSFE" sem="DNA_domain_or_region">HSFE</term>) immediately upstream of the <cons id="T14" lex="(AND beta-globin_promoter beta-globin_gene)" sem="(AND DNA_domain_or_region DNA_domain_or_region)"><frag id="F1">beta-globin</frag> <frag id="F2">promoter</frag> and <frag id="F3">gene</frag></cons>.</sentence>
+<event KT="Investigation" id="E13" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<clue><clueKT>To determine</clueKT> whether it is possible to artificially <clueType>enhance</clueType> the opening of the chromatin structure of a minimal beta-globin promoter, we placed a 101bp, erythroid-specific DNase 1 hypersensitive site-forming element (HSFE) immediately upstream of the beta-globin promoter and gene.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="DNA_metabolism"/>
+<theme idref="T11"/>
+<clue>To determine whether it is possible to artificially enhance the <clueType>opening of the chromatin structure</clueType> <linkTheme>of</linkTheme> a minimal beta-globin promoter, we placed a 101bp, erythroid-specific DNase 1 hypersensitive site-forming element (HSFE) immediately upstream of the beta-globin promoter and gene.</clue>
+</event>
+<event KT="Method" id="E15">
+<type class="DNA_recombination"/>
+<theme idref="T13"/>
+<clue>To determine whether it is possible to artificially enhance the opening of the chromatin structure of a minimal beta-globin promoter, we <clueType>placed</clueType> a 101bp, erythroid-specific DNase 1 hypersensitive site-forming element (HSFE) immediately upstream of the beta-globin promoter and gene.</clue>
+<comment>ARTIFICIAL</comment></event>
+<sentence id="S6">This element includes binding sites for <term id="T15" lex="NF-E2" sem="Protein_molecule">NF-E2</term>, <term id="T16" lex="AP-1" sem="Protein_molecule">AP-1</term>, <term id="T17" lex="GATA-1" sem="Protein_molecule">GATA-1</term> and <term id="T18" lex="Sp-1" sem="Protein_molecule">Sp-1</term>.</sentence>
+<sentence id="S7"><term id="A4" sem="DNA_domain_or_region">Constructs</term> were stably transfected into <term id="T19" lex="murine_erythroleukemia_cell" sem="Cell_natural">murine erythroleukemia cells</term> and <term id="T20" lex="promoter_chromatin_structure" sem="DNA_substructure">promoter chromatin structure</term> and gene expression were analyzed.</sentence>
+<event KT="Method" id="E20">
+<type class="Gene_expression"/>
+<theme idref="T13" idref1="A4"/>
+<clue><corefTheme>Constructs</corefTheme> were <clueType>stably transfected</clueType> <clueLoc>into murine erythroleukemia cells</clueLoc> and promoter chromatin structure and gene expression were analyzed.</clue>
+<comment>NO COREFTHEME for T13; ARTIFICIAL</comment></event>
+<event KT="Method" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="T13" idref1="A4"/>
+<clue><corefTheme>Constructs</corefTheme> were <clueType>stably transfected</clueType> <clueLoc>into murine erythroleukemia cells</clueLoc> and promoter chromatin structure and gene expression were analyzed.</clue>
+</event>
+<event KT="Investigation" id="E21" uncertainty="doubtful">
+<type class="Gene_expression"/>
+<theme idref="T13"/>
+<clue>Constructs were stably transfected <clueLoc>into murine erythroleukemia cells</clueLoc> and promoter chromatin structure and <clueType>gene expression</clueType> were <clueKT>analyzed</clueKT>.</clue>
+</event>
+<sentence id="S8">The <term id="T21" lex="HSFE" sem="DNA_domain_or_region">HSFE</term> induced an area of <term id="T22" lex="enhanced_DNase_1_hypersensitivity" sem="Other">enhanced <term id="T23" lex="DNase_1" sem="Protein_molecule">DNase 1</term> hypersensitivity</term> extending <term id="A7" sem="DNA_domain_or_region">from the transcriptional start site to -300bp of the <term id="T24" lex="artificial_promoter" sem="DNA_molecule">artificial promoter</term></term> and significantly increased the proportion of <term id="A3" sem="DNA_domain_or_region"><term id="T25" lex="beta-globin_promoter" sem="DNA_domain_or_region">beta-globin promoters</term> in an <term id="T26" lex="open_chromatin_configuration" sem="DNA_substructure">open chromatin configuration</term></term>.</sentence>
+<event id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E23"/>
+<cause idref="T21"/>
+<clue>The HSFE <clueType>induced</clueType> an area of enhanced DNase 1 hypersensitivity extending from the transcriptional start site to -300bp of the artificial promoter and significantly increased the proportion of beta-globin promoters in an open chromatin configuration.</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation"/>
+<theme idref="E24"/>
+<clue>The HSFE induced an area of <clueType>enhanced</clueType> DNase 1 hypersensitivity extending from the transcriptional start site to -300bp of the artificial promoter and significantly increased the proportion of beta-globin promoters in an open chromatin configuration.</clue>
+</event>
+<event id="E24">
+<type class="DNA_metabolism"/>
+<theme idref="A7"/>
+<clue>The HSFE induced an <corefTheme>area</corefTheme> of enhanced DNase 1 <clueType>hypersensitivity</clueType> extending from the transcriptional start site to -300bp of the artificial promoter and significantly increased the proportion of beta-globin promoters in an open chromatin configuration.</clue>
+<comment>TPS: A7; SENSITIVITY</comment></event>
+<event id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E24"/>
+<cause idref="T23"/>
+<clue>The HSFE induced an area of enhanced DNase 1 hypersensitivity extending from the transcriptional start site to -300bp of the artificial promoter and significantly increased the proportion of beta-globin promoters in an open chromatin configuration.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event Manner="High" id="E25">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<cause idref="T21"/>
+<clue>The HSFE induced an area of enhanced DNase 1 hypersensitivity extending from the transcriptional start site to -300bp of the artificial promoter and <clueManner>significantly</clueManner> <clueType>increased the proportion</clueType> <linkTheme>of</linkTheme> beta-globin promoters in an open chromatin configuration.</clue>
+<comment>TPS: A3</comment></event>
+<sentence id="S9">This remodeling of <term id="T27" lex="promoter_chromatin_structure" sem="DNA_substructure">promoter chromatin structure</term> resulted in 3-fold increases in <term id="T28" lex="beta-globin_gene_transcription" sem="Other"><term id="T29" lex="beta-globin_gene" sem="DNA_domain_or_region"><term id="A8" sem="Protein_molecule">beta-globin</term> gene</term> transcription</term> and induction, and inhibited <term id="T30" lex="long-term_beta-globin_gene_silencing" sem="Other">long-term <term id="T31" lex="beta-globin_gene" sem="DNA_domain_or_region">beta-globin gene</term> silencing</term>.</sentence>
+<event id="E26">
+<type class="DNA_metabolism"/>
+<theme idref="T27"/>
+<clue>This <clueType>remodeling</clueType> <linkTheme>of</linkTheme> promoter chromatin structure resulted in 3-fold increases in beta-globin gene transcription and induction, and inhibited long-term beta-globin gene silencing.</clue>
+</event>
+<event Manner="High" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="E29"/>
+<cause idref="E26"/>
+<clue>This remodeling of promoter chromatin structure resulted in <clueManner>3-fold</clueManner> <clueType>increases</clueType> <linkTheme>in</linkTheme> beta-globin gene transcription and induction, and inhibited long-term beta-globin gene silencing.</clue>
+</event>
+<event Manner="High" id="E28">
+<type class="Positive_regulation"/>
+<theme idref="E30"/>
+<cause idref="E26"/>
+<clue>This remodeling of promoter chromatin structure resulted in <clueManner>3-fold</clueManner> <clueType>increases</clueType> <linkTheme>in</linkTheme> beta-globin gene transcription and induction, and inhibited long-term beta-globin gene silencing.</clue>
+</event>
+<event id="E29">
+<type class="Transcription"/>
+<theme idref="T29"/>
+<clue>This remodeling of promoter chromatin structure resulted in 3-fold increases in beta-globin gene <clueType>transcription</clueType> and induction, and inhibited long-term beta-globin gene silencing.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation"/>
+<theme idref="A8"/>
+<clue>This remodeling of promoter chromatin structure resulted in 3-fold increases in beta-globin gene transcription and <clueType>induction</clueType>, and inhibited long-term beta-globin gene silencing.</clue>
+</event>
+<event id="E31">
+<type class="Negative_regulation"/>
+<theme idref="E32"/>
+<cause idref="E26"/>
+<clue>This remodeling of promoter chromatin structure resulted in 3-fold increases in beta-globin gene transcription and induction, and <clueType>inhibited</clueType> long-term beta-globin gene silencing.</clue>
+</event>
+<event KT="Other" id="E32">
+<type class="Cellular_physiological_process"/>
+<theme idref="T31"/>
+<clue>This remodeling of promoter chromatin structure resulted in 3-fold increases in beta-globin gene transcription and induction, and inhibited <clueTime>long-term</clueTime> beta-globin gene <clueType>silencing</clueType>.</clue>
+</event>
+<sentence id="S10">These results indicate that a relatively small <term id="T32" lex="cis-acting_element" sem="DNA_domain_or_region">cis-acting element</term> is able to enhance remodeling of <term id="T33" lex="promoter_chromatin_structure" sem="DNA_substructure">promoter chromatin structure</term> resulting in increased <term id="T34" lex="beta-globin_gene_expression" sem="Other"><term id="T35" lex="beta-globin_gene" sem="DNA_family_or_group">beta-globin gene</term> expression</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E34"/>
+<cause idref="T32"/>
+<clue>These results <clueKT>indicate</clueKT> that a relatively small cis-acting element is <clueCL>able</clueCL> to <clueType>enhance</clueType> remodeling of promoter chromatin structure resulting in increased beta-globin gene expression.</clue>
+</event>
+<event KT="Other" id="E34">
+<type class="Cellular_physiological_process"/>
+<theme idref="T33"/>
+<clue>These results indicate that a relatively small cis-acting element is able to enhance <clueType>remodeling</clueType> <linkTheme>of</linkTheme> promoter chromatin structure resulting in increased beta-globin gene expression.</clue>
+</event>
+<event KT="Other" id="E35">
+<type class="Positive_regulation"/>
+<theme idref="E36"/>
+<cause idref="E33"/>
+<clue>These results indicate that a relatively small cis-acting element is able to enhance remodeling of promoter chromatin structure resulting in <clueType>increased</clueType> beta-globin gene expression.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E36">
+<type class="Gene_expression"/>
+<theme idref="T35"/>
+<clue>These results <clueKT><clueCL>indicate</clueCL></clueKT> that a relatively small cis-acting element is able to enhance remodeling of promoter chromatin structure resulting in increased beta-globin gene <clueType>expression</clueType>.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

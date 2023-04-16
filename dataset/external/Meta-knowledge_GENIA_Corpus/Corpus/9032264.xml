@@ -1,0 +1,128 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9032264" created="03/12/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9032264</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Cloning of the <term id="T1" lex="novel_human_myeloid-cell-specific_C/EBP-epsilon_transcription_factor" sem="Protein_molecule">novel human myeloid-cell-specific C/EBP-epsilon transcription factor</term>.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T2" lex="chicken_NF-M_transcription_factor" sem="Protein_molecule">Chicken <term id="A1" sem="Protein_molecule">NF-M</term> transcription factor</term>, in cooperation with either <term id="T3" lex="c-Myb" sem="Protein_molecule">c-Myb</term> or <term id="T4" lex="v-Myb" sem="Protein_molecule">v-Myb</term>, is active in the combinatorial activation of <term id="T5" lex="myeloid-cell-specific_gene" sem="DNA_family_or_group">myeloid-cell-specific genes</term> in <term id="T6" lex="heterologous_cell_type" sem="Cell_natural">heterologous cell types</term>, such as <term id="T7" lex="embryonic_fibroblast" sem="Cell_natural">embryonic fibroblasts</term>.</sentence>
+<event KT="Fact" id="E1">
+<type class="Positive_regulation"/>
+<theme idref="T5"/>
+<cause idref="A1"/>
+<cause idref="T3"/>
+<clue>Chicken NF-M transcription factor, <clueType>in cooperation</clueType> <linkCause>with</linkCause> either c-Myb or v-Myb, is active in the combinatorial <clueType>activation</clueType> <linkTheme>of</linkTheme> myeloid-cell-specific genes <clueLoc>in heterologous cell types, such as embryonic fibroblasts.</clueLoc></clue>
+</event>
+<event KT="Fact" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="T5"/>
+<cause idref="A1"/>
+<cause idref="T4"/>
+<clue>Chicken NF-M transcription factor, <clueType>in cooperation</clueType> <linkCause>with</linkCause> either c-Myb or v-Myb, is active in the combinatorial <clueType>activation</clueType> <linkTheme>of</linkTheme> myeloid-cell-specific genes <clueLoc>in heterologous cell types, such as embryonic fibroblasts.</clueLoc></clue>
+</event>
+<sentence id="S3">In <term id="T8" lex="human" sem="Multicellular_organism_natural">humans</term>, similar effects were observed with homologous members of the <term id="T9" lex="CCAAT/enhancer-binding_protein_(C/EBP)_family" sem="Protein_family_or_group">CCAAT/enhancer-binding protein (C/EBP) family</term> of <term id="T10" lex="transcriptional_regulator" sem="Protein_family_or_group">transcriptional regulators</term>, especially the human homolog of <term id="T11" lex="chicken_NF-M" sem="Protein_molecule">chicken NF-M</term>, <term id="T12" lex="C/EBP-beta" sem="Protein_molecule">C/EBP-beta</term> (<term id="T13" lex="NF-IL6" sem="Protein_molecule">NF-IL6</term>).</sentence>
+<sentence id="S4">However, the <term id="T14" lex="NF-IL6_gene" sem="DNA_domain_or_region"><term id="T15" lex="NF-IL6" sem="Protein_molecule">NF-IL6</term> gene</term> is expressed in a variety of nonmyeloid cell types and is strongly inducible in response to <term id="T16" lex="inflammatory_stimuli" sem="Other">inflammatory stimuli</term>, making it an unlikely candidate to have an exclusive role as a combinatorial <term id="A2" sem="Other">differentiation switch</term> during <term id="T17" lex="myelopoiesis" sem="Other">myelopoiesis</term> in <term id="T18" lex="human_cell" sem="Cell_natural">human cells</term>.</sentence>
+<event KT="Fact" id="E3">
+<type class="Gene_expression"/>
+<theme idref="T14"/>
+<clue>However, the NF-IL6 gene is <clueType>expressed</clueType> <clueLoc>in a variety of nonmyeloid cell types</clueLoc> and is strongly inducible in response to inflammatory stimuli, making it an unlikely candidate to have an exclusive role as a combinatorial differentiation switch during myelopoiesis in human cells.</clue>
+</event>
+<event KT="Fact" Manner="High" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="T16"/>
+<clue>However, the NF-IL6 gene is expressed in a variety of nonmyeloid cell types and is <clueManner>strongly</clueManner> <clueType>inducible</clueType> <linkCause>in response to</linkCause> inflammatory stimuli, making it an unlikely candidate to have an exclusive role as a combinatorial differentiation switch during myelopoiesis in human cells.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E5" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="A2"/>
+<cause idref="T15"/>
+<clue>However, the NF-IL6 gene is expressed in a variety of nonmyeloid cell types and is strongly inducible in response to inflammatory stimuli, making it an <clueType><cluePolarity>un</cluePolarity><clueKT><clueCL>likely</clueCL></clueKT></clueType> candidate to <clueType>have</clueType> an <clueType>exclusive role</clueType> <linkTheme>as</linkTheme> a combinatorial differentiation switch <clueTime>during myelopoiesis</clueTime> <clueLoc>in human cells.</clueLoc></clue>
+</event>
+<sentence id="S5">By using a <term id="T19" lex="reverse_transcription-PCR-based_approach" sem="Other">reverse transcription-PCR-based approach</term> and a set of <term id="T20" lex="primer" sem="Polynucleotide">primers</term> specific for the <term id="T21" lex="DNA-binding_domain" sem="DNA_domain_or_region">DNA-binding domains</term> of highly homologous members of the <term id="T22" lex="C/EBP_family" sem="Protein_family_or_group">C/EBP family</term> of <term id="T23" lex="transcriptional_regulator" sem="Protein_family_or_group">transcriptional regulators</term>, we have cloned a <term id="T24" lex="novel_human_gene" sem="DNA_family_or_group">novel human gene</term> encoding a member of the <term id="T25" lex="C/EBP_gene_family" sem="DNA_family_or_group">C/EBP gene family</term>, identified as the human homolog of <term id="T26" lex="CRP1" sem="Protein_molecule">CRP1</term>, <term id="T27" lex="C/EBP-epsilon" sem="Protein_molecule">C/EBP-epsilon</term>.</sentence>
+<sentence id="S6">A <term id="T28" lex="1.2-kb_cDNA" sem="DNA_molecule">1.2-kb cDNA</term> encoding full-length <term id="T29" lex="human_C/EBP-epsilon" sem="DNA_domain_or_region">human C/EBP-epsilon</term> was cloned from a <term id="T30" lex="promyelocyte-late_myeloblast-derived_lambda_gt11_library" sem="DNA_family_or_group">promyelocyte-late myeloblast-derived lambda gt11 library</term>.</sentence>
+<sentence id="S7">Molecular analysis of the cDNA and genomic clones indicated the presence of two <term id="T31" lex="exon" sem="DNA_domain_or_region">exons</term> encoding a protein with an apparent molecular mass of 32 kDa and a pI of 9.5.</sentence>
+<sentence id="S8">Primer extension analysis of <term id="T32" lex="C/EBP-epsilon_mRNA" sem="RNA_molecule"><term id="T33" lex="C/EBP-epsilon" sem="Protein_molecule">C/EBP-epsilon</term> mRNA</term> detected a single major <term id="T34" lex="transcription_start_site" sem="DNA_domain_or_region">transcription start site</term> approximately 200 bp upstream of the <term id="T35" lex="start_codon" sem="DNA_domain_or_region">start codon</term>.</sentence>
+<sentence id="S9">The putative promoter area is similar to those of several other myeloid-cell-specific genes in that it contains no <term id="T36" lex="TATAAA_box" sem="DNA_domain_or_region">TATAAA box</term> but has a number of <term id="T37" lex="purine-rich_stretch" sem="DNA_domain_or_region">purine-rich stretches</term> with multiple sites for the factors of the <term id="T38" lex="Ets_family" sem="Protein_family_or_group">Ets family</term> of <term id="T39" lex="transcriptional_regulator" sem="Protein_family_or_group">transcriptional regulators</term>.</sentence>
+<sentence id="S10"><term id="T40" lex="Northern_blot_analysis" sem="Other">Northern blot analyses</term> indicated a highly restricted <term id="T41" sem="Other">mRNA expression</term> pattern, with the strongest expression occurring in <cons id="T42" lex="(AND promyelocyte_cell_line late-myeloblast-like_cell_line)" sem="(AND Cell_cultured Cell_cultured)"><frag id="F1">promyelocyte</frag> and <frag id="F2">late-myeloblast-like</frag> <frag id="F3">cell lines</frag></cons>.</sentence>
+<event KT="Other" Manner="Low" id="E6">
+<type class="Transcription"/>
+<theme idref="T14"/>
+<clue><clueExperiment>Northern blot analyses</clueExperiment> indicated a <clueManner>highly restricted</clueManner> <corefTheme>mRNA</corefTheme> <clueType>expression</clueType> pattern, with the strongest expression occurring in promyelocyte and late-myeloblast-like cell lines.</clue>
+<comment>NER: T41 mod &quot;mRNA expression pattern&quot;-&gt;&quot;mRNA expression&quot;</comment></event>
+<event CL="L2" KT="Analysis" Manner="High" id="E300">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<clue><clueExperiment>Northern blot analyses</clueExperiment> <clueKT><clueCL>indicated</clueCL></clueKT> a highly restricted mRNA expression pattern, with the <clueType><clueManner>strongest</clueManner></clueType> expression occurring <clueLoc>in promyelocyte</clueLoc> and late-myeloblast-like <clueLoc>cell lines</clueLoc>.</clue>
+</event>
+<event CL="L2" KT="Analysis" Manner="High" id="E301">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<clue><clueExperiment>Northern blot analyses</clueExperiment> <clueKT><clueCL>indicated</clueCL></clueKT> a highly restricted mRNA expression pattern, with the <clueType><clueManner>strongest</clueManner></clueType> expression occurring <clueLoc>in</clueLoc> promyelocyte and <clueLoc>late-myeloblast-like cell lines</clueLoc>.</clue>
+</event>
+<sentence id="S11"><term id="T43" lex="Western_blot" sem="Other">Western blot</term> and <term id="T44" lex="immunoprecipitation_study" sem="Other">immunoprecipitation studies</term> using <term id="T45" lex="rabbit_anti-C/EBP-epsilon_antibody" sem="Protein_family_or_group">rabbit anti-C/EBP-epsilon antibodies</term> raised against the <term id="T46" lex="N-terminal_portion" sem="Protein_domain_or_region">N-terminal portion</term> of <term id="T47" lex="C/EBP-epsilon" sem="Protein_molecule">C/EBP-epsilon</term> (<term id="T48" lex="amino_acid_1_to_115" sem="Protein_domain_or_region">amino acids 1 to 115</term>) showed that <term id="T49" lex="C/EBP-epsilon" sem="Protein_molecule">C/EBP-epsilon</term> is a <term id="T50" lex="32-kDa_nuclear_phosphoprotein" sem="Protein_molecule">32-kDa nuclear phosphoprotein</term>.</sentence>
+<sentence id="S12">The human <term id="T51" lex="C/EBP-epsilon" sem="Protein_molecule">C/EBP-epsilon</term> protein exhibited strong and specific binding to <term id="T52" lex="double-stranded_DNA_containing_consensus_C/EBP_site" sem="DNA_domain_or_region">double-stranded DNA containing consensus C/EBP sites</term>.</sentence>
+<event KT="Analysis" Manner="High" id="E8">
+<type class="Binding"/>
+<theme idref="T51"/>
+<theme idref="T52"/>
+<clue>The human C/EBP-epsilon protein <clueKT>exhibited</clueKT> <clueManner>strong</clueManner> and specific <clueType>binding</clueType> <linkTheme>to</linkTheme> double-stranded DNA containing consensus C/EBP sites.</clue>
+</event>
+<sentence id="S13">Cotransfection of the <term id="T53" lex="C/EBP-epsilon" sem="Protein_molecule">C/EBP-epsilon</term> sense and antisense expression constructs together with <term id="T54" lex="chloramphenicol_acetyltransferase_reporter_vector" sem="DNA_molecule"><term id="T55" lex="chloramphenicol_acetyltransferase" sem="Protein_molecule">chloramphenicol acetyltransferase</term> reporter vectors</term> containing <cons id="T56" lex="(AND myeloid-cell-specific_c-mim_promoter human_myeloperoxidase_promoter)" sem="(AND DNA_domain_or_region DNA_domain_or_region)"><frag id="F4">myeloid-cell-specific c-mim</frag> and <frag id="F5">human myeloperoxidase</frag> <frag id="F6">promoters</frag></cons> suggested a role for <term id="T57" lex="C/EBP-epsilon" sem="Protein_molecule">C/EBP-epsilon</term> <term id="T58" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> in the regulation of a subset of <term id="T59" lex="myeloid-cell-specific_gene" sem="DNA_family_or_group">myeloid-cell-specific genes</term>.</sentence>
+<event KT="Other" id="E9">
+<type class="Regulation"/>
+<theme idref="T59"/>
+<clue>Cotransfection of the C/EBP-epsilon sense and antisense expression constructs together with chloramphenicol acetyltransferase reporter vectors containing myeloid-cell-specific c-mim and human myeloperoxidase promoters suggested a role for C/EBP-epsilon transcription factor in the <clueType>regulation</clueType> <linkTheme>of</linkTheme> a subset of myeloid-cell-specific genes.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E10" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="T57"/>
+<clue><clueExperiment>Cotransfection of the C/EBP-epsilon sense and antisense expression constructs together with chloramphenicol acetyltransferase reporter vectors containing myeloid-cell-specific c-mim and human myeloperoxidase promoters</clueExperiment> <clueKT><clueCL>suggested</clueCL></clueKT> a <clueType>role</clueType> <linkCause>for</linkCause> C/EBP-epsilon transcription factor <linkTheme>in</linkTheme> the regulation of a subset of myeloid-cell-specific genes.</clue>
+</event>
+<sentence id="S14">Transient tranfection of a <term id="T60" lex="promyelocyte_cell_line" sem="Cell_cultured">promyelocyte cell line</term> (<term id="T61" lex="NB4" sem="Cell_cultured">NB4</term>) with a <term id="T62" lex="C/EBP-epsilon_expression_plasmid" sem="DNA_molecule"><term id="T63" lex="C/EBP-epsilon" sem="Protein_molecule">C/EBP-epsilon</term> expression plasmid</term> increased cell growth by sevenfold, while <term id="A3" sem="Polynucleotide">antisense <term id="T64" lex="C/EBP-epsilon" sem="Protein_molecule">C/EBP-epsilon</term></term> caused a fivefold decrease in clonal growth of these cells.</sentence>
+<event id="E11">
+<type class="Gene_expression"/>
+<theme idref="T62"/>
+<clue>Transient <clueType>tranfection</clueType> of a <clueLoc>promyelocyte cell line (NB4)</clueLoc> <linkTheme>with</linkTheme> a C/EBP-epsilon expression plasmid increased cell growth by sevenfold, while antisense C/EBP-epsilon caused a fivefold decrease in clonal growth of these cells.</clue>
+</event>
+<event id="E100">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<clue>Transient <clueType>tranfection</clueType> of a promyelocyte cell line (NB4) with a C/EBP-epsilon expression plasmid increased cell growth by sevenfold, while antisense C/EBP-epsilon caused a fivefold decrease in clonal growth of these cells.</clue>
+</event>
+<event id="E12">
+<type class="Cellular_physiological_process"/>
+<theme idref="T61"/>
+<clue>Transient tranfection of a promyelocyte cell line (NB4) with a C/EBP-epsilon expression plasmid increased <corefTheme>cell</corefTheme> <clueType>growth</clueType> by sevenfold, while antisense C/EBP-epsilon caused a fivefold decrease in clonal growth of these cells.</clue>
+</event>
+<event Manner="High" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="E100"/>
+<clue>Transient tranfection of a promyelocyte cell line (NB4) with a C/EBP-epsilon expression plasmid <clueType>increased</clueType> cell growth <clueManner>by sevenfold</clueManner>, while antisense C/EBP-epsilon caused a fivefold decrease in clonal growth of these cells.</clue>
+</event>
+<event id="E14">
+<type class="Gene_expression"/>
+<theme idref="T64"/>
+<clue>Transient <clueType>tranfection</clueType> of a <clueLoc>promyelocyte cell line (NB4)</clueLoc> with a C/EBP-epsilon expression plasmid increased cell growth by sevenfold, while <clueType>antisense</clueType> C/EBP-epsilon caused a fivefold decrease in clonal growth of these cells.</clue>
+</event>
+<event id="E101">
+<type class="Negative_regulation"/>
+<theme idref="T64"/>
+<clue>Transient <clueType>tranfection</clueType> of a promyelocyte cell line (NB4) with a C/EBP-epsilon expression plasmid increased cell growth by sevenfold, while <clueType>antisense</clueType> C/EBP-epsilon caused a fivefold decrease in clonal growth of these cells.</clue>
+</event>
+<event id="E15">
+<type class="Cellular_physiological_process"/>
+<theme idref="T61"/>
+<clue>Transient tranfection of a promyelocyte cell line (NB4) with a C/EBP-epsilon expression plasmid increased cell growth by sevenfold, while antisense C/EBP-epsilon caused a fivefold decrease in <clueType>clonal growth</clueType> <linkTheme>of</linkTheme> <corefTheme>these cells.</corefTheme></clue>
+</event>
+<event Manner="High" id="E16">
+<type class="Negative_regulation"/>
+<theme idref="E15"/>
+<cause idref="E101"/>
+<clue>Transient tranfection of a promyelocyte cell line (NB4) with a C/EBP-epsilon expression plasmid increased cell growth by sevenfold, while antisense C/EBP-epsilon caused <clueManner>a fivefold</clueManner> <clueType>decrease</clueType> <linkTheme>in</linkTheme> clonal growth of these cells.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

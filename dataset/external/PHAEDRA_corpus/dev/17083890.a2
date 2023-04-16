@@ -1,0 +1,16 @@
+T21	Adverse_effect 65 69	seen
+T22	Potential_therapeutic_effect 114 121	therapy
+T26	Adverse_effect 170 180	associated
+T33	Potential_therapeutic_effect 492 499	treated
+T35	Adverse_effect 639 648	developed
+T39	Adverse_effect 948 977	synergy or an additive effect
+T45	Adverse_effect 1202 1218	etiologic agents
+R3	Subject_Disorder Arg1:T12 Arg2:T5
+E3	Adverse_effect:T21 has_agent:T1 has_agent:T2 has_agent:T3 affects:T23 affects:T24 affects:T25
+E4	Potential_therapeutic_effect:T22 affects:T4 has_agent:T1 has_agent:T2 has_agent:T3
+E5	Adverse_effect:T26 has_agent:T27 affects:T11
+E8	Potential_therapeutic_effect:T33 affects:T5 has_agent:T14 has_subject:T12
+E9	Adverse_effect:T35 has_agent:T36 affects:T34 affects:T19 affects:T8 affects:T9
+E11	Adverse_effect:T39 has_agent:T37 affects:T15
+E1	Adverse_effect:T45 has_agent:T10 has_agent:T46 affects:T17 has_cue:T43
+A3	Speculated E1

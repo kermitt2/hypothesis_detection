@@ -1,0 +1,239 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10228008" created="22/05/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10228008</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The <term id="A4" sem="DNA_domain_or_region"><term id="T1" lex="evolutionarily_conserved_sequence" sem="DNA_domain_or_region">evolutionarily conserved sequence</term> upstream of the <term id="T2" lex="human_Ig_heavy_chain_S_gamma_3_region" sem="Protein_domain_or_region">human Ig heavy chain S gamma 3 region</term></term> is an <term id="T3" lex="inducible_promoter" sem="DNA_domain_or_region">inducible promoter</term>: synergistic activation by <term id="T4" lex="CD40_ligand" sem="Protein_molecule">CD40 ligand</term> and <term id="T5" lex="IL-4" sem="Protein_molecule">IL-4</term> via cooperative <cons id="T6" lex="(AND NF-kappa_B_binding_site STAT-6_binding_site)" sem="(AND DNA_domain_or_region DNA_domain_or_region)"><frag id="F1"><term id="A1" sem="DNA_domain_or_region">NF-kappa B</term></frag> and <frag id="F2"><term id="A2" sem="DNA_domain_or_region">STAT-6</term></frag> <frag id="F3"><term id="A3" sem="DNA_domain_or_region">binding sites</term></frag></cons>.</sentence>
+<event KT="Investigation" id="E1">
+<type class="Positive_regulation"/>
+<theme idref="T2"/>
+<cause idref="T4"/>
+<cause idref="T5"/>
+<clue>The evolutionarily conserved sequence upstream of the human Ig heavy chain S gamma 3 region is an inducible promoter: <clueType>synergistic activation</clueType> <linkCause>by</linkCause> CD40 ligand and IL-4 via cooperative NF-kappa B and STAT-6 binding sites.</clue>
+<comment>no corefTheme, TPS A4</comment></event>
+<event KT="Other" id="E2">
+<type class="Correlation"/>
+<theme idref="A1" idref1="A3"/>
+<theme idref="A2" idref1="A3"/>
+<theme idref="E1"/>
+<clue>The evolutionarily conserved sequence upstream of the human Ig heavy chain S gamma 3 region is an inducible promoter: synergistic activation by CD40 ligand and IL-4 <linkTheme>via</linkTheme> <clueType>cooperative</clueType> NF-kappa B and STAT-6 binding sites.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T7" lex="germline_C_gamma_gene_transcription" sem="DNA_domain_or_region">Germline C gamma gene</term> transcription is a crucial event in the process that leads to switch DNA recombination to <term id="T8" lex="IgG" sem="Protein_family_or_group">IgG</term>, but its regulation in the <term id="T9" lex="human" sem="Multicellular_organism_natural">human</term> is poorly understood.</sentence>
+<event KT="Other" id="E3">
+<type class="Transcription"/>
+<theme idref="T7"/>
+<clue>Germline C gamma gene <clueType>transcription</clueType> is a crucial event in the process that leads to switch DNA recombination to IgG, but its regulation in the human is poorly understood.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="DNA_recombination"/>
+<theme idref="T8"/>
+<clue>Germline C gamma gene transcription is a crucial event in the process that leads to switch <clueType>DNA recombination</clueType> <linkTheme>to</linkTheme> IgG, but its regulation in the human is poorly understood.</clue>
+</event>
+<event KT="Fact" id="E5">
+<type class="Regulation"/>
+<theme idref="E4"/>
+<clue>Germline C gamma gene transcription is a crucial event in the process that leads to <clueType>switch</clueType> DNA recombination to IgG, but its regulation in the human is poorly understood.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<clue>Germline C gamma gene transcription is a crucial event in the process that <clueType>leads</clueType> <linkTheme>to</linkTheme> switch DNA recombination to IgG, but its regulation in the human is poorly understood.</clue>
+</event>
+<event KT="Fact" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="E3"/>
+<clue>Germline C gamma gene transcription is a <clueType>crucial</clueType> event <linkTheme>in</linkTheme> <corefTheme>the process</corefTheme> that leads to switch DNA recombination to IgG, but its regulation in the human is poorly understood.</clue>
+</event>
+<sentence id="S3">We took advantage of our monoclonal model of <term id="T10" lex="germinal_center_B_cell_differentiation" sem="Other"><term id="T11" lex="germinal_center_B_cell" sem="Cell_natural">germinal center B cell</term> differentiation</term>, <term id="T12" lex="IgM+_IgD+_CL-01_cell" sem="Cell_cultured">IgM+ IgD+ CL-01 cells</term>, to define the role of the <term id="T14" lex="evolutionarily_conserved_sequence" sem="DNA_domain_or_region"><term id="T13" lex="I_gamma_3" sem="Protein_molecule">I gamma 3</term> evolutionarily conserved sequence</term> (<term id="T15" lex="ECS" sem="DNA_domain_or_region">ECS</term>) in the <term id="T16" lex="germline_transcriptional_activation" sem="Other"><term id="T17" lex="germline_promotor" sem="DNA_domain_or_region">germline</term> transcriptional activation</term> of the <term id="T18" lex="human_C_gamma_3_gene" sem="DNA_domain_or_region">human C gamma 3 gene</term>.</sentence>
+<event KT="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T18"/>
+<clue>We took advantage of our monoclonal model of germinal center B cell differentiation, IgM+ IgD+ CL-01 cells, to define the role of the I gamma 3 evolutionarily conserved sequence (ECS) in the germline transcriptional <clueType>activation</clueType> <linkTheme>of</linkTheme> the human C gamma 3 gene.</clue>
+</event>
+<event KT="Investigation" id="E9" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E8"/>
+<cause idref="T14"/>
+<clue>We took advantage of our monoclonal model of germinal center B cell differentiation, IgM+ IgD+ CL-01 cells, to <clueKT>define</clueKT> the <clueType>role</clueType> <linkCause>of</linkCause> the I gamma 3 evolutionarily conserved sequence (ECS) <linkTheme>in</linkTheme> the germline transcriptional activation of the human C gamma 3 gene.</clue>
+<comment>NER T14 mod</comment></event>
+<sentence id="S4">The <term id="T19" lex="I_gamma_3" sem="Protein_molecule">I gamma 3</term> <term id="T20" lex="ECS" sem="DNA_domain_or_region">ECS</term> lies upstream of the <term id="T21" lex="major_I_gamma_3_transcription_initiation_site" sem="DNA_domain_or_region">major <term id="T22" lex="I_gamma_3" sem="Protein_molecule">I gamma 3</term> transcription initiation site</term> and displays more than 90% identity with the corresponding <term id="T23" lex="human_I_gamma_1" sem="DNA_domain_or_region">human I gamma 1</term>, <term id="T24" lex="I_gamma_2" sem="DNA_domain_or_region">I gamma 2</term>, and <term id="T25" lex="I_gamma_4" sem="DNA_domain_or_region">I gamma 4</term> regions.</sentence>
+<sentence id="S5"><term id="T26" lex="Reporter_luciferase_gene_vector" sem="DNA_family_or_group">Reporter luciferase gene vectors</term> containing the <term id="T27" lex="human_gamma_3_ECS" sem="DNA_domain_or_region">human gamma 3 <term id="T28" lex="ECS" sem="DNA_domain_or_region">ECS</term></term> were used to transfect <term id="T29" lex="CL-01_cell" sem="Cell_cultured">CL-01 cells</term>, which have been shown to undergo <term id="A101" sem="DNA_domain_or_region">Smu</term>--&gt;<term id="A102" sem="DNA_domain_or_region">S gamma 3</term> <term id="T30" lex="DNA_recombination" sem="Other">DNA recombination</term>, upon engagement of <term id="T31" lex="CD40" sem="Protein_molecule">CD40</term> by <term id="T32" lex="CD40_ligand" sem="Protein_molecule">CD40 ligand</term> (<term id="T33" lex="CD40L" sem="Protein_molecule">CD40L</term>) and exposure to <term id="T34" lex="IL-4" sem="Protein_molecule">IL-4</term>.</sentence>
+<event KT="Other" id="E10">
+<type class="Binding"/>
+<theme idref="T31"/>
+<theme idref="T32"/>
+<clue>Reporter luciferase gene vectors containing the human gamma 3 ECS were used to transfect CL-01 cells, which have been shown to undergo Smu--&gt;S gamma 3 DNA recombination, upon <clueType>engagement</clueType> <linkTheme>of</linkTheme> CD40 <linkTheme>by</linkTheme> CD40 ligand (CD40L) and exposure to IL-4.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="DNA_recombination"/>
+<theme idref="A101"/>
+<theme idref="A102"/>
+<clue>Reporter luciferase gene vectors containing the human gamma 3 ECS were used to transfect CL-01 cells, which have been shown to undergo Smu--&gt;S gamma 3 <clueType>DNA recombination</clueType>, upon engagement of CD40 by CD40 ligand (CD40L) and exposure to IL-4.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="E10"/>
+<clue>Reporter luciferase gene vectors containing the human gamma 3 ECS were used to transfect CL-01 cells, which <clueSource>have been <clueKT>shown</clueKT></clueSource> to <clueType>undergo</clueType> Smu--&gt;S gamma 3 DNA recombination, <linkCause>upon</linkCause> engagement of CD40 by CD40 ligand (CD40L) and exposure to IL-4.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="T34"/>
+<clue>Reporter luciferase gene vectors containing the human gamma 3 ECS were used to transfect CL-01 cells, which <clueSource>have been <clueKT>shown</clueKT></clueSource> to <clueType>undergo</clueType> Smu--&gt;S gamma 3 DNA recombination, <linkCause>upon</linkCause> engagement of CD40 by CD40 ligand (CD40L) and <linkCause>exposure to</linkCause> IL-4.</clue>
+</event>
+<sentence id="S6">In these transfected <term id="T35" lex="CL-01_cell" sem="Cell_cultured">CL-01 cells</term>, <term id="T36" lex="CD40:CD40L_engagement" sem="Other"><term id="A6" sem="Protein_molecule">CD40</term>:<term id="T37" lex="CD40L" sem="Protein_molecule">CD40L</term> engagement</term> and exposure to <term id="T38" lex="IL-4" sem="Protein_molecule">IL-4</term> synergistically induced <term id="A7" sem="DNA_domain_or_region">gamma 3 ECS</term>-dependent <term id="T40" lex="luciferase_reporter_gene_activation" sem="Other"><term id="T41" lex="luciferase_reporter_gene" sem="DNA_domain_or_region">luciferase reporter gene</term> activation</term>.</sentence>
+<event id="E15">
+<type class="Binding"/>
+<theme idref="A6"/>
+<theme idref="T36"/>
+<clue>In these transfected CL-01 cells, CD40:CD40L <clueType>engagement</clueType> and exposure to IL-4 synergistically induced gamma 3 ECS-dependent luciferase reporter gene activation.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="T41"/>
+<clue>In these transfected CL-01 cells, CD40:CD40L engagement and exposure to IL-4 synergistically induced gamma 3 ECS-dependent luciferase reporter gene <clueType>activation</clueType>.</clue>
+</event>
+<event id="E101">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<cause idref="A7"/>
+<clue>In these transfected CL-01 cells, CD40:CD40L engagement and exposure to IL-4 synergistically induced gamma 3 ECS-<clueType>dependent</clueType> luciferase reporter gene activation.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation"/>
+<theme idref="E101"/>
+<cause idref="E15"/>
+<cause idref="T38"/>
+<clue><clueLoc>In these transfected CL-01 cells</clueLoc>, CD40:CD40L engagement and <linkCause>exposure to</linkCause> IL-4 <clueType>synergistically induced</clueType> gamma 3 ECS-dependent luciferase reporter gene activation.</clue>
+</event>
+<sentence id="S7">Targeted mutational analysis demonstrated that a tandem <term id="T42" lex="NF-kappa_B/Rel_binding_motif" sem="DNA_domain_or_region"><term id="T43" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B/Rel</term> binding motif</term> is critical for the <term id="T44" lex="gamma_3_ECS_responsiveness" sem="Other"><term id="T45" lex="gamma_3_ECS" sem="DNA_domain_or_region">gamma 3 ECS</term> responsiveness</term> to both <term id="T46" lex="CD40L" sem="Protein_molecule">CD40L</term> and <term id="T47" lex="IL-4" sem="Protein_molecule">IL-4</term>, while a <term id="T48" lex="STAT-6-binding_site" sem="DNA_domain_or_region">STAT-6-binding site</term> is additionally required for <term id="T49" lex="IL-4_inducibility" sem="Other"><term id="T50" lex="IL-4" sem="Protein_molecule">IL-4</term> inducibility</term>.</sentence>
+<event KT="Other" id="E19">
+<type class="Regulation"/>
+<theme idref="T45"/>
+<cause idref="T46"/>
+<clue>Targeted mutational analysis demonstrated that a tandem NF-kappa B/Rel binding motif is critical for the gamma 3 ECS <clueType>responsiveness</clueType> <linkCause>to</linkCause> both CD40L and IL-4, while a STAT-6-binding site is additionally required for IL-4 inducibility.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Regulation"/>
+<theme idref="T45"/>
+<cause idref="T47"/>
+<clue>Targeted mutational analysis demonstrated that a tandem NF-kappa B/Rel binding motif is critical for the gamma 3 ECS <clueType>responsiveness</clueType> <linkCause>to</linkCause> both CD40L and IL-4, while a STAT-6-binding site is additionally required for IL-4 inducibility.</clue>
+</event>
+<event KT="Analysis" id="E21">
+<type class="Correlation"/>
+<theme idref="T43"/>
+<theme idref="E19"/>
+<clue><clueExperiment>Targeted mutational analysis</clueExperiment> <clueKT>demonstrated</clueKT> that a tandem NF-kappa B/Rel binding motif is <clueType><clueKT>critical</clueKT></clueType> <linkTheme>for</linkTheme> the gamma 3 ECS responsiveness to both CD40L and IL-4, while a STAT-6-binding site is additionally required for IL-4 inducibility.</clue>
+<comment>NER T43 mod</comment></event>
+<event KT="Analysis" id="E22">
+<type class="Correlation"/>
+<theme idref="T43"/>
+<theme idref="E20"/>
+<clue><clueExperiment>Targeted mutational analysis</clueExperiment> <clueKT>demonstrated</clueKT> that a tandem NF-kappa B/Rel binding motif is <clueType><clueKT>critical</clueKT></clueType> <linkTheme>for</linkTheme> the gamma 3 ECS responsiveness to both CD40L and IL-4, while a STAT-6-binding site is additionally required for IL-4 inducibility.</clue>
+</event>
+<event KT="Other" id="E102">
+<type class="Positive_regulation"/>
+<theme idref="T50"/>
+<clue><clueExperiment>Targeted mutational analysis</clueExperiment> demonstrated that a tandem NF-kappa B/Rel binding motif is critical for the gamma 3 ECS responsiveness to both CD40L and IL-4, while a STAT-6-binding site is additionally required for IL-4 <clueType>inducibility</clueType>.</clue>
+</event>
+<event KT="Analysis" id="E103">
+<type class="Correlation"/>
+<theme idref="T48"/>
+<theme idref="E102"/>
+<clue><clueExperiment>Targeted mutational analysis</clueExperiment> <clueKT>demonstrated</clueKT> that a tandem NF-kappa B/Rel binding motif is critical for the gamma 3 ECS responsiveness to both CD40L and IL-4, while a STAT-6-binding site is additionally <clueType>required</clueType> <linkTheme>for</linkTheme> IL-4 inducibility.</clue>
+</event>
+<sentence id="S8"><term id="T51" lex="electrophoretic_mobility_shift_assay" sem="Other">Electrophoretic mobility shift assays</term> showed that <term id="T52" lex="p50/p65/c-Rel" sem="Protein_family_or_group">p50/p65/c-Rel</term> and <term id="T53" lex="STAT-6" sem="Protein_molecule">STAT-6</term> are effectively induced by <term id="T54" lex="CD40L" sem="Protein_molecule">CD40L</term> and <term id="T55" lex="IL-4" sem="Protein_molecule">IL-4</term>, respectively, and bind to specific <term id="T56" lex="DNA_motif" sem="DNA_domain_or_region">DNA motifs</term> within the <term id="T57" lex="ECS" sem="DNA_domain_or_region">ECS</term>.</sentence>
+<event KT="Analysis" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="T52"/>
+<cause idref="T54"/>
+<clue><clueExperiment>Electrophoretic mobility shift assays</clueExperiment> <clueKT>showed</clueKT> that p50/p65/c-Rel and STAT-6 are effectively <clueType>induced</clueType> <linkCause>by</linkCause> CD40L and IL-4, <linkCause>respectively</linkCause>, and bind to specific DNA motifs within the ECS.</clue>
+<comment>NER T52 mod</comment></event>
+<event KT="Analysis" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="T53"/>
+<cause idref="T55"/>
+<clue><clueExperiment>Electrophoretic mobility shift assays</clueExperiment> <clueKT>showed</clueKT> that p50/p65/c-Rel and STAT-6 are effectively <clueType>induced</clueType> <linkCause>by</linkCause> CD40L and IL-4, <linkCause>respectively</linkCause>, and bind to specific DNA motifs within the ECS.</clue>
+</event>
+<event KT="Analysis" id="E25">
+<type class="Binding"/>
+<theme idref="T52"/>
+<theme idref="T56"/>
+<clue><clueExperiment>Electrophoretic mobility shift assays</clueExperiment> <clueKT>showed</clueKT> that p50/p65/c-Rel and STAT-6 are effectively induced by CD40L and IL-4, respectively, and <clueType>bind</clueType> <linkTheme>to</linkTheme> specific DNA motifs within the ECS.</clue>
+</event>
+<event KT="Analysis" id="E26">
+<type class="Binding"/>
+<theme idref="T53"/>
+<theme idref="T56"/>
+<clue><clueExperiment>Electrophoretic mobility shift assays</clueExperiment> <clueKT>showed</clueKT> that p50/p65/c-Rel and STAT-6 are effectively induced by CD40L and IL-4, respectively, and <clueType>bind</clueType> <linkTheme>to</linkTheme> specific DNA motifs within the ECS.</clue>
+</event>
+<sentence id="S9">These partially overlapping <cons id="T58" lex="(AND CD40L_responsive_element IL-4_responsive_element)" sem="(AND DNA_domain_or_region DNA_domain_or_region)"><frag id="F4"><term id="A8" sem="DNA_domain_or_region">CD40L</term></frag> and <frag id="F5"><term id="A9" sem="DNA_domain_or_region">IL-4</term></frag> <frag id="F6"><term id="A10" sem="DNA_domain_or_region">responsive elements</term></frag></cons> are functionally cooperative as the disruption of one of them prevents <term id="T59" lex="synergistic_promoter_activation" sem="Other">synergistic <term id="A11" sem="DNA_domain_or_region">promoter</term> activation</term>.</sentence>
+<event id="E27">
+<type class="Correlation"/>
+<theme idref="A8" idref1="A10"/>
+<theme idref="A9" idref1="A10"/>
+<clue>These partially overlapping CD40L and IL-4 responsive elements are functionally <clueType>cooperative</clueType> as the disruption of one of them prevents synergistic promoter activation.</clue>
+</event>
+<event KT="Other" id="E28">
+<type class="Positive_regulation"/>
+<theme idref="A11"/>
+<clue>These partially overlapping CD40L and IL-4 responsive elements are functionally cooperative as the disruption of one of them prevents synergistic promoter <clueType>activation</clueType>.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation"/>
+<theme idref="A8" idref1="A10"/>
+<clue>These partially overlapping CD40L and IL-4 responsive elements are functionally cooperative as the <clueType>disruption</clueType> <linkTheme>of</linkTheme> <corefTheme>one of them</corefTheme> prevents synergistic promoter activation.</clue>
+</event>
+<event id="E30">
+<type class="Negative_regulation"/>
+<theme idref="A9" idref1="A10"/>
+<clue>These partially overlapping CD40L and IL-4 responsive elements are functionally cooperative as the <clueType>disruption</clueType> <linkTheme>of</linkTheme> <corefTheme>one of them</corefTheme> prevents synergistic promoter activation.</clue>
+</event>
+<event id="E31">
+<type class="Negative_regulation"/>
+<theme idref="E28"/>
+<cause idref="E29"/>
+<clue>These partially overlapping CD40L and IL-4 responsive elements are functionally cooperative as the disruption of one of them <clueType>prevents</clueType> synergistic promoter activation.</clue>
+</event>
+<event id="E32">
+<type class="Negative_regulation"/>
+<theme idref="E28"/>
+<cause idref="E30"/>
+<clue>These partially overlapping CD40L and IL-4 responsive elements are functionally cooperative as the disruption of one of them <clueType>prevents</clueType> synergistic promoter activation.</clue>
+</event>
+<sentence id="S10">Thus, the <term id="T60" lex="gamma_3_ECS" sem="DNA_domain_or_region">gamma 3 ECS</term> is an inducible promoter containing <term id="T61" lex="cis_element" sem="DNA_family_or_group">cis elements</term> that critically mediate <term id="T62" lex="CD40L" sem="Protein_molecule">CD40L</term> and <term id="T64" lex="IL-4" sem="Protein_molecule">IL-4</term>-triggered <term id="T39" sem="Other">transcriptional activation</term> of the <term id="T65" lex="human_C_gamma_3_gene" sem="DNA_domain_or_region">human C gamma 3 gene</term>.</sentence>
+<event KT="Other" id="E33">
+<type class="Positive_regulation"/>
+<theme idref="T65"/>
+<clue>Thus, the gamma 3 ECS is an inducible promoter containing cis elements that critically mediate CD40L and IL-4-triggered transcriptional <clueType>activation</clueType> <linkTheme>of</linkTheme> the human C gamma 3 gene.</clue>
+</event>
+<event KT="Other" id="E34">
+<type class="Positive_regulation"/>
+<theme idref="E33"/>
+<cause idref="T62"/>
+<clue>Thus, the gamma 3 ECS is an inducible promoter containing cis elements that critically mediate CD40L and IL-4-<clueType>triggered</clueType> transcriptional activation of the human C gamma 3 gene.</clue>
+</event>
+<event KT="Other" id="E35">
+<type class="Positive_regulation"/>
+<theme idref="E33"/>
+<cause idref="T64"/>
+<clue>Thus, the gamma 3 ECS is an inducible promoter containing cis elements that critically mediate CD40L and IL-4-<clueType>triggered</clueType> transcriptional activation of the human C gamma 3 gene.</clue>
+</event>
+<event KT="Analysis" Manner="High" id="E36">
+<type class="Positive_regulation"/>
+<theme idref="E34"/>
+<cause idref="T61"/>
+<clue><clueKT>Thus</clueKT>, the gamma 3 ECS is an inducible promoter containing cis elements that <clueManner>critically</clueManner> <clueType>mediate</clueType> CD40L and IL-4-triggered transcriptional activation of the human C gamma 3 gene.</clue>
+</event>
+<event KT="Analysis" Manner="High" id="E37">
+<type class="Positive_regulation"/>
+<theme idref="E35"/>
+<cause idref="T61"/>
+<clue><clueKT>Thus</clueKT>, the gamma 3 ECS is an inducible promoter containing cis elements that <clueManner>critically</clueManner> <clueType>mediate</clueType> CD40L and IL-4-triggered transcriptional activation of the human C gamma 3 gene.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

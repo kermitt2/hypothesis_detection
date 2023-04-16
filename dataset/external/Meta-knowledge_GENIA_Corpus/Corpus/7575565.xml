@@ -1,0 +1,117 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7575565" created="17/01/2007" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7575565</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="HMG-I" sem="Protein_molecule">HMG-I</term> binds to <term id="T2" lex="GATA_motif" sem="DNA_domain_or_region">GATA motifs</term>: implications for an <term id="T3" lex="HPFH_syndrome" sem="Other">HPFH syndrome</term>.</sentence>
+<event id="E1">
+<type class="Binding"/>
+<theme idref="T1"/>
+<theme idref="T2"/>
+<clue>HMG-I <clueType>binds</clueType> <linkTheme>to</linkTheme> GATA motifs: implications for an HPFH syndrome.</clue>
+</event>
+<event KT="Analysis" id="E3">
+<type class="Regulation"/>
+<theme idref="T3"/>
+<cause idref="E1"/>
+<clue>HMG-I binds to GATA motifs: <clueType><clueKT>implications</clueKT></clueType> <linkTheme>for</linkTheme> an HPFH syndrome.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">We have examined binding of the <term id="T4" lex="nuclear_protein" sem="Protein_family_or_group">nuclear protein</term> <term id="T5" lex="HMG-I" sem="Protein_molecule">HMG-I</term> to the <term id="T6" lex="human_gamma-globin_promoter" sem="DNA_domain_or_region">human gamma-globin promoter</term>.</sentence>
+<event KT="Investigation" id="E2" uncertainty="doubtful">
+<type class="Binding"/>
+<theme idref="T5"/>
+<theme idref="T6"/>
+<clue>We have <clueKT>examined</clueKT> <clueType>binding</clueType> <linkTheme>of</linkTheme> the nuclear protein HMG-I <linkTheme>to</linkTheme> the human gamma-globin promoter.</clue>
+</event>
+<sentence id="S3">We find that <term id="T7" lex="HMG-I" sem="Protein_molecule">HMG-I</term> binds preferentially to the more 3&apos; of a pair of <term id="A1" sem="DNA_domain_or_region"><term id="T8" lex="GATA_motif" sem="DNA_domain_or_region">GATA motifs</term> in the <term id="T9" lex="gamma-globin_promoter" sem="DNA_domain_or_region">gamma-globin promoter</term></term>; this paired motif is bound by the <term id="T10" lex="erythroid_factor_GATA-1" sem="Protein_family_or_group">erythroid factor <term id="T11" lex="GATA-1" sem="Protein_molecule">GATA-1</term></term>.</sentence>
+<event id="E4">
+<type class="Binding"/>
+<theme idref="T7"/>
+<theme idref="A1"/>
+<clue>We <clueKT>find</clueKT> that HMG-I <clueType>binds</clueType> preferentially <linkTheme>to</linkTheme> the more 3&apos; of a pair of GATA motifs in the gamma-globin promoter; this paired motif is bound by the erythroid factor GATA-1.</clue>
+<comment>TPS: A1</comment></event>
+<event id="E5">
+<type class="Binding"/>
+<theme idref="A1"/>
+<theme idref="T11"/>
+<clue>We find that HMG-I binds preferentially to the more 3&apos; of a pair of GATA motifs in the gamma-globin promoter; <corefTheme>this paired motif</corefTheme> is <clueType>bound</clueType> <linkTheme>by</linkTheme> the erythroid factor GATA-1.</clue>
+<comment>TPS: A1</comment></event>
+<sentence id="S4">A naturally occurring <term id="T12" lex="mutation" sem="Other">mutation</term> (-175 T-C) in the area bound by <term id="T13" lex="HMG-I" sem="Protein_molecule">HMG-I</term> results in overexpression of <term id="T14" lex="gamma-globin" sem="Protein_family_or_group">gamma-globin</term> in <term id="T15" lex="adult_red_blood_cell" sem="Cell_natural">adult red blood cells</term> (<term id="T16" lex="HPFH" sem="Cell_natural">HPFH</term>) and up-regulation of the <term id="T17" lex="gamma-globin_promoter" sem="DNA_domain_or_region"><term id="T18" lex="gamma-globin" sem="Protein_family_or_group">gamma-globin</term> promoter</term> in <term id="T19" lex="in_vitro_expression_assay" sem="Other">in vitro expression assays</term>; <term id="T20" lex="HMG-I" sem="Protein_molecule">HMG-I</term> does not bind to this <term id="T21" lex="mutant_sequence" sem="DNA_domain_or_region">mutant sequence</term>.</sentence>
+<event id="E6">
+<type class="Mutagenesis"/>
+<theme idref="A1"/>
+<clue>A naturally occurring <clueType>mutation</clueType> (-175 T-C) <linkTheme>in</linkTheme> <corefTheme>the area</corefTheme> bound by HMG-I results in overexpression of gamma-globin in adult red blood cells (HPFH) and up-regulation of the gamma-globin promoter in in vitro expression assays; HMG-I does not bind to this mutant sequence.</clue>
+</event>
+<event id="E7">
+<type class="Binding"/>
+<theme idref="A1"/>
+<theme idref="T13"/>
+<clue>A naturally occurring mutation (-175 T-C) in <corefTheme>the area</corefTheme> <clueType>bound</clueType> <linkTheme>by</linkTheme> HMG-I results in overexpression of gamma-globin in adult red blood cells (HPFH) and up-regulation of the gamma-globin promoter in in vitro expression assays; HMG-I does not bind to this mutant sequence.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="E7"/>
+<clue>A naturally occurring mutation (-175 T-C) in the area bound by HMG-I <clueType>results</clueType> <linkTheme>in</linkTheme> overexpression of gamma-globin in adult red blood cells (HPFH) and up-regulation of the gamma-globin promoter in in vitro expression assays; HMG-I does not bind to this mutant sequence.</clue>
+</event>
+<event id="E9">
+<type class="Gene_expression"/>
+<theme idref="T14"/>
+<clue>A naturally occurring mutation (-175 T-C) in the area bound by HMG-I results in <clueType>overexpression</clueType> <linkTheme>of</linkTheme> gamma-globin <clueLoc>in adult red blood cells (HPFH)</clueLoc> and up-regulation of the gamma-globin promoter in in vitro expression assays; HMG-I does not bind to this mutant sequence.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<clue>A naturally occurring mutation (-175 T-C) in the area bound by HMG-I results in <clueType>overexpression</clueType> of gamma-globin in adult red blood cells (HPFH) and up-regulation of the gamma-globin promoter in in vitro expression assays; HMG-I does not bind to this mutant sequence.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation"/>
+<theme idref="T17"/>
+<cause idref="E6"/>
+<clue>A naturally occurring mutation (-175 T-C) in the area bound by HMG-I results in overexpression of gamma-globin in adult red blood cells (HPFH) and <clueType>up-regulation</clueType> <linkTheme>of</linkTheme> the gamma-globin promoter in <clueExperiment>in vitro expression assays</clueExperiment>; HMG-I does not bind to this mutant sequence.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E12">
+<type class="Binding"/>
+<theme idref="T20"/>
+<theme idref="T21"/>
+<clue>A naturally occurring mutation (-175 T-C) in the area bound by HMG-I results in overexpression of gamma-globin in adult red blood cells (HPFH) and up-regulation of the gamma-globin promoter in in vitro expression assays; HMG-I does <cluePolarity>not</cluePolarity> <clueType>bind</clueType> <linkTheme>to</linkTheme> this mutant sequence.</clue>
+</event>
+<sentence id="S5">A survey of <term id="T22" lex="GATA_motif" sem="DNA_domain_or_region">GATA motifs</term> from other <term id="T23" lex="globin_cis-element" sem="DNA_domain_or_region">globin cis-elements</term> demonstrates <term id="T24" lex="HMG-I" sem="Protein_molecule">HMG-I</term> binding to most of them.</sentence>
+<event KT="Analysis" id="E13">
+<type class="Binding"/>
+<theme idref="T22"/>
+<theme idref="T24"/>
+<clue>A survey of GATA motifs from other globin cis-elements <clueKT>demonstrates</clueKT> HMG-I <clueType>binding</clueType> <linkTheme>to</linkTheme> most of <corefTheme>them</corefTheme>.</clue>
+</event>
+<sentence id="S6">These findings implicate <term id="T25" lex="HMG-I" sem="Protein_molecule">HMG-I</term> in the <term id="T26" lex="HPFH_phenotype" sem="Cell_natural"><term id="T27" lex="HPFH" sem="Cell_natural">HPFH</term> phenotype</term>; we speculate that it may participate in the formation of <term id="T28" lex="multiprotein_complex" sem="Protein_complex">multiprotein complexes</term> that regulate <term id="T29" lex="globin_gene_expression" sem="Other"><term id="A3" sem="DNA_domain_or_region">globin gene</term> expression</term>.</sentence>
+<event KT="Analysis" id="E14">
+<type class="Regulation"/>
+<cause idref="T25"/>
+<clue>These findings <clueType><clueKT>implicate</clueKT></clueType> HMG-I <clueLoc>in the HPFH phenotype</clueLoc>; we speculate that it may participate in the formation of multiprotein complexes that regulate globin gene expression.</clue>
+<comment>NO THEME</comment></event>
+<event CL="L2" KT="Analysis" id="E15" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E16"/>
+<cause idref="T25"/>
+<clue>These findings implicate HMG-I in the HPFH phenotype; we <clueKT><clueCL>speculate</clueCL></clueKT> that <corefCause>it</corefCause> may <clueType>participate</clueType> <linkTheme>in</linkTheme> the formation of multiprotein complexes that regulate globin gene expression.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Binding"/>
+<theme idref="T28"/>
+<clue>These findings implicate HMG-I in the HPFH phenotype; we speculate that it may participate in the <clueType>formation</clueType> <linkTheme>of</linkTheme> multiprotein complexes that regulate globin gene expression.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Regulation"/>
+<theme idref="E18"/>
+<cause idref="T28"/>
+<clue>These findings implicate HMG-I in the HPFH phenotype; we speculate that it may participate in the formation of multiprotein complexes that <clueType>regulate</clueType> globin gene expression.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Gene_expression"/>
+<theme idref="A3"/>
+<clue>These findings implicate HMG-I in the HPFH phenotype; we speculate that it may participate in the formation of multiprotein complexes that regulate globin gene <clueType>expression</clueType>.</clue>
+<comment>NER: T30 del &quot;gene expression&quot;</comment></event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

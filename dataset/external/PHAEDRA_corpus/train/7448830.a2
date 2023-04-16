@@ -1,0 +1,10 @@
+T11	Adverse_effect 9 23	Hepatotoxicity
+T13	Potential_therapeutic_effect 155 162	against
+T15	Potential_therapeutic_effect 384 386	in
+T17	Adverse_effect 432 440	observed
+R2	Subject_Disorder Arg1:T10 Arg2:T2
+R3	Subject_Disorder Arg1:T14 Arg2:T7
+E1	Adverse_effect:T11 has_subject:T10 has_agent:T6 affects:T1
+E2	Potential_therapeutic_effect:T13 affects:T4 has_agent:T12
+E3	Potential_therapeutic_effect:T15 has_agent:T16 has_subject:T14 affects:T7
+E4	Adverse_effect:T17 affects:T8 has_agent:T16

@@ -1,0 +1,16 @@
+T16	Adverse_effect 28 38	associated
+T10	Potential_therapeutic_effect 217 224	treated
+T5	Adverse_effect 174 183	developed
+T21	Potential_therapeutic_effect 521 526	given
+T23	Adverse_effect 682 688	due to
+T25	Adverse_effect 772 782	associated
+R1	Coreference Arg1:T22 Arg2:T4
+R2	Coreference Arg1:T22 Arg2:T6
+R3	Coreference Arg1:T22 Arg2:T18
+E1	Combination:T15 has_participant:T2 has_participant:T3
+E2	Adverse_effect:T16 affects:T1 has_agent:E1
+E3	Potential_therapeutic_effect:T10 has_agent:T7 has_agent:T8 affects:T9 has_subject:T17
+E4	Adverse_effect:T5 affects:T4 affects:T6 affects:T18 has_agent:T7 has_agent:T8 has_subject:T17
+E5	Potential_therapeutic_effect:T21 has_agent:T12 affects:T20 affects:T19
+E6	Adverse_effect:T23 affects:T22 has_agent:T13 has_agent:T14
+E7	Adverse_effect:T25 affects:T24 has_agent:T13 has_agent:T14

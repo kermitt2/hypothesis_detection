@@ -1,0 +1,377 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9840924" created="17/05/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9840924</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="Tpl-2" sem="Protein_molecule">Tpl-2</term> induces <term id="T2" lex="IL-2_expression" sem="Other"><term id="T3" lex="IL-2" sem="Protein_molecule">IL-2</term> expression</term> in <term id="T4" lex="T-cell_line" sem="Cell_cultured">T-cell lines</term> by triggering multiple <term id="T5" lex="signaling_pathway" sem="Other">signaling pathways</term> that activate <term id="T6" lex="NFAT" sem="Protein_molecule">NFAT</term> and <term id="T7" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression"/>
+<theme idref="T3"/>
+<clue>Tpl-2 induces IL-2 <clueType>expression</clueType> <clueLoc>in T-cell lines</clueLoc> by triggering multiple signaling pathways that activate NFAT and NF-kappaB.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="T1"/>
+<clue>Tpl-2 induces IL-2 expression in T-cell lines by <clueType>triggering</clueType> multiple signaling pathways that activate NFAT and NF-kappaB.</clue>
+</event>
+<event id="E58">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="T1"/>
+<clue>Tpl-2 induces IL-2 expression in T-cell lines by <clueType>triggering</clueType> multiple signaling pathways that activate NFAT and NF-kappaB.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="E2"/>
+<clue>Tpl-2 <clueType>induces</clueType> IL-2 expression in T-cell lines <linkCause>by</linkCause> triggering multiple signaling pathways that activate NFAT and NF-kappaB.</clue>
+</event>
+<event id="E59">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="E58"/>
+<clue>Tpl-2 <clueType>induces</clueType> IL-2 expression in T-cell lines <linkCause>by</linkCause> triggering multiple signaling pathways that activate NFAT and NF-kappaB.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T6"/>
+<cause idref="T5"/>
+<clue>Tpl-2 induces IL-2 expression <clueLoc>in T-cell lines</clueLoc> by triggering multiple signaling pathways that <clueType>activate</clueType> NFAT and NF-kappaB.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation"/>
+<theme idref="T7"/>
+<cause idref="T5"/>
+<clue>Tpl-2 induces IL-2 expression <clueLoc>in T-cell lines</clueLoc> by triggering multiple signaling pathways that <clueType>activate</clueType> NFAT and NF-kappaB.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T8" lex="Tpl-2_kinase" sem="Protein_molecule"><term id="T9" lex="Tpl-2" sem="Protein_molecule">Tpl-2</term> kinase</term> activates the <term id="T10" lex="nuclear_factor_of_activated_T_cells" sem="Protein_molecule">nuclear factor of activated T cells</term> (<term id="T11" lex="NFAT" sem="Protein_molecule">NFAT</term>) and induces <term id="T12" lex="IL-2_expression" sem="Other"><term id="T13" lex="IL-2" sem="Protein_molecule">IL-2</term> expression</term> in <term id="T14" lex="T-cell_line" sem="Cell_cultured">T-cell lines</term>.</sentence>
+<event KT="Fact" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="T11"/>
+<cause idref="T8"/>
+<clue>The Tpl-2 kinase <clueType>activates</clueType> the nuclear factor of activated T cells (NFAT) and induces IL-2 expression in T-cell lines.</clue>
+</event>
+<event KT="Fact" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="T8"/>
+<clue>The Tpl-2 kinase activates the nuclear factor of activated T cells (NFAT) and <clueType>induces</clueType> IL-2 expression in T-cell lines.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Gene_expression"/>
+<theme idref="T13"/>
+<clue>The Tpl-2 kinase activates the nuclear factor of activated T cells (NFAT) and induces IL-2 <clueType>expression</clueType> <clueLoc>in T-cell lines</clueLoc>.</clue>
+</event>
+<sentence id="S3">Here we show that the activation of the <term id="T15" lex="IL-2_promoter" sem="DNA_domain_or_region"><term id="T16" lex="IL-2" sem="Protein_molecule">IL-2</term> promoter</term> by <term id="T17" lex="Tpl-2" sem="Protein_molecule">Tpl-2</term> is inhibited by <term id="T18" lex="mutant_signaling_molecule" sem="Protein_family_or_group">mutant signaling molecules</term> that inhibit the <cons id="C1" lex="(OR mitogen-activated_protein_kinase_(MAPK)_pathway calcineurin_NFAT_pathway)" sem="(OR Other Other)"><frag id="F5"><term id="T19" lex="mitogen-activated_protein_kinase" sem="Protein_family_or_group">mitogen-activated protein kinase</term></frag> (<frag id="F6"><term id="T20" lex="MAPK" sem="Protein_family_or_group">MAPK</term></frag>) or the <frag id="F7"><term id="T22" lex="calcineurin" sem="Protein_molecule">calcineurin</term><term id="T23" lex="NFAT" sem="Protein_molecule">/NFAT</term></frag> <frag id="F8">pathways</frag></cons> and is promoted by combinations of <term id="T24" lex="signaling_molecules" sem="Protein_family_or_group">signaling molecules</term> that activate these pathways.</sentence>
+<event KT="Other" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="T15"/>
+<cause idref="T17"/>
+<clue>Here we show that the <clueType>activation</clueType> <linkTheme>of</linkTheme> the IL-2 promoter <linkCause>by</linkCause> Tpl-2 is inhibited by mutant signaling molecules that inhibit the mitogen-activated protein kinase (MAPK) or the calcineurin/NFAT pathways and is promoted by combinations of signaling molecules that activate these pathways.</clue>
+</event>
+<event KT="Analysis" id="E11">
+<type class="Negative_regulation"/>
+<theme idref="E10"/>
+<cause idref="T18"/>
+<clue>Here we <clueKT>show</clueKT> that the activation of the IL-2 promoter by Tpl-2 is <clueType>inhibited</clueType> <linkCause>by</linkCause> mutant signaling molecules that inhibit the mitogen-activated protein kinase (MAPK) or the calcineurin/NFAT pathways and is promoted by combinations of signaling molecules that activate these pathways.</clue>
+</event>
+<event KT="Analysis" id="E12">
+<type class="Negative_regulation"/>
+<theme idref="E10"/>
+<cause idref="T18"/>
+<clue>Here we <clueKT>show</clueKT> that the activation of the IL-2 promoter by Tpl-2 is <clueType>inhibited</clueType> <linkCause>by</linkCause> mutant signaling molecules that inhibit the mitogen-activated protein kinase (MAPK) or the calcineurin/NFAT pathways and is promoted by combinations of signaling molecules that activate these pathways.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Negative_regulation"/>
+<theme idref="F6" idref1="F8"/>
+<cause idref="T18"/>
+<clue>Here we show that the activation of the IL-2 promoter by Tpl-2 is inhibited by mutant signaling molecules that <clueType>inhibit</clueType> the mitogen-activated protein kinase (MAPK) or the calcineurin/NFAT pathways and is promoted by combinations of signaling molecules that activate these pathways.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Negative_regulation"/>
+<theme idref="F7" idref1="F8"/>
+<cause idref="T18"/>
+<clue>Here we show that the activation of the IL-2 promoter by Tpl-2 is inhibited by mutant signaling molecules that <clueType>inhibit</clueType> the mitogen-activated protein kinase (MAPK) or the calcineurin/NFAT pathways and is promoted by combinations of signaling molecules that activate these pathways.</clue>
+</event>
+<event KT="Analysis" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="E16"/>
+<cause idref="E17"/>
+<clue>Here we <clueKT>show</clueKT> that the activation of the IL-2 promoter by Tpl-2 is inhibited by mutant signaling molecules that inhibit the mitogen-activated protein kinase (MAPK) or the calcineurin/NFAT pathways and is <clueType>promoted</clueType> <linkCause>by combinations of</linkCause> signaling molecules that activate these pathways.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="F6" idref1="F8"/>
+<cause idref="T24"/>
+<clue>Here we show that the activation of the IL-2 promoter by Tpl-2 is inhibited by mutant signaling molecules that inhibit the mitogen-activated protein kinase (MAPK) or the calcineurin/NFAT pathways and is promoted by combinations of signaling molecules that <clueType>activate</clueType> <corefTheme>these pathways</corefTheme>.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="F7" idref1="F8"/>
+<cause idref="T24"/>
+<clue>Here we show that the activation of the IL-2 promoter by Tpl-2 is inhibited by mutant signaling molecules that inhibit the mitogen-activated protein kinase (MAPK) or the calcineurin/NFAT pathways and is promoted by combinations of signaling molecules that <clueType>activate</clueType> <corefTheme>these pathways</corefTheme>.</clue>
+</event>
+<sentence id="S4">We, therefore, conclude that <term id="A2" sem="Protein_family_or_group">signals</term> generated by the convergence of the <cons id="C2" lex="(AND MAPK_pathway calcineurin/NFAT_pathway)" sem="(AND Other Other)"><frag id="F9"><term id="T25" lex="MAPK" sem="Protein_family_or_group">MAPK</term></frag> and the <frag id="F10"><term id="T28" lex="calcineurin" sem="Protein_molecule">calcineurin</term><term id="T29" lex="NFAT" sem="Protein_molecule">/NFAT</term></frag> <frag id="F11">pathway</frag></cons> are necessary and sufficient for the activation of the <term id="T30" lex="IL-2_promoter" sem="DNA_domain_or_region"><term id="T31" lex="IL-2" sem="Protein_molecule">IL-2</term> promoter</term> by <term id="T32" lex="Tpl-2" sem="Protein_molecule">Tpl-2</term>.</sentence>
+<event KT="Other" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="A2"/>
+<cause idref="E19"/>
+<clue>We, therefore, conclude that signals <clueType>generated</clueType> <linkCause>by</linkCause> the convergence of the MAPK and the calcineurin/NFAT pathway are necessary and sufficient for the activation of the IL-2 promoter by Tpl-2.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Correlation"/>
+<theme idref="F9" idref1="F11"/>
+<theme idref="F10" idref1="F11"/>
+<clue>We, therefore, conclude that signals generated by the <clueType>convergence</clueType> <linkTheme>of</linkTheme> the MAPK and the calcineurin/NFAT pathway are necessary and sufficient for the activation of the IL-2 promoter by Tpl-2.</clue>
+</event>
+<event KT="Analysis" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="E18"/>
+<clue>We, <clueKT>therefore</clueKT>, <clueKT>conclude</clueKT> that signals generated by the convergence of the MAPK and the calcineurin/NFAT pathway are <clueType>necessary and sufficient</clueType> <linkTheme>for</linkTheme> the activation of the IL-2 promoter by Tpl-2.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="T30"/>
+<cause idref="T32"/>
+<clue>We, therefore, conclude that signals generated by the convergence of the MAPK and the calcineurin/NFAT pathway are necessary and sufficient for the <clueType>activation</clueType> <linkTheme>of</linkTheme> the IL-2 promoter <linkCause>by</linkCause> Tpl-2.</clue>
+</event>
+<sentence id="S5">The activation of both the <term id="T33" lex="IL-2_promoter" sem="DNA_domain_or_region">IL-2 promoter</term> and an <term id="T34" lex="NFAT-driven_minimal_promoter" sem="DNA_domain_or_region"><term id="T35" lex="NFAT" sem="Protein_molecule">NFAT</term>-driven minimal promoter</term> were shown to depend on signals transduced by <term id="T36" lex="Raf1" sem="Protein_molecule">Raf1</term>.</sentence>
+<event KT="Other" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="T33"/>
+<clue>The <clueType>activation</clueType> <linkTheme>of</linkTheme> both the IL-2 promoter and an NFAT-driven minimal promoter were shown to depend on signals transduced by Raf1.</clue>
+</event>
+<event KT="Other" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="T34"/>
+<clue>The <clueType>activation</clueType> <linkTheme>of</linkTheme> both the IL-2 promoter and an NFAT-driven minimal promoter were shown to depend on signals transduced by Raf1.</clue>
+</event>
+<event KT="Analysis" id="E24">
+<type class="Regulation"/>
+<theme idref="E22"/>
+<cause idref="E26"/>
+<clue>The activation of both the IL-2 promoter and an NFAT-driven minimal promoter were <clueKT>shown</clueKT> to <clueType>depend</clueType> <linkCause>on</linkCause> signals transduced by Raf1.</clue>
+</event>
+<event KT="Analysis" id="E25">
+<type class="Regulation"/>
+<theme idref="E23"/>
+<cause idref="E26"/>
+<clue>The activation of both the IL-2 promoter and an NFAT-driven minimal promoter were <clueKT>shown</clueKT> to <clueType>depend</clueType> <linkCause>on</linkCause> signals transduced by Raf1.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Cell_communication"/>
+<theme idref="T36"/>
+<clue>The activation of both the IL-2 promoter and an NFAT-driven minimal promoter were shown to depend on <clueType>signals transduced</clueType> <linkTheme>by</linkTheme> Raf1.</clue>
+</event>
+<sentence id="S6">However, it was only the <term id="T37" lex="IL-2_promoter" sem="DNA_domain_or_region"><term id="T38" lex="IL-2" sem="Protein_molecule">IL-2</term> promoter</term> whose activation by <term id="T39" lex="Tpl-2" sem="Protein_molecule">Tpl-2</term> was fully blocked by the <term id="T40" lex="dominant_negative_mutant_MEK1S218/222A" sem="Protein_molecule">dominant negative mutant <term id="T41" lex="MEK1S218/222A" sem="Protein_molecule">MEK1S218/222A</term></term> and the <term id="T42" lex="MEK1/MEK2_inhibitor" sem="Organic_compound_other"><term id="A9" sem="Protein_molecule">MEK1</term>/<term id="A10" sem="Protein_molecule">MEK2</term> inhibitor</term> <term id="T43" lex="PD098059" sem="Organic_compound_other">PD098059</term>.</sentence>
+<event KT="Other" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="T37"/>
+<cause idref="T39"/>
+<clue>However, it was only the IL-2 promoter whose <clueType>activation</clueType> <linkCause>by</linkCause> Tpl-2 was fully blocked by the dominant negative mutant MEK1S218/222A and the MEK1/MEK2 inhibitor PD098059.</clue>
+</event>
+<event Manner="High" id="E28">
+<type class="Negative_regulation"/>
+<theme idref="E27"/>
+<cause idref="T41"/>
+<clue>However, it was only the IL-2 promoter whose activation by Tpl-2 was <clueManner>fully</clueManner> <clueType>blocked</clueType> <linkCause>by</linkCause> the dominant negative mutant MEK1S218/222A and the MEK1/MEK2 inhibitor PD098059.</clue>
+</event>
+<event Manner="High" id="E29">
+<type class="Negative_regulation"/>
+<theme idref="E27"/>
+<cause idref="T42"/>
+<clue>However, it was only the IL-2 promoter whose activation by Tpl-2 was <clueManner>fully</clueManner> <clueType>blocked</clueType> <linkCause>by</linkCause> the dominant negative mutant MEK1S218/222A and the MEK1/MEK2 inhibitor PD098059.</clue>
+</event>
+<event id="E60">
+<type class="Negative_regulation"/>
+<theme idref="A9"/>
+<cause idref="T43"/>
+<clue>However, it was only the IL-2 promoter whose activation by Tpl-2 was fully blocked by the dominant negative mutant MEK1S218/222A and the MEK1/MEK2 <clueType>inhibitor</clueType> PD098059.</clue>
+</event>
+<event id="E61">
+<type class="Negative_regulation"/>
+<theme idref="A10"/>
+<cause idref="T43"/>
+<clue>However, it was only the IL-2 promoter whose activation by Tpl-2 was fully blocked by the dominant negative mutant MEK1S218/222A and the MEK1/MEK2 <clueType>inhibitor</clueType> PD098059.</clue>
+</event>
+<sentence id="S7">Since the activation of <term id="T44" lex="NFAT" sem="Protein_molecule">NFAT</term> is <term id="T46" lex="MAPK" sem="Protein_family_or_group">MAPK</term>-dependent these findings suggested that the activation of <term id="T47" lex="MAPK" sem="Protein_family_or_group">MAPK</term> by <term id="T48" lex="Tpl-2" sem="Protein_molecule">Tpl-2</term> is either independent or only partially dependent on <term id="T49" lex="MEK1" sem="Protein_molecule">MEK1</term> and <term id="T50" lex="MEK2" sem="Protein_molecule">MEK2</term>.</sentence>
+<event KT="Other" id="E30">
+<type class="Positive_regulation"/>
+<theme idref="T44"/>
+<clue>Since the <clueType>activation</clueType> <linkTheme>of</linkTheme> NFAT is MAPK-dependent these findings suggested that the activation of MAPK by Tpl-2 is either independent or only partially dependent on MEK1 and MEK2.</clue>
+</event>
+<event KT="Fact" id="E31">
+<type class="Regulation"/>
+<theme idref="E30"/>
+<cause idref="T46"/>
+<clue>Since the activation of NFAT is MAPK-<clueType>dependent</clueType> these findings suggested that the activation of MAPK by Tpl-2 is either independent or only partially dependent on MEK1 and MEK2.</clue>
+<comment>NER: T45 del &quot; MAPK-dependent&quot;</comment></event>
+<event KT="Other" id="E32">
+<type class="Positive_regulation"/>
+<theme idref="T47"/>
+<cause idref="T48"/>
+<clue>Since the activation of NFAT is MAPK-dependent these findings suggested that the <clueType>activation</clueType> <linkTheme>of</linkTheme> MAPK <linkCause>by</linkCause> Tpl-2 is either independent or only partially dependent on MEK1 and MEK2.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E33" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E32"/>
+<cause idref="T49"/>
+<clue>Since the activation of NFAT is MAPK-dependent these findings <clueKT><clueCL>suggested</clueCL></clueKT> that the activation of MAPK by Tpl-2 is either <clueType><cluePolarity>independent</cluePolarity></clueType> or only partially dependent <linkCause>on</linkCause> MEK1 and MEK2.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E7">
+<type class="Regulation"/>
+<theme idref="E32"/>
+<cause idref="T49"/>
+<clue>Since the activation of NFAT is MAPK-dependent these findings <clueKT><clueCL>suggested</clueCL></clueKT> that the activation of MAPK by Tpl-2 is either independent or only partially <clueType>dependent</clueType> <linkCause>on</linkCause> MEK1 and MEK2.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E34" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E32"/>
+<cause idref="T50"/>
+<clue>Since the activation of NFAT is MAPK-dependent these findings <clueKT><clueCL>suggested</clueCL></clueKT> that the activation of MAPK by Tpl-2 is either <clueType><cluePolarity>independent</cluePolarity></clueType> or only partially dependent <linkCause>on</linkCause> MEK1 and MEK2.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E41">
+<type class="Regulation"/>
+<theme idref="E32"/>
+<cause idref="T50"/>
+<clue>Since the activation of NFAT is MAPK-dependent these findings <clueKT><clueCL>suggested</clueCL></clueKT> that the activation of MAPK by Tpl-2 is either independent or only partially <clueType>dependent</clueType> <linkCause>on</linkCause> MEK1 and MEK2.</clue>
+</event>
+<sentence id="S8">In addition, they suggested that the activation of the <term id="T51" lex="IL-2_promoter" sem="DNA_domain_or_region"><term id="T52" lex="IL-2" sem="Protein_molecule">IL-2</term> promoter</term> is under the control of not only <term id="T53" lex="NFAT" sem="Protein_molecule">NFAT</term> but also a second <term id="A4" sem="Protein_molecule">factor</term> whose activation is <term id="T55" lex="MEK" sem="Protein_family_or_group">MEK</term>-dependent.</sentence>
+<event KT="Other" id="E35">
+<type class="Positive_regulation"/>
+<theme idref="T51"/>
+<clue>In addition, they suggested that the <clueType>activation</clueType> <linkTheme>of</linkTheme> the IL-2 promoter is under the control of not only NFAT but also a second factor whose activation is MEK-dependent.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E36" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E35"/>
+<cause idref="T53"/>
+<clue>In addition, they <clueKT><clueCL>suggested</clueCL></clueKT> that the activation of the IL-2 promoter is <clueType>under the control</clueType> <linkCause>of</linkCause> not only NFAT but also a second factor whose activation is MEK-dependent.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E37" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E35"/>
+<cause idref="E39"/>
+<clue>In addition, they <clueKT><clueCL>suggested</clueCL></clueKT> that the activation of the IL-2 promoter is <clueType>under the control</clueType> <linkCause>of</linkCause> not only NFAT but also a second factor whose activation is MEK-dependent.</clue>
+</event>
+<event KT="Other" id="E38">
+<type class="Positive_regulation"/>
+<theme idref="A4"/>
+<clue>In addition, they suggested that the activation of the IL-2 promoter is under the control of not only NFAT but also a second factor whose <clueType>activation</clueType> is MEK-dependent.</clue>
+</event>
+<event KT="Other" id="E39">
+<type class="Regulation"/>
+<theme idref="E38"/>
+<cause idref="T55"/>
+<clue>In addition, they suggested that the activation of the IL-2 promoter is under the control of not only NFAT but also a second factor whose activation is MEK-<clueType>dependent</clueType>.</clue>
+<comment>NER: T54 del &quot;MEK-dependent&quot;</comment></event>
+<sentence id="S9">Experiments in <term id="T56" lex="COS-1" sem="Cell_cultured">COS-1</term> and <term id="T57" lex="EL-4_cell" sem="Cell_cultured">EL-4 cells</term> confirmed both hypotheses and revealed that the second factor activated by <term id="T58" lex="Tpl-2" sem="Protein_molecule">Tpl-2</term> is <term id="T59" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>.</sentence>
+<event KT="Analysis" id="E40">
+<type class="Positive_regulation"/>
+<theme idref="T59"/>
+<cause idref="T58"/>
+<clue>Experiments <clueLoc>in COS-1</clueLoc> and EL-4 <clueLoc>cells</clueLoc> confirmed both hypotheses and <clueKT>revealed</clueKT> that the second factor <clueType>activated</clueType> <linkCause>by</linkCause> Tpl-2 is NF-kappaB.</clue>
+</event>
+<event KT="Analysis" id="E42">
+<type class="Positive_regulation"/>
+<theme idref="T59"/>
+<cause idref="T58"/>
+<clue>Experiments <clueLoc>in</clueLoc> COS-1 and <clueLoc>EL-4 cells</clueLoc> confirmed both hypotheses and <clueKT>revealed</clueKT> that the second factor <clueType>activated</clueType> <linkCause>by</linkCause> Tpl-2 is NF-kappaB.</clue>
+</event>
+<sentence id="S10">While the activation of the <term id="T60" lex="IL-2_promoter" sem="DNA_domain_or_region"><term id="T61" lex="IL-2" sem="Protein_molecule">IL-2</term> promoter</term> and an <term id="T62" lex="NFAT-driven_minimal_promoter" sem="DNA_domain_or_region"><term id="T63" lex="NFAT" sem="Protein_molecule">NFAT</term>-driven minimal promoter</term> by <term id="T64" lex="Tpl-2" sem="Protein_molecule">Tpl-2</term> was fully blocked by the <term id="T65" lex="dominant_negative_mutant" sem="Protein_family_or_group">dominant negative mutant</term> <term id="T66" lex="NFAT_delta418" sem="Protein_molecule"><term id="T67" lex="NFAT" sem="Protein_molecule">NFAT</term> delta418</term>, it was only partially blocked by the <term id="T68" lex="calcineurin_inhibitor" sem="Organic_compound_other"><term id="T69" lex="calcineurin" sem="Protein_molecule">calcineurin</term> inhibitor</term> <term id="T70" lex="cyclosporin_A" sem="Organic_compound_other">cyclosporin A</term> suggesting that the <term id="T71" lex="Tpl-2-mediated_NFAT_activation" sem="Other"><term id="T72" lex="Tpl-2" sem="Protein_molecule">Tpl-2</term>-mediated <term id="T73" lex="NFAT" sem="Protein_molecule">NFAT</term> activation</term> is under the control of a combination of <cons id="T74" lex="(AND calcineurin-dependent_pathway calcineurin-independent_pathway)" sem="(AND Other Other)"><frag id="F1"><term id="A5" sem="Protein_molecule">calcineurin</term>-</frag><frag id="F2">dependent</frag> and <frag id="F3">independent</frag> <frag id="F4">pathways</frag></cons>.</sentence>
+<event KT="Other" id="E43">
+<type class="Positive_regulation"/>
+<theme idref="T60"/>
+<cause idref="T64"/>
+<clue>While the <clueType>activation</clueType> <linkTheme>of</linkTheme> the IL-2 promoter and an NFAT-driven minimal promoter <linkCause>by</linkCause> Tpl-2 was fully blocked by the dominant negative mutant NFAT delta418, it was only partially blocked by the calcineurin inhibitor cyclosporin A suggesting that the Tpl-2-mediated NFAT activation is under the control of a combination of calcineurin-dependent and independent pathways.</clue>
+</event>
+<event KT="Other" id="E44">
+<type class="Positive_regulation"/>
+<theme idref="T62"/>
+<cause idref="T64"/>
+<clue>While the <clueType>activation</clueType> <linkTheme>of</linkTheme> the IL-2 promoter and an NFAT-driven minimal promoter <linkCause>by</linkCause> Tpl-2 was fully blocked by the dominant negative mutant NFAT delta418, it was only partially blocked by the calcineurin inhibitor cyclosporin A suggesting that the Tpl-2-mediated NFAT activation is under the control of a combination of calcineurin-dependent and independent pathways.</clue>
+</event>
+<event Manner="High" id="E45">
+<type class="Negative_regulation"/>
+<theme idref="E43"/>
+<cause idref="T66"/>
+<clue>While the activation of the IL-2 promoter and an NFAT-driven minimal promoter by Tpl-2 was <clueManner>fully</clueManner> <clueType>blocked</clueType> <linkCause>by</linkCause> the dominant negative mutant NFAT delta418, it was only partially blocked by the calcineurin inhibitor cyclosporin A suggesting that the Tpl-2-mediated NFAT activation is under the control of a combination of calcineurin-dependent and independent pathways.</clue>
+</event>
+<event Manner="High" id="E46">
+<type class="Negative_regulation"/>
+<theme idref="E44"/>
+<cause idref="T66"/>
+<clue>While the activation of the IL-2 promoter and an NFAT-driven minimal promoter by Tpl-2 was <clueManner>fully</clueManner> <clueType>blocked</clueType> <linkCause>by</linkCause> the dominant negative mutant NFAT delta418, it was only partially blocked by the calcineurin inhibitor cyclosporin A suggesting that the Tpl-2-mediated NFAT activation is under the control of a combination of calcineurin-dependent and independent pathways.</clue>
+</event>
+<event id="E47">
+<type class="Negative_regulation"/>
+<theme idref="E43"/>
+<cause idref="T70"/>
+<clue>While the activation of the IL-2 promoter and an NFAT-driven minimal promoter by Tpl-2 was fully blocked by the dominant negative mutant NFAT delta418, it was only partially <clueType>blocked</clueType> <linkCause>by</linkCause> the calcineurin inhibitor cyclosporin A suggesting that the Tpl-2-mediated NFAT activation is under the control of a combination of calcineurin-dependent and independent pathways.</clue>
+</event>
+<event id="E48">
+<type class="Negative_regulation"/>
+<theme idref="E44"/>
+<cause idref="T70"/>
+<clue>While the activation of the IL-2 promoter and an NFAT-driven minimal promoter by Tpl-2 was fully blocked by the dominant negative mutant NFAT delta418, it was only partially <clueType>blocked</clueType> <linkCause>by</linkCause> the calcineurin inhibitor cyclosporin A suggesting that the Tpl-2-mediated NFAT activation is under the control of a combination of calcineurin-dependent and independent pathways.</clue>
+</event>
+<event KT="Other" id="E49">
+<type class="Positive_regulation"/>
+<theme idref="T73"/>
+<cause idref="T72"/>
+<clue>While the activation of the IL-2 promoter and an NFAT-driven minimal promoter by Tpl-2 was fully blocked by the dominant negative mutant NFAT delta418, it was only partially blocked by the calcineurin inhibitor cyclosporin A suggesting that the Tpl-2<linkCause>-mediated</linkCause> NFAT <clueType>activation</clueType> is under the control of a combination of calcineurin-dependent and independent pathways.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E50" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E49"/>
+<cause idref="E52"/>
+<clue>While the activation of the IL-2 promoter and an NFAT-driven minimal promoter by Tpl-2 was fully blocked by the dominant negative mutant NFAT delta418, it was only partially blocked by the calcineurin inhibitor cyclosporin A <clueKT><clueCL>suggesting</clueCL></clueKT> that the Tpl-2-mediated NFAT activation is <clueType>under the control</clueType> <linkCause>of a combination of</linkCause> calcineurin-dependent and independent pathways.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E51">
+<type class="Regulation"/>
+<theme idref="E49"/>
+<cause idref="E53"/>
+<clue>While the activation of the IL-2 promoter and an NFAT-driven minimal promoter by Tpl-2 was fully blocked by the dominant negative mutant NFAT delta418, it was only partially blocked by the calcineurin inhibitor cyclosporin A <clueKT><clueCL>suggesting</clueCL></clueKT> that the Tpl-2-mediated NFAT activation is <clueType>under the control</clueType> <linkCause>of a combination of</linkCause> calcineurin-dependent and independent pathways.</clue>
+</event>
+<event KT="Other" id="E52">
+<type class="Regulation"/>
+<cause idref="A5"/>
+<clue>While the activation of the IL-2 promoter and an NFAT-driven minimal promoter by Tpl-2 was fully blocked by the dominant negative mutant NFAT delta418, it was only partially blocked by the calcineurin inhibitor cyclosporin A suggesting that the Tpl-2-mediated NFAT activation is under the control of a combination of calcineurin-<clueType>dependent</clueType> and independent pathways.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E53">
+<type class="Regulation"/>
+<cause idref="A5"/>
+<clue>While the activation of the IL-2 promoter and an NFAT-driven minimal promoter by Tpl-2 was fully blocked by the dominant negative mutant NFAT delta418, it was only partially blocked by the calcineurin inhibitor cyclosporin A suggesting that the Tpl-2-mediated NFAT activation is under the control of a combination of calcineurin-dependent and <clueType><cluePolarity>independent</cluePolarity></clueType> pathways.</clue>
+</event>
+<sentence id="S11">Both pathways were fully blocked by <term id="T75" lex="Bcl-2" sem="Protein_molecule">Bcl-2</term> or <term id="T76" lex="Bcl-X(L)" sem="Protein_molecule">Bcl-X(L)</term>.</sentence>
+<event Manner="High" id="E54">
+<type class="Negative_regulation"/>
+<theme idref="E52"/>
+<cause idref="T75"/>
+<clue><corefTheme>Both pathways</corefTheme> were <clueManner>fully</clueManner> <clueType>blocked</clueType> <linkCause>by</linkCause> Bcl-2 or Bcl-X(L).</clue>
+</event>
+<event Manner="High" id="E55">
+<type class="Negative_regulation"/>
+<theme idref="E53"/>
+<cause idref="T75"/>
+<clue><corefTheme>Both pathways</corefTheme> were <clueManner>fully</clueManner> <clueType>blocked</clueType> <linkCause>by</linkCause> Bcl-2 or Bcl-X(L).</clue>
+</event>
+<event Manner="High" id="E56">
+<type class="Negative_regulation"/>
+<theme idref="E52"/>
+<cause idref="T76"/>
+<clue><corefTheme>Both pathways</corefTheme> were <clueManner>fully</clueManner> <clueType>blocked</clueType> <linkCause>by</linkCause> Bcl-2 or Bcl-X(L).</clue>
+</event>
+<event Manner="High" id="E57">
+<type class="Negative_regulation"/>
+<theme idref="E53"/>
+<cause idref="T76"/>
+<clue><corefTheme>Both pathways</corefTheme> were <clueManner>fully</clueManner> <clueType>blocked</clueType> <linkCause>by</linkCause> Bcl-2 or Bcl-X(L).</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

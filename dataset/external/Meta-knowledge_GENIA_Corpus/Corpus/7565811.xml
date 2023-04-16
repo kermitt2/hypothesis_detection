@@ -1,0 +1,173 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7565811" created="17/01/2007" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7565811</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">An <term id="T1" lex="interferon-gamma_activation_sequence" sem="DNA_domain_or_region">interferon-gamma activation sequence</term> mediates the <term id="T2" lex="transcriptional_regulation" sem="Other">transcriptional regulation</term> of the <term id="T3" lex="IgG_Fc_receptor_type_IC_gene" sem="DNA_domain_or_region"><term id="T4" lex="IgG_Fc_receptor" sem="Protein_family_or_group">IgG Fc receptor</term> type IC gene</term> by <term id="T5" lex="interferon-gamma" sem="Protein_molecule">interferon-gamma</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="T1"/>
+<clue>An interferon-gamma activation sequence <clueType>mediates</clueType> the transcriptional regulation of the IgG Fc receptor type IC gene by interferon-gamma.</clue>
+</event>
+<event id="E2">
+<type class="Regulation"/>
+<theme idref="T3"/>
+<cause idref="T5"/>
+<clue>An interferon-gamma activation sequence mediates the <clueType>transcriptional regulation</clueType> <linkTheme>of</linkTheme> the IgG Fc receptor type IC gene <linkCause>by</linkCause> interferon-gamma.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Expression of the <term id="T6" lex="IgG_Fc_receptor_type_I" sem="Protein_molecule"><term id="T7" lex="IgG_Fc_receptor" sem="Protein_family_or_group">IgG Fc receptor</term> type I</term> (<term id="T8" lex="Fc_gamma_RI" sem="Protein_molecule">Fc gamma RI</term>) on <term id="T9" lex="myeloid_cell" sem="Cell_natural">myeloid cells</term> is dramatically increased by treatment with <term id="T10" lex="interferon-gamma" sem="Protein_molecule">interferon-gamma</term> (<term id="T11" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term>).</sentence>
+<event id="E3">
+<type class="Gene_expression"/>
+<theme idref="T8"/>
+<clue><clueType>Expression</clueType> <linkTheme>of</linkTheme> the IgG Fc receptor type I (Fc gamma RI) <clueLoc>on myeloid cells</clueLoc> is dramatically increased by treatment with interferon-gamma (IFN-gamma).</clue>
+</event>
+<event Manner="High" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="E25"/>
+<clue>Expression of the IgG Fc receptor type I (Fc gamma RI) on myeloid cells is <clueManner>dramatically</clueManner> <clueType>increased</clueType> <linkCause>by</linkCause> treatment with interferon-gamma (IFN-gamma).</clue>
+</event>
+<event KT="Method" id="E25">
+<type class="Artificial_process"/>
+<theme idref="T9"/>
+<theme idref="T11"/>
+<clue>Expression of the IgG Fc receptor type I (Fc gamma RI) on myeloid cells is dramatically increased by <clueType>treatment</clueType> <linkTheme>with</linkTheme> interferon-gamma (IFN-gamma).</clue>
+</event>
+<sentence id="S3">We observed that <term id="T12" lex="Fc_gamma_RI_transcript_levels" sem="Other"><term id="A1" sem="RNA_molecule"><term id="T13" lex="Fc_gamma_RI" sem="Protein_molecule">Fc gamma RI</term> transcript</term> levels</term> in <term id="T14" lex="monoblast-like_U937_cell" sem="Cell_cultured">monoblast-like U937 cells</term> were elevated within 3 hr and peaked 12 hr after exposure to <term id="T15" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term>.</sentence>
+<event Manner="High" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="A1"/>
+<cause idref="E6"/>
+<clue>We <clueKT>observed</clueKT> that Fc gamma RI transcript <clueType>levels</clueType> <clueLoc>in monoblast-like U937 cells</clueLoc> were <clueType>elevated</clueType> <clueTime>within 3 hr</clueTime> and <clueManner>peaked</clueManner> 12 hr <linkCause>after</linkCause> exposure to IFN-gamma.</clue>
+</event>
+<event KT="Method" id="E6">
+<type class="Artificial_process"/>
+<theme idref="T14"/>
+<theme idref="T15"/>
+<clue>We observed that Fc gamma RI transcript levels in monoblast-like U937 cells were elevated within 3 hr and peaked 12 hr after <clueType>exposure</clueType> <linkTheme>to</linkTheme> IFN-gamma.</clue>
+</event>
+<sentence id="S4">Treatment of <term id="T16" lex="U937" sem="Cell_cultured">U937</term> with <term id="T17" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term> for 9 hr in the presence of <term id="A2" sem="Organic_compound_other">cycloheximide</term> led to super-induction of <term id="T18" lex="Fc_gamma_RI" sem="Protein_molecule">Fc gamma RI</term> expression.</sentence>
+<event KT="Method" id="E7">
+<type class="Artificial_process"/>
+<theme idref="T16"/>
+<theme idref="T17"/>
+<theme idref="A2"/>
+<clue><clueType>Treatment</clueType> <linkTheme>of</linkTheme> U937 <linkTheme>with</linkTheme> IFN-gamma <clueTime>for 9 hr</clueTime> <linkTheme>in the presence of</linkTheme> cycloheximide led to super-induction of Fc gamma RI expression.</clue>
+</event>
+<event id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="E7"/>
+<clue>Treatment of U937 with IFN-gamma for 9 hr in the presence of cycloheximide <clueType>led</clueType> <linkTheme>to</linkTheme> super-induction of Fc gamma RI expression.</clue>
+</event>
+<event Manner="High" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<clue>Treatment of U937 with IFN-gamma for 9 hr in the presence of cycloheximide led to <clueType><clueManner>super</clueManner></clueType>-induction of Fc gamma RI expression.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<clue>Treatment of U937 with IFN-gamma for 9 hr in the presence of cycloheximide led to super-<clueType>induction</clueType> <linkTheme>of</linkTheme> Fc gamma RI expression.</clue>
+</event>
+<event id="E10">
+<type class="Gene_expression"/>
+<theme idref="T18"/>
+<clue>Treatment of U937 with IFN-gamma for 9 hr in the presence of cycloheximide led to super-induction of Fc gamma RI <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S5">Nuclear run-on analysis revealed that the rate of <term id="T19" lex="Fc_gamma_RI" sem="Protein_molecule"><term id="A3" sem="DNA_domain_or_region">Fc gamma RI</term></term> transcription was increased by <term id="T20" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term>.</sentence>
+<event KT="Analysis" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="T20"/>
+<clue><clueExperiment>Nuclear run-on analysis</clueExperiment> <clueKT>revealed</clueKT> that the rate of Fc gamma RI transcription was <clueType>increased</clueType> <linkCause>by</linkCause> IFN-gamma.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Transcription"/>
+<theme idref="A3"/>
+<clue>Nuclear run-on analysis revealed that the rate of Fc gamma RI <clueType>transcription</clueType> was increased by IFN-gamma.</clue>
+</event>
+<sentence id="S6">Genomic sequence upstream of the <term id="T21" lex="Fc_gamma_RIC_gene" sem="DNA_domain_or_region">Fc gamma RIC gene</term> was cloned and subjected to <term id="T22" lex="primer_extension_analysis" sem="Other">primer extension analysis</term>, which demonstrated a single <term id="T23" lex="transcription_initiation_site" sem="DNA_domain_or_region">transcription initiation site</term> without a <term id="T24" lex="TATA_box" sem="DNA_domain_or_region">TATA box</term>.</sentence>
+<sentence id="S7">Transient transfections of <term id="A20" sem="DNA_family_or_group"><term id="T25" lex="CAT_reporter_gene_construct" sem="DNA_family_or_group">CAT <term id="T26" lex="reporter_gene_construct" sem="DNA_family_or_group">reporter gene constructs</term></term> containing various <term id="T27" lex="Fc_gamma_RIC_promoter_sequence" sem="DNA_domain_or_region">Fc gamma RIC promoter sequences</term></term> into <term id="T28" lex="U937_cell" sem="Cell_cultured">U937 cells</term> revealed that a <term id="A4" sem="DNA_domain_or_region"><term id="T29" lex="20-bp_region" sem="DNA_domain_or_region">20-bp region</term> surrounding the <term id="T30" lex="transcription_start_site" sem="DNA_domain_or_region">transcription start site</term></term> (-7 to +13) was capable of mediating <term id="T31" lex="transcription_initiation" sem="Other">transcription initiation</term> and that an <term id="T32" lex="IFN-gamma_responsive_element" sem="DNA_domain_or_region">IFN-gamma responsive element</term> (<term id="T33" lex="GIRE" sem="DNA_domain_or_region">GIRE</term>) was present within <term id="T34" lex="74_bp_upstream" sem="DNA_domain_or_region">74 bp upstream</term> of the <term id="T35" lex="transcription_initiation_site" sem="DNA_domain_or_region"><term id="T36" lex="transcription_initiation" sem="Other">transcription initiation</term> site</term>.</sentence>
+<event KT="Method" id="E26">
+<type class="Artificial_process"/>
+<theme idref="A20"/>
+<theme idref="T28"/>
+<clue><clueType>Transient transfections</clueType> <linkTheme>of</linkTheme> CAT reporter gene constructs containing various Fc gamma RIC promoter sequences <linkTheme>into</linkTheme> U937 cells revealed that a 20-bp region surrounding the transcription start site (-7 to +13) was capable of mediating transcription initiation and that an IFN-gamma responsive element (GIRE) was present within 74 bp upstream of the transcription initiation site.</clue>
+<comment>TPS: A20</comment></event>
+<event CL="L2" KT="Analysis" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="T31"/>
+<cause idref="A4"/>
+<clue><clueExperiment>Transient transfections of CAT reporter gene constructs containing various Fc gamma RIC promoter sequences into U937 cells</clueExperiment> <clueKT>revealed</clueKT> that a 20-bp region surrounding the transcription start site (-7 to +13) was <clueCL>capable of</clueCL> <clueType>mediating</clueType> transcription initiation and that an IFN-gamma responsive element (GIRE) was present within 74 bp upstream of the transcription initiation site.</clue>
+<comment>TPS: A4</comment></event>
+<sentence id="S8">A <term id="T37" lex="17-bp_sequence" sem="DNA_domain_or_region">17-bp sequence</term> between positions -51 and -35 conferred <term id="T38" lex="IFN-gamma_responsiveness" sem="Other"><term id="T39" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term> responsiveness</term> on a <term id="T40" lex="heterologous_promoter" sem="DNA_domain_or_region">heterologous promoter</term>.</sentence>
+<event id="E15">
+<type class="Regulation"/>
+<cause idref="T37" idref1="T40"/>
+<cause idref="T39"/>
+<clue>A 17-bp sequence between positions -51 and -35 conferred IFN-gamma <clueType>responsiveness</clueType> on a heterologous promoter.</clue>
+</event>
+<sentence id="S9"><term id="T41" lex="double-stranded_GIRE_sequence" sem="DNA_domain_or_region">Double-stranded GIRE sequence</term>, but not a <term id="T42" lex="scrambled_sequence" sem="DNA_family_or_group">scrambled sequence</term>, was specifically bound by <term id="T43" lex="nuclear_protein" sem="Protein_family_or_group">nuclear proteins</term> from <term id="T44" lex="IFN-gamma_treated_U937_cell" sem="Cell_cultured"><term id="T45" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term> treated <term id="T46" lex="U937_cell" sem="Cell_cultured">U937 cells</term></term>.</sentence>
+<event id="E16">
+<type class="Binding"/>
+<theme idref="T41"/>
+<theme idref="T43"/>
+<clue>Double-stranded GIRE sequence, but not a scrambled sequence, was specifically <clueType>bound</clueType> <linkTheme>by</linkTheme> nuclear proteins from IFN-gamma treated U937 cells.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E17">
+<type class="Binding"/>
+<theme idref="T42"/>
+<theme idref="T43"/>
+<clue>Double-stranded GIRE sequence, but <cluePolarity>not</cluePolarity> a scrambled sequence, was specifically <clueType>bound</clueType> <linkTheme>by</linkTheme> nuclear proteins from IFN-gamma treated U937 cells.</clue>
+</event>
+<event KT="Method" id="E18">
+<type class="Artificial_process"/>
+<theme idref="T46"/>
+<theme idref="T45"/>
+<clue>Double-stranded GIRE sequence, but not a scrambled sequence, was specifically bound by nuclear proteins from IFN-gamma <clueType>treated</clueType> U937 cells.</clue>
+</event>
+<sentence id="S10">Gel shift experiments further showed that the <term id="T47" lex="STAT1_alpha_protein" sem="Protein_molecule">STAT1 alpha protein</term> bound to the <term id="T48" lex="Fc_gamma_RIC_GIRE" sem="DNA_domain_or_region">Fc gamma RIC GIRE</term> in response to <term id="T49" lex="IFN-gamma_treatment" sem="Other"><term id="T50" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term> treatment</term> of <term id="T51" lex="U937_cell" sem="Cell_cultured">U937 cells</term>.</sentence>
+<event KT="Other" id="E19">
+<type class="Binding"/>
+<theme idref="T47"/>
+<theme idref="T48"/>
+<clue><clueExperiment>Gel shift experiments</clueExperiment> further showed that the STAT1 alpha protein <clueType>bound</clueType> <linkTheme>to</linkTheme> the Fc gamma RIC GIRE in response to IFN-gamma treatment of U937 cells.</clue>
+</event>
+<event KT="Analysis" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="E21"/>
+<clue>Gel shift experiments further <clueKT>showed</clueKT> that the STAT1 alpha protein bound to the Fc gamma RIC GIRE <linkCause>in response to</linkCause> IFN-gamma treatment of U937 cells.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Method" id="E21">
+<type class="Artificial_process"/>
+<theme idref="T51"/>
+<theme idref="T50"/>
+<clue>Gel shift experiments further showed that the STAT1 alpha protein bound to the Fc gamma RIC GIRE in response to IFN-gamma <clueType>treatment</clueType> <linkTheme>of</linkTheme> U937 cells.</clue>
+</event>
+<sentence id="S11">The <term id="T52" lex="Fc_gamma_RIC_GIRE" sem="DNA_domain_or_region">Fc gamma RIC GIRE</term> is homologous to the <term id="T53" lex="IFN-gamma_activation_sequence" sem="DNA_domain_or_region"><term id="T54" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term> activation sequence</term> (<term id="T55" lex="GAS" sem="DNA_domain_or_region">GAS</term>) of the <term id="T56" lex="guanylate_binding_protein" sem="Protein_molecule">guanylate binding protein</term> and to <term id="T57" lex="X_box_element" sem="DNA_family_or_group">X box elements</term> of <term id="T58" lex="class_II_MHC_gene" sem="DNA_family_or_group">class II MHC genes</term>.</sentence>
+<sentence id="S12">Our results demonstrate that <term id="T59" lex="transcriptional_regulation" sem="Other">transcriptional regulation</term> of the <term id="T60" lex="Fc_gamma_RIC_gene" sem="DNA_domain_or_region">Fc gamma RIC gene</term> by <term id="T61" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term> involves the binding of <term id="T62" lex="STAT1_alpha" sem="Protein_molecule">STAT1 alpha</term> to a <term id="A5" sem="DNA_domain_or_region"><term id="T63" lex="17-bp_GAS_homology" sem="DNA_domain_or_region">17-bp GAS homology</term> in the <term id="T64" lex="proximal_promoter" sem="DNA_domain_or_region">proximal promoter</term></term>.</sentence>
+<event KT="Other" id="E22">
+<type class="Regulation"/>
+<theme idref="T60"/>
+<cause idref="T61"/>
+<clue>Our results demonstrate that <clueType>transcriptional regulation</clueType> <linkTheme>of</linkTheme> the Fc gamma RIC gene <linkCause>by</linkCause> IFN-gamma involves the binding of STAT1 alpha to a 17-bp GAS homology in the proximal promoter.</clue>
+</event>
+<event KT="Analysis" id="E23">
+<type class="Regulation"/>
+<theme idref="E22"/>
+<cause idref="E24"/>
+<clue>Our results <clueKT>demonstrate</clueKT> that transcriptional regulation of the Fc gamma RIC gene by IFN-gamma <clueType>involves</clueType> the binding of STAT1 alpha to a 17-bp GAS homology in the proximal promoter.</clue>
+</event>
+<event KT="Other" id="E24">
+<type class="Binding"/>
+<theme idref="T62"/>
+<theme idref="A5"/>
+<clue>Our results demonstrate that transcriptional regulation of the Fc gamma RIC gene by IFN-gamma involves the <clueType>binding</clueType> <linkTheme>of</linkTheme> STAT1 alpha <linkTheme>to</linkTheme> a 17-bp GAS homology in the proximal promoter.</clue>
+<comment>TPS: A5</comment></event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

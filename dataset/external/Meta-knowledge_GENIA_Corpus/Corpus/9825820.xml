@@ -1,0 +1,396 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9825820" created="12/05/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9825820</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="membrane-associated_lymphotoxin" sem="Protein_molecule"><term id="A7" sem="Cell_component">Membrane</term>-associated <term id="A8" sem="Protein_molecule">lymphotoxin</term></term> on <term id="T2" lex="natural_killer_cell" sem="Cell_natural">natural killer cells</term> activates <term id="T3" lex="endothelial_cell" sem="Cell_natural">endothelial cells</term> via an <term id="T4" lex="NF-kappaB-dependent_pathway" sem="Other"><term id="T5" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>-dependent pathway</term>.</sentence>
+<event id="E1">
+<type class="Physiological_process"/>
+<theme idref="T3"/>
+<cause idref="T1"/>
+<clue>Membrane-associated lymphotoxin <clueLoc>on natural killer cells</clueLoc> <clueType>activates</clueType> endothelial cells via an NF-kappaB-dependent pathway.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T4"/>
+<clue>Membrane-associated lymphotoxin on natural killer cells activates endothelial cells <linkCause>via</linkCause> an NF-kappaB-dependent pathway.</clue>
+</event>
+<event id="E70">
+<type class="Regulation"/>
+<theme idref="E1"/>
+<cause idref="T5"/>
+<clue>Membrane-associated lymphotoxin on natural killer cells activates endothelial cells via an NF-kappaB-<clueType>dependent</clueType> pathway.</clue>
+</event>
+<event KT="Analysis" id="E64">
+<type class="Cell_adhesion"/>
+<theme idref="A7"/>
+<theme idref="A8"/>
+<clue>Membrane-<clueType><clueKT>associated</clueKT></clueType> lymphotoxin on natural killer cells activates endothelial cells via an NF-kappaB-dependent pathway.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">BACKGROUND: Inhibition of <term id="A1" sem="Tissue_natural">complement</term> in <term id="T6" lex="small_animal_model" sem="Multicellular_organism_genetically_modified">small animal models</term> of <term id="T7" lex="xenotransplantation" sem="Other">xenotransplantation</term> has demonstrated <term id="T8" lex="graft_infiltration" sem="Other">graft infiltration</term> with <term id="T9" lex="natural_killer_(NK)_cell" sem="Cell_natural">natural killer (NK) cells</term> and <term id="T74" lex="monocytes" sem="Cell_natural">monocytes</term> associated with <term id="T10" lex="endothelial_cell_(EC)_activation" sem="Other"><term id="T11" lex="endothelial_cell" sem="Cell_natural">endothelial cell</term> (<term id="T12" lex="EC" sem="Cell_natural">EC</term>) activation</term>.</sentence>
+<event KT="Other" id="E3">
+<type class="Negative_regulation"/>
+<theme idref="A1"/>
+<clue>BACKGROUND: <clueType>Inhibition</clueType> <linkTheme>of</linkTheme> complement <clueExperiment>in small animal models of xenotransplantation</clueExperiment> has demonstrated graft infiltration with natural killer (NK) cells and monocytes associated with endothelial cell (EC) activation.</clue>
+</event>
+<event KT="Analysis" id="E4">
+<type class="Cellular_physiological_process"/>
+<theme idref="T9"/>
+<clue>BACKGROUND: Inhibition of complement in small animal models of xenotransplantation has <clueKT>demonstrated</clueKT> <clueLoc>graft</clueLoc> <clueType>infiltration</clueType> <linkTheme>with</linkTheme> natural killer (NK) cells and monocytes associated with endothelial cell (EC) activation.</clue>
+<comment>NER: T8 mod</comment></event>
+<event KT="Analysis" id="E5">
+<type class="Cellular_physiological_process"/>
+<theme idref="T74"/>
+<clue>BACKGROUND: Inhibition of complement in small animal models of xenotransplantation has <clueKT>demonstrated</clueKT> <clueLoc>graft</clueLoc> <clueType>infiltration</clueType> <linkTheme>with</linkTheme> natural killer (NK) cells and monocytes associated with endothelial cell (EC) activation.</clue>
+</event>
+<event KT="Analysis" id="E6">
+<type class="Correlation"/>
+<theme idref="E4"/>
+<theme idref="E8"/>
+<clue>BACKGROUND: Inhibition of complement in small animal models of xenotransplantation has demonstrated graft infiltration with natural killer (NK) cells and monocytes <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> endothelial cell (EC) activation.</clue>
+</event>
+<event KT="Analysis" id="E7">
+<type class="Correlation"/>
+<theme idref="E5"/>
+<theme idref="E8"/>
+<clue>BACKGROUND: Inhibition of complement in small animal models of xenotransplantation has demonstrated graft infiltration with natural killer (NK) cells and monocytes <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> endothelial cell (EC) activation.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Physiological_process"/>
+<theme idref="T12"/>
+<clue>BACKGROUND: Inhibition of complement in small animal models of xenotransplantation has demonstrated graft infiltration with natural killer (NK) cells and monocytes associated with endothelial cell (EC) <clueType>activation</clueType>.</clue>
+</event>
+<sentence id="S3">We have previously demonstrated that <term id="T13" lex="human_NK_cell" sem="Cell_natural">human NK cells</term> activate porcine <term id="T14" lex="EC" sem="Cell_natural">EC</term> in vitro, which results in <term id="T15" lex="adhesion_molecule_expression" sem="Other"><term id="T16" lex="adhesion_molecule" sem="Protein_family_or_group">adhesion molecule</term> expression</term> and <term id="T17" lex="cytokine_secretion" sem="Other"><term id="T18" lex="cytokine" sem="Protein_family_or_group">cytokine</term> secretion</term>.</sentence>
+<event KT="Analysis" Source="Other" id="E9">
+<type class="Physiological_process"/>
+<theme idref="T14"/>
+<cause idref="T13"/>
+<clue>We have <clueSource>previously</clueSource> <clueKT>demonstrated</clueKT> that human NK cells <clueType>activate</clueType> porcine EC in vitro, which results in adhesion molecule expression and cytokine secretion.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="E9"/>
+<clue>We have previously demonstrated that human NK cells activate porcine EC in vitro, which <clueType>results</clueType> <linkTheme>in</linkTheme> adhesion molecule expression and cytokine secretion.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="E9"/>
+<clue>We have previously demonstrated that human NK cells activate porcine EC in vitro, which <clueType>results</clueType> <linkTheme>in</linkTheme> adhesion molecule expression and cytokine secretion.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Gene_expression"/>
+<theme idref="T16"/>
+<clue>We have previously demonstrated that human NK cells activate porcine <clueLoc>EC</clueLoc> in vitro, which results in adhesion molecule <clueType>expression</clueType> and cytokine secretion.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Localization"/>
+<theme idref="T18"/>
+<clue>We have previously demonstrated that human NK cells activate porcine <clueLoc>EC</clueLoc> in vitro, which results in adhesion molecule expression and cytokine <clueType>secretion</clueType>.</clue>
+</event>
+<sentence id="S4">In this study, we used the <term id="T19" lex="NK_cell_line_NK92" sem="Cell_cultured">NK cell line NK92</term> to define the molecular and cellular basis of <term id="T20" lex="NK_cell-mediated_EC_activation" sem="Other">NK cell-mediated <term id="T21" lex="EC" sem="Cell_natural">EC</term> activation</term>.</sentence>
+<event KT="Investigation" id="E14" uncertainty="doubtful">
+<type class="Physiological_process"/>
+<theme idref="T21"/>
+<cause idref="T19"/>
+<clue>In this study, we used the NK cell line <clueLoc>NK92</clueLoc> <clueKT>to define</clueKT> the molecular and cellular basis of NK cell<linkCause>-mediated</linkCause> EC <clueType>activation</clueType>.</clue>
+</event>
+<sentence id="S5">METHODS: <term id="T22" lex="EC" sem="Cell_natural">EC</term> were transfected with either reporter constructs containing the <term id="T23" lex="luciferase_gene" sem="DNA_domain_or_region"><term id="T24" lex="luciferase" sem="Protein_molecule">luciferase</term> gene</term> driven either by <cons id="T25" lex="(OR E-selectin_promoter interleukin_(IL)-8_promoter)" sem="(OR DNA_domain_or_region DNA_domain_or_region)"><frag id="F1">E-selectin</frag> or interleukin (<frag id="F2">IL</frag>)<frag id="F3">-8</frag> <frag id="F4">promoters</frag></cons> or a synthetic <term id="T26" lex="NF-kappaB-dependent_promoter" sem="DNA_domain_or_region"><term id="T27" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>-dependent promoter</term>.</sentence>
+<event KT="Method" id="E15">
+<type class="Artificial_process"/>
+<theme idref="T22"/>
+<clue>METHODS: EC were <clueType>transfected</clueType> <linkTheme>with</linkTheme> either reporter constructs containing the luciferase gene driven either by E-selectin or interleukin (IL)-8 promoters or a synthetic NF-kappaB-dependent promoter.</clue>
+<comment>TPS: A50</comment></event>
+<event KT="Method" id="E22">
+<type class="Artificial_process"/>
+<theme idref="T22"/>
+<clue>METHODS: EC were <clueType>transfected</clueType> <linkTheme>with</linkTheme> either reporter constructs containing the luciferase gene driven either by E-selectin or interleukin (IL)-8 promoters or a synthetic NF-kappaB-dependent promoter.</clue>
+</event>
+<event KT="Method" id="E23">
+<type class="Artificial_process"/>
+<theme idref="T22"/>
+<theme idref="T26"/>
+<clue>METHODS: EC were <clueType>transfected</clueType> <linkTheme>with</linkTheme> either reporter constructs containing the luciferase gene driven either by E-selectin or interleukin (IL)-8 promoters or a synthetic NF-kappaB-dependent promoter.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation"/>
+<theme idref="T23"/>
+<cause idref="F1" idref1="F4"/>
+<clue>METHODS: EC were transfected with either reporter constructs containing the luciferase gene <clueType>driven</clueType> either <linkCause>by</linkCause> E-selectin or interleukin (IL)-8 promoters or a synthetic NF-kappaB-dependent promoter.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation"/>
+<theme idref="T23"/>
+<cause idref="F2" idref1="F3" idref2="F4"/>
+<clue>METHODS: EC were transfected with either reporter constructs containing the luciferase gene <clueType>driven</clueType> either <linkCause>by</linkCause> E-selectin or interleukin (IL)-8 promoters or a synthetic NF-kappaB-dependent promoter.</clue>
+</event>
+<sentence id="S6">In addition, a <term id="T28" lex="dominant-negative_mutant_tumor_necrosis_factor_receptor_I_(TNFRI)_expression_vector" sem="DNA_molecule">dominant-negative mutant tumor necrosis factor receptor I (<term id="A12" sem="Protein_molecule">TNFRI</term>) expression vector</term> was co-transfected in inhibition studies.</sentence>
+<event KT="Method" id="E21">
+<type class="Gene_expression"/>
+<theme idref="T28"/>
+<clue>In addition, a dominant-negative mutant tumor necrosis factor receptor I (TNFRI) expression vector was <clueType>co-transfected</clueType> <clueExperiment>in inhibition studies</clueExperiment>.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event id="E35">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<clue>In addition, a dominant-negative mutant tumor necrosis factor receptor I (TNFRI) expression vector was <clueType>co-transfected</clueType> in inhibition studies.</clue>
+</event>
+<sentence id="S7">Forty-eight hours after <term id="T29" lex="transfection" sem="Other">transfection</term>, <term id="T30" lex="EC" sem="Cell_natural">EC</term> were stimulated with <term id="T31" lex="NK_cell" sem="Cell_natural">NK cells</term> or <term id="T32" lex="NK_cell_membrane_extract" sem="Cell_component">NK cell membrane extracts</term> for 7 hr and activation was measured by a <term id="T33" lex="luciferase_assay" sem="Other"><term id="T34" lex="luciferase" sem="Protein_molecule">luciferase</term> assay</term>.</sentence>
+<event KT="Method" id="E24">
+<type class="Artificial_process"/>
+<theme idref="T30"/>
+<clue>Forty-eight hours after <clueType>transfection</clueType>, EC were stimulated with NK cells or NK cell membrane extracts for 7 hr and activation was measured by a luciferase assay.</clue>
+</event>
+<event id="E25">
+<type class="Physiological_process"/>
+<theme idref="E24"/>
+<cause idref="T31"/>
+<clue><clueTime>Forty-eight hours after transfection</clueTime>, EC were <clueType>stimulated</clueType> <linkCause>with</linkCause> NK cells or NK cell membrane extracts for 7 hr and activation was measured by a luciferase assay.</clue>
+</event>
+<event id="E26">
+<type class="Physiological_process"/>
+<theme idref="E24"/>
+<cause idref="T32"/>
+<clue><clueTime>Forty-eight hours after transfection</clueTime>, EC were <clueType>stimulated</clueType> <linkCause>with</linkCause> NK cells or NK cell membrane extracts for 7 hr and activation was measured by a luciferase assay.</clue>
+<comment>NER: T32 sem mod, Cell_type -&gt; Cell_component</comment></event>
+<event KT="Investigation" id="E27" uncertainty="doubtful">
+<type class="Physiological_process"/>
+<theme idref="T30"/>
+<cause idref="E25"/>
+<clue>Forty-eight hours after transfection, EC were stimulated with NK cells or NK cell membrane extracts <clueTime>for 7 hr</clueTime> and <clueType>activation</clueType> was <clueKT>measured</clueKT> <clueExperiment>by a luciferase assay</clueExperiment>.</clue>
+</event>
+<event KT="Investigation" id="E66" uncertainty="doubtful">
+<type class="Physiological_process"/>
+<theme idref="T30"/>
+<cause idref="E26"/>
+<clue>Forty-eight hours after transfection, EC were stimulated with NK cells or NK cell membrane extracts <clueTime>for 7 hr</clueTime> and <clueType>activation</clueType> was <clueKT>measured</clueKT> <clueExperiment>by a luciferase assay</clueExperiment>.</clue>
+</event>
+<sentence id="S8">RESULTS: Co-culture of <term id="T35" lex="NK_cell" sem="Cell_natural">NK cells</term> with <term id="A2" sem="Cell_cultured">transfected <term id="T36" lex="EC" sem="Cell_natural">EC</term></term> enhanced <term id="T37" lex="E-selectin" sem="Protein_molecule">E-selectin</term>, <term id="T38" lex="IL-8" sem="Protein_molecule">IL-8</term>, and <term id="T40" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>-dependent <term id="T41" lex="promoter_activity" sem="Other">promoter activity</term>.</sentence>
+<event KT="Method" id="E28">
+<type class="Artificial_process"/>
+<theme idref="T35"/>
+<theme idref="A2"/>
+<clue>RESULTS: <clueType>Co-culture</clueType> <linkTheme>of</linkTheme> NK cells <linkTheme>with</linkTheme> transfected EC enhanced E-selectin, IL-8, and NF-kappaB-dependent promoter activity.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation"/>
+<theme idref="E65"/>
+<cause idref="E28"/>
+<clue>RESULTS: Co-culture of NK cells with <clueLoc>transfected EC</clueLoc> <clueType>enhanced</clueType> E-selectin, IL-8, and NF-kappaB-dependent promoter activity.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation"/>
+<theme idref="E68"/>
+<cause idref="E28"/>
+<clue>RESULTS: Co-culture of NK cells with <clueLoc>transfected EC</clueLoc> <clueType>enhanced</clueType> E-selectin, IL-8, and NF-kappaB-dependent promoter activity.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation"/>
+<theme idref="E69"/>
+<cause idref="E28"/>
+<clue>RESULTS: Co-culture of NK cells with <clueLoc>transfected EC</clueLoc> <clueType>enhanced</clueType> E-selectin, IL-8, and NF-kappaB-dependent promoter activity.</clue>
+</event>
+<event id="E65">
+<type class="Regulation"/>
+<theme idref="T41"/>
+<cause idref="T37"/>
+<clue>RESULTS: Co-culture of NK cells with transfected EC enhanced E-selectin, IL-8, and NF-kappaB-<clueType>dependent</clueType> promoter activity.</clue>
+<comment>NER: T39 del &quot;NF-kappaB-dependent promoter activity&quot;</comment></event>
+<event id="E68">
+<type class="Regulation"/>
+<theme idref="T41"/>
+<cause idref="T38"/>
+<clue>RESULTS: Co-culture of NK cells with transfected EC enhanced E-selectin, IL-8, and NF-kappaB-<clueType>dependent</clueType> promoter activity.</clue>
+</event>
+<event id="E69">
+<type class="Regulation"/>
+<theme idref="T41"/>
+<cause idref="T40"/>
+<clue>RESULTS: Co-culture of NK cells with transfected EC enhanced E-selectin, IL-8, and NF-kappaB-<clueType>dependent</clueType> promoter activity.</clue>
+</event>
+<sentence id="S9"><term id="A6" sem="Cell_component">NK cell membrane extracts</term> retained the capacity to activate <term id="T42" lex="EC" sem="Cell_natural">EC</term> and induced nuclear translocation of <term id="T43" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> (<term id="T44" lex="p50" sem="Protein_molecule">p50</term> and <term id="T45" lex="p65" sem="Protein_molecule">p65</term>).</sentence>
+<event CL="L2" KT="Analysis" id="E71">
+<type class="Physiological_process"/>
+<theme idref="T42"/>
+<cause idref="A6"/>
+<clue>NK cell membrane extracts retained the <clueKT><clueCL>capacity</clueCL></clueKT> to <clueType>activate</clueType> EC and induced nuclear translocation of NF-kappaB (p50 and p65).</clue>
+</event>
+<event id="E34">
+<type class="Positive_regulation"/>
+<theme idref="E36"/>
+<cause idref="A6"/>
+<clue>NK cell membrane extracts retained the capacity to activate EC and <clueType>induced</clueType> nuclear translocation of NF-kappaB (p50 and p65).</clue>
+</event>
+<event id="E72">
+<type class="Positive_regulation"/>
+<theme idref="E37"/>
+<cause idref="A6"/>
+<clue>NK cell membrane extracts retained the capacity to activate EC and <clueType>induced</clueType> nuclear translocation of NF-kappaB (p50 and p65).</clue>
+</event>
+<event id="E36">
+<type class="Localization"/>
+<theme idref="T43" idref1="T44"/>
+<clue>NK cell membrane extracts retained the capacity to activate EC and induced <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> <linkTheme>of</linkTheme> NF-kappaB (p50 and p65).</clue>
+</event>
+<event id="E37">
+<type class="Localization"/>
+<theme idref="T43" idref1="T45"/>
+<clue>NK cell membrane extracts retained the capacity to activate EC and induced <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> <linkTheme>of</linkTheme> NF-kappaB (p50 and p65).</clue>
+</event>
+<sentence id="S10"><term id="T46" lex="Western_blotting" sem="Other">Western blotting</term> of <term id="T47" lex="NK_cell" sem="Cell_natural">NK cell</term> and <term id="T48" lex="membrane_extract" sem="Cell_component">membrane extracts</term> detected the presence of <term id="T49" lex="Lymphotoxin-alpha" sem="Protein_molecule">Lymphotoxin-alpha</term> (<term id="T50" lex="LTalpha" sem="Protein_molecule">LTalpha</term>) but not <term id="T51" lex="tumor_necrosis_factor-alpha" sem="Protein_molecule">tumor necrosis factor-alpha</term>.</sentence>
+<event id="E38">
+<type class="Gene_expression"/>
+<theme idref="T50"/>
+<clue><clueExperiment>Western blotting</clueExperiment> of <clueLoc>NK cell</clueLoc> and membrane extracts <clueKT>detected</clueKT> the <clueType>presence</clueType> <linkTheme>of</linkTheme> Lymphotoxin-alpha (LTalpha) but not tumor necrosis factor-alpha.</clue>
+</event>
+<event id="E29">
+<type class="Gene_expression"/>
+<theme idref="T50"/>
+<clue><clueExperiment>Western blotting</clueExperiment> of <clueLoc>NK cell</clueLoc> and <clueLoc>membrane extracts</clueLoc> <clueKT>detected</clueKT> the <clueType>presence</clueType> <linkTheme>of</linkTheme> Lymphotoxin-alpha (LTalpha) but not tumor necrosis factor-alpha.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E39">
+<type class="Gene_expression"/>
+<theme idref="T51"/>
+<clue><clueExperiment>Western blotting</clueExperiment> of <clueLoc>NK cell</clueLoc> and membrane extracts <clueKT>detected</clueKT> the <clueType>presence</clueType> <linkTheme>of</linkTheme> Lymphotoxin-alpha (LTalpha) but <cluePolarity>not</cluePolarity> tumor necrosis factor-alpha.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E33">
+<type class="Gene_expression"/>
+<theme idref="T51"/>
+<clue><clueExperiment>Western blotting</clueExperiment> of <clueLoc>NK cell</clueLoc> and <clueLoc>membrane extracts</clueLoc> <clueKT>detected</clueKT> the <clueType>presence</clueType> <linkTheme>of</linkTheme> Lymphotoxin-alpha (LTalpha) but <cluePolarity>not</cluePolarity> tumor necrosis factor-alpha.</clue>
+</event>
+<sentence id="S11">Furthermore, <term id="T52" lex="LTalpha" sem="Protein_molecule">LTalpha</term> was secreted in <term id="T53" lex="NK:EC_co-culture" sem="Cell_cultured">NK:<term id="T54" lex="EC" sem="Cell_natural">EC</term> co-cultures</term>.</sentence>
+<event id="E40">
+<type class="Localization"/>
+<theme idref="T52"/>
+<clue>Furthermore, LTalpha was <clueType>secreted</clueType> <clueLoc>in NK:EC co-cultures</clueLoc>.</clue>
+</event>
+<sentence id="S12"><term id="T55" lex="co-transfection" sem="Other">Co-transfection</term> with <term id="T56" lex="dominant-negative_mutant_TNFRI" sem="Protein_molecule">dominant-negative mutant TNFRI</term> inhibited <term id="T57" lex="EC" sem="Cell_natural">EC</term> activation by <term id="T58" lex="NK_cell_membrane_extract" sem="Cell_component">NK cell membrane extracts</term> and by <term id="T59" lex="NK_cell" sem="Cell_natural">NK cells</term> by 80% and 47%, respectively.</sentence>
+<event id="E73">
+<type class="Gene_expression"/>
+<theme idref="T56"/>
+<clue><clueType>Co-transfection</clueType> <linkTheme>with</linkTheme> dominant-negative mutant TNFRI inhibited EC activation by NK cell membrane extracts and by NK cells by 80% and 47%, respectively.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E73"/>
+<clue><clueType>Co-transfection</clueType> with dominant-negative mutant TNFRI inhibited EC activation by NK cell membrane extracts and by NK cells by 80% and 47%, respectively.</clue>
+</event>
+<event Manner="High" id="E41">
+<type class="Negative_regulation"/>
+<theme idref="E47"/>
+<cause idref="E16"/>
+<clue>Co-transfection with dominant-negative mutant TNFRI <clueType>inhibited</clueType> EC activation by NK cell membrane extracts and by NK cells <clueManner>by 80%</clueManner> and 47%, respectively.</clue>
+</event>
+<event Manner="High" id="E42">
+<type class="Negative_regulation"/>
+<theme idref="E48"/>
+<cause idref="E16"/>
+<clue>Co-transfection with dominant-negative mutant TNFRI <clueType>inhibited</clueType> EC activation by NK cell membrane extracts and by NK cells <clueManner>by</clueManner> 80% and <clueManner>47%</clueManner>, respectively.</clue>
+</event>
+<event KT="Other" id="E47">
+<type class="Physiological_process"/>
+<theme idref="T57"/>
+<cause idref="T58"/>
+<clue>Co-transfection with dominant-negative mutant TNFRI inhibited EC <clueType>activation</clueType> <linkCause>by</linkCause> NK cell membrane extracts and by NK cells by 80% and 47%, respectively.</clue>
+</event>
+<event KT="Other" id="E48">
+<type class="Physiological_process"/>
+<theme idref="T57"/>
+<cause idref="T59"/>
+<clue>Co-transfection with dominant-negative mutant TNFRI inhibited EC <clueType>activation</clueType> by NK cell membrane extracts and <linkCause>by</linkCause> NK cells by 80% and 47%, respectively.</clue>
+</event>
+<sentence id="S13">The same pattern of inhibition was observed using <term id="T60" lex="anti-human_LT_sera" sem="Tissue_natural">anti-human LT sera</term>.</sentence>
+<event id="E49">
+<type class="Negative_regulation"/>
+<theme idref="E47"/>
+<cause idref="T60"/>
+<clue><corefTheme>The same</corefTheme> pattern of <clueType>inhibition</clueType> was <clueKT>observed</clueKT> <linkCause>using</linkCause> anti-human LT sera.</clue>
+</event>
+<event id="E67">
+<type class="Negative_regulation"/>
+<theme idref="E48"/>
+<cause idref="T60"/>
+<clue><corefTheme>The same</corefTheme> pattern of <clueType>inhibition</clueType> was <clueKT>observed</clueKT> <linkCause>using</linkCause> anti-human LT sera.</clue>
+</event>
+<sentence id="S14">CONCLUSIONS: <term id="T61" lex="human_NK_cell_membrane-bound_LT_signals" sem="Other">Human NK cell membrane-bound LT signals</term> across species via <term id="T62" lex="TNFRI" sem="Protein_molecule">TNFRI</term>, leading to <term id="T63" lex="NF-kappaB_nuclear_translocation" sem="Other"><term id="T64" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> nuclear translocation</term> and <term id="T65" lex="transcription" sem="Other">transcription</term> of <term id="A10" sem="DNA_domain_or_region"><term id="T66" lex="E-selectin" sem="Protein_molecule">E-selectin</term></term> and <term id="A11" sem="DNA_domain_or_region"><term id="T67" lex="IL-8" sem="Protein_molecule">IL-8</term></term>, which results in <term id="T68" lex="EC" sem="Cell_natural">EC</term> activation.</sentence>
+<event id="E50">
+<type class="Positive_regulation"/>
+<theme idref="E53"/>
+<cause idref="T61"/>
+<clue>CONCLUSIONS: Human NK cell membrane-bound LT signals across species via TNFRI, <clueType>leading</clueType> <linkTheme>to</linkTheme> NF-kappaB nuclear translocation and transcription of E-selectin and IL-8, which results in EC activation.</clue>
+</event>
+<event id="E51">
+<type class="Positive_regulation"/>
+<theme idref="E54"/>
+<cause idref="T61"/>
+<clue>CONCLUSIONS: Human NK cell membrane-bound LT signals across species via TNFRI, <clueType>leading</clueType> <linkTheme>to</linkTheme> NF-kappaB nuclear translocation and transcription of E-selectin and IL-8, which results in EC activation.</clue>
+</event>
+<event id="E52">
+<type class="Positive_regulation"/>
+<theme idref="E55"/>
+<cause idref="T61"/>
+<clue>CONCLUSIONS: Human NK cell membrane-bound LT signals across species via TNFRI, <clueType>leading</clueType> <linkTheme>to</linkTheme> NF-kappaB nuclear translocation and transcription of E-selectin and IL-8, which results in EC activation.</clue>
+</event>
+<event id="E53">
+<type class="Localization"/>
+<theme idref="T64"/>
+<clue>CONCLUSIONS: Human NK cell membrane-bound LT signals across species via TNFRI, leading to NF-kappaB <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> and transcription of E-selectin and IL-8, which results in EC activation.</clue>
+</event>
+<event id="E54">
+<type class="Transcription"/>
+<theme idref="A10"/>
+<clue>CONCLUSIONS: Human NK cell membrane-bound LT signals across species via TNFRI, leading to NF-kappaB nuclear translocation and <clueType>transcription</clueType> <linkTheme>of</linkTheme> E-selectin and IL-8, which results in EC activation.</clue>
+</event>
+<event id="E55">
+<type class="Transcription"/>
+<theme idref="A11"/>
+<clue>CONCLUSIONS: Human NK cell membrane-bound LT signals across species via TNFRI, leading to NF-kappaB nuclear translocation and <clueType>transcription</clueType> <linkTheme>of</linkTheme> E-selectin and IL-8, which results in EC activation.</clue>
+</event>
+<event id="E56">
+<type class="Positive_regulation"/>
+<theme idref="E59"/>
+<cause idref="E50"/>
+<clue>CONCLUSIONS: Human NK cell membrane-bound LT signals across species via TNFRI, leading to NF-kappaB nuclear translocation and transcription of E-selectin and IL-8, which <clueType>results</clueType> <linkTheme>in</linkTheme> EC activation.</clue>
+</event>
+<event id="E57">
+<type class="Positive_regulation"/>
+<theme idref="E59"/>
+<cause idref="E51"/>
+<clue>CONCLUSIONS: Human NK cell membrane-bound LT signals across species via TNFRI, leading to NF-kappaB nuclear translocation and transcription of E-selectin and IL-8, which <clueType>results</clueType> <linkTheme>in</linkTheme> EC activation.</clue>
+</event>
+<event id="E58">
+<type class="Positive_regulation"/>
+<theme idref="E59"/>
+<cause idref="E52"/>
+<clue>CONCLUSIONS: Human NK cell membrane-bound LT signals across species via TNFRI, leading to NF-kappaB nuclear translocation and transcription of E-selectin and IL-8, which <clueType>results</clueType> <linkTheme>in</linkTheme> EC activation.</clue>
+</event>
+<event id="E59">
+<type class="Physiological_process"/>
+<theme idref="T68"/>
+<clue>CONCLUSIONS: Human NK cell membrane-bound LT signals across species via TNFRI, leading to NF-kappaB nuclear translocation and transcription of E-selectin and IL-8, which results in EC <clueType>activation</clueType>.</clue>
+</event>
+<sentence id="S15">The discrepancy in the degree of inhibition by <term id="T69" lex="membrane_extract" sem="Cell_component">membrane extracts</term> and <term id="T70" lex="NK_cell" sem="Cell_natural">NK cells</term> with <term id="T71" lex="mutant_TNFRI" sem="Protein_molecule">mutant TNFRI</term> suggests that additional pathways are utilized by <term id="T72" lex="NK_cell" sem="Cell_natural">NK cells</term> to activate <term id="T73" lex="EC" sem="Cell_natural">EC</term>.</sentence>
+<event KT="Other" id="E61">
+<type class="Negative_regulation"/>
+<theme idref="E47"/>
+<cause idref="T71"/>
+<clue>The discrepancy in the degree of <clueType>inhibition</clueType> <linkTheme>by</linkTheme> <corefTheme>membrane extracts</corefTheme> and NK cells <linkCause>with</linkCause> mutant TNFRI suggests that additional pathways are utilized by NK cells to activate EC.</clue>
+<comment>CAUTION, theme from the context</comment></event>
+<event KT="Other" id="E62">
+<type class="Negative_regulation"/>
+<theme idref="E48"/>
+<cause idref="T71"/>
+<clue>The discrepancy in the degree of <clueType>inhibition</clueType> <linkTheme>by</linkTheme> membrane extracts and <corefTheme>NK cells</corefTheme> <linkCause>with</linkCause> mutant TNFRI suggests that additional pathways are utilized by NK cells to activate EC.</clue>
+<comment>CAUTION, theme from the context</comment></event>
+<event CL="L2" KT="Analysis" id="E63" uncertainty="probable">
+<type class="Physiological_process"/>
+<theme idref="T73"/>
+<cause idref="T72"/>
+<clue>The discrepancy in the degree of inhibition by membrane extracts and NK cells with mutant TNFRI <clueKT><clueCL>suggests</clueCL></clueKT> that additional pathways are utilized <linkCause>by</linkCause> NK cells to <clueType>activate</clueType> EC.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,307 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7759956" created="16/06/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7759956</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="GM-CSF" sem="Protein_molecule">GM-CSF</term> and <term id="T2" lex="IL-2" sem="Protein_molecule">IL-2</term> share common <term id="T3" lex="control_mechanism" sem="Other">control mechanisms</term> in response to <term id="T4" lex="costimulatory_signal" sem="Other">costimulatory signals</term> in <term id="T5" lex="T_cell" sem="Cell_natural">T cells</term>.</sentence>
+<event id="E1">
+<type class="Regulation"/>
+<theme idref="T1"/>
+<cause idref="T4"/>
+<clue>GM-CSF and IL-2 share common control mechanisms <clueType>in response to</clueType> costimulatory signals <clueLoc>in T cells.</clueLoc></clue>
+</event>
+<event id="E2">
+<type class="Regulation"/>
+<theme idref="T2"/>
+<cause idref="T4"/>
+<clue>GM-CSF and IL-2 share common control mechanisms <clueType>in response to</clueType> costimulatory signals <clueLoc>in T cells.</clueLoc></clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="A5" sem="Peptide">Antigen</term> complexed with <cons id="C2" lex="(OR major_histocompatibility_complex_class_I_molecule major_histocompatibility_complex_II_molecule)" sem="(OR Protein_molecule Protein_molecule)"><frag id="F4">major histocompatibility complex class</frag> <frag id="F5">I</frag> or <frag id="F6">II</frag> <frag id="F7">molecules</frag></cons> on the surface of <term id="T7" lex="antigen_presenting_cell" sem="Cell_natural">antigen presenting cells</term> interacts with the <term id="T8" lex="T_cell_receptor" sem="Protein_family_or_group">T cell receptor</term> (<term id="T9" lex="TCR" sem="Protein_family_or_group">TCR</term>) on the surface of <term id="T10" lex="T_cell" sem="Cell_natural">T cells</term> and initiates an <term id="A6" sem="Other">activation cascade</term>.</sentence>
+<event KT="Other" id="E3">
+<type class="Binding"/>
+<theme idref="A5"/>
+<theme idref="F4" idref1="F5" idref2="F7"/>
+<clue>Antigen <clueType>complexed</clueType> <linkTheme>with</linkTheme> major histocompatibility complex class I or II molecules <clueLoc>on the surface of antigen presenting cells</clueLoc> interacts with the T cell receptor (TCR) on the surface of T cells and initiates an activation cascade.</clue>
+<comment>NER T6 DEL</comment></event>
+<event KT="Other" id="E4">
+<type class="Binding"/>
+<theme idref="A5"/>
+<theme idref="F4" idref1="F6" idref2="F7"/>
+<clue>Antigen <clueType>complexed</clueType> <linkTheme>with</linkTheme> major histocompatibility complex class I or II molecules <clueLoc>on the surface of antigen presenting cells</clueLoc> interacts with the T cell receptor (TCR) on the surface of T cells and initiates an activation cascade.</clue>
+</event>
+<event KT="Fact" id="E5">
+<type class="Binding"/>
+<theme idref="A5"/>
+<theme idref="T9"/>
+<clue>Antigen complexed with major histocompatibility complex class I or II molecules on the surface of antigen presenting cells <clueType>interacts</clueType> <linkTheme>with</linkTheme> the T cell receptor (TCR) on the surface of T cells and initiates an activation cascade.</clue>
+</event>
+<event KT="Fact" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="A6"/>
+<cause idref="E5"/>
+<clue>Antigen complexed with major histocompatibility complex class I or II molecules on the surface of antigen presenting cells interacts with the T cell receptor (TCR) on the surface of T cells and <clueType>initiates</clueType> an activation cascade.</clue>
+</event>
+<sentence id="S3">So called <term id="T11" lex="costimulatory_signal" sem="Other">costimulatory signals</term>, mediated by other <term id="A8" sem="Other">cell surface interactions</term> or <term id="T12" lex="soluble_cytokine" sem="Protein_family_or_group">soluble cytokines</term> produced by <term id="T13" lex="antigen_presenting_cell" sem="Cell_natural">antigen presenting cells</term>, are also required for complete <term id="T14" lex="T_cell_activation" sem="Other"><term id="A7" sem="Cell_natural">T cell</term> activation</term>.</sentence>
+<event KT="Other" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="T11"/>
+<cause idref="A8"/>
+<clue>So called costimulatory signals, <clueType>mediated</clueType> <linkCause>by</linkCause> other cell surface interactions or soluble cytokines produced by antigen presenting cells, are also required for complete T cell activation.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="T11"/>
+<cause idref="T12" idref1="F1"/>
+<clue>So called costimulatory signals, <clueType>mediated</clueType> <linkCause>by</linkCause> other cell surface interactions or soluble cytokines produced by antigen presenting cells, are also required for complete T cell activation.</clue>
+</event>
+<event KT="Other" Manner="High" id="E11">
+<type class="Physiological_process"/>
+<theme idref="A7"/>
+<clue>So called costimulatory signals, mediated by other cell surface interactions or soluble cytokines produced by antigen presenting cells, are also required for <clueManner>complete</clueManner> T cell <clueType>activation</clueType>.</clue>
+</event>
+<event KT="Fact" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<cause idref="E9"/>
+<clue>So called costimulatory signals, mediated by other cell surface interactions or soluble cytokines produced by antigen presenting cells, are also <clueType>required</clueType> <linkTheme>for</linkTheme> complete T cell activation.</clue>
+</event>
+<event KT="Fact" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<cause idref="E10"/>
+<clue>So called costimulatory signals, mediated by other cell surface interactions or soluble cytokines produced by antigen presenting cells, are also <clueType>required</clueType> <linkTheme>for</linkTheme> complete T cell activation.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Gene_expression"/>
+<theme idref="T12"/>
+<clue>So called costimulatory signals, mediated by other cell surface interactions or soluble cytokines <clueType>produced</clueType> <clueLoc>by antigen presenting cells</clueLoc>, are also required for complete T cell activation.</clue>
+</event>
+<sentence id="S4">High levels of <term id="T15" lex="cytokine_gene_expression" sem="Other"><term id="T16" lex="cytokine" sem="Protein_family_or_group">cytokine</term> gene expression</term> in <term id="T17" lex="T_cell" sem="Cell_natural">T cells</term> also required both <cons id="C1" lex="(AND TCR_signal costimulatory_signal)" sem="(AND Other Other)"><frag id="F1"><term id="T18" lex="TCR" sem="Protein_family_or_group">TCR</term></frag> and <frag id="F2">costimulatory</frag> <frag id="F3">signals</frag></cons>.</sentence>
+<event KT="Other" Manner="High" id="E15">
+<type class="Gene_expression"/>
+<theme idref="T16"/>
+<clue><clueManner>High levels</clueManner> of cytokine gene <clueType>expression</clueType> <clueLoc>in T cells</clueLoc> also required both TCR and costimulatory signals.</clue>
+</event>
+<event KT="Fact" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="T18" idref1="F3"/>
+<clue>High levels of cytokine gene expression in T cells also <clueType>required</clueType> both TCR and costimulatory signals.</clue>
+</event>
+<event KT="Fact" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="F2" idref1="F3"/>
+<clue>High levels of cytokine gene expression in T cells also <clueType>required</clueType> both TCR and costimulatory signals.</clue>
+</event>
+<sentence id="S5">The <term id="T20" lex="granulocyte-macrophage_colony-stimulating_factor" sem="Protein_molecule">granulocyte-macrophage colony-stimulating factor</term> requires <term id="A11" sem="DNA_domain_or_region">sequences in the <term id="T21" lex="promoter" sem="DNA_domain_or_region">promoter</term></term> as well as a powerful <term id="A12" sem="DNA_domain_or_region"><term id="T22" lex="enhancer" sem="DNA_domain_or_region">enhancer</term> located 3kb upstream</term> to respond to <term id="T23" lex="TCR-like_signal" sem="Other"><term id="T24" lex="TCR" sem="Protein_family_or_group">TCR</term>-like signals</term>.</sentence>
+<event KT="Other" id="E18">
+<type class="Regulation"/>
+<theme idref="T20"/>
+<cause idref="T23"/>
+<clue>The granulocyte-macrophage colony-stimulating factor requires sequences in the promoter as well as a powerful enhancer located 3kb upstream to <clueType>respond</clueType> <linkCause>to</linkCause> TCR-like signals.</clue>
+</event>
+<event KT="Fact" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="A11"/>
+<clue>The granulocyte-macrophage colony-stimulating factor <clueType>requires</clueType> sequences in the promoter as well as a powerful enhancer located 3kb upstream to respond to TCR-like signals.</clue>
+<comment>TPS A11</comment></event>
+<event KT="Fact" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="A12"/>
+<clue>The granulocyte-macrophage colony-stimulating factor <clueType>requires</clueType> sequences in the promoter as well as a powerful enhancer located 3kb upstream to respond to TCR-like signals.</clue>
+<comment>TPS A12</comment></event>
+<sentence id="S6">These <term id="T25" lex="promoter_and_enhancer_region" sem="DNA_domain_or_region">promoter and enhancer regions</term> are mainly activated by the <term id="T26" lex="transcription_factor_nuclear_factor_of_activated_T_cells" sem="Protein_family_or_group"><term id="T27" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> <term id="T28" lex="nuclear_factor" sem="Protein_family_or_group">nuclear factor</term> of activated <term id="T29" lex="T_cell" sem="Cell_natural">T cells</term></term> (<term id="T30" lex="NFAT" sem="Protein_family_or_group">NFAT</term>).</sentence>
+<event KT="Fact" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="A11"/>
+<cause idref="T30"/>
+<clue><corefTheme>These promoter and enhancer regions</corefTheme> are mainly <clueType>activated</clueType> <linkCause>by</linkCause> the transcription factor nuclear factor of activated T cells (NFAT).</clue>
+</event>
+<event KT="Fact" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="A12"/>
+<cause idref="T30"/>
+<clue><corefTheme>These promoter and enhancer regions</corefTheme> are mainly <clueType>activated</clueType> <linkCause>by</linkCause> the transcription factor nuclear factor of activated T cells (NFAT).</clue>
+</event>
+<sentence id="S7">The activation of <term id="T31" lex="NFAT" sem="Protein_family_or_group">NFAT</term> by <term id="A13" sem="Other"><term id="T32" lex="TCR" sem="Protein_family_or_group">TCR</term> signals</term> has been well described for interleukin-2 (<term id="T34" lex="IL-2" sem="DNA_domain_or_region">IL-2</term>) and <term id="A14" sem="DNA_domain_or_region">IL-4</term> gene transcription in <term id="T35" lex="T_cell" sem="Cell_natural">T cells</term>.</sentence>
+<event KT="Other" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="T31"/>
+<cause idref="A13"/>
+<clue>The <clueType>activation</clueType> <linkTheme>of</linkTheme> NFAT <linkCause>by</linkCause> TCR signals has been well described for interleukin-2 (IL-2) and IL-4 gene transcription in T cells.</clue>
+</event>
+<event KT="Other" id="E24">
+<type class="Transcription"/>
+<theme idref="A14"/>
+<clue>The activation of NFAT by TCR signals has been well described for interleukin-2 (IL-2) and IL-4 gene <clueType>transcription</clueType> <clueLoc>in T cells</clueLoc>.</clue>
+<comment>NER T33 DEL</comment></event>
+<event KT="Other" id="E25">
+<type class="Transcription"/>
+<theme idref="T34"/>
+<clue>The activation of NFAT by TCR signals has been well described for interleukin-2 (IL-2) and IL-4 gene <clueType>transcription</clueType> <clueLoc>in T cells</clueLoc>.</clue>
+<comment>NER T34 MOD</comment></event>
+<event KT="Analysis" Source="Other" id="E26">
+<type class="Correlation"/>
+<theme idref="E23"/>
+<theme idref="E24"/>
+<clue>The activation of NFAT by TCR signals <clueSource>has been</clueSource> well <clueType><clueKT>described</clueKT></clueType> <linkTheme>for</linkTheme> interleukin-2 (IL-2) and IL-4 gene transcription in T cells.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E27">
+<type class="Correlation"/>
+<theme idref="E23"/>
+<theme idref="E25"/>
+<clue>The activation of NFAT by TCR signals <clueSource>has been</clueSource> well <clueType><clueKT>described</clueKT></clueType> <linkTheme>for</linkTheme> interleukin-2 (IL-2) and IL-4 gene transcription in T cells.</clue>
+</event>
+<sentence id="S8">Costimulatory signals, such as activation of the <term id="T36" lex="CD28_cell_surface_molecule" sem="Protein_molecule">CD28 cell surface molecule</term> on <term id="T37" lex="T_cell" sem="Cell_natural">T cells</term>, lead to activation through a distinct region of the <term id="T38" lex="granulocyte-macrophage_colony-stimulating_factor_(GM-CSF)_promoter" sem="DNA_domain_or_region"><term id="T39" lex="granulocyte-macrophage_colony-stimulating_factor" sem="Protein_molecule">granulocyte-macrophage colony-stimulating factor</term> (<term id="T40" lex="GM-CSF" sem="Protein_molecule">GM-CSF</term>) promoter</term>.</sentence>
+<event KT="Other" id="E28">
+<type class="Positive_regulation"/>
+<theme idref="T36"/>
+<clue>Costimulatory signals, such as <clueType>activation</clueType> <linkTheme>of</linkTheme> the CD28 cell surface molecule <clueLoc>on T cells</clueLoc>, lead to activation through a distinct region of the granulocyte-macrophage colony-stimulating factor (GM-CSF) promoter.</clue>
+</event>
+<event KT="Fact" id="E29">
+<type class="Positive_regulation"/>
+<theme idref="T38"/>
+<cause idref="E28"/>
+<clue><corefCause>Costimulatory signals</corefCause>, such as activation of the CD28 cell surface molecule on T cells, lead to <clueType>activation</clueType> <linkCause>through</linkCause> a distinct region of the granulocyte-macrophage colony-stimulating factor (GM-CSF) promoter.</clue>
+</event>
+<sentence id="S9">This region is termed the <term id="T41" lex="CK-1" sem="DNA_domain_or_region">CK-1</term> or <term id="T42" lex="CD28RE" sem="DNA_domain_or_region">CD28RE</term> and appears to bind <term id="A16" sem="Protein_family_or_group">specific members of the <term id="T43" lex="NF-kappa_B_family" sem="Protein_family_or_group"><term id="T44" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> family</term></term> of <term id="T45" lex="transcription_factors" sem="Protein_family_or_group">transcription factors</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E31" uncertainty="probable">
+<type class="Binding"/>
+<theme idref="A16"/>
+<theme idref="T41"/>
+<clue>This region is termed the CK-1 or CD28RE and <clueKT><clueCL>appears</clueCL></clueKT> to <clueType>bind</clueType> specific members of the NF-kappa B family of transcription factors.</clue>
+<comment>TPS: A16</comment></event>
+<sentence id="S10"><term id="T46" lex="human_T_leukemia_virus_type_1" sem="Virus">Human T leukemia virus type 1</term> (<term id="T47" lex="HTLV-1" sem="Virus">HTLV-1</term>) infects <term id="T48" lex="T_cell" sem="Cell_natural">T cells</term> and can lead to increase <term id="T49" lex="GM-CSF_expression" sem="Other"><term id="T50" lex="GM-CSF" sem="Protein_molecule">GM-CSF</term> expression</term>.</sentence>
+<event KT="Fact" id="E32">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T47"/>
+<theme idref="T48"/>
+<clue>Human T leukemia virus type 1 (HTLV-1) <clueType>infects</clueType> T cells and can lead to increase GM-CSF expression.</clue>
+</event>
+<event KT="Other" id="E33">
+<type class="Gene_expression"/>
+<theme idref="T50"/>
+<clue>Human T leukemia virus type 1 (HTLV-1) infects T cells and can lead to increase GM-CSF <clueType>expression</clueType>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E34">
+<type class="Positive_regulation"/>
+<theme idref="E33"/>
+<cause idref="E32"/>
+<clue>Human T leukemia virus type 1 (HTLV-1) infects T cells and <clueKT><clueCL>can</clueCL></clueKT> lead to <clueType>increase</clueType> GM-CSF expression.</clue>
+</event>
+<sentence id="S11">We have found that the <term id="T51" lex="HTLV-1_transactivator_protein" sem="Protein_family_or_group"><term id="T52" lex="HTLV-1" sem="Virus">HTLV-1</term> transactivator protein</term>, <term id="T53" lex="tax" sem="Protein_molecule">tax</term>, acts as a costimulatory signal for <term id="A17" sem="DNA_domain_or_region">GM-CSF</term> and <term id="A18" sem="DNA_domain_or_region">IL-2</term> gene transcription, in that it can cooperate with <term id="A19" sem="Other"><term id="T55" lex="TCR" sem="Protein_family_or_group">TCR</term> signals</term> to mediate high level <term id="T56" lex="gene_expression" sem="Other">gene expression</term>.</sentence>
+<event id="E35">
+<type class="Transcription"/>
+<theme idref="A17"/>
+<clue>We have found that the HTLV-1 transactivator protein, tax, acts as a costimulatory signal for GM-CSF and IL-2 gene <clueType>transcription</clueType>, in that it can cooperate with TCR signals to mediate high level gene expression.</clue>
+<comment>NER T54 DEL</comment></event>
+<event id="E36">
+<type class="Transcription"/>
+<theme idref="A18"/>
+<clue>We have found that the HTLV-1 transactivator protein, tax, acts as a costimulatory signal for GM-CSF and IL-2 gene <clueType>transcription</clueType>, in that it can cooperate with TCR signals to mediate high level gene expression.</clue>
+</event>
+<event id="E37">
+<type class="Positive_regulation"/>
+<theme idref="E35"/>
+<cause idref="T53"/>
+<clue>We have <clueKT>found</clueKT> that the HTLV-1 transactivator protein, tax, <clueType>acts as a costimulatory signal</clueType> <linkTheme>for</linkTheme> GM-CSF and IL-2 gene transcription, in that it can cooperate with TCR signals to mediate high level gene expression.</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation"/>
+<theme idref="E36"/>
+<cause idref="T53"/>
+<clue>We have <clueKT>found</clueKT> that the HTLV-1 transactivator protein, tax, <clueType>acts as a costimulatory signal</clueType> <linkTheme>for</linkTheme> GM-CSF and IL-2 gene transcription, in that it can cooperate with TCR signals to mediate high level gene expression.</clue>
+</event>
+<event KT="Other" id="E39">
+<type class="Positive_regulation"/>
+<theme idref="T56"/>
+<cause idref="T53"/>
+<cause idref="A19"/>
+<clue>We have found that the HTLV-1 transactivator protein, tax, acts as a costimulatory signal for GM-CSF and IL-2 gene transcription, in that <corefCause>it</corefCause> can <linkCause>cooperate with</linkCause> TCR signals to <clueType>mediate</clueType> high level gene expression.</clue>
+</event>
+<sentence id="S12"><term id="A20" sem="Protein_molecule">Tax</term> activates the <term id="T57" lex="GM-CSF_promoter" sem="DNA_domain_or_region"><term id="T58" lex="GM-CSF" sem="Protein_molecule">GM-CSF</term> promoter</term> through the <term id="T59" lex="CK-1" sem="DNA_domain_or_region">CK-1</term><term id="T60" lex="CD28RE" sem="DNA_domain_or_region">/CD28RE</term> region and also activates <term id="T61" lex="nuclear_factor-kappa_B_binding" sem="Other"><term id="T62" lex="nuclear_factor-kappa_B" sem="Protein_molecule">nuclear factor-kappa B</term> binding</term> to this region.</sentence>
+<event id="E40">
+<type class="Positive_regulation"/>
+<theme idref="T57"/>
+<cause idref="A20"/>
+<clue>Tax <clueType>activates</clueType> the GM-CSF promoter through the CK-1/CD28RE region and also activates nuclear factor-kappa B binding to this region.</clue>
+</event>
+<event id="E41">
+<type class="Correlation"/>
+<theme idref="E40"/>
+<theme idref="T59"/>
+<clue>Tax activates the GM-CSF promoter <clueType>through</clueType> the CK-1/CD28RE region and also activates nuclear factor-kappa B binding to this region.</clue>
+</event>
+<event id="E42">
+<type class="Binding"/>
+<theme idref="T62"/>
+<theme idref="T59"/>
+<clue>Tax activates the GM-CSF promoter through the CK-1/CD28RE region and also activates nuclear factor-kappa B <clueType>binding</clueType> <linkTheme>to</linkTheme> <corefTheme idref1="T59">this region</corefTheme>.</clue>
+</event>
+<event id="E43">
+<type class="Positive_regulation"/>
+<theme idref="E42"/>
+<cause idref="A20"/>
+<clue>Tax activates the GM-CSF promoter through the CK-1/CD28RE region and also <clueType>activates</clueType> nuclear factor-kappa B binding to this region.</clue>
+</event>
+<sentence id="S13">However, other <term id="T63" lex="transcription_factors" sem="Protein_family_or_group">transcription factors</term> or <term id="A23" sem="Protein_family_or_group">coactivators of <term id="T64" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term></term> are required for <term id="T65" lex="tax_activation" sem="Other"><term id="T66" lex="tax" sem="Protein_molecule">tax</term> activation</term> but these remain to be identified.</sentence>
+<event KT="Other" id="E44">
+<type class="Positive_regulation"/>
+<cause idref="T65"/>
+<clue>However, other transcription factors or coactivators of NF-kappa B are required for tax <clueType>activation</clueType> but these remain to be identified.</clue>
+</event>
+<event id="E45">
+<type class="Positive_regulation"/>
+<theme idref="E44"/>
+<cause idref="T63"/>
+<clue>However, other transcription factors or coactivators of NF-kappa B are <clueType>required</clueType> <linkTheme>for</linkTheme> tax activation but these remain to be identified.</clue>
+</event>
+<event id="E46">
+<type class="Positive_regulation"/>
+<theme idref="E44"/>
+<cause idref="A23"/>
+<clue>However, other transcription factors or coactivators of NF-kappa B are <clueType>required</clueType> <linkTheme>for</linkTheme> tax activation but these remain to be identified.</clue>
+<comment>TPS: A23</comment></event>
+<sentence id="S14">The <term id="T67" lex="CK-1" sem="DNA_domain_or_region">CK-1</term><term id="T68" lex="CD28RE" sem="DNA_domain_or_region">/CD28RE</term> of <term id="T69" lex="GM-CSF" sem="Protein_molecule">GM-CSF</term> shows a high degree of similarity to the <term id="T70" lex="IL-2" sem="Protein_molecule">IL-2</term> <term id="T71" lex="CD28RE" sem="DNA_domain_or_region">CD28RE</term> and the <term id="T72" lex="IL-3_gene" sem="DNA_domain_or_region">IL-3 gene</term> also contains a related region.</sentence>
+<sentence id="S15">This observation, together with the fact that both <term id="T73" lex="GM-CSF" sem="Protein_molecule">GM-CSF</term> and <term id="T74" lex="IL-2" sem="Protein_molecule">IL-2</term> respond to <term id="A24" sem="Other"><term id="T75" lex="TCR" sem="Protein_family_or_group">TCR</term> signals</term> via <term id="T76" lex="NFAT" sem="Protein_family_or_group">NFAT</term>, implies a high degree of conservation in the regulation of <term id="T77" lex="cytokine_gene_expression" sem="Other"><term id="T78" lex="cytokine" sem="Protein_family_or_group">cytokine</term> gene expression</term> in <term id="T79" lex="T_cell" sem="Cell_natural">T cells</term>.</sentence>
+<event id="E47">
+<type class="Regulation"/>
+<theme idref="T73"/>
+<cause idref="A24"/>
+<clue>This observation, together with the fact that both GM-CSF and IL-2 <clueType>respond</clueType> <linkCause>to</linkCause> TCR signals via NFAT, implies a high degree of conservation in the regulation of cytokine gene expression in T cells.</clue>
+</event>
+<event id="E48">
+<type class="Regulation"/>
+<theme idref="T74"/>
+<cause idref="A24"/>
+<clue>This observation, together with the fact that both GM-CSF and IL-2 <clueType>respond</clueType> <linkCause>to</linkCause> TCR signals via NFAT, implies a high degree of conservation in the regulation of cytokine gene expression in T cells.</clue>
+</event>
+<event id="E49">
+<type class="Correlation"/>
+<theme idref="E47"/>
+<theme idref="T76"/>
+<clue>This observation, together with the fact that both GM-CSF and IL-2 respond to TCR signals <clueType>via</clueType> NFAT, implies a high degree of conservation in the regulation of cytokine gene expression in T cells.</clue>
+</event>
+<event id="E50">
+<type class="Correlation"/>
+<theme idref="E48"/>
+<theme idref="T76"/>
+<clue>This observation, together with the fact that both GM-CSF and IL-2 respond to TCR signals <clueType>via</clueType> NFAT, implies a high degree of conservation in the regulation of cytokine gene expression in T cells.</clue>
+</event>
+<event KT="Other" id="E51">
+<type class="Gene_expression"/>
+<theme idref="T78"/>
+<clue>This observation, together with the fact that both GM-CSF and IL-2 respond to TCR signals via NFAT, implies a high degree of conservation in the regulation of cytokine gene <clueType>expression</clueType> <clueLoc>in T cells</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E52">
+<type class="Regulation"/>
+<theme idref="E51"/>
+<clue>This observation, together with the fact that both GM-CSF and IL-2 respond to TCR signals via NFAT, implies a high degree of conservation in the <clueType>regulation</clueType> <linkTheme>of</linkTheme> cytokine gene expression in T cells.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

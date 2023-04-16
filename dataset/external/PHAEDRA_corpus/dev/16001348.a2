@@ -1,0 +1,11 @@
+T20	Adverse_effect 23 33	associated
+T23	Adverse_effect 89 98	developed
+T24	Potential_therapeutic_effect 229 240	monotherapy
+T25	Potential_therapeutic_effect 173 180	therapy
+T26	Adverse_effect 1025 1036	development
+R5	Subject_Disorder Arg1:T27 Arg2:T19
+E1	Adverse_effect:T20 has_agent:T1 affects:T2
+E2	Adverse_effect:T23 has_subject:T21 affects:T3 has_agent:T5 has_agent:T4
+E3	Potential_therapeutic_effect:T24 affects:T6 has_agent:T5
+E4	Potential_therapeutic_effect:T25 has_agent:T4 affects:T22
+E5	Adverse_effect:T26 affects:T18 has_agent:T17 has_subject:T27

@@ -1,0 +1,21 @@
+T16	Adverse_effect 37 47	associated
+T17	Adverse_effect 177 189	complication
+T18	Adverse_effect 217 228	association
+T20	Adverse_effect 368 377	worsening
+T22	Adverse_effect 729 741	administered
+T3	Potential_therapeutic_effect 429 436	therapy
+T27	Potential_therapeutic_effect 513 517	used
+R4	Subject_Disorder Arg1:T19 Arg2:T8
+R5	Coreference Arg1:T26 Arg2:T11
+R6	Coreference Arg1:T26 Arg2:T12
+E5	Combination:T21 has_participant:T13 has_participant:T14
+E1	Adverse_effect:T16 has_agent:T15 affects:T1
+E2	Adverse_effect:T17 has_agent:T6 affects:T4
+E3	Adverse_effect:T18 has_agent:T7 has_cue:T2
+E4	Adverse_effect:T20 affects:T9 has_agent:T12 has_subject:T19
+E6	Adverse_effect:T22 has_subject:T23 has_agent:E5 has_cue:T24
+E7	Potential_therapeutic_effect:T3 affects:T8 has_subject:T19 has_agent:T11
+E8	Potential_therapeutic_effect:T27 has_agent:T26 has_subject:T25
+E9	Potential_therapeutic_effect:T3 has_subject:T19 has_agent:T12
+A1	Speculated E6
+A2	Manner E3 Low

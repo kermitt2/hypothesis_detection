@@ -1,0 +1,9 @@
+T13	Adverse_effect 36 42	due to
+T14	Potential_therapeutic_effect 110 117	treated
+T15	Potential_therapeutic_effect 544 552	received
+T16	Adverse_effect 183 192	developed
+R1	Subject_Disorder Arg1:T10 Arg2:T3
+E1	Adverse_effect:T13 has_agent:T2 affects:T1
+E2	Potential_therapeutic_effect:T14 has_agent:T4 affects:T3 affects:T5
+E5	Potential_therapeutic_effect:T15 has_agent:T9 affects:T8
+E3	Adverse_effect:T16 has_agent:T4 affects:T12 affects:T6 has_subject:T10

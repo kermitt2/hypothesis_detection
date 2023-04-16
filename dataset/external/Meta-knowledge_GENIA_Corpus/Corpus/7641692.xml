@@ -1,0 +1,167 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7641692" created="07/06/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7641692</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="IL-2_gene_expression" sem="Other"><term id="T2" lex="IL-2_gene" sem="DNA_domain_or_region">IL-2 gene</term> expression</term> and <term id="T3" lex="NF-kappa_B_activation" sem="Other"><term id="T4" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> activation</term> through <term id="T5" lex="CD28" sem="Protein_molecule">CD28</term> requires <term id="A1" sem="Inorganic_compound">reactive oxygen</term> production by <term id="T6" lex="5-lipoxygenase" sem="Protein_molecule">5-lipoxygenase</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression"/>
+<theme idref="T2"/>
+<clue>IL-2 gene <clueType>expression</clueType> and NF-kappa B activation through CD28 requires reactive oxygen production by 5-lipoxygenase.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="T4"/>
+<cause idref="T5"/>
+<clue>IL-2 gene expression and NF-kappa B <clueType>activation</clueType> <linkCause>through</linkCause> CD28 requires reactive oxygen production by 5-lipoxygenase.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T5"/>
+<clue>IL-2 gene expression and NF-kappa B <clueType>activation</clueType> <linkCause>through</linkCause> CD28 requires reactive oxygen production by 5-lipoxygenase.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation"/>
+<theme idref="A1"/>
+<cause idref="T6"/>
+<clue>IL-2 gene expression and NF-kappa B activation through CD28 requires reactive oxygen <clueType>production</clueType> <linkCause>by</linkCause> 5-lipoxygenase.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="E4"/>
+<clue>IL-2 gene expression and NF-kappa B activation through CD28 <clueType>requires</clueType> reactive oxygen production by 5-lipoxygenase.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="E4"/>
+<clue>IL-2 gene expression and NF-kappa B activation through CD28 <clueType>requires</clueType> reactive oxygen production by 5-lipoxygenase.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Activation of the <term id="T7" lex="CD28_surface_receptor" sem="Protein_family_or_group"><term id="T8" lex="CD28" sem="Protein_molecule">CD28</term> surface receptor</term> provides a major <term id="A3" sem="Other">costimulatory signal</term> for <term id="T9" lex="T_cell_activation" sem="Other"><term id="A2" sem="Cell_natural">T cell</term> activation</term> resulting in enhanced production of <term id="T10" lex="interleukin-2" sem="Protein_molecule">interleukin-2</term> (<term id="T11" lex="IL-2" sem="Protein_molecule">IL-2</term>) and <term id="T12" lex="cell_proliferation" sem="Other">cell proliferation</term>.</sentence>
+<event KT="Other" id="E8">
+<type class="Physiological_process"/>
+<theme idref="A2"/>
+<clue>Activation of the CD28 surface receptor provides a major costimulatory signal for T cell <clueType>activation</clueType> resulting in enhanced production of interleukin-2 (IL-2) and cell proliferation.</clue>
+</event>
+<event KT="Other" id="E120">
+<type class="Cell_communication"/>
+<theme idref="T7"/>
+<clue>Activation of the CD28 surface receptor provides a major <clueType>costimulatory signal</clueType> for T cell activation resulting in enhanced production of interleukin-2 (IL-2) and cell proliferation.</clue>
+</event>
+<event KT="Other" id="E121">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="E120"/>
+<clue>Activation of the CD28 surface receptor provides a major <clueType>costimulatory signal</clueType> <linkTheme>for</linkTheme> T cell activation resulting in enhanced production of interleukin-2 (IL-2) and cell proliferation.</clue>
+</event>
+<event KT="Other" id="E122">
+<type class="Positive_regulation"/>
+<theme idref="E121"/>
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> the CD28 surface receptor provides a major costimulatory signal for T cell activation resulting in enhanced production of interleukin-2 (IL-2) and cell proliferation.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Gene_expression"/>
+<theme idref="T11"/>
+<clue>Activation of the CD28 surface receptor provides a major costimulatory signal for T cell activation resulting in enhanced <clueType>production</clueType> <linkTheme>of</linkTheme> interleukin-2 (IL-2) and cell proliferation.</clue>
+</event>
+<event KT="Fact" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="E122"/>
+<clue>Activation of the CD28 surface receptor provides a major costimulatory signal for T cell activation resulting in <clueType>enhanced</clueType> production of interleukin-2 (IL-2) and cell proliferation.</clue>
+</event>
+<event KT="Fact" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="T12"/>
+<cause idref="E122"/>
+<clue>Activation of the CD28 surface receptor provides a major costimulatory signal for T cell activation resulting in <clueType>enhanced</clueType> production of interleukin-2 (IL-2) and cell proliferation.</clue>
+</event>
+<sentence id="S3">In <term id="T13" lex="primary_T_lymphocyte" sem="Cell_natural">primary T lymphocytes</term> we show that <term id="T14" lex="CD28" sem="Protein_molecule">CD28</term> ligation leads to the rapid intracellular formation of <term id="T15" lex="reactive_oxygen_intermediate" sem="Inorganic_compound">reactive oxygen intermediates</term> (<term id="T16" lex="ROI" sem="Inorganic_compound">ROIs</term>) which are required for <term id="T17" lex="CD28-mediated_activation" sem="Other"><term id="T18" lex="CD28" sem="Protein_molecule">CD28</term>-mediated activation</term> of the <term id="A24" sem="Protein_complex"><term id="T19" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>/<term id="T20" lex="CD28-responsive_complex" sem="Protein_complex"><term id="T21" lex="CD28" sem="Protein_molecule">CD28</term>-responsive complex</term></term> and <term id="T22" lex="IL-2_expression" sem="Other"><term id="T23" lex="IL-2" sem="Protein_molecule">IL-2</term> expression</term>.</sentence>
+<event KT="Other" id="E13">
+<type class="Cell_adhesion"/>
+<theme idref="T13"/>
+<theme idref="T14"/>
+<clue>In primary T lymphocytes we show that CD28 <clueType>ligation</clueType> leads to the rapid intracellular formation of reactive oxygen intermediates (ROIs) which are required for CD28-mediated activation of the NF-kappa B/CD28-responsive complex and IL-2 expression.</clue>
+</event>
+<event KT="Other" Manner="High" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="T16"/>
+<cause idref="E13"/>
+<clue>In primary T lymphocytes we show that CD28 ligation leads to the <clueManner>rapid</clueManner> intracellular <clueType>formation</clueType> <linkTheme>of</linkTheme> reactive oxygen intermediates (ROIs) which are required for CD28-mediated activation of the NF-kappa B/CD28-responsive complex and IL-2 expression.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="A24"/>
+<cause idref="T18"/>
+<clue>In primary T lymphocytes we show that CD28 ligation leads to the rapid intracellular formation of reactive oxygen intermediates (ROIs) which are required for CD28-<linkCause>mediated</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> the NF-kappa B/CD28-responsive complex and IL-2 expression.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Gene_expression"/>
+<theme idref="T23"/>
+<clue>In primary T lymphocytes we show that CD28 ligation leads to the rapid intracellular formation of reactive oxygen intermediates (ROIs) which are required for CD28-mediated activation of the NF-kappa B/CD28-responsive complex and IL-2 <clueType>expression</clueType>.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="T16"/>
+<clue>In primary T lymphocytes we show that CD28 ligation leads to the rapid intracellular formation of reactive oxygen intermediates (ROIs) which are <clueType>required</clueType> <linkTheme>for</linkTheme> CD28-mediated activation of the NF-kappa B/CD28-responsive complex and IL-2 expression.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<cause idref="T16"/>
+<clue>In primary T lymphocytes we show that CD28 ligation leads to the rapid intracellular formation of reactive oxygen intermediates (ROIs) which are <clueType>required</clueType> <linkTheme>for</linkTheme> CD28-mediated activation of the NF-kappa B/CD28-responsive complex and IL-2 expression.</clue>
+</event>
+<sentence id="S4">Delineation of the <term id="T24" lex="CD28_signaling_cascade" sem="Other"><term id="T25" lex="CD28" sem="Protein_molecule">CD28</term> signaling cascade</term> was found to involve <term id="T26" lex="protein_tyrosine_kinase_activity" sem="Other"><term id="T27" lex="protein_tyrosine_kinase" sem="Protein_family_or_group">protein tyrosine kinase</term> activity</term>, followed by the activation of <term id="T28" lex="phospholipase_A2" sem="Protein_molecule">phospholipase A2</term> and <term id="T29" lex="5-lipoxygenase" sem="Protein_molecule">5-lipoxygenase</term>.</sentence>
+<event id="E20" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="T24"/>
+<theme idref="T26"/>
+<clue>Delineation of the CD28 signaling cascade was <clueKT>found</clueKT> to <clueType>involve</clueType> protein tyrosine kinase activity, followed by the activation of phospholipase A2 and 5-lipoxygenase.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation"/>
+<theme idref="T28"/>
+<clue>Delineation of the CD28 signaling cascade was found to involve protein tyrosine kinase activity, followed by the <clueType>activation</clueType> <linkTheme>of</linkTheme> phospholipase A2 and 5-lipoxygenase.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation"/>
+<theme idref="T29"/>
+<clue>Delineation of the CD28 signaling cascade was found to involve protein tyrosine kinase activity, followed by the <clueType>activation</clueType> <linkTheme>of</linkTheme> phospholipase A2 and 5-lipoxygenase.</clue>
+</event>
+<sentence id="S5">Our data suggest that <term id="T30" lex="lipoxygenase_metabolite" sem="Protein_family_or_group"><term id="T31" lex="lipoxygenase" sem="Protein_molecule">lipoxygenase</term> metabolites</term> activate <term id="T32" lex="ROI_formation" sem="Other"><term id="T33" lex="ROI" sem="Inorganic_compound">ROI</term> formation</term> which then induce <term id="T34" lex="IL-2" sem="Protein_molecule">IL-2</term> expression via <term id="T35" lex="NF-kappa_B_activation" sem="Other"><term id="T36" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> activation</term>.</sentence>
+<event KT="Other" id="E55">
+<type class="Positive_regulation"/>
+<theme idref="T33"/>
+<clue>Our data suggest that lipoxygenase metabolites activate ROI <clueType>formation</clueType> which then induce IL-2 expression via NF-kappa B activation.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E23" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E55"/>
+<cause idref="T30"/>
+<clue>Our data <clueKT><clueCL>suggest</clueCL></clueKT> that lipoxygenase metabolites <clueType>activate</clueType> ROI formation which then induce IL-2 expression via NF-kappa B activation.</clue>
+</event>
+<event KT="Other" id="E24" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T36"/>
+<cause idref="E55"/>
+<clue>Our data suggest that lipoxygenase metabolites activate ROI formation which then induce IL-2 expression via NF-kappa B <clueType>activation</clueType>.</clue>
+</event>
+<event KT="Other" id="E25">
+<type class="Gene_expression"/>
+<theme idref="T34"/>
+<clue>Our data suggest that lipoxygenase metabolites activate ROI formation which then induce IL-2 <clueType>expression</clueType> via NF-kappa B activation.</clue>
+</event>
+<event KT="Other" id="E26" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E25"/>
+<cause idref="E24"/>
+<clue>Our data suggest that lipoxygenase metabolites activate ROI formation which then <clueType>induce</clueType> IL-2 expression <linkCause>via</linkCause> NF-kappa B activation.</clue>
+</event>
+<sentence id="S6">These findings should be useful for <term id="T37" lex="therapeutic_strategies" sem="Other">therapeutic strategies</term> and the development of <term id="T38" lex="immunosuppressants" sem="Other">immunosuppressants</term> targeting the <term id="T39" lex="CD28_costimulatory_pathway" sem="Other"><term id="T40" lex="CD28" sem="Protein_molecule">CD28</term> costimulatory pathway</term>.</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

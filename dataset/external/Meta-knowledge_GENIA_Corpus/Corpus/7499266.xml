@@ -1,0 +1,215 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7499266" created="12/07/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7499266</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Identification of an <term id="T1" lex="I_kappa_B_alpha-associated_protein_kinase" sem="Protein_molecule"><term id="A1" sem="Protein_molecule">I kappa B alpha</term>-associated <term id="A2" sem="Protein_family_or_group">protein kinase</term></term> in a <term id="T2" lex="human_monocytic_cell_line" sem="Cell_cultured">human monocytic cell line</term> and determination of its <term id="T3" lex="phosphorylation_site" sem="Protein_domain_or_region">phosphorylation sites</term> on <term id="T4" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term>.</sentence>
+<event id="E1">
+<type class="Correlation"/>
+<theme idref="A1"/>
+<theme idref="A2"/>
+<clue>Identification of an I kappa B alpha-<clueType>associated</clueType> protein kinase <clueLoc>in a human monocytic cell line</clueLoc> and determination of its phosphorylation sites on I kappa B alpha.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T5" lex="nuclear_factor_kappa_B" sem="Protein_molecule">Nuclear factor kappa B</term> (<term id="T6" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>) is stored in the <term id="T7" lex="cytoplasm" sem="Cell_component">cytoplasm</term> as an inactive form through interaction with <term id="T8" lex="I_kappa_B" sem="Protein_molecule">I kappa B</term>.</sentence>
+<event KT="Other" LT="Propositional" id="E3">
+<type class="Localization"/>
+<theme idref="T6"/>
+<clue>Nuclear factor kappa B (NF-kappa B) is <clueType>stored</clueType> <clueLoc>in the cytoplasm</clueLoc> as an inactive form through interaction with I kappa B.</clue>
+</event>
+<event KT="Fact" LT="Propositional" id="E4">
+<type class="Negative_regulation"/>
+<theme idref="E3"/>
+<cause idref="E5"/>
+<clue>Nuclear factor kappa B (NF-kappa B) is stored in the cytoplasm as an <clueType>inactive form</clueType> <linkCause>through</linkCause> interaction with I kappa B.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Binding"/>
+<theme idref="T6"/>
+<theme idref="T8"/>
+<clue>Nuclear factor kappa B (NF-kappa B) is stored in the cytoplasm as an inactive form through <clueType>interaction</clueType> <linkTheme>with</linkTheme> I kappa B.</clue>
+</event>
+<sentence id="S3">Stimulation of <term id="A4" sem="Cell_natural">cells</term> leads to a <term id="T9" lex="rapid_phosphorylation" sem="Other">rapid phosphorylation</term> of <term id="T10" lex="I_kappa_B_alpha" sem="Protein_molecule"><term id="T11" lex="I_kappa_B" sem="Protein_molecule">I kappa B</term> alpha</term>, which is presumed to be important for the <term id="T12" lex="subsequent_degradation" sem="Other">subsequent degradation</term>.</sentence>
+<event KT="Method" id="E6">
+<type class="Physiological_process"/>
+<theme idref="A4"/>
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> cells leads to a rapid phosphorylation of I kappa B alpha, which is presumed to be important for the subsequent degradation.</clue>
+</event>
+<event KT="Fact" LT="Propositional" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="E6"/>
+<clue>Stimulation of cells <clueType>leads</clueType> <linkTheme>to</linkTheme> a rapid phosphorylation of I kappa B alpha, which is presumed to be important for the subsequent degradation.</clue>
+</event>
+<event KT="Other" Manner="High" id="E8">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T10"/>
+<clue>Stimulation of cells leads to a <clueManner>rapid</clueManner> <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> I kappa B alpha, which is presumed to be important for the subsequent degradation.</clue>
+</event>
+<event CL="L2" KT="Analysis" LT="Propositional" id="E9" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="E8"/>
+<clue>Stimulation of cells leads to a rapid phosphorylation of I kappa B alpha, which is <clueKT><clueCL>presumed</clueCL></clueKT> to <clueType>be important</clueType> <linkTheme>for</linkTheme> the <clueTime>subsequent</clueTime> degradation.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Protein_catabolism"/>
+<theme idref="T10"/>
+<clue>Stimulation of cells leads to a rapid phosphorylation of I kappa B alpha, which is presumed to be important for the subsequent <clueType>degradation</clueType>.</clue>
+</event>
+<sentence id="S4">We have recently reported the establishment of a <term id="T13" lex="lipopolysaccharide_(LPS)-dependent_cell-free_activation_system" sem="Other"><term id="T14" lex="lipopolysaccharide" sem="Lipid">lipopolysaccharide</term> (<term id="T15" lex="LPS" sem="Lipid">LPS</term>)-dependent cell-free activation system</term> of <term id="T16" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> in association with the induction of <term id="T17" lex="I_kappa_B_alpha_phosphorylation" sem="Other"><term id="T18" lex="I_kappa_B_alpha" sem="Protein_molecule"><term id="T19" lex="I_kappa_B" sem="Protein_molecule">I kappa B</term> alpha</term> phosphorylation</term>.</sentence>
+<event Source="Other" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="T16"/>
+<cause idref="T15"/>
+<clue>We have <clueSource>recently</clueSource> reported the establishment of a lipopolysaccharide (LPS)<linkCause>-dependent</linkCause> cell-free <clueType>activation</clueType> system <linkTheme>of</linkTheme> NF-kappa B in association with the induction of I kappa B alpha phosphorylation.</clue>
+</event>
+<event LT="Propositional" Source="Other" id="E12">
+<type class="Correlation"/>
+<theme idref="E11"/>
+<theme idref="E13"/>
+<clue>We have <clueSource>recently</clueSource> reported the establishment of a lipopolysaccharide (LPS)-dependent cell-free activation system of NF-kappa B in <clueType>association</clueType> <linkTheme>with</linkTheme> the induction of I kappa B alpha phosphorylation.</clue>
+</event>
+<event Source="Other" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<clue>We have <clueSource>recently</clueSource> reported the establishment of a lipopolysaccharide (LPS)-dependent cell-free activation system of NF-kappa B in association with the <clueType>induction</clueType> <linkTheme>of</linkTheme> I kappa B alpha phosphorylation.</clue>
+</event>
+<event Source="Other" id="E14">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T18"/>
+<clue>We have <clueSource>recently</clueSource> reported the establishment of a lipopolysaccharide (LPS)-dependent cell-free activation system of NF-kappa B in association with the induction of I kappa B alpha <clueType>phosphorylation</clueType>.</clue>
+</event>
+<sentence id="S5">In this study, we have identified a <term id="T20" lex="kinase" sem="Protein_family_or_group">kinase</term> in <term id="T21" lex="cell_extract" sem="Cell_component">cell extracts</term> from the <term id="T22" lex="LPS-stimulated_human_monocytic_cell_line" sem="Cell_cultured"><term id="T23" lex="LPS" sem="Lipid">LPS</term>-stimulated human monocytic cell line</term>, <term id="T24" lex="THP-1" sem="Cell_cultured">THP-1</term>, that specifically binds and phosphorylates <term id="T25" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term>.</sentence>
+<event LT="Propositional" id="E15">
+<type class="Binding"/>
+<theme idref="T20"/>
+<theme idref="T25"/>
+<clue>In this study, we have identified a kinase <clueLoc>in cell extracts</clueLoc> from the LPS-stimulated human monocytic cell line, THP-1, that specifically <clueType>binds</clueType> and phosphorylates I kappa B alpha.</clue>
+</event>
+<event LT="Propositional" id="E16">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T25"/>
+<clue>In this study, we have identified a kinase <clueLoc>in cell extracts</clueLoc> from the LPS-stimulated human monocytic cell line, THP-1, that specifically binds and <clueType>phosphorylates</clueType> I kappa B alpha.</clue>
+</event>
+<event LT="Propositional" id="E39">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<cause idref="T20"/>
+<clue>In this study, we have identified a kinase <clueLoc>in cell extracts</clueLoc> from the LPS-stimulated human monocytic cell line, THP-1, that specifically binds and phosphorylates I kappa B alpha.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Method" id="E17">
+<type class="Physiological_process"/>
+<theme idref="T24"/>
+<cause idref="T23"/>
+<clue>In this study, we have identified a kinase in cell extracts from the LPS-<clueType>stimulated</clueType> human monocytic cell line, THP-1, that specifically binds and phosphorylates I kappa B alpha.</clue>
+</event>
+<sentence id="S6"><term id="T26" lex="LPS" sem="Lipid">LPS</term> stimulation transiently enhanced the <term id="T27" lex="I_kappa_B_alpha-bound_kinase_activity" sem="Other"><term id="T28" lex="I_kappa_B_alpha" sem="Protein_molecule"><term id="T29" lex="I_kappa_B" sem="Protein_molecule">I kappa B</term> alpha</term><term id="T30" lex="bound_kinase" sem="Protein_family_or_group">-bound <term id="A5" sem="Protein_family_or_group">kinase</term></term> activity</term> in <term id="T31" lex="THP-1_cell" sem="Cell_cultured">THP-1 cells</term>.</sentence>
+<event KT="Method" id="E18">
+<type class="Physiological_process"/>
+<theme idref="T31"/>
+<cause idref="T26"/>
+<clue>LPS <clueType>stimulation</clueType> transiently enhanced the I kappa B alpha-bound kinase activity <linkTheme>in</linkTheme> THP-1 cells.</clue>
+</event>
+<event LT="Propositional" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="E18"/>
+<clue>LPS stimulation transiently <clueType>enhanced</clueType> the I kappa B alpha-bound kinase activity <clueLoc>in THP-1 cells</clueLoc>.</clue>
+</event>
+<event id="E20">
+<type class="Binding"/>
+<theme idref="T28"/>
+<theme idref="A5"/>
+<clue>LPS stimulation transiently enhanced the I kappa B alpha-<clueType>bound</clueType> kinase activity in THP-1 cells.</clue>
+</event>
+<sentence id="S7">Mutational analyses of <term id="T32" lex="I_kappa_B" sem="Protein_molecule">I kappa B</term> alpha and <term id="T33" lex="competition_experiment" sem="Other">competition experiments</term> with the <term id="T34" lex="synthetic_peptide" sem="Peptide">synthetic peptides</term> identified major <term id="T35" lex="phosphorylation_site" sem="Protein_domain_or_region">phosphorylation sites</term> by the bound <term id="T36" lex="kinase" sem="Protein_molecule">kinase</term> as <cons id="C1" lex="(AND Ser_residues Thr_residues)" sem="(AND Amino_acid_monomer Amino_acid_monomer)"><frag id="F1">Ser</frag> and <frag id="F2">Thr</frag> <frag id="F3">residues</frag></cons> in the <term id="T39" lex="C-terminal_acidic_domain" sem="Protein_domain_or_region">C-terminal acidic domain</term> of <term id="T40" lex="I_kappa_B_alpha" sem="Protein_molecule"><term id="T41" lex="I_kappa_B" sem="Protein_molecule">I kappa B</term> alpha</term>.</sentence>
+<event KT="Other" id="E23">
+<type class="Binding"/>
+<theme idref="T36"/>
+<clue>Mutational analyses of I kappa B alpha and competition experiments with the synthetic peptides identified major phosphorylation sites by the <clueType>bound</clueType> kinase as Ser and Thr residues in the C-terminal acidic domain of I kappa B alpha.</clue>
+</event>
+<sentence id="S8">Moreover, we show that the <term id="T42" lex="peptide" sem="Peptide">peptide</term>, corresponding to the <term id="T43" lex="C-terminal_acidic_domain" sem="Protein_domain_or_region">C-terminal acidic domain</term> of <term id="T44" lex="I_kappa_B_alpha" sem="Protein_molecule"><term id="T45" lex="I_kappa_B" sem="Protein_molecule">I kappa B</term> alpha</term>, blocked the <term id="T46" lex="LPS-induced_NF-kappa_B_activation" sem="Other"><term id="T47" lex="LPS" sem="Lipid">LPS</term>-induced <term id="T48" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> activation</term> as well as inducible <term id="T49" lex="phosphorylation" sem="Other">phosphorylation</term> of endogenous <term id="T50" lex="I_kappa_B_alpha" sem="Protein_molecule"><term id="T51" lex="I_kappa_B" sem="Protein_molecule">I kappa B</term> alpha</term> in a <term id="T52" lex="cell-free_system" sem="Other">cell-free system</term> using <term id="T53" lex="THP-1_cell" sem="Cell_cultured">THP-1 cells</term>.</sentence>
+<event id="E24">
+<type class="Correlation"/>
+<theme idref="T42"/>
+<theme idref="T43" idref1="T44"/>
+<clue>Moreover, we show that the peptide, <clueType>corresponding</clueType> <linkTheme>to</linkTheme> the C-terminal acidic domain of I kappa B alpha, blocked the LPS-induced NF-kappa B activation as well as inducible phosphorylation of endogenous I kappa B alpha in a cell-free system using THP-1 cells.</clue>
+</event>
+<event LT="Propositional" id="E25">
+<type class="Negative_regulation"/>
+<theme idref="E27"/>
+<cause idref="T42"/>
+<clue>Moreover, we <clueKT>show</clueKT> that the peptide, corresponding to the C-terminal acidic domain of I kappa B alpha, <clueType>blocked</clueType> the LPS-induced NF-kappa B activation as well as inducible phosphorylation of endogenous I kappa B alpha in a cell-free system using THP-1 cells.</clue>
+</event>
+<event LT="Propositional" id="E26">
+<type class="Negative_regulation"/>
+<theme idref="E28"/>
+<cause idref="T42"/>
+<clue>Moreover, we <clueKT>show</clueKT> that the peptide, corresponding to the C-terminal acidic domain of I kappa B alpha, <clueType>blocked</clueType> the LPS-induced NF-kappa B activation as well as inducible phosphorylation of endogenous I kappa B alpha in a cell-free system using THP-1 cells.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation"/>
+<theme idref="T48"/>
+<cause idref="T47"/>
+<clue>Moreover, we show that the peptide, corresponding to the C-terminal acidic domain of I kappa B alpha, blocked the LPS<linkCause>-induced</linkCause> NF-kappa B <clueType>activation</clueType> as well as inducible phosphorylation of endogenous I kappa B alpha in a cell-free system using THP-1 cells.</clue>
+</event>
+<event id="E28">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T50"/>
+<clue>Moreover, we show that the peptide, corresponding to the C-terminal acidic domain of I kappa B alpha, blocked the LPS-induced NF-kappa B activation as well as inducible <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> endogenous I kappa B alpha in a cell-free system using THP-1 cells.</clue>
+</event>
+<sentence id="S9">These results suggested that the <term id="T54" lex="bound_kinase" sem="Protein_family_or_group">bound <term id="A6" sem="Protein_family_or_group">kinase</term></term> is involved in the signaling pathway of <term id="T55" lex="LPS" sem="Lipid">LPS</term> by inducing the <term id="T56" lex="phosphorylation" sem="Other">phosphorylation</term> of the <term id="T57" lex="C-terminal_region" sem="Protein_domain_or_region">C-terminal region</term> of <term id="T58" lex="I_kappa_B_alpha" sem="Protein_molecule"><term id="T59" lex="I_kappa_B" sem="Protein_molecule">I kappa B</term> alpha</term> and subsequent dissociation of the <term id="A20" sem="Protein_complex"><term id="T60" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>.<term id="T61" lex="I_kappa_B_alpha_complex" sem="Protein_complex"><term id="T62" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term> complex</term></term>.</sentence>
+<event KT="Other" id="E29">
+<type class="Binding"/>
+<theme idref="A6"/>
+<clue>These results suggested that the <clueType>bound</clueType> kinase is involved in the signaling pathway of LPS by inducing the phosphorylation of the C-terminal region of I kappa B alpha and subsequent dissociation of the NF-kappa B.I kappa B alpha complex.</clue>
+</event>
+<event CL="L2" KT="Analysis" LT="Propositional" id="E30" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E31"/>
+<cause idref="E32"/>
+<clue>These results <clueKT><clueCL>suggested</clueCL></clueKT> that the bound kinase is <clueType>involved</clueType> <linkTheme>in</linkTheme> the signaling pathway of LPS <linkCause>by</linkCause> inducing the phosphorylation of the C-terminal region of I kappa B alpha and subsequent dissociation of the NF-kappa B.I kappa B alpha complex.</clue>
+</event>
+<event CL="L2" KT="Analysis" LT="Propositional" id="E36" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E31"/>
+<cause idref="E33"/>
+<clue>These results <clueKT><clueCL>suggested</clueCL></clueKT> that the bound kinase is <clueType>involved</clueType> <linkTheme>in</linkTheme> the signaling pathway of LPS <linkCause>by</linkCause> inducing the phosphorylation of the C-terminal region of I kappa B alpha and subsequent dissociation of the NF-kappa B.I kappa B alpha complex.</clue>
+</event>
+<event KT="Other" id="E31">
+<type class="Cell_communication"/>
+<theme idref="T55"/>
+<clue>These results suggested that the bound kinase is involved in the <clueType>signaling pathway</clueType> <linkTheme>of</linkTheme> LPS by inducing the phosphorylation of the C-terminal region of I kappa B alpha and subsequent dissociation of the NF-kappa B.I kappa B alpha complex.</clue>
+</event>
+<event CL="L2" KT="Analysis" LT="Propositional" id="E32" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E34"/>
+<cause idref="T54"/>
+<clue>These results <clueKT><clueCL>suggested</clueCL></clueKT> that the bound kinase is involved in the signaling pathway of LPS by <clueType>inducing</clueType> the phosphorylation of the C-terminal region of I kappa B alpha and subsequent dissociation of the NF-kappa B.I kappa B alpha complex.</clue>
+</event>
+<event CL="L2" KT="Analysis" LT="Propositional" id="E33" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E38"/>
+<cause idref="T54"/>
+<clue>These results <clueKT><clueCL>suggested</clueCL></clueKT> that the bound kinase is involved in the signaling pathway of LPS by <clueType>inducing</clueType> the phosphorylation of the C-terminal region of I kappa B alpha and subsequent dissociation of the NF-kappa B.I kappa B alpha complex.</clue>
+</event>
+<event KT="Other" id="E34">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T57" idref1="T58"/>
+<clue>These results suggested that the bound kinase is involved in the signaling pathway of LPS by inducing the <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> the C-terminal region of I kappa B alpha and subsequent dissociation of the NF-kappa B.I kappa B alpha complex.</clue>
+</event>
+<event KT="Other" id="E37">
+<type class="Binding"/>
+<theme idref="T60"/>
+<theme idref="T62"/>
+<clue>These results suggested that the bound kinase is involved in the signaling pathway of LPS by inducing the phosphorylation of the C-terminal region of I kappa B alpha and subsequent dissociation of the NF-kappa B.I kappa B alpha <clueType>complex</clueType>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E38">
+<type/>
+<theme idref="E37"/>
+<clue>These results <clueKT><clueCL>suggested</clueCL></clueKT> that the bound kinase is involved in the signaling pathway of LPS by inducing the phosphorylation of the C-terminal region of I kappa B alpha and <clueTime>subsequent</clueTime> <clueType>dissociation</clueType> <linkTheme>of</linkTheme> the NF-kappa B.I kappa B alpha complex.</clue>
+<comment>SOO</comment></event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

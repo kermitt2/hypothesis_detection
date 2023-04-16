@@ -1,0 +1,18 @@
+T18	Adverse_effect 45 50	after
+T19	Potential_therapeutic_effect 199 208	treatment
+T21	Adverse_effect 899 909	associated
+T22	Adverse_effect 441 450	developed
+T24	Potential_therapeutic_effect 506 520	administration
+T26	Potential_therapeutic_effect 574 585	enhancement
+T11	Adverse_effect 329 336	related
+R3	Subject_Disorder Arg1:T30 Arg2:T33
+R1	Coreference Arg1:T10 Arg2:T3
+R2	Coreference Arg1:T10 Arg2:T4
+E1	Adverse_effect:T18 has_agent:T2 affects:T1
+E2	Potential_therapeutic_effect:T19 affects:T5 has_subject:T16 has_agent:T3 has_agent:T4
+E4	Adverse_effect:T21 affects:T12 has_agent:T13 has_cue:T32
+E5	Adverse_effect:T22 affects:T8 has_agent:T9 has_subject:T17
+E7	Potential_therapeutic_effect:T24 has_agent:T9 has_subject:T17
+E8	Potential_therapeutic_effect:T26 has_agent:T25 has_subject:T28
+E3	Adverse_effect:T11 has_agent:T10 affects:T14 affects:T6 affects:T7
+A2	Speculated E4

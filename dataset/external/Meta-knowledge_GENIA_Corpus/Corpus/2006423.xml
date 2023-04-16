@@ -1,0 +1,82 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2006423" created="21/03/2006" creator="Hitomi MASUDA"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>2006423</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Isolation of a <term id="T1" lex="rel-related_human_cDNA" sem="DNA_molecule">rel-related human cDNA</term> that potentially encodes the <term id="T2" lex="65-kD_subunit" sem="Protein_molecule">65-kD subunit</term> of <term id="T3" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> [published erratum appears in Science 1991 Oct 4;254(5028):11]</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">A <term id="A1" sem="Polynucleotide"><term id="T4" lex="DNA_probe" sem="DNA_family_or_group">DNA probe</term> that spanned a domain conserved among the <term id="T5" lex="proto-oncogene_c-rel" sem="DNA_domain_or_region">proto-oncogene c-rel</term>, the <term id="T6" lex="Drosophila_morphogen_dorsal" sem="Protein_molecule">Drosophila morphogen dorsal</term>, and the <term id="T7" lex="p50_DNA_binding_subunit" sem="Protein_molecule"><term id="T8" lex="p50" sem="Protein_molecule">p50</term> DNA binding subunit</term> of <term id="T9" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term></term> was generated from <term id="T10" lex="Jurkat_T_cell_complementary_DNA" sem="DNA_family_or_group">Jurkat T cell complementary DNA</term> with the <term id="T11" lex="polymerase_chain_reaction" sem="Other">polymerase chain reaction</term> (<term id="T12" lex="PCR" sem="Other">PCR</term>) and <term id="T13" lex="degenerate_oligonucleotide" sem="Polynucleotide">degenerate oligonucleotides</term>.</sentence>
+<sentence id="S3">This probe was used to identify a <term id="T14" lex="rel-related_complementary_DNA" sem="DNA_molecule">rel-related complementary DNA</term> that hybridized to a <term id="T15" lex="2.6-kilobase_messenger_RNA" sem="RNA_molecule">2.6-kilobase messenger RNA</term> present in <cons id="T16" lex="(AND human_T_lymphocyte human_B_lymphocyte)" sem="(AND Cell_natural Cell_natural)"><frag id="F1">human</frag> <frag id="F2">T</frag> and <frag id="F3">B</frag> <frag id="F4">lymphocytes</frag></cons>.</sentence>
+<event id="E2">
+<type class="Binding"/>
+<theme idref="T14"/>
+<theme idref="T15"/>
+<clue>This probe was used to identify a rel-related complementary DNA that <clueType>hybridized</clueType> <linkTheme>to</linkTheme> a 2.6-kilobase messenger RNA present <clueLoc>in human T</clueLoc> and B <clueLoc>lymphocytes</clueLoc>.</clue>
+</event>
+<event id="E102">
+<type class="Binding"/>
+<theme idref="T14"/>
+<theme idref="T15"/>
+<clue>This probe was used to identify a rel-related complementary DNA that <clueType>hybridized</clueType> <linkTheme>to</linkTheme> a 2.6-kilobase messenger RNA present <clueLoc>in human</clueLoc> T and <clueLoc>B lymphocytes</clueLoc>.</clue>
+</event>
+<event LT="Propositional" id="E3">
+<type class="Binding"/>
+<theme idref="T14"/>
+<theme idref="A1"/>
+<clue><corefTheme>This probe</corefTheme> was used to <clueType>identify</clueType> a rel-related complementary DNA that hybridized to a 2.6-kilobase messenger RNA present in human T and B lymphocytes.</clue>
+<comment>TPS: A1</comment></event>
+<sentence id="S4">In vitro <term id="T17" lex="transcription" sem="Other">transcription</term> and <term id="T18" lex="translation" sem="Other">translation</term> of the <term id="T19" lex="complementary_DNA" sem="DNA_molecule">complementary DNA</term> resulted in the synthesis of a protein with an apparent molecular size of <term id="T20" lex="65_kilodalton" sem="Protein_molecule">65 kilodaltons</term> (kD).</sentence>
+<event id="E4">
+<type class="Transcription"/>
+<theme idref="T19"/>
+<clue>In vitro <clueType>transcription</clueType> and translation <linkTheme>of</linkTheme> the complementary DNA resulted in the synthesis of a protein with an apparent molecular size of 65 kilodaltons (kD).</clue>
+</event>
+<event id="E5">
+<type class="Translation"/>
+<theme idref="T19"/>
+<clue>In vitro transcription and <clueType>translation</clueType> <linkTheme>of</linkTheme> the complementary DNA resulted in the synthesis of a protein with an apparent molecular size of 65 kilodaltons (kD).</clue>
+</event>
+<event id="E6">
+<type class="Gene_expression"/>
+<theme idref="T20"/>
+<clue>In vitro transcription and translation of the complementary DNA resulted in the <clueType>synthesis</clueType> <linkTheme>of</linkTheme> a protein with an apparent molecular size of 65 kilodaltons (kD).</clue>
+</event>
+<event LT="Propositional" id="E100">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="E4"/>
+<cause idref="E5"/>
+<clue>In vitro transcription and translation of the complementary DNA <clueType>resulted</clueType> <linkTheme>in</linkTheme> the synthesis of a protein with an apparent molecular size of 65 kilodaltons (kD).</clue>
+</event>
+<sentence id="S5">The translated protein showed weak <term id="T21" lex="DNA_binding" sem="Other">DNA binding</term> with a specificity for the <term id="T22" lex="kappa_B_binding_motif" sem="DNA_substructure">kappa B binding motif</term>.</sentence>
+<event LT="Propositional" Manner="Low" id="E7">
+<type class="Binding"/>
+<theme idref="T22"/>
+<theme idref="T20"/>
+<clue><corefTheme idref1="T20">The translated protein</corefTheme> <linkTheme>showed</linkTheme> <clueManner>weak</clueManner> <corefTheme idref1="T22">DNA</corefTheme> <clueType>binding</clueType> <linkTheme>with</linkTheme> a specificity for the kappa B binding motif.</clue>
+</event>
+<sentence id="S6">This <term id="T23" lex="protein-DNA_complex" sem="Protein_complex">protein-DNA complex</term> comigrated with the complex obtained with the <term id="T24" lex="purified_human_p65_NF-kappa_B_subunit" sem="Protein_molecule">purified human p65 NF-kappa B subunit</term> and binding was inhibited by <term id="T25" lex="I_kappa_B-alpha" sem="Protein_molecule">I kappa B-alpha</term> and <term id="T26" lex="I_kappa-beta_protein" sem="Protein_molecule">-beta <term id="A2" sem="Protein_molecule">proteins</term></term>.</sentence>
+<event LT="Propositional" id="E8">
+<type class="Negative_regulation"/>
+<theme idref="E7"/>
+<cause idref="T25" idref1="A2"/>
+<clue>This protein-DNA complex comigrated with the complex obtained with the purified human p65 NF-kappa B subunit and <corefTheme>binding</corefTheme> was <clueType>inhibited</clueType> <linkCause>by</linkCause> I kappa B-alpha and -beta proteins.</clue>
+</event>
+<event LT="Propositional" id="E9">
+<type class="Negative_regulation"/>
+<theme idref="E7"/>
+<cause idref="T26"/>
+<clue>This protein-DNA complex comigrated with the complex obtained with the purified human p65 NF-kappa B subunit and <corefTheme>binding</corefTheme> was <clueType>inhibited</clueType> <linkCause>by</linkCause> I kappa B-alpha and -beta proteins.</clue>
+<comment>NER:T26 mod</comment></event>
+<sentence id="S7">In addition, the <term id="T27" lex="65-kD_protein" sem="Protein_molecule">65-kD protein</term> associated with the <term id="T28" lex="p50_subunit" sem="Protein_molecule"><term id="T29" lex="p50" sem="Protein_molecule">p50</term> subunit</term> of <term id="T30" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> and the <term id="T31" lex="kappa_B_probe" sem="DNA_molecule">kappa B probe</term> to form a complex with the same electrophoretic mobility as the <term id="T32" lex="NF-kappa_B-DNA_complex" sem="Protein_complex"><term id="T33" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>-DNA complex</term>.</sentence>
+<event LT="Propositional" id="E10">
+<type class="Binding"/>
+<theme idref="T27"/>
+<theme idref="T28"/>
+<theme idref="T31"/>
+<clue>In addition, the 65-kD protein <clueType>associated</clueType> <linkTheme>with</linkTheme> the p50 subunit of NF-kappa B and the kappa B probe to form a complex with the same electrophoretic mobility as the NF-kappa B-DNA complex.</clue>
+</event>
+<sentence id="S8">Therefore the <term id="T34" lex="rel-related_65-kD_protein" sem="Protein_molecule">rel-related 65-kD protein</term> may represent the <term id="T35" lex="p65_subunit" sem="Protein_molecule">p65 subunit</term> of the <term id="T36" lex="active_NF-kappa_B_transcription_factor_complex" sem="Protein_complex">active NF-kappa B transcription factor complex</term>.</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

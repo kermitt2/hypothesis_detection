@@ -1,0 +1,13 @@
+T18	Adverse_effect 681 693	side effects
+T23	Potential_therapeutic_effect 21 28	therapy
+T25	Potential_therapeutic_effect 932 941	effective
+T11	Potential_therapeutic_effect 521 531	resolution
+R5	Subject_Disorder Arg1:T24 Arg2:T17
+E1	Adverse_effect:T18 affects:T13 affects:T14 affects:T19 affects:T20 has_agent:T12
+E2	Potential_therapeutic_effect:T23 has_agent:T1 affects:T2
+E3	Potential_therapeutic_effect:T25 affects:T17 has_subject:T24 has_agent:T16 has_cue:T26
+E4	Potential_therapeutic_effect:T11 affects:T21 has_agent:T10
+A1	Speculated E3
+T22	Potential_therapeutic_effect 278 285	respond
+E5	Potential_therapeutic_effect:T22 affects:T4 has_agent:T5 has_agent2:T7 has_agent3:T8 has_agent4:T9 has_agent5:T6 has_cue:T27
+A2	Negated E5

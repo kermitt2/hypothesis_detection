@@ -1,0 +1,135 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7945272" created="11/07/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7945272</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="arrested_development" sem="Other">Arrested <term id="A1" sem="Other">development</term></term>: understanding <term id="T2" lex="v-abl" sem="Protein_molecule">v-abl</term>.</sentence>
+<event KT="Investigation" id="E1">
+<type class="Negative_regulation"/>
+<theme idref="A1"/>
+<clue><clueType>Arrested</clueType> development: understanding v-abl.</clue>
+<comment>NER T2 MOD</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T3" lex="protein_tyrosine_kinase_activity" sem="Other"><term id="T4" lex="protein_tyrosine_kinase" sem="Protein_family_or_group">protein tyrosine kinase</term> activity</term> of the <term id="T5" lex="v-abl_oncogene" sem="Protein_molecule">v-abl oncogene</term> has been demonstrated to subvert the <term id="T7" lex="normal_second_messenger_system" sem="Other">normal second messenger systems</term> used by <term id="T8" lex="lymphoid_cell" sem="Cell_natural">lymphoid cells</term> for growth and <term id="T9" lex="differentiation" sem="Other">differentiation</term>.</sentence>
+<event KT="Other" id="E2">
+<type class="Cellular_physiological_process"/>
+<theme idref="T8"/>
+<clue>The protein tyrosine kinase activity of the v-abl oncogene has been demonstrated to subvert the normal second messenger systems used by lymphoid cells for <clueType>growth</clueType> and differentiation.</clue>
+<comment>NER T5 MOD, T6 DEL</comment></event>
+<event KT="Other" id="E3">
+<type class="Cell_differentiation"/>
+<theme idref="T8"/>
+<clue>The protein tyrosine kinase activity of the v-abl oncogene has been demonstrated to subvert the normal second messenger systems used by lymphoid cells for growth and <clueType>differentiation</clueType>.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Regulation"/>
+<theme idref="E2"/>
+<cause idref="T7"/>
+<clue>The protein tyrosine kinase activity of the v-abl oncogene has been demonstrated to subvert the normal second messenger systems <clueType>used</clueType> <clueLoc>by lymphoid cells</clueLoc> <linkTheme>for</linkTheme> growth and differentiation.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Regulation"/>
+<theme idref="E3"/>
+<cause idref="T7"/>
+<clue>The protein tyrosine kinase activity of the v-abl oncogene has been demonstrated to subvert the normal second messenger systems <clueType>used</clueType> <clueLoc>by lymphoid cells</clueLoc> <linkTheme>for</linkTheme> growth and differentiation.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E6">
+<type class="Negative_regulation"/>
+<theme idref="E4"/>
+<cause idref="T5"/>
+<clue>The protein tyrosine kinase activity of the v-abl oncogene <clueSource>has been</clueSource> <clueKT>demonstrated</clueKT> to <clueType>subvert</clueType> the normal second messenger systems used by lymphoid cells for growth and differentiation.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E7">
+<type class="Negative_regulation"/>
+<theme idref="E5"/>
+<cause idref="T5"/>
+<clue>The protein tyrosine kinase activity of the v-abl oncogene <clueSource>has been</clueSource> <clueKT>demonstrated</clueKT> to <clueType>subvert</clueType> the normal second messenger systems used by lymphoid cells for growth and differentiation.</clue>
+</event>
+<sentence id="S3"><term id="T10" lex="transformation" sem="Other">Transformation</term> of <term id="T11" lex="bone_marrow" sem="Tissue_natural">bone marrow</term> with the <term id="T12" lex="Abelson_murine_leukemia_virus" sem="Virus">Abelson murine leukemia virus</term> results in the appearance of <term id="T13" lex="B_cell_lineage_cell" sem="Cell_natural">B cell lineage cells</term> arrested at the <term id="T14" lex="pre-B_cell_stage" sem="Other">pre-B cell stage</term>.</sentence>
+<event KT="Other" id="E8">
+<type class="Biological_process"/>
+<theme idref="T11"/>
+<clue><clueType>Transformation</clueType> <linkTheme>of</linkTheme> bone marrow with the Abelson murine leukemia virus results in the appearance of B cell lineage cells arrested at the pre-B cell stage.</clue>
+</event>
+<event KT="Other" id="E108">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="T12"/>
+<clue><clueType>Transformation</clueType> of bone marrow <linkCause>with</linkCause> the Abelson murine leukemia virus results in the appearance of B cell lineage cells arrested at the pre-B cell stage.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Other" id="E9">
+<type class="Cell_differentiation"/>
+<theme idref="T13"/>
+<clue>Transformation of bone marrow with the Abelson murine leukemia virus results in the appearance of B cell lineage cells arrested at the pre-B cell <clueType>stage</clueType>.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Negative_regulation"/>
+<theme idref="E9"/>
+<clue>Transformation of bone marrow with the Abelson murine leukemia virus results in the appearance of B cell lineage cells <clueType>arrested</clueType> at the pre-B cell stage.</clue>
+</event>
+<event KT="Fact" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="E108"/>
+<clue>Transformation of bone marrow with the Abelson murine leukemia virus <clueType>results</clueType> <linkTheme>in</linkTheme> the appearance of B cell lineage cells arrested at the pre-B cell stage.</clue>
+</event>
+<sentence id="S4">Recent reports have characterized these cells expressing high <term id="T15" lex="v-abl_kinase_activity" sem="Other"><term id="T16" lex="v-abl" sem="Protein_molecule">v-abl</term> kinase activity</term> as deficient in detectable <term id="T17" lex="NF-kappaB_DNA_binding_activity" sem="Other"><term id="T18" lex="NF-kappaB" sem="Protein_molecule">NF-kappaB</term> <term id="A2" sem="DNA_domain_or_region">DNA</term> binding activity</term> and low level <term id="T19" lex="RAG_gene_expression" sem="Other"><term id="T20" lex="RAG_gene" sem="DNA_domain_or_region">RAG gene</term> expression</term>.</sentence>
+<event KT="Other" id="E12">
+<type class="Gene_expression"/>
+<theme idref="T16"/>
+<clue>Recent reports have characterized <clueLoc>these cells</clueLoc> <clueType>expressing</clueType> high v-abl kinase activity as deficient in detectable NF-kappaB DNA binding activity and low level RAG gene expression.</clue>
+<comment>NER T16 MOD</comment></event>
+<event KT="Other" id="E13">
+<type class="Binding"/>
+<theme idref="T18"/>
+<theme idref="A2"/>
+<clue>Recent reports have characterized these cells expressing high v-abl kinase activity as deficient in detectable NF-kappaB DNA <clueType>binding activity</clueType> and low level RAG gene expression.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E14">
+<type class="Negative_regulation"/>
+<theme idref="E13"/>
+<clue><clueSource>Recent</clueSource> reports have <clueKT>characterized</clueKT> <clueLoc>these cells expressing high v-abl kinase activity</clueLoc> as <clueType>deficient</clueType> <linkTheme>in</linkTheme> detectable NF-kappaB DNA binding activity and low level RAG gene expression.</clue>
+</event>
+<event KT="Other" Manner="Low" id="E15">
+<type class="Gene_expression"/>
+<theme idref="T20"/>
+<clue>Recent reports have characterized these cells expressing high v-abl kinase activity as deficient in detectable NF-kappaB DNA binding activity and <clueManner>low level</clueManner> RAG gene <clueType>expression</clueType>.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E16">
+<type class="Negative_regulation"/>
+<theme idref="E15"/>
+<clue><clueSource>Recent</clueSource> reports have <clueKT>characterized</clueKT> <clueLoc>these cells expressing high v-abl kinase activity</clueLoc> as deficient in detectable NF-kappaB DNA binding activity and <clueType>low level</clueType> RAG gene expression.</clue>
+</event>
+<sentence id="S5">These observations suggest that <term id="T21" lex="v-abl" sem="Protein_molecule">v-abl</term> may be inhibiting the <term id="T22" lex="differentiation" sem="Other">differentiation</term> of <term id="T23" lex="B_cell" sem="Cell_natural">B cells</term> by blocking these two crucial elements in the <term id="T24" lex="maturation_pathway" sem="Other">maturation pathway</term>.</sentence>
+<event KT="Other" id="E17" uncertainty="probable">
+<type class="Cell_differentiation"/>
+<theme idref="T23"/>
+<clue>These observations suggest that v-abl may be inhibiting the <clueType>differentiation</clueType> <linkTheme>of</linkTheme> B cells by blocking these two crucial elements in the maturation pathway.</clue>
+<comment>NER T21 MOD</comment></event>
+<event KT="Other" id="E18" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="T18"/>
+<cause idref="T21"/>
+<clue>These observations suggest that v-abl may be inhibiting the differentiation of B cells by <clueType>blocking</clueType> <corefTheme>these two crucial elements in the maturation pathway</corefTheme>.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Negative_regulation"/>
+<theme idref="T20"/>
+<cause idref="T21"/>
+<clue>These observations suggest that v-abl may be inhibiting the differentiation of B cells by <clueType>blocking</clueType> <corefTheme>these two crucial elements in the maturation pathway</corefTheme>.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E20" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="E17"/>
+<cause idref="E18"/>
+<clue>These observations <clueKT>suggest</clueKT> that v-abl <clueCL>may</clueCL> be <clueType>inhibiting</clueType> the differentiation of B cells <linkCause>by</linkCause> blocking these two crucial elements in the maturation pathway.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E21" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="E17"/>
+<cause idref="E19"/>
+<clue>These observations <clueKT>suggest</clueKT> that v-abl <clueCL>may</clueCL> be <clueType>inhibiting</clueType> the differentiation of B cells <linkCause>by</linkCause> blocking these two crucial elements in the maturation pathway.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

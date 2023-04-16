@@ -1,0 +1,26 @@
+T26	Potential_therapeutic_effect 24 26	in
+T31	Potential_therapeutic_effect 283 291	efficacy
+T37	Potential_therapeutic_effect 637 639	in
+T44	Potential_therapeutic_effect 848 850	in
+T48	Potential_therapeutic_effect 1822 1824	in
+T50	Potential_therapeutic_effect 1896 1904	inactive
+R1	is_equivalent Arg1:T4 Arg2:T7
+R2	is_equivalent Arg1:T5 Arg2:T9
+R4	Subject_Disorder Arg1:T32 Arg2:T10
+R5	Subject_Disorder Arg1:T39 Arg2:T13
+E2	Combination:T27 has_participant:T1 has_participant:T3
+E6	Combination:T35 has_participant:T5 has_participant:T6
+E8	Combination:T42 has_participant:T12 has_participant:T8
+E9	Combination:T43 has_participant:T41 has_participant:T11
+E12	Combination:T16 has_participant:T18 has_participant:T23
+E1	Potential_therapeutic_effect:T26 has_agent:T1 affects:T2 has_subject:T28
+E3	Potential_therapeutic_effect:T26 has_agent:E2 has_subject:T28
+E4	Potential_therapeutic_effect:T31 has_agent:T29 has_cue:T30 affects:T4
+E7	Potential_therapeutic_effect:T37 affects:T10 has_agent:E6
+E10	Potential_therapeutic_effect:T44 affects:T13 has_agent:E9 has_subject:T46
+E11	Potential_therapeutic_effect:T44 affects:T13 has_agent:E8 has_subject:T45
+E13	Potential_therapeutic_effect:T48 affects:T24 has_agent:E12 has_cue:T49
+E14	Potential_therapeutic_effect:T50 has_agent:T20 affects:T25 has_cue:T53
+A1	Manner E4 Low
+A2	Speculated E13
+A3	Negated E14

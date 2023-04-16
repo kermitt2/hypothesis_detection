@@ -1,0 +1,265 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10438843" created="05/07/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10438843</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="thymocyte-thymic_epithelial_cell_interaction" sem="Other"><term id="A1" sem="Cell_natural">Thymocyte</term>-thymic <term id="T2" lex="epithelial_cell" sem="Cell_natural">epithelial cell</term> interaction</term> leads to <term id="T3" lex="high-level_replication" sem="Other">high-level replication</term> of <term id="T4" lex="human_immunodeficiency_virus" sem="Virus">human immunodeficiency virus</term> exclusively in <term id="T5" lex="mature_CD4(+)_CD8(-)_CD3(+)_thymocyte" sem="Cell_natural">mature <term id="T6" lex="CD4" sem="Protein_molecule">CD4</term>(+) <term id="A3" sem="Protein_molecule">CD8</term>(-) <term id="T7" lex="CD3" sem="Protein_molecule">CD3</term>(+) thymocytes</term>: a critical role for <term id="T8" lex="tumor_necrosis_factor" sem="Protein_molecule">tumor necrosis factor</term> and <term id="T9" lex="interleukin-7" sem="Protein_molecule">interleukin-7</term>.</sentence>
+<event id="E1">
+<type class="Cell_communication"/>
+<theme idref="A1"/>
+<theme idref="T2"/>
+<clue>Thymocyte-<clueLoc>thymic</clueLoc> epithelial cell <clueType>interaction</clueType> leads to high-level replication of human immunodeficiency virus exclusively in mature CD4(+) CD8(-) CD3(+) thymocytes: a critical role for tumor necrosis factor and interleukin-7.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E59"/>
+<cause idref="E1"/>
+<clue>Thymocyte-thymic epithelial cell interaction <clueType>leads</clueType> <linkTheme>to</linkTheme> high-level replication of human immunodeficiency virus exclusively in mature CD4(+) CD8(-) CD3(+) thymocytes: a critical role for tumor necrosis factor and interleukin-7.</clue>
+</event>
+<event Manner="High" id="E3">
+<type class="Viral_life_cycle"/>
+<theme idref="T4"/>
+<clue>Thymocyte-thymic epithelial cell interaction leads to <clueManner>high-level</clueManner> <clueType>replication</clueType> <linkTheme>of</linkTheme> human immunodeficiency virus exclusively <clueLoc>in mature CD4(+) CD8(-) CD3(+) thymocytes</clueLoc>: a critical role for tumor necrosis factor and interleukin-7.</clue>
+</event>
+<event id="E59">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<clue>Thymocyte-thymic epithelial cell interaction leads to <clueType>high-level</clueType> replication of human immunodeficiency virus exclusively in mature CD4(+) CD8(-) CD3(+) thymocytes: a critical role for tumor necrosis factor and interleukin-7.</clue>
+</event>
+<event KT="Investigation" id="E4">
+<type class="Regulation"/>
+<theme idref="E2"/>
+<cause idref="T8"/>
+<clue>Thymocyte-thymic epithelial cell interaction leads to high-level replication of human immunodeficiency virus exclusively in mature CD4(+) CD8(-) CD3(+) thymocytes: a <clueType>critical role</clueType> <linkCause>for</linkCause> tumor necrosis factor and interleukin-7.</clue>
+</event>
+<event KT="Investigation" id="E5">
+<type class="Regulation"/>
+<theme idref="E2"/>
+<cause idref="T9"/>
+<clue>Thymocyte-thymic epithelial cell interaction leads to high-level replication of human immunodeficiency virus exclusively in mature CD4(+) CD8(-) CD3(+) thymocytes: a <clueType>critical role</clueType> <linkCause>for</linkCause> tumor necrosis factor and interleukin-7.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">This work aims at identifying the <term id="T10" lex="thymocyte_subpopulation" sem="Cell_natural">thymocyte subpopulation</term> able to support <term id="T11" lex="human_immunodeficiency_virus_(HIV)_replication" sem="Other"><term id="T12" lex="human_immunodeficiency_virus" sem="Virus">human immunodeficiency virus</term> (<term id="T13" lex="HIV" sem="Virus">HIV</term>) replication</term> under the biological stimuli of the <term id="T14" lex="thymic_microenvironment" sem="Other">thymic microenvironment</term>.</sentence>
+<event KT="Investigation" id="E9" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="T10"/>
+<clue>This work <clueKT>aims at identifying</clueKT> the thymocyte subpopulation able to <clueType>support</clueType> human immunodeficiency virus (HIV) replication under the biological stimuli of the thymic microenvironment.</clue>
+<comment>NER: T10 sem mod, Other_name -&gt; Cell_type</comment></event>
+<event KT="Other" id="E10" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E11"/>
+<cause idref="T14"/>
+<clue>This work aims at identifying the thymocyte subpopulation able to support human immunodeficiency virus (HIV) replication <linkCause>under</linkCause> the biological stimuli of the thymic microenvironment.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Other" id="E11">
+<type class="Viral_life_cycle"/>
+<theme idref="T13"/>
+<clue>This work aims at identifying the thymocyte subpopulation able to support human immunodeficiency virus (HIV) <clueType>replication</clueType> under the biological stimuli of the thymic microenvironment.</clue>
+</event>
+<sentence id="S3">In this report we demonstrate that interaction with <term id="T15" lex="thymic_epithelial_cell" sem="Cell_natural">thymic epithelial cells</term> (<term id="T16" lex="TEC" sem="Cell_natural">TEC</term>) induces a <term id="T17" lex="high-level_replication" sem="Other">high-level replication</term> of the T-tropic primary isolate <term id="A5" sem="Virus">HIV-1(B-LAIp)</term> exclusively in the mature <term id="T20" lex="CD4(+)_CD8(-)_CD3(+)_thymocyte" sem="Cell_natural"><term id="T21" lex="CD4" sem="Protein_molecule">CD4</term>(+) <term id="A4" sem="Protein_molecule">CD8</term>(-) <term id="T22" lex="CD3" sem="Protein_molecule">CD3</term>(+) thymocytes</term>.</sentence>
+<event KT="Other" id="E12">
+<type class="Cell_communication"/>
+<theme idref="T10"/>
+<theme idref="T16"/>
+<clue>In this report we demonstrate that <clueType>interaction</clueType> <linkTheme>with</linkTheme> thymic epithelial cells (TEC) induces a high-level replication of the T-tropic primary isolate HIV-1(B-LAIp) exclusively in the mature CD4(+) CD8(-) CD3(+) thymocytes.</clue>
+<comment>NO COREFTHEME for T10</comment></event>
+<event KT="Analysis" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="E60"/>
+<cause idref="E12"/>
+<clue>In this report we <clueKT>demonstrate</clueKT> that interaction with thymic epithelial cells (TEC) <clueType>induces</clueType> a high-level replication of the T-tropic primary isolate HIV-1(B-LAIp) exclusively in the mature CD4(+) CD8(-) CD3(+) thymocytes.</clue>
+</event>
+<event KT="Other" Manner="High" id="E14">
+<type class="Viral_life_cycle"/>
+<theme idref="A5"/>
+<clue>In this report we demonstrate that interaction with thymic epithelial cells (TEC) induces a <clueManner>high-level</clueManner> <clueType>replication</clueType> <linkTheme>of</linkTheme> the T-tropic primary isolate HIV-1(B-LAIp) exclusively <clueLoc>in the mature CD4(+) CD8(-) CD3(+) thymocytes</clueLoc>.</clue>
+<comment>NER: T18 &amp; T19 del &quot;T-tropic primary isolate HIV-1(B-LAIp)&quot;</comment></event>
+<event KT="Other" id="E60">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<clue>In this report we demonstrate that interaction with thymic epithelial cells (TEC) induces a <clueType>high-level</clueType> replication of the T-tropic primary isolate HIV-1(B-LAIp) exclusively in the mature CD4(+) CD8(-) CD3(+) thymocytes.</clue>
+</event>
+<sentence id="S4"><term id="T23" lex="rumor_necrosis_factor" sem="Protein_family_or_group">Tumor necrosis factor</term> (<term id="T24" lex="TNF" sem="Protein_family_or_group">TNF</term>) and <term id="T25" lex="interleukin-7" sem="Protein_molecule">interleukin-7</term> (<term id="T26" lex="IL-7" sem="Protein_molecule">IL-7</term>), secreted during this interaction, are critical cytokines for <term id="T27" lex="HIV_long_terminal_repeat_transactivation" sem="Other"><term id="T28" lex="HIV_long_terminal_repeat" sem="DNA_domain_or_region">HIV long terminal repeat</term> transactivation</term> through <term id="Biological_process" lex="NF-kappaB-dependent_activation" sem="Other"><term id="T30" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>-dependent activation</term>.</sentence>
+<event KT="Fact" id="E18">
+<type class="Localization"/>
+<theme idref="T24"/>
+<clue>Tumor necrosis factor (TNF) and interleukin-7 (IL-7), <clueType>secreted</clueType> <clueTime>during this interaction</clueTime>, are critical cytokines for HIV long terminal repeat transactivation through NF-kappaB-dependent activation.</clue>
+</event>
+<event KT="Fact" id="E19">
+<type class="Localization"/>
+<theme idref="T26"/>
+<clue>Tumor necrosis factor (TNF) and interleukin-7 (IL-7), <clueType>secreted</clueType> <clueTime>during this interaction</clueTime>, are critical cytokines for HIV long terminal repeat transactivation through NF-kappaB-dependent activation.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="T28"/>
+<cause idref="T30"/>
+<clue>Tumor necrosis factor (TNF) and interleukin-7 (IL-7), secreted during this interaction, are critical cytokines for HIV long terminal repeat transactivation through NF-kappaB<linkCause>-dependent</linkCause> <clueType>activation</clueType>.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="T28"/>
+<cause idref="E20"/>
+<clue>Tumor necrosis factor (TNF) and interleukin-7 (IL-7), secreted during this interaction, are critical cytokines for HIV long terminal repeat <clueType>transactivation</clueType> <linkCause>through</linkCause> NF-kappaB-dependent activation.</clue>
+</event>
+<event KT="Fact" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="T24"/>
+<clue>Tumor necrosis factor (TNF) and interleukin-7 (IL-7), secreted during this interaction, are <clueType>critical</clueType> cytokines <linkTheme>for</linkTheme> HIV long terminal repeat transactivation through NF-kappaB-dependent activation.</clue>
+</event>
+<event KT="Fact" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="T26"/>
+<clue>Tumor necrosis factor (TNF) and interleukin-7 (IL-7), secreted during this interaction, are <clueType>critical</clueType> cytokines <linkTheme>for</linkTheme> HIV long terminal repeat transactivation through NF-kappaB-dependent activation.</clue>
+</event>
+<sentence id="S5"><term id="T31" lex="TNF" sem="Protein_family_or_group">TNF</term> is the major inducer of <term id="T32" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> and particularly of the <term id="T33" lex="p50-p65_complex" sem="Protein_complex">p50-p65 complex</term>, whereas <term id="T34" lex="IL-7" sem="Protein_molecule">IL-7</term> acts as a cofactor by sustaining the expression of the <term id="T35" lex="p75_TNF_receptor" sem="Protein_molecule">p75 <term id="T36" lex="TNF" sem="Protein_family_or_group">TNF</term> receptor</term>.</sentence>
+<event KT="Fact" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="T32"/>
+<cause idref="T31"/>
+<clue>TNF is the major <clueType>inducer</clueType> <linkTheme>of</linkTheme> NF-kappaB and particularly of the p50-p65 complex, whereas IL-7 acts as a cofactor by sustaining the expression of the p75 TNF receptor.</clue>
+</event>
+<event KT="Fact" id="E25">
+<type class="Positive_regulation"/>
+<theme idref="T33"/>
+<cause idref="T31"/>
+<clue>TNF is the major <clueType>inducer</clueType> of NF-kappaB and particularly <linkTheme>of</linkTheme> the p50-p65 complex, whereas IL-7 acts as a cofactor by sustaining the expression of the p75 TNF receptor.</clue>
+</event>
+<event KT="Fact" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="E27"/>
+<cause idref="T34"/>
+<clue>TNF is the major inducer of NF-kappaB and particularly of the p50-p65 complex, whereas IL-7 <clueType>acts as a cofactor by sustaining</clueType> the expression of the p75 TNF receptor.</clue>
+</event>
+<event KT="Other" id="E27">
+<type class="Gene_expression"/>
+<theme idref="T35"/>
+<clue>TNF is the major inducer of NF-kappaB and particularly of the p50-p65 complex, whereas IL-7 acts as a cofactor by sustaining the <clueType>expression</clueType> <linkTheme>of</linkTheme> the p75 TNF receptor.</clue>
+</event>
+<sentence id="S6">The requirement for <term id="T37" lex="TNF" sem="Protein_family_or_group">TNF</term> is further confirmed by the observation that the inability of the <term id="T38" lex="intermediate_CD4(+)_CD8(-)_CD3(-)_thymocyte" sem="Cell_natural">intermediate <term id="T39" lex="CD4" sem="Protein_molecule">CD4</term>(+) <term id="A6" sem="Protein_molecule">CD8</term>(-) <term id="T40" lex="CD3" sem="Protein_molecule">CD3</term>(-) thymocytes</term> to replicate the virus is associated with a defect in <term id="T41" lex="TNF" sem="Protein_family_or_group">TNF</term> production during their interaction with <term id="T42" lex="TEC" sem="Cell_natural">TEC</term> and correlates with the absence of <term id="T43" lex="nuclear_NF-kappaB_activity" sem="Other">nuclear <term id="T44" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activity</term> in these <term id="T45" lex="freshly_isolated_thymocyte" sem="Cell_natural">freshly isolated thymocytes</term>.</sentence>
+<event KT="Analysis" id="E28">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="T37"/>
+<clue>The <clueType>requirement</clueType> <linkCause>for</linkCause> TNF is further <clueKT>confirmed</clueKT> by the observation that the inability of the intermediate CD4(+) CD8(-) CD3(-) thymocytes to replicate the virus is associated with a defect in TNF production during their interaction with TEC and correlates with the absence of nuclear NF-kappaB activity in these freshly isolated thymocytes.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E29">
+<type class="Viral_life_cycle"/>
+<theme idref="A5"/>
+<clue>The requirement for TNF is further confirmed by the observation that the <cluePolarity>in</cluePolarity><clueKT><clueCL>ability</clueCL></clueKT> <clueLoc>of the intermediate CD4(+) CD8(-) CD3(-) thymocytes</clueLoc> to <clueType>replicate</clueType> <corefTheme>the virus</corefTheme> is associated with a defect in TNF production during their interaction with TEC and correlates with the absence of nuclear NF-kappaB activity in these freshly isolated thymocytes.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E30">
+<type class="Gene_expression"/>
+<theme idref="T41"/>
+<clue>The requirement for TNF is further confirmed by the observation that the inability of the intermediate CD4(+) CD8(-) CD3(-) thymocytes to replicate the virus is associated with a <cluePolarity>defect</cluePolarity> <linkTheme>in</linkTheme> TNF <clueType>production</clueType> <clueTime>during their interaction with TEC</clueTime> and correlates with the absence of nuclear NF-kappaB activity in these freshly isolated thymocytes.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E31">
+<type class="Localization"/>
+<theme idref="T44"/>
+<clue>The requirement for TNF is further confirmed by the observation that the inability of the intermediate CD4(+) CD8(-) CD3(-) thymocytes to replicate the virus is associated with a defect in TNF production during their interaction with TEC and correlates with the <cluePolarity>absence</cluePolarity> <linkTheme>of</linkTheme> <clueLoc>nuclear</clueLoc> NF-kappaB <clueType>activity</clueType> <clueLoc>in these freshly isolated thymocytes</clueLoc>.</clue>
+</event>
+<event KT="Analysis" id="E32">
+<type class="Correlation"/>
+<theme idref="E29"/>
+<theme idref="E30"/>
+<clue>The requirement for TNF is further confirmed by the observation that the inability of the intermediate CD4(+) CD8(-) CD3(-) thymocytes to replicate the virus is <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> a defect in TNF production during their interaction with TEC and correlates with the absence of nuclear NF-kappaB activity in these freshly isolated thymocytes.</clue>
+</event>
+<event KT="Analysis" id="E33">
+<type class="Correlation"/>
+<theme idref="E29"/>
+<theme idref="E30"/>
+<clue>The requirement for TNF is further confirmed by the observation that the inability of the intermediate CD4(+) CD8(-) CD3(-) thymocytes to replicate the virus is associated with a defect in TNF production during their interaction with TEC and <clueType><clueKT>correlates</clueKT></clueType> <linkTheme>with</linkTheme> the absence of nuclear NF-kappaB activity in these freshly isolated thymocytes.</clue>
+</event>
+<sentence id="S7">Addition of exogenous <term id="T46" lex="TNF" sem="Protein_family_or_group">TNF</term> to the <term id="T47" lex="intermediate_thymocyte_culture" sem="Cell_cultured">intermediate thymocyte cultures</term> induces <term id="T48" lex="NF-kappaB_activity" sem="Other"><term id="T49" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activity</term> and is sufficient to promote <term id="T50" lex="HIV_replication" sem="Other"><term id="A7" sem="Virus">HIV</term> replication</term> in the cocultures with <term id="T51" lex="TEC" sem="Cell_natural">TEC</term>.</sentence>
+<event id="E37">
+<type class="Positive_regulation"/>
+<theme idref="T49"/>
+<cause idref="T46"/>
+<clue>Addition of exogenous TNF <clueLoc>to the intermediate thymocyte cultures</clueLoc> <clueType>induces</clueType> NF-kappaB <clueType>activity</clueType> and is sufficient to promote HIV replication in the cocultures with TEC.</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation"/>
+<theme idref="E39"/>
+<cause idref="T46"/>
+<clue>Addition of exogenous TNF to the intermediate thymocyte cultures induces NF-kappaB activity and is <clueType>sufficient to promote</clueType> HIV replication in the cocultures with TEC.</clue>
+</event>
+<event id="E39">
+<type class="Viral_life_cycle"/>
+<theme idref="A7"/>
+<clue>Addition of exogenous TNF to the intermediate thymocyte cultures induces NF-kappaB activity and is sufficient to promote HIV <clueType>replication</clueType> in the cocultures with TEC.</clue>
+</event>
+<event id="E40">
+<type class="Positive_regulation"/>
+<theme idref="E38"/>
+<cause idref="T51"/>
+<clue>Addition of exogenous TNF to the intermediate thymocyte cultures induces NF-kappaB activity and is sufficient to promote HIV replication <linkCause>in the cocultures with</linkCause> TEC.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S8">The other major subpopulation expressing the <term id="T52" lex="CD4_receptor" sem="Protein_molecule"><term id="T53" lex="CD4" sem="Protein_molecule">CD4</term> receptor</term>, namely, the <term id="T54" lex="double-positive_(DP)_CD4(+)_CD8(+)_CD3(+/-)_thymocyte" sem="Cell_natural">double-positive (DP) <term id="T55" lex="CD4" sem="Protein_molecule">CD4</term>(+) <term id="A9" sem="Protein_molecule">CD8</term>(+) <term id="T56" lex="CD3" sem="Protein_molecule">CD3</term>(+/-) thymocytes</term>, despite the entry of the virus, do not produce a significant level of virus, presumably because they are unresponsive to <term id="T57" lex="TNF" sem="Protein_family_or_group">TNF</term> and <term id="T58" lex="IL-7" sem="Protein_molecule">IL-7</term>.</sentence>
+<event id="E41">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T7"/>
+<theme idref="T54"/>
+<clue>The other major subpopulation expressing the CD4 receptor, namely, the double-positive (DP) CD4(+) CD8(+) CD3(+/-) thymocytes, despite the <clueType>entry</clueType> <linkTheme>of</linkTheme> <corefTheme>the virus</corefTheme>, do not produce a significant level of virus, presumably because they are unresponsive to TNF and IL-7.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E42">
+<type class="Viral_life_cycle"/>
+<theme idref="T7"/>
+<clue>The other major subpopulation expressing the CD4 receptor, namely, the <clueLoc>double-positive (DP) CD4(+) CD8(+) CD3(+/-) thymocytes</clueLoc>, despite the entry of the virus, do <cluePolarity>not</cluePolarity> <clueType>produce</clueType> a significant level <linkTheme>of</linkTheme> virus, presumably because they are unresponsive to TNF and IL-7.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E43">
+<type class="Regulation"/>
+<theme idref="T54"/>
+<cause idref="T57"/>
+<clue>The other major subpopulation expressing the CD4 receptor, namely, the double-positive (DP) CD4(+) CD8(+) CD3(+/-) thymocytes, despite the entry of the virus, do not produce a significant level of virus, <clueKT><clueCL>presumably</clueCL></clueKT> because they are <clueType><cluePolarity>un</cluePolarity>responsive</clueType> <linkCause>to</linkCause> TNF and IL-7.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E44">
+<type class="Regulation"/>
+<theme idref="T54"/>
+<cause idref="T58"/>
+<clue>The other major subpopulation expressing the CD4 receptor, namely, the double-positive (DP) CD4(+) CD8(+) CD3(+/-) thymocytes, despite the entry of the virus, do not produce a significant level of virus, <clueKT><clueCL>presumably</clueCL></clueKT> because they are <clueType><cluePolarity>un</cluePolarity>responsive</clueType> <linkCause>to</linkCause> TNF and IL-7.</clue>
+</event>
+<event id="E47">
+<type class="Gene_expression"/>
+<theme idref="T53"/>
+<clue><clueLoc>The other major subpopulation</clueLoc> <clueType>expressing</clueType> the CD4 receptor, namely, the double-positive (DP) CD4(+) CD8(+) CD3(+/-) thymocytes, despite the entry of the virus, do not produce a significant level of virus, presumably because they are unresponsive to TNF and IL-7.</clue>
+</event>
+<sentence id="S9">Together, these data suggest that in vivo, despite an efficient entry of the <term id="A10" sem="Virus">virus</term> in all the <term id="T59" lex="CD4(+)_subpopulation" sem="Cell_natural"><term id="T60" lex="CD4" sem="Protein_molecule">CD4</term>(+) subpopulations</term>, a high viral load may be generated exclusively within the <term id="T61" lex="mature_CD4(+)_CD8(-)_CD3(+)_subset_of_thymocyte" sem="Cell_natural">mature <term id="T62" lex="CD4" sem="Protein_molecule">CD4</term>(+) <term id="A11" sem="Protein_molecule">CD8</term>(-) <term id="T63" lex="CD3" sem="Protein_molecule">CD3</term>(+) subset of thymocytes</term>.</sentence>
+<event KT="Other" id="E48">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="A10"/>
+<theme idref="T59"/>
+<clue>Together, these data suggest that in vivo, despite an <clueType>efficient entry</clueType> <linkTheme>of</linkTheme> the virus in all the CD4(+) subpopulations, a high viral load may be generated exclusively within the mature CD4(+) CD8(-) CD3(+) subset of thymocytes.</clue>
+</event>
+<event KT="Other" Manner="High" id="E49">
+<type class="Viral_life_cycle"/>
+<theme idref="A10"/>
+<clue>Together, these data suggest that in vivo, despite an efficient entry of the virus in all the CD4(+) subpopulations, a <clueManner>high</clueManner> <clueType>viral load</clueType> may be generated exclusively within the mature CD4(+) CD8(-) CD3(+) subset of thymocytes.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E50" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E49"/>
+<clue>Together, these data <clueKT>suggest</clueKT> that in vivo, despite an efficient entry of the virus in all the CD4(+) subpopulations, a <clueType>high</clueType> viral load <clueCL>may</clueCL> be <clueType>generated</clueType> exclusively <clueLoc>within the mature CD4(+) CD8(-) CD3(+) subset of thymocytes</clueLoc>.</clue>
+</event>
+<sentence id="S10">However, under conditions of <term id="T64" lex="inflammatory_response" sem="Other">inflammatory response</term> after infection, <term id="T65" lex="TNF" sem="Protein_family_or_group">TNF</term> might also be present in the <term id="T66" lex="intermediate_thymocyte_compartment" sem="Cell_natural">intermediate thymocyte compartment</term>, leading to efficient <term id="T67" lex="HIV_replication" sem="Other"><term id="A12" sem="Virus">HIV</term> replication</term> in these cells.</sentence>
+<event CL="L1" KT="Analysis" id="E61" uncertainty="probable">
+<type class="Gene_expression"/>
+<theme idref="T65"/>
+<clue>However, under conditions of inflammatory response after infection, TNF <clueKT><clueCL>might</clueCL></clueKT> also be <clueType>present</clueType> in the intermediate thymocyte compartment, leading to efficient HIV replication in these cells.</clue>
+<comment>CAUTION</comment></event>
+<event KT="Other" id="E54" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E55"/>
+<cause idref="T65"/>
+<clue>However, under conditions of inflammatory response <clueTime>after infection</clueTime>, TNF might also be present <clueLoc>in the intermediate thymocyte compartment</clueLoc>, <clueType>leading</clueType> <linkTheme>to</linkTheme> efficient HIV replication in these cells.</clue>
+</event>
+<event KT="Other" id="E55">
+<type class="Viral_life_cycle"/>
+<theme idref="A12"/>
+<clue>However, under conditions of inflammatory response after infection, TNF might also be present in the intermediate thymocyte compartment, leading to efficient HIV <clueType>replication</clueType> <clueLoc>in these cells</clueLoc>.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

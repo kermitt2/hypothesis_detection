@@ -1,0 +1,13 @@
+T22	DDI 72 84	interactions
+T21	DDI 656 667	interaction
+T24	Adverse_effect 635 641	result
+T25	DDI 1067 1078	interaction
+T26	Adverse_effect 1053 1060	related
+T34	Potential_therapeutic_effect 1130 1132	in
+R1	is_equivalent Arg1:T9 Arg2:T10
+E1	DDI:T22 has_participant:T2 has_participant:T17
+E2	DDI:T21 has_participant:T9 has_participant:T11
+E5	DDI:T25 has_participant:T14 has_participant:T15
+E4	Adverse_effect:T24 has_agent:E2 affects:T8
+E6	Adverse_effect:T26 affects:T13 has_agent:E5
+E8	Potential_therapeutic_effect:T34 affects:T33 has_agent:T16

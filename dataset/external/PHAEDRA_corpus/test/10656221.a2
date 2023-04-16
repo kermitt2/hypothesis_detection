@@ -1,0 +1,15 @@
+T23	Adverse_effect 20 28	-induced
+T24	Adverse_effect 111 118	induced
+T25	Adverse_effect 175 182	induced
+T27	Adverse_effect 284 293	developed
+T31	Adverse_effect 955 971	adverse reaction
+T36	Adverse_effect 1079 1085	induce
+R1	Subject_Disorder Arg1:T26 Arg2:T8
+R2	Subject_Disorder Arg1:T43 Arg2:T21
+E1	Adverse_effect:T23 has_agent:T1 affects:T2
+E2	Adverse_effect:T24 affects:T4 has_agent:T3
+E3	Adverse_effect:T25 has_agent:T6 affects:T5
+E4	Adverse_effect:T27 affects:T9 has_agent:T10 has_subject:T26
+E5	Adverse_effect:T31 has_agent:T17 affects:T16
+E6	Adverse_effect:T36 has_agent:T18 affects:T19 has_cue:T33
+A1	Speculated E6

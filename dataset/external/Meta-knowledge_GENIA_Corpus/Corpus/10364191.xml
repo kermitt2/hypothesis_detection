@@ -1,0 +1,156 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10364191" created="28/06/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10364191</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Potent and stable attenuation of <term id="T1" lex="live-HIV-1" sem="Virus">live-HIV-1</term> by gain of a <term id="T2" lex="proteolysis-resistant_inhibitor" sem="Protein_family_or_group">proteolysis-resistant inhibitor</term> of <term id="T3" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> (<term id="T4" lex="IkappaB-alphaS32/36A" sem="Protein_molecule">IkappaB-alphaS32/36A</term>) and the implications for <term id="T5" lex="vaccine_development" sem="Other">vaccine development</term>.</sentence>
+<event KT="Investigation" Manner="High" id="E1">
+<type class="Negative_regulation"/>
+<theme idref="T1"/>
+<cause idref="T4"/>
+<clue><clueManner>Potent</clueManner> and stable <clueType>attenuation</clueType> <linkTheme>of</linkTheme> live-HIV-1 <linkCause>by gain of</linkCause> a proteolysis-resistant inhibitor of NF-kappaB (IkappaB-alphaS32/36A) and the implications for vaccine development.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Negative_regulation"/>
+<theme idref="T3"/>
+<cause idref="T4"/>
+<clue>Potent and stable attenuation of live-HIV-1 by gain of a proteolysis-resistant <clueType>inhibitor</clueType> <linkTheme>of</linkTheme> NF-kappaB (IkappaB-alphaS32/36A) and the implications for vaccine development.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E3">
+<type class="Protein_catabolism"/>
+<theme idref="T4"/>
+<clue>Potent and stable attenuation of live-HIV-1 by gain of a <clueType>proteolysis</clueType>-<cluePolarity>resistant</cluePolarity> inhibitor of NF-kappaB (IkappaB-alphaS32/36A) and the implications for vaccine development.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T6" lex="live-attenuated_human_immunodeficiency_virus" sem="Virus">Live-attenuated human immunodeficiency viruses</term> (<term id="T7" lex="HIV" sem="Virus">HIVs</term>) are candidates for <term id="T8" lex="Acquired_Immunodeficiency_Syndrome_(AIDS)_vaccine" sem="Other">Acquired Immunodeficiency Syndrome (AIDS) vaccine</term>.</sentence>
+<event KT="Other" id="E4">
+<type class="Regulation"/>
+<theme idref="T7"/>
+<clue>Live-<clueType>attenuated</clueType> human immunodeficiency viruses (HIVs) are candidates for Acquired Immunodeficiency Syndrome (AIDS) vaccine.</clue>
+</event>
+<sentence id="S3">Based on the <term id="T9" lex="simian_immunodeficiency_virus_(SIV)_model" sem="Virus">simian immunodeficiency virus (SIV) model</term> for <term id="T10" lex="AIDS" sem="Other">AIDS</term>, <term id="T11" lex="loss-of-function" sem="Other">loss-of-function</term> (e.g. deletion of accessory genes such as <term id="T12" lex="nef" sem="DNA_domain_or_region">nef</term>) has been forwarded as a primary approach for creating <term id="A20" sem="Virus">enfeebled, but replication-competent, <term id="T13" lex="HIV-1/SIV" sem="Virus">HIV-1/SIV</term></term>.</sentence>
+<event KT="Method" id="E5">
+<type class="Mutagenesis"/>
+<theme idref="T12"/>
+<clue>Based on the simian immunodeficiency virus (SIV) model for AIDS, loss-of-function (e.g. <clueType>deletion</clueType> <linkTheme>of</linkTheme> <corefTheme>accessory genes</corefTheme> such as nef) has been forwarded as a primary approach for creating enfeebled, but replication-competent, HIV-1/SIV.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event KT="Other" id="E23" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="A20"/>
+<cause idref="E5"/>
+<clue>Based on the simian immunodeficiency virus (SIV) model for AIDS, loss-of-function (e.g. deletion of accessory genes such as nef) has been forwarded as a primary approach for <clueType>creating</clueType> enfeebled, but replication-competent, HIV-1/SIV.</clue>
+<comment>TPS: A20</comment></event>
+<event KT="Other" id="E21">
+<type class="Negative_regulation"/>
+<theme idref="T13"/>
+<clue>Based on the simian immunodeficiency virus (SIV) model for AIDS, loss-of-function (e.g. deletion of accessory genes such as nef) has been forwarded as a primary approach for creating <clueType>enfeebled</clueType>, but replication-competent, HIV-1/SIV.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Viral_life_cycle"/>
+<theme idref="T13"/>
+<clue>Based on the simian immunodeficiency virus (SIV) model for AIDS, loss-of-function (e.g. deletion of accessory genes such as nef) has been forwarded as a primary approach for creating enfeebled, but <clueType>replication</clueType>-competent, HIV-1/SIV.</clue>
+</event>
+<sentence id="S4">Regrettably, recent evidence suggests that <term id="T14" lex="loss-of-function" sem="Other">loss-of-function</term> alone is not always sufficient to prevent the emergence of <term id="T15" lex="virulent_mutants" sem="Virus">virulent mutants</term>.</sentence>
+<event CL="L2" KT="Analysis" Source="Other" id="E6">
+<type class="Negative_regulation"/>
+<theme idref="T15"/>
+<cause idref="T14"/>
+<clue>Regrettably, <clueSource>recent</clueSource> <clueKT>evidence</clueKT> <clueCL>suggests</clueCL> that loss-of-function alone is <clueCL>not always sufficient</clueCL> to <clueType>prevent the emergence</clueType> <linkTheme>of</linkTheme> virulent mutants.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" Source="Other" assertion="non-exist" id="E15">
+<type class="Negative_regulation"/>
+<theme idref="T15"/>
+<cause idref="T14"/>
+<clue>Regrettably, <clueSource>recent</clueSource> <clueKT>evidence</clueKT> <clueCL>suggests</clueCL> that loss-of-function alone is <clueCL><cluePolarity>not</cluePolarity> always sufficient</clueCL> to <clueType>prevent the emergence</clueType> <linkTheme>of</linkTheme> virulent mutants.</clue>
+</event>
+<sentence id="S5">New strategies that attenuate via mechanisms distinct from <term id="T16" lex="loss-of-function" sem="Other">loss-of-function</term> are needed for enhancing the safety phenotype of <term id="T17" lex="viral_genome" sem="DNA_family_or_group">viral genome</term>.</sentence>
+<sentence id="S6">Here, we propose <term id="T18" lex="gain-of-function" sem="Other">gain-of-function</term> to be used simultaneously with <term id="T19" lex="loss-of-function" sem="Other">loss-of-function</term> as a novel approach for attenuating <term id="T20" lex="HIV-1" sem="Virus">HIV-1</term>.</sentence>
+<event KT="Other" id="E7" uncertainty="doubtful">
+<type class="Negative_regulation"/>
+<theme idref="T20"/>
+<cause idref="T18"/>
+<clue>Here, we propose gain-of-function to be used simultaneously with loss-of-function as a novel approach for <clueType>attenuating</clueType> HIV-1.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Negative_regulation"/>
+<theme idref="T20"/>
+<cause idref="T19"/>
+<clue>Here, we propose gain-of-function to be used simultaneously with loss-of-function as a novel approach for <clueType>attenuating</clueType> HIV-1.</clue>
+</event>
+<sentence id="S7">We have constructed an <term id="A1" sem="DNA_family_or_group"><term id="T21" lex="HIV-1_genome" sem="DNA_family_or_group"><term id="T22" lex="HIV-1" sem="Virus">HIV-1</term> genome</term> carrying the <term id="T23" lex="cDNA" sem="DNA_family_or_group">cDNA</term></term> of a <term id="T24" lex="proteolysis-resistant_nuclear_factor-kappaB_inhibitor" sem="Protein_family_or_group">proteolysis-resistant nuclear factor-kappaB inhibitor</term> (<term id="T25" lex="IkappaB-alphaS32/36A" sem="Protein_molecule">IkappaB-alphaS32/36A</term>) in the <term id="T26" lex="nef_region" sem="DNA_domain_or_region"><term id="T27" lex="nef" sem="DNA_domain_or_region">nef</term> region</term>.</sentence>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E9">
+<type class="Protein_catabolism"/>
+<theme idref="T25"/>
+<clue>We have constructed an HIV-1 genome carrying the cDNA of a <clueType>proteolysis</clueType>-<cluePolarity>resistant</cluePolarity> nuclear factor-kappaB inhibitor (IkappaB-alphaS32/36A) in the nef region.</clue>
+</event>
+<event id="E8">
+<type class="Negative_regulation"/>
+<theme idref="E9"/>
+<clue>We have constructed an HIV-1 genome carrying the cDNA of a proteolysis-<clueType>resistant</clueType> nuclear factor-kappaB inhibitor (IkappaB-alphaS32/36A) in the nef region.</clue>
+</event>
+<sentence id="S8"><term id="A21" sem="Virus"><term id="T28" lex="HIV-1" sem="Virus">HIV-1</term> expressing <term id="T29" lex="IkappaB-alphaS32/36A" sem="Protein_molecule">IkappaB-alphaS32/36A</term></term> down-regulates <term id="T30" lex="viral_expression" sem="Other">viral expression</term> and is highly attenuated in both <term id="T31" lex="Jurkat_cell" sem="Cell_cultured">Jurkat</term> and <term id="T32" lex="peripheral_blood_mononuclear_cell" sem="Cell_natural">peripheral blood mononuclear cells</term>.</sentence>
+<event id="E10">
+<type class="Gene_expression"/>
+<theme idref="T29"/>
+<clue>HIV-1 <clueType>expressing</clueType> IkappaB-alphaS32/36A down-regulates viral expression and is highly attenuated in both Jurkat and peripheral blood mononuclear cells.</clue>
+</event>
+<event id="E11">
+<type class="Negative_regulation"/>
+<theme idref="E24"/>
+<cause idref="E10"/>
+<clue>HIV-1 expressing IkappaB-alphaS32/36A <clueType>down-regulates</clueType> viral expression and is highly attenuated in both Jurkat and peripheral blood mononuclear cells.</clue>
+</event>
+<event id="E24">
+<type class="Viral_life_cycle"/>
+<theme idref="A21"/>
+<clue>HIV-1 expressing IkappaB-alphaS32/36A down-regulates <corefTheme>viral</corefTheme> <clueType>expression</clueType> and is highly attenuated in both Jurkat and peripheral blood mononuclear cells.</clue>
+</event>
+<event Manner="High" id="E12">
+<type class="Negative_regulation"/>
+<theme idref="E10"/>
+<clue>HIV-1 expressing IkappaB-alphaS32/36A down-regulates viral expression and is <clueManner>highly</clueManner> <clueType>attenuated</clueType> <clueLoc>in</clueLoc> both <clueLoc>Jurkat</clueLoc> and peripheral blood mononuclear <clueLoc>cells</clueLoc>.</clue>
+</event>
+<event Manner="High" id="E25">
+<type class="Negative_regulation"/>
+<theme idref="E10"/>
+<clue>HIV-1 expressing IkappaB-alphaS32/36A down-regulates viral expression and is <clueManner>highly</clueManner> <clueType>attenuated</clueType> <clueLoc>in</clueLoc> both Jurkat and <clueLoc>peripheral blood mononuclear cells</clueLoc>.</clue>
+</event>
+<sentence id="S9">We provide formal proof that the phenotypic and attenuating characteristics of <term id="T33" lex="IkappaB-alphaS32/36A" sem="Protein_molecule">IkappaB-alphaS32/36A</term> permit its stable maintenance in a live, replicating <term id="T34" lex="HIV-1" sem="Virus">HIV-1</term> despite 180 days of forced ex vivo passaging in <term id="T35" lex="tissue_culture" sem="Tissue_cultured">tissue culture</term>.</sentence>
+<event KT="Analysis" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T33"/>
+<clue>We provide formal <clueKT>proof</clueKT> that the phenotypic and attenuating characteristics of IkappaB-alphaS32/36A permit its stable <clueType>maintenance</clueType> <clueLoc>in a live, replicating HIV-1</clueLoc> despite <clueTime>180 days</clueTime> of forced ex vivo passaging in tissue culture.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Viral_life_cycle"/>
+<theme idref="T34"/>
+<clue>We provide formal proof that the phenotypic and attenuating characteristics of IkappaB-alphaS32/36A permit its stable maintenance in a live, <clueType>replicating</clueType> HIV-1 despite 180 days of forced ex vivo passaging in tissue culture.</clue>
+</event>
+<sentence id="S10">As compared with other <term id="T36" lex="open-reading_frame" sem="DNA_family_or_group">open-reading frames</term> embedded into <term id="T37" lex="HIV/SIV_genome" sem="DNA_family_or_group">HIV/SIV genome</term>, this degree of stability is unprecedented.</sentence>
+<event KT="Method" id="E16">
+<type class="Mutagenesis"/>
+<theme idref="T36"/>
+<theme idref="T37"/>
+<clue>As <clueKT>compared</clueKT> with other open-reading frames <clueType>embedded</clueType> <linkTheme>into</linkTheme> HIV/SIV genome, this degree of stability is unprecedented.</clue>
+<comment>ARTIFICIAL</comment></event>
+<sentence id="S11">Thus, <term id="T38" lex="IkappaB-alphaS32/36A" sem="Protein_molecule">IkappaB-alphaS32/36A</term> offers proof-of-principle that artifactually gained functions, when used to attenuate the replication of <term id="T39" lex="live_HIV-1" sem="Virus">live <term id="T40" lex="HIV-1" sem="Virus">HIV-1</term></term>, can be stable.</sentence>
+<event KT="Other" id="E17">
+<type class="Negative_regulation"/>
+<theme idref="E18"/>
+<cause idref="T38"/>
+<clue>Thus, IkappaB-alphaS32/36A offers proof-of-principle that artifactually gained functions, when used to <clueType>attenuate</clueType> the replication of live HIV-1, can be stable.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Viral_life_cycle"/>
+<theme idref="T40"/>
+<clue>Thus, IkappaB-alphaS32/36A offers proof-of-principle that artifactually gained functions, when used to attenuate the <clueType>replication</clueType> <linkTheme>of</linkTheme> live HIV-1, can be stable.</clue>
+</event>
+<sentence id="S12">These findings illustrate <term id="T41" lex="gain-of-function" sem="Other">gain-of-function</term> as a feasible strategy for developing safer <term id="T42" lex="live-attenuated_HIV" sem="Virus">live-attenuated <term id="T43" lex="HIV" sem="Virus">HIVs</term></term> to be tested as candidates for <term id="T44" lex="AIDS_vaccine" sem="Other">AIDS vaccine</term>.</sentence>
+<event KT="Investigation" id="E19">
+<type class="Negative_regulation"/>
+<theme idref="T43"/>
+<clue>These findings illustrate gain-of-function as a feasible strategy for developing safer live-<clueType>attenuated</clueType> HIVs <clueKT>to be tested</clueKT> as candidates for AIDS vaccine.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

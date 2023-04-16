@@ -1,0 +1,10 @@
+T33	Potential_therapeutic_effect 83 92	receiving
+T34	Potential_therapeutic_effect 256 265	treatment
+T35	Potential_therapeutic_effect 742 750	received
+R1	Subject_Disorder Arg1:T26 Arg2:T10
+R2	Subject_Disorder Arg1:T19 Arg2:T21
+R6	is_equivalent Arg1:T1 Arg2:T39
+R7	is_equivalent Arg1:T5 Arg2:T38
+E2	Potential_therapeutic_effect:T33 has_agent:T1 has_subject:T2 affects:T4
+E3	Potential_therapeutic_effect:T34 has_agent:T5 affects:T7
+E4	Potential_therapeutic_effect:T35 has_agent:T36 affects:T11 has_subject:T28

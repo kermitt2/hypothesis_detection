@@ -1,0 +1,278 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7506531" created="25/02/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7506531</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Induction of <term id="T1" lex="tyrosine_phosphorylation" sem="Other"><term id="T2" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> phosphorylation</term> and <term id="T3" lex="T-cell_activation" sem="Other"><term id="T4" lex="T-cell" sem="Cell_natural">T-cell</term> activation</term> by <term id="T5" lex="vanadate_peroxide" sem="Organic_compound_other">vanadate peroxide</term>, an inhibitor of <term id="T6" lex="protein_tyrosine_phosphatase" sem="Protein_family_or_group">protein <term id="T7" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> phosphatases</term>.</sentence>
+<event KT="Investigation" id="E61">
+<type class="Negative_regulation"/>
+<theme idref="T6"/>
+<cause idref="T5"/>
+<clue>Induction of tyrosine phosphorylation and T-cell activation by vanadate peroxide, an <clueType>inhibitor</clueType> <linkTheme>of</linkTheme> protein tyrosine phosphatases.</clue>
+</event>
+<event KT="Investigation" id="E1">
+<type class="Positive_regulation"/>
+<theme idref="T1"/>
+<cause idref="T5"/>
+<clue><clueType>Induction</clueType> <linkTheme>of</linkTheme> tyrosine phosphorylation and T-cell activation <linkCause>by</linkCause> vanadate peroxide, an inhibitor of protein tyrosine phosphatases.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Physiological_process"/>
+<theme idref="T4"/>
+<cause idref="T5"/>
+<clue>Induction of tyrosine phosphorylation and T-cell <clueType>activation</clueType> <linkCause>by</linkCause> vanadate peroxide, an inhibitor of protein tyrosine phosphatases.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Rapid <term id="T8" lex="tyrosine_phosphorylation" sem="Other"><term id="T9" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> phosphorylation</term> of <term id="A20" sem="Protein_molecule">key cellular proteins</term> is a crucial event in the transduction of <term id="A2" sem="Other">activation signals</term> to <term id="T10" lex="T-lymphocyte" sem="Cell_natural">T-lymphocytes</term>.</sentence>
+<event KT="Other" Manner="High" id="E50">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="A20"/>
+<site idref="T9"/>
+<clue><clueManner>Rapid</clueManner> tyrosine <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> key cellular proteins is a crucial event in the transduction of activation signals to T-lymphocytes.</clue>
+</event>
+<event KT="Other" id="E51">
+<type class="Cell_communication"/>
+<theme idref="T10"/>
+<theme idref="A2"/>
+<clue>Rapid tyrosine phosphorylation of key cellular proteins is a crucial event in the <clueType>transduction</clueType> <linkTheme>of</linkTheme> activation signals <linkTheme>to</linkTheme> T-lymphocytes.</clue>
+<comment>CAUTION</comment></event>
+<event KT="Fact" id="E52">
+<type class="Positive_regulation"/>
+<theme idref="E51"/>
+<cause idref="E50"/>
+<clue>Rapid tyrosine phosphorylation of key cellular proteins is a <clueType>crucial event</clueType> <linkTheme>in</linkTheme> the transduction of activation signals to T-lymphocytes.</clue>
+</event>
+<sentence id="S3">The regulatory role of <term id="T11" lex="protein_tyrosine_phosphatase" sem="Protein_family_or_group">protein <term id="T12" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> phosphatases</term> (<term id="T13" lex="PTPase" sem="Protein_family_or_group">PTPases</term>) in this process was explored by studying the effects of a powerful <term id="T14" lex="PTPase_inhibitor" sem="Other"><term id="T15" lex="PTPase" sem="Protein_molecule">PTPase</term> inhibitor</term>, <term id="T16" lex="vanadate_peroxide" sem="Organic_compound_other">vanadate peroxide</term> (<term id="T17" lex="pervanadate" sem="Organic_compound_other">pervanadate</term>), on the activation cascade of <term id="T18" lex="Jurkat_human_leukaemic_T-cell" sem="Cell_cultured">Jurkat human leukaemic T-cells</term>.</sentence>
+<event KT="Investigation" id="E62" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E52"/>
+<cause idref="T13"/>
+<clue>The <clueType>regulatory role</clueType> <linkCause>of</linkCause> protein tyrosine phosphatases (PTPases) <linkTheme>in</linkTheme> <corefTheme>this process</corefTheme> was <clueKT>explored</clueKT> by studying the effects of a powerful PTPase inhibitor, vanadate peroxide (pervanadate), on the activation cascade of Jurkat human leukaemic T-cells.</clue>
+</event>
+<event KT="Other" Manner="High" id="E63">
+<type class="Negative_regulation"/>
+<theme idref="T15"/>
+<cause idref="T17"/>
+<clue>The regulatory role of protein tyrosine phosphatases (PTPases) in this process was explored by studying the effects of a <clueManner>powerful</clueManner> PTPase <clueType>inhibitor</clueType>, vanadate peroxide (pervanadate), on the activation cascade of Jurkat human leukaemic T-cells.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Physiological_process"/>
+<theme idref="T18"/>
+<clue>The regulatory role of protein tyrosine phosphatases (PTPases) in this process was explored by studying the effects of a powerful PTPase inhibitor, vanadate peroxide (pervanadate), on the <clueType>activation</clueType> cascade <linkTheme>of</linkTheme> Jurkat human leukaemic T-cells.</clue>
+</event>
+<event KT="Investigation" id="E12" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E11"/>
+<cause idref="E63"/>
+<clue>The regulatory role of protein tyrosine phosphatases (PTPases) in this process was explored by <clueKT>studying</clueKT> the <clueType>effects</clueType> <linkCause>of</linkCause> a powerful PTPase inhibitor, vanadate peroxide (pervanadate), <linkTheme>on</linkTheme> the activation cascade of Jurkat human leukaemic T-cells.</clue>
+</event>
+<sentence id="S4"><term id="A1" sem="Inorganic_compound">Pervanadate</term> induced activation of the <term id="T19" lex="tyrosine_kinase" sem="Protein_family_or_group"><term id="T20" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> kinases</term> <term id="T21" lex="lck" sem="Protein_molecule">lck</term> and <term id="T22" lex="fyn" sem="Protein_molecule">fyn</term> (4- and 3-fold respectively) and a dramatic increase in <term id="T23" lex="tyrosine_phosphorylation" sem="Other"><term id="T24" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> phosphorylation</term> of <term id="T25" lex="cellular_protein" sem="Protein_family_or_group">cellular proteins</term>, notably <term id="T26" lex="phospholipase_C_gamma_1" sem="Protein_molecule">phospholipase C gamma 1</term>.</sentence>
+<event Manner="High" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T21"/>
+<cause idref="A1"/>
+<clue>Pervanadate induced <clueType>activation</clueType> <linkTheme>of</linkTheme> the tyrosine kinases lck and fyn (<clueManner>4-</clueManner> and 3-<clueManner>fold</clueManner> respectively) and a dramatic increase in tyrosine phosphorylation of cellular proteins, notably phospholipase C gamma 1.</clue>
+</event>
+<event Manner="High" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="T22"/>
+<cause idref="A1"/>
+<clue>Pervanadate induced <clueType>activation</clueType> <linkTheme>of</linkTheme> the tyrosine kinases lck and fyn (4- and <clueManner>3-fold</clueManner> respectively) and a dramatic increase in tyrosine phosphorylation of cellular proteins, notably phospholipase C gamma 1.</clue>
+</event>
+<event id="E15">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T26"/>
+<clue>Pervanadate induced activation of the tyrosine kinases lck and fyn (4- and 3-fold respectively) and a dramatic increase in tyrosine <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> cellular proteins, notably phospholipase C gamma 1.</clue>
+</event>
+<event Manner="High" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="A1"/>
+<clue>Pervanadate induced activation of the tyrosine kinases lck and fyn (4- and 3-fold respectively) and a <clueManner>dramatic</clueManner> <clueType>increase</clueType> <linkTheme>in</linkTheme> tyrosine phosphorylation of cellular proteins, notably phospholipase C gamma 1.</clue>
+</event>
+<sentence id="S5">After this event, we observed a rise in intracellular <term id="T27" lex="Ca2+_concentration" sem="Other"><term id="T28" lex="Ca2+" sem="Element">Ca2+</term> concentration</term>, corresponding to an <term id="A70" sem="Other">influx</term>.</sentence>
+<event id="E64">
+<type class="Positive_regulation"/>
+<theme idref="T28"/>
+<clue>After this event, we <clueKT>observed</clueKT> a <clueType>rise</clueType> <linkTheme>in</linkTheme> <clueLoc>intracellular</clueLoc> Ca2+ concentration, corresponding to an influx.</clue>
+</event>
+<event KT="Analysis" id="E65">
+<type class="Correlation"/>
+<theme idref="A70"/>
+<theme idref="E64"/>
+<clue>After this event, we observed a rise in intracellular Ca2+ concentration, <clueType><clueKT>corresponding</clueKT></clueType> <linkTheme>to</linkTheme> an influx.</clue>
+</event>
+<sentence id="S6">This effect required surface expression of the <term id="T29" lex="CD45_PTPase" sem="Protein_molecule">CD45 PTPase</term> and was not observed in <term id="T30" lex="CD45-deficient_variant" sem="Cell_cultured">CD45-deficient variants</term> of <term id="T31" lex="Jurkat_cell" sem="Cell_cultured">Jurkat cells</term>.</sentence>
+<event id="E17">
+<type class="Gene_expression"/>
+<theme idref="T29"/>
+<clue>This effect required <clueLoc>surface</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> the CD45 PTPase and was not observed in CD45-deficient variants of Jurkat cells.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation"/>
+<theme idref="E64"/>
+<cause idref="E17"/>
+<clue><corefTheme>This effect</corefTheme> <clueType>required</clueType> surface expression of the CD45 PTPase and was not observed in CD45-deficient variants of Jurkat cells.</clue>
+</event>
+<event Polarity="Negative" id="E66">
+<type class="Negative_regulation"/>
+<theme idref="E64"/>
+<clue><corefTheme>This effect</corefTheme> required surface expression of the CD45 PTPase and was <cluePolarity>not</cluePolarity> <clueType><clueKT>observed</clueKT></clueType> <clueLoc>in CD45-deficient variants of Jurkat cells.</clueLoc></clue>
+</event>
+<sentence id="S7">In the <term id="T32" lex="CD45-negative_variant" sem="Cell_cultured">CD45-negative variant</term>, the effect of <term id="T33" lex="pervanadate" sem="Organic_compound_other">pervanadate</term> on <term id="T34" lex="tyrosine_phosphorylation" sem="Other"><term id="T35" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> phosphorylation</term> was globally decreased and some <term id="T36" lex="phosphorylated_substrate" sem="Amino_acid_monomer">phosphorylated substrates</term> were specifically missing.</sentence>
+<event KT="Other" id="E19">
+<type class="Regulation"/>
+<theme idref="T34"/>
+<cause idref="T33"/>
+<clue>In the CD45-negative variant, the <clueType>effect</clueType> <linkCause>of</linkCause> pervanadate <linkTheme>on</linkTheme> tyrosine phosphorylation was globally decreased and some phosphorylated substrates were specifically missing.</clue>
+</event>
+<event id="E20">
+<type class="Negative_regulation"/>
+<theme idref="E19"/>
+<clue><clueLoc>In the CD45-negative variant</clueLoc>, the effect of pervanadate on tyrosine phosphorylation was globally <clueType>decreased</clueType> and some phosphorylated substrates were specifically missing.</clue>
+</event>
+<event id="E21">
+<type class="Negative_regulation"/>
+<theme idref="T36"/>
+<clue><clueLoc>In the CD45-negative variant</clueLoc>, the effect of pervanadate on tyrosine phosphorylation was globally decreased and some phosphorylated substrates were specifically <clueType>missing</clueType>.</clue>
+</event>
+<sentence id="S8"><term id="T37" lex="pervanadate" sem="Organic_compound_other">Pervanadate</term> also stimulated transcription of the <term id="T38" lex="c-fos_gene" sem="DNA_domain_or_region">c-fos gene</term> and accumulation of its <term id="T39" lex="mRNA" sem="RNA_family_or_group">mRNA</term> as well as several other hallmarks of <term id="T40" lex="T-lymphocyte_activation" sem="Other"><term id="T41" lex="T-lymphocyte" sem="Cell_natural">T-lymphocyte</term> activation</term> such as surface expression of the <term id="A11" sem="Protein_molecule">CD69</term> antigen and the <term id="A13" sem="Protein_molecule">interleukin 2 receptor alpha-chain</term> (<term id="A12" sem="Protein_molecule">CD25</term>).</sentence>
+<event id="E22">
+<type class="Gene_expression"/>
+<theme idref="A12"/>
+<clue>Pervanadate also stimulated transcription of the c-fos gene and accumulation of its mRNA as well as several other hallmarks of T-lymphocyte activation such as <clueLoc>surface</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> the CD69 antigen and the interleukin 2 receptor alpha-chain (CD25).</clue>
+</event>
+<event id="E23">
+<type class="Gene_expression"/>
+<theme idref="A11"/>
+<clue>Pervanadate also stimulated transcription of the c-fos gene and accumulation of its mRNA as well as several other hallmarks of T-lymphocyte activation such as <clueLoc>surface</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> the CD69 antigen and the interleukin 2 receptor alpha-chain (CD25).</clue>
+</event>
+<event id="E67">
+<type class="Physiological_process"/>
+<theme idref="T41"/>
+<clue>Pervanadate also stimulated transcription of the c-fos gene and accumulation of its mRNA as well as several other hallmarks of T-lymphocyte <clueType>activation</clueType> such as surface expression of the CD69 antigen and the interleukin 2 receptor alpha-chain (CD25).</clue>
+</event>
+<event id="E68">
+<type class="Positive_regulation"/>
+<theme idref="E67"/>
+<cause idref="T37"/>
+<clue>Pervanadate also <clueType>stimulated</clueType> transcription of the c-fos gene and accumulation of its mRNA as well as several other hallmarks of T-lymphocyte activation such as surface expression of the CD69 antigen and the interleukin 2 receptor alpha-chain (CD25).</clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E22"/>
+<cause idref="T37"/>
+<clue>Pervanadate also <clueType>stimulated</clueType> transcription of the c-fos gene and accumulation of its mRNA as well as several other <corefTheme>hallmarks of T-lymphocyte activation</corefTheme> such as surface expression of the CD69 antigen and the interleukin 2 receptor alpha-chain (CD25).</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation"/>
+<theme idref="E23"/>
+<cause idref="T37"/>
+<clue>Pervanadate also <clueType>stimulated</clueType> transcription of the c-fos gene and accumulation of its mRNA as well as several other hallmarks of T-lymphocyte activation such as surface expression of the CD69 antigen and the interleukin 2 receptor alpha-chain (CD25).</clue>
+</event>
+<event id="E26">
+<type class="Transcription"/>
+<theme idref="T38"/>
+<clue>Pervanadate also stimulated <clueType>transcription</clueType> <linkTheme>of</linkTheme> the c-fos gene and accumulation of its mRNA as well as several other hallmarks of T-lymphocyte activation such as surface expression of the CD69 antigen and the interleukin 2 receptor alpha-chain (CD25).</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation"/>
+<theme idref="T38" idref1="T39"/>
+<clue>Pervanadate also stimulated transcription of the c-fos gene and <clueType>accumulation</clueType> <linkTheme>of</linkTheme> <corefTheme>its</corefTheme> mRNA as well as several other hallmarks of T-lymphocyte activation such as surface expression of the CD69 antigen and the interleukin 2 receptor alpha-chain (CD25).</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation"/>
+<theme idref="E26"/>
+<cause idref="T37"/>
+<clue>Pervanadate also <clueType>stimulated</clueType> transcription of the c-fos gene and accumulation of its mRNA as well as several other hallmarks of T-lymphocyte activation such as surface expression of the CD69 antigen and the interleukin 2 receptor alpha-chain (CD25).</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation"/>
+<theme idref="E27"/>
+<cause idref="T37"/>
+<clue>Pervanadate also <clueType>stimulated</clueType> transcription of the c-fos gene and accumulation of its mRNA as well as several other hallmarks of T-lymphocyte activation such as surface expression of the CD69 antigen and the interleukin 2 receptor alpha-chain (CD25).</clue>
+</event>
+<sentence id="S9"><term id="T42" lex="pervanadate" sem="Organic_compound_other">Pervanadate</term> synergized with <term id="A14" sem="Other">signals</term> delivered by <term id="T43" lex="T-cell_antigen_receptor_engagement" sem="Other"><term id="T44" lex="T-cell" sem="Cell_natural">T-cell</term> <term id="T45" lex="antigen_receptor" sem="Protein_family_or_group">antigen receptor</term> engagement</term> or by a <term id="T46" lex="phorbol_ester" sem="Organic_compound_other">phorbol ester</term> to induce <term id="A15" sem="Protein_molecule">interleukin 2</term> production.</sentence>
+<event id="E30">
+<type class="Cell_communication"/>
+<theme idref="A14"/>
+<theme idref="T43"/>
+<clue>Pervanadate synergized with signals <clueType>delivered</clueType> <linkTheme>by</linkTheme> T-cell antigen receptor engagement or by a phorbol ester to induce interleukin 2 production.</clue>
+</event>
+<event id="E31">
+<type class="Cell_communication"/>
+<theme idref="A14"/>
+<theme idref="T46"/>
+<clue>Pervanadate synergized with signals <clueType>delivered</clueType> by T-cell antigen receptor engagement or <linkTheme>by</linkTheme> a phorbol ester to induce interleukin 2 production.</clue>
+</event>
+<event id="E32">
+<type class="Translation"/>
+<theme idref="A15"/>
+<clue>Pervanadate synergized with signals delivered by T-cell antigen receptor engagement or by a phorbol ester to induce interleukin 2 <clueType>production</clueType>.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E32"/>
+<cause idref="T42"/>
+<cause idref="E30"/>
+<clue>Pervanadate <clueType>synergized</clueType> <linkCause>with</linkCause> signals delivered by T-cell antigen receptor engagement or by a phorbol ester <clueType>to induce</clueType> interleukin 2 production.</clue>
+</event>
+<event id="E69">
+<type class="Positive_regulation"/>
+<theme idref="E32"/>
+<cause idref="T42"/>
+<cause idref="E31"/>
+<clue>Pervanadate <clueType>synergized</clueType> <linkCause>with</linkCause> signals delivered by T-cell antigen receptor engagement or by a phorbol ester <clueType>to induce</clueType> interleukin 2 production.</clue>
+</event>
+<sentence id="S10"><term id="T47" lex="Pervanadate_activated_NF-kappa_B" sem="Protein_molecule"><term id="T48" lex="pervanadate" sem="Organic_compound_other">Pervanadate</term> activated <term id="T49" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term></term>, as shown by an increase in <term id="T50" lex="DNA-binding_activity" sem="Other"><term id="A16" sem="DNA_molecule">DNA</term>-binding activity</term> of this <term id="T51" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term>.</sentence>
+<event KT="Analysis" id="E34">
+<type class="Positive_regulation"/>
+<theme idref="T49"/>
+<cause idref="T48"/>
+<clue>Pervanadate <clueType>activated</clueType> NF-kappa B, as <clueKT>shown</clueKT> by an increase in DNA-binding activity of this transcription factor.</clue>
+</event>
+<event id="E35">
+<type class="Binding"/>
+<theme idref="T49"/>
+<theme idref="A16"/>
+<clue>Pervanadate activated NF-kappa B, as shown by an increase in DNA-<clueType>binding</clueType> activity <linkTheme>of</linkTheme> <corefTheme idref1="T49">this transcription factor.</corefTheme></clue>
+</event>
+<event id="E36">
+<type class="Positive_regulation"/>
+<theme idref="E35"/>
+<cause idref="T48"/>
+<clue>Pervanadate activated NF-kappa B, as shown by an <clueType>increase</clueType> <linkTheme>in</linkTheme> DNA-binding activity of this transcription factor.</clue>
+</event>
+<sentence id="S11">We thus conclude that <term id="T52" lex="PTPase" sem="Protein_family_or_group">PTPases</term> play a crucial role in the <term id="T53" lex="negative_regulation" sem="Other">negative regulation</term> of <term id="A17" sem="Other">signal transduction</term> culminating in <term id="T54" lex="T-lymphocyte_activation" sem="Other"><term id="T55" lex="T-lymphocyte" sem="Cell_natural">T-lymphocyte</term> activation</term>.</sentence>
+<event KT="Other" id="E37">
+<type class="Physiological_process"/>
+<theme idref="T55"/>
+<clue>We thus conclude that PTPases play a crucial role in the negative regulation of signal transduction culminating in T-lymphocyte <clueType>activation</clueType>.</clue>
+</event>
+<event KT="Other" id="E70">
+<type class="Positive_regulation"/>
+<theme idref="E37"/>
+<cause idref="A17"/>
+<clue>We thus conclude that PTPases play a crucial role in the negative regulation of signal transduction <clueType>culminating</clueType> <linkTheme>in</linkTheme> T-lymphocyte activation.</clue>
+</event>
+<event KT="Analysis" id="E38">
+<type class="Negative_regulation"/>
+<theme idref="E70"/>
+<cause idref="T52"/>
+<clue>We <clueKT>thus</clueKT> <clueKT>conclude</clueKT> that PTPases <clueType>play</clueType> a crucial <clueType>role in the negative regulation</clueType> <linkTheme>of</linkTheme> signal transduction culminating in T-lymphocyte activation.</clue>
+</event>
+<sentence id="S12">Moreover, induction of <term id="T56" lex="tyrosine_phosphorylation" sem="Element"><term id="T57" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> phosphorylation</term> appears sufficient per se to initiate a complete activation programme.</sentence>
+<event KT="Other" id="E39">
+<type class="Positive_regulation"/>
+<theme idref="T56"/>
+<clue>Moreover, <clueType>induction</clueType> <linkTheme>of</linkTheme> tyrosine phosphorylation appears sufficient per se to initiate a complete activation programme.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E40" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E70"/>
+<cause idref="T56"/>
+<clue>Moreover, induction of tyrosine phosphorylation <clueKT><clueCL>appears</clueCL></clueKT> <clueType>sufficient</clueType> per se <clueType>to initiate</clueType> a <corefTheme>complete activation programme.</corefTheme></clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

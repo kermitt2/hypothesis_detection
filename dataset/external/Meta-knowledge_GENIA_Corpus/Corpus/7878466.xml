@@ -1,0 +1,210 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7878466" creator="Hitomi MASUDA"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7878466</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Control of <term id="T1" lex="I_kappa_B-alpha_proteolysis" sem="Other"><term id="T2" lex="I_kappa_B-alpha" sem="Protein_molecule">I kappa B-alpha</term> proteolysis</term> by site-specific, signal-induced <term id="T3" lex="phosphorylation" sem="Other">phosphorylation</term>.</sentence>
+<event id="E1">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T2"/>
+<clue>Control of I kappa B-alpha proteolysis by site-specific, signal-induced <clueType>phosphorylation</clueType>.</clue>
+</event>
+<event id="E2">
+<type class="Protein_catabolism"/>
+<theme idref="T2"/>
+<clue>Control of I kappa B-alpha <clueType>proteolysis</clueType> by site-specific, signal-induced phosphorylation.</clue>
+</event>
+<event id="E3">
+<type class="Regulation"/>
+<theme idref="E2"/>
+<cause idref="E1"/>
+<clue><clueType>Control</clueType> <linkTheme>of</linkTheme> I kappa B-alpha proteolysis <linkCause>by</linkCause> site-specific, signal-induced phosphorylation.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T4" lex="I_kappa_B-alpha" sem="Protein_molecule">I kappa B-alpha</term> inhibits <term id="T5" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> <term id="T6" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> by retaining it in the <term id="T7" lex="cytoplasm" sem="Cell_component">cytoplasm</term>.</sentence>
+<event id="E4">
+<type class="Localization"/>
+<theme idref="T6"/>
+<clue>I kappa B-alpha inhibits transcription factor NF-kappa B by <clueType>retaining</clueType> <corefTheme>it</corefTheme> <clueLoc>in the cytoplasm</clueLoc>.</clue>
+</event>
+<event id="E104">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="T4"/>
+<clue>I kappa B-alpha inhibits transcription factor NF-kappa B by <clueType>retaining</clueType> it in the cytoplasm.</clue>
+</event>
+<event id="E5">
+<type class="Negative_regulation"/>
+<theme idref="T6"/>
+<cause idref="E104"/>
+<clue>I kappa B-alpha <clueType>inhibits</clueType> transcription factor NF-kappa B <linkCause>by</linkCause> retaining it in the cytoplasm.</clue>
+</event>
+<sentence id="S3">Various <term id="A1" sem="Other">stimuli</term>, typically those associated with <term id="A2" sem="Other">stress</term> or <term id="A3" sem="Virus">pathogens</term>, rapidly inactivate <term id="T8" lex="I_kappa_B-alpha" sem="Protein_molecule">I kappa B-alpha</term>.</sentence>
+<event id="E6">
+<type class="Correlation"/>
+<theme idref="A1"/>
+<theme idref="A2"/>
+<clue>Various stimuli, typically <corefTheme>those</corefTheme> <clueType>associated</clueType> <linkTheme>with</linkTheme> stress or pathogens, rapidly inactivate I kappa B-alpha.</clue>
+</event>
+<event id="E7">
+<type class="Correlation"/>
+<theme idref="A1"/>
+<theme idref="A3"/>
+<clue>Various stimuli, typically <corefTheme>those</corefTheme> <clueType>associated</clueType> <linkTheme>with</linkTheme> stress or pathogens, rapidly inactivate I kappa B-alpha.</clue>
+</event>
+<event Manner="High" id="E8">
+<type class="Negative_regulation"/>
+<theme idref="T8"/>
+<cause idref="E6"/>
+<clue>Various stimuli, typically those associated with stress or pathogens, <clueManner>rapidly</clueManner> <clueType>inactivate</clueType> I kappa B-alpha.</clue>
+</event>
+<event Manner="High" id="E9">
+<type class="Negative_regulation"/>
+<theme idref="T8"/>
+<cause idref="E7"/>
+<clue>Various stimuli, typically those associated with stress or pathogens, <clueManner>rapidly</clueManner> <clueType>inactivate</clueType> I kappa B-alpha.</clue>
+</event>
+<sentence id="S4">This liberates <term id="T9" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> to translocate to the <term id="T10" lex="nucleus" sem="Cell_component">nucleus</term> and initiate <term id="T11" lex="transcription" sem="Other">transcription</term> of <term id="A4" sem="DNA_family_or_group"><term id="T12" lex="gene" sem="DNA_family_or_group">genes</term> important for the defense of the organism</term>.</sentence>
+<event id="E10">
+<type class="Localization"/>
+<theme idref="T9"/>
+<clue>This liberates NF-kappa B to <clueType>translocate</clueType> to the <clueLoc>nucleus</clueLoc> and initiate transcription of genes important for the defense of the organism.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="E8"/>
+<clue><corefCause>This</corefCause> <clueType>liberates</clueType> NF-kappa B <linkTheme>to</linkTheme> translocate to the nucleus and initiate transcription of genes important for the defense of the organism.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="E9"/>
+<clue><corefCause>This</corefCause> <clueType>liberates</clueType> NF-kappa B <linkTheme>to</linkTheme> translocate to the nucleus and initiate transcription of genes important for the defense of the organism.</clue>
+</event>
+<event id="E13">
+<type class="Transcription"/>
+<theme idref="A4"/>
+<clue>This liberates NF-kappa B to translocate to the nucleus and initiate <clueType>transcription</clueType> <linkTheme>of</linkTheme> genes important for the defense of the organism.</clue>
+<comment>TPS: A4</comment></event>
+<event id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="E11"/>
+<clue>This liberates NF-kappa B to translocate to the nucleus and <clueType>initiate</clueType> transcription of genes important for the defense of the organism.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="E12"/>
+<clue>This liberates NF-kappa B to translocate to the nucleus and <clueType>initiate</clueType> transcription of genes important for the defense of the organism.</clue>
+</event>
+<sentence id="S5">Activation of <term id="T13" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> correlates with <term id="T14" lex="phosphorylation" sem="Other">phosphorylation</term> of <term id="T15" lex="I_kappa_B-alpha" sem="Protein_molecule">I kappa B-alpha</term> and requires the <term id="T16" lex="proteolysis" sem="Other">proteolysis</term> of this inhibitor.</sentence>
+<event id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T13"/>
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> NF-kappa B correlates with phosphorylation of I kappa B-alpha and requires the proteolysis of this inhibitor.</clue>
+</event>
+<event id="E17">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T15"/>
+<clue>Activation of NF-kappa B correlates with <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> I kappa B-alpha and requires the proteolysis of this inhibitor.</clue>
+</event>
+<event KT="Analysis" id="E18">
+<type class="Correlation"/>
+<theme idref="E16"/>
+<theme idref="E17"/>
+<clue>Activation of NF-kappa B <clueType><clueKT>correlates</clueKT></clueType> <linkTheme>with</linkTheme> phosphorylation of I kappa B-alpha and requires the proteolysis of this inhibitor.</clue>
+</event>
+<event id="E19">
+<type class="Protein_catabolism"/>
+<theme idref="T15"/>
+<clue>Activation of NF-kappa B correlates with phosphorylation of I kappa B-alpha and requires the <clueType>proteolysis</clueType> <linkTheme>of</linkTheme> <corefTheme>this inhibitor</corefTheme>.</clue>
+</event>
+<event id="E20">
+<type class="Regulation"/>
+<theme idref="E19"/>
+<cause idref="E16"/>
+<clue>Activation of NF-kappa B correlates with phosphorylation of I kappa B-alpha and <clueType>requires</clueType> the proteolysis of this inhibitor.</clue>
+</event>
+<sentence id="S6">When either <term id="T17" lex="serine-32" sem="Amino_acid_monomer">serine-32</term> or <term id="T18" lex="serine-36" sem="Amino_acid_monomer">serine-36</term> <term id="A5" sem="Amino_acid_monomer">of <term id="T19" lex="I_kappa_B-alpha" sem="Protein_molecule">I kappa B-alpha</term></term> was mutated, the protein did not undergo <term id="T20" lex="signal-induced_phosphorylation" sem="Other">signal-induced <term id="T21" lex="phosphorylation" sem="Other">phosphorylation</term></term> or <term id="T22" lex="degradation" sem="Other">degradation</term>, and <term id="T23" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> could not be activated.</sentence>
+<event KT="Method" id="E21">
+<type class="Mutagenesis"/>
+<theme idref="T17" idref1="A5"/>
+<clue>When either serine-32 or serine-36 of I kappa B-alpha was <clueType>mutated</clueType>, the protein did not undergo signal-induced phosphorylation or degradation, and NF-kappa B could not be activated.</clue>
+<comment>TPS: A5, ARTIFICIAL</comment></event>
+<event KT="Method" id="E22">
+<type class="Mutagenesis"/>
+<theme idref="T18" idref1="A5"/>
+<clue>When either serine-32 or serine-36 of I kappa B-alpha was <clueType>mutated</clueType>, the protein did not undergo signal-induced phosphorylation or degradation, and NF-kappa B could not be activated.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E23">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T19"/>
+<site idref="T17"/>
+<site idref="T18"/>
+<clue>When either serine-32 or serine-36 of I kappa B-alpha was mutated, <corefTheme>the protein</corefTheme> <cluePolarity>did not undergo</cluePolarity> signal-induced <clueType>phosphorylation</clueType> or degradation, and NF-kappa B could not be activated.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E24">
+<type class="Negative_regulation"/>
+<theme idref="T19"/>
+<clue>When either serine-32 or serine-36 of I kappa B-alpha was mutated, <corefTheme>the protein</corefTheme> <cluePolarity>did not undergo</cluePolarity> signal-induced phosphorylation or <clueType>degradation</clueType>, and NF-kappa B could not be activated.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E25">
+<type class="Positive_regulation"/>
+<theme idref="T23"/>
+<cause idref="E21"/>
+<clue><linkCause>When</linkCause> either serine-32 or serine-36 of I kappa B-alpha was mutated, the protein did not undergo signal-induced phosphorylation or degradation, and NF-kappa B <cluePolarity>could not</cluePolarity> be <clueType>activated</clueType>.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E200">
+<type class="Positive_regulation"/>
+<theme idref="T23"/>
+<cause idref="E22"/>
+<clue><linkCause>When</linkCause> either serine-32 or serine-36 of I kappa B-alpha was mutated, the protein did not undergo signal-induced phosphorylation or degradation, and NF-kappa B <cluePolarity>could not</cluePolarity> be <clueType>activated</clueType>.</clue>
+</event>
+<event id="E26">
+<type class="Correlation"/>
+<theme idref="E23"/>
+<theme idref="E21"/>
+<clue><linkTheme>When</linkTheme> either serine-32 or serine-36 of I kappa B-alpha was mutated, the protein did not undergo signal-induced phosphorylation or degradation, and NF-kappa B could not be activated.</clue>
+<comment>No clueType</comment></event>
+<event id="E27">
+<type class="Correlation"/>
+<theme idref="E24"/>
+<theme idref="E21"/>
+<clue><linkTheme>When</linkTheme> either serine-32 or serine-36 of I kappa B-alpha was mutated, the protein did not undergo signal-induced phosphorylation or degradation, and NF-kappa B could not be activated.</clue>
+<comment>No clueType</comment></event>
+<event id="E29">
+<type class="Correlation"/>
+<theme idref="E23"/>
+<theme idref="E22"/>
+<clue><linkTheme>When</linkTheme> either serine-32 or serine-36 of I kappa B-alpha was mutated, the protein did not undergo signal-induced phosphorylation or degradation, and NF-kappa B could not be activated.</clue>
+<comment>No clueType</comment></event>
+<event id="E30">
+<type class="Correlation"/>
+<theme idref="E24"/>
+<theme idref="E22"/>
+<clue><linkTheme>When</linkTheme> either serine-32 or serine-36 of I kappa B-alpha was mutated, the protein did not undergo signal-induced phosphorylation or degradation, and NF-kappa B could not be activated.</clue>
+<comment>No clueType</comment></event>
+<sentence id="S7">These results suggest that <term id="T24" lex="phosphorylation" sem="Other">phosphorylation</term> at one or both of these <term id="T25" lex="residue" sem="Amino_acid_monomer">residues</term> is critical for activation of <term id="T26" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>.</sentence>
+<event KT="Other" id="E34">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T19"/>
+<site idref="T17"/>
+<site idref="T18"/>
+<clue>These results suggest that <clueType>phosphorylation</clueType> at <corefSite>one or both of these residues</corefSite> is critical for activation of NF-kappa B.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event KT="Other" id="E35">
+<type class="Positive_regulation"/>
+<theme idref="T26"/>
+<clue>These results suggest that phosphorylation at one or both of these residues is critical for <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappa B.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E38" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E35"/>
+<cause idref="E34"/>
+<clue>These results <clueKT><clueCL>suggest</clueCL></clueKT> that phosphorylation at one or both of these residues is <clueType>critical</clueType> <linkTheme>for</linkTheme> activation of NF-kappa B.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

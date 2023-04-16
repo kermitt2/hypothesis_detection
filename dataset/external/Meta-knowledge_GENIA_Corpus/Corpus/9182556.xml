@@ -1,0 +1,283 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9182556" created="07/03/06" creator="Yumiko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9182556</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Overexpression of <term id="T1" lex="HSF2-beta" sem="Protein_molecule">HSF2-beta</term> inhibits <term id="T2" lex="hemin-induced_heat_shock_gene_expression" sem="Other"><term id="T3" lex="hemin" sem="Protein_molecule">hemin</term>-induced <term id="A1" sem="DNA_family_or_group">heat shock gene</term> expression</term> and <term id="T4" lex="erythroid_differentiation" sem="Other"><term id="A2" sem="Cell_natural">erythroid</term> differentiation</term> in <term id="T5" lex="K562_cell" sem="Cell_cultured">K562 cells</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression"/>
+<theme idref="T1"/>
+<clue><clueType>Overexpression</clueType> <linkTheme>of</linkTheme> HSF2-beta inhibits hemin-induced heat shock gene expression and erythroid differentiation in K562 cells.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<clue><clueType>Overexpression</clueType> of HSF2-beta inhibits hemin-induced heat shock gene expression and erythroid differentiation in K562 cells.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Gene_expression"/>
+<theme idref="A1"/>
+<clue>Overexpression of HSF2-beta inhibits hemin-induced heat shock gene <clueType>expression</clueType> and erythroid differentiation <clueLoc>in K562 cells</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="T3"/>
+<clue>Overexpression of HSF2-beta inhibits hemin-<clueType>induced</clueType> heat shock gene expression and erythroid differentiation in K562 cells.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Cell_differentiation"/>
+<theme idref="A2"/>
+<clue>Overexpression of HSF2-beta inhibits hemin-induced heat shock gene expression and erythroid <clueType>differentiation</clueType> <clueLoc>in K562 cells</clueLoc>.</clue>
+</event>
+<event id="E6">
+<type class="Negative_regulation"/>
+<theme idref="E3"/>
+<cause idref="E2"/>
+<clue>Overexpression of HSF2-beta <clueType>inhibits</clueType> hemin-induced heat shock gene expression and erythroid differentiation <clueLoc>in K562 cells</clueLoc>.</clue>
+</event>
+<event id="E7">
+<type class="Negative_regulation"/>
+<theme idref="E5"/>
+<cause idref="E2"/>
+<clue>Overexpression of HSF2-beta <clueType>inhibits</clueType> hemin-induced heat shock gene expression and erythroid differentiation <clueLoc>in K562 cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Acquisition of heat shock factor 2 (<term id="A3" sem="Protein_molecule">HSF2</term>) <term id="A4" sem="DNA_molecule">DNA</term> binding activity is accompanied by induced transcription of <term id="T6" lex="heat_shock_gene" sem="DNA_family_or_group">heat shock genes</term> in <term id="A5" sem="Protein_molecule">hemin</term>-treated <term id="T7" lex="K562_cell" sem="Cell_cultured">K562 cells</term> undergoing <term id="T8" lex="erythroid_differentiation" sem="Other"><term id="A6" sem="Cell_natural">erythroid</term> differentiation</term>.</sentence>
+<event KT="Other" id="E8">
+<type class="Binding"/>
+<theme idref="A3"/>
+<theme idref="A4"/>
+<clue>Acquisition of heat shock factor 2 (HSF2) DNA <clueType>binding</clueType> activity is accompanied by induced transcription of heat shock genes in hemin-treated K562 cells undergoing erythroid differentiation.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Transcription"/>
+<theme idref="T6"/>
+<clue>Acquisition of heat shock factor 2 (HSF2) DNA binding activity is accompanied by induced <clueType>transcription</clueType> <linkTheme>of</linkTheme> heat shock genes <clueLoc>in hemin-treated K562 cells</clueLoc> undergoing erythroid differentiation.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<clue>Acquisition of heat shock factor 2 (HSF2) DNA binding activity is accompanied by <clueType>induced</clueType> transcription of heat shock genes <clueLoc>in hemin-treated K562 cells</clueLoc> <clueTime>undergoing erythroid differentiation</clueTime>.</clue>
+</event>
+<event KT="Fact" id="E11">
+<type class="Regulation"/>
+<theme idref="E8"/>
+<cause idref="E10"/>
+<clue>Acquisition of heat shock factor 2 (HSF2) DNA binding activity is <clueType>accompanied</clueType> <linkCause>by</linkCause> induced transcription of heat shock genes <clueLoc>in hemin-treated K562 cells</clueLoc> <clueTime>undergoing erythroid differentiation</clueTime>.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Cell_differentiation"/>
+<theme idref="A6"/>
+<clue>Acquisition of heat shock factor 2 (HSF2) DNA binding activity is accompanied by induced transcription of heat shock genes in hemin-treated K562 cells undergoing erythroid <clueType>differentiation</clueType>.</clue>
+</event>
+<sentence id="S3">Previous studies revealed that <term id="T9" lex="HSF2" sem="Protein_molecule">HSF2</term> consists of two alternatively spliced isoforms, <term id="T10" lex="HSF2-alpha" sem="Protein_molecule">HSF2-alpha</term> and <term id="T11" lex="HSF2-beta" sem="Protein_molecule">HSF2-beta</term>, whose relative abundance is developmentally regulated and varies between different tissues.</sentence>
+<event KT="Analysis" Source="Other" id="E14">
+<type class="Regulation"/>
+<theme idref="T10"/>
+<clue><clueSource>Previous studies</clueSource> <clueKT>revealed</clueKT> that HSF2 consists of two alternatively spliced isoforms, HSF2-alpha and HSF2-beta, whose relative abundance is developmentally <clueType>regulated</clueType> and varies <clueLoc>between different tissues</clueLoc>.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E13">
+<type class="Regulation"/>
+<theme idref="T11"/>
+<clue><clueSource>Previous studies</clueSource> <clueKT>revealed</clueKT> that HSF2 consists of two alternatively spliced isoforms, HSF2-alpha and HSF2-beta, whose relative abundance is developmentally <clueType>regulated</clueType> and varies <clueLoc>between different tissues</clueLoc>.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E15">
+<type class="Regulation"/>
+<theme idref="T10"/>
+<clue><clueSource>Previous studies</clueSource> <clueKT>revealed</clueKT> that HSF2 consists of two alternatively spliced isoforms, HSF2-alpha and HSF2-beta, whose relative abundance is developmentally regulated and <clueType>varies</clueType> <clueLoc>between different tissues</clueLoc>.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E150">
+<type class="Regulation"/>
+<theme idref="T11"/>
+<clue><clueSource>Previous studies</clueSource> <clueKT>revealed</clueKT> that HSF2 consists of two alternatively spliced isoforms, HSF2-alpha and HSF2-beta, whose relative abundance is developmentally regulated and <clueType>varies</clueType> <clueLoc>between different tissues</clueLoc>.</clue>
+</event>
+<sentence id="S4">To investigate whether the molar ratio of <term id="T12" lex="HSF2-alpha" sem="Protein_molecule">HSF2-alpha</term> and <term id="T13" lex="HSF2-beta" sem="Protein_molecule">HSF2-beta</term> <term id="A12" sem="Protein_molecule">isoforms</term> is crucial for the activation of <term id="T14" lex="HSF2" sem="Protein_molecule">HSF2</term> and whether the <term id="T15" lex="HSF2" sem="Protein_molecule">HSF2</term> <term id="A13" sem="Protein_molecule">isoforms</term> play functionally distinct roles during the <term id="A10" sem="Protein_molecule">hemin</term>-mediated <term id="T16" lex="erythroid_differentiation" sem="Other"><term id="A11" sem="Cell_natural">erythroid</term> differentiation</term>, we generated cell clones expressing different levels of <term id="T17" lex="HSF2-alpha" sem="Protein_molecule">HSF2-alpha</term> and <term id="T18" lex="HSF2-beta" sem="Protein_molecule">HSF2-beta</term>.</sentence>
+<event KT="Other" id="E16" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="T14"/>
+<clue>To investigate whether the molar ratio of HSF2-alpha and HSF2-beta isoforms is crucial for the <clueType>activation</clueType> <linkTheme>of</linkTheme> HSF2 and whether the HSF2 isoforms play functionally distinct roles during the hemin-mediated erythroid differentiation, we generated cell clones expressing different levels of HSF2-alpha and HSF2-beta.</clue>
+</event>
+<event KT="Investigation" id="E18" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E16"/>
+<cause idref="T12" idref1="A13"/>
+<cause idref="T13" idref1="A13"/>
+<clue><clueKT>To investigate</clueKT> whether the molar ratio of HSF2-alpha and HSF2-beta isoforms is <clueType>crucial</clueType> <linkTheme>for</linkTheme> the activation of HSF2 and whether the HSF2 isoforms play functionally distinct roles during the hemin-mediated erythroid differentiation, we generated cell clones expressing different levels of HSF2-alpha and HSF2-beta.</clue>
+</event>
+<event KT="Investigation" id="E19" uncertainty="doubtful">
+<type class="Negative_regulation"/>
+<cause idref="T15" idref1="A13"/>
+<clue><clueKT>To investigate</clueKT> whether the molar ratio of HSF2-alpha and HSF2-beta isoforms is crucial for the activation of HSF2 and whether the HSF2 isoforms <clueType>play</clueType> functionally distinct <clueType>roles</clueType> <clueTime>during the hemin-mediated erythroid differentiation</clueTime>, we generated cell clones expressing different levels of HSF2-alpha and HSF2-beta.</clue>
+<comment>NO THEME</comment></event>
+<event KT="Other" id="E20">
+<type class="Cell_differentiation"/>
+<theme idref="A11"/>
+<clue>To investigate whether the molar ratio of HSF2-alpha and HSF2-beta isoforms is crucial for the activation of HSF2 and whether the HSF2 isoforms play functionally distinct roles during the hemin-mediated erythroid <clueType>differentiation</clueType>, we generated cell clones expressing different levels of HSF2-alpha and HSF2-beta.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="A10"/>
+<clue>To investigate whether the molar ratio of HSF2-alpha and HSF2-beta isoforms is crucial for the activation of HSF2 and whether the HSF2 isoforms play functionally distinct roles during the hemin-<clueType>mediated</clueType> erythroid differentiation, we generated cell clones expressing different levels of HSF2-alpha and HSF2-beta.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Gene_expression"/>
+<theme idref="T17"/>
+<clue>To investigate whether the molar ratio of HSF2-alpha and HSF2-beta isoforms is crucial for the activation of HSF2 and whether the HSF2 isoforms play functionally distinct roles during the hemin-mediated erythroid differentiation, we generated <clueLoc>cell clones</clueLoc> <clueType>expressing</clueType> different levels <linkTheme>of</linkTheme> HSF2-alpha and HSF2-beta.</clue>
+</event>
+<event KT="Other" id="E23">
+<type class="Gene_expression"/>
+<theme idref="T18"/>
+<clue>To investigate whether the molar ratio of HSF2-alpha and HSF2-beta isoforms is crucial for the activation of HSF2 and whether the HSF2 isoforms play functionally distinct roles during the hemin-mediated erythroid differentiation, we generated <clueLoc>cell clones</clueLoc> <clueType>expressing</clueType> different levels <linkTheme>of</linkTheme> HSF2-alpha and HSF2-beta.</clue>
+</event>
+<sentence id="S5">We show that in parental <term id="T19" lex="K562_cell" sem="Cell_cultured">K562 cells</term>, the <term id="T20" lex="HSF2-alpha_isoform" sem="Protein_molecule"><term id="T21" lex="HSF2-alpha" sem="Protein_molecule">HSF2-alpha</term> isoform</term> is predominantly expressed and <term id="T22" lex="HSF2" sem="Protein_molecule">HSF2</term> can be activated upon <term id="A14" sem="Protein_molecule">hemin</term> treatment.</sentence>
+<event KT="Analysis" Manner="High" id="E24">
+<type class="Gene_expression"/>
+<theme idref="T20"/>
+<clue>We <clueKT>show</clueKT> that <clueLoc>in parental K562 cells</clueLoc>, the HSF2-alpha isoform is <clueManner>predominantly</clueManner> <clueType>expressed</clueType> and HSF2 can be activated upon hemin treatment.</clue>
+</event>
+<event KT="Method" id="E25">
+<type class="Artificial_process"/>
+<theme idref="A14"/>
+<theme idref="T19"/>
+<clue>We show that <clueLoc>in parental K562 cells</clueLoc>, the HSF2-alpha isoform is predominantly expressed and HSF2 can be activated upon hemin <clueType>treatment</clueType>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="T22"/>
+<cause idref="E25"/>
+<clue>We <clueKT>show</clueKT> that <clueLoc>in parental K562 cells</clueLoc>, the HSF2-alpha isoform is predominantly expressed and HSF2 <clueCL>can</clueCL> be <clueType>activated</clueType> <linkCause>upon</linkCause> hemin treatment.</clue>
+</event>
+<sentence id="S6">In contrast, when <term id="T23" lex="HSF2-beta" sem="Protein_molecule">HSF2-beta</term> is expressed at levels exceeding those of <term id="T24" lex="endogenous_HSF2-alpha" sem="Protein_molecule">endogenous <term id="T25" lex="HSF2-alpha" sem="Protein_molecule">HSF2-alpha</term></term>, the <term id="A16" sem="Protein_molecule">hemin</term>-induced <term id="A15" sem="DNA_molecule">DNA</term> binding activity and transcription of <term id="T26" lex="heat_shock_gene" sem="DNA_family_or_group">heat shock genes</term> are repressed, whereas overexpression of <term id="T27" lex="HSF2-alpha" sem="Protein_molecule">HSF2-alpha</term> results in an enhanced <term id="T28" lex="hemin_response" sem="Other"><term id="T29" lex="hemin" sem="Protein_molecule">hemin</term> response</term>.</sentence>
+<event id="E27">
+<type class="Gene_expression"/>
+<theme idref="T23"/>
+<clue>In contrast, when HSF2-beta is <clueType>expressed</clueType> at levels exceeding those of endogenous HSF2-alpha, the hemin-induced DNA binding activity and transcription of heat shock genes are repressed, whereas overexpression of HSF2-alpha results in an enhanced hemin response.</clue>
+</event>
+<event id="E28">
+<type class="Gene_expression"/>
+<theme idref="T25"/>
+<clue>In contrast, when HSF2-beta is <clueType>expressed</clueType> at levels exceeding those <linkTheme>of</linkTheme> endogenous HSF2-alpha, the hemin-induced DNA binding activity and transcription of heat shock genes are repressed, whereas overexpression of HSF2-alpha results in an enhanced hemin response.</clue>
+</event>
+<event id="E270">
+<type class="Positive_regulation"/>
+<theme idref="E27"/>
+<clue>In contrast, when HSF2-beta is expressed at <clueType>levels</clueType> exceeding those of endogenous HSF2-alpha, the hemin-induced DNA binding activity and transcription of heat shock genes are repressed, whereas overexpression of HSF2-alpha results in an enhanced hemin response.</clue>
+</event>
+<event KT="Other" id="E29">
+<type class="Binding"/>
+<theme idref="A15"/>
+<theme idref="T26"/>
+<clue>In contrast, when HSF2-beta is expressed at levels exceeding those of endogenous HSF2-alpha, the hemin-induced DNA <clueType>binding</clueType> activity and transcription of heat shock genes are repressed, whereas overexpression of HSF2-alpha results in an enhanced hemin response.</clue>
+</event>
+<event KT="Other" id="E30">
+<type class="Positive_regulation"/>
+<theme idref="E29"/>
+<cause idref="A16"/>
+<clue>In contrast, when HSF2-beta is expressed at levels exceeding those of endogenous HSF2-alpha, the hemin-<clueType>induced</clueType> DNA binding activity and transcription of heat shock genes are repressed, whereas overexpression of HSF2-alpha results in an enhanced hemin response.</clue>
+</event>
+<event KT="Other" id="E31">
+<type class="Transcription"/>
+<theme idref="T26"/>
+<clue>In contrast, when HSF2-beta is expressed at levels exceeding those of endogenous HSF2-alpha, the hemin-induced DNA binding activity and <clueType>transcription</clueType> <linkTheme>of</linkTheme> heat shock genes are repressed, whereas overexpression of HSF2-alpha results in an enhanced hemin response.</clue>
+</event>
+<event id="E32">
+<type class="Negative_regulation"/>
+<theme idref="E30"/>
+<cause idref="E270"/>
+<clue>In contrast, <linkCause>when</linkCause> HSF2-beta is expressed at levels exceeding those of endogenous HSF2-alpha, the hemin-induced DNA binding activity and transcription of heat shock genes are <clueType>repressed</clueType>, whereas overexpression of HSF2-alpha results in an enhanced hemin response.</clue>
+</event>
+<event id="E33">
+<type class="Negative_regulation"/>
+<theme idref="E31"/>
+<cause idref="E270"/>
+<clue>In contrast, <linkCause>when</linkCause> HSF2-beta is expressed at levels exceeding those of endogenous HSF2-alpha, the hemin-induced DNA binding activity and transcription of heat shock genes are <clueType>repressed</clueType>, whereas overexpression of HSF2-alpha results in an enhanced hemin response.</clue>
+</event>
+<event id="E34">
+<type class="Gene_expression"/>
+<theme idref="T27"/>
+<clue>In contrast, when HSF2-beta is expressed at levels exceeding those of endogenous HSF2-alpha, the hemin-induced DNA binding activity and transcription of heat shock genes are repressed, whereas <clueType>overexpression</clueType> <linkTheme>of</linkTheme> HSF2-alpha results in an enhanced hemin response.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation"/>
+<theme idref="E34"/>
+<clue>In contrast, when HSF2-beta is expressed at levels exceeding those of endogenous HSF2-alpha, the hemin-induced DNA binding activity and transcription of heat shock genes are repressed, whereas <clueType>overexpression</clueType> of HSF2-alpha results in an enhanced hemin response.</clue>
+</event>
+<event id="E36">
+<type class="Regulation"/>
+<cause idref="T29"/>
+<clue>In contrast, when HSF2-beta is expressed at levels exceeding those of endogenous HSF2-alpha, the hemin-induced DNA binding activity and transcription of heat shock genes are repressed, whereas overexpression of HSF2-alpha results in an enhanced hemin <clueType>response</clueType>.</clue>
+<comment>NO THEME</comment></event>
+<event id="E37">
+<type class="Positive_regulation"/>
+<theme idref="E36"/>
+<clue>In contrast, when HSF2-beta is expressed at levels exceeding those of endogenous HSF2-alpha, the hemin-induced DNA binding activity and transcription of heat shock genes are repressed, whereas overexpression of HSF2-alpha results in an <clueType>enhanced</clueType> hemin response.</clue>
+</event>
+<event id="E38">
+<type class="Regulation"/>
+<theme idref="E37"/>
+<cause idref="E35"/>
+<clue>In contrast, when HSF2-beta is expressed at levels exceeding those of endogenous HSF2-alpha, the hemin-induced DNA binding activity and transcription of heat shock genes are repressed, whereas overexpression of HSF2-alpha <clueType>results</clueType> <linkTheme>in</linkTheme> an enhanced hemin response.</clue>
+</event>
+<sentence id="S7">Furthermore, the <term id="T30" lex="hemin-induced_accumulation" sem="Other"><term id="T31" lex="hemin" sem="Protein_molecule">hemin</term>-induced accumulation</term> of <term id="T32" lex="globin" sem="Protein_complex">globin</term>, known as a marker of <term id="T33" lex="erythroid_differentiation" sem="Other"><term id="A17" sem="Cell_natural">erythroid</term> differentiation</term>, is decreased in cells overexpressing <term id="T34" lex="HSF2-beta" sem="Protein_molecule">HSF2-beta</term>.</sentence>
+<event id="E39">
+<type class="Gene_expression"/>
+<theme idref="T32"/>
+<clue>Furthermore, the hemin-induced <clueType>accumulation</clueType> <linkTheme>of</linkTheme> globin, known as a marker of erythroid differentiation, is decreased in cells overexpressing HSF2-beta.</clue>
+<comment>CAUSION</comment></event>
+<event id="E40">
+<type class="Positive_regulation"/>
+<theme idref="E39"/>
+<cause idref="T31"/>
+<clue>Furthermore, the hemin-<clueType>induced</clueType> accumulation of globin, known as a marker of erythroid differentiation, is decreased in cells overexpressing HSF2-beta.</clue>
+</event>
+<event KT="Other" id="E41">
+<type class="Cell_differentiation"/>
+<theme idref="A17"/>
+<clue>Furthermore, the hemin-induced accumulation of globin, known as a marker of erythroid <clueType>differentiation</clueType>, is decreased in cells overexpressing HSF2-beta.</clue>
+</event>
+<event KT="Fact" id="E42">
+<type class="Correlation"/>
+<theme idref="E39"/>
+<theme idref="E41"/>
+<clue>Furthermore, the hemin-induced accumulation of globin, <clueKT>known</clueKT> as a <clueType>marker</clueType> <linkTheme>of</linkTheme> erythroid differentiation, is decreased in cells overexpressing HSF2-beta.</clue>
+</event>
+<event id="E43">
+<type class="Gene_expression"/>
+<theme idref="T34"/>
+<clue>Furthermore, the hemin-induced accumulation of globin, known as a marker of erythroid differentiation, is decreased in <clueLoc>cells</clueLoc> <clueType>overexpressing</clueType> HSF2-beta.</clue>
+</event>
+<event id="E44">
+<type class="Positive_regulation"/>
+<theme idref="E43"/>
+<clue>Furthermore, the hemin-induced accumulation of globin, known as a marker of erythroid differentiation, is decreased in <clueLoc>cells</clueLoc> <clueType>overexpressing</clueType> HSF2-beta.</clue>
+</event>
+<event id="E45">
+<type class="Negative_regulation"/>
+<theme idref="E44"/>
+<cause idref="E40"/>
+<clue>Furthermore, the hemin-induced accumulation of globin, known as a marker of erythroid differentiation, is <clueType>decreased</clueType> <linkTheme>in</linkTheme> <clueLoc>cells</clueLoc> overexpressing HSF2-beta.</clue>
+</event>
+<sentence id="S8">We suggest that <term id="T35" lex="HSF2-beta" sem="Protein_molecule">HSF2-beta</term> acts as a negative regulator of <term id="T36" lex="HSF2" sem="Protein_molecule">HSF2</term> activity during <term id="T37" lex="hemin-mediated_erythroid_differentiation" sem="Other"><term id="A19" sem="Protein_molecule">hemin</term>-mediated <term id="T38" lex="erythroid_differentiation" sem="Other"><term id="A20" sem="Cell_natural">erythroid</term> differentiation</term></term> of <term id="T39" lex="K562_cell" sem="Cell_cultured">K562 cells</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E46" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="T36"/>
+<cause idref="T35"/>
+<clue>We <clueKT><clueCL>suggest</clueCL></clueKT> that HSF2-beta acts as a <clueType>negative regulator</clueType> <linkTheme>of</linkTheme> HSF2 activity <clueTime>during hemin-mediated erythroid differentiation of K562 cells</clueTime>.</clue>
+</event>
+<event KT="Other" id="E47" uncertainty="probable">
+<type class="Cell_differentiation"/>
+<theme idref="T39"/>
+<theme idref="A20"/>
+<clue>We suggest that HSF2-beta acts as a negative regulator of HSF2 activity during hemin-mediated erythroid <clueType>differentiation</clueType> <linkTheme>of</linkTheme> K562 cells.</clue>
+</event>
+<event KT="Other" id="E48" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E47"/>
+<cause idref="A19"/>
+<clue>We suggest that HSF2-beta acts as a negative regulator of HSF2 activity during hemin-<clueType>mediated</clueType> erythroid differentiation of K562 cells.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

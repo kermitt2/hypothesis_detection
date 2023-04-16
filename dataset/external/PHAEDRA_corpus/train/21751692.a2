@@ -1,0 +1,18 @@
+T28	Adverse_effect 427 435	observed
+T29	Potential_therapeutic_effect 52 61	receiving
+T30	Potential_therapeutic_effect 283 291	received
+T33	Adverse_effect 52 61	receiving
+T36	Potential_therapeutic_effect 474 482	propofol
+T37	Potential_therapeutic_effect 762 769	propofo
+R1	is_equivalent Arg1:T17 Arg2:T18
+R2	Subject_Disorder Arg1:T12 Arg2:T32
+R3	is_equivalent Arg1:T14 Arg2:T34
+E2	Combination:T19 has_participant:T3 has_participant:T4
+E4	Combination:T22 has_participant:T7 has_participant:T8
+E5	Combination:T23 has_participant:T9 has_participant:T10
+E3	Adverse_effect:T28 has_agent:T5 affects:T27 has_subject:T24
+E6	Potential_therapeutic_effect:T29 has_subject:T12 has_agent:T1 has_agent:T2 affects:T32
+E7	Potential_therapeutic_effect:T30 has_agent:E2 has_subject:T16 affects:T17
+E8	Adverse_effect:T33 has_subject:T12 has_agent:T1 has_agent:T2 affects:T13
+E9	Potential_therapeutic_effect:T36 has_agent:T5 affects:T21
+E10	Potential_therapeutic_effect:T37 has_agent:T11 affects:T20

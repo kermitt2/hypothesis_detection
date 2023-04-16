@@ -1,0 +1,333 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10022882" created="25/04/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10022882</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="A1" lex="Reactive oxygen intermediate" sem="Inorganic_compound">Reactive oxygen intermediate</term>-dependent <term id="T1" lex="NF-kappaB_activation" sem="Other"><term id="T2" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activation</term> by <term id="T3" lex="interleukin-1beta" sem="Protein_molecule">interleukin-1beta</term> requires <term id="T4" lex="5-lipoxygenase" sem="Protein_molecule">5-lipoxygenase</term> or <term id="T5" lex="NADPH_oxidase_activity" sem="Other"><term id="T6" lex="NADPH" sem="Protein_molecule">NADPH oxidase</term> activity</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation"/>
+<theme idref="T2"/>
+<cause idref="A1"/>
+<clue>Reactive oxygen intermediate-<linkCause>dependent</linkCause> NF-kappaB <clueType>activation</clueType> by interleukin-1beta requires 5-lipoxygenase or NADPH oxidase activity.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T3"/>
+<clue>Reactive oxygen intermediate-dependent NF-kappaB <clueType>activation</clueType> <linkCause>by</linkCause> interleukin-1beta requires 5-lipoxygenase or NADPH oxidase activity.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="T4"/>
+<clue>Reactive oxygen intermediate-dependent NF-kappaB activation by interleukin-1beta <clueType>requires</clueType> 5-lipoxygenase or NADPH oxidase activity.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="T6"/>
+<clue>Reactive oxygen intermediate-dependent NF-kappaB activation by interleukin-1beta <clueType>requires</clueType> 5-lipoxygenase or NADPH oxidase activity.</clue>
+<comment>NER T6 mod</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">We previously reported that the role of <term id="T7" lex="reactive_oxygen_intermediate" sem="Inorganic_compound">reactive oxygen intermediates</term> (<term id="T8" lex="ROI" sem="Inorganic_compound">ROIs</term>) in <term id="T9" lex="NF-kappaB_activation" sem="Other"><term id="T10" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activation</term> by <term id="T11" lex="proinflammatory_cytokine" sem="Protein_family_or_group">proinflammatory cytokines</term> was cell specific.</sentence>
+<event KT="Other" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="T10"/>
+<cause idref="T11"/>
+<clue>We previously reported that the role of reactive oxygen intermediates (ROIs) in NF-kappaB <clueType>activation</clueType> <linkCause>by</linkCause> proinflammatory cytokines was cell specific.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E6">
+<type class="Correlation"/>
+<theme idref="E5"/>
+<theme idref="T8"/>
+<clue>We <clueSource>previously</clueSource> <clueKT>reported</clueKT> that the <clueType>role</clueType> <linkCause>of</linkCause> reactive oxygen intermediates (ROIs) <linkTheme>in</linkTheme> NF-kappaB activation by proinflammatory cytokines was cell specific.</clue>
+</event>
+<sentence id="S3">However, the sources for <term id="T12" lex="ROI" sem="Inorganic_compound">ROIs</term> in various cell types are yet to be determined and might include <term id="T13" lex="5-lipoxygenase" sem="Protein_molecule">5-lipoxygenase</term> (<term id="T14" lex="5-LOX" sem="Protein_molecule">5-LOX</term>) and <term id="T15" lex="NADPH" sem="Protein_molecule">NADPH oxidase</term>.</sentence>
+<event CL="L1" KT="Analysis" id="E7" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T12"/>
+<cause idref="T14"/>
+<clue>However, the <clueType>sources</clueType> <linkTheme>for</linkTheme> ROIs <clueLoc>in various cell types</clueLoc> are yet to be <clueKT>determined</clueKT> and <clueCL>might</clueCL> <clueType>include</clueType> 5-lipoxygenase (5-LOX) and NADPH oxidase.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E8" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T12"/>
+<cause idref="T15"/>
+<clue>However, the <clueType>sources</clueType> <linkTheme>for</linkTheme> ROIs <clueLoc>in various cell types</clueLoc> are yet to be <clueKT>determined</clueKT> and <clueCL>might</clueCL> <clueType>include</clueType> 5-lipoxygenase (5-LOX) and NADPH oxidase.</clue>
+<comment>NER T15 MOD</comment></event>
+<sentence id="S4"><term id="T16" lex="5-LOX" sem="Protein_molecule">5-LOX</term> and <term id="T17" lex="5-LOX_activating_protein" sem="Protein_molecule"><term id="T18" lex="5-LOX" sem="Protein_molecule">5-LOX</term> activating protein</term> (<term id="T19" lex="FLAP" sem="Protein_molecule">FLAP</term>) are coexpressed in <term id="T20" lex="lymphoid_cell" sem="Cell_natural">lymphoid cells</term> but not in <cons id="T21" lex="(OR monocytic_cell epithelial_cell)" sem="(OR Cell_natural Cell_natural)"><frag id="F1">monocytic</frag> or <frag id="F2">epithelial</frag> <frag id="F3">cells</frag></cons>.</sentence>
+<event KT="Fact" id="E9">
+<type class="Gene_expression"/>
+<theme idref="T16"/>
+<clue>5-LOX and 5-LOX activating protein (FLAP) are <clueType>coexpressed</clueType> <clueLoc>in lymphoid cells</clueLoc> but not in monocytic or epithelial cells.</clue>
+</event>
+<event KT="Fact" id="E109">
+<type class="Gene_expression"/>
+<theme idref="T19"/>
+<clue>5-LOX and 5-LOX activating protein (FLAP) are <clueType>coexpressed</clueType> <clueLoc>in lymphoid cells</clueLoc> but not in monocytic or epithelial cells.</clue>
+</event>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E10">
+<type class="Gene_expression"/>
+<theme idref="T16"/>
+<clue>5-LOX and 5-LOX activating protein (FLAP) are <clueType>coexpressed</clueType> in lymphoid cells but <cluePolarity>not</cluePolarity> <clueLoc>in monocytic</clueLoc> or epithelial <clueLoc>cells</clueLoc>.</clue>
+</event>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E110">
+<type class="Gene_expression"/>
+<theme idref="T19"/>
+<clue>5-LOX and 5-LOX activating protein (FLAP) are <clueType>coexpressed</clueType> in lymphoid cells but <cluePolarity>not</cluePolarity> <clueLoc>in monocytic</clueLoc> or epithelial <clueLoc>cells</clueLoc>.</clue>
+</event>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E210">
+<type class="Gene_expression"/>
+<theme idref="T16"/>
+<clue>5-LOX and 5-LOX activating protein (FLAP) are <clueType>coexpressed</clueType> in lymphoid cells but <cluePolarity>not</cluePolarity> <clueLoc>in</clueLoc> monocytic or <clueLoc>epithelial cells</clueLoc>.</clue>
+</event>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E310">
+<type class="Gene_expression"/>
+<theme idref="T19"/>
+<clue>5-LOX and 5-LOX activating protein (FLAP) are <clueType>coexpressed</clueType> in lymphoid cells but <cluePolarity>not</cluePolarity> <clueLoc>in</clueLoc> monocytic or <clueLoc>epithelial cells</clueLoc>.</clue>
+</event>
+<sentence id="S5">Stimulation of <term id="T22" lex="lymphoid_cell" sem="Cell_natural">lymphoid cells</term> with <term id="T23" lex="interleukin-1beta" sem="Protein_molecule">interleukin-1beta</term> (<term id="T24" lex="IL-1beta" sem="Protein_molecule">IL-1beta</term>) led to <term id="A2" lex="ROI" sem="Inorganic_compound">ROI</term> production and <term id="T25" lex="NF-kappaB_activation" sem="Other"><term id="T26" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activation</term>, which could both be blocked by <term id="A3" sem="Other">antioxidants</term> or <term id="A4" sem="Other"><term id="T27" lex="FLAP" sem="Protein_molecule">FLAP</term> inhibitors</term>, confirming that <term id="T28" lex="5-LOX" sem="Protein_molecule">5-LOX</term> was the source of <term id="T29" lex="ROI" sem="Inorganic_compound">ROIs</term> and was required for <term id="T30" lex="NF-kappaB_activation" sem="Other"><term id="T31" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activation</term> in these cells.</sentence>
+<event id="E11">
+<type class="Physiological_process"/>
+<theme idref="T22"/>
+<cause idref="T24"/>
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> lymphoid cells <linkCause>with</linkCause> interleukin-1beta (IL-1beta) led to ROI production and NF-kappaB activation, which could both be blocked by antioxidants or FLAP inhibitors, confirming that 5-LOX was the source of ROIs and was required for NF-kappaB activation in these cells.</clue>
+</event>
+<event id="E12">
+<type class="Metabolism"/>
+<theme idref="A2"/>
+<clue>Stimulation of lymphoid cells with interleukin-1beta (IL-1beta) led to ROI <clueType>production</clueType> and NF-kappaB activation, which could both be blocked by antioxidants or FLAP inhibitors, confirming that 5-LOX was the source of ROIs and was required for NF-kappaB activation in these cells.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="E11"/>
+<clue>Stimulation of lymphoid cells with interleukin-1beta (IL-1beta) <clueType>led</clueType> <linkTheme>to</linkTheme> ROI production and NF-kappaB activation, which could both be blocked by antioxidants or FLAP inhibitors, confirming that 5-LOX was the source of ROIs and was required for NF-kappaB activation in these cells.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation"/>
+<theme idref="T26"/>
+<clue>Stimulation of lymphoid cells with interleukin-1beta (IL-1beta) led to ROI production and NF-kappaB <clueType>activation</clueType>, which could both be blocked by antioxidants or FLAP inhibitors, confirming that 5-LOX was the source of ROIs and was required for NF-kappaB activation in these cells.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="E11"/>
+<clue>Stimulation of lymphoid cells with interleukin-1beta (IL-1beta) <clueType>led</clueType> <linkTheme>to</linkTheme> ROI production and NF-kappaB activation, which could both be blocked by antioxidants or FLAP inhibitors, confirming that 5-LOX was the source of ROIs and was required for NF-kappaB activation in these cells.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E16">
+<type class="Negative_regulation"/>
+<theme idref="E12"/>
+<cause idref="A3"/>
+<clue>Stimulation of lymphoid cells with interleukin-1beta (IL-1beta) led to ROI production and NF-kappaB activation, which <clueKT><clueCL>could</clueCL></clueKT> both be <clueType>blocked</clueType> <linkCause>by</linkCause> antioxidants or FLAP inhibitors, confirming that 5-LOX was the source of ROIs and was required for NF-kappaB activation in these cells.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E17">
+<type class="Negative_regulation"/>
+<theme idref="E14"/>
+<cause idref="A3"/>
+<clue>Stimulation of lymphoid cells with interleukin-1beta (IL-1beta) led to ROI production and NF-kappaB activation, which <clueKT><clueCL>could</clueCL></clueKT> both be <clueType>blocked</clueType> <linkCause>by</linkCause> antioxidants or FLAP inhibitors, confirming that 5-LOX was the source of ROIs and was required for NF-kappaB activation in these cells.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E18">
+<type class="Negative_regulation"/>
+<theme idref="E12"/>
+<cause idref="A4"/>
+<clue>Stimulation of lymphoid cells with interleukin-1beta (IL-1beta) led to ROI production and NF-kappaB activation, which <clueKT><clueCL>could</clueCL></clueKT> both be <clueType>blocked</clueType> <linkCause>by</linkCause> antioxidants or FLAP inhibitors, confirming that 5-LOX was the source of ROIs and was required for NF-kappaB activation in these cells.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E19">
+<type class="Negative_regulation"/>
+<theme idref="E14"/>
+<cause idref="E1"/>
+<clue>Stimulation of lymphoid cells with interleukin-1beta (IL-1beta) led to ROI production and NF-kappaB activation, which <clueKT><clueCL>could</clueCL></clueKT> both be <clueType>blocked</clueType> <linkCause>by</linkCause> antioxidants or FLAP inhibitors, confirming that 5-LOX was the source of ROIs and was required for NF-kappaB activation in these cells.</clue>
+</event>
+<event KT="Analysis" id="E20">
+<type class="Metabolism"/>
+<theme idref="T29"/>
+<cause idref="T28"/>
+<clue>Stimulation of lymphoid cells with interleukin-1beta (IL-1beta) led to ROI production and NF-kappaB activation, which could both be blocked by antioxidants or FLAP inhibitors, <clueKT>confirming</clueKT> that 5-LOX was the <clueType>source</clueType> <linkTheme>of</linkTheme> ROIs and was required for NF-kappaB activation in these cells.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="T31"/>
+<clue>Stimulation of lymphoid cells with interleukin-1beta (IL-1beta) led to ROI production and NF-kappaB activation, which could both be blocked by antioxidants or FLAP inhibitors, confirming that 5-LOX was the source of ROIs and was required for NF-kappaB <clueType>activation</clueType> in these cells.</clue>
+</event>
+<event KT="Analysis" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="T28"/>
+<clue>Stimulation of lymphoid cells with interleukin-1beta (IL-1beta) led to ROI production and NF-kappaB activation, which could both be blocked by antioxidants or FLAP inhibitors, <clueKT>confirming</clueKT> that 5-LOX was the source of ROIs and was <clueType>required</clueType> <linkTheme>for</linkTheme> NF-kappaB activation <clueLoc>in these cells</clueLoc>.</clue>
+</event>
+<sentence id="S6"><term id="T32" lex="IL-1beta_stimulation" sem="Other"><term id="T33" lex="IL-1beta" sem="Protein_molecule">IL-1beta</term> stimulation</term> of <term id="T34" lex="epithelial_cell" sem="Cell_natural">epithelial cells</term> did not generate any <term id="T35" lex="ROI" sem="Inorganic_compound">ROIs</term> and <term id="T36" lex="NF-kappaB_induction" sem="Other"><term id="T37" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> induction</term> was not influenced by <term id="A5" sem="Other"><term id="T38" lex="5-LOX" sem="Protein_molecule">5-LOX</term> inhibitors</term>.</sentence>
+<event id="E23">
+<type class="Physiological_process"/>
+<theme idref="T34"/>
+<cause idref="T33"/>
+<clue>IL-1beta <clueType>stimulation</clueType> <linkTheme>of</linkTheme> epithelial cells did not generate any ROIs and NF-kappaB induction was not influenced by 5-LOX inhibitors.</clue>
+</event>
+<event KT="Other" id="E24">
+<type class="Metabolism"/>
+<theme idref="T35"/>
+<clue>IL-1beta stimulation of epithelial cells did not <clueType>generate</clueType> any ROIs and NF-kappaB induction was not influenced by 5-LOX inhibitors.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E25">
+<type class="Positive_regulation"/>
+<theme idref="E24"/>
+<cause idref="E23"/>
+<clue>IL-1beta stimulation of <clueLoc>epithelial cells</clueLoc> did <cluePolarity>not</cluePolarity> <clueType>generate</clueType> any ROIs and NF-kappaB induction was not influenced by 5-LOX inhibitors.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation"/>
+<theme idref="T37"/>
+<clue>IL-1beta stimulation of epithelial cells did not generate any ROIs and NF-kappaB <clueType>induction</clueType> was not influenced by 5-LOX inhibitors.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E27">
+<type class="Regulation"/>
+<theme idref="E26"/>
+<cause idref="A5"/>
+<clue>IL-1beta stimulation of <clueLoc>epithelial cells</clueLoc> did not generate any ROIs and NF-kappaB induction was <cluePolarity>not</cluePolarity> <clueType>influenced</clueType> <linkCause>by</linkCause> 5-LOX inhibitors.</clue>
+</event>
+<sentence id="S7">However, reintroduction of a functional <term id="T39" lex="5-LOX_system" sem="Other"><term id="T40" lex="5-LOX" sem="Protein_molecule">5-LOX</term> system</term> in these cells allowed <term id="T41" lex="ROI_production" sem="Other"><term id="A6" lex="ROI" sem="Inorganic_compound">ROI</term> production</term> and <term id="T42" lex="5-LOX-dependent_NF-kappaB_activation" sem="Other"><term id="T43" lex="5-LOX" sem="Protein_molecule">5-LOX</term>-dependent <term id="T44" lex="NF-kappaB_activation" sem="Other"><term id="T45" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activation</term></term>.</sentence>
+<event KT="Method" id="E28">
+<type class="Artificial_process"/>
+<theme idref="T40"/>
+<clue>However, <clueType>reintroduction</clueType> <linkTheme>of</linkTheme> a functional 5-LOX system <clueLoc>in these cells</clueLoc> allowed ROI production and 5-LOX-dependent NF-kappaB activation.</clue>
+</event>
+<event id="E29">
+<type class="Metabolism"/>
+<theme idref="A6"/>
+<clue>However, reintroduction of a functional 5-LOX system in these cells allowed ROI <clueType>production</clueType> and 5-LOX-dependent NF-kappaB activation.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation"/>
+<theme idref="T45"/>
+<cause idref="T43"/>
+<clue>However, reintroduction of a functional 5-LOX system in these cells allowed ROI production and 5-LOX-<linkCause>dependent</linkCause> NF-kappaB <clueType>activation</clueType>.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation"/>
+<theme idref="E29"/>
+<cause idref="E28"/>
+<clue>However, reintroduction of a functional 5-LOX system in these cells <clueType>allowed</clueType> ROI production and 5-LOX-dependent NF-kappaB activation.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation"/>
+<theme idref="E30"/>
+<cause idref="E28"/>
+<clue>However, reintroduction of a functional 5-LOX system in these cells <clueType>allowed</clueType> ROI production and 5-LOX-dependent NF-kappaB activation.</clue>
+</event>
+<sentence id="S8">In <term id="T46" lex="monocytic_cell" sem="Cell_natural">monocytic cells</term>, <term id="T47" lex="IL-1beta_treatment" sem="Other"><term id="T48" lex="IL-1beta" sem="Protein_molecule">IL-1beta</term> treatment</term> led to a production of <term id="T49" lex="ROI" sem="Inorganic_compound">ROIs</term> which is independent of the <term id="T50" lex="5-LOX_enzyme" sem="Protein_molecule"><term id="T51" lex="5-LOX" sem="Protein_molecule">5-LOX</term> enzyme</term> but requires the <term id="T52" lex="NADPH_oxidase_activity" sem="Other"><term id="T53" lex="NADPH" sem="Protein_molecule">NADPH oxidase</term> activity</term>.</sentence>
+<event id="E33">
+<type class="Metabolism"/>
+<theme idref="T49"/>
+<clue>In monocytic cells, IL-1beta treatment led to a <clueType>production</clueType> <linkTheme>of</linkTheme> ROIs which is independent of the 5-LOX enzyme but requires the NADPH oxidase activity.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E34">
+<type class="Regulation"/>
+<theme idref="E36"/>
+<cause idref="T51"/>
+<clue>In monocytic cells, IL-1beta treatment led to a production of ROIs which is <clueType><cluePolarity>independent</cluePolarity></clueType> <linkTheme>of</linkTheme> the 5-LOX enzyme but requires the NADPH oxidase activity.</clue>
+</event>
+<event KT="Fact" id="E35">
+<type class="Positive_regulation"/>
+<theme idref="E36"/>
+<cause idref="T53"/>
+<clue>In monocytic cells, IL-1beta treatment led to a production of ROIs which is independent of the 5-LOX enzyme but <clueType>requires</clueType> the NADPH oxidase activity.</clue>
+<comment>NER T53 mod</comment></event>
+<event id="E36">
+<type class="Positive_regulation"/>
+<theme idref="E33"/>
+<cause idref="T48"/>
+<clue><clueLoc>In monocytic cells</clueLoc>, IL-1beta treatment <clueType>led</clueType> <linkTheme>to</linkTheme> a production of ROIs which is independent of the 5-LOX enzyme but requires the NADPH oxidase activity.</clue>
+</event>
+<sentence id="S9">This pathway involves the <term id="T54" lex="Rac1" sem="Protein_molecule">Rac1</term> and <term id="T55" lex="Cdc42" sem="Protein_molecule">Cdc42</term> <term id="T56" lex="GTPase" sem="Protein_family_or_group">GTPases</term>, two enzymes which are not required for <term id="T57" lex="NF-kappaB_activation" sem="Other"><term id="T58" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activation</term> by <term id="T59" lex="IL-1beta" sem="Protein_molecule">IL-1beta</term> in <term id="T60" lex="epithelial_cell" sem="Cell_natural">epithelial cells</term>.</sentence>
+<event KT="Fact" id="E37">
+<type class="Correlation"/>
+<theme idref="E36"/>
+<theme idref="T54" idref1="T56"/>
+<clue><corefTheme>This pathway</corefTheme> <clueType>involves</clueType> the Rac1 and Cdc42 GTPases, two enzymes which are not required for NF-kappaB activation by IL-1beta in epithelial cells.</clue>
+</event>
+<event KT="Fact" id="E38">
+<type class="Correlation"/>
+<theme idref="E36"/>
+<theme idref="T55" idref1="T56"/>
+<clue><corefTheme>This pathway</corefTheme> <clueType>involves</clueType> the Rac1 and Cdc42 GTPases, two enzymes which are not required for NF-kappaB activation by IL-1beta in epithelial cells.</clue>
+</event>
+<event KT="Other" id="E39">
+<type class="Positive_regulation"/>
+<theme idref="T58"/>
+<cause idref="T59"/>
+<clue>This pathway involves the Rac1 and Cdc42 GTPases, two enzymes which are not required for NF-kappaB <clueType>activation</clueType> <linkCause>by</linkCause> IL-1beta in epithelial cells.</clue>
+</event>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E40">
+<type class="Positive_regulation"/>
+<theme idref="E39"/>
+<cause idref="T54" idref1="T56"/>
+<clue>This pathway involves the Rac1 and Cdc42 GTPases, two enzymes which are <cluePolarity>not</cluePolarity> <clueType>required</clueType> <linkTheme>for</linkTheme> NF-kappaB activation by IL-1beta <clueLoc>in epithelial cells</clueLoc>.</clue>
+</event>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E41">
+<type class="Positive_regulation"/>
+<theme idref="E39"/>
+<cause idref="T55" idref1="T56"/>
+<clue>This pathway involves the Rac1 and Cdc42 GTPases, two enzymes which are <cluePolarity>not</cluePolarity> <clueType>required</clueType> <linkTheme>for</linkTheme> NF-kappaB activation by IL-1beta <clueLoc>in epithelial cells</clueLoc>.</clue>
+</event>
+<sentence id="S10">In conclusion, three different <term id="T61" lex="cell-specific_pathway" sem="Other">cell-specific pathways</term> lead to <term id="T62" lex="NF-kappaB_activation" sem="Other"><term id="T63" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activation</term> by <term id="T64" lex="IL-1beta" sem="Protein_molecule">IL-1beta</term>: a <term id="A8" sem="Other">pathway</term> dependent on <term id="T65" lex="ROI_production" sem="Other"><term id="A7" lex="ROI" sem="Inorganic_compound">ROI</term> production</term> by <term id="T66" lex="5-LOX" sem="Protein_molecule">5-LOX</term> in <term id="T67" lex="lymphoid_cell" sem="Cell_natural">lymphoid cells</term>, an <term id="T68" lex="ROI-_and_5-LOX-independent_pathway" sem="Other"><term id="A9" lex="ROI" sem="Inorganic_compound">ROI</term>- and <term id="T69" lex="5-LOX" sem="Protein_molecule">5-LOX</term>-independent <term id="A10" sem="Other">pathway</term></term> in <term id="T70" lex="epithelial_cell" sem="Cell_natural">epithelial cells</term>, and a <term id="A12" sem="Other">pathway</term> requiring <term id="A11" lex="ROI" sem="Inorganic_compound">ROI</term> production by <term id="T71" lex="NADPH_oxidase" sem="Protein_molecule"><term id="T72" lex="NADPH" sem="Organic_compound_other">NADPH</term> oxidase</term> in <term id="T73" lex="monocytic_cell" sem="Cell_natural">monocytic cells</term>.</sentence>
+<event KT="Other" id="E42">
+<type class="Positive_regulation"/>
+<theme idref="T63"/>
+<cause idref="T64"/>
+<clue>In conclusion, three different cell-specific pathways lead to NF-kappaB <clueType>activation</clueType> <linkCause>by</linkCause> IL-1beta: a pathway dependent on ROI production by 5-LOX in lymphoid cells, an ROI- and 5-LOX-independent pathway in epithelial cells, and a pathway requiring ROI production by NADPH oxidase in monocytic cells.</clue>
+</event>
+<event KT="Analysis" id="E43">
+<type class="Positive_regulation"/>
+<theme idref="E42"/>
+<cause idref="T61"/>
+<clue><clueKT>In conclusion</clueKT>, three different cell-specific pathways <clueType>lead</clueType> <linkTheme>to</linkTheme> NF-kappaB activation by IL-1beta: a pathway dependent on ROI production by 5-LOX in lymphoid cells, an ROI- and 5-LOX-independent pathway in epithelial cells, and a pathway requiring ROI production by NADPH oxidase in monocytic cells.</clue>
+</event>
+<event KT="Other" id="E45">
+<type class="Metabolism"/>
+<theme idref="A7"/>
+<clue>In conclusion, three different cell-specific pathways lead to NF-kappaB activation by IL-1beta: a pathway dependent on ROI <clueType>production</clueType> by 5-LOX in lymphoid cells, an ROI- and 5-LOX-independent pathway in epithelial cells, and a pathway requiring ROI production by NADPH oxidase in monocytic cells.</clue>
+</event>
+<event KT="Other" id="E145">
+<type class="Positive_regulation"/>
+<theme idref="E45"/>
+<cause idref="T66"/>
+<clue>In conclusion, three different cell-specific pathways lead to NF-kappaB activation by IL-1beta: a pathway dependent on ROI <clueType>production</clueType> <linkCause>by</linkCause> 5-LOX in lymphoid cells, an ROI- and 5-LOX-independent pathway in epithelial cells, and a pathway requiring ROI production by NADPH oxidase in monocytic cells.</clue>
+</event>
+<event KT="Other" id="E46">
+<type class="Positive_regulation"/>
+<theme idref="A8"/>
+<cause idref="E145"/>
+<clue>In conclusion, three different cell-specific pathways lead to NF-kappaB activation by IL-1beta: a pathway <clueType>dependent</clueType> <linkCause>on</linkCause> ROI production by 5-LOX <clueLoc>in lymphoid cells</clueLoc>, an ROI- and 5-LOX-independent pathway in epithelial cells, and a pathway requiring ROI production by NADPH oxidase in monocytic cells.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E47">
+<type class="Regulation"/>
+<theme idref="A10"/>
+<cause idref="A9"/>
+<clue>In conclusion, three different cell-specific pathways lead to NF-kappaB activation by IL-1beta: a pathway dependent on ROI production by 5-LOX in lymphoid cells, an ROI- and 5-LOX-<clueType><cluePolarity>independent</cluePolarity></clueType> pathway <clueLoc>in epithelial cells</clueLoc>, and a pathway requiring ROI production by NADPH oxidase in monocytic cells.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E48">
+<type class="Regulation"/>
+<theme idref="A10"/>
+<cause idref="T69"/>
+<clue>In conclusion, three different cell-specific pathways lead to NF-kappaB activation by IL-1beta: a pathway dependent on ROI production by 5-LOX in lymphoid cells, an ROI- and 5-LOX-<clueType><cluePolarity>independent</cluePolarity></clueType> pathway <clueLoc>in epithelial cells</clueLoc>, and a pathway requiring ROI production by NADPH oxidase in monocytic cells.</clue>
+</event>
+<event KT="Other" id="E49">
+<type class="Metabolism"/>
+<theme idref="A11"/>
+<clue>In conclusion, three different cell-specific pathways lead to NF-kappaB activation by IL-1beta: a pathway dependent on ROI production by 5-LOX in lymphoid cells, an ROI- and 5-LOX-independent pathway in epithelial cells, and a pathway requiring ROI <clueType>production</clueType> by NADPH oxidase in monocytic cells.</clue>
+</event>
+<event KT="Other" id="E149">
+<type class="Positive_regulation"/>
+<theme idref="E49"/>
+<cause idref="T71"/>
+<clue>In conclusion, three different cell-specific pathways lead to NF-kappaB activation by IL-1beta: a pathway dependent on ROI production by 5-LOX in lymphoid cells, an ROI- and 5-LOX-independent pathway in epithelial cells, and a pathway requiring ROI <clueType>production</clueType> <linkCause>by</linkCause> NADPH oxidase in monocytic cells.</clue>
+</event>
+<event KT="Other" id="E50">
+<type class="Positive_regulation"/>
+<theme idref="A12"/>
+<cause idref="E149"/>
+<clue>In conclusion, three different cell-specific pathways lead to NF-kappaB activation by IL-1beta: a pathway dependent on ROI production by 5-LOX in lymphoid cells, an ROI- and 5-LOX-independent pathway in epithelial cells, and a pathway <clueType>requiring</clueType> ROI production by NADPH oxidase <clueLoc>in monocytic cells</clueLoc>.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,148 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2304473" created="06/11/19" creator="Yumiko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>2304473</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The <term id="T1" lex="ubiquitous_octamer-binding_protein" sem="Protein_family_or_group">ubiquitous octamer-binding protein</term>(s) is sufficient for <term id="T2" lex="transcription" sem="Other">transcription</term> of <term id="T3" lex="immunoglobulin_gene" sem="DNA_family_or_group">immunoglobulin genes</term>.</sentence>
+<event id="E1">
+<type class="Transcription"/>
+<theme idref="T3"/>
+<clue>The ubiquitous octamer-binding protein(s) is sufficient for <clueType>transcription</clueType> <linkTheme>of</linkTheme> immunoglobulin genes.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T1"/>
+<clue>The ubiquitous octamer-binding protein(s) is <clueType>sufficient</clueType> <linkTheme>for</linkTheme> transcription of immunoglobulin genes.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">All <term id="A109" sem="DNA_family_or_group"><term id="T4" lex="immunoglobulin_gene" sem="DNA_family_or_group">immunoglobulin genes</term> contain a conserved <term id="T5" lex="octanucleotide_promoter_element" sem="DNA_domain_or_region">octanucleotide promoter element</term></term>, <term id="T6" lex="ATGCAAAT" sem="Polynucleotide">ATGCAAAT</term>, which has been shown to be required for their <term id="T7" lex="normal_B-cell-specific_transcription" sem="Other">normal B-cell-specific transcription</term>.</sentence>
+<event KT="Other" id="E3">
+<type class="Transcription"/>
+<theme idref="A109"/>
+<clue>All immunoglobulin genes contain a conserved octanucleotide promoter element, ATGCAAAT, which has been shown to be required for their <clueLoc>normal B-cell</clueLoc>-specific <clueType>transcription</clueType>.</clue>
+<comment>TPS A109: NER: T8 del &quot;transcription&quot;</comment></event>
+<event KT="Analysis" Source="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="T5"/>
+<clue>All immunoglobulin genes contain a conserved octanucleotide promoter element, ATGCAAAT, which <clueSource>has been</clueSource> <clueKT>shown</clueKT> to be <clueType>required</clueType> <linkTheme>for</linkTheme> <corefTheme>their</corefTheme> normal B-cell-specific transcription.</clue>
+</event>
+<sentence id="S3"><term id="A1" sem="Protein_molecule">Proteins</term> that bind this <term id="T9" lex="octamer" sem="Polynucleotide">octamer</term> have been purified, and <term id="T10" lex="cDNA" sem="DNA_family_or_group">cDNAs</term> encoding <term id="T11" lex="octamer-binding_protein" sem="Protein_family_or_group">octamer-binding proteins</term> have been cloned.</sentence>
+<event KT="Other" id="E5">
+<type class="Binding"/>
+<theme idref="A1"/>
+<theme idref="T5"/>
+<clue>Proteins that <clueType>bind</clueType> <corefTheme idref1="T5">this octamer</corefTheme> have been purified, and cDNAs encoding octamer-binding proteins have been cloned.</clue>
+</event>
+<sentence id="S4">Some of these proteins (referred to as <term id="T12" lex="OTF-2" sem="Protein_family_or_group">OTF-2</term>) are lymphoid specific, whereas at least one other, and possibly more (referred to as <term id="T13" lex="OTF-1" sem="Protein_family_or_group">OTF-1</term>), is found ubiquitously in all cell types.</sentence>
+<sentence id="S5">The exact role of these different proteins in directing the <term id="T14" lex="tissue-specific_expression" sem="Other">tissue-specific expression</term> of <term id="T15" lex="immunoglobulin_gene" sem="DNA_family_or_group">immunoglobulin genes</term> is unclear.</sentence>
+<event KT="Other" id="E6">
+<type class="Gene_expression"/>
+<theme idref="T15"/>
+<clue>The exact role of these different proteins in directing the <clueLoc>tissue</clueLoc>-specific <clueType>expression</clueType> <linkTheme>of</linkTheme> immunoglobulin genes is unclear.</clue>
+</event>
+<event KT="Other" id="E60">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<clue>The exact role of these different proteins in <clueType>directing</clueType> the tissue-specific expression of immunoglobulin genes is unclear.</clue>
+</event>
+<event KT="Other" id="E7" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E60"/>
+<cause idref="T12"/>
+<clue>The exact <clueType>role</clueType> <linkCause>of</linkCause> <corefCause>these different proteins</corefCause> <linkTheme>in</linkTheme> directing the tissue-specific expression of immunoglobulin genes is unclear.</clue>
+</event>
+<event KT="Other" id="E8" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E60"/>
+<cause idref="T13"/>
+<clue>The exact <clueType>role</clueType> <linkCause>of</linkCause> <corefCause>these different proteins</corefCause> <linkTheme>in</linkTheme> directing the tissue-specific expression of immunoglobulin genes is unclear.</clue>
+</event>
+<sentence id="S6">We have identified two <term id="T16" lex="human_pre-B-cell_line" sem="Cell_cultured">human pre-B-cell lines</term> that contain extremely low levels of <term id="T17" lex="OTF-2" sem="Protein_family_or_group">OTF-2</term> yet still express high levels of <term id="T18" lex="steady-state_immunoglobulin_heavy-chain_mRNA" sem="RNA_molecule">steady-state <term id="T19" lex="immunoglobulin_heavy-chain" sem="Protein_molecule">immunoglobulin heavy-chain</term> mRNA</term> in vivo and efficiently transcribe an <term id="T20" lex="immunoglobulin_gene" sem="DNA_family_or_group">immunoglobulin gene</term> in vitro.</sentence>
+<event KT="Analysis" id="E9">
+<type class="Transcription"/>
+<theme idref="T18"/>
+<clue>We have <clueKT>identified</clueKT> two <clueLoc>human pre-B-cell lines</clueLoc> that contain extremely low levels of OTF-2 yet still <clueType>express</clueType> high levels <linkTheme>of</linkTheme> steady-state immunoglobulin heavy-chain mRNA in vivo and efficiently transcribe an immunoglobulin gene in vitro.</clue>
+</event>
+<event KT="Other" Manner="High" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<clue>We have identified two <clueLoc>human pre-B-cell lines</clueLoc> that contain extremely low levels of OTF-2 yet still express <clueType><clueManner>high levels</clueManner></clueType> of steady-state immunoglobulin heavy-chain mRNA in vivo and efficiently transcribe an immunoglobulin gene in vitro.</clue>
+</event>
+<event KT="Analysis" id="E10">
+<type class="Transcription"/>
+<theme idref="T20"/>
+<clue>We have <clueKT>identified</clueKT> two <clueLoc>human pre-B-cell lines</clueLoc> that contain extremely low levels of OTF-2 yet still express high levels of steady-state immunoglobulin heavy-chain mRNA in vivo and efficiently <clueType>transcribe</clueType> an immunoglobulin gene in vitro.</clue>
+</event>
+<sentence id="S7">Addition of a highly enriched preparation of <term id="T21" lex="OTF-1" sem="Protein_family_or_group">OTF-1</term> made from one of these <term id="T22" lex="pre-B_cell" sem="Cell_cultured">pre-B cells</term> or from <term id="T23" lex="HeLa_cell" sem="Cell_cultured">HeLa cells</term> specifically stimulated in vitro <term id="T24" lex="transcription" sem="Other">transcription</term> of an <term id="T25" lex="immunoglobulin_gene" sem="DNA_family_or_group">immunoglobulin gene</term>.</sentence>
+<event id="E12">
+<type class="Gene_expression"/>
+<theme idref="T21"/>
+<clue>Addition of a highly enriched preparation of OTF-1 <clueType>made</clueType> <clueLoc>from one of these pre-B cells</clueLoc> or from HeLa cells specifically stimulated in vitro transcription of an immunoglobulin gene.</clue>
+</event>
+<event id="E22">
+<type class="Gene_expression"/>
+<theme idref="T21"/>
+<clue>Addition of a highly enriched preparation of OTF-1 <clueType>made</clueType> from one of these pre-B cells or <clueLoc>from HeLa cells</clueLoc> specifically stimulated in vitro transcription of an immunoglobulin gene.</clue>
+</event>
+<event id="E13">
+<type class="Transcription"/>
+<theme idref="T25"/>
+<clue>Addition of a highly enriched preparation of OTF-1 made from one of these pre-B cells or from HeLa cells specifically stimulated in vitro <clueType>transcription</clueType> <linkTheme>of</linkTheme> an immunoglobulin gene.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="E140"/>
+<clue>Addition of a highly enriched preparation of OTF-1 made from one of these pre-B cells or from HeLa cells specifically <clueType>stimulated</clueType> in vitro transcription of an immunoglobulin gene.</clue>
+</event>
+<event id="E140">
+<type class="Artificial_process"/>
+<theme idref="T21"/>
+<clue><clueType>Addition</clueType> <linkTheme>of</linkTheme> a highly enriched preparation of OTF-1 made from one of these pre-B cells or from HeLa cells specifically stimulated in vitro transcription of an immunoglobulin gene.</clue>
+</event>
+<sentence id="S8">Furthermore, <term id="A9" sem="Protein_family_or_group">OFT-1</term> appeared to have approximately the same transactivation ability as <term id="T26" lex="OTF-2" sem="Protein_family_or_group">OTF-2</term> when normalized for binding activity.</sentence>
+<event CL="L2" KT="Analysis" id="E15" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="A9"/>
+<clue>Furthermore, OFT-1 <clueKT><clueCL>appeared</clueCL></clueKT> to have approximately the same <clueType>transactivation</clueType> ability as OTF-2 <clueTime>when normalized for binding activity</clueTime>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E16" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T26"/>
+<clue>Furthermore, OFT-1 <clueKT><clueCL>appeared</clueCL></clueKT> to have approximately the same <clueType>transactivation</clueType> ability as OTF-2 <clueTime>when normalized for binding activity</clueTime>.</clue>
+</event>
+<sentence id="S9">These results suggest that <term id="T27" lex="OTF-1" sem="Protein_family_or_group">OTF-1</term>, without <term id="T28" lex="OTF-2" sem="Protein_family_or_group">OTF-2</term>, is sufficient for <term id="T29" lex="transcription" sem="Other">transcription</term> of <term id="T30" lex="immunoglobulin_gene" sem="DNA_family_or_group">immunoglobulin genes</term> and that <term id="T31" lex="OTF-2" sem="Protein_family_or_group">OTF-2</term> alone is not responsible for the <term id="T32" lex="B-cell-specific_regulation" sem="Other">B-cell-specific regulation</term> of <term id="T33" lex="immunoglobulin_gene_expression" sem="Other"><term id="T34" lex="immunoglobulin_gene" sem="DNA_family_or_group">immunoglobulin gene</term> expression</term>.</sentence>
+<event KT="Other" id="E17">
+<type class="Transcription"/>
+<theme idref="T30"/>
+<clue>These results suggest that OTF-1, without OTF-2, is sufficient for <clueType>transcription</clueType> <linkTheme>of</linkTheme> immunoglobulin genes and that OTF-2 alone is not responsible for the B-cell-specific regulation of immunoglobulin gene expression.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E18" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<cause idref="T27"/>
+<clue>These results <clueKT><clueCL>suggest</clueCL></clueKT> that OTF-1, without OTF-2, is <clueType>sufficient</clueType> <linkTheme>for</linkTheme> transcription of immunoglobulin genes and that OTF-2 alone is not responsible for the B-cell-specific regulation of immunoglobulin gene expression.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" id="E19" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="T27"/>
+<cause idref="T31"/>
+<clue>These results <clueKT><clueCL>suggest</clueCL></clueKT> that OTF-1, without OTF-2, is sufficient for transcription of immunoglobulin genes and that OTF-2 alone is not <clueType>responsible</clueType> <linkTheme>for</linkTheme> the B-cell-specific regulation of immunoglobulin gene expression.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Gene_expression"/>
+<theme idref="T34"/>
+<clue>These results suggest that OTF-1, without OTF-2, is sufficient for transcription of immunoglobulin genes and that OTF-2 alone is not responsible for the B-cell-specific regulation of immunoglobulin gene <clueType>expression</clueType>.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="T31"/>
+<clue>These results suggest that OTF-1, without OTF-2, is sufficient for transcription of immunoglobulin genes and that OTF-2 <cluePolarity>alone</cluePolarity> is <cluePolarity>not</cluePolarity> responsible for the <clueLoc>B-cell</clueLoc>-specific <clueType>regulation</clueType> <linkTheme>of</linkTheme> immunoglobulin gene expression.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

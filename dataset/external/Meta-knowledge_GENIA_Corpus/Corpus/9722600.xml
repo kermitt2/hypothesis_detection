@@ -1,0 +1,193 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9722600" created="22/11/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9722600</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Activation of <term id="T2" lex="E2F" sem="Protein_molecule">E2F</term>-mediated <term id="A1" sem="Other">transcription</term> by <term id="T3" lex="human_T-cell_leukemia_virus_type_I_Tax_protein" sem="Protein_molecule"><term id="T4" lex="human_T-cell_leukemia_virus" sem="Virus">human T-cell leukemia virus type I</term> Tax protein</term> in a <term id="T5" lex="p16(INK4A)-negative_T-cell_line" sem="Cell_cultured"><term id="A2" sem="Protein_molecule">p16</term>(<term id="A3" sem="Protein_molecule">INK4A</term>)-negative T-cell line</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Positive_regulation"/>
+<theme idref="A1"/>
+<cause idref="T2"/>
+<clue>Activation of E2F-<clueType>mediated</clueType> transcription by human T-cell leukemia virus type I Tax protein in a p16(INK4A)-negative T-cell line.</clue>
+<comment>NER T4 MOD; NER: T1 del &quot;E2F-mediated transcription&quot;</comment></event>
+<event KT="Investigation" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T3"/>
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> E2F-mediated transcription <linkCause>by</linkCause> human T-cell leukemia virus type I Tax protein <clueLoc>in a p16(INK4A)-negative T-cell line</clueLoc>.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E3">
+<type class="Gene_expression"/>
+<theme idref="A3"/>
+<clue>Activation of E2F-mediated transcription by human T-cell leukemia virus type I Tax protein in a p16(INK4A)-<clueType><cluePolarity>negative</cluePolarity></clueType> <clueLoc>T-cell line</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T6" lex="human_T-cell_leukemia_virus_type_I" sem="Virus">human T-cell leukemia virus type I</term> (<term id="T7" lex="HTLV-I" sem="Virus">HTLV-I</term>) is a causative agent of <term id="T8" lex="adult_T-cell_leukemia" sem="Other">adult T-cell leukemia</term>.</sentence>
+<event KT="Fact" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T8"/>
+<cause idref="T7"/>
+<clue>The human T-cell leukemia virus type I (HTLV-I) is a <clueType>causative agent</clueType> <linkTheme>of</linkTheme> adult T-cell leukemia.</clue>
+</event>
+<sentence id="S3">Although the exact mechanism by which <term id="T9" lex="HTLV-I" sem="Virus">HTLV-I</term> contributes to <term id="T10" lex="leukemogenesis" sem="Other">leukemogenesis</term> is still unclear, the <term id="T11" lex="Tax_protein" sem="Protein_molecule">Tax protein</term> is thought to play a major role in this process.</sentence>
+<event KT="Other" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="T10"/>
+<cause idref="T9"/>
+<clue>Although the exact mechanism by which HTLV-I <clueType>contributes</clueType> <linkTheme>to</linkTheme> leukemogenesis is still unclear, the Tax protein is thought to play a major role in this process.</clue>
+</event>
+<event KT="Fact" id="E6" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="T11"/>
+<clue>Although the exact mechanism by which HTLV-I contributes to leukemogenesis is still unclear, the Tax protein is <clueKT>thought</clueKT> to <clueType>play a major role</clueType> <linkTheme>in</linkTheme> <corefTheme>this process</corefTheme>.</clue>
+</event>
+<sentence id="S4">This <term id="T12" lex="40-kDa_polypeptide" sem="Peptide">40-kDa polypeptide</term> is able to interact with the <term id="T13" lex="tumor_suppressor" sem="Protein_family_or_group"><term id="A4" sem="Other">tumor</term> suppressor</term> <term id="T14" lex="p16(INK4A)" sem="Protein_molecule">p16(INK4A)</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E7">
+<type class="Binding"/>
+<theme idref="T11"/>
+<theme idref="T14"/>
+<clue><corefTheme>This 40-kDa polypeptide</corefTheme> is <clueKT><clueCL>able</clueCL></clueKT> to <clueType>interact</clueType> <linkTheme>with</linkTheme> the tumor suppressor p16(INK4A).</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Negative_regulation"/>
+<theme idref="A4"/>
+<cause idref="T14"/>
+<clue>This 40-kDa polypeptide is able to interact with the tumor <clueType>suppressor</clueType> p16(INK4A).</clue>
+</event>
+<sentence id="S5">Consequently, <term id="T15" lex="Tax" sem="Protein_molecule">Tax</term> can activate the signaling pathway that lead to the release of <term id="T16" lex="E2F" sem="Protein_molecule">E2F</term> that in turn induces expression of <term id="A5" sem="Protein_family_or_group">factors</term> required for <term id="A6" sem="Other">cell cycle</term> <term id="T17" lex="progression" sem="Other">progression</term>.</sentence>
+<event KT="Other" id="E9">
+<type class="Localization"/>
+<theme idref="T16"/>
+<clue>Consequently, Tax can activate the signaling pathway that lead to the <clueType>release</clueType> <linkTheme>of</linkTheme> E2F that in turn induces expression of factors required for cell cycle progression.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="T15"/>
+<clue><clueKT>Consequently</clueKT>, Tax <clueCL>can</clueCL> <clueType>activate the signaling pathway that lead</clueType> <linkTheme>to</linkTheme> the release of E2F that in turn induces expression of factors required for cell cycle progression.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Cellular_physiological_process"/>
+<theme idref="A6"/>
+<clue>Consequently, Tax can activate the signaling pathway that lead to the release of E2F that in turn induces expression of factors required for cell cycle <clueType>progression</clueType>.</clue>
+<comment>NER: T17 mod</comment></event>
+<event KT="Other" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<cause idref="A5"/>
+<clue>Consequently, Tax can activate the signaling pathway that lead to the release of E2F that in turn induces expression of factors <clueType>required</clueType> <linkTheme>for</linkTheme> cell cycle progression.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Gene_expression"/>
+<theme idref="A5"/>
+<clue>Consequently, Tax can activate the signaling pathway that lead to the release of E2F that in turn induces <clueType>expression</clueType> <linkTheme>of</linkTheme> factors required for cell cycle progression.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="E10"/>
+<clue>Consequently, Tax can activate the signaling pathway that lead to the release of E2F that <linkCause>in turn</linkCause> <clueType>induces</clueType> expression of factors required for cell cycle progression.</clue>
+</event>
+<sentence id="S6">In this paper, we demonstrate that <term id="T18" lex="Tax" sem="Protein_molecule">Tax</term> can also activate <term id="T20" lex="E2F" sem="Protein_molecule">E2F</term>-mediated <term id="A7" sem="Other">transcription</term> independently of <term id="T21" lex="p16(INK4A)" sem="Protein_molecule">p16(INK4A)</term>.</sentence>
+<event KT="Other" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="A7"/>
+<cause idref="T20"/>
+<clue>In this paper, we demonstrate that Tax can also activate E2F-<clueType>mediated</clueType> transcription independently of p16(INK4A).</clue>
+<comment>NER: T19 del &quot;E2F-mediated transcription&quot;</comment></event>
+<event CL="L2" KT="Analysis" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="T18"/>
+<clue>In this paper, we <clueKT>demonstrate</clueKT> that Tax <clueCL>can</clueCL> also <clueType>activate</clueType> E2F-mediated transcription independently of p16(INK4A).</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E17">
+<type class="Correlation"/>
+<theme idref="E16"/>
+<theme idref="T21"/>
+<clue>In this paper, we demonstrate that Tax can also activate E2F-mediated transcription <clueType><cluePolarity>independently</cluePolarity></clueType> <linkTheme>of</linkTheme> p16(INK4A).</clue>
+</event>
+<sentence id="S7">Indeed, when <term id="T22" lex="Tax" sem="Protein_molecule">Tax</term> is coexpressed with the <term id="T23" lex="E2F-1" sem="Protein_molecule">E2F-1</term> <term id="T24" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> in <term id="T25" lex="CEM_T-cell" sem="Cell_cultured">CEM T-cells</term>, which lack expression of <term id="T26" lex="p16(INK4A)" sem="Protein_molecule">p16(INK4A)</term>, it strongly potentiates the <term id="T27" lex="E2F-dependent_activation" sem="Other"><term id="T28" lex="E2F" sem="Protein_molecule">E2F</term>-dependent activation</term> of <term id="A8" sem="DNA_domain_or_region">a reporter construct</term> driven by <term id="A9" sem="DNA_domain_or_region">a promoter containing <term id="T29" lex="E2F_binding_sites" sem="DNA_domain_or_region"><term id="T30" lex="E2F" sem="Protein_molecule">E2F</term> binding sites</term></term>.</sentence>
+<event id="E18">
+<type class="Gene_expression"/>
+<theme idref="T22"/>
+<clue>Indeed, when Tax is <clueType>coexpressed</clueType> with the E2F-1 transcription factor <clueLoc>in CEM T-cells, which lack expression of p16(INK4A</clueLoc>), it strongly potentiates the E2F-dependent activation of a reporter construct driven by a promoter containing E2F binding sites.</clue>
+<comment>TPS A9</comment></event>
+<event Manner="High" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="T22"/>
+<cause idref="T23"/>
+<clue>Indeed, when Tax is coexpressed <linkCause>with</linkCause> the E2F-1 transcription factor in CEM T-cells, which lack expression of p16(INK4A), <corefCause>it</corefCause> <clueManner>strongly</clueManner> <clueType>potentiates</clueType> the E2F-dependent activation of a reporter construct driven by a promoter containing E2F binding sites.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation"/>
+<theme idref="A8"/>
+<cause idref="A9"/>
+<clue>Indeed, when Tax is coexpressed with the E2F-1 transcription factor in CEM T-cells, which lack expression of p16(INK4A), it strongly potentiates the E2F-dependent activation of a reporter construct <clueType>driven</clueType> <linkCause>by</linkCause> a promoter containing E2F binding sites.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="T28"/>
+<clue>Indeed, when Tax is coexpressed with the E2F-1 transcription factor in CEM T-cells, which lack expression of p16(INK4A), it strongly potentiates the E2F-<linkCause>dependent</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> a reporter construct driven by a promoter containing E2F binding sites.</clue>
+</event>
+<sentence id="S8">This stimulation is abrogated by mutations affecting the <term id="T31" lex="E2F-binding_sites" sem="DNA_domain_or_region"><term id="T32" lex="E2F" sem="Protein_molecule">E2F</term>-binding sites</term>.</sentence>
+<event KT="Method" id="E22">
+<type class="Mutagenesis"/>
+<theme idref="T31"/>
+<clue>This stimulation is abrogated by <clueType>mutations affecting</clueType> the E2F-binding sites.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event id="E23">
+<type class="Negative_regulation"/>
+<theme idref="E19"/>
+<cause idref="E22"/>
+<clue><corefTheme>This stimulation</corefTheme> is <clueType>abrogated</clueType> <linkCause>by</linkCause> mutations affecting the E2F-binding sites.</clue>
+</event>
+<sentence id="S9">In addition, <term id="T33" lex="Tax" sem="Protein_molecule">Tax</term> also stimulates the transcription of the <term id="T34" lex="E2F-1_gene" sem="DNA_domain_or_region"><term id="T35" lex="E2F-1" sem="Protein_molecule">E2F-1</term> gene</term> itself.</sentence>
+<event id="E24">
+<type class="Transcription"/>
+<theme idref="T34"/>
+<clue>In addition, Tax also stimulates the <clueType>transcription</clueType> <linkTheme>of</linkTheme> the E2F-1 gene itself.</clue>
+</event>
+<event id="E25">
+<type class="Positive_regulation"/>
+<theme idref="E24"/>
+<cause idref="T33"/>
+<clue>In addition, Tax also <clueType>stimulates</clueType> the transcription of the E2F-1 gene itself.</clue>
+</event>
+<sentence id="S10">Using <term id="T36" lex="Tax" sem="Protein_molecule">Tax mutants</term> that fail to activate either <term id="T37" lex="ATF" sem="Protein_family_or_group">ATF</term>- or <term id="T38" lex="NF-kappaB-dependent_promoter" sem="DNA_family_or_group"><term id="A10" sem="Protein_complex">NF-kappaB</term>-<term id="A12" sem="DNA_domain_or_region">dependent <term id="A11" sem="DNA_domain_or_region">promoters</term></term></term> and different <term id="A13" sem="DNA_domain_or_region"><term id="T39" lex="5&apos;_truncation_mutant" sem="DNA_family_or_group">5&apos; truncation mutants</term> of the <term id="T40" lex="E2F-1_promoter" sem="DNA_domain_or_region"><term id="T41" lex="E2F-1" sem="Protein_molecule">E2F-1</term> promoter</term></term>, we show that the <term id="T42" lex="Tax-dependent_transcriptional_control" sem="Other"><term id="T43" lex="Tax" sem="Protein_molecule">Tax</term>-dependent transcriptional control</term> of the <term id="T44" lex="E2F1_gene" sem="DNA_domain_or_region">E2F1 gene</term> involves, at least in part, the <term id="T45" lex="ATF_binding_site" sem="DNA_domain_or_region">ATF binding site</term> located in the <term id="T46" lex="E2F-1_promoter" sem="DNA_domain_or_region"><term id="T47" lex="E2F-1" sem="Protein_molecule">E2F-1</term> promoter</term>.</sentence>
+<event Polarity="Negative" assertion="non-exist" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="T37" idref1="A12"/>
+<cause idref="T36"/>
+<clue>Using Tax mutants that <cluePolarity>fail</cluePolarity> to <clueType>activate</clueType> either ATF- or NF-kappaB-dependent promoters and different 5&apos; truncation mutants of the E2F-1 promoter, we show that the Tax-dependent transcriptional control of the E2F1 gene involves, at least in part, the ATF binding site located in the E2F-1 promoter.</clue>
+<comment>NER T36 MOD</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="T38"/>
+<cause idref="T36"/>
+<clue>Using Tax mutants that <cluePolarity>fail</cluePolarity> to <clueType>activate</clueType> either ATF- or NF-kappaB-dependent promoters and different 5&apos; truncation mutants of the E2F-1 promoter, we show that the Tax-dependent transcriptional control of the E2F1 gene involves, at least in part, the ATF binding site located in the E2F-1 promoter.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E28">
+<type class="Positive_regulation"/>
+<theme idref="A13"/>
+<cause idref="T36"/>
+<clue>Using Tax mutants that <cluePolarity>fail</cluePolarity> to <clueType>activate</clueType> either ATF- or NF-kappaB-dependent promoters and different 5&apos; truncation mutants of the E2F-1 promoter, we show that the Tax-dependent transcriptional control of the E2F1 gene involves, at least in part, the ATF binding site located in the E2F-1 promoter.</clue>
+<comment>TPS A13</comment></event>
+<event KT="Other" id="E29">
+<type class="Regulation"/>
+<theme idref="T44"/>
+<cause idref="T43"/>
+<clue>Using Tax mutants that fail to activate either ATF- or NF-kappaB-dependent promoters and different 5&apos; truncation mutants of the E2F-1 promoter, we show that the Tax-<linkCause>dependent</linkCause> <clueType>transcriptional control</clueType> <linkTheme>of</linkTheme> the E2F1 gene involves, at least in part, the ATF binding site located in the E2F-1 promoter.</clue>
+</event>
+<event KT="Analysis" id="E30">
+<type class="Correlation"/>
+<theme idref="E29"/>
+<theme idref="T45"/>
+<clue>Using Tax mutants that fail to activate either ATF- or NF-kappaB-dependent promoters and different 5&apos; truncation mutants of the E2F-1 promoter, we <clueKT>show</clueKT> that the Tax-dependent transcriptional control of the E2F1 gene <clueType>involves</clueType>, at least in part, the ATF binding site located in the E2F-1 promoter.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

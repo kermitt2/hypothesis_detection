@@ -1,0 +1,14 @@
+T7	DDI 32 43	interaction
+T23	Potential_therapeutic_effect 98 105	treated
+T9	DDI 592 603	interaction
+T25	Adverse_effect 431 437	taking
+E1	DDI:T7 has_participant:T1 has_participant:T2 has_cue:T13
+E2	Combination:T22 has_participant:T3 has_participant:T4
+E4	DDI:T9 has_participant:T19 has_participant:T20 has_cue:T26
+E5	Combination:T24 has_participant:T15 has_participant:T16
+E7	Combination:T27 has_participant:T10 has_participant:T11
+E8	Combination:T28 has_participant:T5 has_participant:T6
+E3	Potential_therapeutic_effect:T23 has_subject:T21 has_agent:E2
+E6	Adverse_effect:T25 has_agent:E5 affects:T14
+A1	Speculated E1
+A2	Speculated E4

@@ -1,0 +1,19 @@
+T25	Adverse_effect 629 640	experienced
+T26	DDI 525 536	interaction
+T29	DDI 336 348	interactions
+T35	Potential_therapeutic_effect 413 422	two roles
+T36	Potential_therapeutic_effect 471 481	management
+T37	Potential_therapeutic_effect 486 495	treatment
+T38	Adverse_effect 26 34	starting
+R6	Coreference Arg1:T20 Arg2:T14
+R7	Coreference Arg1:T20 Arg2:T15
+E1	Combination:T21 has_participant:T20
+E3	DDI:T26 has_participant:T14 has_participant:T15
+E5	DDI:T29 has_participant:T6 has_participant:T8
+E9	DDI:T29 has_participant:T6 has_participant:T9
+E10	Combination:T34 has_participant:T23 has_participant:T22 has_participant:T5
+E2	Adverse_effect:T25 affects:T18 has_agent:E1
+E11	Potential_therapeutic_effect:T35 has_agent:T10 affects:T11
+E12	Potential_therapeutic_effect:T36 affects:T12 has_agent:T10
+E13	Potential_therapeutic_effect:T37 affects:T13 has_agent:T10
+E14	Adverse_effect:T38 has_agent:T3 affects:T16

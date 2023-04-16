@@ -1,0 +1,18 @@
+T19	Adverse_effect 114 124	associated
+T18	Adverse_effect 514 524	associated
+T20	Adverse_effect 624 634	associated
+T21	Adverse_effect 719 729	associated
+T24	Adverse_effect 202 214	complication
+T25	Adverse_effect 235 246	association
+T27	Adverse_effect 367 376	presented
+R1	is_equivalent Arg1:T5 Arg2:T6
+R2	is_equivalent Arg1:T8 Arg2:T9
+R3	Subject_Disorder Arg1:T28 Arg2:T23
+E1	Adverse_effect:T19 has_agent:T3 affects:T1
+E2	Adverse_effect:T18 has_agent:T12 affects:T13 affects:T22
+E3	Adverse_effect:T20 has_agent:T14 affects:T15
+E4	Adverse_effect:T21 has_agent:T16 affects:T17
+E5	Adverse_effect:T24 has_agent:T7 affects:T5
+E6	Adverse_effect:T25 has_agent:T10 affects:T8 has_cue:T26
+E7	Adverse_effect:T27 has_agent:T11 affects:T4 has_subject:T28
+A1	Manner E6 Low

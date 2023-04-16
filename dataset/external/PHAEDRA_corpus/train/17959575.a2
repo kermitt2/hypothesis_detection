@@ -1,0 +1,18 @@
+T38	Adverse_effect 20 30	associated
+T39	Adverse_effect 148 158	associated
+T11	Potential_therapeutic_effect 411 420	receiving
+T29	Adverse_effect 1650 1659	receiving
+R1	is_equivalent Arg1:T6 Arg2:T7
+R2	is_equivalent Arg1:T8 Arg2:T9
+R3	Subject_Disorder Arg1:T28 Arg2:T3
+R4	Subject_Disorder Arg1:T40 Arg2:T6
+R5	Coreference Arg1:T12 Arg2:T37
+R6	Subject_Disorder Arg1:T18 Arg2:T33
+R7	Subject_Disorder Arg1:T18 Arg2:T34
+R8	Subject_Disorder Arg1:T37 Arg2:T8
+E1	Adverse_effect:T38 has_agent:T2 affects:T1 has_subject:T28
+E2	Adverse_effect:T39 has_agent:T5 affects:T4 has_subject:T40
+E3	Potential_therapeutic_effect:T11 has_subject:T12 has_agent:T10
+E4	Adverse_effect:T29 has_agent:T36 affects:T35 has_subject:T18
+T41	Potential_therapeutic_effect 1027 1037	started on
+E5	Potential_therapeutic_effect:T41 affects:T22 has_agent:T23

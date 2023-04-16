@@ -1,0 +1,111 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9164919" created="13/04/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9164919</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="abnormal_T_lymphocyte_development" sem="Other">Abnormal <term id="T2" lex="T_lymphocyte" sem="Cell_natural">T lymphocyte</term> development</term> induced by targeted overexpression of <term id="T3" lex="IkappaB_alpha" sem="Protein_molecule">IkappaB alpha</term>.</sentence>
+<event KT="Investigation" id="E1">
+<type class="Cell_differentiation"/>
+<theme idref="T2"/>
+<clue><clueType>Abnormal</clueType> T lymphocyte <clueType>development</clueType> induced by targeted overexpression of IkappaB alpha.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="T3"/>
+<clue>Abnormal T lymphocyte development induced by targeted <clueType>overexpression</clueType> <linkTheme>of</linkTheme> IkappaB alpha.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="E2"/>
+<clue>Abnormal T lymphocyte development <clueType>induced</clueType> <linkCause>by</linkCause> targeted overexpression of IkappaB alpha.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">A role in thymic maturation for <term id="A1" sem="Protein_family_or_group">factors of the <term id="T4" lex="NF-kappaB_family" sem="Protein_family_or_group">NF-kappaB family</term></term> has long been suspected, but not yet proven.</sentence>
+<event KT="Other" id="E5">
+<type class="Cell_differentiation"/>
+<theme idref="T2"/>
+<clue>A role in <clueType>thymic maturation</clueType> for factors of the NF-kappaB family has long been suspected, but not yet proven.</clue>
+<comment>No corefTheme, TPS A1</comment></event>
+<event CL="L2" KT="Analysis" Source="Other" id="E6" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E5"/>
+<cause idref="A1"/>
+<clue>A <clueType>role</clueType> <linkTheme>in</linkTheme> thymic maturation <linkCause>for</linkCause> factors of the NF-kappaB family has <clueSource>long</clueSource> been <clueKT><clueCL>suspected</clueCL></clueKT>, but not yet proven.</clue>
+</event>
+<sentence id="S3"><term id="T5" lex="transgenic_mouse" sem="Multicellular_organism_genetically_modified">Transgenic <term id="T6" lex="mouse" sem="Multicellular_organism_natural">mice</term></term> with a lymphocyte-specific defect in <term id="T7" lex="NF-kappaB_activation" sem="Other"><term id="T8" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activation</term> were produced by targeted expression of human <term id="T9" lex="IkappaB_alpha" sem="Protein_molecule">IkappaB alpha</term>.</sentence>
+<event id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T8"/>
+<clue>Transgenic mice with a lymphocyte-specific defect in NF-kappaB <clueType>activation</clueType> were produced by targeted expression of human IkappaB alpha.</clue>
+</event>
+<event id="E8">
+<type class="Negative_regulation"/>
+<theme idref="E7"/>
+<clue><clueLoc>Transgenic mice</clueLoc> with a lymphocyte-specific <clueType>defect</clueType> <linkTheme>in</linkTheme> NF-kappaB activation were produced by targeted expression of human IkappaB alpha.</clue>
+</event>
+<event id="E27">
+<type class="Gene_expression"/>
+<theme idref="T9"/>
+<clue>Transgenic mice with a lymphocyte-specific defect in NF-kappaB activation were produced by targeted <clueType>expression</clueType> <linkTheme>of</linkTheme> human IkappaB alpha.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="E27"/>
+<clue>Transgenic mice with a lymphocyte-specific defect in NF-kappaB activation were <clueType>produced</clueType> <linkCause>by</linkCause> targeted expression of human IkappaB alpha.</clue>
+</event>
+<sentence id="S4">The <term id="A2" sem="Cell_natural">thymic cellularity</term> of these <term id="T10" lex="mouse" sem="Multicellular_organism_natural">mice</term> was significantly decreased.</sentence>
+<event Manner="High" id="E9">
+<type class="Negative_regulation"/>
+<theme idref="A2"/>
+<clue>The thymic cellularity <clueLoc>of these mice</clueLoc> was <clueManner>significantly</clueManner> <clueType>decreased</clueType>.</clue>
+</event>
+<sentence id="S5">The proportion of <term id="A3" sem="Cell_natural">mature, <term id="T11" lex="TCRhigh_thymocyte" sem="Cell_natural">TCRhigh thymocytes</term> of the <term id="T12" lex="alphabeta_lineage" sem="Cell_natural">alphabeta lineage</term></term> was reduced, and the remaining <term id="T13" lex="TCRhigh_population" sem="Cell_natural">TCRhigh population</term> contained an unusually high proportion of <term id="T14" lex="double-positive_cell" sem="Cell_cultured">double-positive cells</term>.</sentence>
+<event id="E10">
+<type class="Negative_regulation"/>
+<theme idref="A3"/>
+<cause idref="E8"/>
+<clue>The proportion of mature, TCRhigh thymocytes of the alphabeta lineage was <clueType>reduced</clueType>, and the remaining TCRhigh population contained an unusually high proportion of double-positive cells.</clue>
+<comment>TPS A3</comment></event>
+<sentence id="S6">This defect in maturation resulted in a transgene dose-dependent reduction in <term id="T15" lex="peripheral_T_lymphocyte" sem="Cell_natural">peripheral T lymphocytes</term>, with the <term id="T16" lex="CD8_lineage" sem="Cell_natural">CD8 lineage</term> being more severely affected.</sentence>
+<event id="E11">
+<type class="Negative_regulation"/>
+<theme idref="T15"/>
+<cause idref="T9"/>
+<clue>This defect in maturation resulted in a <corefCause>transgene</corefCause> dose-dependent <clueType>reduction</clueType> <linkTheme>in</linkTheme> peripheral T lymphocytes, with the CD8 lineage being more severely affected.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<cause idref="E10"/>
+<clue><corefCause>This defect in maturation</corefCause> <clueType>resulted in</clueType> a transgene dose-dependent reduction in peripheral T lymphocytes, with the CD8 lineage being more severely affected.</clue>
+</event>
+<event Manner="High" id="E13">
+<type class="Negative_regulation"/>
+<theme idref="T16"/>
+<cause idref="E10"/>
+<clue>This defect in maturation resulted in a transgene dose-dependent reduction in peripheral T lymphocytes, with the CD8 lineage being more <clueManner>severely</clueManner> <clueType>affected</clueType>.</clue>
+<comment>No corefCause</comment></event>
+<sentence id="S7">These data provide direct evidence for the involvement of <term id="T17" lex="NF-kappaB/Rel_family_protein" sem="Protein_family_or_group"><term id="T18" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>/Rel family proteins</term> in late stages of <term id="T19" lex="T_lymphocyte_development" sem="Other"><term id="T20" lex="T_lymphocyte" sem="Cell_natural">T lymphocyte</term> development</term>, coincident with <term id="A4" sem="Other">positive</term> and <term id="A5" sem="Other">negative</term> <term id="A6" sem="Other">selection</term>.</sentence>
+<event KT="Other" id="E14">
+<type class="Cell_differentiation"/>
+<theme idref="T20"/>
+<clue>These data provide direct evidence for the involvement of NF-kappaB/Rel family proteins in late stages of T lymphocyte <clueType>development</clueType>, coincident with positive and negative selection.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Correlation"/>
+<theme idref="E14"/>
+<theme idref="A4" idref1="A6"/>
+<theme idref="A5" idref1="A6"/>
+<clue>These data provide direct evidence for the involvement of NF-kappaB/Rel family proteins in late stages of T lymphocyte development, <clueType>coincident</clueType> <linkTheme>with</linkTheme> positive and negative selection.</clue>
+</event>
+<event KT="Analysis" id="E16">
+<type class="Regulation"/>
+<theme idref="E14"/>
+<cause idref="T17"/>
+<clue>These data provide direct <clueKT>evidence</clueKT> for the <clueType>involvement</clueType> <linkCause>of</linkCause> NF-kappaB/Rel family proteins <linkTheme>in</linkTheme> late stages of T lymphocyte development, coincident with positive and negative selection.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

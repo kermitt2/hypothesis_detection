@@ -1,0 +1,269 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8675228" created="01/02/2007" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8675228</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="interleukin_10" sem="Protein_molecule">Interleukin 10</term> induced <term id="T2" lex="c-fos_expression" sem="Other"><term id="T3" lex="c-fos" sem="DNA_domain_or_region">c-fos</term> expression</term> in <term id="T4" lex="human_B_cell" sem="Cell_natural">human B cells</term> by activation of <term id="T5" lex="divergent_protein_kinase" sem="Protein_family_or_group">divergent protein kinases</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="E3"/>
+<clue>Interleukin 10 <clueType>induced</clueType> c-fos expression in human B cells <linkCause>by</linkCause> activation of divergent protein kinases.</clue>
+</event>
+<event id="E2">
+<type class="Gene_expression"/>
+<theme idref="T3"/>
+<clue>Interleukin 10 induced c-fos <clueType>expression</clueType> <clueLoc>in human B cells</clueLoc> by activation of divergent protein kinases.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation"/>
+<theme idref="T5"/>
+<cause idref="T1"/>
+<clue>Interleukin 10 induced c-fos expression in human B cells by <clueType>activation</clueType> <linkTheme>of</linkTheme> divergent protein kinases.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T6" lex="IL-10" sem="Protein_molecule">IL-10</term> is a potent mediator of <term id="T7" lex="human_B_cell_growth" sem="Other"><term id="T8" lex="human_B_cell" sem="Cell_natural">human B cell</term> growth</term> and <term id="T9" lex="plasma_cell_formation" sem="Other"><term id="A1" sem="Cell_natural">plasma cell</term> formation</term>.</sentence>
+<event KT="Fact" Manner="High" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="T6"/>
+<clue>IL-10 is a <clueManner>potent</clueManner> <clueType>mediator</clueType> <linkTheme>of</linkTheme> human B cell growth and plasma cell formation.</clue>
+</event>
+<event KT="Fact" Manner="High" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="T6"/>
+<clue>IL-10 is a <clueManner>potent</clueManner> <clueType>mediator</clueType> <linkTheme>of</linkTheme> human B cell growth and plasma cell formation.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Cellular_physiological_process"/>
+<theme idref="T8"/>
+<clue>IL-10 is a potent mediator of human B cell <clueType>growth</clueType> and plasma cell formation.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Cell_differentiation"/>
+<theme idref="T8"/>
+<theme idref="A1"/>
+<clue>IL-10 is a potent mediator of human B cell growth and plasma cell <clueType>formation</clueType>.</clue>
+</event>
+<sentence id="S3">However, <term id="T10" lex="signal_transduction" sem="Other">signal transduction</term> of <term id="T11" lex="IL-10" sem="Protein_molecule">IL-10</term> in <term id="T12" lex="B_cell" sem="Cell_natural">B cells</term> is poorly understood.</sentence>
+<event KT="Other" id="E8">
+<type class="Cell_communication"/>
+<theme idref="T11"/>
+<clue>However, <clueType>signal transduction</clueType> <linkTheme>of</linkTheme> IL-10 <clueLoc>in B cells</clueLoc> is poorly understood.</clue>
+</event>
+<sentence id="S4">In this study the effect of <term id="T13" lex="IL-10" sem="Protein_molecule">IL-10</term> on the expression of the <term id="T14" lex="protooncogene_c-fos" sem="DNA_domain_or_region">protooncogene <term id="T15" lex="c-fos" sem="DNA_domain_or_region">c-fos</term></term> was investigated, because <term id="A3" sem="Protein_molecule">Fos</term> plays a potential role in the regulation of <cons id="T16" lex="(AND B_cell_proliferation B_cell_differentiation)" sem="(AND Other Other)"><frag id="F1"><term id="A2" sem="Cell_natural">B cell</term></frag> <frag id="F2">proliferation</frag> and <frag id="F3">differentiation</frag></cons>.</sentence>
+<event KT="Investigation" id="E9" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E10"/>
+<cause idref="T13"/>
+<clue>In this study the <clueType>effect</clueType> <linkCause>of</linkCause> IL-10 <linkTheme>on</linkTheme> the expression of the protooncogene c-fos was <clueKT>investigated</clueKT>, because Fos plays a potential role in the regulation of B cell proliferation and differentiation.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Gene_expression"/>
+<theme idref="T15"/>
+<clue>In this study the effect of IL-10 on the <clueType>expression</clueType> <linkTheme>of</linkTheme> the <corefTheme>protooncogene</corefTheme> c-fos was investigated, because Fos plays a potential role in the regulation of B cell proliferation and differentiation.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E11">
+<type class="Regulation"/>
+<theme idref="E12"/>
+<cause idref="A3"/>
+<clue>In this study the effect of IL-10 on the expression of the protooncogene c-fos was investigated, because Fos <clueType>plays</clueType> a <clueKT><clueCL>potential</clueCL></clueKT> <clueType>role</clueType> <linkTheme>in</linkTheme> the regulation of B cell proliferation and differentiation.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E16">
+<type class="Regulation"/>
+<theme idref="E15"/>
+<cause idref="A3"/>
+<clue>In this study the effect of IL-10 on the expression of the protooncogene c-fos was investigated, because Fos <clueType>plays</clueType> a <clueKT><clueCL>potential</clueCL></clueKT> <clueType>role</clueType> <linkTheme>in</linkTheme> the regulation of B cell proliferation and differentiation.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Regulation"/>
+<theme idref="E13"/>
+<clue>In this study the effect of IL-10 on the expression of the protooncogene c-fos was investigated, because Fos plays a potential role in the <clueType>regulation</clueType> <linkTheme>of</linkTheme> B cell proliferation and differentiation.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Regulation"/>
+<theme idref="E14"/>
+<clue>In this study the effect of IL-10 on the expression of the protooncogene c-fos was investigated, because Fos plays a potential role in the <clueType>regulation</clueType> <linkTheme>of</linkTheme> B cell proliferation and differentiation.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Cellular_physiological_process"/>
+<theme idref="A2"/>
+<clue>In this study the effect of IL-10 on the expression of the protooncogene c-fos was investigated, because Fos plays a potential role in the regulation of B cell <clueType>proliferation</clueType> and differentiation.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Cell_differentiation"/>
+<theme idref="A2"/>
+<clue>In this study the effect of IL-10 on the expression of the protooncogene c-fos was investigated, because Fos plays a potential role in the regulation of B cell proliferation and <clueType>differentiation</clueType>.</clue>
+</event>
+<sentence id="S5"><term id="T17" lex="B_cell" sem="Cell_natural">B cells</term> were purified from <term id="T18" lex="buffy_coat_preparation" sem="Organic_compound_other">buffy coat preparations</term> of <term id="T19" lex="healthy_blood_donor" sem="Multicellular_organism_natural">healthy blood donors</term> by positive selection using an <term id="T20" lex="anti_CD20_monoclonal_antibody" sem="Protein_molecule">anti <term id="T21" lex="CD20" sem="Protein_molecule">CD20</term> monoclonal antibody</term> and a <term id="T22" lex="MiniMACS_separation_unit" sem="Other">MiniMACS separation unit</term>.</sentence>
+<sentence id="S6"><term id="T23" lex="B_cell" sem="Cell_natural">B cells</term> were prestimulated with <term id="T24" lex="SAC" sem="Organic_compound_other">SAC</term> for 48 hrs.</sentence>
+<event id="E17">
+<type class="Physiological_process"/>
+<theme idref="T23"/>
+<cause idref="T24"/>
+<clue>B cells were <clueType>prestimulated</clueType> <linkCause>with</linkCause> SAC <clueTime>for 48 hrs</clueTime>.</clue>
+</event>
+<sentence id="S7">Then, cells were incubated with <term id="T25" lex="medium" sem="Organic_compound_other">medium</term> or <term id="T26" lex="IL-10" sem="Protein_molecule">IL-10</term> (100 ng/ml) for 10 to 120 min.</sentence>
+<event KT="Method" id="E18">
+<type class="Artificial_process"/>
+<theme idref="T23"/>
+<theme idref="T26"/>
+<clue>Then, <corefTheme>cells</corefTheme> were <clueType>incubated</clueType> <linkTheme>with</linkTheme> medium or IL-10 (100 ng/ml) <clueTime>for 10 to 120 min</clueTime>.</clue>
+</event>
+<sentence id="S8"><term id="T27" lex="RNA" sem="RNA_family_or_group">RNA</term> was extracted by <term id="T28" lex="phenol/chloroform" sem="Organic_compound_other">phenol/chloroform</term> and <term id="T29" lex="c-fos_expression" sem="Other"><term id="T30" lex="c-fos" sem="DNA_domain_or_region">c-fos</term> expression</term> was analyzed by <term id="T31" lex="PCR_assisted_mRNA_assay" sem="Other">PCR assisted mRNA assay</term>.</sentence>
+<event KT="Investigation" id="E19" uncertainty="doubtful">
+<type class="Gene_expression"/>
+<theme idref="T30"/>
+<clue>RNA was extracted by phenol/chloroform and c-fos <clueType>expression</clueType> was <clueKT>analyzed</clueKT> by <clueExperiment>PCR assisted mRNA assay</clueExperiment>.</clue>
+</event>
+<sentence id="S9">A significant 2-4 fold increase of <term id="T32" lex="c-fos_expression" sem="Other"><term id="T33" lex="c-fos" sem="DNA_domain_or_region">c-fos</term> expression</term> was observed within 30 min of stimulation with <term id="T34" lex="IL-10" sem="Protein_molecule">IL-10</term> (p &lt; 0.01).</sentence>
+<event Manner="High" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="E22"/>
+<clue>A <clueManner>significant</clueManner> <clueManner>2-4 fold</clueManner> <clueType>increase</clueType> <linkTheme>of</linkTheme> c-fos expression was <clueKT>observed</clueKT> <clueTime>within 30 min</clueTime> <linkCause>of</linkCause> stimulation with IL-10 (p &lt; 0.01).</clue>
+</event>
+<event id="E21">
+<type class="Gene_expression"/>
+<theme idref="T33"/>
+<clue>A significant 2-4 fold increase of c-fos <clueType>expression</clueType> was observed within 30 min of stimulation with IL-10 (p &lt; 0.01).</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation"/>
+<cause idref="T34"/>
+<clue>A significant 2-4 fold increase of c-fos expression was observed within 30 min of <clueType>stimulation</clueType> <linkCause>with</linkCause> IL-10 (p &lt; 0.01).</clue>
+</event>
+<sentence id="S10">After 2 hrs <term id="T35" lex="c-fos_expression" sem="Other"><term id="T36" lex="c-fos" sem="DNA_domain_or_region">c-fos</term> expression</term> declined to basal levels.</sentence>
+<event id="E23">
+<type class="Gene_expression"/>
+<theme idref="T36"/>
+<clue><clueTime>After 2 hrs</clueTime> c-fos <clueType>expression</clueType> declined to basal levels.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation"/>
+<theme idref="E23"/>
+<clue>After 2 hrs c-fos expression <clueType>declined</clueType> to basal levels.</clue>
+</event>
+<sentence id="S11">The effect of <term id="T37" lex="IL-10" sem="Protein_molecule">IL-10</term> was dose-dependent with a maximum stimulation using 100 ng/ml of <term id="T38" lex="IL-10" sem="Protein_molecule">IL-10</term>.</sentence>
+<event KT="Analysis" id="E29">
+<type class="Regulation"/>
+<cause idref="T37"/>
+<clue>The <clueType>effect</clueType> <linkCause>of</linkCause> IL-10 was dose-<clueKT>dependent</clueKT> with a maximum stimulation using 100 ng/ml of IL-10.</clue>
+<comment>NO THEME</comment></event>
+<event Manner="High" id="E26">
+<type class="Positive_regulation"/>
+<cause idref="T38"/>
+<clue>The effect of IL-10 was dose-dependent with a <clueManner>maximum</clueManner> <clueType>stimulation</clueType> using 100 ng/ml <linkCause>of</linkCause> IL-10.</clue>
+<comment>NO THEME</comment></event>
+<sentence id="S12">The <term id="T39" lex="IL-10" sem="Protein_molecule">IL-10</term> effect on <term id="T40" lex="c-fos_expression" sem="Other"><term id="T41" lex="c-fos" sem="DNA_domain_or_region">c-fos</term> expression</term> was not blocked by <term id="T42" lex="polymyxin_B" sem="Organic_compound_other">polymyxin B</term>.</sentence>
+<event id="E25">
+<type class="Regulation"/>
+<theme idref="E27"/>
+<cause idref="T39"/>
+<clue>The IL-10 <clueType>effect</clueType> <linkTheme>on</linkTheme> c-fos expression was not blocked by polymyxin B.</clue>
+</event>
+<event id="E27">
+<type class="Gene_expression"/>
+<theme idref="T41"/>
+<clue>The IL-10 effect on c-fos <clueType>expression</clueType> was not blocked by polymyxin B.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E28">
+<type class="Negative_regulation"/>
+<theme idref="E25"/>
+<cause idref="T42"/>
+<clue>The IL-10 effect on c-fos expression was <cluePolarity>not</cluePolarity> <clueType>blocked</clueType> <linkCause>by</linkCause> polymyxin B.</clue>
+</event>
+<sentence id="S13">Using the <term id="T43" lex="tyrosine_kinase_inhibitor" sem="Organic_compound_other"><term id="A4" sem="Protein_family_or_group">tyrosine kinase</term> inhibitor</term> <term id="T44" lex="genistein" sem="Organic_compound_other">genistein</term> (10 microM) a complete inhibition of <term id="T45" lex="IL-10" sem="Protein_molecule">IL-10</term> induced <term id="T46" lex="c-fos_expression" sem="Other"><term id="T47" lex="c-fos" sem="DNA_domain_or_region">c-fos</term> expression</term> was observed.</sentence>
+<event id="E30">
+<type class="Negative_regulation"/>
+<theme idref="A4"/>
+<cause idref="T44"/>
+<clue>Using the tyrosine kinase <clueType>inhibitor</clueType> genistein (10 microM) a complete inhibition of IL-10 induced c-fos expression was observed.</clue>
+</event>
+<event Manner="High" id="E31">
+<type class="Negative_regulation"/>
+<theme idref="E33"/>
+<cause idref="T44"/>
+<clue><linkCause>Using</linkCause> the tyrosine kinase inhibitor genistein (10 microM) a <clueManner>complete</clueManner> <clueType>inhibition</clueType> <linkTheme>of</linkTheme> IL-10 induced c-fos expression was <clueKT>observed</clueKT>.</clue>
+</event>
+<event KT="Other" id="E32">
+<type class="Gene_expression"/>
+<theme idref="T47"/>
+<clue>Using the tyrosine kinase inhibitor genistein (10 microM) a complete inhibition of IL-10 induced c-fos <clueType>expression</clueType> was observed.</clue>
+</event>
+<event KT="Other" id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E32"/>
+<cause idref="T45"/>
+<clue>Using the tyrosine kinase inhibitor genistein (10 microM) a complete inhibition of IL-10 <clueType>induced</clueType> c-fos expression was observed.</clue>
+</event>
+<sentence id="S14">In addition, <term id="A5" sem="Organic_compound_other">H-7</term> (10 microM), a specific inhibitor of <term id="T48" lex="serine/threonine_kinase" sem="Protein_family_or_group"><term id="T49" lex="serine" sem="Amino_acid_monomer">serine</term><term id="T50" lex="threonine" sem="Amino_acid_monomer">/threonine</term> kinases</term>, significantly blocked <term id="T51" lex="IL-10" sem="Protein_molecule">IL-10</term> mediated <term id="T52" lex="c-fos_expression" sem="Other"><term id="T53" lex="c-fos" sem="DNA_domain_or_region">c-fos</term> expression</term> (p &lt; 0.05).</sentence>
+<event KT="Fact" id="E34">
+<type class="Negative_regulation"/>
+<theme idref="T48"/>
+<cause idref="A5"/>
+<clue>In addition, H-7 (10 microM), a specific <clueType>inhibitor</clueType> <linkTheme>of</linkTheme> serine/threonine kinases, significantly blocked IL-10 mediated c-fos expression (p &lt; 0.05).</clue>
+</event>
+<event Manner="High" id="E35">
+<type class="Negative_regulation"/>
+<theme idref="E36"/>
+<cause idref="A5"/>
+<clue>In addition, H-7 (10 microM), a specific inhibitor of serine/threonine kinases, <clueManner>significantly</clueManner> <clueType>blocked</clueType> IL-10 mediated c-fos expression (p &lt; 0.05).</clue>
+</event>
+<event KT="Other" id="E36">
+<type class="Positive_regulation"/>
+<theme idref="E37"/>
+<cause idref="T51"/>
+<clue>In addition, H-7 (10 microM), a specific inhibitor of serine/threonine kinases, significantly blocked IL-10 <clueType>mediated</clueType> c-fos expression (p &lt; 0.05).</clue>
+</event>
+<event KT="Other" id="E37">
+<type class="Gene_expression"/>
+<theme idref="T53"/>
+<clue>In addition, H-7 (10 microM), a specific inhibitor of serine/threonine kinases, significantly blocked IL-10 mediated c-fos <clueType>expression</clueType> (p &lt; 0.05).</clue>
+</event>
+<sentence id="S15">In conclusion, these data show that <term id="T54" lex="IL-10" sem="Protein_molecule">IL-10</term> induces <term id="T55" lex="c-fos_expression" sem="Other"><term id="T56" lex="c-fos" sem="DNA_domain_or_region">c-fos</term> expression</term> in <term id="T57" lex="human_B-cell" sem="Cell_natural">human B-cells</term> by activation of <term id="A6" sem="Protein_family_or_group"><term id="T58" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term></term> and <term id="T59" lex="serine/threonine_kinase" sem="Protein_family_or_group"><term id="T60" lex="serine" sem="Amino_acid_monomer">serine</term><term id="T61" lex="threonine" sem="Amino_acid_monomer">/threonine</term> <term id="A7" sem="Protein_family_or_group">kinases</term></term>.</sentence>
+<event KT="Analysis" id="E38">
+<type class="Positive_regulation"/>
+<theme idref="E39"/>
+<cause idref="E40"/>
+<clue><clueKT>In conclusion</clueKT>, these data <clueKT>show</clueKT> that IL-10 <clueType>induces</clueType> c-fos expression in human B-cells <linkCause>by</linkCause> activation of tyrosine and serine/threonine kinases.</clue>
+</event>
+<event KT="Analysis" id="E41">
+<type class="Positive_regulation"/>
+<theme idref="E39"/>
+<cause idref="E42"/>
+<clue><clueKT>In conclusion</clueKT>, these data <clueKT>show</clueKT> that IL-10 <clueType>induces</clueType> c-fos expression in human B-cells <linkCause>by</linkCause> activation of tyrosine and serine/threonine kinases.</clue>
+</event>
+<event KT="Other" id="E39">
+<type class="Gene_expression"/>
+<theme idref="T56"/>
+<clue>In conclusion, these data show that IL-10 induces c-fos <clueType>expression</clueType> <clueLoc>in human B-cells</clueLoc> by activation of tyrosine and serine/threonine kinases.</clue>
+</event>
+<event KT="Other" id="E40">
+<type class="Positive_regulation"/>
+<theme idref="A6" idref1="A7"/>
+<cause idref="T54"/>
+<clue>In conclusion, these data show that IL-10 induces c-fos expression in human B-cells by <clueType>activation</clueType> <linkTheme>of</linkTheme> tyrosine and serine/threonine kinases.</clue>
+</event>
+<event KT="Other" id="E42">
+<type class="Positive_regulation"/>
+<theme idref="T59"/>
+<cause idref="T54"/>
+<clue>In conclusion, these data show that IL-10 induces c-fos expression in human B-cells by <clueType>activation</clueType> <linkTheme>of</linkTheme> tyrosine and serine/threonine kinases.</clue>
+</event>
+<sentence id="S16">Since this is the first report on <term id="T62" lex="IL-10" sem="Protein_molecule">IL-10</term> induced <term id="T63" lex="signal_transduction" sem="Other">signal transduction</term>, these data may help to identify the <term id="T64" lex="intracellular_mechanism" sem="Other">intracellular mechanisms</term> by which <term id="T65" lex="IL-10" sem="Protein_molecule">IL-10</term> stimulates <term id="T66" lex="human_B-cell" sem="Cell_natural">human B-cells</term>.</sentence>
+<event KT="Analysis" id="E43">
+<type class="Cell_communication"/>
+<theme idref="T62"/>
+<clue>Since this is the first <clueKT>report</clueKT> on IL-10 <linkTheme>induced</linkTheme> <clueType>signal transduction</clueType>, these data may help to identify the intracellular mechanisms by which IL-10 stimulates human B-cells.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E44">
+<type class="Physiological_process"/>
+<theme idref="T66"/>
+<cause idref="T65"/>
+<clue>Since this is the first report on IL-10 induced signal transduction, these data <clueCL>may</clueCL> help to <clueKT>identify</clueKT> the intracellular mechanisms by which IL-10 <clueType>stimulates</clueType> human B-cells.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

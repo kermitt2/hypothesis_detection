@@ -1,0 +1,149 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8691123" created="19/11/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8691123</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="activation_protein_1-dependent_transcriptional_activation" sem="Other"><term id="T2" lex="activation_protein_1" sem="Protein_molecule">Activation protein 1</term>-dependent <term id="T3" lex="transcriptional_activation" sem="Other">transcriptional activation</term></term> of <term id="T4" lex="interleukin_2_gene" sem="DNA_domain_or_region">interleukin 2 gene</term> by <term id="T5" lex="Ca2+/calmodulin_kinase_type_IV/Gr" sem="Protein_molecule"><term id="T6" lex="Ca2+" sem="Element">Ca2+</term>/calmodulin kinase type IV/Gr</term>.</sentence>
+<event KT="Investigation" id="E1">
+<type class="Positive_regulation"/>
+<theme idref="T4"/>
+<cause idref="T5"/>
+<clue>Activation protein 1-dependent <clueType>transcriptional activation</clueType> <linkTheme>of</linkTheme> interleukin 2 gene <linkCause>by</linkCause> Ca2+/calmodulin kinase type IV/Gr.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T2"/>
+<clue>Activation protein 1-<clueType>dependent</clueType> transcriptional activation of interleukin 2 gene by Ca2+/calmodulin kinase type IV/Gr.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T7" lex="Ca2+/calmodulin-dependent_protein_kinase_(CaMK)_type_IV/Gr" sem="Protein_molecule"><term id="T8" lex="Ca2+" sem="Element">Ca2+</term>/calmodulin-dependent protein kinase (CaMK) type IV/Gr</term> is selectively expressed in <term id="T9" lex="T_lymphocyte" sem="Cell_natural">T lymphocytes</term> and is activated after signaling via the <term id="T10" lex="T_cell_antigen_receptor" sem="Protein_family_or_group">T cell antigen receptor</term> (<term id="T11" lex="TCR" sem="Protein_family_or_group">TCR</term>), indicating that it mediates some of the <term id="T12" lex="Ca(2+)-dependent_transcriptional_event" sem="Other"><term id="A2" sem="Element">Ca(2+)</term>-dependent <term id="A1" sem="Other">transcriptional events</term></term> that follow <term id="T13" lex="TCR_engagement" sem="Other"><term id="T14" lex="TCR" sem="Protein_family_or_group">TCR</term> engagement</term>.</sentence>
+<event KT="Fact" id="E3">
+<type class="Gene_expression"/>
+<theme idref="T7"/>
+<clue>The Ca2+/calmodulin-dependent protein kinase (CaMK) type IV/Gr is selectively <clueType>expressed</clueType> <clueLoc>in T lymphocytes</clueLoc> and is activated after signaling via the T cell antigen receptor (TCR), indicating that it mediates some of the Ca(2+)-dependent transcriptional events that follow TCR engagement.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Cell_communication"/>
+<theme idref="T11"/>
+<clue>The Ca2+/calmodulin-dependent protein kinase (CaMK) type IV/Gr is selectively expressed in T lymphocytes and is activated after <clueType>signaling</clueType> <linkTheme>via</linkTheme> the T cell antigen receptor (TCR), indicating that it mediates some of the Ca(2+)-dependent transcriptional events that follow TCR engagement.</clue>
+</event>
+<event KT="Fact" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="E4"/>
+<clue>The Ca2+/calmodulin-dependent protein kinase (CaMK) type IV/Gr is selectively expressed in T lymphocytes and is <clueType>activated</clueType> <linkCause>after</linkCause> signaling via the T cell antigen receptor (TCR), indicating that it mediates some of the Ca(2+)-dependent transcriptional events that follow TCR engagement.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Binding"/>
+<theme idref="T14"/>
+<clue>The Ca2+/calmodulin-dependent protein kinase (CaMK) type IV/Gr is selectively expressed in T lymphocytes and is activated after signaling via the T cell antigen receptor (TCR), indicating that it mediates some of the Ca(2+)-dependent transcriptional events that follow TCR <clueType>engagement</clueType>.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="A1"/>
+<cause idref="E6"/>
+<clue>The Ca2+/calmodulin-dependent protein kinase (CaMK) type IV/Gr is selectively expressed in T lymphocytes and is activated after signaling via the T cell antigen receptor (TCR), indicating that it mediates some of the Ca(2+)-dependent transcriptional events that <linkCause>follow</linkCause> TCR engagement.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event CL="L2" KT="Analysis" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="A1"/>
+<cause idref="T7"/>
+<clue>The Ca2+/calmodulin-dependent protein kinase (CaMK) type IV/Gr is selectively expressed in T lymphocytes and is activated after signaling via the T cell antigen receptor (TCR), <clueKT><clueCL>indicating</clueCL></clueKT> that <corefCause>it</corefCause> <clueType>mediates</clueType> some of the Ca(2+)-dependent transcriptional events that follow TCR engagement.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="A1"/>
+<cause idref="A2"/>
+<clue>The Ca2+/calmodulin-dependent protein kinase (CaMK) type IV/Gr is selectively expressed in T lymphocytes and is activated after signaling via the T cell antigen receptor (TCR), indicating that it mediates some of the Ca(2+)-<clueType>dependent</clueType> transcriptional events that follow TCR engagement.</clue>
+</event>
+<sentence id="S3">Here we show that <term id="T15" lex="CaMKIV/Gr" sem="Protein_molecule">CaMKIV/Gr</term> induces the <term id="T16" lex="transcription_factor_activation_protein_1" sem="Protein_molecule"><term id="T17" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> activation protein 1</term> (<term id="T18" lex="AP-1" sem="Protein_molecule">AP-1</term>) alone or in synergy with <term id="T19" lex="T_cell_mitogen" sem="Protein_family_or_group">T cell mitogens</term> and with the <term id="T20" lex="p21ras_oncoprotein" sem="Protein_molecule">p21ras oncoprotein</term>.</sentence>
+<event KT="Analysis" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="T18"/>
+<cause idref="T15"/>
+<clue>Here we <clueKT>show</clueKT> that CaMKIV/Gr <clueType>induces</clueType> the transcription factor activation protein 1 (AP-1) alone or in synergy with T cell mitogens and with the p21ras oncoprotein.</clue>
+</event>
+<event KT="Analysis" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="T18"/>
+<cause idref="T15"/>
+<cause idref="T19"/>
+<clue>Here we <clueKT>show</clueKT> that CaMKIV/Gr <clueType>induces</clueType> the transcription factor activation protein 1 (AP-1) alone or <clueType>in synergy</clueType> <linkCause>with</linkCause> T cell mitogens and with the p21ras oncoprotein.</clue>
+</event>
+<event KT="Analysis" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="T18"/>
+<cause idref="T15"/>
+<cause idref="T20"/>
+<clue>Here we <clueKT>show</clueKT> that CaMKIV/Gr <clueType>induces</clueType> the transcription factor activation protein 1 (AP-1) alone or <clueType>in synergy</clueType> with T cell mitogens and <linkCause>with</linkCause> the p21ras oncoprotein.</clue>
+</event>
+<sentence id="S4"><term id="T21" lex="CaMKIV/_Gr_signaling" sem="Other"><term id="T22" lex="CaMKIV/_Gr" sem="Protein_molecule">CaMKIV/ Gr</term> signaling</term> is associated with <term id="T23" lex="transcriptional_activation" sem="Other">transcriptional activation</term> of <term id="T24" lex="c-fos" sem="DNA_domain_or_region">c-fos</term> but is independent of <term id="T25" lex="p21ras" sem="DNA_domain_or_region">p21ras</term> or <term id="T26" lex="calcineurin" sem="Protein_molecule">calcineurin</term>.</sentence>
+<event KT="Other" id="E13">
+<type class="Cell_communication"/>
+<theme idref="T22"/>
+<clue>CaMKIV/ Gr <clueType>signaling</clueType> is associated with transcriptional activation of c-fos but is independent of p21ras or calcineurin.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="T24"/>
+<clue>CaMKIV/ Gr signaling is associated with <clueType>transcriptional activation</clueType> <linkTheme>of</linkTheme> c-fos but is independent of p21ras or calcineurin.</clue>
+</event>
+<event KT="Analysis" id="E15">
+<type class="Correlation"/>
+<theme idref="E13"/>
+<theme idref="E14"/>
+<clue>CaMKIV/ Gr signaling is <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> transcriptional activation of c-fos but is independent of p21ras or calcineurin.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E16">
+<type class="Correlation"/>
+<theme idref="E13"/>
+<theme idref="T25"/>
+<clue>CaMKIV/ Gr signaling is associated with transcriptional activation of c-fos but is <clueType><cluePolarity>independent</cluePolarity></clueType> <linkTheme>of</linkTheme> p21ras or calcineurin.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E17">
+<type class="Correlation"/>
+<theme idref="E13"/>
+<theme idref="T26"/>
+<clue>CaMKIV/ Gr signaling is associated with transcriptional activation of c-fos but is <clueType><cluePolarity>independent</cluePolarity></clueType> <linkTheme>of</linkTheme> p21ras or calcineurin.</clue>
+</event>
+<sentence id="S5"><term id="T27" lex="AP-1" sem="Protein_molecule">AP-1</term> is an integral component of the <term id="T28" lex="nuclear_factor_of_activated_T_cells_(NFAT)_transcriptional_complex" sem="Protein_complex"><term id="T29" lex="nuclear_factor_of_activated_T_cells" sem="Protein_complex">nuclear factor of activated <term id="T30" lex="T_cell" sem="Cell_natural">T cells</term></term> (NFAT) transcriptional complex</term>, which is required for <term id="T31" lex="interleukin_2_gene_expression" sem="Other"><term id="T32" lex="interleukin_2_gene" sem="DNA_domain_or_region">interleukin 2 gene</term> expression</term> in <term id="T33" lex="T_cell" sem="Cell_natural">T cells</term>.</sentence>
+<event KT="Other" id="E18">
+<type class="Gene_expression"/>
+<theme idref="T32"/>
+<clue>AP-1 is an integral component of the nuclear factor of activated T cells (NFAT) transcriptional complex, which is required for interleukin 2 gene <clueType>expression</clueType> <clueLoc>in T cells</clueLoc>.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="T28"/>
+<clue>AP-1 is an integral component of the nuclear factor of activated T cells (NFAT) transcriptional complex, which is <clueType>required</clueType> <linkTheme>for</linkTheme> interleukin 2 gene expression in T cells.</clue>
+</event>
+<sentence id="S6">We demonstrate that <term id="T34" lex="CaMKIV/Gr" sem="Protein_molecule">CaMKIV/Gr</term> reconstitutes the capacity of the cytosolic component of <term id="T35" lex="NFAT" sem="Protein_complex">NFAT</term> to direct <term id="A3" sem="Other">transcription</term> from <term id="T36" lex="NFAT_site" sem="DNA_domain_or_region"><term id="T37" lex="NFAT" sem="Protein_complex">NFAT</term> sites</term> in non-<term id="T38" lex="T_cell" sem="Cell_natural">T cells</term>.</sentence>
+<event KT="Other" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<cause idref="T36"/>
+<clue>We demonstrate that CaMKIV/Gr reconstitutes the capacity of the cytosolic component of NFAT to direct transcription <linkCause>from</linkCause> NFAT sites in non-T cells.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event CL="L2" KT="Analysis" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="T34"/>
+<clue>We <clueKT>demonstrate</clueKT> that CaMKIV/Gr reconstitutes the <clueCL>capacity</clueCL> of the cytosolic component of NFAT to <clueType>direct</clueType> transcription from NFAT sites <clueLoc>in non-T cells</clueLoc>.</clue>
+</event>
+<sentence id="S7">These results reveal a central role for <term id="T39" lex="CaMKIV/Gr" sem="Protein_molecule">CaMKIV/Gr</term> as a <term id="T40" lex="Ca(2+)-regulated_activator" sem="Other"><term id="T41" lex="Ca(2+)" sem="Element">Ca(2+)</term>-regulated activator</term> of <term id="T42" lex="gene_transcription" sem="Other">gene transcription</term> in <term id="T43" lex="T_lymphocyte" sem="Cell_natural">T lymphocytes</term>.</sentence>
+<event KT="Analysis" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="T42"/>
+<cause idref="T39"/>
+<clue>These results <clueKT>reveal</clueKT> a central <clueType>role</clueType> for CaMKIV/Gr <clueType>as</clueType> a Ca(2+)-regulated <clueType>activator</clueType> <linkTheme>of</linkTheme> gene transcription <clueLoc>in T lymphocytes</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E23">
+<type class="Regulation"/>
+<theme idref="E22"/>
+<clue>These results reveal a central role for CaMKIV/Gr as a Ca(2+)-<clueType>regulated</clueType> activator of gene transcription in T lymphocytes.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

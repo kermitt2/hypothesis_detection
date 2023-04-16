@@ -1,0 +1,11 @@
+T10	Adverse_effect 20 27	induced
+T15	Adverse_effect 1327 1333	due to
+T17	Adverse_effect 1006 1013	related
+T22	Adverse_effect 1175 1183	exposure
+R1	is_equivalent Arg1:T3 Arg2:T11
+E1	Adverse_effect:T10 affects:T2 has_agent:T1
+E2	Adverse_effect:T15 has_cue:T16 has_agent:T9 affects:T14
+E3	Adverse_effect:T17 has_agent:T6 has_cue:T18 affects:T13
+E4	Adverse_effect:T22 has_agent:T8 affects:T21
+A1	Speculated E2
+A2	Speculated E3

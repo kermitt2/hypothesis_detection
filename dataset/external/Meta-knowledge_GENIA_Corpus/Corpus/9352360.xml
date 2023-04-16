@@ -1,0 +1,132 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9352360" created="12/10/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9352360</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Suppression of <term id="T1" lex="MHC_class_II_expression" sem="Other"><term id="T2" lex="MHC_class_II" sem="Protein_family_or_group">MHC class II</term> expression</term> by <term id="A1" sem="Protein_molecule"><term id="T3" lex="human_class_II_trans-activator_construct" sem="Protein_molecule">human class II trans-activator constructs</term> lacking the <term id="T4" lex="N-terminal_domain" sem="Protein_domain_or_region">N-terminal domain</term></term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Gene_expression"/>
+<theme idref="T2"/>
+<clue>Suppression of MHC class II <clueType>expression</clueType> by human class II trans-activator constructs lacking the N-terminal domain.</clue>
+<comment>NER T3 MOD, TPS A1</comment></event>
+<event KT="Investigation" id="E2">
+<type class="Negative_regulation"/>
+<theme idref="E1"/>
+<cause idref="E102"/>
+<clue><clueType>Suppression</clueType> <linkTheme>of</linkTheme> MHC class II expression <linkCause>by</linkCause> human class II trans-activator constructs lacking the N-terminal domain.</clue>
+</event>
+<event KT="Other" id="E102">
+<type class="Negative_regulation"/>
+<theme idref="T4"/>
+<clue>Suppression of MHC class II expression by <clueLoc>human class II trans-activator constructs</clueLoc> <clueType>lacking</clueType> the N-terminal domain.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T5" lex="class_II_trans-activator" sem="Protein_molecule">class II trans-activator</term> (<term id="T6" lex="CIITA" sem="Protein_molecule">CIITA</term>) is a <term id="T7" lex="bi-_or_multi-functional_domain_protein" sem="Protein_family_or_group">bi- or multi-functional domain protein</term> which plays a critical role in the expression of <term id="T8" lex="MHC_class_II_gene" sem="DNA_family_or_group">MHC class II genes</term>.</sentence>
+<event KT="Other" id="E3">
+<type class="Gene_expression"/>
+<theme idref="T8"/>
+<clue>The class II trans-activator (CIITA) is a bi- or multi-functional domain protein which plays a critical role in the <clueType>expression</clueType> <linkTheme>of</linkTheme> MHC class II genes.</clue>
+</event>
+<event KT="Fact" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="T6"/>
+<clue>The class II trans-activator (CIITA) is a bi- or multi-functional domain protein which <clueType>plays a critical role</clueType> <linkTheme>in</linkTheme> the expression of MHC class II genes.</clue>
+</event>
+<sentence id="S3">We report that removal of the <term id="T9" lex="N-terminal_151_amino_acid" sem="Protein_domain_or_region">N-terminal 151 amino acids</term>, encompassing all of the <term id="T10" lex="acidic_domain" sem="Protein_domain_or_region">acidic domain</term> but leaving intact the <term id="T11" lex="proline/serine/threonine-rich_domain" sem="Protein_domain_or_region"><term id="T12" lex="proline" sem="Amino_acid_monomer">proline</term>/<term id="T13" lex="serine" sem="Amino_acid_monomer">serine</term>/<term id="T14" lex="threonine" sem="Amino_acid_monomer">threonine</term>-rich domain</term>, results in a mutant protein with <term id="T15" lex="potent_suppressive_property" sem="Other">potent suppressive properties</term> for <term id="T16" lex="MHC_class_II_expression" sem="Other"><term id="T17" lex="MHC_class_II" sem="Protein_family_or_group">MHC class II</term> expression</term>.</sentence>
+<event KT="Other" id="E5">
+<type class="Negative_regulation"/>
+<theme idref="T9"/>
+<clue>We report that <clueType>removal</clueType> <linkTheme>of</linkTheme> the N-terminal 151 amino acids, encompassing all of the acidic domain but leaving intact the proline/serine/threonine-rich domain, results in a mutant protein with potent suppressive properties for MHC class II expression.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Gene_expression"/>
+<theme idref="T17"/>
+<clue>We report that removal of the N-terminal 151 amino acids, encompassing all of the acidic domain but leaving intact the proline/serine/threonine-rich domain, results in a mutant protein with potent suppressive properties for MHC class II <clueType>expression</clueType>.</clue>
+</event>
+<event KT="Other" Manner="High" id="E7">
+<type class="Negative_regulation"/>
+<theme idref="E6"/>
+<clue>We report that removal of the N-terminal 151 amino acids, encompassing all of the acidic domain but leaving intact the proline/serine/threonine-rich domain, results in a mutant protein with <clueManner>potent</clueManner> <clueType>suppressive properties</clueType> <linkTheme>for</linkTheme> MHC class II expression.</clue>
+</event>
+<event KT="Analysis" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="E5"/>
+<clue>We <clueKT>report</clueKT> that removal of the N-terminal 151 amino acids, encompassing all of the acidic domain but leaving intact the proline/serine/threonine-rich domain, <clueType>results</clueType> <linkTheme>in</linkTheme> a mutant protein with potent suppressive properties for MHC class II expression.</clue>
+</event>
+<sentence id="S4"><term id="T18" lex="HeLa_cell" sem="Cell_cultured">HeLa cells</term> stably or transiently transfected with <term id="T19" lex="mutant_CIITA_construct" sem="DNA_family_or_group">mutant <term id="T20" lex="CIITA" sem="Protein_molecule">CIITA</term> constructs</term> showed up to 99% suppression of <term id="T21" lex="MHC_class_II_antigen_induction" sem="Other"><term id="T22" lex="MHC_class_II" sem="Protein_family_or_group">MHC class II antigen</term> induction</term> by <term id="T23" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term> and marked suppression of <term id="T24" lex="HLA-DRA_mRNA_expression" sem="Other"><term id="T25" lex="HLA-DRA_mRNA" sem="RNA_molecule">HLA-DRA mRNA</term> expression</term>.</sentence>
+<event KT="Method" id="E107">
+<type class="Gene_expression"/>
+<theme idref="T19"/>
+<clue>HeLa cells stably or transiently <clueType>transfected</clueType> <linkTheme>with</linkTheme> mutant CIITA constructs showed up to 99% suppression of MHC class II antigen induction by IFN-gamma and marked suppression of HLA-DRA mRNA expression.</clue>
+<comment>NER T22 MOD, ARTIFICIAL</comment></event>
+<event KT="Method" id="E108">
+<type class="Positive_regulation"/>
+<theme idref="E107"/>
+<clue><clueLoc>HeLa cells</clueLoc> stably or transiently <clueType>transfected</clueType> with mutant CIITA constructs showed up to 99% suppression of MHC class II antigen induction by IFN-gamma and marked suppression of HLA-DRA mRNA expression.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event KT="Method" id="E109">
+<type class="Mutagenesis"/>
+<theme idref="T20"/>
+<clue>HeLa cells stably or transiently transfected with <clueType>mutant</clueType> CIITA constructs showed up to 99% suppression of MHC class II antigen induction by IFN-gamma and marked suppression of HLA-DRA mRNA expression.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event KT="Other" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="T22"/>
+<cause idref="T23"/>
+<clue>HeLa cells stably or transiently transfected with mutant CIITA constructs showed up to 99% suppression of MHC class II antigen <clueType>induction</clueType> <linkCause>by</linkCause> IFN-gamma and marked suppression of HLA-DRA mRNA expression.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Transcription"/>
+<theme idref="T25"/>
+<clue>HeLa cells stably or transiently transfected with mutant CIITA constructs showed up to 99% suppression of MHC class II antigen induction by IFN-gamma and marked suppression of HLA-DRA mRNA <clueType>expression</clueType>.</clue>
+</event>
+<event KT="Analysis" Manner="High" id="E12">
+<type class="Negative_regulation"/>
+<theme idref="E10"/>
+<cause idref="E108"/>
+<clue>HeLa cells stably or transiently transfected with mutant CIITA constructs <clueType><clueKT>showed</clueKT></clueType> <clueManner>up to 99%</clueManner> <clueType>suppression</clueType> of MHC class II antigen induction by IFN-gamma and marked suppression of HLA-DRA mRNA expression.</clue>
+</event>
+<event KT="Analysis" Manner="High" id="E13">
+<type class="Negative_regulation"/>
+<theme idref="E11"/>
+<cause idref="E108"/>
+<clue>HeLa cells stably or transiently transfected with mutant CIITA constructs <clueType><clueKT>showed</clueKT></clueType> up to 99% suppression of MHC class II antigen induction by IFN-gamma and <clueManner>marked</clueManner> <clueType>suppression</clueType> <linkTheme>of</linkTheme> HLA-DRA mRNA expression.</clue>
+</event>
+<sentence id="S5">Transient transfection of a <term id="A4" sem="Cell_cultured">B lymphoma line</term> resulted in up to 89% reduction of constitutive <term id="T26" lex="MHC_class_II_expression" sem="Other"><term id="T27" lex="MHC_class_II" sem="Protein_family_or_group">MHC class II</term> expression</term> within 5 days and suppression of <term id="T28" lex="HLA-DRA_mRNA_synthesis" sem="Other"><term id="T29" lex="HLA-DRA_mRNA" sem="RNA_molecule">HLA-DRA mRNA</term> synthesis</term>.</sentence>
+<event KT="Method" id="E114">
+<type class="Gene_expression"/>
+<theme idref="T19"/>
+<clue>Transient <clueType>transfection</clueType> <linkTheme>of</linkTheme> a B lymphoma line resulted in up to 89% reduction of constitutive MHC class II expression within 5 days and suppression of HLA-DRA mRNA synthesis.</clue>
+<comment>NO COREFTHEME FOR T19, ARTIFICIAL</comment></event>
+<event KT="Method" id="E115">
+<type class="Positive_regulation"/>
+<theme idref="E114"/>
+<clue>Transient <clueType>transfection</clueType> of a <clueLoc>B lymphoma line</clueLoc> resulted in up to 89% reduction of constitutive MHC class II expression within 5 days and suppression of HLA-DRA mRNA synthesis.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event id="E15">
+<type class="Gene_expression"/>
+<theme idref="T27"/>
+<clue>Transient transfection of a B lymphoma line resulted in up to 89% reduction of constitutive MHC class II <clueType>expression</clueType> within 5 days and suppression of HLA-DRA mRNA synthesis.</clue>
+</event>
+<event Manner="High" id="E16">
+<type class="Negative_regulation"/>
+<theme idref="E15"/>
+<cause idref="E115"/>
+<clue>Transient transfection of a B lymphoma line <clueType>resulted in</clueType> <clueManner>up to 89%</clueManner> <clueType>reduction</clueType> <linkTheme>of</linkTheme> constitutive MHC class II expression <clueTime>within 5 days</clueTime> and suppression of HLA-DRA mRNA synthesis.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Transcription"/>
+<theme idref="T29"/>
+<clue>Transient transfection of a B lymphoma line resulted in up to 89% reduction of constitutive MHC class II expression within 5 days and suppression of HLA-DRA mRNA <clueType>synthesis</clueType>.</clue>
+</event>
+<event id="E18">
+<type class="Negative_regulation"/>
+<theme idref="E17"/>
+<cause idref="E115"/>
+<clue>Transient transfection of a B lymphoma line <clueType>resulted in</clueType> up to 89% reduction of constitutive MHC class II expression within 5 days and <clueType>suppression</clueType> <linkTheme>of</linkTheme> HLA-DRA mRNA synthesis.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

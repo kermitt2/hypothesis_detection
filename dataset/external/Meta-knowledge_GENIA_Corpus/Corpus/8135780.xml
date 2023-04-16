@@ -1,0 +1,258 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8135780" created="19/04/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8135780</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="calcineurin" sem="Protein_molecule">Calcineurin</term> activates transcription from the <term id="T2" lex="GM-CSF_promoter" sem="DNA_domain_or_region">GM-CSF promoter</term> in synergy with either <term id="T3" lex="protein_kinase_C" sem="Protein_molecule">protein kinase C</term> or <term id="T4" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term><term id="T5" lex="AP-1" sem="Protein_molecule">/AP-1</term> in <term id="T6" lex="T_cell" sem="Cell_natural">T cells</term>.</sentence>
+<event id="E1">
+<type class="Transcription"/>
+<theme idref="T2"/>
+<clue>Calcineurin activates <clueType>transcription</clueType> <linkTheme>from</linkTheme> the GM-CSF promoter in synergy with either protein kinase C or NF-kappa B/AP-1 in T cells.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T1"/>
+<cause idref="T3"/>
+<clue>Calcineurin <clueType>activates</clueType> transcription from the GM-CSF promoter <linkCause>in synergy with</linkCause> either protein kinase C or NF-kappa B/AP-1 <clueLoc>in T cells</clueLoc>.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T1"/>
+<cause idref="T4"/>
+<cause idref="T5"/>
+<clue>Calcineurin <clueType>activates</clueType> transcription from the GM-CSF promoter <linkCause>in synergy with</linkCause> either protein kinase C or NF-kappa B/AP-1 <clueLoc>in T cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Two <term id="T7" lex="cis-acting_element" sem="DNA_family_or_group">cis-acting elements</term> <term id="T8" lex="GM-kappa_B/GC-box" sem="DNA_domain_or_region">GM-kappa B/GC-box</term> and <term id="T9" lex="CLE0" sem="DNA_domain_or_region">CLE0</term>, <term id="A1" sem="DNA_domain_or_region">of</term> the <term id="T10" lex="granulocyte-macrophage_colony-stimulating_factor_(GM-CSF)_gene" sem="DNA_domain_or_region"><term id="T11" lex="granulocyte-macrophage_colony-stimulating_factor" sem="Protein_molecule">granulocyte-macrophage colony-stimulating factor</term> (<term id="T12" lex="GM-CSF" sem="Protein_molecule">GM-CSF</term>) gene</term> are required for maximal induction in <term id="T13" lex="Jurkat_T_cell" sem="Cell_cultured">Jurkat T cells</term> by costimulation with <term id="T14" lex="phorbol-12-myristate_acetate" sem="Organic_compound_other">phorbol-12-myristate acetate</term> (<term id="T15" lex="PMA" sem="Organic_compound_other">PMA</term>) and <term id="T16" lex="Ca2+_ionophore" sem="Organic_compound_other"><term id="T17" lex="Ca2+" sem="Element">Ca2+</term> ionophore</term> (<term id="T18" lex="A23187" sem="Organic_compound_other">A23187</term>).</sentence>
+<event KT="Other" Manner="High" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T10"/>
+<cause idref="T15"/>
+<cause idref="T18"/>
+<clue>Two cis-acting elements GM-kappa B/GC-box and CLE0, of the granulocyte-macrophage colony-stimulating factor (GM-CSF) gene are required for <clueManner>maximal</clueManner> <clueType>induction</clueType> <clueLoc>in Jurkat T cells</clueLoc> <linkCause>by</linkCause> costimulation with phorbol-12-myristate acetate (PMA) and Ca2+ ionophore (A23187).</clue>
+</event>
+<event KT="Fact" id="E5">
+<type class="Regulation"/>
+<theme idref="E4"/>
+<cause idref="T8" idref1="A1" idref2="T10"/>
+<clue>Two cis-acting elements GM-kappa B/GC-box and CLE0, of the granulocyte-macrophage colony-stimulating factor (GM-CSF) gene are <clueType>required</clueType> <linkTheme>for</linkTheme> maximal induction in Jurkat T cells by costimulation with phorbol-12-myristate acetate (PMA) and Ca2+ ionophore (A23187).</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Regulation"/>
+<theme idref="E4"/>
+<cause idref="T9" idref1="A1" idref2="T10"/>
+<clue>Two cis-acting elements GM-kappa B/GC-box and CLE0, of the granulocyte-macrophage colony-stimulating factor (GM-CSF) gene are <clueType>required</clueType> <linkTheme>for</linkTheme> maximal induction in Jurkat T cells by costimulation with phorbol-12-myristate acetate (PMA) and Ca2+ ionophore (A23187).</clue>
+</event>
+<sentence id="S3">The <term id="T19" lex="GM-kappa_B_sequence" sem="DNA_domain_or_region">GM-kappa B sequence</term> is recognized by <term id="T20" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>, which is mainly induced by <term id="T21" lex="PMA" sem="Organic_compound_other">PMA</term>.</sentence>
+<event KT="Fact" id="E7">
+<type class="Binding"/>
+<theme idref="T19"/>
+<theme idref="T20"/>
+<clue>The GM-kappa B sequence is <clueType>recognized</clueType> <linkTheme>by</linkTheme> NF-kappa B, which is mainly induced by PMA.</clue>
+</event>
+<event KT="Fact" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T20"/>
+<cause idref="T21"/>
+<clue>The GM-kappa B sequence is recognized by NF-kappa B, which is mainly <clueType>induced</clueType> <linkCause>by</linkCause> PMA.</clue>
+</event>
+<sentence id="S4">The <term id="T22" lex="CLE0_sequence" sem="DNA_domain_or_region">CLE0 sequence</term> interacts with <term id="A2" sem="Protein_molecule">factors</term>, related to a <term id="T23" lex="PMA-induced_AP-1" sem="Protein_molecule"><term id="T24" lex="PMA" sem="Organic_compound_other">PMA</term>-induced <term id="T25" lex="AP-1" sem="Protein_molecule">AP-1</term></term> and a <term id="T26" lex="PMA/A23187-induced_NF-AT" sem="Protein_molecule"><term id="T27" lex="PMA" sem="Organic_compound_other">PMA</term>/<term id="T28" lex="A23187" sem="Organic_compound_other">A23187</term>-induced <term id="A3" sem="Protein_molecule">NF-AT</term></term>.</sentence>
+<event KT="Fact" id="E9">
+<type class="Binding"/>
+<theme idref="T22"/>
+<theme idref="A2"/>
+<clue>The CLE0 sequence <clueType>interacts</clueType> <linkTheme>with</linkTheme> factors, related to a PMA-induced AP-1 and a PMA/A23187-induced NF-AT.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="T25"/>
+<cause idref="T24"/>
+<clue>The CLE0 sequence interacts with factors, related to a PMA-<clueType>induced</clueType> AP-1 and a PMA/A23187-induced NF-AT.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<cause idref="T27"/>
+<clue>The CLE0 sequence interacts with factors, related to a PMA-induced AP-1 and a PMA/A23187-<clueType>induced</clueType> NF-AT.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<cause idref="T28"/>
+<clue>The CLE0 sequence interacts with factors, related to a PMA-induced AP-1 and a PMA/A23187-<clueType>induced</clueType> NF-AT.</clue>
+</event>
+<sentence id="S5">We examined whether <term id="A4" sem="Other">signal transducing components</term> in <term id="T29" lex="T_cell" sem="Cell_natural">T cells</term> can activate transcription of the <term id="T30" lex="GM-CSF_gene" sem="DNA_domain_or_region">GM-CSF gene</term>.</sentence>
+<event KT="Other" id="E15">
+<type class="Transcription"/>
+<theme idref="T30"/>
+<clue>We examined whether signal transducing components in T cells can activate <clueType>transcription</clueType> <linkTheme>of</linkTheme> the GM-CSF gene.</clue>
+</event>
+<event KT="Investigation" id="E16" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="A4"/>
+<clue>We <clueKT>examined</clueKT> whether signal transducing components in T cells can <clueType>activate</clueType> transcription of the GM-CSF gene.</clue>
+</event>
+<sentence id="S6">Cotransfection of <term id="A5" sem="DNA_domain_or_region">NF-kappa B (p50/p65)</term>- or <term id="A6" sem="DNA_domain_or_region">AP-1 (c-Jun/c-Fos)</term>- <term id="A7" sem="DNA_domain_or_region">expression vectors</term> into <term id="T32" lex="Jurkat_cell" sem="Cell_cultured">Jurkat cells</term> with a <term id="A8" sem="DNA_domain_or_region"><term id="T33" lex="luciferase_reporter" sem="DNA_domain_or_region">luciferase reporter</term> containing the <term id="T34" lex="GM-CSF_promoter" sem="DNA_domain_or_region">GM-CSF promoter</term></term> did not stimulate <term id="T35" lex="transcription" sem="Other">transcription</term> from the <term id="T36" lex="GM-CSF_promoter" sem="DNA_domain_or_region">GM-CSF promoter</term>.</sentence>
+<event id="E170">
+<type class="Gene_expression"/>
+<theme idref="A5" idref1="A7"/>
+<clue><clueType>Cotransfection</clueType> <linkTheme>of</linkTheme> NF-kappa B (p50/p65)- or AP-1 (c-Jun/c-Fos)- expression vectors into Jurkat cells with a luciferase reporter containing the GM-CSF promoter did not stimulate transcription from the GM-CSF promoter.</clue>
+<comment>NER: T31 DEL , TPS: A8</comment></event>
+<event id="E171">
+<type class="Gene_expression"/>
+<theme idref="A8"/>
+<clue><clueType>Cotransfection</clueType> of NF-kappa B (p50/p65)- or AP-1 (c-Jun/c-Fos)- expression vectors into Jurkat cells <linkTheme>with</linkTheme> a luciferase reporter containing the GM-CSF promoter did not stimulate transcription from the GM-CSF promoter.</clue>
+</event>
+<event id="E172">
+<type class="Gene_expression"/>
+<theme idref="A6" idref1="A7"/>
+<clue><clueType>Cotransfection</clueType> <linkTheme>of</linkTheme> NF-kappa B (p50/p65)- or AP-1 (c-Jun/c-Fos)- expression vectors into Jurkat cells with a luciferase reporter containing the GM-CSF promoter did not stimulate transcription from the GM-CSF promoter.</clue>
+</event>
+<event id="E173">
+<type class="Positive_regulation"/>
+<theme idref="E170"/>
+<theme idref="E171"/>
+<clue><clueType>Cotransfection</clueType> of NF-kappa B (p50/p65)- or AP-1 (c-Jun/c-Fos)- expression vectors into <clueLoc>Jurkat cells</clueLoc> with a luciferase reporter containing the GM-CSF promoter did not stimulate transcription from the GM-CSF promoter.</clue>
+</event>
+<event id="E174">
+<type class="Positive_regulation"/>
+<theme idref="E172"/>
+<theme idref="E171"/>
+<clue><clueType>Cotransfection</clueType> of NF-kappa B (p50/p65)- or AP-1 (c-Jun/c-Fos)- expression vectors into <clueLoc>Jurkat cells</clueLoc> with a luciferase reporter containing the GM-CSF promoter did not stimulate transcription from the GM-CSF promoter.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="T35"/>
+<cause idref="T36"/>
+<clue>Cotransfection of NF-kappa B (p50/p65)- or AP-1 (c-Jun/c-Fos)- expression vectors into Jurkat cells with a luciferase reporter containing the GM-CSF promoter did not stimulate transcription <linkCause>from</linkCause> the GM-CSF promoter.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="E173"/>
+<clue>Cotransfection of NF-kappa B (p50/p65)- or AP-1 (c-Jun/c-Fos)- expression vectors into Jurkat cells with a luciferase reporter containing the GM-CSF promoter did <cluePolarity>not</cluePolarity> <clueType>stimulate</clueType> transcription from the GM-CSF promoter.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="E174"/>
+<clue>Cotransfection of NF-kappa B (p50/p65)- or AP-1 (c-Jun/c-Fos)- expression vectors into Jurkat cells with a luciferase reporter containing the GM-CSF promoter did <cluePolarity>not</cluePolarity> <clueType>stimulate</clueType> transcription from the GM-CSF promoter.</clue>
+</event>
+<sentence id="S7">In contrast, cotransfection with a combination of <term id="T37" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> and <term id="T38" lex="AP-1" sem="Protein_molecule">AP-1</term> significantly augmented <term id="T39" lex="transcription" sem="Other">transcription</term> from the <term id="T40" lex="GM-CSF_promoter" sem="DNA_domain_or_region">GM-CSF promoter</term> containing the <term id="T41" lex="GM-kappa_B/GC-box" sem="DNA_domain_or_region">GM-kappa B/GC-box</term> and the <term id="T42" lex="CLE0" sem="DNA_domain_or_region">CLE0</term> (<term id="T43" lex="AP-1/NF-AT" sem="Protein_complex"><term id="T44" lex="AP-1" sem="Protein_molecule">AP-1</term>/NF-AT</term>).</sentence>
+<event KT="Method" id="E22">
+<type class="Artificial_process"/>
+<theme idref="T37"/>
+<theme idref="T38"/>
+<clue>In contrast, <clueType>cotransfection</clueType> <linkTheme>with</linkTheme> a combination of NF-kappa B and AP-1 significantly augmented transcription from the GM-CSF promoter containing the GM-kappa B/GC-box and the CLE0 (AP-1/NF-AT).</clue>
+</event>
+<event id="E23">
+<type class="Positive_regulation"/>
+<theme idref="T39"/>
+<cause idref="T40"/>
+<clue>In contrast, cotransfection with a combination of NF-kappa B and AP-1 significantly augmented transcription <linkCause>from</linkCause> the GM-CSF promoter containing the GM-kappa B/GC-box and the CLE0 (AP-1/NF-AT).</clue>
+<comment>NO CLUETYPE</comment></event>
+<event Manner="High" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E23"/>
+<cause idref="E22"/>
+<clue>In contrast, cotransfection with a combination of NF-kappa B and AP-1 <clueManner>significantly</clueManner> <clueType>augmented</clueType> transcription from the GM-CSF promoter containing the GM-kappa B/GC-box and the CLE0 (AP-1/NF-AT).</clue>
+</event>
+<sentence id="S8">Expression of a constitutively active <term id="T45" lex="calcineurin" sem="Protein_molecule">calcineurin</term> (<term id="T46" lex="CN" sem="Protein_molecule">CN</term>), a <term id="T47" lex="Ca2+/calmodulin-dependent_protein_phosphatase" sem="Protein_family_or_group"><term id="T48" lex="Ca2+" sem="Element">Ca2+</term>/<term id="A21" sem="Protein_molecule">calmodulin</term>-dependent protein phosphatase</term>, potentiated by two fold the <term id="T49" lex="transcriptional_activation" sem="Other">transcriptional activation</term> by <term id="T50" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term><term id="T51" lex="AP-1" sem="Protein_molecule">/AP-1</term>.</sentence>
+<event id="E25">
+<type class="Gene_expression"/>
+<theme idref="T46"/>
+<clue><clueType>Expression</clueType> <linkTheme>of</linkTheme> a constitutively active calcineurin (CN), a Ca2+/calmodulin-dependent protein phosphatase, potentiated by two fold the transcriptional activation by NF-kappa B/AP-1.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation"/>
+<cause idref="T50"/>
+<cause idref="T51"/>
+<clue>Expression of a constitutively active calcineurin (CN), a Ca2+/calmodulin-dependent protein phosphatase, potentiated by two fold the <clueType>transcriptional activation</clueType> <linkCause>by</linkCause> NF-kappa B/AP-1.</clue>
+</event>
+<event Manner="High" id="E28">
+<type class="Positive_regulation"/>
+<theme idref="E27"/>
+<cause idref="E25"/>
+<clue>Expression of a constitutively active calcineurin (CN), a Ca2+/calmodulin-dependent protein phosphatase, <clueType>potentiated</clueType> by <clueManner>two fold</clueManner> the transcriptional activation by NF-kappa B/AP-1.</clue>
+</event>
+<event KT="Fact" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="T46"/>
+<cause idref="T48"/>
+<clue>Expression of a constitutively active calcineurin (CN), a Ca2+/calmodulin-<clueType>dependent</clueType> <corefTheme>protein phosphatase</corefTheme>, potentiated by two fold the transcriptional activation by NF-kappa B/AP-1.</clue>
+</event>
+<event KT="Fact" id="E29">
+<type class="Positive_regulation"/>
+<theme idref="T46"/>
+<cause idref="A21"/>
+<clue>Expression of a constitutively active calcineurin (CN), a Ca2+/calmodulin-<clueType>dependent</clueType> <corefTheme>protein phosphatase</corefTheme>, potentiated by two fold the transcriptional activation by NF-kappa B/AP-1.</clue>
+</event>
+<sentence id="S9">Both constitutively active forms of <term id="T52" lex="CN" sem="Protein_molecule">CN</term> and <term id="T53" lex="protein_kinase_C" sem="Protein_molecule">protein kinase C</term> (<term id="T54" lex="PKC" sem="Protein_molecule">PKC</term>) synergistically activated <term id="T55" lex="transcription" sem="Other">transcription</term> from the <term id="T56" lex="GM-CSF_promoter" sem="DNA_domain_or_region">GM-CSF promoter</term>.</sentence>
+<event id="E30">
+<type class="Positive_regulation"/>
+<theme idref="T55"/>
+<cause idref="T56"/>
+<clue>Both constitutively active forms of CN and protein kinase C (PKC) synergistically activated transcription <linkCause>from</linkCause> the GM-CSF promoter.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E31">
+<type class="Positive_regulation"/>
+<theme idref="E30"/>
+<cause idref="T52"/>
+<cause idref="T54"/>
+<clue>Both constitutively active forms of CN and protein kinase C (PKC) <clueType>synergistically activated</clueType> transcription from the GM-CSF promoter.</clue>
+</event>
+<sentence id="S10">These results suggest that cooperation among <term id="A13" sem="DNA_domain_or_region">NF-kappa B-</term>, <term id="A14" sem="DNA_domain_or_region">AP-1-</term> and <term id="A15" sem="DNA_domain_or_region">NF-AT-</term><term id="A16" sem="DNA_domain_or_region">binding sequences</term> is required for induction of the <term id="T58" lex="GM-CSF_gene" sem="DNA_domain_or_region">GM-CSF gene</term> through <term id="A10" sem="Other">PKC-</term> and <term id="A11" sem="Other">Ca2+-</term> <term id="A12" sem="Other">signaling pathways</term> downstream of <term id="A9" sem="Cell_natural">T cell</term> activation.</sentence>
+<event KT="Other" id="E33">
+<type class="Physiological_process"/>
+<theme idref="A9"/>
+<clue>These results suggest that cooperation among NF-kappa B-, AP-1- and NF-AT-binding sequences is required for induction of the GM-CSF gene through PKC- and Ca2+- signaling pathways downstream of T cell <clueType>activation</clueType>.</clue>
+</event>
+<event KT="Other" id="E34">
+<type class="Regulation"/>
+<theme idref="A10" idref1="A12"/>
+<cause idref="E33"/>
+<clue>These results suggest that cooperation among NF-kappa B-, AP-1- and NF-AT-binding sequences is required for induction of the GM-CSF gene through PKC- and Ca2+- signaling pathways <clueType>downstream</clueType> <linkCause>of</linkCause> T cell activation.</clue>
+<comment>NER: T59 DEL</comment></event>
+<event KT="Other" id="E35">
+<type class="Regulation"/>
+<theme idref="A11" idref1="A12"/>
+<cause idref="E33"/>
+<clue>These results suggest that cooperation among NF-kappa B-, AP-1- and NF-AT-binding sequences is required for induction of the GM-CSF gene through PKC- and Ca2+- signaling pathways <clueType>downstream</clueType> <linkCause>of</linkCause> T cell activation.</clue>
+</event>
+<event KT="Other" id="E36">
+<type class="Positive_regulation"/>
+<theme idref="T58"/>
+<cause idref="E34"/>
+<clue>These results suggest that cooperation among NF-kappa B-, AP-1- and NF-AT-binding sequences is required for <clueType>induction</clueType> <linkTheme>of</linkTheme> the GM-CSF gene <linkCause>through</linkCause> PKC- and Ca2+- signaling pathways downstream of T cell activation.</clue>
+</event>
+<event KT="Other" id="E37">
+<type class="Positive_regulation"/>
+<theme idref="T58"/>
+<cause idref="E35"/>
+<clue>These results suggest that cooperation among NF-kappa B-, AP-1- and NF-AT-binding sequences is required for <clueType>induction</clueType> <linkTheme>of</linkTheme> the GM-CSF gene <linkCause>through</linkCause> PKC- and Ca2+- signaling pathways downstream of T cell activation.</clue>
+</event>
+<event KT="Other" id="E40" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="A13" idref1="A16"/>
+<theme idref="A14" idref1="A16"/>
+<theme idref="A15" idref1="A16"/>
+<clue>These results suggest that <clueType>cooperation</clueType> <linkTheme>among</linkTheme> NF-kappa B-, AP-1- and NF-AT-binding sequences is required for induction of the GM-CSF gene through PKC- and Ca2+- signaling pathways downstream of T cell activation.</clue>
+<comment>NER: T57 DEL</comment></event>
+<event CL="L2" KT="Analysis" id="E38" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E36"/>
+<cause idref="E40"/>
+<clue>These results <clueKT><clueCL>suggest</clueCL></clueKT> that cooperation among NF-kappa B-, AP-1- and NF-AT-binding sequences is <clueType>required</clueType> <linkTheme>for</linkTheme> induction of the GM-CSF gene through PKC- and Ca2+- signaling pathways downstream of T cell activation.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E39" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E37"/>
+<cause idref="E40"/>
+<clue>These results <clueKT><clueCL>suggest</clueCL></clueKT> that cooperation among NF-kappa B-, AP-1- and NF-AT-binding sequences is <clueType>required</clueType> <linkTheme>for</linkTheme> induction of the GM-CSF gene through PKC- and Ca2+- signaling pathways downstream of T cell activation.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

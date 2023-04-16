@@ -1,0 +1,11 @@
+T4	Adverse_effect 20 27	induced
+T5	Adverse_effect 515 517	of
+T8	Adverse_effect 110 122	side effects
+T17	Adverse_effect 276 281	after
+T19	Potential_therapeutic_effect 315 322	regimen
+R1	Subject_Disorder Arg1:T16 Arg2:T7
+E1	Adverse_effect:T4 affects:T2 has_agent:T1 affects:T3
+E2	Adverse_effect:T5 has_agent:T14 affects:T13 affects:T12
+E3	Adverse_effect:T8 has_agent:T15 affects:T6
+E4	Adverse_effect:T17 affects:T18 has_subject:T16 has_agent:T9 has_agent:T10 has_agent:T11
+E5	Potential_therapeutic_effect:T19 has_subject:T16 has_agent:T9 has_agent:T10 has_agent:T11 affects:T7

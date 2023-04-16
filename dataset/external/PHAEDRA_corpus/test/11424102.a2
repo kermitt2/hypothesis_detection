@@ -1,0 +1,13 @@
+T7	Potential_therapeutic_effect 87 96	treatment
+T9	Potential_therapeutic_effect 567 576	treatment
+T3	Adverse_effect 28 33	after
+T15	Potential_therapeutic_effect 296 301	after
+T19	Adverse_effect 511 515	risk
+R1	is_equivalent Arg1:T12 Arg2:T4
+R2	is_equivalent Arg1:T5 Arg2:T16
+E1	Potential_therapeutic_effect:T7 has_agent:T1 affects:T2
+E2	Potential_therapeutic_effect:T9 affects:T6 has_agent:T18
+E3	Adverse_effect:T3 affects:T10 has_agent:T1
+E4	Potential_therapeutic_effect:T15 has_agent:T5 affects:T12
+E6	Adverse_effect:T19 affects:T14 has_agent:T18 has_cue:T17
+A1	Speculated E6

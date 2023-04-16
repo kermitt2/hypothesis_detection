@@ -1,0 +1,236 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9813178" created="11/05/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9813178</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="tobacco_smoke" sem="Organic_compound_other">Tobacco smoke</term> induces coordinate activation of <term id="T2" lex="HSF" sem="Protein_molecule">HSF</term> and inhibition of <term id="T3" lex="NFkappaB" sem="Protein_complex">NFkappaB</term> in <term id="T4" lex="human_monocyte" sem="Cell_natural">human monocytes</term>: effects on <term id="T5" lex="TNFalpha_release" sem="Other"><term id="T6" lex="TNFalpha" sem="Protein_molecule">TNFalpha</term> release</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation"/>
+<theme idref="T2"/>
+<clue>Tobacco smoke induces coordinate <clueType>activation</clueType> <linkTheme>of</linkTheme> HSF and inhibition of NFkappaB <clueLoc>in human monocytes</clueLoc>: effects on TNFalpha release.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation"/>
+<theme idref="T3"/>
+<clue>Tobacco smoke induces coordinate activation of HSF and <clueType>inhibition</clueType> <linkTheme>of</linkTheme> NFkappaB <clueLoc>in human monocytes</clueLoc>: effects on TNFalpha release.</clue>
+</event>
+<event id="E3">
+<type class="Correlation"/>
+<theme idref="E1"/>
+<theme idref="E2"/>
+<clue>Tobacco smoke induces <clueType>coordinate</clueType> activation of HSF and inhibition of NFkappaB in human monocytes: effects on TNFalpha release.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="T1"/>
+<clue>Tobacco smoke <clueType>induces</clueType> coordinate activation of HSF and inhibition of NFkappaB in human monocytes: effects on TNFalpha release.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Localization"/>
+<theme idref="T6"/>
+<clue>Tobacco smoke induces coordinate activation of HSF and inhibition of NFkappaB in human monocytes: effects on TNFalpha <clueType>release</clueType>.</clue>
+</event>
+<event KT="Investigation" id="E6">
+<type class="Regulation"/>
+<theme idref="E5"/>
+<cause idref="T1"/>
+<clue>Tobacco smoke induces coordinate activation of HSF and inhibition of NFkappaB in human monocytes: <clueType>effects</clueType> <linkTheme>on</linkTheme> TNFalpha release.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T7" lex="tobacco_smoke" sem="Organic_compound_other">Tobacco smoke</term> (<term id="T8" lex="TS" sem="Organic_compound_other">TS</term>) exposure is a major risk factor for <term id="T9" lex="human_disease" sem="Other">human disease</term>, and <term id="T10" lex="macrophage" sem="Cell_natural">macrophages</term> of <term id="T11" lex="healthy_smoker" sem="Multicellular_organism_natural">healthy smokers</term> have a depressed capacity to release <term id="T12" lex="cytokine" sem="Protein_family_or_group">cytokines</term>, including <term id="T13" lex="tumor_necrosis_factor_(TNF)alpha" sem="Protein_molecule">tumor necrosis factor (TNF)alpha</term>.</sentence>
+<event KT="Method" id="E7">
+<type class="Artificial_process"/>
+<theme idref="T8"/>
+<clue>Tobacco smoke (TS) <clueType>exposure</clueType> is a major risk factor for human disease, and macrophages of healthy smokers have a depressed capacity to release cytokines, including tumor necrosis factor (TNF)alpha.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E8">
+<type class="Localization"/>
+<theme idref="T13"/>
+<clue>Tobacco smoke (TS) exposure is a major risk factor for human disease, and <clueLoc>macrophages of healthy smokers</clueLoc> have a depressed <clueKT><clueCL>capacity</clueCL></clueKT> to <clueType>release</clueType> <corefTheme>cytokines</corefTheme>, including tumor necrosis factor (TNF)alpha.</clue>
+</event>
+<event KT="Fact" id="E9">
+<type class="Negative_regulation"/>
+<theme idref="E8"/>
+<cause idref="E7"/>
+<clue>Tobacco smoke (TS) exposure is a major risk factor for human disease, and macrophages of healthy smokers have a <clueType>depressed</clueType> capacity to release cytokines, including tumor necrosis factor (TNF)alpha.</clue>
+</event>
+<sentence id="S3"><term id="T14" lex="TS" sem="Organic_compound_other">TS</term> induces the synthesis of <term id="T15" lex="heat_shock_(HS)/stress_protein" sem="Protein_family_or_group">heat shock (HS)/stress proteins</term> (<term id="T16" lex="HSP" sem="Protein_family_or_group">HSP</term>), and, in particular, of <term id="T17" lex="Hsp70" sem="Protein_molecule">Hsp70</term>.</sentence>
+<event KT="Other" id="E10">
+<type class="Gene_expression"/>
+<theme idref="T17"/>
+<clue>TS induces the <clueType>synthesis</clueType> <linkTheme>of</linkTheme> <corefTheme>heat shock (HS)/stress proteins (HSP)</corefTheme>, and, in particular, of Hsp70.</clue>
+</event>
+<event KT="Fact" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="T14"/>
+<clue>TS <clueType>induces</clueType> the synthesis of heat shock (HS)/stress proteins (HSP), and, in particular, of Hsp70.</clue>
+</event>
+<sentence id="S4">We determined whether <term id="T18" lex="Hsp70" sem="Protein_molecule">Hsp70</term> induction by <term id="T19" lex="TS" sem="Organic_compound_other">TS</term> was mediated by the activation of the <term id="T20" lex="HS_transcription_factor" sem="Protein_family_or_group">HS transcription factor</term>, <term id="T21" lex="HSF" sem="Protein_molecule">HSF</term>.</sentence>
+<event KT="Other" id="E12" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="T18"/>
+<cause idref="T19"/>
+<clue>We determined whether Hsp70 <clueType>induction</clueType> <linkCause>by</linkCause> TS was mediated by the activation of the HS transcription factor, HSF.</clue>
+</event>
+<event KT="Investigation" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="E14"/>
+<clue>We <clueKT>determined whether</clueKT> Hsp70 induction by TS was <clueType>mediated</clueType> <linkCause>by</linkCause> the activation of the HS transcription factor, HSF.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="T21"/>
+<clue>We determined whether Hsp70 induction by TS was mediated by the <clueType>activation</clueType> <linkTheme>of</linkTheme> the HS transcription factor, HSF.</clue>
+</event>
+<sentence id="S5"><term id="T22" lex="HSF_activation" sem="Other"><term id="T23" lex="HSF" sem="Protein_molecule">HSF</term> activation</term> has been shown to inhibit <term id="T24" lex="NFkappaB" sem="Protein_complex">NFkappaB</term>.</sentence>
+<event KT="Other" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="T23"/>
+<clue>HSF <clueType>activation</clueType> has been shown to inhibit NFkappaB.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E16">
+<type class="Negative_regulation"/>
+<theme idref="T24"/>
+<cause idref="E15"/>
+<clue>HSF activation <clueSource>has been</clueSource> <clueKT>shown</clueKT> to <clueType>inhibit</clueType> NFkappaB.</clue>
+</event>
+<sentence id="S6">Thus, we also determined the effects of <term id="T25" lex="TS" sem="Organic_compound_other">TS</term> on <term id="T26" lex="NFkappaB" sem="Protein_complex">NFkappaB</term>.</sentence>
+<event KT="Investigation" id="E17" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="T26"/>
+<cause idref="T25"/>
+<clue>Thus, we also <clueKT>determined</clueKT> the <clueType>effects</clueType> <linkCause>of</linkCause> TS <linkTheme>on</linkTheme> NFkappaB.</clue>
+</event>
+<sentence id="S7"><term id="T27" lex="U937_cell" sem="Cell_cultured">U937 cells</term> and <term id="T28" lex="human_peripheral_blood_monocyte" sem="Cell_natural">human peripheral blood monocytes</term> were exposed to <term id="T29" lex="TS" sem="Organic_compound_other">TS</term>, binding activities of the respective <term id="T30" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term> were analyzed, and <term id="T31" lex="Hsp70" sem="Protein_molecule">Hsp70</term> expression and <term id="T32" lex="TNFalpha_release" sem="Other"><term id="T33" lex="TNFalpha" sem="Protein_molecule">TNFalpha</term> release</term> were determined in parallel.</sentence>
+<event KT="Method" id="E18">
+<type class="Artificial_process"/>
+<theme idref="T27"/>
+<theme idref="T29"/>
+<clue>U937 cells and human peripheral blood monocytes were <clueType>exposed</clueType> <linkTheme>to</linkTheme> TS, binding activities of the respective transcription factors were analyzed, and Hsp70 expression and TNFalpha release were determined in parallel.</clue>
+</event>
+<event KT="Method" id="E19">
+<type class="Artificial_process"/>
+<theme idref="T28"/>
+<theme idref="T29"/>
+<clue>U937 cells and human peripheral blood monocytes were <clueType>exposed</clueType> <linkTheme>to</linkTheme> TS, binding activities of the respective transcription factors were analyzed, and Hsp70 expression and TNFalpha release were determined in parallel.</clue>
+</event>
+<event KT="Investigation" id="E20" uncertainty="doubtful">
+<type class="Cell_adhesion"/>
+<theme idref="T27"/>
+<theme idref="T30"/>
+<clue>U937 cells and human peripheral blood monocytes were exposed to TS, <clueType>binding</clueType> activities <linkTheme>of</linkTheme> the respective transcription factors were <clueKT>analyzed</clueKT>, and Hsp70 expression and TNFalpha release were determined in parallel.</clue>
+</event>
+<event KT="Investigation" id="E21" uncertainty="doubtful">
+<type class="Binding"/>
+<theme idref="T29"/>
+<theme idref="T30"/>
+<clue>U937 cells and human peripheral blood monocytes were exposed to TS, <clueType>binding</clueType> activities <linkTheme>of</linkTheme> the respective transcription factors were <clueKT>analyzed</clueKT>, and Hsp70 expression and TNFalpha release were determined in parallel.</clue>
+</event>
+<event KT="Other" id="E22" uncertainty="doubtful">
+<type class="Gene_expression"/>
+<theme idref="T31"/>
+<clue><clueLoc>U937 cells</clueLoc> and human peripheral blood monocytes were exposed to TS, binding activities of the respective transcription factors were analyzed, and Hsp70 <clueType>expression</clueType> and TNFalpha release were determined in parallel.</clue>
+</event>
+<event KT="Other" id="E36">
+<type class="Gene_expression"/>
+<theme idref="T31"/>
+<clue>U937 cells and <clueLoc>human peripheral blood monocytes</clueLoc> were exposed to TS, binding activities of the respective transcription factors were analyzed, and Hsp70 <clueType>expression</clueType> and TNFalpha release were determined in parallel.</clue>
+</event>
+<event KT="Other" id="E23" uncertainty="doubtful">
+<type class="Localization"/>
+<theme idref="T33"/>
+<clue><clueLoc>U937 cells</clueLoc> and human peripheral blood monocytes were exposed to TS, binding activities of the respective transcription factors were analyzed, and Hsp70 expression and TNFalpha <clueType>release</clueType> were determined in parallel.</clue>
+</event>
+<event KT="Other" id="E38">
+<type class="Localization"/>
+<theme idref="T33"/>
+<clue>U937 cells and <clueLoc>human peripheral blood monocytes</clueLoc> were exposed to TS, binding activities of the respective transcription factors were analyzed, and Hsp70 expression and TNFalpha <clueType>release</clueType> were determined in parallel.</clue>
+</event>
+<event KT="Investigation" id="E24" uncertainty="doubtful">
+<type class="Correlation"/>
+<theme idref="E22"/>
+<theme idref="E23"/>
+<clue>U937 cells and human peripheral blood monocytes were exposed to TS, binding activities of the respective transcription factors were analyzed, and Hsp70 expression and TNFalpha release were <clueKT>determined</clueKT> <clueType>in parallel</clueType>.</clue>
+</event>
+<event KT="Investigation" id="E39">
+<type class="Correlation"/>
+<theme idref="E36"/>
+<theme idref="E38"/>
+<clue>U937 cells and human peripheral blood monocytes were exposed to TS, binding activities of the respective transcription factors were analyzed, and Hsp70 expression and TNFalpha release were <clueKT>determined</clueKT> <clueType>in parallel</clueType>.</clue>
+</event>
+<sentence id="S8"><term id="T34" lex="TS" sem="Organic_compound_other">TS</term> activated <term id="T35" lex="HSF" sem="Protein_molecule">HSF</term>, which was associated with <term id="T36" lex="Hsp70_overexpression" sem="Other"><term id="T37" lex="Hsp70" sem="Protein_molecule">Hsp70</term> overexpression</term> and inhibition of <term id="A1" sem="Other"><term id="T38" lex="NFkappaB" sem="Protein_complex">NFkappaB</term> binding activity</term> and <term id="T39" lex="TNFalpha_release" sem="Other"><term id="T40" lex="TNFalpha" sem="Protein_molecule">TNFalpha</term> release</term>.</sentence>
+<event id="E25">
+<type class="Positive_regulation"/>
+<theme idref="T35"/>
+<cause idref="T34"/>
+<clue>TS <clueType>activated</clueType> HSF, which was associated with Hsp70 overexpression and inhibition of NFkappaB binding activity and TNFalpha release.</clue>
+</event>
+<event KT="Analysis" id="E26">
+<type class="Correlation"/>
+<theme idref="E25"/>
+<theme idref="E37"/>
+<clue>TS activated HSF, which was <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> Hsp70 overexpression and inhibition of NFkappaB binding activity and TNFalpha release.</clue>
+</event>
+<event KT="Analysis" id="E27">
+<type class="Correlation"/>
+<theme idref="E25"/>
+<theme idref="E30"/>
+<clue>TS activated HSF, which was <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> Hsp70 overexpression and inhibition of NFkappaB binding activity and TNFalpha release.</clue>
+</event>
+<event KT="Analysis" id="E28">
+<type class="Correlation"/>
+<theme idref="E25"/>
+<theme idref="E31"/>
+<clue>TS activated HSF, which was <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> Hsp70 overexpression and inhibition of NFkappaB binding activity and TNFalpha release.</clue>
+</event>
+<event KT="Other" id="E29">
+<type class="Gene_expression"/>
+<theme idref="T37"/>
+<clue>TS activated HSF, which was associated with Hsp70 <clueType>overexpression</clueType> and inhibition of NFkappaB binding activity and TNFalpha release.</clue>
+</event>
+<event KT="Other" id="E37">
+<type class="Positive_regulation"/>
+<theme idref="E29"/>
+<clue>TS activated HSF, which was associated with Hsp70 <clueType>overexpression</clueType> and inhibition of NFkappaB binding activity and TNFalpha release.</clue>
+</event>
+<event KT="Other" id="E30">
+<type class="Negative_regulation"/>
+<theme idref="A1"/>
+<clue>TS activated HSF, which was associated with Hsp70 overexpression and <clueType>inhibition</clueType> <linkTheme>of</linkTheme> NFkappaB binding activity and TNFalpha release.</clue>
+</event>
+<event KT="Other" id="E31">
+<type class="Localization"/>
+<theme idref="T40"/>
+<clue>TS activated HSF, which was associated with Hsp70 overexpression and inhibition of NFkappaB binding activity and TNFalpha <clueType>release</clueType>.</clue>
+</event>
+<sentence id="S9">The altered <term id="T41" lex="cytokine_profile" sem="Protein_family_or_group">cytokine profile</term> observed in <term id="T42" lex="smoker" sem="Multicellular_organism_natural">smokers</term> may relate to an <term id="T43" lex="HSF" sem="Protein_molecule">HSF</term>/<term id="T44" lex="Hsp70-mediated_inhibition" sem="Other"><term id="T45" lex="Hsp70" sem="Protein_molecule">Hsp70</term>-mediated inhibition</term> of <term id="T46" lex="NFkappaB_activity" sem="Other"><term id="T47" lex="NFkappaB" sem="Protein_complex">NFkappaB</term> activity</term>.</sentence>
+<event KT="Other" id="E32">
+<type class="Positive_regulation"/>
+<theme idref="T41"/>
+<clue>The <clueType>altered</clueType> cytokine profile observed <clueLoc>in smokers</clueLoc> may relate to an HSF/Hsp70-mediated inhibition of NFkappaB activity.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E33" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E32"/>
+<cause idref="E36"/>
+<clue>The altered cytokine profile observed in smokers <clueKT><clueCL>may</clueCL></clueKT> <clueType>relate</clueType> <linkTheme>to</linkTheme> an HSF/Hsp70-mediated inhibition of NFkappaB activity.</clue>
+</event>
+<event KT="Other" id="E34">
+<type class="Negative_regulation"/>
+<theme idref="T47"/>
+<cause idref="T43"/>
+<clue>The altered cytokine profile observed in smokers may relate to an HSF/Hsp70<linkCause>-mediated</linkCause> <clueType>inhibition</clueType> <linkTheme>of</linkTheme> NFkappaB activity.</clue>
+</event>
+<event KT="Other" id="E35">
+<type class="Negative_regulation"/>
+<theme idref="T47"/>
+<cause idref="T45"/>
+<clue>The altered cytokine profile observed in smokers may relate to an HSF/Hsp70<linkCause>-mediated</linkCause> <clueType>inhibition</clueType> <linkTheme>of</linkTheme> NFkappaB activity.</clue>
+</event>
+<sentence id="S10">Copyright 1998 Academic Press.</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

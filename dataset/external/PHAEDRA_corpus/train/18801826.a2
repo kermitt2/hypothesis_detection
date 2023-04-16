@@ -1,0 +1,10 @@
+T17	Adverse_effect 21 28	induced
+T21	Potential_therapeutic_effect 622 631	treatment
+T22	Adverse_effect 504 513	developed
+R1	is_equivalent Arg1:T5 Arg2:T18
+R3	is_equivalent Arg1:T7 Arg2:T8
+E1	Adverse_effect:T17 has_agent:T1 affects:T2 affects:T3
+E2	Potential_therapeutic_effect:T21 has_agent:T20 affects:T12 has_subject:T19
+E3	Adverse_effect:T22 has_subject:T19 affects:T9 affects:T10 affects:T11 has_agent:T20
+T24	Adverse_effect 734 760	raises important questions
+E4	Adverse_effect:T24 has_cue:T25 affects:T13 has_agent:T14

@@ -1,0 +1,29 @@
+T12	Adverse_effect 22 32	associated
+T26	Adverse_effect 196 205	receiving
+T44	Potential_therapeutic_effect 339 347	switched
+T46	Adverse_effect 1785 1794	following
+T47	Adverse_effect 1600 1610	associated
+R1	Subject_Disorder Arg1:T25 Arg2:T3
+R2	Subject_Disorder Arg1:T25 Arg2:T4
+R3	Subject_Disorder Arg1:T29 Arg2:T7
+R4	Subject_Disorder Arg1:T29 Arg2:T8
+R5	Subject_Disorder Arg1:T45 Arg2:T36
+E1	Adverse_effect:T12 has_agent:T2 affects:T10
+E2	Adverse_effect:T26 has_agent:T6 affects:T5 has_subject:T25
+E4	Potential_therapeutic_effect:T44 has_agent:T11 has_subject:T29 affects:T13
+E5	Adverse_effect:T46 has_agent:T38 affects:T37 has_subject:T45
+E6	Adverse_effect:T47 has_agent:T35 affects:T34
+T1	Potential_therapeutic_effect 630 637	improve
+E3	Potential_therapeutic_effect:T1 has_agent:T51 affects:T17 has_cue:T42
+A1	Negated E3
+T49	Potential_therapeutic_effect 915 923	resolved
+E7	Potential_therapeutic_effect:T49 affects:T23 has_agent:T24
+R6	Coreference Arg1:T50 Arg2:T45	
+T53	Adverse_effect 1901 1906	cause
+E8	Adverse_effect:T53 affects:T40 has_subject:T50 has_cue:T52 has_agent:T39
+A2	Speculated E8
+T54	Adverse_effect 1999 2015	symptoms started
+E9	Adverse_effect:T54 has_agent:T41 affects:T40
+R7	Coreference Arg1:T55 Arg2:T11	
+T56	Adverse_effect 515 524	developed
+E10	Adverse_effect:T56 has_agent:T55 affects:T14 affects2:T15 affects3:T16

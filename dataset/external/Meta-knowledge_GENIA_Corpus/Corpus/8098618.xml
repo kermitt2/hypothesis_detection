@@ -1,0 +1,308 @@
+<?xml version='1.0'?>
+<!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified_2" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd">
+<Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8098618" created="16/03/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8098618</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Activation of <term id="T1" lex="primary_human_T-lymphocyte" sem="Cell_natural">primary human T-lymphocytes</term> through <term id="T2" lex="CD2_plus_CD28_adhesion_molecule" sem="Protein_molecule"><term id="A1" sem="Protein_molecule">CD2</term> plus <term id="A2" sem="Protein_molecule">CD28</term> adhesion molecules</term> induces <term id="T3" lex="long-term_nuclear_expression" sem="Other">long-term nuclear expression</term> of <term id="T4" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>.</sentence>
+<event id="E1">
+<type class="Physiological_process"/>
+<theme idref="T1"/>
+<cause idref="A1"/>
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> primary human T-lymphocytes <linkCause>through</linkCause> CD2 plus CD28 adhesion molecules induces long-term nuclear expression of NF-kappa B.</clue>
+</event>
+<event id="E2">
+<type class="Physiological_process"/>
+<theme idref="T1"/>
+<cause idref="A2"/>
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> primary human T-lymphocytes <linkCause>through</linkCause> CD2 plus CD28 adhesion molecules induces long-term nuclear expression of NF-kappa B.</clue>
+</event>
+<event id="E3">
+<type class="Gene_expression"/>
+<theme idref="T4"/>
+<clue>Activation of primary human T-lymphocytes through CD2 plus CD28 adhesion molecules induces long-term <clueLoc>nuclear</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> NF-kappa B.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="E1"/>
+<clue>Activation of primary human T-lymphocytes through CD2 plus CD28 adhesion molecules <clueType>induces</clueType> long-term nuclear expression of NF-kappa B.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="E2"/>
+<clue>Activation of primary human T-lymphocytes through CD2 plus CD28 adhesion molecules <clueType>induces</clueType> long-term <clueLoc>nuclear</clueLoc> expression of NF-kappa B.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Stimulation of <term id="T5" lex="highly_purified_human_T-cell" sem="Cell_natural">highly purified human T-cells</term> via <term id="A50" sem="Protein_molecule">CD2</term> and <term id="A51" sem="Protein_molecule">CD28</term> adhesion molecules induces and maintains proliferation for more than 3 weeks.</sentence>
+<event KT="Method" id="E50">
+<type class="Physiological_process"/>
+<theme idref="T5"/>
+<cause idref="A51"/>
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> highly purified human T-cells <linkCause>via</linkCause> CD2 and CD28 adhesion molecules induces and maintains proliferation for more than 3 weeks.</clue>
+</event>
+<event KT="Method" id="E60">
+<type class="Physiological_process"/>
+<theme idref="T5"/>
+<cause idref="A50"/>
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> highly purified human T-cells <linkCause>via</linkCause> CD2 and CD28 adhesion molecules induces and maintains proliferation for more than 3 weeks.</clue>
+<comment>NER: T6 DEL</comment></event>
+<event KT="Other" id="E6">
+<type class="Cellular_physiological_process"/>
+<theme idref="T5"/>
+<clue>Stimulation of highly purified human T-cells via CD2 and CD28 adhesion molecules induces and maintains <clueType>proliferation</clueType> for more than 3 weeks.</clue>
+</event>
+<event KT="Fact" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="E50"/>
+<clue>Stimulation of highly purified human T-cells via CD2 and CD28 adhesion molecules <clueType>induces</clueType> and maintains proliferation for more than 3 weeks.</clue>
+</event>
+<event KT="Fact" id="E61">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="E60"/>
+<clue>Stimulation of highly purified human T-cells via CD2 and CD28 adhesion molecules <clueType>induces</clueType> and maintains proliferation for more than 3 weeks.</clue>
+</event>
+<sentence id="S3">This potent <term id="T7" lex="interleukin_2_(IL-2)-dependent_activation" sem="Other"><term id="T8" lex="interleukin_2" sem="Protein_molecule">interleukin 2</term> (<term id="T9" lex="IL-2" sem="Protein_molecule">IL-2</term>)-dependent activation</term> does not require <term id="T10" lex="monocyte" sem="Cell_natural">monocytes</term> or <term id="T11" lex="accessory_cell" sem="Cell_natural">accessory cells</term>.</sentence>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="T10"/>
+<clue><corefTheme>This potent interleukin 2 (IL-2)-dependent activation</corefTheme> does <cluePolarity>not</cluePolarity> <clueType>require</clueType> monocytes or accessory cells.</clue>
+</event>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E62">
+<type class="Regulation"/>
+<theme idref="E61"/>
+<cause idref="T10"/>
+<clue><corefTheme>This potent interleukin 2 (IL-2)-dependent activation</corefTheme> does <cluePolarity>not</cluePolarity> <clueType>require</clueType> monocytes or accessory cells.</clue>
+</event>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E9">
+<type class="Regulation"/>
+<theme idref="E7"/>
+<cause idref="T11"/>
+<clue><corefTheme>This potent interleukin 2 (IL-2)-dependent activation</corefTheme> does <cluePolarity>not</cluePolarity> <clueType>require</clueType> monocytes or accessory cells.</clue>
+</event>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E63">
+<type class="Regulation"/>
+<theme idref="E61"/>
+<cause idref="T11"/>
+<clue><corefTheme>This potent interleukin 2 (IL-2)-dependent activation</corefTheme> does <cluePolarity>not</cluePolarity> <clueType>require</clueType> monocytes or accessory cells.</clue>
+</event>
+<sentence id="S4">Long-lasting <term id="A3" sem="Other"><term id="T12" lex="IL-2" sem="Protein_molecule">IL-2</term> receptivity</term> is associated with high-level expression of the inducible <term id="T13" lex="IL-2_receptor_alpha_chain_(IL-2R_alpha)_gene" sem="DNA_domain_or_region"><term id="T14" lex="IL-2_receptor_alpha_chain" sem="Protein_molecule"><term id="T15" lex="IL-2" sem="Protein_molecule">IL-2</term> receptor alpha chain</term> (<term id="T16" lex="IL-2R_alpha" sem="Protein_molecule">IL-2R alpha</term>) gene</term> that is regulated at both transcriptional and posttranscriptional levels.</sentence>
+<event KT="Other" id="E10">
+<type class="Gene_expression"/>
+<theme idref="T13"/>
+<clue>Long-lasting IL-2 receptivity is associated with high-level <clueType>expression</clueType> <linkTheme>of</linkTheme> the inducible IL-2 receptor alpha chain (IL-2R alpha) gene that is regulated at both transcriptional and posttranscriptional levels.</clue>
+</event>
+<event KT="Fact" id="E11">
+<type class="Regulation"/>
+<theme idref="E10"/>
+<clue>Long-lasting IL-2 receptivity is associated with high-level expression of the inducible IL-2 receptor alpha chain (IL-2R alpha) gene that is <clueType>regulated</clueType> at both transcriptional and posttranscriptional levels.</clue>
+</event>
+<event KT="Analysis" id="E12">
+<type class="Correlation"/>
+<theme idref="A3"/>
+<theme idref="E10"/>
+<clue>Long-lasting IL-2 receptivity is <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> high-level expression of the inducible IL-2 receptor alpha chain (IL-2R alpha) gene that is regulated at both transcriptional and posttranscriptional levels.</clue>
+</event>
+<sentence id="S5">Increase of <term id="T17" lex="IL-2R_alpha_gene_transcription" sem="Other"><term id="T18" lex="IL-2R_alpha_gene" sem="DNA_domain_or_region"><term id="T19" lex="IL-2R_alpha" sem="Protein_molecule">IL-2R alpha</term> gene</term> transcription</term> involves the enhanced binding of the transcription factor <term id="T20" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> to its <term id="T21" lex="consensus_sequence" sem="DNA_family_or_group">consensus sequence</term> in the <term id="T22" lex="5&apos;-regulatory_region" sem="DNA_domain_or_region">5&apos;-regulatory region</term> of the <term id="T23" lex="IL-2R_alpha_gene" sem="DNA_domain_or_region"><term id="T24" lex="IL-2R_alpha" sem="Protein_molecule">IL-2R alpha</term> gene</term>.</sentence>
+<event KT="Other" id="E13">
+<type class="Transcription"/>
+<theme idref="T18"/>
+<clue>Increase of IL-2R alpha gene <clueType>transcription</clueType> involves the enhanced binding of the transcription factor NF-kappa B to its consensus sequence in the 5&apos;-regulatory region of the IL-2R alpha gene.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<clue><clueType>Increase</clueType> <linkTheme>of</linkTheme> IL-2R alpha gene transcription involves the enhanced binding of the transcription factor NF-kappa B to its consensus sequence in the 5&apos;-regulatory region of the IL-2R alpha gene.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Binding"/>
+<theme idref="T20"/>
+<theme idref="T23"/>
+<clue>Increase of IL-2R alpha gene transcription involves the enhanced <clueType>binding</clueType> <linkTheme>of</linkTheme> the transcription factor NF-kappa B <linkTheme>to</linkTheme> its consensus sequence in the 5&apos;-regulatory region of the IL-2R alpha gene.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<clue>Increase of IL-2R alpha gene transcription involves the <clueType>enhanced</clueType> binding of the transcription factor NF-kappa B to its consensus sequence in the 5&apos;-regulatory region of the IL-2R alpha gene.</clue>
+</event>
+<event KT="Fact" id="E17">
+<type class="Correlation"/>
+<theme idref="E14"/>
+<theme idref="E16"/>
+<clue>Increase of IL-2R alpha gene transcription <clueType>involves</clueType> the enhanced binding of the transcription factor NF-kappa B to its consensus sequence in the 5&apos;-regulatory region of the IL-2R alpha gene.</clue>
+</event>
+<sentence id="S6">To dissect the molecular basis for the unusually persistent transcription of the <term id="T25" lex="IL-2R_alpha_gene" sem="DNA_domain_or_region"><term id="T26" lex="IL-2R_alpha" sem="Protein_molecule">IL-2R alpha</term> gene</term>, we analyzed nuclear <term id="T27" lex="NF-kappa_B_binding" sem="Other"><term id="T28" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> binding</term> to a radiolabeled <term id="T29" lex="IL-2R_alpha_kappa_B-specific_oligonucleotide_probe" sem="Polynucleotide"><term id="T30" lex="IL-2R_alpha" sem="Protein_molecule">IL-2R alpha</term> kappa B-specific oligonucleotide probe</term> during the time course of <term id="T31" lex="CD2_+_CD28_activation" sem="Other"><term id="T32" lex="CD2" sem="Protein_molecule">CD2</term> + <term id="T33" lex="CD28" sem="Protein_molecule">CD28</term> activation</term>.</sentence>
+<event KT="Fact" Manner="High" id="E52">
+<type class="Transcription"/>
+<theme idref="T25"/>
+<clue>To dissect the molecular basis for the unusually <clueManner>persistent</clueManner> <clueType>transcription</clueType> <linkTheme>of</linkTheme> the IL-2R alpha gene, we analyzed nuclear NF-kappa B binding to a radiolabeled IL-2R alpha kappa B-specific oligonucleotide probe during the time course of CD2 + CD28 activation.</clue>
+</event>
+<event KT="Other" id="E71">
+<type class="Positive_regulation"/>
+<theme idref="T32"/>
+<clue>To dissect the molecular basis for the unusually persistent transcription of the IL-2R alpha gene, we analyzed nuclear NF-kappa B binding to a radiolabeled IL-2R alpha kappa B-specific oligonucleotide probe during the time course of CD2 + CD28 <clueType>activation</clueType>.</clue>
+</event>
+<event KT="Other" id="E72">
+<type class="Positive_regulation"/>
+<theme idref="T33"/>
+<clue>To dissect the molecular basis for the unusually persistent transcription of the IL-2R alpha gene, we analyzed nuclear NF-kappa B binding to a radiolabeled IL-2R alpha kappa B-specific oligonucleotide probe during the time course of CD2 + CD28 <clueType>activation</clueType>.</clue>
+</event>
+<event KT="Other" id="E18" uncertainty="doubtful">
+<type class="Binding"/>
+<theme idref="T28"/>
+<theme idref="T29"/>
+<clue>To dissect the molecular basis for the unusually persistent transcription of the IL-2R alpha gene, we analyzed nuclear NF-kappa B <clueType>binding</clueType> <linkTheme>to</linkTheme> a radiolabeled IL-2R alpha kappa B-specific oligonucleotide probe <clueTime>during the time course of CD2 + CD28 activation.</clueTime></clue>
+</event>
+<event KT="Investigation" id="E73">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="E71"/>
+<clue>To dissect the molecular basis for the unusually persistent transcription of the IL-2R alpha gene, we <clueKT>analyzed</clueKT> nuclear NF-kappa B binding to a radiolabeled IL-2R alpha kappa B-specific oligonucleotide probe <clueType>during</clueType> the time course of CD2 + CD28 activation.</clue>
+</event>
+<event KT="Investigation" id="E74">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="E72"/>
+<clue>To dissect the molecular basis for the unusually persistent transcription of the IL-2R alpha gene, we <clueKT>analyzed</clueKT> nuclear NF-kappa B binding to a radiolabeled IL-2R alpha kappa B-specific oligonucleotide probe <clueType>during</clueType> the time course of CD2 + CD28 activation.</clue>
+</event>
+<sentence id="S7">Resting <term id="T34" lex="T-cell_nuclear_extract" sem="Cell_component">T-cell nuclear extracts</term> contained <term id="T35" lex="KBF1/p50_homodimer" sem="Protein_complex">KBF1/p50 homodimer</term>.</sentence>
+<sentence id="S8">After <term id="A4" sem="Other">stimulation</term>, two new <term id="T36" lex="kappa_B-specific_complex" sem="Protein_complex">kappa B-specific complexes</term> were identified as <term id="T37" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> <term id="T38" lex="p50-p65_heterodimer" sem="Protein_complex"><term id="A53" sem="Protein_molecule">p50</term>-<term id="A54" sem="Protein_molecule">p65</term> heterodimer</term> and putative <term id="T39" lex="c-Rel_homodimer" sem="Protein_complex"><term id="A55" sem="Protein_molecule">c-Rel</term> homodimer</term> or <term id="T40" lex="c-Rel-p65_heterodimer" sem="Protein_complex"><term id="A56" sem="Protein_molecule">c-Rel</term>-<term id="A57" sem="Protein_molecule">p65</term> heterodimer</term>.</sentence>
+<event id="E54">
+<type class="Binding"/>
+<theme idref="A53"/>
+<theme idref="A54"/>
+<clue>After stimulation, two new kappa B-specific complexes were identified as NF-kappa B p50-p65 <clueType>heterodimer</clueType> and putative c-Rel homodimer or c-Rel-p65 heterodimer.</clue>
+</event>
+<event id="E55" uncertainty="probable">
+<type class="Binding"/>
+<theme idref="A55"/>
+<clue>After stimulation, two new kappa B-specific complexes were identified as NF-kappa B p50-p65 heterodimer and putative c-Rel <clueType>homodimer</clueType> or c-Rel-p65 heterodimer.</clue>
+</event>
+<event id="E56" uncertainty="probable">
+<type class="Binding"/>
+<theme idref="A56"/>
+<theme idref="A57"/>
+<clue>After stimulation, two new kappa B-specific complexes were identified as NF-kappa B p50-p65 heterodimer and putative c-Rel homodimer or c-Rel-p65 <clueType>heterodimer</clueType>.</clue>
+</event>
+<event id="E57">
+<type class="Positive_regulation"/>
+<theme idref="E54"/>
+<cause idref="A4"/>
+<clue><linkCause>After</linkCause> stimulation, two new kappa B-specific complexes were <clueType>identified</clueType> as NF-kappa B p50-p65 heterodimer and putative c-Rel homodimer or c-Rel-p65 heterodimer.</clue>
+</event>
+<event id="E58">
+<type class="Positive_regulation"/>
+<theme idref="E55"/>
+<cause idref="A4"/>
+<clue><linkCause>After</linkCause> stimulation, two new kappa B-specific complexes were <clueType>identified</clueType> as NF-kappa B p50-p65 heterodimer and putative c-Rel homodimer or c-Rel-p65 heterodimer.</clue>
+</event>
+<event id="E59">
+<type class="Positive_regulation"/>
+<theme idref="E56"/>
+<cause idref="A4"/>
+<clue><linkCause>After</linkCause> stimulation, two new kappa B-specific complexes were <clueType>identified</clueType> as NF-kappa B p50-p65 heterodimer and putative c-Rel homodimer or c-Rel-p65 heterodimer.</clue>
+</event>
+<sentence id="S9">Both inducible complexes persisted for at least 3 weeks.</sentence>
+<sentence id="S10">Their relative levels were very similar for the duration of proliferation.</sentence>
+<sentence id="S11">In parallel, <term id="T41" lex="CD2_+_CD28_activation" sem="Other"><term id="T42" lex="CD2" sem="Protein_molecule">CD2</term> + <term id="T43" lex="CD28" sem="Protein_molecule">CD28</term> activation</term> triggered a significant intracellular <term id="A5" sem="Inorganic_compound">thiol</term> decrease, suggesting that <term id="T44" lex="oxygen_radical" sem="Inorganic_compound">oxygen radicals</term> are involved in the signaling pathway of <term id="T45" lex="adhesion_molecule" sem="Protein_family_or_group">adhesion molecules</term>.</sentence>
+<event id="E70">
+<type class="Positive_regulation"/>
+<theme idref="T43"/>
+<clue>In parallel, CD2 + CD28 <clueType>activation</clueType> triggered a significant intracellular thiol decrease, suggesting that oxygen radicals are involved in the signaling pathway of adhesion molecules.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation"/>
+<theme idref="T42"/>
+<clue>In parallel, CD2 + CD28 <clueType>activation</clueType> triggered a significant intracellular thiol decrease, suggesting that oxygen radicals are involved in the signaling pathway of adhesion molecules.</clue>
+</event>
+<event Manner="High" id="E22" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="A5"/>
+<cause idref="E21"/>
+<cause idref="E70"/>
+<clue>In parallel, CD2 + CD28 activation triggered a <clueManner>significant</clueManner> <clueLoc>intracellular</clueLoc> thiol <clueType>decrease</clueType>, suggesting that oxygen radicals are involved in the signaling pathway of adhesion molecules.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E23" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="T44"/>
+<theme idref="E4"/>
+<clue>In parallel, CD2 + CD28 activation triggered a significant intracellular thiol decrease, <clueKT><clueCL>suggesting</clueCL></clueKT> that oxygen radicals are <clueType>involved</clueType> <linkTheme>in</linkTheme> <corefTheme idref1="E4">the signaling pathway of adhesion molecules</corefTheme>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E123" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="T44"/>
+<theme idref="E5"/>
+<clue>In parallel, CD2 + CD28 activation triggered a significant intracellular thiol decrease, <clueKT><clueCL>suggesting</clueCL></clueKT> that oxygen radicals are <clueType>involved</clueType> <linkTheme>in</linkTheme> <corefTheme idref1="E5">the signaling pathway of adhesion molecules</corefTheme>.</clue>
+</event>
+<sentence id="S12">Finally, micromolar amounts of <term id="T46" lex="pyrrolidine_dithiocarbamate" sem="Organic_compound_other">pyrrolidine dithiocarbamate</term>, an <term id="T47" lex="oxygen_radical_scavenger" sem="Other">oxygen radical scavenger</term> that efficiently blocked the nuclear appearance of <term id="T48" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> in <term id="T49" lex="T-lymphocyte" sem="Cell_natural">T-lymphocytes</term>, also inhibited <term id="T50" lex="IL-2_secretion" sem="Other"><term id="T51" lex="IL-2" sem="Protein_molecule">IL-2</term> secretion,</term> <term id="T52" lex="IL-2R_alpha_cell_surface_expression" sem="Other"><term id="T53" lex="IL-2R_alpha" sem="Protein_molecule">IL-2R alpha</term> cell surface expression</term>, and <term id="T54" lex="T-cell_proliferation" sem="Other"><term id="A6" sem="Cell_natural">T-cell</term> proliferation</term>.</sentence>
+<event KT="Other" id="E24">
+<type class="Localization"/>
+<theme idref="T48"/>
+<clue>Finally, micromolar amounts of pyrrolidine dithiocarbamate, an oxygen radical scavenger that efficiently blocked the <clueLoc>nuclear</clueLoc> <clueType>appearance</clueType> <linkTheme>of</linkTheme> NF-kappa B <clueLoc>in T-lymphocytes</clueLoc>, also inhibited IL-2 secretion, IL-2R alpha cell surface expression, and T-cell proliferation.</clue>
+</event>
+<event id="E25">
+<type class="Negative_regulation"/>
+<theme idref="E24"/>
+<cause idref="T46"/>
+<clue>Finally, micromolar amounts of pyrrolidine dithiocarbamate, an oxygen radical scavenger that efficiently <clueType>blocked</clueType> the nuclear appearance of NF-kappa B in T-lymphocytes, also inhibited IL-2 secretion, IL-2R alpha cell surface expression, and T-cell proliferation.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Localization"/>
+<theme idref="T51"/>
+<clue>Finally, micromolar amounts of pyrrolidine dithiocarbamate, an oxygen radical scavenger that efficiently blocked the nuclear appearance of NF-kappa B in T-lymphocytes, also inhibited IL-2 <clueType>secretion</clueType>, IL-2R alpha cell surface expression, and T-cell proliferation.</clue>
+</event>
+<event KT="Other" id="E27">
+<type class="Gene_expression"/>
+<theme idref="T53"/>
+<clue>Finally, micromolar amounts of pyrrolidine dithiocarbamate, an oxygen radical scavenger that efficiently blocked the nuclear appearance of NF-kappa B in T-lymphocytes, also inhibited IL-2 secretion, IL-2R alpha <clueLoc>cell surface</clueLoc> <clueType>expression</clueType>, and T-cell proliferation.</clue>
+</event>
+<event KT="Other" id="E28">
+<type class="Cellular_physiological_process"/>
+<theme idref="A6"/>
+<clue>Finally, micromolar amounts of pyrrolidine dithiocarbamate, an oxygen radical scavenger that efficiently blocked the nuclear appearance of NF-kappa B in T-lymphocytes, also inhibited IL-2 secretion, IL-2R alpha cell surface expression, and T-cell <clueType>proliferation</clueType>.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation"/>
+<theme idref="E26"/>
+<cause idref="T46"/>
+<clue>Finally, micromolar amounts of pyrrolidine dithiocarbamate, an oxygen radical scavenger that efficiently blocked the nuclear appearance of NF-kappa B in T-lymphocytes, also <clueType>inhibited</clueType> IL-2 secretion, IL-2R alpha cell surface expression, and T-cell proliferation.</clue>
+</event>
+<event id="E30">
+<type class="Negative_regulation"/>
+<theme idref="E27"/>
+<cause idref="T46"/>
+<clue>Finally, micromolar amounts of pyrrolidine dithiocarbamate, an oxygen radical scavenger that efficiently blocked the nuclear appearance of NF-kappa B in T-lymphocytes, also <clueType>inhibited</clueType> IL-2 secretion, IL-2R alpha cell surface expression, and T-cell proliferation.</clue>
+</event>
+<event id="E31">
+<type class="Negative_regulation"/>
+<theme idref="E28"/>
+<cause idref="T46"/>
+<clue>Finally, micromolar amounts of pyrrolidine dithiocarbamate, an oxygen radical scavenger that efficiently blocked the nuclear appearance of NF-kappa B in T-lymphocytes, also <clueType>inhibited</clueType> IL-2 secretion, IL-2R alpha cell surface expression, and T-cell proliferation.</clue>
+</event>
+<sentence id="S13">Together, these results suggest that <term id="T55" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> plays an important role in long-term activation of <term id="T56" lex="human_primary_T-lymphocyte" sem="Cell_natural">human primary <term id="T57" lex="T-lymphocyte" sem="Cell_natural">T-lymphocytes</term></term> via <term id="T58" lex="CD2" sem="Protein_molecule">CD2</term> + <term id="T59" lex="CD28" sem="Protein_molecule">CD28</term>.</sentence>
+<event KT="Other" id="E32">
+<type class="Physiological_process"/>
+<theme idref="T56"/>
+<cause idref="T58"/>
+<clue>Together, these results suggest that NF-kappa B plays an important role in long-term <clueType>activation</clueType> <linkTheme>of</linkTheme> human primary T-lymphocytes <linkCause>via</linkCause> CD2 + CD28.</clue>
+</event>
+<event KT="Other" id="E76">
+<type class="Physiological_process"/>
+<theme idref="T56"/>
+<cause idref="T59"/>
+<clue>Together, these results suggest that NF-kappa B plays an important role in long-term <clueType>activation</clueType> <linkTheme>of</linkTheme> human primary T-lymphocytes <linkCause>via</linkCause> CD2 + CD28.</clue>
+</event>
+<event KT="Analysis" id="E33" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E32"/>
+<cause idref="T55"/>
+<clue>Together, these results <clueKT>suggest</clueKT> that NF-kappa B <clueType>plays</clueType> an <clueType>important role</clueType> <linkTheme>in</linkTheme> long-term activation of human primary T-lymphocytes via CD2 + CD28.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

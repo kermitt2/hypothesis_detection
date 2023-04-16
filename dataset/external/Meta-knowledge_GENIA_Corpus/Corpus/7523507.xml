@@ -1,0 +1,183 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7523507" created="06/11/23" creator="Yumiko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7523507</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Inducible binding to the <term id="A2" sem="DNA_domain_or_region">c-fos serum response element</term> during <term id="T1" lex="T_cell_activation" sem="Other"><term id="A1" sem="Cell_natural">T cell</term> activation</term> is regulated by a <term id="T2" lex="phosphotyrosine-containing_protein" sem="Protein_family_or_group">phosphotyrosine-containing protein</term>.</sentence>
+<event id="E1">
+<type class="Physiological_process"/>
+<theme idref="A1"/>
+<clue>Inducible binding to the c-fos serum response element during T cell <clueType>activation</clueType> is regulated by a phosphotyrosine-containing protein.</clue>
+</event>
+<event id="E2">
+<type class="Binding"/>
+<theme idref="A2"/>
+<clue>Inducible <clueType>binding</clueType> <linkTheme>to</linkTheme> the c-fos serum response element <clueTime>during T cell activation</clueTime> is regulated by a phosphotyrosine-containing protein.</clue>
+<comment>OKAP &quot;another THEME is not mentioned&quot;</comment></event>
+<event id="E3">
+<type class="Regulation"/>
+<theme idref="E100"/>
+<cause idref="T2"/>
+<clue>Inducible binding to the c-fos serum response element during T cell activation is <clueType>regulated</clueType> <linkCause>by</linkCause> a phosphotyrosine-containing protein.</clue>
+</event>
+<event id="E100">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<clue><clueType>Inducible</clueType> binding to the c-fos serum response element <clueTime>during T cell activation</clueTime> is regulated by a phosphotyrosine-containing protein.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T3" lex="proto-oncogene_c-fos" sem="DNA_domain_or_region">proto-oncogene c-fos</term> is an <term id="T4" lex="immediate-early_gene" sem="DNA_family_or_group">immediate-early gene</term>, and one of the first genes transcribed after stimulation of <term id="A3" sem="Cell_natural">most cells</term> with a <term id="A15" sem="Organic_compound_other">variety of ligands</term>.</sentence>
+<event KT="Other" id="E4">
+<type class="Physiological_process"/>
+<theme idref="A3"/>
+<cause idref="A15"/>
+<clue>The proto-oncogene c-fos is an immediate-early gene, and one of the first genes transcribed after <clueType>stimulation</clueType> <linkTheme>of</linkTheme> most cells <linkCause>with</linkCause> a variety of ligands.</clue>
+<comment>TPS A15</comment></event>
+<event KT="Other" id="E5">
+<type class="Transcription"/>
+<theme idref="T3"/>
+<clue>The proto-oncogene c-fos is an immediate-early gene, and <corefTheme>one of the first genes</corefTheme> <clueType>transcribed</clueType> <clueTime>after stimulation of most cells with a variety of ligands</clueTime>.</clue>
+</event>
+<event KT="Fact" id="E50">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="E4"/>
+<clue>The proto-oncogene c-fos is an immediate-early gene, and one of the first genes transcribed <linkCause>after</linkCause> stimulation of most cells with a variety of ligands.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S3"><term id="A4" sem="DNA_domain_or_region">Fos</term> expression may be a pivotal event in converting <term id="T5" lex="ligand-receptor_interaction" sem="Other"><term id="A5" sem="Organic_compound_other">ligand</term>-<term id="A6" sem="Protein_family_or_group">receptor</term> interactions</term> at the <term id="T6" lex="membrane" sem="Cell_component">membrane</term> into functional modulation of <term id="T7" lex="cell_phenotype" sem="Other">cell phenotype</term>.</sentence>
+<event KT="Other" id="E6">
+<type class="Binding"/>
+<theme idref="A5"/>
+<theme idref="A6"/>
+<clue>Fos expression may be a pivotal event in converting ligand-receptor <clueType>interactions</clueType> <clueLoc>at the membrane</clueLoc> into functional modulation of cell phenotype.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Regulation"/>
+<theme idref="T7"/>
+<cause idref="E6"/>
+<clue>Fos expression may be a pivotal event in converting ligand-receptor interactions at the membrane into functional <clueType>modulation</clueType> <linkTheme>of</linkTheme> cell phenotype.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Gene_expression"/>
+<theme idref="A4"/>
+<clue>Fos <clueType>expression</clueType> may be a pivotal event in converting ligand-receptor interactions at the membrane into functional modulation of cell phenotype.</clue>
+</event>
+<event KT="Other" id="E9" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="E8"/>
+<clue>Fos expression may be a pivotal event in <clueType>converting</clueType> ligand-receptor interactions at the membrane into functional modulation of cell phenotype.</clue>
+</event>
+<sentence id="S4">The <term id="T8" lex="serum_response_element" sem="DNA_domain_or_region">serum response element</term> (<term id="T9" lex="SRE" sem="DNA_domain_or_region">SRE</term>) in the <term id="T10" lex="c-fos_regulatory_region" sem="DNA_domain_or_region">c-fos regulatory region</term> participates in induction of <term id="A7" sem="Other">transcription</term> by various <term id="T11" lex="growth_factor" sem="Protein_family_or_group">growth factors</term> and by <term id="T12" lex="phorbol_ester" sem="Organic_compound_other">phorbol esters</term> and subsequent squelching of <term id="A8" sem="Other">transcription</term>.</sentence>
+<event KT="Other" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="A7"/>
+<cause idref="T11"/>
+<clue>The serum response element (SRE) in the c-fos regulatory region participates in <clueType>induction</clueType> <linkTheme>of</linkTheme> transcription <linkCause>by</linkCause> various growth factors and by phorbol esters and subsequent squelching of transcription.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="A7"/>
+<cause idref="T12"/>
+<clue>The serum response element (SRE) in the c-fos regulatory region participates in <clueType>induction</clueType> <linkTheme>of</linkTheme> transcription by various growth factors and <linkCause>by</linkCause> phorbol esters and subsequent squelching of transcription.</clue>
+</event>
+<event KT="Fact" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="T9"/>
+<clue>The serum response element (SRE) in the c-fos regulatory region <clueType>participates</clueType> <linkTheme>in</linkTheme> induction of transcription by various growth factors and by phorbol esters and subsequent squelching of transcription.</clue>
+</event>
+<event KT="Fact" id="E120">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<cause idref="T9"/>
+<clue>The serum response element (SRE) in the c-fos regulatory region <clueType>participates</clueType> <linkTheme>in</linkTheme> induction of transcription by various growth factors and by phorbol esters and subsequent squelching of transcription.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Negative_regulation"/>
+<theme idref="A8"/>
+<clue>The serum response element (SRE) in the c-fos regulatory region participates in induction of transcription by various growth factors and by phorbol esters and subsequent <clueType>squelching</clueType> <linkTheme>of</linkTheme> transcription.</clue>
+</event>
+<event KT="Fact" id="E121">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="T9"/>
+<clue>The serum response element (SRE) in the c-fos regulatory region <clueType>participates</clueType> <linkTheme>in</linkTheme> induction of transcription by various growth factors and by phorbol esters and subsequent squelching of transcription.</clue>
+</event>
+<sentence id="S5">We show that an inducible <term id="T13" lex="protein_complex" sem="Protein_complex">protein complex</term> (<term id="T14" lex="Band_A" sem="Protein_molecule">Band A</term>) binds to <term id="T15" lex="SRE_DNA" sem="DNA_domain_or_region"><term id="T16" lex="SRE" sem="DNA_domain_or_region">SRE</term> DNA</term> within 10 min after <term id="T17" lex="mitogenic_stimulation" sem="Other"><term id="A9" sem="Organic_compound_other">mitogenic</term> stimulation</term> of <term id="T18" lex="human_PBL-T" sem="Cell_cultured">human PBL-T</term>, and becomes nondetectable by 60 min.</sentence>
+<event KT="Analysis" id="E14">
+<type class="Binding"/>
+<theme idref="T14"/>
+<theme idref="T15"/>
+<clue>We <clueKT>show</clueKT> that an inducible protein complex (Band A) <clueType>binds</clueType> <linkTheme>to</linkTheme> SRE DNA <clueTime>within 10 min after mitogenic stimulation of human PBL-T</clueTime>, and becomes nondetectable by 60 min.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Physiological_process"/>
+<theme idref="T18"/>
+<cause idref="A9"/>
+<clue>We show that an inducible protein complex (Band A) binds to SRE DNA within 10 min after mitogenic <clueType>stimulation</clueType> <linkTheme>of</linkTheme> human PBL-T, and becomes nondetectable by 60 min.</clue>
+</event>
+<event KT="Analysis" assertion="non-exist" id="E16">
+<type class="Binding"/>
+<theme idref="T14"/>
+<theme idref="T15"/>
+<clue>We <clueKT>show</clueKT> that an inducible protein complex (Band A) <clueType>binds</clueType> <linkTheme>to</linkTheme> SRE DNA within 10 min after mitogenic stimulation of human PBL-T, and becomes nondetectable <clueTime>by 60 min</clueTime>.</clue>
+</event>
+<sentence id="S6"><term id="T19" lex="Band_A" sem="Protein_molecule">Band A</term> contains the <term id="T20" lex="serum_response_factor" sem="Protein_family_or_group">serum response factor</term> plus additional factor(s).</sentence>
+<sentence id="S7">A <term id="A10" sem="Protein_molecule">protein that is phosphorylated on a <term id="T21" lex="tyrosine_residue" sem="Amino_acid_monomer">tyrosine residue</term></term> in <term id="T22" lex="resting_PBL-T" sem="Cell_cultured">resting PBL-T</term> suppresses binding of a component of <term id="T23" lex="Band_A" sem="Protein_molecule">Band A</term> to the <term id="T24" lex="SRE_motif" sem="DNA_domain_or_region"><term id="T25" lex="SRE" sem="DNA_domain_or_region">SRE</term> motif</term>.</sentence>
+<event id="E17">
+<type class="Protein_amino_acid_phosphorylation"/>
+<site idref="T21"/>
+<clue>A protein that is <clueType>phosphorylated</clueType> on a tyrosine residue <clueLoc>in resting PBL-T</clueLoc> suppresses binding of a component of Band A to the SRE motif.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Binding"/>
+<theme idref="T23"/>
+<theme idref="T24"/>
+<clue>A protein that is phosphorylated on a tyrosine residue in resting PBL-T suppresses <clueType>binding</clueType> <linkTheme>of</linkTheme> a component of Band A <linkTheme>to</linkTheme> the SRE motif.</clue>
+</event>
+<event id="E19">
+<type class="Negative_regulation"/>
+<theme idref="E18"/>
+<cause idref="A10"/>
+<clue>A protein that is phosphorylated on a tyrosine residue in resting PBL-T <clueType>suppresses</clueType> binding of a component of Band A to the SRE motif.</clue>
+<comment>TPS A10</comment></event>
+<sentence id="S8">Upon stimulation of the cells, this protein no longer prevents binding of DNA by <term id="T26" lex="Band_A" sem="Protein_molecule">Band A</term>, and suppression of binding is restored within 30 min.</sentence>
+<event id="E20">
+<type class="Physiological_process"/>
+<theme idref="T22"/>
+<clue>Upon <clueType>stimulation</clueType> <linkTheme>of</linkTheme> <corefTheme>the cells</corefTheme>, this protein no longer prevents binding of DNA by Band A, and suppression of binding is restored within 30 min.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E21">
+<type class="Negative_regulation"/>
+<theme idref="E22"/>
+<cause idref="A10"/>
+<clue><clueTime>Upon stimulation of the cells</clueTime>, <corefCause>this protein</corefCause> <cluePolarity>no longer</cluePolarity> <clueType>prevents</clueType> binding of DNA by Band A, and suppression of binding is restored within 30 min.</clue>
+</event>
+<event id="E22">
+<type class="Binding"/>
+<theme idref="T24"/>
+<theme idref="T26"/>
+<clue>Upon stimulation of the cells, this protein no longer prevents <clueType>binding</clueType> <linkTheme>of</linkTheme> <corefTheme idref1="T24">DNA</corefTheme> <linkTheme>by</linkTheme> Band A, and suppression of binding is restored within 30 min.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation"/>
+<theme idref="E22"/>
+<cause idref="A10"/>
+<clue>Upon stimulation of the cells, this protein no longer prevents binding of DNA by Band A, and <clueType>suppression</clueType> <linkTheme>of</linkTheme> <corefTheme>binding</corefTheme> is restored <clueTime>within 30 min</clueTime>.</clue>
+</event>
+<sentence id="S9">The <term id="T27" lex="phosphorylated_tyrosine_residue" sem="Amino_acid_monomer">phosphorylated <term id="A12" sem="Amino_acid_monomer">tyrosine residue</term></term> itself is important for the <term id="T28" lex="protein-protein_interaction" sem="Other">protein-protein interaction</term>.</sentence>
+<event id="E24">
+<type class="Protein_amino_acid_phosphorylation"/>
+<site idref="A12"/>
+<clue>The <clueType>phosphorylated</clueType> tyrosine residue itself is important for the protein-protein interaction.</clue>
+</event>
+<event id="E25">
+<type class="Regulation"/>
+<theme idref="T28"/>
+<cause idref="E24"/>
+<clue>The phosphorylated tyrosine residue itself is <clueType>important</clueType> <linkTheme>for</linkTheme> the protein-protein interaction.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

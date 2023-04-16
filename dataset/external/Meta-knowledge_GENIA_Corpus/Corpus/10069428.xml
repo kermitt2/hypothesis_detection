@@ -1,0 +1,241 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10069428" created="20/10/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10069428</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Evidence for suppressed activity of the <term id="T1" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> <term id="T2" lex="NFAT1" sem="Protein_molecule">NFAT1</term> at its <term id="T3" lex="proximal_binding_element" sem="DNA_domain_or_region">proximal binding element</term> <term id="T4" lex="P0" sem="DNA_domain_or_region">P0</term> in the <term id="T5" lex="IL-4_promoter" sem="DNA_domain_or_region">IL-4 promoter</term> associated with enhanced <term id="T6" lex="IL-4_gene_transcription" sem="Other"><term id="T7" lex="IL-4_gene" sem="DNA_domain_or_region">IL-4 gene</term> transcription</term> in <term id="T8" lex="T_cell" sem="Cell_natural">T cells</term> of <term id="T9" lex="atopic_patient" sem="Multicellular_organism_natural">atopic patients</term>.</sentence>
+<event KT="Analysis" id="E1">
+<type class="Negative_regulation"/>
+<theme idref="T2"/>
+<cause idref="E2"/>
+<clue><clueKT>Evidence</clueKT> for <clueType>suppressed</clueType> activity <linkTheme>of</linkTheme> the transcription factor NFAT1 <linkCause>at</linkCause> its proximal binding element P0 in the IL-4 promoter associated with enhanced IL-4 gene transcription in T cells of atopic patients.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Binding"/>
+<theme idref="T2"/>
+<theme idref="T4"/>
+<clue>Evidence for suppressed activity of the transcription factor NFAT1 at its proximal <clueType>binding</clueType> element P0 <clueLoc>in the IL-4 promoter</clueLoc> associated with enhanced IL-4 gene transcription in T cells of atopic patients.</clue>
+</event>
+<event KT="Analysis" id="E3">
+<type class="Correlation"/>
+<theme idref="E1"/>
+<theme idref="E4"/>
+<clue>Evidence for suppressed activity of the transcription factor NFAT1 at its proximal binding element P0 in the IL-4 promoter <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> enhanced IL-4 gene transcription in T cells of atopic patients.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<clue>Evidence for suppressed activity of the transcription factor NFAT1 at its proximal binding element P0 in the IL-4 promoter associated with <clueType>enhanced</clueType> IL-4 gene transcription in T cells of atopic patients.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Transcription"/>
+<theme idref="T7"/>
+<clue>Evidence for suppressed activity of the transcription factor NFAT1 at its proximal binding element P0 in the IL-4 promoter associated with enhanced IL-4 gene <clueType>transcription</clueType> <clueLoc>in T cells</clueLoc> of atopic patients.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Allergen-specific <term id="T10" lex="T_cell" sem="Cell_natural">T cells</term> in <term id="T11" lex="atopic_patient" sem="Multicellular_organism_natural">atopic patients</term> are polarized <term id="A1" sem="Protein_molecule">IL-4</term>-producing <term id="A2" sem="Cell_natural">Th2 cells</term>, promoting <term id="T13" lex="IgE_synthesis" sem="Other"><term id="T14" lex="IgE" sem="Protein_family_or_group">IgE</term> synthesis</term> by <term id="T15" lex="B_cell" sem="Cell_natural">B cells</term>.</sentence>
+<event KT="Fact" id="E6">
+<type class="Cell_differentiation"/>
+<theme idref="A2"/>
+<clue>Allergen-specific T cells in atopic patients are <clueType>polarized</clueType> IL-4-producing Th2 cells, promoting IgE synthesis by B cells.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Gene_expression"/>
+<theme idref="A1"/>
+<clue>Allergen-specific T cells in atopic patients are polarized IL-4-<clueType>producing</clueType> <clueLoc>Th2 cells</clueLoc>, promoting IgE synthesis by B cells.</clue>
+<comment>NER: T12 del &quot;IL-4-producing Th2 cells&quot;</comment></event>
+<event KT="Fact" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="E7"/>
+<clue>Allergen-specific T cells in atopic patients are polarized IL-4-producing Th2 cells, <clueType>promoting</clueType> IgE synthesis by B cells.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Gene_expression"/>
+<theme idref="T14"/>
+<clue>Allergen-specific T cells in atopic patients are polarized IL-4-producing Th2 cells, promoting IgE <clueType>synthesis</clueType> <clueLoc>by B cells</clueLoc>.</clue>
+</event>
+<sentence id="S3">The molecular basis for increased <term id="T16" lex="IL-4_gene_expression" sem="Other"><term id="T17" lex="IL-4_gene" sem="DNA_domain_or_region">IL-4 gene</term> expression</term> in <term id="T18" lex="atopy" sem="Other">atopy</term> is not fully understood.</sentence>
+<event KT="Fact" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<cause idref="T18"/>
+<clue>The molecular basis for <clueType>increased</clueType> IL-4 gene expression <linkCause>in</linkCause> atopy is not fully understood.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Gene_expression"/>
+<theme idref="T17"/>
+<clue>The molecular basis for increased IL-4 gene <clueType>expression</clueType> in atopy is not fully understood.</clue>
+</event>
+<sentence id="S4"><term id="T19" lex="IL-4_gene" sem="DNA_domain_or_region">IL-4 gene</term> regulation in general involves the <term id="T20" lex="nuclear_factor_of_activated_T_cells_(NFAT)_family" sem="Protein_family_or_group"><term id="T21" lex="nuclear_factor_of_activated_T_cells" sem="Protein_family_or_group">nuclear factor of activated <term id="T22" lex="T_cell" sem="Cell_natural">T cells</term></term> (<term id="T23" lex="NFAT" sem="Protein_family_or_group">NFAT</term>) family</term> of <term id="T24" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term>, of which <term id="T25" lex="NFAT1" sem="Protein_molecule">NFAT1</term> and <term id="T26" lex="NFAT2" sem="Protein_molecule">NFAT2</term> are most prominent in <term id="T27" lex="peripheral_T_cell" sem="Cell_natural">peripheral T cells</term>.</sentence>
+<event KT="Other" id="E35">
+<type class="Regulation"/>
+<theme idref="T19"/>
+<clue>IL-4 gene <clueType>regulation</clueType> in general involves the nuclear factor of activated T cells (NFAT) family of transcription factors, of which NFAT1 and NFAT2 are most prominent in peripheral T cells.</clue>
+</event>
+<event KT="Fact" id="E12">
+<type class="Regulation"/>
+<theme idref="E35"/>
+<cause idref="T25"/>
+<clue>IL-4 gene regulation in general <clueType>involves</clueType> the <corefTheme>nuclear factor of activated T cells (NFAT) family of transcription factors</corefTheme>, of which NFAT1 and NFAT2 are most prominent <clueLoc>in peripheral T cells</clueLoc>.</clue>
+</event>
+<event KT="Fact" id="E13">
+<type class="Regulation"/>
+<theme idref="E35"/>
+<cause idref="T26"/>
+<clue>IL-4 gene regulation in general <clueType>involves</clueType> the <corefTheme>nuclear factor of activated T cells (NFAT) family of transcription factors</corefTheme>, of which NFAT1 and NFAT2 are most prominent <clueLoc>in peripheral T cells</clueLoc>.</clue>
+</event>
+<sentence id="S5">Recently, a unique inhibitory role of <term id="T28" lex="NFAT1" sem="Protein_molecule">NFAT1</term> in <term id="T30" lex="IL-4_gene" sem="DNA_domain_or_region">IL-4 gene</term> control was shown in the <term id="T31" lex="mouse" sem="Multicellular_organism_natural">mouse</term>.</sentence>
+<event KT="Analysis" Source="Other" id="E14">
+<type class="Negative_regulation"/>
+<theme idref="E36"/>
+<cause idref="T28"/>
+<clue><clueSource>Recently</clueSource>, a unique <clueType>inhibitory role</clueType> <linkCause>of</linkCause> NFAT1 <linkTheme>in</linkTheme> IL-4 gene control was <clueKT>shown</clueKT> <clueLoc>in the mouse</clueLoc>.</clue>
+<comment>NER: T29 del &quot;NFAT1&quot;, overlapping T28</comment></event>
+<event KT="Other" id="E36">
+<type class="Regulation"/>
+<theme idref="T30"/>
+<clue>Recently, a unique inhibitory role of NFAT1 in IL-4 gene <clueType>control</clueType> was shown in the mouse.</clue>
+</event>
+<sentence id="S6">In a series of <term id="T32" lex="electrophoretic_mobility_shift_assay" sem="Other">electrophoretic mobility shift assays</term> with <term id="T33" lex="protein_extract" sem="Cell_component">protein extracts</term> of highly polarized <term id="A4" sem="Cell_cultured">Th2 clones</term> from <term id="T35" lex="atopic" sem="Multicellular_organism_natural">atopics</term> and <term id="T36" lex="Th1_clone" sem="Cell_cultured">Th1 clones</term> from controls we compared <term id="T37" lex="DNA-binding_activity" sem="Other">DNA-binding activities</term> at the two <term id="T38" lex="NFAT-binding_element" sem="DNA_domain_or_region"><term id="A3" sem="Protein_family_or_group">NFAT</term>-binding elements</term> <term id="T39" lex="P0" sem="DNA_domain_or_region">P0</term> and <term id="T40" lex="P1" sem="DNA_domain_or_region">P1</term> <term id="A20" sem="DNA_domain_or_region">of the crucial proximal human <term id="T41" lex="IL-4_promoter" sem="DNA_domain_or_region">IL-4 promoter</term></term>.</sentence>
+<event KT="Investigation" id="E15">
+<type class="Binding"/>
+<theme idref="A3"/>
+<theme idref="T39" idref1="A20"/>
+<clue>In a series of <clueExperiment>electrophoretic mobility shift assays with protein extracts of highly polarized Th2 clones from atopics and Th1 clones from controls</clueExperiment> we <clueKT>compared</clueKT> DNA-<clueType>binding</clueType> activities <linkTheme>at</linkTheme> the two <corefTheme>NFAT-binding elements</corefTheme> P0 and P1 of the crucial proximal human IL-4 promoter.</clue>
+<comment>TPS: A20</comment></event>
+<event KT="Investigation" id="E16">
+<type class="Binding"/>
+<theme idref="A3"/>
+<theme idref="T40" idref1="A20"/>
+<clue>In a series of <clueExperiment>electrophoretic mobility shift assays with protein extracts of highly polarized Th2 clones from atopics and Th1 clones from controls</clueExperiment> we <clueKT>compared</clueKT> DNA-<clueType>binding</clueType> activities <linkTheme>at</linkTheme> the two <corefTheme>NFAT-binding elements</corefTheme> P0 and P1 of the crucial proximal human IL-4 promoter.</clue>
+<comment>TPS: A20</comment></event>
+<event KT="Other" id="E17">
+<type class="Cellular_physiological_process"/>
+<theme idref="A4"/>
+<clue>In a series of electrophoretic mobility shift assays with protein extracts of highly <clueType>polarized</clueType> Th2 clones <clueLoc>from atopics</clueLoc> and Th1 clones from controls we compared DNA-binding activities at the two NFAT-binding elements P0 and P1 of the crucial proximal human IL-4 promoter.</clue>
+<comment>NER: T34 del &quot;highly polarized Th2 clones&quot;</comment></event>
+<sentence id="S7">At the most proximal <term id="T42" lex="P0" sem="DNA_domain_or_region">P0</term> site, <term id="A5" sem="Protein_family_or_group">NFAT</term>-containing complexes devoid of <term id="T43" lex="NFAT2" sem="Protein_molecule">NFAT2</term> were readily inducible in the <term id="T44" lex="Th1_clone" sem="Cell_cultured">Th1 clones</term>, but hardly or not in the <term id="T45" lex="Th2_clone" sem="Cell_cultured">Th2 clones</term>.</sentence>
+<event id="E18">
+<type class="Binding"/>
+<theme idref="T42"/>
+<theme idref="A5"/>
+<clue>At the most proximal P0 site, NFAT<linkTheme>-containing</linkTheme> <clueType>complexes</clueType> devoid of NFAT2 were readily inducible in the Th1 clones, but hardly or not in the Th2 clones.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<clue>At the most proximal P0 site, NFAT-containing complexes devoid of NFAT2 were readily <clueType>inducible</clueType> <clueLoc>in the Th1 clones</clueLoc>, but hardly or not in the Th2 clones.</clue>
+</event>
+<event Manner="Low" Polarity="Negative" assertion="non-exist" id="E37">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<clue>At the most proximal P0 site, NFAT-containing complexes devoid of NFAT2 were readily <clueType>inducible</clueType> in the Th1 clones, but <clueManner>hardly</clueManner> or <cluePolarity>not</cluePolarity> <clueLoc>in the Th2 clones</clueLoc>.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E20">
+<type class="Binding"/>
+<theme idref="T42"/>
+<theme idref="T43"/>
+<clue>At the most proximal P0 site, NFAT-containing <clueType>complexes</clueType> <linkTheme><cluePolarity>devoid</cluePolarity> of</linkTheme> NFAT2 were readily inducible <clueLoc>in the Th1 clones</clueLoc>, but hardly or not in the Th2 clones.</clue>
+</event>
+<sentence id="S8">In contrast, both in <cons id="T46" lex="(AND Th1_clone Th2_clone)" sem="(AND Cell_cultured Cell_cultured)"><frag id="F1">Th1</frag> and <frag id="F2">Th2</frag> <frag id="F3">clones</frag></cons> <term id="A6" sem="Protein_family_or_group">NFAT</term>-containing complexes were strongly inducible at the <term id="T47" lex="P1_site" sem="DNA_domain_or_region">P1 site</term>, consisting of <term id="T48" lex="NFAT2" sem="Protein_molecule">NFAT2</term> and a <term id="A21" sem="Protein_molecule"><term id="T49" lex="P0" sem="DNA_domain_or_region">P0</term>-compatible <term id="T51" lex="NFAT" sem="Protein_family_or_group">NFAT</term></term> activity, without apparent differences between <cons id="T52" lex="(AND Th1_clone Th2_clone)" sem="(AND Cell_cultured Cell_cultured)"><frag id="F4">Th1</frag> and <frag id="F5">Th2</frag> <frag id="F6">clones</frag></cons>.</sentence>
+<event Manner="High" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E22"/>
+<clue>In contrast, both <clueLoc>in Th1</clueLoc> and Th2 <clueLoc>clones</clueLoc> NFAT-containing complexes were <clueManner>strongly</clueManner> <clueType>inducible</clueType> at the P1 site, consisting of NFAT2 and a P0-compatible NFAT activity, without apparent differences between Th1 and Th2 clones.</clue>
+</event>
+<event Manner="High" id="E38">
+<type class="Positive_regulation"/>
+<theme idref="E22"/>
+<clue>In contrast, both <clueLoc>in</clueLoc> Th1 and <clueLoc>Th2 clones</clueLoc> NFAT-containing complexes were <clueManner>strongly</clueManner> <clueType>inducible</clueType> at the P1 site, consisting of NFAT2 and a P0-compatible NFAT activity, without apparent differences between Th1 and Th2 clones.</clue>
+</event>
+<event Manner="High" id="E39">
+<type class="Positive_regulation"/>
+<theme idref="E23"/>
+<clue>In contrast, both <clueLoc>in Th1</clueLoc> and Th2 <clueLoc>clones</clueLoc> NFAT-containing complexes were <clueManner>strongly</clueManner> <clueType>inducible</clueType> at the P1 site, consisting of NFAT2 and a P0-compatible NFAT activity, without apparent differences between Th1 and Th2 clones.</clue>
+</event>
+<event Manner="High" id="E40">
+<type class="Positive_regulation"/>
+<theme idref="E23"/>
+<clue>In contrast, both <clueLoc>in</clueLoc> Th1 and <clueLoc>Th2 clones</clueLoc> NFAT-containing complexes were <clueManner>strongly</clueManner> <clueType>inducible</clueType> at the P1 site, consisting of NFAT2 and a P0-compatible NFAT activity, without apparent differences between Th1 and Th2 clones.</clue>
+</event>
+<event id="E22">
+<type class="Binding"/>
+<theme idref="T48"/>
+<theme idref="T47"/>
+<clue>In contrast, both in Th1 and Th2 clones NFAT-containing <clueType>complexes</clueType> were strongly inducible <linkTheme>at</linkTheme> the P1 site, consisting <linkTheme>of</linkTheme> NFAT2 and a P0-compatible NFAT activity, without apparent differences between Th1 and Th2 clones.</clue>
+</event>
+<event id="E23">
+<type class="Binding"/>
+<theme idref="T48"/>
+<theme idref="A21"/>
+<clue>In contrast, both in Th1 and Th2 clones NFAT-containing <clueType>complexes</clueType> were strongly inducible <linkTheme>at</linkTheme> the P1 site, consisting <linkTheme>of</linkTheme> NFAT2 and a P0-compatible NFAT activity, without apparent differences between Th1 and Th2 clones.</clue>
+<comment>NER: T50 del &quot;NFAT activity&quot;; TPS, A21</comment></event>
+<sentence id="S9">Like in <term id="T53" lex="Th2_clone" sem="Cell_cultured">Th2 clones</term>, suppressed <term id="T54" lex="NFAT-P0_complex_formation" sem="Other"><term id="A7" sem="Protein_family_or_group">NFAT</term>-<term id="T55" lex="P0" sem="DNA_domain_or_region">P0</term> complex formation</term> was observed also at the <term id="T56" lex="polyclonal_level" sem="Cell_natural">polyclonal level</term> in <term id="T57" lex="peripheral_blood_mononuclear_cell" sem="Cell_natural">peripheral blood mononuclear cells</term> (<term id="T58" lex="PBMC" sem="Cell_natural">PBMC</term>) of three of five severe atopic dermatitis patients with strongly elevated <term id="T59" lex="serum_IgE_level" sem="Other">serum <term id="T60" lex="IgE" sem="Protein_family_or_group">IgE</term> levels</term>, but not in control <term id="T61" lex="PBMC" sem="Cell_natural">PBMC</term>.</sentence>
+<event id="E41">
+<type class="Negative_regulation"/>
+<theme idref="E25"/>
+<clue>Like <clueLoc>in Th2 clones</clueLoc>, <clueType>suppressed</clueType> NFAT-P0 complex formation was <clueKT>observed</clueKT> also at the polyclonal level in peripheral blood mononuclear cells (PBMC) of three of five severe atopic dermatitis patients with strongly elevated serum IgE levels, but not in control PBMC.</clue>
+<comment>CAUTION, SEE</comment></event>
+<event id="E24">
+<type class="Negative_regulation"/>
+<theme idref="E25"/>
+<clue>Like in Th2 clones, <clueType>suppressed</clueType> NFAT-P0 complex formation was <clueKT>observed</clueKT> also <clueLoc>at the polyclonal level in peripheral blood mononuclear cells (PBMC) of three of five severe atopic dermatitis patients with strongly elevated serum IgE levels</clueLoc>, but not in control PBMC.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E28">
+<type class="Negative_regulation"/>
+<theme idref="E25"/>
+<clue>Like in Th2 clones, <clueType>suppressed</clueType> NFAT-P0 complex formation was <clueKT>observed</clueKT> also at the polyclonal level in peripheral blood mononuclear cells (PBMC) of three of five severe atopic dermatitis patients with strongly elevated serum IgE levels, but <cluePolarity>not</cluePolarity> <clueLoc>in control PBMC</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E25">
+<type class="Binding"/>
+<theme idref="A7"/>
+<theme idref="T55"/>
+<clue>Like in Th2 clones, suppressed NFAT-P0 <clueType>complex formation</clueType> was observed also at the polyclonal level in peripheral blood mononuclear cells (PBMC) of three of five severe atopic dermatitis patients with strongly elevated serum IgE levels, but not in control PBMC.</clue>
+</event>
+<event Manner="High" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="E27"/>
+<clue>Like in Th2 clones, suppressed NFAT-P0 complex formation was observed also <clueLoc>at the polyclonal level in peripheral blood mononuclear cells (PBMC) of three of five severe atopic dermatitis patients</clueLoc> with <clueManner>strongly</clueManner> <clueType>elevated</clueType> serum IgE levels, but not in control PBMC.</clue>
+</event>
+<event id="E27">
+<type class="Gene_expression"/>
+<theme idref="T60"/>
+<clue>Like in Th2 clones, suppressed NFAT-P0 complex formation was observed also at the polyclonal level in peripheral blood mononuclear cells (PBMC) of three of five severe atopic dermatitis patients with strongly elevated <clueLoc>serum</clueLoc> IgE <clueType>levels</clueType>, but not in control PBMC.</clue>
+</event>
+<sentence id="S10">These findings suggest that <term id="T62" lex="high-level_IL-4_production" sem="Other">high-level <term id="T63" lex="IL-4" sem="Protein_molecule">IL-4</term> production</term> in <term id="T64" lex="atopic_Th2_cell" sem="Cell_natural">atopic Th2 cells</term> is associated with selective reduction of suppressive <term id="T65" lex="NFAT1_activity" sem="Other"><term id="T66" lex="NFAT1" sem="Protein_molecule">NFAT1</term> activity</term> at the <term id="T68" lex="IL-4_P0_element" sem="DNA_domain_or_region"><term id="T69" lex="IL-4" sem="Protein_molecule">IL-4</term> P0 element</term> and that some patients with this <term id="T70" lex="multifactorial_disease" sem="Other">multifactorial disease</term> may have a <term id="T71" lex="putative_systemic_disorder" sem="Other">putative systemic disorder</term> at this level.</sentence>
+<event KT="Other" Manner="High" id="E29">
+<type class="Positive_regulation"/>
+<theme idref="E30"/>
+<clue>These findings suggest that <clueType><clueManner>high</clueManner>-level</clueType> IL-4 production in atopic Th2 cells is associated with selective reduction of suppressive NFAT1 activity at the IL-4 P0 element and that some patients with this multifactorial disease may have a putative systemic disorder at this level.</clue>
+</event>
+<event KT="Other" id="E30">
+<type class="Gene_expression"/>
+<theme idref="T63"/>
+<clue>These findings suggest that high-level IL-4 <clueType>production</clueType> <clueLoc>in atopic Th2 cells</clueLoc> is associated with selective reduction of suppressive NFAT1 activity at the IL-4 P0 element and that some patients with this multifactorial disease may have a putative systemic disorder at this level.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E31" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="E29"/>
+<theme idref="E32"/>
+<clue>These findings <clueCL>suggest</clueCL> that high-level IL-4 production in atopic Th2 cells is <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> selective reduction of suppressive NFAT1 activity at the IL-4 P0 element and that some patients with this multifactorial disease may have a putative systemic disorder at this level.</clue>
+</event>
+<event KT="Other" id="E32">
+<type class="Negative_regulation"/>
+<theme idref="E33"/>
+<clue>These findings suggest that high-level IL-4 production in atopic Th2 cells is associated with selective <clueType>reduction</clueType> <linkTheme>of</linkTheme> suppressive NFAT1 activity at the IL-4 P0 element and that some patients with this multifactorial disease may have a putative systemic disorder at this level.</clue>
+</event>
+<event KT="Other" id="E33">
+<type class="Negative_regulation"/>
+<cause idref="T66"/>
+<clue>These findings suggest that high-level IL-4 production in atopic Th2 cells is associated with selective reduction of <clueType>suppressive</clueType> NFAT1 <clueType>activity</clueType> at the IL-4 P0 element and that some patients with this multifactorial disease may have a putative systemic disorder at this level.</clue>
+<comment>NO THEME</comment></event>
+<event KT="Other" id="E34">
+<type class="Binding"/>
+<theme idref="T66"/>
+<theme idref="T68"/>
+<clue>These findings suggest that high-level IL-4 production in atopic Th2 cells is associated with selective reduction of suppressive NFAT1 activity <linkTheme>at</linkTheme> the IL-4 P0 element and that some patients with this multifactorial disease may have a putative systemic disorder at this level.</clue>
+<comment>NO CLUETYPE; NER: T67 del &quot;NFAT1&quot;, overlapping T66</comment></event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

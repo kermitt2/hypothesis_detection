@@ -1,0 +1,29 @@
+T18	Adverse_effect 30 36	caused
+T29	Potential_therapeutic_effect 180 185	treat
+T30	Adverse_effect 953 964	side effect
+T24	Potential_therapeutic_effect 994 1001	treated
+T31	Adverse_effect 1027 1037	experience
+T32	Adverse_effect 342 349	reports
+T43	Adverse_effect 229 233	have
+R1	is_equivalent Arg1:T4 Arg2:T23
+R2	Subject_Disorder Arg1:T19 Arg2:T7
+R3	Subject_Disorder Arg1:T19 Arg2:T8
+R4	Subject_Disorder Arg1:T19 Arg2:T10
+R5	Subject_Disorder Arg1:T26 Arg2:T3
+R6	Subject_Disorder Arg1:T19 Arg2:T9
+E1	Adverse_effect:T18 has_agent:T2 has_subject:T26 affects:T1
+E4	Potential_therapeutic_effect:T29 affects:T5 has_agent:T4
+E5	Adverse_effect:T30 affects:T14 has_agent:T15 has_cue:T22 has_cue:T21
+E3	Potential_therapeutic_effect:T24 affects:T17 has_agent:T16
+E6	Adverse_effect:T31 affects:T25 has_agent:T16 affects:T48
+E7	Adverse_effect:T32 has_cue:T34 affects:T33 has_cue:T20 has_agent:T4 has_agent:T6
+E11	Adverse_effect:T43 has_agent:T4 has_cue:T44 has_cue:T45 affects:T46
+E2	Adverse_effect:T43 has_agent:T6
+E8	Adverse_effect:T31 has_agent:T16 affects:T27 has_cue:T28
+A1	Speculated E5
+A2	Manner E5 High
+A3	Speculated E7
+A7	Manner E11 Low
+A8	Speculated E11
+A4	Speculated E8
+A5	Manner E7 High

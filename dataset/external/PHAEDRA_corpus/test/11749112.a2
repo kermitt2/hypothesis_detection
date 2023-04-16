@@ -1,0 +1,8 @@
+T11	Adverse_effect 83 94	development
+T12	Potential_therapeutic_effect 217 226	treatment
+R1	is_equivalent Arg1:T2 Arg2:T13
+R2	is_equivalent Arg1:T7 Arg2:T8
+R3	Subject_Disorder Arg1:T14 Arg2:T4
+R4	Subject_Disorder Arg1:T14 Arg2:T16
+E1	Adverse_effect:T11 affects:T2 has_subject:T14 has_agent:T5
+E2	Potential_therapeutic_effect:T12 has_agent:T5 affects:T4 has_subject:T14 affects:T16

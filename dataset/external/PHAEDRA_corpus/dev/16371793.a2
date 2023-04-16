@@ -1,0 +1,13 @@
+T20	Potential_therapeutic_effect 47 50	for
+T21	Potential_therapeutic_effect 185 194	treatment
+T24	Potential_therapeutic_effect 514 522	received
+T31	Potential_therapeutic_effect 1178 1187	treatment
+R1	Subject_Disorder Arg1:T22 Arg2:T5
+R2	Coreference Arg1:T7 Arg2:T22
+E1	Potential_therapeutic_effect:T20 has_agent:T1 affects:T2
+E2	Potential_therapeutic_effect:T21 affects:T4 has_agent:T3
+E3	Potential_therapeutic_effect:T24 has_subject:T7 has_agent:T8
+E4	Potential_therapeutic_effect:T31 has_agent:T15 affects:T16
+T13	Adverse_effect 1341 1348	develop
+E5	Adverse_effect:T13 has_cue:T14 affects:T18 has_agent:T17
+A1	Speculated E5

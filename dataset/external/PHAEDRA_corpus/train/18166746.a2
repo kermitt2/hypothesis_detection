@@ -1,0 +1,19 @@
+T17	Potential_therapeutic_effect 637 644	treated
+T19	DDI 900 911	interaction
+T24	Adverse_effect 20 29	following
+T26	Adverse_effect 192 201	following
+T27	Potential_therapeutic_effect 484 496	administered
+T28	Adverse_effect 963 975	give rise to
+T30	Adverse_effect 1033 1041	avoiding
+R1	Coreference Arg1:T16 Arg2:T14
+R7	Subject_Disorder Arg1:T33 Arg2:T32
+E2	DDI:T19 has_participant:T10 has_participant:T11
+E7	Combination:T31 has_participant:T13 has_participant:T20
+E1	Potential_therapeutic_effect:T17 has_agent:T4 affects:T3 has_subject:T16
+E3	Adverse_effect:T24 has_agent:T23 affects:T1
+E4	Adverse_effect:T26 has_agent:T22 affects:T25
+E5	Potential_therapeutic_effect:T27 has_subject:T14 has_agent:T15
+E6	Adverse_effect:T28 has_cue:T29 affects:T12 has_agent:E2
+E8	Adverse_effect:T30 has_agent:E7 has_cue:T18
+A1	Speculated E6
+A2	Speculated E8

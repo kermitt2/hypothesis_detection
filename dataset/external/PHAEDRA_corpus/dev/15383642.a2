@@ -1,0 +1,31 @@
+T27	Adverse_effect 12 18	due to
+T33	Adverse_effect 116 124	occurred
+T39	Potential_therapeutic_effect 531 540	initiated
+T45	Potential_therapeutic_effect 686 696	facilitate
+T51	DDI 1604 1615	interaction
+T53	Adverse_effect 1294 1303	mentioned
+T59	Adverse_effect 1593 1599	due to
+T61	Adverse_effect 1417 1427	compromise
+T69	Adverse_effect 1060 1068	appeared
+T44	Adverse_effect 968 975;984 992	produce problems
+R3	Subject_Disorder Arg1:T58 Arg2:T28
+R4	Coreference Arg1:T71 Arg2:T34
+E1	Combination:T16 has_participant:T2 has_participant:T3
+E11	DDI:T51 has_participant:T29 has_participant:T30
+E17	Combination:T64 has_participant:T25 has_participant:T26
+E20	Combination:T67 has_participant:T22 has_participant:T23
+E3	Combination:T31 has_participant:T5 has_participant:T7
+E2	Adverse_effect:T27 has_agent:E1 affects:T1
+E4	Adverse_effect:T33 affects:T4 has_agent:E3
+E5	Potential_therapeutic_effect:T39 has_agent:T11 affects:T38
+E8	Potential_therapeutic_effect:T45 affects:T15 affects:T43 has_cue:T46 has_agent:T14
+E13	Adverse_effect:T53 has_cue:T55 affects:T54 has_agent:T24
+E15	Adverse_effect:T59 has_agent:E11 has_cue:T60 affects:T28 has_subject:T58
+E16	Adverse_effect:T61 has_cue:T62 has_agent:E17 affects:T63
+E21	Adverse_effect:T69 has_agent:T21 affects:T70 has_subject:T71
+E7	Adverse_effect:T44 has_agent:T20 has_cue:T52
+A2	Speculated E8
+A6	Manner E13 Low
+A8	Speculated E15
+A9	Speculated E16
+A1	Negated E7

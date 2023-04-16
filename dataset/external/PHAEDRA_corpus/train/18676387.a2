@@ -1,0 +1,28 @@
+T16	DDI 32 43	interaction
+T28	Adverse_effect 19 25	caused
+T29	DDI 170 181	interaction
+T33	Adverse_effect 157 163	caused
+T35	Adverse_effect 311 323	precipitated
+T38	Potential_therapeutic_effect 460 471	established
+T48	Adverse_effect 1032 1043	precipitate
+T50	DDI 1108 1119	interaction
+T31	Adverse_effect 1078 1091	consideration
+R2	is_equivalent Arg1:T32 Arg2:T6
+E1	DDI:T16 has_participant:T2 has_participant:T3
+E3	DDI:T29 has_participant:T5 has_participant:T7
+E5	Combination:T34 has_participant:T10 has_participant:T11
+E13	Combination:T47 has_participant:T22 has_participant:T23
+E15	DDI:T50 has_cue:T51 has_participant:T25 has_participant:T26
+E10	Combination:T43 has_participant:T25 has_participant:T26
+E2	Adverse_effect:T28 affects:T1 has_agent:E1
+E4	Adverse_effect:T33 affects:T4 has_agent:E3
+E6	Adverse_effect:T35 has_agent:T10 affects:T9 has_cue:T36
+E7	Adverse_effect:T35 has_cue:T37 has_agent:E5 affects:T9
+E8	Potential_therapeutic_effect:T38 has_agent:T12 affects:T13 has_subject:T15
+E14	Adverse_effect:T48 affects:T24 has_cue:T49 has_agent:E13
+E9	Adverse_effect:T31 has_cue:T39 has_agent:E10
+A1	Manner E6 Low
+A5	Speculated E14
+A6	Manner E15 Low
+A3	Speculated E9
+A2	Speculated E7

@@ -1,0 +1,10 @@
+T12	Adverse_effect 51 61	associated
+T18	Adverse_effect 23 36	manifestation
+T29	Adverse_effect 220 231	development
+T30	Adverse_effect 505 514	recipient
+R1	Subject_Disorder Arg1:T22 Arg2:T21
+E1	Adverse_effect:T12 has_agent:T2 affects:T3
+E2	Adverse_effect:T18 has_agent:T2 affects:T1
+E6	Adverse_effect:T29 affects:T6 has_agent:T23 has_cue:T32
+E7	Adverse_effect:T30 has_agent:T11 affects:T8
+A3	Speculated E6

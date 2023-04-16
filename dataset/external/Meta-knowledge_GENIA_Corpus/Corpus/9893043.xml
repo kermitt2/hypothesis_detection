@@ -1,0 +1,293 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9893043" created="27/11/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9893043</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="CD2_signalling" sem="Other"><term id="T2" lex="CD2" sem="Protein_molecule">CD2</term> signalling</term> induces phosphorylation of <term id="T3" lex="CREB" sem="Protein_family_or_group">CREB</term> in <term id="T4" lex="primary_lymphocyte" sem="Cell_natural">primary lymphocytes</term>.</sentence>
+<event id="E1">
+<type class="Cell_communication"/>
+<theme idref="T2"/>
+<clue>CD2 <clueType>signalling</clueType> induces phosphorylation of CREB in primary lymphocytes.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="E1"/>
+<clue>CD2 signalling <clueType>induces</clueType> phosphorylation of CREB <clueLoc>in primary lymphocytes</clueLoc>.</clue>
+</event>
+<event id="E3">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T3"/>
+<clue>CD2 signalling induces <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> CREB in primary lymphocytes.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="A2" sem="DNA_domain_or_region">Promoter sequences responsive to</term> <term id="T5" lex="cyclic_AMP" sem="Nucleotide">cyclic AMP</term> (<term id="A3" sem="DNA_domain_or_region"><term id="T6" lex="cAMP" sem="Nucleotide">cAMP</term></term>) are found in a number of <term id="T7" lex="cellular_gene" sem="DNA_family_or_group">cellular genes</term>, and bind <term id="T8" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term> of the <term id="T9" lex="cAMP_response_element_binding_protein" sem="Protein_molecule"><term id="T10" lex="cAMP" sem="Nucleotide">cAMP</term> response element binding protein</term> (<term id="T11" lex="CREB)/activating_transcription_factor-1_(ATF-1)_family" sem="Protein_molecule"><term id="T12" lex="CREB" sem="Protein_family_or_group">CREB</term>)/activating transcription factor-1 (<term id="A1" sem="Protein_molecule">ATF-1</term>) family</term>.</sentence>
+<event KT="Fact" id="E4">
+<type class="Binding"/>
+<theme idref="A2" idref1="A3"/>
+<theme idref="T12"/>
+<clue>Promoter sequences responsive to cyclic AMP (cAMP) are found in a number of cellular genes, and <clueType>bind</clueType> transcription factors of the cAMP response element binding protein (CREB)/activating transcription factor-1 (ATF-1) family.</clue>
+<comment>TPS: A2</comment></event>
+<event KT="Fact" id="E5">
+<type class="Binding"/>
+<theme idref="A2" idref1="A3"/>
+<theme idref="A1"/>
+<clue>Promoter sequences responsive to cyclic AMP (cAMP) are found in a number of cellular genes, and <clueType>bind</clueType> transcription factors of the cAMP response element binding protein (CREB)/activating transcription factor-1 (ATF-1) family.</clue>
+<comment>TPS: A2</comment></event>
+<sentence id="S3">We have used a <term id="T13" lex="human_T-lymphotropic_virus_type_1" sem="Virus">human T-lymphotropic virus type 1</term> (<term id="T14" lex="HTLV-1" sem="Virus">HTLV-1</term>) model of <term id="T15" lex="cAMP_response_element_(CRE)_transcription" sem="Other"><term id="T16" lex="cAMP_response_element" sem="DNA_domain_or_region"><term id="T17" lex="cAMP" sem="Nucleotide">cAMP</term> response element</term> (<term id="T18" lex="CRE" sem="DNA_domain_or_region">CRE</term>) transcription</term> to investigate the influence of <term id="A4" sem="Cell_natural">lymphocyte</term> activation on transcription from <term id="A5" sem="DNA_domain_or_region">homologous regions in the <term id="T19" lex="viral_promoter" sem="DNA_domain_or_region">viral promoter</term></term>.</sentence>
+<event KT="Other" id="E6">
+<type class="Transcription"/>
+<theme idref="T18"/>
+<clue>We have used a human T-lymphotropic virus type 1 (HTLV-1) model of cAMP response element (CRE) <clueType>transcription</clueType> to investigate the influence of lymphocyte activation on transcription from homologous regions in the viral promoter.</clue>
+</event>
+<event KT="Investigation" id="E7" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E9"/>
+<cause idref="E8"/>
+<clue>We have used a <clueExperiment>human T-lymphotropic virus type 1 (HTLV-1) model of cAMP response element (CRE) transcription</clueExperiment> <clueKT>to investigate</clueKT> the <clueType>influence</clueType> <linkCause>of</linkCause> lymphocyte activation <linkTheme>on</linkTheme> transcription from homologous regions in the viral promoter.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Physiological_process"/>
+<theme idref="A4"/>
+<clue>We have used a human T-lymphotropic virus type 1 (HTLV-1) model of cAMP response element (CRE) transcription to investigate the influence of lymphocyte <clueType>activation</clueType> on transcription from homologous regions in the viral promoter.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Transcription"/>
+<theme idref="A5"/>
+<clue>We have used a human T-lymphotropic virus type 1 (HTLV-1) model of cAMP response element (CRE) transcription to investigate the influence of lymphocyte activation on <clueType>transcription</clueType> <linkTheme>from</linkTheme> homologous regions in the viral promoter.</clue>
+</event>
+<sentence id="S4">We previously demonstrated increased <term id="T20" lex="HTLV-1" sem="Virus">HTLV-1</term> transcription following <cons id="T21" lex="(BUT_NOT CD2_receptor_cross-linking CD3_receptor_cross-linking)" sem="(BUT_NOT Other Other)"><frag id="F1"><term id="A6" sem="Protein_molecule">CD2</term></frag> but not <frag id="F2"><term id="A7" sem="Protein_molecule">CD3</term></frag> <frag id="F3"><term id="A8" sem="Protein_molecule">receptor</term> cross-linking</frag></cons>.</sentence>
+<event KT="Analysis" Source="Other" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="E13"/>
+<clue>We <clueSource>previously</clueSource> <clueKT>demonstrated</clueKT> <clueType>increased</clueType> HTLV-1 transcription <linkCause>following</linkCause> CD2 but not CD3 receptor cross-linking.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" Source="Other" assertion="non-exist" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="E14"/>
+<clue>We <clueSource>previously</clueSource> <clueKT>demonstrated</clueKT> <clueType>increased</clueType> HTLV-1 transcription <linkCause>following</linkCause> CD2 but not CD3 receptor cross-linking.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Transcription"/>
+<theme idref="T20"/>
+<clue>We previously demonstrated increased HTLV-1 <clueType>transcription</clueType> following CD2 but not CD3 receptor cross-linking.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Binding"/>
+<theme idref="A6"/>
+<theme idref="A8"/>
+<clue>We previously demonstrated increased HTLV-1 transcription following CD2 but not CD3 receptor <clueType>cross-linking</clueType>.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Binding"/>
+<theme idref="A7"/>
+<theme idref="A8"/>
+<clue>We previously demonstrated increased HTLV-1 transcription following CD2 but not CD3 receptor <clueType>cross-linking</clueType>.</clue>
+</event>
+<sentence id="S5">We hypothesized that this increased viral transcription was mediated, in part, through the phosphorylation of <term id="T22" lex="CREB" sem="Protein_family_or_group">CREB</term>.</sentence>
+<event KT="Other" id="E15">
+<type class="Transcription"/>
+<theme idref="T20"/>
+<clue>We hypothesized that this increased <corefTheme>viral</corefTheme> <clueType>transcription</clueType> was mediated, in part, through the phosphorylation of CREB.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="E17"/>
+<clue>We <clueKT><clueCL>hypothesized</clueCL></clueKT> that this increased viral transcription was <clueType>mediated</clueType>, in part, <linkCause>through</linkCause> the phosphorylation of CREB.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T22"/>
+<clue>We hypothesized that this increased viral transcription was mediated, in part, through the <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> CREB.</clue>
+</event>
+<sentence id="S6">Therefore, we investigated <cons id="C1" lex="(AND CD2_receptor CD3_receptor)" sem="(AND Protein_molecule Protein_molecule)"><frag id="F7">CD2</frag> and <frag id="F8">CD3</frag> <frag id="F9">receptor</frag></cons>-mediated signalling in <term id="T27" lex="primary_human_peripheral_blood_mononuclear_cell" sem="Cell_natural">primary human peripheral blood mononuclear cells</term> (<term id="T28" lex="PBMC" sem="Cell_natural">PBMC</term>).</sentence>
+<event KT="Investigation" id="E18" uncertainty="doubtful">
+<type class="Cell_communication"/>
+<theme idref="F7" idref1="F9"/>
+<clue>Therefore, we <clueKT>investigated</clueKT> CD2 and CD3 receptor-<linkTheme>mediated</linkTheme> <clueType>signalling</clueType> <clueLoc>in primary human peripheral blood mononuclear cells (PBMC)</clueLoc>.</clue>
+<comment>NER: T23, T24, T25, T26 del &quot;CD2&quot;&quot;CD3 receptor-mediated signalling&quot;&quot;CD3&quot;&quot;CD3 receptor&quot;</comment></event>
+<event KT="Investigation" id="E19" uncertainty="doubtful">
+<type class="Cell_communication"/>
+<theme idref="F8" idref1="F9"/>
+<clue>Therefore, we <clueKT>investigated</clueKT> CD2 and CD3 receptor-<linkTheme>mediated</linkTheme> <clueType>signalling</clueType> <clueLoc>in primary human peripheral blood mononuclear cells (PBMC)</clueLoc>.</clue>
+</event>
+<sentence id="S7"><term id="T29" lex="CD2" sem="Protein_molecule">CD2</term>, but not <term id="T30" lex="CD3" sem="Protein_molecule">CD3</term>, cross-linking increased <term id="T31" lex="cAMP" sem="Nucleotide">cAMP</term> detected by <term id="T32" lex="competitive_enzyme-linked_immunosorbent_assay" sem="Other">competitive enzyme-linked immunosorbent assay</term> (<term id="T33" lex="ELISA" sem="Other">ELISA</term>) approximately fourfold.</sentence>
+<event id="E20">
+<type class="Binding"/>
+<theme idref="T29"/>
+<clue>CD2, but not CD3, <clueType>cross-linking</clueType> increased cAMP detected by competitive enzyme-linked immunosorbent assay (ELISA) approximately fourfold.</clue>
+<comment>OKAP &quot;another THEME, CD2 recepter is hidden&quot;</comment></event>
+<event id="E21">
+<type class="Binding"/>
+<theme idref="T30"/>
+<clue>CD2, but not CD3, <clueType>cross-linking</clueType> increased cAMP detected by competitive enzyme-linked immunosorbent assay (ELISA) approximately fourfold.</clue>
+<comment>OKAP &quot;another THEME, CD3 recepter is hidden</comment></event>
+<event Manner="High" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="T31"/>
+<cause idref="E20"/>
+<clue>CD2, but not CD3, cross-linking <clueType>increased</clueType> cAMP <clueKT>detected</clueKT> <clueExperiment>by competitive enzyme-linked immunosorbent assay (ELISA)</clueExperiment> <clueManner>approximately fourfold</clueManner>.</clue>
+</event>
+<event Manner="High" Polarity="Negative" assertion="non-exist" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="T31"/>
+<cause idref="E21"/>
+<clue>CD2, but <cluePolarity>not</cluePolarity> CD3, cross-linking <clueType>increased</clueType> cAMP <clueKT>detected</clueKT> by competitive enzyme-linked immunosorbent assay (ELISA) <clueManner>approximately fourfold</clueManner>.</clue>
+</event>
+<sentence id="S8"><term id="T34" lex="CD2_cross-linking" sem="Other"><term id="T35" lex="CD2" sem="Protein_molecule">CD2</term> cross-linking</term> concurrently increased phosphorylation of <term id="T36" lex="CREB" sem="Protein_family_or_group">CREB</term> detected by immunoblot assay eightfold.</sentence>
+<event id="E24">
+<type class="Correlation"/>
+<theme idref="E22"/>
+<theme idref="E25"/>
+<clue>CD2 cross-linking <clueType>concurrently</clueType> increased phosphorylation of CREB detected by immunoblot assay eightfold.</clue>
+</event>
+<event Manner="High" id="E25">
+<type class="Positive_regulation"/>
+<theme idref="E26"/>
+<cause idref="E24"/>
+<clue>CD2 cross-linking concurrently <clueType>increased</clueType> phosphorylation of CREB detected by immunoblot assay <clueManner>eightfold</clueManner>.</clue>
+</event>
+<event id="E26">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T36"/>
+<clue>CD2 cross-linking concurrently increased <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> CREB <clueKT>detected</clueKT> <clueExperiment>by immunoblot assay</clueExperiment> eightfold.</clue>
+</event>
+<sentence id="S9">Consistent with <term id="T37" lex="post-translational_regulation" sem="Other">post-translational regulation</term>, no change in total level of <term id="T38" lex="CREB" sem="Protein_family_or_group">CREB</term> protein was observed.</sentence>
+<event Polarity="Negative" assertion="non-exist" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="T38"/>
+<clue>Consistent with post-translational regulation, <cluePolarity>no</cluePolarity> <clueType>change</clueType> in total <clueType>level</clueType> <linkTheme>of</linkTheme> CREB protein was <clueKT>observed</clueKT>.</clue>
+</event>
+<sentence id="S10">Phosphorylation of <term id="T39" lex="CREB" sem="Protein_family_or_group">CREB</term> occurred through a <cons id="T40" lex="(AND herbimycin_A-sensitive_pathway Rp-cAMP-sensitive_pathway)" sem="(AND Other Other)"><frag id="F4"><term id="A11" sem="Organic_compound_other">herbimycin A</term></frag> and <frag id="F5"><term id="A12" sem="Nucleotide">Rp-cAMP</term></frag><frag id="F6">-sensitive pathway</frag></cons>, suggesting phosphorylation required antecedent activation of both <term id="T41" lex="protein_tyrosine_kinase" sem="Protein_family_or_group">protein <term id="T42" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> kinases</term> (<term id="T43" lex="PTK" sem="Protein_family_or_group">PTK</term>) and <term id="T44" lex="protein_kinase_A" sem="Protein_molecule">protein kinase A</term> (<term id="T45" lex="PKA" sem="Protein_molecule">PKA</term>).</sentence>
+<event id="E30">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T39"/>
+<clue><clueType>Phosphorylation</clueType> <linkTheme>of</linkTheme> CREB occurred through a herbimycin A and Rp-cAMP-sensitive pathway, suggesting phosphorylation required antecedent activation of both protein tyrosine kinases (PTK) and protein kinase A (PKA).</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation"/>
+<theme idref="E30"/>
+<clue>Phosphorylation of CREB <clueType>occurred</clueType> through a herbimycin A and Rp-cAMP-sensitive pathway, suggesting phosphorylation required antecedent activation of both protein tyrosine kinases (PTK) and protein kinase A (PKA).</clue>
+</event>
+<event id="E32">
+<type class="Regulation"/>
+<theme idref="E31"/>
+<cause idref="A11"/>
+<clue>Phosphorylation of CREB occurred through a herbimycin A and Rp-cAMP-<clueType>sensitive</clueType> pathway, suggesting phosphorylation required antecedent activation of both protein tyrosine kinases (PTK) and protein kinase A (PKA).</clue>
+</event>
+<event id="E33">
+<type class="Regulation"/>
+<theme idref="E31"/>
+<cause idref="A12"/>
+<clue>Phosphorylation of CREB occurred through a herbimycin A and Rp-cAMP-<clueType>sensitive</clueType> pathway, suggesting phosphorylation required antecedent activation of both protein tyrosine kinases (PTK) and protein kinase A (PKA).</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E34" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E30"/>
+<cause idref="E36"/>
+<clue>Phosphorylation of CREB occurred through a herbimycin A and Rp-cAMP-sensitive pathway, <clueKT><clueCL>suggesting</clueCL></clueKT> <corefTheme>phosphorylation</corefTheme> <clueType>required</clueType> antecedent activation of both protein tyrosine kinases (PTK) and protein kinase A (PKA).</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E35" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E30"/>
+<cause idref="E37"/>
+<clue>Phosphorylation of CREB occurred through a herbimycin A and Rp-cAMP-sensitive pathway, <clueKT><clueCL>suggesting</clueCL></clueKT> <corefTheme>phosphorylation</corefTheme> <clueType>required</clueType> antecedent activation of both protein tyrosine kinases (PTK) and protein kinase A (PKA).</clue>
+</event>
+<event KT="Other" id="E36">
+<type class="Positive_regulation"/>
+<theme idref="T43"/>
+<clue>Phosphorylation of CREB occurred through a herbimycin A and Rp-cAMP-sensitive pathway, suggesting phosphorylation required <clueTime>antecedent</clueTime> <clueType>activation</clueType> <linkTheme>of</linkTheme> both protein tyrosine kinases (PTK) and protein kinase A (PKA).</clue>
+</event>
+<event KT="Other" id="E37">
+<type class="Positive_regulation"/>
+<theme idref="T45"/>
+<clue>Phosphorylation of CREB occurred through a herbimycin A and Rp-cAMP-sensitive pathway, suggesting phosphorylation required <clueTime>antecedent</clueTime> <clueType>activation</clueType> <linkTheme>of</linkTheme> both protein tyrosine kinases (PTK) and protein kinase A (PKA).</clue>
+</event>
+<sentence id="S11">Both <term id="T46" lex="CD2" sem="Protein_molecule">CD2</term> and <term id="T47" lex="CD3" sem="Protein_molecule">CD3</term> cross-linking increased binding of <term id="T48" lex="nuclear_protein" sem="Protein_family_or_group">nuclear proteins</term> to a radiolabelled <term id="A14" sem="Nucleotide">CRE oligonucleotide probe</term> in <term id="T49" lex="electrophoretic_mobility_shift_assay" sem="Other">electrophoretic mobility shift assays</term> suggesting that <term id="T50" lex="lymphocyte_activation" sem="Other"><term id="A15" sem="Cell_natural">lymphocyte</term> activation</term> enhances binding independently of phosphorylation of <term id="T51" lex="CREB" sem="Protein_family_or_group">CREB</term> at <term id="T52" lex="serine_133" sem="Amino_acid_monomer">serine 133</term>.</sentence>
+<event id="E38">
+<type class="Binding"/>
+<theme idref="T46"/>
+<clue>Both CD2 and CD3 <clueType>cross-linking</clueType> increased binding of nuclear proteins to a radiolabelled CRE oligonucleotide probe in electrophoretic mobility shift assays suggesting that lymphocyte activation enhances binding independently of phosphorylation of CREB at serine 133.</clue>
+</event>
+<event id="E39">
+<type class="Binding"/>
+<theme idref="T46"/>
+<clue>Both CD2 and CD3 <clueType>cross-linking</clueType> increased binding of nuclear proteins to a radiolabelled CRE oligonucleotide probe in electrophoretic mobility shift assays suggesting that lymphocyte activation enhances binding independently of phosphorylation of CREB at serine 133.</clue>
+</event>
+<event id="E40">
+<type class="Positive_regulation"/>
+<theme idref="E42"/>
+<cause idref="E38"/>
+<clue>Both CD2 and CD3 cross-linking <clueType>increased</clueType> binding of nuclear proteins to a radiolabelled CRE oligonucleotide probe in electrophoretic mobility shift assays suggesting that lymphocyte activation enhances binding independently of phosphorylation of CREB at serine 133.</clue>
+</event>
+<event id="E41">
+<type class="Positive_regulation"/>
+<theme idref="E42"/>
+<cause idref="E39"/>
+<clue>Both CD2 and CD3 cross-linking <clueType>increased</clueType> binding of nuclear proteins to a radiolabelled CRE oligonucleotide probe in electrophoretic mobility shift assays suggesting that lymphocyte activation enhances binding independently of phosphorylation of CREB at serine 133.</clue>
+</event>
+<event id="E42">
+<type class="Binding"/>
+<theme idref="T48"/>
+<theme idref="A14"/>
+<clue>Both CD2 and CD3 cross-linking increased <clueType>binding</clueType> <linkTheme>of</linkTheme> nuclear proteins <linkTheme>to</linkTheme> a radiolabelled CRE oligonucleotide probe <clueExperiment>in electrophoretic mobility shift assays</clueExperiment> suggesting that lymphocyte activation enhances binding independently of phosphorylation of CREB at serine 133.</clue>
+</event>
+<event KT="Other" id="E43">
+<type class="Physiological_process"/>
+<theme idref="A15"/>
+<clue>Both CD2 and CD3 cross-linking increased binding of nuclear proteins to a radiolabelled CRE oligonucleotide probe in electrophoretic mobility shift assays suggesting that lymphocyte <clueType>activation</clueType> enhances binding independently of phosphorylation of CREB at serine 133.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E44">
+<type class="Positive_regulation"/>
+<theme idref="E42"/>
+<cause idref="E43"/>
+<clue>Both CD2 and CD3 cross-linking increased binding of nuclear proteins to a radiolabelled CRE oligonucleotide probe in electrophoretic mobility shift assays <clueKT><clueCL>suggesting</clueCL></clueKT> that lymphocyte activation <clueType>enhances</clueType> <corefTheme>binding</corefTheme> independently of phosphorylation of CREB at serine 133.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E45">
+<type class="Correlation"/>
+<theme idref="E44"/>
+<theme idref="E47"/>
+<clue>Both CD2 and CD3 cross-linking increased binding of nuclear proteins to a radiolabelled CRE oligonucleotide probe in electrophoretic mobility shift assays suggesting that lymphocyte activation enhances binding <clueType><cluePolarity>independently</cluePolarity></clueType> <linkTheme>of</linkTheme> phosphorylation of CREB at serine 133.</clue>
+</event>
+<event KT="Other" id="E47">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T51"/>
+<site idref="T52"/>
+<clue>Both CD2 and CD3 cross-linking increased binding of nuclear proteins to a radiolabelled CRE oligonucleotide probe in electrophoretic mobility shift assays suggesting that lymphocyte activation enhances binding independently of <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> CREB at serine 133.</clue>
+</event>
+<sentence id="S12">These data indicate specific modulation of the <term id="T53" lex="CREB/ATF-1_family" sem="Protein_family_or_group"><term id="T54" lex="CREB" sem="Protein_family_or_group">CREB</term>/ATF-1 family</term> of <term id="T55" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term> by the <term id="T56" lex="CD2_signalling_pathway" sem="Other"><term id="T57" lex="CD2" sem="Protein_molecule">CD2</term> signalling pathway</term> and suggest <term id="A16" sem="Protein_molecule"><term id="T58" lex="CD2" sem="Protein_molecule">CD2</term> receptor</term> modulation of <term id="T60" lex="CRE" sem="DNA_domain_or_region">CRE</term>-mediated <term id="A18" sem="Other">transcription</term> following <term id="A20" sem="Protein_domain_or_region">ligand</term> engagement (e.g. cell-to-cell contact).</sentence>
+<event CL="L2" KT="Analysis" id="E48">
+<type class="Regulation"/>
+<theme idref="T53"/>
+<cause idref="T56"/>
+<clue>These data <clueKT><clueCL>indicate</clueCL></clueKT> specific <clueType>modulation</clueType> <linkTheme>of</linkTheme> the CREB/ATF-1 family of transcription factors <linkCause>by</linkCause> the CD2 signalling pathway and suggest CD2 receptor modulation of CRE-mediated transcription following ligand engagement (e.g. cell-to-cell contact).</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E49" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E50"/>
+<cause idref="A16"/>
+<clue>These data indicate specific modulation of the CREB/ATF-1 family of transcription factors by the CD2 signalling pathway and <clueKT><clueCL>suggest</clueCL></clueKT> CD2 receptor <clueType>modulation</clueType> <linkTheme>of</linkTheme> CRE-mediated transcription following ligand engagement (e.g. cell-to-cell contact).</clue>
+</event>
+<event KT="Other" id="E50">
+<type class="Positive_regulation"/>
+<theme idref="A18"/>
+<cause idref="T60"/>
+<clue>These data indicate specific modulation of the CREB/ATF-1 family of transcription factors by the CD2 signalling pathway and suggest CD2 receptor modulation of CRE-<clueType>mediated</clueType> transcription following ligand engagement (e.g. cell-to-cell contact).</clue>
+<comment>NER: T59 del &quot;CRE-mediated transcription&quot;</comment></event>
+<event KT="Other" id="E51">
+<type class="Positive_regulation"/>
+<theme idref="E49"/>
+<cause idref="E52"/>
+<clue>These data indicate specific modulation of the CREB/ATF-1 family of transcription factors by the CD2 signalling pathway and suggest CD2 receptor modulation of CRE-mediated transcription <linkCause>following</linkCause> ligand engagement (e.g. cell-to-cell contact).</clue>
+</event>
+<event KT="Other" id="E52">
+<type class="Binding"/>
+<theme idref="A20"/>
+<clue>These data indicate specific modulation of the CREB/ATF-1 family of transcription factors by the CD2 signalling pathway and suggest CD2 receptor modulation of CRE-mediated transcription following ligand <clueType>engagement</clueType> (e.g. cell-to-cell contact).</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

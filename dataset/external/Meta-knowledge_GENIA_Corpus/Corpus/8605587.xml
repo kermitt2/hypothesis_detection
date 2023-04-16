@@ -1,0 +1,355 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8605587" created="09/05/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8605587</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="soluble_tumor_necrosis_factor_receptor" sem="Protein_family_or_group">Soluble tumor necrosis factor receptors</term> inhibit <term id="T2" lex="phorbol_myristate_acetate" sem="Organic_compound_other">phorbol myristate acetate</term> and <term id="T3" lex="cytokine-induced_HIV-1_expression" sem="Other"><term id="A1" sem="Protein_family_or_group">cytokine</term>-induced <term id="T4" lex="HIV-1_expression" sem="Other"><term id="T5" lex="HIV-1" sem="DNA_domain_or_region">HIV-1</term> expression</term></term> chronically <term id="T6" lex="infected_U1_cell" sem="Cell_natural">infected <term id="A21" sem="Cell_cultured">U1 cells</term></term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Gene_expression"/>
+<theme idref="T5"/>
+<clue>Soluble tumor necrosis factor receptors inhibit phorbol myristate acetate and cytokine-induced HIV-1 <clueType>expression</clueType> chronically infected U1 cells.</clue>
+<comment>NER: T5 MOD</comment></event>
+<event KT="Other" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T2"/>
+<clue>Soluble tumor necrosis factor receptors inhibit phorbol myristate acetate and cytokine-<clueType>induced</clueType> HIV-1 expression chronically infected U1 cells.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="A1"/>
+<clue>Soluble tumor necrosis factor receptors inhibit phorbol myristate acetate and cytokine-<clueType>induced</clueType> HIV-1 expression chronically infected U1 cells.</clue>
+</event>
+<event id="E4">
+<type class="Negative_regulation"/>
+<theme idref="E2"/>
+<cause idref="T1"/>
+<clue>Soluble tumor necrosis factor receptors <clueType>inhibit</clueType> phorbol myristate acetate and cytokine-induced HIV-1 expression <clueLoc>chronically infected U1 cells</clueLoc>.</clue>
+</event>
+<event id="E5">
+<type class="Negative_regulation"/>
+<theme idref="E3"/>
+<cause idref="T1"/>
+<clue>Soluble tumor necrosis factor receptors <clueType>inhibit</clueType> phorbol myristate acetate and cytokine-induced HIV-1 expression <clueLoc>chronically infected U1 cells</clueLoc>.</clue>
+</event>
+<event id="E71">
+<type class="Viral_life_cycle"/>
+<theme idref="T5"/>
+<theme idref="A21"/>
+<clue>Soluble tumor necrosis factor receptors inhibit phorbol myristate acetate and cytokine-induced HIV-1 expression <clueType>chronically infected</clueType> U1 cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T7" lex="Recombinant_human_tumor_necrosis_factor_(TNF)_binding_protein-1" sem="Protein_molecule">Recombinant human tumor necrosis factor (<term id="T8" lex="TNF" sem="Protein_family_or_group">TNF</term>) binding protein-1</term> (<term id="T9" lex="r-h_TBP-1" sem="Protein_molecule">r-h TBP-1</term>) and <term id="T10" lex="recombinant_human_soluble_dimeric_TNF_receptor" sem="Protein_molecule">recombinant human soluble dimeric <term id="T11" lex="TNF" sem="Protein_family_or_group">TNF</term> receptor</term> (<term id="T12" lex="rhu_TNFR:Fc" sem="Protein_molecule">rhu TNFR:Fc</term>) were used to determine the relative contributions of <term id="T13" lex="TNF" sem="Protein_family_or_group">TNF</term> to <term id="T14" lex="phorbol_myristate_acetate" sem="Organic_compound_other">phorbol myristate acetate</term> (<term id="T15" lex="PMA" sem="Organic_compound_other">PMA</term>) and <term id="T16" lex="cytokine-induced_human_immunodeficiency_virus_type_1_(HIV-1)_replication" sem="Other"><term id="A2" sem="Protein_family_or_group">cytokine</term>-induced <term id="T17" lex="human_immunodeficiency_virus_type_1" sem="Virus">human immunodeficiency virus type 1</term> (<term id="T18" lex="HIV-1" sem="Virus">HIV-1</term>) replication</term> in chronically infected cell lines.</sentence>
+<event KT="Other" id="E6">
+<type class="Viral_life_cycle"/>
+<theme idref="T18"/>
+<clue>Recombinant human tumor necrosis factor (TNF) binding protein-1 (r-h TBP-1) and recombinant human soluble dimeric TNF receptor (rhu TNFR:Fc) were used to determine the relative contributions of TNF to phorbol myristate acetate (PMA) and cytokine-induced human immunodeficiency virus type 1 (HIV-1) <clueType>replication</clueType> in chronically infected cell lines.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="T15"/>
+<clue>Recombinant human tumor necrosis factor (TNF) binding protein-1 (r-h TBP-1) and recombinant human soluble dimeric TNF receptor (rhu TNFR:Fc) were used to determine the relative contributions of TNF to phorbol myristate acetate (PMA) and cytokine-<clueType>induced</clueType> human immunodeficiency virus type 1 (HIV-1) replication <clueLoc>in chronically infected cell lines</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="A2"/>
+<clue>Recombinant human tumor necrosis factor (TNF) binding protein-1 (r-h TBP-1) and recombinant human soluble dimeric TNF receptor (rhu TNFR:Fc) were used to determine the relative contributions of TNF to phorbol myristate acetate (PMA) and cytokine-<clueType>induced</clueType> human immunodeficiency virus type 1 (HIV-1) replication <clueLoc>in chronically infected cell lines</clueLoc>.</clue>
+</event>
+<event KT="Investigation" id="E9" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E7"/>
+<cause idref="T13"/>
+<clue>Recombinant human tumor necrosis factor (TNF) binding protein-1 (r-h TBP-1) and recombinant human soluble dimeric TNF receptor (rhu TNFR:Fc) were used <clueKT>to determine</clueKT> the relative <clueType>contributions</clueType> <linkCause>of</linkCause> TNF <linkTheme>to</linkTheme> phorbol myristate acetate (PMA) and cytokine-induced human immunodeficiency virus type 1 (HIV-1) replication in chronically infected cell lines.</clue>
+</event>
+<event KT="Investigation" id="E10" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E8"/>
+<cause idref="T13"/>
+<clue>Recombinant human tumor necrosis factor (TNF) binding protein-1 (r-h TBP-1) and recombinant human soluble dimeric TNF receptor (rhu TNFR:Fc) were used <clueKT>to determine</clueKT> the relative <clueType>contributions</clueType> <linkCause>of</linkCause> TNF <linkTheme>to</linkTheme> phorbol myristate acetate (PMA) and cytokine-induced human immunodeficiency virus type 1 (HIV-1) replication in chronically infected cell lines.</clue>
+</event>
+<event KT="Other" id="E72" uncertainty="doubtful">
+<type class="Viral_life_cycle"/>
+<theme idref="T18"/>
+<clue>Recombinant human tumor necrosis factor (TNF) binding protein-1 (r-h TBP-1) and recombinant human soluble dimeric TNF receptor (rhu TNFR:Fc) were used to determine the relative contributions of TNF to phorbol myristate acetate (PMA) and cytokine-induced human immunodeficiency virus type 1 (HIV-1) replication in <clueType>chronically infected</clueType> cell lines.</clue>
+</event>
+<sentence id="S3">Treatment of <term id="T19" lex="HIV-1-infected_promonocytic_U1_cell" sem="Cell_natural"><term id="T20" lex="HIV-1" sem="Virus">HIV-1</term>-infected <term id="A22" sem="Cell_cultured">promonocytic U1 cells</term></term> with <term id="T21" lex="r-h-TBP-1" sem="Protein_molecule">r-h-TBP-1</term> or <term id="T22" lex="rhu_TNFR:Fc" sem="Protein_molecule">rhu TNFR:Fc</term> reduced <term id="T23" lex="PMA-induced_HIV-1_p24_antigen_production" sem="Other"><term id="T24" lex="PMA" sem="Organic_compound_other">PMA</term>-induced <term id="T25" lex="HIV-1_p24_antigen" sem="Protein_molecule">HIV-1 p24 antigen</term> production</term> in a concentration-dependent manner, with a <term id="T26" lex="maximal_inhibition" sem="Other">maximal inhibition</term> of approximately 90%.</sentence>
+<event id="E13">
+<type class="Gene_expression"/>
+<theme idref="T25"/>
+<clue>Treatment of HIV-1-infected promonocytic U1 cells with r-h-TBP-1 or rhu TNFR:Fc reduced PMA-induced HIV-1 p24 antigen <clueType>production</clueType> in a concentration-dependent manner, with a maximal inhibition of approximately 90%.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="T24"/>
+<clue>Treatment of HIV-1-infected promonocytic U1 cells with r-h-TBP-1 or rhu TNFR:Fc reduced PMA-<clueType>induced</clueType> HIV-1 p24 antigen production in a concentration-dependent manner, with a maximal inhibition of approximately 90%.</clue>
+</event>
+<event Manner="High" id="E15">
+<type class="Negative_regulation"/>
+<theme idref="E14"/>
+<cause idref="T21"/>
+<clue>Treatment of <clueLoc>HIV-1-infected promonocytic U1 cells</clueLoc> <linkCause>with</linkCause> r-h-TBP-1 or rhu TNFR:Fc <clueType>reduced</clueType> PMA-induced HIV-1 p24 antigen production in a concentration-dependent manner, with a maximal inhibition of <clueManner>approximately 90%</clueManner>.</clue>
+</event>
+<event Manner="High" id="E16">
+<type class="Negative_regulation"/>
+<theme idref="E14"/>
+<cause idref="T22"/>
+<clue>Treatment of <clueLoc>HIV-1-infected promonocytic U1 cells</clueLoc> <linkCause>with</linkCause> r-h-TBP-1 or rhu TNFR:Fc <clueType>reduced</clueType> PMA-induced HIV-1 p24 antigen production in a concentration-dependent manner, with a maximal inhibition of <clueManner>approximately 90%</clueManner>.</clue>
+</event>
+<event id="E73">
+<type class="Viral_life_cycle"/>
+<theme idref="A22"/>
+<theme idref="T20"/>
+<clue>Treatment of HIV-1-<clueType>infected</clueType> promonocytic U1 cells with r-h-TBP-1 or rhu TNFR:Fc reduced PMA-induced HIV-1 p24 antigen production in a concentration-dependent manner, with a maximal inhibition of approximately 90%.</clue>
+</event>
+<sentence id="S4"><term id="T27" lex="maximal_inhibition" sem="Other">Maximal inhibition</term> of <term id="T28" lex="p24_antigen_production" sem="Other"><term id="T29" lex="p24_antigen" sem="Protein_molecule">p24 antigen</term> production</term> in <term id="T30" lex="T-lymphocytic_ACH-2_cell" sem="Cell_cultured">T-lymphocytic ACH-2 cells</term> was 47% with <term id="T31" lex="r-hTBP-1" sem="Protein_molecule">r-hTBP-1</term> and 42% with <term id="T32" lex="rhu_TNFR:Fc" sem="Protein_molecule">rhu TNFR:Fc</term>.</sentence>
+<event id="E17">
+<type class="Gene_expression"/>
+<theme idref="T29"/>
+<clue>Maximal inhibition of p24 antigen <clueType>production</clueType> <clueLoc>in T-lymphocytic ACH-2 cells</clueLoc> was 47% with r-hTBP-1 and 42% with rhu TNFR:Fc.</clue>
+</event>
+<event id="E18">
+<type class="Negative_regulation"/>
+<theme idref="E17"/>
+<cause idref="T31"/>
+<clue>Maximal <clueType>inhibition</clueType> <linkTheme>of</linkTheme> p24 antigen production in T-lymphocytic ACH-2 cells was 47% <linkCause>with</linkCause> r-hTBP-1 and 42% with rhu TNFR:Fc.</clue>
+</event>
+<event id="E19">
+<type class="Negative_regulation"/>
+<theme idref="E17"/>
+<cause idref="T32"/>
+<clue>Maximal <clueType>inhibition</clueType> <linkTheme>of</linkTheme> p24 antigen production in T-lymphocytic ACH-2 cells was 47% with r-hTBP-1 and 42% <linkCause>with</linkCause> rhu TNFR:Fc.</clue>
+</event>
+<sentence id="S5"><term id="T33" lex="r-hTBP-1" sem="Protein_molecule">r-hTBP-1</term> and <term id="T34" lex="rhu_TNFR:Fc" sem="Protein_molecule">rhu TNFR:Fc</term> also decreased <term id="T35" lex="p24_antigen" sem="Protein_molecule">p24 antigen</term> synthesized by <term id="T36" lex="U1_cell" sem="Cell_cultured">U1 cells</term> in response to other stimuli, including <term id="T37" lex="phytohemagglutinin_(PHA)-induced_supernatant" sem="Protein_molecule"><term id="T38" lex="phytohemagglutinin" sem="Protein_molecule">phytohemagglutinin</term> (<term id="T39" lex="PHA" sem="Protein_molecule">PHA</term>)-induced <term id="A3" sem="Multicellular_organism_genetically_modified">supernatant</term></term>, <term id="T40" lex="granulocyte-macrophage_colony-stimulating_factor" sem="Protein_family_or_group">granulocyte-macrophage colony-stimulating factor</term>, <term id="T41" lex="interleukin-6" sem="Protein_molecule">interleukin-6</term>, and <term id="T42" lex="TNF" sem="Protein_family_or_group">TNF</term>.</sentence>
+<event id="E20">
+<type class="Gene_expression"/>
+<theme idref="T35"/>
+<clue>r-hTBP-1 and rhu TNFR:Fc also decreased p24 antigen <clueType>synthesized</clueType> <clueLoc>by U1 cells</clueLoc> in response to other stimuli, including phytohemagglutinin (PHA)-induced supernatant, granulocyte-macrophage colony-stimulating factor, interleukin-6, and TNF.</clue>
+</event>
+<event id="E61">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="T37"/>
+<clue>r-hTBP-1 and rhu TNFR:Fc also decreased p24 antigen synthesized by U1 cells <linkCause>in response to</linkCause> other stimuli, including phytohemagglutinin (PHA)-induced supernatant, granulocyte-macrophage colony-stimulating factor, interleukin-6, and TNF.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="T40"/>
+<clue>r-hTBP-1 and rhu TNFR:Fc also decreased p24 antigen synthesized by U1 cells <linkCause>in response to</linkCause> other stimuli, including phytohemagglutinin (PHA)-induced supernatant, granulocyte-macrophage colony-stimulating factor, interleukin-6, and TNF.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="T41"/>
+<clue>r-hTBP-1 and rhu TNFR:Fc also decreased p24 antigen synthesized by U1 cells <linkCause>in response to</linkCause> other stimuli, including phytohemagglutinin (PHA)-induced supernatant, granulocyte-macrophage colony-stimulating factor, interleukin-6, and TNF.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E23">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="T42"/>
+<clue>r-hTBP-1 and rhu TNFR:Fc also decreased p24 antigen synthesized by U1 cells <linkCause>in response to</linkCause> other stimuli, including phytohemagglutinin (PHA)-induced supernatant, granulocyte-macrophage colony-stimulating factor, interleukin-6, and TNF.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E24">
+<type class="Negative_regulation"/>
+<theme idref="E61"/>
+<cause idref="T33"/>
+<clue>r-hTBP-1 and rhu TNFR:Fc also <clueType>decreased</clueType> p24 antigen synthesized by U1 cells in response to other stimuli, including phytohemagglutinin (PHA)-induced supernatant, granulocyte-macrophage colony-stimulating factor, interleukin-6, and TNF.</clue>
+</event>
+<event id="E25">
+<type class="Negative_regulation"/>
+<theme idref="E21"/>
+<cause idref="T33"/>
+<clue>r-hTBP-1 and rhu TNFR:Fc also <clueType>decreased</clueType> p24 antigen synthesized by U1 cells in response to other stimuli, including phytohemagglutinin (PHA)-induced supernatant, granulocyte-macrophage colony-stimulating factor, interleukin-6, and TNF.</clue>
+</event>
+<event id="E26">
+<type class="Negative_regulation"/>
+<theme idref="E22"/>
+<cause idref="T33"/>
+<clue>r-hTBP-1 and rhu TNFR:Fc also <clueType>decreased</clueType> p24 antigen synthesized by U1 cells in response to other stimuli, including phytohemagglutinin (PHA)-induced supernatant, granulocyte-macrophage colony-stimulating factor, interleukin-6, and TNF.</clue>
+</event>
+<event id="E27">
+<type class="Negative_regulation"/>
+<theme idref="E23"/>
+<cause idref="T33"/>
+<clue>r-hTBP-1 and rhu TNFR:Fc also <clueType>decreased</clueType> p24 antigen synthesized by U1 cells in response to other stimuli, including phytohemagglutinin (PHA)-induced supernatant, granulocyte-macrophage colony-stimulating factor, interleukin-6, and TNF.</clue>
+</event>
+<event id="E28">
+<type class="Negative_regulation"/>
+<theme idref="E61"/>
+<cause idref="T34"/>
+<clue>r-hTBP-1 and rhu TNFR:Fc also <clueType>decreased</clueType> p24 antigen synthesized by U1 cells in response to other stimuli, including phytohemagglutinin (PHA)-induced supernatant, granulocyte-macrophage colony-stimulating factor, interleukin-6, and TNF.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation"/>
+<theme idref="E21"/>
+<cause idref="T34"/>
+<clue>r-hTBP-1 and rhu TNFR:Fc also <clueType>decreased</clueType> p24 antigen synthesized by U1 cells in response to other stimuli, including phytohemagglutinin (PHA)-induced supernatant, granulocyte-macrophage colony-stimulating factor, interleukin-6, and TNF.</clue>
+</event>
+<event id="E30">
+<type class="Negative_regulation"/>
+<theme idref="E22"/>
+<cause idref="T34"/>
+<clue>r-hTBP-1 and rhu TNFR:Fc also <clueType>decreased</clueType> p24 antigen synthesized by U1 cells in response to other stimuli, including phytohemagglutinin (PHA)-induced supernatant, granulocyte-macrophage colony-stimulating factor, interleukin-6, and TNF.</clue>
+</event>
+<event id="E31">
+<type class="Negative_regulation"/>
+<theme idref="E23"/>
+<cause idref="T34"/>
+<clue>r-hTBP-1 and rhu TNFR:Fc also <clueType>decreased</clueType> p24 antigen synthesized by U1 cells in response to other stimuli, including phytohemagglutinin (PHA)-induced supernatant, granulocyte-macrophage colony-stimulating factor, interleukin-6, and TNF.</clue>
+</event>
+<event id="E62">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<cause idref="T39"/>
+<clue>r-hTBP-1 and rhu TNFR:Fc also decreased p24 antigen synthesized by U1 cells in response to other stimuli, including phytohemagglutinin (PHA)-<clueType>induced</clueType> supernatant, granulocyte-macrophage colony-stimulating factor, interleukin-6, and TNF.</clue>
+</event>
+<sentence id="S6">Addition of <term id="T43" lex="r-hTBP-1" sem="Protein_molecule">r-hTBP-1</term> to <term id="T44" lex="U1_cell" sem="Cell_cultured">U1 cells</term> during the last 4 h of a 24 h incubation with <term id="T45" lex="PMA" sem="Organic_compound_other">PMA</term> still inhibited <term id="T46" lex="p24_antigen_production" sem="Other"><term id="T47" lex="p24_antigen" sem="Protein_molecule">p24 antigen</term> production</term> by 15%.</sentence>
+<event KT="Method" id="E34">
+<type class="Artificial_process"/>
+<theme idref="T44"/>
+<theme idref="T43"/>
+<clue><clueType>Addition</clueType> <linkCause>of</linkCause> r-hTBP-1 <linkTheme>to</linkTheme> U1 cells <clueLoc>during the last 4 h of a 24 h incubation with PMA</clueLoc> still inhibited p24 antigen production by 15%.</clue>
+</event>
+<event KT="Method" id="E35">
+<type class="Artificial_process"/>
+<theme idref="T44"/>
+<theme idref="T45"/>
+<clue>Addition of r-hTBP-1 to U1 cells during the last 4 h of a <clueLoc>24 h</clueLoc> <clueType>incubation</clueType> <linkCause>with</linkCause> PMA still inhibited p24 antigen production by 15%.</clue>
+</event>
+<event id="E36">
+<type class="Gene_expression"/>
+<theme idref="T47"/>
+<clue>Addition of r-hTBP-1 to U1 cells during the last 4 h of a 24 h incubation with PMA still inhibited p24 antigen <clueType>production</clueType> by 15%.</clue>
+</event>
+<event Manner="Low" id="E37">
+<type class="Negative_regulation"/>
+<theme idref="E36"/>
+<cause idref="E34"/>
+<clue>Addition of r-hTBP-1 to U1 cells during the last 4 h of a 24 h incubation with PMA still <clueType>inhibited</clueType> p24 antigen production <clueManner>by 15%</clueManner>.</clue>
+</event>
+<sentence id="S7"><term id="T48" lex="U1_cell" sem="Cell_cultured">U1 cells</term> stimulated with 10(-7) M <term id="T49" lex="PMA" sem="Organic_compound_other">PMA</term> released approximately 1 ng/ml <term id="T50" lex="endogenous_TBP-1" sem="Protein_molecule">endogenous TBP-1</term> with an initial peak observed at 1 h and a second peak at 24 h after <term id="T51" lex="PMA" sem="Organic_compound_other">PMA</term> stimulation.</sentence>
+<event id="E39">
+<type class="Localization"/>
+<theme idref="T50"/>
+<clue>U1 cells stimulated with 10(-7) M PMA <clueType>released</clueType> approximately 1 ng/ml endogenous TBP-1 with an initial peak observed at 1 h and a second peak at 24 h after PMA stimulation.</clue>
+</event>
+<event Manner="High" id="E140">
+<type class="Positive_regulation"/>
+<theme idref="E39"/>
+<cause idref="T49"/>
+<clue><clueLoc>U1 cells</clueLoc> stimulated with 10(-7) M PMA released approximately 1 ng/ml endogenous TBP-1 <clueTime><clueManner>with an initial peak</clueManner> <clueKT>observed</clueKT> at 1 h</clueTime> and a second peak at 24 h <linkCause>after</linkCause> PMA stimulation.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event Manner="High" id="E141">
+<type class="Positive_regulation"/>
+<theme idref="E39"/>
+<cause idref="T49"/>
+<clue><clueLoc>U1 cells</clueLoc> stimulated with 10(-7) M PMA released approximately 1 ng/ml endogenous TBP-1 <clueTime><clueManner>with</clueManner></clueTime> an initial peak <clueKT>observed</clueKT> at 1 h and <clueTime><clueManner>a second peak</clueManner> at 24 h</clueTime> <linkCause>after</linkCause> PMA stimulation.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S8"><term id="T52" lex="r-hTBP-1" sem="Protein_molecule">r-hTBP-1</term> also partially reversed inhibition of <term id="T53" lex="U1_cellular_proliferation" sem="Other"><term id="A4" sem="Cell_cultured">U1</term> cellular proliferation</term> caused by <term id="T54" lex="PMA" sem="Organic_compound_other">PMA</term>.</sentence>
+<event KT="Other" id="E41">
+<type class="Cellular_physiological_process"/>
+<theme idref="A4"/>
+<clue>r-hTBP-1 also partially reversed inhibition of U1 cellular <clueType>proliferation</clueType> caused by PMA.</clue>
+</event>
+<event id="E42">
+<type class="Negative_regulation"/>
+<theme idref="E41"/>
+<cause idref="T54"/>
+<clue>r-hTBP-1 also partially reversed <clueType>inhibition</clueType> <linkTheme>of</linkTheme> U1 cellular proliferation caused <linkCause>by</linkCause> PMA.</clue>
+</event>
+<event id="E43">
+<type class="Negative_regulation"/>
+<theme idref="E42"/>
+<cause idref="T52"/>
+<clue>r-hTBP-1 also partially <clueType>reversed</clueType> inhibition of U1 cellular proliferation caused by PMA.</clue>
+</event>
+<sentence id="S9">Both <term id="T55" lex="r-hTBP-1" sem="Protein_molecule">r-hTBP-1</term> and <term id="T56" lex="rhu_TNFR:Fc" sem="Protein_molecule">rhu TNFR:Fc</term> blocked <term id="T57" lex="PMA" sem="Organic_compound_other">PMA</term> induction of <term id="T58" lex="nuclear_factor_(NK)-_kappa_B_DNA-binding_activity" sem="Other"><term id="T59" lex="nuclear_factor_(NK)-_kappa_B" sem="Protein_complex">nuclear factor (NK)- kappa B</term> <term id="A5" sem="DNA_molecule">DNA</term>-binding activity</term> in <term id="T60" lex="U1_cell" sem="Cell_cultured">U1 cells</term> in association with decreases in <term id="T61" lex="HIV-1_replication" sem="Other"><term id="T62" lex="HIV-1" sem="Virus">HIV-1</term> replication</term>.</sentence>
+<event KT="Other" id="E44">
+<type class="Binding"/>
+<theme idref="T59"/>
+<theme idref="A5"/>
+<clue>Both r-hTBP-1 and rhu TNFR:Fc blocked PMA induction of nuclear factor (NK)- kappa B DNA-<clueType>binding activity</clueType> in U1 cells in association with decreases in HIV-1 replication.</clue>
+</event>
+<event KT="Other" id="E45">
+<type class="Positive_regulation"/>
+<theme idref="E44"/>
+<cause idref="T57"/>
+<clue>Both r-hTBP-1 and rhu TNFR:Fc blocked PMA <clueType>induction</clueType> <linkTheme>of</linkTheme> nuclear factor (NK)- kappa B DNA-binding activity in U1 cells in association with decreases in HIV-1 replication.</clue>
+</event>
+<event id="E46">
+<type class="Negative_regulation"/>
+<theme idref="E45"/>
+<cause idref="T55"/>
+<clue>Both r-hTBP-1 and rhu TNFR:Fc <clueType>blocked</clueType> PMA induction of nuclear factor (NK)- kappa B DNA-binding activity <clueLoc>in U1 cells</clueLoc> in association with decreases in HIV-1 replication.</clue>
+</event>
+<event id="E47">
+<type class="Negative_regulation"/>
+<theme idref="E45"/>
+<cause idref="T56"/>
+<clue>Both r-hTBP-1 and rhu TNFR:Fc <clueType>blocked</clueType> PMA induction of nuclear factor (NK)- kappa B DNA-binding activity <clueLoc>in U1 cells</clueLoc> in association with decreases in HIV-1 replication.</clue>
+</event>
+<event KT="Other" id="E48">
+<type class="Viral_life_cycle"/>
+<theme idref="T62"/>
+<clue>Both r-hTBP-1 and rhu TNFR:Fc blocked PMA induction of nuclear factor (NK)- kappa B DNA-binding activity in U1 cells in association with decreases in HIV-1 <clueType>replication</clueType>.</clue>
+</event>
+<event KT="Other" id="E49">
+<type class="Negative_regulation"/>
+<theme idref="E48"/>
+<clue>Both r-hTBP-1 and rhu TNFR:Fc blocked PMA induction of nuclear factor (NK)- kappa B DNA-binding activity in U1 cells in association with <clueType>decreases</clueType> in HIV-1 replication.</clue>
+</event>
+<event KT="Analysis" id="E50">
+<type class="Correlation"/>
+<theme idref="E49"/>
+<theme idref="E46"/>
+<clue>Both r-hTBP-1 and rhu TNFR:Fc blocked PMA induction of nuclear factor (NK)- kappa B DNA-binding activity in U1 cells in <clueType><clueKT>association</clueKT></clueType> <linkTheme>with</linkTheme> decreases in HIV-1 replication.</clue>
+</event>
+<event KT="Analysis" id="E51">
+<type class="Correlation"/>
+<theme idref="E49"/>
+<theme idref="E47"/>
+<clue>Both r-hTBP-1 and rhu TNFR:Fc blocked PMA induction of nuclear factor (NK)- kappa B DNA-binding activity in U1 cells in <clueType><clueKT>association</clueKT></clueType> <linkTheme>with</linkTheme> decreases in HIV-1 replication.</clue>
+</event>
+<sentence id="S10">We conclude that <term id="A6" sem="Protein_molecule">soluble TNF receptors</term> can inhibit <term id="A7" sem="Other">stimuli</term>-induced <term id="T63" lex="HIV-1_expression" sem="Other"><term id="T64" lex="HIV-1" sem="DNA_domain_or_region">HIV-1</term> expression</term> and <term id="T65" lex="NK-_kappa_B_DNA-binding_activity" sem="Other"><term id="T66" lex="NK-_kappa_B" sem="Protein_molecule">NK- kappa B</term> <term id="A8" sem="DNA_molecule">DNA</term>-binding activity</term> in chronically <term id="T67" lex="infected_U1_cell" sem="Cell_natural">infected <term id="T68" lex="U1_cell" sem="Cell_cultured">U1 cells</term></term>.</sentence>
+<event KT="Other" id="E52">
+<type class="Gene_expression"/>
+<theme idref="T64"/>
+<clue>We conclude that soluble TNF receptors can inhibit stimuli-induced HIV-1 <clueType>expression</clueType> and NK- kappa B DNA-binding activity in chronically infected U1 cells.</clue>
+<comment>NER: T64 MOD</comment></event>
+<event KT="Other" id="E53">
+<type class="Positive_regulation"/>
+<theme idref="E52"/>
+<cause idref="A7"/>
+<clue>We conclude that soluble TNF receptors can inhibit stimuli-<clueType>induced</clueType> HIV-1 expression and NK- kappa B DNA-binding activity in chronically infected U1 cells.</clue>
+</event>
+<event KT="Other" id="E54">
+<type class="Binding"/>
+<theme idref="T66"/>
+<theme idref="A8"/>
+<clue>We conclude that soluble TNF receptors can inhibit stimuli-induced HIV-1 expression and NK- kappa B DNA-<clueType>binding activity</clueType> in chronically infected U1 cells.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E55">
+<type class="Negative_regulation"/>
+<theme idref="E53"/>
+<cause idref="A6"/>
+<clue>We <clueKT>conclude</clueKT> that soluble TNF receptors <clueCL>can</clueCL> <clueType>inhibit</clueType> stimuli-induced HIV-1 expression and NK- kappa B DNA-binding activity <clueLoc>in chronically infected U1 cells</clueLoc>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E56">
+<type class="Negative_regulation"/>
+<theme idref="E54"/>
+<cause idref="A6"/>
+<clue>We <clueKT>conclude</clueKT> that soluble TNF receptors <clueCL>can</clueCL> <clueType>inhibit</clueType> stimuli-induced HIV-1 expression and NK- kappa B DNA-binding activity <clueLoc>in chronically infected U1 cells</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E75">
+<type class="Viral_life_cycle"/>
+<theme idref="T64"/>
+<theme idref="T68"/>
+<clue>We conclude that soluble TNF receptors can inhibit stimuli-induced HIV-1 expression and NK- kappa B DNA-binding activity in <clueType>chronically infected</clueType> U1 cells.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

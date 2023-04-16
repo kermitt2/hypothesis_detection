@@ -1,0 +1,90 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1668145" created="04/04/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1668145</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Every <term id="A1" sem="DNA_domain_or_region">enhancer</term> works with every <term id="T1" lex="promoter" sem="DNA_domain_or_region">promoter</term> for all the combinations tested: could new regulatory pathways evolve by <term id="T2" lex="enhancer_shuffling" sem="Other"><term id="A110" sem="DNA_domain_or_region">enhancer</term> shuffling</term>?</sentence>
+<event id="E1" uncertainty="doubtful">
+<type class="Correlation"/>
+<theme idref="A1"/>
+<theme idref="T1"/>
+<clue>Every enhancer <clueType>works</clueType> <linkTheme>with</linkTheme> every promoter for all the combinations tested: could new regulatory pathways evolve by enhancer shuffling?</clue>
+</event>
+<event KT="Investigation" id="E201" uncertainty="doubtful">
+<type class="DNA_recombination"/>
+<theme idref="A110"/>
+<clue>Every enhancer works with every promoter for all the combinations tested: could new regulatory pathways evolve by enhancer <clueType>shuffling</clueType><clueKT>?</clueKT></clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T3" lex="promoter" sem="DNA_family_or_group">promoters</term> and <term id="T4" lex="enhancer" sem="DNA_family_or_group">enhancers</term> of cell type-specific genes are often conserved in evolution, and hence one might expect that a given <term id="T5" lex="enhancer" sem="DNA_domain_or_region">enhancer</term> has evolved to work best with <term id="A2" sem="DNA_domain_or_region">its own <term id="T6" lex="promoter" sem="DNA_domain_or_region">promoter</term>.</term></sentence>
+<event CL="L1" KT="Analysis" id="E2" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="T5"/>
+<theme idref="A2"/>
+<clue>The promoters and enhancers of cell type-specific genes are often conserved in evolution, and <clueKT>hence</clueKT> one <clueCL>might</clueCL> expect that a given enhancer has evolved to <clueType>work</clueType> best <linkTheme>with</linkTheme> its own promoter.</clue>
+</event>
+<sentence id="S3">While this expectation may be realized in some cases, we have not found evidence for it.</sentence>
+<sentence id="S4">A total of 27 combinations of different <term id="T7" lex="promoter" sem="DNA_family_or_group">promoters</term> and <term id="T8" lex="enhancer" sem="DNA_family_or_group">enhancers</term> were tested by <term id="T9" lex="transfection" sem="Other">transfection</term> into <term id="T10" lex="cultured_cell" sem="Cell_cultured">cultured cells</term>.</sentence>
+<sentence id="S5">We found that the relative efficiency of the <term id="T11" lex="enhancer" sem="DNA_family_or_group">enhancers</term> is approximately the same, irrespective of the type of <term id="T12" lex="promoter" sem="DNA_domain_or_region">promoter</term> used, i.e., there was no strong preference for any given <term id="T13" lex="enhancer/promoter_combination" sem="Other"><term id="A3" sem="DNA_domain_or_region">enhancer</term>/<term id="T14" lex="promoter" sem="DNA_domain_or_region">promoter</term> combination</term>.</sentence>
+<event KT="Other" id="E3">
+<type class="Correlation"/>
+<theme idref="A3"/>
+<theme idref="T14"/>
+<clue>We found that the relative efficiency of the enhancers is approximately the same, irrespective of the type of promoter used, i.e., there was no strong preference for any given enhancer/promoter <clueType>combination</clueType>.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E101">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<clue>We found that the relative efficiency of the enhancers is approximately the same, irrespective of the type of promoter used, i.e., there was <cluePolarity>no</cluePolarity> strong <clueType>preference</clueType> <linkTheme>for</linkTheme> any given enhancer/promoter combination.</clue>
+</event>
+<sentence id="S6">Notably, we do not see particularly strong <term id="T15" lex="transcription" sem="Other">transcription</term> when the <term id="T16" lex="immunoglobulin_kappa_enhancer" sem="DNA_domain_or_region">immunoglobulin kappa enhancer</term> (or the <term id="T17" lex="immunoglobulin_heavy_chain_enhancer" sem="DNA_domain_or_region"><term id="T18" lex="immunoglobulin_heavy_chain" sem="Protein_molecule">immunoglobulin heavy chain</term> enhancer</term>) is used to activate a <term id="T19" lex="promoter" sem="DNA_domain_or_region">kappa gene promoter</term>.</sentence>
+<event id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T19"/>
+<cause idref="T16"/>
+<clue>Notably, we do not see particularly strong transcription when the immunoglobulin kappa enhancer (or the immunoglobulin heavy chain enhancer) is used to <clueType>activate</clueType> a kappa gene promoter.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation"/>
+<theme idref="T19"/>
+<cause idref="T17"/>
+<clue>Notably, we do not see particularly strong transcription when the immunoglobulin kappa enhancer (or the immunoglobulin heavy chain enhancer) is used to <clueType>activate</clueType> a kappa gene promoter.</clue>
+</event>
+<sentence id="S7">We propose that a generally permissive <term id="T20" lex="enhancer/promoter_interaction" sem="Other"><term id="A4" sem="DNA_domain_or_region">enhancer</term>/<term id="T21" lex="promoter" sem="DNA_domain_or_region">promoter</term> interaction</term> is of evolutionary benefit for <term id="T22" lex="higher_eukaryote" sem="Multicellular_organism_natural">higher eukaryotes</term>: by <term id="T23" lex="enhancer_shuffling" sem="Other"><term id="A101" sem="DNA_domain_or_region">enhancer</term> shuffling</term>, <term id="A102" sem="DNA_family_or_group">genes</term> could be easily brought under a new type of <term id="T24" lex="inducibility/cell_type_specificity" sem="Other">inducibility/<term id="A111" sem="Cell_natural">cell type</term> specificity</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E6">
+<type class="Correlation"/>
+<theme idref="A4"/>
+<theme idref="T21"/>
+<clue>We <clueKT><clueCL>propose</clueCL></clueKT> that a generally permissive enhancer/promoter <clueType>interaction</clueType> is of evolutionary benefit for higher eukaryotes: by enhancer shuffling, genes could be easily brought under a new type of inducibility/cell type specificity.</clue>
+</event>
+<event KT="Other" id="E102">
+<type class="DNA_recombination"/>
+<theme idref="A101"/>
+<clue>We propose that a generally permissive enhancer/promoter interaction is of evolutionary benefit for higher eukaryotes: by enhancer <clueType>shuffling</clueType>, genes could be easily brought under a new type of inducibility/cell type specificity.</clue>
+</event>
+<event KT="Other" id="E103">
+<type class="Positive_regulation"/>
+<theme idref="A102"/>
+<clue>We propose that a generally permissive enhancer/promoter interaction is of evolutionary benefit for higher eukaryotes: by enhancer shuffling, genes could be easily brought under a new type of <clueType>inducibility</clueType>/cell type specificity.</clue>
+</event>
+<event KT="Other" id="E104">
+<type class="Correlation"/>
+<theme idref="A102"/>
+<theme idref="A111"/>
+<clue>We propose that a generally permissive enhancer/promoter interaction is of evolutionary benefit for higher eukaryotes: by enhancer shuffling, genes could be easily brought under a new type of inducibility/cell type <clueType>specificity</clueType>.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E105">
+<type class="Regulation"/>
+<theme idref="E103"/>
+<cause idref="E102"/>
+<clue>We propose that a generally permissive enhancer/promoter interaction is of evolutionary benefit for higher eukaryotes: by enhancer shuffling, genes <clueKT><clueCL>could</clueCL></clueKT> be easily <clueType>brought</clueType> <linkTheme>under</linkTheme> a new type of inducibility/cell type specificity.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E106">
+<type class="Regulation"/>
+<theme idref="E104"/>
+<cause idref="E102"/>
+<clue>We propose that a generally permissive enhancer/promoter interaction is of evolutionary benefit for higher eukaryotes: by enhancer shuffling, genes <clueKT><clueCL>could</clueCL></clueKT> be easily <clueType>brought</clueType> <linkTheme>under</linkTheme> a new type of inducibility/cell type specificity.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

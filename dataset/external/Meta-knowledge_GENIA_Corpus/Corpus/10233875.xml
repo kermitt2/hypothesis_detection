@@ -1,0 +1,290 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10233875" created="23/05/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10233875</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="NF-kappaB_activation" sem="Other"><term id="T2" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activation</term> is required for <term id="T5" lex="C5a" sem="Peptide">C5a</term>-induced <term id="T400" sem="Other"><term id="T4" lex="C5a-induced_interleukin-8_gene" sem="DNA_domain_or_region">interleukin-8 gene</term> expression</term> in <term id="T6" lex="mononuclear_cell" sem="Cell_natural">mononuclear cells</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression"/>
+<theme idref="T4"/>
+<clue>NF-kappaB activation is required for C5a-induced interleukin-8 gene <clueType>expression</clueType> in mononuclear cells.</clue>
+<comment>NER T4 mod</comment></event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T5"/>
+<clue>NF-kappaB activation is required for C5a-<clueType>induced</clueType> interleukin-8 gene expression <clueLoc>in mononuclear cells</clueLoc>.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation"/>
+<theme idref="T2"/>
+<clue>NF-kappaB <clueType>activation</clueType> is required for C5a-induced interleukin-8 gene expression in mononuclear cells.</clue>
+</event>
+<event id="E4">
+<type class="Correlation"/>
+<theme idref="E3"/>
+<theme idref="E2"/>
+<clue>NF-kappaB activation is <clueType>required</clueType> <linkTheme>for</linkTheme> C5a-induced interleukin-8 gene expression in mononuclear cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T7" lex="C5a" sem="Peptide">C5a</term>, a <term id="T8" lex="potent_peptide_chemoattractant" sem="Peptide"><term id="T9" lex="potent_peptide" sem="Peptide">potent peptide</term> chemoattractant</term>, stimulates <term id="T10" lex="interleukin-8" sem="Protein_molecule">interleukin-8</term> (<term id="T11" lex="IL-8" sem="Protein_molecule">IL-8</term>) secretion from <term id="T12" lex="peripheral_blood_mononuclear_cell" sem="Cell_natural">peripheral blood <term id="T13" lex="mononuclear_cell" sem="Cell_natural">mononuclear cells</term></term> (<term id="T14" lex="PBMC" sem="Cell_natural">PBMC</term>).</sentence>
+<event KT="Other" id="E5">
+<type class="Localization"/>
+<theme idref="T11"/>
+<clue>C5a, a potent peptide chemoattractant, stimulates interleukin-8 (IL-8) <clueType>secretion</clueType> <clueLoc>from peripheral blood mononuclear cells (PBMC)</clueLoc>.</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="T7"/>
+<clue>C5a, a potent peptide chemoattractant, <clueType>stimulates</clueType> interleukin-8 (IL-8) secretion from peripheral blood mononuclear cells (PBMC).</clue>
+</event>
+<sentence id="S3">Experiments were conducted to understand the mechanisms for <term id="T16" lex="C5a" sem="Peptide">C5a</term>-induced <term id="T3" sem="Other"><term id="T17" lex="IL-8" sem="Protein_molecule">IL-8</term> production</term>, which was 14-fold greater than that in <term id="T18" lex="unstimulated_cell" sem="Cell_natural">unstimulated cells</term> by 2 hours.</sentence>
+<event Manner="High" id="E7">
+<type class="Gene_expression"/>
+<theme idref="T17"/>
+<clue>Experiments were conducted to understand the mechanisms for C5a-induced IL-8 <clueType>production</clueType>, which was <clueManner>14-fold greater</clueManner> than that in unstimulated cells by 2 hours.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="T16"/>
+<clue>Experiments were conducted to understand the mechanisms for C5a-<clueType>induced</clueType> IL-8 production, which was 14-fold greater than that in unstimulated cells by 2 hours.</clue>
+</event>
+<sentence id="S4"><term id="T19" lex="IL-8_secretion" sem="Other"><term id="T20" lex="IL-8" sem="Protein_molecule">IL-8</term> secretion</term> was accompanied by accumulation of <term id="T21" lex="IL-8_mRNA" sem="RNA_molecule"><term id="T22" lex="IL-8" sem="Protein_molecule">IL-8</term> mRNA</term> in the cytosol and by <term id="T23" lex="nuclear_expression" sem="Other"><term id="T15" sem="Cell_component">nuclear</term> expression</term> of a <term id="T24" lex="kappaB_DNA_binding_activity" sem="Other"><term id="T25" lex="kappaB" sem="Protein_complex">kappaB</term> <term id="T68" sem="DNA_molecule">DNA</term> binding activity</term> within 30 minutes.</sentence>
+<event id="E9">
+<type class="Localization"/>
+<theme idref="T20"/>
+<clue>IL-8 <clueType>secretion</clueType> was accompanied by accumulation of IL-8 mRNA in the cytosol and by nuclear expression of a kappaB DNA binding activity within 30 minutes.</clue>
+</event>
+<event id="E10">
+<type class="RNA_metabolism"/>
+<theme idref="T21"/>
+<clue>IL-8 secretion was accompanied by <clueType>accumulation</clueType> <linkTheme>of</linkTheme> IL-8 mRNA <clueLoc>in the cytosol</clueLoc> and by nuclear expression of a kappaB DNA binding activity within 30 minutes.</clue>
+</event>
+<event id="E11">
+<type class="Binding"/>
+<theme idref="T25"/>
+<clue>IL-8 secretion was accompanied by accumulation of IL-8 mRNA in the cytosol and by nuclear expression of a kappaB DNA <clueType>binding</clueType> activity within 30 minutes.</clue>
+<comment>NER T25 mod</comment></event>
+<event id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<clue>IL-8 secretion was accompanied by accumulation of IL-8 mRNA in the cytosol and by <clueLoc>nuclear</clueLoc> <clueType>expression</clueType> <linkTheme>of</linkTheme> a kappaB DNA binding activity <clueTime>within 30 minutes</clueTime>.</clue>
+</event>
+<event id="E13">
+<type class="Correlation"/>
+<theme idref="E9"/>
+<theme idref="E10"/>
+<clue>IL-8 secretion was <clueType>accompanied</clueType> <linkTheme>by</linkTheme> accumulation of IL-8 mRNA in the cytosol and by nuclear expression of a kappaB DNA binding activity within 30 minutes.</clue>
+</event>
+<event id="E14">
+<type class="Correlation"/>
+<theme idref="E9"/>
+<theme idref="E12"/>
+<clue>IL-8 secretion was <clueType>accompanied</clueType> by accumulation of IL-8 mRNA in the cytosol and <linkTheme>by</linkTheme> nuclear expression of a kappaB DNA binding activity within 30 minutes.</clue>
+</event>
+<sentence id="S5"><term id="T26" lex="AP-1" sem="Protein_molecule">AP-1</term> but not <term id="T27" lex="NF-IL-6_DNA_binding_activity" sem="Other"><term id="T28" lex="NF-IL-6" sem="Protein_molecule">NF-IL-6</term> <term id="A1" sem="DNA_domain_or_region">DNA</term> binding activity</term> was also detected in <term id="T30" lex="C5a" sem="Peptide">C5a</term>-stimulated <term id="T31" lex="PBMC" sem="Cell_natural">PBMC</term>; however, its delayed expression (maximal at 4 hours) suggested a less important role in the rapid production of <term id="T32" lex="IL-8" sem="Protein_molecule">IL-8</term>.</sentence>
+<event id="E15">
+<type class="Binding"/>
+<theme idref="T26"/>
+<theme idref="A1"/>
+<clue>AP-1 but not NF-IL-6 DNA <clueType>binding</clueType> activity was also detected in C5a-stimulated PBMC; however, its delayed expression (maximal at 4 hours) suggested a less important role in the rapid production of IL-8.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Binding"/>
+<theme idref="T28"/>
+<theme idref="A1"/>
+<clue>AP-1 but not NF-IL-6 DNA <clueType>binding</clueType> activity was also detected in C5a-stimulated PBMC; however, its delayed expression (maximal at 4 hours) suggested a less important role in the rapid production of IL-8.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<clue>AP-1 but not NF-IL-6 DNA binding activity was also <clueType><clueKT>detected</clueKT></clueType> <clueLoc>in C5a-stimulated PBMC</clueLoc>; however, its delayed expression (maximal at 4 hours) suggested a less important role in the rapid production of IL-8.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<clue>AP-1 but <cluePolarity>not</cluePolarity> NF-IL-6 DNA binding activity was also <clueType><clueKT>detected</clueKT></clueType> <clueLoc>in C5a-stimulated PBMC</clueLoc>; however, its delayed expression (maximal at 4 hours) suggested a less important role in the rapid production of IL-8.</clue>
+</event>
+<event id="E19">
+<type class="Physiological_process"/>
+<theme idref="T31"/>
+<cause idref="T30"/>
+<clue>AP-1 but not NF-IL-6 DNA binding activity was also detected in C5a-<clueType>stimulated</clueType> PBMC; however, its delayed expression (maximal at 4 hours) suggested a less important role in the rapid production of IL-8.</clue>
+</event>
+<event id="E20">
+<type class="Gene_expression"/>
+<theme idref="T26"/>
+<clue>AP-1 but not NF-IL-6 DNA binding activity was also detected in C5a-stimulated PBMC; however, <corefTheme>its</corefTheme> <clueTime>delayed</clueTime> <clueType>expression</clueType> (maximal at 4 hours) suggested a less important role in the rapid production of IL-8.</clue>
+</event>
+<event KT="Other" Manner="High" id="E21">
+<type class="Gene_expression"/>
+<theme idref="T32"/>
+<clue>AP-1 but not NF-IL-6 DNA binding activity was also detected in C5a-stimulated PBMC; however, its delayed expression (maximal at 4 hours) suggested a less important role in the <clueTime><clueManner>rapid</clueManner></clueTime> <clueType>production</clueType> <linkTheme>of</linkTheme> IL-8.</clue>
+</event>
+<event CL="L2" KT="Analysis" Manner="Low" assertion="non-exist" id="E22" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E21"/>
+<cause idref="E20"/>
+<clue>AP-1 but not NF-IL-6 DNA binding activity was also detected in C5a-stimulated PBMC; however, its delayed expression (maximal at 4 hours) <clueKT><clueCL>suggested</clueCL></clueKT> a <clueManner>less important</clueManner> <clueType>role</clueType> <linkTheme>in</linkTheme> the rapid production of IL-8.</clue>
+</event>
+<sentence id="S6">The correlation between <term id="T34" lex="C5a" sem="Peptide">C5a</term>-induced <term id="T29" sem="Other"><term id="T35" lex="kappaB" sem="Protein_complex">kappaB</term> binding activity</term> and <term id="T36" lex="IL-8_gene_expression" sem="Other"><term id="T37" lex="IL-8" sem="DNA_domain_or_region">IL-8 gene</term> expression</term> was examined in the <term id="T38" lex="RAW264.7_macrophage_cell" sem="Cell_cultured">RAW264.7 macrophage cells</term> using reporter genes directed by the <term id="T39" lex="kappaB_sequence" sem="DNA_domain_or_region">kappaB sequence</term> from <term id="T40" lex="IkappaBalpha" sem="Protein_molecule">IkappaBalpha</term> and <term id="T41" lex="IL-8_promoter_region" sem="DNA_domain_or_region"><term id="T42" lex="IL-8" sem="Protein_molecule">IL-8</term> promoter regions</term>.</sentence>
+<event KT="Other" id="E23">
+<type class="Binding"/>
+<theme idref="T35"/>
+<clue>The correlation between C5a-induced kappaB <clueType>binding</clueType> activity and IL-8 gene expression was examined in the RAW264.7 macrophage cells using reporter genes directed by the kappaB sequence from IkappaBalpha and IL-8 promoter regions.</clue>
+<comment>NER T35 mod</comment></event>
+<event KT="Other" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E23"/>
+<cause idref="T34"/>
+<clue>The correlation between C5a-<clueType>induced</clueType> kappaB binding activity and IL-8 gene expression was examined in the RAW264.7 macrophage cells using reporter genes directed by the kappaB sequence from IkappaBalpha and IL-8 promoter regions.</clue>
+</event>
+<event KT="Other" id="E25">
+<type class="Gene_expression"/>
+<theme idref="T37"/>
+<clue>The correlation between C5a-induced kappaB binding activity and IL-8 gene <clueType>expression</clueType> was examined in the RAW264.7 macrophage cells using reporter genes directed by the kappaB sequence from IkappaBalpha and IL-8 promoter regions.</clue>
+<comment>NER T37 mod</comment></event>
+<event KT="Investigation" id="E26" uncertainty="doubtful">
+<type class="Correlation"/>
+<theme idref="E24"/>
+<theme idref="E25"/>
+<clue>The <clueType>correlation</clueType> <linkTheme>between</linkTheme> C5a-induced kappaB binding activity and IL-8 gene expression was <clueKT>examined</clueKT> <clueLoc>in the RAW264.7 macrophage cells</clueLoc> using reporter genes directed by the kappaB sequence from IkappaBalpha and IL-8 promoter regions.</clue>
+</event>
+<sentence id="S7"><term id="T44" lex="C5a" sem="Peptide">C5a</term>-induced <term id="T33" sem="Other"><term id="T45" lex="reporter_gene" sem="DNA_family_or_group">reporter gene</term> expression</term> was abolished by introducing mutations into the <term id="T46" lex="kappaB_site" sem="DNA_domain_or_region">kappaB sites</term> and by coexpression of a <term id="T47" lex="dominant_negative_IkappaBalpha_construct" sem="DNA_molecule">dominant negative <term id="T48" lex="IkappaBalpha" sem="Protein_molecule">IkappaBalpha</term> construct</term> resistant to <term id="A3" sem="Other">agonist</term>-induced <term id="A4" sem="Other">phosphorylation</term>.</sentence>
+<event KT="Other" id="E48">
+<type class="Gene_expression"/>
+<theme idref="T45"/>
+<clue>C5a-induced reporter gene expression was abolished by introducing mutations into the kappaB sites and by coexpression of a dominant negative IkappaBalpha construct resistant to agonist-induced phosphorylation.</clue>
+</event>
+<event KT="Other" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="E48"/>
+<cause idref="T44"/>
+<clue>C5a-<clueType>induced</clueType> reporter gene expression was abolished by introducing mutations into the kappaB sites and by coexpression of a dominant negative IkappaBalpha construct resistant to agonist-induced phosphorylation.</clue>
+</event>
+<event KT="Method" id="E28">
+<type class="Mutagenesis"/>
+<theme idref="T46"/>
+<clue>C5a-induced reporter gene expression was abolished by <clueType>introducing mutations</clueType> <linkTheme>into</linkTheme> the kappaB sites and by coexpression of a dominant negative IkappaBalpha construct resistant to agonist-induced phosphorylation.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event id="E29">
+<type class="Positive_regulation"/>
+<theme idref="E27"/>
+<cause idref="E28"/>
+<clue>C5a-induced reporter gene expression was <clueType>abolished</clueType> <linkCause>by</linkCause> introducing mutations into the kappaB sites and by coexpression of a dominant negative IkappaBalpha construct resistant to agonist-induced phosphorylation.</clue>
+</event>
+<event id="E30">
+<type class="Gene_expression"/>
+<theme idref="T47"/>
+<clue>C5a-induced reporter gene expression was abolished by introducing mutations into the kappaB sites and by <clueType>coexpression</clueType> <linkTheme>of</linkTheme> a dominant negative IkappaBalpha construct resistant to agonist-induced phosphorylation.</clue>
+</event>
+<event id="E31">
+<type class="Negative_regulation"/>
+<theme idref="E27"/>
+<cause idref="E30"/>
+<clue>C5a-induced reporter gene expression was <clueType>abolished</clueType> by introducing mutations into the kappaB sites and <linkCause>by</linkCause> coexpression of a dominant negative IkappaBalpha construct resistant to agonist-induced phosphorylation.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation"/>
+<theme idref="A4"/>
+<cause idref="A3"/>
+<clue>C5a-induced reporter gene expression was abolished by introducing mutations into the kappaB sites and by coexpression of a dominant negative IkappaBalpha construct resistant to agonist-<clueType>induced</clueType> phosphorylation.</clue>
+</event>
+<event id="E33">
+<type/>
+<theme idref="T47"/>
+<cause idref="E32"/>
+<clue>C5a-induced reporter gene expression was abolished by introducing mutations into the kappaB sites and by coexpression of a dominant negative IkappaBalpha construct <clueType>resistant</clueType> <linkCause>to</linkCause> agonist-induced phosphorylation.</clue>
+<comment>RESISTANCE</comment></event>
+<sentence id="S8"><term id="T50" lex="pertussis_toxin" sem="Organic_compound_other">Pertussis toxin</term>, which <term id="T51" lex="ADP" sem="Nucleotide">ADP</term>-ribosylates the <term id="T52" lex="Gi_protein" sem="Protein_family_or_group">Gi proteins</term> known to couple to the <term id="T53" lex="C5a_receptor" sem="Protein_molecule"><term id="T54" lex="C5a" sem="Peptide">C5a</term> receptor</term>, produced minimal inhibition of <term id="T56" lex="C5a" sem="Peptide">C5a</term>-induced <term id="T43" sem="Other"><term id="T57" lex="IL-8" sem="Protein_molecule">IL-8</term> expression</term> and had little effect on <term id="T59" lex="C5a" sem="Peptide">C5a</term>-induced <term id="T49" sem="Other"><term id="T60" lex="calcium" sem="Element">calcium</term> mobilization</term> in <term id="T61" lex="RAW264.7_cell" sem="Cell_cultured">RAW264.7 cells</term>.</sentence>
+<event KT="Fact" id="E34">
+<type class="Binding"/>
+<theme idref="T52"/>
+<theme idref="T53"/>
+<clue>Pertussis toxin, which ADP-ribosylates the Gi proteins <clueKT>known</clueKT> to <clueType>couple</clueType> <linkTheme>to</linkTheme> the C5a receptor, produced minimal inhibition of C5a-induced IL-8 expression and had little effect on C5a-induced calcium mobilization in RAW264.7 cells.</clue>
+</event>
+<event KT="Fact" id="E35">
+<type class="Protein_modification"/>
+<theme idref="T52"/>
+<clue>Pertussis toxin, which <clueType>ADP-ribosylates</clueType> the Gi proteins known to couple to the C5a receptor, produced minimal inhibition of C5a-induced IL-8 expression and had little effect on C5a-induced calcium mobilization in RAW264.7 cells.</clue>
+</event>
+<event KT="Fact" id="E135">
+<type class="Positive_regulation"/>
+<theme idref="E35"/>
+<cause idref="T50"/>
+<clue>Pertussis toxin, which <clueType>ADP-ribosylates</clueType> the Gi proteins known to couple to the C5a receptor, produced minimal inhibition of C5a-induced IL-8 expression and had little effect on C5a-induced calcium mobilization in RAW264.7 cells.</clue>
+</event>
+<event id="E36">
+<type class="Gene_expression"/>
+<theme idref="T57"/>
+<clue>Pertussis toxin, which ADP-ribosylates the Gi proteins known to couple to the C5a receptor, produced minimal inhibition of C5a-induced IL-8 <clueType>expression</clueType> and had little effect on C5a-induced calcium mobilization in RAW264.7 cells.</clue>
+</event>
+<event id="E37">
+<type class="Positive_regulation"/>
+<theme idref="E36"/>
+<cause idref="T56"/>
+<clue>Pertussis toxin, which ADP-ribosylates the Gi proteins known to couple to the C5a receptor, produced minimal inhibition of C5a-<clueType>induced</clueType> IL-8 expression and had little effect on C5a-induced calcium mobilization in RAW264.7 cells.</clue>
+</event>
+<event Manner="Low" assertion="non-exist" id="E38">
+<type class="Negative_regulation"/>
+<theme idref="E37"/>
+<cause idref="T50"/>
+<clue>Pertussis toxin, which ADP-ribosylates the Gi proteins known to couple to the C5a receptor, produced <clueManner>minimal</clueManner> <clueType>inhibition</clueType> <linkTheme>of</linkTheme> C5a-induced IL-8 expression and had little effect on C5a-induced calcium mobilization in RAW264.7 cells.</clue>
+</event>
+<event id="E39">
+<type class="Localization"/>
+<theme idref="T60"/>
+<clue>Pertussis toxin, which ADP-ribosylates the Gi proteins known to couple to the C5a receptor, produced minimal inhibition of C5a-induced IL-8 expression and had little effect on C5a-induced calcium <clueType>mobilization</clueType> in RAW264.7 cells.</clue>
+</event>
+<event id="E40">
+<type class="Positive_regulation"/>
+<theme idref="E39"/>
+<cause idref="T59"/>
+<clue>Pertussis toxin, which ADP-ribosylates the Gi proteins known to couple to the C5a receptor, produced minimal inhibition of C5a-induced IL-8 expression and had little effect on C5a-<clueType>induced</clueType> calcium mobilization <clueLoc>in RAW264.7 cells</clueLoc>.</clue>
+</event>
+<event Manner="Low" assertion="non-exist" id="E41">
+<type class="Regulation"/>
+<theme idref="E40"/>
+<cause idref="T50"/>
+<clue>Pertussis toxin, which ADP-ribosylates the Gi proteins known to couple to the C5a receptor, produced minimal inhibition of C5a-induced IL-8 expression and <clueType>had</clueType> <clueManner>little</clueManner> <clueType>effect</clueType> <linkTheme>on</linkTheme> C5a-induced calcium mobilization in RAW264.7 cells.</clue>
+</event>
+<sentence id="S9">These results suggest that <term id="T62" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activation is required for <term id="T63" lex="C5a" sem="Peptide">C5a</term>-induced <term id="T64" lex="IL-8_gene_expression" sem="Other"><term id="T65" lex="IL-8" sem="DNA_domain_or_region">IL-8 gene</term> expression</term> and that this response is mediated primarily through a <term id="T66" lex="pertussis_toxin-insensitive_pathway" sem="Other"><term id="T67" lex="pertussis_toxin" sem="Organic_compound_other">pertussis toxin</term>-insensitive <term id="A5" sem="Other">pathway</term></term>.</sentence>
+<event id="E42">
+<type class="Positive_regulation"/>
+<theme idref="T62"/>
+<clue>These results suggest that NF-kappaB <clueType>activation</clueType> is required for C5a-induced IL-8 gene expression and that this response is mediated primarily through a pertussis toxin-insensitive pathway.</clue>
+</event>
+<event KT="Other" id="E43">
+<type class="Gene_expression"/>
+<theme idref="T65"/>
+<clue>These results suggest that NF-kappaB activation is required for C5a-induced IL-8 gene <clueType>expression</clueType> and that this response is mediated primarily through a pertussis toxin-insensitive pathway.</clue>
+<comment>NER T65 mod</comment></event>
+<event KT="Other" id="E44">
+<type class="Positive_regulation"/>
+<theme idref="E43"/>
+<cause idref="T63"/>
+<clue>These results suggest that NF-kappaB activation is required for C5a-<clueType>induced</clueType> IL-8 gene expression and that this response is mediated primarily through a pertussis toxin-insensitive pathway.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E45" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="E42"/>
+<theme idref="E44"/>
+<clue>These results <clueKT><clueCL>suggest</clueCL></clueKT> that NF-kappaB activation is <clueType>required</clueType> <linkTheme>for</linkTheme> C5a-induced IL-8 gene expression and that this response is mediated primarily through a pertussis toxin-insensitive pathway.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E46">
+<type/>
+<theme idref="T67"/>
+<theme idref="A5"/>
+<clue>These results suggest that NF-kappaB activation is required for C5a-induced IL-8 gene expression and that this response is mediated primarily through a pertussis toxin-<clueType><cluePolarity>insensitive</cluePolarity></clueType> pathway.</clue>
+<comment>SENSITIVITY</comment></event>
+<event CL="L2" KT="Analysis" id="E47" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E45"/>
+<cause idref="T66"/>
+<clue>These results <clueKT><clueCL>suggest</clueCL></clueKT> that NF-kappaB activation is required for C5a-induced IL-8 gene expression and that <corefTheme>this response</corefTheme> is <clueType>mediated</clueType> primarily <linkCause>through</linkCause> a pertussis toxin-insensitive pathway.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

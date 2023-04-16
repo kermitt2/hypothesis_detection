@@ -1,0 +1,23 @@
+T18	Adverse_effect 36 47	exacerbated
+T19	Potential_therapeutic_effect 109 113	used
+T20	Adverse_effect 701 708	induced
+T24	Adverse_effect 356 367	aggravating
+T25	Adverse_effect 430 436	induce
+T28	Adverse_effect 489 497	reaction
+T29	Adverse_effect 567 571	with
+R3	Coreference Arg1:T22 Arg2:T3
+R5	Subject_Disorder Arg1:T21 Arg2:T17
+E1	Adverse_effect:T18 has_agent:T2 affects:T1
+E2	Potential_therapeutic_effect:T19 affects:T4 has_agent:T3 affects2:T5
+E3	Adverse_effect:T20 affects:T16 has_agent:T15 has_subject:T21
+E5	Adverse_effect:T24 has_agent:T7 affects:T8
+E6	Adverse_effect:T25 has_agent:T9 affects:T10 has_cue:T34
+E7	Adverse_effect:T28 has_agent:T11 has_agent:T12
+E8	Adverse_effect:T29 has_agent:T13 has_cue:T30 has_agent2:T14
+A4	Manner E8 Low
+A7	Speculated E6
+T23	Adverse_effect 223 238	adverse effects
+E4	Adverse_effect:T23 has_agent:T22
+T26	Adverse_effect 303 313	exacerbate
+E9	Adverse_effect:T26 affects:T6 has_agent:T22 has_cue:T32
+A1	Manner E9 Low

@@ -1,0 +1,304 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8608243" created="30/10/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8608243</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="AM580" sem="Organic_compound_other">AM580</term>, a stable <term id="T2" lex="benzoic_derivative" sem="Organic_compound_other">benzoic derivative</term> of <term id="T3" lex="retinoic_acid" sem="Organic_compound_other">retinoic acid</term>, has powerful and selective <term id="T4" lex="cyto-differentiating_effect" sem="Other">cyto-differentiating effects</term> on <term id="T5" lex="acute_promyelocytic_leukemia_cell" sem="Cell_cultured">acute promyelocytic leukemia cells</term>.</sentence>
+<event id="E1">
+<type class="Cell_differentiation"/>
+<theme idref="T5"/>
+<clue>AM580, a stable benzoic derivative of retinoic acid, has powerful and selective <clueType>cyto-differentiating</clueType> effects <linkTheme>on</linkTheme> acute promyelocytic leukemia cells.</clue>
+</event>
+<event id="E101">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T1"/>
+<clue>AM580, a stable benzoic derivative of retinoic acid, has powerful and selective cyto-differentiating <clueType>effects</clueType> on acute promyelocytic leukemia cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T6" lex="all-trans_retinoic_acid" sem="Organic_compound_other">All-trans retinoic acid</term> (<term id="T7" lex="ATRA" sem="Organic_compound_other">ATRA</term>) is successfully used in the <term id="T8" lex="cyto-differentiating_treatment" sem="Other">cyto-differentiating treatment</term> of <term id="T9" lex="acute_promyelocytic_leukemia" sem="Other">acute promyelocytic leukemia</term> (<term id="T10" lex="APL" sem="Other">APL</term>).</sentence>
+<event KT="Method" id="E2">
+<type class="Artificial_process"/>
+<theme idref="T10"/>
+<clue>All-trans retinoic acid (ATRA) is successfully used in the <clueType>cyto-differentiating treatment</clueType> <linkTheme>of</linkTheme> acute promyelocytic leukemia (APL).</clue>
+</event>
+<sentence id="S3">Paradoxically, <term id="T11" lex="APL_cell" sem="Cell_cultured">APL cells</term> express <term id="T12" lex="PML-RAR" sem="Protein_molecule">PML-RAR</term>, an aberrant form of the <term id="T13" lex="retinoic_acid_receptor_type_alpha" sem="Protein_molecule"><term id="T14" lex="retinoic_acid" sem="Organic_compound_other">retinoic acid</term> receptor type alpha</term> (<term id="T15" lex="RAR_alpha" sem="Protein_molecule">RAR alpha</term>) derived from the <term id="T16" lex="leukemia-specific_t(15;17)_chromosomal_translocation" sem="Other">leukemia-specific t(15;17) chromosomal translocation</term>.</sentence>
+<event KT="Fact" id="E4">
+<type class="Gene_expression"/>
+<theme idref="T12"/>
+<clue>Paradoxically, <clueLoc>APL cells</clueLoc> <clueType>express</clueType> PML-RAR, an aberrant form of the retinoic acid receptor type alpha (RAR alpha) derived from the leukemia-specific t(15;17) chromosomal translocation.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="T12"/>
+<cause idref="T16"/>
+<clue>Paradoxically, APL cells express PML-RAR, an aberrant form of the retinoic acid receptor type alpha (RAR alpha) <clueType>derived</clueType> <linkCause>from</linkCause> the leukemia-specific t(15;17) chromosomal translocation.</clue>
+<comment>NER: T16 MOD</comment></event>
+<sentence id="S4">We show here that <term id="T17" lex="AM580" sem="Organic_compound_other">AM580</term>, a stable <term id="T18" lex="retinobenzoic_derivative" sem="Organic_compound_other">retinobenzoic derivative</term> originally synthesized as a <term id="T19" lex="RAR_alpha_agonist" sem="Organic_compound_other"><term id="T20" lex="RAR_alpha" sem="Protein_molecule">RAR alpha</term> agonist</term>, is a powerful inducer of <term id="T21" lex="granulocytic_maturation" sem="Other">granulocytic maturation</term> in <term id="T22" lex="NB4" sem="Cell_cultured">NB4</term>, an <term id="T23" lex="APL-derived_cell_line" sem="Cell_cultured"><term id="T24" lex="APL" sem="Other">APL</term>-derived cell line</term>, and in <term id="T25" lex="freshly_isolated_APL_blast" sem="Cell_natural">freshly isolated APL blasts</term>.</sentence>
+<event KT="Other" id="E6">
+<type class="Cell_differentiation"/>
+<theme idref="T22"/>
+<clue>We show here that AM580, a stable retinobenzoic derivative originally synthesized as a RAR alpha agonist, is a powerful inducer of <clueType>granulocytic maturation</clueType> <linkTheme>in</linkTheme> NB4, an <corefTheme>APL-derived cell line</corefTheme>, and in freshly isolated APL blasts.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Cell_differentiation"/>
+<theme idref="T25"/>
+<clue>We show here that AM580, a stable retinobenzoic derivative originally synthesized as a RAR alpha agonist, is a powerful inducer of <clueType>granulocytic maturation</clueType> <linkTheme>in</linkTheme> NB4, an APL-derived cell line, and in freshly isolated APL blasts.</clue>
+</event>
+<event KT="Analysis" Manner="High" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="T17"/>
+<clue>We <clueKT>show</clueKT> here that AM580, a stable retinobenzoic derivative originally synthesized as a RAR alpha agonist, is a <clueManner>powerful</clueManner> <clueType>inducer</clueType> <linkTheme>of</linkTheme> granulocytic maturation in NB4, an APL-derived cell line, and in freshly isolated APL blasts.</clue>
+</event>
+<event KT="Analysis" Manner="High" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="T17"/>
+<clue>We <clueKT>show</clueKT> here that AM580, a stable retinobenzoic derivative originally synthesized as a RAR alpha agonist, is a <clueManner>powerful</clueManner> <clueType>inducer</clueType> <linkTheme>of</linkTheme> granulocytic maturation in NB4, an APL-derived cell line, and in freshly isolated APL blasts.</clue>
+</event>
+<sentence id="S5">After treatment of <term id="T26" lex="APL_cell" sem="Cell_cultured">APL cells</term> with <term id="T27" lex="AM580" sem="Organic_compound_other">AM580</term> either alone or in combination with <term id="T28" lex="granulocyte_colony-stimulating_factor" sem="Protein_molecule">granulocyte colony-stimulating factor</term> (<term id="T29" lex="G-CSF" sem="Protein_molecule">G-CSF</term>), the compound induces <term id="T30" lex="granulocytic_maturation" sem="Other">granulocytic maturation</term>, as assessed by determination of the levels of <cons id="T31" lex="(AND leukocyte_alkaline_phosphatase_mRNA CD11b_mRNA CD33_mRNA G-CSF_receptor_mRNA)" sem="(AND RNA_molecule RNA_molecule RNA_molecule RNA_molecule)"><frag id="F1"><term id="A5" sem="RNA_molecule">leukocyte alkaline phosphatase</term></frag>, <frag id="F2"><term id="A6" sem="RNA_molecule">CD11b</term></frag>, <frag id="F3"><term id="A7" sem="RNA_molecule">CD33</term></frag>, and <frag id="F4"><term id="A8" sem="RNA_molecule">G-CSF receptor</term></frag> <frag id="F5"><term id="A9" sem="RNA_molecule">mRNA</term></frag></cons>, at concentrations that are 10- to 100-fold lower than those of <term id="T32" lex="ATRA" sem="Organic_compound_other">ATRA</term> necessary to produce similar effects.</sentence>
+<event KT="Method" id="E10">
+<type class="Artificial_process"/>
+<theme idref="T26"/>
+<theme idref="T27"/>
+<clue>After <clueType>treatment</clueType> <linkTheme>of</linkTheme> APL cells <linkTheme>with</linkTheme> AM580 either alone or in combination with granulocyte colony-stimulating factor (G-CSF), the compound induces granulocytic maturation, as assessed by determination of the levels of leukocyte alkaline phosphatase, CD11b, CD33, and G-CSF receptor mRNA, at concentrations that are 10- to 100-fold lower than those of ATRA necessary to produce similar effects.</clue>
+</event>
+<event KT="Method" id="E11">
+<type class="Artificial_process"/>
+<theme idref="T26"/>
+<theme idref="T27"/>
+<theme idref="T29"/>
+<clue>After <clueType>treatment</clueType> <linkTheme>of</linkTheme> APL cells <linkTheme>with</linkTheme> AM580 either alone or <linkTheme>in combination with</linkTheme> granulocyte colony-stimulating factor (G-CSF), the compound induces granulocytic maturation, as assessed by determination of the levels of leukocyte alkaline phosphatase, CD11b, CD33, and G-CSF receptor mRNA, at concentrations that are 10- to 100-fold lower than those of ATRA necessary to produce similar effects.</clue>
+</event>
+<event Manner="Low" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="T30"/>
+<cause idref="E10"/>
+<clue>After treatment of APL cells with AM580 either alone or in combination with granulocyte colony-stimulating factor (G-CSF), <corefCause>the compound</corefCause> <clueType>induces</clueType> granulocytic maturation, <clueExperiment>as assessed by determination of the levels of leukocyte alkaline phosphatase, CD11b, CD33, and G-CSF receptor mRNA</clueExperiment>, at concentrations that are <clueManner>10- to 100-fold lower</clueManner> than those of ATRA necessary to produce similar effects.</clue>
+</event>
+<event Manner="Low" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T30"/>
+<cause idref="E11"/>
+<clue>After treatment of APL cells with AM580 either alone or in combination with granulocyte colony-stimulating factor (G-CSF), <corefCause>the compound</corefCause> <clueType>induces</clueType> granulocytic maturation, <clueExperiment>as assessed by determination of the levels of leukocyte alkaline phosphatase, CD11b, CD33, and G-CSF receptor mRNA</clueExperiment>, at concentrations that are <clueManner>10- to 100-fold lowe</clueManner>r than those of ATRA necessary to produce similar effects.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="T30"/>
+<cause idref="T32"/>
+<clue>After treatment of APL cells with AM580 either alone or in combination with granulocyte colony-stimulating factor (G-CSF), the compound induces granulocytic maturation, as assessed by determination of the levels of leukocyte alkaline phosphatase, CD11b, CD33, and G-CSF receptor mRNA, at concentrations that are 10- to 100-fold lower than those of ATRA necessary to <clueType>produce</clueType> <corefTheme>similar effects</corefTheme>.</clue>
+</event>
+<sentence id="S6">By contrast, <term id="T33" lex="AM580" sem="Organic_compound_other">AM580</term> is not effective as <term id="T34" lex="ATRA" sem="Organic_compound_other">ATRA</term> in modulating the expression of these <term id="T35" lex="differentiation_marker" sem="Protein_family_or_group">differentiation markers</term> in the <term id="T36" lex="HL-60_cell_line" sem="Cell_cultured">HL-60 cell line</term> and in <term id="T37" lex="freshly_isolated_granulocyte" sem="Cell_natural">freshly isolated granulocytes</term> obtained from the <term id="T38" lex="peripheral_blood" sem="Tissue_natural">peripheral blood</term> of <term id="T39" lex="chronic_myelogenous_leukemia_patient" sem="Multicellular_organism_natural">chronic myelogenous leukemia patients</term> during the stable phase of the disease.</sentence>
+<event KT="Other" id="E15">
+<type class="Gene_expression"/>
+<theme idref="A5"/>
+<clue>By contrast, AM580 is not effective as ATRA in modulating the <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>these differentiation markers</corefTheme> in the HL-60 cell line and in freshly isolated granulocytes obtained from the peripheral blood of chronic myelogenous leukemia patients during the stable phase of the disease.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Gene_expression"/>
+<theme idref="A6"/>
+<clue>By contrast, AM580 is not effective as ATRA in modulating the <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>these differentiation markers</corefTheme> in the HL-60 cell line and in freshly isolated granulocytes obtained from the peripheral blood of chronic myelogenous leukemia patients during the stable phase of the disease.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Gene_expression"/>
+<theme idref="A7"/>
+<clue>By contrast, AM580 is not effective as ATRA in modulating the <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>these differentiation markers</corefTheme> in the HL-60 cell line and in freshly isolated granulocytes obtained from the peripheral blood of chronic myelogenous leukemia patients during the stable phase of the disease.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Gene_expression"/>
+<theme idref="A8"/>
+<clue>By contrast, AM580 is not effective as ATRA in modulating the <clueType>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>these differentiation markers</corefTheme> in the HL-60 cell line and in freshly isolated granulocytes obtained from the peripheral blood of chronic myelogenous leukemia patients during the stable phase of the disease.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Regulation"/>
+<theme idref="E15"/>
+<cause idref="T33"/>
+<clue>By contrast, AM580 is not effective as ATRA in <clueType>modulating</clueType> the expression of these differentiation markers in the HL-60 cell line and in freshly isolated granulocytes obtained from the peripheral blood of chronic myelogenous leukemia patients during the stable phase of the disease.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Regulation"/>
+<theme idref="E16"/>
+<cause idref="T33"/>
+<clue>By contrast, AM580 is not effective as ATRA in <clueType>modulating</clueType> the expression of these differentiation markers in the HL-60 cell line and in freshly isolated granulocytes obtained from the peripheral blood of chronic myelogenous leukemia patients during the stable phase of the disease.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Regulation"/>
+<theme idref="E17"/>
+<cause idref="T33"/>
+<clue>By contrast, AM580 is not effective as ATRA in <clueType>modulating</clueType> the expression of these differentiation markers in the HL-60 cell line and in freshly isolated granulocytes obtained from the peripheral blood of chronic myelogenous leukemia patients during the stable phase of the disease.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Regulation"/>
+<theme idref="E18"/>
+<cause idref="T33"/>
+<clue>By contrast, AM580 is not effective as ATRA in <clueType>modulating</clueType> the expression of these differentiation markers in the HL-60 cell line and in freshly isolated granulocytes obtained from the peripheral blood of chronic myelogenous leukemia patients during the stable phase of the disease.</clue>
+</event>
+<event KT="Other" id="E23">
+<type class="Regulation"/>
+<theme idref="E15"/>
+<cause idref="T34"/>
+<clue>By contrast, AM580 is not effective as ATRA in <clueType>modulating</clueType> the expression of these differentiation markers in the HL-60 cell line and in freshly isolated granulocytes obtained from the peripheral blood of chronic myelogenous leukemia patients during the stable phase of the disease.</clue>
+</event>
+<event KT="Other" id="E24">
+<type class="Regulation"/>
+<theme idref="E16"/>
+<cause idref="T34"/>
+<clue>By contrast, AM580 is not effective as ATRA in <clueType>modulating</clueType> the expression of these differentiation markers in the HL-60 cell line and in freshly isolated granulocytes obtained from the peripheral blood of chronic myelogenous leukemia patients during the stable phase of the disease.</clue>
+</event>
+<event KT="Other" id="E25">
+<type class="Regulation"/>
+<theme idref="E17"/>
+<cause idref="T34"/>
+<clue>By contrast, AM580 is not effective as ATRA in <clueType>modulating</clueType> the expression of these differentiation markers in the HL-60 cell line and in freshly isolated granulocytes obtained from the peripheral blood of chronic myelogenous leukemia patients during the stable phase of the disease.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Regulation"/>
+<theme idref="E18"/>
+<cause idref="T34"/>
+<clue>By contrast, AM580 is not effective as ATRA in <clueType>modulating</clueType> the expression of these differentiation markers in the HL-60 cell line and in freshly isolated granulocytes obtained from the peripheral blood of chronic myelogenous leukemia patients during the stable phase of the disease.</clue>
+</event>
+<sentence id="S7">In <term id="T40" lex="NB4_cell" sem="Cell_cultured">NB4 cells</term>, two other <term id="T41" lex="synthetic_nonselective_RAR_ligand" sem="Organic_compound_other">synthetic nonselective RAR ligands</term> are capable of inducing <term id="T42" lex="LAP" sem="Protein_molecule">LAP</term> as much as <term id="T43" lex="AM580" sem="Organic_compound_other">AM580</term>, whereas <term id="T44" lex="RAR_beta-specific_ligand" sem="Organic_compound_other">RAR beta-</term> or <term id="T45" lex="RAR_gamma-specific_ligand" sem="Organic_compound_other">RAR gamma-<term id="A10" sem="Organic_compound_other">specific ligands</term></term> are totally ineffective.</sentence>
+<event CL="L2" KT="Analysis" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="T42"/>
+<cause idref="T41"/>
+<clue><clueLoc>In NB4 cells</clueLoc>, two other synthetic nonselective RAR ligands are <clueKT><clueCL>capable of</clueCL></clueKT> <clueType>inducing</clueType> LAP as much as AM580, whereas RAR beta- or RAR gamma-specific ligands are totally ineffective.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E28">
+<type class="Positive_regulation"/>
+<theme idref="T42"/>
+<cause idref="T43"/>
+<clue><clueLoc>In NB4 cells</clueLoc>, two other synthetic nonselective RAR ligands are <clueKT><clueCL>capable of</clueCL></clueKT> <clueType>inducing</clueType> LAP as much as AM580, whereas RAR beta- or RAR gamma-specific ligands are totally ineffective.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E29">
+<type class="Positive_regulation"/>
+<theme idref="T42"/>
+<cause idref="T44" idref1="A10"/>
+<clue><clueLoc>In NB4 cells</clueLoc>, two other synthetic nonselective RAR ligands are capable of <clueType>inducing</clueType> LAP as much as AM580, whereas RAR beta- or RAR gamma-specific ligands are totally <clueType><cluePolarity>ineffective</cluePolarity></clueType>.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E30">
+<type class="Positive_regulation"/>
+<theme idref="T42"/>
+<cause idref="T45"/>
+<clue><clueLoc>In NB4 cells</clueLoc>, two other synthetic nonselective RAR ligands are capable of <clueType>inducing</clueType> LAP as much as AM580, whereas RAR beta- or RAR gamma-specific ligands are totally <clueType><cluePolarity>ineffective</cluePolarity></clueType>.</clue>
+</event>
+<sentence id="S8">These results show that <term id="T46" lex="AM580" sem="Organic_compound_other">AM580</term> is more powerful than <term id="T47" lex="ATRA" sem="Organic_compound_other">ATRA</term> in modulating the expression of <term id="A11" sem="Protein_family_or_group">differentiation antigens</term> only in cells in which <term id="T48" lex="PML-RAR" sem="Protein_molecule">PML-RAR</term> is present.</sentence>
+<event KT="Other" id="E31">
+<type class="Gene_expression"/>
+<theme idref="A11"/>
+<clue>These results show that AM580 is more powerful than ATRA in modulating the <clueType>expression</clueType> <linkTheme>of</linkTheme> differentiation antigens only in cells in which PML-RAR is present.</clue>
+</event>
+<event KT="Other" id="E32">
+<type class="Regulation"/>
+<theme idref="E31"/>
+<cause idref="T46"/>
+<clue>These results show that AM580 is more powerful than ATRA in <clueType>modulating</clueType> the expression of differentiation antigens only in cells in which PML-RAR is present.</clue>
+</event>
+<event KT="Other" id="E33">
+<type class="Regulation"/>
+<theme idref="E31"/>
+<cause idref="T47"/>
+<clue>These results show that AM580 is more powerful than ATRA in <clueType>modulating</clueType> the expression of differentiation antigens only in cells in which PML-RAR is present.</clue>
+</event>
+<event KT="Analysis" id="E53">
+<type class="Regulation"/>
+<theme idref="E32"/>
+<cause idref="T46"/>
+<clue>These results <clueKT>show</clueKT> that AM580 is <clueType>more powerful</clueType> than ATRA in modulating the expression of differentiation antigens <clueLoc>only in cells in which PML-RAR is present.</clueLoc></clue>
+</event>
+<event KT="Other" id="E34">
+<type class="Gene_expression"/>
+<theme idref="T48"/>
+<clue>These results show that AM580 is more powerful than ATRA in modulating the expression of differentiation antigens only in cells in which PML-RAR is <clueType>present</clueType>.</clue>
+</event>
+<sentence id="S9">Binding experiments, using <term id="T49" lex="COS-7_cell" sem="Cell_cultured">COS-7 cells</term> transiently transfected with <term id="T50" lex="PML-RAR" sem="Protein_molecule">PML-RAR</term> and the normal <term id="T51" lex="RAR_alpha" sem="Protein_molecule">RAR alpha</term>, show that <term id="T52" lex="AM580" sem="Organic_compound_other">AM580</term> has a lower affinity than <term id="T53" lex="ATRA" sem="Organic_compound_other">ATRA</term> for both receptors.</sentence>
+<event KT="Analysis" id="E35">
+<type class="Binding"/>
+<theme idref="T52"/>
+<theme idref="T50"/>
+<clue><clueExperiment>Binding experiments, using COS-7 cells transiently transfected with PML-RAR and the normal RAR alpha</clueExperiment>, <clueKT>show</clueKT> that AM580 <clueType>has</clueType> a lower <clueType>affinity</clueType> than ATRA <linkTheme>for</linkTheme> <corefTheme idref1="T50">both receptors</corefTheme>.</clue>
+</event>
+<event KT="Analysis" id="E36">
+<type class="Binding"/>
+<theme idref="T52"/>
+<theme idref="T51"/>
+<clue><clueExperiment>Binding experiments, using COS-7 cells transiently transfected with PML-RAR and the normal RAR alpha</clueExperiment>, <clueKT>show</clueKT> that AM580 <clueType>has</clueType> a lower <clueType>affinity</clueType> than ATRA <linkTheme>for</linkTheme> <corefTheme idref1="T51">both receptors</corefTheme>.</clue>
+</event>
+<event KT="Analysis" id="E37">
+<type class="Binding"/>
+<theme idref="T53"/>
+<theme idref="T50"/>
+<clue><clueExperiment>Binding experiments, using COS-7 cells transiently transfected with PML-RAR and the normal RAR alpha</clueExperiment>, <clueKT>show</clueKT> that AM580 <clueType>has</clueType> a lower <clueType>affinity</clueType> than ATRA <linkTheme>for</linkTheme> <corefTheme idref1="T50">both receptors</corefTheme>.</clue>
+</event>
+<event KT="Analysis" id="E38">
+<type class="Binding"/>
+<theme idref="T53"/>
+<theme idref="T51"/>
+<clue><clueExperiment>Binding experiments, using COS-7 cells transiently transfected with PML-RAR and the normal RAR alpha</clueExperiment>, <clueKT>show</clueKT> that AM580 <clueType>has</clueType> a lower <clueType>affinity</clueType> than ATRA <linkTheme>for</linkTheme> <corefTheme idref1="T51">both receptors</corefTheme>.</clue>
+</event>
+<sentence id="S10">However, in the presence of <term id="T54" lex="PML-RAR" sem="Protein_molecule">PML-RAR</term>, the <term id="T55" lex="synthetic_retinoid" sem="Organic_compound_other">synthetic retinoid</term> is a much better transactivator of <term id="T56" lex="retinoic_acid-responsive_element-containing_promoter" sem="DNA_domain_or_region"><term id="T57" lex="retinoic_acid" sem="Organic_compound_other">retinoic acid</term>-responsive element-containing promoters</term> than the <term id="T58" lex="natural_retinoid" sem="Organic_compound_other">natural retinoid</term>, whereas, in the presence of <term id="T59" lex="RAR_alpha" sem="Protein_molecule">RAR alpha</term>, <term id="T60" lex="AM580" sem="Organic_compound_other">AM580</term> and <term id="T61" lex="ATRA" sem="Organic_compound_other">ATRA</term> have similar activity.</sentence>
+<event id="E41">
+<type class="Positive_regulation"/>
+<theme idref="T56"/>
+<cause idref="T55"/>
+<clue>However, in the presence of PML-RAR, the synthetic retinoid is a much better <clueType>transactivator</clueType> <linkTheme>of</linkTheme> retinoic acid-responsive element-containing promoters than the natural retinoid, whereas, in the presence of RAR alpha, AM580 and ATRA have similar activity.</clue>
+</event>
+<event id="E42">
+<type class="Positive_regulation"/>
+<theme idref="T56"/>
+<cause idref="T58"/>
+<clue>However, in the presence of PML-RAR, the synthetic retinoid is a much better <clueType>transactivator</clueType> <linkTheme>of</linkTheme> retinoic acid-responsive element-containing promoters than the natural retinoid, whereas, in the presence of RAR alpha, AM580 and ATRA have similar activity.</clue>
+</event>
+<event id="E43">
+<type class="Positive_regulation"/>
+<theme idref="E41"/>
+<cause idref="T54"/>
+<clue>However, <linkCause>in the presence of</linkCause> PML-RAR, the synthetic retinoid is a <clueType>much better</clueType> transactivator of retinoic acid-responsive element-containing promoters than the natural retinoid, whereas, in the presence of RAR alpha, AM580 and ATRA have similar activity.</clue>
+</event>
+<event id="E44">
+<type class="Positive_regulation"/>
+<theme idref="T56"/>
+<cause idref="T60"/>
+<clue>However, in the presence of PML-RAR, the synthetic retinoid is a much better <clueType>transactivator</clueType> <linkTheme>of</linkTheme> retinoic acid-responsive element-containing promoters than the natural retinoid, whereas, in the presence of RAR alpha, AM580 and ATRA have similar activity.</clue>
+</event>
+<event id="E45">
+<type class="Positive_regulation"/>
+<theme idref="T56"/>
+<cause idref="T61"/>
+<clue>However, in the presence of PML-RAR, the synthetic retinoid is a much better <clueType>transactivator</clueType> <linkTheme>of</linkTheme> retinoic acid-responsive element-containing promoters than the natural retinoid, whereas, in the presence of RAR alpha, AM580 and ATRA have similar activity.</clue>
+</event>
+<event KT="Analysis" id="E46">
+<type class="Positive_regulation"/>
+<theme idref="T56"/>
+<cause idref="T59"/>
+<cause idref="T60"/>
+<clue>However, in the presence of PML-RAR, the synthetic retinoid is a much better transactivator of retinoic acid-responsive element-containing promoters than the natural retinoid, whereas, <linkCause>in the presence of</linkCause> RAR alpha, AM580 and ATRA have <clueType><clueKT>similar</clueKT> activity</clueType>.</clue>
+<comment>CAUTION: CLUETYPE IN E44</comment></event>
+<event KT="Analysis" id="E146">
+<type class="Positive_regulation"/>
+<theme idref="T56"/>
+<cause idref="T59"/>
+<cause idref="T61"/>
+<clue>However, in the presence of PML-RAR, the synthetic retinoid is a much better transactivator of retinoic acid-responsive element-containing promoters than the natural retinoid, whereas, <linkCause>in the presence of</linkCause> RAR alpha, AM580 and ATRA have <clueType><clueKT>similar</clueKT> activity</clueType>.</clue>
+<comment>CAUTION: CLUETYPE IN E44</comment></event>
+<sentence id="S11">This may explain the strong <term id="T62" lex="cyto-differentiating_potential" sem="Other">cyto-differentiating potential</term> of <term id="T63" lex="AM580" sem="Organic_compound_other">AM580</term> in <term id="T64" lex="PML-RAR-containing_leukemic_cell" sem="Cell_natural"><term id="T65" lex="PML-RAR" sem="Protein_molecule">PML-RAR</term>-containing leukemic cells</term>.</sentence>
+<event KT="Other" id="E47">
+<type class="Gene_expression"/>
+<theme idref="T65"/>
+<clue>This may explain the strong cyto-differentiating potential of AM580 in PML-RAR-<clueType>containing</clueType> <clueLoc>leukemic cells</clueLoc>.</clue>
+</event>
+<event KT="Other" Manner="High" id="E48">
+<type class="Cell_differentiation"/>
+<theme idref="T64"/>
+<clue>This may explain the <clueManner>strong</clueManner> <clueType>cyto-differentiating</clueType> potential of AM580 in PML-RAR-containing leukemic cells.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E148">
+<type class="Positive_regulation"/>
+<theme idref="E48"/>
+<cause idref="T63"/>
+<clue>This may <clueKT>explain</clueKT> the strong cyto-differentiating <clueType><clueCL>potential</clueCL></clueType> <linkCause>of</linkCause> AM580 in PML-RAR-containing leukemic cells.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,30 @@
+T12	Adverse_effect 19 28	induction
+T18	Adverse_effect 294 301	induced
+T29	Adverse_effect 954 960	induce
+T32	Adverse_effect 133 140	therapy
+T34	Potential_therapeutic_effect 428 435	therapy
+T40	Potential_therapeutic_effect 44 53	treatment
+T49	Potential_therapeutic_effect 926 933	Therapy
+T38	Potential_therapeutic_effect 523 530	therapy
+R1	Subject_Disorder Arg1:T14 Arg2:T5
+R2	Subject_Disorder Arg1:T16 Arg2:T8
+R3	Subject_Disorder Arg1:T25 Arg2:T23
+E9	Combination:T35 has_participant:T11 has_participant:T13
+E2	Adverse_effect:T12 affects:T1 has_agent:T3 has_cue:T31
+E3	Adverse_effect:T18 has_agent:T7 affects:T6
+E5	Adverse_effect:T29 affects:T22 has_agent:T21 has_cue:T10 has_subject:T25
+E7	Adverse_effect:T32 has_subject:T14 has_agent:T4 affects:T33 has_cue:T50
+E8	Potential_therapeutic_effect:T34 has_agent:T9 has_subject:T16 affects:T8
+E11	Potential_therapeutic_effect:T40 has_agent:T3 affects:T2
+E14	Potential_therapeutic_effect:T49 has_agent:T21 affects:T23 has_subject:T25
+E1	Potential_therapeutic_effect:T38 has_subject:T36 has_agent:E9
+A4	Speculated E2
+A5	Speculated E5
+A3	Speculated E7
+T28	Potential_therapeutic_effect 133 140	therapy
+E6	Potential_therapeutic_effect:T28 has_agent:T4 affects:T5 has_subject:T14
+T30	Potential_therapeutic_effect 646 657	monotherapy
+E12	Potential_therapeutic_effect:T30 has_agent:T15 has_subject:T37
+T41	Adverse_effect 748 755	achieve
+E4	Adverse_effect:T41 affects:T17 has_subject:T37 has_agent:T15
+E10	Adverse_effect:T41 affects:T17 has_agent:E9 has_subject:T36

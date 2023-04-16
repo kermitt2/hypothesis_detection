@@ -1,0 +1,45 @@
+T33	DDI 50 61	interaction
+T47	DDI 289 301	interactions
+T3	Adverse_effect 23 37	adverse events
+T54	DDI 616 627	interaction
+T55	Adverse_effect 537 548	experienced
+T59	Adverse_effect 736 745	developed
+T65	Adverse_effect 1084 1093	developed
+T29	DDI 1531 1542	interaction
+T74	DDI 2088 2099	interaction
+T76	Potential_therapeutic_effect 2237 2246	receiving
+T40	DDI 1978 1989	interaction
+T81	Adverse_effect 1847 1852	cause
+R3	Subject_Disorder Arg1:T49 Arg2:T4
+R4	Subject_Disorder Arg1:T49 Arg2:T5
+R5	Subject_Disorder Arg1:T58 Arg2:T57
+R6	Subject_Disorder Arg1:T58 Arg2:T10
+R7	Subject_Disorder Arg1:T62 Arg2:T63
+R8	Subject_Disorder Arg1:T62 Arg2:T18
+R9	Subject_Disorder Arg1:T62 Arg2:T19
+R11	Subject_Disorder Arg1:T73 Arg2:T44
+R13	Coreference Arg1:T80 Arg2:T27
+R14	Coreference Arg1:T80 Arg2:T28
+E1	DDI:T33 has_participant:T1 has_participant:T2
+E2	DDI:T47 has_cue:T48 has_participant:T6 has_participant:T46
+E5	DDI:T54 has_participant:T8 has_participant:T7 has_cue:T56
+E7	Combination:T14 has_participant:T13 has_participant:T12 has_participant:T15
+E11	Combination:T22 has_participant:T24 has_participant:T21 has_participant:T23
+E13	DDI:T29 has_participant:T27 has_participant:T28
+E16	Combination:T71 has_participant:T80
+E17	DDI:T74 has_cue:T75 has_participant:T42 has_participant:T43
+E19	Combination:T77 has_participant:T42 has_participant:T43 has_participant:T45
+E20	DDI:T40 has_participant:T39 has_participant:T41
+E3	Adverse_effect:T3 has_agent:E1
+E6	Adverse_effect:T55 affects:T9 has_agent:E5 has_subject:T53
+E8	Adverse_effect:T59 has_agent:E7 affects:T11 has_subject:T58
+E10	Adverse_effect:T65 has_subject:T62 has_agent:E11
+E18	Potential_therapeutic_effect:T76 has_agent:T45 has_subject:T73
+E22	Adverse_effect:T81 affects:T38 has_subject:T72 has_cue:T82 has_agent:E16
+A1	Speculated E2
+A3	Speculated E5
+A8	Speculated E17
+A10	Speculated E22
+T31	Adverse_effect 2105 2120	extreme caution
+E4	Adverse_effect:T31 has_cue:T32 has_agent:E19
+A2	Speculated E4

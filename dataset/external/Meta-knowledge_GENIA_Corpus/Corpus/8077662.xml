@@ -1,0 +1,229 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8077662" created="18/07/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8077662</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Induction of <term id="T1" lex="IL-8_expression" sem="Other"><term id="T2" lex="IL-8" sem="Protein_molecule">IL-8</term> expression</term> in <term id="T3" lex="T_cell" sem="Cell_natural">T cells</term> uses the <term id="T4" lex="CD28_costimulatory_pathway" sem="Other"><term id="T5" lex="CD28" sem="Protein_molecule">CD28</term> costimulatory pathway</term>.</sentence>
+<event id="E1">
+<type class="Gene_expression"/>
+<theme idref="T2"/>
+<clue>Induction of IL-8 <clueType>expression</clueType> in T cells uses the CD28 costimulatory pathway.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<clue><clueType>Induction</clueType> <linkTheme>of</linkTheme> IL-8 expression <clueLoc>in T cells</clueLoc> uses the CD28 costimulatory pathway.</clue>
+</event>
+<event id="E3">
+<type class="Cell_communication"/>
+<theme idref="T5"/>
+<clue>Induction of IL-8 expression in T cells uses the CD28 <clueType>costimulatory pathway</clueType>.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="E3"/>
+<clue>Induction of IL-8 expression in T cells <clueType>uses</clueType> the CD28 costimulatory pathway.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T6" lex="IL-8" sem="Protein_molecule">IL-8</term>, a potent <term id="T7" lex="chemotactic_factor" sem="Protein_family_or_group">chemotactic factor</term> for <term id="T8" lex="neutrophil_granulocyte" sem="Cell_natural">neutrophil granulocytes</term> and <term id="T9" lex="lymphocyte" sem="Cell_natural">lymphocytes</term>, is a proinflammatory cytokine secreted by a variety of cell types, including <term id="T10" lex="T_cell" sem="Cell_natural">T cells</term>.</sentence>
+<event KT="Fact" id="E5">
+<type class="Localization"/>
+<theme idref="T6"/>
+<clue>IL-8, a potent chemotactic factor for neutrophil granulocytes and lymphocytes, is a <corefTheme>proinflammatory cytokine</corefTheme> <clueType>secreted</clueType> <clueLoc>by a variety of cell types, including T cells</clueLoc>.</clue>
+</event>
+<event KT="Fact" Manner="High" id="E105" uncertainty="probable">
+<type class="Biological_process"/>
+<theme idref="T8"/>
+<cause idref="T6"/>
+<clue>IL-8, a <clueManner>potent</clueManner> <clueType>chemotactic factor</clueType> <linkTheme>for</linkTheme> neutrophil granulocytes and lymphocytes, is a proinflammatory cytokine secreted by a variety of cell types, including T cells.</clue>
+</event>
+<event KT="Fact" Manner="High" id="E106" uncertainty="probable">
+<type class="Biological_process"/>
+<theme idref="T9"/>
+<cause idref="T6"/>
+<clue>IL-8, a <clueManner>potent</clueManner> <clueType>chemotactic factor</clueType> <linkTheme>for</linkTheme> neutrophil granulocytes and lymphocytes, is a proinflammatory cytokine secreted by a variety of cell types, including T cells.</clue>
+</event>
+<sentence id="S3">Stimulation of the <term id="T11" lex="CD28_cell_surface_molecule" sem="Protein_molecule"><term id="T12" lex="CD28" sem="Protein_molecule">CD28</term> cell surface molecule</term> delivers <term id="T13" lex="costimulatory_signal" sem="Other">costimulatory signals</term> essential for <term id="T14" lex="lymphokine_production" sem="Other"><term id="T15" lex="lymphokine" sem="Protein_family_or_group">lymphokine</term> production</term> in <term id="T16" lex="activated_T_cell" sem="Cell_natural">activated T cells</term> via a <term id="T17" lex="conserved_sequence_element" sem="DNA_domain_or_region">conserved sequence element</term> found in the <term id="T18" lex="promoter" sem="DNA_domain_or_region">promoter</term> of several <term id="T19" lex="lymphokine_gene" sem="DNA_family_or_group"><term id="T20" lex="lymphokine" sem="Protein_family_or_group">lymphokine</term> genes</term>.</sentence>
+<event KT="Other" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="T12"/>
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> the CD28 cell surface molecule delivers costimulatory signals essential for lymphokine production in activated T cells via a conserved sequence element found in the promoter of several lymphokine genes.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Gene_expression"/>
+<theme idref="T15"/>
+<clue>Stimulation of the CD28 cell surface molecule delivers costimulatory signals essential for lymphokine <clueType>production</clueType> <clueLoc>in activated T cells</clueLoc> via a conserved sequence element found in the promoter of several lymphokine genes.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T17"/>
+<cause idref="E9"/>
+<clue>Stimulation of the CD28 cell surface molecule delivers costimulatory signals essential for lymphokine production in activated T cells <linkCause>via</linkCause> a conserved sequence element found in the promoter of several lymphokine genes.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Fact" id="E9">
+<type class="Cell_communication"/>
+<theme idref="E6"/>
+<clue>Stimulation of the CD28 cell surface molecule <clueType>delivers costimulatory signals</clueType> essential for lymphokine production in activated T cells via a conserved sequence element found in the promoter of several lymphokine genes.</clue>
+</event>
+<event KT="Fact" id="E109">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="E8"/>
+<clue>Stimulation of the CD28 cell surface molecule delivers costimulatory signals <clueType>essential</clueType> <linkTheme>for</linkTheme> lymphokine production in activated T cells <linkCause>via</linkCause> a conserved sequence element found in the promoter of several lymphokine genes.</clue>
+</event>
+<sentence id="S4"><term id="T21" lex="Anti-CD28-stimulated_T_cell" sem="Cell_cultured"><term id="T22" lex="CD28" sem="Protein_molecule">Anti-CD28</term>-stimulated <term id="A1" sem="Cell_natural">T cells</term></term> produced significant amounts of <term id="T23" lex="IL-8" sem="Protein_molecule">IL-8</term>; additionally, costimulation with <term id="T24" lex="anti-CD3" sem="Protein_family_or_group">anti-CD3</term> and <term id="T25" lex="anti-CD28_Ab" sem="Protein_family_or_group">anti-<term id="T26" lex="CD28" sem="Protein_molecule">CD28</term> Abs</term> resulted in a synergistic induction of <term id="T27" lex="IL-8_secretion" sem="Other"><term id="T28" lex="IL-8" sem="Protein_molecule">IL-8</term> secretion</term>.</sentence>
+<event id="E10">
+<type class="Physiological_process"/>
+<theme idref="A1"/>
+<cause idref="T22"/>
+<clue>Anti-CD28-<clueType>stimulated</clueType> T cells produced significant amounts of IL-8; additionally, costimulation with anti-CD3 and anti-CD28 Abs resulted in a synergistic induction of IL-8 secretion.</clue>
+<comment>NER T22 MOD</comment></event>
+<event id="E11">
+<type class="Gene_expression"/>
+<theme idref="T23"/>
+<clue><clueLoc>Anti-CD28-stimulated T cells</clueLoc> <clueType>produced</clueType> significant amounts of IL-8; additionally, costimulation with anti-CD3 and anti-CD28 Abs resulted in a synergistic induction of IL-8 secretion.</clue>
+</event>
+<event id="E12">
+<type class="Physiological_process"/>
+<theme idref="A1"/>
+<cause idref="T24" idref1="T25"/>
+<cause idref="T26" idref1="T25"/>
+<clue>Anti-CD28-stimulated T cells produced significant amounts of IL-8; additionally, <clueType>costimulation</clueType> <linkCause>with</linkCause> anti-CD3 <linkCause>and</linkCause> anti-CD28 Abs resulted in a synergistic induction of IL-8 secretion.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event id="E13">
+<type class="Localization"/>
+<theme idref="T28"/>
+<clue>Anti-CD28-stimulated T cells produced significant amounts of IL-8; additionally, costimulation with anti-CD3 and anti-CD28 Abs resulted in a synergistic induction of IL-8 <clueType>secretion</clueType>.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<clue>Anti-CD28-stimulated T cells produced significant amounts of IL-8; additionally, costimulation with anti-CD3 and anti-CD28 Abs resulted in a <clueType>synergistic induction</clueType> <linkTheme>of</linkTheme> IL-8 secretion.</clue>
+</event>
+<event id="E15">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="E12"/>
+<clue>Anti-CD28-stimulated T cells produced significant amounts of IL-8; additionally, costimulation with anti-CD3 and anti-CD28 Abs <clueType>resulted</clueType> <linkTheme>in</linkTheme> a synergistic induction of IL-8 secretion.</clue>
+</event>
+<sentence id="S5">Sequence homology, <term id="T29" lex="single_nucleotide_mutation" sem="Nucleotide">single nucleotide mutations</term>, and <term id="T30" lex="anti-CD28_Ab_stimulation" sem="Other"><term id="T31" lex="anti-CD28_Ab" sem="Protein_family_or_group">anti-<term id="T32" lex="CD28" sem="Protein_molecule">CD28</term> Ab</term> stimulation</term> studies established that the <term id="T33" lex="NF-kappa_B-like_sequence" sem="DNA_domain_or_region"><term id="T34" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>-like sequence</term> in the <term id="T35" lex="promoter" sem="DNA_domain_or_region">promoter</term> of the <term id="T36" lex="IL-8_gene" sem="DNA_domain_or_region"><term id="T37" lex="IL-8" sem="Protein_molecule">IL-8</term> gene</term> functioned as a <term id="T38" lex="CD28_response_element" sem="DNA_domain_or_region"><term id="T39" lex="CD28" sem="Protein_molecule">CD28</term> response element</term>.</sentence>
+<event KT="Analysis" id="E16">
+<type class="Regulation"/>
+<theme idref="T33"/>
+<cause idref="T39"/>
+<clue><clueExperiment>Sequence homology, single nucleotide mutations, and anti-CD28 Ab stimulation studies</clueExperiment> <clueKT>established</clueKT> that the NF-kappa B-like sequence in the promoter of the IL-8 gene <clueType>functioned as</clueType> a CD28 <clueType>response element</clueType>.</clue>
+</event>
+<sentence id="S6">Furthermore, <term id="T40" lex="cyclosporin_A" sem="Organic_compound_other">cyclosporin A</term>, but not <term id="T41" lex="rapamycin" sem="Organic_compound_other">rapamycin</term>, blocked the synergistic induction of <term id="T42" lex="IL-8_expression" sem="Other"><term id="T43" lex="IL-8" sem="Protein_molecule">IL-8</term> expression</term> achieved with <term id="T44" lex="anti-CD3" sem="Protein_family_or_group">anti-CD3</term> and <term id="T45" lex="anti-CD28_costimulation" sem="Other"><term id="T46" lex="CD28" sem="Protein_molecule">anti-CD28</term> costimulation</term>.</sentence>
+<event KT="Other" id="E17">
+<type class="Gene_expression"/>
+<theme idref="T43"/>
+<clue>Furthermore, cyclosporin A, but not rapamycin, blocked the synergistic induction of IL-8 <clueType>expression</clueType> achieved with anti-CD3 and anti-CD28 costimulation.</clue>
+<comment>NER T46 MOD</comment></event>
+<event KT="Other" id="E18">
+<type class="Positive_regulation"/>
+<cause idref="T44"/>
+<clue>Furthermore, cyclosporin A, but not rapamycin, blocked the synergistic induction of IL-8 expression achieved with anti-CD3 and anti-CD28 <clueType>costimulation</clueType>.</clue>
+</event>
+<event KT="Other" id="E118">
+<type class="Positive_regulation"/>
+<cause idref="T46"/>
+<clue>Furthermore, cyclosporin A, but not rapamycin, blocked the synergistic induction of IL-8 expression achieved with anti-CD3 and anti-CD28 <clueType>costimulation</clueType>.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<cause idref="E18"/>
+<cause idref="E118"/>
+<clue>Furthermore, cyclosporin A, but not rapamycin, blocked the <clueType>synergistic induction</clueType> <linkTheme>of</linkTheme> IL-8 expression <linkCause>achieved with</linkCause> anti-CD3 and anti-CD28 costimulation.</clue>
+</event>
+<event id="E20">
+<type class="Negative_regulation"/>
+<theme idref="E19"/>
+<cause idref="T40"/>
+<clue>Furthermore, cyclosporin A, but not rapamycin, <clueType>blocked</clueType> the synergistic induction of IL-8 expression achieved with anti-CD3 and anti-CD28 costimulation.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E21">
+<type class="Negative_regulation"/>
+<theme idref="E19"/>
+<cause idref="T41"/>
+<clue>Furthermore, cyclosporin A, but <cluePolarity>not</cluePolarity> rapamycin, <clueType>blocked</clueType> the synergistic induction of IL-8 expression achieved with anti-CD3 and anti-CD28 costimulation.</clue>
+</event>
+<sentence id="S7">The involvement of a <term id="T47" lex="CD28_response_element" sem="DNA_domain_or_region"><term id="T48" lex="CD28" sem="Protein_molecule">CD28</term> response element</term> in the induction of <term id="T49" lex="IL-8_expression" sem="Other"><term id="T50" lex="IL-8" sem="Protein_molecule">IL-8</term> expression</term> in <term id="T51" lex="activated_T_cell" sem="Cell_natural">activated T cells</term> may provide new insights into the pathogenesis and persistence of <term id="T52" lex="immune_disorder" sem="Other">immune disorders</term> characterized by increased levels of <term id="T53" lex="IL-8" sem="Protein_molecule">IL-8</term>, such as <term id="T54" lex="psoriasis" sem="Other">psoriasis</term> and <term id="T55" lex="rheumatoid_arthritis" sem="Other">rheumatoid arthritis</term>.</sentence>
+<event KT="Other" id="E22">
+<type class="Gene_expression"/>
+<theme idref="T50"/>
+<clue>The involvement of a CD28 response element in the induction of IL-8 <clueType>expression</clueType> in activated T cells may provide new insights into the pathogenesis and persistence of immune disorders characterized by increased levels of IL-8, such as psoriasis and rheumatoid arthritis.</clue>
+</event>
+<event KT="Other" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="E22"/>
+<clue>The involvement of a CD28 response element in the <clueType>induction</clueType> <linkTheme>of</linkTheme> IL-8 expression <clueLoc>in activated T cells</clueLoc> may provide new insights into the pathogenesis and persistence of immune disorders characterized by increased levels of IL-8, such as psoriasis and rheumatoid arthritis.</clue>
+</event>
+<event KT="Other" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E23"/>
+<cause idref="T47"/>
+<clue>The <clueType>involvement</clueType> <linkCause>of</linkCause> a CD28 response element <linkTheme>in</linkTheme> the induction of IL-8 expression in activated T cells may provide new insights into the pathogenesis and persistence of immune disorders characterized by increased levels of IL-8, such as psoriasis and rheumatoid arthritis.</clue>
+</event>
+<event KT="Other" id="E25">
+<type class="Gene_expression"/>
+<theme idref="T53"/>
+<clue>The involvement of a CD28 response element in the induction of IL-8 expression in activated T cells may provide new insights into the pathogenesis and persistence of immune disorders characterized by increased <clueType>levels</clueType> <linkTheme>of</linkTheme> IL-8, such as psoriasis and rheumatoid arthritis.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="E25"/>
+<clue>The involvement of a CD28 response element in the induction of IL-8 expression in activated T cells may provide new insights into the pathogenesis and persistence of immune disorders characterized by <clueType>increased</clueType> levels of IL-8, such as psoriasis and rheumatoid arthritis.</clue>
+</event>
+<event KT="Analysis" id="E27">
+<type class="Correlation"/>
+<theme idref="T52"/>
+<theme idref="E26"/>
+<clue>The involvement of a CD28 response element in the induction of IL-8 expression in activated T cells may provide new insights into the pathogenesis and persistence of immune disorders <clueType><clueKT>characterized</clueKT></clueType> <linkTheme>by</linkTheme> increased levels of IL-8, such as psoriasis and rheumatoid arthritis.</clue>
+</event>
+<event KT="Analysis" id="E28">
+<type class="Correlation"/>
+<theme idref="T54"/>
+<theme idref="E26"/>
+<clue>The involvement of a CD28 response element in the induction of IL-8 expression in activated T cells may provide new insights into the pathogenesis and persistence of <corefTheme>immune disorders</corefTheme> <clueType><clueKT>characterized</clueKT></clueType> <linkTheme>by</linkTheme> increased levels of IL-8, such as psoriasis and rheumatoid arthritis.</clue>
+</event>
+<event KT="Analysis" id="E29">
+<type class="Correlation"/>
+<theme idref="T55"/>
+<theme idref="E26"/>
+<clue>The involvement of a CD28 response element in the induction of IL-8 expression in activated T cells may provide new insights into the pathogenesis and persistence of <corefTheme>immune disorders</corefTheme> <clueType><clueKT>characterized</clueKT></clueType> <linkTheme>by</linkTheme> increased levels of IL-8, such as psoriasis and rheumatoid arthritis.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E30">
+<type/>
+<theme idref="T52"/>
+<clue>The involvement of a CD28 response element in the induction of IL-8 expression in activated T cells <clueKT><clueCL>may</clueCL></clueKT> provide new insights into the <clueType>pathogenesis</clueType> and persistence <linkTheme>of</linkTheme> immune disorders characterized by increased levels of IL-8, such as psoriasis and rheumatoid arthritis.</clue>
+<comment>SOO</comment></event>
+<event CL="L1" KT="Analysis" id="E33">
+<type/>
+<theme idref="T52"/>
+<clue>The involvement of a CD28 response element in the induction of IL-8 expression in activated T cells <clueKT><clueCL>may</clueCL></clueKT> provide new insights into the pathogenesis and <clueType>persistence</clueType> <linkTheme>of</linkTheme> immune disorders characterized by increased levels of IL-8, such as psoriasis and rheumatoid arthritis.</clue>
+<comment>SOO</comment></event>
+<event CL="L1" KT="Analysis" id="E31">
+<type/>
+<theme idref="T54"/>
+<clue>The involvement of a CD28 response element in the induction of IL-8 expression in activated T cells <clueKT><clueCL>may</clueCL></clueKT> provide new insights into the <clueType>pathogenesis</clueType> and persistence <linkTheme>of</linkTheme> <corefTheme>immune disorders</corefTheme> characterized by increased levels of IL-8, such as psoriasis and rheumatoid arthritis.</clue>
+<comment>SOO</comment></event>
+<event CL="L1" KT="Analysis" id="E34">
+<type/>
+<theme idref="T54"/>
+<clue>The involvement of a CD28 response element in the induction of IL-8 expression in activated T cells <clueKT><clueCL>may</clueCL></clueKT> provide new insights into the pathogenesis and <clueType>persistence</clueType> <linkTheme>of</linkTheme> <corefTheme>immune disorders</corefTheme> characterized by increased levels of IL-8, such as psoriasis and rheumatoid arthritis.</clue>
+<comment>SOO</comment></event>
+<event CL="L1" KT="Analysis" id="E32">
+<type/>
+<theme idref="T55"/>
+<clue>The involvement of a CD28 response element in the induction of IL-8 expression in activated T cells <clueKT><clueCL>may</clueCL></clueKT> provide new insights into the <clueType>pathogenesis</clueType> and persistence <linkTheme>of</linkTheme> <corefTheme>immune disorders</corefTheme> characterized by increased levels of IL-8, such as psoriasis and rheumatoid arthritis.</clue>
+<comment>SOO</comment></event>
+<event CL="L1" KT="Analysis" id="E35">
+<type/>
+<theme idref="T55"/>
+<clue>The involvement of a CD28 response element in the induction of IL-8 expression in activated T cells <clueKT><clueCL>may</clueCL></clueKT> provide new insights into the pathogenesis and <clueType>persistence</clueType> <linkTheme>of</linkTheme> <corefTheme>immune disorders</corefTheme> characterized by increased levels of IL-8, such as psoriasis and rheumatoid arthritis.</clue>
+<comment>SOO</comment></event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

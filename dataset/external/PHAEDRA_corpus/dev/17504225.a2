@@ -1,0 +1,11 @@
+T16	DDI 18 29	interaction
+T19	DDI 282 293	interaction
+T27	Adverse_effect 363 372	suffering
+T31	Adverse_effect 679 689	associated
+T11	Potential_therapeutic_effect 193 196	use
+E1	DDI:T16 has_participant:T1 has_participant:T2 has_subject:T15
+E2	DDI:T19 has_participant:T5 has_participant:T6 has_subject:T14
+E7	Combination:T28 has_participant:T8 has_participant:T9
+E6	Adverse_effect:T27 has_agent:E2 affects:T7 has_subject:T14
+E9	Adverse_effect:T31 affects:T12 has_agent:E7
+E3	Potential_therapeutic_effect:T11 has_agent:T4 affects:T3 has_subject:T17

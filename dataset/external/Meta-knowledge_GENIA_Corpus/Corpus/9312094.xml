@@ -1,0 +1,186 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9312094" created="15/11/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9312094</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The <term id="T1" lex="DNA_binding_domain" sem="Protein_domain_or_region">DNA binding domain</term> of the <term id="T2" lex="A-MYB" sem="Protein_molecule">A-MYB</term> <term id="T3" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> is responsible for its <term id="T4" lex="B_cell-specific_activity" sem="Other"><term id="A1" sem="Cell_natural">B cell</term>-specific activity</term> and binds to a <term id="T5" lex="B_cell_110-kDa_nuclear_protein" sem="Protein_molecule">B cell 110-kDa nuclear protein</term>.</sentence>
+<event id="E1">
+<type class="Regulation"/>
+<cause idref="T2"/>
+<clue>The DNA binding domain of the A-MYB transcription factor is responsible for <corefCause>its</corefCause> <clueLoc>B cell-specific</clueLoc> <clueType>activity</clueType> and binds to a B cell 110-kDa nuclear protein.</clue>
+</event>
+<event id="E2">
+<type class="Correlation"/>
+<theme idref="T1"/>
+<theme idref="E1"/>
+<clue>The DNA binding domain of the A-MYB transcription factor is <clueType>responsible</clueType> <linkTheme>for</linkTheme> its B cell-specific activity and binds to a B cell 110-kDa nuclear protein.</clue>
+</event>
+<event id="E3">
+<type class="Binding"/>
+<theme idref="T1"/>
+<theme idref="T5"/>
+<clue>The DNA binding domain of the A-MYB transcription factor is responsible for its B cell-specific activity and <clueType>binds</clueType> <linkTheme>to</linkTheme> a B cell 110-kDa nuclear protein.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Expression studies as well as the use of <term id="T6" lex="transgenic_animal" sem="Multicellular_organism_genetically_modified">transgenic animals</term> have demonstrated that the <term id="T7" lex="A-MYB" sem="Protein_molecule">A-MYB</term> <term id="T8" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> plays central and specific role in the regulation of <term id="T9" lex="mature_B_cell_proliferation" sem="Other"><term id="T10" lex="mature_B_cell" sem="Cell_natural">mature B cell</term> <term id="T11" lex="proliferation" sem="Other">proliferation</term></term> and/or <term id="T12" lex="differentiation" sem="Other">differentiation</term>.</sentence>
+<event KT="Other" id="E4">
+<type class="Cellular_physiological_process"/>
+<theme idref="T10"/>
+<clue>Expression studies as well as the use of transgenic animals have demonstrated that the A-MYB transcription factor plays central and specific role in the regulation of mature B cell <clueType>proliferation</clueType> and/or differentiation.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Cell_differentiation"/>
+<theme idref="T10"/>
+<clue>Expression studies as well as the use of transgenic animals have demonstrated that the A-MYB transcription factor plays central and specific role in the regulation of mature B cell proliferation and/or <clueType>differentiation</clueType>.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Regulation"/>
+<theme idref="E4"/>
+<clue>Expression studies as well as the use of transgenic animals have demonstrated that the A-MYB transcription factor plays central and specific role in the <clueType>regulation</clueType> <linkTheme>of</linkTheme> mature B cell proliferation and/or differentiation.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Regulation"/>
+<theme idref="E5"/>
+<clue>Expression studies as well as the use of transgenic animals have demonstrated that the A-MYB transcription factor plays central and specific role in the <clueType>regulation</clueType> <linkTheme>of</linkTheme> mature B cell proliferation and/or differentiation.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E8">
+<type class="Regulation"/>
+<theme idref="E6"/>
+<cause idref="T7"/>
+<clue><clueExperiment><clueSource>Expression studies</clueSource> as well as the use of transgenic animals</clueExperiment> have <clueKT>demonstrated</clueKT> that the A-MYB transcription factor <clueType>plays central and specific role</clueType> <linkTheme>in</linkTheme> the regulation of mature B cell proliferation and/or differentiation.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E9">
+<type class="Regulation"/>
+<theme idref="E7"/>
+<cause idref="T7"/>
+<clue><clueExperiment><clueSource>Expression studies</clueSource> as well as the use of transgenic animals</clueExperiment> have <clueKT>demonstrated</clueKT> that the A-MYB transcription factor <clueType>plays central and specific role</clueType> <linkTheme>in</linkTheme> the regulation of mature B cell proliferation and/or differentiation.</clue>
+</event>
+<sentence id="S3">Furthermore, it is highly expressed in <term id="T13" lex="Burkitt&apos;s_lymphoma_cell" sem="Cell_cultured"><term id="A2" sem="Other">Burkitt&apos;s lymphoma</term> cells</term> and may participate in the pathogenesis of this disease.</sentence>
+<event KT="Fact" Manner="High" id="E10">
+<type class="Gene_expression"/>
+<theme idref="T7"/>
+<clue>Furthermore, <corefTheme>it</corefTheme> is <clueManner>highly</clueManner> <clueType>expressed</clueType> <clueLoc>in Burkitt&apos;s lymphoma cells</clueLoc> and may participate in the pathogenesis of this disease.</clue>
+</event>
+<event KT="Other" id="E11">
+<type/>
+<cause idref="A2"/>
+<clue>Furthermore, it is highly expressed in Burkitt&apos;s lymphoma cells and may participate in the <clueType>pathogenesis</clueType> <linkCause>of</linkCause> <corefCause>this disease</corefCause>.</clue>
+<comment>SOO</comment></event>
+<event CL="L1" KT="Analysis" id="E12">
+<type class="Correlation"/>
+<theme idref="T7"/>
+<theme idref="E11"/>
+<clue>Furthermore, <corefTheme>it</corefTheme> is highly expressed in Burkitt&apos;s lymphoma cells and <clueKT><clueCL>may</clueCL></clueKT> <clueType>participate</clueType> <linkTheme>in</linkTheme> the pathogenesis of this disease.</clue>
+</event>
+<sentence id="S4">We have therefore investigated the <term id="T14" lex="transcriptional_activity" sem="Other">transcriptional activity</term> of <term id="T15" lex="A-MYB" sem="Protein_molecule">A-MYB</term> and its regulation in several <term id="T16" lex="human_lymphoid_cell_line" sem="Cell_cultured">human lymphoid cell lines</term> using co-transfection assays and show that <term id="T17" lex="A-MYB" sem="Protein_molecule">A-MYB</term> is transcriptionally active in all the <term id="T19" lex="B_cell_line" sem="Cell_cultured">B cell lines</term> studied, but not in <term id="T20" lex="T_cell" sem="Cell_natural">T cells</term>.</sentence>
+<event KT="Investigation" id="E13" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<cause idref="T15"/>
+<clue>We have therefore <clueKT>investigated</clueKT> the <clueType>transcriptional activity</clueType> <linkCause>of</linkCause> A-MYB and its regulation <clueLoc>in several human lymphoid cell lines</clueLoc> using co-transfection assays and show that A-MYB is transcriptionally active in all the B cell lines studied, but not in T cells.</clue>
+</event>
+<event KT="Investigation" id="E14" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="T15"/>
+<clue>We have therefore <clueKT>investigated</clueKT> the transcriptional activity of A-MYB and <corefTheme>its</corefTheme> <clueType>regulation</clueType> <clueLoc>in several human lymphoid cell lines</clueLoc> using co-transfection assays and show that A-MYB is transcriptionally active in all the B cell lines studied, but not in T cells.</clue>
+</event>
+<event KT="Analysis" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="T17"/>
+<clue>We have <clueKT>therefore</clueKT> investigated the transcriptional activity of A-MYB and its regulation in several human lymphoid cell lines <clueExperiment>using co-transfection assays</clueExperiment> and <clueKT>show</clueKT> that A-MYB is <clueType>transcriptionally active</clueType> <clueLoc>in all the B cell lines studied</clueLoc>, but not in T cells.</clue>
+<comment>NER: T18 del &quot;transcriptionally active&quot;</comment></event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T17"/>
+<clue>We have <clueKT>therefore</clueKT> investigated the transcriptional activity of A-MYB and its regulation in several human lymphoid cell lines <clueExperiment>using co-transfection assays</clueExperiment> and <clueKT>show</clueKT> that A-MYB is <clueType>transcriptionally active</clueType> in all the B cell lines studied, but <cluePolarity>not</cluePolarity> <clueLoc>in T cells</clueLoc>.</clue>
+</event>
+<sentence id="S5">In particular the best <term id="T21" lex="responder_cell_line" sem="Cell_cultured">responder cell line</term> was the <term id="T22" lex="Burkitt&apos;s_cell_line_Namalwa" sem="Cell_cultured">Burkitt&apos;s cell line Namalwa</term>.</sentence>
+<event Manner="High" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="T17"/>
+<clue>In particular <clueManner>the best</clueManner> <clueType>responder</clueType> cell line was the <clueLoc>Burkitt&apos;s cell line Namalwa</clueLoc>.</clue>
+<comment>NO COREFCAUSE</comment></event>
+<sentence id="S6">The activity of <term id="T23" lex="A-MYB" sem="Protein_molecule">A-MYB</term> in <cons id="T24" lex="(AND_NOT B_cell T_cell)" sem="(AND_NOT Cell_natural Cell_natural)"><frag id="F1">B</frag> and not <frag id="F2">T</frag> <frag id="F3">cells</frag></cons> was observed when either an artificial construct or the <term id="T25" lex="c-MYC_promoter" sem="DNA_domain_or_region">c-MYC promoter</term> was used as a reporter.</sentence>
+<event id="E18">
+<type class="Positive_regulation"/>
+<theme idref="T23"/>
+<clue>The <clueType>activity</clueType> <linkTheme>of</linkTheme> A-MYB <clueLoc>in B</clueLoc> and not T <clueLoc>cells</clueLoc> was <clueType><clueKT>observed</clueKT></clueType> when <clueExperiment>either an artificial construct or the c-MYC promoter was used as a reporter</clueExperiment>.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="T23"/>
+<clue>The <clueType>activity</clueType> <linkTheme>of</linkTheme> A-MYB <clueLoc>in</clueLoc> B and <cluePolarity>not</cluePolarity> <clueLoc>T cells</clueLoc> was <clueType><clueKT>observed</clueKT></clueType> when <clueExperiment>either an artificial construct or the c-MYC promoter was used as a reporter</clueExperiment>.</clue>
+</event>
+<sentence id="S7">Furthermore, the <term id="T26" lex="functional_domain" sem="Protein_domain_or_region">functional domains</term> responsible for <term id="T27" lex="DNA_binding" sem="Other"><term id="A3" sem="DNA_domain_or_region">DNA</term> binding</term>, <term id="T28" lex="transactivation" sem="Other">transactivation</term>, and <term id="T29" lex="negative_regulation" sem="Other">negative regulation</term>, previously characterized in a <term id="A6" sem="Cell_natural">fibroblast context</term>, were found to have similar activity in <term id="T31" lex="B_cell" sem="Cell_natural">B cells</term>.</sentence>
+<event id="E20">
+<type class="Binding"/>
+<theme idref="A3"/>
+<theme idref="T23"/>
+<clue>Furthermore, the functional domains responsible for DNA <clueType>binding</clueType>, transactivation, and negative regulation, previously characterized in a fibroblast context, were found to have similar activity in B cells.</clue>
+<comment>NO COREFETHEME FOR T23; NER: T30 del &quot;previously characterized in a fibroblast context&quot;</comment></event>
+<event id="E21">
+<type class="Positive_regulation"/>
+<cause idref="T23"/>
+<clue>Furthermore, the functional domains responsible for DNA binding, <clueType>transactivation</clueType>, and negative regulation, previously characterized in a fibroblast context, were found to have similar activity in B cells.</clue>
+<comment>NO COREFCAUSE FOR T23</comment></event>
+<event id="E22">
+<type class="Negative_regulation"/>
+<theme idref="T23"/>
+<clue>Furthermore, the functional domains responsible for DNA binding, transactivation, and <clueType>negative regulation</clueType>, previously characterized in a fibroblast context, were found to have similar activity in B cells.</clue>
+<comment>NO COREFCAUSE FOR T23</comment></event>
+<event id="E23">
+<type class="Correlation"/>
+<theme idref="T26"/>
+<theme idref="E20"/>
+<clue>Furthermore, the functional domains <clueType>responsible</clueType> <linkTheme>for</linkTheme> DNA binding, transactivation, and negative regulation, previously characterized <clueLoc>in a fibroblast context</clueLoc>, were <clueKT>found</clueKT> to have similar activity <clueLoc>in B cells</clueLoc>.</clue>
+</event>
+<event id="E24">
+<type class="Correlation"/>
+<theme idref="T26"/>
+<theme idref="E21"/>
+<clue>Furthermore, the functional domains <clueType>responsible</clueType> <linkTheme>for</linkTheme> DNA binding, transactivation, and negative regulation, previously characterized <clueLoc>in a fibroblast context</clueLoc>, were <clueKT>found</clueKT> to have similar activity <clueLoc>in B cells</clueLoc>.</clue>
+</event>
+<event id="E25">
+<type class="Correlation"/>
+<theme idref="T26"/>
+<theme idref="E22"/>
+<clue>Furthermore, the functional domains <clueType>responsible</clueType> <linkTheme>for</linkTheme> DNA binding, transactivation, and negative regulation, previously characterized <clueLoc>in a fibroblast context</clueLoc>, were <clueKT>found</clueKT> to have similar activity <clueLoc>in B cells</clueLoc>.</clue>
+</event>
+<sentence id="S8"><term id="A5" sem="DNA_domain_or_region">The region of <term id="T32" lex="A-MYB" sem="Protein_molecule">A-MYB</term></term> responsible for the <term id="T33" lex="B_cell_specific_activity" sem="Other"><term id="A4" sem="Cell_natural">B cell</term> specific activity</term> was defined to be the <term id="T34" lex="N-terminal_218_amino_acids" sem="Protein_domain_or_region">N-terminal 218 amino acids</term> containing the <term id="T35" lex="DNA_binding_domain" sem="Protein_domain_or_region">DNA binding domain</term>.</sentence>
+<event KT="Other" id="E26">
+<type class="Regulation"/>
+<cause idref="T32"/>
+<clue>The region of A-MYB responsible for the <clueLoc>B cell specific</clueLoc> <clueType>activity</clueType> was defined to be the N-terminal 218 amino acids containing the DNA binding domain.</clue>
+<comment>NO COREFCAUSE, TPS A5</comment></event>
+<event KT="Analysis" id="E27">
+<type class="Correlation"/>
+<theme idref="A5"/>
+<theme idref="E26"/>
+<clue>The region of A-MYB <clueType>responsible</clueType> <linkTheme>for</linkTheme> the B cell specific activity was <clueKT>defined</clueKT> to be the N-terminal 218 amino acids containing the DNA binding domain.</clue>
+</event>
+<sentence id="S9">Finally, a <term id="T36" lex="110-kDa_protein" sem="Protein_molecule">110-kDa protein</term> has been identified in the <term id="T37" lex="nucleus" sem="Cell_component">nuclei</term> of all the <cons id="T38" lex="(BUT_NOT B_cell_line T_cell_line)" sem="(BUT_NOT Cell_cultured Cell_cultured)"><frag id="F4">B</frag>, but not <frag id="F5">T</frag>, <frag id="F6">cell lines</frag></cons> that specifically binds to this <term id="T39" lex="A-MYB_N-terminal_domain" sem="Protein_domain_or_region"><term id="T40" lex="A-MYB" sem="Protein_molecule">A-MYB</term> N-terminal domain</term>.</sentence>
+<event KT="Other" id="E28">
+<type class="Binding"/>
+<theme idref="T36"/>
+<theme idref="T39"/>
+<clue>Finally, a 110-kDa protein has been identified in the nuclei of all the B, but not T, cell lines that specifically <clueType>binds</clueType> <linkTheme>to</linkTheme> this A-MYB N-terminal domain.</clue>
+</event>
+<event KT="Analysis" id="E29">
+<type class="Gene_expression"/>
+<theme idref="T36"/>
+<clue>Finally, a 110-kDa protein has been <clueType><clueKT>identified</clueKT></clueType> <clueLoc>in the nuclei of all the B</clueLoc>, but not T, <clueLoc>cell lines</clueLoc> that specifically binds to this A-MYB N-terminal domain.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E30">
+<type class="Gene_expression"/>
+<theme idref="T36"/>
+<clue>Finally, a 110-kDa protein has been <clueType><clueKT>identified</clueKT></clueType> <clueLoc>in the nuclei of all the</clueLoc> B, but <cluePolarity>not</cluePolarity> <clueLoc>T, cell lines</clueLoc> that specifically binds to this A-MYB N-terminal domain.</clue>
+</event>
+<sentence id="S10">We hypothesize that this <term id="T41" lex="110-kDa_protein" sem="Protein_molecule">110-kDa protein</term> may be a functionally important <term id="T42" lex="B_cell-specific_co-activator" sem="Protein_family_or_group">B cell-specific co-activator</term> of <term id="T43" lex="A-MYB" sem="Protein_molecule">A-MYB</term>.</sentence>
+<event CL="L1" KT="Analysis" id="E31" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T43"/>
+<cause idref="T41"/>
+<clue>We <clueKT>hypothesize</clueKT> that this 110-kDa protein <clueCL>may</clueCL> be a functionally important <clueLoc>B cell-specific</clueLoc> <clueType>co-activator</clueType> <linkTheme>of</linkTheme> A-MYB.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

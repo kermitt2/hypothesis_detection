@@ -1,0 +1,234 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8444885" created="24/10/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8444885</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Suppression of a <term id="T1" lex="cellular_differentiation_program" sem="Other">cellular differentiation program</term> by <term id="T2" lex="phorbol_ester" sem="Organic_compound_other">phorbol esters</term> coincides with inhibition of binding of a <term id="T3" lex="cell-specific_transcription_factor" sem="Protein_family_or_group">cell-specific transcription factor</term> (<term id="T4" lex="NF-E2" sem="Protein_molecule">NF-E2</term>) to an <term id="T5" lex="enhancer_element" sem="DNA_domain_or_region">enhancer element</term> required for expression of an <term id="T6" lex="erythroid-specific_gene" sem="DNA_domain_or_region">erythroid-specific gene</term>.</sentence>
+<event id="E1">
+<type class="Negative_regulation"/>
+<theme idref="T1"/>
+<cause idref="T2"/>
+<clue><clueType>Suppression</clueType> <linkTheme>of</linkTheme> a cellular differentiation program <linkCause>by</linkCause> phorbol esters coincides with inhibition of binding of a cell-specific transcription factor (NF-E2) to an enhancer element required for expression of an erythroid-specific gene.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Binding"/>
+<theme idref="T4"/>
+<theme idref="T5"/>
+<clue>Suppression of a cellular differentiation program by phorbol esters coincides with inhibition of <clueType>binding</clueType> <linkTheme>of</linkTheme> a cell-specific transcription factor (NF-E2) <linkTheme>to</linkTheme> an enhancer element required for expression of an erythroid-specific gene.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation"/>
+<theme idref="E2"/>
+<clue>Suppression of a cellular differentiation program by phorbol esters coincides with <clueType>inhibition</clueType> <linkTheme>of</linkTheme> binding of a cell-specific transcription factor (NF-E2) to an enhancer element required for expression of an erythroid-specific gene.</clue>
+</event>
+<event id="E4">
+<type class="Correlation"/>
+<theme idref="E1"/>
+<theme idref="E3"/>
+<clue>Suppression of a cellular differentiation program by phorbol esters <clueType>coincides</clueType> <linkTheme>with</linkTheme> inhibition of binding of a cell-specific transcription factor (NF-E2) to an enhancer element required for expression of an erythroid-specific gene.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Gene_expression"/>
+<theme idref="T6"/>
+<clue>Suppression of a cellular differentiation program by phorbol esters coincides with inhibition of binding of a cell-specific transcription factor (NF-E2) to an enhancer element required for <clueType>expression</clueType> <linkTheme>of</linkTheme> an erythroid-specific gene.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="T5"/>
+<clue>Suppression of a cellular differentiation program by phorbol esters coincides with inhibition of binding of a cell-specific transcription factor (NF-E2) to an enhancer element <clueType>required</clueType> <linkTheme>for</linkTheme> expression of an erythroid-specific gene.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Induction by <term id="A1" sem="Protein_molecule">hemin</term> increases, while induction with <term id="T7" lex="12-O-tetradecanoylphorbol-13-acetate" sem="Organic_compound_other">12-O-tetradecanoylphorbol-13-acetate</term> (<term id="T8" lex="TPA" sem="Organic_compound_other">TPA</term>) represses, <term id="T9" lex="erythroid-specific_gene" sem="DNA_domain_or_region">erythroid-specific gene</term> expression in the <term id="T10" lex="human_cell_line_K562" sem="Cell_cultured">human cell line K562</term>.</sentence>
+<event KT="Other" id="E7">
+<type class="Positive_regulation"/>
+<cause idref="A1"/>
+<clue><clueType>Induction</clueType> <linkCause>by</linkCause> hemin increases, while induction with 12-O-tetradecanoylphorbol-13-acetate (TPA) represses, erythroid-specific gene expression in the human cell line K562.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Positive_regulation"/>
+<cause idref="T8"/>
+<clue>Induction by hemin increases, while <clueType>induction</clueType> <linkCause>with</linkCause> 12-O-tetradecanoylphorbol-13-acetate (TPA) represses, erythroid-specific gene expression in the human cell line K562.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Gene_expression"/>
+<theme idref="T9"/>
+<clue>Induction by hemin increases, while induction with 12-O-tetradecanoylphorbol-13-acetate (TPA) represses, erythroid-specific gene <clueType>expression</clueType> in the human cell line K562.</clue>
+</event>
+<event KT="Fact" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="E7"/>
+<clue>Induction by hemin <clueType>increases</clueType>, while induction with 12-O-tetradecanoylphorbol-13-acetate (TPA) represses, erythroid-specific gene expression <clueLoc>in the human cell line K562.</clueLoc></clue>
+</event>
+<event KT="Fact" id="E11">
+<type class="Negative_regulation"/>
+<theme idref="E9"/>
+<cause idref="E8"/>
+<clue>Induction by hemin increases, while induction with 12-O-tetradecanoylphorbol-13-acetate (TPA) <clueType>represses</clueType>, erythroid-specific gene expression <clueLoc>in the human cell line K562.</clueLoc></clue>
+</event>
+<sentence id="S3">We analyzed the effects of <term id="A2" sem="Protein_molecule">hemin</term> or <term id="T11" lex="TPA" sem="Organic_compound_other">TPA</term> induction on the binding and activity of <term id="T12" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term> at a <term id="T13" lex="regulatory_element" sem="DNA_domain_or_region">regulatory element</term> found within the <term id="T14" lex="transcriptional_regulatory_sequence" sem="DNA_domain_or_region">transcriptional regulatory sequences</term> of many <term id="T15" lex="erythroid-specific_gene" sem="DNA_family_or_group">erythroid-specific genes</term>.</sentence>
+<event KT="Other" id="E12">
+<type class="Binding"/>
+<theme idref="T12"/>
+<theme idref="T13"/>
+<clue>We analyzed the effects of hemin or TPA induction on the <clueType>binding</clueType> and activity <linkTheme>of</linkTheme> transcription factors <linkTheme>at</linkTheme> a regulatory element found within the transcriptional regulatory sequences of many erythroid-specific genes.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Positive_regulation"/>
+<cause idref="A2"/>
+<clue>We analyzed the effects of hemin or TPA <clueType>induction</clueType> on the binding and activity of transcription factors at a regulatory element found within the transcriptional regulatory sequences of many erythroid-specific genes.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Positive_regulation"/>
+<cause idref="T11"/>
+<clue>We analyzed the effects of hemin or TPA <clueType>induction</clueType> on the binding and activity of transcription factors at a regulatory element found within the transcriptional regulatory sequences of many erythroid-specific genes.</clue>
+</event>
+<event KT="Investigation" id="E15" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E12"/>
+<cause idref="E13"/>
+<clue>We <clueKT>analyzed</clueKT> the <clueType>effects</clueType> of hemin or TPA induction <linkTheme>on</linkTheme> the binding and activity of transcription factors at a regulatory element found within the transcriptional regulatory sequences of many erythroid-specific genes.</clue>
+</event>
+<event KT="Investigation" id="E16" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E12"/>
+<cause idref="E14"/>
+<clue>We <clueKT>analyzed</clueKT> the <clueType>effects</clueType> of hemin or TPA induction <linkTheme>on</linkTheme> the binding and activity of transcription factors at a regulatory element found within the transcriptional regulatory sequences of many erythroid-specific genes.</clue>
+</event>
+<event KT="Investigation" id="E17" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="T12"/>
+<cause idref="E13"/>
+<clue>We <clueKT>analyzed</clueKT> the <clueType>effects</clueType> of hemin or TPA induction <linkTheme>on</linkTheme> the binding and activity of transcription factors at a regulatory element found within the transcriptional regulatory sequences of many erythroid-specific genes.</clue>
+</event>
+<event KT="Investigation" id="E18" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="T12"/>
+<cause idref="E14"/>
+<clue>We <clueKT>analyzed</clueKT> the <clueType>effects</clueType> of hemin or TPA induction <linkTheme>on</linkTheme> the binding and activity of transcription factors at a regulatory element found within the transcriptional regulatory sequences of many erythroid-specific genes.</clue>
+</event>
+<sentence id="S4"><term id="T16" lex="TPA" sem="Organic_compound_other">TPA</term> induction increases the binding of <term id="T17" lex="ubiquitous_AP-1_factor" sem="Protein_family_or_group">ubiquitous AP-1 factors</term> to this element.</sentence>
+<event id="E19">
+<type class="Positive_regulation"/>
+<cause idref="T16"/>
+<clue>TPA <clueType>induction</clueType> increases the binding of ubiquitous AP-1 factors to this element.</clue>
+</event>
+<event id="E20">
+<type class="Binding"/>
+<theme idref="T13"/>
+<theme idref="T17"/>
+<clue>TPA induction increases the <clueType>binding</clueType> <linkTheme>of</linkTheme> ubiquitous AP-1 factors <linkTheme>to</linkTheme> <corefTheme idref1="T13">this element</corefTheme>.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="E19"/>
+<clue>TPA induction <clueType>increases</clueType> the binding of ubiquitous AP-1 factors to this element.</clue>
+</event>
+<sentence id="S5"><term id="T18" lex="TPA" sem="Organic_compound_other">TPA</term> induction inhibits the binding of the <term id="T19" lex="lineage_limited_transcription_factor" sem="Protein_family_or_group">lineage limited transcription factor</term> <term id="T20" lex="NF-E2" sem="Protein_molecule">NF-E2</term> to this <term id="T21" lex="transcriptional_control_element" sem="DNA_molecule">transcriptional control element</term>.</sentence>
+<event id="E22">
+<type class="Positive_regulation"/>
+<cause idref="T18"/>
+<clue>TPA <clueType>induction</clueType> inhibits the binding of the lineage limited transcription factor NF-E2 to this transcriptional control element.</clue>
+</event>
+<event KT="Other" id="E23">
+<type class="Binding"/>
+<theme idref="T13"/>
+<theme idref="T20"/>
+<clue>TPA induction inhibits the <clueType>binding</clueType> <linkTheme>of</linkTheme> the lineage limited transcription factor NF-E2 <linkTheme>to</linkTheme> <corefTheme idref1="T13">this transcriptional control element.</corefTheme></clue>
+</event>
+<sentence id="S6"><term id="T22" lex="Hemin_induction" sem="Other"><term id="A3" sem="Protein_molecule">Hemin</term> induction</term> of <term id="T23" lex="K562_cell" sem="Cell_cultured">K562 cells</term> does not facilitate the binding of <term id="T24" lex="NF-E2" sem="Protein_molecule">NF-E2</term> to its <term id="T25" lex="recognition_site" sem="DNA_substructure">recognition site</term>.</sentence>
+<event id="E24">
+<type class="Physiological_process"/>
+<theme idref="T23"/>
+<cause idref="A3"/>
+<clue>Hemin <clueType>induction</clueType> <linkTheme>of</linkTheme> K562 cells does not facilitate the binding of NF-E2 to its recognition site.</clue>
+</event>
+<event KT="Other" id="E25">
+<type class="Binding"/>
+<theme idref="T24"/>
+<theme idref="T25"/>
+<clue>Hemin induction of K562 cells does not facilitate the <clueType>binding</clueType> <linkTheme>of</linkTheme> NF-E2 <linkTheme>to</linkTheme> its recognition site.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="E25"/>
+<cause idref="E24"/>
+<clue>Hemin induction of K562 cells does <cluePolarity>not</cluePolarity> <clueType>facilitate</clueType> the binding of NF-E2 to its recognition site.</clue>
+</event>
+<sentence id="S7"><term id="A4" sem="Protein_molecule">Hemin</term> induction appears to nonspecifically increase the expression of <term id="A5" sem="DNA_domain_or_region">transiently transfected genes</term> in <term id="T26" lex="K562_cell" sem="Cell_cultured">K562 cells</term>.</sentence>
+<event KT="Other" id="E27">
+<type class="Gene_expression"/>
+<theme idref="A5"/>
+<clue>Hemin induction appears to nonspecifically increase the <clueType>expression</clueType> <linkTheme>of</linkTheme> transiently transfected genes in K562 cells.</clue>
+</event>
+<event KT="Other" id="E28" uncertainty="probable">
+<type class="Positive_regulation"/>
+<cause idref="A4"/>
+<clue>Hemin <clueType>induction</clueType> appears to nonspecifically increase the expression of transiently transfected genes in K562 cells.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E29">
+<type class="Positive_regulation"/>
+<theme idref="E27"/>
+<cause idref="E28"/>
+<clue>Hemin induction <clueKT><clueCL>appears</clueCL></clueKT> to nonspecifically <clueType>increase</clueType> the expression of transiently transfected genes in K562 cells.</clue>
+</event>
+<sentence id="S8">Beyond this nonspecific increase in <term id="A6" sem="Other">gene expression</term>, <term id="T27" lex="hemin_induction" sem="Other"><term id="T28" lex="hemin" sem="Protein_molecule">hemin</term> induction</term> acts to increase the activity of the <term id="T29" lex="lineage_limited_transcription_factor" sem="Protein_family_or_group">lineage limited transcription factor</term> <term id="A7" sem="Protein_molecule">NF-E2</term>.</sentence>
+<event id="E30">
+<type class="Positive_regulation"/>
+<cause idref="T28"/>
+<clue>Beyond this nonspecific increase in gene expression, hemin <clueType>induction</clueType> acts to increase the activity of the lineage limited transcription factor NF-E2.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation"/>
+<theme idref="A6"/>
+<cause idref="E30"/>
+<clue>Beyond this nonspecific <clueType>increase</clueType> <linkTheme>in</linkTheme> gene expression, hemin induction acts to increase the activity of the lineage limited transcription factor NF-E2.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation"/>
+<theme idref="A7"/>
+<cause idref="E30"/>
+<clue>Beyond this nonspecific increase in gene expression, hemin induction acts to <clueType>increase</clueType> the activity of the lineage limited transcription factor NF-E2.</clue>
+</event>
+<sentence id="S9">The divergent effects of <term id="T30" lex="hemin" sem="Protein_molecule">hemin</term> and <term id="T31" lex="TPA" sem="Organic_compound_other">TPA</term> on <term id="A8" sem="Other">gene expression</term> in <term id="T32" lex="K562_cell" sem="Cell_cultured">K562 cells</term> are mediated, in part, by their contrasting effects on the <term id="T33" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> <term id="T34" lex="NF-E2" sem="Protein_molecule">NF-E2</term>.</sentence>
+<event id="E33">
+<type class="Regulation"/>
+<theme idref="A8"/>
+<cause idref="T30"/>
+<clue>The divergent <clueType>effects</clueType> <linkCause>of</linkCause> hemin and TPA <linkTheme>on</linkTheme> gene expression <clueLoc>in K562 cells</clueLoc> are mediated, in part, by their contrasting effects on the transcription factor NF-E2.</clue>
+<comment>NER: T30 MOD</comment></event>
+<event id="E34">
+<type class="Regulation"/>
+<theme idref="A8"/>
+<cause idref="T31"/>
+<clue>The divergent <clueType>effects</clueType> <linkCause>of</linkCause> hemin and TPA <linkTheme>on</linkTheme> gene expression <clueLoc>in K562 cells</clueLoc> are mediated, in part, by their contrasting effects on the transcription factor NF-E2.</clue>
+</event>
+<event id="E35">
+<type class="Regulation"/>
+<theme idref="T34"/>
+<cause idref="T30"/>
+<clue>The divergent effects of hemin and TPA on gene expression in K562 cells are mediated, in part, by <corefCause>their</corefCause> contrasting <clueType>effects</clueType> <linkTheme>on</linkTheme> the transcription factor NF-E2.</clue>
+</event>
+<event id="E36">
+<type class="Regulation"/>
+<theme idref="T34"/>
+<cause idref="T31"/>
+<clue>The divergent effects of hemin and TPA on gene expression in K562 cells are mediated, in part, by <corefCause>their</corefCause> contrasting <clueType>effects</clueType> <linkTheme>on</linkTheme> the transcription factor NF-E2.</clue>
+</event>
+<event id="E37">
+<type class="Positive_regulation"/>
+<theme idref="E33"/>
+<cause idref="E35"/>
+<clue>The divergent effects of hemin and TPA on gene expression in K562 cells are <clueType>mediated</clueType>, in part, <linkCause>by</linkCause> their contrasting effects on the transcription factor NF-E2.</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation"/>
+<theme idref="E34"/>
+<cause idref="E36"/>
+<clue>The divergent effects of hemin and TPA on gene expression in K562 cells are <clueType>mediated</clueType>, in part, <linkCause>by</linkCause> their contrasting effects on the transcription factor NF-E2.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

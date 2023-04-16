@@ -1,0 +1,287 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1653056" created="04/04/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1653056</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="NF-kappa_B_activation" sem="Other"><term id="T2" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> activation</term> by <term id="T3" lex="tumor_necrosis_factor_alpha" sem="Protein_molecule">tumor necrosis factor alpha</term> in the <term id="T4" lex="Jurkat_T_cell_line" sem="Cell_cultured">Jurkat T cell line</term> is independent of <term id="T5" lex="protein_kinase_A" sem="Protein_molecule">protein kinase A</term>, <term id="T6" lex="protein_kinase_C" sem="Protein_molecule">protein kinase C</term>, and <term id="T7" lex="Ca(2+)-regulated_kinase" sem="Protein_family_or_group"><term id="T8" lex="Ca(2+)" sem="Element">Ca(2+)</term>-regulated kinases</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation"/>
+<theme idref="T2"/>
+<cause idref="T3"/>
+<clue>NF-kappa B <clueType>activation</clueType> <linkCause>by</linkCause> tumor necrosis factor alpha <clueLoc>in the Jurkat T cell line</clueLoc> is independent of protein kinase A, protein kinase C, and Ca(2+)-regulated kinases.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E2">
+<type class="Correlation"/>
+<theme idref="E1"/>
+<theme idref="T5"/>
+<clue>NF-kappa B activation by tumor necrosis factor alpha in the Jurkat T cell line is <clueType><cluePolarity>independent</cluePolarity></clueType> <linkTheme>of</linkTheme> protein kinase A, protein kinase C, and Ca(2+)-regulated kinases.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E3">
+<type class="Correlation"/>
+<theme idref="E1"/>
+<theme idref="T6"/>
+<clue>NF-kappa B activation by tumor necrosis factor alpha in the Jurkat T cell line is <clueType><cluePolarity>independent</cluePolarity></clueType> <linkTheme>of</linkTheme> protein kinase A, protein kinase C, and Ca(2+)-regulated kinases.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E4">
+<type class="Correlation"/>
+<theme idref="E1"/>
+<theme idref="T7"/>
+<clue>NF-kappa B activation by tumor necrosis factor alpha in the Jurkat T cell line is <clueType><cluePolarity>independent</cluePolarity></clueType> <linkTheme>of</linkTheme> protein kinase A, protein kinase C, and Ca(2+)-regulated kinases.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T9" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> is a <term id="T10" lex="DNA-binding_regulatory_factor" sem="Protein_molecule"><term id="A101" sem="DNA_domain_or_region">DNA</term>-binding regulatory factor</term> able to control <term id="T11" lex="transcription" sem="Other">transcription</term> of a number of genes, including <term id="T12" lex="human_immunodeficiency_virus_(HIV)_gene" sem="DNA_family_or_group"><term id="T13" lex="human_immunodeficiency_virus" sem="Virus">human immunodeficiency virus</term> (<term id="T14" lex="HIV" sem="Virus">HIV</term>) genes</term>.</sentence>
+<event KT="Fact" id="E101">
+<type class="Binding"/>
+<theme idref="T9"/>
+<theme idref="A101"/>
+<clue>NF-kappa B is a DNA-<clueType>binding</clueType> regulatory factor able to control transcription of a number of genes, including human immunodeficiency virus (HIV) genes.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Transcription"/>
+<theme idref="T12"/>
+<clue>NF-kappa B is a DNA-binding regulatory factor able to control <clueType>transcription</clueType> <linkTheme>of</linkTheme> <corefTheme>a number of genes</corefTheme>, including human immunodeficiency virus (HIV) genes.</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Regulation"/>
+<theme idref="E5"/>
+<cause idref="T9"/>
+<clue>NF-kappa B is a DNA-binding regulatory factor able to <clueType>control</clueType> transcription of a number of genes, including human immunodeficiency virus (HIV) genes.</clue>
+</event>
+<sentence id="S3">In <term id="T15" lex="T_cell" sem="Cell_natural">T cells</term>, <term id="T16" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> is activated upon <term id="T17" lex="cellular_treatment" sem="Other">cellular treatment</term> by <term id="T18" lex="phorbol_ester" sem="Organic_compound_other">phorbol esters</term> and the cytokine <term id="T19" lex="tumor_necrosis_factor_alpha" sem="Protein_molecule">tumor necrosis factor alpha</term> (<term id="T20" lex="TNF_alpha" sem="Protein_molecule">TNF alpha</term>).</sentence>
+<event KT="Fact" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T16"/>
+<cause idref="T18"/>
+<clue><clueLoc>In T cells</clueLoc>, NF-kappa B is <clueType>activated</clueType> <linkCause>upon cellular treatment by</linkCause> phorbol esters and the cytokine tumor necrosis factor alpha (TNF alpha).</clue>
+</event>
+<event KT="Fact" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T16"/>
+<cause idref="T20"/>
+<clue><clueLoc>In T cells</clueLoc>, NF-kappa B is <clueType>activated</clueType> <linkCause>upon cellular treatment by</linkCause> phorbol esters and the cytokine tumor necrosis factor alpha (TNF alpha).</clue>
+</event>
+<sentence id="S4">In the present work, we investigated the <term id="A102" sem="Other">molecular events</term> leading to <term id="T21" lex="NF-kappa_B_activation" sem="Other"><term id="T22" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> activation</term> by <term id="T23" lex="TNF_alpha" sem="Protein_molecule">TNF alpha</term> in a <term id="T24" lex="human_T_cell_line" sem="Cell_cultured">human T cell line</term> (<term id="T25" lex="Jurkat" sem="Cell_cultured">Jurkat</term>) and its subclone <term id="T26" lex="JCT6" sem="Cell_cultured">JCT6</term>, which presents a deficiency in the <term id="T27" lex="PKA_transduction_pathway" sem="Other"><term id="T28" lex="PKA" sem="Protein_molecule">PKA</term> transduction pathway</term>.</sentence>
+<event KT="Other" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="T22"/>
+<cause idref="T23"/>
+<clue>In the present work, we investigated the molecular events leading to NF-kappa B <clueType>activation</clueType> <linkCause>by</linkCause> TNF alpha <clueLoc>in a human T cell line (Jurkat)</clueLoc> and its subclone JCT6, which presents a deficiency in the PKA transduction pathway.</clue>
+</event>
+<event KT="Other" id="E109">
+<type class="Positive_regulation"/>
+<theme idref="T22"/>
+<cause idref="T23"/>
+<clue>In the present work, we investigated the molecular events leading to NF-kappa B <clueType>activation</clueType> <linkCause>by</linkCause> TNF alpha <clueLoc>in</clueLoc> a human T cell line (Jurkat) and <clueLoc>its subclone JCT6, which presents a deficiency in the PKA transduction pathway</clueLoc>.</clue>
+</event>
+<event KT="Investigation" id="E103">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="A102"/>
+<clue>In the present work, we <clueKT>investigated</clueKT> the molecular events <clueType>leading</clueType> <linkTheme>to</linkTheme> NF-kappa B activation by TNF alpha in a human T cell line (Jurkat) and its subclone JCT6, which presents a deficiency in the PKA transduction pathway.</clue>
+</event>
+<event KT="Other" id="E102">
+<type class="Cell_communication"/>
+<theme idref="T28"/>
+<clue>In the present work, we investigated the molecular events leading to NF-kappa B activation by TNF alpha in a human T cell line (Jurkat) and its subclone JCT6, which presents a deficiency in the PKA <clueType>transduction pathway</clueType>.</clue>
+</event>
+<event KT="Fact" id="E38">
+<type class="Negative_regulation"/>
+<theme idref="E102"/>
+<clue>In the present work, we investigated the molecular events leading to NF-kappa B activation by TNF alpha in a human T cell line (Jurkat) and <clueLoc>its subclone JCT6</clueLoc>, which presents a <clueType>deficiency</clueType> <linkTheme>in</linkTheme> the PKA transduction pathway.</clue>
+</event>
+<sentence id="S5">We found that in both cell lines, both <term id="T29" lex="phorbol_ester" sem="Organic_compound_other">phorbol ester</term> and <term id="T30" lex="TNF_alpha" sem="Protein_molecule">TNF alpha</term> were able to activate <term id="T31" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="T31"/>
+<cause idref="T29"/>
+<clue>We found that <clueLoc>in both cell lines</clueLoc>, both phorbol ester and TNF alpha were <clueKT><clueCL>able</clueCL></clueKT> to <clueType>activate</clueType> NF-kappa B.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="T31"/>
+<cause idref="T30"/>
+<clue>We found that <clueLoc>in both cell lines</clueLoc>, both phorbol ester and TNF alpha were <clueKT><clueCL>able</clueCL></clueKT> to <clueType>activate</clueType> NF-kappa B.</clue>
+</event>
+<sentence id="S6"><term id="A1" sem="Carbohydrate">Phorbol</term> activation was positively modulated by <term id="T32" lex="Ca2+_influx" sem="Other"><term id="T33" lex="Ca2+" sem="Element">Ca2+</term> influx</term> while <term id="T34" lex="TNF_alpha_activation" sem="Other"><term id="T35" lex="TNF_alpha" sem="Protein_molecule">TNF alpha</term> activation</term> was not.</sentence>
+<event id="E12">
+<type class="Positive_regulation"/>
+<theme idref="T31"/>
+<cause idref="A1"/>
+<clue>Phorbol <clueType>activation</clueType> was positively modulated by Ca2+ influx while TNF alpha activation was not.</clue>
+<comment>No corefTheme</comment></event>
+<event id="E13">
+<type class="Localization"/>
+<theme idref="T33"/>
+<clue>Phorbol activation was positively modulated by Ca2+ <clueType>influx</clueType> while TNF alpha activation was not.</clue>
+</event>
+<event id="E14" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E12"/>
+<cause idref="E13"/>
+<clue>Phorbol activation was positively <clueType>modulated</clueType> <linkCause>by</linkCause> Ca2+ influx while TNF alpha activation was not.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="T31"/>
+<cause idref="T35"/>
+<clue>Phorbol activation was positively modulated by Ca2+ influx while TNF alpha <clueType>activation</clueType> was not.</clue>
+<comment>No corefTheme</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E16">
+<type class="Regulation"/>
+<theme idref="E15"/>
+<cause idref="E13"/>
+<clue>Phorbol activation was positively <clueType>modulated</clueType> <linkCause>by</linkCause> Ca2+ influx while TNF alpha activation was <cluePolarity>not</cluePolarity>.</clue>
+</event>
+<sentence id="S7">Furthermore, while <term id="T36" lex="PMA" sem="Organic_compound_other">PMA</term> activation was inhibited by the <term id="T37" lex="PKC_inhibitor" sem="Other"><term id="T38" lex="PKC" sem="Protein_molecule">PKC</term> inhibitor</term> <term id="T39" lex="staurosporin" sem="Organic_compound_other">staurosporin</term>, the <term id="T40" lex="TNF_alpha" sem="Protein_molecule">TNF alpha</term> effect was unchanged.</sentence>
+<event KT="Fact" id="E104">
+<type class="Negative_regulation"/>
+<theme idref="T38"/>
+<cause idref="T39"/>
+<clue>Furthermore, while PMA activation was inhibited by the PKC <clueType>inhibitor</clueType> staurosporin, the TNF alpha effect was unchanged.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="T31"/>
+<cause idref="T36"/>
+<clue>Furthermore, while PMA <clueType>activation</clueType> was inhibited by the PKC inhibitor staurosporin, the TNF alpha effect was unchanged.</clue>
+<comment>No corefeTheme</comment></event>
+<event id="E19">
+<type class="Negative_regulation"/>
+<theme idref="E18"/>
+<cause idref="T39"/>
+<clue>Furthermore, while PMA activation was <clueType>inhibited</clueType> <linkCause>by</linkCause> the PKC inhibitor staurosporin, the TNF alpha effect was unchanged.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E20">
+<type class="Negative_regulation"/>
+<theme idref="E15"/>
+<cause idref="T39"/>
+<clue>Furthermore, while PMA activation was inhibited by the PKC inhibitor staurosporin, <corefTheme>the TNF alpha effect</corefTheme> was <clueType><cluePolarity>unchanged</cluePolarity></clueType>.</clue>
+<comment>No corefCause</comment></event>
+<sentence id="S8"><term id="T41" lex="TNF_alpha" sem="Protein_molecule">TNF alpha</term> did not activate <term id="T42" lex="cAMP_production" sem="Other"><term id="T43" lex="cAMP" sem="Nucleotide">cAMP</term> production</term> and its <term id="A2" sem="Other">signal</term> was not modulated by <term id="T44" lex="cAMP_activator" sem="Other"><term id="T45" lex="cAMP" sem="Nucleotide">cAMP</term> activators</term>.</sentence>
+<event KT="Other" id="E21">
+<type class="Metabolism"/>
+<theme idref="T43"/>
+<clue>TNF alpha did not activate cAMP <clueType>production</clueType> and its signal was not modulated by cAMP activators.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="T41"/>
+<clue>TNF alpha did <cluePolarity>not</cluePolarity> <clueType>activate</clueType> cAMP production and its signal was not modulated by cAMP activators.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E39">
+<type class="Regulation"/>
+<theme idref="E11"/>
+<cause idref="T44"/>
+<clue>TNF alpha did not activate cAMP production and <corefTheme>its signal</corefTheme> was <cluePolarity>not</cluePolarity> <clueType>modulated</clueType> <linkCause>by</linkCause> cAMP activators.</clue>
+</event>
+<event id="E105">
+<type class="Positive_regulation"/>
+<theme idref="T45"/>
+<clue>TNF alpha did not activate cAMP production and its signal was not modulated by cAMP <clueType>activators</clueType>.</clue>
+</event>
+<sentence id="S9">Moreover, <term id="T46" lex="cAMP_activator" sem="Other"><term id="T47" lex="cAMP" sem="Nucleotide">cAMP</term> activators</term> did not activate <term id="T48" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> in <term id="T49" lex="Jurkat_cell" sem="Cell_cultured">Jurkat cells</term>.</sentence>
+<event Polarity="Negative" assertion="non-exist" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="T48"/>
+<cause idref="T46"/>
+<clue>Moreover, cAMP activators did <cluePolarity>not</cluePolarity> <clueType>activate</clueType> NF-kappa B <clueLoc>in Jurkat cells</clueLoc>.</clue>
+</event>
+<event id="E106">
+<type class="Positive_regulation"/>
+<theme idref="T47"/>
+<clue>Moreover, cAMP <clueType>activators</clueType> did not activate NF-kappa B in Jurkat cells.</clue>
+</event>
+<sentence id="S10">Thus, <term id="T50" lex="TNF_alpha-induced_NF-kappa_B_activation" sem="Other"><term id="T51" lex="TNF_alpha" sem="Protein_molecule">TNF alpha</term>-induced <term id="T52" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> activation</term> was found to be mediated by none of the major <term id="T53" lex="signal-mediating_kinase" sem="Protein_family_or_group">signal-mediating kinases</term> such as <term id="T54" lex="protein_kinase_C" sem="Protein_molecule">protein kinase C</term> (<term id="T55" lex="PKC" sem="Protein_molecule">PKC</term>), <term id="T56" lex="protein_kinase_A" sem="Protein_molecule">protein kinase A</term>, or <term id="T57" lex="Ca(2+)-regulated_kinase" sem="Protein_family_or_group">Ca(2+)-regulated kinases</term>.</sentence>
+<event KT="Other" id="E25">
+<type class="Positive_regulation"/>
+<theme idref="T52"/>
+<clue>Thus, TNF alpha-induced NF-kappa B <clueType>activation</clueType> was found to be mediated by none of the major signal-mediating kinases such as protein kinase C (PKC), protein kinase A, or Ca(2+)-regulated kinases.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="E25"/>
+<cause idref="T51"/>
+<clue>Thus, TNF alpha-<clueType>induced</clueType> NF-kappa B activation was found to be mediated by none of the major signal-mediating kinases such as protein kinase C (PKC), protein kinase A, or Ca(2+)-regulated kinases.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E27">
+<type class="Regulation"/>
+<theme idref="E26"/>
+<cause idref="T55"/>
+<clue><clueKT>Thus</clueKT>, TNF alpha-induced NF-kappa B activation was found to be <clueType>mediated</clueType> <linkCause>by</linkCause> <cluePolarity>none</cluePolarity> of <corefCause>the major signal-mediating kinases</corefCause> such as protein kinase C (PKC), protein kinase A, or Ca(2+)-regulated kinases.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E28">
+<type class="Regulation"/>
+<theme idref="E26"/>
+<cause idref="T56"/>
+<clue><clueKT>Thus</clueKT>, TNF alpha-induced NF-kappa B activation was found to be <clueType>mediated</clueType> <linkCause>by</linkCause> <cluePolarity>none</cluePolarity> of <corefCause>the major signal-mediating kinases</corefCause> such as protein kinase C (PKC), protein kinase A, or Ca(2+)-regulated kinases.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E29">
+<type class="Regulation"/>
+<theme idref="E26"/>
+<cause idref="T57"/>
+<clue><clueKT>Thus</clueKT>, TNF alpha-induced NF-kappa B activation was found to be <clueType>mediated</clueType> <linkCause>by</linkCause> <cluePolarity>none</cluePolarity> of <corefCause>the major signal-mediating kinases</corefCause> such as protein kinase C (PKC), protein kinase A, or Ca(2+)-regulated kinases.</clue>
+</event>
+<sentence id="S11">Furthermore, we found that <term id="T58" lex="cytoplasmic_acidification" sem="Other">cytoplasmic acidification</term> facilitated <term id="T59" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> activation by both <term id="T60" lex="TNF_alpha" sem="Protein_molecule">TNF alpha</term> and <term id="T61" lex="PKC" sem="Protein_molecule">PKC</term>, by a mechanism that increases <term id="T62" lex="NF-kappa_B/I_kappa_B_dissociation" sem="Other"><term id="T63" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term><term id="T64" lex="I_kappa_B" sem="Protein_molecule">/I kappa B</term> dissociation</term> without affecting the <term id="T65" lex="NF-kappa_B_translocation_step" sem="Other"><term id="T66" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> translocation step</term>.</sentence>
+<event id="E30">
+<type class="Positive_regulation"/>
+<theme idref="T59"/>
+<cause idref="T60"/>
+<clue>Furthermore, we found that cytoplasmic acidification facilitated NF-kappa B <clueType>activation</clueType> <linkCause>by</linkCause> both TNF alpha and PKC, by a mechanism that increases NF-kappa B/I kappa B dissociation without affecting the NF-kappa B translocation step.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation"/>
+<theme idref="T59"/>
+<cause idref="T61"/>
+<clue>Furthermore, we found that cytoplasmic acidification facilitated NF-kappa B <clueType>activation</clueType> <linkCause>by</linkCause> both TNF alpha and PKC, by a mechanism that increases NF-kappa B/I kappa B dissociation without affecting the NF-kappa B translocation step.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation"/>
+<theme idref="E35"/>
+<cause idref="T58"/>
+<clue>Furthermore, we <clueKT>found</clueKT> that cytoplasmic acidification <clueType>facilitated</clueType> NF-kappa B activation by both TNF alpha and PKC, <linkCause>by</linkCause> a mechanism that increases NF-kappa B/I kappa B dissociation without affecting the NF-kappa B translocation step.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E30"/>
+<cause idref="E32"/>
+<clue>Furthermore, we <clueKT>found</clueKT> that cytoplasmic acidification <clueType>facilitated</clueType> NF-kappa B activation by both TNF alpha and PKC, by a mechanism that increases NF-kappa B/I kappa B dissociation without affecting the NF-kappa B translocation step.</clue>
+</event>
+<event id="E40">
+<type class="Positive_regulation"/>
+<theme idref="E31"/>
+<cause idref="E32"/>
+<clue>Furthermore, we <clueKT>found</clueKT> that cytoplasmic acidification <clueType>facilitated</clueType> NF-kappa B activation by both TNF alpha and PKC, by a mechanism that increases NF-kappa B/I kappa B dissociation without affecting the NF-kappa B translocation step.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" id="E34">
+<type/>
+<theme idref="T63"/>
+<theme idref="T64"/>
+<clue>Furthermore, we found that cytoplasmic acidification facilitated NF-kappa B activation by both TNF alpha and PKC, by a mechanism that increases NF-kappa B/I kappa B <clueType><cluePolarity>dis</cluePolarity><clueKT>sociation</clueKT></clueType> without affecting the NF-kappa B translocation step.</clue>
+<comment>SOO</comment></event>
+<event id="E35">
+<type class="Positive_regulation"/>
+<theme idref="E34"/>
+<cause idref="T58"/>
+<clue>Furthermore, we found that cytoplasmic acidification facilitated NF-kappa B activation by both TNF alpha and PKC, by a mechanism that <clueType>increases</clueType> NF-kappa B/I kappa B dissociation without affecting the NF-kappa B translocation step.</clue>
+</event>
+<event id="E36">
+<type class="Localization"/>
+<theme idref="T66"/>
+<clue>Furthermore, we found that cytoplasmic acidification facilitated NF-kappa B activation by both TNF alpha and PKC, by a mechanism that increases NF-kappa B/I kappa B dissociation without affecting the NF-kappa B <clueType>translocation</clueType> step.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E37">
+<type class="Correlation"/>
+<theme idref="E33"/>
+<theme idref="E36"/>
+<clue>Furthermore, we found that cytoplasmic acidification facilitated NF-kappa B activation by both TNF alpha and PKC, by a mechanism that increases NF-kappa B/I kappa B dissociation <cluePolarity>without</cluePolarity> <clueType>affecting</clueType> the NF-kappa B translocation step.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E41">
+<type class="Correlation"/>
+<theme idref="E40"/>
+<theme idref="E36"/>
+<clue>Furthermore, we found that cytoplasmic acidification facilitated NF-kappa B activation by both TNF alpha and PKC, by a mechanism that increases NF-kappa B/I kappa B dissociation <cluePolarity>without</cluePolarity> <clueType>affecting</clueType> the NF-kappa B translocation step.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

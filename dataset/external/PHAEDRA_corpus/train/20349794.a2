@@ -1,0 +1,13 @@
+T11	Adverse_effect 20 27	induced
+T15	Adverse_effect 534 542	episodes
+T20	Adverse_effect 262 271	secondary
+T21	Potential_therapeutic_effect 293 295	in
+R1	is_equivalent Arg1:T2 Arg2:T3
+R2	is_equivalent Arg1:T6 Arg2:T4
+R3	Subject_Disorder Arg1:T18 Arg2:T5
+R4	Subject_Disorder Arg1:T19 Arg2:T8
+E1	Adverse_effect:T11 has_agent:T1 affects:T6 has_subject:T18
+E2	Adverse_effect:T15 affects:T13 has_cue:T16 has_agent:T10
+E3	Adverse_effect:T20 has_agent:T7 affects:T2 has_subject:T19
+E4	Potential_therapeutic_effect:T21 has_subject:T19 affects:T8 has_agent:T7
+A1	Negated E2

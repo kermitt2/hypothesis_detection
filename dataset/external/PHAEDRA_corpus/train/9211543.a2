@@ -1,0 +1,7 @@
+T13	Potential_therapeutic_effect 207 214	treated
+T18	Adverse_effect 509 521	attributable
+E1	Potential_therapeutic_effect:T13 affects:T6 affects:T5 has_subject:T12 has_agent:T7 has_agent:T8
+E2	Adverse_effect:T18 has_agent:T10 has_agent:T11 affects:T9
+R1	Subject_Disorder Arg1:T19 Arg2:T4	
+T21	Adverse_effect 40 48	toxicity
+E3	Adverse_effect:T21 affects:T3 has_agent:T2 has_agent2:T1 affects2:T20 has_subject:T19

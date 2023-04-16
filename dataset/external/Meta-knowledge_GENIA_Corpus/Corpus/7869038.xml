@@ -1,0 +1,331 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7869038" created="25/06/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7869038</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="calcium/calmodulin-dependent_protein_kinase_II" sem="Protein_molecule">Calcium/calmodulin-dependent protein kinase II</term> downregulates both <cons id="T2" lex="(AND calcineurin-mediated_pathway protein_kinase_C-mediated_pathway)" sem="(AND Other Other)"><frag id="F1"><term id="A1" sem="Protein_molecule">calcineurin</term></frag> and <frag id="F2"><term id="A2" sem="Protein_molecule">protein kinase C</term></frag><frag id="F3">-mediated pathways</frag></cons> for <term id="T3" lex="cytokine_gene_transcription" sem="Other"><term id="T4" lex="cytokine_gene" sem="DNA_domain_or_region"><term id="T5" lex="cytokine" sem="Protein_family_or_group">cytokine</term> gene</term> transcription</term> in <term id="T6" lex="human_T_cell" sem="Cell_natural">human T cells</term>.</sentence>
+<event id="E1">
+<type class="Transcription"/>
+<theme idref="T4"/>
+<clue>Calcium/calmodulin-dependent protein kinase II downregulates both calcineurin and protein kinase C-mediated pathways for cytokine gene <clueType>transcription</clueType> in human T cells.</clue>
+</event>
+<event id="E2">
+<type class="Regulation"/>
+<theme idref="E1"/>
+<cause idref="A1"/>
+<clue>Calcium/calmodulin-dependent protein kinase II downregulates both calcineurin and protein kinase C-<linkCause>mediated</linkCause> <clueType>pathways</clueType> <linkTheme>for</linkTheme> cytokine gene transcription <clueLoc>in human T cells</clueLoc>.</clue>
+</event>
+<event id="E3">
+<type class="Regulation"/>
+<theme idref="E1"/>
+<cause idref="A2"/>
+<clue>Calcium/calmodulin-dependent protein kinase II downregulates both calcineurin and protein kinase C-<linkCause>mediated</linkCause> <clueType>pathways</clueType> <linkTheme>for</linkTheme> cytokine gene transcription <clueLoc>in human T cells</clueLoc>.</clue>
+</event>
+<event id="E4">
+<type class="Negative_regulation"/>
+<theme idref="E2"/>
+<cause idref="T1"/>
+<clue>Calcium/calmodulin-dependent protein kinase II <clueType>downregulates</clueType> both calcineurin and protein kinase C-mediated pathways for cytokine gene transcription in human T cells.</clue>
+</event>
+<event id="E5">
+<type class="Negative_regulation"/>
+<theme idref="E3"/>
+<cause idref="T1"/>
+<clue>Calcium/calmodulin-dependent protein kinase II <clueType>downregulates</clueType> both calcineurin and protein kinase C-mediated pathways for cytokine gene transcription in human T cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Engagement of the <term id="T7" lex="T_cell_receptor" sem="Protein_family_or_group">T cell receptor</term> for <term id="T8" lex="antigen" sem="Other">antigen</term> activates <term id="T9" lex="phospholipase_C" sem="Protein_molecule">phospholipase C</term> resulting in an increase in <term id="T10" lex="intracellular_free_calcium_concentration" sem="Other">intracellular free <term id="T11" lex="calcium" sem="Element">calcium</term> concentration</term> (<term id="T12" lex="[Ca2+]i" sem="Other">[<term id="T13" lex="Ca2+" sem="Element">Ca2+</term>]i</term>) and activation of <term id="T14" lex="protein_kinase_C" sem="Protein_molecule">protein kinase C</term> (<term id="T15" lex="PKC" sem="Protein_molecule">PKC</term>).</sentence>
+<event KT="Other" id="E6">
+<type class="Binding"/>
+<theme idref="T7"/>
+<theme idref="T8"/>
+<clue><clueType>Engagement</clueType> <linkTheme>of</linkTheme> the T cell receptor <linkTheme>for</linkTheme> antigen activates phospholipase C resulting in an increase in intracellular free calcium concentration ([Ca2+]i) and activation of protein kinase C (PKC).</clue>
+</event>
+<event KT="Fact" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T9"/>
+<cause idref="E6"/>
+<clue>Engagement of the T cell receptor for antigen <clueType>activates</clueType> phospholipase C resulting in an increase in intracellular free calcium concentration ([Ca2+]i) and activation of protein kinase C (PKC).</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T11"/>
+<cause idref="E7"/>
+<clue>Engagement of the T cell receptor for antigen activates phospholipase C <clueType>resulting in an increase</clueType> <linkTheme>in</linkTheme> <clueLoc>intracellular</clueLoc> free calcium concentration ([Ca2+]i) and activation of protein kinase C (PKC).</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="T15"/>
+<cause idref="E7"/>
+<clue>Engagement of the T cell receptor for antigen activates phospholipase C <clueType>resulting in</clueType> an increase in intracellular free calcium concentration ([Ca2+]i) and <clueType>activation</clueType> <linkTheme>of</linkTheme> protein kinase C (PKC).</clue>
+</event>
+<sentence id="S3">Increased <term id="T16" lex="[Ca2+]i" sem="Other">[<term id="T17" lex="Ca2+" sem="Element">Ca2+</term>]i</term> activates <term id="T18" lex="Ca2+/calmodulin-dependent_kinase" sem="Protein_family_or_group"><term id="T19" lex="Ca2+" sem="Element">Ca2+</term>/calmodulin-dependent kinases</term> including the multifunctional <term id="T20" lex="Ca2+/calmodulin-dependent_protein_kinase_II" sem="Protein_family_or_group"><term id="T21" lex="Ca2+" sem="Element">Ca2+</term>/calmodulin-dependent protein kinase II</term> (<term id="T22" lex="CaM-K_II" sem="Protein_molecule">CaM-K II</term>), as well as <term id="T23" lex="calcineurin" sem="Protein_molecule">calcineurin</term>, a <term id="T24" lex="type_2B_protein_phosphatase" sem="Protein_family_or_group">type 2B protein phosphatase</term>.</sentence>
+<event KT="Other" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="T17"/>
+<clue><clueType>Increased</clueType> [Ca2+]i activates Ca2+/calmodulin-dependent kinases including the multifunctional Ca2+/calmodulin-dependent protein kinase II (CaM-K II), as well as calcineurin, a type 2B protein phosphatase.</clue>
+</event>
+<event KT="Fact" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="T18"/>
+<cause idref="E10"/>
+<clue>Increased [Ca2+]i <clueType>activates</clueType> Ca2+/calmodulin-dependent kinases including the multifunctional Ca2+/calmodulin-dependent protein kinase II (CaM-K II), as well as calcineurin, a type 2B protein phosphatase.</clue>
+</event>
+<event KT="Fact" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="T20"/>
+<cause idref="E10"/>
+<clue>Increased [Ca2+]i <clueType>activates</clueType> <corefTheme>Ca2+/calmodulin-dependent kinases</corefTheme> including the multifunctional Ca2+/calmodulin-dependent protein kinase II (CaM-K II), as well as calcineurin, a type 2B protein phosphatase.</clue>
+</event>
+<event KT="Fact" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T23"/>
+<cause idref="E10"/>
+<clue>Increased [Ca2+]i <clueType>activates</clueType> Ca2+/calmodulin-dependent kinases including the multifunctional Ca2+/calmodulin-dependent protein kinase II (CaM-K II), <linkTheme>as well as</linkTheme> calcineurin, a type 2B protein phosphatase.</clue>
+</event>
+<sentence id="S4">Recent studies have identified <term id="T25" lex="calcineurin" sem="Protein_molecule">calcineurin</term> as a key enzyme for <cons id="T26" lex="(AND interleukin_(IL)-2_promoter_activation IL-4_promoter_activation)" sem="(AND Other Other)"><frag id="F4"><term id="A3" sem="DNA_domain_or_region">interleukin (IL)-2</term></frag> and <frag id="F5"><term id="A4" sem="DNA_domain_or_region">IL-4</term></frag> <frag id="F6"><term id="A5" sem="DNA_domain_or_region">promoter</term> activation</frag></cons>.</sentence>
+<event KT="Other" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="A3" idref1="A5"/>
+<clue>Recent studies have identified calcineurin as a key enzyme for interleukin (IL)-2 and IL-4 promoter <clueType>activation</clueType>.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="A4" idref1="A5"/>
+<clue>Recent studies have identified calcineurin as a key enzyme for interleukin (IL)-2 and IL-4 promoter <clueType>activation</clueType>.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="T25"/>
+<clue><clueSource>Recent studies</clueSource> have <clueType><clueKT>identified</clueKT></clueType> calcineurin <clueType>as a key enzyme</clueType> <linkTheme>for</linkTheme> interleukin (IL)-2 and IL-4 promoter activation.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="T25"/>
+<clue><clueSource>Recent studies</clueSource> have <clueType><clueKT>identified</clueKT></clueType> calcineurin <clueType>as a key enzyme</clueType> <linkTheme>for</linkTheme> interleukin (IL)-2 and IL-4 promoter activation.</clue>
+</event>
+<sentence id="S5">However, the role of <term id="T27" lex="CaM-K_II" sem="Protein_molecule">CaM-K II</term> remains unknown.</sentence>
+<event KT="Investigation" id="E18" uncertainty="doubtful">
+<type class="Regulation"/>
+<cause idref="T27"/>
+<clue>However, the <clueType>role</clueType> <linkTheme>of</linkTheme> CaM-K II remains <clueKT>unknown</clueKT>.</clue>
+</event>
+<sentence id="S6">We have used mutants of these <term id="T28" lex="kinases" sem="Protein_family_or_group">kinases</term> and <term id="T29" lex="phosphatase" sem="Protein_family_or_group">phosphatases</term> (<term id="T30" lex="gamma_B*CaM-K" sem="Protein_molecule">gamma B*CaM-K</term> and <term id="T31" lex="delta_CaM-AI" sem="Protein_molecule">delta CaM-AI</term>, respectively) to explore their relative role in <term id="T32" lex="cytokine_gene_transcription" sem="Other"><term id="T33" lex="cytokine_gene" sem="DNA_domain_or_region"><term id="T34" lex="cytokine" sem="Protein_family_or_group">cytokine</term> gene</term> transcription</term> and their interactions with <term id="T35" lex="PKC-dependent_signaling_system" sem="Other"><term id="T36" lex="PKC" sem="Protein_molecule">PKC</term>-dependent signaling systems</term>.</sentence>
+<event KT="Other" id="E19">
+<type class="Transcription"/>
+<theme idref="T33"/>
+<clue>We have used mutants of these kinases and phosphatases (gamma B*CaM-K and delta CaM-AI, respectively) to explore their relative role in cytokine gene <clueType>transcription</clueType> and their interactions with PKC-dependent signaling systems.</clue>
+</event>
+<event KT="Investigation" id="E20" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E19"/>
+<cause idref="T27"/>
+<clue>We have used mutants of <corefCause>these kinases</corefCause> and phosphatases (gamma B*CaM-K and delta CaM-AI, respectively) <clueKT>to explore</clueKT> <corefCause>their</corefCause> relative <clueType>role</clueType> <linkTheme>in</linkTheme> cytokine gene transcription and their interactions with PKC-dependent signaling systems.</clue>
+</event>
+<event KT="Investigation" id="E21" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E19"/>
+<cause idref="T25"/>
+<clue>We have used mutants of <corefCause>these</corefCause> kinases and <corefCause>phosphatases</corefCause> (gamma B*CaM-K and delta CaM-AI, respectively) <clueKT>to explore</clueKT> <corefCause>their</corefCause> relative <clueType>role</clueType> <linkTheme>in</linkTheme> cytokine gene transcription and their interactions with PKC-dependent signaling systems.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Cell_communication"/>
+<cause idref="T36"/>
+<clue>We have used mutants of these kinases and phosphatases (gamma B*CaM-K and delta CaM-AI, respectively) to explore their relative role in cytokine gene transcription and their interactions with PKC-<linkCause>dependent</linkCause> <clueType>signaling systems</clueType>.</clue>
+</event>
+<event KT="Investigation" id="E23" uncertainty="doubtful">
+<type class="Correlation"/>
+<theme idref="E22"/>
+<theme idref="T27"/>
+<clue>We have used mutants of <corefTheme>these kinases</corefTheme> and phosphatases (gamma B*CaM-K and delta CaM-AI, respectively) <clueKT>to explore</clueKT> their relative role in cytokine gene transcription and <corefTheme>their</corefTheme> <clueType>interactions</clueType> <linkTheme>with</linkTheme> PKC-dependent signaling systems.</clue>
+</event>
+<event KT="Investigation" id="E24" uncertainty="doubtful">
+<type class="Correlation"/>
+<theme idref="E22"/>
+<theme idref="T25"/>
+<clue>We have used mutants of <corefTheme>these</corefTheme> kinases and <corefTheme>phosphatases</corefTheme> (gamma B*CaM-K and delta CaM-AI, respectively) <clueKT>to explore</clueKT> their relative role in cytokine gene transcription and <corefTheme>their</corefTheme> <clueType>interactions</clueType> <linkTheme>with</linkTheme> PKC-dependent signaling systems.</clue>
+</event>
+<sentence id="S7"><term id="T37" lex="gamma_B*CaM-K" sem="Protein_molecule">gamma B*CaM-K</term> and <term id="T38" lex="delta_CaM-AI" sem="Protein_molecule">delta CaM-AI</term>, known to exhibit constitutive <term id="T39" lex="Ca(2+)-independent_activity" sem="Other"><term id="A6" sem="Element">Ca(2+)</term>-independent activity</term>, were cotransfected (alone or in combination) in <term id="T40" lex="Jurkat_T_cell" sem="Cell_cultured">Jurkat T cells</term> with a plasmid containing the intact <term id="T41" lex="IL-2_promoter" sem="DNA_domain_or_region">IL-2 promoter</term> driving the expression of the <term id="T42" lex="chloramphenicol_acetyltransferase_reporter_gene" sem="DNA_molecule">chloramphenicol acetyltransferase reporter gene</term>.</sentence>
+<event KT="Fact" id="E25">
+<type class="Molecular_Function"/>
+<cause idref="T37"/>
+<clue>gamma B*CaM-K and delta CaM-AI, <clueKT>known</clueKT> to <clueType>exhibit</clueType> constitutive Ca(2+)-independent <clueType>activity</clueType>, were cotransfected (alone or in combination) in Jurkat T cells with a plasmid containing the intact IL-2 promoter driving the expression of the chloramphenicol acetyltransferase reporter gene.</clue>
+</event>
+<event KT="Fact" id="E26">
+<type class="Molecular_Function"/>
+<cause idref="T38"/>
+<clue>gamma B*CaM-K and delta CaM-AI, <clueKT>known</clueKT> to <clueType>exhibit</clueType> constitutive Ca(2+)-independent <clueType>activity</clueType>, were cotransfected (alone or in combination) in Jurkat T cells with a plasmid containing the intact IL-2 promoter driving the expression of the chloramphenicol acetyltransferase reporter gene.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E27">
+<type class="Correlation"/>
+<theme idref="E25"/>
+<theme idref="A6"/>
+<clue>gamma B*CaM-K and delta CaM-AI, known to exhibit constitutive Ca(2+)-<clueType><cluePolarity>independent</cluePolarity></clueType> activity, were cotransfected (alone or in combination) in Jurkat T cells with a plasmid containing the intact IL-2 promoter driving the expression of the chloramphenicol acetyltransferase reporter gene.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E28">
+<type class="Correlation"/>
+<theme idref="E26"/>
+<theme idref="A6"/>
+<clue>gamma B*CaM-K and delta CaM-AI, known to exhibit constitutive Ca(2+)-<clueType><cluePolarity>independent</cluePolarity></clueType> activity, were cotransfected (alone or in combination) in Jurkat T cells with a plasmid containing the intact IL-2 promoter driving the expression of the chloramphenicol acetyltransferase reporter gene.</clue>
+</event>
+<sentence id="S8">Cotransfection of <term id="T43" lex="gamma_B*CaM-K" sem="Protein_molecule">gamma B*CaM-K</term> with the <term id="T44" lex="IL-2_promoter_construct" sem="DNA_molecule"><term id="T45" lex="IL-2_promoter" sem="DNA_domain_or_region">IL-2 promoter</term> construct</term> downregulated its transcription in response to stimulation with <term id="T46" lex="ionomycin" sem="Organic_compound_other">ionomycin</term> and <term id="T47" lex="phorbol_myristate_acetate" sem="Organic_compound_other">phorbol myristate acetate</term> (<term id="T48" lex="PMA" sem="Organic_compound_other">PMA</term>).</sentence>
+<event id="E29">
+<type class="Transcription"/>
+<theme idref="T44"/>
+<clue>Cotransfection of gamma B*CaM-K with the IL-2 promoter construct downregulated <corefTheme>its</corefTheme> <clueType>transcription</clueType> in response to stimulation with ionomycin and phorbol myristate acetate (PMA).</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation"/>
+<theme idref="E29"/>
+<cause idref="T46"/>
+<clue>Cotransfection of gamma B*CaM-K with the IL-2 promoter construct downregulated its transcription <clueType>in response</clueType> <linkCause>to stimulation with</linkCause> ionomycin and phorbol myristate acetate (PMA).</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation"/>
+<theme idref="E29"/>
+<cause idref="T48"/>
+<clue>Cotransfection of gamma B*CaM-K with the IL-2 promoter construct downregulated its transcription <clueType>in response</clueType> <linkCause>to stimulation with</linkCause> ionomycin and phorbol myristate acetate (PMA).</clue>
+</event>
+<event id="E32">
+<type class="Negative_regulation"/>
+<theme idref="E30"/>
+<cause idref="T43"/>
+<clue>Cotransfection of gamma B*CaM-K with the IL-2 promoter construct <clueType>downregulated</clueType> its transcription in response to stimulation with ionomycin and phorbol myristate acetate (PMA).</clue>
+</event>
+<event id="E33">
+<type class="Negative_regulation"/>
+<theme idref="E31"/>
+<cause idref="T43"/>
+<clue>Cotransfection of gamma B*CaM-K with the IL-2 promoter construct <clueType>downregulated</clueType> its transcription in response to stimulation with ionomycin and phorbol myristate acetate (PMA).</clue>
+</event>
+<sentence id="S9">The inhibitory effect of <term id="T49" lex="CaM-K_II" sem="Protein_molecule">CaM-K II</term> on <term id="T50" lex="IL-2_promoter" sem="DNA_domain_or_region">IL-2 promoter</term> was associated with decreased transcription of its <cons id="T51" lex="(AND AP-1_transactivating_pathway NF-AT_transactivating_pathway)" sem="(AND Other Other)"><frag id="F7"><term id="A7" sem="Protein_molecule">AP-1</term></frag> and <frag id="F8"><term id="A8" sem="Protein_molecule">NF-AT</term></frag> <frag id="F9">transactivating pathways</frag></cons>.</sentence>
+<event KT="Other" id="E34">
+<type class="Negative_regulation"/>
+<theme idref="T50"/>
+<cause idref="T49"/>
+<clue>The <clueType>inhibitory effect</clueType> <linkCause>of</linkCause> CaM-K II <linkTheme>on</linkTheme> IL-2 promoter was associated with decreased transcription of its AP-1 and NF-AT transactivating pathways.</clue>
+</event>
+<event KT="Other" id="E35">
+<type class="Transcription"/>
+<theme idref="T50"/>
+<clue>The inhibitory effect of CaM-K II on IL-2 promoter was associated with decreased <clueType>transcription</clueType> <linkTheme>of</linkTheme> <corefTheme>its</corefTheme> AP-1 and NF-AT transactivating pathways.</clue>
+</event>
+<event KT="Other" id="E36">
+<type class="Positive_regulation"/>
+<theme idref="E35"/>
+<cause idref="A7"/>
+<clue>The inhibitory effect of CaM-K II on IL-2 promoter was associated with decreased transcription of its AP-1 and NF-AT <clueType>transactivating pathways</clueType>.</clue>
+</event>
+<event KT="Other" id="E37">
+<type class="Positive_regulation"/>
+<theme idref="E35"/>
+<cause idref="A8"/>
+<clue>The inhibitory effect of CaM-K II on IL-2 promoter was associated with decreased transcription of its AP-1 and NF-AT <clueType>transactivating pathways</clueType>.</clue>
+</event>
+<event KT="Other" id="E38">
+<type class="Negative_regulation"/>
+<theme idref="E36"/>
+<clue>The inhibitory effect of CaM-K II on IL-2 promoter was associated with <clueType>decreased</clueType> transcription of its AP-1 and NF-AT transactivating pathways.</clue>
+</event>
+<event KT="Other" id="E39">
+<type class="Negative_regulation"/>
+<theme idref="E37"/>
+<clue>The inhibitory effect of CaM-K II on IL-2 promoter was associated with <clueType>decreased</clueType> transcription of its AP-1 and NF-AT transactivating pathways.</clue>
+</event>
+<event KT="Analysis" id="E40">
+<type class="Correlation"/>
+<theme idref="E34"/>
+<theme idref="E38"/>
+<clue>The inhibitory effect of CaM-K II on IL-2 promoter was <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> decreased transcription of its AP-1 and NF-AT transactivating pathways.</clue>
+</event>
+<event KT="Analysis" id="E41">
+<type class="Correlation"/>
+<theme idref="E34"/>
+<theme idref="E39"/>
+<clue>The inhibitory effect of CaM-K II on IL-2 promoter was <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> decreased transcription of its AP-1 and NF-AT transactivating pathways.</clue>
+</event>
+<sentence id="S10">Under the same conditions, <term id="T52" lex="delta_CaM-AI" sem="Protein_molecule">delta CaM-AI</term> superinduced <term id="T53" lex="IL-2_promoter_activity" sem="Other"><term id="T54" lex="IL-2_promoter" sem="DNA_domain_or_region">IL-2 promoter</term> activity</term> (approximately twofold increase).</sentence>
+<event Manner="High" id="E42">
+<type class="Positive_regulation"/>
+<theme idref="T54"/>
+<cause idref="T52"/>
+<clue>Under the same conditions, delta CaM-AI <clueType>superinduced</clueType> IL-2 promoter activity (approximately <clueManner>twofold</clueManner> increase).</clue>
+</event>
+<sentence id="S11">When both mutants were used in combination, <term id="T55" lex="gamma_B*CaM-K" sem="Protein_molecule">gamma B*CaM-K</term> inhibited the induction of the <term id="T56" lex="IL-2_promoter" sem="DNA_domain_or_region">IL-2 promoter</term> by <term id="T57" lex="delta_CaM-AI" sem="Protein_molecule">delta CaM-AI</term>.</sentence>
+<event KT="Other" id="E43">
+<type class="Positive_regulation"/>
+<theme idref="T56"/>
+<cause idref="T57"/>
+<clue>When both mutants were used in combination, gamma B*CaM-K inhibited the <clueType>induction</clueType> <linkTheme>of</linkTheme> the IL-2 promoter <linkCause>by</linkCause> delta CaM-AI.</clue>
+</event>
+<event id="E44">
+<type class="Negative_regulation"/>
+<theme idref="E43"/>
+<cause idref="T55"/>
+<clue>When both mutants were used in combination, gamma B*CaM-K <clueType>inhibited</clueType> the induction of the IL-2 promoter by delta CaM-AI.</clue>
+</event>
+<sentence id="S12">Similar results were obtained when a construct containing the <term id="T58" lex="IL-4_promoter" sem="DNA_domain_or_region"><term id="T59" lex="IL-4" sem="Protein_molecule">IL-4</term> promoter</term> also was used.</sentence>
+<sentence id="S13"><term id="T60" lex="gamma_B*CaM-K" sem="Protein_molecule">gamma B*CaM-K</term> also downregulated the activation of <term id="T61" lex="AP-1" sem="Protein_molecule">AP-1</term> in response to transfection with <term id="A9" sem="Protein_molecule">a constitutively active mutant of <term id="T62" lex="PKC" sem="Protein_molecule">PKC</term></term> or stimulation with <term id="T63" lex="PMA" sem="Organic_compound_other">PMA</term>.</sentence>
+<event id="E45">
+<type class="Positive_regulation"/>
+<theme idref="T61"/>
+<cause idref="A9"/>
+<clue>gamma B*CaM-K also downregulated the <clueType>activation</clueType> <linkTheme>of</linkTheme> AP-1 <linkCause>in response to transfection with</linkCause> a constitutively active mutant of PKC or stimulation with PMA.</clue>
+<comment>TPS A9</comment></event>
+<event id="E46">
+<type class="Positive_regulation"/>
+<theme idref="T61"/>
+<cause idref="T63"/>
+<clue>gamma B*CaM-K also downregulated the <clueType>activation</clueType> <linkTheme>of</linkTheme> AP-1 <linkCause>in response to</linkCause> transfection with a constitutively active mutant of PKC or <linkCause>stimulation with</linkCause> PMA.</clue>
+</event>
+<event id="E47">
+<type class="Negative_regulation"/>
+<theme idref="E45"/>
+<cause idref="T60"/>
+<clue>gamma B*CaM-K also <clueType>downregulated</clueType> the activation of AP-1 in response to transfection with a constitutively active mutant of PKC or stimulation with PMA.</clue>
+</event>
+<event id="E48">
+<type class="Negative_regulation"/>
+<theme idref="E46"/>
+<cause idref="T60"/>
+<clue>gamma B*CaM-K also <clueType>downregulated</clueType> the activation of AP-1 in response to transfection with a constitutively active mutant of PKC or stimulation with PMA.</clue>
+</event>
+<sentence id="S14">These results suggest that <term id="T64" lex="CaM-K_II" sem="Protein_molecule">CaM-K II</term> may exert negative influences on <term id="T65" lex="cytokine_gene_transcription" sem="Other"><term id="T66" lex="cytokine_gene" sem="DNA_domain_or_region"><term id="T67" lex="cytokine" sem="Protein_family_or_group">cytokine</term> gene</term> transcription</term> in <term id="T68" lex="human_T_cell" sem="Cell_natural">human T cells</term>, and provide preliminary evidence for <term id="T69" lex="negative_cross-talk" sem="Other">negative cross-talk</term> with the <cons id="T70" lex="(AND calcineurin-_dependent_signaling_system PKC-_dependent_signaling_system)" sem="(AND Other Other)"><frag id="F10"><term id="A10" sem="Protein_molecule">calcineurin</term>-</frag> and <frag id="F11"><term id="A11" sem="Protein_molecule">PKC</term>-</frag> <frag id="F12">dependent signaling systems</frag></cons>.</sentence>
+<event KT="Other" id="E49">
+<type class="Transcription"/>
+<theme idref="T66"/>
+<clue>These results suggest that CaM-K II may exert negative influences on cytokine gene <clueType>transcription</clueType> <clueLoc>in human T cells</clueLoc>, and provide preliminary evidence for negative cross-talk with the calcineurin- and PKC- dependent signaling systems.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E50" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="E49"/>
+<cause idref="T64"/>
+<clue>These results <clueKT>suggest</clueKT> that CaM-K II <clueCL>may</clueCL> <clueType>exert negative influences</clueType> <linkTheme>on</linkTheme> cytokine gene transcription in human T cells, and provide preliminary evidence for negative cross-talk with the calcineurin- and PKC- dependent signaling systems.</clue>
+</event>
+<event KT="Other" id="E51">
+<type class="Cell_communication"/>
+<cause idref="A10"/>
+<clue>These results suggest that CaM-K II may exert negative influences on cytokine gene transcription in human T cells, and provide preliminary evidence for negative cross-talk with the calcineurin- and PKC- <linkCause>dependent</linkCause> <clueType>signaling systems</clueType>.</clue>
+</event>
+<event KT="Other" id="E52">
+<type class="Cell_communication"/>
+<cause idref="A11"/>
+<clue>These results suggest that CaM-K II may exert negative influences on cytokine gene transcription in human T cells, and provide preliminary evidence for negative cross-talk with the calcineurin- and PKC- <linkCause>dependent</linkCause> <clueType>signaling systems</clueType>.</clue>
+</event>
+<event KT="Analysis" id="E53" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="E51"/>
+<cause idref="T64"/>
+<clue>These results suggest that CaM-K II may exert negative influences on cytokine gene transcription in human T cells, and provide preliminary <clueKT>evidence</clueKT> for <clueType>negative cross-talk</clueType> <linkTheme>with</linkTheme> the calcineurin- and PKC- dependent signaling systems.</clue>
+<comment>NO COREFCAUSE</comment></event>
+<event KT="Analysis" id="E54" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="E52"/>
+<cause idref="T64"/>
+<clue>These results suggest that CaM-K II may exert negative influences on cytokine gene transcription in human T cells, and provide preliminary <clueKT>evidence</clueKT> for <clueType>negative cross-talk</clueType> <linkTheme>with</linkTheme> the calcineurin- and PKC- dependent signaling systems.</clue>
+<comment>NO COREFCAUSE</comment></event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

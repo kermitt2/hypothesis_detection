@@ -1,0 +1,228 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9360945" created="10/06/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9360945</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="yranscription_factor" sem="Protein_family_or_group">Transcription factor</term> <term id="T2" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> regulates inducible <term id="T3" lex="Oct-2_gene_expression" sem="Other"><term id="T4" lex="Oct-2_gene" sem="DNA_domain_or_region"><term id="T5" lex="Oct-2" sem="Protein_molecule">Oct-2</term> gene</term> expression</term> in <term id="T6" lex="precursor_B_lymphocyte" sem="Cell_natural">precursor B lymphocytes</term>.</sentence>
+<event id="E1">
+<type class="Regulation"/>
+<theme idref="E2"/>
+<cause idref="T2"/>
+<clue>Transcription factor NF-kappaB <clueType>regulates</clueType> inducible Oct-2 gene expression in precursor B lymphocytes.</clue>
+</event>
+<event id="E2">
+<type class="Gene_expression"/>
+<theme idref="T5"/>
+<clue>Transcription factor NF-kappaB regulates inducible Oct-2 <clueType>gene expression</clueType> <clueLoc>in precursor B lymphocytes</clueLoc>.</clue>
+</event>
+<event id="E39">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<clue>Transcription factor NF-kappaB regulates <clueType>inducible</clueType> Oct-2 gene expression in precursor B lymphocytes.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T7" lex="POU_transcription_factor" sem="Protein_family_or_group">POU transcription factors</term> <term id="T8" lex="Oct-1" sem="Protein_molecule">Oct-1</term> and <term id="T9" lex="Oct-2" sem="Protein_molecule">Oct-2</term> regulate the activity of <term id="T10" lex="octamer-dependent_promoter" sem="DNA_domain_or_region">octamer-dependent promoters</term>, including those that direct transcription from rearranged <term id="T11" lex="immunoglobulin_gene" sem="DNA_domain_or_region">immunoglobulin genes</term>.</sentence>
+<event KT="Fact" id="E3">
+<type class="Regulation"/>
+<theme idref="E5"/>
+<cause idref="T8"/>
+<clue>The <corefCause>POU transcription factors</corefCause> Oct-1 and Oct-2 <clueType>regulate</clueType> the activity of octamer-dependent promoters, including those that direct transcription from rearranged immunoglobulin genes.</clue>
+</event>
+<event KT="Fact" id="E4">
+<type class="Regulation"/>
+<theme idref="E5"/>
+<cause idref="T9"/>
+<clue><corefCause>The POU transcription factors</corefCause> Oct-1 and Oct-2 <clueType>regulate</clueType> the activity of octamer-dependent promoters, including those that direct transcription from rearranged immunoglobulin genes.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="T10"/>
+<clue>The POU transcription factors Oct-1 and Oct-2 regulate the <corefTheme>activity of octamer-dependent promoters</corefTheme>, including those that <clueType>direct</clueType> transcription from rearranged immunoglobulin genes.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Transcription"/>
+<theme idref="T11"/>
+<clue>The POU transcription factors Oct-1 and Oct-2 regulate the activity of octamer-dependent promoters, including those that direct <clueType>transcription</clueType> <linkTheme>from</linkTheme> rearranged immunoglobulin genes.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="DNA_recombination"/>
+<theme idref="T11"/>
+<clue>The POU transcription factors Oct-1 and Oct-2 regulate the activity of octamer-dependent promoters, including those that direct transcription from <clueType>rearranged</clueType> immunoglobulin genes.</clue>
+<comment>NER: T11 sem mod, Protein_family_or_group -&gt; DNA_domain_or_region</comment></event>
+<sentence id="S3">Unlike <term id="T12" lex="Oct-1" sem="Protein_molecule">Oct-1</term>, which is constitutively expressed in many cell types, <term id="T13" lex="Oct-2_expression" sem="Other"><term id="T14" lex="Oct-2" sem="Protein_molecule">Oct-2</term> expression</term> is restricted primarily to <term id="T15" lex="B_lymphocyte" sem="Cell_natural">B lymphocytes</term> and can be induced in <term id="T16" lex="precursor_B_cell" sem="Cell_natural">precursor B cells</term> by stimulation with <term id="T17" lex="bacterial_lipopolysaccharide" sem="Lipid">bacterial lipopolysaccharide</term> (<term id="T18" lex="LPS" sem="Lipid">LPS</term>).</sentence>
+<event KT="Other" id="E9">
+<type class="Gene_expression"/>
+<theme idref="T12"/>
+<clue>Unlike Oct-1, which is constitutively <clueType>expressed</clueType> <clueLoc>in many cell types</clueLoc>, Oct-2 expression is restricted primarily to B lymphocytes and can be induced in precursor B cells by stimulation with bacterial lipopolysaccharide (LPS).</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Gene_expression"/>
+<theme idref="T14"/>
+<clue>Unlike Oct-1, which is constitutively expressed in many cell types, Oct-2 <clueType>expression</clueType> is restricted primarily to B lymphocytes and can be induced in precursor B cells by stimulation with bacterial lipopolysaccharide (LPS).</clue>
+</event>
+<event KT="Fact" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<clue>Unlike Oct-1, which is constitutively expressed in many cell types, Oct-2 expression is <clueType>restricted</clueType> primarily to <clueLoc>B lymphocytes</clueLoc> and can be induced in precursor B cells by stimulation with bacterial lipopolysaccharide (LPS).</clue>
+<comment>CAUTION: restricted = induced only</comment></event>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<clue><cluePolarity>Unlike</cluePolarity> Oct-1, which is constitutively expressed <clueLoc>in many cell types</clueLoc>, Oct-2 expression is <clueType>restricted</clueType> primarily to B lymphocytes and can be induced in precursor B cells by stimulation with bacterial lipopolysaccharide (LPS).</clue>
+<comment>CAUTION: restricted = induced</comment></event>
+<event CL="L2" KT="Analysis" id="E13" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="E14"/>
+<clue>Unlike Oct-1, which is constitutively expressed in many cell types, Oct-2 expression is restricted primarily to B lymphocytes and <clueKT><clueCL>can</clueCL></clueKT> be <clueType>induced</clueType> <clueLoc>in precursor B cells</clueLoc> <linkCause>by</linkCause> stimulation with bacterial lipopolysaccharide (LPS).</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Physiological_process"/>
+<theme idref="T16"/>
+<cause idref="T18"/>
+<clue>Unlike Oct-1, which is constitutively expressed in many cell types, Oct-2 expression is restricted primarily to B lymphocytes and can be induced in precursor B cells by <clueType>stimulation</clueType> <linkCause>with</linkCause> bacterial lipopolysaccharide (LPS).</clue>
+</event>
+<sentence id="S4">However, the precise <term id="A1" sem="Protein_family_or_group">factors</term> that mediate this induction mechanism remain unknown.</sentence>
+<event KT="Other" id="E15" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="A1"/>
+<clue>However, the precise factors that <clueType>mediate</clueType> <corefTheme>this induction mechanism</corefTheme> remain unknown.</clue>
+</event>
+<sentence id="S5">In the present study, we monitored <term id="T19" lex="Oct-2_expression" sem="Other"><term id="T20" lex="Oct-2" sem="Protein_molecule">Oct-2</term> expression</term> in cells arrested for the activation of <term id="T21" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>, an <term id="T22" lex="LPS-responsive_member" sem="Protein_family_or_group"><term id="T23" lex="LPS" sem="Lipid">LPS</term>-responsive member</term> of the <term id="T24" lex="Rel_transcription_factor_family" sem="Protein_family_or_group">Rel transcription factor family</term>.</sentence>
+<event KT="Investigation" id="E16" uncertainty="doubtful">
+<type class="Gene_expression"/>
+<theme idref="T20"/>
+<clue>In the present study, we <clueKT>monitored</clueKT> Oct-2 <clueType>expression</clueType> <clueLoc>in cells arrested for the activation of NF-kappaB</clueLoc>, an LPS-responsive member of the Rel transcription factor family.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Negative_regulation"/>
+<theme idref="E18"/>
+<clue>In the present study, we monitored Oct-2 expression <clueLoc>in cells</clueLoc> <clueType>arrested</clueType> <linkTheme>for</linkTheme> the activation of NF-kappaB, an LPS-responsive member of the Rel transcription factor family.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="T21"/>
+<clue>In the present study, we monitored Oct-2 expression in cells arrested for the <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappaB, an LPS-responsive member of the Rel transcription factor family.</clue>
+</event>
+<event KT="Fact" id="E19">
+<type class="Regulation"/>
+<theme idref="T21"/>
+<cause idref="T23"/>
+<clue>In the present study, we monitored Oct-2 expression in cells arrested for the activation of NF-kappaB, an LPS-<clueType>responsive</clueType> member of the Rel transcription factor family.</clue>
+</event>
+<sentence id="S6">Despite stimulation with <term id="T25" lex="LPS" sem="Lipid">LPS</term>, disruption of the <term id="T26" lex="NF-kappaB_signaling_pathway" sem="Other"><term id="T27" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> signaling pathway</term> in <term id="T28" lex="precursor_B_cell" sem="Cell_natural">precursor B cells</term> led to the loss of inducible <term id="T29" lex="Oct-2_DNA_binding_activity" sem="Other"><term id="T30" lex="Oct-2" sem="Protein_molecule">Oct-2</term> <term id="A4" sem="DNA_domain_or_region">DNA</term> binding activity</term> in vitro and the suppression of <term id="T32" lex="Oct-2" sem="Protein_molecule">Oct-2</term>-directed <term id="A3" sem="Other">transcription</term> in vivo.</sentence>
+<event id="E21">
+<type class="Positive_regulation"/>
+<theme idref="T28"/>
+<cause idref="T25"/>
+<clue>Despite <clueType>stimulation</clueType> <linkCause>with</linkCause> LPS, disruption of the NF-kappaB signaling pathway in precursor B cells led to the loss of inducible Oct-2 DNA binding activity in vitro and the suppression of Oct-2-directed transcription in vivo.</clue>
+</event>
+<event id="E22">
+<type class="Negative_regulation"/>
+<theme idref="E8"/>
+<clue>Despite stimulation with LPS, <clueType>disruption</clueType> <linkTheme>of</linkTheme> the NF-kappaB signaling pathway in precursor B cells led to the loss of inducible Oct-2 DNA binding activity in vitro and the suppression of Oct-2-directed transcription in vivo.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Cell_communication"/>
+<theme idref="T27"/>
+<clue>Despite stimulation with LPS, disruption of the NF-kappaB <clueType>signaling</clueType> pathway <clueLoc>in precursor B cells</clueLoc> led to the loss of inducible Oct-2 DNA binding activity in vitro and the suppression of Oct-2-directed transcription in vivo.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation"/>
+<theme idref="E25"/>
+<cause idref="E22"/>
+<clue>Despite stimulation with LPS, disruption of the NF-kappaB signaling pathway in precursor B cells <clueType>led to</clueType> the <clueType>loss</clueType> <linkTheme>of</linkTheme> inducible Oct-2 DNA binding activity in vitro and the suppression of Oct-2-directed transcription in vivo.</clue>
+</event>
+<event KT="Other" id="E24" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E25"/>
+<clue>Despite stimulation with LPS, disruption of the NF-kappaB signaling pathway in precursor B cells led to the loss of <clueType>inducible</clueType> Oct-2 DNA binding activity in vitro and the suppression of Oct-2-directed transcription in vivo.</clue>
+</event>
+<event KT="Other" id="E25">
+<type class="Binding"/>
+<theme idref="T30"/>
+<theme idref="A4"/>
+<clue>Despite stimulation with LPS, disruption of the NF-kappaB signaling pathway in precursor B cells led to the loss of inducible Oct-2 DNA <clueType>binding</clueType> activity in vitro and the suppression of Oct-2-directed transcription in vivo.</clue>
+</event>
+<event id="E26">
+<type class="Negative_regulation"/>
+<theme idref="E27"/>
+<cause idref="E22"/>
+<clue>Despite stimulation with LPS, disruption of the NF-kappaB signaling pathway in precursor B cells <clueType>led to</clueType> the loss of inducible Oct-2 DNA binding activity in vitro and the <clueType>suppression</clueType> <linkTheme>of</linkTheme> Oct-2-directed transcription in vivo.</clue>
+</event>
+<event KT="Other" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<clue>Despite stimulation with LPS, disruption of the NF-kappaB signaling pathway in precursor B cells led to the loss of inducible Oct-2 DNA binding activity in vitro and the suppression of Oct-2-<clueType>directed</clueType> transcription in vivo.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E28">
+<type class="Negative_regulation"/>
+<theme idref="E23"/>
+<cause idref="E21"/>
+<clue><linkCause><cluePolarity>Despite</cluePolarity></linkCause> stimulation with LPS, disruption of the NF-kappaB signaling pathway in precursor B cells led to the loss of inducible Oct-2 DNA binding activity in vitro and the suppression of Oct-2-directed transcription in vivo.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E29">
+<type class="Negative_regulation"/>
+<theme idref="E26"/>
+<cause idref="E21"/>
+<clue><linkCause><cluePolarity>Despite</cluePolarity></linkCause> stimulation with LPS, disruption of the NF-kappaB signaling pathway in precursor B cells led to the loss of inducible Oct-2 DNA binding activity in vitro and the suppression of Oct-2-directed transcription in vivo.</clue>
+</event>
+<sentence id="S7">This biochemical defect correlated with a specific block to <term id="T33" lex="Oct-2_gene_expression" sem="Other"><term id="T34" lex="Oct-2_gene" sem="DNA_domain_or_region"><term id="T35" lex="Oct-2" sem="Protein_molecule">Oct-2</term> gene</term> expression</term> at the level of transcription, whereas the expression of <term id="T36" lex="Oct-1" sem="Protein_molecule">Oct-1</term> was unaffected.</sentence>
+<event KT="Analysis" id="E38">
+<type class="Correlation"/>
+<theme idref="E23"/>
+<theme idref="E31"/>
+<clue><corefTheme>This biochemical defect</corefTheme> <clueType><clueKT>correlated</clueKT></clueType> <linkTheme>with</linkTheme> a specific block to Oct-2 gene expression at the level of transcription, whereas the expression of Oct-1 was unaffected.</clue>
+</event>
+<event KT="Analysis" id="E30">
+<type class="Correlation"/>
+<theme idref="E26"/>
+<theme idref="E31"/>
+<clue><corefTheme>This biochemical defect</corefTheme> <clueType><clueKT>correlated</clueKT></clueType> <linkTheme>with</linkTheme> a specific block to Oct-2 gene expression at the level of transcription, whereas the expression of Oct-1 was unaffected.</clue>
+</event>
+<event KT="Other" id="E31">
+<type class="Negative_regulation"/>
+<theme idref="E32"/>
+<cause idref="E22"/>
+<clue>This biochemical defect correlated with a specific <clueType>block</clueType> <linkTheme>to</linkTheme> Oct-2 gene expression at the level of transcription, whereas the expression of Oct-1 was unaffected.</clue>
+</event>
+<event KT="Other" id="E32">
+<type class="Transcription"/>
+<theme idref="T34"/>
+<clue>This biochemical defect correlated with a specific block to Oct-2 gene <clueType>expression at the level of transcription</clueType>, whereas the expression of Oct-1 was unaffected.</clue>
+</event>
+<event id="E33">
+<type class="Gene_expression"/>
+<theme idref="T36"/>
+<clue>This biochemical defect correlated with a specific block to Oct-2 gene expression at the level of transcription, whereas the <clueType>expression</clueType> <linkTheme>of</linkTheme> Oct-1 was unaffected.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E34">
+<type class="Negative_regulation"/>
+<theme idref="E33"/>
+<cause idref="E22"/>
+<clue>This biochemical defect correlated with a specific block to Oct-2 gene expression at the level of transcription, whereas the expression of Oct-1 was <clueType><cluePolarity>unaffected</cluePolarity></clueType>.</clue>
+</event>
+<sentence id="S8">The finding that <term id="T37" lex="Oct-2" sem="Protein_molecule">Oct-2</term> is under <term id="T38" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> control highlights an important cross-talk mechanism involving two distinct <term id="T39" lex="transcription_factor_family" sem="Protein_family_or_group">transcription factor families</term> that regulate <term id="A2" sem="Other"><term id="T41" lex="B_lymphocyte" sem="Cell_natural">B lymphocyte</term> function</term>.</sentence>
+<event id="E35">
+<type class="Regulation"/>
+<theme idref="T37"/>
+<cause idref="T38"/>
+<clue>The <clueKT>finding</clueKT> that Oct-2 is <clueType>under</clueType> NF-kappaB <clueType>control</clueType> highlights an important cross-talk mechanism involving two distinct transcription factor families that regulate B lymphocyte function.</clue>
+</event>
+<event KT="Analysis" id="E36">
+<type class="Correlation"/>
+<theme idref="E37"/>
+<theme idref="E37"/>
+<clue>The finding that Oct-2 is under NF-kappaB control <clueKT>highlights</clueKT> an important <clueType>cross-talk</clueType> mechanism <linkTheme>involving</linkTheme> two distinct transcription factor families that regulate B lymphocyte function.</clue>
+</event>
+<event KT="Other" id="E37">
+<type class="Physiological_process"/>
+<theme idref="T41"/>
+<cause idref="T39"/>
+<clue>The finding that Oct-2 is under NF-kappaB control highlights an important cross-talk mechanism involving two distinct transcription factor families that <clueType>regulate</clueType> B lymphocyte function.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

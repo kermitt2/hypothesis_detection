@@ -1,0 +1,25 @@
+T35	Adverse_effect 42 52	associated
+T42	Potential_therapeutic_effect 220 229	treatment
+T43	Adverse_effect 351 361	toxicities
+T18	Potential_therapeutic_effect 685 694	receiving
+T46	Adverse_effect 855 867	side effects
+T48	Adverse_effect 1128 1140	side effects
+T58	Adverse_effect 736 743	develop
+T4	Adverse_effect 1595 1599	risk
+R1	Subject_Disorder Arg1:T36 Arg2:T3
+R2	is_equivalent Arg1:T5 Arg2:T33
+R5	Subject_Disorder Arg1:T15 Arg2:T19
+R6	Subject_Disorder Arg1:T47 Arg2:T22
+R3	Subject_Disorder Arg1:T15 Arg2:T14
+E1	Adverse_effect:T35 has_subject:T36 affects:T2 has_agent:T1 has_cue:T60
+E2	Potential_therapeutic_effect:T42 affects:T38 affects:T39 affects:T40 affects:T41 affects:T6 has_agent:T5
+E3	Adverse_effect:T43 has_agent:T12 affects:T7 affects:T8 affects:T9 affects:T10
+E5	Potential_therapeutic_effect:T18 has_agent:T45 has_subject:T15 affects:T19
+E6	Adverse_effect:T46 has_agent:T21 affects:T23 affects:T24 affects:T25 affects:T26 has_subject:T47
+E7	Adverse_effect:T48 has_agent:T49
+E10	Adverse_effect:T58 has_subject:T15 has_cue:T55 affects:T62 has_agent:T45
+E12	Adverse_effect:T4 has_cue:T61 has_cue:T52 affects:T32 has_agent:T51
+A3	Manner E1 High
+A4	Speculated E12
+A5	Manner E12 High
+A6	Manner E10 High

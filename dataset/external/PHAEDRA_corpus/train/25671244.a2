@@ -1,0 +1,16 @@
+T18	Adverse_effect 148 158	associated
+T10	Adverse_effect 19 28	following
+T24	Adverse_effect 308 310	in
+T26	Adverse_effect 447 456	presented
+T31	Adverse_effect 1894 1900	result
+R1	Subject_Disorder Arg1:T17 Arg2:T30
+R2	Subject_Disorder Arg1:T17 Arg2:T27
+R3	Subject_Disorder Arg1:T17 Arg2:T28
+R4	Subject_Disorder Arg1:T17 Arg2:T29
+E3	Combination:T3 has_participant:T2 has_participant:T45
+E1	Adverse_effect:T18 has_agent:T4 affects:T5
+E4	Adverse_effect:T10 has_agent:E3 affects:T1
+E5	Adverse_effect:T24 has_agent:T8 affects:T7
+E6	Adverse_effect:T26 has_agent:T11 has_subject:T23 affects:T25 affects:T12 affects:T13 affects:T14 affects:T15 affects:T16
+E7	Adverse_effect:T31 has_cue:T35 has_agent:T44 affects:T42
+A1	Speculated E7

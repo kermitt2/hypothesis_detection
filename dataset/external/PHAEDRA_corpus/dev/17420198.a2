@@ -1,0 +1,38 @@
+T30	Adverse_effect 23 31	mediated
+T43	Adverse_effect 141 150	following
+T45	Adverse_effect 1071 1076	after
+T50	Adverse_effect 584 593	secondary
+T54	Potential_therapeutic_effect 911 920	initiated
+T56	Adverse_effect 1880 1889	developed
+T61	Potential_therapeutic_effect 660 670	initiation
+T70	Potential_therapeutic_effect 1736 1744	efficacy
+T71	Adverse_effect 1761 1772	development
+T46	Potential_therapeutic_effect 1617 1625	resolved
+R1	is_equivalent Arg1:T11 Arg2:T12
+R2	is_equivalent Arg1:T4 Arg2:T5
+R3	Subject_Disorder Arg1:T29 Arg2:T3
+R4	Subject_Disorder Arg1:T34 Arg2:T7
+R5	Subject_Disorder Arg1:T26 Arg2:T10
+R7	Coreference Arg1:T51 Arg2:T26
+R8	Subject_Disorder Arg1:T55 Arg2:T39
+R9	Coreference Arg1:T60 Arg2:T26
+E6	Combination:T52 has_participant:T18 has_participant:T19 has_participant:T20
+E7	Combination:T53 has_participant:T21 has_participant:T22
+E1	Adverse_effect:T30 has_agent:T1 has_cue:T16 affects:T2 has_subject:T29
+E2	Adverse_effect:T43 has_agent:T6 has_subject:T34 affects:T4
+E3	Adverse_effect:T45 has_agent:T28 affects:T62 affects:T63 affects:T64
+E5	Adverse_effect:T50 has_agent:T14 affects:T13 has_subject:T51 affects:T57
+E8	Potential_therapeutic_effect:T54 has_agent:T25 affects:T27
+E9	Adverse_effect:T56 has_agent:T42 affects:T41 has_subject:T55
+E11	Potential_therapeutic_effect:T61 has_agent:T15 has_subject:T60
+E15	Potential_therapeutic_effect:T70 affects:T37 has_agent:T36 has_cue:T49
+E16	Adverse_effect:T71 affects:T38 has_agent:T36
+E4	Potential_therapeutic_effect:T46 affects:T67 has_agent:T35
+A1	Speculated E1
+T47	Potential_therapeutic_effect 151 165	administration
+E10	Potential_therapeutic_effect:T47 has_agent:T6 has_subject:T34
+T24	Potential_therapeutic_effect 819 829	prescribed
+E12	Potential_therapeutic_effect:T24 has_agent:E7 affects:T23
+A2	Negated E15
+T58	Potential_therapeutic_effect 1904 1914	initiation
+E13	Potential_therapeutic_effect:T58 has_agent:T42 has_subject:T55

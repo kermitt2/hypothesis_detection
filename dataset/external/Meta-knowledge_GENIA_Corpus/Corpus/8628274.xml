@@ -1,0 +1,239 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8628274" created="13/07/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8628274</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Inactivation of <term id="T1" lex="IkappaBbeta" sem="Protein_molecule">IkappaBbeta</term> by the <term id="T2" lex="tax_protein" sem="Protein_molecule">tax protein</term> of <term id="T3" lex="human_T-cell_leukemia_virus_type_1" sem="Virus">human T-cell leukemia virus type 1</term>: a potential mechanism for constitutive induction of <term id="T4" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>.</sentence>
+<event id="E1">
+<type class="Negative_regulation"/>
+<theme idref="T1"/>
+<cause idref="T2"/>
+<clue><clueType>Inactivation</clueType> <linkTheme>of</linkTheme> IkappaBbeta <linkCause>b</linkCause>y the tax protein of human T-cell leukemia virus type 1: a potential mechanism for constitutive induction of NF-kappaB.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="T4"/>
+<clue>Inactivation of IkappaBbeta by the tax protein of human T-cell leukemia virus type 1: a <clueKT><clueCL>potential</clueCL></clueKT> mechanism for constitutive <clueType>induction</clueType> <linkTheme>of</linkTheme> NF-kappaB.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">In <term id="T5" lex="resting_T_lymphocyte" sem="Cell_natural">resting T lymphocytes</term>, the <term id="T6" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> <term id="T7" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> is sequestered in the cytoplasm via interactions with <term id="A1" sem="Protein_family_or_group">members of the <term id="T8" lex="I_kappa_B_family" sem="Protein_family_or_group">I kappa B family</term></term> of inhibitors, including <term id="T9" lex="IkappaBalpha" sem="Protein_molecule">IkappaBalpha</term> and <term id="T10" lex="IkappaBbeta" sem="Protein_molecule">IkappaBbeta</term>.</sentence>
+<event KT="Other" id="E3">
+<type class="Binding"/>
+<theme idref="T7"/>
+<theme idref="A1"/>
+<clue>In resting T lymphocytes, the transcription factor NF-kappaB is sequestered in the cytoplasm via <clueType>interactions</clueType> <linkTheme>with</linkTheme> members of the I kappa B family of inhibitors, including IkappaBalpha and IkappaBbeta.</clue>
+<comment>TPS: A1</comment></event>
+<event KT="Other" id="E4">
+<type class="Binding"/>
+<theme idref="T7"/>
+<theme idref="T9"/>
+<clue>In resting T lymphocytes, the transcription factor NF-kappaB is sequestered in the cytoplasm via <clueType>interactions</clueType> <linkTheme>with</linkTheme> <corefTheme idref1="T9">members of the I kappa B family</corefTheme> of inhibitors, including IkappaBalpha and IkappaBbeta.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Binding"/>
+<theme idref="T7"/>
+<theme idref="T10"/>
+<clue>In resting T lymphocytes, the transcription factor NF-kappaB is sequestered in the cytoplasm via <clueType>interactions</clueType> <linkTheme>with</linkTheme> <corefTheme idref1="T10">members of the I kappa B family</corefTheme> of inhibitors, including IkappaBalpha and IkappaBbeta.</clue>
+</event>
+<event KT="Fact" id="E106">
+<type class="Localization"/>
+<theme idref="T7"/>
+<clue><clueLoc>In resting T lymphocytes</clueLoc>, the transcription factor NF-kappaB is <clueType>sequestered</clueType> <clueLoc>in the cytoplasm</clueLoc> via interactions with members of the I kappa B family of inhibitors, including IkappaBalpha and IkappaBbeta.</clue>
+</event>
+<event KT="Fact" id="E107">
+<type class="Positive_regulation"/>
+<theme idref="E106"/>
+<cause idref="E3"/>
+<clue>In resting T lymphocytes, the transcription factor NF-kappaB is sequestered in the cytoplasm <linkCause>via</linkCause> interactions with members of the I kappa B family of inhibitors, including IkappaBalpha and IkappaBbeta.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Fact" id="E108">
+<type class="Positive_regulation"/>
+<theme idref="E106"/>
+<cause idref="E4"/>
+<clue>In resting T lymphocytes, the transcription factor NF-kappaB is sequestered in the cytoplasm <linkCause>via</linkCause> interactions with members of the I kappa B family of inhibitors, including IkappaBalpha and IkappaBbeta.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Fact" id="E109">
+<type class="Positive_regulation"/>
+<theme idref="E106"/>
+<cause idref="E5"/>
+<clue>In resting T lymphocytes, the transcription factor NF-kappaB is sequestered in the cytoplasm <linkCause>via</linkCause> interactions with members of the I kappa B family of inhibitors, including IkappaBalpha and IkappaBbeta.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S3">During normal <term id="T11" lex="T-cell_activation" sem="Other"><term id="A2" sem="Cell_natural">T-cell</term> activation</term>, <term id="T12" lex="IkappaBalpha" sem="Protein_molecule">IkappaBalpha</term> is rapidly phosphorylated, ubiquitinated, and degraded by the <term id="T13" lex="26S_proteasome" sem="Protein_complex">26S proteasome</term>, thus permitting the release of functional <term id="T14" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>.</sentence>
+<event KT="Other" id="E9">
+<type class="Physiological_process"/>
+<theme idref="A2"/>
+<clue>During normal T-cell <clueType>activation</clueType>, IkappaBalpha is rapidly phosphorylated, ubiquitinated, and degraded by the 26S proteasome, thus permitting the release of functional NF-kappaB.</clue>
+</event>
+<event KT="Fact" Manner="High" id="E10">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T12"/>
+<clue><clueTime>During normal T-cell activation</clueTime>, IkappaBalpha is <clueManner>rapidly</clueManner> <clueType>phosphorylated</clueType>, ubiquitinated, and degraded by the 26S proteasome, thus permitting the release of functional NF-kappaB.</clue>
+</event>
+<event KT="Fact" id="E11">
+<type class="Protein_ubiquitination"/>
+<theme idref="T12"/>
+<clue><clueTime>During normal T-cell activation</clueTime>, IkappaBalpha is <clueManner>rapidly</clueManner> phosphorylated, <clueType>ubiquitinated</clueType>, and degraded by the 26S proteasome, thus permitting the release of functional NF-kappaB.</clue>
+</event>
+<event KT="Fact" id="E112">
+<type class="Protein_catabolism"/>
+<theme idref="T12"/>
+<clue><clueTime>During normal T-cell activation</clueTime>, IkappaBalpha is <clueManner>rapidly</clueManner> phosphorylated, ubiquitinated, and <clueType>degraded</clueType> by the 26S proteasome, thus permitting the release of functional NF-kappaB.</clue>
+</event>
+<event KT="Fact" id="E113">
+<type class="Positive_regulation"/>
+<theme idref="E112"/>
+<cause idref="T13"/>
+<clue><clueTime>During normal T-cell activation</clueTime>, IkappaBalpha is rapidly phosphorylated, ubiquitinated, and degraded <linkCause>by</linkCause> the 26S proteasome, thus permitting the release of functional NF-kappaB.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Other" id="E13">
+<type/>
+<theme idref="T14"/>
+<clue>During normal T-cell activation, IkappaBalpha is rapidly phosphorylated, ubiquitinated, and degraded by the 26S proteasome, thus permitting the <clueType>release</clueType> <linkTheme>of</linkTheme> functional NF-kappaB.</clue>
+<comment>SOO: release</comment></event>
+<event KT="Fact" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="E113"/>
+<clue>During normal T-cell activation, IkappaBalpha is rapidly phosphorylated, ubiquitinated, and degraded by the 26S proteasome, thus <clueType>permitting</clueType> the release of functional NF-kappaB.</clue>
+</event>
+<sentence id="S4">In contrast to its transient pattern of nuclear induction during an immune response, <term id="T15" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> is constitutively activated in cells expressing the <term id="T16" lex="Tax_transforming_protein" sem="Protein_molecule">Tax transforming protein</term> of <term id="T17" lex="human_T-cell_leukemia_virus_type_I" sem="Virus">human T-cell leukemia virus type I</term> (<term id="T18" lex="HTLV-1" sem="Virus">HTLV-1</term>).</sentence>
+<event KT="Fact" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="T15"/>
+<clue>In contrast to its transient pattern of <clueLoc>nuclear</clueLoc> <clueType>induction</clueType> <clueTime>during an immune response</clueTime>, NF-kappaB is constitutively activated in cells expressing the Tax transforming protein of human T-cell leukemia virus type I (HTLV-1).</clue>
+</event>
+<event KT="Fact" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T15"/>
+<clue>In contrast to its transient pattern of nuclear induction during an immune response, NF-kappaB is constitutively <clueType>activated</clueType> <clueLoc>in cells expressing the Tax transforming protein of human T-cell leukemia virus type I (HTLV-1).</clueLoc></clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Gene_expression"/>
+<theme idref="T16"/>
+<clue>In contrast to its transient pattern of nuclear induction during an immune response, NF-kappaB is constitutively activated in cells <clueType>expressing</clueType> the Tax transforming protein of human T-cell leukemia virus type I (HTLV-1).</clue>
+</event>
+<sentence id="S5">Recent studies indicate that <term id="T19" lex="HTLV-1" sem="Virus">HTLV-1</term> <term id="T20" lex="Tax" sem="Protein_molecule">Tax</term> targets <term id="T21" lex="IkappaBalpha" sem="Protein_molecule">IkappaBalpha</term> to the <term id="T22" lex="ubiquitin-proteasome_pathway" sem="Other">ubiquitin-<term id="T23" lex="proteasome" sem="Cell_component">proteasome</term> pathway</term>.</sentence>
+<event KT="Other" id="E18">
+<type class="Protein_catabolism"/>
+<theme idref="T21"/>
+<clue>Recent studies indicate that HTLV-1 Tax targets IkappaBalpha to the <clueType>ubiquitin-proteasome pathway</clueType>.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E50">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="T20"/>
+<clue><clueSource>Recent studies</clueSource> <clueKT>indicate</clueKT> that HTLV-1 Tax <clueType>targets</clueType> IkappaBalpha <linkTheme>to</linkTheme> the ubiquitin-proteasome pathway.</clue>
+</event>
+<sentence id="S6">However, it remains unclear how this <term id="T24" lex="viral_protein" sem="Protein_family_or_group">viral protein</term> induces a persistent rather than <term id="T25" lex="transient_NF-kappaB_response" sem="Other">transient <term id="T26" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> response</term>.</sentence>
+<event KT="Fact" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="T26"/>
+<cause idref="T20"/>
+<clue>However, it remains unclear how <corefCause>this viral protein</corefCause> <clueType>induces</clueType> a persistent rather than transient NF-kappaB response.</clue>
+</event>
+<sentence id="S7">In this report, we provide evidence that in addition to acting on <term id="T27" lex="IkappaBalpha" sem="Protein_molecule">IkappaBalpha</term>, <term id="T28" lex="Tax" sem="Protein_molecule">Tax</term> stimulates the turnover Of <term id="T29" lex="IkappaBbeta" sem="Protein_molecule">IkappaBbeta</term> via a related targeting mechanism.</sentence>
+<event CL="L2" KT="Analysis" id="E20">
+<type class="Regulation"/>
+<theme idref="T27"/>
+<cause idref="T28"/>
+<clue>In this report, we <clueKT>provide <clueCL>evidence</clueCL></clueKT> that in addition to <clueType>acting</clueType> <linkTheme>on</linkTheme> IkappaBalpha, Tax stimulates the turnover Of IkappaBbeta via a related targeting mechanism.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Protein_metabolism"/>
+<theme idref="T29"/>
+<clue>In this report, we provide evidence that in addition to acting on IkappaBalpha, Tax stimulates the <clueType>turnover</clueType> <linkTheme>Of</linkTheme> IkappaBbeta via a related targeting mechanism.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="T28"/>
+<clue>In this report, we <clueKT>provide <clueCL>evidence</clueCL></clueKT> that in addition to acting on IkappaBalpha, Tax <clueType>stimulates</clueType> the turnover Of IkappaBbeta via a related targeting mechanism.</clue>
+</event>
+<sentence id="S8">Like <term id="T30" lex="IkappaBalpha" sem="Protein_molecule">IkappaBalpha</term>, <term id="T31" lex="Tax-mediated_breakdown" sem="Other"><term id="T32" lex="Tax" sem="Protein_molecule">Tax</term>-mediated breakdown</term> of <term id="T33" lex="IkappaBbeta" sem="Protein_molecule">IkappaBbeta</term> in <term id="T34" lex="transfected_T_lymphocyte" sem="Cell_cultured">transfected <term id="A5" sem="Cell_natural">T lymphocytes</term></term> is blocked either by <term id="T35" lex="cell-permeable_proteasome_inhibitor" sem="Organic_compound_other">cell-permeable <term id="T36" lex="proteasome" sem="Cell_component">proteasome</term> inhibitors</term> or by mutation Of <term id="T37" lex="IkappaBbeta" sem="Protein_molecule">IkappaBbeta</term> at two <term id="T38" lex="serine_residue" sem="Amino_acid_monomer">serine residues</term> present within its <term id="T39" lex="N-terminal_region" sem="Protein_domain_or_region">N-terminal region</term>.</sentence>
+<event id="E223">
+<type class="Protein_catabolism"/>
+<theme idref="T33"/>
+<clue>Like IkappaBalpha, Tax-mediated <clueType>breakdown</clueType> <linkTheme>of</linkTheme> IkappaBbeta in transfected T lymphocytes is blocked either by cell-permeable proteasome inhibitors or by mutation Of IkappaBbeta at two serine residues present within its N-terminal region.</clue>
+</event>
+<event id="E224">
+<type class="Positive_regulation"/>
+<theme idref="E223"/>
+<cause idref="T32"/>
+<clue>Like IkappaBalpha, Tax-<clueType>mediated</clueType> breakdown of IkappaBbeta <clueLoc>in transfected T lymphocytes</clueLoc> is blocked either by cell-permeable proteasome inhibitors or by mutation Of IkappaBbeta at two serine residues present within its N-terminal region.</clue>
+</event>
+<event KT="Other" id="E124">
+<type class="Gene_expression"/>
+<theme idref="T32"/>
+<clue>Like IkappaBalpha, Tax-mediated breakdown of IkappaBbeta in <clueType>transfected</clueType> T lymphocytes is blocked either by cell-permeable proteasome inhibitors or by mutation Of IkappaBbeta at two serine residues present within its N-terminal region.</clue>
+</event>
+<event KT="Other" id="E125">
+<type class="Positive_regulation"/>
+<theme idref="E124"/>
+<clue>Like IkappaBalpha, Tax-mediated breakdown of IkappaBbeta in <clueType>transfected</clueType> <clueLoc>T lymphocytes</clueLoc> is blocked either by cell-permeable proteasome inhibitors or by mutation Of IkappaBbeta at two serine residues present within its N-terminal region.</clue>
+</event>
+<event id="E25">
+<type class="Mutagenesis"/>
+<theme idref="T37"/>
+<clue>Like IkappaBalpha, Tax-mediated breakdown of IkappaBbeta in transfected T lymphocytes is blocked either by cell-permeable proteasome inhibitors or by <clueType>mutation</clueType> <linkTheme>Of</linkTheme> IkappaBbeta at two serine residues present <clueLoc>within its N-terminal region</clueLoc>.</clue>
+<comment>Artificial</comment></event>
+<event id="E26">
+<type class="Negative_regulation"/>
+<theme idref="E124"/>
+<cause idref="T35"/>
+<clue>Like IkappaBalpha, Tax-mediated breakdown of IkappaBbeta in transfected T lymphocytes is <clueType>blocked</clueType> either <linkCause>by</linkCause> cell-permeable proteasome inhibitors or by mutation Of IkappaBbeta at two serine residues present within its N-terminal region.</clue>
+</event>
+<event id="E27">
+<type class="Negative_regulation"/>
+<theme idref="E124"/>
+<cause idref="E25"/>
+<clue>Like IkappaBalpha, Tax-mediated breakdown of IkappaBbeta in transfected T lymphocytes is <clueType>blocked</clueType> either by cell-permeable proteasome inhibitors or <linkCause>by</linkCause> mutation Of IkappaBbeta at two serine residues present within its N-terminal region.</clue>
+</event>
+<sentence id="S9">Despite the dual specificity of <term id="T40" lex="HTLV-1" sem="Virus">HTLV-1</term> <term id="T41" lex="Tax" sem="Protein_molecule">Tax</term> for <term id="T42" lex="IkappaBalpha" sem="Protein_molecule">IkappaBalpha</term> and <term id="T43" lex="IkappaBbeta" sem="Protein_molecule">IkappaBbeta</term> at the protein level, <term id="T44" lex="Tax" sem="Protein_molecule">Tax</term> selectively stimulates <term id="T45" lex="NF-kappaB-directed_transcription" sem="Other"><term id="T46" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>-directed transcription</term> of the <term id="T47" lex="IkappaBalpha_gene" sem="DNA_domain_or_region"><term id="T48" lex="IkappaBalpha" sem="Protein_molecule">IkappaBalpha</term> gene</term>.</sentence>
+<event id="E28">
+<type class="Transcription"/>
+<theme idref="T47"/>
+<clue>Despite the dual specificity of HTLV-1 Tax for IkappaBalpha and IkappaBbeta at the protein level, Tax selectively stimulates NF-kappaB-directed <clueType>transcription</clueType> <linkTheme>of</linkTheme> the IkappaBalpha gene.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation"/>
+<theme idref="E28"/>
+<cause idref="T46"/>
+<clue>Despite the dual specificity of HTLV-1 Tax for IkappaBalpha and IkappaBbeta at the protein level, Tax selectively stimulates NF-kappaB-<clueType>directed</clueType> transcription of the IkappaBalpha gene.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation"/>
+<theme idref="E29"/>
+<cause idref="T44"/>
+<clue>Despite the dual specificity of HTLV-1 Tax for IkappaBalpha and IkappaBbeta at the protein level, Tax selectively <clueType>stimulates</clueType> NF-kappaB-directed transcription of the IkappaBalpha gene.</clue>
+</event>
+<sentence id="S10">Consequently, <term id="T49" lex="IkappaBbeta" sem="Protein_molecule">IkappaBbeta</term> protein expression is chronically downregulated in <term id="T50" lex="HTLV-1-infected_T_lymphocyte" sem="Cell_natural"><term id="T51" lex="HTLV-1" sem="Virus">HTLV-1</term>-infected <term id="A6" sem="Cell_natural">T lymphocytes</term></term>.</sentence>
+<event id="E31">
+<type class="Gene_expression"/>
+<theme idref="T49"/>
+<clue>Consequently, IkappaBbeta protein <clueType>expression</clueType> is chronically downregulated in HTLV-1-infected T lymphocytes.</clue>
+</event>
+<event Manner="High" id="E32">
+<type class="Negative_regulation"/>
+<theme idref="E31"/>
+<clue>Consequently, IkappaBbeta protein expression is <clueManner>chronically</clueManner> <clueType>downregulated</clueType> <clueLoc>in HTLV-1-infected T lymphocytes.</clueLoc></clue>
+</event>
+<event id="E33">
+<type class="Viral_life_cycle"/>
+<theme idref="T51"/>
+<theme idref="A6"/>
+<clue>Consequently, IkappaBbeta protein expression is chronically downregulated in HTLV-1-<clueType>infected</clueType> T lymphocytes.</clue>
+</event>
+<sentence id="S11">These findings with <term id="T52" lex="IkappaBbeta" sem="Protein_molecule">IkappaBbeta</term> provide a <term id="T53" lex="potential_mechanism" sem="Other">potential mechanism</term> for the constitutive activation of <term id="T54" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> in <term id="T55" lex="Tax-expressing_cell" sem="Cell_cultured"><term id="T56" lex="Tax" sem="Protein_molecule">Tax</term>-expressing cells</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E34">
+<type class="Positive_regulation"/>
+<theme idref="T54"/>
+<clue>These findings with IkappaBbeta provide a <clueKT><clueCL>potential</clueCL></clueKT> mechanism for the constitutive <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappaB <clueLoc>in Tax-expressing cells.</clueLoc></clue>
+</event>
+<event KT="Other" id="E35">
+<type class="Gene_expression"/>
+<theme idref="T56"/>
+<clue>These findings with IkappaBbeta provide a potential mechanism for the constitutive activation of NF-kappaB in Tax-<clueType>expressing</clueType> cells.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,195 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8079992" created="26/20/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8079992</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="A3" sem="Other">The severe phenotype of <term id="T1" lex="female" sem="Multicellular_organism_natural">females</term> with <term id="T2" lex="tiny_ring_X_chromosome" sem="DNA_molecule">tiny ring <term id="T3" lex="X_chromosome" sem="DNA_molecule">X chromosomes</term></term></term> is associated with inability of these <term id="T4" lex="chromosome" sem="DNA_family_or_group">chromosomes</term> to undergo <term id="T5" lex="X_inactivation" sem="Other"><term id="A1" sem="DNA_molecule">X</term> inactivation</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Negative_regulation"/>
+<theme idref="A1"/>
+<clue>The severe phenotype of females with tiny ring X chromosomes is associated with inability of these chromosomes to undergo X <clueType>inactivation</clueType>.</clue>
+<comment>TPS A3</comment></event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E2">
+<type class="Positive_regulation"/>
+<cause idref="T2"/>
+<clue>The severe phenotype of females with tiny ring X chromosomes is associated with <clueType><cluePolarity>in</cluePolarity><clueKT><clueCL>ability</clueCL></clueKT></clueType> <linkTheme>of</linkTheme> <corefTheme>these chromosomes</corefTheme> to undergo X inactivation.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="E2"/>
+<clue>The severe phenotype of females with tiny ring X chromosomes is associated with inability of these chromosomes <clueType>to undergo</clueType> X inactivation.</clue>
+</event>
+<event KT="Analysis" id="E4">
+<type class="Correlation"/>
+<theme idref="A3"/>
+<theme idref="E3"/>
+<clue>The severe phenotype of females with tiny ring X chromosomes is <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> inability of these chromosomes to undergo X inactivation.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T6" lex="mental_retardation" sem="Other">Mental retardation</term> and a constellation of <term id="T7" lex="congenital_malformation" sem="Other">congenital malformations</term> not usually associated with <term id="T8" lex="Turner_syndrome" sem="Other">Turner syndrome</term> are seen in some <term id="T9" lex="female" sem="Multicellular_organism_natural">females</term> with a <term id="T10" lex="mosaic_45,X/46,X,r(X)_karyotype" sem="Other">mosaic 45,X/46,X,r(X) karyotype</term>.</sentence>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E5">
+<type class="Correlation"/>
+<theme idref="T6"/>
+<theme idref="T8"/>
+<clue>Mental retardation and a constellation of congenital malformations <cluePolarity>not</cluePolarity> <clueCL>usually</clueCL> <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> Turner syndrome are seen in some females with a mosaic 45,X/46,X,r(X) karyotype.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E6">
+<type class="Correlation"/>
+<theme idref="T7"/>
+<theme idref="T8"/>
+<clue>Mental retardation and a constellation of congenital malformations <cluePolarity>not</cluePolarity> <clueCL>usually</clueCL> <clueType><clueKT>associated</clueKT></clueType> <linkTheme>with</linkTheme> Turner syndrome are seen in some females with a mosaic 45,X/46,X,r(X) karyotype.</clue>
+</event>
+<event KT="Fact" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T6"/>
+<clue>Mental retardation and a constellation of congenital malformations not usually associated with Turner syndrome are <clueType>seen</clueType> <clueLoc>in some females with a mosaic 45,X/46,X,r(X) karyotype</clueLoc>.</clue>
+</event>
+<event KT="Fact" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T7"/>
+<clue>Mental retardation and a constellation of congenital malformations not usually associated with Turner syndrome are <clueType>seen</clueType> <clueLoc>in some females with a mosaic 45,X/46,X,r(X) karyotype</clueLoc>.</clue>
+</event>
+<sentence id="S3">Studies of these <term id="T11" lex="female" sem="Multicellular_organism_natural">females</term> show that the <term id="T12" lex="XIST_locus" sem="DNA_domain_or_region">XIST locus</term> on their <term id="T13" lex="tiny_ring_X_chromosome" sem="DNA_molecule">tiny ring <term id="T14" lex="X_chromosome" sem="DNA_molecule">X chromosomes</term></term> is either not present or not expressed.</sentence>
+<event KT="Analysis" Polarity="Negative" Source="Other" assertion="non-exist" id="E9">
+<type class="Gene_expression"/>
+<theme idref="T12"/>
+<clue><clueSource>Studies</clueSource> of <clueLoc>these females</clueLoc> <clueKT>show</clueKT> that the XIST locus on their tiny ring X chromosomes is either not present or <cluePolarity>not</cluePolarity> <clueType>expressed</clueType>.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" Source="Other" id="E109">
+<type class="Negative_regulation"/>
+<theme idref="T12"/>
+<clue><clueSource>Studies</clueSource> of <clueLoc>these females</clueLoc> <clueKT>show</clueKT> that the XIST locus on their tiny ring X chromosomes is either <cluePolarity>not</cluePolarity> <clueType>present</clueType> or not expressed.</clue>
+</event>
+<sentence id="S4">As <term id="T15" lex="XIST_transcription" sem="Other"><term id="T16" lex="XIST" sem="DNA_domain_or_region">XIST</term> transcription</term> is well correlated with inactivation of the <term id="T17" lex="X_chromosome" sem="DNA_molecule">X chromosome</term> in <term id="T18" lex="female_somatic_cell" sem="Cell_natural">female somatic cells</term> and <term id="T19" lex="spermatogonia" sem="Cell_natural">spermatogonia</term>, <term id="T20" lex="nonexpression" sem="Other">nonexpression</term> of the locus even when it is present suggests that these <term id="T21" lex="chromosome" sem="DNA_family_or_group">chromosomes</term> are transcriptionally active.</sentence>
+<event KT="Other" id="E10">
+<type class="Transcription"/>
+<theme idref="T16"/>
+<clue>As XIST <clueType>transcription</clueType> is well correlated with inactivation of the X chromosome in female somatic cells and spermatogonia, nonexpression of the locus even when it is present suggests that these chromosomes are transcriptionally active.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Negative_regulation"/>
+<theme idref="T17"/>
+<clue>As XIST transcription is well correlated with <clueType>inactivation</clueType> <linkTheme>of</linkTheme> the X chromosome <clueLoc>in female somatic cells</clueLoc> and spermatogonia, nonexpression of the locus even when it is present suggests that these chromosomes are transcriptionally active.</clue>
+</event>
+<event KT="Other" id="E111">
+<type class="Negative_regulation"/>
+<theme idref="T17"/>
+<clue>As XIST transcription is well correlated with <clueType>inactivation</clueType> <linkTheme>of</linkTheme> the X chromosome <clueLoc>in</clueLoc> female somatic cells and <clueLoc>spermatogonia</clueLoc>, nonexpression of the locus even when it is present suggests that these chromosomes are transcriptionally active.</clue>
+</event>
+<event KT="Analysis" id="E12">
+<type class="Correlation"/>
+<theme idref="E10"/>
+<theme idref="E11"/>
+<clue>As XIST transcription is well <clueType><clueKT>correlated</clueKT></clueType> <linkTheme>with</linkTheme> inactivation of the X chromosome in female somatic cells and spermatogonia, nonexpression of the locus even when it is present suggests that these chromosomes are transcriptionally active.</clue>
+</event>
+<event KT="Analysis" id="E112">
+<type class="Correlation"/>
+<theme idref="E10"/>
+<theme idref="E111"/>
+<clue>As XIST transcription is well <clueType><clueKT>correlated</clueKT></clueType> <linkTheme>with</linkTheme> inactivation of the X chromosome in female somatic cells and spermatogonia, nonexpression of the locus even when it is present suggests that these chromosomes are transcriptionally active.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E13">
+<type class="Gene_expression"/>
+<theme idref="T16"/>
+<clue>As XIST transcription is well correlated with inactivation of the X chromosome in female somatic cells and spermatogonia, <clueType><cluePolarity>non</cluePolarity>expression</clueType> <linkTheme>of</linkTheme> <corefTheme>the locus</corefTheme> even when it is present suggests that these chromosomes are transcriptionally active.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E14" uncertainty="probable">
+<type class="Transcription"/>
+<theme idref="T13"/>
+<clue>As XIST transcription is well correlated with inactivation of the X chromosome in female somatic cells and spermatogonia, nonexpression of the locus even when it is present <clueKT><clueCL>suggests</clueCL></clueKT> that <corefTheme>these chromosomes</corefTheme> are <clueType>transcriptionally active</clueType>.</clue>
+<comment>NER: T22 del &quot;transcriptionally active&quot;</comment></event>
+<sentence id="S5">We examined the <term id="T23" lex="transcriptional_activity" sem="Other">transcriptional activity</term> of <term id="T24" lex="X_chromosome" sem="DNA_molecule">ring X chromosomes</term> lacking <term id="T25" lex="XIST_expression" sem="Other"><term id="T26" lex="XIST" sem="DNA_domain_or_region">XIST</term> expression</term> (XISTE-), from three <term id="T27" lex="female" sem="Multicellular_organism_natural">females</term> with severe phenotypes.</sentence>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E15">
+<type class="Gene_expression"/>
+<theme idref="T26"/>
+<clue>We examined the transcriptional activity of <clueLoc>ring X chromosomes</clueLoc> <clueType><cluePolarity>lacking</cluePolarity></clueType> XIST <clueType>expression</clueType> (XISTE-), from three females with severe phenotypes.</clue>
+<comment>NER T24 MOD</comment></event>
+<event KT="Investigation" id="E16" uncertainty="doubtful">
+<type class="Transcription"/>
+<theme idref="T24"/>
+<clue>We <clueKT>examined</clueKT> the <clueType>transcriptional activity</clueType> <linkTheme>of</linkTheme> ring X chromosomes lacking XIST expression (XISTE-), <clueLoc>from three females with severe phenotypes</clueLoc>.</clue>
+</event>
+<sentence id="S6">The two <term id="T28" lex="X_chromosome" sem="DNA_molecule">tiny ring X chromosomes</term> studied with an <term id="T29" lex="antibody" sem="Protein_family_or_group">antibody</term> specific for the acetylated isoforms of <term id="T30" lex="histone_H4" sem="Protein_molecule">histone H4</term> marking <term id="T31" lex="transcribed_chromatin_domain" sem="DNA_domain_or_region">transcribed <term id="A4" sem="DNA_domain_or_region">chromatin domains</term></term> were labeled at a level consistent with their being active.</sentence>
+<event id="E17">
+<type class="Transcription"/>
+<theme idref="T28"/>
+<clue>The two tiny ring X chromosomes <clueExperiment>studied with an antibody specific for the acetylated isoforms of histone H4 marking transcribed chromatin domains</clueExperiment> were labeled at a level consistent with <corefTheme>their</corefTheme> <clueType>being active</clueType>.</clue>
+<comment>NER T28 MOD</comment></event>
+<event KT="Other" id="E18" uncertainty="doubtful">
+<type class="Transcription"/>
+<theme idref="A4"/>
+<clue><clueLoc>The two tiny ring X chromosomes</clueLoc> studied with an antibody specific for the acetylated isoforms of histone H4 marking <clueType>transcribed</clueType> chromatin domains were labeled at a level consistent with their being active.</clue>
+</event>
+<event KT="Other" id="E118">
+<type class="Protein_amino_acid_acetylation"/>
+<theme idref="T30"/>
+<clue>The two tiny ring X chromosomes studied with an antibody specific for the <clueType>acetylated</clueType> isoforms of histone H4 marking transcribed chromatin domains were labeled at a level consistent with their being active.</clue>
+</event>
+<sentence id="S7">We also examined tow of the <term id="T32" lex="XISTE-_ring_chromosome" sem="DNA_molecule">XISTE- ring chromosomes</term> to determine whether <term id="T33" lex="gene" sem="DNA_family_or_group">genes</term> that are normally silent on an <term id="T34" lex="inactive_X" sem="DNA_molecule">inactive <term id="A5" sem="DNA_molecule">X</term></term> are expressed from these <term id="T35" lex="chromosome" sem="DNA_family_or_group">chromosomes</term>.</sentence>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="A5"/>
+<clue>We also examined tow of the XISTE- ring chromosomes to determine whether genes that are normally silent on an <clueType><cluePolarity>in</cluePolarity>active</clueType> X are expressed from these chromosomes.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="T33"/>
+<clue>We also examined tow of the XISTE- ring chromosomes to determine whether genes that are <clueKT><clueCL>normally</clueCL></clueKT> <clueType><cluePolarity>silent</cluePolarity></clueType> <clueLoc>on an inactive X</clueLoc> are expressed from these chromosomes.</clue>
+</event>
+<event KT="Investigation" id="E21" uncertainty="doubtful">
+<type class="Gene_expression"/>
+<theme idref="T33"/>
+<clue>We also examined <clueLoc>tow of the XISTE- ring chromosomes</clueLoc> <clueKT>to determine</clueKT> whether genes that are normally silent on an inactive X are <clueType>expressed</clueType> <clueLoc>from these chromosomes</clueLoc>.</clue>
+<comment>SPELL MISS tow -&gt; two</comment></event>
+<sentence id="S8">Analyses of <term id="T36" lex="hybrid_cell" sem="Cell_cultured">hybrid cells</term> show that <term id="T37" lex="TIMP" sem="DNA_domain_or_region">TIMP</term>, <term id="T38" lex="ZXDA" sem="DNA_domain_or_region">ZXDA</term>, and <term id="T39" lex="ZXDB_loci" sem="DNA_domain_or_region">ZXDB loci</term> on the <term id="T40" lex="proximal_short_arm" sem="DNA_domain_or_region">proximal short arm</term>, and <term id="T41" lex="AR" sem="DNA_domain_or_region">AR</term> and <term id="T42" lex="PHKA1_loci" sem="DNA_domain_or_region">PHKA1 loci</term> on the long arm, are well expressed from the <term id="T43" lex="tiny_ring_X_chromosome" sem="DNA_molecule">tiny ring <term id="T44" lex="X_chromosome" sem="DNA_molecule">X chromosome</term></term> lacking <term id="T45" lex="XIST_DNA" sem="DNA_family_or_group">XIST DNA</term>.</sentence>
+<event KT="Analysis" Manner="High" id="E22">
+<type class="Gene_expression"/>
+<theme idref="T37"/>
+<clue><clueExperiment>Analyses of hybrid cells</clueExperiment> <clueKT>show</clueKT> that TIMP, ZXDA, and ZXDB loci on the proximal short arm, and AR and PHKA1 loci on the long arm, are <clueManner>well</clueManner> <clueType>expressed</clueType> <clueLoc>from the tiny ring X chromosome lacking XIST DNA</clueLoc>.</clue>
+</event>
+<event KT="Analysis" Manner="High" id="E23">
+<type class="Gene_expression"/>
+<theme idref="T38"/>
+<clue><clueExperiment>Analyses of hybrid cells</clueExperiment> <clueKT>show</clueKT> that TIMP, ZXDA, and ZXDB loci on the proximal short arm, and AR and PHKA1 loci on the long arm, are <clueManner>well</clueManner> <clueType>expressed</clueType> <clueLoc>from the tiny ring X chromosome lacking XIST DNA</clueLoc>.</clue>
+</event>
+<event KT="Analysis" Manner="High" id="E24">
+<type class="Gene_expression"/>
+<theme idref="T39"/>
+<clue><clueExperiment>Analyses of hybrid cells</clueExperiment> <clueKT>show</clueKT> that TIMP, ZXDA, and ZXDB loci on the proximal short arm, and AR and PHKA1 loci on the long arm, are <clueManner>well</clueManner> <clueType>expressed</clueType> <clueLoc>from the tiny ring X chromosome lacking XIST DNA</clueLoc>.</clue>
+</event>
+<event KT="Analysis" Manner="High" id="E25">
+<type class="Gene_expression"/>
+<theme idref="T41"/>
+<clue><clueExperiment>Analyses of hybrid cells</clueExperiment> <clueKT>show</clueKT> that TIMP, ZXDA, and ZXDB loci on the proximal short arm, and AR and PHKA1 loci on the long arm, are <clueManner>well</clueManner> <clueType>expressed</clueType> <clueLoc>from the tiny ring X chromosome lacking XIST DNA</clueLoc>.</clue>
+</event>
+<event KT="Analysis" Manner="High" id="E26">
+<type class="Gene_expression"/>
+<theme idref="T42"/>
+<clue><clueExperiment>Analyses of hybrid cells</clueExperiment> <clueKT>show</clueKT> that TIMP, ZXDA, and ZXDB loci on the proximal short arm, and AR and PHKA1 loci on the long arm, are <clueManner>well</clueManner> <clueType>expressed</clueType> <clueLoc>from the tiny ring X chromosome lacking XIST DNA</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E126">
+<type class="Negative_regulation"/>
+<theme idref="T45"/>
+<clue>Analyses of hybrid cells show that TIMP, ZXDA, and ZXDB loci on the proximal short arm, and AR and PHKA1 loci on the long arm, are well expressed from the <clueLoc>tiny ring X chromosome</clueLoc> <clueType>lacking</clueType> XIST DNA.</clue>
+</event>
+<sentence id="S9">Studies of the <term id="T46" lex="ring_chromosome" sem="DNA_molecule">ring chromosome</term> that has <term id="T47" lex="XIST_DNA" sem="DNA_family_or_group">XIST DNA</term> but does not transcribe it show that <term id="T48" lex="AR_allele" sem="DNA_domain_or_region">its AR allele</term> is transcribed along with <term id="A6" sem="DNA_domain_or_region">the one on the normal <term id="T49" lex="X_allele" sem="DNA_domain_or_region">X allele</term></term>.</sentence>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E27">
+<type class="Transcription"/>
+<theme idref="T47"/>
+<clue>Studies of the <clueLoc>ring chromosome</clueLoc> that has XIST DNA but does <cluePolarity>not</cluePolarity> <clueType>transcribe</clueType> <corefTheme>it</corefTheme> show that its AR allele is transcribed along with the one on the normal X allele.</clue>
+</event>
+<event KT="Analysis" id="E28">
+<type class="Transcription"/>
+<theme idref="T48"/>
+<clue>Studies of the <clueLoc>ring chromosome that has XIST DNA but does not transcribe it</clueLoc> <clueKT>show</clueKT> that its AR allele is <clueType>transcribed</clueType> along with the one on the normal X allele.</clue>
+<comment>NER T48 MOD</comment></event>
+<event KT="Analysis" id="E29">
+<type class="Transcription"/>
+<theme idref="A6"/>
+<clue>Studies of the <clueLoc>ring chromosome that has XIST DNA but does not transcribe it</clueLoc> <clueKT>show</clueKT> that its AR allele is <clueType>transcribed</clueType> <linkTheme>along with</linkTheme> the one on the normal X allele.</clue>
+<comment>TPS A6</comment></event>
+<sentence id="S10">(ABSTRACT TRUNCATED AT 250 WORDS)</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

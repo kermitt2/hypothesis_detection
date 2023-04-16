@@ -1,0 +1,314 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8011280" created="11/03/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8011280</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Function and activation of <term id="T1" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> in the <term id="T2" lex="immune_system" sem="Other">immune system</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation"/>
+<theme idref="T1"/>
+<clue>Function and <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappa B <clueLoc>in the immune system</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T3" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> is a <term id="T4" lex="ubiquitous_transcription_factor" sem="Protein_family_or_group">ubiquitous transcription factor</term>.</sentence>
+<sentence id="S3">Nevertheless, its properties seem to be most extensively exploited in cells of the <term id="T5" lex="immune_system" sem="Other">immune system</term>.</sentence>
+<sentence id="S4">Among these properties are <term id="T6" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>&apos;s rapid posttranslational activation in response to many <term id="T7" lex="pathogenic_signal" sem="Other">pathogenic signals</term>, its direct participation in <term id="T8" lex="cytoplasmic/nuclear_signaling" sem="Other">cytoplasmic/nuclear signaling</term>, and its potency to activate transcription of a great variety of <term id="A1" sem="DNA_domain_or_region">genes encoding <term id="T9" lex="immunologically_relevant_protein" sem="Protein_family_or_group">immunologically relevant proteins</term>.</term></sentence>
+<event KT="Fact" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="T6"/>
+<cause idref="T7"/>
+<clue>Among these properties are NF-kappa B&apos;s rapid <clueType>posttranslational activation</clueType> <linkCause>in response to</linkCause> many pathogenic signals, its direct participation in cytoplasmic/nuclear signaling, and its potency to activate transcription of a great variety of genes encoding immunologically relevant proteins.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Transcription"/>
+<theme idref="A1"/>
+<clue>Among these properties are NF-kappa B&apos;s rapid posttranslational activation in response to many pathogenic signals, its direct participation in cytoplasmic/nuclear signaling, and its potency to activate <clueType>transcription</clueType> <linkTheme>of</linkTheme> a great variety of genes encoding immunologically relevant proteins.</clue>
+<comment>TPS: A1</comment></event>
+<event KT="Fact" Manner="High" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="T6"/>
+<clue>Among these properties are NF-kappa B&apos;s rapid posttranslational activation in response to many pathogenic signals, its direct participation in cytoplasmic/nuclear signaling, and its <clueManner>potency</clueManner> to <clueType>activate</clueType> transcription of a great variety of genes encoding immunologically relevant proteins.</clue>
+</event>
+<event KT="Fact" id="E5">
+<type class="Correlation"/>
+<theme idref="T6"/>
+<theme idref="T8"/>
+<clue>Among these properties are NF-kappa B&apos;s rapid posttranslational activation in response to many pathogenic signals, its direct <clueType>participation</clueType> <linkTheme>in</linkTheme> cytoplasmic/nuclear signaling, and its potency to activate transcription of a great variety of genes encoding immunologically relevant proteins.</clue>
+</event>
+<sentence id="S5">In vertebrates, five distinct <term id="T10" lex="DNA_binding_subunit" sem="Protein_molecule">DNA binding subunits</term> are currently known which might extensively heterodimerize, thereby forming complexes with distinct transcriptional activity, DNA sequence specificity, and cell type- and cell stage-specific distribution.</sentence>
+<event CL="L1" KT="Analysis" Manner="High" id="E6">
+<type class="Binding"/>
+<theme idref="T10"/>
+<theme idref="T10"/>
+<clue>In vertebrates, five distinct DNA binding subunits are currently known which <clueKT><clueCL>might</clueCL></clueKT> <clueManner>extensively</clueManner> <clueType>heterodimerize</clueType>, thereby forming complexes with distinct transcriptional activity, DNA sequence specificity, and cell type- and cell stage-specific distribution.</clue>
+</event>
+<sentence id="S6">The activity of <term id="T11" lex="DNA_binding_NF-kappa_B_dimer" sem="Protein_complex"><term id="A2" sem="DNA_molecule">DNA</term> binding <term id="T12" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> dimers</term> is tightly controlled by <term id="T13" lex="accessory_protein" sem="Protein_family_or_group">accessory proteins</term> called <term id="T14" lex="I_kappa_B_subunit" sem="Protein_molecule">I kappa B subunits</term> of which there are also five different species currently known in <term id="T15" lex="vertebrate" sem="Multicellular_organism_natural">vertebrates</term>.</sentence>
+<event KT="Other" id="E7">
+<type class="Binding"/>
+<theme idref="T12"/>
+<clue>The activity of DNA binding NF-kappa B <clueType>dimers</clueType> is tightly controlled by accessory proteins called I kappa B subunits of which there are also five different species currently known in vertebrates.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Binding"/>
+<theme idref="T12"/>
+<theme idref="A2"/>
+<clue>The activity of DNA <clueType>binding</clueType> NF-kappa B dimers is tightly controlled by accessory proteins called I kappa B subunits of which there are also five different species currently known in vertebrates.</clue>
+</event>
+<event KT="Fact" id="E9">
+<type class="Regulation"/>
+<theme idref="E8"/>
+<cause idref="T14"/>
+<clue>The activity of DNA binding NF-kappa B dimers is tightly <clueType>controlled</clueType> <linkCause>by</linkCause> accessory proteins called I kappa B subunits of which there are also five different species currently known in vertebrates.</clue>
+</event>
+<sentence id="S7"><term id="T16" lex="I_kappa_B_protein" sem="Protein_family_or_group">I kappa B proteins</term> inhibit <term id="A5" sem="DNA_molecule">DNA</term> binding and prevent nuclear uptake of <term id="T17" lex="NF-kappa_B_complex" sem="Protein_complex">NF-kappa B complexes</term>.</sentence>
+<event KT="Other" id="E10">
+<type class="Binding"/>
+<theme idref="T17"/>
+<theme idref="A5"/>
+<clue>I kappa B proteins inhibit DNA <clueType>binding</clueType> and prevent nuclear uptake of NF-kappa B complexes.</clue>
+</event>
+<event id="E11">
+<type class="Negative_regulation"/>
+<theme idref="E10"/>
+<cause idref="T16"/>
+<clue>I kappa B proteins <clueType>inhibit</clueType> DNA binding and prevent nuclear uptake of NF-kappa B complexes.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Localization"/>
+<theme idref="T17"/>
+<clue>I kappa B proteins inhibit DNA binding and prevent <clueLoc>nuclear</clueLoc> <clueType>uptake</clueType> <linkTheme>of</linkTheme> NF-kappa B complexes.</clue>
+</event>
+<event id="E13">
+<type class="Negative_regulation"/>
+<theme idref="E12"/>
+<cause idref="T16"/>
+<clue>I kappa B proteins inhibit DNA binding and <clueType>prevent</clueType> nuclear uptake of NF-kappa B complexes.</clue>
+</event>
+<sentence id="S8">An exception is the <term id="T18" lex="Bcl-3_protein" sem="Protein_molecule">Bcl-3 protein</term> which in addition can function as a <term id="T19" lex="transcription_activating_subunit" sem="Protein_molecule">transcription activating subunit</term> in th <term id="T20" lex="nucleus" sem="Cell_component">nucleus</term>.</sentence>
+<event id="E14">
+<type class="Positive_regulation"/>
+<cause idref="T18"/>
+<clue>An exception is the Bcl-3 protein which in addition can <clueType>function as a transcription activating subunit</clueType> <clueLoc>in th nucleus</clueLoc>.</clue>
+<comment>CAUTION : th=the</comment></event>
+<sentence id="S9">Other <term id="T21" lex="I_kappa_B_protein" sem="Protein_family_or_group">I kappa B proteins</term> are rather involved in terminating <term id="T22" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term>&apos;s activity in the <term id="T23" lex="nucleus" sem="Cell_component">nucleus</term>.</sentence>
+<event id="E15">
+<type class="Negative_regulation"/>
+<theme idref="T22"/>
+<cause idref="T21"/>
+<clue>Other I kappa B proteins are rather involved in <clueType>terminating</clueType> NF-kappa B&apos;s activity <clueLoc>in the nucleus.</clueLoc></clue>
+</event>
+<sentence id="S10">The <term id="A6" sem="Other">intracellular events</term> that lead to the inactivation of <term id="T24" lex="I_kappa_B" sem="Protein_molecule">I kappa B</term>, i.e. the activation of <term id="T25" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term>, are complex.</sentence>
+<event id="E16">
+<type class="Negative_regulation"/>
+<theme idref="T24"/>
+<cause idref="A6"/>
+<clue>The intracellular events that lead to the <clueType>inactivation</clueType> <linkTheme>of</linkTheme> I kappa B, i.e. the activation of NF-kappa B, are complex.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="T25"/>
+<cause idref="A6"/>
+<clue>The intracellular events that lead to the inactivation of I kappa B, i.e. the <clueType>activation</clueType> <linkTheme>of</linkTheme> NF-kappa B, are complex.</clue>
+</event>
+<sentence id="S11">They involve <term id="T26" lex="phosphorylation" sem="Other">phosphorylation</term> and <term id="T27" lex="proteolytic_reaction" sem="Other">proteolytic reactions</term> and seem to be controlled by the cells&apos; <term id="T28" lex="redox_status" sem="Other">redox status</term>.</sentence>
+<event id="E18">
+<type class="Correlation"/>
+<theme idref="A6"/>
+<theme idref="T26"/>
+<clue><corefTheme idref1="A6">They</corefTheme> <clueType>involve</clueType> phosphorylation and proteolytic reactions and seem to be controlled by the cells&apos; redox status.</clue>
+</event>
+<event id="E19">
+<type class="Correlation"/>
+<theme idref="A6"/>
+<theme idref="T27"/>
+<clue><corefTheme idref1="A6">They</corefTheme> <clueType>involve</clueType> phosphorylation and proteolytic reactions and seem to be controlled by the cells&apos; redox status.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E20" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="A6"/>
+<cause idref="T28"/>
+<clue><corefTheme>They</corefTheme> involve phosphorylation and proteolytic reactions and <clueKT><clueCL>seem</clueCL></clueKT> to be <clueType>controlled</clueType> <linkCause>by</linkCause> the cells&apos; redox status.</clue>
+</event>
+<sentence id="S12">Interference with the activation or activity of <term id="T29" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> may be beneficial in suppressing <term id="T30" lex="toxic/septic_shock" sem="Other">toxic/septic shock</term>, <term id="T31" lex="graft-vs-host_reaction" sem="Other">graft-vs-host reactions</term>, <term id="T32" lex="acute_inflammatory_reaction" sem="Other">acute inflammatory reactions</term>, <term id="T33" lex="acute_phase_response" sem="Other">acute phase response</term>, and <term id="T34" lex="radiation_damage" sem="Other">radiation damage</term>.</sentence>
+<event KT="Other" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="T29"/>
+<clue>Interference with the <clueType>activation</clueType> or activity <linkTheme>of</linkTheme> NF-kappa B may be beneficial in suppressing toxic/septic shock, graft-vs-host reactions, acute inflammatory reactions, acute phase response, and radiation damage.</clue>
+</event>
+<event KT="Other" id="E23">
+<type class="Negative_regulation"/>
+<theme idref="E21"/>
+<clue><clueType>Interference</clueType> <linkTheme>with</linkTheme> the activation or activity of NF-kappa B may be beneficial in suppressing toxic/septic shock, graft-vs-host reactions, acute inflammatory reactions, acute phase response, and radiation damage.</clue>
+</event>
+<event KT="Other" id="E24">
+<type class="Negative_regulation"/>
+<theme idref="T29"/>
+<clue><clueType>Interference</clueType> <linkTheme>with</linkTheme> the activation or activity of NF-kappa B may be beneficial in suppressing toxic/septic shock, graft-vs-host reactions, acute inflammatory reactions, acute phase response, and radiation damage.</clue>
+</event>
+<event KT="Other" id="E25">
+<type class="Negative_regulation"/>
+<theme idref="T30"/>
+<clue>Interference with the activation or activity of NF-kappa B may be beneficial in <clueType>suppressing</clueType> toxic/septic shock, graft-vs-host reactions, acute inflammatory reactions, acute phase response, and radiation damage.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Negative_regulation"/>
+<theme idref="T31"/>
+<clue>Interference with the activation or activity of NF-kappa B may be beneficial in <clueType>suppressing</clueType> toxic/septic shock, graft-vs-host reactions, acute inflammatory reactions, acute phase response, and radiation damage.</clue>
+</event>
+<event KT="Other" id="E27">
+<type class="Negative_regulation"/>
+<theme idref="T32"/>
+<clue>Interference with the activation or activity of NF-kappa B may be beneficial in <clueType>suppressing</clueType> toxic/septic shock, graft-vs-host reactions, acute inflammatory reactions, acute phase response, and radiation damage.</clue>
+</event>
+<event KT="Other" id="E28">
+<type class="Negative_regulation"/>
+<theme idref="T33"/>
+<clue>Interference with the activation or activity of NF-kappa B may be beneficial in <clueType>suppressing</clueType> toxic/septic shock, graft-vs-host reactions, acute inflammatory reactions, acute phase response, and radiation damage.</clue>
+</event>
+<event KT="Other" id="E29">
+<type class="Negative_regulation"/>
+<theme idref="T34"/>
+<clue>Interference with the activation or activity of NF-kappa B may be beneficial in <clueType>suppressing</clueType> toxic/septic shock, graft-vs-host reactions, acute inflammatory reactions, acute phase response, and radiation damage.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E30" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E25"/>
+<cause idref="E24"/>
+<clue>Interference with the activation or activity of NF-kappa B <clueKT><clueCL>may</clueCL></clueKT> be <clueType>beneficial</clueType> <linkTheme>in</linkTheme> suppressing toxic/septic shock, graft-vs-host reactions, acute inflammatory reactions, acute phase response, and radiation damage.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E31" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E26"/>
+<cause idref="E24"/>
+<clue>Interference with the activation or activity of NF-kappa B <clueKT><clueCL>may</clueCL></clueKT> be <clueType>beneficial</clueType> <linkTheme>in</linkTheme> suppressing toxic/septic shock, graft-vs-host reactions, acute inflammatory reactions, acute phase response, and radiation damage.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E32" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E27"/>
+<cause idref="E24"/>
+<clue>Interference with the activation or activity of NF-kappa B <clueKT><clueCL>may</clueCL></clueKT> be <clueType>beneficial</clueType> <linkTheme>in</linkTheme> suppressing toxic/septic shock, graft-vs-host reactions, acute inflammatory reactions, acute phase response, and radiation damage.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E33" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E28"/>
+<cause idref="E24"/>
+<clue>Interference with the activation or activity of NF-kappa B <clueKT><clueCL>may</clueCL></clueKT> be <clueType>beneficial</clueType> <linkTheme>in</linkTheme> suppressing toxic/septic shock, graft-vs-host reactions, acute inflammatory reactions, acute phase response, and radiation damage.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E34" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E29"/>
+<cause idref="E24"/>
+<clue>Interference with the activation or activity of NF-kappa B <clueKT><clueCL>may</clueCL></clueKT> be <clueType>beneficial</clueType> <linkTheme>in</linkTheme> suppressing toxic/septic shock, graft-vs-host reactions, acute inflammatory reactions, acute phase response, and radiation damage.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E35" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E25"/>
+<cause idref="E23"/>
+<clue>Interference with the activation or activity of NF-kappa B <clueKT><clueCL>may</clueCL></clueKT> be <clueType>beneficial</clueType> <linkTheme>in</linkTheme> suppressing toxic/septic shock, graft-vs-host reactions, acute inflammatory reactions, acute phase response, and radiation damage.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E36" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E26"/>
+<cause idref="E23"/>
+<clue>Interference with the activation or activity of NF-kappa B <clueKT><clueCL>may</clueCL></clueKT> be <clueType>beneficial</clueType> <linkTheme>in</linkTheme> suppressing toxic/septic shock, graft-vs-host reactions, acute inflammatory reactions, acute phase response, and radiation damage.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E37" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E27"/>
+<cause idref="E23"/>
+<clue>Interference with the activation or activity of NF-kappa B <clueKT><clueCL>may</clueCL></clueKT> be <clueType>beneficial</clueType> <linkTheme>in</linkTheme> suppressing toxic/septic shock, graft-vs-host reactions, acute inflammatory reactions, acute phase response, and radiation damage.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E38" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E28"/>
+<cause idref="E23"/>
+<clue>Interference with the activation or activity of NF-kappa B <clueKT><clueCL>may</clueCL></clueKT> be <clueType>beneficial</clueType> <linkTheme>in</linkTheme> suppressing toxic/septic shock, graft-vs-host reactions, acute inflammatory reactions, acute phase response, and radiation damage.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E39" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E29"/>
+<cause idref="E23"/>
+<clue>Interference with the activation or activity of NF-kappa B <clueKT><clueCL>may</clueCL></clueKT> be <clueType>beneficial</clueType> <linkTheme>in</linkTheme> suppressing toxic/septic shock, graft-vs-host reactions, acute inflammatory reactions, acute phase response, and radiation damage.</clue>
+</event>
+<sentence id="S13">The inhibition of <term id="T35" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> activation by <term id="T36" lex="antioxidant" sem="Organic_compound_other">antioxidants</term> and specific <term id="A8" sem="Organic_compound_other">protease inhibitors</term> may provide a pharmacological basis for interfering with these <term id="T37" lex="acute_process" sem="Other">acute processes</term>.</sentence>
+<event KT="Other" id="E40">
+<type class="Positive_regulation"/>
+<theme idref="T35"/>
+<clue>The inhibition of NF-kappa B <clueType>activation</clueType> by antioxidants and specific protease inhibitors may provide a pharmacological basis for interfering with these acute processes.</clue>
+</event>
+<event KT="Other" id="E41">
+<type class="Negative_regulation"/>
+<theme idref="E40"/>
+<cause idref="T36"/>
+<clue>The <clueType>inhibition</clueType> <linkTheme>of</linkTheme> NF-kappa B activation <linkCause>by</linkCause> antioxidants and specific protease inhibitors may provide a pharmacological basis for interfering with these acute processes.</clue>
+</event>
+<event KT="Other" id="E42">
+<type class="Negative_regulation"/>
+<theme idref="E40"/>
+<cause idref="A8"/>
+<clue>The <clueType>inhibition</clueType> <linkTheme>of</linkTheme> NF-kappa B activation <linkCause>by</linkCause> antioxidants and specific protease inhibitors may provide a pharmacological basis for interfering with these acute processes.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E43" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="T30"/>
+<cause idref="E41"/>
+<clue>The inhibition of NF-kappa B activation by antioxidants and specific protease inhibitors <clueKT><clueCL>may</clueCL></clueKT> provide a pharmacological basis for <clueType>interfering</clueType> <linkTheme>with</linkTheme> <corefTheme>these acute processes</corefTheme>.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E44" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="T31"/>
+<cause idref="E41"/>
+<clue>The inhibition of NF-kappa B activation by antioxidants and specific protease inhibitors <clueKT><clueCL>may</clueCL></clueKT> provide a pharmacological basis for <clueType>interfering</clueType> <linkTheme>with</linkTheme> <corefTheme>these acute processes</corefTheme>.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E45" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="T32"/>
+<cause idref="E41"/>
+<clue>The inhibition of NF-kappa B activation by antioxidants and specific protease inhibitors <clueKT><clueCL>may</clueCL></clueKT> provide a pharmacological basis for <clueType>interfering</clueType> <linkTheme>with</linkTheme> <corefTheme>these acute processes</corefTheme>.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E46" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="T33"/>
+<cause idref="E41"/>
+<clue>The inhibition of NF-kappa B activation by antioxidants and specific protease inhibitors <clueKT><clueCL>may</clueCL></clueKT> provide a pharmacological basis for <clueType>interfering</clueType> <linkTheme>with</linkTheme> <corefTheme>these acute processes</corefTheme>.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E47" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="T34"/>
+<cause idref="E41"/>
+<clue>The inhibition of NF-kappa B activation by antioxidants and specific protease inhibitors <clueKT><clueCL>may</clueCL></clueKT> provide a pharmacological basis for <clueType>interfering</clueType> <linkTheme>with</linkTheme> <corefTheme>these acute processes</corefTheme>.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E48" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="T30"/>
+<cause idref="E42"/>
+<clue>The inhibition of NF-kappa B activation by antioxidants and specific protease inhibitors <clueKT><clueCL>may</clueCL></clueKT> provide a pharmacological basis for <clueType>interfering</clueType> <linkTheme>with</linkTheme> <corefTheme>these acute processes</corefTheme>.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E49" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="T31"/>
+<cause idref="E42"/>
+<clue>The inhibition of NF-kappa B activation by antioxidants and specific protease inhibitors <clueKT><clueCL>may</clueCL></clueKT> provide a pharmacological basis for <clueType>interfering</clueType> <linkTheme>with</linkTheme> <corefTheme>these acute processes</corefTheme>.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E50" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="T32"/>
+<cause idref="E42"/>
+<clue>The inhibition of NF-kappa B activation by antioxidants and specific protease inhibitors <clueKT><clueCL>may</clueCL></clueKT> provide a pharmacological basis for <clueType>interfering</clueType> <linkTheme>with</linkTheme> <corefTheme>these acute processes</corefTheme>.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E51" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="T33"/>
+<cause idref="E42"/>
+<clue>The inhibition of NF-kappa B activation by antioxidants and specific protease inhibitors <clueKT><clueCL>may</clueCL></clueKT> provide a pharmacological basis for <clueType>interfering</clueType> <linkTheme>with</linkTheme> <corefTheme>these acute processes</corefTheme>.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E52" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="T34"/>
+<cause idref="E42"/>
+<clue>The inhibition of NF-kappa B activation by antioxidants and specific protease inhibitors <clueKT><clueCL>may</clueCL></clueKT> provide a pharmacological basis for <clueType>interfering</clueType> <linkTheme>with</linkTheme> <corefTheme>these acute processes</corefTheme>.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

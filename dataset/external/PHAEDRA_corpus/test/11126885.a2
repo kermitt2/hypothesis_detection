@@ -1,0 +1,21 @@
+T16	Adverse_effect 25 32	induced
+T19	Potential_therapeutic_effect 75 79	used
+T23	Potential_therapeutic_effect 757 761	take
+T25	Adverse_effect 966 973	induced
+T21	Potential_therapeutic_effect 824 828	took
+T22	Adverse_effect 872 881	triggered
+T28	Adverse_effect 501 508	induced
+T31	Adverse_effect 757 761	take
+R3	is_equivalent Arg1:T6 Arg2:T7
+R1	Coreference Arg1:T27 Arg2:T3
+R5	Coreference Arg1:T30 Arg2:T18
+R7	Coreference Arg1:T32 Arg2:T18
+E1	Adverse_effect:T16 affects:T2 has_agent:T1
+E2	Potential_therapeutic_effect:T19 has_agent:T3 affects:T17
+E5	Potential_therapeutic_effect:T23 has_agent:T10 affects:T24 has_subject:T30
+E6	Adverse_effect:T25 has_agent:T13 affects:T14 has_subject:T32
+E3	Potential_therapeutic_effect:T21 has_agent:T11 has_subject:T32
+E4	Adverse_effect:T22 has_agent:T11 affects:T12 has_subject:T32 has_cue:T20
+E8	Adverse_effect:T28 has_agent:T27 affects:T8
+E9	Adverse_effect:T31 has_agent:T10 affects:T9
+A1	Manner E4 High

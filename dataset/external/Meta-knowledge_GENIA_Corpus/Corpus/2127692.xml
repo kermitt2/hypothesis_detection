@@ -1,0 +1,224 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2127692" created="2006/12/19" creator="Yumiko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>2127692</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="transcriptional_down-regulation" sem="Other">Transcriptional down-regulation</term> of <term id="T2" lex="c-myc_expression" sem="Other"><term id="T3" lex="c-myc" sem="DNA_domain_or_region">c-myc</term> expression</term> by <cons id="T5" lex="(AND protein_synthesis-dependent_pathway protein_synthesis-independent_pathway)" sem="(AND Other Other)"><frag id="F1">protein synthesis</frag><frag id="F2">-dependent</frag> and <frag id="F3">-independent</frag> <frag id="F4">pathways</frag></cons> in a <term id="T6" lex="human_T_lymphoblastic_tumor_cell_line" sem="Cell_cultured">human T lymphoblastic tumor cell line</term>.</sentence>
+<event KT="Other" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="F4"/>
+<cause idref="F1"/>
+<clue>Transcriptional down-regulation of c-myc expression by protein synthesis-<clueType>dependent</clueType> and -independent pathways <clueLoc>in a human T lymphoblastic tumor cell line</clueLoc><clueLoc />.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="F4"/>
+<cause idref="F1"/>
+<clue>Transcriptional down-regulation of c-myc expression by protein synthesis-dependent and -<clueType><cluePolarity>independent</cluePolarity></clueType> pathways <clueLoc>in a human T lymphoblastic tumor cell line</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E1">
+<type class="Gene_expression"/>
+<theme idref="T3"/>
+<clue><clueType>Transcriptional</clueType> down-regulation of c-myc <clueType>expression</clueType> by protein synthesis-dependent and -independent pathways <clueLoc>in a human T lymphoblastic tumor cell line</clueLoc>.</clue>
+<comment>NER: T4 del &quot;expression&quot;</comment></event>
+<event KT="Investigation" id="E2">
+<type class="Negative_regulation"/>
+<theme idref="E1"/>
+<cause idref="F4"/>
+<clue>Transcriptional <clueType>down-regulation</clueType> <linkTheme>of</linkTheme> c-myc expression <linkCause>by</linkCause> protein synthesis-dependent and -independent pathways <clueLoc>in a human T lymphoblastic tumor cell line</clueLoc>.</clue>
+</event>
+<event KT="Investigation" id="E3">
+<type class="Negative_regulation"/>
+<theme idref="E1"/>
+<cause idref="F4"/>
+<clue>Transcriptional <clueType>down-regulation</clueType> <linkTheme>of</linkTheme> c-myc expression <linkCause>by</linkCause> protein synthesis-dependent and -independent pathways <clueLoc>in a human T lymphoblastic tumor cell line</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">We show that in the <term id="T7" lex="human_T_lymphoblastic_tumor_cell_line" sem="Cell_cultured">human T lymphoblastic tumor cell line</term> <term id="A11" sem="Cell_cultured">Molt4</term> <term id="A10" sem="RNA_molecule"><term id="T9" lex="c-myc" sem="DNA_domain_or_region">c-myc</term> mRNA</term> and <term id="T10" lex="protein_expression" sem="Other">protein expression</term> is down-regulated after exposure to <term id="T12" lex="dimethyl_sulfoxide" sem="Organic_compound_other">dimethyl sulfoxide</term>, to <term id="T13" lex="phorbol_myristate_acetate" sem="Organic_compound_other">phorbol myristate acetate</term>, or to the <term id="T14" lex="calcium_ionophore_A23187" sem="Organic_compound_other"><term id="T15" lex="calcium" sem="Element">calcium</term> ionophore <term id="A12" sem="Organic_compound_other">A23187</term></term>, which raises the <term id="T16" lex="intracellular_calcium_concentration" sem="Other">intracellular <term id="T17" lex="calcium" sem="Element">calcium</term> concentration</term>.</sentence>
+<event KT="Other" id="E4">
+<type class="Gene_expression"/>
+<theme idref="T9"/>
+<clue>We show that <clueLoc>in the human T lymphoblastic tumor cell line Molt4</clueLoc> c-myc mRNA and protein <clueType>expression</clueType> is down-regulated after exposure to dimethyl sulfoxide, to phorbol myristate acetate, or to the calcium ionophore A23187, which raises the intracellular calcium concentration.</clue>
+<comment>NER T8 MOD; NER: T11 del &quot;expression&quot;</comment></event>
+<event KT="Other" id="E40">
+<type class="Transcription"/>
+<theme idref="T9"/>
+<clue>We show that <clueLoc>in the human T lymphoblastic tumor cell line Molt4</clueLoc> c-myc mRNA and protein <clueType>expression</clueType> is down-regulated after exposure to dimethyl sulfoxide, to phorbol myristate acetate, or to the calcium ionophore A23187, which raises the intracellular calcium concentration.</clue>
+</event>
+<event KT="Analysis" id="E5">
+<type class="Negative_regulation"/>
+<theme idref="E40"/>
+<cause idref="T12"/>
+<clue>We <clueKT>show</clueKT> that <clueLoc>in the human T lymphoblastic tumor cell line Molt4</clueLoc> c-myc mRNA and protein expression is <clueType>down-regulated</clueType> <linkCause>after exposure to</linkCause> dimethyl sulfoxide, to phorbol myristate acetate, or to the calcium ionophore A23187, which raises the intracellular calcium concentration.</clue>
+</event>
+<event KT="Analysis" id="E6">
+<type class="Negative_regulation"/>
+<theme idref="E40"/>
+<cause idref="T13"/>
+<clue>We <clueKT>show</clueKT> that <clueLoc>in the human T lymphoblastic tumor cell line Molt4</clueLoc> c-myc mRNA and protein expression is <clueType>down-regulated</clueType> <linkCause>after exposure to</linkCause> dimethyl sulfoxide, to phorbol myristate acetate, or to the calcium ionophore A23187, which raises the intracellular calcium concentration.</clue>
+</event>
+<event KT="Analysis" id="E7">
+<type class="Negative_regulation"/>
+<theme idref="E40"/>
+<cause idref="A12"/>
+<clue>We <clueKT>show</clueKT> that <clueLoc>in the human T lymphoblastic tumor cell line Molt4</clueLoc> c-myc mRNA and protein expression is <clueType>down-regulated</clueType> <linkCause>after exposure to</linkCause> dimethyl sulfoxide, to phorbol myristate acetate, or to the calcium ionophore A23187, which raises the intracellular calcium concentration.</clue>
+</event>
+<event KT="Analysis" id="E8">
+<type class="Negative_regulation"/>
+<theme idref="E4"/>
+<cause idref="T12"/>
+<clue>We <clueKT>show</clueKT> that <clueLoc>in the human T lymphoblastic tumor cell line Molt4</clueLoc> c-myc mRNA and protein expression is <clueType>down-regulated</clueType> <linkCause>after exposure to</linkCause> dimethyl sulfoxide, to phorbol myristate acetate, or to the calcium ionophore A23187, which raises the intracellular calcium concentration.</clue>
+</event>
+<event KT="Analysis" id="E9">
+<type class="Negative_regulation"/>
+<theme idref="E4"/>
+<cause idref="T13"/>
+<clue>We <clueKT>show</clueKT> that <clueLoc>in the human T lymphoblastic tumor cell line Molt4</clueLoc> c-myc mRNA and protein expression is <clueType>down-regulated</clueType> <linkCause>after exposure to</linkCause> dimethyl sulfoxide, to phorbol myristate acetate, or to the calcium ionophore A23187, which raises the intracellular calcium concentration.</clue>
+</event>
+<event KT="Analysis" id="E10">
+<type class="Negative_regulation"/>
+<theme idref="E4"/>
+<cause idref="A12"/>
+<clue>We <clueKT>show</clueKT> that <clueLoc>in the human T lymphoblastic tumor cell line Molt4</clueLoc> c-myc mRNA and protein expression is <clueType>down-regulated</clueType> <linkCause>after exposure to</linkCause> dimethyl sulfoxide, to phorbol myristate acetate, or to the calcium ionophore A23187, which raises the intracellular calcium concentration.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T16"/>
+<cause idref="A12"/>
+<clue>We show that <clueLoc>in the human T lymphoblastic tumor cell line Molt4</clueLoc> c-myc mRNA and protein expression is down-regulated after exposure to dimethyl sulfoxide, to phorbol myristate acetate, or to the calcium ionophore A23187, which <clueType>raises</clueType> the <clueLoc>intracellular</clueLoc> calcium concentration.</clue>
+</event>
+<sentence id="S3">A block to <term id="T18" lex="RNA_elongation" sem="Other"><term id="A13" sem="RNA_molecule">RNA</term> elongation</term> is largely responsible for decreased <term id="T19" lex="c-myc_transcription" sem="Other"><term id="T20" lex="c-myc" sem="DNA_domain_or_region">c-myc</term> transcription</term>.</sentence>
+<event KT="Other" id="E30">
+<type class="RNA_metabolism"/>
+<theme idref="A13"/>
+<clue>A block to RNA <clueType>elongation</clueType> is largely responsible for decreased c-myc transcription.</clue>
+</event>
+<event id="E31">
+<type class="Regulation"/>
+<theme idref="E16"/>
+<cause idref="E14"/>
+<clue>A block to RNA elongation is largely <clueType>responsible</clueType> <linkTheme>for</linkTheme> decreased c-myc transcription.</clue>
+</event>
+<event id="E14">
+<type class="Negative_regulation"/>
+<theme idref="E30"/>
+<clue>A <clueType>block</clueType> <linkTheme>to</linkTheme> RNA elongation is largely responsible for decreased c-myc transcription.</clue>
+</event>
+<event id="E15">
+<type class="Transcription"/>
+<theme idref="T20"/>
+<clue>A block to RNA elongation is largely responsible for decreased c-myc <clueType>transcription</clueType>.</clue>
+<comment>NER: T21 del &quot;transcription&quot;</comment></event>
+<event id="E16">
+<type class="Negative_regulation"/>
+<theme idref="E15"/>
+<clue>A block to RNA elongation is largely responsible for <clueType>decreased</clueType> c-myc transcription.</clue>
+</event>
+<sentence id="S4">Although negative regulation by <term id="T22" lex="dimethyl_sulfoxide" sem="Organic_compound_other">dimethyl sulfoxide</term> takes place even when <term id="T23" lex="protein_synthesi" sem="Other">protein synthesis</term> is inhibited by <term id="T24" lex="cycloheximide" sem="Organic_compound_other">cycloheximide</term>, the <term id="T25" lex="phorbol_myristate_acetate" sem="Organic_compound_other">phorbol myristate acetate</term> effect is blocked to some extent only by <term id="T26" lex="cycloheximide" sem="Organic_compound_other">cycloheximide</term>.</sentence>
+<event id="E17">
+<type class="Negative_regulation"/>
+<theme idref="E4"/>
+<cause idref="T22"/>
+<clue>Although <clueType>negative regulation</clueType> <linkCause>by</linkCause> dimethyl sulfoxide takes place even when protein synthesis is inhibited by cycloheximide, the phorbol myristate acetate effect is blocked to some extent only by cycloheximide.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event id="E170">
+<type class="Negative_regulation"/>
+<theme idref="E40"/>
+<cause idref="T22"/>
+<clue>Although <clueType>negative regulation</clueType> <linkCause>by</linkCause> dimethyl sulfoxide takes place even when protein synthesis is inhibited by cycloheximide, the phorbol myristate acetate effect is blocked to some extent only by cycloheximide.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event id="E400">
+<type class="Positive_regulation"/>
+<theme idref="E170"/>
+<cause idref="E18"/>
+<clue>Although negative regulation by dimethyl sulfoxide takes place even <linkCause>when</linkCause> protein synthesis is inhibited by cycloheximide, the phorbol myristate acetate effect is blocked to some extent only by cycloheximide.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E401">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<cause idref="E18"/>
+<clue>Although negative regulation by dimethyl sulfoxide takes place even <linkCause>when</linkCause> protein synthesis is inhibited by cycloheximide, the phorbol myristate acetate effect is blocked to some extent only by cycloheximide.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E18">
+<type class="Negative_regulation"/>
+<theme idref="T23"/>
+<cause idref="T24"/>
+<clue>Although negative regulation by dimethyl sulfoxide takes place even when protein synthesis is <clueType>inhibited</clueType> <linkCause>by</linkCause> cycloheximide, the phorbol myristate acetate effect is blocked to some extent only by cycloheximide.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Negative_regulation"/>
+<theme idref="E4"/>
+<cause idref="T25"/>
+<clue>Although negative regulation by dimethyl sulfoxide takes place even when protein synthesis is inhibited by cycloheximide, the phorbol myristate acetate <clueType>effect</clueType> is blocked to some extent only by cycloheximide.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event KT="Other" id="E190">
+<type class="Negative_regulation"/>
+<theme idref="E40"/>
+<cause idref="T25"/>
+<clue>Although negative regulation by dimethyl sulfoxide takes place even when protein synthesis is inhibited by cycloheximide, the phorbol myristate acetate <clueType>effect</clueType> is blocked to some extent only by cycloheximide.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event id="E20">
+<type class="Negative_regulation"/>
+<theme idref="E19"/>
+<cause idref="T26"/>
+<clue>Although negative regulation by dimethyl sulfoxide takes place even when protein synthesis is inhibited by cycloheximide, the phorbol myristate acetate effect is <clueType>blocked</clueType> to some extent only <linkCause>by</linkCause> cycloheximide.</clue>
+</event>
+<event id="E201">
+<type class="Negative_regulation"/>
+<theme idref="E190"/>
+<cause idref="T26"/>
+<clue>Although negative regulation by dimethyl sulfoxide takes place even when protein synthesis is inhibited by cycloheximide, the phorbol myristate acetate effect is <clueType>blocked</clueType> to some extent only <linkCause>by</linkCause> cycloheximide.</clue>
+</event>
+<sentence id="S5">The <term id="T27" lex="calcium_ionophore-induced_c-myc_suppression" sem="Other"><term id="A5" sem="Organic_compound_other">calcium ionophore</term>-induced <term id="T29" lex="c-myc" sem="DNA_domain_or_region">c-myc</term> suppression</term>, however, strictly requires <term id="A6" sem="Other">de novo protein synthesis</term>.</sentence>
+<event id="E21">
+<type class="Negative_regulation"/>
+<theme idref="T29"/>
+<cause idref="A5"/>
+<clue>The calcium ionophore-<linkCause>induced</linkCause> c-myc <clueType>suppression</clueType>, however, strictly requires de novo protein synthesis.</clue>
+<comment>NER: T28 del &quot;calcium&quot;</comment></event>
+<event id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="A6"/>
+<clue>The calcium ionophore-induced c-myc suppression, however, strictly <clueType>requires</clueType> de novo protein synthesis.</clue>
+<comment>NER: T30 del &quot;novo protein synthesis&quot;</comment></event>
+<sentence id="S6">Therefore, two different <term id="T31" lex="negative_regulatory_pathway" sem="Other">negative regulatory pathways</term> are involved in <term id="T32" lex="c-myc_regulation" sem="Other"><term id="T33" lex="c-myc" sem="DNA_domain_or_region">c-myc</term> regulation</term>: one which is independent and one which depends on <term id="T35" lex="de_novo_protein_synthesis" sem="Other">de novo protein synthesis</term>.</sentence>
+<event KT="Analysis" id="E23">
+<type class="Regulation"/>
+<theme idref="T32"/>
+<cause idref="T31"/>
+<clue><clueKT>Therefore</clueKT>, two different negative regulatory pathways are <clueType>involved</clueType> <linkTheme>in</linkTheme> c-myc regulation: one which is independent and one which depends on de novo protein synthesis.</clue>
+<comment>NER: T34 del &quot;independent&quot;</comment></event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="T31"/>
+<cause idref="T35"/>
+<clue>Therefore, two different negative regulatory pathways are involved in c-myc regulation: <corefTheme>one</corefTheme> which is <clueType><cluePolarity>independent</cluePolarity></clueType> and one which depends <linkCause>on</linkCause> de novo protein synthesis.</clue>
+</event>
+<event KT="Other" id="E25">
+<type class="Positive_regulation"/>
+<theme idref="T31"/>
+<cause idref="T35"/>
+<clue>Therefore, two different negative regulatory pathways are involved in c-myc regulation: one which is independent and <corefTheme>one</corefTheme> which <clueType>depends</clueType> <linkCause>on</linkCause> de novo protein synthesis.</clue>
+</event>
+<sentence id="S7">The latter one appears to be mediated by a rapidly <term id="T36" lex="calcium-dependent_induced_gene_product" sem="Protein_family_or_group"><term id="T37" lex="calcium" sem="Element">calcium</term>-dependent induced <term id="A7" sem="Protein_family_or_group">gene product</term></term>.</sentence>
+<event Manner="High" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="A7"/>
+<clue>The latter one appears to be mediated by a <clueManner>rapidly</clueManner> calcium-dependent <clueType>induced</clueType> gene product.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E28" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T31"/>
+<cause idref="E27"/>
+<clue><corefTheme>The latter one</corefTheme> <clueKT><clueCL>appears</clueCL></clueKT> to be <clueType>mediated</clueType> <linkCause>by</linkCause> a rapidly calcium-dependent induced gene product.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation"/>
+<theme idref="E27"/>
+<cause idref="T37"/>
+<clue>The latter one appears to be mediated by a rapidly calcium-<clueType>dependent</clueType> induced gene product.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

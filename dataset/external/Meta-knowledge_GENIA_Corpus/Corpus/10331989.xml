@@ -1,0 +1,147 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10331989" created="27/01/2007" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10331989</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Different sequence requirements for expression in <cons id="T1" lex="(AND erythroid__cell megakaryocytic_cell)" sem="(AND Cell_natural Cell_natural)"><frag id="F1">erythroid</frag> and <frag id="F2">megakaryocytic</frag> <frag id="F3">cells</frag></cons> within a <term id="T2" lex="regulatory_element" sem="DNA_family_or_group">regulatory element</term> upstream of the <term id="T3" lex="GATA-1_gene" sem="DNA_domain_or_region">GATA-1 gene</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Gene_expression"/>
+<theme idref="T3"/>
+<clue>Different sequence requirements for <clueType>expression</clueType> in erythroid and megakaryocytic cells within a regulatory element upstream of the GATA-1 gene.</clue>
+</event>
+<event KT="Investigation" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T2"/>
+<clue>Different sequence <clueType>requirements</clueType> <linkTheme>for</linkTheme> expression in erythroid and megakaryocytic cells within a regulatory element upstream of the GATA-1 gene.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T4" lex="lineage-restricted_transcription_factor" sem="Protein_family_or_group">lineage-restricted <term id="T5" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term></term> <term id="T6" lex="GATA-1" sem="Protein_molecule">GATA-1</term> is required for differentiation of <cons id="T7" lex="(AND erythroid__cell megakaryocytic_cell)" sem="(AND Cell_natural Cell_natural)"><frag id="F4"><term id="A1" sem="Cell_natural">erythroid</term></frag> and <frag id="F5"><term id="A2" sem="Cell_natural">megakaryocytic</term></frag> <frag id="F6"><term id="A3" sem="Cell_natural">cells</term></frag></cons>.</sentence>
+<event KT="Other" id="E3">
+<type class="Cell_differentiation"/>
+<theme idref="A1" idref1="A3"/>
+<clue>The lineage-restricted transcription factor GATA-1 is required for <clueType>differentiation</clueType> <linkTheme>of</linkTheme> erythroid and megakaryocytic cells.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Cell_differentiation"/>
+<theme idref="A2" idref1="A3"/>
+<clue>The lineage-restricted transcription factor GATA-1 is required for <clueType>differentiation</clueType> <linkTheme>of</linkTheme> erythroid and megakaryocytic cells.</clue>
+</event>
+<event KT="Fact" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="T6"/>
+<clue>The lineage-restricted transcription factor GATA-1 is <clueType>required</clueType> <linkTheme>for</linkTheme> differentiation of erythroid and megakaryocytic cells.</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="T6"/>
+<clue>The lineage-restricted transcription factor GATA-1 is <clueType>required</clueType> <linkTheme>for</linkTheme> differentiation of erythroid and megakaryocytic cells.</clue>
+</event>
+<sentence id="S3">We have localized a 317 base pair <term id="T8" lex="cis-acting_regulatory_element" sem="DNA_domain_or_region">cis-acting <term id="T9" lex="regulatory_element" sem="DNA_family_or_group">regulatory element</term></term>, <term id="T10" lex="HS_I" sem="DNA_domain_or_region">HS I</term>, associated with a <term id="T11" lex="hematopoietic-specific_DNase_I_hypersensitive_site" sem="DNA_domain_or_region">hematopoietic-specific <term id="T12" lex="DNase_I" sem="Protein_molecule">DNase I</term> hypersensitive site</term>, which lies approx. 3.7 kilobases upstream of the <term id="T13" lex="murine_hematopoietic-specific_GATA-1_IE_promoter" sem="DNA_domain_or_region">murine hematopoietic-specific <term id="T14" lex="GATA-1" sem="Protein_molecule">GATA-1</term> IE promoter</term>.</sentence>
+<sentence id="S4"><term id="T15" lex="HS_I" sem="DNA_domain_or_region">HS I</term> directs high-level expression of reporter <term id="T16" lex="GATA-1/lacZ_gene" sem="DNA_domain_or_region">GATA-1/lacZ genes</term> to <cons id="T17" lex="(AND primitive_erythroid_cell definitive_erythroid_cell)" sem="(AND Cell_natural Cell_natural)"><frag id="F7">primitive</frag> and <frag id="F8">definitive</frag> <frag id="F9">erythroid cells</frag></cons> and <term id="T18" lex="megakaryocyte" sem="Cell_natural">megakaryocytes</term> in <term id="T19" lex="transgenic_mouse" sem="Multicellular_organism_genetically_modified">transgenic mice</term>.</sentence>
+<event id="E7">
+<type class="Gene_expression"/>
+<theme idref="T16"/>
+<clue>HS I directs high-level <clueType>expression</clueType> <linkTheme>of</linkTheme> reporter GATA-1/lacZ genes to primitive and definitive erythroid cells and megakaryocytes in transgenic mice.</clue>
+</event>
+<event id="E300">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="T15"/>
+<clue>HS I <clueType>directs</clueType> high-level expression of reporter GATA-1/lacZ genes to <clueLoc>primitive and definitive erythroid cells</clueLoc> and megakaryocytes <clueLoc>in transgenic mice.</clueLoc></clue>
+</event>
+<event id="E301">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="T15"/>
+<clue>HS I <clueType>directs</clueType> high-level expression of reporter GATA-1/lacZ genes to <clueLoc>primitive and definitive</clueLoc> erythroid cells and <clueLoc>megakaryocytes in transgenic mice.</clueLoc></clue>
+</event>
+<sentence id="S5">Comparative sequence analysis of <term id="T20" lex="HS_I" sem="DNA_domain_or_region">HS I</term> between human and mouse shows approx. 63% nucleotide identity with a more conserved core of <term id="T22" lex="169_base_pair" sem="DNA_domain_or_region">169 base pairs</term> (86% identity).</sentence>
+<sentence id="S6">This core contains a <term id="T23" lex="GATA_site" sem="DNA_domain_or_region">GATA site</term> separated by 10 base pairs from an <term id="T24" lex="E-box_motif" sem="DNA_domain_or_region">E-box motif</term>.</sentence>
+<sentence id="S7">The <term id="T25" lex="composite_motif" sem="DNA_domain_or_region">composite motif</term> binds a <term id="T26" lex="multi-protein_hematopoietic-specific_transcription_factor_complex" sem="Protein_complex">multi-protein hematopoietic-specific <term id="T27" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> complex</term> which includes <term id="T28" lex="GATA-1" sem="Protein_molecule">GATA-1</term>, <term id="T29" lex="SCL/tal-1" sem="Protein_molecule">SCL/tal-1,</term> <term id="T30" lex="E2A" sem="Protein_molecule">E2A</term>, <term id="T31" lex="Lmo2" sem="Protein_molecule">Lmo2</term> and <term id="T32" lex="Ldb-1" sem="Protein_molecule">Ldb-1</term>.</sentence>
+<event id="E9">
+<type class="Binding"/>
+<theme idref="T25"/>
+<theme idref="T26"/>
+<clue>The composite motif <clueType>binds</clueType> a multi-protein hematopoietic-specific transcription factor complex which includes GATA-1, SCL/tal-1, E2A, Lmo2 and Ldb-1.</clue>
+</event>
+<sentence id="S8">Point mutations of the <term id="T33" lex="GATA_site" sem="DNA_domain_or_region">GATA site</term> abolishes <term id="T34" lex="HS_I" sem="DNA_domain_or_region">HS I</term> function, whereas mutation of the <term id="T35" lex="E-box_motif" sem="DNA_domain_or_region">E-box motif</term> still allows <term id="A8" sem="DNA_family_or_group">reporter gene</term> expression in both lineages.</sentence>
+<event id="E10">
+<type class="Mutagenesis"/>
+<theme idref="T33"/>
+<clue><clueType>Point mutations</clueType> <linkTheme>of</linkTheme> the GATA site abolishes HS I function, whereas mutation of the E-box motif still allows reporter gene expression in both lineages.</clue>
+<comment>Artificial</comment></event>
+<event id="E11">
+<type class="Negative_regulation"/>
+<theme idref="T34"/>
+<cause idref="E10"/>
+<clue>Point mutations of the GATA site <clueType>abolishes</clueType> HS I function, whereas mutation of the E-box motif still allows reporter gene expression in both lineages.</clue>
+</event>
+<event id="E12">
+<type class="Mutagenesis"/>
+<theme idref="T35"/>
+<clue>Point mutations of the GATA site abolishes HS I function, whereas <clueType>mutation</clueType> <linkTheme>of</linkTheme> the E-box motif still allows reporter gene expression in both lineages.</clue>
+<comment>Artificial</comment></event>
+<event id="E13">
+<type class="Gene_expression"/>
+<theme idref="A8"/>
+<clue>Point mutations of the GATA site abolishes HS I function, whereas mutation of the E-box motif still allows reporter gene <clueType>expression</clueType> in both lineages.</clue>
+<comment>NER: T36 DEL</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E14">
+<type class="Negative_regulation"/>
+<theme idref="E13"/>
+<cause idref="E12"/>
+<clue>Point mutations of the GATA site abolishes HS I function, whereas mutation of the E-box motif still <clueType><cluePolarity>allows</cluePolarity></clueType> reporter gene expression <clueLoc>in both lineages</clueLoc>.</clue>
+</event>
+<sentence id="S9">Strict dependence of <term id="T37" lex="HS_I" sem="DNA_domain_or_region">HS I</term> activity on a <term id="T38" lex="GATA_site" sem="DNA_domain_or_region">GATA site</term> implies that assembly of a <term id="A9" sem="Protein_complex">protein complex containing a <term id="T39" lex="GATA-factor" sem="Protein_family_or_group">GATA-factor</term></term>, presumably <term id="T40" lex="GATA-1" sem="Protein_molecule">GATA-1</term> or <term id="T41" lex="GATA-2" sem="Protein_molecule">GATA-2</term>, is critical to activating or maintaining its function.</sentence>
+<event id="E15">
+<type class="Positive_regulation"/>
+<theme idref="T37"/>
+<cause idref="T38"/>
+<clue>Strict <clueType>dependence</clueType> <linkTheme>of</linkTheme> HS I activity <linkCause>on</linkCause> a GATA site implies that assembly of a protein complex containing a GATA-factor, presumably GATA-1 or GATA-2, is critical to activating or maintaining its function.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T37"/>
+<clue>Strict dependence of HS I activity on a GATA site <clueKT><clueCL>implies</clueCL></clueKT> that assembly of a protein complex containing a GATA-factor, presumably GATA-1 or GATA-2, is critical to <clueType>activating</clueType> or maintaining <corefTheme>its</corefTheme> function.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="T37"/>
+<clue>Strict dependence of HS I activity on a GATA site <clueKT><clueCL>implies</clueCL></clueKT> that assembly of a protein complex containing a GATA-factor, presumably GATA-1 or GATA-2, is critical to activating or <clueType>maintaining</clueType> <corefTheme>its</corefTheme> function.</clue>
+</event>
+<event id="E18">
+<type class="Binding"/>
+<theme idref="A9"/>
+<clue>Strict dependence of HS I activity on a GATA site implies that <clueType>assembly</clueType> <linkTheme>of</linkTheme> a protein complex containing a GATA-factor, presumably GATA-1 or GATA-2, is critical to activating or maintaining its function.</clue>
+</event>
+<sentence id="S10">Further dissection of the <term id="T42" lex="317_base_pair_region" sem="DNA_domain_or_region">317 base pair region</term> demonstrates that, whereas all <term id="T43" lex="317_base_pair" sem="DNA_domain_or_region">317 base pairs</term> are required for expression in <term id="T44" lex="megakaryocyte" sem="Cell_natural">megakaryocytes</term>, only the <term id="T45" lex="5&apos;_62_base_pair" sem="DNA_domain_or_region">5&apos; 62 base pairs</term> are needed for <term id="T46" lex="erythroid-specific_reporter_expression" sem="Other">erythroid-specific <term id="A10" sem="DNA_family_or_group">reporter</term> expression</term>.</sentence>
+<event id="E19">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="T43"/>
+<clue>Further dissection of the 317 base pair region demonstrates that, whereas all 317 base pairs are <clueType>required</clueType> <linkTheme>for</linkTheme> <corefTheme>expression</corefTheme> <clueLoc>in megakaryocytes</clueLoc>, only the 5&apos; 62 base pairs are needed for erythroid-specific reporter expression.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Gene_expression"/>
+<theme idref="A10"/>
+<clue>Further dissection of the 317 base pair region demonstrates that, whereas all 317 base pairs are required for expression in megakaryocytes, only the 5&apos; 62 base pairs are needed for erythroid-specific reporter <clueType>expression</clueType>.</clue>
+</event>
+<event KT="Analysis" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="T45"/>
+<clue>Further dissection of the 317 base pair region <clueKT>demonstrates</clueKT> that, whereas all 317 base pairs are required for expression in megakaryocytes, only the 5&apos; 62 base pairs are <clueType>needed</clueType> <linkTheme>for</linkTheme> <clueLoc>erythroid</clueLoc>-specific reporter expression.</clue>
+</event>
+<sentence id="S11">These findings demonstrate differential lineage requirements for expression within the <term id="T47" lex="HS_I_element" sem="DNA_domain_or_region"><term id="T48" lex="HS_I" sem="DNA_domain_or_region">HS I</term> element</term>.</sentence>
+<event KT="Analysis" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="T47"/>
+<clue>These findings <clueKT>demonstrate</clueKT> differential lineage <clueType>requirements</clueType> <linkTheme>for</linkTheme> <corefTheme>expression</corefTheme> within the HS I element.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

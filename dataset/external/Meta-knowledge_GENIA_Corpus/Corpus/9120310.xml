@@ -1,0 +1,215 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9120310" created="11/04/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9120310</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="nuclear_factor-kappa_B" sem="Protein_complex">Nuclear factor-kappa B</term> potently up-regulates the <term id="A1" sem="DNA_domain_or_region"><term id="T2" lex="promoter_activity" sem="Other">promoter activity</term> of <term id="T3" lex="RANTES" sem="Protein_molecule">RANTES</term></term>, a chemokine that blocks <term id="A2" sem="Virus">HIV</term> infection.</sentence>
+<event Manner="High" id="E1">
+<type class="Positive_regulation"/>
+<theme idref="A1"/>
+<cause idref="T1"/>
+<clue>Nuclear factor-kappa B <clueManner>potently</clueManner> <clueType>up-regulates</clueType> the promoter activity of RANTES, a chemokine that blocks HIV infection.</clue>
+<comment>TPS A1</comment></event>
+<event KT="Other" id="E2">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="A2"/>
+<clue>Nuclear factor-kappa B potently up-regulates the promoter activity of RANTES, a chemokine that blocks HIV <clueType>infection</clueType>.</clue>
+</event>
+<event KT="Fact" id="E3">
+<type class="Negative_regulation"/>
+<theme idref="E2"/>
+<cause idref="T3"/>
+<clue>Nuclear factor-kappa B potently up-regulates the promoter activity of RANTES, <corefCause>a chemokine</corefCause> that <clueType>blocks</clueType> HIV infection.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The complex network of <term id="T4" lex="cytokine" sem="Protein_family_or_group">cytokines</term> that are involved in <cons id="T5" lex="(AND inflammatory_response immunoregulatory_response)" sem="(AND Other Other)"><frag id="F1"><term id="A7" sem="Other">inflammatory</term></frag> and <frag id="F2"><term id="A8" sem="Other">immunoregulatory</term></frag> <frag id="F3"><term id="A9" sem="Other">responses</term></frag></cons> plays a critical role in the pathogenesis of <term id="T6" lex="HIV_infection" sem="Other"><term id="A3" sem="Virus">HIV</term> infection</term>.</sentence>
+<event KT="Other" id="E4">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="A3"/>
+<clue>The complex network of cytokines that are involved in inflammatory and immunoregulatory responses plays a critical role in the pathogenesis of HIV <clueType>infection</clueType>.</clue>
+</event>
+<event KT="Other" id="E5">
+<type/>
+<cause idref="E4"/>
+<clue>The complex network of cytokines that are involved in inflammatory and immunoregulatory responses plays a critical role in the <clueType>pathogenesis</clueType> <linkTheme>of</linkTheme> HIV infection.</clue>
+<comment>SOO</comment></event>
+<event KT="Other" id="E6">
+<type class="Regulation"/>
+<theme idref="A7" idref1="A9"/>
+<cause idref="T4"/>
+<clue>The complex network of cytokines that are <clueType>involved</clueType> <linkTheme>in</linkTheme> inflammatory and immunoregulatory responses plays a critical role in the pathogenesis of HIV infection.</clue>
+</event>
+<event KT="Other" id="E32">
+<type class="Regulation"/>
+<theme idref="A8" idref1="A9"/>
+<cause idref="T4"/>
+<clue>The complex network of cytokines that are <clueType>involved</clueType> <linkTheme>in</linkTheme> inflammatory and immunoregulatory responses plays a critical role in the pathogenesis of HIV infection.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Correlation"/>
+<theme idref="T4"/>
+<theme idref="T4"/>
+<clue>The complex <clueType>network</clueType> <linkTheme>of</linkTheme> cytokines that are involved in inflammatory and immunoregulatory responses plays a critical role in the pathogenesis of HIV infection.</clue>
+</event>
+<event KT="Fact" id="E8">
+<type class="Regulation"/>
+<theme idref="E5"/>
+<cause idref="E7"/>
+<clue>The complex network of cytokines that are involved in inflammatory and immunoregulatory responses <clueType>plays</clueType> a critical <clueType>role</clueType> <linkTheme>in</linkTheme> the pathogenesis of HIV infection.</clue>
+</event>
+<sentence id="S3"><term id="T7" lex="RANTES" sem="Protein_molecule">RANTES</term> (<term id="T8" lex="regulated_upon_activation,_normal_T_cell_expressed_and_secreted" sem="Protein_molecule">regulated upon activation, normal T cell expressed and secreted</term>) is a <term id="T9" lex="cytokine" sem="Protein_family_or_group">cytokine</term> that belongs to the <term id="T10" lex="beta-chemokine_family" sem="Protein_family_or_group">beta-chemokine family</term>; it is chemoattractant for <term id="T11" lex="CD4+/CD45RO_T_cell" sem="Cell_natural">CD4+/CD45RO T cells</term>, it is produced by various cell types including <cons id="T12" lex="(AND CD8+_T_cell CD4+_T_cell)" sem="(AND Cell_natural Cell_natural)"><frag id="F4">CD8+</frag> and <frag id="F5">CD4+</frag> <frag id="F6">T cells</frag></cons> as well as <term id="T13" lex="monocytes/macrophages" sem="Cell_natural">monocytes/macrophages</term>, and has recently been shown to suppress replication of <term id="A4" sem="Virus">macrophage-tropic strains of <term id="T14" lex="HIV" sem="Virus">HIV</term></term> in <term id="T15" lex="CD4+_T_cell" sem="Cell_natural">CD4+ T cells</term>.</sentence>
+<event KT="Fact" id="E9">
+<type class="Biological_process"/>
+<theme idref="T7"/>
+<theme idref="T11"/>
+<clue>RANTES (regulated upon activation, normal T cell expressed and secreted) is a cytokine that belongs to the beta-chemokine family; <corefCause>it</corefCause> is <clueType>chemoattractant</clueType> <linkTheme>for</linkTheme> CD4+/CD45RO T cells, it is produced by various cell types including CD8+ and CD4+ T cells as well as monocytes/macrophages, and has recently been shown to suppress replication of macrophage-tropic strains of HIV in CD4+ T cells.</clue>
+<comment>TPS A4</comment></event>
+<event KT="Fact" id="E10">
+<type class="Gene_expression"/>
+<theme idref="T7"/>
+<clue>RANTES (regulated upon activation, normal T cell expressed and secreted) is a cytokine that belongs to the beta-chemokine family; it is chemoattractant for CD4+/CD45RO T cells, <corefTheme>it</corefTheme> is <clueType>produced</clueType> <clueLoc>by various cell types</clueLoc> including CD8+ and CD4+ T cells as well as monocytes/macrophages, and has recently been shown to suppress replication of macrophage-tropic strains of HIV in CD4+ T cells.</clue>
+</event>
+<event KT="Fact" id="E110">
+<type class="Gene_expression"/>
+<theme idref="T7"/>
+<clue>RANTES (regulated upon activation, normal T cell expressed and secreted) is a cytokine that belongs to the beta-chemokine family; it is chemoattractant for CD4+/CD45RO T cells, <corefTheme>it</corefTheme> is <clueType>produced</clueType> <clueLoc>by</clueLoc> various cell types including <clueLoc>CD8+</clueLoc> and CD4+ <clueLoc>T cells</clueLoc> as well as monocytes/macrophages, and has recently been shown to suppress replication of macrophage-tropic strains of HIV in CD4+ T cells.</clue>
+</event>
+<event KT="Fact" id="E210">
+<type class="Gene_expression"/>
+<theme idref="T7"/>
+<clue>RANTES (regulated upon activation, normal T cell expressed and secreted) is a cytokine that belongs to the beta-chemokine family; it is chemoattractant for CD4+/CD45RO T cells, <corefTheme>it</corefTheme> is <clueType>produced</clueType> <clueLoc>by</clueLoc> various cell types including CD8+ and <clueLoc>CD4+ T cells</clueLoc> as well as monocytes/macrophages, and has recently been shown to suppress replication of macrophage-tropic strains of HIV in CD4+ T cells.</clue>
+</event>
+<event KT="Fact" id="E310">
+<type class="Gene_expression"/>
+<theme idref="T7"/>
+<clue>RANTES (regulated upon activation, normal T cell expressed and secreted) is a cytokine that belongs to the beta-chemokine family; it is chemoattractant for CD4+/CD45RO T cells, <corefTheme>it</corefTheme> is <clueType>produced</clueType> <clueLoc>by</clueLoc> various cell types including CD8+ and CD4+ T cells as well as <clueLoc>monocytes</clueLoc>/macrophages, and has recently been shown to suppress replication of macrophage-tropic strains of HIV in CD4+ T cells.</clue>
+</event>
+<event KT="Fact" id="E410">
+<type class="Gene_expression"/>
+<theme idref="T7"/>
+<clue>RANTES (regulated upon activation, normal T cell expressed and secreted) is a cytokine that belongs to the beta-chemokine family; it is chemoattractant for CD4+/CD45RO T cells, <corefTheme>it</corefTheme> is <clueType>produced</clueType> <clueLoc>by</clueLoc> various cell types including CD8+ and CD4+ T cells as well as monocytes/<clueLoc>macrophages</clueLoc>, and has recently been shown to suppress replication of macrophage-tropic strains of HIV in CD4+ T cells.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Viral_life_cycle"/>
+<theme idref="A4"/>
+<clue>RANTES (regulated upon activation, normal T cell expressed and secreted) is a cytokine that belongs to the beta-chemokine family; it is chemoattractant for CD4+/CD45RO T cells, it is produced by various cell types including CD8+ and CD4+ T cells as well as monocytes/macrophages, and has recently been shown to suppress <clueType>replication</clueType> <linkTheme>of</linkTheme> macrophage-tropic strains of HIV in CD4+ T cells.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E12">
+<type class="Negative_regulation"/>
+<theme idref="E11"/>
+<cause idref="T7"/>
+<clue>RANTES (regulated upon activation, normal T cell expressed and secreted) is a cytokine that belongs to the beta-chemokine family; it is chemoattractant for CD4+/CD45RO T cells, <corefCause>it</corefCause> is produced by various cell types including CD8+ and CD4+ T cells as well as monocytes/macrophages, and has <clueSource>recently</clueSource> been <clueKT>shown</clueKT> to <clueType>suppress</clueType> replication of macrophage-tropic strains of HIV <clueLoc>in CD4+ T cells.</clueLoc></clue>
+</event>
+<sentence id="S4">To investigate the <term id="T16" lex="molecular_mechanism" sem="Other">molecular mechanisms</term> of <term id="T17" lex="RANTES_expression" sem="Other"><term id="T18" lex="RANTES" sem="Protein_molecule">RANTES</term> expression</term>, the <term id="T19" lex="RANTES_promoter_region" sem="DNA_domain_or_region"><term id="T20" lex="RANTES" sem="Protein_molecule">RANTES</term> promoter region</term> was analyzed by <term id="T21" lex="transient_expression" sem="Other">transient expression</term> and <term id="T22" lex="gel-mobility_shift_assay" sem="Other">gel-mobility shift assays</term>.</sentence>
+<sentence id="S5">We demonstrate that: 1) <term id="T24" lex="promoter_activity" sem="Other"><term id="T23" lex="RANTES" sem="Protein_molecule">RANTES</term> promoter activity</term> is up-regulated by <term id="T25" lex="PMA" sem="Organic_compound_other">PMA</term> plus <term id="T26" lex="ionomycin" sem="Organic_compound_other">ionomycin</term>, coexpression of the <term id="T27" lex="p65_subunit" sem="Protein_molecule">p65 subunit</term> of <term id="T28" lex="nuclear_factor_(NF)-kappa_B" sem="Protein_complex">nuclear factor (NF)-kappa B</term>, the <term id="T29" lex="proinflammatory_cytokine" sem="Protein_family_or_group">proinflammatory cytokines</term> <term id="T30" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term> and <term id="T31" lex="IL-1_beta" sem="Protein_molecule">IL-1 beta</term>, and the <term id="T32" lex="CD28_costimulatory_pathway" sem="Other"><term id="T33" lex="CD28" sem="Protein_molecule">CD28</term> costimulatory pathway</term>; 2) the <term id="T34" lex="RANTES_promoter_region" sem="DNA_domain_or_region"><term id="T35" lex="RANTES" sem="Protein_molecule">RANTES</term> promoter region</term> contains four <term id="T36" lex="NF-kappa_B_binding_site" sem="DNA_domain_or_region"><term id="T37" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> <term id="T38" lex="binding_site" sem="DNA_domain_or_region">binding sites</term></term> at <cons id="T39" lex="(AND position_-30 position_-44 position_-213 position_-579)" sem="(AND DNA_domain_or_region DNA_domain_or_region DNA_domain_or_region DNA_domain_or_region)"><frag id="F7">positions</frag> <frag id="F8">-30</frag>, <frag id="F9">-44</frag>, <frag id="F10">-213</frag>, and <frag id="F11">-579</frag></cons> relative to the <term id="T40" lex="transcription_start_site" sem="DNA_domain_or_region">transcription start site</term>; 3) <term id="A5" sem="DNA_domain_or_region">one site</term> (-213) is an <term id="T41" lex="NF-AT_(nuclear_factor_of_activated_T_cells)_binding_site" sem="DNA_domain_or_region"><term id="T42" lex="NF-AT" sem="Protein_family_or_group">NF-AT</term> (<term id="T43" lex="nuclear_factor_of_activated_T_cells" sem="Protein_family_or_group">nuclear factor of activated T cells</term>) binding site</term> that also has weak affinity to <term id="T44" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term>, and the most distal site (-579) also serves as a <term id="T45" lex="CD28-responsive_element" sem="DNA_domain_or_region">CD28-responsive element</term>; and 4) mutation on any of those <term id="T46" lex="NF-kappa_B_site" sem="DNA_domain_or_region"><term id="T47" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> sites</term> or coexpression of <term id="T48" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term> (<term id="T49" lex="cytoplasmic_inhibitor_of_NF-kappa_B" sem="Protein_molecule">cytoplasmic inhibitor of <term id="T50" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term></term>) markedly reduced the <term id="T51" lex="promoter_activity" sem="Other">promoter activity</term>.</sentence>
+<event KT="Analysis" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T24"/>
+<cause idref="T25"/>
+<cause idref="T26"/>
+<clue>We <clueKT>demonstrate</clueKT> that: 1) RANTES promoter activity is <clueType>up-regulated</clueType> <linkCause>by</linkCause> PMA <linkCause>plus</linkCause> ionomycin, coexpression of the p65 subunit of nuclear factor (NF)-kappa B, the proinflammatory cytokines TNF-alpha and IL-1 beta, and the CD28 costimulatory pathway; 2) the RANTES promoter region contains four NF-kappa B binding sites at positions -30, -44, -213, and -579 relative to the transcription start site; 3) one site (-213) is an NF-AT (nuclear factor of activated T cells) binding site that also has weak affinity to NF-kappa B, and the most distal site (-579) also serves as a CD28-responsive element; and 4) mutation on any of those NF-kappa B sites or coexpression of I kappa B alpha (cytoplasmic inhibitor of NF-kappa B) markedly reduced the promoter activity.</clue>
+<comment>NER T24 mod</comment></event>
+<event KT="Other" id="E14">
+<type class="Gene_expression"/>
+<theme idref="T27"/>
+<clue>We demonstrate that: 1) RANTES promoter activity is up-regulated by PMA plus ionomycin, <clueType>coexpression</clueType> <linkCause>of</linkCause> the p65 subunit of nuclear factor (NF)-kappa B, the proinflammatory cytokines TNF-alpha and IL-1 beta, and the CD28 costimulatory pathway; 2) the RANTES promoter region contains four NF-kappa B binding sites at positions -30, -44, -213, and -579 relative to the transcription start site; 3) one site (-213) is an NF-AT (nuclear factor of activated T cells) binding site that also has weak affinity to NF-kappa B, and the most distal site (-579) also serves as a CD28-responsive element; and 4) mutation on any of those NF-kappa B sites or coexpression of I kappa B alpha (cytoplasmic inhibitor of NF-kappa B) markedly reduced the promoter activity.</clue>
+</event>
+<event KT="Other" id="E28">
+<type class="Gene_expression"/>
+<theme idref="T30"/>
+<clue>We demonstrate that: 1) RANTES promoter activity is up-regulated by PMA plus ionomycin, <clueType>coexpression</clueType> <linkCause>of</linkCause> the p65 subunit of nuclear factor (NF)-kappa B, the proinflammatory cytokines TNF-alpha and IL-1 beta, and the CD28 costimulatory pathway; 2) the RANTES promoter region contains four NF-kappa B binding sites at positions -30, -44, -213, and -579 relative to the transcription start site; 3) one site (-213) is an NF-AT (nuclear factor of activated T cells) binding site that also has weak affinity to NF-kappa B, and the most distal site (-579) also serves as a CD28-responsive element; and 4) mutation on any of those NF-kappa B sites or coexpression of I kappa B alpha (cytoplasmic inhibitor of NF-kappa B) markedly reduced the promoter activity.</clue>
+</event>
+<event KT="Other" id="E29">
+<type class="Gene_expression"/>
+<theme idref="T31"/>
+<clue>We demonstrate that: 1) RANTES promoter activity is up-regulated by PMA plus ionomycin, <clueType>coexpression</clueType> <linkCause>of</linkCause> the p65 subunit of nuclear factor (NF)-kappa B, the proinflammatory cytokines TNF-alpha and IL-1 beta, and the CD28 costimulatory pathway; 2) the RANTES promoter region contains four NF-kappa B binding sites at positions -30, -44, -213, and -579 relative to the transcription start site; 3) one site (-213) is an NF-AT (nuclear factor of activated T cells) binding site that also has weak affinity to NF-kappa B, and the most distal site (-579) also serves as a CD28-responsive element; and 4) mutation on any of those NF-kappa B sites or coexpression of I kappa B alpha (cytoplasmic inhibitor of NF-kappa B) markedly reduced the promoter activity.</clue>
+</event>
+<event KT="Analysis" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="T24"/>
+<cause idref="E14"/>
+<clue>We <clueKT>demonstrate</clueKT> that: 1) RANTES promoter activity is <clueType>up-regulated</clueType> <linkCause>by</linkCause> PMA plus ionomycin, coexpression of the p65 subunit of nuclear factor (NF)-kappa B, the proinflammatory cytokines TNF-alpha and IL-1 beta, and the CD28 costimulatory pathway; 2) the RANTES promoter region contains four NF-kappa B binding sites at positions -30, -44, -213, and -579 relative to the transcription start site; 3) one site (-213) is an NF-AT (nuclear factor of activated T cells) binding site that also has weak affinity to NF-kappa B, and the most distal site (-579) also serves as a CD28-responsive element; and 4) mutation on any of those NF-kappa B sites or coexpression of I kappa B alpha (cytoplasmic inhibitor of NF-kappa B) markedly reduced the promoter activity.</clue>
+</event>
+<event KT="Analysis" id="E30">
+<type class="Positive_regulation"/>
+<theme idref="T24"/>
+<cause idref="E28"/>
+<clue>We <clueKT>demonstrate</clueKT> that: 1) RANTES promoter activity is <clueType>up-regulated</clueType> <linkCause>by</linkCause> PMA plus ionomycin, coexpression of the p65 subunit of nuclear factor (NF)-kappa B, the proinflammatory cytokines TNF-alpha and IL-1 beta, and the CD28 costimulatory pathway; 2) the RANTES promoter region contains four NF-kappa B binding sites at positions -30, -44, -213, and -579 relative to the transcription start site; 3) one site (-213) is an NF-AT (nuclear factor of activated T cells) binding site that also has weak affinity to NF-kappa B, and the most distal site (-579) also serves as a CD28-responsive element; and 4) mutation on any of those NF-kappa B sites or coexpression of I kappa B alpha (cytoplasmic inhibitor of NF-kappa B) markedly reduced the promoter activity.</clue>
+</event>
+<event KT="Analysis" id="E31">
+<type class="Positive_regulation"/>
+<theme idref="T24"/>
+<cause idref="E29"/>
+<clue>We <clueKT>demonstrate</clueKT> that: 1) RANTES promoter activity is <clueType>up-regulated</clueType> <linkCause>by</linkCause> PMA plus ionomycin, coexpression of the p65 subunit of nuclear factor (NF)-kappa B, the proinflammatory cytokines TNF-alpha and IL-1 beta, and the CD28 costimulatory pathway; 2) the RANTES promoter region contains four NF-kappa B binding sites at positions -30, -44, -213, and -579 relative to the transcription start site; 3) one site (-213) is an NF-AT (nuclear factor of activated T cells) binding site that also has weak affinity to NF-kappa B, and the most distal site (-579) also serves as a CD28-responsive element; and 4) mutation on any of those NF-kappa B sites or coexpression of I kappa B alpha (cytoplasmic inhibitor of NF-kappa B) markedly reduced the promoter activity.</clue>
+</event>
+<event KT="Analysis" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T24"/>
+<cause idref="T32"/>
+<clue>We <clueKT>demonstrate</clueKT> that: 1) RANTES promoter activity is <clueType>up-regulated</clueType> <linkCause>by</linkCause> PMA plus ionomycin, coexpression of the p65 subunit of nuclear factor (NF)-kappa B, the proinflammatory cytokines TNF-alpha and IL-1 beta, and the CD28 costimulatory pathway; 2) the RANTES promoter region contains four NF-kappa B binding sites at positions -30, -44, -213, and -579 relative to the transcription start site; 3) one site (-213) is an NF-AT (nuclear factor of activated T cells) binding site that also has weak affinity to NF-kappa B, and the most distal site (-579) also serves as a CD28-responsive element; and 4) mutation on any of those NF-kappa B sites or coexpression of I kappa B alpha (cytoplasmic inhibitor of NF-kappa B) markedly reduced the promoter activity.</clue>
+</event>
+<event KT="Fact" Manner="Low" id="E17">
+<type class="Binding"/>
+<theme idref="A5"/>
+<theme idref="T44"/>
+<clue>We demonstrate that: 1) RANTES promoter activity is up-regulated by PMA plus ionomycin, coexpression of the p65 subunit of nuclear factor (NF)-kappa B, the proinflammatory cytokines TNF-alpha and IL-1 beta, and the CD28 costimulatory pathway; 2) the RANTES promoter region contains four NF-kappa B binding sites at positions -30, -44, -213, and -579 relative to the transcription start site; 3) one site (-213) is an NF-AT (nuclear factor of activated T cells) binding site that also <clueType>has <clueManner>weak</clueManner> affinity</clueType> <linkTheme>to</linkTheme> NF-kappa B, and the most distal site (-579) also serves as a CD28-responsive element; and 4) mutation on any of those NF-kappa B sites or coexpression of I kappa B alpha (cytoplasmic inhibitor of NF-kappa B) markedly reduced the promoter activity.</clue>
+</event>
+<event KT="Method" id="E18">
+<type class="Mutagenesis"/>
+<theme idref="T46"/>
+<clue>We demonstrate that: 1) RANTES promoter activity is up-regulated by PMA plus ionomycin, coexpression of the p65 subunit of nuclear factor (NF)-kappa B, the proinflammatory cytokines TNF-alpha and IL-1 beta, and the CD28 costimulatory pathway; 2) the RANTES promoter region contains four NF-kappa B binding sites at positions -30, -44, -213, and -579 relative to the transcription start site; 3) one site (-213) is an NF-AT (nuclear factor of activated T cells) binding site that also has weak affinity to NF-kappa B, and the most distal site (-579) also serves as a CD28-responsive element; and 4) <clueType>mutation</clueType> on any <linkTheme>of</linkTheme> those NF-kappa B sites or coexpression of I kappa B alpha (cytoplasmic inhibitor of NF-kappa B) markedly reduced the promoter activity.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event KT="Analysis" Manner="High" id="E19">
+<type class="Negative_regulation"/>
+<theme idref="T51"/>
+<cause idref="E18"/>
+<clue>We <clueKT>demonstrate</clueKT> that: 1) RANTES promoter activity is up-regulated by PMA plus ionomycin, coexpression of the p65 subunit of nuclear factor (NF)-kappa B, the proinflammatory cytokines TNF-alpha and IL-1 beta, and the CD28 costimulatory pathway; 2) the RANTES promoter region contains four NF-kappa B binding sites at positions -30, -44, -213, and -579 relative to the transcription start site; 3) one site (-213) is an NF-AT (nuclear factor of activated T cells) binding site that also has weak affinity to NF-kappa B, and the most distal site (-579) also serves as a CD28-responsive element; and 4) mutation on any of those NF-kappa B sites or coexpression of I kappa B alpha (cytoplasmic inhibitor of NF-kappa B) <clueManner>markedly</clueManner> <clueType>reduced</clueType> the promoter activity.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Gene_expression"/>
+<theme idref="T48"/>
+<clue>We demonstrate that: 1) RANTES promoter activity is up-regulated by PMA plus ionomycin, coexpression of the p65 subunit of nuclear factor (NF)-kappa B, the proinflammatory cytokines TNF-alpha and IL-1 beta, and the CD28 costimulatory pathway; 2) the RANTES promoter region contains four NF-kappa B binding sites at positions -30, -44, -213, and -579 relative to the transcription start site; 3) one site (-213) is an NF-AT (nuclear factor of activated T cells) binding site that also has weak affinity to NF-kappa B, and the most distal site (-579) also serves as a CD28-responsive element; and 4) mutation on any of those NF-kappa B sites or <clueType>coexpression</clueType> <linkTheme>of</linkTheme> I kappa B alpha (cytoplasmic inhibitor of NF-kappa B) markedly reduced the promoter activity.</clue>
+</event>
+<event KT="Analysis" Manner="High" id="E21">
+<type class="Negative_regulation"/>
+<theme idref="T51"/>
+<cause idref="E20"/>
+<clue>We <clueKT>demonstrate</clueKT> that: 1) RANTES promoter activity is up-regulated by PMA plus ionomycin, coexpression of the p65 subunit of nuclear factor (NF)-kappa B, the proinflammatory cytokines TNF-alpha and IL-1 beta, and the CD28 costimulatory pathway; 2) the RANTES promoter region contains four NF-kappa B binding sites at positions -30, -44, -213, and -579 relative to the transcription start site; 3) one site (-213) is an NF-AT (nuclear factor of activated T cells) binding site that also has weak affinity to NF-kappa B, and the most distal site (-579) also serves as a CD28-responsive element; and 4) mutation on any of those NF-kappa B sites or coexpression of I kappa B alpha (cytoplasmic inhibitor of NF-kappa B) <clueManner>markedly</clueManner> <clueType>reduced</clueType> the promoter activity.</clue>
+</event>
+<sentence id="S6">Thus, <term id="T52" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term>, a potent transcriptional activator of <term id="T53" lex="HIV_expression" sem="Other"><term id="T54" lex="HIV" sem="Virus">HIV</term> expression</term>, is also involved in the expression of <term id="T55" lex="RANTES" sem="Protein_molecule">RANTES</term>, a <term id="T56" lex="chemokine" sem="Protein_family_or_group">chemokine</term> that blocks infection by <term id="A6" sem="Virus"><term id="T57" lex="macrophage-tropic_strain" sem="Virus">macrophage-tropic strains</term> of <term id="T58" lex="HIV" sem="Virus">HIV</term></term>.</sentence>
+<event KT="Other" id="E22">
+<type class="Gene_expression"/>
+<theme idref="T54"/>
+<clue>Thus, NF-kappa B, a potent transcriptional activator of HIV <clueType>expression</clueType>, is also involved in the expression of RANTES, a chemokine that blocks infection by macrophage-tropic strains of HIV.</clue>
+<comment>TPS A6</comment></event>
+<event KT="Fact" Manner="High" id="E23" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E22"/>
+<cause idref="T52"/>
+<clue>Thus, NF-kappa B, a <clueManner>potent</clueManner> <clueType>transcriptional activator</clueType> <linkTheme>of</linkTheme> HIV expression, is also involved in the expression of RANTES, a chemokine that blocks infection by macrophage-tropic strains of HIV.</clue>
+</event>
+<event KT="Other" id="E24">
+<type class="Gene_expression"/>
+<theme idref="T55"/>
+<clue>Thus, NF-kappa B, a potent transcriptional activator of HIV expression, is also involved in the <clueType>expression</clueType> <linkTheme>of</linkTheme> RANTES, a chemokine that blocks infection by macrophage-tropic strains of HIV.</clue>
+</event>
+<event KT="Analysis" id="E25">
+<type class="Positive_regulation"/>
+<theme idref="E24"/>
+<cause idref="T52"/>
+<clue><clueKT>Thus</clueKT>, NF-kappa B, a potent transcriptional activator of HIV expression, is also <clueType>involved</clueType> <linkTheme>in</linkTheme> the expression of RANTES, a chemokine that blocks infection by macrophage-tropic strains of HIV.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="A6"/>
+<clue>Thus, NF-kappa B, a potent transcriptional activator of HIV expression, is also involved in the expression of RANTES, a chemokine that blocks <clueType>infection</clueType> <linkTheme>by</linkTheme> macrophage-tropic strains of HIV.</clue>
+</event>
+<event KT="Fact" id="E27">
+<type class="Negative_regulation"/>
+<theme idref="E26"/>
+<cause idref="T55"/>
+<clue>Thus, NF-kappa B, a potent transcriptional activator of HIV expression, is also involved in the expression of RANTES, <corefCause>a chemokine</corefCause> that <clueType>blocks</clueType> infection by macrophage-tropic strains of HIV.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,118 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9047238" created="10/04/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9047238</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="c-Rel" sem="Protein_molecule">c-Rel</term> is a target of <term id="T2" lex="pentoxifylline-mediated_inhibition" sem="Other"><term id="T3" lex="pentoxifylline" sem="Organic_compound_other">pentoxifylline</term>-mediated inhibition</term> of <term id="A1" sem="Cell_natural">T lymphocyte</term> activation.</sentence>
+<event KT="Other" id="E1">
+<type class="Physiological_process"/>
+<theme idref="A1"/>
+<clue>c-Rel is a target of pentoxifylline-mediated inhibition of T lymphocyte <clueType>activation</clueType>.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation"/>
+<theme idref="E1"/>
+<cause idref="E3"/>
+<clue>c-Rel is a target of pentoxifylline-<clueType>mediated inhibition</clueType> <linkTheme>of</linkTheme> T lymphocyte activation.</clue>
+</event>
+<event id="E3">
+<type class="Regulation"/>
+<theme idref="T1"/>
+<cause idref="T3"/>
+<clue>c-Rel is a <clueType>target</clueType> <linkCause>of</linkCause> pentoxifylline-mediated inhibition of T lymphocyte activation.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The possible clinical use of the <term id="T4" lex="methyl_xanthine_derivative" sem="Organic_compound_other">methyl xanthine derivative</term>, <term id="T5" lex="pentoxifylline" sem="Organic_compound_other">pentoxifylline</term> (<term id="T6" lex="PF" sem="Organic_compound_other">PF</term>), for the treatment of <term id="T7" lex="T_cell-dependent_disease" sem="Other">T cell-dependent diseases</term> is being noted with increasing interest.</sentence>
+<sentence id="S3">In this paper, we studied the molecular consequences of <term id="T8" lex="PF_treatment" sem="Other"><term id="T9" lex="PF" sem="Organic_compound_other">PF</term> treatment</term> during <term id="T10" lex="lymphocyte_activation" sem="Other"><term id="A2" sem="Cell_natural">lymphocyte</term> activation</term>.</sentence>
+<event KT="Other" id="E4">
+<type class="Physiological_process"/>
+<theme idref="A2"/>
+<clue>In this paper, we studied the molecular consequences of PF treatment during lymphocyte <clueType>activation</clueType>.</clue>
+</event>
+<event KT="Investigation" id="E5" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E4"/>
+<cause idref="T9"/>
+<clue>In this paper, we <clueKT>studied</clueKT> the molecular <clueType>consequences</clueType> <linkCause>of</linkCause> PF treatment <linkTheme>during</linkTheme> lymphocyte activation.</clue>
+</event>
+<sentence id="S4">We found that in <term id="T11" lex="T_cell" sem="Cell_natural">T cells</term>, <term id="A3" sem="Protein_family_or_group">anti-CD3</term>-induced <term id="T12" lex="c-Rel" sem="Protein_molecule">c-Rel</term> expression was blocked by <term id="T13" lex="PF" sem="Organic_compound_other">PF</term>, whereas the induction of <term id="A4" sem="Protein_family_or_group">other <term id="T14" lex="NF-kappaB_family_member" sem="Protein_family_or_group"><term id="T15" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> family members</term></term> was not significantly affected.</sentence>
+<event KT="Other" id="E6">
+<type class="Gene_expression"/>
+<theme idref="T12"/>
+<clue>We found that in T cells, anti-CD3-induced c-Rel <clueType>expression</clueType> was blocked by PF, whereas the induction of other NF-kappaB family members was not significantly affected.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="A3"/>
+<clue>We found that in T cells, anti-CD3-<clueType>induced</clueType> c-Rel expression was blocked by PF, whereas the induction of other NF-kappaB family members was not significantly affected.</clue>
+</event>
+<event id="E8">
+<type class="Negative_regulation"/>
+<theme idref="E7"/>
+<cause idref="T13"/>
+<clue>We <clueKT>found</clueKT> that <clueLoc>in T cells</clueLoc>, anti-CD3-induced c-Rel expression was <clueType>blocked</clueType> <linkCause>by</linkCause> PF, whereas the induction of other NF-kappaB family members was not significantly affected.</clue>
+</event>
+<event id="E9">
+<type class="Gene_expression"/>
+<theme idref="A4"/>
+<clue>We found that in T cells, anti-CD3-induced c-Rel expression was blocked by PF, whereas the <clueType>induction</clueType> <linkTheme>of</linkTheme> other NF-kappaB family members was not significantly affected.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E10">
+<type class="Negative_regulation"/>
+<theme idref="E9"/>
+<cause idref="T13"/>
+<clue>We found that in T cells, anti-CD3-induced c-Rel expression was blocked <linkCause>by</linkCause> PF, whereas the induction of other NF-kappaB family members was <cluePolarity>not</cluePolarity> significantly <clueType>affected</clueType>.</clue>
+</event>
+<sentence id="S5">However, induction of <term id="T16" lex="NF-AT" sem="Protein_molecule">NF-AT</term>, which has the same signaling requirements as <term id="T17" lex="c-Rel_induction" sem="Other"><term id="T18" lex="c-Rel" sem="Protein_molecule">c-Rel</term> induction</term>, was not inhibited by <term id="T19" lex="PF" sem="Organic_compound_other">PF</term>.</sentence>
+<event id="E11">
+<type class="Gene_expression"/>
+<theme idref="T16"/>
+<clue>However, <clueType>induction</clueType> <linkTheme>of</linkTheme> NF-AT, which has the same signaling requirements as c-Rel induction, was not inhibited by PF.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E12">
+<type class="Negative_regulation"/>
+<theme idref="E11"/>
+<cause idref="T19"/>
+<clue>However, induction of NF-AT, which has the same signaling requirements as c-Rel induction, was <cluePolarity>not</cluePolarity> <clueType>inhibited</clueType> <linkCause>by</linkCause> PF.</clue>
+</event>
+<sentence id="S6">Among genes that respond to these <term id="T20" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term>, <term id="T21" lex="IL-2_mRNA_induction" sem="Other"><term id="T22" lex="IL-2_mRNA" sem="RNA_molecule"><term id="T23" lex="IL-2" sem="Protein_molecule">IL-2</term> mRNA</term> induction</term> was suppressed by <term id="T24" lex="PF" sem="Organic_compound_other">PF</term>, whereas <term id="T25" lex="IL-2R(alpha)_chain_mRNA_induction" sem="Other"><term id="T26" lex="IL-2R(alpha)_chain_mRNA" sem="RNA_molecule"><term id="T27" lex="IL-2R(alpha)_chain" sem="Protein_molecule">IL-2R(alpha) chain</term> mRNA</term> induction</term> was not affected.</sentence>
+<event KT="Other" id="E13">
+<type class="Transcription"/>
+<theme idref="T22"/>
+<clue>Among genes that respond to these transcription factors, IL-2 mRNA <clueType>induction</clueType> was suppressed by PF, whereas IL-2R(alpha) chain mRNA induction was not affected.</clue>
+</event>
+<event id="E14">
+<type class="Negative_regulation"/>
+<theme idref="E13"/>
+<cause idref="T24"/>
+<clue>Among genes that respond to these transcription factors, IL-2 mRNA induction was <clueType>suppressed</clueType> <linkCause>by</linkCause> PF, whereas IL-2R(alpha) chain mRNA induction was not affected.</clue>
+</event>
+<event id="E15">
+<type class="Transcription"/>
+<theme idref="T26"/>
+<clue>Among genes that respond to these transcription factors, IL-2 mRNA induction was suppressed by PF, whereas IL-2R(alpha) chain mRNA <clueType>induction</clueType> was not affected.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E16">
+<type class="Negative_regulation"/>
+<theme idref="E15"/>
+<cause idref="T24"/>
+<clue>Among genes that respond to these transcription factors, IL-2 mRNA induction was suppressed <linkCause>by</linkCause> PF, whereas IL-2R(alpha) chain mRNA induction was <cluePolarity>not</cluePolarity> <clueType>affected</clueType>.</clue>
+</event>
+<sentence id="S7">These observations implicated <term id="T28" lex="c-Rel" sem="Protein_molecule">c-Rel</term> as an <term id="T29" lex="IL-2_promoter_factor" sem="Protein_family_or_group"><term id="A5" sem="DNA_domain_or_region"><term id="T30" lex="IL-2" sem="Protein_molecule">IL-2</term> promoter</term> factor</term>, for which experimental support was obtained from <term id="T31" lex="transient_transfection_experiment" sem="Other">transient transfection experiments</term>.</sentence>
+<sentence id="S8">In contrast with the observation in <term id="T32" lex="T_cell" sem="Cell_natural">T cells</term>, <term id="T33" lex="c-Rel" sem="Protein_molecule">c-Rel</term> induction was not blocked by <term id="T34" lex="PF" sem="Organic_compound_other">PF</term> in <term id="T35" lex="B_cell" sem="Cell_natural">B cells</term>.</sentence>
+<event id="E18">
+<type class="Gene_expression"/>
+<theme idref="T33"/>
+<clue>In contrast with the observation in T cells, c-Rel <clueType>induction</clueType> was not blocked by PF in B cells.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E19">
+<type class="Negative_regulation"/>
+<theme idref="E18"/>
+<cause idref="T34"/>
+<clue>In contrast with the observation in T cells, c-Rel induction was <cluePolarity>not</cluePolarity> <clueType>blocked</clueType> <linkCause>by</linkCause> PF <clueLoc>in B cells</clueLoc>.</clue>
+</event>
+<sentence id="S9">The greater selectivity of <term id="T36" lex="PF" sem="Organic_compound_other">PF</term>, compared with <term id="T37" lex="FK506" sem="Organic_compound_other">FK506</term>, at both the molecular and cellular levels may prove advantageous in manipulating <term id="T38" lex="T_cell_response" sem="Other">T cell responses</term> in vivo.</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

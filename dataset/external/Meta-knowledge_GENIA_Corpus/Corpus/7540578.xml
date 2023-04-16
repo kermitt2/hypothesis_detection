@@ -1,0 +1,108 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7540578" created="16/01/2007" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7540578</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="danazol" sem="Organic_compound_other">Danazol</term> decreases transcription of <term id="T2" lex="estrogen_receptor_gene" sem="DNA_domain_or_region"><term id="T3" lex="estrogen_receptor" sem="Protein_family_or_group">estrogen receptor</term> gene</term> in <term id="T4" lex="human_monocyte" sem="Cell_natural">human monocytes</term>.</sentence>
+<event id="E1">
+<type class="Negative_regulation"/>
+<theme idref="E2"/>
+<cause idref="T1"/>
+<clue>Danazol <clueType>decreases</clueType> transcription of estrogen receptor gene in human monocytes.</clue>
+</event>
+<event id="E2">
+<type class="Transcription"/>
+<theme idref="T2"/>
+<clue>Danazol decreases <clueType>transcription</clueType> <linkTheme>of</linkTheme> estrogen receptor gene <clueLoc>in human monocytes</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">1. Administration of <term id="T5" lex="danazol" sem="Organic_compound_other">danazol</term> for over one month reduced the levels of <term id="T6" lex="estrogen_receptor" sem="Protein_family_or_group">estrogen receptor</term> (<term id="T7" lex="ER" sem="Protein_family_or_group"><term id="A1" sem="RNA_molecule">ER</term></term>) and its <term id="T8" lex="mRNA" sem="RNA_molecule">mRNA</term> to approximately 50 and 20%, respectively in <term id="T9" lex="monocyte" sem="Cell_natural">monocytes</term>.</sentence>
+<event KT="Method" id="E3">
+<type class="Artificial_process"/>
+<theme idref="T5"/>
+<clue>1. <clueType>Administration</clueType> <linkTheme>of</linkTheme> danazol <clueTime>for over one month</clueTime> reduced the levels of estrogen receptor (ER) and its mRNA to approximately 50 and 20%, respectively in monocytes.</clue>
+</event>
+<event Manner="High" id="E4">
+<type class="Negative_regulation"/>
+<theme idref="T7"/>
+<cause idref="E3"/>
+<clue>1. Administration of danazol for over one month <clueType>reduced the levels</clueType> <linkTheme>of</linkTheme> estrogen receptor (ER) and its mRNA <clueManner>to approximately 50</clueManner> and 20<clueManner>%</clueManner>, respectively <clueLoc>in monocytes</clueLoc>.</clue>
+</event>
+<event Manner="High" id="E5">
+<type class="Negative_regulation"/>
+<theme idref="A1" idref1="T8"/>
+<cause idref="E3"/>
+<clue>1. Administration of danazol for over one month <clueType>reduced the levels</clueType> <linkTheme>of</linkTheme> estrogen receptor (ER) and its mRNA <clueManner>to approximately</clueManner> 50 and <clueManner>20%</clueManner>, respectively <clueLoc>in monocytes</clueLoc>.</clue>
+<comment>NER: T8 sem mod, RNA_family_or_group -&gt; RNA_molecule</comment></event>
+<sentence id="S3">2. <term id="T10" lex="danazol" sem="Organic_compound_other">Danazol</term> did not alter the degradation rate of <term id="T11" lex="ER_mRNA" sem="RNA_molecule"><term id="T12" lex="ER" sem="Protein_family_or_group">ER</term> mRNA</term> in <term id="T13" lex="monocyte" sem="Cell_natural">monocytes</term>.</sentence>
+<event Polarity="Negative" assertion="non-exist" id="E6">
+<type class="Regulation"/>
+<theme idref="T11"/>
+<cause idref="T10"/>
+<clue>2. Danazol did <cluePolarity>not</cluePolarity> <clueType>alter</clueType> the <clueType>degradation</clueType> rate <linkTheme>of</linkTheme> ER mRNA <clueLoc>in monocytes</clueLoc>.</clue>
+<comment>NER: T11 sem mod, RNA_family_or_group -&gt; RNA_molecule</comment></event>
+<sentence id="S4">3. <term id="T14" lex="danazol" sem="Organic_compound_other">Danazol</term> decreased the <term id="T15" lex="transcription_rate" sem="Other">transcription rate</term> of <term id="T16" lex="ER_gene" sem="DNA_domain_or_region"><term id="T17" lex="ER" sem="Protein_family_or_group">ER</term> gene</term> to approximately 50% in <term id="T18" lex="monocyte" sem="Cell_natural">monocytes</term> in a <term id="T19" lex="run-on_assay" sem="Other">run-on assay</term>.</sentence>
+<event Manner="High" id="E8">
+<type class="Negative_regulation"/>
+<theme idref="E9"/>
+<cause idref="T14"/>
+<clue>3. Danazol <clueType>decreased</clueType> the transcription rate of ER gene <clueManner>to approximately 50%</clueManner> in monocytes in a run-on assay.</clue>
+</event>
+<event id="E9">
+<type class="Transcription"/>
+<theme idref="T16"/>
+<clue>3. Danazol decreased the <clueType>transcription</clueType> rate <linkTheme>of</linkTheme> ER gene to approximately 50% <clueLoc>in monocytes</clueLoc> <clueExperiment>in a run-on assay</clueExperiment>.</clue>
+</event>
+<sentence id="S5">4. <term id="T20" lex="danazol" sem="Organic_compound_other">Danazol</term> may release <term id="A20" sem="Other"><term id="T21" lex="estrogen" sem="Lipid">estrogen</term> predominance</term> via the reduction of transcription for <term id="T22" lex="ER_gene" sem="DNA_domain_or_region"><term id="T23" lex="ER" sem="Protein_family_or_group">ER</term> gene</term>, which leads to the reduction of <term id="T24" lex="ER_mRNA" sem="RNA_molecule"><term id="T25" lex="ER" sem="Protein_family_or_group">ER</term> mRNA</term> and <term id="T26" lex="ER_expression" sem="Other"><term id="T27" lex="ER" sem="Protein_family_or_group">ER</term> expressions</term> in <term id="T28" lex="monocyte" sem="Cell_natural">monocytes</term>.</sentence>
+<event CL="L1" KT="Analysis" id="E10">
+<type class="Negative_regulation"/>
+<theme idref="A20"/>
+<cause idref="E12"/>
+<clue>4. Danazol <clueKT><clueCL>may</clueCL></clueKT> <clueType>release</clueType> estrogen predominance <linkCause>via</linkCause> the reduction of transcription for ER gene, which leads to the reduction of ER mRNA and ER expressions in monocytes.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Negative_regulation"/>
+<theme idref="E13"/>
+<cause idref="T20"/>
+<clue>4. Danazol may release estrogen predominance via the <clueType>reduction</clueType> <linkTheme>of</linkTheme> transcription for ER gene, which leads to the reduction of ER mRNA and ER expressions in monocytes.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Transcription"/>
+<theme idref="T22"/>
+<clue>4. Danazol may release estrogen predominance via the reduction of <clueType>transcription</clueType> <linkTheme>for</linkTheme> ER gene, which leads to the reduction of ER mRNA and ER expressions in monocytes.</clue>
+</event>
+<event KT="Fact" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="E12"/>
+<clue>4. Danazol may release estrogen predominance via the reduction of transcription for ER gene, which <clueType>leads</clueType> <linkTheme>to</linkTheme> the reduction of ER mRNA and ER expressions in monocytes.</clue>
+</event>
+<event KT="Fact" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="E12"/>
+<clue>4. Danazol may release estrogen predominance via the reduction of transcription for ER gene, which <clueType>leads</clueType> <linkTheme>to</linkTheme> the reduction of ER mRNA and ER expressions in monocytes.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<clue>4. Danazol may release estrogen predominance via the reduction of transcription for ER gene, which leads to the <clueType>reduction</clueType> <linkTheme>of</linkTheme> ER mRNA and ER expressions in monocytes.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Negative_regulation"/>
+<theme idref="E17"/>
+<clue>4. Danazol may release estrogen predominance via the reduction of transcription for ER gene, which leads to the <clueType>reduction</clueType> <linkTheme>of</linkTheme> ER mRNA and ER expressions in monocytes.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Transcription"/>
+<theme idref="T24"/>
+<clue>4. Danazol may release estrogen predominance via the reduction of transcription for ER gene, which leads to the reduction of ER mRNA and ER <clueType>expressions</clueType> <clueLoc>in monocytes</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Gene_expression"/>
+<theme idref="T27"/>
+<clue>4. Danazol may release estrogen predominance via the reduction of transcription for ER gene, which leads to the reduction of ER mRNA and ER <clueType>expressions</clueType> <clueLoc>in monocytes</clueLoc>.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

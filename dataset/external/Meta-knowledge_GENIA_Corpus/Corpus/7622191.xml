@@ -1,0 +1,228 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7622191" created="05/06/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7622191</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="thapsigargin" sem="Organic_compound_other">Thapsigargin</term> induces <term id="T2" lex="IL-2_receptor_alpha-chain" sem="Protein_molecule">IL-2 receptor alpha-chain</term> in <term id="T3" lex="human_peripheral_T_cell" sem="Cell_natural">human peripheral</term> and <term id="T4" lex="Jurkat_T_cell" sem="Cell_cultured">Jurkat T cells</term> via a <term id="T5" lex="protein_kinase_C-independent_mechanism" sem="Other"><term id="T6" lex="protein_kinase_C" sem="Protein_molecule">protein kinase C</term>-independent mechanism</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation"/>
+<theme idref="T5"/>
+<cause idref="T1"/>
+<clue>Thapsigargin <clueType>induces</clueType> IL-2 receptor alpha-chain in human peripheral and Jurkat T cells via a protein kinase C-independent mechanism.</clue>
+</event>
+<event id="E300">
+<type class="Positive_regulation"/>
+<theme idref="T2"/>
+<cause idref="E1"/>
+<clue>Thapsigargin <clueType>induces</clueType> IL-2 receptor alpha-chain <clueLoc>in human peripheral</clueLoc> and Jurkat <clueLoc>T cells</clueLoc> <linkCause>via</linkCause> a protein kinase C-independent mechanism.</clue>
+</event>
+<event id="E301">
+<type class="Positive_regulation"/>
+<theme idref="T2"/>
+<cause idref="E1"/>
+<clue>Thapsigargin <clueType>induces</clueType> IL-2 receptor alpha-chain <clueLoc>in</clueLoc> human peripheral and <clueLoc>Jurkat T cells</clueLoc> <linkCause>via</linkCause> a protein kinase C-independent mechanism.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T7" lex="thapsigargin" sem="Organic_compound_other">Thapsigargin</term> (<term id="T8" lex="TG" sem="Organic_compound_other">TG</term>), an inhibitor of <term id="T9" lex="Ca(2+)-ATPase" sem="Protein_complex">Ca(2+)-ATPase</term>, depletes intracellular <term id="T10" lex="Ca2+_store" sem="Other"><term id="T11" lex="Ca2+" sem="Element">Ca2+</term> stores</term> and induces a sustained <term id="A1" sem="Other"><term id="T12" lex="Ca2+" sem="Element">Ca2+</term> influx</term> without altering <term id="T13" lex="phosphatidyl_inositol_level" sem="Other"><term id="T14" lex="phosphatidyl_inositol" sem="Lipid">phosphatidyl inositol</term> levels</term>.</sentence>
+<event id="E5">
+<type class="Negative_regulation"/>
+<theme idref="T11"/>
+<cause idref="T8"/>
+<clue>Thapsigargin (TG), an inhibitor of Ca(2+)-ATPase, <clueType>depletes</clueType> intracellular Ca2+ stores and induces a sustained Ca2+ influx without altering phosphatidyl inositol levels.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation"/>
+<theme idref="A1"/>
+<cause idref="T8"/>
+<clue>Thapsigargin (TG), an inhibitor of Ca(2+)-ATPase, depletes intracellular Ca2+ stores and <clueType>induces</clueType> a sustained Ca2+ influx without altering phosphatidyl inositol levels.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Regulation"/>
+<theme idref="T14"/>
+<clue>Thapsigargin (TG), an inhibitor of Ca(2+)-ATPase, depletes intracellular Ca2+ stores and induces a sustained Ca2+ influx without <clueType>altering</clueType> phosphatidyl inositol levels.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E40">
+<type class="Correlation"/>
+<theme idref="E7"/>
+<theme idref="E5"/>
+<clue>Thapsigargin (TG), an inhibitor of Ca(2+)-ATPase, depletes intracellular Ca2+ stores and induces a sustained Ca2+ influx <clueType><cluePolarity>without</cluePolarity></clueType> altering phosphatidyl inositol levels.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E41">
+<type class="Correlation"/>
+<theme idref="E7"/>
+<theme idref="E6"/>
+<clue>Thapsigargin (TG), an inhibitor of Ca(2+)-ATPase, depletes intracellular Ca2+ stores and induces a sustained Ca2+ influx <clueType><cluePolarity>without</cluePolarity></clueType> altering phosphatidyl inositol levels.</clue>
+</event>
+<sentence id="S3"><term id="T15" lex="TG" sem="Organic_compound_other">TG</term> plus <term id="T16" lex="phorbol_myristate_acetate" sem="Organic_compound_other">phorbol myristate acetate</term> (<term id="T17" lex="PMA" sem="Organic_compound_other">PMA</term>) but not <term id="T18" lex="TG" sem="Organic_compound_other">TG</term> alone induced <term id="T19" lex="IL-2" sem="Protein_molecule">IL-2</term> in <term id="T20" lex="Jurkat_T_cell" sem="Cell_cultured">Jurkat T cells</term>, suggesting that <term id="T21" lex="TG" sem="Organic_compound_other">TG</term> had no effect on <term id="T22" lex="protein_kinase_C" sem="Protein_molecule">protein kinase C</term> (<term id="T23" lex="PKC" sem="Protein_molecule">PKC</term>).</sentence>
+<event id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T19"/>
+<cause idref="T15"/>
+<cause idref="T17"/>
+<clue>TG plus phorbol myristate acetate (PMA) but not TG alone <clueType>induced</clueType> IL-2 <clueLoc>in Jurkat T cells</clueLoc>, suggesting that TG had no effect on protein kinase C (PKC).</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="T19"/>
+<cause idref="T18"/>
+<clue>TG plus phorbol myristate acetate (PMA) but <cluePolarity>not</cluePolarity> TG alone <clueType>induced</clueType> IL-2 <clueLoc>in Jurkat T cells</clueLoc>, suggesting that TG had no effect on protein kinase C (PKC).</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E10" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="T23"/>
+<cause idref="T21"/>
+<clue>TG plus phorbol myristate acetate (PMA) but not TG alone induced IL-2 in Jurkat T cells, <clueKT><clueCL>suggesting</clueCL></clueKT> that TG had <cluePolarity>no</cluePolarity> <clueType>effect</clueType> <linkTheme>on</linkTheme> protein kinase C (PKC).</clue>
+</event>
+<sentence id="S4">However, <term id="T24" lex="TG" sem="Organic_compound_other">TG</term> induced increases in <term id="T25" lex="IL-2R_alpha_protein" sem="Protein_molecule">IL-2R alpha protein</term> as well as <term id="T26" lex="IL-2R_alpha_mRNA" sem="RNA_molecule">IL-2R alpha mRNA</term> in <term id="T27" lex="Jurkat_T_cell" sem="Cell_cultured">Jurkat T cells</term> in a dose-dependent manner.</sentence>
+<event id="E11">
+<type class="Positive_regulation"/>
+<theme idref="T25"/>
+<cause idref="T24"/>
+<clue>However, TG induced <clueType>increases</clueType> <linkTheme>in</linkTheme> IL-2R alpha protein as well as IL-2R alpha mRNA <clueLoc>in Jurkat T cells</clueLoc> in a dose-dependent manner.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation"/>
+<theme idref="T26"/>
+<cause idref="T24"/>
+<clue>However, TG induced <clueType>increases</clueType> <linkTheme>in</linkTheme> IL-2R alpha protein as well as IL-2R alpha mRNA <clueLoc>in Jurkat T cells</clueLoc> in a dose-dependent manner.</clue>
+</event>
+<sentence id="S5">A similar increase in <term id="T28" lex="IL-2R_alpha" sem="Protein_molecule">IL-2R alpha</term> by <term id="T29" lex="TG" sem="Organic_compound_other">TG</term> was also observed in <term id="T30" lex="human_peripheral_T_cell" sem="Cell_natural">human peripheral T cells</term>.</sentence>
+<event id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T28"/>
+<cause idref="T29"/>
+<clue>A similar <clueType>increase</clueType> <linkTheme>in</linkTheme> IL-2R alpha <linkCause>by</linkCause> TG was also <clueKT>observed</clueKT> <clueLoc>in human peripheral T cells</clueLoc>.</clue>
+</event>
+<sentence id="S6">Further, like <term id="T31" lex="PMA" sem="Organic_compound_other">PMA</term>, <term id="T32" lex="TG" sem="Organic_compound_other">TG</term> markedly induced <term id="T33" lex="NF_kappa_B" sem="Protein_molecule">NF kappa B</term> in <term id="T34" lex="Jurkat_T_cell" sem="Cell_cultured">Jurkat T cells</term>.</sentence>
+<event Manner="High" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="T33"/>
+<cause idref="T32"/>
+<clue>Further, like PMA, TG <clueManner>markedly</clueManner> <clueType>induced</clueType> NF kappa B <clueLoc>in Jurkat T cells</clueLoc>.</clue>
+</event>
+<event Manner="High" id="E42">
+<type class="Positive_regulation"/>
+<theme idref="T33"/>
+<cause idref="T31"/>
+<clue>Further, like PMA, TG <clueManner>markedly</clueManner> <clueType>induced</clueType> NF kappa B <clueLoc>in Jurkat T cells</clueLoc>.</clue>
+</event>
+<sentence id="S7">However, <term id="T35" lex="TG" sem="Organic_compound_other">TG</term> and <term id="T36" lex="PMA" sem="Organic_compound_other">PMA</term> exhibited a synergistic action on <term id="T37" lex="IL-2R_alpha" sem="Protein_molecule">IL-2R alpha</term> expression, suggesting that <term id="T38" lex="TG" sem="Organic_compound_other">TG</term> and <term id="T39" lex="PMA" sem="Organic_compound_other">PMA</term> induce <term id="T40" lex="IL-2R_alpha" sem="Protein_molecule">IL-2R alpha</term> through distinct pathways.</sentence>
+<event KT="Other" id="E15">
+<type class="Gene_expression"/>
+<theme idref="T37"/>
+<clue>However, TG and PMA exhibited a synergistic action on IL-2R alpha <clueType>expression</clueType>, suggesting that TG and PMA induce IL-2R alpha through distinct pathways.</clue>
+</event>
+<event KT="Analysis" id="E16">
+<type class="Regulation"/>
+<theme idref="E15"/>
+<cause idref="T35"/>
+<cause idref="T36"/>
+<clue>However, TG and PMA <clueKT>exhibited</clueKT> a <clueType>synergistic action</clueType> <linkTheme>on</linkTheme> IL-2R alpha expression, suggesting that TG and PMA induce IL-2R alpha through distinct pathways.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E43" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T40"/>
+<cause idref="T38"/>
+<clue>However, TG and PMA exhibited a synergistic action on IL-2R alpha expression, <clueKT><clueCL>suggesting</clueCL></clueKT> that TG and PMA <clueType>induce</clueType> IL-2R alpha through distinct pathways.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E44" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T40"/>
+<cause idref="T39"/>
+<clue>However, TG and PMA exhibited a synergistic action on IL-2R alpha expression, <clueKT><clueCL>suggesting</clueCL></clueKT> that TG and PMA <clueType>induce</clueType> IL-2R alpha through distinct pathways.</clue>
+</event>
+<sentence id="S8"><cons id="T41" lex="(BUT_NOT PMA-induced_IL-2R_alpha TG-induced_IL-2R_alpha)" sem="(BUT_NOT Protein_molecule Protein_molecule)"><frag id="F1"><term id="T42" lex="PMA" sem="Organic_compound_other">PMA</term></frag>- but not <frag id="F2"><term id="T43" lex="TG" sem="Organic_compound_other">TG</term></frag><frag id="F3">-induced <term id="A2" sem="Protein_molecule">IL-2R alpha</term></frag></cons> is inhibited by the <term id="T44" lex="PKC_inhibitor_H7" sem="Organic_compound_other"><term id="T45" lex="PKC" sem="Protein_molecule">PKC</term> inhibitor <term id="A3" sem="Organic_compound_other">H7</term></term>, whereas <cons id="T46" lex="(BUT_NOT TG-induced_IL-2R_alpha PMA-induced_IL-2R_alpha)" sem="(BUT_NOT Protein_molecule Protein_molecule)"><frag id="F4"><term id="T47" lex="TG" sem="Organic_compound_other">TG</term></frag>- but not <frag id="F5"><term id="T48" lex="PMA" sem="Organic_compound_other">PMA</term></frag><frag id="F6">-induced <term id="A4" sem="Protein_molecule">IL-2R alpha</term></frag></cons> was inhibited by <term id="T49" lex="cholera_toxin" sem="Organic_compound_other">cholera toxin</term>, <term id="T50" lex="forskolin" sem="Organic_compound_other">forskolin</term> and <term id="T51" lex="1,9-dideoxy_forskolin" sem="Organic_compound_other">1,9-dideoxy forskolin</term>.</sentence>
+<event KT="Other" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="A2"/>
+<cause idref="T42"/>
+<clue>PMA- but not TG-<clueType>induced</clueType> IL-2R alpha is inhibited by the PKC inhibitor H7, whereas TG- but not PMA-induced IL-2R alpha was inhibited by cholera toxin, forskolin and 1,9-dideoxy forskolin.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation"/>
+<theme idref="A2"/>
+<cause idref="T43"/>
+<clue>PMA- but not TG-<clueType>induced</clueType> IL-2R alpha is inhibited by the PKC inhibitor H7, whereas TG- but not PMA-induced IL-2R alpha was inhibited by cholera toxin, forskolin and 1,9-dideoxy forskolin.</clue>
+</event>
+<event id="E19">
+<type class="Negative_regulation"/>
+<theme idref="E17"/>
+<cause idref="A3"/>
+<clue>PMA- but not TG-induced IL-2R alpha is <clueType>inhibited</clueType> <linkCause>by</linkCause> the PKC inhibitor H7, whereas TG- but not PMA-induced IL-2R alpha was inhibited by cholera toxin, forskolin and 1,9-dideoxy forskolin.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E20">
+<type class="Negative_regulation"/>
+<theme idref="E18"/>
+<cause idref="A3"/>
+<clue>PMA- but <cluePolarity>not</cluePolarity> TG-induced IL-2R alpha is <clueType>inhibited</clueType> <linkCause>by</linkCause> the PKC inhibitor H7, whereas TG- but not PMA-induced IL-2R alpha was inhibited by cholera toxin, forskolin and 1,9-dideoxy forskolin.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="A4"/>
+<cause idref="T47"/>
+<clue>PMA- but not TG-induced IL-2R alpha is inhibited by the PKC inhibitor H7, whereas TG- but not PMA-<clueType>induced</clueType> IL-2R alpha was inhibited by cholera toxin, forskolin and 1,9-dideoxy forskolin.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation"/>
+<theme idref="A4"/>
+<cause idref="T48"/>
+<clue>PMA- but not TG-induced IL-2R alpha is inhibited by the PKC inhibitor H7, whereas TG- but not PMA-<clueType>induced</clueType> IL-2R alpha was inhibited by cholera toxin, forskolin and 1,9-dideoxy forskolin.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation"/>
+<theme idref="E21"/>
+<cause idref="T49"/>
+<clue>PMA- but not TG-induced IL-2R alpha is inhibited by the PKC inhibitor H7, whereas TG- but not PMA-induced IL-2R alpha was <clueType>inhibited</clueType> <linkCause>by</linkCause> cholera toxin, forskolin and 1,9-dideoxy forskolin.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation"/>
+<theme idref="E21"/>
+<cause idref="T50"/>
+<clue>PMA- but not TG-induced IL-2R alpha is inhibited by the PKC inhibitor H7, whereas TG- but not PMA-induced IL-2R alpha was <clueType>inhibited</clueType> <linkCause>by</linkCause> cholera toxin, forskolin and 1,9-dideoxy forskolin.</clue>
+</event>
+<event id="E25">
+<type class="Negative_regulation"/>
+<theme idref="E21"/>
+<cause idref="T51"/>
+<clue>PMA- but not TG-induced IL-2R alpha is inhibited by the PKC inhibitor H7, whereas TG- but not PMA-induced IL-2R alpha was <clueType>inhibited</clueType> <linkCause>by</linkCause> cholera toxin, forskolin and 1,9-dideoxy forskolin.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E26">
+<type class="Negative_regulation"/>
+<theme idref="E22"/>
+<cause idref="T49"/>
+<clue>PMA- but not TG-induced IL-2R alpha is inhibited by the PKC inhibitor H7, whereas TG- but <cluePolarity>not</cluePolarity> PMA-induced IL-2R alpha was <clueType>inhibited</clueType> <linkCause>by</linkCause> cholera toxin, forskolin and 1,9-dideoxy forskolin.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E27">
+<type class="Negative_regulation"/>
+<theme idref="E22"/>
+<cause idref="T50"/>
+<clue>PMA- but not TG-induced IL-2R alpha is inhibited by the PKC inhibitor H7, whereas TG- but <cluePolarity>not</cluePolarity> PMA-induced IL-2R alpha was <clueType>inhibited</clueType> <linkCause>by</linkCause> cholera toxin, forskolin and 1,9-dideoxy forskolin.</clue>
+</event>
+<event assertion="non-exist" id="E28">
+<type class="Negative_regulation"/>
+<theme idref="E21"/>
+<cause idref="T51"/>
+<clue>PMA- but not TG-induced IL-2R alpha is inhibited by the PKC inhibitor H7, whereas TG- but not PMA-induced IL-2R alpha was <clueType>inhibited</clueType> <linkCause>by</linkCause> cholera toxin, forskolin and 1,9-dideoxy forskolin.</clue>
+</event>
+<event id="E51">
+<type class="Negative_regulation"/>
+<theme idref="T45"/>
+<cause idref="A3"/>
+<clue>PMA- but not TG-induced IL-2R alpha is inhibited by the PKC <clueType>inhibitor</clueType> H7, whereas TG- but not PMA-induced IL-2R alpha was inhibited by cholera toxin, forskolin and 1,9-dideoxy forskolin.</clue>
+</event>
+<sentence id="S9">In toto, these results suggest that <term id="T52" lex="TG" sem="Organic_compound_other">TG</term> induces <term id="T53" lex="IL-2R_alpha" sem="Protein_molecule">IL-2R alpha</term> in <term id="T54" lex="human_T_cell" sem="Cell_natural">human T cells</term> through a <term id="T55" lex="PKC-independent_pathway" sem="Other"><term id="T56" lex="PKC" sem="Protein_molecule">PKC</term>-independent pathway</term>.</sentence>
+<event KT="Other" id="E29" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T55"/>
+<cause idref="T52"/>
+<clue>In toto, these results suggest that TG <clueType>induces</clueType> IL-2R alpha in human T cells through a PKC-independent pathway.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E30" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T53"/>
+<cause idref="E29"/>
+<clue>In toto, these results <clueKT><clueCL>suggest</clueCL></clueKT> that TG <clueType>induces</clueType> IL-2R alpha <clueLoc>in human T cells</clueLoc> <linkCause>through</linkCause> a PKC-independent pathway.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

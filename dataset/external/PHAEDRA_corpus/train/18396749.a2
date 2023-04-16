@@ -1,0 +1,9 @@
+T13	DDI 629 640	interaction
+T14	Adverse_effect 713 718	cause
+T17	Adverse_effect 88 97	following
+T20	Adverse_effect 240 249	developed
+E2	DDI:T13 has_participant:T10 has_participant:T16
+E3	Adverse_effect:T14 has_cue:T15 affects:T7 has_agent:E2
+E4	Adverse_effect:T17 has_agent:T8 affects:T1 affects:T2 affects:T12
+E6	Adverse_effect:T20 affects:T3 has_agent:T9 affects:T4 affects:T5
+A2	Speculated E3

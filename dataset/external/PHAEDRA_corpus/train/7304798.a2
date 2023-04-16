@@ -1,0 +1,8 @@
+T8	Potential_therapeutic_effect 55 64	treatment
+T9	Adverse_effect 41 47	during
+T5	Potential_therapeutic_effect 205 214	shortened
+R1	Subject_Disorder Arg1:T10 Arg2:T2
+R2	Subject_Disorder Arg1:T15 Arg2:T6
+E1	Potential_therapeutic_effect:T8 affects:T6 has_agent:T1
+E2	Adverse_effect:T9 has_agent:T1 affects:T7
+E5	Potential_therapeutic_effect:T5 affects:T4 has_agent:T3 has_subject:T10

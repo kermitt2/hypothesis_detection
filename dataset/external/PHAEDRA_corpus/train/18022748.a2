@@ -1,0 +1,15 @@
+T44	Adverse_effect 123 130	produce
+T60	Adverse_effect 646 652	result
+T91	Adverse_effect 1671 1681	associated
+T64	Adverse_effect 1813 1818	occur
+E5	Combination:T52 has_participant:T4 has_participant:T5
+E6	Combination:T54 has_participant:T8 has_participant:T10
+E9	Combination:T66 has_participant:T11 has_participant:T12
+E3	Adverse_effect:T44 has_agent:T3 affects:T18 has_subject:T95
+E7	Adverse_effect:T60 affects:T55 has_cue:T56 has_agent:E6 has_subject:T9 has_subject:T96
+E25	Adverse_effect:T91 affects:T90 has_subject:T89 has_cue:T33 has_agent:T48 has_agent:T49 has_agent:T88
+E26	Adverse_effect:T64 has_agent:T50 has_cue:T93 has_subject:T92 has_cue:T94 affects:T90
+A2	Negated E7
+A14	Speculated E26
+A15	Negated E26
+A9	Speculated E25

@@ -1,0 +1,11 @@
+T31	DDI 57 68	interaction
+T18	Adverse_effect 22 28	due to
+T20	Potential_therapeutic_effect 155 182	prescribed prophylactically
+T24	Adverse_effect 322 337	adverse effects
+T25	DDI 345 356	interaction
+E1	DDI:T31 has_participant:T2 has_participant:T3
+E5	DDI:T25 has_participant:T8 has_participant:T9
+E10	Combination:T35 has_participant:T22 has_participant:T21
+E2	Adverse_effect:T18 has_agent:E1 has_subject:T6 affects:T1
+E3	Potential_therapeutic_effect:T20 affects:T5 has_agent:T4 has_subject:T32
+E4	Adverse_effect:T24 has_agent:E5 has_subject:T26

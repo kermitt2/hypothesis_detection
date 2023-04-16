@@ -1,0 +1,219 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7836389" created="08/12/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7836389</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Two distinct <term id="A1" sem="Other">signalling pathways</term> are involved in the control of the biphasic <term id="T2" lex="junB_transcription" sem="Other"><term id="T3" lex="junB" sem="DNA_domain_or_region">junB</term> transcription</term> induced by <term id="T4" lex="interleukin-6" sem="Protein_molecule">interleukin-6</term> in the <term id="T5" lex="B_cell_hybridoma_7TD1" sem="Cell_cultured">B cell hybridoma 7TD1</term>.</sentence>
+<event id="E1">
+<type class="Correlation"/>
+<theme idref="A1"/>
+<theme idref="E2"/>
+<clue>Two distinct signalling pathways are <clueType>involved</clueType> <linkTheme>in</linkTheme> the control of the biphasic junB transcription induced by interleukin-6 in the B cell hybridoma 7TD1.</clue>
+</event>
+<event id="E10">
+<type class="Correlation"/>
+<theme idref="A1"/>
+<theme idref="E26"/>
+<clue>Two distinct signalling pathways are <clueType>involved</clueType> <linkTheme>in</linkTheme> the control of the biphasic junB transcription induced by interleukin-6 in the B cell hybridoma 7TD1.</clue>
+</event>
+<event id="E2">
+<type class="Regulation"/>
+<theme idref="E3"/>
+<clue>Two distinct signalling pathways are involved in the <clueType>control</clueType> <linkTheme>of</linkTheme> the biphasic junB transcription induced by interleukin-6 in the B cell hybridoma 7TD1.</clue>
+</event>
+<event id="E26">
+<type class="Regulation"/>
+<theme idref="E3"/>
+<clue>Two distinct signalling pathways are involved in the <clueType>control</clueType> <linkTheme>of</linkTheme> the biphasic junB transcription induced by interleukin-6 in the B cell hybridoma 7TD1.</clue>
+</event>
+<event id="E3">
+<type class="Transcription"/>
+<theme idref="T3"/>
+<clue>Two distinct signalling pathways are involved in the control of the biphasic junB <clueType>transcription</clueType> induced by interleukin-6 in the B cell hybridoma 7TD1.</clue>
+<comment>NER: T1 del &quot;biphasic junB transcription&quot;</comment></event>
+<event id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="T4"/>
+<clue>Two distinct signalling pathways are involved in the control of the biphasic junB transcription <clueType>induced</clueType> <linkCause>by</linkCause> interleukin-6 <clueLoc>in the B cell hybridoma 7TD1</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">We have measured the level of <term id="T6" lex="junB_mRNA" sem="RNA_molecule">junB mRNA</term> in the <term id="T7" lex="B_hybridoma_cell_line_7TD1" sem="Cell_cultured">B hybridoma cell line 7TD1</term>, under <term id="T8" lex="interleukin-6" sem="Protein_molecule">interleukin-6</term> (<term id="T9" lex="IL-6" sem="Protein_molecule">IL-6</term>) stimulation.</sentence>
+<event KT="Other" id="E5" uncertainty="doubtful">
+<type class="Transcription"/>
+<theme idref="T6"/>
+<clue>We have measured the <clueType>level</clueType> <linkTheme>of</linkTheme> junB mRNA <clueLoc>in the B hybridoma cell line 7TD1</clueLoc>, under interleukin-6 (IL-6) stimulation.</clue>
+</event>
+<event KT="Investigation" id="E6" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E5"/>
+<cause idref="E7"/>
+<clue>We have <clueKT>measured</clueKT> the level of junB mRNA in the B hybridoma cell line 7TD1, <linkCause>under</linkCause> interleukin-6 (IL-6) stimulation.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Positive_regulation"/>
+<cause idref="T9"/>
+<clue>We have measured the level of junB mRNA in the B hybridoma cell line 7TD1, under interleukin-6 (IL-6) <clueType>stimulation</clueType>.</clue>
+</event>
+<sentence id="S3"><term id="T10" lex="IL-6" sem="Protein_molecule">IL-6</term> increases <term id="T11" lex="junB_mRNA" sem="RNA_molecule">junB mRNA</term> in a biphasic fashion.</sentence>
+<event id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T11"/>
+<cause idref="T10"/>
+<clue>IL-6 <clueType>increases</clueType> junB mRNA in a biphasic fashion.</clue>
+</event>
+<sentence id="S4">The first early-induced peak was transient and likely corresponds to the well documented typical <term id="T12" lex="junB_mRNA" sem="RNA_molecule">junB mRNA</term>, stimulated in response to numerous <term id="T13" lex="growth_factor" sem="Protein_family_or_group">growth factors</term>, including <term id="T14" lex="IL-6" sem="Protein_molecule">IL-6</term>.</sentence>
+<event KT="Other" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="T12"/>
+<cause idref="T14"/>
+<clue>The first early-induced peak was transient and likely corresponds to the well documented typical junB mRNA, <clueType>stimulated</clueType> <linkCause>in response to</linkCause> <corefCause>numerous growth factors</corefCause>, including IL-6.</clue>
+</event>
+<sentence id="S5">At variance, the second peak which has never been reported previously, lasted several hours.</sentence>
+<sentence id="S6">As a consequence of its effect on <term id="T15" lex="junB_mRNA" sem="RNA_molecule">junB mRNA</term>, <term id="T16" lex="IL-6" sem="Protein_molecule">IL-6</term> stimulated, in a biphasic fashion, the nuclear accumulation of the <term id="T17" lex="JunB_protein" sem="Protein_molecule">JunB protein</term>.</sentence>
+<event id="E11">
+<type class="Regulation"/>
+<theme idref="T15"/>
+<cause idref="T16"/>
+<clue>As a consequence of <corefCause>its</corefCause> <clueType>effect</clueType> <linkTheme>on</linkTheme> junB mRNA, IL-6 stimulated, in a biphasic fashion, the nuclear accumulation of the JunB protein.</clue>
+</event>
+<event KT="Analysis" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="E11"/>
+<clue><linkCause>As a <clueKT>consequence</clueKT> of</linkCause> its effect on junB mRNA, IL-6 <clueType>stimulated</clueType>, in a biphasic fashion, the nuclear accumulation of the JunB protein.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Localization"/>
+<theme idref="T17"/>
+<clue>As a consequence of its effect on junB mRNA, IL-6 stimulated, in a biphasic fashion, the <clueLoc>nuclear</clueLoc> <clueType>accumulation</clueType> <linkTheme>of</linkTheme> the JunB protein.</clue>
+</event>
+<sentence id="S7">In this study, we demonstrated that <term id="T18" lex="IL-6" sem="Protein_molecule">IL-6</term> regulation occurred exclusively at the <term id="T19" lex="transcriptional_level" sem="Other">transcriptional level</term> and that the bimodal increase of <term id="T20" lex="junB_mRNA" sem="RNA_molecule">junB mRNA</term> and <term id="T21" lex="JunB_protein" sem="Protein_molecule">JunB protein</term> can be accounted for by a biphasic stimulation of <term id="T22" lex="junB_transcription" sem="Other"><term id="T23" lex="junB" sem="DNA_domain_or_region">junB</term> transcription</term>.</sentence>
+<event KT="Analysis" id="E14">
+<type class="Regulation"/>
+<theme idref="T19"/>
+<cause idref="T18"/>
+<clue>In this study, we <clueKT>demonstrated</clueKT> that IL-6 <clueType>regulation</clueType> occurred exclusively <linkTheme>at</linkTheme> the transcriptional level and that the bimodal increase of junB mRNA and JunB protein can be accounted for by a biphasic stimulation of junB transcription.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="T20"/>
+<cause idref="E17"/>
+<clue>In this study, we <clueKT>demonstrated</clueKT> that IL-6 regulation occurred exclusively at the transcriptional level and that the bimodal <clueType>increase</clueType> <linkTheme>of</linkTheme> junB mRNA and JunB protein <clueCL>can</clueCL> be <linkCause><clueKT>accounted</clueKT> for by</linkCause> a biphasic stimulation of junB transcription.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T21"/>
+<cause idref="E17"/>
+<clue>In this study, we <clueKT>demonstrated</clueKT> that IL-6 regulation occurred exclusively at the transcriptional level and that the bimodal <clueType>increase</clueType> <linkTheme>of</linkTheme> junB mRNA and JunB protein <clueCL>can</clueCL> be <linkCause><clueKT>accounted</clueKT> for by</linkCause> a biphasic stimulation of junB transcription.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="T18"/>
+<clue>In this study, we demonstrated that IL-6 regulation occurred exclusively at the transcriptional level and that the bimodal increase of junB mRNA and JunB protein can be accounted for by a biphasic <clueType>stimulation</clueType> <linkTheme>of</linkTheme> junB transcription.</clue>
+<comment>CAUTION: CAUSE from the context</comment></event>
+<event id="E18">
+<type class="Transcription"/>
+<theme idref="T23"/>
+<clue>In this study, we demonstrated that IL-6 regulation occurred exclusively at the transcriptional level and that the bimodal increase of junB mRNA and JunB protein can be accounted for by a biphasic stimulation of junB <clueType>transcription</clueType>.</clue>
+</event>
+<sentence id="S8">Furthermore, our data point to two major differences between the mechanism of control of the early and the late <term id="T24" lex="IL-6-induced_junB_ transcription_waves" sem="Other"><term id="T25" lex="IL-6" sem="Protein_molecule">IL-6</term>-induced <term id="T26" lex="junB" sem="DNA_domain_or_region">junB</term> transcription waves</term>.</sentence>
+<event KT="Analysis" id="E19">
+<type class="Regulation"/>
+<theme idref="E21"/>
+<clue>Furthermore, our data <clueKT>point</clueKT> to two major differences between the mechanism of <clueType>control</clueType> <linkTheme>of</linkTheme> the early and the late IL-6-induced junB transcription waves.</clue>
+<comment>NER: T24 mod &quot;early and the late IL-6-induced junB transcription waves&quot;-&gt;&quot;IL-6-induced_junB_transcription_waves&quot;</comment></event>
+<event KT="Other" id="E20">
+<type class="Transcription"/>
+<theme idref="T25"/>
+<clue>Furthermore, our data point to two major differences between the mechanism of control of the early and the late IL-6-induced junB <clueType>transcription</clueType> waves.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="T25"/>
+<clue>Furthermore, our data point to two major differences between the mechanism of control of the early and the late IL-6-<clueType>induced</clueType> junB transcription waves.</clue>
+</event>
+<sentence id="S9">First, <term id="T27" lex="cycloheximide" sem="Organic_compound_other">cycloheximide</term> strongly potentiated the <term id="A5" sem="Other">transcription</term> of the <term id="A3" sem="Other">second wave</term>, whereas it failed to affect the <term id="A6" sem="Other">early-induced burst</term>.</sentence>
+<event Manner="High" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="A5" idref1="A3"/>
+<cause idref="T27"/>
+<clue>First, cycloheximide <clueManner>strongly</clueManner> <clueType>potentiated</clueType> the transcription of the second wave, whereas it failed to affect the early-induced burst.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E23">
+<type class="Regulation"/>
+<theme idref="A5" idref1="A6"/>
+<cause idref="T27"/>
+<clue>First, cycloheximide strongly potentiated the transcription of the second wave, whereas <corefCause>it</corefCause> <cluePolarity>failed</cluePolarity> to <clueType>affect</clueType> the early-induced burst.</clue>
+</event>
+<sentence id="S10">Second, <term id="T28" lex="tyrphostin" sem="Organic_compound_other">tyrphostin</term>, a <term id="T29" lex="tyrosine_kinase_inhibitor" sem="Organic_compound_other"><term id="A2" sem="Protein_family_or_group">tyrosine kinase</term> inhibitor</term>, impaired the expression of the first but not the second <term id="T30" lex="junB_mRNA_peak" sem="Other"><term id="T31" lex="junB_mRNA" sem="RNA_molecule">junB mRNA</term> peak</term>.</sentence>
+<event id="E24">
+<type class="Negative_regulation"/>
+<theme idref="E25"/>
+<cause idref="T28"/>
+<clue>Second, tyrphostin, a tyrosine kinase inhibitor, <clueType>impaired</clueType> the expression of the <clueTime>first</clueTime> but not the second junB mRNA peak.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E29">
+<type class="Negative_regulation"/>
+<theme idref="E25"/>
+<cause idref="T28"/>
+<clue>Second, tyrphostin, a tyrosine kinase inhibitor, <clueType>impaired</clueType> the expression of the first but <cluePolarity>not</cluePolarity> the <clueTime>second</clueTime> junB mRNA peak.</clue>
+</event>
+<event KT="Other" id="E25">
+<type class="Transcription"/>
+<theme idref="T31"/>
+<clue>Second, tyrphostin, a tyrosine kinase inhibitor, impaired the <clueType>expression</clueType> <linkTheme>of</linkTheme> the first but not the second junB mRNA peak.</clue>
+</event>
+<event KT="Fact" id="E30">
+<type class="Negative_regulation"/>
+<theme idref="A2"/>
+<cause idref="T28"/>
+<clue>Second, tyrphostin, a tyrosine kinase <clueType>inhibitor</clueType>, impaired the expression of the first but not the second junB mRNA peak.</clue>
+</event>
+<sentence id="S11">Conversely, <term id="T32" lex="genistein" sem="Organic_compound_other">genistein</term>, another <term id="T33" lex="tyrosine_kinase_inhibitor" sem="Organic_compound_other"><term id="A4" sem="Protein_family_or_group">tyrosine kinase</term> inhibitor</term>, totally abolished the expression of the second peak of <term id="T34" lex="junB_mRNA" sem="RNA_molecule">junB mRNA</term> whereas it did not affect the expression of the first peak.</sentence>
+<event Manner="High" id="E31">
+<type class="Negative_regulation"/>
+<theme idref="E32"/>
+<cause idref="T32"/>
+<clue>Conversely, genistein, another tyrosine kinase inhibitor, <clueManner>totally</clueManner> <clueType>abolished</clueType> the expression of the <clueTime>second</clueTime> peak of junB mRNA whereas it did not affect the expression of the first peak.</clue>
+</event>
+<event KT="Other" id="E32">
+<type class="Transcription"/>
+<theme idref="T34"/>
+<clue>Conversely, genistein, another tyrosine kinase inhibitor, totally abolished the <clueType>expression</clueType> of the second peak <linkTheme>of</linkTheme> junB mRNA whereas it did not affect the expression of the first peak.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E33">
+<type class="Regulation"/>
+<theme idref="E32"/>
+<cause idref="T32"/>
+<clue>Conversely, genistein, another tyrosine kinase inhibitor, totally abolished the expression of the second peak of junB mRNA whereas <corefCause>it</corefCause> did <cluePolarity>not</cluePolarity> <clueType>affect</clueType> the expression of the <clueTime>first</clueTime> peak.</clue>
+</event>
+<event KT="Fact" id="E35">
+<type class="Negative_regulation"/>
+<theme idref="A4"/>
+<cause idref="T32"/>
+<clue>Conversely, genistein, another tyrosine kinase <clueType>inhibitor</clueType>, totally abolished the expression of the second peak of junB mRNA whereas it did not affect the expression of the first peak.</clue>
+</event>
+<sentence id="S12">Altogether these data indicate that, in <term id="T35" lex="7TD1_cell" sem="Cell_cultured">7TD1 cells</term>, <term id="T36" lex="IL-6" sem="Protein_molecule">IL-6</term> controls <term id="T37" lex="junB_transcription" sem="Other"><term id="T38" lex="junB" sem="DNA_domain_or_region">junB</term> transcription</term> in a biphasic fashion by means of two separate <term id="T39" lex="transduction_pathway" sem="Other">transduction pathways</term>.</sentence>
+<event KT="Other" id="E36">
+<type class="Regulation"/>
+<theme idref="E37"/>
+<cause idref="T36"/>
+<clue>Altogether these data indicate that, in 7TD1 cells, IL-6 <clueType>controls</clueType> junB transcription in a biphasic fashion by means of two separate transduction pathways.</clue>
+</event>
+<event KT="Other" id="E37">
+<type class="Transcription"/>
+<theme idref="T38"/>
+<clue>Altogether these data indicate that, in 7TD1 cells, IL-6 controls junB <clueType>transcription</clueType> in a biphasic fashion by means of two separate transduction pathways.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E38">
+<type class="Positive_regulation"/>
+<theme idref="E36"/>
+<cause idref="T39"/>
+<clue>Altogether these data <clueKT><clueCL>indicate</clueCL></clueKT> that, in 7TD1 cells, IL-6 controls junB transcription in a biphasic fashion <linkCause>by means of</linkCause> two separate transduction pathways.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

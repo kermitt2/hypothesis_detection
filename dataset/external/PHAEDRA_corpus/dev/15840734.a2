@@ -1,0 +1,28 @@
+T38	Adverse_effect 1876 1890	increased risk
+T40	Adverse_effect 23 30	induced
+T42	Adverse_effect 159 169	associated
+T58	Adverse_effect 1364 1374	associated
+T62	Adverse_effect 1402 1408	occurs
+T65	Adverse_effect 1698 1703	cause
+T70	Adverse_effect 1750 1760	associated
+T9	Potential_therapeutic_effect 812 817	given
+R1	is_equivalent Arg1:T4 Arg2:T5
+R2	Subject_Disorder Arg1:T39 Arg2:T3
+R3	Subject_Disorder Arg1:T43 Arg2:T7
+R4	Subject_Disorder Arg1:T45 Arg2:T8
+R7	Coreference Arg1:T52 Arg2:T45
+E13	Combination:T14 has_participant:T16 has_participant:T17 has_participant2:T15
+E1	Adverse_effect:T38 has_cue:T73 has_agent:T37
+E2	Adverse_effect:T40 has_agent:T1 affects:T2 has_subject:T39
+E4	Adverse_effect:T42 has_agent:T6 affects:T4 has_subject:T43
+E6	Adverse_effect:T58 has_agent:T29 affects:T56 has_cue:T19
+E8	Adverse_effect:T62 has_agent:T31 has_agent2:T20
+E9	Adverse_effect:T65 has_cue:T66 has_agent:T34 affects:T64
+E10	Adverse_effect:T70 has_cue:T71 affects:T69 has_agent:T35 has_agent:T36
+E12	Potential_therapeutic_effect:T9 has_subject:T52 has_agent:E13 affects:T53 affects:T18
+A1	Speculated E1
+A2	Speculated E9
+A3	Negated E10
+A4	Manner E8
+A5	Manner E6 High
+R5	Coreference Arg1:T20 Arg2:T56	

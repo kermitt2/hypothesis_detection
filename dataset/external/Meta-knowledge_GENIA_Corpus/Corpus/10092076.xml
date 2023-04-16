@@ -1,0 +1,206 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10092076" created="15/05/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10092076</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="apoptosis-resistant_T_cell" sem="Cell_cultured"><term id="T2" lex="apoptosis" sem="Other">Apoptosis</term>-resistant T cells</term> have a deficiency in <term id="T4" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>-mediated <term id="T38" sem="Other">induction</term> of <term id="T5" lex="Fas_ligand_transcription" sem="Other"><term id="T6" lex="Fas_ligand" sem="Protein_molecule">Fas ligand</term> transcription</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Transcription"/>
+<theme idref="T6"/>
+<clue>Apoptosis-resistant T cells have a deficiency in NF-kappaB-mediated induction of Fas ligand <clueType>transcription</clueType>.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T4"/>
+<clue>Apoptosis-resistant T cells have a deficiency in NF-kappaB-<linkCause>mediated</linkCause> <clueType>induction</clueType> <linkTheme>of</linkTheme> Fas ligand transcription.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation"/>
+<theme idref="E2"/>
+<clue><clueLoc>Apoptosis-resistant T cells</clueLoc> have a <clueType>deficiency</clueType> <linkTheme>in</linkTheme> NF-kappaB-mediated induction of Fas ligand transcription.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T7" lex="apoptosis" sem="Other">Apoptosis</term> induced through the <term id="T8" lex="TCR" sem="Protein_family_or_group">TCR</term> in <term id="T9" lex="CD4+_T_cell" sem="Cell_natural">CD4+ T cells</term> is mostly mediated by the inducible expression of <term id="T10" lex="Fas_ligand" sem="Protein_molecule">Fas ligand</term> (<term id="T11" lex="FasL" sem="Protein_molecule">FasL</term>) as a primary event leading to the commitment to death.</sentence>
+<event KT="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T7"/>
+<cause idref="T8"/>
+<clue>Apoptosis <clueType>induced</clueType> <linkCause>through</linkCause> the TCR <clueLoc>in CD4+ T cells</clueLoc> is mostly mediated by the inducible expression of Fas ligand (FasL) as a primary event leading to the commitment to death.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Gene_expression"/>
+<theme idref="T11"/>
+<clue>Apoptosis induced through the TCR in CD4+ T cells is mostly mediated by the inducible <clueType>expression</clueType> <linkTheme>of</linkTheme> Fas ligand (FasL) as a primary event leading to the commitment to death.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<clue>Apoptosis induced through the TCR in CD4+ T cells is mostly mediated by the <clueType>inducible</clueType> expression of Fas ligand (FasL) as a primary event leading to the commitment to death.</clue>
+</event>
+<event KT="Fact" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="E6"/>
+<clue>Apoptosis induced through the TCR in CD4+ T cells is mostly <clueType>mediated</clueType> <linkCause>by</linkCause> the inducible expression of Fas ligand (FasL) as a primary event leading to the commitment to death.</clue>
+</event>
+<sentence id="S3">To gain a better understanding of the <term id="T12" lex="transcriptional_event" sem="Other">transcriptional events</term> that regulate this expression, we took advantage of our previously described <term id="T13" lex="mutant_Jurkat_cell" sem="Cell_cultured">mutant Jurkat cells</term>.</sentence>
+<sentence id="S4">These cells are deficient in <term id="T14" lex="FasL_expression" sem="Other"><term id="T15" lex="FasL" sem="Protein_molecule">FasL</term> expression</term> and <term id="T16" lex="apoptosis" sem="Other">apoptosis</term> induced upon <term id="T17" lex="TCR" sem="Protein_family_or_group">TCR</term> triggering, although their cytokine (<term id="T18" lex="IL-2" sem="Protein_molecule">IL-2</term> and <term id="T19" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term>) production is normal.</sentence>
+<event KT="Other" id="E8">
+<type class="Gene_expression"/>
+<theme idref="T15"/>
+<clue>These cells are deficient in FasL <clueType>expression</clueType> and apoptosis induced upon TCR triggering, although their cytokine (IL-2 and IFN-gamma) production is normal.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="T17"/>
+<clue>These cells are deficient in FasL expression and apoptosis induced upon TCR <clueType>triggering</clueType>, although their cytokine (IL-2 and IFN-gamma) production is normal.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="E9"/>
+<clue>These cells are deficient in FasL expression and apoptosis <clueType>induced</clueType> <linkCause>upon</linkCause> TCR triggering, although their cytokine (IL-2 and IFN-gamma) production is normal.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="T16"/>
+<cause idref="E9"/>
+<clue>These cells are deficient in FasL expression and apoptosis <clueType>induced</clueType> <linkCause>upon</linkCause> TCR triggering, although their cytokine (IL-2 and IFN-gamma) production is normal.</clue>
+</event>
+<event id="E12">
+<type class="Negative_regulation"/>
+<theme idref="E10"/>
+<clue><clueLoc>These cells</clueLoc> are <clueType>deficient</clueType> <linkTheme>in</linkTheme> FasL expression and apoptosis induced upon TCR triggering, although their cytokine (IL-2 and IFN-gamma) production is normal.</clue>
+</event>
+<event id="E13">
+<type class="Negative_regulation"/>
+<theme idref="E11"/>
+<clue><clueLoc>These cells</clueLoc> are <clueType>deficient</clueType> <linkTheme>in</linkTheme> FasL expression and apoptosis induced upon TCR triggering, although their cytokine (IL-2 and IFN-gamma) production is normal.</clue>
+</event>
+<event id="E14">
+<type class="Gene_expression"/>
+<theme idref="T18"/>
+<clue><clueLoc>These cells</clueLoc> are deficient in FasL expression and apoptosis induced upon TCR triggering, although their cytokine (IL-2 and IFN-gamma) <clueType>production</clueType> is normal.</clue>
+</event>
+<event id="E15">
+<type class="Gene_expression"/>
+<theme idref="T19"/>
+<clue><clueLoc>These cells</clueLoc> are deficient in FasL expression and apoptosis induced upon TCR triggering, although their cytokine (IL-2 and IFN-gamma) <clueType>production</clueType> is normal.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E35">
+<type class="Negative_regulation"/>
+<theme idref="E14"/>
+<clue><clueLoc>These cells</clueLoc> are deficient in FasL expression and apoptosis induced upon TCR triggering, although their cytokine (IL-2 and IFN-gamma) production is <clueType><cluePolarity>normal</cluePolarity></clueType>.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E36">
+<type class="Negative_regulation"/>
+<theme idref="E15"/>
+<clue><clueLoc>These cells</clueLoc> are deficient in FasL expression and apoptosis induced upon TCR triggering, although their cytokine (IL-2 and IFN-gamma) production is <clueType><cluePolarity>normal</cluePolarity></clueType>.</clue>
+</event>
+<sentence id="S5">Here we show that both a <cons id="T20" lex="(AND FasL-reporter_construct a_consensus_NF-kappaB-_reporter_construct)" sem="(AND DNA_molecule DNA_molecule)"><frag id="F1"><term id="A1" sem="DNA_domain_or_region">FasL-</term></frag> and <frag id="F2"><term id="A2" sem="DNA_domain_or_region">a consensus NF-kappaB-</term></frag> <frag id="F3"><term id="A3" sem="DNA_domain_or_region">reporter construct</term></frag></cons> are inefficiently induced in these cells compared to <term id="T21" lex="wild-type_cell" sem="Cell_natural">wild-type cells</term>.</sentence>
+<event KT="Other" assertion="non-exist" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="A1" idref1="A3"/>
+<clue>Here we show that both a FasL- and a consensus NF-kappaB- reporter construct are inefficiently <clueType>induced</clueType> in these cells compared to wild-type cells.</clue>
+</event>
+<event KT="Other" assertion="non-exist" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="A2" idref1="A3"/>
+<clue>Here we show that both a FasL- and a consensus NF-kappaB- reporter construct are inefficiently <clueType>induced</clueType> in these cells compared to wild-type cells.</clue>
+</event>
+<event KT="Analysis" id="E18">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<clue>Here we <clueKT>show</clueKT> that both a FasL- and a consensus NF-kappaB- reporter construct are <clueType>inefficiently</clueType> induced <clueLoc>in these cells</clueLoc> compared to wild-type cells.</clue>
+</event>
+<event KT="Analysis" id="E19">
+<type class="Negative_regulation"/>
+<theme idref="E17"/>
+<clue>Here we <clueKT>show</clueKT> that both a FasL- and a consensus NF-kappaB- reporter construct are <clueType>inefficiently</clueType> induced <clueLoc>in these cells</clueLoc> compared to wild-type cells.</clue>
+</event>
+<sentence id="S6">In addition, we demonstrate that the <term id="T22" lex="inducible_transcriptional_activity" sem="Other">inducible transcriptional activity</term> of the <term id="T23" lex="FasL_reporter" sem="DNA_molecule"><term id="T24" lex="FasL" sem="Protein_molecule">FasL</term> reporter</term> is abolished by specific inhibitors of <term id="T25" lex="NF-kappaB_activation" sem="Other"><term id="T26" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activation</term>.</sentence>
+<event KT="Other" id="E20">
+<type class="Transcription"/>
+<theme idref="T23"/>
+<clue>In addition, we demonstrate that the inducible <clueType>transcriptional activity</clueType> <linkTheme>of</linkTheme> the FasL reporter is abolished by specific inhibitors of NF-kappaB activation.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<clue>In addition, we demonstrate that the <clueType>inducible</clueType> transcriptional activity of the FasL reporter is abolished by specific inhibitors of NF-kappaB activation.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="T26"/>
+<clue>In addition, we demonstrate that the inducible transcriptional activity of the FasL reporter is abolished by specific inhibitors of NF-kappaB <clueType>activation</clueType>.</clue>
+</event>
+<event KT="Other" id="E23">
+<type class="Negative_regulation"/>
+<theme idref="E22"/>
+<clue>In addition, we demonstrate that the inducible transcriptional activity of the FasL reporter is abolished by specific <clueType>inhibitors</clueType> <linkTheme>of</linkTheme> NF-kappaB activation.</clue>
+</event>
+<event KT="Analysis" id="E24">
+<type class="Negative_regulation"/>
+<theme idref="E21"/>
+<cause idref="E23"/>
+<clue>In addition, we <clueKT>demonstrate</clueKT> that the inducible transcriptional activity of the FasL reporter is <clueType>abolished</clueType> <linkTheme>by</linkTheme> specific inhibitors of NF-kappaB activation.</clue>
+</event>
+<sentence id="S7">Thus, we could trace the deficit of the <term id="T27" lex="mutant_cell" sem="Cell_natural">mutant cells</term> to an <term id="T28" lex="inefficient_NF-kappaB_activation" sem="Other">inefficient <term id="T29" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> activation</term>, evidencing a relevant role for <term id="T30" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> in the regulation of <term id="T31" lex="FasL" sem="Protein_molecule">FasL</term> expression in <term id="T32" lex="activated_T_cell" sem="Cell_natural">activated T cells</term>.</sentence>
+<event KT="Other" id="E25">
+<type class="Gene_expression"/>
+<theme idref="T31"/>
+<clue>Thus, we could trace the deficit of the mutant cells to an inefficient NF-kappaB activation, evidencing a relevant role for NF-kappaB in the regulation of FasL <clueType>expression</clueType> in activated T cells.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Regulation"/>
+<theme idref="E25"/>
+<clue>Thus, we could trace the deficit of the mutant cells to an inefficient NF-kappaB activation, evidencing a relevant role for NF-kappaB in the <clueType>regulation</clueType> <linkTheme>of</linkTheme> FasL expression in activated T cells.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E27">
+<type class="Regulation"/>
+<theme idref="E26"/>
+<cause idref="T30"/>
+<clue><clueKT>Thus</clueKT>, we could trace the deficit of the mutant cells to an inefficient NF-kappaB activation, <clueCL>evidencing</clueCL> a relevant <clueType>role</clueType> <linkCause>for</linkCause> NF-kappaB <linkTheme>in</linkTheme> the regulation of FasL expression in activated T cells.</clue>
+</event>
+<sentence id="S8">Furthermore, our results suggest that the induction of <term id="T33" lex="FasL" sem="Protein_molecule">FasL</term> versus <term id="T34" lex="cytokine_gene_expression" sem="Other"><term id="T35" lex="cytokine_gene" sem="DNA_domain_or_region">cytokine gene</term> expression</term> is differentially sensitive to <term id="T36" lex="NF-kappaB_deprivation" sem="Other"><term id="T37" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> deprivation</term>.</sentence>
+<event KT="Other" id="E28">
+<type class="Gene_expression"/>
+<theme idref="T33"/>
+<clue>Furthermore, our results suggest that the induction of FasL versus cytokine gene <clueType>expression</clueType> is differentially sensitive to NF-kappaB deprivation.</clue>
+</event>
+<event KT="Other" id="E29">
+<type class="Gene_expression"/>
+<theme idref="T35"/>
+<clue>Furthermore, our results suggest that the induction of FasL versus cytokine gene <clueType>expression</clueType> is differentially sensitive to NF-kappaB deprivation.</clue>
+</event>
+<event KT="Other" id="E30">
+<type class="Positive_regulation"/>
+<theme idref="E28"/>
+<clue>Furthermore, our results suggest that the <clueType>induction</clueType> <linkTheme>of</linkTheme> FasL versus cytokine gene expression is differentially sensitive to NF-kappaB deprivation.</clue>
+</event>
+<event KT="Other" id="E31">
+<type class="Positive_regulation"/>
+<theme idref="E29"/>
+<clue>Furthermore, our results suggest that the <clueType>induction</clueType> <linkTheme>of</linkTheme> FasL versus cytokine gene expression is differentially sensitive to NF-kappaB deprivation.</clue>
+</event>
+<event KT="Other" id="E32">
+<type class="Negative_regulation"/>
+<theme idref="T37"/>
+<clue>Furthermore, our results suggest that the induction of FasL versus cytokine gene expression is differentially sensitive to NF-kappaB <clueType>deprivation</clueType>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E33">
+<type/>
+<theme idref="E30"/>
+<cause idref="E32"/>
+<clue>Furthermore, our results <clueKT><clueCL>suggest</clueCL></clueKT> that the induction of FasL versus cytokine gene expression is differentially <clueType>sensitive</clueType> <linkCause>to</linkCause> NF-kappaB deprivation.</clue>
+<comment>SENSITIVITY</comment></event>
+<event CL="L2" KT="Analysis" id="E34">
+<type/>
+<theme idref="E31"/>
+<cause idref="E32"/>
+<clue>Furthermore, our results <clueKT><clueCL>suggest</clueCL></clueKT> that the induction of FasL versus cytokine gene expression is differentially <clueType>sensitive</clueType> <linkCause>to</linkCause> NF-kappaB deprivation.</clue>
+<comment>SENSITIVITY</comment></event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

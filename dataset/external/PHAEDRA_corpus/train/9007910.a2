@@ -1,0 +1,22 @@
+T5	Adverse_effect 93 110	adverse reactions
+T39	Adverse_effect 343 352	following
+T10	Adverse_effect 635 649	increased risk
+T47	Potential_therapeutic_effect 1029 1036	reverse
+T49	Adverse_effect 1049 1056	induced
+T51	Potential_therapeutic_effect 1520 1529	receiving
+R1	is_equivalent Arg1:T8 Arg2:T9
+R3	Subject_Disorder Arg1:T33 Arg2:T11
+R6	Subject_Disorder Arg1:T40 Arg2:T7
+R13	Subject_Disorder Arg1:T33 Arg2:T41
+R16	Subject_Disorder Arg1:T44 Arg2:T45
+R17	Subject_Disorder Arg1:T50 Arg2:T27
+E1	Adverse_effect:T5 has_agent:T3 affects:T2
+E3	Adverse_effect:T39 has_agent:T8 affects:T38 has_subject:T40 affects2:T6
+E4	Adverse_effect:T10 has_cue:T43 has_agent:T17 affects:T34 has_subject:T33 affects:T12 affects:T13 affects:T14 affects:T15 affects:T16
+E6	Potential_therapeutic_effect:T47 has_cue:T48 has_agent:T20 affects:T21 has_subject:T44
+E7	Adverse_effect:T49 has_agent:T35 affects:T21 affects:T22 affects:T23
+E8	Potential_therapeutic_effect:T51 has_agent:T28 affects:T27
+A1	Speculated E4
+A3	Speculated E6
+T1	Adverse_effect 1470 1481	experienced
+E2	Adverse_effect:T1 affects:T25 has_agent:T28

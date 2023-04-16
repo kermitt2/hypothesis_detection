@@ -1,0 +1,10 @@
+T7	Adverse_effect 51 61	associated
+T9	Potential_therapeutic_effect 136 145	treatment
+T11	Adverse_effect 342 350	reported
+T14	Adverse_effect 548 558	associated
+E1	Adverse_effect:T7 has_agent:T1 affects:T3
+E2	Potential_therapeutic_effect:T9 affects:T4 affects:T5 has_agent:T2
+E3	Adverse_effect:T11 affects:T12 has_cue:T15 has_agent:T16 affects2:T10
+E4	Adverse_effect:T14 has_agent:T6 affects:T13
+A1	Speculated E3
+R1	Coreference Arg1:T16 Arg2:T2	

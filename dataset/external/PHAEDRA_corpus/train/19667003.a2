@@ -1,0 +1,19 @@
+T37	Adverse_effect 24 31	induced
+T38	Adverse_effect 82 89	induced
+T40	Potential_therapeutic_effect 251 260	treatment
+T41	Adverse_effect 1729 1738	developed
+R1	Subject_Disorder Arg1:T39 Arg2:T5
+R2	Subject_Disorder Arg1:T39 Arg2:T6
+R3	Subject_Disorder Arg1:T39 Arg2:T7
+R4	Subject_Disorder Arg1:T39 Arg2:T8
+R5	Subject_Disorder Arg1:T24 Arg2:T34
+E1	Adverse_effect:T37 has_agent:T1 affects:T2
+E2	Adverse_effect:T38 has_agent:T3 affects:T4
+E3	Potential_therapeutic_effect:T40 has_subject:T39 has_agent:T9 affects:T10 affects:T11
+E4	Adverse_effect:T41 affects:T35 has_agent:T36 has_subject:T24
+T23	Potential_therapeutic_effect 1253 1263	prescribed
+E5	Potential_therapeutic_effect:T23 affects:T28 has_agent:T27
+T42	Potential_therapeutic_effect 1341 1346	added
+E6	Potential_therapeutic_effect:T42 has_agent:T30 affects:T31
+T43	Adverse_effect 316 321	After
+E7	Adverse_effect:T43 has_agent:T12 affects:T13 affects2:T14

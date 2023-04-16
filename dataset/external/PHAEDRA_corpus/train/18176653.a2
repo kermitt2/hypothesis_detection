@@ -1,0 +1,29 @@
+T32	Adverse_effect 15 30	adverse effects
+T33	Adverse_effect 160 174	adverse effect
+T29	Potential_therapeutic_effect 316 320	used
+T30	Adverse_effect 609 624	adverse effects
+T31	Adverse_effect 1207 1221	adverse effect
+T45	Adverse_effect 1337 1343	due to
+T10	Potential_therapeutic_effect 450 455	began
+T51	Potential_therapeutic_effect 1411 1420	treatment
+R2	is_equivalent Arg1:T3 Arg2:T4
+R4	Subject_Disorder Arg1:T34 Arg2:T40
+R5	Subject_Disorder Arg1:T39 Arg2:T52
+E8	Combination:T36 has_participant:T21 has_participant:T22 has_participant:T23
+E1	Adverse_effect:T32 has_agent:T1
+E2	Adverse_effect:T33 has_agent:T3
+E3	Potential_therapeutic_effect:T29 affects:T8 has_agent:T5
+E5	Adverse_effect:T30 has_agent:T14 affects:T15 affects:T16
+E6	Adverse_effect:T30 has_agent:T17 affects:T35
+E7	Adverse_effect:T30 has_agent:T18 affects:T19 affects:T20
+E9	Adverse_effect:T31 has_agent:T26
+E12	Adverse_effect:T45 has_agent:T27 affects:T44 has_cue:T41
+E4	Potential_therapeutic_effect:T10 has_subject:T34 has_agent:E11
+E10	Potential_therapeutic_effect:T51 affects:T7 has_agent:T43
+E11	Combination:T9 has_participant:T12 has_participant2:T11 has_participant3:T13
+R1	Coreference Arg1:T37 Arg2:T34	
+T38	Potential_therapeutic_effect 789 795	taking
+E13	Potential_therapeutic_effect:T38 has_subject:T37 has_agent:E8
+A1	Speculated E12
+T46	Adverse_effect 1433 1445	side effects
+E14	Adverse_effect:T46 has_agent:T43

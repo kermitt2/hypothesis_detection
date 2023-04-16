@@ -1,0 +1,373 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8871623" created="18/07/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8871623</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Induction of <term id="T1" lex="activator_protein_(AP)-1" sem="Protein_molecule">activator protein (AP)-1</term> and <term id="T2" lex="nuclear_factor-kappaB" sem="Protein_complex">nuclear factor-kappaB</term> by <term id="T3" lex="CD28" sem="Protein_molecule">CD28</term> stimulation involves both <cons id="C1" lex="(AND phosphatidylinositol_signal acidic_sphongomyelinease_signal)" sem="(AND Other Other)"><frag id="F4"><term id="T4" lex="phosphatidylinositol_3-kinase" sem="Protein_molecule">phosphatidylinositol 3-kinase</term></frag> and <frag id="F5"><term id="T6" lex="acidic_sphingomyelinase" sem="Protein_molecule">acidic sphingomyelinase</term></frag> <frag id="F6">signals</frag></cons>.</sentence>
+<event id="E1">
+<type class="Positive_regulation"/>
+<theme idref="T3"/>
+<clue>Induction of activator protein (AP)-1 and nuclear factor-kappaB by CD28 <clueType>stimulation</clueType> involves both phosphatidylinositol 3-kinase and acidic sphingomyelinase signals.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="T1"/>
+<cause idref="E1"/>
+<clue><clueType>Induction</clueType> <linkTheme>of</linkTheme> activator protein (AP)-1 and nuclear factor-kappaB <linkCause>by</linkCause> CD28 stimulation involves both phosphatidylinositol 3-kinase and acidic sphingomyelinase signals.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation"/>
+<theme idref="T2"/>
+<cause idref="E1"/>
+<clue><clueType>Induction</clueType> <linkTheme>of</linkTheme> activator protein (AP)-1 and nuclear factor-kappaB <linkCause>by</linkCause> CD28 stimulation involves both phosphatidylinositol 3-kinase and acidic sphingomyelinase signals.</clue>
+</event>
+<event id="E4">
+<type class="Correlation"/>
+<theme idref="E2"/>
+<theme idref="F4" idref1="F6"/>
+<clue>Induction of activator protein (AP)-1 and nuclear factor-kappaB by CD28 stimulation <clueType>involves</clueType> both phosphatidylinositol 3-kinase and acidic sphingomyelinase signals.</clue>
+</event>
+<event id="E5">
+<type class="Correlation"/>
+<theme idref="E2"/>
+<theme idref="T6" idref1="F6"/>
+<clue>Induction of activator protein (AP)-1 and nuclear factor-kappaB by CD28 stimulation <clueType>involves</clueType> both phosphatidylinositol 3-kinase and acidic sphingomyelinase signals.</clue>
+</event>
+<event id="E6">
+<type class="Correlation"/>
+<theme idref="E3"/>
+<theme idref="T4" idref1="F6"/>
+<clue>Induction of activator protein (AP)-1 and nuclear factor-kappaB by CD28 stimulation <clueType>involves</clueType> both phosphatidylinositol 3-kinase and acidic sphingomyelinase signals.</clue>
+</event>
+<event id="E7">
+<type class="Correlation"/>
+<theme idref="E3"/>
+<theme idref="T6" idref1="F6"/>
+<clue>Induction of activator protein (AP)-1 and nuclear factor-kappaB by CD28 stimulation <clueType>involves</clueType> both phosphatidylinositol 3-kinase and acidic sphingomyelinase signals.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">A major obstacle in understanding the <term id="T7" lex="signaling_event" sem="Other">signaling events</term> that follow <term id="T8" lex="CD28_receptor_ligation" sem="Other"><term id="T9" lex="CD28" sem="Protein_molecule">CD28</term> receptor ligation</term> arises from the fact that <term id="T10" lex="CD28" sem="Protein_molecule">CD28</term> acts as a costimulus to <term id="T11" lex="TCR_engagement" sem="Other"><term id="T12" lex="TCR" sem="Protein_family_or_group">TCR</term> engagement</term>, making it difficult to assess the relative contribution of <term id="T13" lex="CD28_signal" sem="Other"><term id="T14" lex="CD28" sem="Protein_molecule">CD28</term> signals</term> as distinct from those of the <term id="T15" lex="TCR" sem="Protein_family_or_group">TCR</term>.</sentence>
+<event KT="Other" id="E8">
+<type class="Binding"/>
+<theme idref="T12"/>
+<clue>A major obstacle in understanding the signaling events that follow CD28 receptor ligation arises from the fact that CD28 acts as a costimulus to TCR <clueType>engagement</clueType>, making it difficult to assess the relative contribution of CD28 signals as distinct from those of the TCR.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Binding"/>
+<theme idref="T9"/>
+<clue>A major obstacle in understanding the signaling events that follow CD28 receptor <clueType>ligation</clueType> arises from the fact that CD28 acts as a costimulus to TCR engagement, making it difficult to assess the relative contribution of CD28 signals as distinct from those of the TCR.</clue>
+</event>
+<event KT="Fact" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="T7"/>
+<cause idref="E9"/>
+<clue>A major obstacle in understanding the signaling events that <clueType>follow</clueType> CD28 receptor ligation arises from the fact that CD28 acts as a costimulus to TCR engagement, making it difficult to assess the relative contribution of CD28 signals as distinct from those of the TCR.</clue>
+</event>
+<event KT="Fact" id="E11">
+<type class="Correlation"/>
+<theme idref="T10"/>
+<theme idref="E8"/>
+<clue>A major obstacle in understanding the signaling events that follow CD28 receptor ligation arises from the <clueKT>fact</clueKT> that CD28 <clueType>acts as a costimulus</clueType> <linkTheme>to</linkTheme> TCR engagement, making it difficult to assess the relative contribution of CD28 signals as distinct from those of the TCR.</clue>
+</event>
+<sentence id="S3">To overcome this problem, we have exploited the observation that <term id="A3" sem="Cell_natural">activated <term id="T16" lex="human_T_cell_blast" sem="Cell_natural">human T cell blasts</term></term> can be stimulated via the <term id="T17" lex="CD28_surface_molecule" sem="Protein_molecule"><term id="T18" lex="CD28" sem="Protein_molecule">CD28</term> surface molecule</term> in the absence of <term id="T19" lex="antigenic_challenge" sem="Other">antigenic challenge</term>; thus, we have been able to observe the response of <term id="T20" lex="normal_T_cell" sem="Cell_natural">normal T cells</term> to <term id="T21" lex="CD28" sem="Protein_molecule">CD28</term> activation in isolation.</sentence>
+<event KT="Other" id="E12">
+<type class="Physiological_process"/>
+<theme idref="T16"/>
+<clue>To overcome this problem, we have exploited the observation that <clueType>activated</clueType> human T cell blasts can be stimulated via the CD28 surface molecule in the absence of antigenic challenge; thus, we have been able to observe the response of normal T cells to CD28 activation in isolation.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Physiological_process"/>
+<theme idref="A3"/>
+<cause idref="T18"/>
+<clue>To overcome this problem, we have exploited the observation that activated human T cell blasts can be <clueType>stimulated</clueType> <linkCause>via</linkCause> the CD28 surface molecule in the absence of antigenic challenge; thus, we have been able to observe the response of normal T cells to CD28 activation in isolation.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E14">
+<type class="Correlation"/>
+<theme idref="E13"/>
+<theme idref="E19"/>
+<clue>To overcome this problem, we have exploited the observation that activated human T cell blasts <clueKT><clueCL>can</clueCL></clueKT> be stimulated via the CD28 surface molecule <clueType><cluePolarity>in the absence of</cluePolarity></clueType> antigenic challenge; thus, we have been able to observe the response of normal T cells to CD28 activation in isolation.</clue>
+<comment>CAUTION</comment></event>
+<event KT="Other" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="T21"/>
+<clue>To overcome this problem, we have exploited the observation that activated human T cell blasts can be stimulated via the CD28 surface molecule in the absence of antigenic challenge; thus, we have been able to observe the response of normal T cells to CD28 <clueType>activation</clueType> in isolation.</clue>
+</event>
+<event KT="Investigation" id="E16" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="T20"/>
+<cause idref="E15"/>
+<clue>To overcome this problem, we have exploited the observation that activated human T cell blasts can be stimulated via the CD28 surface molecule in the absence of antigenic challenge; thus, we have been able <clueKT>to observe</clueKT> the <clueType>response</clueType> <linkTheme>of</linkTheme> normal T cells to CD28 activation in isolation.</clue>
+</event>
+<sentence id="S4">Using this system, we observed that <term id="T22" lex="CD28_stimulation" sem="Other"><term id="T23" lex="CD28" sem="Protein_molecule">CD28</term> stimulation</term> by <term id="T24" lex="B7-transfected_CHO_cell" sem="Cell_cultured"><term id="A4" sem="DNA_domain_or_region">B7</term>-transfected <term id="A5" sem="Cell_cultured">CHO cells</term></term> induced a proliferative response in <term id="T25" lex="T_cell" sem="Cell_natural">T cells</term> that was not accompanied by measurable <term id="T26" lex="IL-2_production" sem="Other"><term id="T27" lex="IL-2" sem="Protein_molecule">IL-2</term> production</term>.</sentence>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="T23"/>
+<cause idref="T24"/>
+<clue>Using this system, we observed that CD28 <clueType>stimulation</clueType> <linkCause>by</linkCause> B7-transfected CHO cells induced a proliferative response in T cells that was not accompanied by measurable IL-2 production.</clue>
+</event>
+<event id="E18">
+<type class="Gene_expression"/>
+<theme idref="A4"/>
+<clue>Using this system, we observed that CD28 stimulation by B7-<clueType>transfected</clueType> CHO cells induced a proliferative response in T cells that was not accompanied by measurable IL-2 production.</clue>
+</event>
+<event id="E180">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<clue>Using this system, we observed that CD28 stimulation by B7-<clueType>transfected</clueType> <clueLoc>CHO cells</clueLoc> induced a proliferative response in T cells that was not accompanied by measurable IL-2 production.</clue>
+</event>
+<event id="E19">
+<type class="Cellular_physiological_process"/>
+<theme idref="T25"/>
+<clue>Using this system, we observed that CD28 stimulation by B7-transfected CHO cells induced a <clueType>proliferative response</clueType> in T cells that was not accompanied by measurable IL-2 production.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="E17"/>
+<clue>Using this system, we <clueKT>observed</clueKT> that CD28 stimulation by B7-transfected CHO cells <clueType>induced</clueType> a proliferative response <clueLoc>in T cells</clueLoc> that was not accompanied by measurable IL-2 production.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Gene_expression"/>
+<theme idref="T27"/>
+<clue>Using this system, we observed that CD28 stimulation by B7-transfected CHO cells induced a proliferative response in T cells that was not accompanied by measurable IL-2 <clueType>production</clueType>.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<cause idref="E17"/>
+<clue>Using this system, we <clueKT>observed</clueKT> that CD28 stimulation by B7-transfected CHO cells induced a proliferative response in T cells that was <cluePolarity>not</cluePolarity> <clueType>accompanied</clueType> <linkTheme>by</linkTheme> measurable IL-2 production.</clue>
+</event>
+<sentence id="S5">However, subsequent analysis of <term id="T28" lex="transcription_factor_generation" sem="Other"><term id="T29" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> generation</term> revealed that <term id="T30" lex="B7_stimulation" sem="Other"><term id="A6" sem="Protein_molecule">B7</term> stimulation</term> induced both <term id="T31" lex="activator_protein-1" sem="Protein_molecule">activator protein-1</term> (<term id="T32" lex="AP-1" sem="Protein_molecule">AP-1</term>) and <term id="T33" lex="nuclear_factor-kappaB_(NF-kappaB)_complex" sem="Protein_complex"><term id="T34" lex="nuclear_factor-kappaB" sem="Protein_complex">nuclear factor-kappaB</term> (<term id="T35" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>) complexes</term>, but not <term id="T36" lex="NF-AT" sem="Protein_family_or_group">NF-AT</term>.</sentence>
+<event KT="Other" id="E23">
+<type class="Positive_regulation"/>
+<cause idref="A6"/>
+<clue>However, subsequent analysis of transcription factor generation revealed that B7 <clueType>stimulation</clueType> induced both activator protein-1 (AP-1) and nuclear factor-kappaB (NF-kappaB) complexes, but not NF-AT.</clue>
+</event>
+<event KT="Analysis" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="T32"/>
+<cause idref="E23"/>
+<clue>However, subsequent analysis of transcription factor generation <clueKT>revealed</clueKT> that B7 stimulation <clueType>induced</clueType> both activator protein-1 (AP-1) and nuclear factor-kappaB (NF-kappaB) complexes, but not NF-AT.</clue>
+</event>
+<event KT="Analysis" id="E25">
+<type class="Positive_regulation"/>
+<theme idref="T33"/>
+<cause idref="E23"/>
+<clue>However, subsequent analysis of transcription factor generation <clueKT>revealed</clueKT> that B7 stimulation <clueType>induced</clueType> both activator protein-1 (AP-1) and nuclear factor-kappaB (NF-kappaB) complexes, but not NF-AT.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="T36"/>
+<cause idref="E23"/>
+<clue>However, subsequent analysis of transcription factor generation <clueKT>revealed</clueKT> that B7 stimulation <clueType>induced</clueType> both activator protein-1 (AP-1) and nuclear factor-kappaB (NF-kappaB) complexes, but <cluePolarity>not</cluePolarity> NF-AT.</clue>
+</event>
+<sentence id="S6">In contrast, engagement of the <term id="T37" lex="TCR" sem="Protein_family_or_group">TCR</term> by <term id="T38" lex="class_II_MHC/superantigen" sem="Protein_molecule">class II MHC/superantigen</term>, either with or without <term id="T39" lex="CD28" sem="Protein_molecule">CD28</term> ligation, resulted in the induction of <term id="T40" lex="NF-AT" sem="Protein_family_or_group">NF-AT</term>, <term id="T41" lex="AP-1" sem="Protein_molecule">AP-1</term>, and <term id="T42" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> as well as <term id="T43" lex="IL-2_production" sem="Other"><term id="T44" lex="IL-2" sem="Protein_molecule">IL-2</term> production</term>.</sentence>
+<event id="E27">
+<type class="Binding"/>
+<theme idref="T37"/>
+<theme idref="T38"/>
+<clue>In contrast, <clueType>engagement</clueType> <linkTheme>of</linkTheme> the TCR <linkTheme>by</linkTheme> class II MHC/superantigen, either with or without CD28 ligation, resulted in the induction of NF-AT, AP-1, and NF-kappaB as well as IL-2 production.</clue>
+</event>
+<event id="E28">
+<type class="Gene_expression"/>
+<theme idref="T44"/>
+<clue>In contrast, engagement of the TCR by class II MHC/superantigen, either with or without CD28 ligation, resulted in the induction of NF-AT, AP-1, and NF-kappaB as well as IL-2 <clueType>production</clueType>.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation"/>
+<theme idref="T40"/>
+<cause idref="E27"/>
+<clue>In contrast, engagement of the TCR by class II MHC/superantigen, either with or without CD28 ligation, resulted in the <clueType>induction</clueType> <linkTheme>of</linkTheme> NF-AT, AP-1, and NF-kappaB as well as IL-2 production.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation"/>
+<theme idref="T41"/>
+<cause idref="E27"/>
+<clue>In contrast, engagement of the TCR by class II MHC/superantigen, either with or without CD28 ligation, resulted in the <clueType>induction</clueType> <linkTheme>of</linkTheme> NF-AT, AP-1, and NF-kappaB as well as IL-2 production.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation"/>
+<theme idref="T42"/>
+<cause idref="E27"/>
+<clue>In contrast, engagement of the TCR by class II MHC/superantigen, either with or without CD28 ligation, resulted in the <clueType>induction</clueType> <linkTheme>of</linkTheme> NF-AT, AP-1, and NF-kappaB as well as IL-2 production.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation"/>
+<theme idref="E28"/>
+<cause idref="E27"/>
+<clue>In contrast, engagement of the TCR by class II MHC/superantigen, either with or without CD28 ligation, resulted in the <clueType>induction</clueType> <linkTheme>of</linkTheme> NF-AT, AP-1, and NF-kappaB as well as IL-2 production.</clue>
+</event>
+<event id="E33">
+<type class="Binding"/>
+<theme idref="T39"/>
+<clue>In contrast, engagement of the TCR by class II MHC/superantigen, either with or without CD28 <clueType>ligation</clueType>, resulted in the induction of NF-AT, AP-1, and NF-kappaB as well as IL-2 production.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E34">
+<type class="Correlation"/>
+<theme idref="E33"/>
+<theme idref="E29"/>
+<clue>In contrast, engagement of the TCR by class II MHC/superantigen, either <clueType><cluePolarity>with or without</cluePolarity></clueType> CD28 ligation, resulted in the induction of NF-AT, AP-1, and NF-kappaB as well as IL-2 production.</clue>
+<comment>CAUTION: cluetype</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E35">
+<type class="Correlation"/>
+<theme idref="E33"/>
+<theme idref="E30"/>
+<clue>In contrast, engagement of the TCR by class II MHC/superantigen, either <clueType><cluePolarity>with or without</cluePolarity></clueType> CD28 ligation, resulted in the induction of NF-AT, AP-1, and NF-kappaB as well as IL-2 production.</clue>
+<comment>CAUTION: cluetype</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E36">
+<type class="Correlation"/>
+<theme idref="E33"/>
+<theme idref="E31"/>
+<clue>In contrast, engagement of the TCR by class II MHC/superantigen, either <clueType><cluePolarity>with or without</cluePolarity></clueType> CD28 ligation, resulted in the induction of NF-AT, AP-1, and NF-kappaB as well as IL-2 production.</clue>
+<comment>CAUTION: cluetype</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E37">
+<type class="Correlation"/>
+<theme idref="E33"/>
+<theme idref="E32"/>
+<clue>In contrast, engagement of the TCR by class II MHC/superantigen, either <clueType><cluePolarity>with or without</cluePolarity></clueType> CD28 ligation, resulted in the induction of NF-AT, AP-1, and NF-kappaB as well as IL-2 production.</clue>
+<comment>CAUTION: cluetype</comment></event>
+<sentence id="S7">Using <term id="T45" lex="selective_inhibitor" sem="Other">selective inhibitors</term>, we investigated the <term id="T46" lex="signaling_pathway" sem="Other">signaling pathways</term> involved in the <term id="T47" lex="CD28-mediated_induction" sem="Other"><term id="T48" lex="CD28" sem="Protein_molecule">CD28</term>-mediated induction</term> of <term id="T49" lex="AP-1" sem="Protein_molecule">AP-1</term> and <term id="T50" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>.</sentence>
+<event KT="Other" id="E38">
+<type class="Positive_regulation"/>
+<theme idref="T49"/>
+<cause idref="T48"/>
+<clue>Using selective inhibitors, we investigated the signaling pathways involved in the CD28-<linkCause>mediated</linkCause> <clueType>induction</clueType> <linkTheme>of</linkTheme> AP-1 and NF-kappaB.</clue>
+</event>
+<event KT="Other" id="E39">
+<type class="Positive_regulation"/>
+<theme idref="T50"/>
+<cause idref="T48"/>
+<clue>Using selective inhibitors, we investigated the signaling pathways involved in the CD28-<linkCause>mediated</linkCause> <clueType>induction</clueType> <linkTheme>of</linkTheme> AP-1 and NF-kappaB.</clue>
+</event>
+<event KT="Investigation" id="E40" uncertainty="doubtful">
+<type class="Correlation"/>
+<theme idref="E38"/>
+<theme idref="T46"/>
+<clue><clueExperiment>Using selective inhibitors</clueExperiment>, we <clueKT>investigated</clueKT> the signaling pathways <clueType>involved</clueType> <linkTheme>in</linkTheme> the CD28-mediated induction of AP-1 and NF-kappaB.</clue>
+</event>
+<event KT="Investigation" id="E41" uncertainty="doubtful">
+<type class="Correlation"/>
+<theme idref="E39"/>
+<theme idref="T46"/>
+<clue><clueExperiment>Using selective inhibitors</clueExperiment>, we <clueKT>investigated</clueKT> the signaling pathways <clueType>involved</clueType> <linkTheme>in</linkTheme> the CD28-mediated induction of AP-1 and NF-kappaB.</clue>
+</event>
+<sentence id="S8">This revealed that <term id="T51" lex="NF-kappaB_generation" sem="Other"><term id="T52" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term> generation</term> was sensitive to <term id="A7" sem="Organic_compound_other">chloroquine</term>, an inhibitor of <term id="T53" lex="acidic_sphingomyelinase" sem="Protein_molecule">acidic sphingomyelinase</term>, but not to the <term id="T54" lex="phosphatidylinositol_3-kinase_inhibitor" sem="Organic_compound_other"><term id="T55" lex="phosphatidylinositol_3-kinase" sem="Protein_molecule">phosphatidylinositol 3-kinase</term> inhibitor</term>, <term id="T56" lex="wortmannin" sem="Organic_compound_other">wortmannin</term>.</sentence>
+<event KT="Other" id="E42">
+<type class="Gene_expression"/>
+<theme idref="T52"/>
+<clue>This revealed that NF-kappaB <clueType>generation</clueType> was sensitive to chloroquine, an inhibitor of acidic sphingomyelinase, but not to the phosphatidylinositol 3-kinase inhibitor, wortmannin.</clue>
+</event>
+<event KT="Analysis" id="E43">
+<type/>
+<theme idref="E42"/>
+<cause idref="A7"/>
+<clue>This <clueKT>revealed</clueKT> that NF-kappaB generation was <clueType>sensitive</clueType> <linkCause>to</linkCause> chloroquine, an inhibitor of acidic sphingomyelinase, but not to the phosphatidylinositol 3-kinase inhibitor, wortmannin.</clue>
+<comment>SENSITIVITY</comment></event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E44">
+<type/>
+<theme idref="E42"/>
+<cause idref="T56"/>
+<clue>This <clueKT>revealed</clueKT> that NF-kappaB generation was <clueType>sensitive</clueType> to chloroquine, an inhibitor of acidic sphingomyelinase, but <cluePolarity>not</cluePolarity> <linkCause>to</linkCause> the phosphatidylinositol 3-kinase inhibitor, wortmannin.</clue>
+<comment>SENSITIVITY</comment></event>
+<event KT="Fact" id="E45">
+<type class="Negative_regulation"/>
+<theme idref="T53"/>
+<cause idref="A7"/>
+<clue>This revealed that NF-kappaB generation was sensitive to chloroquine, an <clueType>inhibitor</clueType> <linkTheme>of</linkTheme> acidic sphingomyelinase, but not to the phosphatidylinositol 3-kinase inhibitor, wortmannin.</clue>
+</event>
+<event KT="Fact" id="E46">
+<type class="Negative_regulation"/>
+<theme idref="T55"/>
+<cause idref="T56"/>
+<clue>This revealed that NF-kappaB generation was sensitive to chloroquine, an inhibitor of acidic sphingomyelinase, but not to the phosphatidylinositol 3-kinase <clueType>inhibitor</clueType>, wortmannin.</clue>
+</event>
+<sentence id="S9">In contrast, <term id="T57" lex="AP-1" sem="Protein_molecule">AP-1</term> generation was inhibited by <term id="T58" lex="wortmannin" sem="Organic_compound_other">wortmannin</term> and was also variably sensitive to <term id="T59" lex="chloroquine" sem="Organic_compound_other">chloroquine</term>.</sentence>
+<event KT="Other" id="E47">
+<type class="Gene_expression"/>
+<theme idref="T57"/>
+<clue>In contrast, AP-1 <clueType>generation</clueType> was inhibited by wortmannin and was also variably sensitive to chloroquine.</clue>
+</event>
+<event id="E48">
+<type class="Negative_regulation"/>
+<theme idref="E47"/>
+<cause idref="T58"/>
+<clue>In contrast, AP-1 generation was <clueType>inhibited</clueType> <linkCause>by</linkCause> wortmannin and was also variably sensitive to chloroquine.</clue>
+</event>
+<event id="E49">
+<type/>
+<theme idref="E47"/>
+<cause idref="T59"/>
+<clue>In contrast, AP-1 generation was inhibited by wortmannin and was also variably <clueType>sensitive</clueType> <linkCause>to</linkCause> chloroquine.</clue>
+<comment>SENSITIVITY</comment></event>
+<sentence id="S10">These data suggest that in activated <term id="T60" lex="normal_T_cell" sem="Cell_natural">normal T cells</term>, <term id="T61" lex="CD28-derived_signal" sem="Other"><term id="T62" lex="CD28" sem="Protein_molecule">CD28</term>-derived signals</term> can stimulate proliferation at least in part via <cons id="T63" lex="(AND NF-kappaB_generation AP-1_generation)" sem="(AND Other Other)"><frag id="F1"><term id="A8" sem="Protein_complex">NF-kappaB</term></frag> and <frag id="F2"><term id="A9" sem="Protein_complex">AP-1</term></frag> <frag id="F3">generation</frag></cons>, and that this response uses both <term id="T64" lex="acidic_sphingomyelinase" sem="Protein_molecule">acidic sphingomyelinase</term> and <term id="T65" lex="phosphatidylinositol_3-kinase-linked_pathway" sem="Other"><term id="T66" lex="phosphatidylinositol_3-kinase" sem="Protein_molecule">phosphatidylinositol 3-kinase</term>-<term id="A10" sem="Other">linked pathways</term></term>.</sentence>
+<event KT="Other" id="E50">
+<type class="Physiological_process"/>
+<theme idref="T60"/>
+<clue>These data suggest that in <clueType>activated</clueType> normal T cells, CD28-derived signals can stimulate proliferation at least in part via NF-kappaB and AP-1 generation, and that this response uses both acidic sphingomyelinase and phosphatidylinositol 3-kinase-linked pathways.</clue>
+</event>
+<event KT="Other" id="E51">
+<type class="Cellular_physiological_process"/>
+<theme idref="T60"/>
+<clue>These data suggest that in activated normal T cells, CD28-derived signals can stimulate <clueType>proliferation</clueType> at least in part via NF-kappaB and AP-1 generation, and that this response uses both acidic sphingomyelinase and phosphatidylinositol 3-kinase-linked pathways.</clue>
+</event>
+<event KT="Other" id="E52">
+<type class="Gene_expression"/>
+<theme idref="A8"/>
+<clue>These data suggest that in activated normal T cells, CD28-derived signals can stimulate proliferation at least in part via NF-kappaB and AP-1 <clueType>generation</clueType>, and that this response uses both acidic sphingomyelinase and phosphatidylinositol 3-kinase-linked pathways.</clue>
+</event>
+<event KT="Other" id="E53">
+<type class="Gene_expression"/>
+<theme idref="A9"/>
+<clue>These data suggest that in activated normal T cells, CD28-derived signals can stimulate proliferation at least in part via NF-kappaB and AP-1 <clueType>generation</clueType>, and that this response uses both acidic sphingomyelinase and phosphatidylinositol 3-kinase-linked pathways.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E54">
+<type class="Positive_regulation"/>
+<theme idref="E52"/>
+<cause idref="T61"/>
+<clue>These data <clueKT>suggest</clueKT> that in activated normal T cells, CD28-derived signals <clueCL>can</clueCL> <clueType>stimulate</clueType> proliferation at least in part via NF-kappaB and AP-1 generation, and that this response uses both acidic sphingomyelinase and phosphatidylinositol 3-kinase-linked pathways.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E55">
+<type class="Positive_regulation"/>
+<theme idref="E53"/>
+<cause idref="T61"/>
+<clue>These data <clueKT>suggest</clueKT> that in activated normal T cells, CD28-derived signals <clueCL>can</clueCL> <clueType>stimulate</clueType> proliferation at least in part via NF-kappaB and AP-1 generation, and that this response uses both acidic sphingomyelinase and phosphatidylinositol 3-kinase-linked pathways.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E56" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E51"/>
+<cause idref="E54"/>
+<clue>These data <clueKT>suggest</clueKT> that in activated normal T cells, CD28-derived signals <clueCL>can</clueCL> <clueType>stimulate</clueType> proliferation at least in part <linkCause>via</linkCause> NF-kappaB and AP-1 generation, and that this response uses both acidic sphingomyelinase and phosphatidylinositol 3-kinase-linked pathways.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E57" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E51"/>
+<cause idref="E55"/>
+<clue>These data <clueKT>suggest</clueKT> that in activated normal T cells, CD28-derived signals <clueCL>can</clueCL> <clueType>stimulate</clueType> proliferation at least in part <linkCause>via</linkCause> NF-kappaB and AP-1 generation, and that this response uses both acidic sphingomyelinase and phosphatidylinositol 3-kinase-linked pathways.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E58" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E56"/>
+<cause idref="T64" idref1="A10"/>
+<clue>These data <clueKT><clueCL>suggest</clueCL></clueKT> that in activated normal T cells, CD28-derived signals can stimulate proliferation at least in part via NF-kappaB and AP-1 generation, and that this response <clueType>uses</clueType> both acidic sphingomyelinase and phosphatidylinositol 3-kinase-linked pathways.</clue>
+<comment>NER: T64 MOD</comment></event>
+<event CL="L2" KT="Analysis" id="E59" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E56"/>
+<cause idref="T66" idref1="A10"/>
+<clue>These data <clueKT><clueCL>suggest</clueCL></clueKT> that in activated normal T cells, CD28-derived signals can stimulate proliferation at least in part via NF-kappaB and AP-1 generation, and that this response <clueType>uses</clueType> both acidic sphingomyelinase and phosphatidylinositol 3-kinase-linked pathways.</clue>
+<comment>NER: T66 MOD</comment></event>
+<event CL="L2" KT="Analysis" id="E60" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E57"/>
+<cause idref="T64" idref1="A10"/>
+<clue>These data <clueKT><clueCL>suggest</clueCL></clueKT> that in activated normal T cells, CD28-derived signals can stimulate proliferation at least in part via NF-kappaB and AP-1 generation, and that this response <clueType>uses</clueType> both acidic sphingomyelinase and phosphatidylinositol 3-kinase-linked pathways.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E61" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E57"/>
+<cause idref="T66" idref1="A10"/>
+<clue>These data <clueKT><clueCL>suggest</clueCL></clueKT> that in activated normal T cells, CD28-derived signals can stimulate proliferation at least in part via NF-kappaB and AP-1 generation, and that this response <clueType>uses</clueType> both acidic sphingomyelinase and phosphatidylinositol 3-kinase-linked pathways.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,127 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9058790" created="10/04/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9058790</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><cons id="T1" lex="(AND Nuclear_Rel-A_protein_complex Nuclear_c-Rel_protein_complex)" sem="(AND Protein_complex Protein_complex)"><frag id="F1">Nuclear</frag> <frag id="F2"><term id="A4" sem="Protein_complex">Rel-A</term></frag> and <frag id="F3"><term id="A5" sem="Protein_complex">c-Rel</term></frag> <frag id="F4"><term id="A6" sem="Protein_complex">protein complexes</term></frag></cons> are differentially distributed within <term id="T2" lex="human_thymocyte" sem="Cell_natural">human thymocytes</term>.</sentence>
+<event id="E1">
+<type class="Localization"/>
+<theme idref="A4" idref1="A6"/>
+<clue>Nuclear Rel-A and c-Rel protein complexes are differentially <clueType>distributed</clueType> <clueLoc>within human thymocytes</clueLoc>.</clue>
+</event>
+<event id="E13">
+<type class="Localization"/>
+<theme idref="A5" idref1="A6"/>
+<clue>Nuclear Rel-A and c-Rel protein complexes are differentially <clueType>distributed</clueType> <clueLoc>within human thymocytes</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T3" lex="nuclear_factor-kappa_B_(NF-kappa_B)/Rel_protein" sem="Protein_family_or_group">Nuclear factor-kappa B (<term id="T4" lex="NF-kappa_B" sem="Protein_family_or_group">NF-kappa B</term>)/Rel proteins</term> are inducible <term id="T5" lex="transcriptional_regulator" sem="Protein_family_or_group">transcriptional regulators</term> of numerous <term id="T6" lex="cellular_gene" sem="DNA_family_or_group">cellular genes</term>.</sentence>
+<event KT="Fact" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="T6"/>
+<cause idref="T3"/>
+<clue>Nuclear factor-kappa B (NF-kappa B)/Rel proteins are <clueType>inducible transcriptional regulators</clueType> <linkTheme>of</linkTheme> numerous cellular genes.</clue>
+<comment>NER T4 &amp; T3 mod</comment></event>
+<sentence id="S3">They are particularly abundant in <term id="T7" lex="lymphoid_tissue" sem="Tissue_natural">lymphoid tissues</term> and are thought to be critical for the transcription of <term id="A1" sem="DNA_domain_or_region">genes</term> involved in <cons id="T8" lex="(AND immune_response inflammatory_response)" sem="(AND Other Other)"><frag id="F5"><term id="A7" sem="Other">immune</term></frag> and <frag id="F6"><term id="A8" sem="Other">inflammatory</term></frag> <frag id="F7"><term id="A9" sem="Other">responses</term></frag></cons>.</sentence>
+<event KT="Other" id="E3">
+<type class="Regulation"/>
+<theme idref="A7" idref1="A9"/>
+<cause idref="A1"/>
+<clue>They are particularly abundant in lymphoid tissues and are thought to be critical for the transcription of genes <clueType>involved</clueType> <linkTheme>in</linkTheme> immune and inflammatory responses.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Regulation"/>
+<theme idref="A8" idref1="A9"/>
+<cause idref="A1"/>
+<clue>They are particularly abundant in lymphoid tissues and are thought to be critical for the transcription of genes <clueType>involved</clueType> <linkTheme>in</linkTheme> immune and inflammatory responses.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Transcription"/>
+<theme idref="A1"/>
+<clue>They are particularly abundant in lymphoid tissues and are thought to be critical for the <clueType>transcription</clueType> <linkTheme>of</linkTheme> genes involved in immune and inflammatory responses.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E5" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="T3"/>
+<clue><corefCause>They</corefCause> are particularly abundant in lymphoid tissues and are <clueKT><clueCL>thought</clueCL></clueKT> to be <clueType>critical</clueType> <linkTheme>for</linkTheme> the transcription of genes involved in immune and inflammatory responses.</clue>
+</event>
+<event KT="Fact" Manner="High" id="E6">
+<type class="Gene_expression"/>
+<theme idref="T3"/>
+<clue><corefCause>They</corefCause> are <clueManner>particularly</clueManner> <clueType>abundant</clueType> <clueLoc>in lymphoid tissues</clueLoc> and are thought to be critical for the transcription of genes involved in immune and inflammatory responses.</clue>
+</event>
+<sentence id="S4">We have reported previously that a nuclear <term id="T9" lex="NF-kappa_B_activity" sem="Other"><term id="T10" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> activity</term> was present in freshly extracted <term id="T11" lex="human_thymocyte" sem="Cell_natural">human thymocytes</term> in the absence of in vitro treatment of these cells.</sentence>
+<sentence id="S5">In the present report, we identified <term id="T12" lex="NF-kappa_B_protein" sem="Protein_family_or_group"><term id="T13" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> proteins</term> extracted from human <term id="T14" lex="thymocyte_nuclei" sem="Cell_component">thymocyte nuclei</term> as being <cons id="T15" lex="(AND p50/p65_complex p50/c-Rel_complex)" sem="(AND Protein_complex Protein_complex)"><frag id="F8">p50/p65</frag> and <frag id="F9">p50/c-Rel</frag> <frag id="F10">complexes</frag></cons>.</sentence>
+<sentence id="S6">Immunochemical and immunofluorescent staining of thymus sections using <term id="T16" lex="specific_Ab" sem="Protein_family_or_group">specific Abs</term> allowed visualization of <term id="T17" lex="nuclear_NF-kappa_B_protein" sem="Protein_family_or_group">nuclear <term id="T18" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> proteins</term> in both <term id="T19" lex="thymocyte" sem="Cell_natural">thymocytes</term> and <term id="T20" lex="nonthymocyte_cell" sem="Cell_natural">nonthymocyte cells</term>.</sentence>
+<sentence id="S7">This detection suggested a preferential activation of <term id="T21" lex="p50/c-Rel" sem="Protein_complex">p50/c-Rel</term> in <term id="T22" lex="medullary_thymocyte" sem="Cell_natural">medullary <term id="T23" lex="thymocyte" sem="Cell_natural">thymocytes</term></term>, whereas <term id="T24" lex="p50/p65" sem="Protein_complex">p50/p65</term> was present in both cortical and <term id="T25" lex="medullary_region" sem="Cell_component">medullary regions</term> of <term id="T26" lex="human_thymus_lobule" sem="Body_region">human thymus lobules</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E7" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T21"/>
+<clue>This detection <clueKT><clueCL>suggested</clueCL></clueKT> a preferential <clueType>activation</clueType> <linkTheme>of</linkTheme> p50/c-Rel <clueLoc>in medullary thymocytes</clueLoc>, whereas p50/p65 was present in both cortical and medullary regions of human thymus lobules.</clue>
+</event>
+<event id="E8">
+<type class="Gene_expression"/>
+<theme idref="T24"/>
+<clue>This detection suggested a preferential activation of p50/c-Rel in medullary thymocytes, whereas p50/p65 was <clueType>present</clueType> <clueLoc>in</clueLoc> both <clueLoc>cortical</clueLoc> and medullary <clueLoc>regions of human thymus lobules</clueLoc>.</clue>
+</event>
+<event id="E108">
+<type class="Gene_expression"/>
+<theme idref="T24"/>
+<clue>This detection suggested a preferential activation of p50/c-Rel in medullary thymocytes, whereas p50/p65 was <clueType>present</clueType> <clueLoc>in</clueLoc> both cortical and <clueLoc>medullary regions of human thymus lobules</clueLoc>.</clue>
+</event>
+<sentence id="S8">However, the intensity of <term id="T27" lex="p65" sem="Protein_molecule">p65</term> labeling was much higher in several <term id="T28" lex="thymocyte" sem="Cell_natural">thymocytes</term> from the <term id="T29" lex="medulla" sem="Body_region">medulla</term>.</sentence>
+<event Manner="High" id="E9">
+<type class="Gene_expression"/>
+<theme idref="T27"/>
+<clue>However, the intensity of p65 labeling was <clueManner>much</clueManner> <clueType>higher</clueType> <clueLoc>in several thymocytes</clueLoc> from the medulla.</clue>
+</event>
+<sentence id="S9"><cons id="T30" lex="(AND p65_activity p50_activity c-Rel_activity)" sem="(AND Other Other Other)"><frag id="F11"><term id="A10" sem="Protein_molecule">p65</term></frag>, <frag id="F12"><term id="A11" sem="Protein_molecule">p50</term></frag>, and <frag id="F13"><term id="A12" sem="Protein_molecule">c-Rel</term></frag> <frag id="F14">activities</frag></cons> were found in both <cons id="T31" lex="(AND CD4-positive_thymocyte CD8-positive_thymocyte)" sem="(AND Cell_natural Cell_natural)"><frag id="F15">CD4-</frag> and <frag id="F16">CD8-</frag><frag id="F17">positive thymocytes</frag></cons>.</sentence>
+<event id="E15">
+<type class="Gene_expression"/>
+<theme idref="A10"/>
+<clue>p65, p50, and c-Rel activities were <clueType>found</clueType> <clueLoc>in both CD4- and CD8-positive thymocytes</clueLoc>.</clue>
+</event>
+<event id="E16">
+<type class="Gene_expression"/>
+<theme idref="A11"/>
+<clue>p65, p50, and c-Rel activities were <clueType>found</clueType> <clueLoc>in both CD4- and CD8-positive thymocytes</clueLoc>.</clue>
+</event>
+<event id="E17">
+<type class="Gene_expression"/>
+<theme idref="A12"/>
+<clue>p65, p50, and c-Rel activities were <clueType>found</clueType> <clueLoc>in both CD4- and CD8-positive thymocytes</clueLoc>.</clue>
+</event>
+<sentence id="S10">These observations suggest that <cons id="T32" lex="(AND p65_complex c-Rel_complex)" sem="(AND Protein_complex Protein_complex)"><frag id="F18"><term id="A13" sem="Protein_complex">p65</term></frag> and <frag id="F19"><term id="A14" sem="Protein_complex">c-Rel</term></frag> <frag id="F20"><term id="A15" sem="Protein_complex">complexes</term></frag></cons> play distinct roles in <term id="A2" sem="Other">gene expression</term> and that both forms of <term id="T33" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> play critical roles during late stages of the <term id="T34" lex="intrathymic_maturation" sem="Other">intrathymic maturation</term> of <term id="T35" lex="T_cell" sem="Cell_natural">T cells</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="A2"/>
+<cause idref="A13" idref1="A15"/>
+<clue>These observations <clueKT><clueCL>suggest</clueCL></clueKT> that p65 and c-Rel complexes <clueType>play</clueType> distinct <clueType>roles</clueType> <linkTheme>in</linkTheme> gene expression and that both forms of NF-kappa B play critical roles during late stages of the intrathymic maturation of T cells.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="A2"/>
+<cause idref="A14" idref1="A15"/>
+<clue>These observations <clueKT><clueCL>suggest</clueCL></clueKT> that p65 and c-Rel complexes <clueType>play</clueType> distinct <clueType>roles</clueType> <linkTheme>in</linkTheme> gene expression and that both forms of NF-kappa B play critical roles during late stages of the intrathymic maturation of T cells.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Cell_differentiation"/>
+<theme idref="T35"/>
+<clue>These observations suggest that p65 and c-Rel complexes play distinct roles in gene expression and that both forms of NF-kappa B play critical roles during late stages of the intrathymic <clueType>maturation</clueType> <linkTheme>of</linkTheme> T cells.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<cause idref="A13" idref1="A15"/>
+<clue>These observations <clueKT><clueCL>suggest</clueCL></clueKT> that p65 and c-Rel complexes play distinct roles in gene expression and that <corefCause>both forms of NF-kappa B</corefCause> <clueType>play</clueType> critical <clueType>roles</clueType> <linkTheme>during</linkTheme> late stages of the intrathymic maturation of T cells.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<cause idref="A14" idref1="A15"/>
+<clue>These observations <clueKT><clueCL>suggest</clueCL></clueKT> that p65 and c-Rel complexes play distinct roles in gene expression and that <corefCause>both forms of NF-kappa B</corefCause> <clueType>play</clueType> critical <clueType>roles</clueType> <linkTheme>during</linkTheme> late stages of the intrathymic maturation of T cells.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

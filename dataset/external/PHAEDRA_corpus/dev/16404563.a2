@@ -1,0 +1,12 @@
+T21	Potential_therapeutic_effect 623 630	treated
+T22	Adverse_effect 654 663	developed
+T24	Potential_therapeutic_effect 245 263	useful for therapy
+R3	Subject_Disorder Arg1:T16 Arg2:T2
+R4	Subject_Disorder Arg1:T20 Arg2:T10
+R8	Coreference Arg1:T23 Arg2:T4
+E2	Potential_therapeutic_effect:T21 has_agent:T11 affects:T10
+E3	Adverse_effect:T22 affects:T12 has_agent:T11
+E4	Potential_therapeutic_effect:T24 has_cue:T25 has_agent:T7 affects:T23
+A1	Speculated E4
+T14	Adverse_effect 364 380	infectious agent
+E1	Adverse_effect:T14 affects:T3 has_agent:T9 has_subject:T13

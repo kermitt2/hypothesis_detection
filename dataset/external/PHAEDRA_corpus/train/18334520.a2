@@ -1,0 +1,8 @@
+T8	Potential_therapeutic_effect 113 118	treat
+T12	DDI 463 475	interactions
+T10	Adverse_effect 384 399	take cognisance
+R1	is_equivalent Arg1:T2 Arg2:T3
+E3	DDI:T12 has_participant:T6 has_cue:T13 has_participant:T15
+E1	Potential_therapeutic_effect:T8 affects:T4 has_agent:T2
+E2	Adverse_effect:T10 has_agent:E3
+A1	Speculated E3

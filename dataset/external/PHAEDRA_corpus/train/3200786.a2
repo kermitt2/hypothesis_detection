@@ -1,0 +1,7 @@
+T16	Adverse_effect 20 27	induced
+T18	Adverse_effect 574 581	effects
+T20	Potential_therapeutic_effect 305 312	treated
+R2	Subject_Disorder Arg1:T19 Arg2:T7
+E3	Adverse_effect:T16 has_agent:T1 affects:T2
+E5	Adverse_effect:T18 has_agent:T12
+E6	Potential_therapeutic_effect:T20 has_agent:T8 affects:T7 has_subject:T19

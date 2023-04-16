@@ -1,0 +1,409 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=10432288" created="03/11/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>10432288</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T2" lex="Bcl-2" sem="Protein_molecule">Bcl-2</term>-mediated <term id="A1" sem="Other">drug resistance</term>: inhibition of <term id="T3" lex="apoptosis" sem="Other">apoptosis</term> by blocking <term id="T5" lex="nuclear_factor_of_activated_T_lymphocytes" sem="Protein_molecule">nuclear factor of activated T lymphocytes</term> (<term id="T6" lex="NFAT" sem="Protein_molecule">NFAT</term>)-induced <term id="A12" sem="Other"><term id="A2" sem="Protein_molecule"><term id="T7" lex="Fas" sem="Protein_molecule">Fas</term> ligand</term> transcription</term>.</sentence>
+<event KT="Investigation" id="E1">
+<type class="Positive_regulation"/>
+<theme idref="A1"/>
+<cause idref="T2"/>
+<clue>Bcl-2-<clueType>mediated</clueType> drug resistance: inhibition of apoptosis by blocking nuclear factor of activated T lymphocytes (NFAT)-induced Fas ligand transcription.</clue>
+<comment>NER: T1 del &quot;Bcl-2-mediated drug resistance&quot;</comment></event>
+<event KT="Investigation" id="E2">
+<type class="Negative_regulation"/>
+<theme idref="T3"/>
+<cause idref="E3"/>
+<clue>Bcl-2-mediated drug resistance: <clueType>inhibition</clueType> of apoptosis <linkCause>by</linkCause> blocking nuclear factor of activated T lymphocytes (NFAT)-induced Fas ligand transcription.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Negative_regulation"/>
+<theme idref="E4"/>
+<cause idref="T2"/>
+<clue>Bcl-2-mediated drug resistance: inhibition of apoptosis by <clueType>blocking</clueType> nuclear factor of activated T lymphocytes (NFAT)-induced Fas ligand transcription.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="T6"/>
+<clue>Bcl-2-mediated drug resistance: inhibition of apoptosis by blocking nuclear factor of activated T lymphocytes (NFAT)-<clueType>induced</clueType> Fas ligand transcription.</clue>
+<comment>NER: T4 del &quot;nuclear factor of activated T lymphocytes (NFAT)-induced Fas ligand transcription&quot;</comment></event>
+<event KT="Other" id="E5">
+<type class="Transcription"/>
+<theme idref="A2"/>
+<clue>Bcl-2-mediated drug resistance: inhibition of apoptosis by blocking nuclear factor of activated T lymphocytes (NFAT)-induced Fas ligand <clueType>transcription</clueType>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T8" lex="Bcl-2" sem="Protein_molecule">Bcl-2</term> inhibits <term id="T9" lex="apoptosis" sem="Other">apoptosis</term> induced by a variety of stimuli, including <term id="T10" lex="chemotherapy_drug" sem="Organic_compound_other">chemotherapy drugs</term> and <term id="T11" lex="glucocorticoid" sem="Lipid">glucocorticoids</term>.</sentence>
+<event KT="Fact" id="E6">
+<type class="Negative_regulation"/>
+<theme idref="T9"/>
+<cause idref="T8"/>
+<clue>Bcl-2 <clueType>inhibits</clueType> apoptosis induced by a variety of stimuli, including chemotherapy drugs and glucocorticoids.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T9"/>
+<cause idref="T10"/>
+<clue>Bcl-2 inhibits apoptosis <clueType>induced</clueType> <linkCause>by</linkCause> a variety of <corefTheme>stimuli</corefTheme>, including chemotherapy drugs and glucocorticoids.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T9"/>
+<cause idref="T11"/>
+<clue>Bcl-2 inhibits apoptosis <clueType>induced</clueType> <linkCause>by</linkCause> a variety of <corefTheme>stimuli</corefTheme>, including chemotherapy drugs and glucocorticoids.</clue>
+</event>
+<sentence id="S3">It is generally accepted that <term id="T12" lex="Bcl-2" sem="Protein_molecule">Bcl-2</term> exerts its <term id="T13" lex="antiapoptotic_effect" sem="Other">antiapoptotic effects</term> mainly by dimerizing with proapoptotic members of the <term id="T14" lex="Bcl-2_family" sem="Protein_family_or_group"><term id="T15" lex="Bcl-2" sem="Protein_molecule">Bcl-2</term> family</term> such as <term id="T16" lex="Bax" sem="Protein_molecule">Bax</term> and <term id="T17" lex="Bad" sem="Protein_molecule">Bad</term>.</sentence>
+<event KT="Fact" id="E9">
+<type class="Negative_regulation"/>
+<cause idref="E11"/>
+<clue>It is generally accepted that Bcl-2 exerts its <clueType>antiapoptotic effects</clueType> mainly <linkCause>by</linkCause> dimerizing with proapoptotic members of the Bcl-2 family such as Bax and Bad.</clue>
+<comment>NO THEME</comment></event>
+<event KT="Fact" id="E10">
+<type class="Negative_regulation"/>
+<cause idref="E12"/>
+<clue>It is generally accepted that Bcl-2 exerts its <clueType>antiapoptotic effects</clueType> mainly <linkCause>by</linkCause> dimerizing with proapoptotic members of the Bcl-2 family such as Bax and Bad.</clue>
+<comment>NO THEME</comment></event>
+<event KT="Other" id="E11">
+<type class="Binding"/>
+<theme idref="T12"/>
+<theme idref="T16"/>
+<clue>It is generally accepted that Bcl-2 exerts its antiapoptotic effects mainly by <clueType>dimerizing</clueType> <linkTheme>with</linkTheme> <corefTheme>proapoptotic members of the Bcl-2 family</corefTheme> such as Bax and Bad.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Binding"/>
+<theme idref="T12"/>
+<theme idref="T17"/>
+<clue>It is generally accepted that Bcl-2 exerts its antiapoptotic effects mainly by <clueType>dimerizing</clueType> <linkTheme>with</linkTheme> <corefTheme>proapoptotic members of the Bcl-2 family</corefTheme> such as Bax and Bad.</clue>
+</event>
+<sentence id="S4">However, the mechanism of the <term id="T18" lex="antiapoptotic_effect" sem="Other">antiapoptotic effects</term> is unclear.</sentence>
+<sentence id="S5"><term id="T19" lex="paclitaxel" sem="Organic_compound_other">Paclitaxel</term> and other <term id="A30" sem="Organic_compound_other">drugs</term> that disturb <term id="T20" lex="microtubule_dynamics" sem="Other"><term id="T21" lex="microtubule" sem="Protein_complex">microtubule</term> dynamics</term> kill <term id="A4" sem="Cell_cultured">cells</term> in a <term id="T22" lex="Fas/Fas_ligand_(FasL)-dependent_manner" sem="Other"><term id="T23" lex="Fas" sem="Protein_molecule">Fas</term><term id="T24" lex="Fas_ligand" sem="Protein_molecule">/Fas ligand</term> (<term id="T25" lex="FasL" sem="Protein_molecule">FasL</term>)-dependent manner</term>; <term id="A6" sem="Protein_molecule">antibody to <term id="T26" lex="FasL" sem="Protein_molecule">FasL</term></term> inhibits <term id="A5" sem="Organic_compound_other">paclitaxel</term>-induced <term id="T27" lex="apoptosis" sem="Other">apoptosis</term>.</sentence>
+<event KT="Other" id="E13">
+<type class="Negative_regulation"/>
+<theme idref="T20"/>
+<cause idref="T19"/>
+<clue>Paclitaxel and other drugs that <clueType>disturb</clueType> microtubule dynamics kill cells in a Fas/Fas ligand (FasL)-dependent manner; antibody to FasL inhibits paclitaxel-induced apoptosis.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Negative_regulation"/>
+<theme idref="T20"/>
+<cause idref="A30"/>
+<clue>Paclitaxel and other drugs that <clueType>disturb</clueType> microtubule dynamics kill cells in a Fas/Fas ligand (FasL)-dependent manner; antibody to FasL inhibits paclitaxel-induced apoptosis.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Cellular_physiological_process"/>
+<theme idref="A4"/>
+<theme idref="T19"/>
+<clue>Paclitaxel and other drugs that disturb microtubule dynamics <clueType>kill</clueType> cells in a Fas/Fas ligand (FasL)-dependent manner; antibody to FasL inhibits paclitaxel-induced apoptosis.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Cellular_physiological_process"/>
+<theme idref="A4"/>
+<theme idref="A30"/>
+<clue>Paclitaxel and other drugs that disturb microtubule dynamics <clueType>kill</clueType> cells in a Fas/Fas ligand (FasL)-dependent manner; antibody to FasL inhibits paclitaxel-induced apoptosis.</clue>
+<comment>TPS: A3</comment></event>
+<event KT="Fact" id="E17">
+<type class="Regulation"/>
+<theme idref="E15"/>
+<cause idref="T23" idref1="T25"/>
+<clue>Paclitaxel and other drugs that disturb microtubule dynamics kill cells in a Fas/Fas ligand (FasL)-<clueType>dependent</clueType> manner; antibody to FasL inhibits paclitaxel-induced apoptosis.</clue>
+<comment>NER: T22 del &quot;Fas/Fas ligand (FasL)-dependent manner&quot;</comment></event>
+<event KT="Fact" id="E18">
+<type class="Regulation"/>
+<theme idref="E16"/>
+<cause idref="T23" idref1="T25"/>
+<clue>Paclitaxel and other drugs that disturb microtubule dynamics kill cells in a Fas/Fas ligand (FasL)-<clueType>dependent</clueType> manner; antibody to FasL inhibits paclitaxel-induced apoptosis.</clue>
+</event>
+<event KT="Fact" id="E19">
+<type class="Negative_regulation"/>
+<theme idref="E15"/>
+<cause idref="A6"/>
+<clue>Paclitaxel and other drugs that disturb microtubule dynamics kill cells in a Fas/Fas ligand (FasL)-dependent manner; antibody to FasL <clueType>inhibits</clueType> <corefTheme>paclitaxel-induced apoptosis</corefTheme>.</clue>
+<comment>TPS: A6</comment></event>
+<sentence id="S6">We have found that <term id="T28" lex="Bcl-2_overexpression" sem="Other"><term id="T29" lex="Bcl-2" sem="Protein_molecule">Bcl-2</term> overexpression</term> leads to the prevention of <term id="T30" lex="chemotherapy_(paclitaxel)-induced_expression" sem="Other">chemotherapy (<term id="T31" lex="paclitaxel" sem="Organic_compound_other">paclitaxel</term>)-induced expression</term> of <term id="T32" lex="FasL" sem="Protein_molecule">FasL</term> and blocks <term id="T33" lex="paclitaxel" sem="Organic_compound_other">paclitaxel</term>-induced <term id="T34" lex="apoptosis" sem="Other">apoptosis</term>.</sentence>
+<event id="E21">
+<type class="Gene_expression"/>
+<theme idref="T29"/>
+<clue>We have found that Bcl-2 <clueType>overexpression</clueType> leads to the prevention of chemotherapy (paclitaxel)-induced expression of FasL and blocks paclitaxel-induced apoptosis.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<clue>We have found that Bcl-2 <clueType>overexpression</clueType> leads to the prevention of chemotherapy (paclitaxel)-induced expression of FasL and blocks paclitaxel-induced apoptosis.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation"/>
+<theme idref="E24"/>
+<cause idref="E22"/>
+<clue>We have <clueKT>found</clueKT> that Bcl-2 overexpression <clueType>leads to the prevention</clueType> <linkTheme>of</linkTheme> chemotherapy (paclitaxel)-induced expression of FasL and blocks paclitaxel-induced apoptosis.</clue>
+</event>
+<event KT="Other" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E25"/>
+<cause idref="T31"/>
+<clue>We have found that Bcl-2 overexpression leads to the prevention of <corefCause>chemotherapy</corefCause> (paclitaxel)-<clueType>induced</clueType> expression of FasL and blocks paclitaxel-induced apoptosis.</clue>
+</event>
+<event KT="Other" id="E25">
+<type class="Gene_expression"/>
+<theme idref="T32"/>
+<clue>We have found that Bcl-2 overexpression leads to the prevention of chemotherapy (paclitaxel)-induced <clueType>expression</clueType> <linkTheme>of</linkTheme> FasL and blocks paclitaxel-induced apoptosis.</clue>
+</event>
+<event id="E26">
+<type class="Negative_regulation"/>
+<theme idref="E27"/>
+<cause idref="E23"/>
+<clue>We have <clueKT>found</clueKT> that Bcl-2 overexpression leads to the prevention of chemotherapy (paclitaxel)-induced expression of FasL and <clueType>blocks</clueType> paclitaxel-induced apoptosis.</clue>
+</event>
+<event KT="Other" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="T34"/>
+<cause idref="T33"/>
+<clue>We have found that Bcl-2 overexpression leads to the prevention of chemotherapy (paclitaxel)-induced expression of FasL and blocks paclitaxel-<clueType>induced</clueType> apoptosis.</clue>
+</event>
+<sentence id="S7">The mechanism of this effect is that <term id="T35" lex="Bcl-2" sem="Protein_molecule">Bcl-2</term> prevents the nuclear translocation of <term id="T36" lex="NFAT" sem="Protein_molecule">NFAT</term> (<term id="T37" lex="nuclear_factor_of_activated_T_lymphocytes" sem="Protein_family_or_group">nuclear factor of activated T lymphocytes</term>, a <term id="T38" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> activated by <term id="T39" lex="microtubule" sem="Protein_complex">microtubule</term> damage) by binding and sequestering <term id="A7" sem="Protein_molecule">calcineurin</term>, a <term id="A8" sem="Inorganic_compound">calcium</term>-dependent phosphatase that must dephosphorylate <term id="T40" lex="NFAT" sem="Protein_molecule">NFAT</term> to move to the <term id="T41" lex="nucleus" sem="Cell_component">nucleus</term>.</sentence>
+<event id="E28">
+<type class="Negative_regulation"/>
+<theme idref="E29"/>
+<cause idref="E31"/>
+<clue>The mechanism of this effect is that Bcl-2 <clueType>prevents</clueType> the nuclear translocation of NFAT (nuclear factor of activated T lymphocytes, a transcription factor activated by microtubule damage) <linkCause>by</linkCause> binding and sequestering calcineurin, a calcium-dependent phosphatase that must dephosphorylate NFAT to move to the nucleus.</clue>
+</event>
+<event KT="Other" id="E29">
+<type class="Localization"/>
+<theme idref="T36"/>
+<clue>The mechanism of this effect is that Bcl-2 prevents the <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> <linkTheme>of</linkTheme> NFAT (nuclear factor of activated T lymphocytes, a transcription factor activated by microtubule damage) by binding and sequestering calcineurin, a calcium-dependent phosphatase that must dephosphorylate NFAT to move to the nucleus.</clue>
+</event>
+<event id="E30">
+<type class="Binding"/>
+<theme idref="T35"/>
+<theme idref="A7"/>
+<clue>The mechanism of this effect is that Bcl-2 prevents the nuclear translocation of NFAT (nuclear factor of activated T lymphocytes, a transcription factor activated by microtubule damage) by <clueType>binding</clueType> and sequestering calcineurin, a calcium-dependent phosphatase that must dephosphorylate NFAT to move to the nucleus.</clue>
+</event>
+<event id="E31">
+<type class="Negative_regulation"/>
+<theme idref="A7"/>
+<cause idref="E30"/>
+<clue>The mechanism of this effect is that Bcl-2 prevents the nuclear translocation of NFAT (nuclear factor of activated T lymphocytes, a transcription factor activated by microtubule damage) by binding and <clueType>sequestering</clueType> calcineurin, a calcium-dependent phosphatase that must dephosphorylate NFAT to move to the nucleus.</clue>
+</event>
+<event KT="Fact" id="E32">
+<type class="Positive_regulation"/>
+<theme idref="T36"/>
+<cause idref="E33"/>
+<clue>The mechanism of this effect is that Bcl-2 prevents the nuclear translocation of NFAT (nuclear factor of activated T lymphocytes, a transcription factor <clueType>activated</clueType> <linkCause>by</linkCause> microtubule damage) by binding and sequestering calcineurin, a calcium-dependent phosphatase that must dephosphorylate NFAT to move to the nucleus.</clue>
+</event>
+<event KT="Other" id="E33">
+<type class="Negative_regulation"/>
+<theme idref="T39"/>
+<clue>The mechanism of this effect is that Bcl-2 prevents the nuclear translocation of NFAT (nuclear factor of activated T lymphocytes, a transcription factor activated by microtubule <clueType>damage</clueType>) by binding and sequestering calcineurin, a calcium-dependent phosphatase that must dephosphorylate NFAT to move to the nucleus.</clue>
+</event>
+<event KT="Other" id="E34">
+<type class="Regulation"/>
+<theme idref="A7"/>
+<cause idref="A8"/>
+<clue>The mechanism of this effect is that Bcl-2 prevents the nuclear translocation of NFAT (nuclear factor of activated T lymphocytes, a transcription factor activated by microtubule damage) by binding and sequestering calcineurin, a calcium-<clueType>dependent</clueType> phosphatase that must dephosphorylate NFAT to move to the nucleus.</clue>
+</event>
+<event KT="Other" id="E35">
+<type class="Protein_amino_acid_dephosphorylation"/>
+<theme idref="T40"/>
+<cause idref="A7"/>
+<clue>The mechanism of this effect is that Bcl-2 prevents the nuclear translocation of NFAT (nuclear factor of activated T lymphocytes, a transcription factor activated by microtubule damage) by binding and sequestering calcineurin, a calcium-dependent phosphatase that must <clueType>dephosphorylate</clueType> NFAT to move to the nucleus.</clue>
+</event>
+<event KT="Other" id="E36">
+<type class="Localization"/>
+<theme idref="T40"/>
+<clue>The mechanism of this effect is that Bcl-2 prevents the nuclear translocation of NFAT (nuclear factor of activated T lymphocytes, a transcription factor activated by microtubule damage) by binding and sequestering calcineurin, a calcium-dependent phosphatase that must dephosphorylate NFAT to <clueType>move</clueType> <clueLoc>to the nucleus</clueLoc>.</clue>
+</event>
+<event KT="Fact" id="E37">
+<type class="Positive_regulation"/>
+<theme idref="E36"/>
+<cause idref="E35"/>
+<clue>The mechanism of this effect is that Bcl-2 prevents the nuclear translocation of NFAT (nuclear factor of activated T lymphocytes, a transcription factor activated by microtubule damage) by binding and sequestering calcineurin, a calcium-dependent phosphatase that must dephosphorylate NFAT <linkTheme>to</linkTheme> move to the nucleus.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S8">Without <term id="T42" lex="NFAT_nuclear_translocation" sem="Other"><term id="T43" lex="NFAT" sem="Protein_molecule">NFAT</term> nuclear translocation</term>, the <term id="A9" sem="DNA_domain_or_region"><term id="T44" lex="FasL" sem="Protein_molecule">FasL</term> gene</term> is not transcribed.</sentence>
+<event Polarity="Negative" assertion="non-exist" id="E38">
+<type class="Localization"/>
+<theme idref="T43"/>
+<clue><cluePolarity>Without</cluePolarity> NFAT <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType>, the FasL gene is not transcribed.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E39">
+<type class="Transcription"/>
+<theme idref="A9"/>
+<clue>Without NFAT nuclear translocation, the FasL gene is <cluePolarity>not</cluePolarity> <clueType>transcribed</clueType>.</clue>
+</event>
+<event id="E40">
+<type class="Positive_regulation"/>
+<theme idref="E39"/>
+<cause idref="E38"/>
+<clue><linkCause>Without</linkCause> NFAT nuclear translocation, the FasL gene is not transcribed.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S9">Thus, it appears that <term id="T45" lex="paclitaxel" sem="Organic_compound_other">paclitaxel</term> and other <term id="A11" sem="Organic_compound_other">drugs</term> that disturb <term id="T46" lex="microtubule" sem="Protein_complex">microtubule</term> function kill <term id="A10" sem="Cell_cultured">cells</term> at least in part through the induction of <term id="T47" lex="FasL" sem="Protein_molecule">FasL</term>.</sentence>
+<event KT="Other" id="E41">
+<type class="Negative_regulation"/>
+<theme idref="T46"/>
+<cause idref="T45"/>
+<clue>Thus, it appears that paclitaxel and other drugs that <clueType>disturb</clueType> microtubule function kill cells at least in part through the induction of FasL.</clue>
+</event>
+<event KT="Other" id="E42">
+<type class="Negative_regulation"/>
+<theme idref="T46"/>
+<cause idref="A11"/>
+<clue>Thus, it appears that paclitaxel and other drugs that <clueType>disturb</clueType> microtubule function kill cells at least in part through the induction of FasL.</clue>
+</event>
+<event KT="Other" id="E43" uncertainty="probable">
+<type class="Cellular_physiological_process"/>
+<theme idref="A10"/>
+<clue>Thus, it appears that paclitaxel and other drugs that disturb microtubule function <clueType>kill</clueType> cells at least in part through the induction of FasL.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E69">
+<type class="Positive_regulation"/>
+<theme idref="E43"/>
+<cause idref="E45"/>
+<clue><clueKT>Thus</clueKT>, it <clueCL>appears</clueCL> that paclitaxel and other drugs that disturb microtubule function kill cells at least in part <linkCause>through</linkCause> the induction of FasL.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E44" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E43"/>
+<cause idref="E46"/>
+<clue><clueKT>Thus</clueKT>, it <clueCL>appears</clueCL> that paclitaxel and other drugs that disturb microtubule function kill cells at least in part <linkCause>through</linkCause> the induction of FasL.</clue>
+</event>
+<event KT="Other" id="E45">
+<type class="Positive_regulation"/>
+<theme idref="T47"/>
+<cause idref="T45"/>
+<clue>Thus, it appears that paclitaxel and other drugs that disturb microtubule function kill cells at least in part through the <clueType>induction</clueType> <linkTheme>of</linkTheme> FasL.</clue>
+</event>
+<event KT="Other" id="E46">
+<type class="Positive_regulation"/>
+<theme idref="T47"/>
+<cause idref="A11"/>
+<clue>Thus, it appears that paclitaxel and other drugs that disturb microtubule function kill cells at least in part through the <clueType>induction</clueType> <linkTheme>of</linkTheme> FasL.</clue>
+</event>
+<sentence id="S10">Furthermore, <term id="T48" lex="Bcl-2" sem="Protein_molecule">Bcl-2</term> antagonizes drug-induced <term id="T49" lex="apoptosis" sem="Other">apoptosis</term> by inhibiting <term id="T50" lex="calcineurin_activation" sem="Other"><term id="T51" lex="calcineurin" sem="Protein_molecule">calcineurin</term> activation</term>, blocking <term id="T52" lex="NFAT_nuclear_translocation" sem="Other"><term id="T53" lex="NFAT" sem="Protein_molecule">NFAT</term> nuclear translocation</term>, and preventing <term id="T54" lex="FasL_expression" sem="Other"><term id="T55" lex="FasL" sem="Protein_molecule">FasL</term> expression</term>.</sentence>
+<event id="E47">
+<type class="Negative_regulation"/>
+<theme idref="E49"/>
+<cause idref="E54"/>
+<clue>Furthermore, Bcl-2 <clueType>antagonizes</clueType> drug-induced apoptosis <linkCause>by</linkCause> inhibiting calcineurin activation, blocking NFAT nuclear translocation, and preventing FasL expression.</clue>
+</event>
+<event id="E48">
+<type class="Negative_regulation"/>
+<theme idref="E56"/>
+<cause idref="E54"/>
+<clue>Furthermore, Bcl-2 <clueType>antagonizes</clueType> drug-induced apoptosis <linkCause>by</linkCause> inhibiting calcineurin activation, blocking NFAT nuclear translocation, and preventing FasL expression.</clue>
+</event>
+<event KT="Other" id="E49">
+<type class="Positive_regulation"/>
+<theme idref="T49"/>
+<cause idref="T45"/>
+<clue>Furthermore, Bcl-2 antagonizes <corefCause>drug</corefCause>-<clueType>induced</clueType> apoptosis by inhibiting calcineurin activation, blocking NFAT nuclear translocation, and preventing FasL expression.</clue>
+</event>
+<event KT="Other" id="E56">
+<type class="Positive_regulation"/>
+<theme idref="T49"/>
+<cause idref="A11"/>
+<clue>Furthermore, Bcl-2 antagonizes <corefCause>drug</corefCause>-<clueType>induced</clueType> apoptosis by inhibiting calcineurin activation, blocking NFAT nuclear translocation, and preventing FasL expression.</clue>
+</event>
+<event id="E50">
+<type class="Negative_regulation"/>
+<theme idref="E51"/>
+<cause idref="T48"/>
+<clue>Furthermore, Bcl-2 antagonizes drug-induced apoptosis by <clueType>inhibiting</clueType> calcineurin activation, blocking NFAT nuclear translocation, and preventing FasL expression.</clue>
+</event>
+<event KT="Other" id="E51">
+<type class="Positive_regulation"/>
+<theme idref="T51"/>
+<clue>Furthermore, Bcl-2 antagonizes drug-induced apoptosis by inhibiting calcineurin <clueType>activation</clueType>, blocking NFAT nuclear translocation, and preventing FasL expression.</clue>
+</event>
+<event id="E52">
+<type class="Negative_regulation"/>
+<theme idref="E53"/>
+<cause idref="E50"/>
+<clue>Furthermore, Bcl-2 antagonizes drug-induced apoptosis by inhibiting calcineurin activation, <clueType>blocking</clueType> NFAT nuclear translocation, and preventing FasL expression.</clue>
+</event>
+<event KT="Other" id="E53">
+<type class="Localization"/>
+<theme idref="T53"/>
+<clue>Furthermore, Bcl-2 antagonizes drug-induced apoptosis by inhibiting calcineurin activation, blocking NFAT <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType>, and preventing FasL expression.</clue>
+</event>
+<event id="E54">
+<type class="Negative_regulation"/>
+<theme idref="E55"/>
+<cause idref="E52"/>
+<clue>Furthermore, Bcl-2 antagonizes drug-induced apoptosis by inhibiting calcineurin activation, blocking NFAT nuclear translocation, and <clueType>preventing</clueType> FasL expression.</clue>
+</event>
+<event KT="Other" id="E55">
+<type class="Gene_expression"/>
+<theme idref="T55"/>
+<clue>Furthermore, Bcl-2 antagonizes drug-induced apoptosis by inhibiting calcineurin activation, blocking NFAT nuclear translocation, and preventing FasL <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S11">The effects of <term id="T56" lex="Bcl-2" sem="Protein_molecule">Bcl-2</term> can be overcome, at least partially, through phosphorylation of <term id="T57" lex="Bcl-2" sem="Protein_molecule">Bcl-2</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E57">
+<type class="Negative_regulation"/>
+<theme idref="E48"/>
+<cause idref="E59"/>
+<clue><corefTheme>The effects of Bcl-2</corefTheme> <clueKT><clueCL>can</clueCL></clueKT> be <clueType>overcome</clueType>, at least partially, <linkCause>through</linkCause> phosphorylation of Bcl-2.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E58">
+<type class="Negative_regulation"/>
+<theme idref="E49"/>
+<cause idref="E59"/>
+<clue><corefTheme>The effects of Bcl-2</corefTheme> <clueKT><clueCL>can</clueCL></clueKT> be <clueType>overcome</clueType>, at least partially, <linkCause>through</linkCause> phosphorylation of Bcl-2.</clue>
+</event>
+<event KT="Other" id="E59">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T57"/>
+<clue>The effects of Bcl-2 can be overcome, at least partially, through <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> Bcl-2.</clue>
+</event>
+<sentence id="S12">Phosphorylated <term id="T58" lex="Bcl-2" sem="Protein_molecule">Bcl-2</term> cannot bind <term id="T59" lex="calcineurin" sem="Protein_molecule">calcineurin</term>, and <term id="T60" lex="NFAT" sem="Protein_molecule">NFAT</term> activation, <term id="T61" lex="FasL" sem="Protein_molecule">FasL</term> expression, and <term id="T62" lex="apoptosis" sem="Other">apoptosis</term> can occur after <term id="T63" lex="Bcl-2_phosphorylation" sem="Other"><term id="T64" lex="Bcl-2" sem="Protein_molecule">Bcl-2</term> phosphorylation</term>.</sentence>
+<event id="E60">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T58"/>
+<clue><clueType>Phosphorylated</clueType> Bcl-2 cannot bind calcineurin, and NFAT activation, FasL expression, and apoptosis can occur after Bcl-2 phosphorylation.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E61">
+<type class="Binding"/>
+<theme idref="T58"/>
+<theme idref="T59"/>
+<clue>Phosphorylated Bcl-2 <cluePolarity>cannot</cluePolarity> <clueType>bind</clueType> calcineurin, and NFAT activation, FasL expression, and apoptosis can occur after Bcl-2 phosphorylation.</clue>
+</event>
+<event CL="L2" id="E68">
+<type class="Negative_regulation"/>
+<theme idref="E61"/>
+<cause idref="E60"/>
+<clue>Phosphorylated Bcl-2 <clueType>cannot</clueType> bind calcineurin, and NFAT activation, FasL expression, and apoptosis can occur after Bcl-2 phosphorylation.</clue>
+</event>
+<event KT="Other" id="E62">
+<type class="Positive_regulation"/>
+<theme idref="T60"/>
+<clue>Phosphorylated Bcl-2 cannot bind calcineurin, and NFAT <clueType>activation</clueType>, FasL expression, and apoptosis can occur after Bcl-2 phosphorylation.</clue>
+</event>
+<event KT="Other" id="E63">
+<type class="Gene_expression"/>
+<theme idref="T61"/>
+<clue>Phosphorylated Bcl-2 cannot bind calcineurin, and NFAT activation, FasL <clueType>expression</clueType>, and apoptosis can occur after Bcl-2 phosphorylation.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E64">
+<type class="Positive_regulation"/>
+<theme idref="E62"/>
+<cause idref="E67"/>
+<clue>Phosphorylated Bcl-2 cannot bind calcineurin, and NFAT activation, FasL expression, and apoptosis <clueKT><clueCL>can</clueCL></clueKT> occur <linkCause>after</linkCause> Bcl-2 phosphorylation.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event CL="L2" KT="Analysis" id="E65">
+<type class="Positive_regulation"/>
+<theme idref="E63"/>
+<cause idref="E67"/>
+<clue>Phosphorylated Bcl-2 cannot bind calcineurin, and NFAT activation, FasL expression, and apoptosis <clueKT><clueCL>can</clueCL></clueKT> occur <linkCause>after</linkCause> Bcl-2 phosphorylation.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event CL="L2" KT="Analysis" id="E66">
+<type class="Positive_regulation"/>
+<theme idref="T62"/>
+<cause idref="E67"/>
+<clue>Phosphorylated Bcl-2 cannot bind calcineurin, and NFAT activation, FasL expression, and apoptosis <clueKT><clueCL>can</clueCL></clueKT> occur <linkCause>after</linkCause> Bcl-2 phosphorylation.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Other" id="E67">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T64"/>
+<clue>Phosphorylated Bcl-2 cannot bind calcineurin, and NFAT activation, FasL expression, and apoptosis can occur after Bcl-2 <clueType>phosphorylation</clueType>.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

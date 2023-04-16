@@ -1,0 +1,15 @@
+T14	Adverse_effect 11 18	induced
+T35	Adverse_effect 1804 1813	developed
+T37	Potential_therapeutic_effect 1750 1759	receiving
+T23	Adverse_effect 123 134	experienced
+R1	Subject_Disorder Arg1:T32 Arg2:T5
+R2	Subject_Disorder Arg1:T32 Arg2:T6
+R3	Subject_Disorder Arg1:T32 Arg2:T7
+R4	Subject_Disorder Arg1:T32 Arg2:T8
+R5	Subject_Disorder Arg1:T32 Arg2:T9
+E6	Combination:T43 has_participant:T11 has_participant:T12
+E7	Combination:T44 has_participant:T19 has_participant:T20
+E1	Adverse_effect:T14 has_agent:T1 affects:T2
+E4	Adverse_effect:T35 has_agent:T29 affects:T31 has_subject:T36
+E5	Potential_therapeutic_effect:T37 has_subject:T36 has_agent:T29 affects:T30
+E3	Adverse_effect:T23 has_agent:T3 affects:T4

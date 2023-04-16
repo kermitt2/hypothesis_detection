@@ -1,0 +1,295 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9353251" created="09/06/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9353251</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T2" lex="CD30" sem="Protein_molecule">CD30</term>-dependent <term id="T49" sem="Other">degradation</term> of <term id="T3" lex="TRAF2" sem="Protein_molecule">TRAF2</term>: implications for <term id="T4" lex="negative_regulation" sem="Other">negative regulation</term> of <term id="T5" lex="TRAF_signaling" sem="Other"><term id="T6" lex="TRAF" sem="Protein_family_or_group">TRAF</term> signaling</term> and the control of <term id="A1" sem="Other">cell survival</term>.</sentence>
+<event KT="Investigation" id="E1">
+<type class="Protein_catabolism"/>
+<theme idref="T3"/>
+<clue>CD30-dependent <clueType>degradation</clueType> <linkTheme>of</linkTheme> TRAF2: implications for negative regulation of TRAF signaling and the control of cell survival.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Regulation"/>
+<theme idref="E1"/>
+<cause idref="T2"/>
+<clue>CD30-<clueType>dependent</clueType> degradation of TRAF2: implications for negative regulation of TRAF signaling and the control of cell survival.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Negative_regulation"/>
+<theme idref="T6"/>
+<clue>CD30-dependent degradation of TRAF2: implications for <clueType>negative regulation</clueType> <linkTheme>of</linkTheme> TRAF signaling and the control of cell survival.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Regulation"/>
+<theme idref="A1"/>
+<clue>CD30-dependent degradation of TRAF2: implications for negative regulation of TRAF signaling and the <clueType>control</clueType> <linkTheme>of</linkTheme> cell survival.</clue>
+</event>
+<event KT="Investigation" id="E5" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E3"/>
+<cause idref="E1"/>
+<clue>CD30-dependent degradation of TRAF2: <clueType>implications</clueType> <linkTheme>for</linkTheme> negative regulation of TRAF signaling and the control of cell survival.</clue>
+</event>
+<event KT="Investigation" id="E6" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E4"/>
+<cause idref="E1"/>
+<clue>CD30-dependent degradation of TRAF2: <clueType>implications</clueType> <linkTheme>for</linkTheme> negative regulation of TRAF signaling and the control of cell survival.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T7" lex="CD30" sem="Protein_molecule">CD30</term> is a <term id="T8" lex="cell-surface_receptor" sem="Protein_family_or_group">cell-surface receptor</term> that can augment <term id="T9" lex="lymphocyte_activation" sem="Other"><term id="A4" sem="Cell_natural">lymphocyte</term> activation</term> and survival through its ability to induce the <term id="T10" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> <term id="T11" lex="NF-kappaB" sem="Protein_complex">NF-kappaB</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E7" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="E11"/>
+<clue>CD30 is a cell-surface receptor that <clueKT><clueCL>can</clueCL></clueKT> <clueType>augment</clueType> lymphocyte activation and survival <linkCause>through</linkCause> its ability to induce the transcription factor NF-kappaB.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E8" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="E11"/>
+<clue>CD30 is a cell-surface receptor that <clueKT><clueCL>can</clueCL></clueKT> <clueType>augment</clueType> lymphocyte activation and survival <linkCause>through</linkCause> its ability to induce the transcription factor NF-kappaB.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Physiological_process"/>
+<theme idref="A4"/>
+<clue>CD30 is a cell-surface receptor that can augment lymphocyte <clueType>activation</clueType> and survival through its ability to induce the transcription factor NF-kappaB.</clue>
+</event>
+<event KT="Other" assertion="non-exist" id="E10">
+<type class="Cellular_physiological_process"/>
+<theme idref="A4"/>
+<clue>CD30 is a cell-surface receptor that can augment lymphocyte activation and <clueType>survival</clueType> through its ability to induce the transcription factor NF-kappaB.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E11" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T11"/>
+<cause idref="T7"/>
+<clue>CD30 is a cell-surface receptor that can augment lymphocyte activation and survival through its <clueKT><clueCL>ability</clueCL></clueKT> to <clueType>induce</clueType> the transcription factor NF-kappaB.</clue>
+</event>
+<sentence id="S3"><term id="T12" lex="CD30" sem="Protein_molecule">CD30</term>, however, has also been implicated in the induction of <term id="T13" lex="apoptotic_cell_death" sem="Other">apoptotic cell death</term> of <term id="T14" lex="lymphocyte" sem="Cell_natural">lymphocytes</term>.</sentence>
+<event CL="L2" KT="Analysis" Source="Other" id="E12" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="T12"/>
+<clue>CD30, however, <clueSource>has</clueSource> also <clueSource>been</clueSource> <clueKT><clueCL>implicated</clueCL></clueKT> in the <clueType>induction</clueType> <linkTheme>of</linkTheme> apoptotic cell death of lymphocytes.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Cellular_physiological_process"/>
+<theme idref="T14"/>
+<clue>CD30, however, has also been implicated in the induction of <clueType>apoptotic cell death</clueType> <linkTheme>of</linkTheme> lymphocytes.</clue>
+</event>
+<sentence id="S4">Here we show that one of the effects of <term id="T15" lex="CD30" sem="Protein_molecule">CD30</term> signal transduction is to render cells sensitive to <term id="T16" lex="apoptosis" sem="Other">apoptosis</term> induced by the <term id="T17" lex="type_1_tumor_necrosis_factor_receptor" sem="Protein_molecule">type 1 tumor necrosis factor receptor</term> (<term id="T18" lex="TNFR1" sem="Protein_molecule">TNFR1</term>).</sentence>
+<event KT="Other" id="E14">
+<type class="Cell_communication"/>
+<theme idref="T15"/>
+<clue>Here we show that one of the effects of CD30 <clueType>signal transduction</clueType> is to render cells sensitive to apoptosis induced by the type 1 tumor necrosis factor receptor (TNFR1).</clue>
+</event>
+<event KT="Analysis" id="E15" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E51"/>
+<cause idref="E14"/>
+<clue>Here we <clueKT>show</clueKT> that one of the effects of CD30 signal transduction is to <clueType>render</clueType> cells <clueType>sensitive</clueType> <linkTheme>to</linkTheme> apoptosis induced by the type 1 tumor necrosis factor receptor (TNFR1).</clue>
+</event>
+<event KT="Other" id="E51">
+<type class="Cellular_physiological_process"/>
+<theme idref="T14"/>
+<clue>Here we show that one of the effects of CD30 signal transduction is to render <corefTheme>cells</corefTheme> sensitive to <clueType>apoptosis</clueType> induced by the type 1 tumor necrosis factor receptor (TNFR1).</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T16"/>
+<cause idref="T18"/>
+<clue>Here we show that one of the effects of CD30 signal transduction is to render <clueLoc>cells</clueLoc> sensitive to apoptosis <clueType>induced</clueType> <linkCause>by</linkCause> the type 1 tumor necrosis factor receptor (TNFR1).</clue>
+</event>
+<sentence id="S5">This sensitization is dependent on the <term id="T19" lex="TRAF-binding_site" sem="Protein_domain_or_region">TRAF-binding sites</term> within the <term id="T20" lex="CD30" sem="Protein_molecule">CD30</term> <term id="T21" lex="cytoplasmic_domain" sem="Protein_domain_or_region">cytoplasmic domain</term>.</sentence>
+<event KT="Fact" id="E17">
+<type class="Regulation"/>
+<theme idref="E15"/>
+<cause idref="T19" idref1="T20" idref2="T21"/>
+<clue><corefTheme>This sensitization</corefTheme> is <clueType>dependent</clueType> <linkCause>on</linkCause> the TRAF-binding sites within the CD30 cytoplasmic domain.</clue>
+</event>
+<sentence id="S6">One of the proteins that binds to these sites is <term id="T22" lex="TRAF2" sem="Protein_molecule">TRAF2</term>, a <term id="T23" lex="signal_transduction_molecule" sem="Protein_family_or_group">signal transduction molecule</term> that is also utilized by <term id="T24" lex="TNFR1" sem="Protein_molecule">TNFR1</term> to mediate the activation of several downstream <term id="T25" lex="kinase" sem="Protein_family_or_group">kinases</term> and <term id="T26" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term>.</sentence>
+<event KT="Other" id="E18">
+<type class="Binding"/>
+<theme idref="T19"/>
+<theme idref="T22"/>
+<clue>One of the proteins that <clueType>binds</clueType> <linkTheme>to</linkTheme> <corefTheme>these sites</corefTheme> is TRAF2, a signal transduction molecule that is also utilized by TNFR1 to mediate the activation of several downstream kinases and transcription factors.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Cell_communication"/>
+<theme idref="T22"/>
+<theme idref="T24"/>
+<clue>One of the proteins that binds to these sites is TRAF2, a <clueType>signal transduction</clueType> molecule that is also <linkTheme>utilized by</linkTheme> TNFR1 to mediate the activation of several downstream kinases and transcription factors.</clue>
+</event>
+<event KT="Fact" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="E22"/>
+<cause idref="E19"/>
+<clue>One of the proteins that binds to these sites is TRAF2, a signal transduction molecule that is also utilized by TNFR1 to <clueType>mediate</clueType> the activation of several downstream kinases and transcription factors.</clue>
+</event>
+<event KT="Fact" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E23"/>
+<cause idref="E19"/>
+<clue>One of the proteins that binds to these sites is TRAF2, a signal transduction molecule that is also utilized by TNFR1 to <clueType>mediate</clueType> the activation of several downstream kinases and transcription factors.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="T25"/>
+<clue>One of the proteins that binds to these sites is TRAF2, a signal transduction molecule that is also utilized by TNFR1 to mediate the <clueType>activation</clueType> <linkTheme>of</linkTheme> several downstream kinases and transcription factors.</clue>
+</event>
+<event KT="Other" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="T26"/>
+<clue>One of the proteins that binds to these sites is TRAF2, a signal transduction molecule that is also utilized by TNFR1 to mediate the <clueType>activation</clueType> <linkTheme>of</linkTheme> several downstream kinases and transcription factors.</clue>
+</event>
+<sentence id="S7">During <term id="T27" lex="CD30_signal_transduction" sem="Other"><term id="T28" lex="CD30" sem="Protein_molecule">CD30</term> signal transduction</term>, we found that binding of <term id="T29" lex="TRAF2" sem="Protein_molecule">TRAF2</term> to the <term id="T30" lex="cytoplasmic_domain" sem="Protein_domain_or_region">cytoplasmic domain</term> of <term id="T31" lex="CD30" sem="Protein_molecule">CD30</term> results in the rapid depletion of <term id="T32" lex="TRAF2" sem="Protein_molecule">TRAF2</term> and the associated protein <term id="T33" lex="TRAF1" sem="Protein_molecule">TRAF1</term> by proteolysis.</sentence>
+<event id="E24">
+<type class="Cell_communication"/>
+<theme idref="T28"/>
+<clue>During CD30 <clueType>signal transduction</clueType>, we found that binding of TRAF2 to the cytoplasmic domain of CD30 results in the rapid depletion of TRAF2 and the associated protein TRAF1 by proteolysis.</clue>
+</event>
+<event id="E25">
+<type class="Correlation"/>
+<theme idref="E24"/>
+<cause idref="E28"/>
+<clue><linkTheme>During</linkTheme> CD30 signal transduction, we found that binding of TRAF2 to the cytoplasmic domain of CD30 results in the rapid depletion of TRAF2 and the associated protein TRAF1 by proteolysis.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E26">
+<type class="Correlation"/>
+<theme idref="E24"/>
+<cause idref="E29"/>
+<clue><linkTheme>During</linkTheme> CD30 signal transduction, we found that binding of TRAF2 to the cytoplasmic domain of CD30 results in the rapid depletion of TRAF2 and the associated protein TRAF1 by proteolysis.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E27">
+<type class="Binding"/>
+<theme idref="T29"/>
+<theme idref="T31"/>
+<clue>During CD30 signal transduction, we found that <clueType>binding</clueType> <linkTheme>of</linkTheme> TRAF2 <linkTheme>to</linkTheme> the <clueLoc>cytoplasmic</clueLoc> domain of CD30 results in the rapid depletion of TRAF2 and the associated protein TRAF1 by proteolysis.</clue>
+</event>
+<event id="E28">
+<type class="Positive_regulation"/>
+<theme idref="E30"/>
+<cause idref="E27"/>
+<clue>During CD30 signal transduction, we <clueKT>found</clueKT> that binding of TRAF2 to the cytoplasmic domain of CD30 <clueType>results</clueType> <linkTheme>in</linkTheme> the rapid depletion of TRAF2 and the associated protein TRAF1 by proteolysis.</clue>
+</event>
+<event id="E29">
+<type class="Positive_regulation"/>
+<theme idref="E31"/>
+<cause idref="E27"/>
+<clue>During CD30 signal transduction, we <clueKT>found</clueKT> that binding of TRAF2 to the cytoplasmic domain of CD30 <clueType>results</clueType> <linkTheme>in</linkTheme> the rapid depletion of TRAF2 and the associated protein TRAF1 by proteolysis.</clue>
+</event>
+<event Manner="High" id="E30">
+<type class="Protein_catabolism"/>
+<theme idref="T32"/>
+<clue>During CD30 signal transduction, we found that binding of TRAF2 to the cytoplasmic domain of CD30 results in the <clueManner>rapid</clueManner> <clueType>depletion</clueType> <linkTheme>of</linkTheme> TRAF2 and the associated protein TRAF1 <clueType>by proteolysis</clueType>.</clue>
+</event>
+<event Manner="High" id="E31">
+<type class="Protein_catabolism"/>
+<theme idref="T33"/>
+<clue>During CD30 signal transduction, we found that binding of TRAF2 to the cytoplasmic domain of CD30 results in the <clueManner>rapid</clueManner> <clueType>depletion</clueType> <linkTheme>of</linkTheme> TRAF2 and the associated protein TRAF1 <clueType>by proteolysis</clueType>.</clue>
+</event>
+<sentence id="S8">These data suggest a model in which <term id="T34" lex="CD30" sem="Protein_molecule">CD30</term> limits its own ability to transduce <term id="A2" sem="Other">cell survival signals</term> through <term id="T35" lex="signal-coupled_depletion" sem="Other">signal-coupled depletion</term> of <term id="T36" lex="TRAF2" sem="Protein_molecule">TRAF2</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E32" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="E33"/>
+<cause idref="E34"/>
+<clue>These data <clueKT><clueCL>suggest</clueCL></clueKT> a model in which CD30 <clueType>limits</clueType> its own ability to transduce cell survival signals <linkCause>through</linkCause> signal-coupled depletion of TRAF2.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E33" uncertainty="probable">
+<type class="Cell_communication"/>
+<theme idref="A2"/>
+<theme idref="T34"/>
+<clue>These data suggest a model in which CD30 limits its own <clueKT><clueCL>ability</clueCL></clueKT> to <clueType>transduce</clueType> cell survival signals through signal-coupled depletion of TRAF2.</clue>
+</event>
+<event KT="Other" id="E34">
+<type class="Negative_regulation"/>
+<theme idref="T36"/>
+<clue>These data suggest a model in which CD30 limits its own ability to transduce cell survival signals through signal-coupled <clueType>depletion</clueType> <linkTheme>of</linkTheme> TRAF2.</clue>
+</event>
+<event KT="Other" id="E35">
+<type class="Correlation"/>
+<theme idref="A2"/>
+<theme idref="E34"/>
+<clue>These data suggest a model in which CD30 limits its own ability to transduce cell survival signals through signal-<clueType>coupled</clueType> depletion of TRAF2.</clue>
+</event>
+<sentence id="S9">Depletion of intracellular <term id="T37" lex="TRAF2" sem="Protein_molecule">TRAF2</term> and its <term id="T38" lex="coassociated_protein" sem="Protein_family_or_group">coassociated proteins</term> also increased the sensitivity of the cell to undergoing <term id="T39" lex="apoptosis" sem="Other">apoptosis</term> during activation of <term id="T40" lex="death-inducing_receptor" sem="Protein_family_or_group">death-inducing receptors</term> such as <term id="T41" lex="TNFR1" sem="Protein_molecule">TNFR1</term>.</sentence>
+<event id="E36">
+<type class="Negative_regulation"/>
+<theme idref="T37"/>
+<clue><clueType>Depletion</clueType> <linkTheme>of</linkTheme> <clueLoc>intracellular</clueLoc> TRAF2 and its coassociated proteins also increased the sensitivity of the cell to undergoing apoptosis during activation of death-inducing receptors such as TNFR1.</clue>
+</event>
+<event id="E37">
+<type class="Negative_regulation"/>
+<theme idref="T38"/>
+<clue><clueType>Depletion</clueType> <linkTheme>of</linkTheme> intracellular TRAF2 and its coassociated proteins also increased the sensitivity of the cell to undergoing apoptosis during activation of death-inducing receptors such as TNFR1.</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation"/>
+<theme idref="E48"/>
+<cause idref="E36"/>
+<clue>Depletion of intracellular TRAF2 and its coassociated proteins also <clueType>increased the sensitivity</clueType> <linkTheme>of</linkTheme> the cell to undergoing apoptosis during activation of death-inducing receptors such as TNFR1.</clue>
+</event>
+<event id="E39">
+<type class="Positive_regulation"/>
+<theme idref="E48"/>
+<cause idref="E37"/>
+<clue>Depletion of intracellular TRAF2 and its coassociated proteins also <clueType>increased the sensitivity</clueType> <linkTheme>of</linkTheme> the cell to undergoing apoptosis during activation of death-inducing receptors such as TNFR1.</clue>
+</event>
+<event id="E48">
+<type class="Cellular_physiological_process"/>
+<theme idref="T14"/>
+<clue>Depletion of intracellular TRAF2 and its coassociated proteins also increased the sensitivity of <corefTheme>the cell</corefTheme> to <clueType>undergoing apoptosis</clueType> during activation of death-inducing receptors such as TNFR1.</clue>
+</event>
+<event id="E40">
+<type class="Correlation"/>
+<theme idref="E38"/>
+<theme idref="E42"/>
+<clue>Depletion of intracellular TRAF2 and its coassociated proteins also increased the sensitivity of the cell to undergoing apoptosis <linkTheme>during</linkTheme> activation of death-inducing receptors such as TNFR1.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E41">
+<type class="Correlation"/>
+<theme idref="E39"/>
+<theme idref="E42"/>
+<clue>Depletion of intracellular TRAF2 and its coassociated proteins also increased the sensitivity of the cell to undergoing apoptosis <linkTheme>during</linkTheme> activation of death-inducing receptors such as TNFR1.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E42">
+<type class="Positive_regulation"/>
+<theme idref="T41"/>
+<clue>Depletion of intracellular TRAF2 and its coassociated proteins also increased the sensitivity of the cell to undergoing apoptosis during <clueType>activation</clueType> <linkTheme>of</linkTheme> <corefTheme>death-inducing receptors</corefTheme> such as TNFR1.</clue>
+</event>
+<sentence id="S10">Consistent with this hypothesis, expression of a <term id="T42" lex="dominant-negative_form" sem="Protein_family_or_group">dominant-negative form</term> of <term id="T43" lex="TRAF2" sem="Protein_molecule">TRAF2</term> was found to potentiate <term id="T45" lex="TNFR1" sem="Protein_molecule">TNFR1</term>-mediated <term id="A5" sem="Other">death</term>.</sentence>
+<event id="E43">
+<type class="Gene_expression"/>
+<theme idref="T42" idref1="T43"/>
+<clue>Consistent with this hypothesis, <clueType>expression</clueType> <linkTheme>of</linkTheme> a dominant-negative form of TRAF2 was found to potentiate TNFR1-mediated death.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E44">
+<type class="Positive_regulation"/>
+<theme idref="E45"/>
+<cause idref="E43"/>
+<clue>Consistent with this hypothesis, expression of a dominant-negative form of TRAF2 was found to <clueType><clueKT><clueCL>potentiate</clueCL></clueKT></clueType> TNFR1-mediated death.</clue>
+</event>
+<event KT="Other" id="E45">
+<type class="Positive_regulation"/>
+<theme idref="A5"/>
+<cause idref="T45"/>
+<clue>Consistent with this hypothesis, expression of a dominant-negative form of TRAF2 was found to potentiate TNFR1-<clueType>mediated</clueType> death.</clue>
+</event>
+<sentence id="S11">These studies provide a potential mechanism through which <term id="T46" lex="CD30" sem="Protein_molecule">CD30</term>, as well as other <term id="T47" lex="TRAF-binding_member" sem="Protein_family_or_group">TRAF-binding members</term> of the <term id="T48" lex="TNFR_superfamily" sem="Protein_family_or_group">TNFR superfamily</term>, can negatively regulate <term id="A3" sem="Other">cell survival</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E46" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="A3"/>
+<cause idref="T46"/>
+<clue>These studies provide a <clueKT>potential</clueKT> mechanism through which CD30, as well as other TRAF-binding members of the TNFR superfamily, <clueCL>can</clueCL> <clueType>negatively regulate</clueType> cell survival.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E47" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="A3"/>
+<cause idref="T47"/>
+<clue>These studies provide a <clueKT>potential</clueKT> mechanism through which CD30, as well as other TRAF-binding members of the TNFR superfamily, <clueCL>can</clueCL> <clueType>negatively regulate</clueType> cell survival.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

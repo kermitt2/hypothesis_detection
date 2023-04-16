@@ -1,0 +1,18 @@
+T13	Adverse_effect 20 27	induced
+T15	Potential_therapeutic_effect 189 195	placed
+T16	Adverse_effect 276 285	developed
+T27	Potential_therapeutic_effect 714 722	resolved
+R1	Subject_Disorder Arg1:T12 Arg2:T3
+R2	Subject_Disorder Arg1:T14 Arg2:T4
+R4	Subject_Disorder Arg1:T23 Arg2:T17
+R5	Subject_Disorder Arg1:T23 Arg2:T18
+R6	Subject_Disorder Arg1:T23 Arg2:T19
+R12	Subject_Disorder Arg1:T28 Arg2:T21
+R13	Subject_Disorder Arg1:T28 Arg2:T7
+E1	Adverse_effect:T13 has_agent:T1 affects:T2 has_subject:T12
+E2	Potential_therapeutic_effect:T15 has_agent:T5 has_subject:T14
+E3	Adverse_effect:T16 affects:T6 has_agent:T5 has_subject:T14
+E5	Potential_therapeutic_effect:T27 has_agent:T10 affects:T11 affects:T20 has_subject:T8
+R3	Coreference Arg1:T23 Arg2:T14	
+R7	Coreference Arg1:T28 Arg2:T14	
+R8	Coreference Arg1:T8 Arg2:T14	

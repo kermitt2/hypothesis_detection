@@ -1,0 +1,149 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9291089" created="07/04/03" creator="Yumiko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9291089</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="transcriptional_regulation" sem="Other">Transcriptional regulation</term> during <term id="T2" lex="myelopoiesis" sem="Other">myelopoiesis</term>.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The coordinated production of all <term id="T3" lex="blood_cell" sem="Cell_natural">blood cells</term> from a <term id="T4" lex="common_stem_cell" sem="Cell_natural">common stem cell</term> is a highly regulated process involving <term id="A1" sem="Other">successive stages of commitment and differentiation</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Cell_differentiation"/>
+<theme idref="T4"/>
+<theme idref="T3"/>
+<clue>The coordinated <clueType>production</clueType> <linkTheme>of</linkTheme> all blood cells <linkTheme>from</linkTheme> a common stem cell is a highly regulated process involving successive stages of commitment and differentiation.</clue>
+</event>
+<event KT="Fact" id="E2">
+<type class="Regulation"/>
+<theme idref="E1"/>
+<cause idref="A1"/>
+<clue>The coordinated production of all blood cells from a common stem cell is a highly <clueType>regulated</clueType> process <linkCause>involving</linkCause> successive stages of commitment and differentiation.</clue>
+<comment>TPS A1</comment></event>
+<sentence id="S3">From analyses of <term id="T5" lex="mouse" sem="Multicellular_organism_natural">mice</term> deficient in <term id="T6" lex="transcription_factor_gene" sem="DNA_family_or_group">transcription factor genes</term> and from the characterizations of <term id="T7" lex="chromosome_breakpoint" sem="DNA_domain_or_region">chromosome breakpoints</term> in <term id="T8" lex="human_leukemia" sem="Other">human leukemias</term>, it has become evident that <term id="T9" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term> are important regulators of <term id="T10" lex="hematopoiesis" sem="Other">hematopoiesis</term>.</sentence>
+<event KT="Investigation" id="E3">
+<type class="Mutagenesis"/>
+<theme idref="T6"/>
+<clue>From <clueKT>analyses</clueKT> of <clueLoc>mice</clueLoc> <clueType>deficient</clueType> <linkTheme>in</linkTheme> transcription factor genes and from the characterizations of chromosome breakpoints in human leukemias, it has become evident that transcription factors are important regulators of hematopoiesis.</clue>
+</event>
+<event KT="Analysis" id="E4">
+<type class="Regulation"/>
+<theme idref="T10"/>
+<cause idref="T9"/>
+<clue><clueExperiment>From analyses of mice deficient in transcription factor genes and from the characterizations of chromosome breakpoints in human leukemias</clueExperiment>, it has become <clueKT>evident</clueKT> that transcription factors are important <clueType>regulators</clueType> <linkTheme>of</linkTheme> hematopoiesis.</clue>
+</event>
+<sentence id="S4">During myelopoiesis, which includes the development of <cons id="T11" lex="(AND granulocytic_lineage monocytic_lineage)" sem="(AND Cell_natural Cell_natural)"><frag id="F1"><term id="A2" sem="Cell_natural">granulocytic</term></frag> and <frag id="F2"><term id="A3" sem="Cell_natural">monocytic</term></frag> <frag id="F3"><term id="A4" sem="Cell_natural">lineages</term></frag></cons>, <term id="T12" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term> from several families are active, including <term id="T13" lex="AML1/CBF_beta" sem="DNA_family_or_group">AML1/CBF beta</term>, <term id="T14" lex="C/EBP" sem="DNA_family_or_group">C/EBP</term>, <term id="T15" lex="Ets" sem="DNA_family_or_group">Ets</term>, <term id="T16" lex="c-Myb" sem="DNA_family_or_group">c-Myb</term>, <term id="T17" lex="HOX" sem="DNA_family_or_group">HOX</term>, and <term id="T18" lex="MZF-1" sem="DNA_family_or_group">MZF-1</term>.</sentence>
+<event KT="Other" id="E5">
+<type class="Cell_differentiation"/>
+<theme idref="A2" idref1="A4"/>
+<clue>During myelopoiesis, which includes the <clueType>development</clueType> <linkTheme>of</linkTheme> granulocytic and monocytic lineages, transcription factors from several families are active, including AML1/CBF beta, C/EBP, Ets, c-Myb, HOX, and MZF-1.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Cell_differentiation"/>
+<theme idref="A3" idref1="A4"/>
+<clue>During myelopoiesis, which includes the <clueType>development</clueType> <linkTheme>of</linkTheme> granulocytic and monocytic lineages, transcription factors from several families are active, including AML1/CBF beta, C/EBP, Ets, c-Myb, HOX, and MZF-1.</clue>
+</event>
+<event KT="Fact" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T13"/>
+<clue><clueTime>During myelopoiesis, which includes the development of granulocytic and monocytic lineages</clueTime>, <corefTheme>transcription factors</corefTheme> from several families are <clueType>active</clueType>, including AML1/CBF beta, C/EBP, Ets, c-Myb, HOX, and MZF-1.</clue>
+</event>
+<event KT="Fact" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T14"/>
+<clue><clueTime>During myelopoiesis, which includes the development of granulocytic and monocytic lineages</clueTime>, <corefTheme>transcription factors</corefTheme> from several families are <clueType>active</clueType>, including AML1/CBF beta, C/EBP, Ets, c-Myb, HOX, and MZF-1.</clue>
+</event>
+<event KT="Fact" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="T15"/>
+<clue><clueTime>During myelopoiesis, which includes the development of granulocytic and monocytic lineages</clueTime>, <corefTheme>transcription factors</corefTheme> from several families are <clueType>active</clueType>, including AML1/CBF beta, C/EBP, Ets, c-Myb, HOX, and MZF-1.</clue>
+</event>
+<event KT="Fact" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="T16"/>
+<clue><clueTime>During myelopoiesis, which includes the development of granulocytic and monocytic lineages</clueTime>, <corefTheme>transcription factors</corefTheme> from several families are <clueType>active</clueType>, including AML1/CBF beta, C/EBP, Ets, c-Myb, HOX, and MZF-1.</clue>
+</event>
+<event KT="Fact" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="T17"/>
+<clue><clueTime>During myelopoiesis, which includes the development of granulocytic and monocytic lineages</clueTime><clueTime />, <corefTheme>transcription factors</corefTheme> from several families are <clueType>active</clueType>, including AML1/CBF beta, C/EBP, Ets, c-Myb, HOX, and MZF-1.</clue>
+</event>
+<event KT="Fact" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="T18"/>
+<clue><clueTime>During myelopoiesis, which includes the development of granulocytic and monocytic lineages</clueTime>, <corefTheme>transcription factors</corefTheme> from several families are <clueType>active</clueType>, including AML1/CBF beta, C/EBP, Ets, c-Myb, HOX, and MZF-1.</clue>
+</event>
+<sentence id="S5">Few of these factors are expressed exclusively in <term id="T19" lex="myeloid_cell" sem="Cell_natural">myeloid cells</term>; instead it appears that they cooperatively regulate transcription of <term id="T20" lex="myeloid-specific_gene" sem="DNA_family_or_group">myeloid-specific genes</term>.</sentence>
+<event KT="Fact" id="E13">
+<type class="Gene_expression"/>
+<theme idref="T13"/>
+<clue><corefTheme>Few of these factors</corefTheme> are <clueType>expressed</clueType> exclusively <clueLoc>in myeloid cells</clueLoc>; instead it appears that they cooperatively regulate transcription of myeloid-specific genes.</clue>
+</event>
+<event KT="Fact" id="E14">
+<type class="Gene_expression"/>
+<theme idref="T14"/>
+<clue><corefTheme>Few of these factors</corefTheme> are <clueType>expressed</clueType> exclusively <clueLoc>in myeloid cells</clueLoc>; instead it appears that they cooperatively regulate transcription of myeloid-specific genes.</clue>
+</event>
+<event KT="Fact" id="E15">
+<type class="Gene_expression"/>
+<theme idref="T15"/>
+<clue><corefTheme>Few of these factors</corefTheme> are <clueType>expressed</clueType> exclusively <clueLoc>in myeloid cells</clueLoc>; instead it appears that they cooperatively regulate transcription of myeloid-specific genes.</clue>
+</event>
+<event KT="Fact" id="E16">
+<type class="Gene_expression"/>
+<theme idref="T16"/>
+<clue><corefTheme>Few of these factors</corefTheme> are <clueType>expressed</clueType> exclusively <clueLoc>in myeloid cells</clueLoc>; instead it appears that they cooperatively regulate transcription of myeloid-specific genes.</clue>
+</event>
+<event KT="Fact" id="E17">
+<type class="Gene_expression"/>
+<theme idref="T17"/>
+<clue><corefTheme>Few of these factors</corefTheme> are <clueType>expressed</clueType> exclusively <clueLoc>in myeloid cells</clueLoc>; instead it appears that they cooperatively regulate transcription of myeloid-specific genes.</clue>
+</event>
+<event KT="Fact" id="E18">
+<type class="Gene_expression"/>
+<theme idref="T18"/>
+<clue><corefTheme>Few of these factors</corefTheme> are <clueType>expressed</clueType> exclusively <clueLoc>in myeloid cells</clueLoc>; instead it appears that they cooperatively regulate transcription of myeloid-specific genes.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Transcription"/>
+<theme idref="T20"/>
+<clue>Few of these factors are expressed exclusively <clueLoc>in myeloid cells</clueLoc>; instead it appears that they cooperatively regulate <clueType>transcription</clueType> <linkTheme>of</linkTheme> myeloid-specific genes.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E20">
+<type class="Regulation"/>
+<theme idref="E19"/>
+<cause idref="T13"/>
+<clue>Few of these factors are expressed exclusively <clueLoc>in myeloid cells</clueLoc>; instead it <clueKT><clueCL>appears</clueCL></clueKT> that <corefCause>they</corefCause> cooperatively <clueType>regulate</clueType> transcription of myeloid-specific genes.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E21">
+<type class="Regulation"/>
+<theme idref="E19"/>
+<cause idref="T14"/>
+<clue>Few of these factors are expressed exclusively <clueLoc>in myeloid cells</clueLoc>; instead it <clueKT><clueCL>appears</clueCL></clueKT> that <corefCause>they</corefCause> cooperatively <clueType>regulate</clueType> transcription of myeloid-specific genes.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E22">
+<type class="Regulation"/>
+<theme idref="E19"/>
+<cause idref="T15"/>
+<clue>Few of these factors are expressed exclusively <clueLoc>in myeloid cells</clueLoc>; instead it <clueKT><clueCL>appears</clueCL></clueKT> that <corefCause>they</corefCause> cooperatively <clueType>regulate</clueType> transcription of myeloid-specific genes.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E23">
+<type class="Regulation"/>
+<theme idref="E19"/>
+<cause idref="T16"/>
+<clue>Few of these factors are expressed exclusively <clueLoc>in myeloid cells</clueLoc>; instead it <clueKT><clueCL>appears</clueCL></clueKT> that <corefCause>they</corefCause> cooperatively <clueType>regulate</clueType> transcription of myeloid-specific genes.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E24">
+<type class="Regulation"/>
+<theme idref="E19"/>
+<cause idref="T17"/>
+<clue>Few of these factors are expressed exclusively <clueLoc>in myeloid cells</clueLoc>; instead it <clueKT><clueCL>appears</clueCL></clueKT> that <corefCause>they</corefCause> cooperatively <clueType>regulate</clueType> transcription of myeloid-specific genes.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E25">
+<type class="Regulation"/>
+<theme idref="E19"/>
+<cause idref="T18"/>
+<clue>Few of these factors are expressed exclusively <clueLoc>in myeloid cells</clueLoc>; instead it <clueKT><clueCL>appears</clueCL></clueKT> that <corefCause>they</corefCause> cooperatively <clueType>regulate</clueType> transcription of myeloid-specific genes.</clue>
+</event>
+<sentence id="S6">Here we discuss recent advances in <term id="T21" lex="transcriptional_regulation" sem="Other">transcriptional regulation</term> during <term id="T22" lex="myelopoiesis" sem="Other">myelopoiesis</term>.</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

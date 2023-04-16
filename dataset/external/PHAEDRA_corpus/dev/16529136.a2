@@ -1,0 +1,11 @@
+T6	DDI 38 50	interactions
+T20	DDI 743 755	interactions
+T21	Potential_therapeutic_effect 143 151	activity
+T23	Adverse_effect 559 570	precipitate
+R1	is_equivalent Arg1:T5 Arg2:T7
+R2	is_equivalent Arg1:T10 Arg2:T11
+E1	DDI:T6 has_participant:T16 has_participant:T17 has_cue:T12
+E3	DDI:T20 has_participant:T19 has_participant:T10
+E4	Potential_therapeutic_effect:T21 affects:T14 has_agent:T2
+E5	Adverse_effect:T23 has_agent:T5 affects:T8 affects2:T9
+A1	Speculated E1

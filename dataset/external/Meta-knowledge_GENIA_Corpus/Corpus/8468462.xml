@@ -1,0 +1,435 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8468462" created="31/10/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8468462</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Costimulation of <term id="T1" lex="peripheral_blood_T_cell_activation" sem="Other"><term id="T2" lex="peripheral_blood_T_cell" sem="Cell_natural">peripheral blood T cell</term> activation</term> by <term id="T3" lex="human_endothelial_cell" sem="Cell_natural">human <term id="T4" lex="endothelial_cell" sem="Cell_natural">endothelial cells</term></term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Physiological_process"/>
+<theme idref="T2"/>
+<clue>Costimulation of peripheral blood T cell <clueType>activation</clueType> by human endothelial cells.</clue>
+</event>
+<event KT="Investigation" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T3"/>
+<clue><clueType>Costimulation</clueType> <linkTheme>of</linkTheme> peripheral blood T cell activation <linkCause>by</linkCause> human endothelial cells.</clue>
+</event>
+<sentence id="S2">Enhanced <term id="T5" lex="IL-2_transcription" sem="Other"><term id="T6" lex="IL-2" sem="Protein_molecule">IL-2</term> transcription</term> correlates with increased <term id="T7" lex="c-fos_synthesis" sem="Other"><term id="T8" lex="c-fos" sem="Protein_molecule">c-fos</term> synthesis</term> and increased <term id="T9" lex="Fos_content" sem="Other"><term id="T10" lex="Fos" sem="Protein_molecule">Fos</term> content</term> of <term id="T11" lex="AP-1" sem="Protein_complex">AP-1</term>.</sentence>
+<event KT="Other" id="E3">
+<type class="Transcription"/>
+<theme idref="T6"/>
+<clue>Enhanced IL-2 <clueType>transcription</clueType> correlates with increased c-fos synthesis and increased Fos content of AP-1.</clue>
+<comment>NER T11 MOD</comment></event>
+<event KT="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<clue><clueType>Enhanced</clueType> IL-2 transcription correlates with increased c-fos synthesis and increased Fos content of AP-1.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Translation"/>
+<theme idref="T8"/>
+<clue>Enhanced IL-2 transcription correlates with increased c-fos <clueType>synthesis</clueType> and increased Fos content of AP-1.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<clue>Enhanced IL-2 transcription correlates with <clueType>increased</clueType> c-fos synthesis and increased Fos content of AP-1.</clue>
+</event>
+<event KT="Other" id="E106">
+<type class="Binding"/>
+<theme idref="T10"/>
+<clue>Enhanced IL-2 transcription correlates with increased c-fos synthesis and increased Fos <clueType>content of AP-1</clueType>.</clue>
+<comment>CAUTION: content of = complex formation</comment></event>
+<event KT="Other" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<clue>Enhanced IL-2 transcription correlates with increased c-fos synthesis and <clueType>increased</clueType> Fos content of AP-1.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="T11"/>
+<clue>Enhanced IL-2 transcription correlates with increased c-fos synthesis and <clueType>increased</clueType> Fos content of AP-1.</clue>
+</event>
+<event KT="Analysis" id="E8">
+<type class="Correlation"/>
+<theme idref="E4"/>
+<theme idref="E6"/>
+<clue>Enhanced IL-2 transcription <clueType><clueKT>correlates</clueKT></clueType> <linkTheme>with</linkTheme> increased c-fos synthesis and increased Fos content of AP-1.</clue>
+</event>
+<event KT="Analysis" id="E9">
+<type class="Correlation"/>
+<theme idref="E4"/>
+<theme idref="E8"/>
+<clue>Enhanced IL-2 transcription <clueType><clueKT>correlates</clueKT></clueType> <linkTheme>with</linkTheme> increased c-fos synthesis and increased Fos content of AP-1.</clue>
+</event>
+<event KT="Analysis" id="E11">
+<type class="Correlation"/>
+<theme idref="E4"/>
+<theme idref="E10"/>
+<clue>Enhanced IL-2 transcription <clueType><clueKT>correlates</clueKT></clueType> <linkTheme>with</linkTheme> increased c-fos synthesis and increased Fos content of AP-1.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3"><term id="T12" lex="endothelial_cell" sem="Cell_natural">Endothelial cells</term> (<term id="T13" lex="EC" sem="Cell_natural">EC</term>) act as <term id="T14" lex="APC" sem="Cell_natural">APC</term> for <term id="T15" lex="resting_PBL" sem="Cell_natural">resting <term id="T16" lex="PBL" sem="Cell_natural">PBL</term></term> in vitro, and may have important roles in vivo in the pathogenesis of <term id="T17" lex="allograft_rejection" sem="Other">allograft rejection</term> and <term id="T18" lex="delayed_hypersensitivity" sem="Other">delayed hypersensitivity</term>.</sentence>
+<event KT="Fact" id="E12">
+<type class="Physiological_process"/>
+<theme idref="T15"/>
+<theme idref="T13"/>
+<clue>Endothelial cells (EC) <clueType>act as APC</clueType> <linkTheme>for</linkTheme> resting PBL in vitro, and may have important roles in vivo in the pathogenesis of allograft rejection and delayed hypersensitivity.</clue>
+<comment>NER T14 MOD</comment></event>
+<event CL="L1" KT="Analysis" id="E13">
+<type class="Regulation"/>
+<theme idref="T17"/>
+<cause idref="E12"/>
+<clue>Endothelial cells (EC) act as APC for resting PBL in vitro, and <clueKT><clueCL>may</clueCL></clueKT> <clueType>have important roles</clueType> in vivo <linkTheme>in</linkTheme> the pathogenesis of allograft rejection and delayed hypersensitivity.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E14">
+<type class="Regulation"/>
+<theme idref="T18"/>
+<cause idref="E12"/>
+<clue>Endothelial cells (EC) act as APC for resting PBL in vitro, and <clueKT><clueCL>may</clueCL></clueKT> <clueType>have important roles</clueType> in vivo <linkTheme>in</linkTheme> the pathogenesis of allograft rejection and delayed hypersensitivity.</clue>
+</event>
+<sentence id="S4">We previously reported that <term id="T19" lex="human_umbilical_vein_EC" sem="Cell_natural">human umbilical vein <term id="T20" lex="EC" sem="Cell_natural">EC</term></term> provide costimulatory signals to <term id="T21" lex="PHA-stimulated_PBL" sem="Cell_natural"><term id="A1" sem="Protein_molecule">PHA</term>-stimulated <term id="T22" lex="PBL" sem="Cell_natural">PBL</term></term> via <term id="A2" sem="Protein_molecule">CD2</term>:<term id="T23" lex="CD2:lymphocyte_function-associated_Ag-3" sem="Protein_molecule">lymphocyte function-associated Ag-3</term> and an <term id="T24" lex="unidentified_ligand_pair" sem="Other"><term id="A3" sem="Other">unidentified ligand</term> pair</term>, resulting in a three- to eight-fold enhancement of <term id="T25" lex="IL-2_production" sem="Other"><term id="T26" lex="IL-2" sem="Protein_molecule">IL-2</term> production</term>.</sentence>
+<event KT="Other" id="E15">
+<type class="Binding"/>
+<theme idref="A2"/>
+<theme idref="T23"/>
+<clue>We previously reported that human umbilical vein EC provide costimulatory signals to PHA-stimulated PBL via CD2:lymphocyte function-associated Ag-3 and an unidentified ligand pair, resulting in a three- to eight-fold enhancement of IL-2 production.</clue>
+<comment>NO CLUETYPE, NER T23 MOD</comment></event>
+<event KT="Other" Polarity="Negative" id="E16">
+<type class="Binding"/>
+<theme idref="A2"/>
+<theme idref="A3"/>
+<clue>We previously reported that human umbilical vein EC provide costimulatory signals to PHA-stimulated PBL via CD2:lymphocyte function-associated Ag-3 and an unidentified ligand <clueType>pair</clueType>, resulting in a three- to eight-fold enhancement of IL-2 production.</clue>
+<comment>OK</comment></event>
+<event KT="Analysis" Source="Other" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="T19"/>
+<clue>We <clueSource>previously</clueSource> <clueKT>reported</clueKT> that human umbilical vein EC <clueType>provide costimulatory signals</clueType> to PHA-stimulated PBL <linkTheme>via</linkTheme> CD2:lymphocyte function-associated Ag-3 and an unidentified ligand pair, resulting in a three- to eight-fold enhancement of IL-2 production.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<cause idref="T19"/>
+<clue>We <clueSource>previously</clueSource> <clueKT>reported</clueKT> that human umbilical vein EC <clueType>provide costimulatory signals</clueType> to PHA-stimulated PBL <linkTheme>via</linkTheme> CD2:lymphocyte function-associated Ag-3 and an unidentified ligand pair, resulting in a three- to eight-fold enhancement of IL-2 production.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="T21"/>
+<cause idref="E17"/>
+<clue>We <clueSource>previously</clueSource> <clueKT>reported</clueKT> that human umbilical vein EC <clueType>provide costimulatory signals</clueType> <linkTheme>to</linkTheme> PHA-stimulated PBL <linkCause>via</linkCause> CD2:lymphocyte function-associated Ag-3 and an unidentified ligand pair, resulting in a three- to eight-fold enhancement of IL-2 production.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="T21"/>
+<cause idref="E18"/>
+<clue>We <clueSource>previously</clueSource> <clueKT>reported</clueKT> that human umbilical vein EC <clueType>provide costimulatory signals</clueType> <linkTheme>to</linkTheme> PHA-stimulated PBL <linkCause>via</linkCause> CD2:lymphocyte function-associated Ag-3 and an unidentified ligand pair, resulting in a three- to eight-fold enhancement of IL-2 production.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Physiological_process"/>
+<theme idref="T22"/>
+<cause idref="A1"/>
+<clue>We previously reported that human umbilical vein EC provide costimulatory signals to PHA-<clueType>stimulated</clueType> PBL via CD2:lymphocyte function-associated Ag-3 and an unidentified ligand pair, resulting in a three- to eight-fold enhancement of IL-2 production.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Gene_expression"/>
+<theme idref="T26"/>
+<clue>We previously reported that human umbilical vein EC provide costimulatory signals to PHA-stimulated PBL via CD2:lymphocyte function-associated Ag-3 and an unidentified ligand pair, resulting in a three- to eight-fold enhancement of IL-2 <clueType>production</clueType>.</clue>
+</event>
+<event KT="Other" Manner="High" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="E22"/>
+<cause idref="E19"/>
+<cause idref="E20"/>
+<clue>We previously reported that human umbilical vein EC provide costimulatory signals to PHA-stimulated PBL via CD2:lymphocyte function-associated Ag-3 and an unidentified ligand pair, <clueType>resulting in</clueType> a <clueManner>three- to eight-fold</clueManner> <clueType>enhancement</clueType> <linkTheme>of</linkTheme> IL-2 production.</clue>
+</event>
+<event KT="Other" Manner="High" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E22"/>
+<cause idref="E19"/>
+<cause idref="E21"/>
+<clue>We previously reported that human umbilical vein EC provide costimulatory signals to PHA-stimulated PBL via CD2:lymphocyte function-associated Ag-3 and an unidentified ligand pair, <clueType>resulting in</clueType> a <clueManner>three- to eight-fold</clueManner> <clueType>enhancement</clueType> <linkTheme>of</linkTheme> IL-2 production.</clue>
+</event>
+<sentence id="S5">The physiologic relevance of this increase was demonstrated by the proliferative advantage provided by <term id="T27" lex="EC" sem="Cell_natural">EC</term> to <term id="T28" lex="PBL" sem="Cell_natural">PBL</term> suboptimally stimulated with <term id="T29" lex="mAb_OKT3" sem="Protein_molecule">mAb OKT3</term>.</sentence>
+<event KT="Other" id="E25">
+<type class="Physiological_process"/>
+<theme idref="T27"/>
+<cause idref="T29"/>
+<clue>The physiologic relevance of this increase was demonstrated by the proliferative advantage provided by EC to PBL suboptimally <clueType>stimulated</clueType> <linkCause>with</linkCause> mAb OKT3.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Cellular_physiological_process"/>
+<theme idref="T28"/>
+<clue>The physiologic relevance of this increase was demonstrated by the <clueType>proliferative</clueType> advantage provided by EC to PBL suboptimally stimulated with mAb OKT3.</clue>
+</event>
+<event KT="Other" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="E26"/>
+<cause idref="E25"/>
+<clue>The physiologic relevance of this increase was demonstrated by the proliferative <clueType>advantage</clueType> <linkCause>provided by</linkCause> EC <linkTheme>to</linkTheme> PBL suboptimally stimulated with mAb OKT3.</clue>
+</event>
+<event KT="Analysis" id="E28">
+<type class="Regulation"/>
+<cause idref="E23"/>
+<clue>The physiologic <clueType>relevance</clueType> <linkCause>of</linkCause> <corefCause>this increase</corefCause> was <clueKT>demonstrated</clueKT> by the proliferative advantage provided by EC to PBL suboptimally stimulated with mAb OKT3.</clue>
+</event>
+<event KT="Analysis" id="E29">
+<type class="Regulation"/>
+<cause idref="E24"/>
+<clue>The physiologic <clueType>relevance</clueType> <linkCause>of</linkCause> <corefCause>this increase</corefCause> was <clueKT>demonstrated</clueKT> by the proliferative advantage provided by EC to PBL suboptimally stimulated with mAb OKT3.</clue>
+</event>
+<sentence id="S6">We now report that <term id="T30" lex="EC" sem="Cell_natural">EC</term> costimulation causes increased levels of <term id="T31" lex="IL-2_mRNA" sem="RNA_molecule">IL-2 mRNA</term> as a result of increased <term id="T32" lex="IL-2_transcription" sem="Other"><term id="T33" lex="IL-2" sem="Protein_molecule">IL-2</term> transcription</term> in <term id="T34" lex="PBL" sem="Cell_natural">PBL</term>.</sentence>
+<event KT="Other" id="E30">
+<type class="Physiological_process"/>
+<theme idref="T1"/>
+<clue>We now report that EC <clueType>costimulation</clueType> causes increased levels of IL-2 mRNA as a result of increased IL-2 transcription in PBL.</clue>
+</event>
+<event KT="Other" id="E31">
+<type class="Transcription"/>
+<theme idref="T33"/>
+<clue>We now report that EC costimulation causes increased levels of IL-2 mRNA as a result of increased IL-2 <clueType>transcription</clueType> <clueLoc>in PBL</clueLoc>.</clue>
+</event>
+<event KT="Analysis" id="E32">
+<type class="Positive_regulation"/>
+<theme idref="E31"/>
+<cause idref="E30"/>
+<clue>We now <clueKT>report</clueKT> that EC costimulation <clueType>causes</clueType> increased levels of IL-2 mRNA <clueType>as a result of increased</clueType> IL-2 transcription in PBL.</clue>
+</event>
+<event KT="Other" id="E33">
+<type class="Positive_regulation"/>
+<theme idref="T31"/>
+<clue>We now report that EC costimulation causes <clueType>increased levels</clueType> <linkTheme>of</linkTheme> IL-2 mRNA as a result of increased IL-2 transcription in PBL.</clue>
+</event>
+<event KT="Other" id="E34">
+<type class="Positive_regulation"/>
+<theme idref="E33"/>
+<cause idref="E32"/>
+<clue>We now report that EC costimulation <clueType>causes</clueType> increased levels of IL-2 mRNA <linkCause>as a result of</linkCause> increased IL-2 transcription in PBL.</clue>
+</event>
+<sentence id="S7">We therefore examined the effects of <term id="T35" lex="EC" sem="Cell_natural">EC</term> on <term id="T36" lex="T_cell_nuclear_factor" sem="Protein_family_or_group">T cell nuclear factors</term> known to regulate <term id="T37" lex="IL-2_transcription" sem="Other"><term id="T38" lex="IL-2" sem="Protein_molecule">IL-2</term> transcription</term>, including <term id="T39" lex="c-jun" sem="Protein_molecule">c-jun</term> and <term id="T40" lex="c-fos-two_component" sem="Protein_molecule">c-fos</term>-two components of the <term id="T41" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> <term id="T42" lex="AP-1" sem="Protein_complex">AP-1</term>, <term id="T43" lex="NFAT" sem="Protein_complex">NFAT</term>, and others.</sentence>
+<event KT="Other" id="E35">
+<type class="Transcription"/>
+<theme idref="T38"/>
+<clue>We therefore examined the effects of EC on T cell nuclear factors known to regulate IL-2 <clueType>transcription</clueType>, including c-jun and c-fos-two components of the transcription factor AP-1, NFAT, and others.</clue>
+<comment>NER T40,T42,T43 MOD</comment></event>
+<event KT="Fact" id="E36">
+<type class="Regulation"/>
+<theme idref="E35"/>
+<cause idref="T36"/>
+<clue>We therefore examined the effects of EC on T cell nuclear factors <clueKT>known</clueKT> to <clueType>regulate</clueType> IL-2 transcription, including c-jun and c-fos-two components of the transcription factor AP-1, NFAT, and others.</clue>
+</event>
+<event KT="Fact" id="E37">
+<type class="Regulation"/>
+<theme idref="E35"/>
+<cause idref="T39"/>
+<clue>We therefore examined the effects of EC on <corefCause>T cell nuclear factors</corefCause> <clueKT>known</clueKT> to <clueType>regulate</clueType> IL-2 transcription, including c-jun and c-fos-two components of the transcription factor AP-1, NFAT, and others.</clue>
+</event>
+<event KT="Fact" id="E38">
+<type class="Regulation"/>
+<theme idref="E35"/>
+<cause idref="T40"/>
+<clue>We therefore examined the effects of EC on <corefCause>T cell nuclear factors</corefCause> <clueKT>known</clueKT> to <clueType>regulate</clueType> IL-2 transcription, including c-jun and c-fos-two components of the transcription factor AP-1, NFAT, and others.</clue>
+</event>
+<event KT="Investigation" id="E39" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="T36"/>
+<cause idref="T35"/>
+<clue>We therefore <clueKT>examined</clueKT> the <clueType>effects</clueType> <linkCause>of</linkCause> EC <linkTheme>on</linkTheme> T cell nuclear factors known to regulate IL-2 transcription, including c-jun and c-fos-two components of the transcription factor AP-1, NFAT, and others.</clue>
+</event>
+<event KT="Investigation" id="E40" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="T39"/>
+<cause idref="T35"/>
+<clue>We therefore <clueKT>examined</clueKT> the <clueType>effects</clueType> <linkCause>of</linkCause> EC <linkTheme>on</linkTheme> <corefTheme>T cell nuclear factors</corefTheme> known to regulate IL-2 transcription, including c-jun and c-fos-two components of the transcription factor AP-1, NFAT, and others.</clue>
+</event>
+<event KT="Investigation" id="E41" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="T40"/>
+<cause idref="T35"/>
+<clue>We therefore <clueKT>examined</clueKT> the <clueType>effects</clueType> <linkCause>of</linkCause> EC <linkTheme>on</linkTheme> <corefTheme>T cell nuclear factors</corefTheme> known to regulate IL-2 transcription, including c-jun and c-fos-two components of the transcription factor AP-1, NFAT, and others.</clue>
+</event>
+<sentence id="S8"><term id="T44" lex="PBL" sem="Cell_natural">PBL</term> constitutively express <term id="T45" lex="c-jun_transcript" sem="RNA_molecule"><term id="T46" lex="c-jun" sem="Protein_molecule">c-jun</term> transcripts</term>, and the level of <term id="T47" lex="c-jun_mRNA" sem="RNA_molecule">c-jun mRNA</term> is not altered by <term id="T48" lex="PHA_activation" sem="Other"><term id="T49" lex="PHA" sem="Protein_molecule">PHA</term> activation</term> in the absence or presence of <term id="T50" lex="EC" sem="Cell_natural">EC</term>.</sentence>
+<event id="E42">
+<type class="Gene_expression"/>
+<theme idref="T45"/>
+<clue><clueLoc>PBL</clueLoc> constitutively <clueType>express</clueType> c-jun transcripts, and the level of c-jun mRNA is not altered by PHA activation in the absence or presence of EC.</clue>
+<comment>NER T45 MOD</comment></event>
+<event id="E43">
+<type class="Positive_regulation"/>
+<cause idref="T49"/>
+<clue>PBL constitutively express c-jun transcripts, and the level of c-jun mRNA is not altered by PHA <clueType>activation</clueType> in the absence or presence of EC.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E44">
+<type class="Regulation"/>
+<theme idref="T47"/>
+<cause idref="E43"/>
+<clue>PBL constitutively express c-jun transcripts, and the level of c-jun mRNA is <cluePolarity>not</cluePolarity> <clueType>altered</clueType> <linkCause>by</linkCause> PHA activation in the absence or presence of EC.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E45">
+<type class="Correlation"/>
+<theme idref="E44"/>
+<theme idref="T50"/>
+<clue>PBL constitutively express c-jun transcripts, and the level of c-jun mRNA is not altered by PHA activation <clueType><cluePolarity>in the absence or presence</cluePolarity></clueType> <linkTheme>of</linkTheme> EC.</clue>
+</event>
+<sentence id="S9">In contrast, <term id="T51" lex="c-fos_mRNA" sem="RNA_molecule">c-fos mRNA</term> is absent from <term id="T52" lex="T_cell" sem="Cell_natural">resting T cells</term> and is induced on <term id="T53" lex="PHA_activation" sem="Other"><term id="T54" lex="PHA" sem="Protein_molecule">PHA</term> activation</term>.</sentence>
+<event Polarity="Negative" assertion="non-exist" id="E46">
+<type class="Transcription"/>
+<theme idref="T51"/>
+<clue>In contrast, c-fos mRNA is <clueType><cluePolarity>absent</cluePolarity></clueType> <clueLoc>from resting T cells</clueLoc> and is induced on PHA activation.</clue>
+<comment>NER T52 MOD</comment></event>
+<event id="E146">
+<type class="Positive_regulation"/>
+<cause idref="T54"/>
+<clue>In contrast, c-fos mRNA is absent from resting T cells and is induced on PHA <clueType>activation</clueType>.</clue>
+</event>
+<event id="E47">
+<type class="Positive_regulation"/>
+<theme idref="T51"/>
+<cause idref="E146"/>
+<clue>In contrast, c-fos mRNA is absent from resting T cells and is <clueType>induced</clueType> <linkCause>on</linkCause> PHA activation.</clue>
+</event>
+<sentence id="S10"><term id="T55" lex="EC" sem="Cell_natural">EC</term> alone do not induce <term id="T56" lex="c-fos_mRNA" sem="RNA_molecule">c-fos mRNA</term> but augment the level of <term id="T57" lex="c-fos_mRNA" sem="RNA_molecule">c-fos mRNA</term> in <term id="T58" lex="PHA-activated_T_cell" sem="Cell_natural"><term id="A5" sem="Protein_molecule">PHA</term>-activated <term id="T59" lex="T_cell" sem="Cell_natural">T cells</term></term> by 3- to 10-fold.</sentence>
+<event Polarity="Negative" assertion="non-exist" id="E48">
+<type class="Positive_regulation"/>
+<theme idref="T56"/>
+<cause idref="T55"/>
+<clue>EC alone do <cluePolarity>not</cluePolarity> <clueType>induce</clueType> c-fos mRNA but augment the level of c-fos mRNA in PHA-activated T cells by 3- to 10-fold.</clue>
+</event>
+<event Manner="High" id="E49">
+<type class="Positive_regulation"/>
+<theme idref="T57"/>
+<cause idref="T55"/>
+<clue>EC alone do not induce c-fos mRNA but <clueType>augment</clueType> the level of c-fos mRNA <clueLoc>in PHA-activated T cells</clueLoc> <clueManner>by 3- to 10-fold</clueManner>.</clue>
+</event>
+<event id="E50">
+<type class="Physiological_process"/>
+<theme idref="T59"/>
+<cause idref="A5"/>
+<clue>EC alone do not induce c-fos mRNA but augment the level of c-fos mRNA in PHA-<clueType>activated</clueType> T cells by 3- to 10-fold.</clue>
+</event>
+<sentence id="S11">This effect is largely independent of the <term id="T60" lex="CD2:lymphocyte_function-associated_Ag-3_pathway" sem="Other"><term id="A6" sem="Protein_molecule">CD2</term>:<term id="A7" sem="Protein_molecule">lymphocyte function-associated Ag-3</term> pathway</term>.</sentence>
+<event Polarity="Negative" assertion="non-exist" id="E51">
+<type class="Correlation"/>
+<theme idref="E50"/>
+<theme idref="E53"/>
+<clue><corefTheme>This effect</corefTheme> is largely <clueType><cluePolarity>independent</cluePolarity></clueType> <linkTheme>of</linkTheme> the CD2:lymphocyte function-associated Ag-3 pathway.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E52">
+<type class="Correlation"/>
+<theme idref="E50"/>
+<theme idref="E54"/>
+<clue><corefTheme>This effect</corefTheme> is largely <clueType><cluePolarity>independent</cluePolarity></clueType> <linkTheme>of</linkTheme> the CD2:lymphocyte function-associated Ag-3 pathway.</clue>
+</event>
+<event KT="Other" id="E53">
+<type class="Cell_communication"/>
+<theme idref="A6"/>
+<clue>This effect is largely independent of the CD2:lymphocyte function-associated Ag-3 <clueType>pathway</clueType>.</clue>
+</event>
+<event KT="Other" id="E54">
+<type class="Cell_communication"/>
+<theme idref="A7"/>
+<clue>This effect is largely independent of the CD2:lymphocyte function-associated Ag-3 <clueType>pathway</clueType>.</clue>
+</event>
+<sentence id="S12"><term id="A8" sem="Other">Gel-shift analysis</term> reveals the constitutive presence of <term id="A9" sem="Protein_family_or_group">nuclear factors</term> in <term id="T61" lex="resting_PBL" sem="Cell_natural">resting <term id="T62" lex="PBL" sem="Cell_natural">PBL</term></term> that bind to the <term id="A10" sem="DNA_domain_or_region"><term id="T63" lex="proximal_AP-1_site" sem="DNA_domain_or_region">proximal AP-1 site</term> of the <term id="T64" lex="IL-2_promoter" sem="DNA_domain_or_region">IL-2 promoter</term></term> and that contain immunoreactive <term id="T65" lex="c-Jun" sem="Protein_molecule">c-Jun</term> but not <term id="T66" lex="c-Fos" sem="Protein_molecule">c-Fos protein</term>.</sentence>
+<event KT="Other" id="E55">
+<type class="Binding"/>
+<theme idref="A9"/>
+<theme idref="A10"/>
+<clue>Gel-shift analysis reveals the constitutive presence of nuclear factors in resting PBL that <clueType>bind</clueType> <linkTheme>to</linkTheme> the proximal AP-1 site of the IL-2 promoter and that contain immunoreactive c-Jun but not c-Fos protein.</clue>
+<comment>TPS A10, NER T66 MOD</comment></event>
+<event KT="Analysis" id="E56">
+<type class="Gene_expression"/>
+<theme idref="A9"/>
+<clue><clueExperiment>Gel-shift analysis</clueExperiment> <clueKT>reveals</clueKT> the constitutive <clueType>presence</clueType> <linkTheme>of</linkTheme> nuclear factors <clueLoc>in resting PBL</clueLoc> that bind to the proximal AP-1 site of the IL-2 promoter and that contain immunoreactive c-Jun but not c-Fos protein.</clue>
+</event>
+<event KT="Other" id="E156">
+<type class="Correlation"/>
+<theme idref="A9"/>
+<theme idref="T65"/>
+<clue>Gel-shift analysis reveals the constitutive presence of nuclear factors in resting PBL that bind to the proximal AP-1 site of the IL-2 promoter and that <clueType>contain</clueType> immunoreactive c-Jun but not c-Fos protein.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E256">
+<type class="Correlation"/>
+<theme idref="A9"/>
+<theme idref="T66"/>
+<clue>Gel-shift analysis reveals the constitutive presence of nuclear factors in resting PBL that bind to the proximal AP-1 site of the IL-2 promoter and that <clueType>contain</clueType> immunoreactive c-Jun but <cluePolarity>not</cluePolarity> c-Fos protein.</clue>
+</event>
+<sentence id="S13">In contrast, <term id="T67" lex="AP-1" sem="Protein_molecule">AP-1</term> from <term id="T68" lex="PHA-activated_cell" sem="Cell_natural"><term id="A11" sem="Protein_molecule">PHA</term>-activated cells</term> contains <term id="T69" lex="c-Jun" sem="Protein_molecule">c-Jun</term> and low levels of <term id="T70" lex="c-Fos" sem="Protein_molecule">c-Fos</term>.</sentence>
+<sentence id="S14">Strikingly, costimulation with <term id="T71" lex="EC" sem="Cell_natural">EC</term> results in a dramatic increase (up to 15-fold) in the <term id="A103" sem="Other"><term id="T72" lex="c-Fos" sem="Protein_molecule">c-Fos</term> content of <term id="T73" lex="AP-1" sem="Protein_molecule">AP-1</term></term>.</sentence>
+<event id="E57">
+<type class="Positive_regulation"/>
+<cause idref="T71"/>
+<clue>Strikingly, <clueType>costimulation</clueType> <linkCause>with</linkCause> EC results in a dramatic increase (up to 15-fold) in the c-Fos content of AP-1.</clue>
+<comment>TPS A103</comment></event>
+<event Manner="High" id="E58">
+<type class="Positive_regulation"/>
+<theme idref="A103"/>
+<cause idref="E57"/>
+<clue>Strikingly, costimulation with EC <clueType>results in a <clueManner>dramatic</clueManner> increase</clueType> (<clueManner>up to 15-fold</clueManner>) <linkTheme>in</linkTheme> the c-Fos content of AP-1.</clue>
+</event>
+<sentence id="S15">Levels of other <term id="T74" lex="nuclear_factor" sem="Protein_family_or_group">nuclear factors</term> involved in <term id="T75" lex="IL-2" sem="Protein_molecule">IL-2</term> regulation were not altered by <term id="T76" lex="EC" sem="Cell_natural">EC</term>, although <term id="T77" lex="NFAT-DNA_complex" sem="Protein_complex">NFAT-DNA complexes</term> migrated at a slightly different mobility.</sentence>
+<event id="E59">
+<type class="Regulation"/>
+<theme idref="T75"/>
+<clue>Levels of other nuclear factors involved in IL-2 <clueType>regulation</clueType> were not altered by EC, although NFAT-DNA complexes migrated at a slightly different mobility.</clue>
+</event>
+<event id="E60">
+<type class="Regulation"/>
+<theme idref="E59"/>
+<cause idref="T74"/>
+<clue>Levels of other nuclear factors <clueType>involved</clueType> <linkTheme>in</linkTheme> IL-2 regulation were not altered by EC, although NFAT-DNA complexes migrated at a slightly different mobility.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E61">
+<type class="Regulation"/>
+<theme idref="T74"/>
+<cause idref="T76"/>
+<clue>Levels of other nuclear factors involved in IL-2 regulation were <cluePolarity>not</cluePolarity> <clueType>altered</clueType> <linkCause>by</linkCause> EC, although NFAT-DNA complexes migrated at a slightly different mobility.</clue>
+</event>
+<event id="E62">
+<type class="Localization"/>
+<theme idref="T77"/>
+<clue>Levels of other nuclear factors involved in IL-2 regulation were not altered by EC, although NFAT-DNA complexes <clueType>migrated</clueType> at a slightly different mobility.</clue>
+</event>
+<event id="E63">
+<type class="Regulation"/>
+<theme idref="E62"/>
+<cause idref="T76"/>
+<clue>Levels of other nuclear factors involved in IL-2 regulation were not altered by EC, although NFAT-DNA complexes migrated <clueType>at a slightly different mobility</clueType>.</clue>
+</event>
+<sentence id="S16">In summary, our data suggest that changes in the <term id="A102" sem="Other">composition of <term id="T78" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> <term id="T79" lex="AP-1" sem="Protein_molecule">AP-1</term></term> is a key molecular mechanism for increasing <term id="T80" lex="IL-2_transcription" sem="Other"><term id="T81" lex="IL-2" sem="Protein_molecule">IL-2</term> transcription</term> and may underlie the phenomenon of costimulation by <term id="T82" lex="EC" sem="Cell_natural">EC</term>.</sentence>
+<event KT="Other" id="E64">
+<type class="Regulation"/>
+<theme idref="A102"/>
+<clue>In summary, our data suggest that <clueType>changes</clueType> <linkTheme>in</linkTheme> the composition of transcription factor AP-1 is a key molecular mechanism for increasing IL-2 transcription and may underlie the phenomenon of costimulation by EC.</clue>
+<comment>TPS A102</comment></event>
+<event KT="Other" id="E65">
+<type class="Transcription"/>
+<theme idref="T81"/>
+<clue>In summary, our data suggest that changes in the composition of transcription factor AP-1 is a key molecular mechanism for increasing IL-2 <clueType>transcription</clueType> and may underlie the phenomenon of costimulation by EC.</clue>
+</event>
+<event KT="Other" id="E66">
+<type class="Positive_regulation"/>
+<theme idref="E65"/>
+<clue>In summary, our data suggest that changes in the composition of transcription factor AP-1 is a key molecular mechanism for <clueType>increasing</clueType> IL-2 transcription and may underlie the phenomenon of costimulation by EC.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E67" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E66"/>
+<cause idref="E65"/>
+<clue>In summary, our data <clueKT><clueCL>suggest</clueCL></clueKT> that changes in the composition of transcription factor AP-1 <clueType>is a key molecular mechanism</clueType> <linkTheme>for</linkTheme> increasing IL-2 transcription and may underlie the phenomenon of costimulation by EC.</clue>
+</event>
+<event KT="Other" id="E68">
+<type class="Positive_regulation"/>
+<cause idref="T82"/>
+<clue>In summary, our data suggest that changes in the composition of transcription factor AP-1 is a key molecular mechanism for increasing IL-2 transcription and may underlie the phenomenon of <clueType>costimulation</clueType> <linkCause>by</linkCause> EC.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E69" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="E65"/>
+<theme idref="E68"/>
+<clue>In summary, our data <clueKT>suggest</clueKT> that changes in the composition of transcription factor AP-1 is a key molecular mechanism for increasing IL-2 transcription and <clueCL>may</clueCL> <clueType>underlie the phenomenon</clueType> <linkTheme>of</linkTheme> costimulation by EC.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

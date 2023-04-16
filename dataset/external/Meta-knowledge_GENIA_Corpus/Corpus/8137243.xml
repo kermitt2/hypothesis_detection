@@ -1,0 +1,287 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8137243" created="22/04/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8137243</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="hypoxia" sem="Other">Hypoxia</term> causes the activation of <term id="T2" lex="nuclear_factor_kappa_B" sem="Protein_molecule">nuclear factor kappa B</term> through the phosphorylation of <term id="T3" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term> on <term id="T4" lex="tyrosine_residue" sem="Amino_acid_monomer"><term id="T5" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> residues</term>.</sentence>
+<event id="E100">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T3"/>
+<clue>Hypoxia causes the activation of nuclear factor kappa B through the <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> I kappa B alpha <clueLoc>on tyrosine residues</clueLoc>.</clue>
+</event>
+<event id="E101">
+<type class="Positive_regulation"/>
+<theme idref="E100"/>
+<cause idref="T1"/>
+<clue>Hypoxia causes the activation of nuclear factor kappa B through the phosphorylation of I kappa B alpha <clueLoc>on tyrosine residues</clueLoc>.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="T2"/>
+<cause idref="E101"/>
+<clue>Hypoxia causes the <clueType>activation</clueType> <linkTheme>of</linkTheme> nuclear factor kappa B <linkCause>through</linkCause> the phosphorylation of I kappa B alpha on tyrosine residues.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The response of <term id="T6" lex="mammalian_cell" sem="Cell_natural">mammalian cells</term> to <term id="A1" sem="Other">stress</term> is controlled by <term id="T7" lex="transcriptional_regulatory_protein" sem="Protein_family_or_group">transcriptional regulatory proteins</term> such as <term id="T8" lex="nuclear_factor_kappa_B" sem="Protein_molecule">nuclear factor kappa B</term> (<term id="T9" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>) to induce a wide variety of <term id="T10" lex="early_response_gene" sem="DNA_family_or_group">early response genes</term>.</sentence>
+<event KT="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T10"/>
+<cause idref="T9"/>
+<clue>The response of mammalian cells to stress is controlled by <corefTheme>transcriptional regulatory proteins</corefTheme> such as nuclear factor kappa B (NF-kappa B) to <clueType>induce</clueType> a wide variety of early response genes.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Regulation"/>
+<theme idref="T6"/>
+<cause idref="A1"/>
+<clue>The <clueType>response</clueType> <linkTheme>of</linkTheme> mammalian cells <linkCause>to</linkCause> stress is controlled by transcriptional regulatory proteins such as nuclear factor kappa B (NF-kappa B) to induce a wide variety of early response genes.</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Regulation"/>
+<theme idref="E5"/>
+<cause idref="E4"/>
+<clue>The response of mammalian cells to stress is <clueType>controlled</clueType> <linkCause>by</linkCause> transcriptional regulatory proteins such as nuclear factor kappa B (NF-kappa B) to induce a wide variety of early response genes.</clue>
+</event>
+<sentence id="S3">In this report, we show that exposure of <term id="A2" sem="Multicellular_organism_natural">cells</term> to <term id="T11" lex="hypoxia" sem="Other">hypoxia</term> (0.02% O2) results in <term id="T12" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term> degradation, increased <term id="T13" lex="NF-kappa_B_DNA_binding_activity" sem="Other"><term id="T14" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> <term id="A3" sem="DNA_molecule">DNA</term> binding activity</term>, and transactivation of a <term id="A4" sem="DNA_molecule"><term id="T15" lex="reporter_gene_construct" sem="DNA_molecule">reporter gene construct</term> containing two <term id="T16" lex="NF-kappa_B_DNA_binding_site" sem="DNA_domain_or_region"><term id="T17" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> DNA binding sites</term></term>.</sentence>
+<event KT="Other" id="E109">
+<type class="Protein_catabolism"/>
+<theme idref="T12"/>
+<clue>In this report, we show that exposure of cells to hypoxia (0.02% O2) results in I kappa B alpha <clueType>degradation</clueType>, increased NF-kappa B DNA binding activity, and transactivation of a reporter gene construct containing two NF-kappa B DNA binding sites.</clue>
+</event>
+<event KT="Analysis" id="E110">
+<type class="Positive_regulation"/>
+<theme idref="E109"/>
+<cause idref="T11"/>
+<clue>In this report, we <clueKT>show</clueKT> that exposure of cells to hypoxia (0.02% O2) <clueType>results</clueType> <linkTheme>in</linkTheme> I kappa B alpha degradation, increased NF-kappa B DNA binding activity, and transactivation of a reporter gene construct containing two NF-kappa B DNA binding sites.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Binding"/>
+<theme idref="T14"/>
+<theme idref="A3"/>
+<clue>In this report, we show that exposure of cells to hypoxia (0.02% O2) results in I kappa B alpha degradation, increased NF-kappa B DNA <clueType>binding</clueType> activity, and transactivation of a reporter gene construct containing two NF-kappa B DNA binding sites.</clue>
+</event>
+<event KT="Other" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="T11"/>
+<clue>In this report, we show that exposure of cells to hypoxia (0.02% O2) results in I kappa B alpha degradation, <clueType>increased</clueType> NF-kappa B DNA binding activity, and transactivation of a reporter gene construct containing two NF-kappa B DNA binding sites.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="A4"/>
+<cause idref="T11"/>
+<clue>In this report, we show that exposure of cells to hypoxia (0.02% O2) results in I kappa B alpha degradation, increased NF-kappa B DNA binding activity, and <clueType>transactivation</clueType> <linkTheme>of</linkTheme> a reporter gene construct containing two NF-kappa B DNA binding sites.</clue>
+<comment>TPS: A4</comment></event>
+<sentence id="S4">Pretreatment of <term id="A5" sem="Multicellular_organism_natural">cells</term> with <term id="T18" lex="protein_tyrosine_kinase_inhibitor" sem="Organic_compound_other">protein <term id="T19" lex="tyrosine_kinase" sem="Protein_molecule"><term id="T20" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> kinase</term> inhibitors</term> and the <term id="T21" lex="dominant_negative_allele" sem="DNA_domain_or_region">dominant negative allele</term> of <term id="T22" lex="c-Raf-1" sem="DNA_domain_or_region">c-Raf-1</term> (<term id="T23" lex="Raf_301" sem="Protein_molecule">Raf 301</term>) inhibited <term id="T24" lex="I_kappa_B_alpha_degradation" sem="Other"><term id="T25" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term> degradation</term>, <term id="T26" lex="NF-kappa_B_binding" sem="Other"><term id="T27" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> binding</term>, and transactivation of <term id="T28" lex="kappa_B_reporter_construct" sem="DNA_molecule">kappa B reporter constructs</term> by <term id="T29" lex="hypoxia" sem="Other">hypoxia</term>.</sentence>
+<event KT="Method" id="E61">
+<type class="Artificial_process"/>
+<theme idref="A5"/>
+<theme idref="T18"/>
+<clue><clueType>Pretreatment</clueType> <linkTheme>of</linkTheme> cells <linkTheme>with</linkTheme> protein tyrosine kinase inhibitors and the dominant negative allele of c-Raf-1 (Raf 301) inhibited I kappa B alpha degradation, NF-kappa B binding, and transactivation of kappa B reporter constructs by hypoxia.</clue>
+</event>
+<event KT="Method" id="E62">
+<type class="Artificial_process"/>
+<theme idref="A5"/>
+<theme idref="T23"/>
+<clue><clueType>Pretreatment</clueType> <linkTheme>of</linkTheme> cells <linkTheme>with</linkTheme> protein tyrosine kinase inhibitors and the dominant negative allele of c-Raf-1 (Raf 301) inhibited I kappa B alpha degradation, NF-kappa B binding, and transactivation of kappa B reporter constructs by hypoxia.</clue>
+</event>
+<event KT="Other" id="E115">
+<type class="Protein_catabolism"/>
+<theme idref="T25"/>
+<clue>Pretreatment of cells with protein tyrosine kinase inhibitors and the dominant negative allele of c-Raf-1 (Raf 301) inhibited I kappa B alpha <clueType>degradation</clueType>, NF-kappa B binding, and transactivation of kappa B reporter constructs by hypoxia.</clue>
+</event>
+<event KT="Other" id="E116">
+<type class="Positive_regulation"/>
+<theme idref="E115"/>
+<cause idref="T29"/>
+<clue>Pretreatment of cells with protein tyrosine kinase inhibitors and the dominant negative allele of c-Raf-1 (Raf 301) inhibited I kappa B alpha degradation, NF-kappa B binding, and transactivation of kappa B reporter constructs <linkCause>by</linkCause> hypoxia.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E16">
+<type class="Negative_regulation"/>
+<theme idref="E116"/>
+<cause idref="E61"/>
+<clue>Pretreatment of cells with protein tyrosine kinase inhibitors and the dominant negative allele of c-Raf-1 (Raf 301) <clueType>inhibited</clueType> I kappa B alpha degradation, NF-kappa B binding, and transactivation of kappa B reporter constructs by hypoxia.</clue>
+</event>
+<event id="E50">
+<type class="Negative_regulation"/>
+<theme idref="E116"/>
+<cause idref="E62"/>
+<clue>Pretreatment of cells with protein tyrosine kinase inhibitors and the dominant negative allele of c-Raf-1 (Raf 301) <clueType>inhibited</clueType> I kappa B alpha degradation, NF-kappa B binding, and transactivation of kappa B reporter constructs by hypoxia.</clue>
+</event>
+<event KT="Other" id="E55">
+<type class="Binding"/>
+<theme idref="T27"/>
+<clue>Pretreatment of cells with protein tyrosine kinase inhibitors and the dominant negative allele of c-Raf-1 (Raf 301) inhibited I kappa B alpha degradation, NF-kappa B <clueType>binding</clueType>, and transactivation of kappa B reporter constructs by hypoxia.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="E55"/>
+<cause idref="T29"/>
+<clue>Pretreatment of cells with protein tyrosine kinase inhibitors and the dominant negative allele of c-Raf-1 (Raf 301) inhibited I kappa B alpha degradation, NF-kappa B binding, and transactivation of kappa B reporter constructs <linkCause>by</linkCause> hypoxia.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E19">
+<type class="Negative_regulation"/>
+<theme idref="E18"/>
+<cause idref="E61"/>
+<clue>Pretreatment of cells with protein tyrosine kinase inhibitors and the dominant negative allele of c-Raf-1 (Raf 301) <clueType>inhibited</clueType> I kappa B alpha degradation, NF-kappa B binding, and transactivation of kappa B reporter constructs by hypoxia.</clue>
+</event>
+<event id="E51">
+<type class="Negative_regulation"/>
+<theme idref="E18"/>
+<cause idref="E62"/>
+<clue>Pretreatment of cells with protein tyrosine kinase inhibitors and the dominant negative allele of c-Raf-1 (Raf 301) <clueType>inhibited</clueType> I kappa B alpha degradation, NF-kappa B binding, and transactivation of kappa B reporter constructs by hypoxia.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="T28"/>
+<clue>Pretreatment of cells with protein tyrosine kinase inhibitors and the dominant negative allele of c-Raf-1 (Raf 301) inhibited I kappa B alpha degradation, NF-kappa B binding, and <clueType>transactivation</clueType> <linkTheme>of</linkTheme> kappa B reporter constructs by hypoxia.</clue>
+</event>
+<event KT="Other" id="E56">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="T29"/>
+<clue>Pretreatment of cells with protein tyrosine kinase inhibitors and the dominant negative allele of c-Raf-1 (Raf 301) inhibited I kappa B alpha degradation, NF-kappa B binding, and transactivation of kappa B reporter constructs <linkCause>by</linkCause> hypoxia.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E21">
+<type class="Negative_regulation"/>
+<theme idref="E56"/>
+<cause idref="E61"/>
+<clue>Pretreatment of cells with protein tyrosine kinase inhibitors and the dominant negative allele of c-Raf-1 (Raf 301) <clueType>inhibited</clueType> I kappa B alpha degradation, NF-kappa B binding, and transactivation of kappa B reporter constructs by hypoxia.</clue>
+</event>
+<event id="E53">
+<type class="Negative_regulation"/>
+<theme idref="E56"/>
+<cause idref="E62"/>
+<clue>Pretreatment of cells with protein tyrosine kinase inhibitors and the dominant negative allele of c-Raf-1 (Raf 301) <clueType>inhibited</clueType> I kappa B alpha degradation, NF-kappa B binding, and transactivation of kappa B reporter constructs by hypoxia.</clue>
+</event>
+<sentence id="S5">To demonstrate a direct link between changes in the phosphorylation pattern of <term id="T30" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term> with <term id="T31" lex="NF-kappa_B_activation" sem="Other"><term id="T32" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> activation</term>, we immunoprecipitated <term id="T33" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term> after varying times of <term id="T34" lex="hypoxic_exposure" sem="Other">hypoxic exposure</term> and found that its <term id="T35" lex="tyrosine_phosphorylation_status" sem="Other"><term id="T36" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> phosphorylation status</term> increased during <term id="T37" lex="hypoxic_exposure" sem="Other">hypoxic exposure</term>.</sentence>
+<event KT="Other" id="E22">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T30"/>
+<clue>To demonstrate a direct link between changes in the <clueType>phosphorylation</clueType> pattern <linkTheme>of</linkTheme> I kappa B alpha with NF-kappa B activation, we immunoprecipitated I kappa B alpha after varying times of hypoxic exposure and found that its tyrosine phosphorylation status increased during hypoxic exposure.</clue>
+</event>
+<event KT="Other" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="T32"/>
+<clue>To demonstrate a direct link between changes in the phosphorylation pattern of I kappa B alpha with NF-kappa B <clueType>activation</clueType>, we immunoprecipitated I kappa B alpha after varying times of hypoxic exposure and found that its tyrosine phosphorylation status increased during hypoxic exposure.</clue>
+</event>
+<event KT="Analysis" id="E24" uncertainty="doubtful">
+<type class="Correlation"/>
+<theme idref="E22"/>
+<theme idref="E23"/>
+<clue>To demonstrate a direct <clueType><clueKT>link</clueKT></clueType> <linkTheme>between</linkTheme> changes in the phosphorylation pattern of I kappa B alpha <linkTheme>with</linkTheme> NF-kappa B activation, we immunoprecipitated I kappa B alpha after varying times of hypoxic exposure and found that its tyrosine phosphorylation status increased during hypoxic exposure.</clue>
+</event>
+<event id="E25">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T33"/>
+<site idref="T36"/>
+<clue>To demonstrate a direct link between changes in the phosphorylation pattern of I kappa B alpha with NF-kappa B activation, we immunoprecipitated I kappa B alpha after varying times of hypoxic exposure and found that <corefTheme>its</corefTheme> tyrosine <clueType>phosphorylation</clueType> status increased during hypoxic exposure.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation"/>
+<theme idref="E25"/>
+<cause idref="T37"/>
+<clue>To demonstrate a direct link between changes in the phosphorylation pattern of I kappa B alpha with NF-kappa B activation, we immunoprecipitated I kappa B alpha after varying times of hypoxic exposure and <clueKT>found</clueKT> that its tyrosine phosphorylation status <clueType>increased</clueType> <linkCause>during</linkCause> hypoxic exposure.</clue>
+</event>
+<sentence id="S6">Inhibition of the transfer of <term id="T38" lex="tyrosine_phosphoryl_group" sem="Amino_acid_monomer"><term id="T39" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> phosphoryl groups</term> onto <term id="T40" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term> prevented <term id="T41" lex="I_kappa_B_alpha_degradation" sem="Other"><term id="T42" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term> degradation</term> and <term id="T43" lex="NF-kappa_B_binding" sem="Other"><term id="T44" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> binding</term>.</sentence>
+<event KT="Other" id="E27">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T40"/>
+<clue>Inhibition of the <clueType>transfer of tyrosine phosphoryl groups</clueType> <linkTheme>onto</linkTheme> I kappa B alpha prevented I kappa B alpha degradation and NF-kappa B binding.</clue>
+</event>
+<event id="E28">
+<type class="Negative_regulation"/>
+<theme idref="E27"/>
+<clue><clueType>Inhibition</clueType> <linkTheme>of</linkTheme> the transfer of tyrosine phosphoryl groups onto I kappa B alpha prevented I kappa B alpha degradation and NF-kappa B binding.</clue>
+</event>
+<event KT="Other" id="E29">
+<type class="Protein_catabolism"/>
+<theme idref="T42"/>
+<clue>Inhibition of the transfer of tyrosine phosphoryl groups onto I kappa B alpha prevented I kappa B alpha <clueType>degradation</clueType> and NF-kappa B binding.</clue>
+</event>
+<event id="E30">
+<type class="Negative_regulation"/>
+<theme idref="E29"/>
+<cause idref="E28"/>
+<clue>Inhibition of the transfer of tyrosine phosphoryl groups onto I kappa B alpha <clueType>prevented</clueType> I kappa B alpha degradation and NF-kappa B binding.</clue>
+</event>
+<event KT="Other" id="E31">
+<type class="Binding"/>
+<theme idref="T44"/>
+<clue>Inhibition of the transfer of tyrosine phosphoryl groups onto I kappa B alpha prevented I kappa B alpha degradation and NF-kappa B <clueType>binding</clueType>.</clue>
+</event>
+<event id="E32">
+<type class="Negative_regulation"/>
+<theme idref="E31"/>
+<cause idref="E28"/>
+<clue>Inhibition of the transfer of tyrosine phosphoryl groups onto I kappa B alpha <clueType>prevented</clueType> I kappa B alpha degradation and NF-kappa B binding.</clue>
+</event>
+<sentence id="S7">In comparison to other activators of <term id="T45" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> such as <term id="T46" lex="phorbol_myristate_acetate" sem="Organic_compound_other">phorbol myristate acetate</term> or <term id="T47" lex="tumor_necrosis_factor" sem="Protein_family_or_group">tumor necrosis factor</term>, we did not detect changes in the <term id="T48" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> phosphorylation status of <term id="T49" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term> following treatment with either of these agents.</sentence>
+<event id="E33">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T49"/>
+<site idref="T48"/>
+<clue>In comparison to other activators of NF-kappa B such as phorbol myristate acetate or tumor necrosis factor, we did not detect changes in the tyrosine <clueType>phosphorylation</clueType> status <linkTheme>of</linkTheme> I kappa B alpha following treatment with either of these agents.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E36">
+<type class="Regulation"/>
+<theme idref="E33"/>
+<cause idref="T46"/>
+<clue>In comparison to other activators of NF-kappa B such as phorbol myristate acetate or tumor necrosis factor, we did <cluePolarity>not</cluePolarity> <clueKT>detect</clueKT> <clueType>changes</clueType> <linkTheme>in</linkTheme> the tyrosine phosphorylation status of I kappa B alpha <linkCause>following</linkCause> treatment with either of <corefCause>these agents</corefCause>.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E37">
+<type class="Regulation"/>
+<theme idref="E33"/>
+<cause idref="T47"/>
+<clue>In comparison to other activators of NF-kappa B such as phorbol myristate acetate or tumor necrosis factor, we did <cluePolarity>not</cluePolarity> <clueKT>detect</clueKT> <clueType>changes</clueType> <linkTheme>in</linkTheme> the tyrosine phosphorylation status of I kappa B alpha <linkCause>following</linkCause> treatment with either of <corefCause>these agents</corefCause>.</clue>
+</event>
+<event KT="Fact" id="E63">
+<type class="Positive_regulation"/>
+<theme idref="T45"/>
+<cause idref="T46"/>
+<clue>In comparison to other <clueType>activators</clueType> <linkTheme>of</linkTheme> NF-kappa B such as phorbol myristate acetate or tumor necrosis factor, we did not detect changes in the tyrosine phosphorylation status of I kappa B alpha following treatment with either of these agents.</clue>
+</event>
+<event KT="Fact" id="E64">
+<type class="Positive_regulation"/>
+<theme idref="T45"/>
+<cause idref="T47"/>
+<clue>In comparison to other <clueType>activators</clueType> <linkTheme>of</linkTheme> NF-kappa B such as phorbol myristate acetate or tumor necrosis factor, we did not detect changes in the tyrosine phosphorylation status of I kappa B alpha following treatment with either of these agents.</clue>
+</event>
+<sentence id="S8">These results suggest that <term id="T50" lex="tyrosine" sem="Amino_acid_monomer">tyrosine</term> phosphorylation of <term id="T51" lex="I_kappa_B_alpha" sem="Protein_molecule">I kappa B alpha</term> during <term id="T52" lex="hypoxia" sem="Other">hypoxia</term> is an important proximal step which precedes its dissociation and degradation from <term id="T53" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>.</sentence>
+<event KT="Other" id="E138">
+<type class="Protein_amino_acid_phosphorylation"/>
+<theme idref="T51"/>
+<site idref="T50"/>
+<clue>These results suggest that tyrosine <clueType>phosphorylation</clueType> <linkTheme>of</linkTheme> I kappa B alpha during hypoxia is an important proximal step which precedes its dissociation and degradation from NF-kappa B.</clue>
+</event>
+<event KT="Other" id="E139">
+<type class="Positive_regulation"/>
+<theme idref="E138"/>
+<cause idref="T52"/>
+<clue>These results suggest that tyrosine phosphorylation of I kappa B alpha <linkCause>during</linkCause> hypoxia is an important proximal step which precedes its dissociation and degradation from NF-kappa B.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Analysis" Polarity="Negative" id="E39">
+<type/>
+<theme idref="T51"/>
+<theme idref="T53"/>
+<clue>These results suggest that tyrosine phosphorylation of I kappa B alpha during hypoxia is an important proximal step which precedes <corefTheme idref1="T51">its</corefTheme> <clueType><cluePolarity>dis</cluePolarity><clueKT>sociation</clueKT></clueType> and degradation <linkTheme>from</linkTheme> NF-kappa B.</clue>
+<comment>SOO</comment></event>
+<event CL="L2" KT="Analysis" id="E40" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E39"/>
+<cause idref="E139"/>
+<clue>These results <clueKT><clueCL>suggest</clueCL></clueKT> that tyrosine phosphorylation of I kappa B alpha during hypoxia is an important proximal step which <clueType>precedes</clueType> its dissociation and degradation from NF-kappa B.</clue>
+</event>
+<event KT="Other" id="E41">
+<type class="Protein_catabolism"/>
+<theme idref="T51"/>
+<clue>These results suggest that tyrosine phosphorylation of I kappa B alpha during hypoxia is an important proximal step which precedes <linkTheme>its</linkTheme> dissociation and <clueType>degradation</clueType> from NF-kappa B.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E42" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E41"/>
+<cause idref="E139"/>
+<clue>These results <clueKT><clueCL>suggest</clueCL></clueKT> that tyrosine phosphorylation of I kappa B alpha during hypoxia is an important proximal step which <clueType>precedes</clueType> its dissociation and degradation from NF-kappa B.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

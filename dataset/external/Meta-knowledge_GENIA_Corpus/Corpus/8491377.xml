@@ -1,0 +1,101 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8491377" created="02/11/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8491377</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Cloning and functional characterization of <term id="T1" lex="early_B-cell_factor" sem="Protein_molecule">early B-cell factor</term>, a regulator of <term id="A1" sem="Cell_natural">lymphocyte</term>-specific <term id="A2" sem="Other">gene expression</term>.</sentence>
+<event KT="Fact" id="E1">
+<type class="Regulation"/>
+<theme idref="A2"/>
+<cause idref="T1"/>
+<clue>Cloning and functional characterization of early B-cell factor, a <clueType>regulator</clueType> <linkTheme>of</linkTheme> <clueLoc>lymphocyte-specific</clueLoc> gene expression.</clue>
+<comment>NER: T1 del &quot;lymphocyte-specific gene expression&quot;</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T3" lex="early_B-cell_factor" sem="Protein_molecule">Early B-cell factor</term> (<term id="T4" lex="EBF" sem="Protein_molecule">EBF</term>) was identified previously as a tissue-specific and <term id="A5" sem="Other">differentiation stage</term>-specific <term id="T5" lex="DNA-binding_protein" sem="Protein_family_or_group"><term id="A6" sem="DNA_domain_or_region">DNA</term>-binding protein</term> that participates in the regulation of the <cons id="C1" lex="(AND pre-B_lymphocyte B_lymphocyte)" sem="(AND Cell_natural Cell_natural)"><frag id="F1">pre-B</frag> and <frag id="F2">B</frag> <frag id="F3">lymphocyte</frag></cons>-specific <term id="A3" sem="DNA_domain_or_region">mb-1 gene</term>.</sentence>
+<event KT="Analysis" Source="Other" id="E2">
+<type class="Regulation"/>
+<theme idref="A3"/>
+<cause idref="T4"/>
+<clue>Early B-cell factor (EBF) was <clueKT>identified</clueKT> <clueSource>previously</clueSource> as <corefCause>a tissue-specific and differentiation stage-specific DNA-binding protein</corefCause> that <clueType>participates in the regulation</clueType> <linkTheme>of</linkTheme> the pre-B and B lymphocyte-specific mb-1 gene.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E4">
+<type class="Binding"/>
+<theme idref="T4"/>
+<theme idref="A6"/>
+<clue>Early B-cell factor (EBF) was <clueKT>identified</clueKT> <clueSource>previously</clueSource> as a <clueLoc>tissue-specific</clueLoc> and <clueTime>differentiation stage-specific</clueTime> DNA-<clueType>binding protein</clueType> that participates in the regulation of the pre-B and B lymphocyte-specific mb-1 gene.</clue>
+</event>
+<sentence id="S3">Partial amino acid sequences obtained from purified <term id="T7" lex="EBF" sem="Protein_molecule">EBF</term> were used to isolate <term id="T8" lex="cDNA_clone" sem="DNA_molecule">cDNA clones</term>, which by multiple criteria encode <term id="T9" lex="EBF" sem="Protein_molecule">EBF</term>.</sentence>
+<sentence id="S4">The <term id="T10" lex="recombinant_polypeptide" sem="Protein_family_or_group">recombinant polypeptide</term> formed sequence-specific complexes with the <term id="T11" lex="EBF-binding_site" sem="DNA_domain_or_region"><term id="T12" lex="EBF" sem="Protein_molecule">EBF</term>-binding site</term> in the <term id="T13" lex="mb-1_promoter" sem="DNA_domain_or_region">mb-1 promoter</term>.</sentence>
+<event id="E5">
+<type class="Binding"/>
+<theme idref="T10"/>
+<theme idref="T11"/>
+<clue>The recombinant polypeptide <clueType>formed</clueType> sequence-specific <clueType>complexes</clueType> <linkTheme>with</linkTheme> the EBF-binding site in the mb-1 promoter.</clue>
+</event>
+<sentence id="S5">The <term id="T14" lex="cDNA" sem="DNA_molecule">cDNA</term> hybridized to multiple transcripts in <term id="T15" lex="pre-B_and_B-cell_line" sem="Cell_cultured"><term id="T16" lex="pre-B_cell_lin" sem="Cell_cultured">pre-B</term> and <term id="T17" lex="B-cell_line" sem="Cell_cultured">B-cell lines</term></term>, but transcripts were not detected at significant levels in <term id="T18" lex="plasmacytoma" sem="Cell_cultured">plasmacytoma</term>, <term id="T19" lex="T-cell_line" sem="Cell_cultured">T-cell</term>, and <term id="T20" lex="nonlymphoid_cell_line" sem="Cell_cultured">nonlymphoid cell lines</term>.</sentence>
+<event id="E6">
+<type class="Transcription"/>
+<theme idref="T9"/>
+<clue><clueType>The cDNA hybridized</clueType> <linkTheme>to</linkTheme> <corefTheme>multiple transcripts</corefTheme> <clueLoc>in pre-B</clueLoc> and B-<clueLoc>cell lines</clueLoc>, but transcripts were not detected at significant levels in plasmacytoma, T-cell, and nonlymphoid cell lines.</clue>
+</event>
+<event id="E106">
+<type class="Transcription"/>
+<theme idref="T9"/>
+<clue><clueType>The cDNA hybridized</clueType> <linkTheme>to</linkTheme> <corefTheme>multiple transcripts</corefTheme> <clueLoc>in</clueLoc> pre-B and <clueLoc>B-cell lines</clueLoc>, but transcripts were not detected at significant levels in plasmacytoma, T-cell, and nonlymphoid cell lines.</clue>
+</event>
+<event Manner="High" Polarity="Negative" assertion="non-exist" id="E7">
+<type class="Transcription"/>
+<theme idref="T9"/>
+<clue>The cDNA hybridized to multiple transcripts in pre-B and B-cell lines, but <corefTheme>transcripts</corefTheme> were <cluePolarity>not</cluePolarity> <clueType><clueKT>detected</clueKT></clueType> <clueManner>at significant levels</clueManner> <clueLoc>in plasmacytoma</clueLoc>, T-cell, and nonlymphoid cell lines.</clue>
+</event>
+<event Manner="High" Polarity="Negative" assertion="non-exist" id="E107">
+<type class="Transcription"/>
+<theme idref="T9"/>
+<clue>The cDNA hybridized to multiple transcripts in pre-B and B-cell lines, but <corefTheme>transcripts</corefTheme> were <cluePolarity>not</cluePolarity> <clueType><clueKT>detected</clueKT></clueType> <clueManner>at significant levels</clueManner> <clueLoc>in</clueLoc> plasmacytoma, <clueLoc>T-cell</clueLoc>, and nonlymphoid cell lines.</clue>
+</event>
+<event Manner="High" Polarity="Negative" assertion="non-exist" id="E207">
+<type class="Transcription"/>
+<theme idref="T9"/>
+<clue>The cDNA hybridized to multiple transcripts in pre-B and B-cell lines, but <corefTheme>transcripts</corefTheme> were <cluePolarity>not</cluePolarity> <clueType><clueKT>detected</clueKT></clueType> <clueManner>at significant levels</clueManner> <clueLoc>in</clueLoc> plasmacytoma, T-cell, and <clueLoc>nonlymphoid cell lines</clueLoc>.</clue>
+</event>
+<sentence id="S6">Expression of <term id="T21" lex="EBF" sem="Protein_molecule">recombinant EBF</term> in <term id="T22" lex="transfected_nonlymphoid_cell" sem="Cell_cultured">transfected nonlymphoid cells</term> strongly activated transcription from <term id="A4" sem="DNA_molecule">reporter plasmids containing functional <term id="T23" lex="EBF-binding_site" sem="DNA_domain_or_region"><term id="T24" lex="EBF" sem="Protein_molecule">EBF</term>-binding sites</term></term>.</sentence>
+<event id="E8">
+<type class="Gene_expression"/>
+<theme idref="T21"/>
+<clue><clueType>Expression</clueType> <linkTheme>of</linkTheme> recombinant EBF <clueLoc>in transfected nonlymphoid cells</clueLoc> strongly activated transcription from reporter plasmids containing functional EBF-binding sites.</clue>
+<comment>NER T21 MOD, TPS A4</comment></event>
+<event id="E9">
+<type class="Transcription"/>
+<theme idref="A4"/>
+<clue>Expression of recombinant EBF in transfected nonlymphoid cells strongly activated <clueType>transcription</clueType> from reporter plasmids containing functional EBF-binding sites.</clue>
+</event>
+<event Manner="High" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="E8"/>
+<clue>Expression of recombinant EBF in transfected nonlymphoid cells <clueManner>strongly</clueManner> <clueType>activated</clueType> transcription from reporter plasmids containing functional EBF-binding sites.</clue>
+</event>
+<sentence id="S7">Analysis of DNA binding by deletion mutants of <term id="T25" lex="EBF" sem="Protein_molecule">EBF</term> identified an <term id="T26" lex="amino-terminal_cysteine-rich_DNA-binding_domain" sem="Protein_domain_or_region">amino-terminal cysteine-rich DNA-binding domain</term> lacking obvious sequence similarity to known <term id="T27" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term>.</sentence>
+<sentence id="S8"><term id="T28" lex="DNA-binding_assay" sem="Other">DNA-binding assays</term> with cotranslated wild-type and truncated forms of <term id="T29" lex="EBF" sem="Protein_molecule">EBF</term> indicated that the protein interacts with its site as a <term id="T30" lex="homodimer" sem="Protein_family_or_group">homodimer</term>.</sentence>
+<event KT="Other" id="E11">
+<type class="Binding"/>
+<theme idref="T29"/>
+<clue>DNA-binding assays with cotranslated wild-type and truncated forms of EBF indicated that <corefTheme>the protein</corefTheme> interacts with its site as a <clueType>homodimer</clueType>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E12">
+<type class="Binding"/>
+<theme idref="T29" idref1="T30"/>
+<theme idref="T23"/>
+<clue><clueExperiment>DNA-binding assays with cotranslated wild-type and truncated forms of EBF</clueExperiment> <clueKT><clueCL>indicated</clueCL></clueKT> that the protein <clueType>interacts</clueType> <linkTheme>with</linkTheme> <corefTheme>its site</corefTheme> <linkTheme>as</linkTheme> a homodimer.</clue>
+</event>
+<sentence id="S9">Deletions delineated a <term id="T31" lex="carboxy-terminal_dimerization_region" sem="Protein_domain_or_region">carboxy-terminal dimerization region</term> containing two repeats of <term id="T32" lex="15_amino_acids" sem="Peptide">15 amino acids</term> that show similarity with the <term id="T33" lex="dimerization_domain" sem="Protein_domain_or_region">dimerization domains</term> of <term id="T34" lex="basic-helix-loop-helix_protein" sem="Protein_family_or_group">basic-helix-loop-helix proteins</term>.</sentence>
+<sentence id="S10">Together, these data suggest that <term id="T35" lex="EBF" sem="Protein_molecule">EBF</term> represents a novel regulator of <term id="A11" sem="Cell_natural">B lymphocyte</term>-specific <term id="A12" sem="Other">gene expression</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E13" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="A12"/>
+<cause idref="T35"/>
+<clue>Together, these data <clueKT><clueCL>suggest</clueCL></clueKT> that EBF represents a novel <clueType>regulator</clueType> <linkTheme>of</linkTheme> <clueLoc>B lymphocyte-specific</clueLoc> gene expression.</clue>
+<comment>NER: T36 del &quot;B lymphocyte-specific gene expression&quot;</comment></event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

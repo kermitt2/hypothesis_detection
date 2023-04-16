@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns="http://www-tsujii.is.s.u-tokyo.ac.jp/GENIA/GENIAterm.owl#"
+  xml:base="http://www-tsujii.is.s.u-tokyo.ac.jp/GENIA/GENIAterm.owl">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="Nucleic_acid_compound">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Organic_compound"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Anatomy"/>
+  <owl:Class rdf:ID="Protein_complex">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Protein"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Carbohydrate">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Organic_compound"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Tissue_cultured">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Tissue"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Body_region">
+    <rdfs:subClassOf rdf:resource="#Anatomy"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Peptide">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Amino_acid_compound"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Inorganic_compound">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Compound"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Compound">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Chemical"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Amino_acid_compound">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Organic_compound"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Multicellular_organism">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Organism"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Protein">
+    <rdfs:subClassOf rdf:resource="#Amino_acid_compound"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Multicellular_organism_natural">
+    <rdfs:subClassOf rdf:resource="#Multicellular_organism"/>
+  </owl:Class>
+  <owl:Class rdf:ID="RNA">
+    <rdfs:subClassOf rdf:resource="#Nucleic_acid_compound"/>
+  </owl:Class>
+  <owl:Class rdf:ID="DNA_molecule">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="DNA"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Virus">
+    <rdfs:subClassOf rdf:resource="#Organism"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Other"/>
+  <owl:Class rdf:ID="Tissue_natural">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Tissue"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="RNA_molecule">
+    <rdfs:subClassOf rdf:resource="#RNA"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Protein_substructure">
+    <rdfs:subClassOf rdf:resource="#Protein"/>
+  </owl:Class>
+  <owl:Class rdf:ID="DNA_domain_or_region">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#DNA"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Unicellular_organism">
+    <rdfs:subClassOf rdf:resource="#Organism"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Chemical">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >It roughly corresponds to  the "Chemicals and Drugs Category" of MeSH excluding the "Pharmaceutical Preparations" and "Chemical Actions and Uses" sub-categories. The "Elements" category under "Inorganic Chemicals" category is separated out into an individual class, "Element".</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Multicellular_organism_genetically_modified">
+    <rdfs:subClassOf rdf:resource="#Multicellular_organism"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Tissue">
+    <rdfs:subClassOf rdf:resource="#Anatomy"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Lipid">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Organic_compound"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Protein_domain_or_region">
+    <rdfs:subClassOf rdf:resource="#Protein"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Protein_molecule">
+    <rdfs:subClassOf rdf:resource="#Protein"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Cell">
+    <rdfs:subClassOf rdf:resource="#Anatomy"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Element">
+    <rdfs:subClassOf rdf:resource="#Chemical"/>
+  </owl:Class>
+  <owl:Class rdf:about="#DNA">
+    <rdfs:subClassOf rdf:resource="#Nucleic_acid_compound"/>
+  </owl:Class>
+  <owl:Class rdf:ID="RNA_family_or_group">
+    <rdfs:subClassOf rdf:resource="#RNA"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Cell_natural">
+    <rdfs:subClassOf rdf:resource="#Cell"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Amino_acid_monomer">
+    <rdfs:subClassOf rdf:resource="#Amino_acid_compound"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Nucleotide">
+    <rdfs:subClassOf rdf:resource="#Nucleic_acid_compound"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Polynucleotide">
+    <rdfs:subClassOf rdf:resource="#Nucleic_acid_compound"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Cell_cultured">
+    <rdfs:subClassOf rdf:resource="#Cell"/>
+  </owl:Class>
+  <owl:Class rdf:ID="RNA_substructure">
+    <rdfs:subClassOf rdf:resource="#RNA"/>
+  </owl:Class>
+  <owl:Class rdf:ID="RNA_domain_or_region">
+    <rdfs:subClassOf rdf:resource="#RNA"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Organic_compound_other">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Organic_compound"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Protein_family_or_group">
+    <rdfs:subClassOf rdf:resource="#Protein"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Cell_component">
+    <rdfs:subClassOf rdf:resource="#Anatomy"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Organic_compound">
+    <rdfs:subClassOf rdf:resource="#Compound"/>
+  </owl:Class>
+  <owl:Class rdf:ID="DNA_substructure">
+    <rdfs:subClassOf rdf:resource="#DNA"/>
+  </owl:Class>
+  <owl:Class rdf:ID="DNA_family_or_group">
+    <rdfs:subClassOf rdf:resource="#DNA"/>
+  </owl:Class>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.3.1, Build 430)  http://protege.stanford.edu -->

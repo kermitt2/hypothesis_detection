@@ -1,0 +1,8 @@
+T5	Adverse_effect 1214 1226	hepatoxicity
+T10	DDI 1276 1287	interaction
+T17	Adverse_effect 120 135	adverse effects
+T18	DDI 172 183	interaction
+E2	DDI:T10 has_participant:T14 has_participant:T13 has_participant:T27
+E4	DDI:T18 has_participant:T2 has_participant:T19 has_participant:T3
+E1	Adverse_effect:T5 has_agent:T13 affects:T4
+E3	Adverse_effect:T17 has_agent:E4

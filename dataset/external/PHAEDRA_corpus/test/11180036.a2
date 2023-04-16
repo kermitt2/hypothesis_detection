@@ -1,0 +1,14 @@
+T53	DDI 128 155	pharmacokinetic interaction
+T54	DDI 335 347	interactions
+T49	DDI 1910 1921	interaction
+T50	DDI 0 27	Pharmacokinetic interaction
+E1	DDI:T53 has_participant:T3 has_participant:T8 has_subject:T5
+E2	DDI:T54 has_participant:T9 has_participant:T10
+E3	Combination:T17 has_participant:T27 has_participant:T28
+E4	Combination:T42 has_participant:T32 has_participant:T29
+E7	Combination:T47 has_participant:T34 has_participant:T35
+E8	DDI:T49 has_participant:T37 has_participant:T38
+E9	DDI:T50 has_participant:T1 has_participant:T2 has_subject:T52
+E19	Combination:T67 has_participant:T12 has_participant:T14
+T6	Potential_therapeutic_effect 726 731	given
+E5	Potential_therapeutic_effect:T6 has_subject:T56 has_agent:E19

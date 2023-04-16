@@ -1,0 +1,130 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9388475" created="20/11/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9388475</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Molecular cloning and <term id="T1" lex="functional_characterization" sem="Other">functional characterization</term> of <term id="T2" lex="murine_cDNA_encoding_transcription_factor" sem="Protein_family_or_group">murine cDNA encoding transcription factor</term> <term id="T3" lex="NFATc" sem="Protein_molecule">NFATc</term>.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T4" lex="transcription_factor" sem="Protein_family_or_group">Transcription factors</term> of the <term id="T5" lex="NFAT_(nuclear_factor_of_activated_T_cells)_family" sem="Protein_family_or_group">NFAT (<term id="T6" lex="nuclear_factor_of_activated_T_cells" sem="Protein_family_or_group">nuclear factor of activated T cells</term>) family</term> play important roles in <cons id="T7" lex="(AND immune_response inflammatory_response)" sem="(AND Other Other) "><frag id="F1">immune</frag> and <frag id="F2">inflammatory</frag> <frag id="F3">responses</frag></cons> by regulating the expression of genes encoding <term id="T8" lex="cytokine" sem="Protein_family_or_group">cytokines</term> and <term id="T9" lex="immunoregulatory_protein" sem="Protein_family_or_group">immunoregulatory proteins</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Gene_expression"/>
+<theme idref="T8"/>
+<clue>Transcription factors of the NFAT (nuclear factor of activated T cells) family play important roles in immune and inflammatory responses by regulating the <clueType>expression</clueType> <linkTheme>of</linkTheme> genes encoding cytokines and immunoregulatory proteins.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Gene_expression"/>
+<theme idref="T9"/>
+<clue>Transcription factors of the NFAT (nuclear factor of activated T cells) family play important roles in immune and inflammatory responses by regulating the <clueType>expression</clueType> <linkTheme>of</linkTheme> genes encoding cytokines and immunoregulatory proteins.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Regulation"/>
+<theme idref="E1"/>
+<cause idref="T5"/>
+<clue>Transcription factors of the NFAT (nuclear factor of activated T cells) family play important roles in immune and inflammatory responses by <clueType>regulating</clueType> the expression of genes encoding cytokines and immunoregulatory proteins.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Regulation"/>
+<theme idref="E2"/>
+<cause idref="T5"/>
+<clue>Transcription factors of the NFAT (nuclear factor of activated T cells) family play important roles in immune and inflammatory responses by <clueType>regulating</clueType> the expression of genes encoding cytokines and immunoregulatory proteins.</clue>
+</event>
+<event KT="Fact" id="E5">
+<type class="Regulation"/>
+<theme idref="F1" idref1="F2"/>
+<cause idref="E3"/>
+<clue>Transcription factors of the NFAT (nuclear factor of activated T cells) family <clueType>play important roles</clueType> <linkTheme>in</linkTheme> immune and inflammatory responses <linkCause>by</linkCause> regulating the expression of genes encoding cytokines and immunoregulatory proteins.</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Regulation"/>
+<theme idref="F2" idref1="F3"/>
+<cause idref="E3"/>
+<clue>Transcription factors of the NFAT (nuclear factor of activated T cells) family <clueType>play important roles</clueType> <linkTheme>in</linkTheme> immune and inflammatory responses <linkCause>by</linkCause> regulating the expression of genes encoding cytokines and immunoregulatory proteins.</clue>
+<comment>NER T15 MOD</comment></event>
+<sentence id="S3">Here we describe cloning and characterization of full-length <term id="T10" lex="cDNA_encoding_murine_(m)_NFATc" sem="Protein_molecule">cDNA encoding murine (m) <term id="T11" lex="NFATc" sem="Protein_molecule">NFATc</term></term> which predicts that the protein has all the <term id="T12" lex="conserved_structural_motif" sem="Protein_substructure">conserved structural motifs</term> of <term id="T13" lex="NFAT_family_member" sem="Protein_family_or_group">NFAT family members</term>, including the <term id="A5" sem="Protein_domain_or_region">rel homology domain</term>, the <term id="T14" lex="NFAT_homology_domain" sem="Protein_domain_or_region">NFAT homology domain</term> and the <term id="T15" lex="nuclear_translocation_signal" sem="Protein_domain_or_region">nuclear translocation signals</term>.</sentence>
+<sentence id="S4"><term id="T16" lex="mNFATc" sem="Protein_molecule">mNFATc</term> complexed with <term id="T17" lex="AP-1" sem="Protein_molecule">AP-1</term> bound specifically to the <term id="T18" lex="murine_IL-2_NFAT_recognition_sequence" sem="Protein_domain_or_region">murine IL-2 NFAT recognition sequence</term> and activated transcription from the <term id="T19" lex="co-transfected_IL-2_promoter" sem="DNA_domain_or_region">co-transfected <term id="A6" sem="DNA_domain_or_region">IL-2 promoter</term></term> in <term id="T20" lex="COS-7_cell" sem="Cell_cultured">COS-7 cells</term>.</sentence>
+<event id="E7">
+<type class="Binding"/>
+<theme idref="T16"/>
+<theme idref="T17"/>
+<clue>mNFATc <clueType>complexed</clueType> <linkTheme>with</linkTheme> AP-1 bound specifically to the murine IL-2 NFAT recognition sequence and activated transcription from the co-transfected IL-2 promoter in COS-7 cells.</clue>
+<comment>NER T15 MOD</comment></event>
+<event id="E8">
+<type class="Binding"/>
+<theme idref="T16"/>
+<theme idref="T18"/>
+<clue>mNFATc complexed with AP-1 <clueType>bound</clueType> specifically <linkTheme>to</linkTheme> the murine IL-2 NFAT recognition sequence and activated transcription from the co-transfected IL-2 promoter in COS-7 cells.</clue>
+</event>
+<event id="E9">
+<type class="Transcription"/>
+<theme idref="T19"/>
+<clue>mNFATc complexed with AP-1 bound specifically to the murine IL-2 NFAT recognition sequence and activated <clueType>transcription</clueType> <linkTheme>from</linkTheme> the co-transfected IL-2 promoter in COS-7 cells.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="E8"/>
+<clue>mNFATc complexed with AP-1 bound specifically to the murine IL-2 NFAT recognition sequence and <clueType>activated</clueType> transcription from the co-transfected IL-2 promoter <clueLoc>in COS-7 cells</clueLoc>.</clue>
+</event>
+<event KT="Method" id="E11">
+<type class="Artificial_process"/>
+<theme idref="A6"/>
+<clue>mNFATc complexed with AP-1 bound specifically to the murine IL-2 NFAT recognition sequence and activated transcription from the <clueType>co-transfected</clueType> IL-2 promoter in COS-7 cells.</clue>
+</event>
+<sentence id="S5">Northern blot analysis showed that the <term id="T21" lex="cDNA_probe" sem="DNA_molecule">cDNA probe</term> hybridized with a <term id="A7" sem="RNA_molecule">4.5 kb transcript</term> which is highly inducible in <term id="T22" lex="murine_T_cell" sem="Cell_natural">murine T cells</term>.</sentence>
+<event KT="Fact" Manner="High" id="E12">
+<type class="Transcription"/>
+<theme idref="A7"/>
+<clue>Northern blot analysis showed that the cDNA probe hybridized with a 4.5 kb transcript which is <clueManner>highly</clueManner> <clueType>inducible</clueType> <clueLoc>in murine T cells</clueLoc>.</clue>
+</event>
+<event KT="Analysis" id="E112">
+<type class="Binding"/>
+<theme idref="T21"/>
+<theme idref="A7"/>
+<clue><clueExperiment>Northern blot analysis</clueExperiment> <clueKT>showed</clueKT> that the cDNA probe <clueType>hybridized</clueType> <linkTheme>with</linkTheme> a 4.5 kb transcript which is highly inducible in murine T cells.</clue>
+</event>
+<sentence id="S6">By Northern and <term id="T23" lex="in_situ_hybridization" sem="Other">in situ hybridization</term>, <term id="T24" lex="mNFATc_transcript" sem="RNA_molecule"><term id="T25" lex="mNFATc" sem="Protein_molecule">mNFATc</term> transcript</term> was detected from the early stage of development.</sentence>
+<event id="E13">
+<type class="Transcription"/>
+<theme idref="T24"/>
+<clue><clueExperiment>By Northern and in situ hybridization</clueExperiment>, mNFATc transcript was <clueType><clueKT>detected</clueKT></clueType> <clueTime>from the early stage of development</clueTime>.</clue>
+</event>
+<sentence id="S7">In the <term id="T26" lex="mouse_embryo" sem="Multicellular_organism_natural">mouse embryo</term>, <term id="T27" lex="mNFATc_transcript" sem="RNA_molecule"><term id="T28" lex="mNFATc" sem="Protein_molecule">mNFATc</term> transcript</term> was strongly expressed in <term id="T29" lex="thymus" sem="Body_region">thymus</term>, <term id="T30" lex="lung" sem="Body_region">lung</term> and <term id="T31" lex="submandibular_gland" sem="Body_region">submandibular gland</term> and weakly in <term id="A8" sem="Body_region">skeletal muscle</term> and <term id="A9" sem="Body_region">heart</term> suggesting that <term id="T32" lex="mNFATc" sem="Protein_molecule">mNFATc</term> may have a role both in <term id="T33" lex="embryogenesis" sem="Other">embryogenesis</term> and in <term id="T34" lex="mature_T_cell" sem="Cell_natural">mature T cells</term>.</sentence>
+<event Manner="High" id="E14">
+<type class="Transcription"/>
+<theme idref="T27"/>
+<clue><clueLoc>In the mouse embryo</clueLoc>, mNFATc transcript was <clueManner>strongly</clueManner> <clueType>expressed</clueType> <clueLoc>in thymus</clueLoc>, lung and submandibular gland and weakly in skeletal muscle and heart suggesting that mNFATc may have a role both in embryogenesis and in mature T cells.</clue>
+</event>
+<event Manner="High" id="E114">
+<type class="Transcription"/>
+<theme idref="T27"/>
+<clue><clueLoc>In the mouse embryo</clueLoc>, mNFATc transcript was <clueManner>strongly</clueManner> <clueType>expressed</clueType> <clueLoc>in</clueLoc> thymus, <clueLoc>lung</clueLoc> and submandibular gland and weakly in skeletal muscle and heart suggesting that mNFATc may have a role both in embryogenesis and in mature T cells.</clue>
+</event>
+<event Manner="High" id="E214">
+<type class="Transcription"/>
+<theme idref="T27"/>
+<clue><clueLoc>In the mouse embryo</clueLoc>, mNFATc transcript was <clueManner>strongly</clueManner> <clueType>expressed</clueType> <clueLoc>in</clueLoc> thymus, lung and <clueLoc>submandibular gland</clueLoc> and weakly in skeletal muscle and heart suggesting that mNFATc may have a role both in embryogenesis and in mature T cells.</clue>
+</event>
+<event Manner="Low" id="E314">
+<type class="Transcription"/>
+<theme idref="T27"/>
+<clue><clueLoc>In the mouse embryo</clueLoc>, mNFATc transcript was strongly <clueType>expressed</clueType> in thymus, lung and submandibular gland and <clueManner>weakly</clueManner> <clueLoc>in skeletal muscle</clueLoc> and heart suggesting that mNFATc may have a role both in embryogenesis and in mature T cells.</clue>
+</event>
+<event Manner="Low" id="E414">
+<type class="Transcription"/>
+<theme idref="T27"/>
+<clue><clueLoc>In the mouse embryo</clueLoc>, mNFATc transcript was strongly <clueType>expressed</clueType> in thymus, lung and submandibular gland and <clueManner>weakly</clueManner> <clueLoc>in</clueLoc> skeletal muscle and <clueLoc>heart</clueLoc> suggesting that mNFATc may have a role both in embryogenesis and in mature T cells.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E15" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="T33"/>
+<cause idref="T32"/>
+<clue>In the mouse embryo, mNFATc transcript was strongly expressed in thymus, lung and submandibular gland and weakly in skeletal muscle and heart <clueKT>suggesting</clueKT> that mNFATc <clueCL>may</clueCL> <clueType>have a role</clueType> both <linkTheme>in</linkTheme> embryogenesis and in mature T cells.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E16" uncertainty="probable">
+<type class="Regulation"/>
+<cause idref="T32"/>
+<clue>In the mouse embryo, mNFATc transcript was strongly expressed in thymus, lung and submandibular gland and weakly in skeletal muscle and heart <clueKT>suggesting</clueKT> that mNFATc <clueCL>may</clueCL> <clueType>have a role</clueType> both in embryogenesis and <clueLoc>in mature T cells</clueLoc>.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

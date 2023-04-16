@@ -1,0 +1,10 @@
+T1	DDI 23 34	interaction
+T10	Adverse_effect 35 45	implicated
+T14	DDI 232 243	interaction
+T15	Adverse_effect 101 111	associated
+E1	DDI:T1 has_participant:T2 has_participant:T3
+E3	Combination:T12 has_participant:T8 has_participant:T9
+E5	DDI:T14 has_cue:T16 has_participant:T8 has_participant:T9
+E2	Adverse_effect:T10 has_agent:E1 affects:T4 affects:T5
+E6	Adverse_effect:T15 affects:T7 affects:T6 has_agent:E3
+A1	Manner E5 High

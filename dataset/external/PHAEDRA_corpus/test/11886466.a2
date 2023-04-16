@@ -1,0 +1,24 @@
+T17	Potential_therapeutic_effect 48 51	use
+T18	Adverse_effect 28 38	associated
+T15	Adverse_effect 308 325	increase the risk
+T22	Adverse_effect 429 438	developed
+T23	Potential_therapeutic_effect 512 519	treated
+T24	Adverse_effect 666 677	contributed
+T29	Potential_therapeutic_effect 155 162	used to
+T40	Adverse_effect 719 736	used with caution
+R1	is_equivalent Arg1:T4 Arg2:T19
+R2	Subject_Disorder Arg1:T33 Arg2:T10
+R3	Subject_Disorder Arg1:T28 Arg2:T34
+R4	Subject_Disorder Arg1:T36 Arg2:T3
+E1	Potential_therapeutic_effect:T17 affects:T3 has_agent:T2
+E2	Adverse_effect:T18 affects:T1 has_agent:T2
+E3	Adverse_effect:T15 has_cue:T21 affects:T9 affects:T31 has_cue:T32 has_agent:T4
+E4	Adverse_effect:T22 affects:T11 has_agent:T20
+E5	Potential_therapeutic_effect:T23 has_agent:T20 affects:T10
+E6	Adverse_effect:T24 has_cue:T25 affects:T13 has_agent:T14
+E9	Potential_therapeutic_effect:T29 affects:T5 affects:T6 affects:T39 affects:T30 has_agent:T4
+E10	Adverse_effect:T40 has_cue:T41 has_agent:T16 has_subject:T28
+A1	Speculated E3
+A2	Speculated E6
+A4	Negated E3
+A5	Speculated E10

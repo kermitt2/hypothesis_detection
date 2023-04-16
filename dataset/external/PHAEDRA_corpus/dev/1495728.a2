@@ -1,0 +1,15 @@
+T10	Potential_therapeutic_effect 49 58	treatment
+T12	Potential_therapeutic_effect 179 190	termination
+T13	Adverse_effect 116 125	following
+T15	Potential_therapeutic_effect 369 378	effective
+T17	Adverse_effect 486 493	caution
+R1	Subject_Disorder Arg1:T14 Arg2:T8
+E1	Potential_therapeutic_effect:T10 affects:T3 has_agent:T1
+E3	Potential_therapeutic_effect:T12 has_agent:T5 affects:T6
+E4	Adverse_effect:T13 has_agent:T5 affects:T4
+E5	Potential_therapeutic_effect:T15 has_agent:T7 has_cue:T16 has_subject:T14 affects:T8
+E6	Adverse_effect:T17 has_cue:T18 affects:T9 has_agent:T7
+A1	Speculated E5
+A2	Speculated E6
+T11	Adverse_effect 49 58	treatment
+E2	Adverse_effect:T11 affects:T2 has_agent:T1

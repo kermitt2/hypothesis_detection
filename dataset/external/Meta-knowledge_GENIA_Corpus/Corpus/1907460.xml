@@ -1,0 +1,236 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1907460" created="06/03/2006" creator="Hitomi MASUDA"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1907460</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Inhibition of <term id="T1" lex="HIV-1" sem="Virus">HIV-1</term> <term id="T2" lex="replication" sem="Other">replication</term> and <term id="T3" lex="NF-kappa_B_activity" sem="Other"><term id="T4" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> activity</term> by <term id="T5" lex="cysteine" sem="Amino_acid_monomer">cysteine</term> and <term id="T6" lex="cysteine_derivative" sem="Organic_compound_other"><term id="T7" lex="cysteine" sem="Amino_acid_monomer">cysteine</term> derivatives</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Viral_life_cycle"/>
+<theme idref="T1"/>
+<clue>Inhibition of HIV-1 <clueType>replication</clueType> and NF-kappa B activity by cysteine and cysteine derivatives.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation"/>
+<theme idref="E1"/>
+<cause idref="T5"/>
+<clue><clueType>Inhibition</clueType> <linkTheme>of</linkTheme> HIV-1 replication and NF-kappa B activity <linkCause>by</linkCause> cysteine and cysteine derivatives.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation"/>
+<theme idref="E1"/>
+<cause idref="T6"/>
+<clue><clueType>Inhibition</clueType> <linkTheme>of</linkTheme> HIV-1 replication and NF-kappa B activity <linkCause>by</linkCause> cysteine and cysteine derivatives.</clue>
+</event>
+<event id="E100">
+<type class="Negative_regulation"/>
+<theme idref="T4"/>
+<cause idref="T5"/>
+<clue><clueType>Inhibition</clueType> <linkTheme>of</linkTheme> HIV-1 replication and NF-kappa B activity <linkCause>by</linkCause> cysteine and cysteine derivatives.</clue>
+</event>
+<event id="E101">
+<type class="Negative_regulation"/>
+<theme idref="T4"/>
+<cause idref="T6"/>
+<clue><clueType>Inhibition</clueType> <linkTheme>of</linkTheme> HIV-1 replication and NF-kappa B activity <linkCause>by</linkCause> cysteine and cysteine derivatives.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T8" lex="HIV-1_proviral_DNA" sem="DNA_molecule"><term id="T9" lex="HIV-1" sem="Virus">HIV-1</term> proviral DNA</term> contains two <term id="T10" lex="binding_site" sem="DNA_domain_or_region">binding sites</term> for the <term id="T11" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> <term id="T12" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>.</sentence>
+<event KT="Fact" id="E4">
+<type class="Binding"/>
+<theme idref="T8"/>
+<theme idref="T12"/>
+<clue>HIV-1 proviral DNA <clueType>contains</clueType> two <clueType>binding sites</clueType> <linkTheme>for</linkTheme> the transcription factor NF-kappa B.</clue>
+</event>
+<sentence id="S3"><term id="T13" lex="HIV-1-infected_individual" sem="Multicellular_organism_natural"><term id="T14" lex="HIV-1" sem="Virus">HIV-1</term>-infected <term id="A1" sem="Multicellular_organism_natural">individuals</term></term> have, on average, abnormally high levels of <term id="T15" lex="tumour_necrosis_factor_alpha" sem="Protein_molecule">tumour necrosis factor alpha</term> (<term id="T16" lex="TNF_alpha" sem="Protein_molecule">TNF alpha</term>) and abnormally low <term id="T17" lex="plasma_cysteine_level" sem="Other">plasma <term id="T18" lex="cysteine" sem="Amino_acid_monomer">cysteine</term> levels</term>.</sentence>
+<event KT="Other" id="E5">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="A1"/>
+<theme idref="T14"/>
+<clue>HIV-1-<clueType>infected</clueType> individuals have, on average, abnormally high levels of tumour necrosis factor alpha (TNF alpha) and abnormally low plasma cysteine levels.</clue>
+</event>
+<event KT="Fact" Manner="High" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="T16"/>
+<cause idref="E5"/>
+<clue>HIV-1-infected individuals <clueType>have</clueType>, on average, abnormally <clueType><clueManner>high</clueManner> levels</clueType> <linkTheme>of</linkTheme> tumour necrosis factor alpha (TNF alpha) and abnormally low plasma cysteine levels.</clue>
+</event>
+<event KT="Fact" Manner="Low" id="E7">
+<type class="Negative_regulation"/>
+<theme idref="T18"/>
+<cause idref="E5"/>
+<clue>HIV-1-infected individuals <clueType>have</clueType>, on average, abnormally high levels of tumour necrosis factor alpha (TNF alpha) and abnormally <clueType><clueManner>low</clueManner></clueType> <clueLoc>plasma</clueLoc> cysteine <clueType>levels</clueType>.</clue>
+</event>
+<sentence id="S4">We therefore investigated the effects of <term id="T19" lex="cysteine" sem="Amino_acid_monomer">cysteine</term> and related <term id="T20" lex="thiol" sem="Organic_compound_other">thiols</term> on <term id="T21" lex="HIV-1_replication" sem="Other"><term id="T22" lex="HIV-1" sem="Virus">HIV-1</term> replication</term> and <term id="T23" lex="NF-kappa_B_expression" sem="Other"><term id="T24" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> expression</term>.</sentence>
+<event KT="Other" id="E8">
+<type class="Viral_life_cycle"/>
+<theme idref="T22"/>
+<clue>We therefore investigated the effects of cysteine and related thiols on HIV-1 <clueType>replication</clueType> and NF-kappa B expression.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Gene_expression"/>
+<theme idref="T24"/>
+<clue>We therefore investigated the effects of cysteine and related thiols on HIV-1 replication and NF-kappa B <clueType>expression</clueType>.</clue>
+</event>
+<event KT="Investigation" id="E10" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E8"/>
+<cause idref="T19"/>
+<clue>We therefore <clueKT>investigated</clueKT> the <clueType>effects</clueType> <linkCause>of</linkCause> cysteine and related thiols <linkTheme>on</linkTheme> HIV-1 replication and NF-kappa B expression.</clue>
+</event>
+<event KT="Investigation" id="E11" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E9"/>
+<cause idref="T19"/>
+<clue>We therefore <clueKT>investigated</clueKT> the <clueType>effects</clueType> <linkCause>of</linkCause> cysteine and related thiols <linkTheme>on</linkTheme> HIV-1 replication and NF-kappa B expression.</clue>
+</event>
+<event KT="Investigation" id="E12" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E8"/>
+<cause idref="T20"/>
+<clue>We therefore <clueKT>investigated</clueKT> the <clueType>effects</clueType> <linkCause>of</linkCause> cysteine and related thiols <linkTheme>on</linkTheme> HIV-1 replication and NF-kappa B expression.</clue>
+</event>
+<event KT="Investigation" id="E13" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E9"/>
+<cause idref="T20"/>
+<clue>We therefore <clueKT>investigated</clueKT> the <clueType>effects</clueType> <linkCause>of</linkCause> cysteine and related thiols <linkTheme>on</linkTheme> HIV-1 replication and NF-kappa B expression.</clue>
+</event>
+<sentence id="S5">The experiments in this report show that <term id="T25" lex="cysteine" sem="Amino_acid_monomer">cysteine</term> or <term id="T26" lex="N-acetylcysteine" sem="Amino_acid_monomer">N-acetylcysteine</term> (<term id="T27" lex="NAC" sem="Amino_acid_monomer">NAC</term>) raise the <term id="T28" lex="intracellular_glutathione_(GSH)_level" sem="Other"><term id="A2" sem="Other">intracellular</term> <term id="T29" lex="glutathione" sem="Peptide">glutathione</term> (<term id="T30" lex="GSH" sem="Peptide">GSH</term>) level</term> and inhibit <term id="T31" lex="HIV-1" sem="Virus">HIV-1</term> replication in persistently infected <term id="T32" lex="Molt-4" sem="Cell_cultured">Molt-4</term> and <term id="T33" lex="U937_cell" sem="Cell_cultured">U937 cells</term>.</sentence>
+<event KT="Analysis" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="A2" idref1="T30"/>
+<cause idref="T25"/>
+<clue>The experiments in this report <clueKT>show</clueKT> that cysteine or N-acetylcysteine (NAC) <clueType>raise</clueType> the intracellular glutathione (GSH) level and inhibit HIV-1 replication <clueLoc>in persistently infected Molt-4</clueLoc> and U937 <clueLoc>cells</clueLoc>.</clue>
+</event>
+<event KT="Analysis" id="E114">
+<type class="Positive_regulation"/>
+<theme idref="A2" idref1="T30"/>
+<cause idref="T25"/>
+<clue>The experiments in this report <clueKT>show</clueKT> that cysteine or N-acetylcysteine (NAC) <clueType>raise</clueType> the intracellular glutathione (GSH) level and inhibit HIV-1 replication <clueLoc>in persistently infected</clueLoc> Molt-4 and <clueLoc>U937 cells</clueLoc>.</clue>
+</event>
+<event KT="Analysis" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="A2" idref1="T30"/>
+<cause idref="T27"/>
+<clue>The experiments in this report <clueKT>show</clueKT> that cysteine or N-acetylcysteine (NAC) <clueType>raise</clueType> the intracellular glutathione (GSH) level and inhibit HIV-1 replication <clueLoc>in persistently infected Molt-4</clueLoc> and U937 <clueLoc>cells</clueLoc>.</clue>
+</event>
+<event KT="Analysis" id="E115">
+<type class="Positive_regulation"/>
+<theme idref="A2" idref1="T30"/>
+<cause idref="T27"/>
+<clue>The experiments in this report <clueKT>show</clueKT> that cysteine or N-acetylcysteine (NAC) <clueType>raise</clueType> the intracellular glutathione (GSH) level and inhibit HIV-1 replication <clueLoc>in persistently infected</clueLoc> Molt-4 and <clueLoc>U937 cells</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Viral_life_cycle"/>
+<theme idref="T31"/>
+<clue>The experiments in this report show that cysteine or N-acetylcysteine (NAC) raise the intracellular glutathione (GSH) level and inhibit HIV-1 <clueType>replication</clueType> in persistently infected Molt-4 and U937 cells.</clue>
+</event>
+<event KT="Analysis" id="E17">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<cause idref="T25"/>
+<clue>The experiments in this report <clueKT>show</clueKT> that cysteine or N-acetylcysteine (NAC) raise the intracellular glutathione (GSH) level and <clueType>inhibit</clueType> HIV-1 replication <clueLoc>in persistently infected Molt-4</clueLoc> and U937 <clueLoc>cells</clueLoc>.</clue>
+</event>
+<event KT="Analysis" id="E117">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<cause idref="T25"/>
+<clue>The experiments in this report <clueKT>show</clueKT> that cysteine or N-acetylcysteine (NAC) raise the intracellular glutathione (GSH) level and <clueType>inhibit</clueType> HIV-1 replication <clueLoc>in persistently infected</clueLoc> Molt-4 and <clueLoc>U937 cells</clueLoc>.</clue>
+</event>
+<event KT="Analysis" id="E18">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<cause idref="T27"/>
+<clue>The experiments in this report <clueKT>show</clueKT> that cysteine or N-acetylcysteine (NAC) raise the intracellular glutathione (GSH) level and <clueType>inhibit</clueType> HIV-1 replication <clueLoc>in persistently infected Molt-4</clueLoc> and U937 <clueLoc>cells</clueLoc>.</clue>
+</event>
+<event KT="Analysis" id="E118">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<cause idref="T27"/>
+<clue>The experiments in this report <clueKT>show</clueKT> that cysteine or N-acetylcysteine (NAC) raise the intracellular glutathione (GSH) level and <clueType>inhibit</clueType> HIV-1 replication <clueLoc>in persistently infected</clueLoc> Molt-4 and <clueLoc>U937 cells</clueLoc>.</clue>
+</event>
+<sentence id="S6">However, inhibition of <term id="T34" lex="HIV-1" sem="Virus">HIV-1</term> replication appears not to be directly correlated with <term id="T35" lex="GSH_level" sem="Other"><term id="T36" lex="GSH" sem="Peptide">GSH</term> levels</term>.</sentence>
+<event KT="Other" id="E19">
+<type class="Viral_life_cycle"/>
+<theme idref="T34"/>
+<clue>However, inhibition of HIV-1 <clueType>replication</clueType> appears not to be directly correlated with GSH levels.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Negative_regulation"/>
+<theme idref="E19"/>
+<clue>However, <clueType>inhibition</clueType> <linkTheme>of</linkTheme> HIV-1 replication appears not to be directly correlated with GSH levels.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E21">
+<type class="Correlation"/>
+<theme idref="E20"/>
+<theme idref="T36"/>
+<clue>However, inhibition of HIV-1 replication <clueKT><clueCL>appears</clueCL></clueKT> <cluePolarity>not</cluePolarity> to be <clueType>directly <clueKT>correlated</clueKT></clueType> <linkTheme>with</linkTheme> GSH levels.</clue>
+</event>
+<sentence id="S7"><term id="T37" lex="cysteine" sem="Amino_acid_monomer">Cysteine</term> and <term id="T38" lex="NAC" sem="Amino_acid_monomer">NAC</term> also inhibit <term id="T39" lex="NF-kappa_B_activity" sem="Other"><term id="T40" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> activity</term> as determined by <term id="T41" lex="electrophoretic_mobility_shift_assay" sem="Other">electrophoretic mobility shift assays</term> and <term id="T42" lex="chloramphenicol_acetyl-transferase_(CAT)_gene_expression" sem="Other"><term id="T43" lex="chloramphenicol_acetyl-transferase" sem="Protein_molecule">chloramphenicol acetyl-transferase</term> (<term id="T44" lex="CAT" sem="Protein_molecule">CAT</term>) gene expression</term> under control of <term id="T45" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> <term id="T46" lex="binding_site" sem="DNA_domain_or_region">binding sites</term> in <term id="T47" lex="uninfected_cell" sem="Cell_natural">uninfected cells</term>.</sentence>
+<event KT="Analysis" id="E22">
+<type class="Negative_regulation"/>
+<theme idref="T40"/>
+<cause idref="T37"/>
+<clue>Cysteine and NAC also <clueType>inhibit</clueType> NF-kappa B activity as <clueKT>determined</clueKT> <clueExperiment>by electrophoretic mobility shift assays</clueExperiment> and chloramphenicol acetyl-transferase (CAT) gene expression under control of NF-kappa B binding sites <clueLoc>in uninfected cells</clueLoc>.</clue>
+</event>
+<event KT="Analysis" id="E23">
+<type class="Negative_regulation"/>
+<theme idref="T40"/>
+<cause idref="T38"/>
+<clue>Cysteine and NAC also <clueType>inhibit</clueType> NF-kappa B activity as <clueKT>determined</clueKT> <clueExperiment>by electrophoretic mobility shift assays</clueExperiment> and chloramphenicol acetyl-transferase (CAT) gene expression under control of NF-kappa B binding sites <clueLoc>in uninfected cells</clueLoc>.</clue>
+</event>
+<event id="E24">
+<type class="Gene_expression"/>
+<theme idref="T44"/>
+<clue>Cysteine and NAC also inhibit NF-kappa B activity as determined by electrophoretic mobility shift assays and chloramphenicol acetyl-transferase (CAT) gene <clueType>expression</clueType> under control of NF-kappa B binding sites in uninfected cells.</clue>
+</event>
+<event id="E25">
+<type class="Regulation"/>
+<theme idref="E24"/>
+<cause idref="T45" idref1="T46"/>
+<clue>Cysteine and NAC also inhibit NF-kappa B activity as determined by electrophoretic mobility shift assays and chloramphenicol acetyl-transferase (CAT) gene expression <linkTheme>under</linkTheme> <clueType>control</clueType> <linkCause>of</linkCause> NF-kappa B binding sites in uninfected cells.</clue>
+</event>
+<event KT="Analysis" id="E26">
+<type class="Negative_regulation"/>
+<theme idref="E25"/>
+<cause idref="T37"/>
+<clue>Cysteine and NAC also <clueType>inhibit</clueType> NF-kappa B activity as <clueKT>determined</clueKT> by electrophoretic mobility shift assays and chloramphenicol acetyl-transferase (CAT) gene expression under control of NF-kappa B binding sites <clueLoc>in uninfected cells</clueLoc>.</clue>
+</event>
+<event KT="Analysis" id="E27">
+<type class="Negative_regulation"/>
+<theme idref="E25"/>
+<cause idref="T38"/>
+<clue>Cysteine and NAC also <clueType>inhibit</clueType> NF-kappa B activity as <clueKT>determined</clueKT> by electrophoretic mobility shift assays and chloramphenicol acetyl-transferase (CAT) gene expression under control of NF-kappa B binding sites <clueLoc>in uninfected cells</clueLoc>.</clue>
+</event>
+<sentence id="S8">This suggests that the <term id="T48" lex="cysteine" sem="Amino_acid_monomer">cysteine</term> deficiency in <term id="T49" lex="HIV-1-infected_individual" sem="Multicellular_organism_natural"><term id="T50" lex="HIV-1" sem="Virus">HIV-1</term>-infected individuals</term> may cause an over-expression of <term id="T51" lex="NF-kappa_B-dependent_gene" sem="DNA_family_or_group"><term id="T52" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>-dependent genes</term> and enhance <term id="T53" lex="HIV-1_replication" sem="Other"><term id="T54" lex="HIV-1" sem="Virus">HIV-1</term> replication</term>.</sentence>
+<event id="E28">
+<type class="Negative_regulation"/>
+<theme idref="T48"/>
+<clue>This suggests that the cysteine <clueType>deficiency</clueType> i<clueLoc>n HIV-1-infected individuals</clueLoc> may cause an over-expression of NF-kappa B-dependent genes and enhance HIV-1 replication.</clue>
+</event>
+<event KT="Other" Manner="High" id="E29">
+<type class="Gene_expression"/>
+<theme idref="T51"/>
+<clue>This suggests that the cysteine deficiency in HIV-1-infected individuals may cause an <clueType><clueManner>over</clueManner>-expression</clueType> <linkTheme>of</linkTheme> NF-kappa B-dependent genes and enhance HIV-1 replication.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E30" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E29"/>
+<cause idref="E28"/>
+<clue>This <clueKT>suggests</clueKT> that the cysteine deficiency in HIV-1-infected individuals <clueCL>may</clueCL> <clueType>cause</clueType> an over-expression of NF-kappa B-dependent genes and enhance HIV-1 replication.</clue>
+</event>
+<event KT="Other" id="E31">
+<type class="Viral_life_cycle"/>
+<theme idref="T54"/>
+<clue>This suggests that the cysteine deficiency in HIV-1-infected individuals may cause an over-expression of NF-kappa B-dependent genes and enhance HIV-1 <clueType>replication</clueType>.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E32">
+<type class="Positive_regulation"/>
+<theme idref="E31"/>
+<cause idref="E28"/>
+<clue>This <clueKT>suggests</clueKT> that the cysteine deficiency in HIV-1-infected individuals <clueCL>may</clueCL> cause an over-expression of NF-kappa B-dependent genes and <clueType>enhance</clueType> HIV-1 replication.</clue>
+</event>
+<sentence id="S9"><term id="T55" lex="NAC" sem="Amino_acid_monomer">NAC</term> may be considered for the treatment of <term id="T56" lex="HIV-1-infected_individual" sem="Multicellular_organism_natural"><term id="T57" lex="HIV-1" sem="Virus">HIV-1</term>-infected individuals</term>.</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

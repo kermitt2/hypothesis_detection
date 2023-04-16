@@ -1,0 +1,302 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8621773" created="10/07/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8621773</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="monocytic_cell_type-specific_transcriptional_induction" sem="Other">Monocytic cell type-specific transcriptional induction</term> of <term id="T2" lex="collagenase" sem="Protein_molecule">collagenase</term>.</sentence>
+<event KT="Investigation" id="E1">
+<type class="Positive_regulation"/>
+<theme idref="T2"/>
+<clue><clueLoc>Monocytic cell</clueLoc> type-specific <clueType>transcriptional induction</clueType> <linkTheme>of</linkTheme> collagenase.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Interstitial <term id="T3" lex="collagenase" sem="Protein_molecule">collagenase</term> (<term id="T4" lex="MMP-1" sem="Protein_molecule">MMP-1</term>), a <term id="T5" lex="metalloproteinase" sem="Protein_family_or_group">metalloproteinase</term> produced by <cons id="T6" lex="(AND resident_cell inflammatory_cell)" sem="(AND Cell_natural Cell_natural)"><frag id="F1">resident</frag> and <frag id="F2">inflammatory</frag> <frag id="F3">cells</frag></cons> during connective tissue turnover, cleaves <term id="T7" lex="type_I_collagen_fibril" sem="Protein_complex">type I collagen fibrils</term>.</sentence>
+<event KT="Other" id="E102">
+<type class="Protein_catabolism"/>
+<theme idref="T7"/>
+<clue>Interstitial collagenase (MMP-1), a metalloproteinase produced by resident and inflammatory cells during connective tissue turnover, <clueType>cleaves</clueType> type I collagen fibrils.</clue>
+</event>
+<event KT="Fact" id="E103">
+<type class="Positive_regulation"/>
+<theme idref="E102"/>
+<cause idref="T4"/>
+<clue>Interstitial collagenase (MMP-1), a <corefCause>metalloproteinase</corefCause> produced by resident and inflammatory cells during connective tissue turnover, <clueType>cleaves</clueType> type I collagen fibrils.</clue>
+</event>
+<event KT="Fact" id="E300">
+<type class="Gene_expression"/>
+<theme idref="T4"/>
+<clue>Interstitial collagenase (MMP-1), a metalloproteinase <clueType>produced</clueType> <clueLoc>by resident</clueLoc> and inflammatory <clueLoc>cells</clueLoc> <clueTime>during connective tissue turnover</clueTime>, cleaves type I collagen fibrils.</clue>
+</event>
+<event KT="Fact" id="E301">
+<type class="Gene_expression"/>
+<theme idref="T4"/>
+<clue>Interstitial collagenase (MMP-1), a metalloproteinase <clueType>produced</clueType> <clueLoc>by</clueLoc> resident and <clueLoc>inflammatory cells</clueLoc> <clueTime>during connective tissue turnover</clueTime>, cleaves type I collagen fibrils.</clue>
+</event>
+<sentence id="S3">This catalytic event is rate limiting in remodeling of tissues rich in <term id="T8" lex="fibrillar_collagen" sem="Protein_family_or_group">fibrillar collagen</term> such as the <term id="T9" lex="skin" sem="Body_region">skin</term> and <term id="T10" lex="lung" sem="Body_region">lungs</term>.</sentence>
+<event KT="Other" id="E302">
+<type class="Gene_expression"/>
+<theme idref="T8"/>
+<clue>This catalytic event is rate limiting in remodeling of tissues <clueType>rich</clueType> in fibrillar collagen such as the <clueLoc>skin</clueLoc> and lungs.</clue>
+</event>
+<event KT="Other" id="E303">
+<type class="Gene_expression"/>
+<theme idref="T8"/>
+<clue>This catalytic event is rate limiting in remodeling of tissues <clueType>rich</clueType> in fibrillar collagen such as the skin and <clueLoc>lungs</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E61">
+<type class="Physiological_process"/>
+<theme idref="T9"/>
+<clue>This catalytic event is rate limiting in <clueType>remodeling</clueType> <linkTheme>of</linkTheme> <corefTheme>tissues</corefTheme> rich in fibrillar collagen such as the skin and lungs.</clue>
+</event>
+<event KT="Other" id="E62">
+<type class="Physiological_process"/>
+<theme idref="T10"/>
+<clue>This catalytic event is rate limiting in <clueType>remodeling</clueType> <linkTheme>of</linkTheme> <corefTheme>tissues</corefTheme> rich in fibrillar collagen such as the skin and lungs.</clue>
+</event>
+<event KT="Fact" id="E63">
+<type class="Regulation"/>
+<theme idref="E61"/>
+<cause idref="E103"/>
+<clue>This catalytic event is <clueType>rate limiting</clueType> <linkTheme>in</linkTheme> remodeling of tissues rich in fibrillar collagen such as the skin and lungs.</clue>
+</event>
+<event KT="Fact" id="E64">
+<type class="Regulation"/>
+<theme idref="E62"/>
+<cause idref="E103"/>
+<clue>This catalytic event is <clueType>rate limiting</clueType> <linkTheme>in</linkTheme> remodeling of tissues rich in fibrillar collagen such as the skin and lungs.</clue>
+</event>
+<sentence id="S4">The regulation of <term id="T11" lex="collagenase" sem="Protein_molecule">collagenase</term> expression is cell-type specific; <term id="T12" lex="bacterial_LPS" sem="Lipid">bacterial <term id="T13" lex="LPS" sem="Lipid">LPS</term></term> and <term id="T14" lex="zymosan" sem="Organic_compound_other">zymosan</term>, a <term id="T15" lex="yeast_cell_wall_derivative" sem="Organic_compound_other">yeast cell wall derivative</term>, are potent inducers of <term id="T16" lex="collagenase" sem="Protein_molecule">collagenase</term> expression in <term id="T17" lex="macrophage" sem="Cell_natural">macrophages</term>, but do not alter <term id="T18" lex="fibroblast_collagenase_expression" sem="Other"><term id="T19" lex="fibroblast" sem="Cell_natural">fibroblast</term> <term id="T20" lex="collagenase" sem="Protein_molecule">collagenase</term> expression</term>.</sentence>
+<event KT="Other" id="E5">
+<type class="Gene_expression"/>
+<theme idref="T11"/>
+<clue>The regulation of collagenase <clueType>expression</clueType> is cell-type specific; bacterial LPS and zymosan, a yeast cell wall derivative, are potent inducers of collagenase expression in macrophages, but do not alter fibroblast collagenase expression.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Regulation"/>
+<theme idref="E5"/>
+<clue>The <clueType>regulation</clueType> <linkTheme>of</linkTheme> collagenase expression is cell-type specific; bacterial LPS and zymosan, a yeast cell wall derivative, are potent inducers of collagenase expression in macrophages, but do not alter fibroblast collagenase expression.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Gene_expression"/>
+<theme idref="T16"/>
+<clue>The regulation of collagenase expression is cell-type specific; bacterial LPS and zymosan, a yeast cell wall derivative, are potent inducers of collagenase <clueType>expression</clueType> in macrophages, but do not alter fibroblast collagenase expression.</clue>
+</event>
+<event KT="Fact" Manner="High" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="T13"/>
+<clue>The regulation of collagenase expression is cell-type specific; bacterial LPS and zymosan, a yeast cell wall derivative, are <clueManner>potent</clueManner> <clueType>inducers</clueType> of collagenase expression <clueLoc>in macrophages</clueLoc>, but do not alter fibroblast collagenase expression.</clue>
+</event>
+<event KT="Fact" Manner="High" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="T14"/>
+<clue>The regulation of collagenase expression is cell-type specific; bacterial LPS and zymosan, <corefCause>a yeast cell wall derivative</corefCause>, are <clueManner>potent</clueManner> <clueType>inducers</clueType> of collagenase expression <clueLoc>in macrophages</clueLoc>, but do not alter fibroblast collagenase expression.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Gene_expression"/>
+<theme idref="T20"/>
+<clue>The regulation of collagenase expression is cell-type specific; bacterial LPS and zymosan, a yeast cell wall derivative, are potent inducers of collagenase expression in macrophages, but do not alter fibroblast collagenase <clueType>expression</clueType>.</clue>
+</event>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E11">
+<type class="Regulation"/>
+<theme idref="E10"/>
+<cause idref="T13"/>
+<clue>The regulation of collagenase expression is cell-type specific; bacterial LPS and zymosan, a yeast cell wall derivative, are potent inducers of collagenase expression in macrophages, but do <cluePolarity>not</cluePolarity> <clueType>alter</clueType> <clueLoc>fibroblast</clueLoc> collagenase expression.</clue>
+</event>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E12">
+<type class="Regulation"/>
+<theme idref="E10"/>
+<cause idref="T14"/>
+<clue>The regulation of collagenase expression is cell-type specific; bacterial LPS and zymosan, <corefCause>a yeast cell wall derivative</corefCause>, are potent inducers of collagenase expression in macrophages, but do <cluePolarity>not</cluePolarity> <clueType>alter</clueType> <clueLoc>fibroblast</clueLoc> collagenase expression.</clue>
+</event>
+<sentence id="S5">Since promoter elements controlling <term id="T21" lex="collagenase_transcription" sem="Other"><term id="T22" lex="collagenase" sem="Protein_molecule">collagenase</term> transcription</term> in monocytic cells have not been previously defined, we sought to delineate responsive <term id="T23" lex="cis-acting_element" sem="DNA_family_or_group">cis-acting elements</term> of the <term id="T24" lex="collagenase_promoter" sem="DNA_domain_or_region"><term id="T25" lex="collagenase" sem="Protein_molecule">collagenase</term> promoter</term> in transiently transfected <cons id="T26" lex="(AND human_(U937)_monocytic_cell_line murine_(J774)_monocytic_cell_line)" sem="(AND Cell_cultured Cell_cultured)"><frag id="F4">human (U937)</frag> and <frag id="F5">murine (J774)</frag> <frag id="F6">monocytic cell lines</frag></cons>.</sentence>
+<event KT="Other" id="E13">
+<type class="Transcription"/>
+<theme idref="T22"/>
+<clue>Since promoter elements controlling collagenase <clueType>transcription</clueType> in monocytic cells have not been previously defined, we sought to delineate responsive cis-acting elements of the collagenase promoter in transiently transfected human (U937) and murine (J774) monocytic cell lines.</clue>
+</event>
+<event KT="Other" Source="Other" id="E14">
+<type class="Regulation"/>
+<theme idref="E13"/>
+<cause idref="T24"/>
+<clue>Since <corefCause>promoter elements</corefCause> <clueType>controlling</clueType> collagenase transcription <clueLoc>in monocytic cells</clueLoc> have not been previously defined, we sought to delineate responsive cis-acting elements of the collagenase promoter in transiently transfected human (U937) and murine (J774) monocytic cell lines.</clue>
+</event>
+<sentence id="S6"><term id="A4" sem="DNA_domain_or_region">Deletion constructs containing as little as <term id="T27" lex="72_bp" sem="Polynucleotide">72 bp</term> of <term id="T28" lex="5&apos;_-flanking_sequence" sem="DNA_domain_or_region">5&apos; -flanking sequence</term> of the <term id="T29" lex="collagenase_promoter" sem="DNA_domain_or_region"><term id="T30" lex="collagenase" sem="Protein_molecule">collagenase</term> promoter</term></term> were sufficient for <cons id="T31" lex="(OR LPS-mediated_transcriptional_induction zymosan-mediated_transcriptional_induction)" sem="(OR Other Other)"><frag id="F7"><term id="A2" sem="Lipid">LPS</term>-</frag> or <frag id="F8"><term id="A3" sem="Organic_compound_other">zymosan</term>-</frag><frag id="F9">mediated transcriptional induction</frag></cons>, whereas <term id="T32" lex="phorbol_inducibility" sem="Other"><term id="T33" lex="phorbol" sem="Organic_compound_other">phorbol</term> inducibility</term> exhibited an absolute requirement for upstream elements including the <term id="T34" lex="polyoma_enhancer_A-binding_protein-3_site" sem="DNA_domain_or_region"><term id="T35" lex="polyoma_enhancer" sem="DNA_domain_or_region">polyoma enhancer</term> A-binding protein-3 site</term> (<term id="T36" lex="-83_to_-91" sem="DNA_domain_or_region">-83 to -91</term>) and <term id="T37" lex="TTCA_sequence" sem="DNA_domain_or_region">TTCA sequence</term> (<term id="T38" lex="-102_to_-105" sem="DNA_domain_or_region">-102 to -105</term>) in both <term id="T39" lex="monocytic_cell" sem="Cell_natural">monocytic cells</term> and <term id="T40" lex="fibroblast" sem="Cell_natural">fibroblasts</term>.</sentence>
+<event id="E15">
+<type class="Positive_regulation"/>
+<theme idref="T30"/>
+<cause idref="A2"/>
+<clue>Deletion constructs containing as little as 72 bp of 5&apos; -flanking sequence of the collagenase promoter were sufficient for LPS- or zymosan-<linkCause>mediated</linkCause> <clueType>transcriptional induction</clueType>, whereas phorbol inducibility exhibited an absolute requirement for upstream elements including the polyoma enhancer A-binding protein-3 site (-83 to -91) and TTCA sequence (-102 to -105) in both monocytic cells and fibroblasts.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T30"/>
+<cause idref="A3"/>
+<clue>Deletion constructs containing as little as 72 bp of 5&apos; -flanking sequence of the collagenase promoter were sufficient for LPS- or zymosan-<linkCause>mediated</linkCause> <clueType>transcriptional induction</clueType>, whereas phorbol inducibility exhibited an absolute requirement for upstream elements including the polyoma enhancer A-binding protein-3 site (-83 to -91) and TTCA sequence (-102 to -105) in both monocytic cells and fibroblasts.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="A4"/>
+<clue>Deletion constructs containing as little as 72 bp of 5&apos; -flanking sequence of the collagenase promoter were <clueType>sufficient</clueType> <linkTheme>for</linkTheme> LPS- or zymosan-mediated transcriptional induction, whereas phorbol inducibility exhibited an absolute requirement for upstream elements including the polyoma enhancer A-binding protein-3 site (-83 to -91) and TTCA sequence (-102 to -105) in both monocytic cells and fibroblasts.</clue>
+<comment>TPS: A4</comment></event>
+<event id="E18">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<cause idref="A4"/>
+<clue>Deletion constructs containing as little as 72 bp of 5&apos; -flanking sequence of the collagenase promoter were <clueType>sufficient</clueType> <linkTheme>for</linkTheme> LPS- or zymosan-mediated transcriptional induction, whereas phorbol inducibility exhibited an absolute requirement for upstream elements including the polyoma enhancer A-binding protein-3 site (-83 to -91) and TTCA sequence (-102 to -105) in both monocytic cells and fibroblasts.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation"/>
+<theme idref="T30"/>
+<cause idref="T33"/>
+<clue>Deletion constructs containing as little as 72 bp of 5&apos; -flanking sequence of the collagenase promoter were sufficient for LPS- or zymosan-mediated transcriptional induction, whereas phorbol <clueType>inducibility</clueType> exhibited an absolute requirement for upstream elements including the polyoma enhancer A-binding protein-3 site (-83 to -91) and TTCA sequence (-102 to -105) in both monocytic cells and fibroblasts.</clue>
+</event>
+<event id="E310">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="T34"/>
+<cause idref="T37"/>
+<clue>Deletion constructs containing as little as 72 bp of 5&apos; -flanking sequence of the collagenase promoter were sufficient for LPS- or zymosan-mediated transcriptional induction, whereas phorbol inducibility exhibited an absolute <clueType>requirement</clueType> <linkCause>for</linkCause> upstream elements including the polyoma enhancer A-binding protein-3 site (-83 to -91) and TTCA sequence (-102 to -105) <clueLoc>in</clueLoc> both <clueLoc>monocytic cells</clueLoc> and fibroblasts.</clue>
+</event>
+<event id="E311">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="T34"/>
+<cause idref="T37"/>
+<clue>Deletion constructs containing as little as 72 bp of 5&apos; -flanking sequence of the collagenase promoter were sufficient for LPS- or zymosan-mediated transcriptional induction, whereas phorbol inducibility exhibited an absolute <clueType>requirement</clueType> <linkCause>for</linkCause> upstream elements including the polyoma enhancer A-binding protein-3 site (-83 to -91) and TTCA sequence (-102 to -105) <clueLoc>in</clueLoc> both monocytic cells and <clueLoc>fibroblasts</clueLoc>.</clue>
+</event>
+<sentence id="S7">Mutagenesis of the <term id="T41" lex="activator_protein-1_[AP-1]_site" sem="DNA_domain_or_region">activator protein-1 [<term id="T42" lex="AP-1" sem="Protein_molecule">AP-1</term>] site</term> at <term id="T43" lex="-72" sem="DNA_domain_or_region">-72</term> abolished <term id="T44" lex="basal_promoter_activity" sem="Other"><term id="T45" lex="basal_promoter" sem="DNA_domain_or_region">basal promoter</term> activity</term> and <term id="T46" lex="LPS/zymosan_inducibility" sem="Other"><term id="T47" lex="LPS" sem="Lipid">LPS</term><term id="T48" lex="zymosan" sem="Organic_compound_other">/zymosan</term> inducibility</term>, while mutagenesis of an <term id="T49" lex="NF-kappaB-like_site" sem="DNA_domain_or_region">NF-kappaB-like site</term> at -20 to -10 had no effect.</sentence>
+<event KT="Method" id="E21">
+<type class="Mutagenesis"/>
+<theme idref="T41"/>
+<clue><clueType>Mutagenesis</clueType> <linkTheme>of</linkTheme> the activator protein-1 [AP-1] site at -72 abolished basal promoter activity and LPS/zymosan inducibility, while mutagenesis of an NF-kappaB-like site at -20 to -10 had no effect.</clue>
+<comment>Artificial</comment></event>
+<event id="E22">
+<type class="Negative_regulation"/>
+<theme idref="T44"/>
+<cause idref="E21"/>
+<clue>Mutagenesis of the activator protein-1 [AP-1] site at -72 <clueType>abolished</clueType> basal promoter activity and LPS/zymosan inducibility, while mutagenesis of an NF-kappaB-like site at -20 to -10 had no effect.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation"/>
+<theme idref="E15"/>
+<cause idref="E21"/>
+<clue>Mutagenesis of the activator protein-1 [AP-1] site at -72 <clueType>abolished</clueType> basal promoter activity and <corefTheme>LPS/zymosan inducibility</corefTheme>, while mutagenesis of an NF-kappaB-like site at -20 to -10 had no effect.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation"/>
+<theme idref="E16"/>
+<cause idref="E21"/>
+<clue>Mutagenesis of the activator protein-1 [AP-1] site at -72 <clueType>abolished</clueType> basal promoter activity and <corefTheme>LPS/zymosan inducibility</corefTheme>, while mutagenesis of an NF-kappaB-like site at -20 to -10 had no effect.</clue>
+</event>
+<event KT="Method" id="E25">
+<type class="Mutagenesis"/>
+<theme idref="T49"/>
+<clue>Mutagenesis of the activator protein-1 [AP-1] site at -72 abolished basal promoter activity and LPS/zymosan inducibility, while <clueType>mutagenesis</clueType> <linkTheme>of</linkTheme> an NF-kappaB-like site at -20 to -10 had no effect.</clue>
+<comment>Artificial</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E26">
+<type class="Regulation"/>
+<theme idref="T44"/>
+<cause idref="E25"/>
+<clue>Mutagenesis of the activator protein-1 [AP-1] site at -72 abolished basal promoter activity and LPS/zymosan inducibility, while mutagenesis of an NF-kappaB-like site at -20 to -10 had <cluePolarity>no</cluePolarity> <clueType>effect</clueType>.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E27">
+<type class="Regulation"/>
+<theme idref="E15"/>
+<cause idref="E25"/>
+<clue>Mutagenesis of the activator protein-1 [AP-1] site at -72 abolished basal promoter activity and <corefTheme>LPS/zymosan inducibility</corefTheme>, while mutagenesis of an NF-kappaB-like site at -20 to -10 had <cluePolarity>no</cluePolarity> <clueType>effect</clueType>.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E28">
+<type class="Regulation"/>
+<theme idref="E16"/>
+<cause idref="E25"/>
+<clue>Mutagenesis of the activator protein-1 [AP-1] site at -72 abolished basal promoter activity and <corefTheme>LPS/zymosan inducibility</corefTheme>, while mutagenesis of an NF-kappaB-like site at -20 to -10 had <cluePolarity>no</cluePolarity> <clueType>effect</clueType>.</clue>
+</event>
+<sentence id="S8">Nuclear extracts from <term id="T50" lex="LPS" sem="Lipid">LPS</term>- and <term id="T51" lex="zymosan-treated_cell" sem="Cell_natural"><term id="T52" lex="zymosan" sem="Organic_compound_other">zymosan</term>-treated cells</term> showed strong <term id="T53" lex="AP-1_activity" sem="Other"><term id="T54" lex="AP-1" sem="Protein_molecule">AP-1</term> activity</term> by <term id="T55" lex="gel-shift_analysis" sem="Other">gel-shift analysis</term>, and <term id="T56" lex="supershift_analysis" sem="Other">supershift analysis</term> showed the <term id="T57" lex="AP-1_complex" sem="Protein_complex"><term id="T58" lex="AP-1" sem="Protein_molecule">AP-1</term> complexes</term> contained specific <term id="A6" sem="Protein_family_or_group">members of</term> both the <cons id="T59" lex="(AND jun_gene_family fos_gene_family)" sem="(AND DNA_family_or_group DNA_family_or_group)"><frag id="F10">jun</frag> and <frag id="F11">fos</frag> <frag id="F12">gene families</frag></cons>.</sentence>
+<event KT="Method" id="E66">
+<type class="Artificial_process"/>
+<theme idref="T50"/>
+<clue>Nuclear extracts from LPS- and zymosan-<clueType>treated</clueType> cells showed strong AP-1 activity by gel-shift analysis, and supershift analysis showed the AP-1 complexes contained specific members of both the jun and fos gene families.</clue>
+</event>
+<event KT="Method" id="E67">
+<type class="Artificial_process"/>
+<theme idref="T52"/>
+<clue>Nuclear extracts from LPS- and zymosan-<clueType>treated</clueType> cells showed strong AP-1 activity by gel-shift analysis, and supershift analysis showed the AP-1 complexes contained specific members of both the jun and fos gene families.</clue>
+</event>
+<event KT="Analysis" Manner="High" id="E29">
+<type class="Positive_regulation"/>
+<theme idref="T53"/>
+<cause idref="E66"/>
+<clue><clueLoc>Nuclear extracts</clueLoc> from LPS- and zymosan-treated cells <clueType><clueKT>showed</clueKT> <clueManner>strong</clueManner></clueType> AP-1 activity <clueExperiment>by gel-shift analysis</clueExperiment>, and supershift analysis showed the AP-1 complexes contained specific members of both the jun and fos gene families.</clue>
+</event>
+<event KT="Analysis" Manner="High" id="E30">
+<type class="Positive_regulation"/>
+<theme idref="T53"/>
+<cause idref="E67"/>
+<clue><clueLoc>Nuclear extracts</clueLoc> from LPS- and zymosan-treated cells <clueType><clueKT>showed</clueKT> <clueManner>strong</clueManner></clueType> AP-1 activity <clueExperiment>by gel-shift analysis</clueExperiment>, and supershift analysis showed the AP-1 complexes contained specific members of both the jun and fos gene families.</clue>
+</event>
+<sentence id="S9">These data indicate that, in contrast to most <term id="T60" lex="LPS" sem="Lipid">LPS</term> effects, <term id="T61" lex="AP-1" sem="Protein_molecule">AP-1</term>, but not <term id="T62" lex="nuclear_factor-kappaB" sem="Protein_complex">nuclear factor-kappaB</term>, mediates <term id="T63" lex="LPS" sem="Lipid">LPS</term> induction of <term id="T64" lex="collagenase" sem="Protein_molecule">collagenase</term> transcription in <term id="T65" lex="macrophagelike_cell" sem="Cell_natural">macrophagelike cells</term>.</sentence>
+<event KT="Other" id="E32">
+<type class="Transcription"/>
+<theme idref="T64"/>
+<clue>These data indicate that, in contrast to most LPS effects, AP-1, but not nuclear factor-kappaB, mediates LPS induction of collagenase <clueType>transcription</clueType> in macrophagelike cells.</clue>
+</event>
+<event KT="Other" id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E32"/>
+<cause idref="T63"/>
+<clue>These data indicate that, in contrast to most LPS effects, AP-1, but not nuclear factor-kappaB, mediates LPS <clueType>induction</clueType> <linkTheme>of</linkTheme> collagenase transcription <clueLoc>in macrophagelike cells</clueLoc>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E34">
+<type class="Positive_regulation"/>
+<theme idref="E33"/>
+<cause idref="T61"/>
+<clue>These data <clueKT><clueCL>indicate</clueCL></clueKT> that, in contrast to most LPS effects, AP-1, but not nuclear factor-kappaB, <clueType>mediates</clueType> LPS induction of collagenase transcription in macrophagelike cells.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E35">
+<type class="Positive_regulation"/>
+<theme idref="E33"/>
+<cause idref="T62"/>
+<clue>These data <clueKT><clueCL>indicate</clueCL></clueKT> that, in contrast to most LPS effects, AP-1, but <cluePolarity>not</cluePolarity> nuclear factor-kappaB, <clueType>mediates</clueType> LPS induction of collagenase transcription in macrophagelike cells.</clue>
+</event>
+<sentence id="S10">Furthermore, as compared to regulation by <term id="T66" lex="phorbol_ester" sem="Organic_compound_other">phorbol ester</term>, <term id="T67" lex="collagenase" sem="Protein_molecule">collagenase</term> induction in <term id="T68" lex="monocytic_cell" sem="Cell_natural">monocytic cells</term> by <term id="A9" sem="Organic_compound_other"><term id="T69" lex="cell_wall_derivative" sem="Organic_compound_other">cell wall derivatives</term> of</term> <term id="T70" lex="bacteria" sem="Unicellular_organism">bacteria</term> or <term id="T71" lex="yeast" sem="Unicellular_organism">yeast</term> is largely independent of <term id="T72" lex="upstream_promoter_sequence" sem="DNA_family_or_group">upstream promoter sequences</term>.</sentence>
+<event KT="Other" id="E36">
+<type class="Positive_regulation"/>
+<theme idref="T67"/>
+<cause idref="A9" idref1="T70"/>
+<clue>Furthermore, as compared to regulation by phorbol ester, collagenase <clueType>induction</clueType> <clueLoc>in monocytic cells</clueLoc> <linkCause>by</linkCause> cell wall derivatives of bacteria or yeast is largely independent of upstream promoter sequences.</clue>
+</event>
+<event KT="Other" id="E37">
+<type class="Positive_regulation"/>
+<theme idref="T67"/>
+<cause idref="A9" idref1="T71"/>
+<clue>Furthermore, as compared to regulation by phorbol ester, collagenase <clueType>induction</clueType> <clueLoc>in monocytic cells</clueLoc> <linkCause>by</linkCause> cell wall derivatives of bacteria or yeast is largely independent of upstream promoter sequences.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E38">
+<type class="Regulation"/>
+<theme idref="E36"/>
+<cause idref="T72"/>
+<clue>Furthermore, as compared to regulation by phorbol ester, collagenase induction in monocytic cells by cell wall derivatives of bacteria or yeast is <clueKT>largely</clueKT> <clueType><cluePolarity>independent</cluePolarity></clueType> <linkCause>of</linkCause> upstream promoter sequences.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E39">
+<type class="Regulation"/>
+<theme idref="E37"/>
+<cause idref="T72"/>
+<clue>Furthermore, as compared to regulation by phorbol ester, collagenase induction in monocytic cells by cell wall derivatives of bacteria or yeast is <clueKT>largely</clueKT> <clueType><cluePolarity>independent</cluePolarity></clueType> <linkCause>of</linkCause> upstream promoter sequences.</clue>
+</event>
+<event KT="Other" id="E40">
+<type class="Positive_regulation"/>
+<theme idref="T67"/>
+<clue>Furthermore, as compared to regulation by phorbol ester, collagenase <clueType>induction</clueType> <clueLoc>in monocytic cells</clueLoc> by cell wall derivatives of bacteria or yeast is largely independent of upstream promoter sequences.</clue>
+</event>
+<event KT="Other" id="E41">
+<type class="Regulation"/>
+<theme idref="E40"/>
+<cause idref="T66"/>
+<clue>Furthermore, as compared to <clueType>regulation</clueType> <linkCause>by</linkCause> phorbol ester, collagenase induction in monocytic cells by cell wall derivatives of bacteria or yeast is largely independent of upstream promoter sequences.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

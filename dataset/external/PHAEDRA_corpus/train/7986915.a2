@@ -1,0 +1,11 @@
+T14	Adverse_effect 67 74	induced
+T16	Potential_therapeutic_effect 199 206	therapy
+T17	Adverse_effect 243 254	complicated
+T18	Potential_therapeutic_effect 471 483	achieve cure
+R1	Subject_Disorder Arg1:T15 Arg2:T4
+R2	Subject_Disorder Arg1:T15 Arg2:T13
+R3	Subject_Disorder Arg1:T15 Arg2:T9
+E1	Adverse_effect:T14 affects:T3 has_agent:T2
+E2	Potential_therapeutic_effect:T16 has_agent:T5 affects:T13
+E3	Adverse_effect:T17 has_agent:T5 affects:T6 affects:T7 affects:T8
+E4	Potential_therapeutic_effect:T18 has_agent:T10 affects:T11

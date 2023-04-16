@@ -1,0 +1,209 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9155655" created="13/04/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9155655</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="cellular_redox_status" sem="Other">Cellular redox status</term> influences both <cons id="T2" lex="(AND cytotoxic_activation NF-kappa_B_activation)" sem="(AND Other Other)"><frag id="F1"><term id="A1" sem="Other">cytotoxic</term></frag> and <frag id="F2"><term id="A2" sem="Protein_complex">NF-kappa B</term></frag> <frag id="F3"><term id="A3" sem="Other">activation</term></frag></cons> in <term id="T3" lex="natural_killer_cell" sem="Cell_natural">natural killer cells</term>.</sentence>
+<event id="E1">
+<type class="Positive_regulation"/>
+<theme idref="A2"/>
+<clue>Cellular redox status influences both cytotoxic and NF-kappa B <clueType>activation</clueType> in natural killer cells.</clue>
+</event>
+<event id="E2">
+<type class="Regulation"/>
+<theme idref="A1" idref1="A3"/>
+<cause idref="T1"/>
+<clue>Cellular redox status <clueType>influences</clueType> both cytotoxic and NF-kappa B activation <clueLoc>in natural killer cells</clueLoc>.</clue>
+</event>
+<event id="E3">
+<type class="Regulation"/>
+<theme idref="E1"/>
+<cause idref="T1"/>
+<clue>Cellular redox status <clueType>influences</clueType> both cytotoxic and NF-kappa B activation <clueLoc>in natural killer cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The role of <term id="T4" lex="cellular_redox_status" sem="Other">cellular redox status</term> in both <term id="T5" lex="cytotoxic_activity" sem="Other">cytotoxic activity</term> and <term id="T6" lex="NF-kappa_B_activation" sem="Other"><term id="T7" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> activation</term> in <term id="T8" lex="natural_killer_(NK)_cell" sem="Cell_natural">natural killer (NK) cells</term> was investigated.</sentence>
+<event KT="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T7"/>
+<clue>The role of cellular redox status in both cytotoxic activity and NF-kappa B <clueType>activation</clueType> in natural killer (NK) cells was investigated.</clue>
+</event>
+<event KT="Investigation" id="E5" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="T5"/>
+<cause idref="T4"/>
+<clue>The <clueType>role</clueType> <linkCause>of</linkCause> cellular redox status <linkTheme>in</linkTheme> both cytotoxic activity and NF-kappa B activation <clueLoc>in natural killer (NK) cells</clueLoc> was <clueKT>investigated</clueKT>.</clue>
+</event>
+<event KT="Investigation" id="E6" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E4"/>
+<cause idref="T4"/>
+<clue>The <clueType>role</clueType> <linkCause>of</linkCause> cellular redox status <linkTheme>in</linkTheme> both cytotoxic activity and NF-kappa B activation <clueLoc>in natural killer (NK) cells</clueLoc> was <clueKT>investigated</clueKT>.</clue>
+</event>
+<sentence id="S3">The results indicate that stimulation of <term id="T9" lex="NK_cell" sem="Cell_natural">NK cells</term>, either freshly isolated from <term id="T10" lex="peripheral_blood_lymphocyte" sem="Cell_natural">peripheral blood lymphocytes</term> (<term id="T11" lex="PBL" sem="Cell_natural">PBL</term>) or <term id="T12" lex="long-term_cultured_NK_clone" sem="Cell_cultured">long-term cultured NK clones</term>, with specific cell targets results in an increased binding activity of <term id="T13" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> and <term id="T14" lex="AP-1" sem="Protein_molecule">AP-1</term> <term id="T15" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term> measured by <term id="T16" lex="gel_retardation" sem="Other">gel retardation</term>.</sentence>
+<event KT="Other" id="E7">
+<type class="Physiological_process"/>
+<theme idref="T9"/>
+<clue>The results indicate that <clueType>stimulation</clueType> <linkTheme>of</linkTheme> NK cells, either freshly isolated from peripheral blood lymphocytes (PBL) or long-term cultured NK clones, with specific cell targets results in an increased binding activity of NF-kappa B and AP-1 transcription factors measured by gel retardation.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Binding"/>
+<theme idref="T13"/>
+<clue>The results indicate that stimulation of NK cells, either freshly isolated from peripheral blood lymphocytes (PBL) or long-term cultured NK clones, with specific cell targets results in an increased <clueType>binding</clueType> activity <linkTheme>of</linkTheme> NF-kappa B and AP-1 transcription factors measured by gel retardation.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Binding"/>
+<theme idref="T14"/>
+<clue>The results indicate that stimulation of NK cells, either freshly isolated from peripheral blood lymphocytes (PBL) or long-term cultured NK clones, with specific cell targets results in an increased <clueType>binding</clueType> activity <linkTheme>of</linkTheme> NF-kappa B and AP-1 transcription factors measured by gel retardation.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="E7"/>
+<clue>The results <clueKT><clueCL>indicate</clueCL></clueKT> that stimulation of NK cells, either freshly isolated from peripheral blood lymphocytes (PBL) or long-term cultured NK clones, with specific cell targets <clueType>results in an increased</clueType> binding activity of NF-kappa B and AP-1 transcription factors measured <clueExperiment>by gel retardation</clueExperiment>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="E7"/>
+<clue>The results <clueKT><clueCL>indicate</clueCL></clueKT> that stimulation of NK cells, either freshly isolated from peripheral blood lymphocytes (PBL) or long-term cultured NK clones, with specific cell targets <clueType>results in an increased</clueType> binding activity of NF-kappa B and AP-1 transcription factors measured <clueExperiment>by gel retardation</clueExperiment>.</clue>
+</event>
+<sentence id="S4">Pretreatment of <term id="T17" lex="NK_cell" sem="Cell_natural">NK cells</term> with the <term id="T18" lex="antioxidant_pyrrolidine_dithiocarbarmate" sem="Organic_compound_other">antioxidant pyrrolidine dithiocarbarmate</term> (<term id="T19" lex="PDTC" sem="Organic_compound_other">PDTC</term>) leads to the inhibition of <term id="T20" lex="NF-kappa_B_activation" sem="Other"><term id="T21" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> activation</term> but the <term id="T22" lex="AP-1" sem="Protein_molecule">AP-1</term> binding to <term id="A4" sem="DNA_domain_or_region">DNA</term> was superinduced.</sentence>
+<event KT="Other" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="T21"/>
+<clue>Pretreatment of NK cells with the antioxidant pyrrolidine dithiocarbarmate (PDTC) leads to the inhibition of NF-kappa B <clueType>activation</clueType> but the AP-1 binding to DNA was superinduced.</clue>
+</event>
+<event id="E13">
+<type class="Binding"/>
+<theme idref="T22"/>
+<theme idref="A4"/>
+<clue>Pretreatment of NK cells with the antioxidant pyrrolidine dithiocarbarmate (PDTC) leads to the inhibition of NF-kappa B activation but the AP-1 <clueType>binding</clueType> <linkTheme>to</linkTheme> DNA was superinduced.</clue>
+</event>
+<event id="E14">
+<type class="Negative_regulation"/>
+<theme idref="E12"/>
+<cause idref="T19"/>
+<clue><linkCause>Pretreatment</linkCause> of NK cells <linkCause>with</linkCause> the antioxidant pyrrolidine dithiocarbarmate (PDTC) <clueType>leads to the inhibition</clueType> <linkTheme>of</linkTheme> NF-kappa B activation but the AP-1 binding to DNA was superinduced.</clue>
+</event>
+<event Manner="High" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="T19"/>
+<clue>Pretreatment of NK cells with the antioxidant pyrrolidine dithiocarbarmate (PDTC) leads to the inhibition of NF-kappa B activation but the AP-1 binding to DNA was <clueType><clueManner>superinduced</clueManner></clueType>.</clue>
+<comment>No corefCause</comment></event>
+<sentence id="S5">The inhibition of <term id="T23" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> by <term id="T24" lex="PDTC" sem="Organic_compound_other">PDTC</term> paralleled with an inhibition of <term id="T25" lex="spontaneous_cytotoxicity" sem="Other">spontaneous cytotoxicity</term> mediated by <term id="T26" lex="NK_cell" sem="Cell_natural">NK cells</term>.</sentence>
+<event KT="Other" id="E16">
+<type class="Negative_regulation"/>
+<theme idref="T23"/>
+<cause idref="T24"/>
+<clue>The <clueType>inhibition</clueType> <linkTheme>of</linkTheme> NF-kappa B <linkCause>by</linkCause> PDTC paralleled with an inhibition of spontaneous cytotoxicity mediated by NK cells.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Cellular_physiological_process"/>
+<cause idref="T26"/>
+<clue>The inhibition of NF-kappa B by PDTC paralleled with an inhibition of spontaneous <clueType>cytotoxicity</clueType> <linkCause>mediated by</linkCause> NK cells.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Negative_regulation"/>
+<theme idref="E17"/>
+<clue>The inhibition of NF-kappa B by PDTC paralleled with an <clueType>inhibition</clueType> <linkTheme>of</linkTheme> spontaneous cytotoxicity mediated by NK cells.</clue>
+</event>
+<event KT="Analysis" id="E19">
+<type class="Correlation"/>
+<theme idref="E16"/>
+<theme idref="E18"/>
+<clue>The inhibition of NF-kappa B by PDTC <clueType><clueKT>paralleled</clueKT></clueType> <linkTheme>with</linkTheme> an inhibition of spontaneous cytotoxicity mediated by NK cells.</clue>
+</event>
+<sentence id="S6">Moreover, the inhibitors of <term id="T27" lex="serine_protease" sem="Protein_family_or_group">serine proteases</term>, <term id="T28" lex="N-alpha-tosyl-L-lysine_chloromethyl_ketone" sem="Organic_compound_other">N-alpha-tosyl-L-lysine chloromethyl ketone</term> and <term id="T29" lex="N-alpha-tosyl-L-phenylalanine_chloromethyl_ketone" sem="Organic_compound_other">N-alpha-tosyl-L-phenylalanine chloromethyl ketone</term>, also blocked the cytolytic activity of <term id="T30" lex="NK_cell" sem="Cell_natural">NK cells</term> against the sensitive target <term id="T31" lex="K562" sem="Cell_cultured">K562</term>.</sentence>
+<event id="E20">
+<type class="Negative_regulation"/>
+<theme idref="T27"/>
+<cause idref="T28"/>
+<clue>Moreover, the <clueType>inhibitors</clueType> <linkTheme>of</linkTheme> serine proteases, N-alpha-tosyl-L-lysine chloromethyl ketone and N-alpha-tosyl-L-phenylalanine chloromethyl ketone, also blocked the cytolytic activity of NK cells against the sensitive target K562.</clue>
+</event>
+<event id="E21">
+<type class="Negative_regulation"/>
+<theme idref="T27"/>
+<cause idref="T29"/>
+<clue>Moreover, the <clueType>inhibitors</clueType> <linkTheme>of</linkTheme> serine proteases, N-alpha-tosyl-L-lysine chloromethyl ketone and N-alpha-tosyl-L-phenylalanine chloromethyl ketone, also blocked the cytolytic activity of NK cells against the sensitive target K562.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Cellular_physiological_process"/>
+<theme idref="T31"/>
+<cause idref="T30"/>
+<clue>Moreover, the inhibitors of serine proteases, N-alpha-tosyl-L-lysine chloromethyl ketone and N-alpha-tosyl-L-phenylalanine chloromethyl ketone, also blocked the <clueType>cytolytic activity</clueType> <linkCause>of</linkCause> NK cells <linkTheme>against</linkTheme> the sensitive target K562.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation"/>
+<theme idref="E22"/>
+<cause idref="T28"/>
+<clue>Moreover, the inhibitors of serine proteases, N-alpha-tosyl-L-lysine chloromethyl ketone and N-alpha-tosyl-L-phenylalanine chloromethyl ketone, also <clueType>blocked</clueType> the cytolytic activity of NK cells against the sensitive target K562.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation"/>
+<theme idref="E22"/>
+<cause idref="T29"/>
+<clue>Moreover, the inhibitors of serine proteases, N-alpha-tosyl-L-lysine chloromethyl ketone and N-alpha-tosyl-L-phenylalanine chloromethyl ketone, also <clueType>blocked</clueType> the cytolytic activity of NK cells against the sensitive target K562.</clue>
+</event>
+<sentence id="S7">In contrast, <term id="T32" lex="NK_activity" sem="Other">NK activity</term> was not affected by pretreatment of the effector cells with the <term id="T33" lex="proteasome_inhibitor" sem="Organic_compound_other"><term id="T34" lex="proteasome" sem="Protein_complex">proteasome</term> inhibitor</term> <term id="T35" lex="N-acetyl-leu-leu-norleucinal" sem="Organic_compound_other">N-acetyl-leu-leu-norleucinal</term> which selectively inhibits <term id="T36" lex="NF-kappa_B_activation" sem="Other"><term id="T37" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> activation</term>.</sentence>
+<event id="E25">
+<type class="Negative_regulation"/>
+<theme idref="T34"/>
+<cause idref="T35"/>
+<clue>In contrast, NK activity was not affected by pretreatment of the effector cells with the proteasome <clueType>inhibitor</clueType> N-acetyl-leu-leu-norleucinal which selectively inhibits NF-kappa B activation.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="T37"/>
+<clue>In contrast, NK activity was not affected by pretreatment of the effector cells with the proteasome inhibitor N-acetyl-leu-leu-norleucinal which selectively inhibits NF-kappa B <clueType>activation</clueType>.</clue>
+</event>
+<event KT="Fact" id="E27">
+<type class="Negative_regulation"/>
+<theme idref="E26"/>
+<cause idref="T35"/>
+<clue>In contrast, NK activity was not affected by pretreatment of the effector cells with the proteasome inhibitor N-acetyl-leu-leu-norleucinal which selectively <clueType>inhibits</clueType> NF-kappa B activation.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E28">
+<type class="Negative_regulation"/>
+<theme idref="T32"/>
+<cause idref="T35"/>
+<clue>In contrast, NK activity was <cluePolarity>not</cluePolarity> <clueType>affected</clueType> <linkCause>by pretreatment</linkCause> of <clueLoc>the effector cells</clueLoc> <linkCause>with</linkCause> the proteasome inhibitor N-acetyl-leu-leu-norleucinal which selectively inhibits NF-kappa B activation.</clue>
+</event>
+<sentence id="S8">Altogether, these results support the hypothesis that the activation of <term id="T38" lex="NK_cell" sem="Cell_natural">NK cells</term> involved <term id="T39" lex="transcriptional_event" sem="Other">transcriptional</term> and <term id="T40" lex="post-transcriptional_event" sem="Other">post-transcriptional <term id="A5" sem="Other">events</term></term>, and that <term id="T41" lex="reactive_intermediate" sem="Organic_compound_other">reactive intermediates</term> may play an important role in the molecular processes related with the generation of a <term id="T42" lex="cytotoxic_response" sem="Other">cytotoxic response</term> by <term id="T43" lex="NK_cell" sem="Cell_natural">NK cells</term>.</sentence>
+<event KT="Other" id="E29">
+<type class="Physiological_process"/>
+<theme idref="T38"/>
+<clue>Altogether, these results support the hypothesis that the <clueType>activation</clueType> <linkTheme>of</linkTheme> NK cells involved transcriptional and post-transcriptional events, and that reactive intermediates may play an important role in the molecular processes related with the generation of a cytotoxic response by NK cells.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E30">
+<type class="Positive_regulation"/>
+<theme idref="E29"/>
+<cause idref="T39" idref1="A5"/>
+<clue>Altogether, these results <clueKT>support</clueKT> the <clueCL>hypothesis</clueCL> that the activation of NK cells <clueType>involved</clueType> transcriptional and post-transcriptional events, and that reactive intermediates may play an important role in the molecular processes related with the generation of a cytotoxic response by NK cells.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E31">
+<type class="Positive_regulation"/>
+<theme idref="E29"/>
+<cause idref="T40"/>
+<clue>Altogether, these results <clueKT>support</clueKT> the <clueCL>hypothesis</clueCL> that the activation of NK cells <clueType>involved</clueType> transcriptional and post-transcriptional events, and that reactive intermediates may play an important role in the molecular processes related with the generation of a cytotoxic response by NK cells.</clue>
+</event>
+<event KT="Other" id="E32">
+<type class="Cellular_physiological_process"/>
+<cause idref="T43"/>
+<clue>Altogether, these results support the hypothesis that the activation of NK cells involved transcriptional and post-transcriptional events, and that reactive intermediates may play an important role in the molecular processes related with the generation of a <clueType>cytotoxic response</clueType> <linkCause>by</linkCause> NK cells.</clue>
+</event>
+<event KT="Other" id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E32"/>
+<clue>Altogether, these results support the hypothesis that the activation of NK cells involved transcriptional and post-transcriptional events, and that reactive intermediates may play an important role in the molecular processes related with the <clueType>generation</clueType> <linkTheme>of</linkTheme> a cytotoxic response by NK cells.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E34">
+<type class="Regulation"/>
+<theme idref="E33"/>
+<cause idref="T41"/>
+<clue>Altogether, these results <clueKT>support</clueKT> the <clueKT>hypothesis</clueKT> that the activation of NK cells involved transcriptional and post-transcriptional events, and that reactive intermediates <clueCL>may</clueCL> <clueType>play</clueType> an important <clueType>role</clueType> <linkTheme>in</linkTheme> the molecular <linkTheme>processes related with</linkTheme> the generation of a cytotoxic response by NK cells.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

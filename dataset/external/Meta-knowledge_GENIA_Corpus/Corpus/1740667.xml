@@ -1,0 +1,254 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1740667" created="06/04/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1740667</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">The <term id="T1" lex="AP-1_site" sem="DNA_domain_or_region">AP-1 site</term> at <term id="T2" lex="-150_bp" sem="DNA_domain_or_region">-150 bp</term>, but not the <term id="T3" lex="NF-kappa_B_site" sem="DNA_domain_or_region">NF-kappa B site</term>, is likely to represent the major target of <term id="T4" lex="protein_kinase_C" sem="Protein_molecule">protein kinase C</term> in the <term id="T5" lex="interleukin_2_promoter" sem="DNA_domain_or_region"><term id="T6" lex="interleukin_2" sem="Protein_molecule">interleukin 2</term> promoter</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E1" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="T1"/>
+<cause idref="T4"/>
+<clue>The AP-1 site at -150 bp, but not the NF-kappa B site, <clueKT>is <clueCL>likely</clueCL> to</clueKT> represent the major <clueType>target</clueType> <linkTheme>of</linkTheme> protein kinase C <clueLoc>in the interleukin 2 promoter</clueLoc>.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E2" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="T3"/>
+<cause idref="T4"/>
+<clue>The AP-1 site at -150 bp, but <cluePolarity>not</cluePolarity> the NF-kappa B site, <clueKT>is <clueCL>likely</clueCL> to</clueKT> represent the major <clueType>target</clueType> <linkTheme>of</linkTheme> protein kinase C <clueLoc>in the interleukin 2 promoter</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Stimulation of <term id="T7" lex="T_cell" sem="Cell_natural">T cells</term> with <term id="A1" sem="Protein_family_or_group">antigen</term> results in activation of several <term id="T8" lex="kinase" sem="Protein_family_or_group">kinases</term>, including <term id="T9" lex="protein_kinase_C" sem="Protein_molecule">protein kinase C</term> (<term id="T10" lex="PKC" sem="Protein_molecule">PKC</term>), that may mediate the later induction of <term id="A2" sem="DNA_domain_or_region">activation-related genes</term>.</sentence>
+<event KT="Other" id="E3">
+<type class="Physiological_process"/>
+<theme idref="T7"/>
+<cause idref="A1"/>
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> T cells <linkCause>with</linkCause> antigen results in activation of several kinases, including protein kinase C (PKC), that may mediate the later induction of activation-related genes.</clue>
+</event>
+<event KT="Fact" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T10"/>
+<cause idref="E3"/>
+<clue>Stimulation of T cells with antigen <clueType>results in activation</clueType> <linkTheme>of</linkTheme> <corefTheme>several kinases</corefTheme>, including protein kinase C (PKC), that may mediate the later induction of activation-related genes.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Gene_expression"/>
+<theme idref="A2"/>
+<clue>Stimulation of T cells with antigen results in activation of several kinases, including protein kinase C (PKC), that may mediate the later <clueType>induction</clueType> <linkTheme>of</linkTheme> activation-related genes.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E6" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="T10"/>
+<clue>Stimulation of T cells with antigen results in activation of <corefTheme>several kinases</corefTheme>, including protein kinase C (PKC), that <clueKT><clueCL>may</clueCL></clueKT> <clueType>mediate</clueType> the later induction of activation-related genes.</clue>
+</event>
+<sentence id="S3">We have examined the potential role of <term id="T11" lex="PKC" sem="Protein_molecule">PKC</term> in induction of the <term id="T12" lex="interleukin_2_(IL-2)_gene" sem="DNA_domain_or_region"><term id="T13" lex="interleukin_2" sem="Protein_molecule">interleukin 2</term> (<term id="T14" lex="IL-2" sem="Protein_molecule">IL-2</term>) gene</term> in <term id="T15" lex="T_cell" sem="Cell_natural">T cells</term> stimulated through the <term id="T16" lex="T_cell_receptor/CD3_complex" sem="Protein_complex">T cell receptor/CD3 complex</term>.</sentence>
+<event KT="Other" id="E7">
+<type class="Gene_expression"/>
+<theme idref="T12"/>
+<clue>We have examined the potential role of PKC in <clueType>induction</clueType> <linkTheme>of</linkTheme> the interleukin 2 (IL-2) gene in T cells stimulated through the T cell receptor/CD3 complex.</clue>
+</event>
+<event KT="Investigation" id="E8" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E7"/>
+<cause idref="T11"/>
+<clue>We have <clueKT>examined</clueKT> the potential <clueType>role</clueType> <linkCause>of</linkCause> PKC <linkTheme>in</linkTheme> induction of the interleukin 2 (IL-2) gene <clueLoc>in T cells stimulated through the T cell receptor/CD3 complex</clueLoc>.</clue>
+</event>
+<event id="E9">
+<type class="Physiological_process"/>
+<theme idref="T15"/>
+<cause idref="T16"/>
+<clue>We have examined the potential role of PKC in induction of the interleukin 2 (IL-2) gene in T cells <clueType>stimulated</clueType> <linkCause>through</linkCause> the T cell receptor/CD3 complex.</clue>
+</event>
+<sentence id="S4">We have previously shown that prolonged treatment of the untransformed <term id="T17" lex="T_cell_clone_Ar-5" sem="Cell_cultured">T cell clone Ar-5</term> with <term id="T18" lex="phorbol_ester" sem="Organic_compound_other">phorbol esters</term> results in downmodulation of the <cons id="T19" lex="(AND alpha_isozyme beta_isozyme)" sem="(AND Protein_molecule Protein_molecule)"><frag id="F1"><term id="A8" sem="Protein_molecule">alpha</term></frag> and <frag id="F2"><term id="A9" sem="Protein_molecule">beta</term></frag> <frag id="F3"><term id="A10" sem="Protein_molecule">isozymes</term></frag></cons> <term id="A11" sem="Protein_molecule">of</term> <term id="T20" lex="PKC" sem="Protein_molecule">PKC</term>, and abrogates induction of <term id="T21" lex="IL-2_mRNA" sem="RNA_molecule"><term id="A3" sem="Protein_molecule">IL-2</term> mRNA</term> and <term id="T22" lex="IL-2_protein" sem="Protein_molecule">protein</term>.</sentence>
+<event KT="Analysis" Source="Other" id="E11">
+<type class="Negative_regulation"/>
+<theme idref="A8" idref1="A10" idref2="A11" idref3="T20"/>
+<cause idref="T18"/>
+<clue>We have <clueSource>previously</clueSource> <clueKT>shown</clueKT> that prolonged <linkCause>treatment</linkCause> of <clueLoc>the untransformed T cell clone Ar-5</clueLoc> <linkCause>with</linkCause> phorbol esters <clueType>results in downmodulation</clueType> <linkTheme>of</linkTheme> the alpha and beta isozymes of PKC, and abrogates induction of IL-2 mRNA and protein.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E37">
+<type class="Negative_regulation"/>
+<theme idref="A9" idref1="A10" idref2="A11" idref3="T20"/>
+<cause idref="T18"/>
+<clue>We have <clueSource>previously</clueSource> <clueKT>shown</clueKT> that prolonged <linkCause>treatment</linkCause> of <clueLoc>the untransformed T cell clone Ar-5</clueLoc> <linkCause>with</linkCause> phorbol esters <clueType>results in downmodulation</clueType> <linkTheme>of</linkTheme> the alpha and beta isozymes of PKC, and abrogates induction of IL-2 mRNA and protein.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Transcription"/>
+<theme idref="T21"/>
+<clue>We have previously shown that prolonged treatment of the untransformed T cell clone Ar-5 with phorbol esters results in downmodulation of the alpha and beta isozymes of PKC, and abrogates <clueType>induction</clueType> <linkTheme>of</linkTheme> IL-2 mRNA and protein.</clue>
+</event>
+<event KT="Other" id="E13">
+<type class="Translation"/>
+<theme idref="A3" idref1="T22"/>
+<clue>We have previously shown that prolonged treatment of the untransformed T cell clone Ar-5 with phorbol esters results in downmodulation of the alpha and beta isozymes of PKC, and abrogates <clueType>induction</clueType> <linkTheme>of</linkTheme> IL-2 mRNA and protein.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E14">
+<type class="Negative_regulation"/>
+<theme idref="E12"/>
+<cause idref="T18"/>
+<clue>We have <clueSource>previously</clueSource> <clueKT>shown</clueKT> that prolonged <linkCause>treatment</linkCause> of <clueLoc>the untransformed T cell clone Ar-5</clueLoc> <linkCause>with</linkCause> phorbol esters results in downmodulation of the alpha and beta isozymes of PKC, and <clueType>abrogates</clueType> induction of IL-2 mRNA and protein.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E38">
+<type class="Negative_regulation"/>
+<theme idref="E13"/>
+<cause idref="T18"/>
+<clue>We have <clueSource>previously</clueSource> <clueKT>shown</clueKT> that prolonged <linkCause>treatment</linkCause> of <clueLoc>the untransformed T cell clone Ar-5</clueLoc> <linkCause>with</linkCause> phorbol esters results in downmodulation of the alpha and beta isozymes of PKC, and <clueType>abrogates</clueType> induction of IL-2 mRNA and protein.</clue>
+</event>
+<event Polarity="Negative" id="E138">
+<type class="Biological_process"/>
+<theme idref="E17"/>
+<clue>We have previously shown that prolonged treatment of the <clueType><cluePolarity>un</cluePolarity>transformed</clueType> T cell clone Ar-5 with phorbol esters results in downmodulation of the alpha and beta isozymes of PKC, and abrogates induction of IL-2 mRNA and protein.</clue>
+</event>
+<sentence id="S5">Here we show that <term id="T23" lex="phorbol_ester_treatment" sem="Other"><term id="T24" lex="phorbol_ester" sem="Organic_compound_other">phorbol ester</term> treatment</term> also abolishes induction of <term id="T25" lex="chloramphenicol_acetyltransferase_activity" sem="Other"><term id="T26" lex="chloramphenicol_acetyltransferase" sem="Protein_molecule">chloramphenicol acetyltransferase</term> activity</term> in <term id="T27" lex="Ar-5_cell" sem="Cell_cultured">Ar-5 cells</term> transfected with a <term id="A104" sem="DNA_family_or_group"><term id="T28" lex="plasmid" sem="DNA_family_or_group">plasmid</term> containing the <term id="T29" lex="IL-2_promoter" sem="DNA_domain_or_region">IL-2 promoter</term> linked to this <term id="T30" lex="reporter_gene" sem="DNA_domain_or_region">reporter gene</term></term>.</sentence>
+<event KT="Other" id="E113">
+<type class="Positive_regulation"/>
+<theme idref="T26"/>
+<clue>Here we show that phorbol ester treatment also abolishes <clueType>induction</clueType> <linkTheme>of</linkTheme> chloramphenicol acetyltransferase activity in Ar-5 cells transfected with a plasmid containing the IL-2 promoter linked to this reporter gene.</clue>
+<comment>TPS A104</comment></event>
+<event KT="Analysis" id="E114">
+<type class="Negative_regulation"/>
+<theme idref="E113"/>
+<cause idref="T23"/>
+<clue>Here we <clueKT>show</clueKT> that phorbol ester treatment also <clueType>abolishes</clueType> induction of chloramphenicol acetyltransferase activity <clueLoc>in Ar-5 cells transfected with a plasmid containing the IL-2 promoter linked to this reporter gene</clueLoc>.</clue>
+</event>
+<event KT="Method" id="E115">
+<type class="Artificial_process"/>
+<theme idref="T27"/>
+<theme idref="A104"/>
+<clue>Here we show that phorbol ester treatment also abolishes induction of chloramphenicol acetyltransferase activity in Ar-5 cells <clueType>transfected</clueType> <linkTheme>with</linkTheme> a plasmid containing the IL-2 promoter linked to this reporter gene.</clue>
+</event>
+<sentence id="S6">The <term id="T31" lex="IL-2_promoter" sem="DNA_domain_or_region">IL-2 promoter</term> contains <term id="T32" lex="binding_site" sem="DNA_domain_or_region">binding sites</term> <term id="A111" sem="DNA_domain_or_region">for</term> <term id="T33" lex="nuclear_factor" sem="Protein_family_or_group">nuclear factors</term> including <term id="T34" lex="NFAT-1" sem="Protein_molecule">NFAT-1</term>, <term id="T35" lex="Oct" sem="Protein_molecule">Oct</term>, <term id="T36" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term>, and <term id="T37" lex="AP-1" sem="Protein_molecule">AP-1</term>, which are all potentially sensitive to activation of <term id="T38" lex="PKC" sem="Protein_molecule">PKC</term>.</sentence>
+<event KT="Other" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T38"/>
+<clue>The IL-2 promoter contains binding sites for nuclear factors including NFAT-1, Oct, NF-kappa B, and AP-1, which are all potentially sensitive to <clueType>activation</clueType> <linkTheme>of</linkTheme> PKC.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E17" uncertainty="probable">
+<type/>
+<theme idref="T32" idref1="A111" idref2="T34"/>
+<cause idref="E16"/>
+<clue>The IL-2 promoter contains <corefTheme>binding sites for nuclear factors</corefTheme> including NFAT-1, Oct, NF-kappa B, and AP-1, which are all <clueKT><clueCL>potentially</clueCL></clueKT> <clueType>sensitive</clueType> <linkCause>to</linkCause> activation of PKC.</clue>
+<comment>SENSITIVITY</comment></event>
+<event CL="L1" KT="Analysis" id="E18">
+<type/>
+<theme idref="T32" idref1="A111" idref2="T35"/>
+<cause idref="E16"/>
+<clue>The IL-2 promoter contains <corefTheme>binding sites for nuclear factors</corefTheme> including NFAT-1, Oct, NF-kappa B, and AP-1, which are all <clueKT><clueCL>potentially</clueCL></clueKT> <clueType>sensitive</clueType> <linkCause>to</linkCause> activation of PKC.</clue>
+<comment>SENSITIVITY</comment></event>
+<event CL="L1" KT="Analysis" id="E19">
+<type/>
+<theme idref="T32" idref1="A111" idref2="T36"/>
+<cause idref="E16"/>
+<clue>The IL-2 promoter contains <corefTheme>binding sites for nuclear factors</corefTheme> including NFAT-1, Oct, NF-kappa B, and AP-1, which are all <clueKT><clueCL>potentially</clueCL></clueKT> <clueType>sensitive</clueType> <linkCause>to</linkCause> activation of PKC.</clue>
+<comment>SENSITIVITY</comment></event>
+<event CL="L1" KT="Analysis" id="E20">
+<type/>
+<theme idref="T32" idref1="A111" idref2="T37"/>
+<cause idref="E16"/>
+<clue>The IL-2 promoter contains <corefTheme>binding sites for nuclear factors</corefTheme> including NFAT-1, Oct, NF-kappa B, and AP-1, which are all <clueKT><clueCL>potentially</clueCL></clueKT> <clueType>sensitive</clueType> <linkCause>to</linkCause> activation of PKC.</clue>
+<comment>SENSITIVITY</comment></event>
+<sentence id="S7">We show that induction of a <term id="A4" sem="DNA_domain_or_region">trimer of the NFAT and Oct sites</term> is not sensitive to <term id="T40" lex="phorbol_ester" sem="Organic_compound_other">phorbol ester</term> treatment, and that mutations in the <term id="T41" lex="NF-kappa_B_site" sem="DNA_domain_or_region"><term id="T42" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> site</term> have no effect on inducibility of the <term id="T43" lex="IL-2_promoter" sem="DNA_domain_or_region">IL-2 promoter</term>.</sentence>
+<event id="E21">
+<type class="Positive_regulation"/>
+<theme idref="A4"/>
+<clue>We show that <clueType>induction</clueType> <linkTheme>of</linkTheme> a trimer of the NFAT and Oct sites is not sensitive to phorbol ester treatment, and that mutations in the NF-kappa B site have no effect on inducibility of the IL-2 promoter.</clue>
+<comment>NER T39 del, TPS A4</comment></event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E22">
+<type/>
+<theme idref="E21"/>
+<cause idref="T40"/>
+<clue>We <clueKT>show</clueKT> that induction of a trimer of the NFAT and Oct sites is <cluePolarity>not</cluePolarity> <clueType>sensitive</clueType> <linkCause>to</linkCause> phorbol ester treatment, and that mutations in the NF-kappa B site have no effect on inducibility of the IL-2 promoter.</clue>
+<comment>SENSITIVITY</comment></event>
+<event id="E23">
+<type class="Mutagenesis"/>
+<theme idref="T41"/>
+<clue>We show that induction of a trimer of the NFAT and Oct sites is not sensitive to phorbol ester treatment, and that <clueType>mutations</clueType> <linkTheme>in</linkTheme> the NF-kappa B site have no effect on inducibility of the IL-2 promoter.</clue>
+<comment>ARTIFICAIL</comment></event>
+<event KT="Other" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="T43"/>
+<clue>We show that induction of a trimer of the NFAT and Oct sites is not sensitive to phorbol ester treatment, and that mutations in the NF-kappa B site have no effect on <clueType>inducibility</clueType> <linkTheme>of</linkTheme> the IL-2 promoter.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E25">
+<type class="Regulation"/>
+<theme idref="E24"/>
+<cause idref="E23"/>
+<clue>We <clueKT>show</clueKT> that induction of a trimer of the NFAT and Oct sites is not sensitive to phorbol ester treatment, and that mutations in the NF-kappa B site <clueType>have</clueType> <cluePolarity>no</cluePolarity> <clueType>effect</clueType> <linkTheme>on</linkTheme> inducibility of the IL-2 promoter.</clue>
+</event>
+<sentence id="S8">In contrast, mutations in the <term id="T44" lex="AP-1_site" sem="DNA_domain_or_region">AP-1 site</term> located at <term id="T45" lex="-150_bp" sem="DNA_domain_or_region">-150 bp</term> almost completely abrogate induction of the <term id="T46" lex="IL-2_promoter" sem="DNA_domain_or_region">IL-2 promoter</term>, and appearance of an <term id="T47" lex="inducible_nuclear_factor" sem="Protein_family_or_group">inducible nuclear factor</term> binding to this site is sensitive to <term id="T48" lex="PKC_depletion" sem="Other"><term id="T49" lex="PKC" sem="Protein_molecule">PKC</term> depletion</term>.</sentence>
+<event KT="Other" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="T46"/>
+<clue>In contrast, mutations in the AP-1 site located at -150 bp almost completely abrogate <clueType>induction</clueType> <linkTheme>of</linkTheme> the IL-2 promoter, and appearance of an inducible nuclear factor binding to this site is sensitive to PKC depletion.</clue>
+</event>
+<event id="E27">
+<type class="Mutagenesis"/>
+<theme idref="T44"/>
+<clue>In contrast, <clueType>mutations</clueType> <linkTheme>in</linkTheme> the AP-1 site located at -150 bp almost completely abrogate induction of the IL-2 promoter, and appearance of an inducible nuclear factor binding to this site is sensitive to PKC depletion.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event Manner="High" id="E28">
+<type class="Negative_regulation"/>
+<theme idref="E26"/>
+<cause idref="E27"/>
+<clue>In contrast, mutations in the AP-1 site located at -150 bp almost <clueManner>completely</clueManner> <clueType>abrogate</clueType> induction of the IL-2 promoter, and appearance of an inducible nuclear factor binding to this site is sensitive to PKC depletion.</clue>
+</event>
+<event id="E29">
+<type class="Binding"/>
+<theme idref="T47"/>
+<theme idref="T44"/>
+<clue>In contrast, mutations in the AP-1 site located at -150 bp almost completely abrogate induction of the IL-2 promoter, and appearance of an inducible nuclear factor <clueType>binding</clueType> <linkTheme>to</linkTheme> <corefTheme>this site</corefTheme> is sensitive to PKC depletion.</clue>
+</event>
+<event id="E30">
+<type class="Gene_expression"/>
+<theme idref="T47"/>
+<clue>In contrast, mutations in the AP-1 site located at -150 bp almost completely abrogate induction of the IL-2 promoter, and <clueType>appearance</clueType> <linkTheme>of</linkTheme> an inducible nuclear factor binding to this site is sensitive to PKC depletion.</clue>
+</event>
+<event id="E31">
+<type class="Negative_regulation"/>
+<theme idref="T49"/>
+<clue>In contrast, mutations in the AP-1 site located at -150 bp almost completely abrogate induction of the IL-2 promoter, and appearance of an inducible nuclear factor binding to this site is sensitive to PKC <clueType>depletion</clueType>.</clue>
+</event>
+<event id="E32">
+<type/>
+<theme idref="E30"/>
+<cause idref="E31"/>
+<clue>In contrast, mutations in the AP-1 site located at -150 bp almost completely abrogate induction of the IL-2 promoter, and appearance of an inducible nuclear factor binding to this site is <clueType>sensitive</clueType> <linkCause>to</linkCause> PKC depletion.</clue>
+<comment>SENSITIVITY</comment></event>
+<sentence id="S9">Moreover, cotransfections with <term id="A5" sem="DNA_domain_or_region">c-fos</term> and <term id="A6" sem="DNA_domain_or_region">c-jun</term> <term id="A7" sem="DNA_molecule">expression plasmids</term> markedly enhance induction of the <term id="T50" lex="IL-2_promoter" sem="DNA_domain_or_region">IL-2 promoter</term> in <term id="T51" lex="minimally_stimulated_T_cell" sem="Cell_cultured">minimally stimulated <term id="T52" lex="T_cell" sem="Cell_natural">T cells</term></term>.</sentence>
+<event id="E34">
+<type class="Positive_regulation"/>
+<theme idref="T50"/>
+<clue>Moreover, cotransfections with c-fos and c-jun expression plasmids markedly enhance <clueType>induction</clueType> <linkTheme>of</linkTheme> the IL-2 promoter in minimally stimulated T cells.</clue>
+</event>
+<event Manner="High" id="E35">
+<type class="Positive_regulation"/>
+<theme idref="E34"/>
+<cause idref="A5"/>
+<cause idref="A6"/>
+<clue>Moreover, <linkCause>cotransfections with</linkCause> c-fos and c-jun <linkCause>expression plasmids</linkCause> <clueManner>markedly</clueManner> <clueType>enhance</clueType> induction of the IL-2 promoter <clueLoc>in minimally stimulated T cells</clueLoc>.</clue>
+</event>
+<event id="E101">
+<type class="Gene_expression"/>
+<theme idref="A5"/>
+<clue>Moreover, cotransfections with c-fos and c-jun <clueType>expression</clueType> <clueLoc>plasmids</clueLoc> markedly enhance induction of the IL-2 promoter in minimally stimulated T cells.</clue>
+</event>
+<event id="E102">
+<type class="Gene_expression"/>
+<theme idref="A6"/>
+<clue>Moreover, cotransfections with c-fos and c-jun <clueType>expression</clueType> <clueLoc>plasmids</clueLoc> markedly enhance induction of the IL-2 promoter in minimally stimulated T cells.</clue>
+</event>
+<event Manner="Low" id="E103">
+<type class="Physiological_process"/>
+<theme idref="T52"/>
+<clue>Moreover, cotransfections with c-fos and c-jun expression plasmids markedly enhance induction of the IL-2 promoter in <clueManner>minimally</clueManner> <clueType>stimulated</clueType> T cells.</clue>
+</event>
+<sentence id="S10">Our results indicate that the <term id="T53" lex="AP-1_site" sem="DNA_domain_or_region">AP-1 site</term> at <term id="T54" lex="-150_bp" sem="DNA_domain_or_region">-150 bp</term> represents a major, if not the only, site of <term id="T55" lex="PKC_responsiveness" sem="Other"><term id="T56" lex="PKC" sem="Protein_molecule">PKC</term> responsiveness</term> in the <term id="T57" lex="IL-2_promoter" sem="DNA_domain_or_region">IL-2 promoter</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E36">
+<type class="Regulation"/>
+<theme idref="T53"/>
+<cause idref="T56"/>
+<clue>Our results <clueKT><clueCL>indicate</clueCL></clueKT> that the AP-1 site at -150 bp <clueType>represents</clueType> a major, if not the only, site of PKC <clueType>responsiveness</clueType> <clueLoc>in the IL-2 promoter</clueLoc>.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

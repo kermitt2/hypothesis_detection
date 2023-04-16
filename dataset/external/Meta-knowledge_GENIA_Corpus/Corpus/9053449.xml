@@ -1,0 +1,255 @@
+<?xml version='1.0'?>
+<!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd">
+<Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9053449" created="10/04/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9053449</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Involvement of <term id="T1" lex="Egr-1/RelA_synergy" sem="Other"><term id="T2" lex="Egr-1" sem="Protein_molecule">Egr-1</term><term id="T3" lex="RelA" sem="Protein_molecule">/RelA</term> synergy</term> in distinguishing <term id="T4" lex="T_cell_activation" sem="Other"><term id="A1" sem="Cell_natural">T cell</term> activation</term> from <term id="T5" lex="tumor_necrosis_factor-alpha-induced_NF-kappa_B1_transcription" sem="Other"><term id="T6" lex="tumor_necrosis_factor-alpha" sem="Protein_molecule">tumor necrosis factor-alpha</term>-induced <term id="T7" lex="NF-kappa_B1_transcription" sem="Other"><term id="T8" lex="NF-kappa_B1" sem="Protein_molecule">NF-kappa B1</term> transcription</term></term>.</sentence>
+<event id="E1">
+<type class="Correlation"/>
+<theme idref="T2"/>
+<theme idref="T3"/>
+<clue>Involvement of Egr-1/RelA <clueType>synergy</clueType> in distinguishing T cell activation from tumor necrosis factor-alpha-induced NF-kappa B1 transcription.</clue>
+</event>
+<event id="E2">
+<type class="Physiological_process"/>
+<theme idref="A1"/>
+<clue>Involvement of Egr-1/RelA synergy in distinguishing T cell <clueType>activation</clueType> from tumor necrosis factor-alpha-induced NF-kappa B1 transcription.</clue>
+</event>
+<event id="E3">
+<type class="Transcription"/>
+<theme idref="T8"/>
+<clue>Involvement of Egr-1/RelA synergy in distinguishing T cell activation from tumor necrosis factor-alpha-induced NF-kappa B1 <clueType>transcription</clueType>.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="T6"/>
+<clue>Involvement of Egr-1/RelA synergy in distinguishing T cell activation from tumor necrosis factor-alpha-<clueType>induced</clueType> NF-kappa B1 transcription.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<clue>Involvement of Egr-1/RelA synergy in <clueType>distinguishing</clueType> T cell activation from tumor necrosis factor-alpha-induced NF-kappa B1 transcription.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="E1"/>
+<clue><clueType>Involvement</clueType> <linkCause>of</linkCause> Egr-1/RelA synergy <linkTheme>in</linkTheme> distinguishing T cell activation from tumor necrosis factor-alpha-induced NF-kappa B1 transcription.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T9" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> is an important <term id="T10" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term> required for <term id="T11" lex="T_cell_proliferation" sem="Other"><term id="A2" sem="Cell_natural">T cel</term>l <term id="T12" lex="proliferation" sem="Other">proliferation</term></term> and other <term id="T13" lex="immunological_function" sem="Other">immunological functions</term>.</sentence>
+<event KT="Other" id="E9">
+<type class="Cellular_physiological_process"/>
+<theme idref="A2"/>
+<clue>NF-kappa B is an important transcription factor required for T cell <clueType>proliferation</clueType> and other immunological functions.</clue>
+</event>
+<event KT="Fact" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="T9"/>
+<clue>NF-kappa B is <corefCause>an important transcription factor</corefCause> <clueType>required</clueType> <linkTheme>for</linkTheme> T cell proliferation and other immunological functions.</clue>
+</event>
+<event KT="Fact" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="T13"/>
+<cause idref="T9"/>
+<clue>NF-kappa B is <corefCause>an important transcription factor</corefCause> <clueType>required</clueType> <linkTheme>for</linkTheme> T cell proliferation and other immunological functions.</clue>
+</event>
+<sentence id="S3">The <term id="T14" lex="NF-kappa_B1_gene" sem="DNA_domain_or_region">NF-kappa B1 gene</term> encodes a <term id="T15" lex="105-kD_protein" sem="Protein_molecule">105-kD protein</term> that is the precursor of the <term id="T16" lex="p50_component" sem="Protein_molecule"><term id="T17" lex="p50" sem="Protein_molecule">p50</term> component</term> of <term id="T18" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term>.</sentence>
+<sentence id="S4">Previously, we and others have demonstrated that <term id="T19" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> regulates the <term id="T20" lex="NF-kappa_B1_gene" sem="DNA_domain_or_region">NF-kappa B1 gene</term>.</sentence>
+<event KT="Analysis" Source="Other" id="E12">
+<type class="Regulation"/>
+<theme idref="T20"/>
+<cause idref="T19"/>
+<clue><clueSource>Previously</clueSource>, we and others have <clueKT>demonstrated</clueKT> that NF-kappa B <clueType>regulates</clueType> the NF-kappa B1 gene.</clue>
+</event>
+<sentence id="S5">In this manuscript we have investigated the <term id="T21" lex="molecular_mechanism" sem="Other">molecular mechanisms</term> by which <term id="T22" lex="T_cell_line" sem="Cell_cultured">T cell lines</term> stimulated with <term id="T23" lex="phorbol_12-myristate_13-acetate" sem="Organic_compound_other">phorbol 12-myristate 13-acetate</term> (<term id="T24" lex="PMA" sem="Organic_compound_other">PMA</term>) and <term id="T25" lex="phytohemagglutin" sem="Protein_molecule">phytohemagglutin</term> (<term id="T26" lex="PHA" sem="Protein_molecule">PHA</term>) display significantly higher levels of <term id="T28" lex="transcript" sem="RNA_family_or_group"><term id="T27" lex="NF-kappa_B1" sem="Protein_molecule">NF-kappa B1</term> encoding transcripts</term> than cells stimulated with <term id="T29" lex="tumor_necrosis_factor-alpha" sem="Protein_molecule">tumor necrosis factor-alpha</term>, despite the fact that both stimuli activate <term id="T30" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term>.</sentence>
+<event KT="Method" id="E13">
+<type class="Physiological_process"/>
+<theme idref="T22"/>
+<cause idref="T24"/>
+<clue>In this manuscript we have investigated the molecular mechanisms by which T cell lines <clueType>stimulated</clueType> <linkCause>with</linkCause> phorbol 12-myristate 13-acetate (PMA) and phytohemagglutin (PHA) display significantly higher levels of NF-kappa B1 encoding transcripts than cells stimulated with tumor necrosis factor-alpha, despite the fact that both stimuli activate NF-kappa B.</clue>
+<comment>NER T28 mod</comment></event>
+<event KT="Method" id="E14">
+<type class="Physiological_process"/>
+<theme idref="T22"/>
+<cause idref="T26"/>
+<clue>In this manuscript we have investigated the molecular mechanisms by which T cell lines <clueType>stimulated</clueType> <linkCause>with</linkCause> phorbol 12-myristate 13-acetate (PMA) and phytohemagglutin (PHA) display significantly higher levels of NF-kappa B1 encoding transcripts than cells stimulated with tumor necrosis factor-alpha, despite the fact that both stimuli activate NF-kappa B.</clue>
+</event>
+<event KT="Investigation" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="T28"/>
+<cause idref="E13"/>
+<clue>In this manuscript we have <clueKT>investigated</clueKT> the molecular mechanisms by which T cell lines stimulated with phorbol 12-myristate 13-acetate (PMA) and phytohemagglutin (PHA) <clueType>display</clueType> significantly <clueType>higher levels</clueType> <linkTheme>of</linkTheme> NF-kappa B1 encoding transcripts than cells stimulated with tumor necrosis factor-alpha, despite the fact that both stimuli activate NF-kappa B.</clue>
+</event>
+<event KT="Investigation" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T28"/>
+<cause idref="E14"/>
+<clue>In this manuscript we have <clueKT>investigated</clueKT> the molecular mechanisms by which T cell lines stimulated with phorbol 12-myristate 13-acetate (PMA) and phytohemagglutin (PHA) <clueType>display</clueType> significantly <clueType>higher levels</clueType> <linkTheme>of</linkTheme> NF-kappa B1 encoding transcripts than cells stimulated with tumor necrosis factor-alpha, despite the fact that both stimuli activate NF-kappa B.</clue>
+</event>
+<event KT="Fact" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="T30"/>
+<cause idref="T24"/>
+<clue>In this manuscript we have investigated the molecular mechanisms by which T cell lines stimulated with phorbol 12-myristate 13-acetate (PMA) and phytohemagglutin (PHA) display significantly higher levels of NF-kappa B1 encoding transcripts than cells stimulated with tumor necrosis factor-alpha, despite the fact that <corefCause>both stimuli</corefCause> <clueType>activate</clueType> NF-kappa B.</clue>
+</event>
+<event KT="Fact" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="T30"/>
+<cause idref="T26"/>
+<clue>In this manuscript we have investigated the molecular mechanisms by which T cell lines stimulated with phorbol 12-myristate 13-acetate (PMA) and phytohemagglutin (PHA) display significantly higher levels of NF-kappa B1 encoding transcripts than cells stimulated with tumor necrosis factor-alpha, despite the fact that <corefCause>both stimuli</corefCause> <clueType>activate</clueType> NF-kappa B.</clue>
+</event>
+<event KT="Fact" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="T30"/>
+<cause idref="T29"/>
+<clue>In this manuscript we have investigated the molecular mechanisms by which T cell lines stimulated with phorbol 12-myristate 13-acetate (PMA) and phytohemagglutin (PHA) display significantly higher levels of NF-kappa B1 encoding transcripts than cells stimulated with tumor necrosis factor-alpha, despite the fact that <corefCause>both stimuli</corefCause> <clueType>activate</clueType> NF-kappa B.</clue>
+</event>
+<sentence id="S6">Characterization of the <term id="T31" lex="NF-kappa_B1_promoter" sem="DNA_domain_or_region">NF-kappa B1 promoter</term> identified an <term id="T32" lex="Egr-1_site" sem="DNA_domain_or_region">Egr-1 site</term> which was found to be essential for both the <term id="T33" lex="PMA/PHA-mediated_induction" sem="Other"><term id="T34" lex="PMA" sem="Organic_compound_other">PMA</term>/<term id="T35" lex="PHA" sem="Protein_molecule">PHA</term>-mediated induction</term> as well as the synergistic activation observed after the expression of the <term id="A3" sem="Protein_molecule">RelA subunit of <term id="T36" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term></term> and <term id="T37" lex="Egr-1" sem="Protein_molecule">Egr-1</term>.</sentence>
+<event id="E20">
+<type class="Positive_regulation"/>
+<theme idref="T31"/>
+<cause idref="T34"/>
+<clue>Characterization of the NF-kappa B1 promoter identified an Egr-1 site which was found to be essential for both the PMA/PHA-<linkCause>mediated</linkCause> <clueType>induction</clueType> as well as the synergistic activation observed after the expression of the RelA subunit of NF-kappa B and Egr-1.</clue>
+<comment>No corefTheme, TPS A3</comment></event>
+<event id="E39">
+<type class="Positive_regulation"/>
+<theme idref="T31"/>
+<cause idref="T35"/>
+<clue>Characterization of the NF-kappa B1 promoter identified an Egr-1 site which was found to be essential for both the PMA/PHA-<linkCause>mediated</linkCause> <clueType>induction</clueType> as well as the synergistic activation observed after the expression of the RelA subunit of NF-kappa B and Egr-1.</clue>
+<comment>No corefTheme</comment></event>
+<event id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="T32"/>
+<clue>Characterization of the NF-kappa B1 promoter identified an Egr-1 site which was <clueKT>found</clueKT> to be <clueType>essential</clueType> <linkTheme>for</linkTheme> both the PMA/PHA-mediated induction as well as the synergistic activation observed after the expression of the RelA subunit of NF-kappa B and Egr-1.</clue>
+</event>
+<event id="E40">
+<type class="Positive_regulation"/>
+<theme idref="E39"/>
+<cause idref="T32"/>
+<clue>Characterization of the NF-kappa B1 promoter identified an Egr-1 site which was <clueKT>found</clueKT> to be <clueType>essential</clueType> <linkTheme>for</linkTheme> both the PMA/PHA-mediated induction as well as the synergistic activation observed after the expression of the RelA subunit of NF-kappa B and Egr-1.</clue>
+</event>
+<event id="E22">
+<type class="Positive_regulation"/>
+<theme idref="A3"/>
+<clue>Characterization of the NF-kappa B1 promoter identified an Egr-1 site which was found to be essential for both the PMA/PHA-mediated induction as well as the <clueType>synergistic activation</clueType> <clueKT>observed</clueKT> <clueTime>after the expression of the RelA subunit of NF-kappa B and Egr-1</clueTime>.</clue>
+<comment>No corefTheme</comment></event>
+<event id="E122">
+<type class="Positive_regulation"/>
+<theme idref="T37"/>
+<clue>Characterization of the NF-kappa B1 promoter identified an Egr-1 site which was found to be essential for both the PMA/PHA-mediated induction as well as the <clueType>synergistic activation</clueType> <clueKT>observed</clueKT> <clueTime>after the expression of the RelA subunit of NF-kappa B and Egr-1</clueTime>.</clue>
+<comment>No corefTheme</comment></event>
+<event id="E38">
+<type class="Positive_regulation"/>
+<theme idref="E22"/>
+<cause idref="T32"/>
+<clue>Characterization of the NF-kappa B1 promoter identified an Egr-1 site which was <clueKT>found</clueKT> to be <clueType>essential</clueType> for both the PMA/PHA-mediated induction <linkTheme>as well as</linkTheme> the synergistic activation observed after the expression of the RelA subunit of NF-kappa B and Egr-1.</clue>
+</event>
+<event id="E36">
+<type class="Gene_expression"/>
+<theme idref="A3"/>
+<clue>Characterization of the NF-kappa B1 promoter identified an Egr-1 site which was found to be essential for both the PMA/PHA-mediated induction as well as the synergistic activation observed after the <clueType>expression</clueType> <linkTheme>of</linkTheme> the RelA subunit of NF-kappa B and Egr-1.</clue>
+</event>
+<event id="E37">
+<type class="Gene_expression"/>
+<theme idref="T37"/>
+<clue>Characterization of the NF-kappa B1 promoter identified an Egr-1 site which was found to be essential for both the PMA/PHA-mediated induction as well as the synergistic activation observed after the <clueType>expression</clueType> <linkTheme>of</linkTheme> the RelA subunit of NF-kappa B and Egr-1.</clue>
+</event>
+<sentence id="S7">Furthermore, <term id="T38" lex="Egr-1" sem="Protein_molecule">Egr-1</term> induction was required for endogenous <term id="T39" lex="NF-kappa_B1_gene" sem="DNA_domain_or_region">NF-kappa B1 gene</term> expression, since <term id="T40" lex="PMA" sem="Organic_compound_other">PMA</term>/<term id="T41" lex="PHA-stimulated_T_cell_line" sem="Cell_cultured"><term id="T42" lex="PHA" sem="Protein_molecule">PHA</term>-stimulated <term id="T43" lex="T_cell_line" sem="Cell_cultured"><term id="T44" lex="T_cell_line" sem="Cell_cultured">T cell lines</term></term></term> expressing <term id="T45" lex="Egr-1_RNA" sem="RNA_molecule">antisense <term id="T46" lex="Egr-1" sem="Protein_molecule">Egr-1</term> RNA</term> were inhibited in their ability to upregulate <term id="T47" lex="NF-kappa_B1_transcription" sem="Other"><term id="A4" sem="DNA_domain_or_region">NF-kappa B1</term> transcription</term>.</sentence>
+<event id="E23">
+<type class="Positive_regulation"/>
+<theme idref="T38"/>
+<clue>Furthermore, Egr-1 <clueType>induction</clueType> was required for endogenous NF-kappa B1 gene expression, since PMA/PHA-stimulated T cell lines expressing antisense Egr-1 RNA were inhibited in their ability to upregulate NF-kappa B1 transcription.</clue>
+</event>
+<event id="E24">
+<type class="Gene_expression"/>
+<theme idref="T39"/>
+<clue>Furthermore, Egr-1 induction was required for endogenous NF-kappa B1 gene <clueType>expression</clueType>, since PMA/PHA-stimulated T cell lines expressing antisense Egr-1 RNA were inhibited in their ability to upregulate NF-kappa B1 transcription.</clue>
+<comment>NER T39 mod</comment></event>
+<event id="E25">
+<type class="Positive_regulation"/>
+<theme idref="E24"/>
+<cause idref="E23"/>
+<clue>Furthermore, Egr-1 induction was <clueType>required</clueType> <linkTheme>for</linkTheme> endogenous NF-kappa B1 gene expression, since PMA/PHA-stimulated T cell lines expressing antisense Egr-1 RNA were inhibited in their ability to upregulate NF-kappa B1 transcription.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Transcription"/>
+<theme idref="A4"/>
+<clue>Furthermore, Egr-1 induction was required for endogenous NF-kappa B1 gene expression, since PMA/PHA-stimulated T cell lines expressing antisense Egr-1 RNA were inhibited in their ability to upregulate NF-kappa B1 <clueType>transcription</clueType>.</clue>
+<comment>NER T47 mod</comment></event>
+<event KT="Other" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="E26"/>
+<cause idref="T40"/>
+<clue>Furthermore, Egr-1 induction was required for endogenous NF-kappa B1 gene expression, since PMA/PHA-stimulated T cell lines expressing antisense Egr-1 RNA were inhibited in <corefCause>their ability</corefCause> to <clueType>upregulate</clueType> NF-kappa B1 transcription.</clue>
+</event>
+<event KT="Other" id="E43">
+<type class="Positive_regulation"/>
+<theme idref="E26"/>
+<cause idref="T42"/>
+<clue>Furthermore, Egr-1 induction was required for endogenous NF-kappa B1 gene expression, since PMA/PHA-stimulated T cell lines expressing antisense Egr-1 RNA were inhibited in <corefCause>their ability</corefCause> to <clueType>upregulate</clueType> NF-kappa B1 transcription.</clue>
+</event>
+<event id="E42">
+<type class="Gene_expression"/>
+<theme idref="T45"/>
+<clue>Furthermore, Egr-1 induction was required for endogenous NF-kappa B1 gene expression, since PMA/PHA-stimulated <clueLoc>T cell lines</clueLoc> <clueType>expressing</clueType> antisense Egr-1 RNA were inhibited in their ability to upregulate NF-kappa B1 transcription.</clue>
+</event>
+<event id="E28">
+<type class="Negative_regulation"/>
+<theme idref="E27"/>
+<cause idref="T45"/>
+<clue>Furthermore, Egr-1 induction was required for endogenous NF-kappa B1 gene expression, since <clueLoc>PMA/PHA-stimulated T cell lines expressing antisense Egr-1 RNA</clueLoc> were <clueType>inhibited</clueType> <linkTheme>in</linkTheme> their ability to upregulate NF-kappa B1 transcription.</clue>
+<comment>NER T45 mod</comment></event>
+<event id="E128">
+<type class="Negative_regulation"/>
+<theme idref="E43"/>
+<cause idref="T45"/>
+<clue>Furthermore, Egr-1 induction was required for endogenous NF-kappa B1 gene expression, since <clueLoc>PMA/PHA-stimulated T cell lines expressing antisense Egr-1 RNA</clueLoc> were <clueType>inhibited</clueType> <linkTheme>in</linkTheme> their ability to upregulate NF-kappa B1 transcription.</clue>
+<comment>NER T45 mod</comment></event>
+<sentence id="S8">Our studies indicate that transcriptional synergy mediated by activation of both <term id="T48" lex="Egr-1" sem="Protein_molecule">Egr-1</term> and <term id="T49" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term> may have important ramifications in <term id="T50" lex="T_cell_development" sem="Other"><term id="A5" sem="Cell_natural">T cell</term> development</term> by upregulating <term id="T51" lex="NF-kappa_B1_gene_expression" sem="Other"><term id="T52" lex="NF-kappa_B1_gene" sem="DNA_domain_or_region">NF-kappa B1 gene</term> expression</term>.</sentence>
+<event KT="Other" id="E29">
+<type class="Positive_regulation"/>
+<theme idref="T48"/>
+<clue>Our studies indicate that transcriptional synergy mediated by <clueType>activation</clueType> <linkTheme>of</linkTheme> both Egr-1 and NF-kappa B may have important ramifications in T cell development by upregulating NF-kappa B1 gene expression.</clue>
+</event>
+<event KT="Other" id="E30">
+<type class="Positive_regulation"/>
+<theme idref="T49"/>
+<clue>Our studies indicate that transcriptional synergy mediated by <clueType>activation</clueType> <linkTheme>of</linkTheme> both Egr-1 and NF-kappa B may have important ramifications in T cell development by upregulating NF-kappa B1 gene expression.</clue>
+</event>
+<event KT="Other" id="E31">
+<type class="Correlation"/>
+<theme idref="E29"/>
+<theme idref="E30"/>
+<clue>Our studies indicate that <clueType>transcriptional synergy</clueType> <linkCause>mediated by</linkCause> activation of both Egr-1 and NF-kappa B may have important ramifications in T cell development by upregulating NF-kappa B1 gene expression.</clue>
+</event>
+<event KT="Other" id="E32">
+<type class="Gene_expression"/>
+<theme idref="T52"/>
+<clue>Our studies indicate that transcriptional synergy mediated by activation of both Egr-1 and NF-kappa B may have important ramifications in T cell development by upregulating NF-kappa B1 gene <clueType>expression</clueType>.</clue>
+</event>
+<event KT="Other" id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E32"/>
+<cause idref="E31"/>
+<clue>Our studies indicate that transcriptional synergy mediated by activation of both Egr-1 and NF-kappa B may have important ramifications in T cell development by <clueType>upregulating</clueType> NF-kappa B1 gene expression.</clue>
+</event>
+<event KT="Other" id="E34">
+<type class="Cell_differentiation"/>
+<theme idref="A5"/>
+<clue>Our studies indicate that transcriptional synergy mediated by activation of both Egr-1 and NF-kappa B may have important ramifications in T cell <clueType>development</clueType> by upregulating NF-kappa B1 gene expression.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E35">
+<type class="Regulation"/>
+<theme idref="E34"/>
+<cause idref="E33"/>
+<clue>Our studies <clueKT>indicate</clueKT> that transcriptional synergy mediated by activation of both Egr-1 and NF-kappa B <clueCL>may</clueCL> <clueType>have</clueType> important <clueType>ramifications</clueType> <linkTheme>in</linkTheme> T cell development <linkCause>by</linkCause> upregulating NF-kappa B1 gene expression.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

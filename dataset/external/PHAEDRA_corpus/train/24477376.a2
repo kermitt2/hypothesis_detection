@@ -1,0 +1,19 @@
+T35	Potential_therapeutic_effect 367 369	on
+T37	Potential_therapeutic_effect 416 436	antiplatelet therapy
+T38	Potential_therapeutic_effect 486 495	receiving
+T42	DDI 1167 1178	interaction
+T44	DDI 1479 1490	interaction
+T49	Potential_therapeutic_effect 854 861	prevent
+R1	Subject_Disorder Arg1:T19 Arg2:T4
+R2	Coreference Arg1:T34 Arg2:T19
+R3	Coreference Arg1:T36 Arg2:T19
+R4	Coreference Arg1:T39 Arg2:T5
+R5	Coreference Arg1:T39 Arg2:T6
+E10	Combination:T41 has_participant:T9 has_participant:T16
+E11	DDI:T42 has_participant:T20 has_participant:T21
+E13	DDI:T44 has_participant:T25 has_participant:T26
+E17	Combination:T50 has_participant:T23 has_participant:T24
+E6	Potential_therapeutic_effect:T35 has_subject:T34 has_agent:T5
+E8	Potential_therapeutic_effect:T37 has_agent:T6 has_subject:T34
+E7	Potential_therapeutic_effect:T38 has_subject:T36 has_agent:T39
+E16	Potential_therapeutic_effect:T49 affects:T12 affects:T13 has_agent:E10

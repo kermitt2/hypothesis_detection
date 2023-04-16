@@ -1,0 +1,16 @@
+T17	Adverse_effect 48 52	risk
+T25	Adverse_effect 163 172	presented
+T28	Adverse_effect 415 418	due
+T34	Adverse_effect 644 662	started to develop
+R1	Subject_Disorder Arg1:T20 Arg2:T2
+E2	Combination:T22 has_participant:T3 has_participant:T4 has_participant:T5 has_participant:T6
+E6	Combination:T30 has_participant:T9 has_participant:T12
+E11	Combination:T35 has_participant:T15 has_participant:T16
+E9	Combination:T33 has_participant:T1 has_participant:T11
+E1	Adverse_effect:T17 has_cue:T19 affects:T18 has_agent:E9 has_cue:T36
+E3	Adverse_effect:T25 affects:T21 has_subject:T20 has_agent:E2
+E5	Adverse_effect:T28 has_agent:T8 affects:T7 has_cue:T29
+E10	Adverse_effect:T34 affects:T13 has_agent:T14
+A1	Speculated E1
+A3	Speculated E5
+A4	Manner E1 High

@@ -1,0 +1,20 @@
+T18	Potential_therapeutic_effect 156 163	sedated
+T23	Adverse_effect 346 355	following
+T26	Adverse_effect 413 422	developed
+T28	DDI 716 727	interaction
+T31	Adverse_effect 851 860	following
+T24	Potential_therapeutic_effect 493 501	reversed
+T33	Potential_therapeutic_effect 356 364	reversal
+E2	Combination:T19 has_participant:T2 has_participant:T15
+E7	DDI:T28 has_participant:T8 has_participant:T9 has_cue:T29
+E8	Combination:T30 has_participant:T11 has_participant:T12
+E1	Potential_therapeutic_effect:T18 has_agent:E2 has_subject:T17
+E4	Adverse_effect:T23 affects:T3 has_subject:T21 has_agent:T20
+E6	Adverse_effect:T26 has_subject:T25 affects:T5 has_agent:T6
+E9	Adverse_effect:T31 has_agent:E8 affects:T10 has_cue:T32
+E5	Potential_therapeutic_effect:T24 has_agent:T16 affects:T5
+E10	Potential_therapeutic_effect:T33 has_agent:T20 affects:T3
+A2	Speculated E7
+A3	Speculated E9
+T22	Adverse_effect 9 15	during
+E3	Adverse_effect:T22 affects:T1 has_agent:T14 has_subject:T13

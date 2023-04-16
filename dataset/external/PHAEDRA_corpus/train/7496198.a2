@@ -1,0 +1,9 @@
+T18	Potential_therapeutic_effect 1072 1077	treat
+T19	Adverse_effect 1009 1026	increase the risk
+T21	Adverse_effect 717 724	treated
+R1	is_equivalent Arg1:T5 Arg2:T15
+E5	Combination:T7 has_participant:T12 has_participant:T10
+E1	Potential_therapeutic_effect:T18 affects:T11 has_agent:T10
+E2	Adverse_effect:T19 affects:T16 has_cue:T23 has_agent:E5
+E4	Adverse_effect:T21 has_agent:T8 affects:T22
+A1	Speculated E2

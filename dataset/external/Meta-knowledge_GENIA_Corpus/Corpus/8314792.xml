@@ -1,0 +1,309 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8314792" created="19/10/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8314792</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Comparative analysis of <term id="T1" lex="NFAT" sem="Protein_molecule">NFAT</term> (<term id="T2" lex="nuclear_factor_of_activated_T_cells" sem="Protein_molecule">nuclear factor of activated T cells</term>) complex in <cons id="T3" lex="(AND human_T_lymphocyte human_B_lymphocyte)" sem="(AND Cell_natural Cell_natural)"><frag id="F1">human</frag> <frag id="F2">T</frag> and <frag id="F3">B</frag> <frag id="F4">lymphocytes</frag></cons>.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Nuclear factor of activated T cells (<term id="T4" lex="NFAT" sem="Protein_molecule">NFAT</term>) is a <term id="T5" lex="transcriptional_activator" sem="Protein_family_or_group">transcriptional activator</term> that binds to sequences in the <term id="T6" lex="interleukin-2_(IL-2)_promoter" sem="DNA_domain_or_region"><term id="T7" lex="interleukin-2" sem="Protein_molecule">interleukin-2</term> (<term id="T8" lex="IL-2" sem="Protein_molecule">IL-2</term>) promoter</term> and is thought to be largely responsible for the <term id="T9" lex="T_cell-specific_inducibility" sem="Other">T cell-specific inducibility</term> of <term id="T10" lex="IL-2_expression" sem="Other"><term id="T11" lex="IL-2" sem="Protein_molecule">IL-2</term> expression</term>.</sentence>
+<event KT="Fact" id="E1">
+<type class="Binding"/>
+<theme idref="T4"/>
+<theme idref="T6"/>
+<clue>Nuclear factor of activated T cells (NFAT) is a transcriptional activator that <clueType>binds</clueType> <linkTheme>to</linkTheme> sequences in the interleukin-2 (IL-2) promoter and is thought to be largely responsible for the T cell-specific inducibility of IL-2 expression.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Gene_expression"/>
+<theme idref="T11"/>
+<clue>Nuclear factor of activated T cells (NFAT) is a transcriptional activator that binds to sequences in the interleukin-2 (IL-2) promoter and is thought to be largely responsible for the T cell-specific inducibility of IL-2 <clueType>expression</clueType>.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<clue>Nuclear factor of activated T cells (NFAT) is a transcriptional activator that binds to sequences in the interleukin-2 (IL-2) promoter and is thought to be largely responsible for the <clueLoc>T cell-specific</clueLoc> <clueType>inducibility</clueType> <linkTheme>of</linkTheme> IL-2 expression.</clue>
+</event>
+<event KT="Fact" id="E4" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="T4"/>
+<clue>Nuclear factor of activated T cells (NFAT) is a transcriptional activator that binds to sequences in the interleukin-2 (IL-2) promoter and is thought to be largely <clueType>responsible</clueType> <linkTheme>for</linkTheme> the T cell-specific inducibility of IL-2 expression.</clue>
+</event>
+<sentence id="S3"><term id="T12" lex="electrophoretic_mobility_shift_assays" sem="Other">Electrophoretic mobility shift assays</term> (<term id="T13" lex="EMSA" sem="Other">EMSA</term>) showed that specific <term id="T14" lex="NFAT_binding_activity" sem="Other"><term id="T15" lex="NFAT" sem="Protein_molecule">NFAT</term> binding activity</term> could also be induced in <term id="T16" lex="human_B_cell" sem="Cell_natural">human B cells</term>.</sentence>
+<event KT="Other" id="E5">
+<type class="Binding"/>
+<theme idref="T15"/>
+<theme idref="T6"/>
+<clue>Electrophoretic mobility shift assays (EMSA) showed that specific NFAT <clueType>binding activity</clueType> could also be induced in human B cells.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event KT="Analysis" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<clue><clueExperiment>Electrophoretic mobility shift assays (EMSA)</clueExperiment> <clueKT>showed</clueKT> that specific NFAT binding activity could also be <clueType>induced</clueType> <clueLoc>in human B cells</clueLoc>.</clue>
+</event>
+<sentence id="S4">The <term id="T17" lex="B_cell_NFAT_complex" sem="Protein_complex">B cell <term id="T18" lex="NFAT_complex" sem="Protein_complex"><term id="T19" lex="NFAT" sem="Protein_molecule">NFAT</term> complex</term></term>, however, was not functional, since it failed to activate transcription from an <term id="T20" lex="NFAT-driven_chloramphenicol_acetyltransferase_(CAT)_construct" sem="DNA_molecule"><term id="T21" lex="NFAT" sem="Protein_molecule">NFAT</term>-driven <term id="T22" lex="chloramphenicol_acetyltransferase" sem="Protein_molecule">chloramphenicol acetyltransferase</term> (<term id="T23" lex="CAT" sem="Protein_molecule">CAT</term>) construct</term>.</sentence>
+<event KT="Other" id="E7">
+<type class="Transcription"/>
+<theme idref="T20"/>
+<clue>The B cell NFAT complex, however, was not functional, since it failed to activate <clueType>transcription</clueType> <linkTheme>from</linkTheme> an NFAT-driven chloramphenicol acetyltransferase (CAT) construct.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="T17"/>
+<clue>The B cell NFAT complex, however, was not functional, since it <cluePolarity>failed</cluePolarity> to <clueType>activate</clueType> transcription from an NFAT-driven chloramphenicol acetyltransferase (CAT) construct.</clue>
+</event>
+<sentence id="S5">Competition with an <term id="T24" lex="AP-1_motif" sem="DNA_domain_or_region">AP-1 motif</term> or with <term id="T25" lex="anti-Jun" sem="Protein_family_or_group">anti-Jun</term> and <term id="T26" lex="anti-Fos_antibody" sem="Protein_family_or_group">anti-Fos antibodies</term> abolished binding to the <term id="T27" lex="NFAT_motif" sem="DNA_domain_or_region"><term id="T28" lex="NFAT" sem="Protein_molecule">NFAT</term> motif</term> in both <cons id="T29" lex="(AND T_cell B_cell)" sem="(AND Cell_natural Cell_natural)"><frag id="F5">T</frag> and <frag id="F6">B</frag> <frag id="F7">cells</frag></cons>, indicating that <term id="A1" sem="Protein_molecule">Jun</term> and <term id="A2" sem="Protein_molecule">Fos</term> are critical for <term id="T30" lex="NFAT_complex" sem="Protein_complex"><term id="T31" lex="NFAT" sem="Protein_molecule">NFAT</term> complex</term> formation in both cell types.</sentence>
+<event KT="Other" id="E300">
+<type class="Binding"/>
+<theme idref="T27"/>
+<theme idref="T28"/>
+<clue>Competition with an AP-1 motif or with anti-Jun and anti-Fos antibodies abolished <clueType>binding</clueType> <linkTheme>to</linkTheme> the NFAT motif <clueLoc>in</clueLoc> both <clueLoc>T</clueLoc> and B <clueLoc>cells</clueLoc>, indicating that Jun and Fos are critical for NFAT complex formation in both cell types.</clue>
+</event>
+<event KT="Other" id="E301">
+<type class="Binding"/>
+<theme idref="T27"/>
+<theme idref="T28"/>
+<clue>Competition with an AP-1 motif or with anti-Jun and anti-Fos antibodies abolished <clueType>binding</clueType> <linkTheme>to</linkTheme> the NFAT motif <clueLoc>in</clueLoc> both T and <clueLoc>B cells</clueLoc>, indicating that Jun and Fos are critical for NFAT complex formation in both cell types.</clue>
+</event>
+<event id="E302">
+<type class="Negative_regulation"/>
+<theme idref="E300"/>
+<cause idref="T24"/>
+<clue>Competition with an AP-1 motif or with anti-Jun and anti-Fos antibodies <clueType>abolished</clueType> binding to the NFAT motif in both T and B cells, indicating that Jun and Fos are critical for NFAT complex formation in both cell types.</clue>
+</event>
+<event id="E303">
+<type class="Negative_regulation"/>
+<theme idref="E301"/>
+<cause idref="T24"/>
+<clue>Competition with an AP-1 motif or with anti-Jun and anti-Fos antibodies <clueType>abolished</clueType> binding to the NFAT motif in both T and B cells, indicating that Jun and Fos are critical for NFAT complex formation in both cell types.</clue>
+</event>
+<event id="E304">
+<type class="Negative_regulation"/>
+<theme idref="E300"/>
+<cause idref="T25"/>
+<clue>Competition with an AP-1 motif or with anti-Jun and anti-Fos antibodies <clueType>abolished</clueType> binding to the NFAT motif in both T and B cells, indicating that Jun and Fos are critical for NFAT complex formation in both cell types.</clue>
+</event>
+<event id="E305">
+<type class="Negative_regulation"/>
+<theme idref="E301"/>
+<cause idref="T25"/>
+<clue>Competition with an AP-1 motif or with anti-Jun and anti-Fos antibodies <clueType>abolished</clueType> binding to the NFAT motif in both T and B cells, indicating that Jun and Fos are critical for NFAT complex formation in both cell types.</clue>
+</event>
+<event id="E306">
+<type class="Negative_regulation"/>
+<theme idref="E300"/>
+<cause idref="T26"/>
+<clue>Competition with an AP-1 motif or with anti-Jun and anti-Fos antibodies <clueType>abolished</clueType> binding to the NFAT motif in both T and B cells, indicating that Jun and Fos are critical for NFAT complex formation in both cell types.</clue>
+</event>
+<event id="E307">
+<type class="Negative_regulation"/>
+<theme idref="E301"/>
+<cause idref="T26"/>
+<clue>Competition with an AP-1 motif or with anti-Jun and anti-Fos antibodies <clueType>abolished</clueType> binding to the NFAT motif in both T and B cells, indicating that Jun and Fos are critical for NFAT complex formation in both cell types.</clue>
+</event>
+<event KT="Other" id="E16">
+<type class="Binding"/>
+<theme idref="T31"/>
+<theme idref="T27"/>
+<clue>Competition with an AP-1 motif or with anti-Jun and anti-Fos antibodies abolished binding to the NFAT motif in both T and B cells, indicating that Jun and Fos are critical for NFAT <clueType>complex formation</clueType> in both cell types.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E320">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<cause idref="A1"/>
+<clue>Competition with an AP-1 motif or with anti-Jun and anti-Fos antibodies abolished binding to the NFAT motif <clueLoc>in</clueLoc> both <clueLoc>T</clueLoc> and B <clueLoc>cells</clueLoc>, <clueKT><clueCL>indicating</clueCL></clueKT> that Jun and Fos are <clueType>critical</clueType> <linkTheme>for</linkTheme> NFAT complex formation in both cell types.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E321">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<cause idref="A1"/>
+<clue>Competition with an AP-1 motif or with anti-Jun and anti-Fos antibodies abolished binding to the NFAT motif <clueLoc>in</clueLoc> both T and <clueLoc>B cells</clueLoc>, <clueKT><clueCL>indicating</clueCL></clueKT> that Jun and Fos are <clueType>critical</clueType> <linkTheme>for</linkTheme> NFAT complex formation in both cell types.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E322">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<cause idref="A2"/>
+<clue>Competition with an AP-1 motif or with anti-Jun and anti-Fos antibodies abolished binding to the NFAT motif <clueLoc>in</clueLoc> both <clueLoc>T</clueLoc> and B <clueLoc>cells</clueLoc>, <clueKT><clueCL>indicating</clueCL></clueKT> that Jun and Fos are <clueType>critical</clueType> <linkTheme>for</linkTheme> NFAT complex formation in both cell types.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E323">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<cause idref="A2"/>
+<clue>Competition with an AP-1 motif or with anti-Jun and anti-Fos antibodies abolished binding to the NFAT motif <clueLoc>in</clueLoc> both T and <clueLoc>B cells</clueLoc>, <clueKT><clueCL>indicating</clueCL></clueKT> that Jun and Fos are <clueType>critical</clueType> <linkTheme>for</linkTheme> NFAT complex formation in both cell types.</clue>
+</event>
+<sentence id="S6">Purified recombinant <cons id="T32" lex="(AND Jun_protein Fos_protein)" sem="(AND Protein_molecule Protein_molecule)"><frag id="F8"><term id="A3" sem="Protein_molecule">Jun</term></frag> and <frag id="F9"><term id="A4" sem="Protein_molecule">Fos</term></frag> <frag id="F10">proteins</frag></cons> failed to bind directly to the <term id="T33" lex="NFAT_motif" sem="DNA_domain_or_region"><term id="T34" lex="NFAT" sem="Protein_molecule">NFAT</term> motif</term>.</sentence>
+<event Polarity="Negative" assertion="non-exist" id="E19">
+<type class="Binding"/>
+<theme idref="A3"/>
+<theme idref="T33"/>
+<clue>Purified recombinant Jun and Fos proteins <cluePolarity>failed</cluePolarity> to <clueType>bind</clueType> directly to the NFAT motif.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E20">
+<type class="Binding"/>
+<theme idref="A4"/>
+<theme idref="T33"/>
+<clue>Purified recombinant Jun and Fos proteins <cluePolarity>failed</cluePolarity> to <clueType>bind</clueType> directly to the NFAT motif.</clue>
+</event>
+<sentence id="S7">However, when combined with unstimulated <term id="T35" lex="B_or_T_cell_extract" sem="Cell_component">B or T cell extracts</term>, <term id="A6" sem="Protein_complex">full-length</term>, but not <term id="A7" sem="Protein_complex">truncated</term>, <term id="A5" sem="Protein_complex">Jun/Fos heterodimers</term> were able to form an <term id="T36" lex="NFAT_complex" sem="Protein_complex"><term id="T37" lex="NFAT" sem="Protein_molecule">NFAT</term> complex</term>, indicating the presence of a <term id="A8" sem="Protein_molecule"><term id="T38" lex="constitutively_expressed_nuclear_factor" sem="Protein_family_or_group">constitutively expressed <term id="A9" sem="Protein_molecule">nuclear factor</term></term>(s) in B and T cells</term> necessary for the formation of the <term id="T40" lex="NFAT_complex" sem="Protein_complex"><term id="T41" lex="NFAT" sem="Protein_molecule">NFAT</term> complex</term> in both cell types.</sentence>
+<event CL="L2" KT="Analysis" id="E330">
+<type class="Binding"/>
+<theme idref="A6" idref1="A5"/>
+<theme idref="T37"/>
+<theme idref="T27"/>
+<clue>However, when combined with <clueLoc>unstimulated B</clueLoc> or T <clueLoc>cell extracts</clueLoc>, full-length, but not truncated, Jun/Fos heterodimers were <clueKT><clueCL>able</clueCL></clueKT> to <clueType>form</clueType> an NFAT <clueType>complex</clueType>, indicating the presence of a constitutively expressed nuclear factor(s) in B and T cells necessary for the formation of the NFAT complex in both cell types.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event CL="L2" KT="Analysis" id="E331">
+<type class="Binding"/>
+<theme idref="A6" idref1="A5"/>
+<theme idref="T37"/>
+<theme idref="T27"/>
+<clue>However, when combined with <clueLoc>unstimulated</clueLoc> B or <clueLoc>T cell extracts</clueLoc>, full-length, but not truncated, Jun/Fos heterodimers were <clueKT><clueCL>able</clueCL></clueKT> to <clueType>form</clueType> an NFAT <clueType>complex</clueType>, indicating the presence of a constitutively expressed nuclear factor(s) in B and T cells necessary for the formation of the NFAT complex in both cell types.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E332">
+<type class="Binding"/>
+<theme idref="A7" idref1="A5"/>
+<theme idref="T37"/>
+<theme idref="T27"/>
+<clue>However, when combined with <clueLoc>unstimulated B</clueLoc> or T <clueLoc>cell extracts</clueLoc>, full-length, but <cluePolarity>not</cluePolarity> truncated, Jun/Fos heterodimers were <clueKT><clueCL>able</clueCL></clueKT> to <clueType>form</clueType> an NFAT <clueType>complex</clueType>, indicating the presence of a constitutively expressed nuclear factor(s) in B and T cells necessary for the formation of the NFAT complex in both cell types.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E333">
+<type class="Binding"/>
+<theme idref="A7" idref1="A5"/>
+<theme idref="T37"/>
+<theme idref="T27"/>
+<clue>However, when combined with <clueLoc>unstimulated</clueLoc> B or <clueLoc>T cell extracts</clueLoc>, full-length, but <cluePolarity>not</cluePolarity> truncated, Jun/Fos heterodimers were <clueKT><clueCL>able</clueCL></clueKT> to <clueType>form</clueType> an NFAT <clueType>complex</clueType>, indicating the presence of a constitutively expressed nuclear factor(s) in B and T cells necessary for the formation of the NFAT complex in both cell types.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event KT="Other" id="E334">
+<type class="Binding"/>
+<theme idref="T41"/>
+<theme idref="A5"/>
+<theme idref="T27"/>
+<clue>However, when combined with unstimulated B or T cell extracts, full-length, but not truncated, Jun/Fos heterodimers were able to form an NFAT complex, indicating the presence of a constitutively expressed nuclear factor(s) <clueLoc>in B</clueLoc> and T <clueLoc>cells</clueLoc> necessary for the <clueType>formation</clueType> <linkTheme>of</linkTheme> the NFAT <clueType>complex</clueType> in both cell types.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event KT="Other" id="E335">
+<type class="Binding"/>
+<theme idref="T41"/>
+<theme idref="A5"/>
+<theme idref="T27"/>
+<clue>However, when combined with unstimulated B or T cell extracts, full-length, but not truncated, Jun/Fos heterodimers were able to form an NFAT complex, indicating the presence of a constitutively expressed nuclear factor(s) <clueLoc>in</clueLoc> B and <clueLoc>T cells</clueLoc> necessary for the <clueType>formation</clueType> <linkTheme>of</linkTheme> the NFAT <clueType>complex</clueType> in both cell types.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event CL="L2" KT="Analysis" id="E336">
+<type class="Positive_regulation"/>
+<theme idref="E334"/>
+<cause idref="A8"/>
+<clue>However, when combined with unstimulated B or T cell extracts, full-length, but not truncated, Jun/Fos heterodimers were able to form an NFAT complex, <clueKT><clueCL>indicating</clueCL></clueKT> the presence of a constitutively expressed nuclear factor(s) in B and T cells <clueType>necessary</clueType> <linkTheme>for</linkTheme> the formation of the NFAT complex in both cell types.</clue>
+<comment>NER: T39 DEL, TPS: A8</comment></event>
+<event CL="L2" KT="Analysis" id="E337">
+<type class="Positive_regulation"/>
+<theme idref="E335"/>
+<cause idref="A8"/>
+<clue>However, when combined with unstimulated B or T cell extracts, full-length, but not truncated, Jun/Fos heterodimers were able to form an NFAT complex, <clueKT><clueCL>indicating</clueCL></clueKT> the presence of a constitutively expressed nuclear factor(s) in B and T cells <clueType>necessary</clueType> <linkTheme>for</linkTheme> the formation of the NFAT complex in both cell types.</clue>
+</event>
+<event KT="Other" id="E338">
+<type class="Gene_expression"/>
+<theme idref="A9"/>
+<clue>However, when combined with unstimulated B or T cell extracts, full-length, but not truncated, Jun/Fos heterodimers were able to form an NFAT complex, indicating the presence of a <clueType>constitutively expressed</clueType> nuclear factor(s) <clueLoc>in B</clueLoc> and T <clueLoc>cells</clueLoc> necessary for the formation of the NFAT complex in both cell types.</clue>
+</event>
+<event KT="Other" id="E339">
+<type class="Gene_expression"/>
+<theme idref="A9"/>
+<clue>However, when combined with unstimulated B or T cell extracts, full-length, but not truncated, Jun/Fos heterodimers were able to form an NFAT complex, indicating the presence of a <clueType>constitutively expressed</clueType> nuclear factor(s) <clueLoc>in</clueLoc> B and <clueLoc>T cells</clueLoc> necessary for the formation of the NFAT complex in both cell types.</clue>
+</event>
+<sentence id="S8">An <term id="A11" sem="Polynucleotide"><term id="T42" lex="NFAT_oligonucleotide" sem="Polynucleotide"><term id="T43" lex="NFAT" sem="Protein_molecule">NFAT</term> oligonucleotide</term> carrying mutations in the <term id="T44" lex="5&apos;_purine-rich_part" sem="DNA_domain_or_region">5&apos; purine-rich part</term> of the <term id="T45" lex="NFAT_sequence" sem="DNA_domain_or_region"><term id="T46" lex="NFAT" sem="Protein_molecule">NFAT</term> sequence</term></term> failed to form a complex and to compete with the <term id="A21" sem="DNA_domain_or_region">wild type motif</term> for <term id="T47" lex="NFAT_complex" sem="Protein_complex"><term id="T48" lex="NFAT" sem="Protein_molecule">NFAT</term> complex</term> formation in both <cons id="T49" lex="(AND T_cell B_cell)" sem="(AND Cell_natural Cell_natural)"><frag id="F11">T</frag> and <frag id="F12">B</frag> <frag id="F13">cells</frag></cons>.</sentence>
+<event Polarity="Negative" assertion="non-exist" id="E340">
+<type class="Binding"/>
+<theme idref="A11"/>
+<theme idref="T48"/>
+<theme idref="A5"/>
+<clue>An NFAT oligonucleotide carrying mutations in the 5&apos; purine-rich part of the NFAT sequence <cluePolarity>failed</cluePolarity> to <clueType>form a complex</clueType> and to compete with the wild type motif for NFAT complex formation <clueLoc>in</clueLoc> both <clueLoc>T</clueLoc> and B <clueLoc>cells</clueLoc>.</clue>
+<comment>TPS: A11 , NO COREFTHEME</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E341">
+<type class="Binding"/>
+<theme idref="A11"/>
+<theme idref="T48"/>
+<theme idref="A5"/>
+<clue>An NFAT oligonucleotide carrying mutations in the 5&apos; purine-rich part of the NFAT sequence <cluePolarity>failed</cluePolarity> to <clueType>form a complex</clueType> and to compete with the wild type motif for NFAT complex formation <clueLoc>in</clueLoc> both T and <clueLoc>B cells</clueLoc>.</clue>
+<comment>TPS: A11 , NO COREFTHEME</comment></event>
+<event KT="Other" id="E342">
+<type class="Binding"/>
+<theme idref="T48"/>
+<theme idref="T21"/>
+<theme idref="A5"/>
+<clue>An NFAT oligonucleotide carrying mutations in the 5&apos; purine-rich part of the NFAT sequence failed to form a complex and to compete with the wild type motif for NFAT <clueType>complex formation</clueType> <clueLoc>in</clueLoc> both <clueLoc>T</clueLoc> and B <clueLoc>cells</clueLoc>.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event KT="Other" id="E343">
+<type class="Binding"/>
+<theme idref="T48"/>
+<theme idref="T21"/>
+<theme idref="A5"/>
+<clue>An NFAT oligonucleotide carrying mutations in the 5&apos; purine-rich part of the NFAT sequence failed to form a complex and to compete with the wild type motif for NFAT <clueType>complex formation</clueType> <clueLoc>in</clueLoc> both T and <clueLoc>B cells</clueLoc>.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E344">
+<type class="Negative_regulation"/>
+<theme idref="E342"/>
+<cause idref="A11"/>
+<clue>An NFAT oligonucleotide carrying mutations in the 5&apos; purine-rich part of the NFAT sequence <cluePolarity>failed</cluePolarity> to form a complex and to <clueType>compete</clueType> <linkTheme>with</linkTheme> the wild type motif for NFAT complex formation <clueLoc>in</clueLoc> both <clueLoc>T</clueLoc> and B <clueLoc>cells</clueLoc>.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E345">
+<type class="Negative_regulation"/>
+<theme idref="E343"/>
+<cause idref="A11"/>
+<clue>An NFAT oligonucleotide carrying mutations in the 5&apos; purine-rich part of the NFAT sequence <cluePolarity>failed</cluePolarity> to form a complex and to <clueType>compete</clueType> <linkTheme>with</linkTheme> the wild type motif for NFAT complex formation <clueLoc>in</clueLoc> both T and <clueLoc>B cells</clueLoc>.</clue>
+</event>
+<event KT="Method" id="E29">
+<type class="Mutagenesis"/>
+<theme idref="T42"/>
+<clue>An NFAT oligonucleotide <clueType>carrying mutations</clueType> in the 5&apos; purine-rich part of the NFAT sequence failed to form a complex and to compete with the wild type motif for NFAT complex formation in both T and B cells.</clue>
+<comment>Artificial</comment></event>
+<sentence id="S9">We therefore propose a model whereby a core <term id="T50" lex="NFAT_complex" sem="Protein_complex"><term id="T51" lex="NFAT" sem="Protein_molecule">NFAT</term> complex</term> consisting of <term id="T52" lex="Jun" sem="Protein_molecule">Jun</term>, <term id="T53" lex="Fos" sem="Protein_molecule">Fos</term>, and a <term id="T54" lex="constitutive_nuclear_factor" sem="Protein_family_or_group">constitutive nuclear factor</term> is formed in both <cons id="T55" lex="(AND T_cell B_cell)" sem="(AND Cell_natural Cell_natural)"><frag id="F14">T</frag> and <frag id="F15">B</frag> <frag id="F16">cells</frag></cons>, but an <term id="A12" sem="Protein_molecule">additional factor</term> and/or post-translational modification of a factor, missing in <term id="T56" lex="B_cell" sem="Cell_natural">B cells</term>, might be required for transactivation by <term id="T57" lex="NFAT" sem="Protein_molecule">NFAT</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E350" uncertainty="probable">
+<type class="Binding"/>
+<theme idref="T51"/>
+<theme idref="T52"/>
+<theme idref="T53"/>
+<theme idref="T54"/>
+<clue>We <clueKT>therefore</clueKT> <clueCL>propose</clueCL> a model whereby a core NFAT <clueType>complex</clueType> consisting of Jun, Fos, and a constitutive nuclear factor is <clueType>formed</clueType> <clueLoc>in</clueLoc> both <clueLoc>T</clueLoc> and B <clueLoc>cells</clueLoc>, but an additional factor and/or post-translational modification of a factor, missing in B cells, might be required for transactivation by NFAT.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E351" uncertainty="probable">
+<type class="Binding"/>
+<theme idref="T51"/>
+<theme idref="T52"/>
+<theme idref="T53"/>
+<theme idref="T54"/>
+<clue>We <clueKT>therefore</clueKT> <clueCL>propose</clueCL> a model whereby a core NFAT <clueType>complex</clueType> consisting of Jun, Fos, and a constitutive nuclear factor is <clueType>formed</clueType> <clueLoc>in</clueLoc> both T and <clueLoc>B</clueLoc> <clueLoc>cells</clueLoc>, but an additional factor and/or post-translational modification of a factor, missing in B cells, might be required for transactivation by NFAT.</clue>
+</event>
+<event KT="Other" id="E31">
+<type class="Positive_regulation"/>
+<cause idref="T57"/>
+<clue>We therefore propose a model whereby a core NFAT complex consisting of Jun, Fos, and a constitutive nuclear factor is formed in both T and B cells, but an additional factor and/or post-translational modification of a factor, missing in B cells, might be required for <clueType>transactivation</clueType> <linkCause>by</linkCause> NFAT.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E32" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E31"/>
+<cause idref="A12"/>
+<clue>We <clueKT>therefore</clueKT> <clueKT>propose</clueKT> a model whereby a core NFAT complex consisting of Jun, Fos, and a constitutive nuclear factor is formed in both T and B cells, but an additional factor and/or post-translational modification of a factor, missing in B cells, <clueCL>might</clueCL> be <clueType>required</clueType> <linkTheme>for</linkTheme> transactivation by NFAT.</clue>
+</event>
+<event KT="Other" id="E33">
+<type class="Protein_processing"/>
+<theme idref="A12"/>
+<clue>We therefore propose a model whereby a core NFAT complex consisting of Jun, Fos, and a constitutive nuclear factor is formed in both T and B cells, but an additional factor and/or <clueType>post-translational modification</clueType> <linkTheme>of</linkTheme> <corefTheme>a factor</corefTheme>, missing in B cells, might be required for transactivation by NFAT.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E34" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E31"/>
+<cause idref="E33"/>
+<clue>We <clueKT>therefore</clueKT> <clueKT>propose</clueKT> a model whereby a core NFAT complex consisting of Jun, Fos, and a constitutive nuclear factor is formed in both T and B cells, but an additional factor and/or post-translational modification of a factor, missing in B cells, <clueCL>might</clueCL> be <clueType>required</clueType> <linkTheme>for</linkTheme> transactivation by NFAT.</clue>
+</event>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E35">
+<type class="Gene_expression"/>
+<theme idref="A12"/>
+<clue>We therefore propose a model whereby a core NFAT complex consisting of Jun, Fos, and a constitutive nuclear factor is formed in both T and B cells, but an additional factor and/or post-translational modification of a factor, <clueType><cluePolarity>missing</cluePolarity></clueType> <clueLoc>in B cells</clueLoc>, might be required for transactivation by NFAT.</clue>
+</event>
+<event KT="Other" id="E36">
+<type class="Negative_regulation"/>
+<theme idref="E33"/>
+<clue>We therefore propose a model whereby a core NFAT complex consisting of Jun, Fos, and a constitutive nuclear factor is formed in both T and B cells, but an additional factor and/or post-translational modification of a factor, <clueType>missing</clueType> <clueLoc>in B cells</clueLoc>, might be required for transactivation by NFAT.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,28 @@
+T64	Potential_therapeutic_effect 0 8	Efficacy
+R1	is_equivalent Arg1:T15 Arg2:T21
+R2	Subject_Disorder Arg1:T57 Arg2:T51
+R4	is_equivalent Arg1:T63 Arg2:T2
+R5	Subject_Disorder Arg1:T1 Arg2:T5
+R6	Subject_Disorder Arg1:T6 Arg2:T16
+R7	Subject_Disorder Arg1:T61 Arg2:T18
+E1	Potential_therapeutic_effect:T64 has_agent:T63 affects:T3
+T4	Adverse_effect 2436 2446	associated
+E2	Adverse_effect:T4 has_agent:T52 has_cue:T7 affects:T53
+A1	Speculated E2
+T10	Potential_therapeutic_effect 500 507	benefit
+E3	Potential_therapeutic_effect:T10 has_cue:T9 has_subject:T6
+R3	Subject_Disorder Arg1:T6 Arg2:T11	
+A2	Speculated E3
+T14	Potential_therapeutic_effect 613 619	safety
+E4	Potential_therapeutic_effect:T14 has_agent:T13 affects:T17 has_subject:T61 has_cue:T12
+A3	Speculated E4
+R8	Subject_Disorder Arg1:T24 Arg2:T20	
+R9	Subject_Disorder Arg1:T24 Arg2:T19	
+T26	Potential_therapeutic_effect 1040 1048	infusion
+E5	Potential_therapeutic_effect:T26 has_subject:T24 has_agent:T22
+T28	Adverse_effect 2119 2127	increase
+E6	Adverse_effect:T28 affects:T45 has_agent:T44
+R10	Subject_Disorder Arg1:T57 Arg2:T33	
+T36	Potential_therapeutic_effect 2332 2338	effect
+E7	Potential_therapeutic_effect:T36 has_agent:T50 has_subject:T57 affects:T38 has_cue:T37
+A4	Negated E7

@@ -1,0 +1,221 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9862666" created="24/11/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9862666</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="nuclear_factor_of_activated_T_cells" sem="Protein_family_or_group">Nuclear factor of activated <term id="T2" lex="T_cell" sem="Cell_natural">T cells</term></term> and <term id="T3" lex="AP-1" sem="Protein_molecule">AP-1</term> are insufficient for <term id="T4" lex="IL-2_promoter_activation" sem="Other"><term id="T5" lex="IL-2_promoter" sem="DNA_domain_or_region"><term id="T6" lex="IL-2" sem="Protein_molecule">IL-2</term> promoter</term> activation</term>: requirement for <term id="T7" lex="CD28_up-regulation" sem="Other"><term id="T8" lex="CD28" sem="Protein_molecule">CD28</term> up-regulation</term> of <term id="T9" lex="RE/AP" sem="Protein_molecule">RE/AP</term>.</sentence>
+<event Polarity="Negative" assertion="non-exist" id="E1">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="T1"/>
+<clue>Nuclear factor of activated T cells and AP-1 are <clueType><cluePolarity>insufficient</cluePolarity></clueType> <linkTheme>for</linkTheme> IL-2 promoter activation: requirement for CD28 up-regulation of RE/AP.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="T3"/>
+<clue>Nuclear factor of activated T cells and AP-1 are <clueType><cluePolarity>insufficient</cluePolarity></clueType> <linkTheme>for</linkTheme> IL-2 promoter activation: requirement for CD28 up-regulation of RE/AP.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="T5"/>
+<clue>Nuclear factor of activated T cells and AP-1 are insufficient for IL-2 promoter <clueType>activation</clueType>: requirement for CD28 up-regulation of RE/AP.</clue>
+</event>
+<event KT="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="E5"/>
+<clue>Nuclear factor of activated T cells and AP-1 are insufficient for IL-2 promoter activation: <clueType>requirement</clueType> <linkCause>for</linkCause> CD28 up-regulation of RE/AP.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="T9"/>
+<cause idref="T8"/>
+<clue>Nuclear factor of activated T cells and AP-1 are insufficient for IL-2 promoter activation: requirement for CD28 <clueType>up-regulation</clueType> <linkTheme>of</linkTheme> RE/AP.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T49" lex="IL-2_gene_transcription" sem="Other"><term id="A1" sem="DNA_domain_or_region"><term id="T10" lex="IL-2" sem="Protein_molecule">IL-2</term> gene</term> transcription</term> in <term id="T12" lex="T_cell" sem="Cell_natural">T cells</term> requires both <cons id="C1" lex="(AND TCR_signal costimulatory_signal)" sem="(AND Other Other)"><frag id="F4">TCR</frag> and <frag id="F5">costimulatory</frag> <frag id="F6">signals</frag></cons>.</sentence>
+<event KT="Other" id="E6">
+<type class="Transcription"/>
+<theme idref="A1"/>
+<clue>IL-2 gene <clueType>transcription</clueType> <clueLoc>in T cells</clueLoc> requires both TCR and costimulatory signals.</clue>
+<comment>NER: T11 del &quot;gene transcription&quot;</comment></event>
+<event KT="Fact" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="F4" idref1="F6"/>
+<clue>IL-2 gene transcription in T cells <clueType>requires</clueType> both TCR and costimulatory signals.</clue>
+</event>
+<event KT="Fact" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="F5" idref1="F6"/>
+<clue>IL-2 gene transcription in T cells <clueType>requires</clueType> both TCR and costimulatory signals.</clue>
+</event>
+<sentence id="S3"><term id="T13" lex="IL-2_promoter_activation" sem="Other"><term id="T14" lex="IL-2_promoter" sem="DNA_domain_or_region"><term id="T15" lex="IL-2" sem="Protein_molecule">IL-2</term> promoter</term> activation</term> in <term id="T16" lex="Jurkat_T_cell" sem="Cell_cultured">Jurkat T cells</term> stimulated with <term id="A5" sem="Protein_family_or_group">superantigen</term> presented by <term id="T17" lex="Raji_B_cell" sem="Cell_cultured">Raji B cells</term> requires <term id="T18" lex="CD28_activation" sem="Other"><term id="T19" lex="CD28" sem="Protein_molecule">CD28</term> activation</term>.</sentence>
+<event id="E9">
+<type class="Positive_regulation"/>
+<theme idref="T14"/>
+<clue>IL-2 promoter <clueType>activation</clueType> <clueLoc>in Jurkat T cells stimulated with superantigen presented by Raji B cells</clueLoc> requires CD28 activation.</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="E11"/>
+<clue>IL-2 promoter activation in Jurkat T cells stimulated with superantigen presented by Raji B cells <clueType>requires</clueType> CD28 activation.</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation"/>
+<theme idref="T19"/>
+<clue>IL-2 promoter activation in Jurkat T cells stimulated with superantigen presented by Raji B cells requires CD28 <clueType>activation</clueType>.</clue>
+</event>
+<event id="E12">
+<type class="Physiological_process"/>
+<theme idref="T16"/>
+<cause idref="A5"/>
+<clue>IL-2 promoter activation in Jurkat T cells <clueType>stimulated</clueType> <linkCause>with</linkCause> superantigen presented by Raji B cells requires CD28 activation.</clue>
+</event>
+<event id="E13">
+<type/>
+<theme idref="A5"/>
+<cause idref="T17"/>
+<clue>IL-2 promoter activation in Jurkat T cells stimulated with superantigen <clueType>presented</clueType> <linkCause>by</linkCause> Raji B cells requires CD28 activation.</clue>
+<comment>SOO, immune response</comment></event>
+<sentence id="S4">The addition of <term id="T20" lex="rCTLA4Ig" sem="Organic_compound_other">rCTLA4Ig</term>, which blocks <term id="T21" lex="CD28_binding" sem="Other"><term id="T22" lex="CD28" sem="Protein_molecule">CD28</term> binding</term> to its <term id="A4" sem="Protein_molecule">ligand</term>, to the cultures decreased <term id="T23" lex="IL-2_promoter_activation" sem="Other"><term id="T24" lex="IL-2_promoter" sem="DNA_domain_or_region"><term id="T25" lex="IL-2" sem="Protein_molecule">IL-2</term> promoter</term> activation</term> by &gt;80%.</sentence>
+<event KT="Fact" id="E14">
+<type class="Negative_regulation"/>
+<theme idref="E15"/>
+<cause idref="T20"/>
+<clue>The addition of rCTLA4Ig, which <clueType>blocks</clueType> CD28 binding to its ligand, to the cultures decreased IL-2 promoter activation by &gt;80%.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Binding"/>
+<theme idref="T22"/>
+<theme idref="A4"/>
+<clue>The addition of rCTLA4Ig, which blocks CD28 <clueType>binding</clueType> <linkTheme>to</linkTheme> its ligand, to the cultures decreased IL-2 promoter activation by &gt;80%.</clue>
+</event>
+<event Manner="High" id="E16">
+<type class="Negative_regulation"/>
+<theme idref="E17"/>
+<cause idref="T20"/>
+<clue>The addition of rCTLA4Ig, which blocks CD28 binding to its ligand, to the cultures <clueType>decreased</clueType> IL-2 promoter activation <clueManner>by &gt;80%</clueManner>.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="T24"/>
+<clue>The addition of rCTLA4Ig, which blocks CD28 binding to its ligand, to the cultures decreased IL-2 promoter <clueType>activation</clueType> by &gt;80%.</clue>
+</event>
+<sentence id="S5">Interestingly, <term id="T26" lex="CTLA4Ig" sem="Organic_compound_other">CTLA4Ig</term> did not significantly inhibit the activation of either <term id="T27" lex="NF_of_activated_T_cell" sem="Protein_family_or_group">NF of activated T cells</term> (<term id="A6" sem="DNA_family_or_group"><term id="T28" lex="NFAT" sem="Protein_family_or_group">NFAT</term></term>) or <term id="T29" lex="AP-1_reporter" sem="DNA_family_or_group"><term id="T30" lex="AP-1" sem="Protein_molecule">AP-1</term> <term id="A7" sem="DNA_family_or_group">reporters</term></term>.</sentence>
+<event Manner="High" Polarity="Negative" assertion="non-exist" id="E18">
+<type class="Negative_regulation"/>
+<theme idref="E20"/>
+<cause idref="T20"/>
+<clue>Interestingly, CTLA4Ig did <cluePolarity>not</cluePolarity> <clueManner>significantly</clueManner> <clueType>inhibit</clueType> the activation of either NF of activated T cells (NFAT) or AP-1 reporters.</clue>
+</event>
+<event Manner="High" Polarity="Negative" assertion="non-exist" id="E19">
+<type class="Negative_regulation"/>
+<theme idref="E21"/>
+<cause idref="T20"/>
+<clue>Interestingly, CTLA4Ig did <cluePolarity>not</cluePolarity> <clueManner>significantly</clueManner> <clueType>inhibit</clueType> the activation of either NF of activated T cells (NFAT) or AP-1 reporters.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation"/>
+<theme idref="A6" idref1="A7"/>
+<clue>Interestingly, CTLA4Ig did not significantly inhibit the <clueType>activation</clueType> <linkTheme>of</linkTheme> either NF of activated T cells (NFAT) or AP-1 reporters.</clue>
+</event>
+<event id="E21">
+<type class="Positive_regulation"/>
+<theme idref="T29"/>
+<clue>Interestingly, CTLA4Ig did not significantly inhibit the <clueType>activation</clueType> <linkTheme>of</linkTheme> either NF of activated T cells (NFAT) or AP-1 reporters.</clue>
+</event>
+<sentence id="S6">Therefore, activation of <term id="T31" lex="NFAT" sem="Protein_family_or_group">NFAT</term> and <term id="T32" lex="AP-1" sem="Protein_molecule">AP-1</term> is insufficient for <term id="T33" lex="IL-2_promoter_activation" sem="Other"><term id="T34" lex="IL-2_promoter" sem="DNA_domain_or_region"><term id="T35" lex="IL-2" sem="Protein_molecule">IL-2</term> promoter</term> activation</term>.</sentence>
+<event KT="Other" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="T31"/>
+<clue>Therefore, <clueType>activation</clueType> <linkTheme>of</linkTheme> NFAT and AP-1 is insufficient for IL-2 promoter activation.</clue>
+</event>
+<event KT="Other" id="E23">
+<type class="Positive_regulation"/>
+<theme idref="T32"/>
+<clue>Therefore, <clueType>activation</clueType> <linkTheme>of</linkTheme> NFAT and AP-1 is insufficient for IL-2 promoter activation.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E26"/>
+<cause idref="E22"/>
+<clue><clueKT>Therefore</clueKT>, activation of NFAT and AP-1 is <clueType><cluePolarity>insufficient</cluePolarity></clueType> <linkTheme>for</linkTheme> IL-2 promoter activation.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E25">
+<type class="Positive_regulation"/>
+<theme idref="E26"/>
+<cause idref="E23"/>
+<clue><clueKT>Therefore</clueKT>, activation of NFAT and AP-1 is <clueType><cluePolarity>insufficient</cluePolarity></clueType> <linkTheme>for</linkTheme> IL-2 promoter activation.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="T34"/>
+<clue>Therefore, activation of NFAT and AP-1 is insufficient for IL-2 promoter <clueType>activation</clueType>.</clue>
+</event>
+<sentence id="S7">In contrast, an <term id="A8" sem="DNA_domain_or_region"><term id="T36" lex="RE/AP" sem="Protein_molecule">RE/AP</term> reporter</term> was blocked by <term id="T37" lex="CTLA4Ig" sem="Organic_compound_other">CTLA4Ig</term> by &gt;90%.</sentence>
+<event Manner="High" id="E27">
+<type class="Negative_regulation"/>
+<theme idref="A8"/>
+<cause idref="T37"/>
+<clue>In contrast, an RE/AP reporter was <clueType>blocked</clueType> <linkCause>by</linkCause> CTLA4Ig <clueManner>by &gt;90%</clueManner>.</clue>
+</event>
+<sentence id="S8">Thus, the requirement for <term id="T38" lex="CD28" sem="Protein_molecule">CD28</term> in <term id="T39" lex="IL-2_promoter_activation" sem="Other"><term id="T40" lex="IL-2_promoter" sem="DNA_domain_or_region"><term id="T41" lex="IL-2" sem="Protein_molecule">IL-2</term> promoter</term> activation</term> appears to be due to <cons id="C2" lex="(AND RE/AP_site (NOT_OR NFAT_site AP-1_site))" sem="(AND DNA_domain_or_region (NOT_OR DNA_domain_or_region DNA_domain_or_region))"><frag id="F1"><term id="T42" lex="RE/AP" sem="Protein_molecule">RE/AP</term></frag> and not the <frag id="F2">NFAT</frag> or <frag id="F3">AP-1</frag> <frag id="F7">sites</frag></cons>.</sentence>
+<event KT="Other" id="E28">
+<type class="Positive_regulation"/>
+<theme idref="E29"/>
+<cause idref="T38"/>
+<clue>Thus, the <clueType>requirement</clueType> <linkCause>for</linkCause> CD28 <linkTheme>in</linkTheme> IL-2 promoter activation appears to be due to RE/AP and not the NFAT or AP-1 sites.</clue>
+</event>
+<event KT="Other" id="E29">
+<type class="Positive_regulation"/>
+<theme idref="T40"/>
+<clue>Thus, the requirement for CD28 in IL-2 promoter <clueType>activation</clueType> appears to be due to RE/AP and not the NFAT or AP-1 sites.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E30" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E28"/>
+<cause idref="F1" idref1="F7"/>
+<clue><clueKT>Thus</clueKT>, the requirement for CD28 in IL-2 promoter activation <clueCL>appears</clueCL> to be <clueType>due</clueType> <linkCause>to</linkCause> RE/AP and not the NFAT or AP-1 sites.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E31" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E28"/>
+<cause idref="F2" idref1="F7"/>
+<clue><clueKT>Thus</clueKT>, the requirement for CD28 in IL-2 promoter activation <clueCL>appears</clueCL> to be <clueType>due</clueType> <linkCause>to</linkCause> RE/AP and <cluePolarity>not</cluePolarity> the NFAT or AP-1 sites.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E32" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E28"/>
+<cause idref="F3" idref1="F7"/>
+<clue><clueKT>Thus</clueKT>, the requirement for CD28 in IL-2 promoter activation <clueCL>appears</clueCL> to be <clueType>due</clueType> <linkCause>to</linkCause> RE/AP and <cluePolarity>not</cluePolarity> the NFAT or AP-1 sites.</clue>
+</event>
+<sentence id="S9">In addition, these data suggest that <term id="T44" lex="transcriptional_activation" sem="Other">transcriptional activation</term> of <term id="T45" lex="RE/AP" sem="Protein_molecule">RE/AP</term> is not mediated by <term id="T46" lex="NFAT" sem="Protein_family_or_group">NFAT</term>, because activation of a <term id="A15" sem="DNA_domain_or_region"><term id="T47" lex="NFAT" sem="Protein_family_or_group">NFAT</term> reporter</term> is not affected by the addition of <term id="T48" lex="CTLA4Ig" sem="Organic_compound_other">CTLA4Ig</term>.</sentence>
+<event KT="Other" id="E33">
+<type class="Positive_regulation"/>
+<theme idref="T45"/>
+<clue>In addition, these data suggest that <clueType>transcriptional activation</clueType> <linkTheme>of</linkTheme> RE/AP is not mediated by NFAT, because activation of a NFAT reporter is not affected by the addition of CTLA4Ig.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E34" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E33"/>
+<cause idref="T46"/>
+<clue>In addition, these data <clueKT><clueCL>suggest</clueCL></clueKT> that transcriptional activation of RE/AP is <cluePolarity>not</cluePolarity> <clueType>mediated</clueType> <linkCause>by</linkCause> NFAT, because activation of a NFAT reporter is not affected by the addition of CTLA4Ig.</clue>
+</event>
+<event id="E35">
+<type class="Positive_regulation"/>
+<theme idref="A15"/>
+<clue>In addition, these data suggest that transcriptional activation of RE/AP is not mediated by NFAT, because <clueType>activation</clueType> <linkTheme>of</linkTheme> a NFAT reporter is not affected by the addition of CTLA4Ig.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E36">
+<type class="Regulation"/>
+<theme idref="E35"/>
+<cause idref="T48"/>
+<clue>In addition, these data suggest that transcriptional activation of RE/AP is not mediated by NFAT, because activation of a NFAT reporter is <cluePolarity>not</cluePolarity> <clueType>affected</clueType> <linkCause>by</linkCause> the addition of CTLA4Ig.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,158 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7749985" created="04/12/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7749985</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="human_MHC_class_II_gene_transcription" sem="Other">Human <term id="T2" lex="MHC_class_II_gene" sem="DNA_family_or_group">MHC class II gene</term> transcription</term> directed by the <term id="A1" sem="Protein_domain_or_region"><term id="T3" lex="carboxyl_terminus" sem="Protein_domain_or_region">carboxyl terminus</term> of <term id="T4" lex="CIITA" sem="DNA_domain_or_region">CIITA</term></term>, one of the <term id="T5" lex="defective_gene" sem="DNA_family_or_group">defective genes</term> in <term id="T6" lex="type_II_MHC_combined_immune_deficiency)" sem="Other">type II <term id="T7" lex="MHC" sem="Protein_complex">MHC</term> combined immune deficiency</term>.</sentence>
+<event KT="Investigation" id="E1">
+<type class="Transcription"/>
+<theme idref="T2"/>
+<clue>Human MHC class II gene <clueType>transcription</clueType> directed by the carboxyl terminus of CIITA, one of the defective genes in type II MHC combined immune deficiency.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Regulation"/>
+<theme idref="E1"/>
+<cause idref="A1"/>
+<clue>Human MHC class II gene transcription <clueType>directed</clueType> <linkCause>by</linkCause> the carboxyl terminus of CIITA, one of the defective genes in type II MHC combined immune deficiency.</clue>
+<comment>TPS: A1; NER: T6 mod &quot;II MHC combined immune deficiency&quot;-&gt;&quot;type II MHC combined immune deficiency&quot;</comment></event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T8" lex="type_II_major_histocompatibility_complex_combined_immune_deficiency" sem="Other"><term id="T9" lex="type_II_major_histocompatibility_complex" sem="Protein_complex">Type II major histocompatibility complex</term> combined immune deficiency</term> (<term id="T10" lex="type_II_MHC_CID" sem="Other">type II <term id="T11" lex="MHC" sem="Protein_complex">MHC</term> CID</term> or <term id="T12" lex="bare_lymphocyte_syndrome" sem="Other">bare lymphocyte syndrome</term>) is a congenital immunodeficiency disease characterized by absent <term id="T13" lex="MHC_class_II_expression" sem="Other"><term id="T14" lex="MHC_class_II" sem="Protein_complex">MHC class II</term> expression</term>.</sentence>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E3">
+<type class="Gene_expression"/>
+<theme idref="T14"/>
+<clue>Type II major histocompatibility complex combined immune deficiency (type II MHC CID or bare lymphocyte syndrome) is a congenital immunodeficiency disease characterized by <cluePolarity>absent</cluePolarity> MHC class II <clueType>expression</clueType>.</clue>
+</event>
+<sentence id="S3">Four distinct complementation groups have been identified.</sentence>
+<sentence id="S4">Recently, the <term id="T15" lex="defective_gene" sem="DNA_family_or_group">defective gene</term> in <term id="T16" lex="group_II_type_II_MHC_CID" sem="Other">group II type II <term id="T18" lex="MHC" sem="Protein_complex">MHC</term> CID</term> has been isolated and termed <term id="T19" lex="CIITA" sem="DNA_domain_or_region">CIITA</term>.</sentence>
+<sentence id="S5">Here, we demonstrate that <term id="T20" lex="CIITA" sem="DNA_domain_or_region">CIITA</term> is an <term id="T21" lex="MHC_class_II_gene-specific_transcription_activator" sem="DNA_family_or_group"><term id="T22" lex="MHC_class_II" sem="Protein_complex">MHC class II</term> gene-specific transcription activator</term>.</sentence>
+<event KT="Analysis" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T22"/>
+<cause idref="T20"/>
+<clue>Here, we <clueKT>demonstrate</clueKT> that CIITA is an MHC class II gene<linkTheme>-specific</linkTheme> <clueType>transcription activator</clueType>.</clue>
+<comment>NER: T17 del &quot;type_II_MHC CID&quot;</comment></event>
+<sentence id="S6">The <term id="T23" lex="transcription_activation_function" sem="Other">transcription activation function</term> is provided by the <term id="T24" lex="N-terminal_acidic_domain" sem="Protein_domain_or_region">N-terminal acidic domain</term> (<term id="T25" lex="amino_acids_26-137" sem="Protein_domain_or_region">amino acids 26-137</term>), which is experimentally exchangeable with a <term id="T26" lex="heterologous_viral_transcription-activating_domain" sem="Protein_domain_or_region">heterologous viral transcription-activating domain</term>.</sentence>
+<event id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="T24"/>
+<clue><corefTheme>The transcription activation</corefTheme> function is <clueType>provided</clueType> <linkCause>by</linkCause> the N-terminal acidic domain (amino acids 26-137), which is experimentally exchangeable with a heterologous viral transcription-activating domain.</clue>
+</event>
+<event KT="Method" id="E6">
+<type class="Mutagenesis"/>
+<theme idref="T24"/>
+<theme idref="T26"/>
+<clue>The transcription activation function is provided by the N-terminal acidic domain (amino acids 26-137), which is experimentally <clueType>exchangeable</clueType> <linkTheme>with</linkTheme> a heterologous viral transcription-activating domain.</clue>
+<comment>ARTIFICIAL</comment></event>
+<sentence id="S7">The specificity of <term id="T27" lex="CIITA" sem="Protein_molecule">CIITA</term> for three major <term id="T28" lex="MHC_class_II_gene" sem="DNA_domain_or_region"><term id="T29" lex="MHC_class_II" sem="Protein_complex">MHC class II</term> genes</term>, <term id="T30" lex="DR" sem="DNA_domain_or_region">DR</term>, <term id="T31" lex="DQ" sem="DNA_domain_or_region">DQ</term> and <term id="T32" lex="DP" sem="DNA_domain_or_region">DP</term>, is mediated by its remaining <term id="T33" lex="C-terminal_residue" sem="Protein_domain_or_region">C-terminal residues</term> (<term id="T34" lex="amino_acids_317-1130" sem="Protein_domain_or_region">amino acids 317-1130</term>).</sentence>
+<event id="E7">
+<type class="Regulation"/>
+<theme idref="T30"/>
+<cause idref="T27"/>
+<clue>The <clueType>specificity</clueType> <linkCause>of</linkCause> CIITA <linkTheme>for</linkTheme> three <corefTheme>major MHC class II genes</corefTheme>, DR, DQ and DP, is mediated by its remaining C-terminal residues (amino acids 317-1130).</clue>
+</event>
+<event id="E8">
+<type class="Regulation"/>
+<theme idref="T31"/>
+<cause idref="T27"/>
+<clue>The <clueType>specificity</clueType> <linkCause>of</linkCause> CIITA <linkTheme>for</linkTheme> three <corefTheme>major MHC class II genes</corefTheme>, DR, DQ and DP, is mediated by its remaining C-terminal residues (amino acids 317-1130).</clue>
+</event>
+<event id="E9">
+<type class="Regulation"/>
+<theme idref="T32"/>
+<cause idref="T27"/>
+<clue>The <clueType>specificity</clueType> <linkCause>of</linkCause> CIITA <linkTheme>for</linkTheme> three <corefTheme>major MHC class II genes</corefTheme>, DR, DQ and DP, is mediated by its remaining C-terminal residues (amino acids 317-1130).</clue>
+</event>
+<event id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="T33"/>
+<clue>The specificity of CIITA for three major MHC class II genes, DR, DQ and DP, is <clueType>mediated</clueType> <linkCause>by</linkCause> its remaining C-terminal residues (amino acids 317-1130).</clue>
+</event>
+<event id="E11">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="T33"/>
+<clue>The specificity of CIITA for three major MHC class II genes, DR, DQ and DP, is <clueType>mediated</clueType> <linkCause>by</linkCause> its remaining C-terminal residues (amino acids 317-1130).</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="T33"/>
+<clue>The specificity of CIITA for three major MHC class II genes, DR, DQ and DP, is <clueType>mediated</clueType> <linkCause>by</linkCause> its remaining C-terminal residues (amino acids 317-1130).</clue>
+</event>
+<sentence id="S8">The transactivation of <term id="T35" lex="multiple_cis_element" sem="DNA_domain_or_region">multiple cis elements</term>, especially <term id="T36" lex="S" sem="DNA_domain_or_region">S</term> and <term id="T37" lex="X2" sem="DNA_domain_or_region">X2</term>, of the <term id="T38" lex="DR_alpha_proximal_promoter" sem="DNA_domain_or_region">DR alpha <term id="T39" lex="proximal_promoter" sem="DNA_domain_or_region">proximal promoter</term></term> in <term id="T40" lex="group_II_CID_cell" sem="Cell_cultured">group II CID cells</term> is <term id="T41" lex="CIITA" sem="Protein_molecule">CIITA</term> dependent.</sentence>
+<event id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T36" idref1="T38"/>
+<clue>The <clueType>transactivation</clueType> <linkTheme>of</linkTheme> <corefTheme>multiple cis elements</corefTheme>, especially S and X2, of the DR alpha proximal promoter <clueLoc>in group II CID cells</clueLoc> is CIITA dependent.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation"/>
+<theme idref="T37" idref1="T38"/>
+<clue>The <clueType>transactivation</clueType> <linkTheme>of</linkTheme> <corefTheme>multiple cis elements</corefTheme>, especially S and X2, of the DR alpha proximal promoter <clueLoc>in group II CID cells</clueLoc> is CIITA dependent.</clue>
+</event>
+<event id="E15">
+<type class="Regulation"/>
+<theme idref="E13"/>
+<cause idref="T41"/>
+<clue>The transactivation of multiple cis elements, especially S and X2, of the DR alpha proximal promoter in group II CID cells is CIITA <clueType>dependent</clueType>.</clue>
+</event>
+<event id="E16">
+<type class="Regulation"/>
+<theme idref="E14"/>
+<cause idref="T41"/>
+<clue>The transactivation of multiple cis elements, especially S and X2, of the DR alpha proximal promoter in group II CID cells is CIITA <clueType>dependent</clueType>.</clue>
+</event>
+<sentence id="S9">Since <term id="T42" lex="CIITA_overexpression" sem="Other"><term id="T43" lex="CIITA" sem="Protein_molecule">CIITA</term> overexpression</term> in <term id="T44" lex="normal_cell" sem="Cell_natural">normal cells</term> did not increase <term id="T45" lex="class_II_expression" sem="Other"><term id="A2" sem="Protein_complex">class II</term> expression</term>, we propose that initiation of <term id="T46" lex="CIITA_expression" sem="Other"><term id="T47" lex="CIITA" sem="Protein_molecule">CIITA</term> expression</term> serves as the on-off switch, while availability of <term id="T48" lex="downstream_interactor" sem="Other">downstream interactor</term>(s) limits <term id="T49" lex="transcription" sem="Other">transcription</term>.</sentence>
+<event id="E17">
+<type class="Gene_expression"/>
+<theme idref="T43"/>
+<clue>Since CIITA <clueType>overexpression</clueType> <clueLoc>in normal cells</clueLoc> did not increase class II expression, we propose that initiation of CIITA expression serves as the on-off switch, while availability of downstream interactor(s) limits transcription.</clue>
+</event>
+<event id="E18">
+<type class="Positive_regulation"/>
+<theme idref="E17"/>
+<clue>Since CIITA <clueType>overexpression</clueType> in normal cells did not increase class II expression, we propose that initiation of CIITA expression serves as the on-off switch, while availability of downstream interactor(s) limits transcription.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="E18"/>
+<clue>Since CIITA overexpression in normal cells did <cluePolarity>not</cluePolarity> <clueType>increase</clueType> class II expression, we propose that initiation of CIITA expression serves as the on-off switch, while availability of downstream interactor(s) limits transcription.</clue>
+</event>
+<event id="E20">
+<type class="Gene_expression"/>
+<theme idref="A2"/>
+<clue>Since CIITA overexpression in normal cells did not increase class II <clueType>expression</clueType>, we propose that initiation of CIITA expression serves as the on-off switch, while availability of downstream interactor(s) limits transcription.</clue>
+</event>
+<event KT="Other" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E21"/>
+<clue>Since CIITA overexpression in normal cells did not increase class II expression, we propose that <clueType>initiation</clueType> <linkTheme>of</linkTheme> CIITA expression serves as the on-off switch, while availability of downstream interactor(s) limits transcription.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Gene_expression"/>
+<theme idref="T47"/>
+<clue>Since CIITA overexpression in normal cells did not increase class II expression, we propose that initiation of CIITA <clueType>expression</clueType> serves as the on-off switch, while availability of downstream interactor(s) limits transcription.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E22">
+<type class="Regulation"/>
+<theme idref="E25"/>
+<cause idref="E24"/>
+<clue>Since CIITA overexpression in normal cells did not increase class II expression, we <clueKT><clueCL>propose</clueCL></clueKT> that initiation of CIITA expression <clueType>serves as the on-off switch</clueType>, while availability of downstream interactor(s) limits transcription.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" id="E23">
+<type class="Regulation"/>
+<theme idref="E25"/>
+<cause idref="T48"/>
+<clue>Since CIITA overexpression in normal cells did not increase class II expression, we <clueKT><clueCL>propose</clueCL></clueKT> that initiation of CIITA expression serves as the on-off switch, while <linkCause>availability of</linkCause> downstream interactor(s) <clueType><cluePolarity>limits</cluePolarity></clueType> transcription.</clue>
+</event>
+<event KT="Other" id="E25">
+<type class="Transcription"/>
+<theme idref="A2"/>
+<clue>Since CIITA overexpression in normal cells did not increase class II expression, we propose that initiation of CIITA expression serves as the on-off switch, while availability of downstream interactor(s) limits <clueType>transcription</clueType>.</clue>
+<comment>NO COREFTHEME</comment></event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

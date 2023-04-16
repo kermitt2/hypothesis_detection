@@ -1,0 +1,13 @@
+T53	Potential_therapeutic_effect 360 367	therapy
+T13	Adverse_effect 20 25	exert
+T18	Adverse_effect 151 156	cause
+R1	Subject_Disorder Arg1:T23 Arg2:T42
+R2	Subject_Disorder Arg1:T41 Arg2:T11
+E16	Combination:T55 has_participant:T32 has_participant:T28 has_participant:T29
+E17	Combination:T14 has_participant:T59 has_participant:T37
+E18	Combination:T14 has_participant:T59 has_participant:T15
+E1	Combination:T12 has_participant:T2 has_participant:T1
+E4	Combination:T20 has_participant:T8 has_participant:T5
+E12	Potential_therapeutic_effect:T53 has_agent:T52 affects:T11 affects:T9 affects:T10 has_subject:T41
+E2	Adverse_effect:T13 has_agent:E1 has_subject:T4 affects:T6
+E3	Adverse_effect:T18 has_agent:E4 has_cue:T19 affects:T17 affects:T16

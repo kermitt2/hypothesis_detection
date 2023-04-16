@@ -1,0 +1,89 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8566023" created="07/11/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8566023</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Identification of an <term id="T1" lex="ionomycin/cyclosporin_A-responsive_element" sem="DNA_domain_or_region"><term id="T2" lex="ionomycin" sem="Organic_compound_other">ionomycin</term><term id="T3" lex="cyclosporin_A" sem="Organic_compound_other">/cyclosporin A</term>-responsive element</term> within the <term id="T4" lex="human_T_cell_receptor_gamma_enhancer" sem="DNA_domain_or_region">human T cell receptor gamma enhancer</term>.</sentence>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Activation through the <term id="T5" lex="Ca2+/calcineurin_pathway" sem="Other"><term id="T6" lex="Ca2+" sem="Element">Ca2+</term>/<term id="T7" lex="calcineurin" sem="Protein_molecule">calcineurin</term> pathway</term> is essential to the <term id="T8" lex="transcription" sem="Other">transcription</term> of many <term id="T9" lex="cytokine_gene" sem="DNA_family_or_group">cytokine genes</term>.</sentence>
+<event KT="Other" id="E1">
+<type class="Transcription"/>
+<theme idref="T9"/>
+<clue>Activation through the Ca2+/calcineurin pathway is essential to the <clueType>transcription</clueType> <linkTheme>of</linkTheme> many cytokine genes.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Positive_regulation"/>
+<cause idref="T5"/>
+<clue><clueType>Activation</clueType> <linkCause>through</linkCause> the Ca2+/calcineurin pathway is essential to the transcription of many cytokine genes.</clue>
+</event>
+<event KT="Fact" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="E2"/>
+<clue>Activation through the Ca2+/calcineurin pathway is <clueType>essential</clueType> <linkTheme>to</linkTheme> the transcription of many cytokine genes.</clue>
+</event>
+<sentence id="S3">The <term id="T10" lex="conserved_cis-acting_sequence" sem="DNA_domain_or_region">conserved cis-acting sequence</term>, <term id="T11" lex="GGAAAA" sem="Polynucleotide">GGAAAA</term>, and <term id="T12" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term> binding to this sequence are involved in the response to increased <term id="T13" lex="intracellular_Ca2+_concentration" sem="Other">intracellular <term id="T14" lex="Ca2+" sem="Element">Ca2+</term> concentrations</term>.</sentence>
+<event KT="Other" id="E4">
+<type class="Binding"/>
+<theme idref="T2"/>
+<theme idref="T10"/>
+<clue>The conserved cis-acting sequence, GGAAAA, and transcription factors <clueType>binding</clueType> <linkTheme>to</linkTheme> <corefTheme>this sequence</corefTheme> are involved in the response to increased intracellular Ca2+ concentrations.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="T14"/>
+<clue>The conserved cis-acting sequence, GGAAAA, and transcription factors binding to this sequence are involved in the response to <clueType>increased</clueType> intracellular Ca2+ concentrations.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Regulation"/>
+<cause idref="E5"/>
+<clue>The conserved cis-acting sequence, GGAAAA, and transcription factors binding to this sequence are involved in the <clueType>response</clueType> <linkCause>to</linkCause> increased intracellular Ca2+ concentrations.</clue>
+</event>
+<event KT="Fact" id="E7">
+<type class="Correlation"/>
+<theme idref="T10"/>
+<theme idref="E6"/>
+<clue>The conserved cis-acting sequence, GGAAAA, and transcription factors binding to this sequence are <clueType>involved</clueType> <linkTheme>in</linkTheme> the response to increased intracellular Ca2+ concentrations.</clue>
+</event>
+<event KT="Fact" id="E8">
+<type class="Correlation"/>
+<theme idref="T12"/>
+<theme idref="E6"/>
+<clue>The conserved cis-acting sequence, GGAAAA, and transcription factors binding to this sequence are <clueType>involved</clueType> <linkTheme>in</linkTheme> the response to increased intracellular Ca2+ concentrations.</clue>
+<comment>NER T18 DEL</comment></event>
+<sentence id="S4">Here we report the identification and importance of the same sequence in a <term id="T15" lex="non-cytokine_gene" sem="DNA_family_or_group">non-cytokine gene</term>, the <term id="T16" lex="human_T_cell_receptor_gamma_(TCRG)_enhancer" sem="DNA_domain_or_region"><term id="T17" lex="human_T_cell_receptor_gamma" sem="Protein_molecule">human T cell receptor gamma</term> (<term id="T19" lex="TCRG" sem="Protein_molecule">TCRG</term>) enhancer</term>.</sentence>
+<sentence id="S5">Results from <term id="T20" lex="site-directed_mutation" sem="Other">site-directed mutations</term> and <term id="T21" lex="electrophoretic_mobility_shift_assay" sem="Other">electrophoretic mobility shift assays</term> strongly suggest that this sequence mediates the <term id="T22" lex="ionomycin" sem="Organic_compound_other">ionomycin</term>-induced activation of the <term id="T23" lex="TCRG_enhancer" sem="DNA_domain_or_region">TCRG enhancer</term>.</sentence>
+<event KT="Other" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="T23"/>
+<cause idref="T22"/>
+<clue>Results from site-directed mutations and electrophoretic mobility shift assays strongly suggest that this sequence mediates the ionomycin-<linkCause>induced</linkCause> <clueType>activation</clueType> <linkTheme>of</linkTheme> the TCRG enhancer.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E10" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="T10"/>
+<clue><clueExperiment>Results from site-directed mutations and electrophoretic mobility shift assays</clueExperiment> strongly <clueKT><clueCL>suggest</clueCL></clueKT> that <corefCause>this sequence</corefCause> <clueType>mediates</clueType> the ionomycin-induced activation of the TCRG enhancer.</clue>
+</event>
+<sentence id="S6">Our studies provide an explanation for a previous observation that <term id="T24" lex="TCRG_mRNA_level" sem="Other"><term id="T25" lex="TCRG_mRNA" sem="RNA_family_or_group">TCRG mRNA</term> levels</term>, but not <term id="T26" lex="mRNA_level" sem="Other"><term id="A5" sem="RNA_molecule">mRNA</term> levels</term> for <cons id="T27" lex="(AND T_cell_receptor_alpha T_cell_receptor_-beta)" sem="(AND Protein_molecule Protein_molecule)"><frag id="F1"><term id="A1" sem="RNA_molecule">T cell receptor</term></frag> <frag id="F2"><term id="A2" sem="RNA_molecule">alpha</term></frag> and <frag id="F3"><term id="A3" sem="RNA_molecule">-beta</term></frag></cons>, are increased by <term id="T28" lex="ionomycin_treatment" sem="Other"><term id="T29" lex="ionomycin" sem="Organic_compound_other">ionomycin</term> treatment</term>.</sentence>
+<event KT="Analysis" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="T25"/>
+<cause idref="T29"/>
+<clue>Our studies provide an <clueKT>explanation</clueKT> for a previous observation that TCRG mRNA levels, but not mRNA levels for T cell receptor alpha and -beta, are <clueType>increased</clueType> <linkCause>by</linkCause> ionomycin treatment.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E12">
+<type class="Positive_regulation"/>
+<theme idref="A5" idref1="A1" idref2="A2"/>
+<cause idref="T29"/>
+<clue>Our studies provide an <clueKT>explanation</clueKT> for a previous observation that TCRG mRNA levels, but <cluePolarity>not</cluePolarity> mRNA levels for T cell receptor alpha and -beta, are <clueType>increased</clueType> <linkCause>by</linkCause> ionomycin treatment.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="A5" idref1="A1" idref2="A3"/>
+<cause idref="T29"/>
+<clue>Our studies provide an <clueKT>explanation</clueKT> for a previous observation that TCRG mRNA levels, but <cluePolarity>not</cluePolarity> mRNA levels for T cell receptor alpha and -beta, are <clueType>increased</clueType> <linkCause>by</linkCause> ionomycin treatment.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

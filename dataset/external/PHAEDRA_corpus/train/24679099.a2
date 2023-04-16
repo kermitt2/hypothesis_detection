@@ -1,0 +1,15 @@
+T27	Adverse_effect 898 904	caused
+T29	Adverse_effect 357 363	during
+T32	Potential_therapeutic_effect 636 645	retreated
+T33	Adverse_effect 677 684	without
+T36	Adverse_effect 822 830	observed
+E1	Combination:T22 has_participant:T12 has_participant:T13
+E5	Adverse_effect:T27 has_cue:T28 affects:T15 affects:T16 has_agent:T17
+E6	Adverse_effect:T29 affects:T5 affects:T6 has_agent:T7 has_cue:T18
+E8	Potential_therapeutic_effect:T32 has_agent:T10 affects:T9
+E9	Adverse_effect:T33 affects:T11 has_agent:T10 has_cue:T23
+E11	Adverse_effect:T36 affects:T14 has_cue:T34 has_agent:E1
+A1	Speculated E5
+A3	Negated E9
+A4	Negated E11
+A2	Manner E6 High

@@ -1,0 +1,20 @@
+T10	DDI 32 43	interaction
+T19	Adverse_effect 20 26	due to
+T20	DDI 219 231	interactions
+T22	DDI 586 597	interaction
+T12	Adverse_effect 355 360	cause
+T26	Adverse_effect 569 575	caused
+T27	Potential_therapeutic_effect 665 670	given
+T34	Adverse_effect 444 451	induced
+R1	is_equivalent Arg1:T4 Arg2:T5
+E1	DDI:T10 has_participant:T2 has_participant:T3
+E3	DDI:T20 has_participant:T7 has_participant:T9 has_participant:T8
+E4	DDI:T22 has_participant:T16 has_participant:T17
+E8	Combination:T13 has_participant:T17 has_participant:T16
+E2	Adverse_effect:T19 has_agent:E1 affects:T1
+E5	Adverse_effect:T12 affects:T23 has_agent:E3 has_cue:T24
+E6	Adverse_effect:T26 has_agent:E4 has_subject:T21 affects:T25
+E7	Potential_therapeutic_effect:T27 has_subject:T21 affects:T18 has_agent:E8
+E11	Adverse_effect:T34 affects:T29 has_agent:T11 has_cue:T35
+A1	Speculated E5
+A7	Manner E11 Low

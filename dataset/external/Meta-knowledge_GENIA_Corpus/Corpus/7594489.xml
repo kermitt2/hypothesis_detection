@@ -1,0 +1,391 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7594489" created="01/06/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7594489</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Triggering of <term id="T1" lex="complement_receptor" sem="Protein_family_or_group">complement receptors</term> <term id="T2" lex="CR1" sem="Protein_molecule">CR1</term> (<term id="T3" lex="CD35" sem="Protein_molecule">CD35</term>) and <term id="T4" lex="CR3" sem="Protein_molecule">CR3</term> (<term id="T5" lex="CD11b/CD18" sem="Protein_molecule">CD11b/CD18</term>) induces <term id="T6" lex="nuclear_translocation" sem="Other">nuclear translocation</term> of <term id="T7" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> (<term id="T8" lex="p50/p65" sem="Protein_molecule">p50/p65</term>) in <term id="T9" lex="human_monocyte" sem="Cell_natural">human monocytes</term> and enhances <term id="T10" lex="viral_replication" sem="Other">viral replication</term> in <term id="T11" lex="HIV-infected_monocytic_cell" sem="Cell_natural"><term id="A21" sem="Virus">HIV</term>-infected <term id="A22" sem="Cell_natural">monocytic cells</term></term>.</sentence>
+<event id="E1">
+<type class="Localization"/>
+<theme idref="T8"/>
+<clue>Triggering of complement receptors CR1 (CD35) and CR3 (CD11b/CD18) induces <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> <linkTheme>of</linkTheme> <corefTheme>NF-kappa B</corefTheme> (p50/p65) in human monocytes and enhances viral replication in HIV-infected monocytic cells.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="T3"/>
+<clue><clueType>Triggering</clueType> <linkTheme>of</linkTheme> complement receptors CR1 (CD35) and CR3 (CD11b/CD18) induces nuclear translocation of NF-kappa B (p50/p65) in human monocytes and enhances viral replication in HIV-infected monocytic cells.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation"/>
+<theme idref="T5"/>
+<clue><clueType>Triggering</clueType> <linkTheme>of</linkTheme> complement receptors CR1 (CD35) and CR3 (CD11b/CD18) induces nuclear translocation of NF-kappa B (p50/p65) in human monocytes and enhances viral replication in HIV-infected monocytic cells.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="E2"/>
+<clue>Triggering of complement receptors CR1 (CD35) and CR3 (CD11b/CD18) <clueType>induces</clueType> nuclear translocation of NF-kappa B (p50/p65) <clueLoc>in human monocytes</clueLoc> and enhances viral replication in HIV-infected monocytic cells.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="E3"/>
+<clue>Triggering of complement receptors CR1 (CD35) and CR3 (CD11b/CD18) <clueType>induces</clueType> nuclear translocation of NF-kappa B (p50/p65) <clueLoc>in human monocytes</clueLoc> and enhances viral replication in HIV-infected monocytic cells.</clue>
+</event>
+<event id="E6">
+<type class="Positive_regulation"/>
+<theme idref="T10"/>
+<cause idref="E2"/>
+<clue>Triggering of complement receptors CR1 (CD35) and CR3 (CD11b/CD18) induces nuclear translocation of NF-kappa B (p50/p65) in human monocytes and <clueType>enhances</clueType> viral replication <clueLoc>in HIV-infected monocytic cells.</clueLoc></clue>
+</event>
+<event id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T10"/>
+<cause idref="E3"/>
+<clue>Triggering of complement receptors CR1 (CD35) and CR3 (CD11b/CD18) induces nuclear translocation of NF-kappa B (p50/p65) in human monocytes and <clueType>enhances</clueType> viral replication <clueLoc>in HIV-infected monocytic cells.</clueLoc></clue>
+</event>
+<event id="E61">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="A21"/>
+<theme idref="A22"/>
+<clue>Triggering of complement receptors CR1 (CD35) and CR3 (CD11b/CD18) induces nuclear translocation of NF-kappa B (p50/p65) in human monocytes and enhances viral replication in HIV-<clueType>infected</clueType> monocytic cells.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T12" lex="monocyte/macrophage" sem="Cell_natural"><term id="A1" sem="Cell_natural">Monocyte</term>/<term id="A2" sem="Cell_natural">macrophages</term></term> may harbor <term id="T13" lex="HIV" sem="Virus">HIV</term> in a nonproductive fashion for prolonged periods of time.</sentence>
+<event CL="L1" KT="Analysis" id="E8" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="T13"/>
+<cause idref="A1"/>
+<clue>Monocyte/macrophages <clueKT><clueCL>may</clueCL></clueKT> <clueType>harbor</clueType> HIV <clueType>in a nonproductive fashion</clueType> for prolonged periods of time.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E9" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="T13"/>
+<cause idref="A2"/>
+<clue>Monocyte/macrophages <clueKT><clueCL>may</clueCL></clueKT> <clueType>harbor</clueType> HIV <clueType>in a nonproductive fashion</clueType> for prolonged periods of time.</clue>
+</event>
+<sentence id="S3"><term id="T14" lex="viral_gene_expression" sem="Other">Viral gene expression</term> may be reactivated by stimulation of the cells with <term id="T15" lex="LPS" sem="Lipid">LPS</term> or <term id="T16" lex="cytokine" sem="Protein_family_or_group">cytokines</term> such as <term id="T17" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term> in vitro.</sentence>
+<event KT="Method" id="E62">
+<type class="Physiological_process"/>
+<theme idref="T12"/>
+<cause idref="T15"/>
+<clue>Viral gene expression may be reactivated by stimulation of <corefTheme>the cells</corefTheme> <linkCause>with</linkCause> LPS or cytokines such as TNF-alpha in vitro.</clue>
+</event>
+<event KT="Method" id="E63">
+<type class="Physiological_process"/>
+<theme idref="T12"/>
+<cause idref="T17"/>
+<clue>Viral gene expression may be reactivated by stimulation of <corefTheme>the cells</corefTheme> <linkCause>with</linkCause> LPS or <corefCause>cytokines</corefCause> such as TNF-alpha in vitro.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E10" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T14"/>
+<cause idref="E62"/>
+<clue>Viral gene expression <clueKT><clueCL>may</clueCL></clueKT> be <clueType>reactivated</clueType> <linkCause>by</linkCause> stimulation of the cells with LPS or cytokines such as TNF-alpha in vitro.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E11" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="T14"/>
+<cause idref="E63"/>
+<clue>Viral gene expression <clueKT><clueCL>may</clueCL></clueKT> be <clueType>reactivated</clueType> <linkCause>by</linkCause> stimulation of the cells with LPS or cytokines such as TNF-alpha in vitro.</clue>
+</event>
+<sentence id="S4">The effect of <term id="T18" lex="LPS" sem="Lipid">LPS</term> and <term id="T19" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term> is mediated by their ability to induce <term id="T20" lex="nuclear_translocation" sem="Other">nuclear translocation</term> of the <term id="T21" lex="DNA-binding_heterodimer" sem="Protein_family_or_group">DNA-binding heterodimer</term> <term id="T22" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> (<term id="T23" lex="p50/p65" sem="Protein_molecule">p50/p65</term>), which binds to a specific sequence in the <term id="T24" lex="HIV-long_terminal_repeat" sem="DNA_domain_or_region">HIV-long terminal repeat</term>.</sentence>
+<event KT="Other" id="E12">
+<type class="Localization"/>
+<theme idref="T23"/>
+<clue>The effect of LPS and TNF-alpha is mediated by their ability to induce <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> <linkTheme>of</linkTheme> the DNA-binding heterodimer NF-kappa B (p50/p65), which binds to a specific sequence in the HIV-long terminal repeat.</clue>
+</event>
+<event KT="Fact" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="T18"/>
+<clue>The effect of LPS and TNF-alpha is mediated by <corefCause>their</corefCause> ability to <clueType>induce</clueType> nuclear translocation of the DNA-binding heterodimer NF-kappa B (p50/p65), which binds to a specific sequence in the HIV-long terminal repeat.</clue>
+</event>
+<event KT="Fact" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="T19"/>
+<clue>The effect of LPS and TNF-alpha is mediated by <corefCause>their</corefCause> ability to <clueType>induce</clueType> nuclear translocation of the DNA-binding heterodimer NF-kappa B (p50/p65), which binds to a specific sequence in the HIV-long terminal repeat.</clue>
+</event>
+<event KT="Fact" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="E13"/>
+<clue><corefTheme>The effect of LPS</corefTheme> and TNF-alpha is <clueType>mediated</clueType> <linkCause>by</linkCause> their ability to induce nuclear translocation of the DNA-binding heterodimer NF-kappa B (p50/p65), which binds to a specific sequence in the HIV-long terminal repeat.</clue>
+</event>
+<event KT="Fact" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<cause idref="E14"/>
+<clue><corefTheme idref1="E11">The effect of</corefTheme> LPS and <corefTheme idref1="E11">TNF-alpha</corefTheme> is <clueType>mediated</clueType> <linkCause>by</linkCause> their ability to induce nuclear translocation of the DNA-binding heterodimer NF-kappa B (p50/p65), which binds to a specific sequence in the HIV-long terminal repeat.</clue>
+</event>
+<event KT="Fact" id="E17">
+<type class="Binding"/>
+<theme idref="T23"/>
+<theme idref="T24"/>
+<clue>The effect of LPS and TNF-alpha is mediated by their ability to induce nuclear translocation of the DNA-binding heterodimer NF-kappa B (p50/p65), which <clueType>binds</clueType> <linkTheme>to</linkTheme> a specific sequence in the HIV-long terminal repeat.</clue>
+</event>
+<sentence id="S5">The present study demonstrates that triggering of <term id="T25" lex="complement_receptor" sem="Protein_family_or_group">complement receptors</term> <term id="T26" lex="CR1" sem="Protein_molecule">CR1</term> (<term id="T27" lex="CD35" sem="Protein_molecule">CD35</term>) and <term id="T28" lex="CR3" sem="Protein_molecule">CR3</term> (<term id="T29" lex="CD11b/CD18" sem="Protein_molecule">CD11b/CD18</term>) enhances <term id="T30" lex="viral_replication" sem="Other">viral replication</term> in <term id="T31" lex="HIV-infected_human_monocytic_cell" sem="Cell_cultured"><term id="A24" sem="Virus">HIV</term>-infected <term id="A25" sem="Cell_natural">human monocytic cells</term></term>.</sentence>
+<event KT="Other" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="T27"/>
+<clue>The present study demonstrates that <clueType>triggering</clueType> <linkTheme>of</linkTheme> complement receptors CR1 (CD35) and CR3 (CD11b/CD18) enhances viral replication in HIV-infected human monocytic cells.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="T29"/>
+<clue>The present study demonstrates that <clueType>triggering</clueType> <linkTheme>of</linkTheme> complement receptors CR1 (CD35) and CR3 (CD11b/CD18) enhances viral replication in HIV-infected human monocytic cells.</clue>
+</event>
+<event KT="Analysis" id="E20">
+<type class="Positive_regulation"/>
+<theme idref="T30"/>
+<cause idref="E18"/>
+<clue>The present study <clueKT>demonstrates</clueKT> that triggering of complement receptors CR1 (CD35) and CR3 (CD11b/CD18) <clueType>enhances</clueType> viral replication <clueLoc>in HIV-infected human monocytic cells</clueLoc>.</clue>
+</event>
+<event KT="Analysis" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="T30"/>
+<cause idref="E19"/>
+<clue>The present study <clueKT>demonstrates</clueKT> that triggering of complement receptors CR1 (CD35) and CR3 (CD11b/CD18) <clueType>enhances</clueType> viral replication <clueLoc>in HIV-infected human monocytic cells</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E65">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="A24"/>
+<theme idref="A25"/>
+<clue>The present study demonstrates that triggering of complement receptors CR1 (CD35) and CR3 (CD11b/CD18) enhances viral replication in HIV-<clueType>infected</clueType> human monocytic cells.</clue>
+</event>
+<sentence id="S6"><term id="T32" lex="monocytic_cell_line" sem="Cell_cultured">Monocytic cell lines</term> and <term id="A3" sem="Cell_natural">normal peripheral blood monocytes</term> were <term id="A23" sem="Cell_cultured">infected with</term> <term id="T33" lex="HIV-1" sem="Virus">HIV-1</term> in vitro and cultured in the presence or absence of <term id="T34" lex="F(ab&apos;)2_fragment" sem="Protein_molecule">F(ab&apos;)2 fragments</term> <term id="A4" sem="Protein_molecule">of</term> <term id="T35" lex="monoclonal_anti-CR1" sem="Protein_molecule">monoclonal anti-<term id="T36" lex="CR1" sem="Protein_molecule">CR1</term></term> or <term id="T37" lex="anti-CR3_Abs" sem="Protein_family_or_group">anti-<term id="T38" lex="CR3" sem="Protein_molecule">CR3</term> Abs</term> or with <term id="T39" lex="C3_fragment" sem="Protein_molecule">C3 fragments</term>.</sentence>
+<event KT="Method" id="E22">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T33"/>
+<theme idref="T32"/>
+<clue>Monocytic cell lines and normal peripheral blood monocytes were <clueType>infected</clueType> <linkTheme>with</linkTheme> HIV-1 in vitro and cultured in the presence or absence of F(ab&apos;)2 fragments of monoclonal anti-CR1 or anti-CR3 Abs or with C3 fragments.</clue>
+</event>
+<event KT="Method" id="E23">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T33"/>
+<theme idref="A3"/>
+<clue>Monocytic cell lines and normal peripheral blood monocytes were <clueType>infected</clueType> <linkTheme>with</linkTheme> HIV-1 in vitro and cultured in the presence or absence of F(ab&apos;)2 fragments of monoclonal anti-CR1 or anti-CR3 Abs or with C3 fragments.</clue>
+</event>
+<event KT="Method" id="E24">
+<type class="Artificial_process"/>
+<theme idref="T34" idref1="A4" idref2="T36"/>
+<theme idref="A3" idref1="A23" idref2="T33"/>
+<clue>Monocytic cell lines and normal peripheral blood monocytes were infected with HIV-1 in vitro and <clueType>cultured</clueType> <linkTheme>in the presence</linkTheme> or absence <linkTheme>of</linkTheme> F(ab&apos;)2 fragments of monoclonal anti-CR1 or anti-CR3 Abs or with C3 fragments.</clue>
+<comment>TPS: A23</comment></event>
+<event KT="Method" id="E25">
+<type class="Artificial_process"/>
+<theme idref="T34" idref1="A4" idref2="T36"/>
+<theme idref="T32" idref1="A23" idref2="T33"/>
+<clue>Monocytic cell lines and normal peripheral blood monocytes were infected with HIV-1 in vitro and <clueType>cultured</clueType> <linkTheme>in the presence</linkTheme> or absence <linkTheme>of</linkTheme> F(ab&apos;)2 fragments of monoclonal anti-CR1 or anti-CR3 Abs or with C3 fragments.</clue>
+<comment>TPS: A23</comment></event>
+<event KT="Method" id="E26">
+<type class="Artificial_process"/>
+<theme idref="T34" idref1="A4" idref2="T37"/>
+<theme idref="T32" idref1="A23" idref2="T33"/>
+<clue>Monocytic cell lines and normal peripheral blood monocytes were infected with HIV-1 in vitro and <clueType>cultured</clueType> <linkTheme>in the presence</linkTheme> or absence <linkTheme>of</linkTheme> F(ab&apos;)2 fragments of monoclonal anti-CR1 or anti-CR3 Abs or with C3 fragments.</clue>
+</event>
+<event KT="Method" id="E27">
+<type class="Artificial_process"/>
+<theme idref="T34" idref1="A4" idref2="T37"/>
+<theme idref="A3" idref1="A23" idref2="T33"/>
+<clue>Monocytic cell lines and normal peripheral blood monocytes were infected with HIV-1 in vitro and <clueType>cultured</clueType> <linkTheme>in the presence</linkTheme> or absence <linkTheme>of</linkTheme> F(ab&apos;)2 fragments of monoclonal anti-CR1 or anti-CR3 Abs or with C3 fragments.</clue>
+</event>
+<event KT="Method" id="E28">
+<type class="Artificial_process"/>
+<theme idref="T39"/>
+<theme idref="T32" idref1="A23" idref2="T33"/>
+<clue>Monocytic cell lines and normal peripheral blood monocytes were infected with HIV-1 in vitro and <clueType>cultured</clueType> in the presence or absence of F(ab&apos;)2 fragments of monoclonal anti-CR1 or anti-CR3 Abs or <linkTheme>with</linkTheme> C3 fragments.</clue>
+</event>
+<event KT="Method" id="E29">
+<type class="Artificial_process"/>
+<theme idref="T39"/>
+<theme idref="A3" idref1="A23" idref2="T33"/>
+<clue>Monocytic cell lines and normal peripheral blood monocytes were infected with HIV-1 in vitro and <clueType>cultured</clueType> in the presence or absence of F(ab&apos;)2 fragments of monoclonal anti-CR1 or anti-CR3 Abs or <linkTheme>with</linkTheme> C3 fragments.</clue>
+</event>
+<sentence id="S7">Stimulation of <term id="T40" lex="CR1" sem="Protein_molecule">CR1</term> or <term id="T41" lex="CR3" sem="Protein_molecule">CR3</term> induces a two- to fourfold increase in the amount of cell-associated and released <term id="T42" lex="p24_Ag" sem="Protein_molecule">p24 Ag</term> in <term id="T43" lex="cell_culture" sem="Cell_cultured">cell cultures</term> that was equivalent to that observed in <term id="T44" lex="control_culture" sem="Cell_cultured">control cultures</term> triggered with <term id="T45" lex="LPS" sem="Lipid">LPS</term>.</sentence>
+<event KT="Method" id="E30">
+<type class="Positive_regulation"/>
+<theme idref="T40"/>
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> CR1 or CR3 induces a two- to fourfold increase in the amount of cell-associated and released p24 Ag in cell cultures that was equivalent to that observed in control cultures triggered with LPS.</clue>
+</event>
+<event KT="Method" id="E31">
+<type class="Positive_regulation"/>
+<theme idref="T41"/>
+<clue><clueType>Stimulation</clueType> <linkTheme>of</linkTheme> CR1 or CR3 induces a two- to fourfold increase in the amount of cell-associated and released p24 Ag in cell cultures that was equivalent to that observed in control cultures triggered with LPS.</clue>
+</event>
+<event id="E32">
+<type class="Positive_regulation"/>
+<theme idref="T42"/>
+<cause idref="E30"/>
+<clue>Stimulation of CR1 or CR3 induces a two- to fourfold <clueType>increase</clueType> in the amount of cell-associated and released p24 Ag in cell cultures that was equivalent to that observed in control cultures triggered with LPS.</clue>
+</event>
+<event id="E33">
+<type class="Positive_regulation"/>
+<theme idref="T42"/>
+<cause idref="E31"/>
+<clue>Stimulation of CR1 or CR3 induces a two- to fourfold <clueType>increase</clueType> in the amount of cell-associated and released p24 Ag in cell cultures that was equivalent to that observed in control cultures triggered with LPS.</clue>
+</event>
+<event id="E34">
+<type class="Positive_regulation"/>
+<theme idref="T42"/>
+<cause idref="T45"/>
+<clue>Stimulation of CR1 or CR3 induces a two- to fourfold <clueType>increase</clueType> in the amount of cell-associated and released p24 Ag in cell cultures that was equivalent to that observed in control cultures triggered <linkCause>with</linkCause> LPS.</clue>
+</event>
+<sentence id="S8">We further observed that stimulation of <term id="T46" lex="CR1" sem="Protein_molecule">CR1</term> or <term id="T47" lex="CR3" sem="Protein_molecule">CR3</term> induces the <term id="T48" lex="nuclear_translocation" sem="Other">nuclear translocation</term> of <term id="T49" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> <term id="T50" lex="p50/p65" sem="Protein_molecule">p50/p65</term> in <term id="T51" lex="infected_cell" sem="Cell_natural">infected cells</term>.</sentence>
+<event KT="Method" id="E35">
+<type class="Positive_regulation"/>
+<theme idref="T46"/>
+<clue>We further observed that <clueType>stimulation</clueType> <linkTheme>of</linkTheme> CR1 or CR3 induces the nuclear translocation of NF-kappa B p50/p65 in infected cells.</clue>
+</event>
+<event KT="Method" id="E36">
+<type class="Positive_regulation"/>
+<theme idref="T47"/>
+<clue>We further observed that <clueType>stimulation</clueType> <linkTheme>of</linkTheme> CR1 or CR3 induces the nuclear translocation of NF-kappa B p50/p65 in infected cells.</clue>
+</event>
+<event id="E37">
+<type class="Localization"/>
+<theme idref="T50"/>
+<clue>We further observed that stimulation of CR1 or CR3 induces the <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> <linkTheme>of</linkTheme> NF-kappa B p50/p65 in infected cells.</clue>
+</event>
+<event id="E38">
+<type class="Positive_regulation"/>
+<theme idref="E37"/>
+<cause idref="E35"/>
+<clue>We further observed that stimulation of CR1 or CR3 <clueType>induces</clueType> the nuclear translocation of NF-kappa B p50/p65 <clueLoc>in infected cells.</clueLoc></clue>
+</event>
+<event id="E39">
+<type class="Positive_regulation"/>
+<theme idref="E37"/>
+<cause idref="E36"/>
+<clue>We further observed that stimulation of CR1 or CR3 <clueType>induces</clueType> the nuclear translocation of NF-kappa B p50/p65 <clueLoc>in infected cells.</clueLoc></clue>
+</event>
+<event id="E66">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T33"/>
+<theme idref="T32"/>
+<clue>We further observed that stimulation of CR1 or CR3 induces the nuclear translocation of NF-kappa B p50/p65 in <clueType>infected</clueType> <corefTheme idref1="T32">cells</corefTheme>.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event id="E67">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="T33"/>
+<theme idref="A3"/>
+<clue>We further observed that stimulation of CR1 or CR3 induces the nuclear translocation of NF-kappa B p50/p65 in <clueType>infected</clueType> <corefTheme idref1="A3">cells</corefTheme>.</clue>
+<comment>NO COREFTHEME</comment></event>
+<sentence id="S9">Translocation of <term id="T52" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> <term id="T53" lex="p50/p65" sem="Protein_molecule">p50/p65</term> was also observed following stimulation of <term id="T54" lex="CR1" sem="Protein_molecule">CR1</term> or <term id="T55" lex="CR3" sem="Protein_molecule">CR3</term> of <term id="A5" sem="Cell_natural"><term id="T56" lex="uninfected_peripheral_blood_monocyte" sem="Cell_natural">uninfected peripheral blood monocytes</term> from <term id="T57" lex="HIV-seronegative_donor" sem="Multicellular_organism_natural">HIV-seronegative donors</term></term>.</sentence>
+<event id="E40">
+<type class="Localization"/>
+<theme idref="T53"/>
+<clue><clueType>Translocation</clueType> <linkTheme>of</linkTheme> NF-kappa B p50/p65 was also observed following stimulation of CR1 or CR3 of uninfected peripheral blood monocytes from HIV-seronegative donors.</clue>
+</event>
+<event KT="Method" id="E41">
+<type class="Positive_regulation"/>
+<theme idref="T54"/>
+<clue>Translocation of NF-kappa B p50/p65 was also observed following <clueType>stimulation</clueType> <linkTheme>of</linkTheme> CR1 or CR3 of <clueLoc>uninfected peripheral blood monocytes from HIV-seronegative donors.</clueLoc></clue>
+</event>
+<event KT="Method" id="E42">
+<type class="Positive_regulation"/>
+<theme idref="T55"/>
+<clue>Translocation of NF-kappa B p50/p65 was also observed following <clueType>stimulation</clueType> <linkTheme>of</linkTheme> CR1 or CR3 of <clueLoc>uninfected peripheral blood monocytes from HIV-seronegative donors.</clueLoc></clue>
+</event>
+<event id="E43">
+<type class="Positive_regulation"/>
+<theme idref="E40"/>
+<cause idref="E41"/>
+<clue>Translocation of NF-kappa B p50/p65 was also <clueType>observed</clueType> <linkCause>following</linkCause> stimulation of CR1 or CR3 of uninfected peripheral blood monocytes from HIV-seronegative donors.</clue>
+</event>
+<event id="E44">
+<type class="Positive_regulation"/>
+<theme idref="E40"/>
+<cause idref="E42"/>
+<clue>Translocation of NF-kappa B p50/p65 was also <clueType>observed</clueType> <linkCause>following</linkCause> stimulation of CR1 or CR3 of uninfected peripheral blood monocytes from HIV-seronegative donors.</clue>
+</event>
+<sentence id="S10">The amount of protein translocated was similar to that observed when cells were stimulated with <term id="T58" lex="rhTNF-alpha" sem="Protein_molecule">rhTNF-alpha</term>.</sentence>
+<event KT="Method" id="E45">
+<type class="Physiological_process"/>
+<theme idref="A5"/>
+<cause idref="T58"/>
+<clue>The amount of protein translocated was similar to that observed when <corefTheme>cells</corefTheme> were <clueType>stimulated</clueType> <linkCause>with</linkCause> rhTNF-alpha.</clue>
+<comment>TPS: A5</comment></event>
+<event id="E46">
+<type class="Localization"/>
+<theme idref="T53"/>
+<clue>The amount of <corefTheme>protein</corefTheme> <clueType>translocated</clueType> was similar to that observed when cells were stimulated with rhTNF-alpha.</clue>
+</event>
+<event id="E47">
+<type class="Positive_regulation"/>
+<theme idref="E46"/>
+<cause idref="E45"/>
+<clue>The amount of protein translocated was similar to that <clueType>observed</clueType> when cells were stimulated with rhTNF-alpha.</clue>
+</event>
+<sentence id="S11"><term id="T59" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term> did not mediate the translocation of <term id="T60" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> <term id="T61" lex="p50/p65" sem="Protein_molecule">p50/p65</term> induced by triggering of <term id="T62" lex="complement_receptor" sem="Protein_family_or_group">complement receptors</term>.</sentence>
+<event id="E48">
+<type class="Localization"/>
+<theme idref="T61"/>
+<clue>TNF-alpha did not mediate the <clueType>translocation</clueType> <linkTheme>of</linkTheme> NF-kappa B p50/p65 induced by triggering of complement receptors.</clue>
+</event>
+<event id="E49">
+<type class="Positive_regulation"/>
+<theme idref="T62"/>
+<clue>TNF-alpha did not mediate the translocation of NF-kappa B p50/p65 induced by <clueType>triggering</clueType> <linkTheme>of</linkTheme> complement receptors.</clue>
+</event>
+<event id="E50">
+<type class="Positive_regulation"/>
+<theme idref="T61"/>
+<cause idref="T62"/>
+<clue>TNF-alpha did not mediate the translocation of NF-kappa B p50/p65 <clueType>induced</clueType> <linkCause>by</linkCause> triggering of complement receptors.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E51">
+<type class="Positive_regulation"/>
+<theme idref="E50"/>
+<cause idref="T59"/>
+<clue>TNF-alpha did <cluePolarity>not</cluePolarity> <clueType>mediate</clueType> the translocation of NF-kappa B p50/p65 induced by triggering of complement receptors.</clue>
+</event>
+<sentence id="S12">Taken together, these observations suggest that <term id="T63" lex="HIV_gene_expression" sem="Other"><term id="A7" sem="DNA_domain_or_region">HIV</term> gene expression</term> may be activated in <term id="T64" lex="infected_monocyte" sem="Cell_natural">infected <term id="A26" sem="Cell_natural">monocytes</term></term> through interaction of the cells with <term id="T65" lex="complement-opsonized_particle" sem="Protein_family_or_group">complement-opsonized particles</term> and that enhanced <term id="T66" lex="viral_replication" sem="Other">viral replication</term> is associated with <term id="T68" lex="C3_receptor" sem="Protein_family_or_group">C3 receptor</term>-mediated <term id="T69" lex="nuclear_translocation" sem="Other">nuclear translocation</term> of the <term id="T70" lex="NF-kappa_B_complex" sem="Protein_complex">NF-kappa B complex</term>.</sentence>
+<event KT="Other" id="E52">
+<type class="Gene_expression"/>
+<theme idref="A7"/>
+<clue>Taken together, these observations suggest that HIV gene <clueType>expression</clueType> may be activated in infected monocytes through interaction of the cells with complement-opsonized particles and that enhanced viral replication is associated with C3 receptor-mediated nuclear translocation of the NF-kappa B complex.</clue>
+</event>
+<event KT="Other" id="E53">
+<type class="Cell_adhesion"/>
+<theme idref="T64"/>
+<theme idref="T65"/>
+<clue>Taken together, these observations suggest that HIV gene expression may be activated in infected monocytes through <clueType>interaction</clueType> <linkTheme>of</linkTheme> <corefTheme idref1="T64">the cells</corefTheme> <linkTheme>with</linkTheme> complement-opsonized particles and that enhanced viral replication is associated with C3 receptor-mediated nuclear translocation of the NF-kappa B complex.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E54" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E52"/>
+<cause idref="E53"/>
+<clue>Taken together, these observations <clueKT><clueCL>suggest</clueCL></clueKT> that HIV gene expression <clueCL>may</clueCL> be <clueType>activated</clueType> <clueLoc>in infected monocytes</clueLoc> <linkCause>through</linkCause> interaction of the cells with complement-opsonized particles and that enhanced viral replication is associated with C3 receptor-mediated nuclear translocation of the NF-kappa B complex.</clue>
+</event>
+<event KT="Other" id="E55">
+<type class="Positive_regulation"/>
+<theme idref="T66"/>
+<clue>Taken together, these observations suggest that HIV gene expression may be activated in infected monocytes through interaction of the cells with complement-opsonized particles and that <clueType>enhanced</clueType> viral replication is associated with C3 receptor-mediated nuclear translocation of the NF-kappa B complex.</clue>
+</event>
+<event KT="Other" id="E56">
+<type class="Localization"/>
+<theme idref="T70"/>
+<clue>Taken together, these observations suggest that HIV gene expression may be activated in infected monocytes through interaction of the cells with complement-opsonized particles and that enhanced viral replication is associated with C3 receptor-mediated <clueLoc>nuclear</clueLoc> <clueType>translocation</clueType> <linkTheme>of</linkTheme> the NF-kappa B complex.</clue>
+</event>
+<event KT="Other" id="E57">
+<type class="Positive_regulation"/>
+<theme idref="E56"/>
+<cause idref="T68"/>
+<clue>Taken together, these observations suggest that HIV gene expression may be activated in infected monocytes through interaction of the cells with complement-opsonized particles and that enhanced viral replication is associated with C3 receptor-<clueType>mediated</clueType> nuclear translocation of the NF-kappa B complex.</clue>
+<comment>NER: T67 del &quot;C3 receptor-mediated nuclear translocation&quot;</comment></event>
+<event CL="L2" KT="Analysis" id="E58">
+<type class="Correlation"/>
+<theme idref="E57"/>
+<theme idref="E55"/>
+<clue>Taken together, these observations <clueKT><clueCL>suggest</clueCL></clueKT> that HIV gene expression may be activated in infected monocytes through interaction of the cells with complement-opsonized particles and that enhanced viral replication is <clueType>associated</clueType> <linkTheme>with</linkTheme> C3 receptor-mediated nuclear translocation of the NF-kappa B complex.</clue>
+</event>
+<event KT="Other" id="E68">
+<type class="Initiation_of_viral_infection"/>
+<theme idref="A26"/>
+<theme idref="T33"/>
+<clue>Taken together, these observations suggest that HIV gene expression may be activated in <clueType>infected</clueType> monocytes through interaction of the cells with complement-opsonized particles and that enhanced viral replication is associated with C3 receptor-mediated nuclear translocation of the NF-kappa B complex.</clue>
+<comment>NO COREFTHEME</comment></event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

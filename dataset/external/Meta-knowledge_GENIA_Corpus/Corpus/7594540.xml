@@ -1,0 +1,123 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7594540" created="18/01/2007" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7594540</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="nuclear_factor-IL6" sem="Protein_molecule">Nuclear factor-IL6</term> activates the <term id="T2" lex="human_IL-4_promoter" sem="DNA_domain_or_region">human IL-4 promoter</term> in <term id="T3" lex="T_cell" sem="Cell_natural">T cells</term>.</sentence>
+<event id="E1">
+<type/>
+<theme idref="T2"/>
+<cause idref="T1"/>
+<clue>Nuclear factor-IL6 <clueType>activates</clueType> the human IL-4 promoter <clueLoc>in T cells</clueLoc>.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T4" lex="positive_regulatory_element_I" sem="DNA_domain_or_region">Positive regulatory element I</term> (<term id="T5" lex="PRE-I" sem="DNA_domain_or_region">PRE-I</term>) is a strong <term id="T6" lex="enhancer_element" sem="DNA_domain_or_region">enhancer element</term> essential for expression of the <term id="T7" lex="human_IL-4_gene" sem="DNA_domain_or_region">human <term id="A1" sem="DNA_domain_or_region">IL-4 gene</term></term>.</sentence>
+<event KT="Fact" id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="T5"/>
+<clue>Positive regulatory element I (PRE-I) is a strong enhancer element <clueType>essential</clueType> <linkTheme>for</linkTheme> expression of the human IL-4 gene.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Gene_expression"/>
+<theme idref="A1"/>
+<clue>Positive regulatory element I (PRE-I) is a strong enhancer element essential for <clueType>expression</clueType> <linkTheme>of</linkTheme> the human IL-4 gene.</clue>
+</event>
+<sentence id="S3">To identify <term id="T8" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term> binding to <term id="T9" lex="PRE-I" sem="DNA_domain_or_region">PRE-I</term>, we screened a <term id="T10" lex="cDNA_expression_library" sem="DNA_family_or_group">cDNA expression library</term> from <term id="T11" lex="Jurkat_T_cell" sem="Cell_cultured">Jurkat <term id="T12" lex="T_cell" sem="Cell_natural">T cells</term></term> and isolated a <term id="T13" lex="cDNA" sem="DNA_family_or_group">cDNA</term> encoding <term id="T14" lex="nuclear_factor" sem="Protein_family_or_group">nuclear factor</term> <term id="T15" lex="(NF)-IL6" sem="Protein_molecule">(NF)-IL6</term> (also known as <term id="T16" lex="C/EBP_beta" sem="Protein_molecule">C/EBP beta</term>).</sentence>
+<event KT="Other" id="E4" uncertainty="doubtful">
+<type class="Binding"/>
+<theme idref="T8"/>
+<theme idref="T9"/>
+<clue>To identify transcription factors <clueType>binding</clueType> <linkTheme>to</linkTheme> PRE-I, we screened a cDNA expression library from Jurkat T cells and isolated a cDNA encoding nuclear factor (NF)-IL6 (also known as C/EBP beta).</clue>
+</event>
+<sentence id="S4"><term id="T17" lex="NF-IL6_mRNA" sem="RNA_molecule">NF-IL6 mRNA</term> was found in <term id="T18" lex="human_Jurkat_T_cell" sem="Cell_cultured">human Jurkat <term id="T19" lex="T_cell" sem="Cell_natural">T cells</term></term> and in the <term id="T20" lex="mouse_Th2_clone" sem="Cell_cultured">mouse Th2 clone</term> <term id="T21" lex="D10" sem="Cell_cultured">D10</term>, but not in <term id="T22" lex="Th1_clone_29" sem="Cell_cultured">Th1 clone 29</term>.</sentence>
+<event id="E5">
+<type class="Transcription"/>
+<theme idref="T17"/>
+<clue>NF-IL6 mRNA was <clueType><clueKT>found</clueKT></clueType> <clueLoc>in human Jurkat T cells</clueLoc> and in the mouse Th2 clone D10, but not in Th1 clone 29.</clue>
+<comment>CAUTION, found</comment></event>
+<event id="E19">
+<type class="Transcription"/>
+<theme idref="T17"/>
+<clue>NF-IL6 mRNA was <clueType><clueKT>found</clueKT></clueType> in human Jurkat T cells and <clueLoc>in the mouse Th2 clone D10</clueLoc>, but not in Th1 clone 29.</clue>
+<comment>CAUTION, found</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E6">
+<type class="Transcription"/>
+<theme idref="T17"/>
+<clue>NF-IL6 mRNA was <clueType><clueKT>found</clueKT></clueType> in human Jurkat T cells and in the mouse Th2 clone D10, but <cluePolarity>not</cluePolarity> <clueLoc>in Th1 clone 29</clueLoc>.</clue>
+<comment>CAUTION, found</comment></event>
+<sentence id="S5"><term id="T23" lex="rNF-IL6" sem="Protein_molecule">rNF-IL6</term> expressed in <term id="T24" lex="bacteria" sem="Unicellular_organism">bacteria</term> was shown to specifically bind to <term id="T25" lex="PRE-I" sem="DNA_domain_or_region">PRE-I</term>.</sentence>
+<event KT="Other" id="E7">
+<type class="Gene_expression"/>
+<theme idref="T23"/>
+<clue>rNF-IL6 <clueType>expressed</clueType> <clueLoc>in bacteria</clueLoc> was shown to specifically bind to PRE-I.</clue>
+</event>
+<event KT="Analysis" id="E8">
+<type class="Binding"/>
+<theme idref="T23"/>
+<theme idref="T25"/>
+<clue>rNF-IL6 expressed in bacteria was <clueKT>shown</clueKT> to specifically <clueType>bind</clueType> <linkTheme>to</linkTheme> PRE-I.</clue>
+</event>
+<sentence id="S6"><term id="T26" lex="PRE-I" sem="DNA_domain_or_region">PRE-I</term> forms <term id="T27" lex="multiple_DNA-protein_complex" sem="Protein_complex">multiple DNA-protein complexes</term> with <term id="T28" lex="nuclear_extract" sem="Cell_component">nuclear extracts</term> from <term id="T29" lex="Jurkat_cell" sem="Cell_cultured">Jurkat cells</term>.</sentence>
+<event KT="Fact" id="E9">
+<type class="Binding"/>
+<theme idref="T26"/>
+<theme idref="T28"/>
+<clue>PRE-I <clueType>forms</clueType> multiple DNA-protein <clueType>complexes</clueType> <linkTheme>with</linkTheme> nuclear extracts from Jurkat cells.</clue>
+</event>
+<sentence id="S7">Some of these complexes were demonstrated to contain <term id="T30" lex="NF-IL6" sem="Protein_molecule">NF-IL6</term> by using <term id="T31" lex="anti-C/EBP_beta_Ab" sem="Protein_molecule">anti-<term id="T32" lex="C/EBP_beta" sem="Protein_molecule">C/EBP beta</term> Abs</term>.</sentence>
+<event KT="Analysis" id="E10">
+<type class="Binding"/>
+<theme idref="T26"/>
+<theme idref="T30"/>
+<clue>Some of these <clueType>complexes</clueType> were <clueKT>demonstrated</clueKT> to <clueType>contain</clueType> NF-IL6 <clueExperiment>by using anti-C/EBP beta Abs</clueExperiment>.</clue>
+<comment>CAUTION, from the context</comment></event>
+<sentence id="S8">Overexpression of <term id="T33" lex="NF-IL6" sem="Protein_molecule">NF-IL6</term> enhanced expression of the <term id="A3" sem="DNA_domain_or_region"><term id="T34" lex="chloramphenicol_acetyl_transferase_reporter_gene" sem="DNA_molecule"><term id="T35" lex="chloramphenicol_acetyl_transferase" sem="Protein_molecule">chloramphenicol acetyl transferase</term> reporter gene</term> linked to the <term id="T36" lex="PRE-I-thymidine_kinase" sem="Protein_molecule"><term id="T37" lex="PRE-I" sem="DNA_domain_or_region">PRE-I</term>-thymidine kinase</term></term> or the <term id="T38" lex="human_IL-4_promoter" sem="DNA_domain_or_region"><term id="T39" lex="human_IL-4" sem="Protein_molecule">human IL-4</term> promoter</term> more than 10-fold in <term id="T40" lex="Jurkat_cell" sem="Cell_cultured">Jurkat cells</term>.</sentence>
+<event id="E11">
+<type class="Gene_expression"/>
+<theme idref="T33"/>
+<clue><clueType>Overexpression</clueType> <linkTheme>of</linkTheme> NF-IL6 enhanced expression of the chloramphenicol acetyl transferase reporter gene linked to the PRE-I-thymidine kinase or the human IL-4 promoter more than 10-fold in Jurkat cells.</clue>
+</event>
+<event id="E12">
+<type class="Positive_regulation"/>
+<theme idref="E11"/>
+<clue><clueType>Overexpression</clueType> of NF-IL6 enhanced expression of the chloramphenicol acetyl transferase reporter gene linked to the PRE-I-thymidine kinase or the human IL-4 promoter more than 10-fold in Jurkat cells.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation"/>
+<theme idref="E14"/>
+<cause idref="E12"/>
+<clue>Overexpression of NF-IL6 <clueType>enhanced</clueType> expression of the chloramphenicol acetyl transferase reporter gene linked to the PRE-I-thymidine kinase or the human IL-4 promoter more than 10-fold in Jurkat cells.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="E12"/>
+<clue>Overexpression of NF-IL6 <clueType>enhanced</clueType> expression of the chloramphenicol acetyl transferase reporter gene linked to the PRE-I-thymidine kinase or the human IL-4 promoter more than 10-fold in Jurkat cells.</clue>
+</event>
+<event id="E14">
+<type class="Gene_expression"/>
+<theme idref="A3"/>
+<clue>Overexpression of NF-IL6 enhanced <clueType>expression</clueType> <linkTheme>of</linkTheme> the chloramphenicol acetyl transferase reporter gene linked to the PRE-I-thymidine kinase or the human IL-4 promoter more than 10-fold in Jurkat cells.</clue>
+<comment>TPS: A3</comment></event>
+<event id="E15">
+<type class="Gene_expression"/>
+<theme idref="T38"/>
+<clue>Overexpression of NF-IL6 enhanced <clueType>expression</clueType> <linkTheme>of</linkTheme> the chloramphenicol acetyl transferase reporter gene linked to the PRE-I-thymidine kinase or the human IL-4 promoter more than 10-fold in Jurkat cells.</clue>
+</event>
+<sentence id="S9">Promoter deletion studies revealed two additional <term id="T41" lex="NF-IL6_binding_site" sem="DNA_domain_or_region"><term id="T42" lex="NF-IL6" sem="Protein_molecule">NF-IL6</term> binding sites</term> located at positions -44 to -36 (<term id="T43" lex="C/EBP_proximal" sem="Protein_domain_or_region">C/EBP proximal</term>) and -87 to -79 (<term id="T44" lex="C/EBP_medial" sem="Protein_domain_or_region">C/EBP medial</term>), respectively.</sentence>
+<sentence id="S10">Our results demonstrate that <term id="T45" lex="NF-IL6" sem="Protein_molecule">NF-IL6</term> is involved in <term id="T46" lex="transcriptional_activation" sem="Other">transcriptional activation</term> of the <term id="T47" lex="human_IL-4_promoter" sem="DNA_domain_or_region"><term id="T48" lex="human_IL-4" sem="Protein_molecule">human IL-4</term> promoter</term> in <term id="T49" lex="T_cell" sem="Cell_natural">T cells</term>.</sentence>
+<event KT="Analysis" id="E17">
+<type class="Regulation"/>
+<theme idref="E18"/>
+<cause idref="T45"/>
+<clue>Our results <clueKT>demonstrate</clueKT> that NF-IL6 is <clueType>involved</clueType> <linkTheme>in</linkTheme> transcriptional activation of the human IL-4 promoter in T cells.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="T47"/>
+<clue>Our results demonstrate that NF-IL6 is involved in <clueType>transcriptional activation</clueType> <linkTheme>of</linkTheme> the human IL-4 promoter <clueLoc>in T cells</clueLoc>.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

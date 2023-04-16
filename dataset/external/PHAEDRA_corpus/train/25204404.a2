@@ -1,0 +1,13 @@
+T14	Potential_therapeutic_effect 87 94	treated
+T24	Potential_therapeutic_effect 215 232	prolongs survival
+T27	Potential_therapeutic_effect 572 574	in
+R1	is_equivalent Arg1:T5 Arg2:T8
+R4	Subject_Disorder Arg1:T6 Arg2:T2
+R6	Subject_Disorder Arg1:T34 Arg2:T35
+R7	Subject_Disorder Arg1:T17 Arg2:T18
+R8	Subject_Disorder Arg1:T26 Arg2:T10
+E10	Combination:T49 has_participant:T7 has_participant:T38
+E1	Potential_therapeutic_effect:T14 has_agent:T1 has_subject:T6 affects:T2
+E3	Potential_therapeutic_effect:T24 affects:T5 has_agent:T3
+E4	Potential_therapeutic_effect:T27 has_agent:T7 has_subject:T17
+E11	Potential_therapeutic_effect:T27 has_subject:T17 has_agent:E10

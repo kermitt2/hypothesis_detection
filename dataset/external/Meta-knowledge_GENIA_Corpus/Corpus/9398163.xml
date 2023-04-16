@@ -1,0 +1,201 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9398163" created="2007/03/09" creator="Maki Niihori"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9398163</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="ATF1" sem="Protein_molecule">ATF1</term> and <term id="T2" lex="CREB" sem="Protein_molecule">CREB</term> trans-activate a <term id="T3" lex="cell_cycle_regulated_histone_H4_gene" sem="DNA_domain_or_region"><term id="A5" lex="cell_cycle" sem="Other">cell cycle</term> regulated <term id="A8" sem="DNA_domain_or_region"><term id="T4" lex="histone_H4" sem="Protein_molecule">histone H4</term> gene</term></term> at a <term id="T5" lex="distal_nuclear_matrix_associated_promoter_element" sem="DNA_domain_or_region">distal nuclear matrix associated promoter element</term>.</sentence>
+<event id="E2">
+<type class="Regulation"/>
+<theme idref="A8"/>
+<cause idref="A5"/>
+<clue>ATF1 and CREB trans-activate a cell cycle <clueType>regulated</clueType> histone H4 gene at a distal nuclear matrix associated promoter element.</clue>
+</event>
+<event id="E1">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="T1"/>
+<clue>ATF1 and CREB <clueType>trans-activate</clueType> a cell cycle regulated histone H4 gene <clueLoc>at a distal nuclear matrix associated promoter element.</clueLoc></clue>
+</event>
+<event id="E24">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="T2"/>
+<clue>ATF1 and CREB <clueType>trans-activate</clueType> a cell cycle regulated histone H4 gene <clueLoc>at a distal nuclear matrix associated promoter element.</clueLoc></clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Proteins of the <term id="A100" sem="Protein_family_or_group">ATF/<term id="T6" lex="CREB" sem="Protein_molecule">CREB</term> class of <term id="T7" lex="transcription_factor" sem="Protein_family_or_group">transcription factors</term></term> stimulate gene expression of several <term id="T8" lex="cell_growth-related_gene" sem="DNA_family_or_group">cell growth-related genes</term> through <term id="T9" lex="protein_kinase_A-related_cAMP_response_element" sem="DNA_family_or_group">protein kinase A-related cAMP response elements</term>.</sentence>
+<event KT="Other" id="E4">
+<type class="Gene_expression"/>
+<theme idref="T8"/>
+<clue>Proteins of the ATF/CREB class of transcription factors stimulate <clueType>gene expression</clueType> of several cell growth-related genes through protein kinase A-related cAMP response elements.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Regulation"/>
+<theme idref="E4"/>
+<cause idref="A100"/>
+<clue>Proteins of the ATF/CREB class of transcription factors <clueType>stimulate</clueType> gene expression of several cell growth-related genes through protein kinase A-related cAMP response elements.</clue>
+</event>
+<event KT="Other" id="E3">
+<type class="Binding"/>
+<theme idref="T7"/>
+<theme idref="T9"/>
+<clue>Proteins of the ATF/CREB class of transcription factors stimulate gene expression of several cell growth-related genes through protein kinase A-related cAMP response elements.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Fact" id="E21">
+<type class="Regulation"/>
+<theme idref="E5"/>
+<cause idref="E3"/>
+<clue>Proteins of the ATF/CREB class of transcription factors stimulate gene expression of several cell growth-related genes <linkTheme>through</linkTheme> protein kinase A-related cAMP response elements.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S3">The <term id="T10" lex="promoter_activity" sem="Other">promoter activity</term> of <term id="T11" lex="cell_cycle_regulated_histone_H4_gene" sem="DNA_domain_or_region">cell cycle regulated <term id="A101" sem="DNA_family_or_group">histone H4 genes</term></term> is regulated by at least four <term id="T12" lex="principal_cis-acting_element" sem="DNA_family_or_group">principal cis-acting elements</term> which mediate <term id="T13" lex="G1/S_phase_control" sem="Other"><term id="A102" sem="Other">G1/S phase</term> control</term> and/or enhancement of transcription during the <term id="T14" lex="cell_cycle" sem="Other">cell cycle</term>.</sentence>
+<event KT="Other" id="E9">
+<type class="Transcription"/>
+<theme idref="A101"/>
+<clue>The promoter activity of cell cycle regulated histone H4 genes is regulated by at least four principal cis-acting elements which mediate G1/S phase control and/or enhancement of <clueType>transcription</clueType> during the cell cycle.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event KT="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E9"/>
+<cause idref="A102"/>
+<clue>The promoter activity of cell cycle regulated histone H4 genes is regulated by at least four principal cis-acting elements which mediate G1/S phase control and/or <clueType>enhancement</clueType> <linkTheme>of</linkTheme> transcription during the cell cycle.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Cellular_physiological_process"/>
+<theme idref="E9"/>
+<cause idref="A102"/>
+<clue>The promoter activity of cell cycle regulated histone H4 genes is regulated by at least four principal cis-acting elements which mediate G1/S phase <clueType>control</clueType> and/or enhancement of transcription during the cell cycle.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="T12"/>
+<clue>The promoter activity of cell cycle regulated histone H4 genes is regulated by at least four principal cis-acting elements which <clueType>mediate</clueType> G1/S phase control and/or enhancement of transcription <clueTime>during the cell cycle</clueTime>.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="T12"/>
+<clue>The promoter activity of cell cycle regulated histone H4 genes is regulated by at least four principal cis-acting elements which <clueType>mediate</clueType> G1/S phase control and/or enhancement of transcription <clueTime>during the cell cycle</clueTime>.</clue>
+</event>
+<event KT="Fact" id="E10">
+<type class="Regulation"/>
+<theme idref="T11"/>
+<cause idref="T12"/>
+<clue>The promoter activity of cell cycle regulated histone H4 genes is <clueType>regulated</clueType> <linkCause>by</linkCause> at least four principal cis-acting elements which mediate G1/S phase control and/or enhancement of transcription during the cell cycle.</clue>
+</event>
+<sentence id="S4">Using <term id="T15" lex="protein-DNA_interaction_assay" sem="Other">protein-DNA interaction assays</term> we show that the <term id="T16" lex="H4_promoter" sem="DNA_domain_or_region">H4 promoter</term> contains two <term id="A1" sem="DNA_domain_or_region">ATF/<term id="T17" lex="CREB" sem="Protein_molecule">CREB</term> recognition motifs</term> which interact with <term id="T18" lex="CREB" sem="Protein_molecule">CREB</term>, <term id="T19" lex="ATF1" sem="Protein_molecule">ATF1</term>, and <term id="T20" lex="ATF2" sem="Protein_molecule">ATF2</term> but not with <term id="T21" lex="ATF4/CREB2" sem="Protein_molecule">ATF4/CREB2</term>.</sentence>
+<event KT="Analysis" id="E11">
+<type class="Binding"/>
+<theme idref="A1"/>
+<theme idref="T18"/>
+<clue>Using protein-DNA interaction assays we <clueKT>show</clueKT> that the H4 promoter contains two ATF/CREB recognition motifs which <clueType>interact</clueType> <linkTheme>with</linkTheme> CREB, ATF1, and ATF2 but not with ATF4/CREB2.</clue>
+</event>
+<event KT="Analysis" id="E12">
+<type class="Binding"/>
+<theme idref="A1"/>
+<theme idref="T19"/>
+<clue>Using protein-DNA interaction assays we <clueKT>show</clueKT> that the H4 promoter contains two ATF/CREB recognition motifs which <clueType>interact</clueType> <linkTheme>with</linkTheme> CREB, ATF1, and ATF2 but not with ATF4/CREB2.</clue>
+</event>
+<event KT="Analysis" id="E13">
+<type class="Binding"/>
+<theme idref="A1"/>
+<theme idref="T20"/>
+<clue>Using protein-DNA interaction assays we <clueKT>show</clueKT> that the H4 promoter contains two ATF/CREB recognition motifs which <clueType>interact</clueType> <linkTheme>with</linkTheme> CREB, ATF1, and ATF2 but not with ATF4/CREB2.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E16">
+<type class="Binding"/>
+<theme idref="A1"/>
+<theme idref="T21"/>
+<clue>Using protein-DNA interaction assays we <clueKT>show</clueKT> that the H4 promoter contains two ATF/CREB recognition motifs which <clueType>interact</clueType> with CREB, ATF1, and ATF2 but <cluePolarity>not</cluePolarity> <linkTheme>with</linkTheme> ATF4/CREB2.</clue>
+</event>
+<sentence id="S5">One <term id="T22" lex="ATF/CRE_motif" sem="DNA_domain_or_region">ATF/CRE motif</term> is located in the <term id="T23" lex="distal_promoter" sem="DNA_domain_or_region">distal promoter</term> at the <term id="T24" lex="nuclear_matrix-associated_Site_IV" sem="DNA_domain_or_region">nuclear matrix-associated Site IV</term>, and the second motif is present in the <term id="T25" lex="proximal_promoter" sem="DNA_domain_or_region">proximal promoter</term> at <term id="T26" lex="Site_I" sem="DNA_domain_or_region">Site I</term>.</sentence>
+<sentence id="S6">Both <term id="T27" lex="ATF/CRE_motif" sem="DNA_domain_or_region">ATF/CRE motifs</term> overlap <term id="T28" lex="binding_sequence" sem="DNA_domain_or_region">binding sequences</term> for the <term id="T29" lex="multifunctional_YY1_transcription_factor" sem="Protein_molecule">multifunctional YY1 transcription factor</term>, which has previously been shown to be <term id="A3" sem="Cell_component">nuclear matrix</term> associated.</sentence>
+<event KT="Analysis" Source="Other" id="E23">
+<type class="Binding"/>
+<theme idref="T29"/>
+<theme idref="A3"/>
+<clue>Both ATF/CRE motifs overlap binding sequences for the multifunctional YY1 transcription factor, which has <clueSource>previously</clueSource> been <clueKT>shown</clueKT> to be nuclear matrix <clueType><clueKT>associated</clueKT></clueType>.</clue>
+</event>
+<sentence id="S7">Subnuclear fractionation reveals that there are two <term id="T30" lex="ATF1_isoform" sem="Protein_family_or_group"><term id="T31" lex="ATF1" sem="Protein_molecule">ATF1</term> isoforms</term> which appear to differ with respect to <term id="T43" lex="DNA_binding_activity" sem="Other"><term id="A2" sem="DNA_domain_or_region">DNA</term> binding activity</term> and partition selectively between <cons id="T32" lex="(AND nuclear_matrix_compartment nuclear_nonmatrix_compartment)" sem="(AND Cell_component Cell_component)"><frag id="F1">nuclear</frag> <frag id="F2">matrix</frag> and <frag id="F3">nonmatrix</frag> <frag id="F4">compartments</frag></cons>, consistent with the role of the <term id="T33" lex="nuclear_matrix" sem="Cell_component">nuclear matrix</term> in regulating <term id="T34" lex="gene_expression" sem="Other">gene expression</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E22">
+<type class="Binding"/>
+<theme idref="T30"/>
+<theme idref="A2"/>
+<clue>Subnuclear fractionation <clueKT>reveals</clueKT> that there are two ATF1 isoforms which <clueCL>appear</clueCL> to differ with respect to DNA <clueType>binding</clueType> activity and partition selectively between nuclear matrix and nonmatrix compartments, consistent with the role of the nuclear matrix in regulating gene expression.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Regulation"/>
+<theme idref="T34"/>
+<clue>Subnuclear fractionation reveals that there are two ATF1 isoforms which appear to differ with respect to DNA binding activity and partition selectively between nuclear matrix and nonmatrix compartments, consistent with the role of the nuclear matrix in <clueType>regulating</clueType> gene expression.</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Regulation"/>
+<theme idref="E17"/>
+<cause idref="T33"/>
+<clue>Subnuclear fractionation reveals that there are two ATF1 isoforms which appear to differ with respect to DNA binding activity and partition selectively between nuclear matrix and nonmatrix compartments, consistent with the <clueType>role of</clueType> the nuclear matrix in regulating gene expression.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E26">
+<type class="Localization"/>
+<theme idref="A2"/>
+<clue>Subnuclear fractionation reveals that there are two ATF1 isoforms which <clueKT><clueCL>appear</clueCL></clueKT> to differ with respect to DNA binding activity and <clueType>partition</clueType> selectively <clueLoc>between nuclear matrix and nonmatrix compartments</clueLoc>, consistent with the role of the nuclear matrix in regulating gene expression.</clue>
+</event>
+<event KT="Other" id="E25">
+<type class="Correlation"/>
+<theme idref="E6"/>
+<theme idref="E26"/>
+<clue>Subnuclear fractionation reveals that there are two ATF1 isoforms which appear to differ with respect to DNA binding activity and partition selectively between nuclear matrix and nonmatrix compartments, <clueType>consistent</clueType> with the role of the nuclear matrix in regulating gene expression.</clue>
+</event>
+<sentence id="S8">Site-directed mutational studies demonstrate that <term id="T35" lex="Site_I" sem="DNA_domain_or_region">Site I</term> and <term id="T36" lex="Site_IV" sem="DNA_domain_or_region">Site IV</term> together support <cons id="T37" lex="(AND ATF1-induced_trans-activation CREB-induced_trans-activation)" sem="(AND Other Other)"><frag id="F5">ATF1-</frag> and <frag id="F6">CREB-</frag><frag id="F7">induced trans-activation</frag></cons> of the <term id="T38" lex="H4_promoter" sem="DNA_domain_or_region">H4 promoter</term>.</sentence>
+<event KT="Other" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="T38"/>
+<cause idref="F5"/>
+<clue>Site-directed mutational studies demonstrate that Site I and Site IV together support ATF1- and CREB-<linkCause>induced</linkCause> <clueType>trans-activation</clueType> <linkTheme>of</linkTheme> the H4 promoter.</clue>
+</event>
+<event KT="Other" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="T38"/>
+<cause idref="F6"/>
+<clue>Site-directed mutational studies demonstrate that Site I and Site IV together support ATF1- and CREB-<linkCause>induced</linkCause> <clueType>trans-activation</clueType> <linkTheme>of</linkTheme> the H4 promoter.</clue>
+</event>
+<event KT="Analysis" id="E28">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="T36"/>
+<cause idref="T35"/>
+<clue><clueExperiment>Site-directed mutational studies</clueExperiment> <clueKT>demonstrate</clueKT> that Site I and Site IV together <clueType>support</clueType> ATF1- and CREB-induced trans-activation of the H4 promoter.</clue>
+</event>
+<event KT="Analysis" id="E29">
+<type class="Positive_regulation"/>
+<theme idref="E27"/>
+<cause idref="T36"/>
+<cause idref="T35"/>
+<clue><clueExperiment>Site-directed mutational studies</clueExperiment> <clueKT>demonstrate</clueKT> that Site I and Site IV together <clueType>support</clueType> ATF1- and CREB-induced trans-activation of the H4 promoter.</clue>
+</event>
+<sentence id="S9">Thus, our data establish that <term id="T39" lex="ATF/CREB_factor" sem="Protein_family_or_group">ATF/CREB factors</term> functionally modulate <term id="T40" lex="histone_H4_gene_transcription" sem="Other"><term id="T41" lex="histone_H4_gene" sem="DNA_domain_or_region">histone H4 gene</term> transcription</term> at <cons id="T42" lex="(AND distal_promoter_element proximal_promoter_element)" sem="(AND DNA_domain_or_region DNA_domain_or_region)"><frag id="F8"><term id="A11111" sem="DNA_domain_or_region">distal</term></frag> and <frag id="F9"><term id="A11112" sem="DNA_domain_or_region">proximal</term></frag> <frag id="F10"><term id="A11113" sem="DNA_domain_or_region">promoter elements</term></frag></cons>.</sentence>
+<event KT="Other" id="E30">
+<type class="Transcription"/>
+<theme idref="T41"/>
+<clue>Thus, our data establish that ATF/CREB factors functionally modulate histone H4 gene <clueType>transcription</clueType> at distal and proximal promoter elements.</clue>
+</event>
+<event KT="Other" id="E31">
+<type class="Regulation"/>
+<theme idref="E30"/>
+<cause idref="T39"/>
+<clue>Thus, our data establish that ATF/CREB factors functionally <clueType>modulate</clueType> histone H4 gene transcription at distal and proximal promoter elements.</clue>
+</event>
+<event KT="Analysis" id="E32">
+<type class="Positive_regulation"/>
+<theme idref="E31"/>
+<cause idref="A11111" idref1="A11113"/>
+<clue><clueKT>Thus</clueKT>, our data <clueKT>establish</clueKT> that ATF/CREB factors functionally modulate histone H4 gene transcription <linkCause>at</linkCause> distal and proximal promoter elements.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event KT="Analysis" id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E31"/>
+<cause idref="A11112" idref1="A11113"/>
+<clue><clueKT>Thus</clueKT>, our data <clueKT>establish</clueKT> that ATF/CREB factors functionally modulate histone H4 gene transcription <linkCause>at</linkCause> distal and proximal promoter elements.</clue>
+<comment>NO CLUETYPE</comment></event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

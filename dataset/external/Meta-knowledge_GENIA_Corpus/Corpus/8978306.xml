@@ -1,0 +1,262 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8978306" created="07/02/07" creator="Yumiko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8978306</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Engagement of the <term id="T1" lex="Lewis_X_antigen" sem="Carbohydrate">Lewis X antigen</term> (<term id="T2" lex="CD15" sem="Carbohydrate">CD15</term>) results in <term id="T3" lex="monocyte_activation" sem="Other"><term id="A1" sem="Cell_natural">monocyte</term> activation</term>.</sentence>
+<event id="E1">
+<type class="Physiological_process"/>
+<theme idref="A1"/>
+<clue>Engagement of the Lewis X antigen (CD15) results in monocyte <clueType>activation</clueType>.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T2"/>
+<clue>Engagement of the Lewis X antigen (CD15) <clueType>results</clueType> <linkTheme>in</linkTheme> monocyte activation.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">We previously reported that <term id="A3" sem="Cell_natural">monocyte</term> adhesion to <term id="T4" lex="tumor_necrosis_factor-alpha_(TNF-alpha)-treated_endothelial_cell" sem="Cell_cultured">tumor necrosis factor-alpha (<term id="T5" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term>)-treated <term id="T6" lex="endothelial_cell" sem="Cell_natural">endothelial cells</term></term> increased expression of <term id="A2" sem="Protein_molecule">tissue factor</term> and <term id="T7" lex="CD36" sem="Protein_molecule">CD36</term> on monocytes.</sentence>
+<event KT="Other" id="E3">
+<type class="Cell_adhesion"/>
+<theme idref="A3"/>
+<theme idref="T4"/>
+<clue>We previously reported that monocyte <clueType>adhesion</clueType> <linkTheme>to</linkTheme> tumor necrosis factor-alpha (TNF-alpha)-treated endothelial cells increased expression of tissue factor and CD36 on monocytes.</clue>
+</event>
+<event KT="Method" id="E4">
+<type class="Artificial_process"/>
+<theme idref="T5"/>
+<theme idref="T6"/>
+<clue>We previously reported that monocyte adhesion to tumor necrosis factor-alpha (TNF-alpha)-<clueType>treated</clueType> endothelial cells increased expression of tissue factor and CD36 on monocytes.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Gene_expression"/>
+<theme idref="A2"/>
+<clue>We previously reported that monocyte adhesion to tumor necrosis factor-alpha (TNF-alpha)-treated endothelial cells increased <clueType>expression</clueType> <linkTheme>of</linkTheme> tissue factor and CD36 <clueLoc>on monocytes</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E6">
+<type class="Gene_expression"/>
+<theme idref="T7"/>
+<clue>We previously reported that monocyte adhesion to tumor necrosis factor-alpha (TNF-alpha)-treated endothelial cells increased <clueType>expression</clueType> <linkTheme>of</linkTheme> tissue factor and CD36 <clueLoc>on monocytes</clueLoc>.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="E3"/>
+<clue>We <clueSource>previously</clueSource> <clueKT>reported</clueKT> that monocyte adhesion to tumor necrosis factor-alpha (TNF-alpha)-treated endothelial cells <clueType>increased</clueType> expression of tissue factor and CD36 <clueLoc>on monocytes</clueLoc>.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="E3"/>
+<clue>We <clueSource>previously</clueSource> <clueKT>reported</clueKT> that monocyte adhesion to tumor necrosis factor-alpha (TNF-alpha)-treated endothelial cells <clueType>increased</clueType> expression of tissue factor and CD36 <clueLoc>on monocytes</clueLoc>.</clue>
+</event>
+<sentence id="S3">Using immunological cross-linking to mimic receptor engagement by natural ligands, we now show that <term id="T8" lex="CD15" sem="Carbohydrate">CD15</term> (<term id="T9" lex="Lewis_X" sem="Carbohydrate">Lewis X</term>), a <term id="T10" lex="monocyte_counter-receptor" sem="Protein_molecule">monocyte counter-receptor</term> for <term id="T11" lex="endothelial_selectin" sem="Protein_family_or_group">endothelial selectins</term> may participate in this response.</sentence>
+<event CL="L1" KT="Analysis" id="E9" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="T8"/>
+<theme idref="E7"/>
+<clue><clueExperiment>Using immunological cross-linking to mimic receptor engagement by natural ligands</clueExperiment>, we now <clueKT>show</clueKT> that CD15 (Lewis X), a monocyte counter-receptor for endothelial selectins <clueCL>may</clueCL> <clueType>participate</clueType> <linkTheme>in</linkTheme> <corefTheme idref1="E7">this response</corefTheme>.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E10" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="T8"/>
+<theme idref="E8"/>
+<clue><clueExperiment>Using immunological cross-linking to mimic receptor engagement by natural ligands</clueExperiment>, we now <clueKT>show</clueKT> that CD15 (Lewis X), a monocyte counter-receptor for endothelial selectins <clueCL>may</clueCL> <clueType>participate</clueType> <linkTheme>in</linkTheme> <corefTheme idref1="E8">this response</corefTheme>.</clue>
+</event>
+<sentence id="S4">We used <term id="A5" sem="Protein_molecule">cytokine</term> production as a readout for <term id="T12" lex="monocyte_activation" sem="Other"><term id="A6" sem="Cell_natural">monocyte</term> activation</term> and found that <term id="T13" lex="CD15" sem="Carbohydrate">CD15</term> cross-linking induced <term id="T14" lex="TNF-alpha_release" sem="Other"><term id="T15" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term> release</term> from <term id="T16" lex="peripheral_blood_monocyte" sem="Cell_natural">peripheral blood monocytes</term> and cells from the <term id="T17" lex="monocytic_cell_line_MM6" sem="Cell_cultured">monocytic cell line MM6</term>.</sentence>
+<event id="E11">
+<type class="Gene_expression"/>
+<theme idref="A5"/>
+<clue>We used cytokine <clueType>production</clueType> as a readout for monocyte activation and found that CD15 cross-linking induced TNF-alpha release from peripheral blood monocytes and cells from the monocytic cell line MM6.</clue>
+</event>
+<event id="E12">
+<type class="Physiological_process"/>
+<theme idref="A6"/>
+<clue>We used cytokine production as a readout for monocyte <clueType>activation</clueType> and found that CD15 cross-linking induced TNF-alpha release from peripheral blood monocytes and cells from the monocytic cell line MM6.</clue>
+</event>
+<event id="E13">
+<type class="Localization"/>
+<theme idref="T15"/>
+<clue>We used cytokine production as a readout for monocyte activation and found that CD15 cross-linking induced TNF-alpha <clueType>release</clueType> <clueLoc>from peripheral blood monocytes</clueLoc> and cells from the monocytic cell line MM6.</clue>
+</event>
+<event id="E130">
+<type class="Localization"/>
+<theme idref="T15"/>
+<clue>We used cytokine production as a readout for monocyte activation and found that CD15 cross-linking induced TNF-alpha <clueType>release</clueType> from peripheral blood monocytes and <clueLoc>cells from the monocytic cell line MM6</clueLoc>.</clue>
+</event>
+<event id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="E15"/>
+<clue>We used cytokine production as a readout for monocyte activation and <clueKT>found</clueKT> that CD15 cross-linking <clueType>induced</clueType> TNF-alpha release from peripheral blood monocytes and cells from the monocytic cell line MM6.</clue>
+</event>
+<event id="E140">
+<type class="Positive_regulation"/>
+<theme idref="E130"/>
+<cause idref="E15"/>
+<clue>We used cytokine production as a readout for monocyte activation and <clueKT>found</clueKT> that CD15 cross-linking <clueType>induced</clueType> TNF-alpha release from peripheral blood monocytes and cells from the monocytic cell line MM6.</clue>
+</event>
+<event id="E15">
+<type class="Binding"/>
+<theme idref="T13"/>
+<clue>We used cytokine production as a readout for monocyte activation and found that CD15 <clueType>cross-linking</clueType> induced TNF-alpha release from peripheral blood monocytes and cells from the monocytic cell line MM6.</clue>
+</event>
+<sentence id="S5"><term id="T18" lex="Quantitative_reverse_transcriptase-polymerase_chain_reaction" sem="Other">Quantitative reverse transcriptase-polymerase chain reaction</term> (<term id="T20" lex="RT-PCR" sem="Other">RT-PCR</term>) showed an increase in steady-state <term id="T21" lex="TNF-alpha_mRNA" sem="RNA_molecule"><term id="T22" lex="TNF-alpha" sem="Protein_molecule">TNF-alpha</term> mRNA</term> after 3 to 4 hours of cross-linking.</sentence>
+<event KT="Other" id="E16">
+<type class="Transcription"/>
+<theme idref="T22"/>
+<clue><clueExperiment>Quantitative reverse transcriptase-polymerase chain reaction (RT-PCR)</clueExperiment> showed an increase in <clueTime>steady-state</clueTime> TNF-alpha <clueType>mRNA</clueType> after 3 to 4 hours of cross-linking.</clue>
+</event>
+<event KT="Analysis" id="E17">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<clue><clueExperiment>Quantitative reverse transcriptase-polymerase chain reaction (RT-PCR)</clueExperiment> <clueKT>showed</clueKT> an <clueType>increase</clueType> <linkTheme>in</linkTheme> steady-state TNF-alpha mRNA <clueTime>after 3 to 4 hours of cross-linking</clueTime>.</clue>
+</event>
+<sentence id="S6"><term id="T23" lex="CD15" sem="Carbohydrate">CD15</term> cross-linking also concomitantly increased <term id="T24" lex="interleukin-1_beta_(IL-1_beta)_mRNA" sem="RNA_molecule"><term id="T25" lex="interleukin-1_beta" sem="Protein_molecule">interleukin-1 beta</term> (<term id="T26" lex="IL-1_beta" sem="Protein_molecule">IL-1 beta</term>) mRNA</term>, while no apparent change was observed in the levels of <term id="T27" lex="beta-actin_mRNA" sem="RNA_molecule"><term id="A8" sem="Protein_molecule">beta-actin</term> mRNA</term>, indicating specificity.</sentence>
+<event id="E18">
+<type class="Binding"/>
+<theme idref="T23"/>
+<clue>CD15 <clueType>cross-linking</clueType> also concomitantly increased interleukin-1 beta (IL-1 beta) mRNA, while no apparent change was observed in the levels of beta-actin mRNA, indicating specificity.</clue>
+</event>
+<event id="E19">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="E18"/>
+<clue>CD15 cross-linking also concomitantly <clueType>increased</clueType> interleukin-1 beta (IL-1 beta) mRNA, while no apparent change was observed in the levels of beta-actin mRNA, indicating specificity.</clue>
+</event>
+<event id="E20">
+<type class="Transcription"/>
+<theme idref="T26"/>
+<clue>CD15 cross-linking also concomitantly increased interleukin-1 beta (IL-1 beta) <clueType>mRNA</clueType>, while no apparent change was observed in the levels of beta-actin mRNA, indicating specificity.</clue>
+</event>
+<event id="E21">
+<type class="Transcription"/>
+<theme idref="A8"/>
+<clue>CD15 cross-linking also concomitantly increased interleukin-1 beta (IL-1 beta) mRNA, while no apparent change was observed in the levels of beta-actin <clueType>mRNA</clueType>, indicating specificity.</clue>
+</event>
+<event CL="L2" KT="Analysis" Polarity="Negative" assertion="non-exist" id="E22">
+<type class="Regulation"/>
+<theme idref="E21"/>
+<clue>CD15 cross-linking also concomitantly increased interleukin-1 beta (IL-1 beta) mRNA, while <cluePolarity>no</cluePolarity> <clueKT><clueCL>apparent</clueCL></clueKT> <clueType>change</clueType> was observed <linkTheme>in</linkTheme> the levels of beta-actin mRNA, indicating specificity.</clue>
+</event>
+<sentence id="S7">To examine transcriptional regulation of <term id="T28" lex="cytokine_gene" sem="DNA_family_or_group">cytokine genes</term> by <term id="T29" lex="CD15" sem="Carbohydrate">CD15</term> engagement, a <term id="A4" sem="Protein_molecule">CAT plasmid reporter construct</term> containing <term id="T30" lex="IL-1_beta_promoter/enhancer_sequence" sem="DNA_family_or_group"><term id="T31" lex="IL-1_beta" sem="Protein_molecule">IL-1 beta</term> promoter/enhancer sequences</term> was introduced into <term id="T32" lex="MM6" sem="Cell_cultured">MM6</term>.</sentence>
+<event KT="Investigation" id="E23" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="T28"/>
+<cause idref="T29"/>
+<clue><clueKT>To examine</clueKT> <clueType>transcriptional regulation</clueType> <linkTheme>of</linkTheme> cytokine genes <linkCause>by</linkCause> CD15 engagement, a CAT plasmid reporter construct containing IL-1 beta promoter/enhancer sequences was introduced into MM6.</clue>
+</event>
+<event KT="Method" id="E24">
+<type class="Artificial_process"/>
+<theme idref="A4"/>
+<theme idref="T32"/>
+<clue>To examine transcriptional regulation of cytokine genes by CD15 engagement, a CAT plasmid reporter construct containing IL-1 beta promoter/enhancer sequences was <clueType>introduced</clueType> <linkTheme>into</linkTheme> MM6.</clue>
+</event>
+<sentence id="S8">Subsequent cross-linking of <term id="T33" lex="CD15" sem="Carbohydrate">CD15</term> increased <term id="T34" lex="CAT_activity" sem="Other"><term id="T35" lex="CAT" sem="Protein_molecule">CAT</term> activity</term>.</sentence>
+<event id="E25">
+<type class="Binding"/>
+<theme idref="T33"/>
+<clue>Subsequent <clueType>cross-linking</clueType> <linkTheme>of</linkTheme> CD15 increased CAT activity.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation"/>
+<theme idref="T35"/>
+<cause idref="E25"/>
+<clue>Subsequent cross-linking of CD15 <clueType>increased</clueType> CAT activity.</clue>
+</event>
+<sentence id="S9"><term id="T36" lex="CD15" sem="Carbohydrate">CD15</term> engagement by <term id="T37" lex="monoclonal_antibody" sem="Protein_family_or_group">monoclonal antibody</term> also attenuated <term id="T38" lex="IL-1_beta" sem="Protein_molecule">IL-1 beta</term> transcript degradation, demonstrating that signaling via <term id="T39" lex="CD15" sem="Carbohydrate">CD15</term> also had <term id="T40" lex="posttranscriptional_effect" sem="Other">posttranscriptional effects</term>.</sentence>
+<event id="E27">
+<type class="Regulation"/>
+<theme idref="T36"/>
+<cause idref="T37"/>
+<clue>CD15 <clueType>engagement</clueType> <linkCause>by</linkCause> monoclonal antibody also attenuated IL-1 beta transcript degradation, demonstrating that signaling via CD15 also had posttranscriptional effects.</clue>
+</event>
+<event id="E28">
+<type class="Negative_regulation"/>
+<theme idref="T38"/>
+<clue>CD15 engagement by monoclonal antibody also attenuated IL-1 beta <clueType>transcript degradation</clueType>, demonstrating that signaling via CD15 also had posttranscriptional effects.</clue>
+</event>
+<event id="E29">
+<type class="Negative_regulation"/>
+<theme idref="E28"/>
+<cause idref="E27"/>
+<clue>CD15 engagement by monoclonal antibody also <clueType>attenuated</clueType> IL-1 beta transcript degradation, demonstrating that signaling via CD15 also had posttranscriptional effects.</clue>
+</event>
+<event KT="Analysis" id="E30">
+<type class="Regulation"/>
+<cause idref="E31"/>
+<clue>CD15 engagement by monoclonal antibody also attenuated IL-1 beta transcript degradation, <clueKT>demonstrating</clueKT> that signaling via CD15 also had <clueType>posttranscriptional effects</clueType>.</clue>
+<comment>NO THEME</comment></event>
+<event KT="Other" id="E31">
+<type class="Cell_communication"/>
+<theme idref="T39"/>
+<clue>CD15 engagement by monoclonal antibody also attenuated IL-1 beta transcript degradation, demonstrating that <clueType>signaling</clueType> <linkTheme>via</linkTheme> CD15 also had posttranscriptional effects.</clue>
+</event>
+<sentence id="S10"><term id="A7" sem="Organic_compound_other">Nuclear extracts</term> of anti-<term id="T41" lex="CD15_cross-linked_cell" sem="Cell_natural"><term id="T42" lex="CD15" sem="Carbohydrate">CD15</term> cross-linked cells</term> demonstrated enhanced levels of the <term id="T43" lex="transcriptional_factor_activator_protein-1" sem="Protein_molecule">transcriptional factor activator protein-1</term>, minimally changed <term id="T44" lex="nuclear_factor-kappa_B" sem="Protein_molecule">nuclear factor-kappa B</term>, and did not affect <term id="T45" lex="SV40_promoter_specific_protein-1" sem="Protein_molecule"><term id="T46" lex="SV40_promoter" sem="DNA_domain_or_region">SV40 promoter</term> specific protein-1</term>.</sentence>
+<event KT="Analysis" id="E32">
+<type class="Positive_regulation"/>
+<theme idref="T43"/>
+<cause idref="A7"/>
+<clue>Nuclear extracts <clueLoc>of anti-CD15 cross-linked cells</clueLoc> <clueKT>demonstrated</clueKT> <clueType>enhanced</clueType> levels of the transcriptional factor activator protein-1, minimally changed nuclear factor-kappa B, and did not affect SV40 promoter specific protein-1.</clue>
+</event>
+<event Manner="Low" id="E33">
+<type class="Regulation"/>
+<theme idref="T44"/>
+<cause idref="A7"/>
+<clue>Nuclear extracts <clueLoc>of anti-CD15 cross-linked cells</clueLoc> demonstrated enhanced levels of the transcriptional factor activator protein-1, <clueManner>minimally</clueManner> <clueType>changed</clueType> nuclear factor-kappa B, and did not affect SV40 promoter specific protein-1.</clue>
+<comment>NER T44 MOD</comment></event>
+<event Polarity="Negative" assertion="non-exist" id="E34">
+<type class="Regulation"/>
+<theme idref="T45"/>
+<cause idref="A7"/>
+<clue>Nuclear extracts <clueLoc>of anti-CD15 cross-linked cells</clueLoc> demonstrated enhanced levels of the transcriptional factor activator protein-1, minimally changed nuclear factor-kappa B, and did <cluePolarity>not</cluePolarity> <clueType>affect</clueType> SV40 promoter specific protein-1.</clue>
+</event>
+<sentence id="S11">We conclude that engagement of <term id="T47" lex="CD15" sem="Carbohydrate">CD15</term> on monocytes results in <term id="T48" lex="monocyte_activation" sem="Other"><term id="A9" sem="Cell_natural">monocyte</term> activation</term>.</sentence>
+<event KT="Other" id="E35">
+<type class="Correlation"/>
+<theme idref="T47"/>
+<clue>We conclude that <clueType>engagement</clueType> <linkTheme>of</linkTheme> CD15 <clueLoc>on monocytes</clueLoc> results in monocyte activation.</clue>
+</event>
+<event KT="Analysis" id="E36">
+<type class="Positive_regulation"/>
+<theme idref="E37"/>
+<cause idref="E35"/>
+<clue>We <clueKT>conclude</clueKT> that engagement of CD15 on monocytes <clueType>results</clueType> <linkTheme>in</linkTheme> monocyte activation.</clue>
+</event>
+<event KT="Other" id="E37">
+<type class="Physiological_process"/>
+<theme idref="A9"/>
+<clue>We conclude that engagement of CD15 on monocytes results in monocyte <clueType>activation</clueType>.</clue>
+</event>
+<sentence id="S12">In addition to its well-recognized adhesive role, <term id="T49" lex="CD15" sem="Carbohydrate">CD15</term> may function as an important signaling molecule capable of initiating <term id="T50" lex="proinflammatory_event" sem="Other">proinflammatory events</term> in <term id="T51" lex="monocyte" sem="Cell_natural">monocytes</term> that come into contact with <term id="T52" lex="activated_endothelium" sem="Tissue_natural">activated <term id="A11" sem="Tissue_natural">endothelium</term></term>.</sentence>
+<event KT="Other" id="E38" uncertainty="probable">
+<type class="Localization"/>
+<theme idref="T49"/>
+<clue>In addition to its well-recognized adhesive role, CD15 may function as an important <clueType>signaling</clueType> molecule capable of initiating proinflammatory events <clueLoc>in monocytes</clueLoc> that come into contact with activated endothelium.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E39" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E40"/>
+<cause idref="E38"/>
+<clue>In addition to its well-recognized adhesive role, CD15 <clueCL>may</clueCL> function as an important signaling molecule <clueKT>capable</clueKT> of <clueType>initiating</clueType> proinflammatory events <clueLoc>in monocytes</clueLoc> that come into contact with activated endothelium.</clue>
+</event>
+<event KT="Other" id="E40">
+<type/>
+<theme idref="T51"/>
+<clue>In addition to its well-recognized adhesive role, CD15 may function as an important signaling molecule capable of initiating <clueType>proinflammatory events</clueType> <linkTheme>in</linkTheme> monocytes that come into contact with activated endothelium.</clue>
+<comment>SOO</comment></event>
+<event KT="Other" id="E41">
+<type class="Physiological_process"/>
+<theme idref="A11"/>
+<clue>In addition to its well-recognized adhesive role, CD15 may function as an important signaling molecule capable of initiating proinflammatory events in monocytes that come into contact with <clueType>activated</clueType> endothelium.</clue>
+</event>
+<event KT="Other" id="E42">
+<type class="Correlation"/>
+<theme idref="E40"/>
+<theme idref="E41"/>
+<clue>In addition to its well-recognized adhesive role, CD15 may function as an important signaling molecule capable of initiating proinflammatory events in monocytes that come into <clueType>contact</clueType> <linkTheme>with</linkTheme> activated endothelium.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

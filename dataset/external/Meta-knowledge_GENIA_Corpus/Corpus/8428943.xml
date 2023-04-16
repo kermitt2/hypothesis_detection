@@ -1,0 +1,150 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=8428943" created="24/10/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>8428943</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="ras_protein_activity" sem="Other"><term id="T2" lex="ras_protein" sem="Protein_molecule">ras protein</term> activity</term> is essential for <term id="T3" lex="T-cell_antigen_receptor_signal_transduction" sem="Other"><term id="T4" lex="T-cell_antigen_receptor" sem="Protein_family_or_group">T-cell antigen receptor</term> signal transduction</term>.</sentence>
+<event id="E1">
+<type class="Cell_communication"/>
+<theme idref="T4"/>
+<clue>ras protein activity is essential for T-cell antigen receptor <clueType>signal transduction</clueType>.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="T2"/>
+<clue>ras protein activity is <clueType>essential</clueType> <linkTheme>for</linkTheme> T-cell antigen receptor signal transduction.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">In a <term id="T5" lex="Jurkat_cell_model" sem="Cell_cultured">Jurkat cell model</term> of <term id="T6" lex="T-cell_activation" sem="Other"><term id="A1" sem="Cell_natural">T-cell</term> activation</term> an <term id="T7" lex="interleukin-2_promoter/reporter_gene_construct" sem="DNA_molecule"><term id="T8" lex="interleukin-2" sem="Protein_molecule">interleukin-2</term> promoter/reporter gene construct</term> was activated by <term id="T9" lex="antigen_receptor_agonism" sem="Other"><term id="T10" lex="antigen_receptor" sem="Protein_family_or_group">antigen receptor</term> agonism</term> in combination with the <term id="T11" lex="lymphokine" sem="Protein_family_or_group">lymphokine</term> <term id="T12" lex="interleukin-1" sem="Protein_molecule">interleukin-1</term>.</sentence>
+<event id="E32">
+<type class="Positive_regulation"/>
+<theme idref="T7"/>
+<clue>In a Jurkat cell model of T-cell activation an interleukin-2 promoter/reporter gene construct was <clueType>activated</clueType> by antigen receptor agonism in combination with the lymphokine interleukin-1.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T7"/>
+<cause idref="T9"/>
+<cause idref="T12"/>
+<clue><clueLoc>In a Jurkat cell</clueLoc> model of T-cell activation an interleukin-2 promoter/reporter gene construct was <clueType>activated</clueType> <linkCause>by</linkCause> antigen receptor agonism <linkCause>in combination with</linkCause> the lymphokine interleukin-1.</clue>
+</event>
+<event id="E5">
+<type class="Physiological_process"/>
+<theme idref="A1"/>
+<clue><clueLoc>In a Jurkat cell</clueLoc> model of T-cell <clueType>activation</clueType> an interleukin-2 promoter/reporter gene construct was activated by antigen receptor agonism in combination with the lymphokine interleukin-1.</clue>
+</event>
+<sentence id="S3">Antigen receptor signals could be mimicked by <term id="T13" lex="suboptimal_activation" sem="Other">suboptimal activation</term> of <term id="T14" lex="protein_kinase_C" sem="Protein_molecule">protein kinase C</term> (<term id="T15" lex="PKC" sem="Protein_molecule">PKC</term>) with <term id="T16" lex="phorbol_ester" sem="Organic_compound_other">phorbol esters</term> in combination with <term id="T17" lex="calcium_mobilization" sem="Other"><term id="T18" lex="calcium" sem="Element">calcium</term> mobilization</term> by an <term id="T19" lex="ionophore" sem="Organic_compound_other">ionophore</term>.</sentence>
+<event id="E106">
+<type class="Localization"/>
+<theme idref="T18"/>
+<clue>Antigen receptor signals could be mimicked by suboptimal activation of protein kinase C (PKC) with phorbol esters in combination with calcium <clueType>mobilization</clueType> by an ionophore.</clue>
+</event>
+<event id="E107">
+<type class="Positive_regulation"/>
+<theme idref="E106"/>
+<cause idref="T19"/>
+<clue>Antigen receptor signals could be mimicked by suboptimal activation of protein kinase C (PKC) with phorbol esters in combination with calcium mobilization <linkCause>by</linkCause> an ionophore.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T15"/>
+<cause idref="T16"/>
+<cause idref="E107"/>
+<clue>Antigen receptor signals could be mimicked by suboptimal <clueType>activation</clueType> <linkTheme>of</linkTheme> protein kinase C (PKC) <linkCause>with</linkCause> phorbol esters <linkCause>in combination with</linkCause> calcium mobilization by an ionophore.</clue>
+</event>
+<event id="E30">
+<type class="Positive_regulation"/>
+<theme idref="E32"/>
+<cause idref="E7"/>
+<clue><corefTheme>Antigen receptor signals</corefTheme> could be <clueType>mimicked</clueType> <linkCause>by</linkCause> suboptimal activation of protein kinase C (PKC) with phorbol esters in combination with calcium mobilization by an ionophore.</clue>
+<comment>cluetype in E4</comment></event>
+<sentence id="S4">In cotransfection experiments, <term id="T20" lex="oncogenic_rat" sem="Multicellular_organism_genetically_modified">oncogenic rats</term> obviated the need for <term id="T21" lex="PKC_stimulation" sem="Other"><term id="T22" lex="PKC" sem="Protein_molecule">PKC</term> stimulation</term> but did not replace either the <term id="A2" sem="Other"><term id="T23" lex="calcium" sem="Element">calcium</term> signal</term> or <term id="T24" lex="interleukin-1" sem="Protein_molecule">interleukin-1</term>.</sentence>
+<event KT="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T22"/>
+<clue>In cotransfection experiments, oncogenic rats obviated the need for PKC <clueType>stimulation</clueType> but did not replace either the calcium signal or interleukin-1.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E9">
+<type class="Positive_regulation"/>
+<cause idref="E8"/>
+<clue>In cotransfection experiments, <clueLoc>oncogenic rats</clueLoc> <clueType><cluePolarity>obviated</cluePolarity></clueType> the need for PKC stimulation but did not replace either the calcium signal or interleukin-1.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="E32"/>
+<clue>In cotransfection experiments, <clueLoc>oncogenic rats obviated the need for PKC stimulation</clueLoc> but did <cluePolarity>not</cluePolarity> <clueType>replace</clueType> either the calcium signal or interleukin-1.</clue>
+</event>
+<sentence id="S5"><term id="A21" sem="Protein_molecule">Activated ras</term> expression also replaced the requirement for <term id="T27" lex="PKC_stimulation" sem="Other"><term id="T28" lex="PKC" sem="Protein_molecule">PKC</term> stimulation</term> in activation of the <term id="T29" lex="T-cell_transcription_factor" sem="Protein_molecule">T-cell transcription factor</term> <term id="T30" lex="NF-AT" sem="Protein_molecule">NF-AT</term>.</sentence>
+<event id="E12">
+<type class="Gene_expression"/>
+<theme idref="A21"/>
+<clue>Activated ras <clueType>expression</clueType> also replaced the requirement for PKC stimulation in activation of the T-cell transcription factor NF-AT.</clue>
+<comment>NER: T26 DEL, T25 DEL</comment></event>
+<event id="E14">
+<type class="Positive_regulation"/>
+<theme idref="T30"/>
+<cause idref="A21"/>
+<clue>Activated ras expression also replaced the requirement for PKC stimulation in <clueType>activation</clueType> <linkTheme>of</linkTheme> the T-cell transcription factor NF-AT.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="T28"/>
+<clue>Activated ras expression also replaced the requirement for PKC <clueType>stimulation</clueType> in activation of the T-cell transcription factor NF-AT.</clue>
+</event>
+<event id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T30"/>
+<cause idref="E15"/>
+<clue>Activated ras expression also replaced the requirement for PKC stimulation in <clueType>activation</clueType> <linkTheme>of</linkTheme> the T-cell transcription factor NF-AT.</clue>
+</event>
+<sentence id="S6">A <term id="T31" lex="dominant_inhibitory_ras_mutant" sem="Protein_molecule">dominant inhibitory ras mutant</term> specifically blocked <term id="A6" sem="Other">antigen receptor agonism</term>, indicating that <term id="T32" lex="ras_activity" sem="Other"><term id="T33" lex="ras" sem="Protein_molecule">ras</term> activity</term> is required for <term id="T34" lex="antigen_receptor_signaling" sem="Other"><term id="T35" lex="antigen_receptor" sem="Protein_family_or_group">antigen receptor</term> signaling</term>.</sentence>
+<event id="E18">
+<type class="Negative_regulation"/>
+<theme idref="A6"/>
+<cause idref="T31"/>
+<clue>A dominant inhibitory ras mutant specifically <clueType>blocked</clueType> antigen receptor agonism, indicating that ras activity is required for antigen receptor signaling.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="T34"/>
+<cause idref="T33"/>
+<clue>A dominant inhibitory ras mutant specifically blocked antigen receptor agonism, <clueKT><clueCL>indicating</clueCL></clueKT> that ras activity is <clueType>required</clueType> <linkTheme>for</linkTheme> antigen receptor signaling.</clue>
+</event>
+<sentence id="S7">In addition, an <term id="A8" sem="Other">inhibitor of <term id="T36" lex="PKC" sem="Protein_molecule">PKC</term></term> blocked both activated <term id="T37" lex="ras" sem="Protein_molecule">ras</term> and <term id="T38" lex="phorbol_ester_stimulation" sem="Other"><term id="T39" lex="phorbol_ester" sem="Organic_compound_other">phorbol ester</term> stimulation</term>, suggesting a role for <term id="T40" lex="ras" sem="Protein_molecule">ras</term> upstream of <term id="T41" lex="PKC" sem="Protein_molecule">PKC</term>.</sentence>
+<event KT="Other" id="E20">
+<type class="Positive_regulation"/>
+<cause idref="T39"/>
+<clue>In addition, an inhibitor of PKC blocked both activated ras and phorbol ester <clueType>stimulation</clueType>, suggesting a role for ras upstream of PKC.</clue>
+</event>
+<event KT="Other" id="E50">
+<type class="Positive_regulation"/>
+<theme idref="T37"/>
+<clue>In addition, an inhibitor of PKC blocked both <clueType>activated</clueType> ras and phorbol ester stimulation, suggesting a role for ras upstream of PKC.</clue>
+</event>
+<event KT="Other" id="E51">
+<type class="Positive_regulation"/>
+<cause idref="E50"/>
+<clue>In addition, an inhibitor of PKC blocked both activated ras and phorbol ester <clueType>stimulation</clueType>, suggesting a role for ras upstream of PKC.</clue>
+</event>
+<event id="E21">
+<type class="Negative_regulation"/>
+<theme idref="E20"/>
+<cause idref="A8"/>
+<clue>In addition, an inhibitor of PKC <clueType>blocked</clueType> both activated ras and phorbol ester stimulation, suggesting a role for ras upstream of PKC.</clue>
+<comment>TPS: A8</comment></event>
+<event id="E22">
+<type class="Negative_regulation"/>
+<theme idref="E51"/>
+<cause idref="A8"/>
+<clue>In addition, an inhibitor of PKC <clueType>blocked</clueType> both activated ras and phorbol ester stimulation, suggesting a role for ras upstream of PKC.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E23" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="T41"/>
+<cause idref="T40"/>
+<clue>In addition, an inhibitor of PKC blocked both activated ras and phorbol ester stimulation, <clueKT><clueCL>suggesting</clueCL></clueKT> a <clueType>role</clueType> <linkCause>for</linkCause> ras <clueType>upstream</clueType> <linkTheme>of</linkTheme> PKC.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

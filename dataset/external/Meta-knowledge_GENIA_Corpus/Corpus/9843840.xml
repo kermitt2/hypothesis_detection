@@ -1,0 +1,208 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9843840" created="19/05/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9843840</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Activation of <term id="T1" lex="human_macrophage" sem="Cell_natural">human macrophages</term> by <term id="T2" lex="mechanical_ventilation" sem="Other">mechanical ventilation</term> in vitro.</sentence>
+<event KT="Investigation" id="E1">
+<type class="Physiological_process"/>
+<theme idref="T1"/>
+<clue><clueType>Activation</clueType> <linkTheme>of</linkTheme> human macrophages <linkCause>by</linkCause> mechanical ventilation in vitro.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2"><term id="T3" lex="positive-pressure_mechanical_ventilation" sem="Other">Positive-pressure <term id="T4" lex="mechanical_ventilation" sem="Other">mechanical ventilation</term></term> supports <term id="T5" lex="gas_exchange" sem="Other">gas exchange</term> in <term id="T6" lex="patient" sem="Multicellular_organism_natural">patients</term> with <term id="T7" lex="respiratory_failure" sem="Other">respiratory failure</term> but is also responsible for significant <term id="T8" lex="lung_injury" sem="Other"><term id="T9" lex="lung" sem="Body_region">lung</term> injury</term>.</sentence>
+<event KT="Fact" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="T5"/>
+<cause idref="T3"/>
+<clue>Positive-pressure mechanical ventilation <clueType>supports</clueType> gas exchange <clueLoc>in patients with respiratory failure</clueLoc> but is also responsible for significant lung injury.</clue>
+</event>
+<event KT="Fact" id="E4">
+<type class="Regulation"/>
+<theme idref="T8"/>
+<cause idref="T3"/>
+<clue>Positive-pressure mechanical ventilation supports gas exchange in patients with respiratory failure but is also <clueType>responsible</clueType> <linkTheme>for</linkTheme> significant <clueLoc>lung</clueLoc> injury.</clue>
+</event>
+<sentence id="S3">In this study, we have developed an in vitro model in which isolated <term id="T10" lex="lung_cell" sem="Cell_natural"><term id="T11" lex="lung" sem="Body_region">lung</term> cells</term> can be submitted to a <term id="T12" lex="prolonged_cyclic_pressure-stretching_strain" sem="Cell_cultured">prolonged cyclic pressure-stretching strain</term> resembling that of conventional <term id="T13" lex="mechanical_ventilation" sem="Other">mechanical ventilation</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E5">
+<type class="Cell_differentiation"/>
+<theme idref="T10"/>
+<theme idref="T12"/>
+<clue>In this study, we have developed an in vitro model in which isolated lung cells <clueKT><clueCL>can</clueCL></clueKT> be <clueType>submitted</clueType> <linkTheme>to</linkTheme> a prolonged cyclic pressure-stretching strain resembling that of conventional mechanical ventilation.</clue>
+</event>
+<event KT="Analysis" id="E6">
+<type class="Correlation"/>
+<theme idref="E5"/>
+<theme idref="T13"/>
+<clue>In this study, we have developed an in vitro model in which isolated lung cells can be submitted to a prolonged cyclic pressure-stretching strain <clueType><clueKT>resembling</clueKT></clueType> that of conventional mechanical ventilation.</clue>
+</event>
+<sentence id="S4">In this model, cells cultured on a <term id="T14" lex="Silastic_membrane" sem="Other">Silastic membrane</term> were elongated up to 7% of their initial diameter, corresponding to a 12% increase in cell surface.</sentence>
+<event id="E8">
+<type class="Positive_regulation"/>
+<theme idref="T10"/>
+<clue>In this model, <corefTheme>cells</corefTheme> cultured <clueExperiment>on a Silastic membrane</clueExperiment> were <clueType>elongated</clueType> up to 7% of their initial diameter, corresponding to a 12% increase in cell surface.</clue>
+</event>
+<sentence id="S5">The <term id="T15" lex="lung_macrophage" sem="Cell_natural"><term id="T16" lex="lung" sem="Body_region">lung</term> macrophage</term> was identified as the main cellular source for critical <term id="T17" lex="inflammatory_mediator" sem="Protein_family_or_group">inflammatory mediators</term> such as <term id="T18" lex="tumor_necrosis_factor-alpha" sem="Protein_molecule">tumor necrosis factor-alpha</term>, the <term id="T19" lex="chemokine" sem="Protein_family_or_group">chemokines</term> <cons id="T20" lex="(AND interleukin_(IL)-8 interleukin_(IL)_-6)" sem="(AND Protein_molecule Protein_molecule)">interleukin (<frag id="F1"><term id="A3" sem="Protein_molecule">IL</term></frag>)<frag id="F2"><term id="A4" sem="Protein_molecule">-8</term></frag> and <frag id="F3"><term id="A5" sem="Protein_molecule">-6</term></frag></cons>, and <term id="T21" lex="matrix_metalloproteinase-9" sem="Protein_molecule">matrix metalloproteinase-9</term> in this model system of <term id="T22" lex="mechanical_ventilation" sem="Other">mechanical ventilation</term>.</sentence>
+<event KT="Analysis" id="E9">
+<type class="Gene_expression"/>
+<theme idref="T18"/>
+<clue>The <clueLoc>lung macrophage</clueLoc> was <clueKT>identified</clueKT> as the main cellular <clueType>source</clueType> <linkTheme>for</linkTheme> <corefTheme>critical inflammatory mediators</corefTheme> such as tumor necrosis factor-alpha, the chemokines interleukin (IL)-8 and -6, and matrix metalloproteinase-9 <clueExperiment>in this model system of mechanical ventilation</clueExperiment>.</clue>
+<comment>CAUTION, source</comment></event>
+<event KT="Analysis" id="E10">
+<type class="Gene_expression"/>
+<theme idref="F1" idref1="F2"/>
+<clue>The <clueLoc>lung macrophage</clueLoc> was <clueKT>identified</clueKT> as the main cellular <clueType>source</clueType> <linkTheme>for</linkTheme> <corefTheme>critical inflammatory mediators</corefTheme> such as tumor necrosis factor-alpha, the chemokines interleukin (IL)-8 and -6, and matrix metalloproteinase-9 <clueExperiment>in this model system of mechanical ventilation</clueExperiment>.</clue>
+<comment>CAUTION, source</comment></event>
+<event KT="Analysis" id="E11">
+<type class="Gene_expression"/>
+<theme idref="F1" idref1="F4"/>
+<clue>The <clueLoc>lung macrophage</clueLoc> was <clueKT>identified</clueKT> as the main cellular <clueType>source</clueType> <linkTheme>for</linkTheme> <corefTheme>critical inflammatory mediators</corefTheme> such as tumor necrosis factor-alpha, the chemokines interleukin (IL)-8 and -6, and matrix metalloproteinase-9 <clueExperiment>in this model system of mechanical ventilation</clueExperiment>.</clue>
+<comment>CAUTION, source</comment></event>
+<event KT="Analysis" id="E12">
+<type class="Gene_expression"/>
+<theme idref="T21"/>
+<clue>The <clueLoc>lung macrophage</clueLoc> was <clueKT>identified</clueKT> as the main cellular <clueType>source</clueType> <linkTheme>for</linkTheme> <corefTheme>critical inflammatory mediators</corefTheme> such as tumor necrosis factor-alpha, the chemokines interleukin (IL)-8 and -6, and matrix metalloproteinase-9 <clueExperiment>in this model system of mechanical ventilation</clueExperiment>.</clue>
+<comment>CAUTION, source</comment></event>
+<sentence id="S6">These mediators were measured in supernatants from <term id="T23" lex="ventilated_alveolar_macrophage" sem="Cell_natural">ventilated <term id="A6" sem="Cell_natural">alveolar macrophages</term></term>, <term id="T24" lex="monocyte-derived_macrophage" sem="Cell_natural">monocyte-derived macrophages</term>, and <term id="T25" lex="promonocytic_THP-1_cell" sem="Cell_cultured">promonocytic THP-1 cells</term>.</sentence>
+<event KT="Method" id="E13">
+<type class="Artificial_process"/>
+<theme idref="A6"/>
+<clue>These mediators were measured in supernatants from <clueType>ventilated</clueType> alveolar macrophages, monocyte-derived macrophages, and promonocytic THP-1 cells.</clue>
+</event>
+<sentence id="S7"><term id="T26" lex="nuclear_factor-kappaB" sem="Protein_complex">Nuclear factor-kappaB</term> was found to be activated in <term id="T27" lex="ventilated_macrophage" sem="Cell_natural">ventilated <term id="A7" sem="Cell_natural">macrophages</term></term>.</sentence>
+<event id="E18">
+<type class="Positive_regulation"/>
+<theme idref="T26"/>
+<clue>Nuclear factor-kappaB was <clueKT>found</clueKT> to be <clueType>activated</clueType> <clueLoc>in ventilated macrophages</clueLoc>.</clue>
+</event>
+<event KT="Method" id="E19">
+<type class="Artificial_process"/>
+<theme idref="A7"/>
+<clue>Nuclear factor-kappaB was found to be activated in <clueType>ventilated</clueType> macrophages.</clue>
+</event>
+<sentence id="S8"><term id="T28" lex="synergistic_proinflammatory_effect" sem="Other">Synergistic proinflammatory effects</term> of <term id="T29" lex="mechanical_stress" sem="Other">mechanical stress</term> and molecules such as <term id="T30" lex="bacterial_endotoxin" sem="Lipid">bacterial endotoxin</term> were observed, suggesting that <term id="T31" lex="mechanical_ventilation" sem="Other">mechanical ventilation</term> might be particularly deleterious in <cons id="C1" lex="(OR preinjured_lung infected_lung)" sem="(OR Tissue_natural Tissue_natural)"><frag id="F4">preinjured</frag> or <frag id="F5">infected</frag> <frag id="F6">lungs</frag></cons>.</sentence>
+<event id="E20">
+<type class="Negative_regulation"/>
+<cause idref="T29"/>
+<cause idref="T30"/>
+<clue><clueType>Synergistic proinflammatory effects</clueType> <linkCause>of</linkCause> mechanical stress and molecules such as bacterial endotoxin were <clueKT>observed</clueKT>, suggesting that mechanical ventilation might be particularly deleterious in preinjured or infected lungs.</clue>
+<comment>NER: T30 sem mod, Protein_family_or_group -&gt; Lipid</comment></event>
+<event CL="L1" KT="Analysis" id="E21" uncertainty="probable">
+<type class="Negative_regulation"/>
+<theme idref="F4" idref1="F6"/>
+<cause idref="T31"/>
+<clue>Synergistic proinflammatory effects of mechanical stress and molecules such as bacterial endotoxin were observed, <clueKT>suggesting</clueKT> that mechanical ventilation <clueCL>might</clueCL> be particularly <clueType>deleterious</clueType> <linkTheme>in</linkTheme> preinjured or infected lungs.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E2">
+<type class="Negative_regulation"/>
+<theme idref="F5" idref1="F6"/>
+<cause idref="T31"/>
+<clue>Synergistic proinflammatory effects of mechanical stress and molecules such as bacterial endotoxin were observed, <clueKT>suggesting</clueKT> that mechanical ventilation <clueCL>might</clueCL> be particularly <clueType>deleterious</clueType> <linkTheme>in</linkTheme> preinjured or infected lungs.</clue>
+</event>
+<sentence id="S9"><term id="A8" sem="Organic_compound_other">Dexamethasone</term> prevented <cons id="C2" lex="(AND IL-8_secretion tumor_necrosis_factor-alpha_secretion)" sem="(AND Other Other)"><frag id="F7"><term id="T34" lex="IL-8" sem="Protein_molecule">IL-8</term></frag> and <frag id="F8"><term id="T36" lex="tumor_necrosis_factor-alpha" sem="Protein_molecule">tumor necrosis factor-alpha</term></frag> <frag id="F9">secretion</frag></cons> in <term id="T37" lex="ventilated_macrophage" sem="Cell_natural">ventilated <term id="A9" sem="Cell_natural">macrophage</term>s</term>.</sentence>
+<event KT="Method" id="E22">
+<type class="Artificial_process"/>
+<theme idref="A9"/>
+<clue>Dexamethasone prevented IL-8 and tumor necrosis factor-alpha secretion in <clueType>ventilated</clueType> macrophages.</clue>
+</event>
+<event id="E23">
+<type class="Negative_regulation"/>
+<theme idref="E25"/>
+<cause idref="A8"/>
+<clue>Dexamethasone <clueType>prevented</clueType> IL-8 and tumor necrosis factor-alpha secretion in ventilated macrophages.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation"/>
+<theme idref="E26"/>
+<cause idref="A8"/>
+<clue>Dexamethasone <clueType>prevented</clueType> IL-8 and tumor necrosis factor-alpha secretion in ventilated macrophages.</clue>
+</event>
+<event KT="Other" id="E25">
+<type class="Localization"/>
+<theme idref="T34"/>
+<clue>Dexamethasone prevented IL-8 and tumor necrosis factor-alpha <clueType>secretion</clueType> <clueLoc>in ventilated macrophages</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E26">
+<type class="Localization"/>
+<theme idref="T36"/>
+<clue>Dexamethasone prevented IL-8 and tumor necrosis factor-alpha <clueType>secretion</clueType> <clueLoc>in ventilated macrophages</clueLoc>.</clue>
+</event>
+<sentence id="S10"><term id="A10" sem="Other">Mechanical ventilation</term> induced low levels of <term id="T38" lex="IL-8_secretion" sem="Other"><term id="T39" lex="IL-8" sem="Protein_molecule">IL-8</term> secretion</term> by <term id="T40" lex="alveolar_type_II-like_cell" sem="Cell_natural">alveolar type II-like cells</term>.</sentence>
+<event id="E27">
+<type class="Positive_regulation"/>
+<theme idref="E28"/>
+<cause idref="A10"/>
+<clue>Mechanical ventilation <clueType>induced</clueType> low levels <linkTheme>of</linkTheme> IL-8 secretion by alveolar type II-like cells.</clue>
+</event>
+<event Manner="Low" id="E28">
+<type class="Localization"/>
+<theme idref="T39"/>
+<clue>Mechanical ventilation induced <clueManner>low levels</clueManner> of IL-8 <clueType>secretion</clueType> <clueLoc>by alveolar type II-like cells</clueLoc>.</clue>
+</event>
+<sentence id="S11">Other <term id="T41" lex="lung" sem="Body_region">lung</term> cell types such as <term id="T42" lex="endothelial_cell" sem="Cell_natural">endothelial cells</term>, <term id="T43" lex="bronchial_cell" sem="Cell_natural">bronchial cells</term>, and <term id="T44" lex="fibroblast" sem="Cell_natural">fibroblasts</term> failed to produce <term id="T45" lex="IL-8" sem="Protein_molecule">IL-8</term> in response to a prolonged <term id="T46" lex="cyclic_pressure-stretching_load" sem="Other">cyclic pressure-stretching load</term>.</sentence>
+<event KT="Other" assertion="non-exist" id="E29">
+<type class="Gene_expression"/>
+<theme idref="T45"/>
+<clue>Other lung cell types such as <clueLoc>endothelial cells</clueLoc>, bronchial cells, and fibroblasts failed to <clueType>produce</clueType> IL-8 in response to a prolonged cyclic pressure-stretching load.</clue>
+</event>
+<event KT="Other" assertion="non-exist" id="E30">
+<type class="Gene_expression"/>
+<theme idref="T45"/>
+<clue>Other lung cell types such as endothelial cells, <clueLoc>bronchial cells</clueLoc>, and fibroblasts failed to <clueType>produce</clueType> IL-8 in response to a prolonged cyclic pressure-stretching load.</clue>
+</event>
+<event KT="Other" assertion="non-exist" id="E31">
+<type class="Gene_expression"/>
+<theme idref="T45"/>
+<clue>Other lung cell types such as endothelial cells, bronchial cells, and <clueLoc>fibroblasts</clueLoc> failed to <clueType>produce</clueType> IL-8 in response to a prolonged cyclic pressure-stretching load.</clue>
+</event>
+<event Polarity="Negative" id="E32">
+<type class="Positive_regulation"/>
+<theme idref="E29"/>
+<cause idref="T46"/>
+<clue>Other lung cell types such as endothelial cells, bronchial cells, and fibroblasts <cluePolarity>failed</cluePolarity> to produce IL-8 <linkCause>in response to</linkCause> a prolonged cyclic pressure-stretching load.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event Polarity="Negative" id="E33">
+<type class="Positive_regulation"/>
+<theme idref="E30"/>
+<cause idref="T46"/>
+<clue>Other lung cell types such as endothelial cells, bronchial cells, and fibroblasts <cluePolarity>failed</cluePolarity> to produce IL-8 <linkCause>in response to</linkCause> a prolonged cyclic pressure-stretching load.</clue>
+<comment>NO CLUETYPE</comment></event>
+<event Polarity="Negative" id="E34">
+<type class="Positive_regulation"/>
+<theme idref="E31"/>
+<cause idref="T46"/>
+<clue>Other lung cell types such as endothelial cells, bronchial cells, and fibroblasts <cluePolarity>failed</cluePolarity> to produce IL-8 <linkCause>in response to</linkCause> a prolonged cyclic pressure-stretching load.</clue>
+<comment>NO CLUETYPE</comment></event>
+<sentence id="S12">This model is of particular value for exploring <term id="A11" sem="Other">physical stress</term>-induced <term id="A12" sem="Other">signaling pathways</term>, as well as for testing the effects of novel <term id="T48" lex="ventilatory_strategy" sem="Other">ventilatory strategies</term> or <term id="A13" sem="Organic_compound_other">adjunctive substances</term> aimed at modulating <term id="T49" lex="cell_activation" sem="Other">cell activation</term> induced by <term id="T50" lex="mechanical_ventilation" sem="Other">mechanical ventilation</term>.</sentence>
+<event KT="Investigation" id="E35" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="A12"/>
+<cause idref="A11"/>
+<clue>This model is of particular value <clueKT>for exploring</clueKT> physical stress-<clueType>induced</clueType> signaling pathways, as well as for testing the effects of novel ventilatory strategies or adjunctive substances aimed at modulating cell activation induced by mechanical ventilation.</clue>
+<comment>NER: T47 del &quot;stress-induced signaling pathways&quot;</comment></event>
+<event KT="Investigation" id="E36" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E37"/>
+<cause idref="T48"/>
+<clue>This model is of particular value for exploring physical stress-induced signaling pathways, as well as <clueKT>for testing</clueKT> the <clueType>effects</clueType> <linkCause>of</linkCause> novel ventilatory strategies or adjunctive substances <linkTheme>aimed at</linkTheme> modulating cell activation induced by mechanical ventilation.</clue>
+</event>
+<event KT="Investigation" id="E39" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E37"/>
+<cause idref="A13"/>
+<clue>This model is of particular value for exploring physical stress-induced signaling pathways, as well as <clueKT>for testing</clueKT> the <clueType>effects</clueType> <linkCause>of</linkCause> novel ventilatory strategies or adjunctive substances <linkTheme>aimed at</linkTheme> modulating cell activation induced by mechanical ventilation.</clue>
+</event>
+<event KT="Other" id="E37" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="E38"/>
+<clue>This model is of particular value for exploring physical stress-induced signaling pathways, as well as for testing the effects of novel ventilatory strategies or adjunctive substances aimed at <clueType>modulating</clueType> cell activation induced by mechanical ventilation.</clue>
+</event>
+<event KT="Other" id="E38" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="T49"/>
+<cause idref="T50"/>
+<clue>This model is of particular value for exploring physical stress-induced signaling pathways, as well as for testing the effects of novel ventilatory strategies or adjunctive substances aimed at modulating cell activation <clueType>induced</clueType> <linkCause>by</linkCause> mechanical ventilation.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

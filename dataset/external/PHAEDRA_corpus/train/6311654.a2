@@ -1,0 +1,13 @@
+T8	Potential_therapeutic_effect 76 83	therapy
+T10	Potential_therapeutic_effect 191 198	therapy
+T14	Adverse_effect 591 610	accumulative effect
+T17	Adverse_effect 356 361	after
+R1	Subject_Disorder Arg1:T3 Arg2:T1
+R2	Subject_Disorder Arg1:T4 Arg2:T5
+E1	Potential_therapeutic_effect:T8 has_agent:T2 affects:T1 has_subject:T3
+E2	Potential_therapeutic_effect:T10 has_agent:T6 affects:T5 has_subject:T4
+E4	Adverse_effect:T14 has_cue:T16 has_agent:T19 affects:T18
+E5	Adverse_effect:T17 has_agent:T12 affects:T20
+A1	Speculated E4
+T13	Adverse_effect 492 500	decrease
+E3	Adverse_effect:T13 has_agent:T15 affects:T7

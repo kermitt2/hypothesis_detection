@@ -1,0 +1,241 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=1493333" created="22/02/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>1493333</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="I_kappa_B/MAD-3" sem="Protein_molecule">I kappa B/MAD-3</term> masks the <term id="A101" sem="Protein_domain_or_region">nuclear localization signal of <term id="T2" lex="NF-kappa_B_p65" sem="Protein_molecule">NF-kappa B p65</term></term> and requires the <term id="T3" lex="transactivation_domain" sem="Protein_domain_or_region">transactivation domain</term> to inhibit <term id="T4" lex="NF-kappa_B_p65_DNA_binding" sem="Other"><term id="T5" lex="NF-kappa_B_p65" sem="Protein_molecule">NF-kappa B p65</term> <term id="A1" sem="DNA_domain_or_region">DNA</term> binding</term>.</sentence>
+<event id="E1">
+<type class="Negative_regulation"/>
+<theme idref="A101"/>
+<cause idref="T1"/>
+<clue>I kappa B/MAD-3 <clueType>masks</clueType> the nuclear localization signal of NF-kappa B p65 and requires the transactivation domain to inhibit NF-kappa B p65 DNA binding.</clue>
+<comment>TPS A101</comment></event>
+<event id="E2">
+<type class="Binding"/>
+<theme idref="T5"/>
+<theme idref="A1"/>
+<clue>I kappa B/MAD-3 masks the nuclear localization signal of NF-kappa B p65 and requires the transactivation domain to inhibit NF-kappa B p65 DNA <clueType>binding</clueType>.</clue>
+</event>
+<event id="E3">
+<type class="Negative_regulation"/>
+<theme idref="E2"/>
+<cause idref="T1"/>
+<clue>I kappa B/MAD-3 masks the nuclear localization signal of NF-kappa B p65 and requires the transactivation domain to <clueType>inhibit</clueType> NF-kappa B p65 DNA binding.</clue>
+</event>
+<event id="E101">
+<type class="Correlation"/>
+<theme idref="E3"/>
+<theme idref="T3"/>
+<clue>I kappa B/MAD-3 masks the nuclear localization signal of NF-kappa B p65 and <clueType>requires</clueType> the transactivation domain <linkTheme>to</linkTheme> inhibit NF-kappa B p65 DNA binding.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The active nuclear form of the <term id="T6" lex="NF-kappa_B_transcription_factor_complex" sem="Protein_complex">NF-kappa B transcription factor complex</term> is composed of two <term id="T7" lex="DNA_binding_subunit" sem="Protein_molecule">DNA binding subunits</term>, <term id="T8" lex="NF-kappa_B_p65" sem="Protein_molecule">NF-kappa B p65</term> and <term id="T9" lex="NF-kappa_B_p50" sem="Protein_molecule">NF-kappa B p50</term>, both of which share extensive <term id="T10" lex="N-terminal_sequence_homology" sem="Other">N-terminal sequence homology</term> with the <term id="T11" lex="v-rel_oncogene_product" sem="Protein_molecule">v-rel oncogene product</term>.</sentence>
+<event KT="Fact" id="E4">
+<type class="Binding"/>
+<theme idref="T7"/>
+<theme idref="T8"/>
+<clue>The active nuclear form of the NF-kappa B transcription factor complex is <clueType>composed</clueType> <linkTheme>of</linkTheme> two DNA binding subunits, NF-kappa B p65 and NF-kappa B p50, both of which share extensive N-terminal sequence homology with the v-rel oncogene product.</clue>
+</event>
+<sentence id="S3">The <term id="T12" lex="NF-kappa_B_p65_subunit" sem="Protein_molecule"><term id="T13" lex="NF-kappa_B_p65" sem="Protein_complex">NF-kappa B</term> p65 subunit</term> provides the <term id="T14" lex="transactivation_activity" sem="Other">transactivation activity</term> in this complex and serves as an intracellular receptor for a <term id="T15" lex="cytoplasmic_inhibitor" sem="Other">cytoplasmic inhibitor</term> of <term id="T16" lex="NF-kappa_B" sem="Protein_complex">NF-kappa B</term>, termed <term id="A2" sem="Protein_molecule">I kappa B</term>.</sentence>
+<event KT="Fact" id="E5">
+<type class="Binding"/>
+<theme idref="T12"/>
+<theme idref="A2"/>
+<clue>The NF-kappa B p65 subunit provides the transactivation activity in this complex and <clueType>serves as</clueType> an intracellular <clueType>receptor</clueType> <linkTheme>for</linkTheme> a cytoplasmic inhibitor of NF-kappa B, termed I kappa B.</clue>
+<comment>NER T13,T12, T16 MOD</comment></event>
+<event KT="Fact" id="E6">
+<type class="Negative_regulation"/>
+<theme idref="T16"/>
+<cause idref="A2"/>
+<clue>The NF-kappa B p65 subunit provides the transactivation activity in this complex and serves as an intracellular receptor for a <clueLoc>cytoplasmic</clueLoc> <clueType>inhibitor</clueType> <linkTheme>of</linkTheme> NF-kappa B, termed I kappa B.</clue>
+</event>
+<event KT="Fact" id="E32">
+<type class="Positive_regulation"/>
+<theme idref="E102"/>
+<cause idref="T12"/>
+<clue>The NF-kappa B p65 subunit <clueType>provides</clueType> the transactivation activity in this complex and serves as an intracellular receptor for a cytoplasmic inhibitor of NF-kappa B, termed I kappa B.</clue>
+</event>
+<event KT="Other" id="E102">
+<type class="Positive_regulation"/>
+<cause idref="T16"/>
+<clue>The NF-kappa B p65 subunit provides the <clueType>transactivation activity</clueType> <linkCause>in</linkCause> <corefCause>this complex</corefCause> and serves as an intracellular receptor for a cytoplasmic inhibitor of NF-kappa B, termed I kappa B.</clue>
+</event>
+<sentence id="S4">In contrast, <term id="T17" lex="NF-kappa_B_p50" sem="Protein_molecule">NF-kappa B p50</term> alone fails to stimulate <term id="T18" lex="kappa_B-directed_transcription" sem="Other"><term id="A3" sem="DNA_domain_or_region">kappa B</term>-directed <term id="A4" sem="Other">transcription</term></term>, and based on prior in vitro studies, is not directly regulated by <term id="T19" lex="I_kappa_B" sem="Protein_molecule">I kappa B</term>.</sentence>
+<event KT="Other" id="E7">
+<type class="Regulation"/>
+<theme idref="A4"/>
+<cause idref="A3"/>
+<clue>In contrast, NF-kappa B p50 alone fails to stimulate kappa B-<clueType>directed</clueType> transcription, and based on prior in vitro studies, is not directly regulated by I kappa B.</clue>
+</event>
+<event KT="Fact" Polarity="Negative" assertion="non-exist" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E7"/>
+<cause idref="T17"/>
+<clue>In contrast, NF-kappa B p50 alone <cluePolarity>fails to</cluePolarity> <clueType>stimulate</clueType> kappa B-directed transcription, and based on prior in vitro studies, is not directly regulated by I kappa B.</clue>
+</event>
+<event Polarity="Negative" Source="Other" assertion="non-exist" id="E9">
+<type class="Regulation"/>
+<theme idref="T17"/>
+<cause idref="T19"/>
+<clue>In contrast, NF-kappa B p50 alone fails to stimulate kappa B-directed transcription, and based on <clueSource>prior</clueSource> in vitro <clueSource>studies</clueSource>, is <cluePolarity>not</cluePolarity> directly <clueType>regulated</clueType> <linkCause>by</linkCause> I kappa B.</clue>
+</event>
+<sentence id="S5">To investigate the molecular basis for the critical regulatory interaction between <term id="T20" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> and <term id="T21" lex="I_kappa_B/MAD-3" sem="Protein_molecule">I kappa B/MAD-3</term>, a series of <term id="T22" lex="human_NF-kappa_B_p65_mutant" sem="Protein_family_or_group">human <term id="T23" lex="NF-kappa_B_p65" sem="Protein_molecule">NF-kappa B p65</term> mutants</term> was identified that functionally segregated <term id="A5" sem="Other">DNA</term> binding, <term id="T24" lex="I_kappa_B-mediated_inhibition" sem="Other"><term id="T25" lex="I_kappa_B" sem="Protein_molecule">I kappa B</term>-mediated inhibition</term>, and <term id="T26" lex="I_kappa_B-induced_nuclear_exclusion" sem="Other"><term id="T27" lex="I_kappa_B" sem="Protein_molecule">I kappa B</term>-induced nuclear exclusion</term> of this <term id="T28" lex="transcription_factor" sem="Protein_family_or_group">transcription factor</term>.</sentence>
+<event KT="Fact" id="E33" uncertainty="doubtful">
+<type class="Correlation"/>
+<theme idref="T20"/>
+<theme idref="T21"/>
+<clue>To investigate the molecular basis for the critical <clueType>regulatory interaction</clueType> <linkTheme>between</linkTheme> NF-kappa B and I kappa B/MAD-3, a series of human NF-kappa B p65 mutants was identified that functionally segregated DNA binding, I kappa B-mediated inhibition, and I kappa B-induced nuclear exclusion of this transcription factor.</clue>
+</event>
+<event id="E10">
+<type class="Binding"/>
+<theme idref="T20"/>
+<theme idref="A5"/>
+<clue>To investigate the molecular basis for the critical regulatory interaction between NF-kappa B and I kappa B/MAD-3, a series of human NF-kappa B p65 mutants was identified that functionally segregated DNA <clueType>binding</clueType>, I kappa B-mediated inhibition, and I kappa B-induced nuclear exclusion <linkTheme>of</linkTheme> <corefTheme>this transcription factor</corefTheme>.</clue>
+</event>
+<event id="E11">
+<type class="Negative_regulation"/>
+<theme idref="T20"/>
+<cause idref="T25"/>
+<clue>To investigate the molecular basis for the critical regulatory interaction between NF-kappa B and I kappa B/MAD-3, a series of human NF-kappa B p65 mutants was identified that functionally segregated DNA binding, I kappa B-<clueType>mediated inhibition</clueType>, and I kappa B-induced nuclear exclusion <linkTheme>of</linkTheme> <corefTheme>this transcription factor</corefTheme>.</clue>
+</event>
+<event id="E12">
+<type class="Localization"/>
+<theme idref="T20"/>
+<clue>To investigate the molecular basis for the critical regulatory interaction between NF-kappa B and I kappa B/MAD-3, a series of human NF-kappa B p65 mutants was identified that functionally segregated DNA binding, I kappa B-mediated inhibition, and I kappa B-induced <clueLoc>nuclear</clueLoc> <clueType>exclusion</clueType> <linkTheme>of</linkTheme> <corefTheme>this transcription factor</corefTheme>.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="T27"/>
+<clue>To investigate the molecular basis for the critical regulatory interaction between NF-kappa B and I kappa B/MAD-3, a series of human NF-kappa B p65 mutants was identified that functionally segregated DNA binding, I kappa B-mediated inhibition, and I kappa B-<clueType>induced</clueType> nuclear exclusion <linkTheme>of</linkTheme> <corefTheme>this transcription factor</corefTheme>.</clue>
+</event>
+<sentence id="S6">Results from in vivo expression studies performed with these <term id="T29" lex="NF-kappa_B_p65_mutant" sem="Protein_family_or_group">NF-kappa B p65 mutants</term> revealed the following: 1) <term id="T30" lex="I_kappa_B/MAD-3" sem="Protein_molecule">I kappa B/MAD-3</term> completely inhibits <term id="T31" lex="NF-kappa_B_p65-dependent_transcriptional_activation" sem="Other"><term id="T32" lex="NF-kappa_B_p65" sem="Protein_molecule">NF-kappa B p65</term>-dependent <term id="A7" sem="Other">transcriptional activation</term></term> mediated through the <term id="T33" lex="human_immunodeficiency_virus_type_1_kappa_B_enhancer" sem="DNA_domain_or_region"><term id="T34" lex="human_immunodeficiency_virus_type_1" sem="Virus">human immunodeficiency virus type 1</term> <term id="A6" sem="DNA_domain_or_region">kappa B enhancer</term></term> in <term id="T35" lex="human_T_lymphocyte" sem="Cell_natural">human T lymphocytes</term>, 2) the binding of <term id="T36" lex="I_kappa_B/MAD-3" sem="Protein_molecule">I kappa B/MAD-3</term> to <term id="T37" lex="NF-kappa_B_p65" sem="Protein_molecule">NF-kappa B p65</term> is sufficient to retarget <term id="T38" lex="NF-kappa_B_p65" sem="Protein_molecule">NF-kappa B p65</term> from the <term id="T39" lex="nucleus" sem="Cell_component">nucleus</term> to the <term id="T40" lex="cytoplasm" sem="Cell_component">cytoplasm</term>, 3) selective deletion of the functional <term id="A8" sem="Protein_domain_or_region">nuclear localization signal</term> present in the <term id="T41" lex="Rel_homology_domain" sem="Protein_domain_or_region">Rel homology domain</term> of <term id="T42" lex="NF-kappa_B_p65" sem="Protein_molecule">NF-kappa B p65</term> disrupts its ability to engage <term id="T43" lex="I_kappa_B/MAD-3" sem="Protein_molecule">I kappa B/MAD-3</term>, and 4) the unique <term id="T44" lex="C-terminus" sem="Protein_domain_or_region">C-terminus</term> of <term id="T45" lex="NF-kappa_B_p65" sem="Protein_molecule">NF-kappa B p65</term> attenuates its own nuclear localization and contains sequences that are required for <term id="T46" lex="I_kappa_B-mediated_inhibition" sem="Other"><term id="T47" lex="I_kappa_B" sem="Protein_molecule">I kappa B</term>-mediated inhibition</term> of <term id="T48" lex="NF-kappa_B_p65_DNA_binding_activity" sem="Other"><term id="T49" lex="NF-kappa_B_p65" sem="Protein_molecule">NF-kappa B p65</term> <term id="A9" sem="Other">DNA</term> binding activity</term>.</sentence>
+<event KT="Other" id="E14">
+<type class="Positive_regulation"/>
+<theme idref="E15"/>
+<cause idref="A6"/>
+<clue>Results from in vivo expression studies performed with these NF-kappa B p65 mutants revealed the following: 1) I kappa B/MAD-3 completely inhibits NF-kappa B p65-dependent transcriptional activation <clueType>mediated</clueType> <linkCause>through</linkCause> the human immunodeficiency virus type 1 kappa B enhancer in human T lymphocytes, 2) the binding of I kappa B/MAD-3 to NF-kappa B p65 is sufficient to retarget NF-kappa B p65 from the nucleus to the cytoplasm, 3) selective deletion of the functional nuclear localization signal present in the Rel homology domain of NF-kappa B p65 disrupts its ability to engage I kappa B/MAD-3, and 4) the unique C-terminus of NF-kappa B p65 attenuates its own nuclear localization and contains sequences that are required for I kappa B-mediated inhibition of NF-kappa B p65 DNA binding activity.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="A7"/>
+<cause idref="T32"/>
+<clue>Results from in vivo expression studies performed with these NF-kappa B p65 mutants revealed the following: 1) I kappa B/MAD-3 completely inhibits NF-kappa B p65-<clueType>dependent</clueType> transcriptional activation mediated through the human immunodeficiency virus type 1 kappa B enhancer in human T lymphocytes, 2) the binding of I kappa B/MAD-3 to NF-kappa B p65 is sufficient to retarget NF-kappa B p65 from the nucleus to the cytoplasm, 3) selective deletion of the functional nuclear localization signal present in the Rel homology domain of NF-kappa B p65 disrupts its ability to engage I kappa B/MAD-3, and 4) the unique C-terminus of NF-kappa B p65 attenuates its own nuclear localization and contains sequences that are required for I kappa B-mediated inhibition of NF-kappa B p65 DNA binding activity.</clue>
+</event>
+<event KT="Analysis" id="E16">
+<type class="Negative_regulation"/>
+<theme idref="E15"/>
+<cause idref="T30"/>
+<clue>Results from in vivo expression studies performed with these NF-kappa B p65 mutants <clueKT>revealed</clueKT> the following: 1) I kappa B/MAD-3 completely <clueType>inhibits</clueType> NF-kappa B p65-dependent transcriptional activation mediated through the human immunodeficiency virus type 1 kappa B enhancer <clueLoc>in human T lymphocytes</clueLoc>, 2) the binding of I kappa B/MAD-3 to NF-kappa B p65 is sufficient to retarget NF-kappa B p65 from the nucleus to the cytoplasm, 3) selective deletion of the functional nuclear localization signal present in the Rel homology domain of NF-kappa B p65 disrupts its ability to engage I kappa B/MAD-3, and 4) the unique C-terminus of NF-kappa B p65 attenuates its own nuclear localization and contains sequences that are required for I kappa B-mediated inhibition of NF-kappa B p65 DNA binding activity.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Binding"/>
+<theme idref="T36"/>
+<theme idref="T37"/>
+<clue>Results from in vivo expression studies performed with these NF-kappa B p65 mutants revealed the following: 1) I kappa B/MAD-3 completely inhibits NF-kappa B p65-dependent transcriptional activation mediated through the human immunodeficiency virus type 1 kappa B enhancer in human T lymphocytes, 2) the <clueType>binding</clueType> <linkTheme>of</linkTheme> I kappa B/MAD-3 <linkTheme>to</linkTheme> NF-kappa B p65 is sufficient to retarget NF-kappa B p65 from the nucleus to the cytoplasm, 3) selective deletion of the functional nuclear localization signal present in the Rel homology domain of NF-kappa B p65 disrupts its ability to engage I kappa B/MAD-3, and 4) the unique C-terminus of NF-kappa B p65 attenuates its own nuclear localization and contains sequences that are required for I kappa B-mediated inhibition of NF-kappa B p65 DNA binding activity.</clue>
+</event>
+<event KT="Other" id="E18">
+<type class="Localization"/>
+<theme idref="T38"/>
+<clue>Results from in vivo expression studies performed with these NF-kappa B p65 mutants revealed the following: 1) I kappa B/MAD-3 completely inhibits NF-kappa B p65-dependent transcriptional activation mediated through the human immunodeficiency virus type 1 kappa B enhancer in human T lymphocytes, 2) the binding of I kappa B/MAD-3 to NF-kappa B p65 is sufficient to <clueType>retarget</clueType> NF-kappa B p65 <clueLoc>from the nucleus to the cytoplasm</clueLoc>, 3) selective deletion of the functional nuclear localization signal present in the Rel homology domain of NF-kappa B p65 disrupts its ability to engage I kappa B/MAD-3, and 4) the unique C-terminus of NF-kappa B p65 attenuates its own nuclear localization and contains sequences that are required for I kappa B-mediated inhibition of NF-kappa B p65 DNA binding activity.</clue>
+</event>
+<event KT="Analysis" id="E118">
+<type class="Positive_regulation"/>
+<theme idref="E18"/>
+<cause idref="E17"/>
+<clue>Results from in vivo expression studies performed with these NF-kappa B p65 mutants <clueKT>revealed</clueKT> the following: 1) I kappa B/MAD-3 completely inhibits NF-kappa B p65-dependent transcriptional activation mediated through the human immunodeficiency virus type 1 kappa B enhancer in human T lymphocytes, 2) the binding of I kappa B/MAD-3 to NF-kappa B p65 is <clueType>sufficient</clueType> <linkTheme>to</linkTheme> retarget NF-kappa B p65 from the nucleus to the cytoplasm, 3) selective deletion of the functional nuclear localization signal present in the Rel homology domain of NF-kappa B p65 disrupts its ability to engage I kappa B/MAD-3, and 4) the unique C-terminus of NF-kappa B p65 attenuates its own nuclear localization and contains sequences that are required for I kappa B-mediated inhibition of NF-kappa B p65 DNA binding activity.</clue>
+</event>
+<event KT="Method" id="E19">
+<type class="Negative_regulation"/>
+<theme idref="A8"/>
+<clue>Results from in vivo expression studies performed with these NF-kappa B p65 mutants revealed the following: 1) I kappa B/MAD-3 completely inhibits NF-kappa B p65-dependent transcriptional activation mediated through the human immunodeficiency virus type 1 kappa B enhancer in human T lymphocytes, 2) the binding of I kappa B/MAD-3 to NF-kappa B p65 is sufficient to retarget NF-kappa B p65 from the nucleus to the cytoplasm, 3) selective <clueType>deletion</clueType> <linkTheme>of</linkTheme> the functional nuclear localization signal present in the Rel homology domain of NF-kappa B p65 disrupts its ability to engage I kappa B/MAD-3, and 4) the unique C-terminus of NF-kappa B p65 attenuates its own nuclear localization and contains sequences that are required for I kappa B-mediated inhibition of NF-kappa B p65 DNA binding activity.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Binding"/>
+<theme idref="T42"/>
+<theme idref="T43"/>
+<clue>Results from in vivo expression studies performed with these NF-kappa B p65 mutants revealed the following: 1) I kappa B/MAD-3 completely inhibits NF-kappa B p65-dependent transcriptional activation mediated through the human immunodeficiency virus type 1 kappa B enhancer in human T lymphocytes, 2) the binding of I kappa B/MAD-3 to NF-kappa B p65 is sufficient to retarget NF-kappa B p65 from the nucleus to the cytoplasm, 3) selective deletion of the functional nuclear localization signal present in the Rel homology domain of NF-kappa B p65 disrupts <corefTheme>its</corefTheme> ability to <clueType>engage</clueType> I kappa B/MAD-3, and 4) the unique C-terminus of NF-kappa B p65 attenuates its own nuclear localization and contains sequences that are required for I kappa B-mediated inhibition of NF-kappa B p65 DNA binding activity.</clue>
+</event>
+<event KT="Analysis" id="E21">
+<type class="Negative_regulation"/>
+<theme idref="E20"/>
+<cause idref="E19"/>
+<clue>Results from in vivo expression studies performed with these NF-kappa B p65 mutants <clueKT>revealed</clueKT> the following: 1) I kappa B/MAD-3 completely inhibits NF-kappa B p65-dependent transcriptional activation mediated through the human immunodeficiency virus type 1 kappa B enhancer in human T lymphocytes, 2) the binding of I kappa B/MAD-3 to NF-kappa B p65 is sufficient to retarget NF-kappa B p65 from the nucleus to the cytoplasm, 3) selective deletion of the functional nuclear localization signal present in the Rel homology domain of NF-kappa B p65 <clueType>disrupts</clueType> its ability to engage I kappa B/MAD-3, and 4) the unique C-terminus of NF-kappa B p65 attenuates its own nuclear localization and contains sequences that are required for I kappa B-mediated inhibition of NF-kappa B p65 DNA binding activity.</clue>
+</event>
+<event KT="Other" id="E22">
+<type class="Localization"/>
+<theme idref="T45"/>
+<clue>Results from in vivo expression studies performed with these NF-kappa B p65 mutants revealed the following: 1) I kappa B/MAD-3 completely inhibits NF-kappa B p65-dependent transcriptional activation mediated through the human immunodeficiency virus type 1 kappa B enhancer in human T lymphocytes, 2) the binding of I kappa B/MAD-3 to NF-kappa B p65 is sufficient to retarget NF-kappa B p65 from the nucleus to the cytoplasm, 3) selective deletion of the functional nuclear localization signal present in the Rel homology domain of NF-kappa B p65 disrupts its ability to engage I kappa B/MAD-3, and 4) the unique C-terminus of NF-kappa B p65 attenuates <corefTheme>its</corefTheme> own <clueLoc>nuclear</clueLoc> <clueType>localization</clueType> and contains sequences that are required for I kappa B-mediated inhibition of NF-kappa B p65 DNA binding activity.</clue>
+</event>
+<event KT="Analysis" id="E23">
+<type class="Negative_regulation"/>
+<theme idref="E22"/>
+<cause idref="T44"/>
+<clue>Results from in vivo expression studies performed with these NF-kappa B p65 mutants <clueKT>revealed</clueKT> the following: 1) I kappa B/MAD-3 completely inhibits NF-kappa B p65-dependent transcriptional activation mediated through the human immunodeficiency virus type 1 kappa B enhancer in human T lymphocytes, 2) the binding of I kappa B/MAD-3 to NF-kappa B p65 is sufficient to retarget NF-kappa B p65 from the nucleus to the cytoplasm, 3) selective deletion of the functional nuclear localization signal present in the Rel homology domain of NF-kappa B p65 disrupts its ability to engage I kappa B/MAD-3, and 4) the unique C-terminus of NF-kappa B p65 <clueType>attenuates</clueType> its own nuclear localization and contains sequences that are required for I kappa B-mediated inhibition of NF-kappa B p65 DNA binding activity.</clue>
+</event>
+<event KT="Other" id="E24">
+<type class="Binding"/>
+<theme idref="A9"/>
+<theme idref="T49"/>
+<clue>Results from in vivo expression studies performed with these NF-kappa B p65 mutants revealed the following: 1) I kappa B/MAD-3 completely inhibits NF-kappa B p65-dependent transcriptional activation mediated through the human immunodeficiency virus type 1 kappa B enhancer in human T lymphocytes, 2) the binding of I kappa B/MAD-3 to NF-kappa B p65 is sufficient to retarget NF-kappa B p65 from the nucleus to the cytoplasm, 3) selective deletion of the functional nuclear localization signal present in the Rel homology domain of NF-kappa B p65 disrupts its ability to engage I kappa B/MAD-3, and 4) the unique C-terminus of NF-kappa B p65 attenuates its own nuclear localization and contains sequences that are required for I kappa B-mediated inhibition of NF-kappa B p65 DNA <clueType>binding</clueType> activity.</clue>
+</event>
+<event KT="Other" id="E25">
+<type class="Negative_regulation"/>
+<theme idref="E24"/>
+<cause idref="T47"/>
+<clue>Results from in vivo expression studies performed with these NF-kappa B p65 mutants revealed the following: 1) I kappa B/MAD-3 completely inhibits NF-kappa B p65-dependent transcriptional activation mediated through the human immunodeficiency virus type 1 kappa B enhancer in human T lymphocytes, 2) the binding of I kappa B/MAD-3 to NF-kappa B p65 is sufficient to retarget NF-kappa B p65 from the nucleus to the cytoplasm, 3) selective deletion of the functional nuclear localization signal present in the Rel homology domain of NF-kappa B p65 disrupts its ability to engage I kappa B/MAD-3, and 4) the unique C-terminus of NF-kappa B p65 attenuates its own nuclear localization and contains sequences that are required for I kappa B-<linkCause>mediated</linkCause> <clueType>inhibition</clueType> <linkTheme>of</linkTheme> NF-kappa B p65 DNA binding activity.</clue>
+</event>
+<event KT="Analysis" id="E26">
+<type class="Correlation"/>
+<theme idref="T44"/>
+<theme idref="E25"/>
+<clue>Results from in vivo expression studies performed with these NF-kappa B p65 mutants <clueKT>revealed</clueKT> the following: 1) I kappa B/MAD-3 completely inhibits NF-kappa B p65-dependent transcriptional activation mediated through the human immunodeficiency virus type 1 kappa B enhancer in human T lymphocytes, 2) the binding of I kappa B/MAD-3 to NF-kappa B p65 is sufficient to retarget NF-kappa B p65 from the nucleus to the cytoplasm, 3) selective deletion of the functional nuclear localization signal present in the Rel homology domain of NF-kappa B p65 disrupts its ability to engage I kappa B/MAD-3, and 4) the unique C-terminus of NF-kappa B p65 attenuates its own nuclear localization and <clueType>contains sequences</clueType> that are <clueType>required</clueType> <linkTheme>for</linkTheme> I kappa B-mediated inhibition of NF-kappa B p65 DNA binding activity.</clue>
+</event>
+<sentence id="S7">Together, these findings suggest that the <term id="A10" sem="Protein_domain_or_region">nuclear localization signal</term> and <term id="T50" lex="transactivation_domain" sem="Protein_domain_or_region">transactivation domain</term> of <term id="T51" lex="NF-kappa_B_p65" sem="Protein_molecule">NF-kappa B p65</term> constitute a bipartite system that is critically involved in the inhibitory function of <term id="T52" lex="I_kappa_B/MAD-3" sem="Protein_molecule">I kappa B/MAD-3</term>.</sentence>
+<event KT="Other" id="E27">
+<type class="Negative_regulation"/>
+<cause idref="T52"/>
+<clue>Together, these findings suggest that the nuclear localization signal and transactivation domain of NF-kappa B p65 constitute a bipartite system that is critically involved in the <clueType>inhibitory function</clueType> <linkCause>of</linkCause> I kappa B/MAD-3.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E28" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="A10"/>
+<theme idref="T50"/>
+<theme idref="E27"/>
+<clue>Together, these findings <clueKT><clueCL>suggest</clueCL></clueKT> that the nuclear localization signal and transactivation domain of NF-kappa B p65 <clueType>constitute</clueType> a bipartite <clueType>system</clueType> that is critically <clueType>involved</clueType> <linkTheme>in</linkTheme> the inhibitory function of I kappa B/MAD-3.</clue>
+</event>
+<sentence id="S8">Unexpectedly, our in vivo studies also demonstrate that <term id="T53" lex="I_kappa_B/MAD-3" sem="Protein_molecule">I kappa B/MAD-3</term> binds directly to <term id="T54" lex="NF-kappa_B_p50" sem="Protein_molecule">NF-kappa B p50</term>.</sentence>
+<event KT="Analysis" id="E29">
+<type class="Binding"/>
+<theme idref="T53"/>
+<theme idref="T54"/>
+<clue>Unexpectedly, our in vivo studies also <clueKT>demonstrate</clueKT> that I kappa B/MAD-3 <clueType>binds</clueType> directly <linkTheme>to</linkTheme> NF-kappa B p50.</clue>
+</event>
+<sentence id="S9">This interaction is functional as it leads to retargeting of <term id="T55" lex="NF-kappa_B_p50" sem="Protein_molecule">NF-kappa B p50</term> from the <term id="T56" lex="nucleus" sem="Cell_component">nucleus</term> to the <term id="T57" lex="cytoplasm" sem="Cell_component">cytoplasm</term>.</sentence>
+<event id="E30">
+<type class="Localization"/>
+<theme idref="T55"/>
+<clue>This interaction is functional as it leads to <clueType>retargeting</clueType> <linkTheme>of</linkTheme> NF-kappa B p50 <clueLoc>from the nucleus to the cytoplasm</clueLoc>.</clue>
+</event>
+<event id="E31">
+<type class="Positive_regulation"/>
+<theme idref="E30"/>
+<cause idref="E29"/>
+<clue><corefCause idref1="E29">This interaction</corefCause> is functional as <corefCause idref1="E29">it</corefCause> <clueType>leads</clueType> <linkTheme>to</linkTheme> retargeting of NF-kappa B p50 from the nucleus to the cytoplasm.</clue>
+<comment>corefCause=multilayer</comment></event>
+<sentence id="S10">However, no loss of <term id="T58" lex="DNA_binding_activity" sem="Other"><term id="A11" sem="DNA_domain_or_region">DNA</term> binding activity</term> is observed, presumably reflecting the unique <term id="T59" lex="C-terminal_domain" sem="Protein_domain_or_region">C-terminal domain</term> that is distinct from that present in <term id="T60" lex="NF-kappa_B_p65" sem="Protein_molecule">NF-kappa B p65</term>.</sentence>
+<event id="E34">
+<type class="Binding"/>
+<theme idref="T60"/>
+<theme idref="A11"/>
+<clue>However, no loss of DNA <clueType>binding activity</clueType> is observed, presumably reflecting the unique C-terminal domain that is distinct from that present in NF-kappa B p65.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event LT="Propositional" Polarity="Negative" assertion="non-exist" id="E35">
+<type class="Negative_regulation"/>
+<theme idref="E34"/>
+<cause idref="E29"/>
+<clue>However, <clueType><cluePolarity>no</cluePolarity> loss</clueType> <linkTheme>of</linkTheme> DNA binding activity is <clueType><clueKT>observed</clueKT></clueType>, presumably reflecting the unique C-terminal domain that is distinct from that present in NF-kappa B p65.</clue>
+<comment>No corefCause</comment></event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

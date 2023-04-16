@@ -1,0 +1,9 @@
+T15	Potential_therapeutic_effect 70 77	treated
+T19	DDI 348 359	interaction
+R1	Subject_Disorder Arg1:T14 Arg2:T2
+R2	Coreference Arg1:T20 Arg2:T8
+R3	Coreference Arg1:T20 Arg2:T9
+E3	Combination:T16 has_participant:T1 has_participant:T3
+E6	DDI:T19 has_participant:T20
+E7	Combination:T21 has_participant:T10 has_participant:T22
+E2	Potential_therapeutic_effect:T15 has_agent:E3 affects:T4 has_subject:T14

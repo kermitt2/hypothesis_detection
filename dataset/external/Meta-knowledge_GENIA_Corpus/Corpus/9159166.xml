@@ -1,0 +1,259 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9159166" created="13/11/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9159166</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Homodimerization of the <term id="T1" lex="human_interleukin_4_receptor_alpha_chain" sem="Protein_molecule">human interleukin 4 receptor alpha chain</term> induces <term id="T2" lex="Cepsilon_germline_transcript" sem="RNA_family_or_group">Cepsilon germline transcripts</term> in <term id="T3" lex="B_cell" sem="Cell_natural">B cells</term> in the absence of the <term id="T4" lex="interleukin_2_receptor_gamma_chain" sem="Protein_molecule">interleukin 2 receptor gamma chain</term>.</sentence>
+<event id="E1">
+<type class="Binding"/>
+<theme idref="T1"/>
+<theme idref="T1"/>
+<clue><clueType>Homodimerization</clueType> <linkTheme>of</linkTheme> the human interleukin 4 receptor alpha chain induces Cepsilon germline transcripts in B cells in the absence of the interleukin 2 receptor gamma chain.</clue>
+</event>
+<event id="E2">
+<type class="Positive_regulation"/>
+<theme idref="T2"/>
+<cause idref="E1"/>
+<clue>Homodimerization of the human interleukin 4 receptor alpha chain <clueType>induces</clueType> Cepsilon germline transcripts <clueLoc>in B cells</clueLoc> in the absence of the interleukin 2 receptor gamma chain.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E3">
+<type class="Correlation"/>
+<theme idref="E2"/>
+<theme idref="T4"/>
+<clue>Homodimerization of the human interleukin 4 receptor alpha chain induces Cepsilon germline transcripts in B cells <clueType>in the <cluePolarity>absence</cluePolarity></clueType> <linkTheme>of</linkTheme> the interleukin 2 receptor gamma chain.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="T5" lex="cytokine" sem="Protein_family_or_group">cytokines</term> <term id="T6" lex="interleukin_(IL)-4" sem="Protein_molecule">interleukin (IL)-4</term> and <term id="T7" lex="IL-13" sem="Protein_molecule">IL-13</term> play a critical role in inducing <term id="T8" lex="Cepsilon_germline_transcript" sem="RNA_family_or_group">Cepsilon germline transcripts</term> and <term id="T9" lex="IgE_isotype_switching" sem="Other"><term id="T10" lex="IgE_isotype" sem="Protein_family_or_group">IgE isotype</term> switching</term> in <term id="T11" lex="human_B_cell" sem="Cell_natural">human <term id="T12" lex="B_cell" sem="Cell_natural">B cells</term></term>.</sentence>
+<event KT="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T8"/>
+<clue>The cytokines interleukin (IL)-4 and IL-13 play a critical role in <clueType>inducing</clueType> Cepsilon germline transcripts and IgE isotype switching in human B cells.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Physiological_process"/>
+<theme idref="T10"/>
+<clue>The cytokines interleukin (IL)-4 and IL-13 play a critical role in inducing Cepsilon germline transcripts and IgE isotype <clueType>switching</clueType> in human B cells.</clue>
+</event>
+<event KT="Fact" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="T6"/>
+<clue>The cytokines interleukin (IL)-4 and IL-13 <clueType>play a critical role</clueType> <linkTheme>in</linkTheme> inducing Cepsilon germline transcripts and IgE isotype switching <clueLoc>in human B cells</clueLoc>.</clue>
+</event>
+<event KT="Fact" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="T6"/>
+<clue>The cytokines interleukin (IL)-4 and IL-13 <clueType>play a critical role</clueType> <linkTheme>in</linkTheme> inducing Cepsilon germline transcripts and IgE isotype switching <clueLoc>in human B cells</clueLoc>.</clue>
+</event>
+<event KT="Fact" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="T7"/>
+<clue>The cytokines interleukin (IL)-4 and IL-13 <clueType>play a critical role</clueType> <linkTheme>in</linkTheme> inducing Cepsilon germline transcripts and IgE isotype switching <clueLoc>in human B cells</clueLoc>.</clue>
+</event>
+<event KT="Fact" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="E5"/>
+<cause idref="T7"/>
+<clue>The cytokines interleukin (IL)-4 and IL-13 <clueType>play a critical role</clueType> <linkTheme>in</linkTheme> inducing Cepsilon germline transcripts and IgE isotype switching <clueLoc>in human B cells</clueLoc>.</clue>
+</event>
+<sentence id="S3">The <term id="T13" lex="IL-4_receptor" sem="Protein_molecule">IL-4 receptor</term> (<term id="T14" lex="IL-4R" sem="Protein_molecule">IL-4R</term>) in <term id="T15" lex="B_cell" sem="Cell_natural">B cells</term> is composed of two chains, the <term id="T16" lex="IL-4-binding_IL-4Ralpha_chain" sem="Protein_molecule"><term id="A1" sem="Protein_molecule">IL-4</term>-binding <term id="T17" lex="IL-4Ralpha_chain" sem="Protein_molecule">IL-4Ralpha chain</term></term>, which is shared with the <term id="T18" lex="IL-13R" sem="Protein_molecule">IL-13R</term>, and the <term id="T19" lex="IL-2Rgamma_(gammac)_chain" sem="Protein_molecule">IL-2Rgamma (gammac) chain</term>, which is shared with <term id="T20" lex="IL-7R" sem="Protein_molecule">IL-7R</term>, <term id="T21" lex="IL-9R" sem="Protein_molecule">IL-9R</term>, and <term id="T22" lex="IL-15R" sem="Protein_molecule">IL-15R</term>.</sentence>
+<event KT="Other" id="E10">
+<type class="Binding"/>
+<theme idref="A1"/>
+<theme idref="T17"/>
+<clue>The IL-4 receptor (IL-4R) in B cells is composed of two chains, the IL-4-<clueType>binding</clueType> IL-4Ralpha chain, which is shared with the IL-13R, and the IL-2Rgamma (gammac) chain, which is shared with IL-7R, IL-9R, and IL-15R.</clue>
+</event>
+<sentence id="S4"><term id="T23" lex="IL-4" sem="Protein_molecule">IL-4</term> induces <term id="T24" lex="Cepsilon_germline_transcript" sem="RNA_family_or_group">Cepsilon germline transcripts</term> and <term id="T25" lex="IgE_isotype_switching" sem="Other"><term id="T26" lex="IgE_isotype" sem="Protein_family_or_group">IgE isotype</term> switching</term> in <term id="T27" lex="B_cell" sem="Cell_natural">B cells</term> from <term id="T28" lex="patient" sem="Multicellular_organism_natural">patients</term> with <term id="T29" lex="gammac_chain_deficiency" sem="Other"><term id="T30" lex="gammac_chain" sem="Protein_molecule">gammac chain</term> deficiency</term>.</sentence>
+<event KT="Fact" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="T24"/>
+<cause idref="T23"/>
+<clue>IL-4 <clueType>induces</clueType> Cepsilon germline transcripts and IgE isotype switching in B cells from patients with gammac chain deficiency.</clue>
+</event>
+<event KT="Other" id="E12">
+<type class="Physiological_process"/>
+<theme idref="T26"/>
+<clue>IL-4 induces Cepsilon germline transcripts and IgE isotype <clueType>switching</clueType> <clueLoc>in B cells from patients with gammac chain deficiency</clueLoc>.</clue>
+</event>
+<event KT="Fact" id="E13">
+<type class="Positive_regulation"/>
+<theme idref="E12"/>
+<cause idref="T23"/>
+<clue>IL-4 <clueType>induces</clueType> Cepsilon germline transcripts and IgE isotype switching <clueLoc>in B cells from patients with gammac chain deficiency</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E14">
+<type class="Negative_regulation"/>
+<theme idref="T30"/>
+<clue>IL-4 induces Cepsilon germline transcripts and IgE isotype switching in B cells from patients with gammac chain <clueType>deficiency</clueType>.</clue>
+</event>
+<sentence id="S5">Induction of <term id="T31" lex="Cepsilon_germline_transcript" sem="RNA_family_or_group">Cepsilon germline transcripts</term> by <term id="T32" lex="IL-4" sem="Protein_molecule">IL-4</term> in <term id="T33" lex="B_cell" sem="Cell_natural">B cells</term> that lack the <term id="T34" lex="gammac_chain" sem="Protein_molecule">gammac chain</term> may involve signaling via the <term id="T35" lex="IL-13R" sem="Protein_molecule">IL-13R</term>.</sentence>
+<event KT="Other" id="E15">
+<type class="Positive_regulation"/>
+<theme idref="T31"/>
+<cause idref="T32"/>
+<clue><clueType>Induction</clueType> <linkTheme>of</linkTheme> Cepsilon germline transcripts <linkCause>by</linkCause> IL-4 <clueLoc>in B cells that lack the gammac chain</clueLoc> may involve signaling via the IL-13R.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E16">
+<type class="Gene_expression"/>
+<theme idref="T34"/>
+<clue>Induction of Cepsilon germline transcripts by IL-4 in <clueLoc>B cells</clueLoc> that <clueType><cluePolarity>lack</cluePolarity></clueType> the gammac chain may involve signaling via the IL-13R.</clue>
+</event>
+<event KT="Other" id="E17">
+<type class="Cell_communication"/>
+<theme idref="T35"/>
+<clue>Induction of Cepsilon germline transcripts by IL-4 in B cells that lack the gammac chain may involve <clueType>signaling</clueType> <linkTheme>via</linkTheme> the IL-13R.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E18" uncertainty="probable">
+<type class="Correlation"/>
+<theme idref="E15"/>
+<theme idref="E17"/>
+<clue>Induction of Cepsilon germline transcripts by IL-4 in B cells that lack the gammac chain <clueKT><clueCL>may</clueCL></clueKT> <clueType>involve</clueType> signaling via the IL-13R.</clue>
+</event>
+<sentence id="S6">Alternatively, the <term id="T36" lex="IL-4Ralpha_chain" sem="Protein_molecule">IL-4Ralpha chain</term> may transduce intracellular signals that lead to <term id="T37" lex="Cepsilon_gene_transcription" sem="Other"><term id="T38" lex="Cepsilon_gene" sem="DNA_domain_or_region">Cepsilon gene</term> transcription</term> independently of its association with other chains.</sentence>
+<event KT="Other" id="E19">
+<type class="Transcription"/>
+<theme idref="T38"/>
+<clue>Alternatively, the IL-4Ralpha chain may transduce intracellular signals that lead to Cepsilon gene <clueType>transcription</clueType> independently of its association with other chains.</clue>
+</event>
+<event CL="L1" KT="Analysis" id="E20" uncertainty="probable">
+<type class="Cell_communication"/>
+<theme idref="T36"/>
+<clue>Alternatively, the IL-4Ralpha chain <clueKT><clueCL>may</clueCL></clueKT> <clueType>transduce intracellular signals</clueType> that lead to Cepsilon gene transcription independently of its association with other chains.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="E20"/>
+<clue>Alternatively, the IL-4Ralpha chain may transduce intracellular signals that <clueType>lead</clueType> <linkTheme>to</linkTheme> Cepsilon gene transcription independently of its association with other chains.</clue>
+</event>
+<event KT="Analysis" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="T36"/>
+<theme idref="T34"/>
+<clue>Alternatively, the IL-4Ralpha chain may transduce intracellular signals that lead to Cepsilon gene transcription independently of <corefTheme idref1="T36">its</corefTheme> <clueType><clueKT>association</clueKT></clueType> <linkTheme>with</linkTheme> <corefTheme idref1="T34">other chains</corefTheme>.</clue>
+</event>
+<event KT="Other" Polarity="Negative" assertion="non-exist" id="E121" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E22"/>
+<theme idref="E21"/>
+<clue>Alternatively, the IL-4Ralpha chain may transduce intracellular signals that lead to Cepsilon gene transcription <clueType><cluePolarity>independently</cluePolarity></clueType> <linkTheme>of</linkTheme> its association with other chains.</clue>
+</event>
+<sentence id="S7">We show that ligand-induced homodimerization of <term id="A3" sem="Protein_molecule"><term id="T39" lex="chimeric_surface_receptor" sem="Protein_family_or_group">chimeric surface receptors</term> consisting of the extracellular and transmembrane domains of the <term id="T41" lex="erythropoietin_receptor" sem="Protein_family_or_group"><term id="A2" sem="Protein_molecule">erythropoietin</term> receptor</term> and of the <term id="T42" lex="intracellular_domain" sem="Protein_domain_or_region">intracellular domain</term> of <term id="T43" lex="IL-4Ralpha" sem="Protein_molecule">IL-4Ralpha</term></term> induces <term id="T44" lex="Janus_kinase_1_(Jak1)_activation" sem="Other"><term id="T45" lex="Janus_kinase_1" sem="Protein_molecule">Janus kinase 1</term> (<term id="T46" lex="Jak1" sem="Protein_molecule">Jak1</term>) activation</term>, <term id="T47" lex="STAT6_activation" sem="Other"><term id="T48" lex="STAT6" sem="Protein_molecule">STAT6</term> activation</term>, and <term id="T49" lex="Cepsilon_germline_transcript" sem="RNA_family_or_group">Cepsilon germline transcripts</term> in <term id="T50" lex="human_B_cell_line_BJAB" sem="Cell_cultured">human B cell line BJAB</term>.</sentence>
+<event KT="Other" id="E122">
+<type class="Binding"/>
+<theme idref="A3"/>
+<theme idref="A3"/>
+<clue>We show that ligand-induced <clueType>homodimerization</clueType> <linkTheme>of</linkTheme> chimeric surface receptors consisting of the extracellular and transmembrane domains of the erythropoietin receptor and of the intracellular domain of IL-4Ralpha induces Janus kinase 1 (Jak1) activation, STAT6 activation, and Cepsilon germline transcripts in human B cell line BJAB.</clue>
+<comment>NER T40 DEL, TPS A3</comment></event>
+<event KT="Other" id="E23">
+<type class="Negative_regulation"/>
+<theme idref="E22"/>
+<cause idref="A2"/>
+<clue>We show that <corefCause>ligand</corefCause>-<clueType>induced</clueType> homodimerization of chimeric surface receptors consisting of the extracellular and transmembrane domains of the erythropoietin receptor and of the intracellular domain of IL-4Ralpha induces Janus kinase 1 (Jak1) activation, STAT6 activation, and Cepsilon germline transcripts in human B cell line BJAB.</clue>
+<comment>NER T40 DEL, TPS A3</comment></event>
+<event KT="Other" id="E24">
+<type class="Positive_regulation"/>
+<theme idref="T46"/>
+<clue>We show that ligand-induced homodimerization of chimeric surface receptors consisting of the extracellular and transmembrane domains of the erythropoietin receptor and of the intracellular domain of IL-4Ralpha induces Janus kinase 1 (Jak1) <clueType>activation</clueType>, STAT6 activation, and Cepsilon germline transcripts in human B cell line BJAB.</clue>
+</event>
+<event KT="Other" id="E25">
+<type class="Positive_regulation"/>
+<theme idref="T47"/>
+<clue>We show that ligand-induced homodimerization of chimeric surface receptors consisting of the extracellular and transmembrane domains of the erythropoietin receptor and of the intracellular domain of IL-4Ralpha induces Janus kinase 1 (Jak1) activation, STAT6 <clueType>activation</clueType>, and Cepsilon germline transcripts in human B cell line BJAB.</clue>
+</event>
+<event KT="Analysis" id="E26">
+<type class="Positive_regulation"/>
+<theme idref="E24"/>
+<cause idref="E23"/>
+<clue>We <clueKT>show</clueKT> that ligand-induced homodimerization of chimeric surface receptors consisting of the extracellular and transmembrane domains of the erythropoietin receptor and of the intracellular domain of IL-4Ralpha <clueType>induces</clueType> Janus kinase 1 (Jak1) activation, STAT6 activation, and Cepsilon germline transcripts <clueLoc>in human B cell line BJAB</clueLoc>.</clue>
+</event>
+<event KT="Analysis" id="E27">
+<type class="Positive_regulation"/>
+<theme idref="E25"/>
+<cause idref="E23"/>
+<clue>We <clueKT>show</clueKT> that ligand-induced homodimerization of chimeric surface receptors consisting of the extracellular and transmembrane domains of the erythropoietin receptor and of the intracellular domain of IL-4Ralpha <clueType>induces</clueType> Janus kinase 1 (Jak1) activation, STAT6 activation, and Cepsilon germline transcripts <clueLoc>in human B cell line BJAB</clueLoc>.</clue>
+</event>
+<event KT="Analysis" id="E28">
+<type class="Positive_regulation"/>
+<theme idref="T49"/>
+<cause idref="E23"/>
+<clue>We <clueKT>show</clueKT> that ligand-induced homodimerization of chimeric surface receptors consisting of the extracellular and transmembrane domains of the erythropoietin receptor and of the intracellular domain of IL-4Ralpha <clueType>induces</clueType> Janus kinase 1 (Jak1) activation, STAT6 activation, and Cepsilon germline transcripts <clueLoc>in human B cell line BJAB</clueLoc>.</clue>
+</event>
+<sentence id="S8">Disruption of the <term id="A4" sem="Protein_domain_or_region"><term id="T51" lex="Jak1-binding_proline-rich_Box1_region" sem="Protein_domain_or_region"><term id="T52" lex="Jak1" sem="Protein_molecule">Jak1</term>-binding proline-rich Box1 region</term> of <term id="T53" lex="IL-4Ralpha" sem="Protein_molecule">IL-4Ralpha</term></term> abolished signaling by this <term id="T54" lex="chimeric_receptor" sem="Protein_family_or_group">chimeric receptor</term>.</sentence>
+<event id="E29">
+<type class="Negative_regulation"/>
+<theme idref="A4"/>
+<clue><clueType>Disruption</clueType> <linkTheme>of</linkTheme> the Jak1-binding proline-rich Box1 region of IL-4Ralpha abolished signaling by this chimeric receptor.</clue>
+<comment>TPS A4</comment></event>
+<event KT="Other" id="E30">
+<type class="Cell_communication"/>
+<theme idref="A3"/>
+<clue>Disruption of the Jak1-binding proline-rich Box1 region of IL-4Ralpha abolished <clueType>signaling</clueType> <linkTheme>by</linkTheme> <corefTheme>this chimeric receptor</corefTheme>.</clue>
+</event>
+<event id="E31">
+<type class="Negative_regulation"/>
+<theme idref="E30"/>
+<cause idref="E29"/>
+<clue>Disruption of the Jak1-binding proline-rich Box1 region of IL-4Ralpha <clueType>abolished</clueType> signaling by this chimeric receptor.</clue>
+</event>
+<sentence id="S9">Furthermore, <term id="T55" lex="B_cell" sem="Cell_natural">B cells</term> transfected with a <term id="T56" lex="chimeric_CD8alpha/IL-4Ralpha_receptor" sem="Protein_molecule">chimeric CD8alpha/IL-4Ralpha receptor</term>, which is expressed on the cell surface as a <term id="T57" lex="homodimer" sem="Protein_complex">homodimer</term>, constitutively expressed <term id="T58" lex="Cepsilon_germline_transcript" sem="RNA_family_or_group">Cepsilon germline transcripts</term>.</sentence>
+<event id="E32">
+<type class="Transcription"/>
+<theme idref="T58"/>
+<clue>Furthermore, <clueLoc>B cells transfected with a chimeric CD8alpha/IL-4Ralpha receptor</clueLoc>, which is expressed on the cell surface as a homodimer, constitutively <clueType>expressed</clueType> Cepsilon germline transcripts.</clue>
+</event>
+<event KT="Fact" id="E33">
+<type class="Gene_expression"/>
+<theme idref="T56"/>
+<clue>Furthermore, B cells transfected with a chimeric CD8alpha/IL-4Ralpha receptor, which is <clueType>expressed</clueType> <clueLoc>on the cell surface</clueLoc> as a homodimer, constitutively expressed Cepsilon germline transcripts.</clue>
+</event>
+<event KT="Other" id="E133">
+<type class="Binding"/>
+<theme idref="T56"/>
+<theme idref="T56"/>
+<clue>Furthermore, B cells transfected with a chimeric CD8alpha/IL-4Ralpha receptor, which is expressed <clueLoc>on the cell surface</clueLoc> <clueType>as a homodimer</clueType>, constitutively expressed Cepsilon germline transcripts.</clue>
+</event>
+<event KT="Method" id="E134">
+<type class="Gene_expression"/>
+<theme idref="T56"/>
+<clue>Furthermore, B cells <clueType>transfected</clueType> <linkTheme>with</linkTheme> a chimeric CD8alpha/IL-4Ralpha receptor, which is expressed on the cell surface as a homodimer, constitutively expressed Cepsilon germline transcripts.</clue>
+<comment>ARTIFICIAL</comment></event>
+<event KT="Method" id="E135">
+<type class="Positive_regulation"/>
+<theme idref="E134"/>
+<clue>Furthermore, <clueLoc>B cells</clueLoc> <clueType>transfected</clueType> with a chimeric CD8alpha/IL-4Ralpha receptor, which is expressed on the cell surface as a homodimer, constitutively expressed Cepsilon germline transcripts.</clue>
+<comment>ARTIFICIAL</comment></event>
+<sentence id="S10">These results suggest that homodimerization of the <term id="T59" lex="IL-4Ralpha_chain" sem="Protein_molecule">IL-4Ralpha chain</term> is sufficient to transduce <term id="T61" lex="Jak1-dependent_intracellular_signal" sem="Other"><term id="T62" lex="Jak1" sem="Protein_molecule">Jak1</term>-dependent intracellular signals</term> that lead to <term id="T63" lex="IgE_isotype_switching" sem="Other"><term id="T64" lex="IgE_isotype" sem="Protein_family_or_group">IgE isotype</term> switching</term>.</sentence>
+<event KT="Other" id="E35">
+<type class="Binding"/>
+<theme idref="T59"/>
+<theme idref="T59"/>
+<clue>These results suggest that <clueType>homodimerization</clueType> <linkTheme>of</linkTheme> the IL-4Ralpha chain is sufficient to transduce Jak1-dependent intracellular signals that lead to IgE isotype switching.</clue>
+<comment>NER T60 DEL</comment></event>
+<event KT="Other" id="E36">
+<type class="Cell_communication"/>
+<theme idref="T62"/>
+<clue>These results suggest that homodimerization of the IL-4Ralpha chain is sufficient to transduce Jak1-<linkTheme>dependent</linkTheme> <clueType>intracellular signals</clueType> that lead to IgE isotype switching.</clue>
+</event>
+<event KT="Other" id="E37">
+<type class="Physiological_process"/>
+<theme idref="T64"/>
+<clue>These results suggest that homodimerization of the IL-4Ralpha chain is sufficient to transduce Jak1-dependent intracellular signals that lead to IgE isotype <clueType>switching</clueType>.</clue>
+</event>
+<event KT="Other" id="E38">
+<type class="Positive_regulation"/>
+<theme idref="E37"/>
+<cause idref="E36"/>
+<clue>These results suggest that homodimerization of the IL-4Ralpha chain is sufficient to transduce Jak1-dependent intracellular signals that <clueType>lead</clueType> <linkTheme>to</linkTheme> IgE isotype switching.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E39" uncertainty="probable">
+<type class="Positive_regulation"/>
+<theme idref="E38"/>
+<cause idref="E35"/>
+<clue>These results <clueKT><clueCL>suggest</clueCL></clueKT> that homodimerization of the IL-4Ralpha chain is <clueType>sufficient to transduce</clueType> Jak1-dependent intracellular signals that lead to IgE isotype switching.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

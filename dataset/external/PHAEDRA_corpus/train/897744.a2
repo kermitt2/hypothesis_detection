@@ -1,0 +1,13 @@
+T13	Adverse_effect 91 98	related
+T14	Potential_therapeutic_effect 75 82	treated
+T15	Potential_therapeutic_effect 171 178	treated
+T16	Adverse_effect 201 210	developed
+T18	Potential_therapeutic_effect 382 393	improvement
+T26	Adverse_effect 506 512	appear
+R1	Subject_Disorder Arg1:T24 Arg2:T5
+E1	Adverse_effect:T13 has_agent:T3 affects:T4
+E2	Potential_therapeutic_effect:T14 has_agent:T12 affects:T4
+E3	Potential_therapeutic_effect:T15 has_agent:T6 affects:T5 has_subject:T24
+E4	Adverse_effect:T16 has_agent:T6 affects:T7 affects:T8 has_subject:T24
+E5	Potential_therapeutic_effect:T18 has_agent:T17 affects:T10
+E7	Adverse_effect:T26 affects:T25 has_agent:T20

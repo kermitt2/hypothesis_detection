@@ -1,0 +1,282 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7578980" created="26/05/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7578980</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term> priming of <term id="T2" lex="monocyte" sem="Cell_natural">monocytes</term> enhances <term id="T3" lex="LPS-induced_TNF_production" sem="Other"><term id="T4" lex="LPS" sem="Lipid">LPS</term>-induced <term id="T5" lex="TNF" sem="Protein_family_or_group">TNF</term> production</term> by augmenting both <term id="T6" lex="transcription" sem="Other">transcription</term> and <term id="T7" lex="MRNA_stability" sem="Other">MRNA stability</term>.</sentence>
+<event id="E1">
+<type class="Physiological_process"/>
+<theme idref="T2"/>
+<cause idref="T1"/>
+<clue>IFN-gamma <clueType>priming</clueType> <linkTheme>of</linkTheme> monocytes enhances LPS-induced TNF production by augmenting both transcription and MRNA stability.</clue>
+<comment>CAUTION, &quot;MRNA&quot; should be &quot;mRNA&quot;</comment></event>
+<event id="E2">
+<type class="Gene_expression"/>
+<theme idref="T5"/>
+<clue>IFN-gamma priming of monocytes enhances LPS-induced TNF <clueType>production</clueType> by augmenting both transcription and MRNA stability.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E2"/>
+<cause idref="T4"/>
+<clue>IFN-gamma priming of monocytes enhances LPS-<clueType>induced</clueType> TNF production by augmenting both transcription and MRNA stability.</clue>
+</event>
+<event id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T6"/>
+<cause idref="E1"/>
+<clue>IFN-gamma priming of monocytes enhances LPS-induced TNF production by <clueType>augmenting</clueType> both transcription and MRNA stability.</clue>
+</event>
+<event id="E50">
+<type class="Positive_regulation"/>
+<theme idref="T7"/>
+<cause idref="E1"/>
+<clue>IFN-gamma priming of monocytes enhances LPS-induced TNF production by <clueType>augmenting</clueType> both transcription and MRNA stability.</clue>
+</event>
+<event id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="E4"/>
+<clue>IFN-gamma priming of monocytes <clueType>enhances</clueType> LPS-induced TNF production <linkCause>by</linkCause> augmenting both transcription and MRNA stability.</clue>
+</event>
+<event id="E105">
+<type class="Positive_regulation"/>
+<theme idref="E3"/>
+<cause idref="E50"/>
+<clue>IFN-gamma priming of monocytes <clueType>enhances</clueType> LPS-induced TNF production <linkCause>by</linkCause> augmenting both transcription and MRNA stability.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The induction of <term id="T8" lex="cytokine_expression" sem="Other"><term id="T9" lex="cytokine" sem="Protein_family_or_group">cytokine</term> expression</term> in <term id="T10" lex="monocyte" sem="Cell_natural">monocytes</term>/<term id="T11" lex="macrophage" sem="Cell_natural">macrophages</term> by <term id="T12" lex="bacterial_endotoxin" sem="Protein_family_or_group">bacterial endotoxin</term> or <term id="T13" lex="lipopolysaccharide" sem="Lipid">lipopolysaccharide</term> is a critical, highly regulated <term id="T14" lex="host_defence_response" sem="Other">host defence response</term>.</sentence>
+<event KT="Other" id="E6">
+<type class="Gene_expression"/>
+<theme idref="T9"/>
+<clue>The induction of cytokine <clueType>expression</clueType> in monocytes/macrophages by bacterial endotoxin or lipopolysaccharide is a critical, highly regulated host defence response.</clue>
+</event>
+<event KT="Other" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="T12"/>
+<clue>The <clueType>induction</clueType> <linkTheme>of</linkTheme> cytokine expression <clueLoc>in monocytes/macrophages</clueLoc> <linkCause>by</linkCause> bacterial endotoxin or lipopolysaccharide is a critical, highly regulated host defence response.</clue>
+</event>
+<event KT="Other" id="E8">
+<type class="Positive_regulation"/>
+<theme idref="E6"/>
+<cause idref="T13"/>
+<clue>The <clueType>induction</clueType> <linkTheme>of</linkTheme> cytokine expression <clueLoc>in monocytes/macrophages</clueLoc> <linkCause>by</linkCause> bacterial endotoxin or lipopolysaccharide is a critical, highly regulated host defence response.</clue>
+</event>
+<event KT="Fact" Manner="High" id="E51">
+<type class="Regulation"/>
+<theme idref="E7"/>
+<clue>The induction of cytokine expression in monocytes/macrophages by bacterial endotoxin or lipopolysaccharide is a critical, <clueManner>highly</clueManner> <clueType>regulated</clueType> host defence response.</clue>
+</event>
+<event KT="Fact" Manner="High" id="E52">
+<type class="Regulation"/>
+<theme idref="E8"/>
+<clue>The induction of cytokine expression in monocytes/macrophages by bacterial endotoxin or lipopolysaccharide is a critical, <clueManner>highly</clueManner> <clueType>regulated</clueType> host defence response.</clue>
+</event>
+<sentence id="S3">The augmentation of <term id="T15" lex="LPS" sem="Lipid">LPS</term> responses by <term id="T16" lex="interferon_gamma" sem="Protein_molecule">interferon gamma</term> (<term id="T17" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term>), referred to as priming, is well established.</sentence>
+<event KT="Fact" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="E8"/>
+<cause idref="T17"/>
+<clue>The <clueType>augmentation</clueType> <linkTheme>of</linkTheme> <corefTheme>LPS responses</corefTheme> <linkCause>by</linkCause> interferon gamma (IFN-gamma), referred to as priming, is well established.</clue>
+</event>
+<sentence id="S4">However, the mechanism(s) by which priming occurs is poorly defined.</sentence>
+<sentence id="S5">Using <term id="T18" lex="tumour_necrosis_factor_(TNF)_induction" sem="Other"><term id="T19" lex="tumour_necrosis_factor" sem="Protein_family_or_group">tumour necrosis factor</term> (<term id="T20" lex="TNF" sem="Protein_family_or_group">TNF</term>) induction</term> as a model, experiments were designed to analyse in detail the <term id="A20" sem="Other">priming</term> <term id="T21" lex="effect" sem="Other">effect</term> on the <term id="T22" lex="LPS" sem="Lipid">LPS</term> response in <term id="T23" lex="human_monocyte" sem="Cell_natural">human <term id="T24" lex="monocyte" sem="Cell_natural">monocytes</term></term>.</sentence>
+<event KT="Other" id="E10">
+<type class="Positive_regulation"/>
+<theme idref="T20"/>
+<clue>Using tumour necrosis factor (TNF) <clueType>induction</clueType> as a model, experiments were designed to analyse in detail the priming effect on the LPS response in human monocytes.</clue>
+</event>
+<event KT="Investigation" id="E11" uncertainty="doubtful">
+<type class="Regulation"/>
+<theme idref="E8"/>
+<cause idref="A20"/>
+<clue><clueExperiment>Using tumour necrosis factor (TNF) induction as a model,</clueExperiment> experiments were designed <clueKT>to analyse</clueKT> in detail the priming <clueType>effect</clueType> <linkTheme>on</linkTheme> <corefTheme>the LPS response</corefTheme> <clueLoc>in human monocytes</clueLoc>.</clue>
+<comment>NER: T21 mod</comment></event>
+<sentence id="S6">Priming by <term id="T25" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term> was primarily manifested at the level of <term id="T26" lex="TNF_mRNA_accumulation" sem="Other"><term id="T27" lex="TNF_mRNA" sem="RNA_family_or_group"><term id="T28" lex="TNF" sem="Protein_family_or_group">TNF</term> mRNA</term> accumulation</term>.</sentence>
+<event id="E12">
+<type class="Physiological_process"/>
+<cause idref="T25"/>
+<clue><clueType>Priming</clueType> <linkCause>by</linkCause> IFN-gamma was primarily <clueKT>manifested</clueKT> at the level of TNF mRNA accumulation.</clue>
+</event>
+<event id="E13">
+<type class="Positive_regulation"/>
+<theme idref="T27"/>
+<clue>Priming by IFN-gamma was primarily manifested at the level of TNF mRNA <clueType>accumulation</clueType>.</clue>
+</event>
+<sentence id="S7"><term id="T29" lex="IFN-gamma_pre-treatment" sem="Other"><term id="T30" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term> pre-treatment</term> affected the magnitude rather than the sensitivity of the <term id="T31" lex="LPS_response" sem="Other"><term id="T32" lex="LPS" sem="Lipid">LPS</term> response</term>.</sentence>
+<event KT="Method" id="E14">
+<type class="Artificial_process"/>
+<theme idref="T30"/>
+<clue>IFN-gamma <clueType>pre-treatment</clueType> affected the magnitude rather than the sensitivity of the LPS response.</clue>
+</event>
+<event id="E15">
+<type class="Regulation"/>
+<theme idref="E8"/>
+<cause idref="E14"/>
+<clue>IFN-gamma pre-treatment <clueType>affected</clueType> the magnitude rather than the sensitivity of <corefTheme>the LPS response.</corefTheme></clue>
+</event>
+<sentence id="S8"><term id="A21" sem="Other">Priming</term> occurred after several hours of <term id="T33" lex="treatment" sem="Other">treatment</term>, and the <term id="T34" lex="primed_state" sem="Other">primed state</term> was induced by either <term id="T35" lex="IFN-gamma" sem="Protein_molecule">IFN-gamma</term> or <term id="T36" lex="GM-CSF" sem="Protein_molecule">GM-CSF</term>, but not <term id="T37" lex="M-CSF" sem="Protein_molecule">M-CSF</term>.</sentence>
+<event id="E16">
+<type class="Positive_regulation"/>
+<theme idref="T34"/>
+<cause idref="T35"/>
+<clue>Priming occurred after several hours of treatment, and the primed state was <clueType>induced</clueType> <linkCause>by</linkCause> either IFN-gamma or GM-CSF, but not M-CSF.</clue>
+</event>
+<event id="E17">
+<type class="Positive_regulation"/>
+<theme idref="T34"/>
+<cause idref="T36"/>
+<clue>Priming occurred after several hours of treatment, and the primed state was <clueType>induced</clueType> <linkCause>by</linkCause> either IFN-gamma or GM-CSF, but not M-CSF.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="T34"/>
+<cause idref="T37"/>
+<clue>Priming occurred after several hours of treatment, and the primed state was <clueType>induced</clueType> <linkCause>by</linkCause> either IFN-gamma or GM-CSF, but <cluePolarity>not</cluePolarity> M-CSF.</clue>
+</event>
+<event id="E54">
+<type class="Positive_regulation"/>
+<theme idref="A21"/>
+<cause idref="T35"/>
+<clue>Priming <clueType>occurred</clueType> <clueTime>after several hours of treatment</clueTime>, and the primed state was induced by either IFN-gamma or GM-CSF, but not M-CSF.</clue>
+</event>
+<event id="E55">
+<type class="Positive_regulation"/>
+<theme idref="A21"/>
+<cause idref="T36"/>
+<clue>Priming <clueType>occurred</clueType> <clueTime>after several hours of treatment</clueTime>, and the primed state was induced by either IFN-gamma or GM-CSF, but not M-CSF.</clue>
+</event>
+<sentence id="S9">Primed <term id="T38" lex="monocyte" sem="Cell_natural">monocytes</term> transcribed <term id="T39" lex="TNF_mRNA" sem="RNA_family_or_group"><term id="T40" lex="TNF" sem="Protein_family_or_group">TNF</term> mRNA</term> at a higher rate than freshly isolated <term id="T41" lex="monocyte" sem="Cell_natural">monocytes</term> upon activation with <term id="T42" lex="LPS" sem="Lipid">LPS</term>.</sentence>
+<event id="E19">
+<type class="Transcription"/>
+<theme idref="T39"/>
+<clue>Primed monocytes <clueType>transcribed</clueType> TNF mRNA at a higher rate than freshly isolated monocytes upon activation with LPS.</clue>
+</event>
+<event id="E56">
+<type class="Positive_regulation"/>
+<theme idref="E19"/>
+<cause idref="T42"/>
+<clue>Primed monocytes transcribed TNF mRNA at a higher rate than freshly isolated monocytes upon <clueType>activation</clueType> <linkCause>with</linkCause> LPS.</clue>
+</event>
+<event id="E20">
+<type class="Positive_regulation"/>
+<theme idref="E56"/>
+<clue><clueLoc>Primed monocytes</clueLoc> transcribed TNF mRNA <clueType>at a higher rate than</clueType> freshly isolated monocytes upon activation with LPS.</clue>
+</event>
+<event id="E57">
+<type class="Physiological_process"/>
+<theme idref="T38"/>
+<clue><clueType>Primed</clueType> monocytes transcribed TNF mRNA at a higher rate than freshly isolated monocytes upon activation with LPS.</clue>
+</event>
+<sentence id="S10">The increased <term id="T43" lex="transcriptional_rate" sem="Other">transcriptional rate</term> correlated with a marked increase in <term id="T44" lex="nuclear_factor-kappa_B_activity" sem="Other"><term id="T45" lex="nuclear_factor-kappa_B" sem="Protein_molecule">nuclear factor-kappa B</term> activity</term> in these cells as determined by <term id="T46" lex="electrophoretic_mobility_shift_assay" sem="Other">electrophoretic mobility shift assay</term> using a <term id="T47" lex="consensus_NF-kappa_B_oligonucleotide" sem="DNA_molecule">consensus <term id="T48" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> oligonucleotide</term>.</sentence>
+<event KT="Other" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="T43"/>
+<clue>The <clueType>increased</clueType> transcriptional rate correlated with a marked increase in nuclear factor-kappa B activity in these cells as determined by electrophoretic mobility shift assay using a consensus NF-kappa B oligonucleotide.</clue>
+</event>
+<event KT="Other" Manner="High" id="E22">
+<type class="Positive_regulation"/>
+<theme idref="T44"/>
+<clue>The increased transcriptional rate correlated with a <clueManner>marked</clueManner> <clueType>increase</clueType> <linkTheme>in</linkTheme> nuclear factor-kappa B activity in these cells as determined by electrophoretic mobility shift assay using a consensus NF-kappa B oligonucleotide.</clue>
+</event>
+<event KT="Analysis" id="E23">
+<type class="Correlation"/>
+<theme idref="E21"/>
+<theme idref="E22"/>
+<clue>The increased transcriptional rate <clueType><clueKT>correlated</clueKT></clueType> <linkTheme>with</linkTheme> a marked increase in nuclear factor-kappa B activity <clueLoc>in these cells</clueLoc> <clueExperiment>as <clueKT>determined</clueKT> by electrophoretic mobility shift assay using a consensus NF-kappa B oligonucleotide.</clueExperiment></clue>
+</event>
+<sentence id="S11">An additional significant finding was than <term id="T49" lex="TNF_mRNA" sem="RNA_family_or_group"><term id="T50" lex="TNF" sem="Protein_family_or_group">TNF</term> mRNA</term> induced in <term id="T51" lex="primed_cell" sem="Cell_cultured">primed cells</term> was much more stable than in <term id="T52" lex="unprimed_cell" sem="Cell_cultured">unprimed cells</term> (T1/2 increased 6-8-fold).</sentence>
+<event id="E24">
+<type class="Positive_regulation"/>
+<theme idref="T49"/>
+<clue>An additional significant finding was than TNF mRNA <clueType>induced</clueType> <clueLoc>in primed cells</clueLoc> was much more stable than in unprimed cells (T1/2 increased 6-8-fold).</clue>
+</event>
+<event Manner="High" id="E59">
+<type class="Positive_regulation"/>
+<theme idref="T49"/>
+<clue>An additional significant <clueKT>finding</clueKT> was than TNF mRNA induced <clueLoc>in primed cells</clueLoc> was <clueManner>much</clueManner> <clueType>more stable</clueType> than in unprimed cells (T1/2 increased <clueManner>6-8-fold</clueManner>).</clue>
+</event>
+<event id="E60">
+<type class="Physiological_process"/>
+<theme idref="T38"/>
+<clue>An additional significant finding was than TNF mRNA induced in <clueType>primed</clueType> <corefTheme>cells</corefTheme> was much more stable than in unprimed cells (T1/2 increased 6-8-fold).</clue>
+</event>
+<sentence id="S12">Consistent with the increased <term id="T53" lex="mRNA_stability" sem="Other"><term id="T54" lex="mRNA" sem="RNA_family_or_group">mRNA</term> stability</term>, the duration of <term id="T55" lex="mRNA_accumulation" sem="Other"><term id="T56" lex="mRNA" sem="RNA_family_or_group">mRNA</term> accumulation</term> was longer following <term id="T57" lex="LPS" sem="Lipid">LPS</term> stimulation in <term id="A121" sem="Cell_natural">primed <term id="T58" lex="monocyte" sem="Cell_natural">monocytes</term></term>, in addition to being of greater magnitude.</sentence>
+<event id="E25">
+<type class="Positive_regulation"/>
+<theme idref="T53"/>
+<clue>Consistent with the <clueType>increased</clueType> mRNA stability, the duration of mRNA accumulation was longer following LPS stimulation <clueLoc>in primed monocytes</clueLoc>, in addition to being of greater magnitude.</clue>
+</event>
+<event id="E125">
+<type class="Physiological_process"/>
+<theme idref="A121"/>
+<cause idref="T57"/>
+<clue>Consistent with the increased mRNA stability, the duration of mRNA accumulation was longer following LPS <clueType>stimulation</clueType> <linkTheme>in</linkTheme> primed monocytes, in addition to being of greater magnitude.</clue>
+</event>
+<event id="E126">
+<type class="Positive_regulation"/>
+<theme idref="T49"/>
+<clue>Consistent with the increased mRNA stability, the duration of <corefTheme>mRNA</corefTheme> <clueType>accumulation</clueType> was longer following LPS stimulation in primed monocytes, in addition to being of greater magnitude.</clue>
+</event>
+<event id="E26">
+<type class="Positive_regulation"/>
+<theme idref="E126"/>
+<cause idref="E125"/>
+<clue>Consistent with the increased mRNA stability, the duration of <corefTheme>mRNA</corefTheme> accumulation was <clueType>longer</clueType> <linkCause>following</linkCause> LPS stimulation in primed monocytes, in addition to being of greater magnitude.</clue>
+</event>
+<event id="E62">
+<type class="Positive_regulation"/>
+<theme idref="E26"/>
+<clue>Consistent with the increased mRNA stability, the duration of mRNA accumulation was <clueType>longer</clueType> following LPS stimulation <clueLoc>in primed monocytes</clueLoc>, in addition to being of greater magnitude.</clue>
+</event>
+<event id="E27">
+<type class="Positive_regulation"/>
+<theme idref="E26"/>
+<clue>Consistent with the increased mRNA stability, the duration of mRNA accumulation was longer following LPS stimulation <clueLoc>in primed monocytes</clueLoc>, in addition to being of <clueType>greater magnitude</clueType>.</clue>
+</event>
+<event id="E63">
+<type class="Physiological_process"/>
+<theme idref="T58"/>
+<clue>Consistent with the increased mRNA stability, the duration of mRNA accumulation was longer following LPS stimulation in <clueType>primed</clueType> monocytes, in addition to being of greater magnitude.</clue>
+</event>
+<sentence id="S13">Finally, primed and unprimed cells possessed a differential sensitivity to the <term id="T59" lex="kinase_inhibitor_H-89" sem="Organic_compound_other">kinase inhibitor H-89</term>.</sentence>
+<sentence id="S14"><term id="T60" lex="H-89" sem="Organic_compound_other">H-89</term> substantially suppressed <term id="T61" lex="LPS-induced_TNF_mRNA_accumulation" sem="Other"><term id="T62" lex="LPS" sem="Lipid">LPS</term>-induced <term id="T63" lex="TNF_mRNA" sem="RNA_family_or_group"><term id="T64" lex="TNF" sem="Protein_family_or_group">TNF</term> mRNA</term> accumulation</term> in <term id="T65" lex="unprimed_cell" sem="Cell_cultured">unprimed cells</term>, but had no effect on <term id="T66" lex="primed_monocyte" sem="Cell_cultured">primed <term id="T67" lex="monocyte" sem="Cell_natural">monocytes</term></term> following <term id="T68" lex="LPS_stimulation" sem="Other"><term id="T69" lex="LPS" sem="Lipid">LPS</term> stimulation</term>.</sentence>
+<event KT="Other" id="E28">
+<type class="Positive_regulation"/>
+<theme idref="T63"/>
+<clue>H-89 substantially suppressed LPS-induced TNF mRNA <clueType>accumulation</clueType> in unprimed cells, but had no effect on primed monocytes following LPS stimulation.</clue>
+</event>
+<event KT="Other" id="E29">
+<type class="Positive_regulation"/>
+<theme idref="E28"/>
+<cause idref="T62"/>
+<clue>H-89 substantially suppressed LPS-<clueType>induced</clueType> TNF mRNA accumulation in unprimed cells, but had no effect on primed monocytes following LPS stimulation.</clue>
+</event>
+<event Manner="High" id="E30">
+<type class="Negative_regulation"/>
+<theme idref="E29"/>
+<cause idref="T60"/>
+<clue>H-89 <clueManner>substantially</clueManner> <clueType>suppressed</clueType> LPS-induced TNF mRNA accumulation <clueLoc>in unprimed cells</clueLoc>, but had no effect on primed monocytes following LPS stimulation.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E31">
+<type class="Regulation"/>
+<theme idref="E29"/>
+<cause idref="T60"/>
+<clue>H-89 substantially suppressed LPS-induced TNF mRNA accumulation in unprimed cells, but had <cluePolarity>no</cluePolarity> <clueType>effect</clueType> <clueLoc>on primed monocytes</clueLoc> following LPS stimulation.</clue>
+</event>
+<event id="E64">
+<type class="Physiological_process"/>
+<theme idref="T67"/>
+<clue>H-89 substantially suppressed LPS-induced TNF mRNA accumulation in unprimed cells, but had no effect on <clueType>primed</clueType> monocytes following LPS stimulation.</clue>
+</event>
+<event id="E65">
+<type class="Physiological_process"/>
+<cause idref="T69"/>
+<clue>H-89 substantially suppressed LPS-induced TNF mRNA accumulation in unprimed cells, but had no effect on primed monocytes following LPS <clueType>stimulation</clueType>.</clue>
+</event>
+<sentence id="S15">(ABSTRACT TRUNCATED AT 250 WORDS)</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

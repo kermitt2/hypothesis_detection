@@ -1,0 +1,69 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9744863" created="13/10/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9744863</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="T1" lex="altered_DNA-binding_specificity_mutant" sem="Protein_family_or_group">Altered <term id="A2" sem="DNA_domain_or_region">DNA</term>-binding specificity mutants</term> of <term id="T2" lex="EKLF" sem="Protein_molecule">EKLF</term> and <term id="A1" sem="Protein_molecule">Sp1</term> show that <term id="T3" lex="EKLF" sem="Protein_molecule">EKLF</term> is an activator of the <term id="T4" lex="beta-globin_locus_control_region" sem="DNA_domain_or_region">beta-globin locus control region</term> in vivo.</sentence>
+<event id="E1">
+<type class="Binding"/>
+<theme idref="A2"/>
+<theme idref="T2"/>
+<clue>Altered DNA-<clueType>binding specificity</clueType> mutants <linkTheme>of</linkTheme> EKLF and Sp1 show that EKLF is an activator of the beta-globin locus control region in vivo.</clue>
+</event>
+<event id="E2">
+<type class="Binding"/>
+<theme idref="A2"/>
+<theme idref="A1"/>
+<clue>Altered DNA-<clueType>binding specificity</clueType> mutants <linkTheme>of</linkTheme> EKLF and Sp1 show that EKLF is an activator of the beta-globin locus control region in vivo.</clue>
+</event>
+<event KT="Analysis" id="E3">
+<type class="Positive_regulation"/>
+<theme idref="T4"/>
+<cause idref="T3"/>
+<clue>Altered DNA-binding specificity mutants of EKLF and Sp1 <clueKT>show</clueKT> that EKLF is an <clueType>activator</clueType> <linkTheme>of</linkTheme> the beta-globin locus control region in vivo.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">The <term id="A3" sem="DNA_domain_or_region"><term id="T5" lex="locus_control_region" sem="DNA_domain_or_region">locus control region</term> of the <term id="T6" lex="beta-globin_cluster" sem="DNA_family_or_group">beta-globin cluster</term></term> contains five <term id="T7" lex="DNase_I_hypersensitive_site" sem="DNA_domain_or_region">DNase I hypersensitive sites</term> (<term id="T8" lex="5&apos;HS1-5" sem="DNA_domain_or_region">5&apos;HS1-5</term>) required for <term id="T9" lex="locus_activation" sem="Other">locus activation</term>.</sentence>
+<event KT="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T6"/>
+<clue>The locus control region of the beta-globin cluster contains five DNase I hypersensitive sites (5&apos;HS1-5) required for <corefTheme>locus</corefTheme> <clueType>activation</clueType>.</clue>
+<comment>TPS A3</comment></event>
+<event KT="Fact" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="T8"/>
+<clue>The locus control region of the beta-globin cluster contains five DNase I hypersensitive sites (5&apos;HS1-5) <clueType>required</clueType> <linkTheme>for</linkTheme> locus activation.</clue>
+</event>
+<sentence id="S3"><term id="T10" lex="5&apos;HS3" sem="DNA_domain_or_region">5&apos;HS3</term> contains six <term id="T11" lex="G-rich_motif" sem="DNA_substructure">G-rich motifs</term> that are essential for its activity.</sentence>
+<event KT="Fact" id="E6">
+<type class="Positive_regulation"/>
+<theme idref="E4"/>
+<cause idref="T11"/>
+<clue>5&apos;HS3 contains six G-rich motifs that are <clueType>essential</clueType> <linkTheme>for</linkTheme> <corefTheme>its activity</corefTheme>.</clue>
+</event>
+<sentence id="S4"><term id="A4" sem="Protein_family_or_group">Members of a protein family, characterized by three <term id="T12" lex="zinc_finger" sem="Protein_substructure">zinc fingers</term> highly homologous to those found in <term id="T13" lex="transcription_factor_Sp1" sem="Protein_molecule">transcription factor Sp1</term></term>, interact with these motifs.</sentence>
+<event KT="Fact" id="E7">
+<type class="Binding"/>
+<theme idref="A4"/>
+<theme idref="T11"/>
+<clue>Members of a protein family, characterized by three zinc fingers highly homologous to those found in transcription factor Sp1, <clueType>interact</clueType> <linkTheme>with</linkTheme> <corefTheme>these motifs</corefTheme>.</clue>
+<comment>TPS A4</comment></event>
+<sentence id="S5">Because <term id="T14" lex="point_mutagenesis" sem="Other">point mutagenesis</term> cannot distinguish between family members, it is not known which protein activates <term id="T15" lex="5&apos;HS3" sem="DNA_domain_or_region">5&apos;HS3</term>.</sentence>
+<event KT="Investigation" Polarity="Negative" id="E8" uncertainty="doubtful">
+<type class="Positive_regulation"/>
+<theme idref="T15"/>
+<cause idref="A4"/>
+<clue>Because point mutagenesis cannot distinguish between family members, it is <clueKT>not known</clueKT> <corefCause>which protein</corefCause> <clueType>activates</clueType> 5&apos;HS3.</clue>
+</event>
+<sentence id="S6">We show that the function of such closely related proteins can be distinguished in vivo by matching <term id="T16" lex="point_mutation" sem="Other">point mutations</term> in <term id="T17" lex="5&apos;HS3" sem="DNA_domain_or_region">5&apos;HS3</term> with <term id="T18" lex="amino_acid_change" sem="Other">amino acid changes</term> in the <term id="T19" lex="zinc_finger" sem="Protein_substructure">zinc fingers</term> of <term id="T20" lex="Sp1" sem="Protein_molecule">Sp1</term> and <term id="T21" lex="EKLF" sem="Protein_molecule">EKLF</term>.</sentence>
+<sentence id="S7">Testing their activity in <term id="T22" lex="transgenic_mouse" sem="Multicellular_organism_genetically_modified">transgenic mice</term> shows that <term id="T23" lex="EKLF" sem="Protein_molecule">EKLF</term> is a direct activator of <term id="T24" lex="5&apos;HS3" sem="DNA_domain_or_region">5&apos;HS3</term>.</sentence>
+<event KT="Analysis" id="E9">
+<type class="Positive_regulation"/>
+<theme idref="T24"/>
+<cause idref="T23"/>
+<clue>Testing their activity <clueLoc>in transgenic mice</clueLoc> <clueKT>shows</clueKT> that EKLF is a direct <clueType>activator</clueType> <linkTheme>of</linkTheme> 5&apos;HS3.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

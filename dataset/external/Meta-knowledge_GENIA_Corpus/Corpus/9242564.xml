@@ -1,0 +1,159 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=9242564" created="14/11/2006" creator="Yo Shidahara"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>9242564</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">A shortened life span of <term id="T1" lex="EKLF-/-_adult_erythrocyte" sem="Cell_natural">EKLF-/- adult erythrocytes</term>, due to a deficiency of <term id="T2" lex="beta-globin_chain" sem="Protein_molecule">beta-globin chains</term>, is ameliorated by <term id="T3" lex="human_gamma-globin_chain" sem="Protein_molecule">human gamma-globin chains</term>.</sentence>
+<event id="E1">
+<type class="Cellular_physiological_process"/>
+<theme idref="T1"/>
+<clue><clueType>A shortened life span</clueType> <linkTheme>of</linkTheme> EKLF-/- adult erythrocytes, due to a deficiency of beta-globin chains, is ameliorated by human gamma-globin chains.</clue>
+</event>
+<event id="E2">
+<type class="Negative_regulation"/>
+<theme idref="T2"/>
+<clue>A shortened life span of EKLF-/- adult erythrocytes, due to a <clueType>deficiency</clueType> <linkTheme>of</linkTheme> beta-globin chains, is ameliorated by human gamma-globin chains.</clue>
+</event>
+<event id="E3">
+<type class="Positive_regulation"/>
+<theme idref="E1"/>
+<cause idref="E2"/>
+<clue>A shortened life span of EKLF-/- adult erythrocytes, <clueType>due</clueType> <linkCause>to</linkCause> a deficiency of beta-globin chains, is ameliorated by human gamma-globin chains.</clue>
+</event>
+<event id="E4">
+<type class="Negative_regulation"/>
+<theme idref="E3"/>
+<cause idref="T3"/>
+<clue>A shortened life span of EKLF-/- adult erythrocytes, due to a deficiency of beta-globin chains, is <clueType>ameliorated</clueType> <linkCause>by</linkCause> human gamma-globin chains.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Using homologous recombination, both <term id="T4" lex="EKLF_alleles" sem="DNA_molecule">EKLF alleles</term> in <term id="T5" lex="murine_embryonic_stem_(ES)_cell" sem="Cell_cultured">murine embryonic stem (ES) cells</term> were inactivated.</sentence>
+<sentence id="S3">These <term id="T6" lex="EKLF-/-_ES_cell" sem="Cell_cultured">EKLF-/- ES cells</term> were capable of undergoing in vitro <term id="T7" lex="differentiation" sem="Other">differentiation</term> to form definitive <term id="A1" sem="Cell_natural">erythroid colonies</term> that were similar in size and number to those formed by <term id="T8" lex="wild-type_ES_cell" sem="Cell_natural">wild-type ES cells</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E5">
+<type class="Cell_differentiation"/>
+<theme idref="T6"/>
+<theme idref="A1"/>
+<clue>These EKLF-/- ES cells were <clueKT><clueCL>capable</clueCL></clueKT> of <clueType>undergoing in vitro differentiation to form</clueType> definitive erythroid colonies that were similar in size and number to those formed by wild-type ES cells.</clue>
+<comment>NER: T7 mod &quot;in vitro differentiation&quot;-&gt;&quot;differentiation&quot;</comment></event>
+<event KT="Other" id="E6">
+<type class="Cell_differentiation"/>
+<theme idref="T8"/>
+<theme idref="A1"/>
+<clue>These EKLF-/- ES cells were capable of undergoing in vitro differentiation to form definitive erythroid colonies that were similar in size and number to <corefTheme>those</corefTheme> <clueType>formed</clueType> <linkTheme>by</linkTheme> wild-type ES cells.</clue>
+</event>
+<sentence id="S4">However, the <term id="T9" lex="EKLF-/-_colony" sem="Cell_cultured">EKLF-/- colonies</term> were poorly hemoglobinized and <term id="T10" lex="enucleated_erythrocyte" sem="Cell_natural">enucleated <term id="A2" sem="Cell_natural">erythrocytes</term></term> in these colonies contained numerous <term id="T11" lex="Heinz_body" sem="Cell_component">Heinz bodies</term>.</sentence>
+<event Manner="Low" assertion="non-exist" id="E7">
+<type class="Cell_differentiation"/>
+<theme idref="T9"/>
+<clue>However, the EKLF-/- colonies were <clueManner>poorly</clueManner> <clueType>hemoglobinized</clueType> and enucleated erythrocytes in these colonies contained numerous Heinz bodies.</clue>
+</event>
+<event assertion="non-exist" id="E8">
+<type class="Cell_differentiation"/>
+<theme idref="A2"/>
+<clue>However, the EKLF-/- colonies were poorly hemoglobinized and <clueType>enucleated</clueType> erythrocytes in these colonies contained numerous Heinz bodies.</clue>
+</event>
+<sentence id="S5"><term id="T12" lex="reverse_transcriptase-polymerase_chain_reaction" sem="Other">Reverse transcriptase-polymerase chain reaction</term> (<term id="T13" lex="RT-PCR" sem="Other">RT-PCR</term>) analyses revealed that <term id="A3" sem="DNA_family_or_group">adult</term> and <term id="A4" sem="DNA_family_or_group">embryonic</term> <term id="T14" lex="embryonic_globin_gene" sem="DNA_family_or_group">globin genes</term> were appropriately regulated, with the exception of <term id="T15" lex="beta_h1-globin" sem="Protein_molecule">beta h1-globin</term>, which continued to be expressed at a very low level.</sentence>
+<event KT="Analysis" id="E9">
+<type class="Regulation"/>
+<theme idref="A3" idref1="T14"/>
+<clue><clueExperiment>Reverse transcriptase-polymerase chain reaction (RT-PCR) analyses</clueExperiment> <clueKT>revealed</clueKT> that adult and embryonic globin genes were appropriately <clueType>regulated</clueType>, with the exception of beta h1-globin, which continued to be expressed at a very low level.</clue>
+<comment>NER T14 MOD</comment></event>
+<event KT="Analysis" id="E10">
+<type class="Regulation"/>
+<theme idref="A4" idref1="T14"/>
+<clue><clueExperiment>Reverse transcriptase-polymerase chain reaction (RT-PCR) analyses</clueExperiment> <clueKT>revealed</clueKT> that adult and embryonic globin genes were appropriately <clueType>regulated</clueType>, with the exception of beta h1-globin, which continued to be expressed at a very low level.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E11">
+<type class="Regulation"/>
+<theme idref="T15"/>
+<clue><clueExperiment>Reverse transcriptase-polymerase chain reaction (RT-PCR) analyses</clueExperiment> <clueKT>revealed</clueKT> that adult and embryonic globin genes were appropriately <clueType>regulated</clueType>, <linkTheme><cluePolarity>with the exception of</cluePolarity></linkTheme> beta h1-globin, which continued to be expressed at a very low level.</clue>
+</event>
+<event KT="Other" Manner="Low" id="E12">
+<type class="Gene_expression"/>
+<theme idref="T15"/>
+<clue>Reverse transcriptase-polymerase chain reaction (RT-PCR) analyses revealed that adult and embryonic globin genes were appropriately regulated, with the exception of beta h1-globin, which continued to be <clueType>expressed</clueType> <clueManner>at a very low level</clueManner>.</clue>
+</event>
+<event KT="Analysis" Polarity="Negative" assertion="non-exist" id="E13">
+<type class="Negative_regulation"/>
+<theme idref="E12"/>
+<clue><clueExperiment>Reverse transcriptase-polymerase chain reaction (RT-PCR) analyses</clueExperiment> <clueKT>revealed</clueKT> that adult and embryonic globin genes were appropriately regulated, with the exception of beta h1-globin, which <clueType><cluePolarity>continued</cluePolarity> to</clueType> be expressed at a very low level.</clue>
+</event>
+<sentence id="S6">The ratio of <term id="T16" lex="adult_beta-globin/alpha-globin_mRNA" sem="RNA_molecule">adult beta-globin/alpha-globin mRNA</term> in the <term id="T17" lex="mutant_ES_cell" sem="Cell_cultured">mutant ES cells</term> was 1/15 of that in <term id="T18" lex="wild-type_ES_cell" sem="Cell_natural">wild-type ES cells</term>.</sentence>
+<sentence id="S7">When the <term id="T19" lex="EKLF-/-_cell" sem="Cell_cultured">EKLF-/- cells</term> were injected into <term id="A5" sem="Cell_natural">blastocysts</term>, they did not contribute at a detectable level to the <term id="A6" sem="Cell_natural">mature erythrocyte</term> compartment of the <term id="T20" lex="chimeric_animal" sem="Multicellular_organism_genetically_modified">chimeric animals</term>, based on analysis of <term id="T21" lex="glucose_phosphate_isomerase-1_(GPI-1)_isozyme" sem="Protein_family_or_group">glucose phosphate isomerase-1 (GPI-1) isozymes</term> and <term id="A7" sem="Protein_family_or_group">hemoglobins</term> that distinguish <term id="T22" lex="ES_cell-derived_erythrocyte" sem="Cell_natural">ES cell-derived erythrocytes</term> from host <term id="T23" lex="blastocyst-derived_erythrocyte" sem="Cell_natural">blastocyst-derived erythrocytes</term>.</sentence>
+<event KT="Method" id="E14">
+<type class="Artificial_process"/>
+<theme idref="T19"/>
+<theme idref="A5"/>
+<clue>When the EKLF-/- cells were <clueType>injected</clueType> <linkTheme>into</linkTheme> blastocysts, they did not contribute at a detectable level to the mature erythrocyte compartment of the chimeric animals, based on analysis of glucose phosphate isomerase-1 (GPI-1) isozymes and hemoglobins that distinguish ES cell-derived erythrocytes from host blastocyst-derived erythrocytes.</clue>
+</event>
+<event Polarity="Negative" assertion="non-exist" id="E15">
+<type class="Cell_differentiation"/>
+<theme idref="T19"/>
+<theme idref="A6"/>
+<clue>When the EKLF-/- cells were injected into blastocysts, <corefTheme>they</corefTheme> did <cluePolarity>not</cluePolarity> <clueType>contribute at a <clueKT>detectable</clueKT> level</clueType> <linkTheme>to</linkTheme> the mature erythrocyte compartment of the chimeric animals, based on <clueExperiment>analysis of glucose phosphate isomerase-1 (GPI-1) isozymes and hemoglobins</clueExperiment> that distinguish ES cell-derived erythrocytes from host blastocyst-derived erythrocytes.</clue>
+</event>
+<sentence id="S8">In contrast, <term id="T24" lex="semiquantitative_RT-PCR_analysis" sem="Other">semiquantitative RT-PCR analysis</term> of RNA from <term id="T26" lex="reticulocyte" sem="Cell_natural">reticulocytes</term> of the same chimeric animals suggested that the <term id="T27" lex="ES_cell-derived_reticulocyte" sem="Cell_natural">ES cell-derived <term id="T28" lex="reticulocyte" sem="Cell_natural">reticulocytes</term></term> were present at a level of 6% to 8%.</sentence>
+<sentence id="S9">This indicated that the <term id="T29" lex="EKLF-/-_erythrocyte" sem="Cell_cultured">EKLF-/- erythrocytes</term> in adult animals must be short-lived, apparently due to the imbalance of <cons id="T30" lex="(VERSUS beta-globin_chain alpha-globin_chain)" sem="(VERSUS Protein_molecule Protein_molecule)"><frag id="F1"><term id="A8" sem="Protein_molecule">beta-</term></frag> versus <frag id="F2"><term id="A9" sem="Protein_molecule">alpha-</term></frag><frag id="F3"><term id="A10" sem="Protein_molecule">globin chains</term></frag></cons>, leading to the precipitation of excess <term id="T31" lex="alpha-globin_chain" sem="Protein_molecule">alpha-globin chains</term> to form <term id="T32" lex="Heinz_body" sem="Cell_component">Heinz bodies</term>.</sentence>
+<event CL="L2" KT="Analysis" id="E16" uncertainty="probable">
+<type class="Cellular_physiological_process"/>
+<theme idref="T29"/>
+<clue>This <clueKT><clueCL>indicated</clueCL></clueKT> that the EKLF-/- erythrocytes <clueLoc>in adult animals</clueLoc> must be <clueType>short-lived</clueType>, apparently due to the imbalance of beta- versus alpha-globin chains, leading to the precipitation of excess alpha-globin chains to form Heinz bodies.</clue>
+<comment>NER: T25 in S8, del &quot;RT-PCR&quot;</comment></event>
+<event KT="Other" id="E17">
+<type class="Regulation"/>
+<theme idref="A8" idref1="A10"/>
+<theme idref="A9" idref1="A10"/>
+<clue>This indicated that the EKLF-/- erythrocytes in adult animals must be short-lived, apparently due to the <clueType>imbalance</clueType> <linkTheme>of</linkTheme> beta- versus alpha-globin chains, leading to the precipitation of excess alpha-globin chains to form Heinz bodies.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E18">
+<type class="Positive_regulation"/>
+<theme idref="E16"/>
+<cause idref="E17"/>
+<clue>This <clueKT>indicated</clueKT> that the EKLF-/- erythrocytes in adult animals must be short-lived, <clueCL>apparently</clueCL> <clueType>due</clueType> <linkCause>to</linkCause> the imbalance of beta- versus alpha-globin chains, leading to the precipitation of excess alpha-globin chains to form Heinz bodies.</clue>
+</event>
+<event KT="Other" id="E19">
+<type class="Positive_regulation"/>
+<theme idref="T31"/>
+<clue>This indicated that the EKLF-/- erythrocytes in adult animals must be short-lived, apparently due to the imbalance of beta- versus alpha-globin chains, leading to the precipitation of <clueType>excess</clueType> alpha-globin chains to form Heinz bodies.</clue>
+</event>
+<event KT="Other" id="E20">
+<type class="Localization"/>
+<theme idref="T31"/>
+<clue>This indicated that the EKLF-/- erythrocytes in adult animals must be short-lived, apparently due to the imbalance of beta- versus alpha-globin chains, leading to the <clueType>precipitation</clueType> <linkTheme>of</linkTheme> excess alpha-globin chains <clueType>to form</clueType> <clueLoc>Heinz bodies</clueLoc>.</clue>
+</event>
+<event KT="Other" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="E17"/>
+<clue>This indicated that the EKLF-/- erythrocytes in adult animals must be short-lived, apparently due to the imbalance of beta- versus alpha-globin chains, <clueType>leading</clueType> <linkTheme>to</linkTheme> the precipitation of excess alpha-globin chains to form Heinz bodies.</clue>
+</event>
+<sentence id="S10">Consistent with this hypothesis, the short life span was ameliorated by introduction into the <term id="T33" lex="EKLF-/-_ES_cell" sem="Cell_cultured">EKLF-/- ES cells</term> of a <term id="T34" lex="human_LCR/gamma-globin_gene" sem="DNA_domain_or_region">human LCR/gamma-globin gene</term>, as evidenced by the presence of <term id="T35" lex="ES_cell-derived_reticulocyte" sem="Cell_natural">ES cell-derived <term id="T36" lex="reticulocyte" sem="Cell_natural">reticulocytes</term></term> as well as <term id="T37" lex="mature_erythrocyte" sem="Cell_natural">mature erythrocytes</term> in the <term id="A15" sem="Body_region">blood</term> of the <term id="T38" lex="chimeric_animal" sem="Multicellular_organism_genetically_modified">chimeric animals</term>.</sentence>
+<event id="E22">
+<type class="Cellular_physiological_process"/>
+<theme idref="T33"/>
+<clue>Consistent with this hypothesis, the <clueType>short life span</clueType> was ameliorated by introduction into the EKLF-/- ES cells of a human LCR/gamma-globin gene, as evidenced by the presence of ES cell-derived reticulocytes as well as mature erythrocytes in the blood of the chimeric animals.</clue>
+<comment>NO COREFTHEME</comment></event>
+<event KT="Method" id="E23">
+<type class="Artificial_process"/>
+<theme idref="T34"/>
+<clue>Consistent with this hypothesis, the short life span was ameliorated by <clueType>introduction</clueType> <clueLoc>into the EKLF-/- ES cells</clueLoc> <linkTheme>of</linkTheme> a human LCR/gamma-globin gene, as evidenced by the presence of ES cell-derived reticulocytes as well as mature erythrocytes in the blood of the chimeric animals.</clue>
+</event>
+<event id="E123">
+<type class="Gene_expression"/>
+<theme idref="T34"/>
+<clue>Consistent with this hypothesis, the short life span was ameliorated by <clueType>introduction</clueType> into the EKLF-/- ES cells <linkTheme>of</linkTheme> a human LCR/gamma-globin gene, as evidenced by the presence of ES cell-derived reticulocytes as well as mature erythrocytes in the blood of the chimeric animals.</clue>
+</event>
+<event id="E124">
+<type class="Positive_regulation"/>
+<theme idref="E123"/>
+<clue>Consistent with this hypothesis, the short life span was ameliorated by <clueType>introduction</clueType> <clueLoc>into the EKLF-/- ES cells</clueLoc> of a human LCR/gamma-globin gene, as evidenced by the presence of ES cell-derived reticulocytes as well as mature erythrocytes in the blood of the chimeric animals.</clue>
+</event>
+<event id="E24">
+<type class="Negative_regulation"/>
+<theme idref="E22"/>
+<cause idref="E23"/>
+<clue>Consistent with this hypothesis, the short life span was <clueType>ameliorated</clueType> <linkCause>by</linkCause> introduction into the EKLF-/- ES cells of a human LCR/gamma-globin gene, as evidenced by the presence of ES cell-derived reticulocytes as well as mature erythrocytes in the blood of the chimeric animals.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

@@ -1,0 +1,20 @@
+T6	DDI 9 20	interaction
+T8	DDI 82 93	interaction
+T24	Potential_therapeutic_effect 263 272	receiving
+T29	DDI 1055 1066	interaction
+T35	Adverse_effect 134 143	resulting
+T41	DDI 1630 1641	interaction
+T44	Potential_therapeutic_effect 980 983	due
+T46	DDI 1747 1758	interaction
+E1	DDI:T6 has_cue:T7 has_participant:T1 has_participant:T33
+E2	DDI:T8 has_cue:T10 has_participant:T2 has_participant:T34
+E5	DDI:T29 has_participant:T14 has_cue:T30 has_participant:T36
+E8	DDI:T41 has_participant:T40 has_participant:T39 has_cue:T42
+E10	DDI:T46 has_participant:T45 has_participant:T20
+E4	Potential_therapeutic_effect:T24 has_agent:T4 has_subject:T22
+E7	Adverse_effect:T35 affects:T3 has_agent:E2
+E9	Potential_therapeutic_effect:T44 has_agent:T43 affects:T13
+A1	Speculated E1
+A2	Speculated E2
+A4	Speculated E5
+A5	Speculated E8

@@ -1,0 +1,14 @@
+T11	DDI 34 46	interactions
+T30	Potential_therapeutic_effect 267 276	receiving
+T16	DDI 983 991	interact
+T50	Potential_therapeutic_effect 308 316	received
+T27	Adverse_effect 1203 1210	caution
+R1	Coreference Arg1:T31 Arg2:T28
+E1	DDI:T11 has_participant:T1 has_participant:T2
+E3	DDI:T16 has_participant:T22 has_participant:T23 has_participant:T24
+E4	Combination:T35 has_participant:T21 has_participant:T19 has_participant:T20
+E13	Combination:T43 has_participant:T29 has_participant:T25 has_participant:T26
+E2	Potential_therapeutic_effect:T30 has_subject:T28 has_agent:T9
+E11	Potential_therapeutic_effect:T50 has_subject:T31 has_agent:T10
+E5	Adverse_effect:T27 has_agent:E13 has_cue:T32
+A1	Negated E5

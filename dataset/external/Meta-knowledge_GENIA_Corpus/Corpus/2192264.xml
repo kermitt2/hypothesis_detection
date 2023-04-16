@@ -1,0 +1,69 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=2192264" created="07/04/2006" creator="Noriko Katsu"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>2192264</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1">Involvement of <term id="T1" lex="cyclic_AMP-dependent_protein_kinase" sem="Protein_family_or_group">cyclic AMP-dependent protein kinases</term> in the <term id="T2" lex="signal_transduction_pathway" sem="Other">signal transduction pathway</term> for <term id="T3" lex="interleukin-1" sem="Protein_molecule">interleukin-1</term>.</sentence>
+<event KT="Investigation" id="E1">
+<type class="Regulation"/>
+<theme idref="E2"/>
+<cause idref="T1"/>
+<clue><clueType>Involvement</clueType> <linkCause>of</linkCause> cyclic AMP-dependent protein kinases <linkTheme>in</linkTheme> the signal transduction pathway for interleukin-1.</clue>
+</event>
+<event KT="Other" id="E2">
+<type class="Cell_communication"/>
+<theme idref="T3"/>
+<clue>Involvement of cyclic AMP-dependent protein kinases in the <clueType>signal transduction</clueType> pathway <linkTheme>for</linkTheme> interleukin-1.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S2">Expression of a highly specific <term id="A1" sem="Other"><term id="T4" lex="protein_inhibitor" sem="Other">protein inhibitor</term> for <term id="T5" lex="cyclic_AMP-dependent_protein_kinase" sem="Protein_family_or_group">cyclic AMP-dependent protein kinases</term></term> in <term id="T6" lex="interleukin-1_(IL-1)-responsive_cell" sem="Cell_cultured"><term id="T7" lex="interleukin-1" sem="Protein_molecule">interleukin-1</term> (IL-1)-responsive cells</term> blocked <term id="T8" lex="IL-1-induced_gene_transcription" sem="Other"><term id="T9" lex="IL-1-induced_gene" sem="DNA_domain_or_region">IL-1-induced gene</term> transcription</term> that was driven by the <term id="T10" lex="kappa_immunoglobulin_enhancer" sem="DNA_domain_or_region">kappa immunoglobulin enhancer</term> or the <term id="T11" lex="human_immunodeficiency_virus_long_terminal_repeat" sem="DNA_domain_or_region"><term id="T12" lex="human_immunodeficiency_virus" sem="Virus">human immunodeficiency virus</term> long terminal repeat</term>.</sentence>
+<event id="E3">
+<type class="Metabolism"/>
+<theme idref="A1"/>
+<clue><clueType>Expression</clueType> <linkTheme>of</linkTheme> a highly specific protein inhibitor for cyclic AMP-dependent protein kinases <clueLoc>in interleukin-1 (IL-1)-responsive cells</clueLoc> blocked IL-1-induced gene transcription that was driven by the kappa immunoglobulin enhancer or the human immunodeficiency virus long terminal repeat.</clue>
+<comment>TPS: A1</comment></event>
+<event KT="Other" id="E4">
+<type class="Positive_regulation"/>
+<theme idref="T8"/>
+<cause idref="T10"/>
+<clue>Expression of a highly specific protein inhibitor for cyclic AMP-dependent protein kinases in interleukin-1 (IL-1)-responsive cells blocked IL-1-induced gene transcription that was <clueType>driven</clueType> <linkCause>by</linkCause> the kappa immunoglobulin enhancer or the human immunodeficiency virus long terminal repeat.</clue>
+</event>
+<event KT="Other" id="E5">
+<type class="Positive_regulation"/>
+<theme idref="T8"/>
+<cause idref="T11"/>
+<clue>Expression of a highly specific protein inhibitor for cyclic AMP-dependent protein kinases in interleukin-1 (IL-1)-responsive cells blocked IL-1-induced gene transcription that was <clueType>driven</clueType> <linkCause>by</linkCause> the kappa immunoglobulin enhancer or the human immunodeficiency virus long terminal repeat.</clue>
+</event>
+<event id="E6">
+<type class="Negative_regulation"/>
+<theme idref="E4"/>
+<cause idref="E3"/>
+<clue>Expression of a highly specific protein inhibitor for cyclic AMP-dependent protein kinases in interleukin-1 (IL-1)-responsive cells <clueType>blocked</clueType> IL-1-induced gene transcription that was driven by the kappa immunoglobulin enhancer or the human immunodeficiency virus long terminal repeat.</clue>
+</event>
+<event id="E7">
+<type class="Negative_regulation"/>
+<theme idref="E5"/>
+<cause idref="E3"/>
+<clue>Expression of a highly specific protein inhibitor for cyclic AMP-dependent protein kinases in interleukin-1 (IL-1)-responsive cells <clueType>blocked</clueType> IL-1-induced gene transcription that was driven by the kappa immunoglobulin enhancer or the human immunodeficiency virus long terminal repeat.</clue>
+</event>
+<sentence id="S3">This inhibitor did not affect <term id="T13" lex="protein_kinase_C-mediated_gene_transcription" sem="Other"><term id="T14" lex="protein_kinase_C" sem="Protein_molecule">protein kinase C</term>-mediated gene transcription</term>, suggesting that <term id="T15" lex="cyclic_AMP-dependent_protein_kinase" sem="Protein_family_or_group">cyclic AMP-dependent protein kinases</term> are involved in the <term id="T16" lex="signal_transduction_pathway" sem="Other">signal transduction pathway</term> for <term id="T17" lex="IL-1" sem="Protein_molecule">IL-1</term> in a number of <term id="T18" lex="responsive_cell_type" sem="Cell_natural">responsive cell types</term>.</sentence>
+<event Polarity="Negative" assertion="non-exist" id="E8">
+<type class="Regulation"/>
+<theme idref="T13"/>
+<cause idref="A1"/>
+<clue><linkCause>This inhibitor</linkCause> did <cluePolarity>not</cluePolarity> <clueType>affect</clueType> protein kinase C-mediated gene transcription, suggesting that cyclic AMP-dependent protein kinases are involved in the signal transduction pathway for IL-1 in a number of responsive cell types.</clue>
+</event>
+<event KT="Other" id="E9">
+<type class="Cell_communication"/>
+<theme idref="T17"/>
+<clue>This inhibitor did not affect protein kinase C-mediated gene transcription, suggesting that cyclic AMP-dependent protein kinases are involved in the <clueType>signal transduction</clueType> pathway <linkTheme>for</linkTheme> IL-1 <clueLoc>in a number of responsive cell types</clueLoc>.</clue>
+</event>
+<event CL="L2" KT="Analysis" id="E10" uncertainty="probable">
+<type class="Regulation"/>
+<theme idref="E9"/>
+<cause idref="T15"/>
+<clue>This inhibitor did not affect protein kinase C-mediated gene transcription, <clueKT><clueCL>suggesting</clueCL></clueKT> that cyclic AMP-dependent protein kinases are <clueType>involved</clueType> <linkTheme>in</linkTheme> the signal transduction pathway for IL-1 in a number of responsive cell types.</clue>
+</event>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>

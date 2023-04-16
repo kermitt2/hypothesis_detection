@@ -1,0 +1,14 @@
+T15	Adverse_effect 23 30	induced
+T21	Adverse_effect 458 466	-induced
+T19	Adverse_effect 96 105	developed
+T20	Potential_therapeutic_effect 237 251	administration
+T25	Potential_therapeutic_effect 357 367	normalized
+R1	is_equivalent Arg1:T8 Arg2:T9
+R2	is_equivalent Arg1:T3 Arg2:T4
+R3	is_equivalent Arg1:T8 Arg2:T10
+R4	is_equivalent Arg1:T22 Arg2:T23
+E1	Adverse_effect:T15 has_agent:T1 affects:T2
+E4	Adverse_effect:T21 has_agent:T16 affects:T17
+E2	Adverse_effect:T19 has_subject:T18 affects:T4 affects:T5 has_agent:T8 affects:T6 affects:T7 affects:T22
+E3	Potential_therapeutic_effect:T20 has_agent:T8 affects:T11
+E6	Potential_therapeutic_effect:T25 affects:T26 affects:T12 has_agent:T14

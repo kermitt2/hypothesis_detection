@@ -1,0 +1,159 @@
+<?xml version='1.0'?><!DOCTYPE Annotation PUBLIC "//GENIA//DTD GENIA ANNOTATION EVENT 2.0//EN_Modified" "../ModifiedGENIAtypes/Modified_GENIA_event_20.dtd"><Annotation annotates="http://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&amp;retmode=xml&amp;rettype=medline&amp;id=7665588" created="08/06/2006" creator="Junko Matsuura"><PubmedArticleSet><PubmedArticle><MedlineCitation>
+<PMID>7665588</PMID>
+<Article>
+<ArticleTitle>
+<sentence id="S1"><term id="A1" sem="Protein_molecule">Ubiquitin</term>-mediated processing of <term id="T1" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> <term id="T2" lex="transcriptional_activator_precursor" sem="Protein_family_or_group">transcriptional activator precursor</term> <term id="T3" lex="p105" sem="Protein_molecule">p105</term>.</sentence>
+<event id="E101">
+<type class="Protein_processing"/>
+<theme idref="T3"/>
+<clue>Ubiquitin-mediated <clueType>processing</clueType> <linkTheme>of</linkTheme> NF-kappa B transcriptional activator precursor p105.</clue>
+</event>
+<event id="E102">
+<type class="Positive_regulation"/>
+<theme idref="E101"/>
+<cause idref="A1"/>
+<clue>Ubiquitin-<clueType>mediated</clueType> processing of NF-kappa B transcriptional activator precursor p105.</clue>
+</event>
+<sentence id="S2">Reconstitution of a <term id="T4" lex="cell-free_system" sem="Other">cell-free system</term> and identification of the <term id="T5" lex="ubiquitin-carrier_protein" sem="Protein_family_or_group">ubiquitin-carrier protein</term>, <term id="T6" lex="E2" sem="Protein_molecule">E2</term>, and a novel <term id="T7" lex="ubiquitin-protein_ligase" sem="Protein_family_or_group">ubiquitin-protein ligase</term>, <term id="T8" lex="E3" sem="Protein_molecule">E3</term>, involved in <term id="A2" sem="Other">conjugation</term>.</sentence>
+<event id="E2">
+<type class="Correlation"/>
+<theme idref="T6"/>
+<theme idref="A2"/>
+<clue>Reconstitution of a cell-free system and identification of the ubiquitin-carrier protein, E2, and a novel ubiquitin-protein ligase, E3, <clueType>involved</clueType> <linkTheme>in</linkTheme> conjugation.</clue>
+</event>
+<event id="E3">
+<type class="Correlation"/>
+<theme idref="T8"/>
+<theme idref="A2"/>
+<clue>Reconstitution of a cell-free system and identification of the ubiquitin-carrier protein, E2, and a novel ubiquitin-protein ligase, E3, <clueType>involved</clueType> <linkTheme>in</linkTheme> conjugation.</clue>
+</event>
+</ArticleTitle>
+<Abstract>
+<AbstractText>
+<sentence id="S3">In most cases, the <term id="T9" lex="transcriptional_factor" sem="Protein_family_or_group">transcriptional factor</term> <term id="T10" lex="NF-kappa_B" sem="Protein_molecule">NF-kappa B</term> is a <term id="T11" lex="heterodimer" sem="Protein_complex">heterodimer</term> consisting of two subunits, <term id="T12" lex="p50" sem="Protein_molecule">p50</term> and <term id="T13" lex="p65" sem="Protein_molecule">p65</term>, which are encoded by two distinct genes of the <term id="T14" lex="Rel_family" sem="DNA_family_or_group">Rel family</term>.</sentence>
+<event KT="Fact" id="E4">
+<type class="Binding"/>
+<theme idref="T12"/>
+<theme idref="T13"/>
+<clue>In most cases, the transcriptional factor NF-kappa B is a <clueType>heterodimer</clueType> consisting <linkTheme>of</linkTheme> two subunits, p50 and p65, which are encoded by two distinct genes of the Rel family.</clue>
+</event>
+<sentence id="S4"><term id="T15" lex="p50" sem="Protein_molecule">p50</term> is translated as a precursor of <term id="T16" lex="105_kDa" sem="Protein_molecule">105 kDa</term>.</sentence>
+<event KT="Fact" id="E51">
+<type class="Translation"/>
+<theme idref="T15"/>
+<clue>p50 is <clueType>translated</clueType> as a precursor of 105 kDa.</clue>
+</event>
+<sentence id="S5">The <term id="T17" lex="C-terminal_domain" sem="Protein_domain_or_region">C-terminal domain</term> <term id="A3" sem="Protein_domain_or_region">of</term> the precursor is rapidly degraded, forming the <term id="T18" lex="mature_p50_subunit" sem="Protein_molecule">mature p50 subunit</term> consisted of the <term id="T19" lex="N-terminal_region" sem="Protein_domain_or_region">N-terminal region</term> of the molecule.</sentence>
+<event KT="Fact" id="E6">
+<type class="Protein_catabolism"/>
+<theme idref="T17" idref1="A3" idref2="T3"/>
+<clue>The C-terminal domain of <corefTheme>the precursor</corefTheme> is rapidly <clueType>degraded</clueType>, forming the mature p50 subunit consisted of the N-terminal region of the molecule.</clue>
+</event>
+<event KT="Fact" id="E7">
+<type class="Positive_regulation"/>
+<theme idref="T18"/>
+<cause idref="E6"/>
+<clue>The C-terminal domain of the precursor is rapidly degraded, <clueType>forming</clueType> the mature p50 subunit consisted of the N-terminal region of the molecule.</clue>
+</event>
+<sentence id="S6">The mechanism of generation of <term id="T20" lex="p50" sem="Protein_molecule">p50</term> is not known.</sentence>
+<event KT="Other" id="E8">
+<type class="Gene_expression"/>
+<theme idref="T20"/>
+<clue>The mechanism of <clueType>generation</clueType> <linkTheme>of</linkTheme> p50 is not known.</clue>
+</event>
+<sentence id="S7">It has been suggested that the <term id="T21" lex="ubiquitin-proteasome_system" sem="Other"><term id="T22" lex="ubiquitin" sem="Protein_molecule">ubiquitin</term><term id="T23" lex="proteasome" sem="Protein_complex">-proteasome</term> system</term> is involved in the process; however, the specific <term id="T24" lex="enzyme" sem="Protein_family_or_group">enzymes</term> involved and the mechanism of limited <term id="T25" lex="proteolysis" sem="Other">proteolysis</term>, in which half of the molecule is spared, have been obscure.</sentence>
+<event CL="L2" KT="Analysis" Source="Other" id="E9">
+<type class="Correlation"/>
+<theme idref="E8"/>
+<theme idref="T21"/>
+<clue>It <clueSource>has been</clueSource> <clueKT><clueCL>suggested</clueCL></clueKT> that the ubiquitin-proteasome system is <clueType>involved</clueType> <linkTheme>in</linkTheme> <corefTheme idref1="E8">the process</corefTheme>; however, the specific enzymes involved and the mechanism of limited proteolysis, in which half of the molecule is spared, have been obscure.</clue>
+</event>
+<sentence id="S8">Palombella and colleagues (Palombella, V.J., Rando, O.J., Goldberg, A.L., and Maniatis, T.(1994) Cell 78, 773-785) have shown that <term id="T26" lex="ubiquitin" sem="Protein_molecule">ubiquitin</term> is required for the processing in a <term id="T27" lex="cell-free_system" sem="Other">cell-free system</term> of a truncated, artificially constructed, <term id="T28" lex="60-kDa_precursor" sem="Protein_molecule">60-kDa precursor</term>.</sentence>
+<event KT="Other" id="E52">
+<type class="Artificial_process"/>
+<theme idref="T28"/>
+<clue>Palombella and colleagues (Palombella, V.J., Rando, O.J., Goldberg, A.L., and Maniatis, T.(1994) Cell 78, 773-785) have shown that ubiquitin is required for the processing in a cell-free system of a <clueType>truncated, artificially constructed</clueType>, 60-kDa precursor.</clue>
+</event>
+<event KT="Other" id="E10">
+<type class="Protein_processing"/>
+<theme idref="T28"/>
+<clue>Palombella and colleagues (Palombella, V.J., Rando, O.J., Goldberg, A.L., and Maniatis, T.(1994) Cell 78, 773-785) have shown that ubiquitin is required for the <clueType>processing</clueType> in a cell-free system <linkTheme>of</linkTheme> a truncated, artificially constructed, 60-kDa precursor.</clue>
+</event>
+<event KT="Analysis" Source="Other" id="E11">
+<type class="Positive_regulation"/>
+<theme idref="E10"/>
+<cause idref="T26"/>
+<clue><clueSource>Palombella and colleagues (Palombella, V.J., Rando, O.J., Goldberg, A.L., and Maniatis, T.(1994) Cell 78, 773-785) have</clueSource> <clueKT>shown</clueKT> that ubiquitin is <clueType>required</clueType> <linkTheme>for</linkTheme> the processing <clueLoc>in a cell-free system</clueLoc> of a truncated, artificially constructed, 60-kDa precursor.</clue>
+</event>
+<sentence id="S9">They have also shown that <term id="T29" lex="proteasome_inhibitor" sem="Other"><term id="T30" lex="proteasome" sem="Protein_complex">proteasome</term> inhibitors</term> block the processing both in vitro and in vivo.</sentence>
+<event KT="Analysis" Source="Other" id="E12">
+<type class="Negative_regulation"/>
+<theme idref="E10"/>
+<cause idref="T29"/>
+<clue><clueSource>They have</clueSource> also <clueKT>shown</clueKT> that proteasome inhibitors <clueType>block</clueType> <corefTheme>the processing</corefTheme> both in vitro and in vivo.</clue>
+</event>
+<sentence id="S10">In this study, we demonstrate reconstitution of a <term id="T31" lex="cell-free_processing_system" sem="Other">cell-free processing system</term> and demonstrate directly that: (a) the <term id="T32" lex="ubiquitin-_proteasome_system" sem="Other"><term id="T33" lex="ubiquitin" sem="Protein_molecule">ubiquitin</term><term id="T34" lex="proteasome" sem="Protein_complex">-proteasome</term> system</term> is involved in processing of the intact <term id="T35" lex="p105" sem="Protein_molecule">p105</term> precursor, (b) conjugation of <term id="T36" lex="ubiquitin" sem="Protein_molecule">ubiquitin</term> to the precursor is an essential intermediate step in the processing, (c) the recently discovered novel species of the <term id="T37" lex="ubiquitin-carrier_protein" sem="Protein_family_or_group"><term id="T38" lex="ubiquitin" sem="Protein_molecule">ubiquitin</term>-carrier protein</term>, <term id="T39" lex="E2-F1" sem="Protein_molecule">E2-F1</term>, that is involved in the conjugation and degradation of <term id="T40" lex="p53" sem="Protein_molecule">p53</term>, is also required for the limited processing of the <term id="T41" lex="p105_precursor" sem="Protein_molecule">p105 precursor</term>, and (d) a novel, approximately <term id="T42" lex="320-kDa_specie" sem="Protein_molecule">320-kDa species</term> of <term id="T43" lex="ubiquitin-protein_ligase" sem="Protein_family_or_group"><term id="T44" lex="ubiquitin-protein_ligase" sem="Protein_molecule"><term id="T45" lex="ubiquitin" sem="Protein_molecule">ubiquitin</term>-protein ligase</term></term>, is involved in the process.</sentence>
+<event KT="Other" id="E13">
+<type class="Protein_processing"/>
+<theme idref="T35"/>
+<clue>In this study, we demonstrate reconstitution of a cell-free processing system and demonstrate directly that: (a) the ubiquitin-proteasome system is involved in <clueType>processing</clueType> <linkTheme>of</linkTheme> the intact p105 precursor, (b) conjugation of ubiquitin to the precursor is an essential intermediate step in the processing, (c) the recently discovered novel species of the ubiquitin-carrier protein, E2-F1, that is involved in the conjugation and degradation of p53, is also required for the limited processing of the p105 precursor, and (d) a novel, approximately 320-kDa species of ubiquitin-protein ligase, is involved in the process.</clue>
+</event>
+<event KT="Analysis" id="E14">
+<type class="Correlation"/>
+<theme idref="E13"/>
+<theme idref="T32"/>
+<clue>In this study, we demonstrate reconstitution of a cell-free processing system and <clueKT>demonstrate</clueKT> directly that: (a) the ubiquitin-proteasome system is <clueType>involved</clueType> <linkTheme>in</linkTheme> processing of the intact p105 precursor, (b) conjugation of ubiquitin to the precursor is an essential intermediate step in the processing, (c) the recently discovered novel species of the ubiquitin-carrier protein, E2-F1, that is involved in the conjugation and degradation of p53, is also required for the limited processing of the p105 precursor, and (d) a novel, approximately 320-kDa species of ubiquitin-protein ligase, is involved in the process.</clue>
+</event>
+<event KT="Other" id="E15">
+<type class="Protein_ubiquitination"/>
+<theme idref="T35"/>
+<clue>In this study, we demonstrate reconstitution of a cell-free processing system and demonstrate directly that: (a) the ubiquitin-proteasome system is involved in processing of the intact p105 precursor, (b) <clueType>conjugation of ubiquitin</clueType> <linkTheme>to</linkTheme> <corefTheme>the precursor</corefTheme> is an essential intermediate step in the processing, (c) the recently discovered novel species of the ubiquitin-carrier protein, E2-F1, that is involved in the conjugation and degradation of p53, is also required for the limited processing of the p105 precursor, and (d) a novel, approximately 320-kDa species of ubiquitin-protein ligase, is involved in the process.</clue>
+</event>
+<event KT="Analysis" id="E16">
+<type class="Positive_regulation"/>
+<theme idref="E13"/>
+<cause idref="E15"/>
+<clue>In this study, we demonstrate reconstitution of a cell-free processing system and <clueKT>demonstrate</clueKT> directly that: (a) the ubiquitin-proteasome system is involved in processing of the intact p105 precursor, (b) conjugation of ubiquitin to the precursor is an <clueType>essential</clueType> intermediate step in <corefTheme>the processing</corefTheme>, (c) the recently discovered novel species of the ubiquitin-carrier protein, E2-F1, that is involved in the conjugation and degradation of p53, is also required for the limited processing of the p105 precursor, and (d) a novel, approximately 320-kDa species of ubiquitin-protein ligase, is involved in the process.</clue>
+</event>
+<event KT="Other" id="E53">
+<type class="Binding"/>
+<theme idref="T40"/>
+<clue>In this study, we demonstrate reconstitution of a cell-free processing system and demonstrate directly that: (a) the ubiquitin-proteasome system is involved in processing of the intact p105 precursor, (b) conjugation of ubiquitin to the precursor is an essential intermediate step in the processing, (c) the recently discovered novel species of the ubiquitin-carrier protein, E2-F1, that is involved in the <clueType>conjugation</clueType> and degradation <linkTheme>of</linkTheme> p53, is also required for the limited processing of the p105 precursor, and (d) a novel, approximately 320-kDa species of ubiquitin-protein ligase, is involved in the process.</clue>
+</event>
+<event KT="Other" id="E54">
+<type class="Protein_catabolism"/>
+<theme idref="T40"/>
+<clue>In this study, we demonstrate reconstitution of a cell-free processing system and demonstrate directly that: (a) the ubiquitin-proteasome system is involved in processing of the intact p105 precursor, (b) conjugation of ubiquitin to the precursor is an essential intermediate step in the processing, (c) the recently discovered novel species of the ubiquitin-carrier protein, E2-F1, that is involved in the conjugation and <clueType>degradation</clueType> <linkTheme>of</linkTheme> p53, is also required for the limited processing of the p105 precursor, and (d) a novel, approximately 320-kDa species of ubiquitin-protein ligase, is involved in the process.</clue>
+</event>
+<event KT="Fact" id="E17">
+<type class="Correlation"/>
+<theme idref="T39"/>
+<theme idref="E53"/>
+<clue>In this study, we demonstrate reconstitution of a cell-free processing system and demonstrate directly that: (a) the ubiquitin-proteasome system is involved in processing of the intact p105 precursor, (b) conjugation of ubiquitin to the precursor is an essential intermediate step in the processing, (c) the recently discovered novel species of the ubiquitin-carrier protein, E2-F1, that is <clueType>involved</clueType> <linkTheme>in</linkTheme> the conjugation and degradation of p53, is also required for the limited processing of the p105 precursor, and (d) a novel, approximately 320-kDa species of ubiquitin-protein ligase, is involved in the process.</clue>
+</event>
+<event KT="Fact" id="E18">
+<type class="Correlation"/>
+<theme idref="T39"/>
+<theme idref="E54"/>
+<clue>In this study, we demonstrate reconstitution of a cell-free processing system and demonstrate directly that: (a) the ubiquitin-proteasome system is involved in processing of the intact p105 precursor, (b) conjugation of ubiquitin to the precursor is an essential intermediate step in the processing, (c) the recently discovered novel species of the ubiquitin-carrier protein, E2-F1, that is <clueType>involved</clueType> <linkTheme>in</linkTheme> the conjugation and degradation of p53, is also required for the limited processing of the p105 precursor, and (d) a novel, approximately 320-kDa species of ubiquitin-protein ligase, is involved in the process.</clue>
+</event>
+<event KT="Other" Manner="Low" id="E20">
+<type class="Protein_processing"/>
+<theme idref="T41"/>
+<clue>In this study, we demonstrate reconstitution of a cell-free processing system and demonstrate directly that: (a) the ubiquitin-proteasome system is involved in processing of the intact p105 precursor, (b) conjugation of ubiquitin to the precursor is an essential intermediate step in the processing, (c) the recently discovered novel species of the ubiquitin-carrier protein, E2-F1, that is involved in the conjugation and degradation of p53, is also required for the <clueManner>limited</clueManner> <clueType>processing</clueType> <linkTheme>of</linkTheme> the p105 precursor, and (d) a novel, approximately 320-kDa species of ubiquitin-protein ligase, is involved in the process.</clue>
+</event>
+<event KT="Analysis" id="E21">
+<type class="Positive_regulation"/>
+<theme idref="E20"/>
+<cause idref="T39"/>
+<clue>In this study, we demonstrate reconstitution of a cell-free processing system and <clueKT>demonstrate</clueKT> directly that: (a) the ubiquitin-proteasome system is involved in processing of the intact p105 precursor, (b) conjugation of ubiquitin to the precursor is an essential intermediate step in the processing, (c) the recently discovered novel species of the ubiquitin-carrier protein, E2-F1, that is involved in the conjugation and degradation of p53, is also <clueType>required</clueType> <linkTheme>fo</linkTheme>r the limited processing of the p105 precursor, and (d) a novel, approximately 320-kDa species of ubiquitin-protein ligase, is involved in the process.</clue>
+</event>
+<event KT="Analysis" id="E22">
+<type class="Correlation"/>
+<theme idref="T42"/>
+<theme idref="E13"/>
+<clue>In this study, we demonstrate reconstitution of a cell-free processing system and <clueKT>demonstrate</clueKT> directly that: (a) the ubiquitin-proteasome system is involved in processing of the intact p105 precursor, (b) conjugation of ubiquitin to the precursor is an essential intermediate step in the processing, (c) the recently discovered novel species of the ubiquitin-carrier protein, E2-F1, that is involved in the conjugation and degradation of p53, is also required for the limited processing of the p105 precursor, and (d) a novel, approximately 320-kDa species of ubiquitin-protein ligase, is <clueType>involved</clueType> <linkTheme>in</linkTheme> <corefTheme idref1="E13">the process</corefTheme>.</clue>
+</event>
+<sentence id="S11">This novel enzyme is distinct from <term id="T46" lex="E6-AP" sem="Protein_molecule">E6-AP</term>, the <term id="T47" lex="p53-conjugating_ligase" sem="Protein_molecule"><term id="T48" lex="p53" sem="Protein_molecule">p53</term>-conjugating ligase</term>, and from <term id="T49" lex="E3_alpha" sem="Protein_molecule"><term id="T50" lex="E3" sem="Protein_molecule">E3</term> alpha</term>, the <term id="T51" lex="&quot;N-end_rule&quot;_ligase" sem="Protein_molecule">&quot;N-end rule&quot; ligase</term>.</sentence>
+</AbstractText>
+</Abstract></Article></MedlineCitation></PubmedArticle></PubmedArticleSet></Annotation>
