@@ -16,8 +16,7 @@ For practical experiments, here are a couple of datasets relevant to the questio
 
 - AbstRCT corpus: argumentative annotations (Randomized Controlled Trial Abstracts), annotates "claims" (premises) and "major claims" (concluding statements)
 
-- SciARG: argumentative quality assessment in scientific abstracts, it includes a "motivation-hypothesis" annotation class, for the main hypothesis the authors want to corroborate through the described
-work
+- SciARG: argumentative quality assessment in scientific abstracts, it includes a "motivation-hypothesis" annotation class, for the main hypothesis the authors want to corroborate through the described work
 
 - Meta-knowledge GENIA corpus: the GENIA event corpus with additional annotations relative to assertion and uncertainty on the biomedical statements/events 
 
