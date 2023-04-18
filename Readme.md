@@ -4,6 +4,7 @@ Experiments on hypothesis detection in scientific literature.
 
 * [experimenting with existing relevant datasets](dataset/Readme.md)
 
+* [note on LLM task performance](docs/note_on_llm_task_performance.md)
 
 ## Assemble resources 
 
@@ -14,7 +15,7 @@ virtualenv --system-site-packages -p python3.8 env
 source env/bin/activate
 ```
 
-Install dependencies
+Install dependencies:
 
 ```sh
 pip3 install -r requirements.txt 
