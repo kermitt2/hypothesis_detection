@@ -16,13 +16,13 @@ This dataset is based on a combination of the following ones:
 
 We mapped the classes from these datasets as follow: 
 
-- ART/CoreSC and Multi-CoreSC CRA corpus: conceptualisation zone from the the CoreSC scheme "hypothesis" ("A statement not yet confirmed rather than a factual statement"), ART corpus: 656 sentences out of 34,680, Multi-CoreSC CRA: 152 sentences out of 8,501
+- ART/CoreSC and Multi-CoreSC CRA corpus: conceptualisation zone from the CoreSC scheme "hypothesis" ("A statement not yet confirmed rather than a factual statement"), ART corpus: 656 sentences out of 34,680, Multi-CoreSC CRA: 152 sentences out of 8,501
 
 - SciARG: "motivation_hypothesis" annotation class, for the main hypothesis the authors want to corroborate through the described work
 
 - PHAEDRA corpus: from the "Interpretative attributes" annotations relative the events, "Speculated" event and "Potential_therapeutic_effect" could be considered as "hypothesis". "Potential_therapeutic_effect" is usually a claim that is discussed in the article, for which some new knowledge is reported. 
 
-- Meta-knowledge_GENIA_Corpus: event annotation "Certainty Level" L1 (medium to hugh uncertainty) are hypothetical event, and L2 (some degree of uncertainty or event takes place most but not all of the time) should correspond to hypotheses.
+- Meta-knowledge_GENIA_Corpus: event annotation "Certainty Level" L1 (medium to huge uncertainty) are hypothetical event, and L2 (some degree of uncertainty or event takes place most but not all of the time) might correspond to hypotheses but not systematically, so we decided to exclude these L2 sentences entirely.
 
 TBD: analyze the AbstRCT corpus.
 
@@ -36,10 +36,8 @@ Based on the described mapping and a combination of the datasets, we arrive to t
 | ART/CoreSC             | 656 (1.9%)           | 34024 (98.1%)            | 34680 (100%) |
 | Multi-CoreSC CRA       | 152 (1.8%)           | 8349 (98.2%)             | 8501 (100%)  |
 | SciARG                 | 48 (1.2%)            | 3938 (98.8)              | 3986 (100%)  |
-| PHAEDRA                |                      |                          | 3012 (100%)  |
-|                        |                      |                          |              |
-| Meta-knowledge_GENIA   | 763 (L1) - 2990 (L1+L2)|8609 (L1) - 6382 (L1+L2)| 9372 (100%)  |
-| __aggregated__         |                      |                          |              |
+| PHAEDRA                | -                    | -                        | -            |
+| Meta-knowledge_GENIA   | 442 (5.5%)           | 7559 (94.5%)             | 8501 (100%)  |
+| __aggregated__         | 1298 (2.4%)          | 53870 (97.6%)            | 55168 (100%) |
 
-The results in a significantly unbalanced corpus, with a minority class represented in less than 2% of the sentences.
-
+The results in a significantly unbalanced corpus, with a minority class represented in less than 3% of the sentences.
