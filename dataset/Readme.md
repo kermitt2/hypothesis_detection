@@ -31,13 +31,15 @@ TBD: analyze the AbstRCT corpus.
 Based on the described mapping and a combination of the datasets, we arrive to the following statistics for the "Frankenstein" hypothesis dataset: 
 
 
-| corpus                 | Hypothesis sentences | Non-hypothesis sentences | total        | 
-|---                     |---                   |---                       |---           |
-| ART/CoreSC             | 656 (1.9%)           | 34024 (98.1%)            | 34680 (100%) |
-| Multi-CoreSC CRA       | 152 (1.8%)           | 8349 (98.2%)             | 8501 (100%)  |
-| SciARG                 | 48 (1.2%)            | 3938 (98.8)              | 3986 (100%)  |
-| PHAEDRA                | -                    | -                        | -            |
-| Meta-knowledge_GENIA   | 442 (5.5%)           | 7559 (94.5%)             | 8501 (100%)  |
-| __aggregated__         | 1298 (2.4%)          | 53870 (97.6%)            | 55168 (100%) |
+| corpus               | Level   | Hypothesis sentences | Non-hypothesis sentences | total        | 
+|---                   |---      |---                   |---                       |---           |
+| ART/CoreSC           |full-text| 656 (1.9%)           | 34024 (98.1%)            | 34680 (100%) |
+| Multi-CoreSC CRA     |full-text| 152 (1.8%)           | 8349 (98.2%)             | 8501 (100%)  |
+| SciARG               | abstract| 48 (1.2%)            | 3938 (98.8)              | 3986 (100%)  |
+| PHAEDRA              | abstract| -                    | -                        | -            |
+| Meta-knowledge_GENIA | abstract| 442 (5.5%)           | 7559 (94.5%)             | 8501 (100%)  |
+| __aggregated__       | mixed   | __1298 (2.4%)__      | __53870 (97.6%)__        | __55168 (100%)__ |
 
-The results in a significantly unbalanced corpus, with a minority class represented in less than 3% of the sentences.
+The results in a significantly unbalanced corpus, with a minority class represented in less than 3% of the sentences. 
+
+Note that the inter-annotator agreement with Cohen's Kappa for SciARG for instance is 0.59 (all annotations), which can be interpreted as "moderate" aggreement.
