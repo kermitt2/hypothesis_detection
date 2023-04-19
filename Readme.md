@@ -52,7 +52,7 @@ python3 hypothesis_detection/sentence_classifier.py train --architecture bert --
 For using a LinkBERT base model: 
 
 ```console
-python3 hypothesis_detection/sentence_classifier.py train_eval --architecture bert --transformer michiyasunaga/LinkBERT-base
+python3 hypothesis_detection/sentence_classifier.py train --architecture bert --transformer michiyasunaga/LinkBERT-base
 ```
 
 Replace the model name by `dmis-lab/biobert-v1.1` for instance to use bioBERT pre-trained model, or any other pretrained model available on HuggingFace Hub.
@@ -66,7 +66,20 @@ Use `train_eval` action instead of just `train`, this will be an evaluation on r
 python3 hypothesis_detection/sentence_classifier.py train_eval --architecture bert --transformer allenai/scibert_scivocab_cased
 ```
 
+```
+Evaluation on 5704 instances:
+                   precision        recall       f-score       support
+not_hypothesis        0.9876        0.9929        0.9903          5531
+    hypothesis        0.7273        0.6012        0.6582           173
+```
 
+Here is a basic benchmarking for sentence-level hypothesis prediction with the combined dataset using the three main BERT models pre-trained on scientific contexts. These are direct fine-tuning of the pre-trained models, without usual techniques like over-sampling and training data augmentation to address very unbalanced corpus or ensemble approaches. 
+
+| pre-trained models |  precision   |     recall   |    f-score   |    support |
+|---                 |---           |---           |---           |---         |
+| SciBERT            |  72.73       |   60.12      |   65.82      |   173      |
+| BioBERT 1.1        |  76.34       |   57.80      |   65.79      |   173      |
+| LinkBERT base      |  72.66       |   58.38      |   64.74      |   173      |
 
 
 ## Parsing hypothesis sentence

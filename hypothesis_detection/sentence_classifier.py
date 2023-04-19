@@ -3,6 +3,7 @@ import argparse
 import time
 import numpy as np
 import re
+import random
 
 from delft.utilities.Embeddings import Embeddings
 from delft.utilities.Utilities import split_data_and_labels
@@ -28,7 +29,7 @@ list_classes = ["not_hypothesis", "hypothesis"]
 
 class_weights = {
                     0: 1.,
-                    1: 40.
+                    1: 1.
                 }
 
 def configure(architecture):
@@ -54,10 +55,11 @@ def load_hypothesis_corpus_json(json_path):
     with open(json_path, 'r') as fin:
         units = json.load(fin)
         for unit in units:
+            #if unit["class"] == "hypothesis" or random.uniform(0, 1) < 0.1:
             texts_list.append(unit["text"])
             classes_list.append(unit["class"])
 
-    list_possible_classes = np.unique(classes_list)
+    list_possible_classes = np.asarray(list_classes)
     classes_list_final = normalize_classes(classes_list, list_possible_classes)
 
     texts_list_final = np.asarray(texts_list)
@@ -70,7 +72,7 @@ def train(embeddings_name, fold_count, architecture="gru", transformer=None):
     xtr, y = load_hypothesis_corpus_json("dataset/combined/frankenstein.json")
 
     model_name = 'hypothesis_'+architecture
-    class_weights = None
+    #class_weights = None
 
     batch_size, maxlen, patience, early_stop, max_epoch = configure(architecture)
 
@@ -96,18 +98,16 @@ def train_and_eval(embeddings_name, fold_count, architecture="gru", transformer=
             nb_hypothesis += 1
     nb_not_hypothesis = len(y) - nb_hypothesis
     print("\ttotal:", len(y))
-    print("\thypothesis:", nb_hypothesis)
     print("\tnot hypothesis:", nb_not_hypothesis)
+    print("\thypothesis:", nb_hypothesis)
 
     model_name = 'hypothesis_'+architecture
-    class_weights = None
+    #class_weights = None
 
     # segment train and eval sets
     x_train, y_train, x_test, y_test = split_data_and_labels(xtr, y, 0.9)
 
     batch_size, maxlen, patience, early_stop, max_epoch = configure(architecture)
-
-    print(list_classes)
 
     model = Classifier(model_name, architecture=architecture, list_classes=list_classes, max_epoch=max_epoch, fold_number=fold_count, patience=patience,
         use_roc_auc=True, embeddings_name=embeddings_name, batch_size=batch_size, maxlen=maxlen, early_stop=early_stop,
@@ -126,7 +126,7 @@ def train_and_eval(embeddings_name, fold_count, architecture="gru", transformer=
 # classify a list of texts
 def classify(texts, output_format, embeddings_name=None, architecture="gru", transformer=None):
     # load model
-    model = Classifier('hypothesis_'+architecture, architecture=architecture, list_classes=list_classes, embeddings_name=embeddings_name, transformer_name=transformer)
+    model = Classifier('hypothesis_'+architecture, architecture=architecture, list_classes=list_classes, embeddings_name=embeddings_name, transformer_name=transformer, class_weights=class_weights)
     model.load()
     start_time = time.time()
     result = model.predict(texts, output_format)
@@ -196,8 +196,7 @@ if __name__ == "__main__":
         y_test = train_and_eval(embeddings_name, args.fold_count, architecture=architecture, transformer=transformer)    
 
     if args.action == 'classify':
-        someTexts = ['', 
-            '', 
-            '']
-        result = classify(someTexts, "json", architecture=architecture, embeddings_name=embeddings_name, transformer=transformer)
+        someTexts = ['Transketolase (TKT) is an enzyme that is ubiquitously expressed in all living organisms and has been identified as an important regulator of cancer. Recent studies have shown that the TKT family includes the TKT gene and two TKT-like (TKTL) genes; TKTL1 and TKTL2. TKT and TKTL1 have been reported to be involved in the regulation of multiple cancer-related events, such as cancer cell proliferation, metastasis, invasion, epithelial-mesenchymal transition, chemoradiotherapy resistance, and patient survival and prognosis. Therefore, TKT may be an ideal target for cancer treatment. More importantly, the levels of TKTL1 were detected using EDIM technology for the early detection of some malignancies, and TKTL1 was more sensitive and specific than traditional tumor markers. Detecting TKTL1 levels before and after surgery could be used to evaluate the surgery\'s effect. While targeted TKT suppresses cancer in multiple ways, in some cases, it has detrimental effects on the organism. In this review, we discuss the role of TKT in different tumors and the detailed mechanisms while evaluating its value and limitations in clinical applications. Therefore, this review provides a basis for the clinical application of targeted therapy for TKT in the future, and a strategy for subsequent cancer-related research.']
+        someSentences = text_to_sentences(someTexts[0]).split("\n")
+        result = classify(someSentences, "json", architecture=architecture, embeddings_name=embeddings_name, transformer=transformer)
         print(json.dumps(result, sort_keys=False, indent=4, ensure_ascii=False))

@@ -5,6 +5,7 @@ from lxml import etree
 import re
 import json
 import csv
+from blingfire import text_to_sentences
 
 """
 
@@ -174,7 +175,9 @@ def process_phaedra(output):
                 with open(os.path.join(dirpath,annotation_filename), "r") as the_file:
                     lines = the_file.readlines()
                     for line in lines:
-                        pieces = line.split("\t")
+                        line = line.strip()
+                        #pieces = line.split("\t")
+                        pieces = re.split(" |\t", line)
                         component_id = pieces[0]
                         if pieces[2].isdigit() and pieces[3].isdigit():
                             offsets = [ int(pieces[2]), int(pieces[3]) ]
@@ -186,27 +189,35 @@ def process_phaedra(output):
                 with open(os.path.join(dirpath,annotation_filename), "r") as the_file:
                     lines = the_file.readlines()
                     for line in lines:
+                        line = line.strip()
                         pieces = re.split(" |\t", line)
                         component_id = pieces[0]
-                        if len(pieces) < 4:
-                            #print(line)
-                            continue
-                        if pieces[2].isdigit() and pieces[3].isdigit():
+
+                        if len(pieces)>=4 and pieces[2].isdigit() and pieces[3].isdigit():
                             offsets = [ int(pieces[2]), int(pieces[3]) ]
                             components[component_id] = offsets
+
+                        if pieces[0].startswith("E"):
+                            # if we have an event, we can also index the event by the offset of its main term
+                            sub_component = pieces[1][pieces[1].find(":")+1:]
+                            if sub_component in components:
+                                offset = components[sub_component]
+                                components[pieces[0]] = offsets
 
                 with open(os.path.join(dirpath,annotation_filename), "r") as the_file:
                     lines = the_file.readlines()
                     for line in lines:
+                        line = line.strip()
                         pieces = re.split(" |\t", line)
                         if pieces[1] == "Speculated":
                             if pieces[2] in components:
                                 offset = components[pieces[2]]
                                 local_sentence = get_sentence(full_text, offset)
-                                if local_sentence != None:
+                                if local_sentence != None and len(local_sentence)>0:
                                     unit = {}
-                                    unit["text"] = local_sentence
+                                    unit["text"] = local_sentence.strip(" \t\n")
                                     unit["class"] = "hypothesis"
+                                    nb_hypothesis_sentences += 1
                                     corpus.append(unit)
 
                         '''
@@ -247,7 +258,19 @@ def get_sentence(text, offsets):
     pos = 0
     for sentence in sentences:
         if pos <= offsets[0] and offsets[1] <= pos+len(sentence):
-            return sentence
+            # we might have several sentence by lines actually (e.g. Phaedra), so we can
+            # refine with blingfire
+            someSentences = text_to_sentences(sentence).split("\n")
+            if len(someSentences) == 1:
+                return sentence
+            else:
+                # refine by offset once again
+                subPos = pos
+                for someSentence in someSentences:
+                    if subPos <= offsets[0] and offsets[1] <= subPos+len(someSentence):
+                        return someSentence
+                    else:
+                        subPos += len(someSentence) + 1
         else:
             # +1 because of end of line character
             pos += len(sentence) + 1
@@ -317,7 +340,7 @@ if __name__ == "__main__":
         corpus = process_art(output)
         corpus += process_mk_genia(output)
         corpus += process_art(output, "mcsc_cra")
-        #corpus += process_phaedra(output)
+        corpus += process_phaedra(output)
         corpus += process_sciarg(output)
         # write combined corpus
         with open(os.path.join(output, "frankenstein.json"), "w") as outfile:
