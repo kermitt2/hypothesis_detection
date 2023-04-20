@@ -41,7 +41,7 @@ def configure(architecture):
 
     # default bert model parameters
     if architecture == "bert":
-        batch_size = 32
+        batch_size = 8
         early_stop = False
         max_epoch = 3
         maxlen = 100
@@ -70,6 +70,15 @@ def load_hypothesis_corpus_json(json_path):
 def train(embeddings_name, fold_count, architecture="gru", transformer=None):
     print('loading binary hypothesis dataset...')
     xtr, y = load_hypothesis_corpus_json("dataset/combined/frankenstein.json")
+
+    nb_hypothesis = 0
+    for the_class in y:
+        if the_class[1] == 1.0:
+            nb_hypothesis += 1
+    nb_not_hypothesis = len(y) - nb_hypothesis
+    print("\ttotal:", len(y))
+    print("\tnot hypothesis:", nb_not_hypothesis)
+    print("\thypothesis:", nb_hypothesis)
 
     model_name = 'hypothesis_'+architecture
     #class_weights = None

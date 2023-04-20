@@ -204,6 +204,7 @@ def process_phaedra(output):
                                 offset = components[sub_component]
                                 components[pieces[0]] = offsets
 
+                consumed_sentences = []
                 with open(os.path.join(dirpath,annotation_filename), "r") as the_file:
                     lines = the_file.readlines()
                     for line in lines:
@@ -214,8 +215,12 @@ def process_phaedra(output):
                                 offset = components[pieces[2]]
                                 local_sentence = get_sentence(full_text, offset)
                                 if local_sentence != None and len(local_sentence)>0:
+                                    local_sentence = local_sentence.strip(" \t\n")
+                                    if local_sentence in consumed_sentences:
+                                        continue 
                                     unit = {}
                                     unit["text"] = local_sentence.strip(" \t\n")
+                                    consumed_sentences.append(local_sentence)
                                     unit["class"] = "hypothesis"
                                     nb_hypothesis_sentences += 1
                                     corpus.append(unit)

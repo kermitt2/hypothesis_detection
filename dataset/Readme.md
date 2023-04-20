@@ -20,7 +20,7 @@ We mapped the classes from these datasets as follow:
 
 - SciARG: "motivation_hypothesis" annotation class, for the main hypothesis the authors want to corroborate through the described work
 
-- PHAEDRA corpus: from the "Interpretative attributes" annotations relative the events, "Speculated" event and "Potential_therapeutic_effect" could be considered as "hypothesis". "Potential_therapeutic_effect" is usually a claim that is discussed in the article, for which some new knowledge is reported. 
+- PHAEDRA corpus: from the "Interpretative attributes" annotations relative the events, "Speculated" event and "Potential_therapeutic_effect" could be considered as "hypothesis". "Potential_therapeutic_effect" is usually a claim that is discussed in the article, for which some new knowledge is reported and usually not an "hypothesis". We kept only sentences with a "Speculated" event, and ignore all the other sentences.
 
 - Meta-knowledge_GENIA_Corpus: event annotation "Certainty Level" L1 (medium to huge uncertainty) are hypothetical event, and L2 (some degree of uncertainty or event takes place most but not all of the time) might correspond to hypotheses but not systematically, so we decided to exclude these L2 sentences entirely.
 
@@ -36,10 +36,10 @@ Based on the described mapping and a combination of the datasets, we arrive to t
 | ART/CoreSC           |full-text| 656 (1.9%)           | 34024 (98.1%)            | 34680 (100%) |
 | Multi-CoreSC CRA     |full-text| 152 (1.8%)           | 8349 (98.2%)             | 8501 (100%)  |
 | SciARG               | abstract| 48 (1.2%)            | 3938 (98.8)              | 3986 (100%)  |
-| PHAEDRA              | abstract| -                    | -                        | -            |
+| PHAEDRA              | abstract| 274                  | -                        | 274          |
 | Meta-knowledge_GENIA | abstract| 442 (5.5%)           | 7559 (94.5%)             | 8501 (100%)  |
-| __aggregated__       | mixed   | __1298 (2.4%)__      | __53870 (97.6%)__        | __55168 (100%)__ |
+| __aggregated__       | mixed   | __1572 (2.8%)__      | __53870 (97.2%)__        | __55442 (100%)__ |
 
-The results in a significantly unbalanced corpus, with a minority class represented in less than 3% of the sentences. 
+The results in a significantly unbalanced corpus, with a minority class represented in around 3% of the sentences. 
 
 Note that the inter-annotator agreement with Cohen's Kappa for SciARG for instance is 0.59 (all annotations), which can be interpreted as "moderate" aggreement.
