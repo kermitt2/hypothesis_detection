@@ -4,7 +4,6 @@ Experiments on hypothesis detection in scientific literature.
 
 * [experimenting with existing relevant datasets](dataset/Readme.md)
 
-* [note on LLM task performance](docs/note_on_llm_task_performance.md)
 
 ## Assemble resources 
 
@@ -36,10 +35,9 @@ Below some statics on the individual and combined datasets, see [here](dataset/R
 | ART/CoreSC           |full-text| 656 (1.9%)           | 34024 (98.1%)            | 34680 (100%) |
 | Multi-CoreSC CRA     |full-text| 152 (1.8%)           | 8349 (98.2%)             | 8501 (100%)  |
 | SciARG               | abstract| 48 (1.2%)            | 3938 (98.8)              | 3986 (100%)  |
-| PHAEDRA              | abstract| -                    | -                        | -            |
+| PHAEDRA              | abstract| 274                  | -                        | 274          |
 | Meta-knowledge_GENIA | abstract| 442 (5.5%)           | 7559 (94.5%)             | 8501 (100%)  |
-| __aggregated__       | mixed   | __1298 (2.4%)__      | __53870 (97.6%)__        | __55168 (100%)__ |
-
+| __aggregated__       | mixed   | __1572 (2.8%)__      | __53870 (97.2%)__        | __55442 (100%)__ |
 
 ## Train a classifier
 
@@ -82,19 +80,4 @@ Here is a basic benchmarking for sentence-level hypothesis prediction with the c
 | LinkBERT base      |  72.66       |   58.38      |   64.74      |   173      |
 
 
-## Parsing hypothesis sentence
-
-The goal is to parse sentences classified as introducing an hypothesis into a more formal description of the hypothesis, e.g. breaking down the hypothesis into main relation, event(s) and entities. 
-
-### Calling entity-fishing
-
-entity-fishing can do a good job in a very fast manner for identifying and disambiguating all entities against Wikidata, which enrich entities with external links and classes to standard biomedical ontologies and databases. 
-
-
-### Event and relation extraction
-
-...
-
-
-
-
+**Note:** No evaluation done with LLM at this stage, considering average result on focused task performance, see [note on LLM task performance](docs/note_on_llm_task_performance.md)
