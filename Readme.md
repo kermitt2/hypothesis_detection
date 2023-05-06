@@ -80,4 +80,4 @@ Here is a basic benchmarking for sentence-level hypothesis prediction with the c
 | LinkBERT base      |  72.66       |   58.38      |   64.74      |   173      |
 
 
-**Note:** No evaluation done with LLM at this stage, considering average result on focused task performance, see [note on LLM task performance](docs/note_on_llm_task_performance.md)
+**Note:** No evaluation done with LLM and few shot learning at this stage, considering the low average results on focused task performance as compared to fine-tuned BERT-style SOTA models, see [note on LLM task performance](docs/note_on_llm_task_performance.md)

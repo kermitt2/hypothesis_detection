@@ -2,7 +2,7 @@
 
 Few papers are really addressing hypothesis recognition in scientific articles. Most research are rather interested in hypothesis generation (for example drug repurposing hypotheses) or "questions/problems" seen as hypothesis for textual entailment (find the passage in an article that entails a question view as an hypothesis). 
 
-For the research really on hypothesis recognition, there are different definitions for what is an hypothesis (as you pointed out when we discussed). Some work consider hypothesis as the main goal/problem of a research paper "the problem statement" - so usually a single one in the abstract. It seems harder to find approaches on hypotheses at lower grained within research papers, but clearly there could be multiple hypothesis expressed in a paper at different stage of the work description - for example 5 to 10 seems quite common. 
+For the research really on hypothesis recognition, there are different definitions for what is an hypothesis. Some work consider hypothesis as the main goal/problem of a research paper "the problem statement" - so usually a single one in the abstract. It seems harder to find approaches on hypotheses at lower grained within research papers, but clearly there could be multiple hypothesis expressed in a paper at different stage of the work description - for example 5 to 10 seems quite common. 
 
 Some work associate "hypothesis" as part of the "argument" recognition, trying to annotate scientific articles to identify its the flow of arguments. Hypotheses here are one of the discursive function involved in scientific argumentation.
 
